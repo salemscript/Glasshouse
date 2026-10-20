@@ -31,7 +31,7 @@
     root.setAttribute('data-theme', theme);
     root.style.colorScheme = theme;
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute('content', theme === 'dark' ? '#111922' : '#f36a5d');
+    if (meta) meta.setAttribute('content', theme === 'dark' ? '#200e16' : '#ff674f');
     paintControls();
   }
   apply(preference || systemTheme());

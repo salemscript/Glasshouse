@@ -29,36 +29,36 @@
 .theme-toggle svg { display: block; width: 18px; height: 18px; flex-shrink: 0; }
 .theme-toggle [data-theme-icon] { color: inherit; }
 .theme-toggle:focus-visible { outline: 3px solid #168497; outline-offset: 3px; }
-.theme-toggle[aria-checked="true"] { border-color: #ff9587; color: #ffad9f; }
+.theme-toggle[aria-checked="true"] { border-color: #ff674f; color: #ff8f7c; }
 .header-right { display: flex; align-items: center; gap: 16px; }
 .shell > header { height: auto; min-height: 58px; gap: 16px; }
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --bg: #111922;
-  --ink: #edf1f5;
+  --bg: #200e16;
+  --ink: #fff2ee;
   /* Native MathML has its own foreground; it does not inherit the surrounding equation's color. */
-  --solution-math-ink: #f4f6fa;
-  --muted: #acb8c5;
-  --line: #394959;
-  --green: #ff9587;
-  --lime: #ff9587;
+  --solution-math-ink: #fff2ee;
+  --muted: #d7bfc7;
+  --line: #684553;
+  --green: #ff674f;
+  --lime: #ff674f;
   --orange: #edb47e;
-  --pink: #ff9587;
-  --aqua: #7bcdd1;
-  --ice: #243b49;
-  --white: #1a2633;
-  --calx-paper: #1a2633;
-  --calx-soft: #202f3e;
-  --calx-coral: #ff9587;
-  --calx-coral-paper: #382d33;
-  --calx-readable: #bec8d3;
-  --mode-control-bg: #1a2633;
-  --mode-control-ink: #edf1f5;
-  --mode-control-border: #718194;
-  --mode-control-hover: #293b4c;
-  --mode-border: #718194;
-  --mode-hover: #293b4c;
+  --pink: #ff674f;
+  --aqua: #37dfe9;
+  --ice: #153c45;
+  --white: #351825;
+  --calx-paper: #351825;
+  --calx-soft: #412331;
+  --calx-coral: #ff674f;
+  --calx-coral-paper: #49252b;
+  --calx-readable: #dec6ce;
+  --mode-control-bg: #351825;
+  --mode-control-ink: #fff2ee;
+  --mode-control-border: #967581;
+  --mode-control-hover: #4a2b3b;
+  --mode-border: #967581;
+  --mode-hover: #4a2b3b;
   --mode-info: #203943;
   --mode-good: #193c35;
   --mode-good-ink: #9be2bc;
@@ -82,12 +82,12 @@ html[data-theme="dark"] input[type="checkbox"],
 html[data-theme="dark"] input[type="radio"] { accent-color: var(--calx-coral); }
 html[data-theme="dark"] :is(.bank-list, .reader-section-list, .question-source-art,
   .secl-canvas, .htv-stage, .mpv-stage, .formula-math-scroll, .calculator-panel) {
-  scrollbar-color: #718194 transparent;
+  scrollbar-color: #967581 transparent;
 }
 
 /* Navigation, home, subject cards, reading and reference pages. */
 html[data-theme="dark"] :is(.sidebar, header) { background: var(--bg); }
-html[data-theme="dark"] :is(.announcement, footer) { background: #18232e; }
+html[data-theme="dark"] :is(.announcement, footer) { background: #29121d; }
 html[data-theme="dark"] :is(.nav, .nav.active, .crumb b, .brand,
   .course-bottom b, .metric-icon, .subject-practice-summary strong,
   .question-summary b, .formula-search-wrap label) { color: var(--ink); }
@@ -126,30 +126,30 @@ html[data-theme="dark"] :is(.bank-browser, .question-layout .bank-browser,
   border-color: var(--line);
 }
 html[data-theme="dark"] .fresh-hero {
-  background: linear-gradient(110deg, #37303a 0%, #37303a 52%, #1d2c3b 52%, #1d2c3b 100%);
+  background: linear-gradient(110deg, #49252b 0%, #49252b 52%, #351825 52%, #351825 100%);
   color: var(--ink);
 }
 html[data-theme="dark"] .fresh-hero .eyebrow { color: var(--calx-coral); }
 html[data-theme="dark"] .fresh-hero p { color: #d0d6de; }
 html[data-theme="dark"] .hero-equation {
   background: var(--calx-paper);
-  border-color: #607082;
-  box-shadow: 5px 5px 0 #101923;
+  border-color: #967581;
+  box-shadow: 5px 5px 0 #180b11;
   color: var(--ink);
 }
 html[data-theme="dark"] .hero-equation-bottom { border-color: var(--line); }
 html[data-theme="dark"] .hero-equation-bottom button {
   background: var(--calx-coral);
   border-color: var(--calx-coral);
-  color: #181f29;
+  color: #200e16;
 }
 html[data-theme="dark"] .course { border-color: var(--line); }
 html[data-theme="dark"] .course:hover { border-color: #8294a6; }
-html[data-theme="dark"] .course .top { background: #423440; }
-html[data-theme="dark"] .course:nth-child(3n+2) .top { background: #24414d; }
-html[data-theme="dark"] .course:nth-child(3n) .top { background: #433b34; }
+html[data-theme="dark"] .course .top { background: #60303a; }
+html[data-theme="dark"] .course:nth-child(3n+2) .top { background: #12434b; }
+html[data-theme="dark"] .course:nth-child(3n) .top { background: #5b382d; }
 html[data-theme="dark"] :is(.course-icon, .course .level) { color: #f0e3df; }
-html[data-theme="dark"] .banner { background: #382d33; color: var(--ink); border-color: #74534e; }
+html[data-theme="dark"] .banner { background: #49252b; color: var(--ink); border-color: #74534e; }
 html[data-theme="dark"] :is(.pill, .badge, .topic) { background: var(--calx-soft); color: var(--calx-readable); }
 html[data-theme="dark"] .bar { background: #334657; }
 html[data-theme="dark"] .bar span { background: var(--calx-coral); }
@@ -158,7 +158,7 @@ html[data-theme="dark"] :is(.organic-source-mark, .organic-exercise-work .exerci
   .exercise-notes textarea, .reader-notes textarea, .reader-toolbar input,
   .answer-studio input, .answer-studio textarea, .search, select,
   .formula-heading .search, .study-chapter-label select) {
-  background: #15212d;
+  background: #29121d;
   border-color: var(--mode-border);
   color: var(--ink);
 }
@@ -176,7 +176,7 @@ html[data-theme="dark"] .formula-chapter {
   color: #ffc1b6;
 }
 html[data-theme="dark"] :is(.formula-expression, .formula-notation-source) {
-  background: #15232f;
+  background: #29121d;
   border-color: var(--line);
   color: #d1eeeb;
 }
@@ -192,9 +192,9 @@ html[data-theme="dark"] :is(.formula-card-footer .text-button,
 html[data-theme="dark"] .btn {
   background: var(--calx-coral);
   border-color: var(--calx-coral);
-  color: #17212b;
+  color: #200e16;
 }
-html[data-theme="dark"] .btn:hover { background: #ffb0a3; border-color: #ffb0a3; color: #17212b; }
+html[data-theme="dark"] .btn:hover { background: #ff8f7c; border-color: #ff8f7c; color: #200e16; }
 html[data-theme="dark"] :is(.btn.light, .btn.ghost) {
   background: transparent;
   color: var(--ink);
@@ -205,8 +205,8 @@ html[data-theme="dark"] :is(.btn.light, .btn.ghost):hover {
   color: var(--ink);
   border-color: #a1afbc;
 }
-html[data-theme="dark"] .btn.lime { background: var(--calx-coral); color: #17212b; }
-html[data-theme="dark"] .skip-link { background: #ffad9f; color: #17212b; }
+html[data-theme="dark"] .btn.lime { background: var(--calx-coral); color: #200e16; }
+html[data-theme="dark"] .skip-link { background: #ff8f7c; color: #200e16; }
 html[data-theme="dark"] :is(.segmented, .learning-tabs) { background: var(--calx-paper); border-color: var(--line); }
 html[data-theme="dark"] :is(.segmented button, .learning-tabs button) { color: var(--calx-readable); }
 html[data-theme="dark"] .segmented span { color: #acbac8; }
@@ -237,13 +237,13 @@ html[data-theme="dark"] :is(.question-response-field, .question-response-field:o
 }
 html[data-theme="dark"] :is(.input-wrap, .question-response .input-wrap:not(.answer-confirmed),
   .hint-blank input, .hint-choice select) {
-  background: #15212d;
+  background: #29121d;
   border-color: var(--mode-border);
   color: var(--ink);
 }
 html[data-theme="dark"] .input-wrap input { background: transparent; color: var(--ink); }
 html[data-theme="dark"] :is(.question-choice-card, .concept-option, .option) {
-  background: #1b2a37;
+  background: #351d29;
   color: var(--ink);
   border-color: var(--mode-border);
 }
@@ -257,7 +257,7 @@ html[data-theme="dark"] :is(.question-choice-card.selected, .concept-option.chos
   border-color: var(--calx-coral);
   box-shadow: 0 0 0 1px var(--calx-coral);
 }
-html[data-theme="dark"] .question-choice-card.selected .question-choice-letter { background: var(--calx-coral); color: #17212b; }
+html[data-theme="dark"] .question-choice-card.selected .question-choice-letter { background: var(--calx-coral); color: #200e16; }
 html[data-theme="dark"] :is(.input-wrap.answer-confirmed, .hint-blank input[readonly],
   .input-wrap input.answer-correct, .hint-blank input.answer-correct, textarea.answer-correct,
   .concept-option.right, .question-choice-group.answer-correct .question-choice-card.selected) {
@@ -273,12 +273,12 @@ html[data-theme="dark"] .answer-success-mark { border-color: var(--calx-paper); 
 html[data-theme="dark"] :is(.input-wrap input.answer-error, .hint-blank input.answer-error,
   .concept-option.wrong, .question-choice-group.answer-error .question-choice-card.selected) {
   background: var(--mode-bad);
-  border-color: #ff9587;
+  border-color: #ff674f;
   color: #ffd0c9;
-  box-shadow: inset 0 0 0 1px #ff9587;
+  box-shadow: inset 0 0 0 1px #ff674f;
 }
 html[data-theme="dark"] .question-choice-group.answer-error .question-choice-card.selected .question-choice-letter {
-  background: #ffad9f; color: #42231f;
+  background: #ff8f7c; color: #42231f;
 }
 html[data-theme="dark"] :is(.feedback, .hint-results) { background: var(--mode-info); color: #d7ecec; border-color: #5c929b; }
 html[data-theme="dark"] .feedback.success { background: var(--mode-good); color: #c7f4dc; border-color: #6fcea1; }
@@ -373,7 +373,7 @@ html[data-theme="dark"] .pv3d-view-aligned { fill: none; }
 html[data-theme="dark"] .pv3d-unit,html[data-theme="dark"] .pv3d-point { fill: var(--calx-readable); }
 html[data-theme="dark"] .pv3d-text text { fill: var(--calx-readable); }
 html[data-theme="dark"] .pv3d-label { stroke: var(--calx-paper); }
-html[data-theme="dark"] .ptp-svg { --ptp-ink: #bec8d3 !important; --ptp-grid: #3b4b5b !important; --ptp-axis: #a0b2c2 !important; --ptp-curve: #ff9587 !important; --ptp-arrow: #7bcdd1 !important; --ptp-paper: #1a2633 !important; }
+html[data-theme="dark"] .ptp-svg { --ptp-ink: #dec6ce !important; --ptp-grid: #3b4b5b !important; --ptp-axis: #a0b2c2 !important; --ptp-curve: #ff674f !important; --ptp-arrow: #37dfe9 !important; --ptp-paper: #351825 !important; }
 html[data-theme="dark"] .ptp-svg .ptp-ink[fill]:not([fill="none"]) { fill: var(--ptp-ink); }
 html[data-theme="dark"] .ptp-svg .ptp-grid[stroke]:not([stroke="none"]) { stroke: var(--ptp-grid); }
 html[data-theme="dark"] .ptp-svg .ptp-axis[stroke]:not([stroke="none"]) { stroke: var(--ptp-axis); }
@@ -382,7 +382,7 @@ html[data-theme="dark"] .ptp-svg .ptp-curve[fill]:not([fill="none"]) { fill: var
 html[data-theme="dark"] .ptp-svg .ptp-arrow[stroke]:not([stroke="none"]) { stroke: var(--ptp-arrow); }
 html[data-theme="dark"] .ptp-svg .ptp-arrow[fill]:not([fill="none"]) { fill: var(--ptp-arrow); }
 html[data-theme="dark"] .ptp-svg .ptp-paper[stroke]:not([stroke="none"]) { stroke: var(--ptp-paper); }
-html[data-theme="dark"] .chapter23-plot-formula { fill: #ffad9f; }
+html[data-theme="dark"] .chapter23-plot-formula { fill: #ff8f7c; }
 
 /* Simulation controls and teaching panels share the workspace palette. */
 html[data-theme="dark"] :is(.section-labs, .subject-labs, .lab-problem-context,
@@ -437,7 +437,7 @@ html[data-theme="dark"] :is(.secl-reference a, .secl-explanation summary,
 html[data-theme="dark"] :is(.secl-selectors select, .secl-example-picker select,
   .secl-answer input[type="number"], .secl-choice, .sl-select select,
   .help-teaching-visual .htv-select select) {
-  background: #15212d;
+  background: #29121d;
   border-color: var(--mode-border);
   color: var(--ink);
 }
@@ -463,7 +463,7 @@ html[data-theme="dark"] :is(.secl-play button:first-child,
   .mechanics-practice-visual button[data-mpv-action="play"]) {
   background: var(--calx-coral);
   border-color: var(--calx-coral);
-  color: #17212b;
+  color: #200e16;
 }
 html[data-theme="dark"] .sl-tabs button[aria-selected="true"] {
   background: var(--calx-coral-paper);
@@ -478,16 +478,16 @@ html[data-theme="dark"] :is(.learning-side .btn[aria-pressed="true"], .hv-sides 
   border-color: var(--aqua);
 }
 html[data-theme="dark"] .diagram-input {
-  --diagram-ink: #edf1f5;
-  --diagram-pink: #ffad9f;
+  --diagram-ink: #fff2ee;
+  --diagram-pink: #ff8f7c;
   background: var(--calx-paper);
   border-color: var(--line);
 }
 html[data-theme="dark"] :is(.diagram-input button, .diagram-input input,
-  .diagram-input select) { background: #15212d; border-color: var(--mode-border); color: var(--ink); }
+  .diagram-input select) { background: #29121d; border-color: var(--mode-border); color: var(--ink); }
 html[data-theme="dark"] .diagram-input button:hover { background: var(--mode-hover); }
 html[data-theme="dark"] .diagram-input button[aria-pressed="true"] {
-  background: var(--calx-coral); color: #17212b; border-color: var(--calx-coral); box-shadow: none;
+  background: var(--calx-coral); color: #200e16; border-color: var(--calx-coral); box-shadow: none;
 }
 html[data-theme="dark"] :is(.diagram-toolbar, .diagram-point-fields fieldset,
   .diagram-element-list li, .diagram-scroll) { border-color: var(--line); }
@@ -514,7 +514,7 @@ html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
 html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
   .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
   svg:not(.native-exercise-svg) :is([fill="#263c3e"], [fill="#243b3d"],
-  [fill="#24464b"], [fill="#294b4e"], [fill="#181818"], [fill="#1d332f"]) { fill: #edf1f5; }
+  [fill="#24464b"], [fill="#294b4e"], [fill="#181818"], [fill="#1d332f"]) { fill: #fff2ee; }
 html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
   .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
   svg:not(.native-exercise-svg) :is([stroke="#263c3e"], [stroke="#243b3d"],
@@ -637,7 +637,7 @@ html[data-theme="dark"] .question-help-source-answer .question-source-answer-lab
 html[data-theme="dark"] :is(.calculator-trigger, .calculator-mini, .calculator-panel) {
   background: var(--calx-paper);
   color: var(--ink);
-  border-color: #718194;
+  border-color: #967581;
 }
 html[data-theme="dark"] :is(.calculator-mini, .calculator-panel) {
   border-left-color: var(--calx-coral);
@@ -655,24 +655,24 @@ html[data-theme="dark"] :is(.calc-eyebrow, .calc-mode-note, .calc-display > labe
 html[data-theme="dark"] :is(.calc-close, .calc-minimize, .calc-angle, .calc-inverse) {
   background: var(--calx-soft);
   color: var(--ink);
-  border-color: #718194;
+  border-color: #967581;
 }
 html[data-theme="dark"] :is(.calc-angle button, .calc-inverse) { color: var(--calx-readable); }
 html[data-theme="dark"] :is(.calc-angle button[aria-pressed="true"], .calc-inverse[aria-pressed="true"]) {
   background: #38505e;
   color: #d1eeeb;
 }
-html[data-theme="dark"] .calc-display { background: #111e29; border-color: #718194; }
+html[data-theme="dark"] .calc-display { background: #29121d; border-color: #967581; }
 html[data-theme="dark"] .calc-display input { color: var(--ink); }
 html[data-theme="dark"] .calc-result-row output { color: #d1eeeb; }
 html[data-theme="dark"] :is(.calc-result-row, .calc-history, .calc-history-item, .calc-footnote) { border-color: var(--line); }
 html[data-theme="dark"] .calc-message { color: var(--mode-bad-ink); }
-html[data-theme="dark"] .calc-key { background: #283b4d; color: #e6eef5; border-color: #6a7e91; }
-html[data-theme="dark"] .calc-key-number { background: #20303f; color: #fff; }
-html[data-theme="dark"] .calc-key:hover { background: #3b5366; border-color: #a1b5c6; }
-html[data-theme="dark"] .calc-key:active { background: #466478; }
-html[data-theme="dark"] .calc-key-equals { background: var(--calx-coral); color: #17212b; border-color: var(--calx-coral); }
-html[data-theme="dark"] .calc-key-equals:hover { background: #ffb0a3; border-color: #ffb0a3; }
+html[data-theme="dark"] .calc-key { background: #472635; color: #e6eef5; border-color: #6a7e91; }
+html[data-theme="dark"] .calc-key-number { background: #351825; color: #fff; }
+html[data-theme="dark"] .calc-key:hover { background: #613847; border-color: #a1b5c6; }
+html[data-theme="dark"] .calc-key:active { background: #754353; }
+html[data-theme="dark"] .calc-key-equals { background: var(--calx-coral); color: #200e16; border-color: var(--calx-coral); }
+html[data-theme="dark"] .calc-key-equals:hover { background: #ff8f7c; border-color: #ff8f7c; }
 
 @media (max-width: 760px) {
   .shell > header { min-height: 60px; padding-block: 6px; gap: 10px; }
@@ -680,8 +680,8 @@ html[data-theme="dark"] .calc-key-equals:hover { background: #ffb0a3; border-col
   .header-right :is(.local-note, .avatar) { display: none; }
   .crumb { min-width: 0; line-height: 1.6; }
   .theme-toggle { padding: 9px 10px; font-size: 11px; }
-  html[data-theme="dark"] .fresh-hero { background: #37303a; }
-  html[data-theme="dark"] .fresh-hero .hero-visual { background: #1d2c3b; }
+  html[data-theme="dark"] .fresh-hero { background: #49252b; }
+  html[data-theme="dark"] .fresh-hero .hero-visual { background: #351825; }
 }
 @media (max-width: 380px) {
   .theme-toggle-label { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
@@ -697,10 +697,10 @@ html[data-theme="dark"] .pfc-svg .pfc-grid[stroke] { stroke: #3d4d4b; }
 html[data-theme="dark"] .pfc-svg .pfc-axis[stroke] { stroke: #8baba4; }
 html[data-theme="dark"] .pfc-svg .pfc-paper[fill] { fill: #182323; }
 html[data-theme="dark"] .pfc-svg .pfc-region[fill] { fill: #243332; }
-html[data-theme="dark"] .pfc-svg .pfc-first[stroke] { stroke: #ff9587; }
-html[data-theme="dark"] .pfc-svg .pfc-first[fill]:not([fill="none"]) { fill: #ff9587; }
-html[data-theme="dark"] .pfc-svg .pfc-second[stroke] { stroke: #7bcdd1; }
-html[data-theme="dark"] .pfc-svg .pfc-second[fill]:not([fill="none"]) { fill: #7bcdd1; }
+html[data-theme="dark"] .pfc-svg .pfc-first[stroke] { stroke: #ff674f; }
+html[data-theme="dark"] .pfc-svg .pfc-first[fill]:not([fill="none"]) { fill: #ff674f; }
+html[data-theme="dark"] .pfc-svg .pfc-second[stroke] { stroke: #37dfe9; }
+html[data-theme="dark"] .pfc-svg .pfc-second[fill]:not([fill="none"]) { fill: #37dfe9; }
 html[data-theme="dark"] .pfc-svg .pfc-third[stroke] { stroke: #cfb9ef; }
 html[data-theme="dark"] .pfc-svg .pfc-third[fill]:not([fill="none"]) { fill: #cfb9ef; }
 
@@ -709,15 +709,146 @@ html[data-theme="dark"] .pwp-svg .pwp-ink[fill] { fill: #e5eae4; }
 html[data-theme="dark"] .pwp-svg .pwp-grid[stroke] { stroke: #3d4d4b; }
 html[data-theme="dark"] .pwp-svg .pwp-axis[stroke] { stroke: #8baba4; }
 html[data-theme="dark"] .pwp-svg .pwp-paper[fill] { fill: #182323; }
-html[data-theme="dark"] .pwp-svg .pwp-first[stroke] { stroke: #ff9587; }
-html[data-theme="dark"] .pwp-svg .pwp-first[fill]:not([fill="none"]) { fill: #ff9587; }
-html[data-theme="dark"] .pwp-svg .pwp-second[stroke] { stroke: #7bcdd1; }
-html[data-theme="dark"] .pwp-svg .pwp-second[fill]:not([fill="none"]) { fill: #7bcdd1; }
+html[data-theme="dark"] .pwp-svg .pwp-first[stroke] { stroke: #ff674f; }
+html[data-theme="dark"] .pwp-svg .pwp-first[fill]:not([fill="none"]) { fill: #ff674f; }
+html[data-theme="dark"] .pwp-svg .pwp-second[stroke] { stroke: #37dfe9; }
+html[data-theme="dark"] .pwp-svg .pwp-second[fill]:not([fill="none"]) { fill: #37dfe9; }
 html[data-theme="dark"] .pwp-svg .pwp-third[stroke] { stroke: #cfb9ef; }
 html[data-theme="dark"] .pwp-svg .pwp-third[fill]:not([fill="none"]) { fill: #cfb9ef; }
 html[data-theme="dark"] .pwp-svg .pwp-open-first[fill] { fill: #182323; }
-html[data-theme="dark"] .pwp-svg .pwp-open-first[stroke] { stroke: #ff9587; }
+html[data-theme="dark"] .pwp-svg .pwp-open-first[stroke] { stroke: #ff674f; }
 html[data-theme="dark"] .pwp-svg .pwp-open-second[fill] { fill: #182323; }
-html[data-theme="dark"] .pwp-svg .pwp-open-second[stroke] { stroke: #7bcdd1; }
+html[data-theme="dark"] .pwp-svg .pwp-open-second[stroke] { stroke: #37dfe9; }
 html[data-theme="dark"] .pwp-svg .pwp-open-third[fill] { fill: #182323; }
 html[data-theme="dark"] .pwp-svg .pwp-open-third[stroke] { stroke: #cfb9ef; }
+
+/* Hot Coral: the owner's selected palette. Keep color roles shared across routes.
+   Diagram series and success/error states retain their distinct meanings. */
+:root, html[data-theme="light"] {
+  --bg: #fff3ee;
+  --ink: #38181a;
+  --muted: #775660;
+  --line: #d9b8b4;
+  --white: #fffcfa;
+  --pink: #ff674f;
+  --lime: #ff674f;
+  --orange: #e96737;
+  --aqua: #006f86;
+  --ice: #e5f5f6;
+  --calx-paper: #fffcfa;
+  --calx-soft: #ffe7df;
+  --calx-coral: #cf3b24;
+  --calx-coral-paper: #ffe2d9;
+  --calx-readable: #775660;
+  --mode-control-bg: #fffcfa;
+  --mode-control-ink: #38181a;
+  --mode-control-border: #a1787d;
+  --mode-control-hover: #ffe2d9;
+  --gh-bright: #ff674f;
+  --gh-on-bright: #200e16;
+  --gh-on-coral: #ffffff;
+  --gh-hero: #ff8f7c;
+  --gh-hero-ink: #38181a;
+  --gh-cool-surface: #d7f0f2;
+  --gh-cool-ink: #164b59;
+  --gh-hover: #ffe2d9;
+}
+html[data-theme="dark"] {
+  --bg: #200e16;
+  --ink: #fff2ee;
+  --muted: #d7bfc7;
+  --white: #351825;
+  --calx-paper: #351825;
+  --calx-soft: #412331;
+  --calx-coral: #ff674f;
+  --calx-coral-paper: #49252b;
+  --calx-readable: #dec6ce;
+  --aqua: #37dfe9;
+  --gh-bright: #ff674f;
+  --gh-on-bright: #200e16;
+  --gh-on-coral: #200e16;
+  --gh-hero: #49252b;
+  --gh-hero-ink: #fff2ee;
+  --gh-cool-surface: #153c45;
+  --gh-cool-ink: #baf5f3;
+  --gh-hover: #4a2b3b;
+}
+html[data-theme] body { background: var(--bg); color: var(--ink); }
+html[data-theme] ::selection { background: var(--gh-bright); color: var(--gh-on-bright); }
+html[data-theme] :is(button, a, input, select, textarea, summary):focus-visible,
+html[data-theme] .input-wrap:focus-within, html[data-theme] .concept-option:focus-within {
+  outline-color: var(--aqua);
+}
+html[data-theme] :is(input[type="range"],input[type="checkbox"],input[type="radio"]) { accent-color: var(--calx-coral); }
+html[data-theme] :is(.sidebar,.shell > header) { background: var(--bg); }
+html[data-theme] .announcement { background: var(--calx-soft); color: var(--ink); }
+html[data-theme] .announcement span { color: var(--calx-readable); }
+html[data-theme] :is(.brand-dot,.nav.active,.text-button,.question-lab-link,.lab-return-link) { color: var(--calx-coral); }
+html[data-theme] .nav.active { border-bottom-color: var(--calx-coral); }
+html[data-theme] .fresh-hero { background: linear-gradient(110deg,var(--gh-hero) 0 52%,var(--calx-soft) 52% 100%); color: var(--gh-hero-ink); }
+html[data-theme] .fresh-hero .hero-copy { color: var(--gh-hero-ink); }
+html[data-theme] .fresh-hero p { color: var(--gh-hero-ink); }
+html[data-theme] .fresh-hero .eyebrow { color: var(--gh-hero-ink); }
+html[data-theme] .hero-equation { background: var(--calx-paper); color: var(--ink); border-color: var(--line); box-shadow: 5px 5px 0 var(--calx-coral-paper); }
+html[data-theme] .hero-equation-bottom { border-color: var(--line); }
+html[data-theme] .hero-equation-bottom button { background: var(--gh-bright); color: var(--gh-on-bright); border-color: var(--calx-coral); }
+html[data-theme] .hero-sticker { background: var(--aqua); color: var(--calx-paper); border-color: var(--ink); }
+html[data-theme] .course { border-color: var(--line); }
+html[data-theme] .course .top { background: var(--gh-bright); }
+html[data-theme] .course:nth-child(3n+2) .top { background: var(--gh-cool-surface); }
+html[data-theme] .course:nth-child(3n) .top { background: var(--calx-coral-paper); }
+html[data-theme] :is(.course-icon,.course .level) { color: var(--gh-on-bright); }
+html[data-theme] .course:nth-child(3n+2) :is(.course-icon,.level) { color: var(--gh-cool-ink); }
+html[data-theme] .course:nth-child(3n) :is(.course-icon,.level) { color: var(--ink); }
+html[data-theme] :is(.course p,.course-bottom,.page-top p) { color: var(--calx-readable); }
+html[data-theme] .course-bottom b { color: var(--ink); }
+html[data-theme] :is(.learning-path,.related-interactive) { background: var(--gh-cool-surface); color: var(--gh-cool-ink); }
+html[data-theme] .learning-path strong { color: var(--gh-cool-ink); }
+html[data-theme] :is(.banner,.subject-practice-summary) { background: var(--calx-coral-paper); color: var(--ink); border-color: var(--line); }
+html[data-theme] :is(.panel,.bank-work,.exercise-work,.understanding-card,.formula-card,.reader-notes) { background: var(--calx-paper); color: var(--ink); border-color: var(--line); }
+html[data-theme] .bank-work { border-top-color: var(--gh-bright); }
+html[data-theme] :is(.bank-browser,.learning-tabs,.segmented,.hint-stack) { background: var(--calx-soft); border-color: var(--line); }
+html[data-theme] :is(.bank-item,.bank-item-number,.question-summary b,.formula-card-header h3) { color: var(--ink); }
+html[data-theme] .bank-item:hover { background: var(--gh-hover); }
+html[data-theme] :is(.bank-item.selected,.bank-item.selected:hover,.question-layout .bank-item.selected,.learning-tabs button.selected,.segmented button.selected) { background: var(--calx-coral-paper); color: var(--ink); border-color: var(--calx-coral); }
+html[data-theme] :is(.btn,.btn.lime) { background: var(--gh-bright); color: var(--gh-on-bright); border-color: var(--calx-coral); }
+html[data-theme] :is(.btn,.btn.lime):hover { background: #ff8f7c; color: var(--gh-on-bright); border-color: var(--calx-coral); }
+html[data-theme] :is(.btn.light,.btn.ghost) { background: transparent; color: var(--ink); border-color: var(--mode-control-border); }
+html[data-theme] :is(.btn.light,.btn.ghost):hover { background: var(--gh-hover); color: var(--ink); border-color: var(--mode-control-border); }
+html[data-theme] :is(.theme-toggle,.theme-toggle[aria-checked="true"]) { color: var(--ink); border-color: var(--mode-control-border); }
+html[data-theme] .theme-toggle:hover { background: var(--mode-control-hover); }
+html[data-theme] .question-choice-card.selected { background: var(--calx-coral-paper); border-color: var(--calx-coral); }
+html[data-theme] .concept-option.chosen:not(.right):not(.wrong) { background: var(--calx-coral-paper); border-color: var(--calx-coral); }
+html[data-theme] .question-choice-card.selected .question-choice-letter { background: var(--calx-coral); color: var(--gh-on-coral); }
+html[data-theme] :is(.answer-final-card,.answer-calculation,.help-solution-calculation) { background: var(--calx-coral-paper); border-left-color: var(--calx-coral); }
+html[data-theme] :is(.calc-key-equals,.secl-play button:first-child,.secl-answer button:first-of-type,.sl-playback button:first-child) { background: var(--calx-coral); border-color: var(--calx-coral); color: var(--gh-on-coral); }
+html[data-theme] :is(.calculator-trigger,.calculator-mini,.calculator-panel) { background: var(--calx-paper); color: var(--ink); }
+html[data-theme] :is(.calculator-mini,.calculator-panel) { border-left-color: var(--calx-coral); border-top-color: var(--calx-coral); }
+html[data-theme] .calculus-series-lab {
+  --cs-paper: var(--calx-paper); --cs-soft: var(--calx-soft);
+  --cs-ink: var(--ink); --cs-muted: var(--calx-readable); --cs-line: var(--line);
+  --cs-coral: var(--calx-coral); --cs-aqua: var(--aqua); --cs-tint: var(--gh-cool-surface);
+}
+html[data-theme] .physics-apparatus-lab {
+  --gp-paper: var(--calx-paper); --gp-ink: var(--ink); --gp-muted: var(--calx-readable);
+  --gp-line: var(--line); --gp-coral: var(--calx-coral); --gp-aqua: var(--aqua);
+  --gp-surface: var(--gh-cool-surface); --gp-wire: var(--ink);
+}
+html[data-theme] .rc-circuit-lab {
+  --rc-paper: var(--calx-paper); --rc-soft: var(--calx-soft); --rc-ink: var(--ink);
+  --rc-muted: var(--calx-readable); --rc-line: var(--line); --rc-coral: var(--calx-coral);
+  --rc-accent: var(--gh-bright); --rc-aqua: var(--aqua);
+}
+html[data-theme] .electric-flux-lab {
+  --ef-paper: var(--calx-paper); --ef-ink: var(--ink); --ef-muted: var(--calx-readable);
+  --ef-line: var(--line); --ef-coral: var(--calx-coral); --ef-aqua: var(--aqua);
+}
+/* Filled controls need the ink paired with coral, rather than the scene paper. */
+html[data-theme] :is(.ef-controls button[aria-pressed="true"],.cs-controls button[aria-pressed="true"]) { color: var(--gh-on-coral); }
+html[data-theme] footer { background: var(--calx-soft); color: var(--ink); border-top: 1px solid var(--line); }
+html[data-theme] footer :is(span,.openstax-credit) { color: var(--calx-readable); }
+html[data-theme] footer .text-button { color: var(--calx-coral); }
+@media (max-width: 760px) {
+  html[data-theme] .fresh-hero { background: var(--gh-hero); }
+  html[data-theme] .fresh-hero .hero-visual { background: var(--calx-soft); }
+}
