@@ -9,9 +9,13 @@ The tab-separated files contain exercise number, final answer, working and
 reasoning/conditions. In the review file, C/T/E distinguish the three separately
 numbered subsections. `build.py` maps these records to the exact question IDs in
 the exported book and updates only their answer-library entries. It also adds
-26 binary checks for the true/false and one-to-one classifications. Existing
-numeric graders remain intact; a worked solution does not imply that every
-drawing, proof or written explanation has an automatic grader.
+objective checks for all 368 exercises: 678 labeled fields (564 multiple-choice
+and 114 numeric). `checks/*.tsv` stores explicitly authored response contracts;
+`objective_checks.py` validates and compiles them with stable option ordering.
+Multipart questions have separate answer fields. Graph estimates use stated
+absolute tolerances. Multiple-choice adaptations check a conclusion or method;
+they do not automatically assess a freehand drawing or written proof. Such
+exercises do not earn full completion credit from recognition alone.
 
 Source exercise pages were visually inspected in the existing user-supplied
 Stewart 8th edition Chapter 1 PDF. Approximate graph readings are labeled as
@@ -37,7 +41,7 @@ the website itself requires no new dependencies. It checks symbolic identities,
 raw-table regressions, unit conversions, real inverse branches, interval cases,
 and recursive compositions. Runtime checks execute the real help, answer and
 part-selection modules for every exact Chapter 1 ID, including all three help
-tiers and answer checking. They are DOM-independent checks, not a claim of
+tiers, 678 correct answers, 1,216 wrong-answer cases, and blank/invalid inputs. They are DOM-independent checks, not a claim of
 browser screenshot or assistive-technology testing.
 
 The new **View worked solution** button enters the existing solution view and

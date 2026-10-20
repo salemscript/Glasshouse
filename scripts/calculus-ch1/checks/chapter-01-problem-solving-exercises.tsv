@@ -1,0 +1,26 @@
+1	h(c)=4√(c²−16)/c cm, c>4.	h(c)=4c/√(c²−16) cm, c>4.	h(c)=√(c²−16) cm, c>4.
+2	c(p)=p²/[2(p+12)] cm, p≥24(1+√2).	c(p)=p²/[2(p−12)] cm, with every p>12 allowed.	c(p)=p/2−12 cm, with no geometric perimeter bound.
+3	x=−7/3 or x=9.	x=3 or x=9, retaining an invalid interval candidate.	x=7/3 or x=−9.
+4	No real solutions: the difference of the two absolute values is at most 2.	Every x≥5 is a solution.	Every x≤−5 is a solution.
+5	Even graph: zeros ±1,±3; f(0)=3; local peaks at (±2,1); upward tails.	Even graph: zeros ±1,±3; retain the negative portions between those zeros.	Odd graph with f(0)=0 and only positive zero x=1.
+6	−3 for abs(x)≤1; 2x²−5 for 1≤abs(x)≤2; 3 for abs(x)≥2.	3 for abs(x)≤1; 5−2x² for 1≤abs(x)≤2; −3 outside.	2x²−5 for every real x, with no constant pieces.
+7	Closed third quadrant together with ray y=x≥0.	Only the line y=x on all ℝ.	Only the first quadrant, including every point with x,y≥0.
+8	Same-sign quadrants: abs(x−y)≤1; opposite-sign quadrants: abs(x)≤1 and abs(y)≤1, all boundaries included.	The strip abs(x−y)≤1 in all four quadrants with no other region.	Only the square [−1,1]×[−1,1], with no unbounded diagonal portions.
+9/a	1/x for x≤−1 and 0<x≤1; x for −1≤x<0 and x≥1; exclude zero.	x for every x>0 and 1/x for every x<0.	The smaller of x and 1/x on each interval.
+9/b	Use sin x from π/4+2kπ to 5π/4+2kπ and cos x elsewhere; range [−√2/2,1].	The graph is abs(sin x) with range [0,1].	Use the lower of sin x and cos x, with range [−1,√2/2].
+9/c	2+abs(x) for abs(x)≤2; x² for abs(x)≥2; range [2,∞).	x² for abs(x)≤2; 2+abs(x) for abs(x)≥2.	Always choose 2+x, ignoring 2−x and x².
+10/a	Ray x=1,y≤1/2 together with ray y=1/2,x≤1.	The full boundary of rectangle [−1,1]×[−1/2,1/2].	Every point satisfying x=1 or y=1/2, with no directional bounds.
+10/b	x≤1,y≤1/2 and at least one of x≥−1 or y≥−1/2.	Only the rectangle −1≤x≤1 and −1/2≤y≤1/2.	The two strict inequalities x>1 and y>1/2.
+10/c	Segment x=1,−1≤y≤1, plus rays y=±1,x≤1.	The complete parabola x=y².	The full horizontal lines y=±1 with no x restriction.
+11	#5		0.000001
+12/a	Odd: the positive log arguments at x and −x are reciprocals.	Even: the square root contains x², so the whole logarithm is unchanged.	Neither: a logarithm can never be odd.
+12/b	f⁻¹(y)=(e^y−e^(−y))/2, all real y.	f⁻¹(y)=(e^y+e^(−y))/2, all real y.	f⁻¹(y)=ln(y+√(y²+1)), without reversing the original rule.
+13	[−1,1−√3)∪(1+√3,3].	[−1,1−√3]∪[1+√3,3], including log-zero endpoints.	(1−√3,1+√3), where the logarithm argument is negative.
+14	If log₂5=p/q>0 were rational, 2^p=5^q would equate an even and an odd integer.	It is irrational merely because its decimal expansion is not shown.	It is rational because 2 and 5 are integers.
+15	#40	mi/h	0.000001
+16	False: f(u)=u² and g=h=1 give 4 on the left and 2 on the right.	True: function composition distributes over every sum for every outer function.	True: it follows because g+h=h+g.
+17	7ⁿ−1=6(1+7+⋯+7^(n−1)), an integer multiple of 6.	Checking n=1 and n=2 alone proves every positive integer case.	7ⁿ−1 is divisible by 7 and hence by 6.
+18	The induction step adds 2n+1 to n², obtaining (n+1)²; the base case is 1=1.	The next odd number after 2n−1 is 2n, giving n²+2n=(n+1)².	The sum is n(n+1) because each odd number can be replaced by the next even number.
+19	f_n(x)=x^(2^(n+1)); each composition squares and doubles the exponent.	f_n(x)=x^(2^n), including n=0.	f_n(x)=x^(2n+2), since every exponent increases by 2.
+20/a	((n+1)−nx)/((n+2)−(n+1)x), excluding all x=(j+2)/(j+1) for j=0,…,n; substitution verifies the induction step.	The same rational formula with only its final denominator zero excluded and all inherited holes filled.	((n+2)−(n+1)x)/((n+1)−nx), with numerator and denominator reversed.
+20/b	Poles approach x=1 from the right; horizontal asymptotes approach y=1 from below; inherited holes remain and fixed admissible inputs tend to 1.	Every iterate has the same pole x=2 and has no inherited holes.	The iterates approach zero at every fixed admissible input, including x=1.

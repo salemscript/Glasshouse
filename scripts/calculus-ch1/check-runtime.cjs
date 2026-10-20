@@ -11,12 +11,31 @@ for(const file of ['study-data.js','concept-choice-data.js','answer-checker.js',
 (async()=>{
  await context.AnswerLibrary.load('calculus');
  await context.HelpTutor.load();
- let rendered=0,modes=0;
+ let rendered=0,modes=0,fieldsChecked=0,wrongChecks=0;
  for(const original of questions.filter(q=>q.chapter===1)){
   const q=context.AnswerLibrary.validateGuidance(context.ConceptChoices.adapt(context.AnswerLibrary.enrich(context.HelpTutor.enrich(original))));
   assert(q.answerAudit.fullWorkedSolution,q.id);
   assert(q.steps.length===3,q.id+' summary');
   assert.equal(q.solutionStatus,'reviewed-specific-solution');
+  const fields=context.ResponseParts.fields(q);
+  assert.equal(fields.length,q.answerAudit.objectiveFieldCount,q.id+' field contract');
+  for(const f of fields){
+   assert(f.rule&&['numeric','choice'].includes(f.rule.type),q.id+' unavailable field '+f.label);
+   const rule=context.ConceptChoices.responseRule(f.rule,q,f.graderIndex)||f.rule;
+   assert.equal(context.AnswerChecker.check(rule,String(rule.answer)).status,'correct',q.id+' correct '+f.label);
+   assert.equal(context.AnswerChecker.check(rule,'').status,'invalid',q.id+' empty '+f.label);
+   if(rule.type==='numeric'){
+    const delta=Math.max(1,Math.abs(rule.answer)*.1,(rule.tolerance||0)*10);
+    assert.equal(context.AnswerChecker.check(rule,String(rule.answer+delta)).status,'incorrect',q.id+' wrong numeric');
+    assert.equal(context.AnswerChecker.check(rule,'not a number').status,'invalid',q.id+' invalid numeric');
+    wrongChecks++;
+   }else{
+    for(const option of rule.options.filter(o=>o!==rule.answer)){
+     assert.equal(context.AnswerChecker.check(rule,option).status,'incorrect',q.id+' wrong option '+option);wrongChecks++;
+    }
+   }
+   fieldsChecked++;
+  }
   const count=Math.max(1,context.HelpTutor.modes(q).length);
   for(let i=0;i<count;i++){
    const p=context.HintJourney.plan(q,i);
@@ -35,7 +54,8 @@ for(const file of ['study-data.js','concept-choice-data.js','answer-checker.js',
   rendered++;
  }
  assert.equal(rendered,368);
+ assert.equal(fieldsChecked,678);
  const ui=fs.readFileSync(path.join(site,'textbook-practice.js'),'utf8');
  assert(ui.includes('id="question-worked-solution"'));assert(ui.includes("hintCount=2;guidance().view='solution';help();"));
- console.log(`PASS: ${rendered} exact exercises, ${modes} help modes, final-answer availability, all three help tiers, binary graders, unchanged outside chapters and direct solution entry point.`);
+ console.log(`PASS: ${rendered} checkable exercises, ${fieldsChecked} numeric/choice fields, ${wrongChecks} wrong-answer cases, ${modes} help modes, blank/invalid inputs, worked solutions and unchanged outside chapters.`);
 })().catch(e=>{console.error(e);process.exit(1)});

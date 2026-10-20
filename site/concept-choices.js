@@ -81,7 +81,7 @@ window.ConceptChoices=(()=>{
  function adapt(q){
   // A strict study edition already supplies reviewed objective fields and matching
   // guidance. Legacy conceptual wording must not replace those answer contracts.
-  const reviewed=q.chapterStudyVerified||q.answerAudit?.chapterStudyVerified;
+  const reviewed=q.chapterStudyVerified||q.answerAudit?.chapterStudyVerified||q.answerAudit?.objectiveChecksVerified;
   const reviewedFields=q.grader?.type==='parts'?q.grader.parts:q.grader?[q.grader]:[];
   if(reviewed&&reviewedFields.length&&reviewedFields.every(r=>['numeric','choice'].includes(r.type)))return q;
   const entries=window.CONCEPT_CHOICE_DATA?.[q.id]||[];let all=q.grader?.type==='parts'?(q.grader.parts||[]).map(r=>({...r})):q.grader?[{...q.grader}]:[];

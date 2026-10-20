@@ -1,0 +1,110 @@
+1/a	Distinct allowed inputs have distinct outputs; f(a)=f(b) implies a=b.	Every input has an output, even if outputs repeat.	Every output must equal its input.
+1/b	Use the horizontal-line test: at most one intersection at each height.	Use only the vertical-line test to prove one-to-one behavior.	Require the curve to pass through the origin.
+2/a	Inverse domain B, range A; f⁻¹(y)=x iff f(x)=y.	Inverse domain A, range B; f⁻¹(y)=1/f(y).	Inverse domain A∩B for every one-to-one function.
+2/b	Solve y=f(x) for x, then rename input/output variables and keep the range restriction.	Replace f(x) by 1/f(x) without solving for the input.	Negate every output to obtain the inverse.
+2/c	Reflect the graph in y=x.	Reflect the graph in the x-axis.	Reflect the graph in the y-axis.
+15/a	#6		0.000001
+15/b	#3		0.000001
+16/a	#1		0.000001
+16/b	#2		0.000001
+17	#0		0.000001
+18/a	Strict increase makes the graph one-to-one.	The curve is one-to-one only because it crosses the y-axis.	A turning point with repeated heights proves it one-to-one.
+18/b	Inverse domain [−1,3], range [−3,3].	Inverse domain [−3,3], range [−1,3].	Inverse domain ℝ, range ℝ.
+18/c	#0		0.000001
+18/d	#-1.7	graph-estimated original input	0.3
+19	F=(9/5)C+32 for C≥−273.15°C; it converts Celsius to Fahrenheit.	F=(5/9)(C−32), converting Celsius to Fahrenheit.	F=(9/5)C+32 for all negative temperatures with no physical lower bound.
+20	v=c√(1−(m0/m)²), m≥m0; the nonnegative physical speed.	v=−c√(1−(m0/m)²) as the physical speed.	v=c√(1−(m/m0)²), m≥m0.
+21	((y−1)²−2)/3, y≥1.	((y−1)²−2)/3, all y∈ℝ without restriction.	((y+1)²−2)/3, y≥1.
+22	(3y+1)/(4−2y), y≠2.	(3y−1)/(4−2y), y≠2.	(3y+1)/(4−2y), y≠−3/2 instead of y≠2.
+23	(1+ln y)/2, y>0.	1+ln(y/2), y>0.	(1−ln y)/2, y>0.
+24	(1+√(1+4y))/2, y≥−1/4.	(1−√(1+4y))/2, y≥−1/4.	Both signs together form the single-valued inverse on the restricted branch.
+25	e^y−3, all real y.	e^(y−3), all real y.	ln(y−3), y>3.
+26	ln((1+y)/(1−y)), −1<y<1.	ln((1−y)/(1+y)), −1<y<1.	ln((1+y)/(1−y)), all real y.
+27	(y²−3)/4 for y≥0; the reflected parabola branch.	(y²−3)/4 for all real y; the entire parabola.	√(4y+3), the unchanged original function.
+28	−ln(y−1), y>1, reflected about y=x.	ln(y−1), y>1.	−ln(y+1), y>−1.
+29	Reflected vertices (−2,−3),(−1,−1),(2,0),(3,1).	Negated heights of the original vertices, reflecting in the x-axis.	Original vertices unchanged because all increasing functions are self-inverse.
+30	Reflect in y=x; the original zero x=2 becomes inverse point (0,2).	Reflect in the x-axis; the original zero stays (2,0).	Take reciprocal heights; the original zero becomes a vertical asymptote.
+31/a	f⁻¹(x)=√(1−x²), 0≤x≤1; f is self-inverse.	f⁻¹(x)=−√(1−x²), −1≤x≤0.	f⁻¹(x)=1/√(1−x²), 0≤x<1.
+31/b	First-quadrant unit quarter-circle, symmetric across y=x.	The entire unit circle, giving two outputs for middle inputs.	The upper semicircle from x=−1 to 1 as the restricted original graph.
+32/a	g⁻¹(x)=∛(1−x³), all real x; g is self-inverse.	g⁻¹(x)=1/∛(1−x³), x≠1.	g⁻¹(x)=∛(1+x³), all real x.
+32/b	The decreasing curve x³+y³=1 is unchanged when x and y are swapped.	The graph is a circle because it is self-inverse.	The graph fails the horizontal-line test because it decreases.
+33/a	log_b x=y iff b^y=x, with b>0 and b≠1.	log_b x=y iff y^b=x.	log_b x means x divided by b.
+33/b	(0,∞).	ℝ.	[0,∞).
+33/c	ℝ.	(0,∞).	[0,∞).
+33/d	For b>1: increasing through (1,0), vertical asymptote x=0.	For b>1: decreasing through (0,1), horizontal asymptote y=0.	For b>1: increasing through (0,0), domain ℝ.
+34/a	ln x is logarithm to base e.	ln x is logarithm to base 10.	ln x is the reciprocal 1/x.
+34/b	The common logarithm is base 10.	The common logarithm is base e.	The common logarithm has variable base x.
+34/c	ln x and e^x reflect across y=x; (1,0) and (0,1) correspond.	ln x and e^x reflect across the x-axis.	ln x=e^x for every positive x.
+35/a	#5		0.000001
+35/b	#0.3333333333333333		0.000001
+36/a	#-3		0.000001
+36/b	#-2		0.000001
+37/a	#2		0.000001
+37/b	#0.6666666666666666		0.000001
+38/a	#0.5		0.000001
+38/b	#1.09861228866811		0.000001
+39	ln250.	ln35.	ln50.
+40	ln(bc²/d³), keeping b,c,d positive.	ln(bc²d³), keeping b,c,d positive.	ln((b+2c)/(3d)), keeping b,c,d positive.
+41	ln(√x/(x+1)), x>0.	ln(√x/(x+2)), x>0.	ln(x/(x+1)), x>0.
+42/a	#1.43067655807339		0.00000051
+42/b	#3.68014385924638		0.00000051
+43	All increase through (1,0); for x>1, smaller base gives larger logarithm.	All increase through (0,1); larger base gives the larger logarithm for every x.	All decrease because logarithms grow more slowly than powers.
+44	ln and e^x are inverse reflections; log₁₀ and 10^x are another inverse pair.	ln and 10^x are inverse reflections; log₁₀ and e^x are another inverse pair.	All four share domain ℝ and range (0,∞).
+45	#1084587.7010101	mi	20
+46	The final crossing is around 3.43×10¹⁵; x^0.1 exceeds ln x afterward.	The final crossing is at x≈35.8, with no exponentiation back from ln x.	ln x permanently exceeds every positive power of x.
+47/a	Domain x>−5, asymptote x=−5, zero x=−4.	Domain x>5, asymptote x=5, zero x=6.	Domain x>0, asymptote x=0, zero x=−4.
+47/b	Decreasing −ln x, domain x>0, zero x=1, asymptote x=0.	Increasing ln x, domain x>0, zero x=1.	Decreasing −ln x on all real x, including zero.
+48/a	ln(−x) is ln x reflected across the y-axis; domain x<0, zero −1.	ln(−x) is ln x reflected across the x-axis; domain x>0.	ln(−x)=−ln x for positive x.
+48/b	ln(abs(x)) is even, excludes zero, has zeros ±1 and two downward infinite limits at zero.	ln(abs(x)) is odd and defined at zero.	ln(abs(x)) is nonnegative for every nonzero x.
+49/a	Domain (0,∞), range ℝ.	Domain (−2,∞), range ℝ.	Domain (0,∞), range [2,∞).
+49/b	#0.135335283236613		0.000001
+49/c	Increasing ln curve shifted up 2; asymptote x=0; passes (1,2).	Increasing ln curve shifted left 2; asymptote x=−2.	Decreasing ln curve reflected across the x-axis and shifted down 2.
+50/a	Domain (1,∞), range ℝ.	Domain (0,∞), range [−1,∞).	Domain (−1,∞), range ℝ.
+50/b	#3.71828182845905		0.000001
+50/c	ln curve shifted right 1 and down 1, with asymptote x=1.	ln curve shifted left 1 and down 1, with asymptote x=−1.	ln curve shifted right 1 and up 1, with zero x=1+1/e.
+51/a	#1.30206013269299		0.000001
+51/b	#5.79635203297688		0.000001
+52/a	x=±√(1+e³).	x=√(1+e³) only; the negative solution is forbidden.	x=±√(e³−1).
+52/b	x=0 or ln2.	x=1 or 2.	x=ln3 only.
+53/a	#6.58496250072116		0.000001
+53/b	x=(1+√(1+4e))/2, the root above 1.	x=(1−√(1+4e))/2, the negative root.	Both quadratic roots are valid logarithm inputs.
+54/a	#15.1542622414793		0.00001
+54/b	x=ln C/(a−b) if C>0; no real solution for C≤0.	x=ln C/(a+b) if C>0.	x=C/(a−b) for every real C.
+55/a	0<x<1.	x<1, including nonpositive x.	x>1.
+55/b	x>ln5.	x<ln5.	x>5.
+56/a	1/3<x<(1+ln2)/3.	0<x<ln2/3.	x>(1+ln2)/3.
+56/b	x>1/e.	0<x<1/e.	x>e.
+57/a	(ln3,∞).	[ln3,∞).	ℝ.
+57/b	f⁻¹(y)=ln(e^y+3), inverse domain ℝ.	f⁻¹(y)=ln(e^y−3), inverse domain (ln3,∞).	f⁻¹(y)=e^y+3, inverse domain ℝ.
+58/a	#300	value of both expressions	0.000001
+58/b	A limited calculator may overflow at e³⁰⁰ before taking ln; the exact value is still 300.	The exact inverse identities fail whenever the exponent exceeds 100.	Every current calculator must overflow at e³⁰⁰.
+59	For y≥0, let A=y²/2−10/27. The real inverse is ∛(A+√(A²+8/729))+∛(A−√(A²+8/729))−1/3; the other two cubic roots are complex.	For all real y without a range restriction, use the same real radical formula as the inverse.	Use the same real radical formula plus 1/3 instead of minus 1/3, for y≥0.
+60/a	For y≥0, g⁻¹(y)=√z: z=(2cos(arccos(27y/2−1)/3)−1)/3 up to y=4/27, and z=(2cosh(arcosh(27y/2−1)/3)−1)/3 above it.	For y≥0, g⁻¹(y)=−√z with those same two formulas for z.	For every y≥0, use only z=(2cos(arccos(27y/2−1)/3)−1)/3 as a real formula with no range switch.
+60/b	Restrict g to x≥0 and reflect its increasing graph across y=x; inverse inputs and outputs stay nonnegative.	Use the full even graph on all ℝ, whose reflection is still a single-valued inverse.	Reflect g about the x-axis to obtain its inverse.
+61/a	t(n)=3ln(n/100)/ln2 hours for n≥100, the elapsed time to population n.	t(n)=ln(n/100)/(3ln2) hours for n≥100.	t(n)=100·2^(n/3) hours.
+61/b	#26.897352854	h	0.05
+62/a	t(Q)=−a ln(1−Q/Q0), 0≤Q<Q0.	t(Q)=a ln(1−Q/Q0), 0≤Q<Q0.	t(Q)=−a ln(Q/Q0), 0<Q≤Q0.
+62/b	#4.60517018599	s	0.01
+63/a	#3.141592653589793	rad	0.000001
+63/b	#0.523598775598299	rad	0.000001
+64/a	#1.047197551196598	rad	0.000001
+64/b	#-0.785398163397448	rad	0.000001
+65/a	#0.785398163397448	rad	0.000001
+65/b	#1.570796326794897	rad	0.000001
+66/a	#-0.785398163397448	rad	0.000001
+66/b	#0.523598775598299	rad	0.000001
+67/a	#2.617993877991494	rad	0.000001
+67/b	#1.047197551196598	rad	0.000001
+68/a	#-0.785398163397448	rad	0.000001
+68/b	#0.70414201183432		0.000001
+69	√(1−x²), −1≤x≤1; cosine is nonnegative on arcsin's principal range.	−√(1−x²), −1≤x≤1.	√(1+x²), all real x.
+70	x/√(1−x²), −1<x<1.	x/√(1+x²), all real x.	√(1−x²)/x, excluding zero.
+71	x/√(1+x²), all real x.	x/√(1−x²), −1<x<1.	√(1+x²)/x, excluding zero.
+72	2x√(1−x²), −1≤x≤1.	2x(1−x²), −1≤x≤1.	2√(1−x²), −1≤x≤1.
+73	Restricted sine and arcsine reflect across y=x; domains/ranges [−π/2,π/2] and [−1,1] swap.	Unrestricted sine has a single-valued inverse on all ℝ.	Sine and arcsine reflect across the x-axis, with the same domain.
+74	Restricted tangent and arctangent reflect across y=x; vertical and horizontal asymptotes swap.	Unrestricted tangent has an inverse with period π.	Arctangent attains its horizontal limits ±π/2 at finite inputs.
+75	Domain [−2/3,0], range [−π/2,π/2].	Domain [−1,1], range [−2/3,0].	Domain [−2/3,0], range [0,π].
+76/a	y=x only on [−1,1], the domain of sin(arcsin x).	y=x on every real input.	y=abs(x) on [−1,1].
+76/b	A triangular wave: (−1)^k(x−kπ) on [kπ−π/2,kπ+π/2].	y=x for every real input because the inverse always cancels sine.	A nonnegative wave abs(sin x), range [0,1].
+77/a	g⁻¹(y)=f⁻¹(y)−c.	g⁻¹(y)=f⁻¹(y−c).	g⁻¹(y)=f⁻¹(y)+c.
+77/b	h⁻¹(y)=f⁻¹(y)/c.	h⁻¹(y)=c f⁻¹(y).	h⁻¹(y)=f⁻¹(y/c).
