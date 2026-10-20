@@ -1,0 +1,45 @@
+.statics-equilibrium-lab{--steq-ink:#263c3e;--steq-muted:#59655f;--steq-coral:#bb4337;--steq-aqua:#267b80;--steq-line:#b6bcb3;--steq-paper:#fffdf5;--steq-soft:#f3f1e8;color:var(--steq-ink);font:14px/1.7 Inter,Arial,sans-serif}
+html[data-theme="dark"] .statics-equilibrium-lab{--steq-ink:#f4f6fa;--steq-muted:#bdcad5;--steq-coral:#ffad9f;--steq-aqua:#7bcdd1;--steq-line:#667888;--steq-paper:#1a2633;--steq-soft:#202f3e}
+.statics-equilibrium-lab h3{font-size:clamp(22px,3vw,30px);line-height:1.25;letter-spacing:-.035em;margin:10px 0;color:var(--steq-ink)}
+.statics-equilibrium-lab header p{max-width:780px;color:var(--steq-muted)}
+.steq-scene{overflow-x:auto;border:1px solid var(--steq-line);border-radius:12px;background:var(--steq-paper)}
+.steq-svg{display:block;width:100%;min-width:690px;height:auto;font-family:Inter,Arial,sans-serif;color:var(--steq-ink)}
+.steq-svg text{fill:var(--steq-ink);font-size:17px}
+.steq-line,.steq-dimension{stroke:var(--steq-line);stroke-width:1.4;fill:none}
+.steq-beam{stroke:var(--steq-ink);stroke-width:7;stroke-linecap:round}
+.steq-support{stroke:var(--steq-ink);stroke-width:2;fill:var(--steq-soft)}
+.steq-force,.steq-intensity{pointer-events:none;stroke:var(--steq-coral);stroke-width:2.5;fill:none}
+.steq-reaction{stroke:var(--steq-aqua);stroke-width:2.5;fill:none}
+.steq-svg .steq-force-label{fill:var(--steq-coral);font-size:18px;font-weight:600}
+.steq-svg .steq-reaction-label,.steq-svg .steq-check{fill:var(--steq-aqua);font-size:17px;font-weight:600}
+.steq-svg .steq-caption{fill:var(--steq-muted);font-size:13px;font-weight:600;letter-spacing:1px}
+.steq-svg .steq-small{fill:var(--steq-muted);font-size:13px}
+.steq-load-area{fill:var(--steq-coral);fill-opacity:.1;stroke:var(--steq-coral);stroke-width:1}
+.steq-handle{stroke:var(--steq-coral);stroke-width:2;fill:var(--steq-paper);fill-opacity:.9}
+.steq-handle-mark{stroke:var(--steq-coral);stroke-width:1.5;fill:none}
+[data-steq-handle]{cursor:ew-resize;touch-action:none}
+[data-steq-handle]:focus .steq-handle{stroke:var(--steq-aqua);stroke-width:4}
+.steq-pivot{stroke:var(--steq-coral);stroke-width:2;fill:none;stroke-dasharray:3 2}
+.steq-svg .steq-pivot-label{fill:var(--steq-coral);font-size:18px}
+.steq-svg .steq-zero{fill:var(--steq-muted);stroke:none}
+.steq-controls{display:grid;grid-template-columns:minmax(200px,1fr) minmax(240px,1.4fr);gap:30px;margin:20px 0}
+.statics-equilibrium-lab label{display:block;font-weight:500;font-size:13px;color:var(--steq-ink)}
+.statics-equilibrium-lab [hidden]{display:none!important}
+.statics-equilibrium-lab output{float:right;color:var(--steq-coral);font-weight:600}
+.statics-equilibrium-lab select,.statics-equilibrium-lab input[type="number"]{width:100%;display:block;min-height:42px;padding:9px 10px;margin:5px 0 12px;background:var(--steq-paper);color:var(--steq-ink);border:1px solid var(--steq-line);border-radius:6px;font:14px/1.4 Inter,Arial,sans-serif}
+.statics-equilibrium-lab input[type="range"]{display:block;width:100%;min-height:36px;margin:4px 0 10px;accent-color:var(--steq-coral)}
+.statics-equilibrium-lab button{cursor:pointer;background:var(--steq-paper);border:1px solid var(--steq-line);border-radius:6px;min-height:42px;color:var(--steq-ink);padding:9px 12px;font:600 12px/1.4 Inter,Arial,sans-serif}
+.statics-equilibrium-lab button:hover{border-color:var(--steq-coral);background:var(--steq-soft)}
+.statics-equilibrium-lab button:disabled{opacity:.45;cursor:default}
+.statics-equilibrium-lab :is(button,input,select,summary,.steq-scene):focus-visible{outline:3px solid var(--steq-aqua);outline-offset:3px}
+.steq-transport,.steq-answer{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-end}
+.steq-answer label{width:190px}.steq-answer input{margin-bottom:0!important}
+.steq-note,.steq-source{font-size:12px;color:var(--steq-muted);line-height:1.7}
+.steq-teaching b{font-size:16px}.steq-teaching p{margin:10px 0}
+.steq-equation{background:var(--steq-soft);padding:14px 16px;border-radius:7px;overflow-x:auto;color:var(--steq-ink);font:19px/1.7 'CALX Latin Modern Math','Latin Modern Math','STIX Two Math','Cambria Math',serif}
+.steq-practice,.steq-source{border-top:1px solid var(--steq-line);padding-top:16px;margin-top:22px}
+.steq-practice summary{cursor:pointer;font-size:15px;font-weight:600;margin-bottom:12px}.steq-practice>label{max-width:350px}
+[data-steq-solution]{border-left:3px solid var(--steq-coral);padding:2px 14px}[data-steq-solution] li{margin:16px 0}[data-steq-solution] ol{padding-left:22px}
+.steq-source a{color:var(--steq-coral)}
+@media(max-width:720px){.steq-controls{grid-template-columns:1fr;gap:14px}.steq-svg{min-width:690px}}
+@media(prefers-reduced-motion:reduce){.statics-equilibrium-lab *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

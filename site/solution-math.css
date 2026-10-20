@@ -1,0 +1,9 @@
+/* Native equations across Physics; content verification remains separate. */
+@font-face{font-family:'CALX Latin Modern Math';src:url('assets/math/latinmodern-math.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
+:is(.chapter-study-work,.physics-study-work) .solution-math-scroll{display:block;min-width:0;max-width:100%;overflow-x:auto;overflow-y:hidden;padding:9px 2px 13px;scrollbar-width:thin;scrollbar-color:#90b5b0 transparent;white-space:normal;overflow-wrap:normal}
+:is(.chapter-study-work,.physics-study-work) .solution-math-scroll:focus-visible{outline:2px solid #e96658;outline-offset:3px;border-radius:3px}
+:is(.chapter-study-work,.physics-study-work) .solution-math-scroll math{font-family:'CALX Latin Modern Math','Latin Modern Math','STIX Two Math','Cambria Math',math,serif;font-size:clamp(22px,2.2vw,27px);font-weight:400;font-style:normal;line-height:1.9;math-style:normal;math-depth:0;display:block;width:max-content;max-width:none;margin:0;color:var(--solution-math-ink,#184c50);white-space:nowrap}
+:is(.chapter-study-work,.physics-study-work) .solution-math-scroll mtext{font-family:'CALX Latin Modern Math','Latin Modern Math','STIX Two Math','Cambria Math',math,serif;font-style:normal}
+:is(.chapter-study-work,.physics-study-work) .solution-math-scroll mi[mathvariant="normal"]{font-style:normal}
+:is(.chapter-study-work,.physics-study-work) .help-equation:has(.solution-math-scroll),:is(.chapter-study-work,.physics-study-work) .help-substitution:has(.solution-math-scroll),:is(.chapter-study-work,.physics-study-work) .help-solution-calculation:has(.solution-math-scroll){overflow-wrap:normal;white-space:normal}
+@media(max-width:640px){:is(.chapter-study-work,.physics-study-work) .solution-math-scroll math{font-size:22px}:is(.chapter-study-work,.physics-study-work) .solution-math-scroll{padding-block:10px 14px}}

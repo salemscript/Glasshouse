@@ -1,0 +1,28 @@
+/* Original organic chemistry text and artwork, framed as a reading workspace. */
+.organic-exercise-work{border-top:4px solid var(--pink);}
+.organic-exercise-work h2{margin-bottom:12px;}
+.organic-practice-intro{max-width:660px;font-size:14px;line-height:1.7;color:#565653;margin:0 0 22px;}
+.organic-source-card{display:flex;align-items:center;gap:15px;padding:18px;background:#eff8f9;border:1px solid #bddde2;margin:20px 0 26px;}
+.organic-source-mark{display:grid;place-items:center;flex:0 0 46px;height:46px;border:1px solid #90c5ce;background:#fff;font:700 16px Georgia,serif;}
+.organic-source-card b{display:block;font-size:12px;line-height:1.6;}
+.organic-source-card small{display:block;font-size:11px;line-height:1.6;color:#536166;}
+.organic-source-card a{font-size:11px;line-height:1.6;margin-left:auto;color:#164c5a;text-underline-offset:4px;white-space:nowrap;}
+.organic-exercise-work .native-source-label{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:25px 0 8px;padding:12px 0;border-bottom:1px solid var(--line);color:#555;}
+.organic-exercise-work .native-source-label span:first-child{font-size:9px;letter-spacing:.1em;color:#635263;}
+.organic-exercise-work .native-source-label b{font-size:12px;color:var(--ink);}
+.organic-exercise-work .native-source-label span:last-child{margin-left:auto;font-size:10px;}
+.organic-reading-tip{font-size:11px;color:#61615e;line-height:1.65;margin:8px 0 16px;}
+.organic-exercise-work .native-exercise-columns.wide{width:100%;max-width:800px;padding:20px 0;margin-inline:auto;scrollbar-color:#e5a6a0 #f6f1f0;scrollbar-width:thin;}
+.organic-exercise-work .native-exercise-columns.wide .native-exercise-svg{width:calc(100% * var(--reading-zoom));min-width:calc(100% * var(--reading-zoom));}
+.organic-exercise-work .exercise-tools{background:#fffcf8;padding:13px 12px;gap:12px;}
+.organic-exercise-work #exercise-part-label{font-weight:700;color:#272727;font-variant-numeric:tabular-nums;}
+.organic-exercise-work .exercise-notes{background:#fffcf8;padding:24px;border:1px solid var(--line);margin-top:24px;}
+@media(max-width:760px){
+ .organic-source-card{flex-wrap:wrap;padding:15px;gap:12px;}
+ .organic-source-card a{margin-left:58px;}
+ .organic-exercise-work .native-exercise-columns.wide .native-exercise-svg{min-width:max(440px,calc(100% * var(--reading-zoom)));}
+ .organic-exercise-work .exercise-tools{padding:12px 8px;gap:8px;}
+ .organic-exercise-work .exercise-tools .btn{padding:9px 8px;}
+ .organic-exercise-work .exercise-tools label{flex-basis:100%;}
+ .organic-exercise-work .exercise-notes{padding:18px;}
+}

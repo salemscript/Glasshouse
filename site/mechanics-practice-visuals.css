@@ -1,0 +1,24 @@
+.mechanics-practice-visual{margin:20px 0;border:1px solid #bdcec3;border-radius:13px;overflow:hidden;background:#fffdf5;color:#294b4e;box-shadow:0 3px 0 #e4e9df}
+.mpv-heading{padding:17px 19px;background:#ebf1e9;border-bottom:1px solid #d1ddd2}
+.mpv-eyebrow{display:block;font-size:10px;font-weight:800;letter-spacing:.08em;color:#3b6668;margin-bottom:8px}
+.mpv-heading h4{font-size:19px;line-height:1.35;margin:0 0 8px;letter-spacing:-.02em}
+.mpv-heading p{font-size:13px;line-height:1.7;margin:0 0 9px}
+.mpv-mode{display:inline-block;font-size:11px;line-height:1.5;padding:5px 8px;border:1px solid #c9d4c5;border-radius:5px;background:#fffdf5;color:#61746c}
+.mpv-stage{overflow-x:auto;background:#fffdf5;scrollbar-width:thin;scrollbar-color:#a7beb6 #fffdf5}
+.mpv-stage svg{display:block;width:100%;min-width:520px;height:auto;max-width:none}
+.mpv-controls{padding:15px 19px;background:#f0f4eb;border-top:1px solid #d1ddd2}
+.mpv-play{display:flex;flex-wrap:wrap;align-items:center;gap:9px 12px;margin-bottom:13px}
+.mechanics-practice-visual button{font:inherit;font-size:12px;font-weight:700;min-height:40px;padding:9px 16px;border:1px solid #aac1b6;border-radius:7px;background:#fffdf5;color:#294b4e;cursor:pointer}
+.mechanics-practice-visual button[data-mpv-action=play]{background:#137d82;border-color:#137d82;color:#fffdf5;min-width:75px}
+.mpv-play span{flex:1 1 200px;font-size:11px;line-height:1.65;color:#5d7470}
+.mpv-controls label{display:flex;justify-content:space-between;gap:12px;font-size:12px;font-weight:650;margin-bottom:6px}
+.mpv-controls output{font-variant-numeric:tabular-nums;color:#137d82}
+.mechanics-practice-visual input[type=range]{width:100%;height:28px;min-height:28px;accent-color:#137d82;margin:0;padding:0;border:0;box-shadow:none;background:transparent;cursor:pointer}
+.mechanics-practice-visual button:focus-visible,.mechanics-practice-visual input:focus-visible{outline:2px solid #137d82;outline-offset:3px}
+.mpv-control-note{font-size:11px;line-height:1.7;color:#60736c;margin:9px 0 0}
+.mpv-explanation{padding:15px 19px;border-top:1px solid #d1ddd2}
+.mpv-equation{font-family:Georgia,'Times New Roman',serif;font-size:18px;line-height:1.65;padding:10px 12px;background:#ebf4ee;border-radius:6px;overflow-wrap:anywhere}
+.mpv-explanation p{font-size:13px;line-height:1.8;margin:11px 0 0}
+.mpv-explanation .mpv-hidden-note{font-size:11px;color:#6a7871}
+@media(max-width:600px){.mpv-heading,.mpv-controls,.mpv-explanation{padding-left:15px;padding-right:15px}.mpv-heading h4{font-size:17px}.mpv-equation{font-size:16px}}
+@media(prefers-reduced-motion:reduce){.mechanics-practice-visual *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

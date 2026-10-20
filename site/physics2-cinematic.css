@@ -1,0 +1,60 @@
+/* Physics II: a quiet stage for the experiment, followed by the explanation. */
+.physics-apparatus-lab[data-gp-cinematic="true"],.electric-flux-lab,.rc-circuit-lab{--p2-shadow:0 12px 40px rgb(49 43 33 / .06)}
+[data-gp-cinematic="true"] .gp-intro{padding:4px 0 15px;max-width:900px}
+[data-gp-cinematic="true"] .gp-intro h3{font-weight:600;letter-spacing:-.035em;font-size:clamp(25px,3.2vw,36px);line-height:1.18}
+[data-gp-cinematic="true"] .gp-intro>p{font-size:15px;line-height:1.8;max-width:780px}
+[data-gp-cinematic="true"] .gp-scene{border-radius:22px;box-shadow:var(--p2-shadow);background-image:radial-gradient(circle at 70% 25%,color-mix(in srgb,var(--gp-aqua) 5%,transparent),transparent 65%)}
+[data-gp-cinematic="true"] .gp-svg{border-radius:inherit}
+[data-gp-cinematic="true"] .gp-readouts{gap:10px;border:0;margin:16px 0 26px}
+[data-gp-cinematic="true"] .gp-readouts>div{border:1px solid var(--gp-line);background:var(--gp-paper);border-radius:13px;padding:15px 18px;flex-basis:170px}
+[data-gp-cinematic="true"] .gp-readouts span{font-size:12px;line-height:1.5}
+[data-gp-cinematic="true"] .gp-readouts strong{font-size:24px;letter-spacing:-.025em}
+[data-gp-cinematic="true"] .gp-workspace{gap:24px;align-items:start}
+[data-gp-cinematic="true"] .gp-controls,[data-gp-cinematic="true"] .gp-reasoning{padding:22px;border:1px solid var(--gp-line);border-radius:17px;background:var(--gp-paper)}
+[data-gp-cinematic="true"] .gp-controls h4,[data-gp-cinematic="true"] .gp-reasoning h4{font-size:16px;letter-spacing:-.02em}
+[data-gp-cinematic="true"] .gp-controls label{font-size:13px;line-height:1.6}
+[data-gp-cinematic="true"] input[type=range]{width:100%;cursor:ew-resize}
+[data-gp-cinematic="true"] .gp-controls select{border:1px solid var(--gp-line);padding:10px 12px;border-radius:8px}
+[data-gp-cinematic="true"] .gp-transport button{box-shadow:0 2px 0 color-mix(in srgb,var(--gp-ink) 10%,transparent);transition:transform .15s,background .15s}
+[data-gp-cinematic="true"] .gp-transport button:active{transform:translateY(2px);box-shadow:none}
+[data-gp-cinematic="true"] button:focus-visible,[data-gp-cinematic="true"] select:focus-visible,[data-gp-cinematic="true"] input:focus-visible{outline:3px solid var(--gp-aqua);outline-offset:3px}
+[data-gp-cinematic="true"] .gp-stages{gap:6px}
+[data-gp-cinematic="true"] .gp-stages button{flex:1 1 140px;padding:10px;transition:background .16s,border-color .16s}
+[data-gp-cinematic="true"] .gp-teaching{padding-left:16px;border-left-width:2px}
+[data-gp-cinematic="true"] .gp-teaching p{line-height:1.85}
+[data-gp-cinematic="true"] .gp-equation{background:var(--gp-surface);font-size:16px;padding:16px}
+[data-gp-cinematic="true"] .gp-guide,[data-gp-cinematic="true"] .gp-visual-guide{margin:20px 0 0;padding:20px;border:1px solid var(--gp-line);border-radius:14px;background:var(--gp-paper);line-height:1.8;font-size:14px}
+[data-gp-cinematic="true"] .gp-guide h4,[data-gp-cinematic="true"] .gp-visual-guide h4{margin:0 0 10px}
+[data-gp-cinematic="true"] .gp-guide p,[data-gp-cinematic="true"] .gp-visual-guide p{margin:9px 0;color:var(--gp-muted)}
+[data-gp-cinematic="true"] .gp-guide strong,[data-gp-cinematic="true"] .gp-visual-guide strong{color:var(--gp-ink);font-weight:600}
+[data-gp-cinematic="true"] .gp-response-panel{margin:26px 0 0;border:1px solid var(--gp-line);border-radius:18px;background:var(--gp-paper);padding:20px;box-shadow:var(--p2-shadow)}
+[data-gp-cinematic="true"] .gp-response-panel h4{margin:0 0 6px;font-size:17px;letter-spacing:-.02em}
+[data-gp-cinematic="true"] [data-gp-response]{overflow-x:auto;overscroll-behavior-x:contain}
+[data-gp-cinematic="true"] [data-gp-response] svg{display:block;width:100%;min-width:650px;height:auto;font-family:system-ui,sans-serif}
+[data-gp-cinematic="true"] .gp-pace{display:flex;align-items:center;gap:10px;margin:15px 0;font-size:12px;color:var(--gp-muted)}
+[data-gp-cinematic="true"] .gp-pace select{width:auto;margin:0}
+[data-gp-cinematic="true"] .gp-progress{display:block;width:100%;height:5px;accent-color:var(--gp-aqua);margin:12px 0;border:0;border-radius:99px;overflow:hidden}
+[data-gp-cinematic="true"] .gp-progress::-webkit-progress-bar{background:var(--gp-surface)}
+[data-gp-cinematic="true"] .gp-progress::-webkit-progress-value{background:var(--gp-aqua)}
+[data-gp-cinematic="true"] .gp-progress>[data-gp-progress]{display:block;height:100%;background:var(--gp-aqua);border-radius:inherit}
+[data-gp-cinematic="true"] .gp-pace-note{font-size:12px;line-height:1.7;color:var(--gp-muted)}
+[data-gp-cinematic="true"] .gp-guide-eyebrow{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--gp-aqua)}
+[data-gp-cinematic="true"] .gp-guide-question{padding-top:12px;border-top:1px solid var(--gp-line);font-weight:600;color:var(--gp-ink)!important}
+[data-gp-cinematic="true"] .gp-guide-limit{font-size:12px}
+[data-gp-cinematic="true"] .gp-visual-guide{margin-bottom:20px;padding:22px}
+[data-gp-cinematic="true"] .gp-visual-guide h4{font-size:19px;letter-spacing:-.02em;line-height:1.5;margin-top:9px}
+[data-gp-cinematic="true"] .gp-guide-watch>span{font-size:12px;font-weight:600;color:var(--gp-aqua)}
+[data-gp-cinematic="true"] .gp-visual-guide details{margin-top:12px;padding-top:12px;border-top:1px solid var(--gp-line)}
+[data-gp-cinematic="true"] .gp-visual-guide summary,[data-gp-cinematic="true"] .gp-response-context summary{cursor:pointer;font-size:13px;line-height:1.6;text-underline-offset:4px}
+[data-gp-cinematic="true"] .gp-response-heading>span{font-size:10px;letter-spacing:.12em;color:var(--gp-aqua);font-weight:600}
+[data-gp-cinematic="true"] .gp-response-heading h4{margin:8px 0 6px}
+[data-gp-cinematic="true"] .gp-response-heading p,[data-gp-cinematic="true"] .gp-response-note,[data-gp-cinematic="true"] .gp-response-context p{color:var(--gp-muted);font-size:13px;line-height:1.8;margin:8px 0}
+[data-gp-cinematic="true"] .gp-response-context{border-top:1px solid var(--gp-line);padding-top:12px;margin-top:13px}
+.rc-response,.ef-response{margin:24px 0;padding:18px;border:1px solid var(--line,#d4cabe);border-radius:17px;overflow-x:auto;box-shadow:var(--p2-shadow)}
+.rc-response h4,.ef-response h4{font-size:17px;margin:0 0 8px;letter-spacing:-.02em}
+.rc-response p,.ef-response p{font-size:13px;line-height:1.8;max-width:85ch}
+.rc-response-svg,.ef-response-svg{display:block;width:100%;min-width:620px;height:auto;font-family:system-ui,sans-serif}
+[data-gp-cinematic="true"] .gp-practice,[data-gp-cinematic="true"] .gp-source{border-radius:14px;padding:18px 22px;line-height:1.8}
+.electric-flux-lab .ef-scene,.rc-circuit-lab .rc-scene{box-shadow:var(--p2-shadow)}
+@media(max-width:850px){[data-gp-cinematic="true"] .gp-controls,[data-gp-cinematic="true"] .gp-reasoning{padding:17px}[data-gp-cinematic="true"] .gp-response-panel{padding:15px}[data-gp-cinematic="true"] .gp-readouts>div{flex-basis:130px;padding:12px}[data-gp-cinematic="true"] .gp-readouts strong{font-size:21px}}
+@media(prefers-reduced-motion:reduce){[data-gp-cinematic="true"] *{transition:none!important;animation:none!important}}

@@ -1,0 +1,723 @@
+/* Glasshouse color modes. Loaded last; all content and geometry stay in their modules. */
+:root {
+  color-scheme: light;
+  --mode-control-bg: #fffcf8;
+  --mode-control-ink: #383b3b;
+  --mode-control-border: #a59c91;
+  --mode-control-hover: #fff0e9;
+}
+
+/* This control is available on every route, including the narrow-screen header. */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-shrink: 0;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--mode-control-border);
+  border-radius: 7px;
+  background: var(--mode-control-bg);
+  color: var(--mode-control-ink);
+  font: 600 12px/1.5 Inter, Arial, sans-serif;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.theme-toggle:hover { background: var(--mode-control-hover); }
+.theme-toggle svg { display: block; width: 18px; height: 18px; flex-shrink: 0; }
+.theme-toggle [data-theme-icon] { color: inherit; }
+.theme-toggle:focus-visible { outline: 3px solid #168497; outline-offset: 3px; }
+.theme-toggle[aria-checked="true"] { border-color: #ff9587; color: #ffad9f; }
+.header-right { display: flex; align-items: center; gap: 16px; }
+.shell > header { height: auto; min-height: 58px; gap: 16px; }
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111922;
+  --ink: #edf1f5;
+  /* Native MathML has its own foreground; it does not inherit the surrounding equation's color. */
+  --solution-math-ink: #f4f6fa;
+  --muted: #acb8c5;
+  --line: #394959;
+  --green: #ff9587;
+  --lime: #ff9587;
+  --orange: #edb47e;
+  --pink: #ff9587;
+  --aqua: #7bcdd1;
+  --ice: #243b49;
+  --white: #1a2633;
+  --calx-paper: #1a2633;
+  --calx-soft: #202f3e;
+  --calx-coral: #ff9587;
+  --calx-coral-paper: #382d33;
+  --calx-readable: #bec8d3;
+  --mode-control-bg: #1a2633;
+  --mode-control-ink: #edf1f5;
+  --mode-control-border: #718194;
+  --mode-control-hover: #293b4c;
+  --mode-border: #718194;
+  --mode-hover: #293b4c;
+  --mode-info: #203943;
+  --mode-good: #193c35;
+  --mode-good-ink: #9be2bc;
+  --mode-bad: #422d35;
+  --mode-bad-ink: #ffb2a9;
+  --mode-warning: #3b3327;
+  --mode-warning-ink: #f0cf99;
+}
+html[data-theme="dark"] body { background: var(--bg); color: var(--ink); }
+html[data-theme="dark"] ::selection { background: #71483f; color: #fff6ef; }
+html[data-theme="dark"] :is(button, a, input, select, textarea, summary):focus-visible,
+html[data-theme="dark"] .input-wrap:focus-within,
+html[data-theme="dark"] .concept-option:focus-within,
+html[data-theme="dark"] .question-choice-card:focus-within {
+  outline-color: var(--aqua);
+}
+html[data-theme="dark"] :is(input, select, textarea) { color: var(--ink); }
+html[data-theme="dark"] :is(input, textarea)::placeholder { color: #9eafbf; opacity: 1; }
+html[data-theme="dark"] input[type="range"],
+html[data-theme="dark"] input[type="checkbox"],
+html[data-theme="dark"] input[type="radio"] { accent-color: var(--calx-coral); }
+html[data-theme="dark"] :is(.bank-list, .reader-section-list, .question-source-art,
+  .secl-canvas, .htv-stage, .mpv-stage, .formula-math-scroll, .calculator-panel) {
+  scrollbar-color: #718194 transparent;
+}
+
+/* Navigation, home, subject cards, reading and reference pages. */
+html[data-theme="dark"] :is(.sidebar, header) { background: var(--bg); }
+html[data-theme="dark"] :is(.announcement, footer) { background: #18232e; }
+html[data-theme="dark"] :is(.nav, .nav.active, .crumb b, .brand,
+  .course-bottom b, .metric-icon, .subject-practice-summary strong,
+  .question-summary b, .formula-search-wrap label) { color: var(--ink); }
+html[data-theme="dark"] :is(.brand-dot, .nav.active) { color: var(--calx-coral); }
+html[data-theme="dark"] .nav.active { border-bottom-color: var(--calx-coral); }
+html[data-theme="dark"] .avatar { background: var(--ice); color: #cae9ed; }
+html[data-theme="dark"] .crumb span { color: #8598aa; }
+html[data-theme="dark"] :is(.text-button, .book-links a, .source-cite,
+  .source-list a, .reader-open, .question-lab-link, .lab-return-link) { color: var(--calx-coral); }
+html[data-theme="dark"] :is(.source-list p, .page-top p, .course p, .course-bottom,
+  .course .level, .metric small, .subject-practice-summary span, .practice-source-note,
+  .practice-switch p, .practice-switch span, .formula-heading p, .formula-card p,
+  .formula-reference-note, .formula-results, .formula-symbols dd,
+  .formula-card .formula-conditions p, .formula-card .formula-reference,
+  .formula-card .formula-notation-note, .formula-card .formula-notation-source p,
+  .organic-practice-intro, .organic-reading-tip, .organic-source-card small,
+  .organic-exercise-work .native-source-label, .exercise-tools span,
+  .exercise-tools label, .native-source-label, .problem-body, .selection-note) {
+  color: var(--calx-readable);
+}
+html[data-theme="dark"] :is(.panel, .bank-work, .exercise-work, .understanding-card,
+  .reader-toolbar, .reader-notes, .formula-card) {
+  background: var(--calx-paper);
+  border-color: var(--line);
+  color: var(--ink);
+}
+html[data-theme="dark"] :is(.bank-work, .question-work, .organic-exercise-work) {
+  border-top-color: var(--calx-coral);
+  box-shadow: none;
+}
+html[data-theme="dark"] :is(.bank-browser, .question-layout .bank-browser,
+  .subject-practice-summary, .learning-path, .related-interactive, .tip,
+  .organic-source-card, .organic-exercise-work .exercise-tools,
+  .organic-exercise-work .exercise-notes) {
+  background: var(--calx-soft);
+  border-color: var(--line);
+}
+html[data-theme="dark"] .fresh-hero {
+  background: linear-gradient(110deg, #37303a 0%, #37303a 52%, #1d2c3b 52%, #1d2c3b 100%);
+  color: var(--ink);
+}
+html[data-theme="dark"] .fresh-hero .eyebrow { color: var(--calx-coral); }
+html[data-theme="dark"] .fresh-hero p { color: #d0d6de; }
+html[data-theme="dark"] .hero-equation {
+  background: var(--calx-paper);
+  border-color: #607082;
+  box-shadow: 5px 5px 0 #101923;
+  color: var(--ink);
+}
+html[data-theme="dark"] .hero-equation-bottom { border-color: var(--line); }
+html[data-theme="dark"] .hero-equation-bottom button {
+  background: var(--calx-coral);
+  border-color: var(--calx-coral);
+  color: #181f29;
+}
+html[data-theme="dark"] .course { border-color: var(--line); }
+html[data-theme="dark"] .course:hover { border-color: #8294a6; }
+html[data-theme="dark"] .course .top { background: #423440; }
+html[data-theme="dark"] .course:nth-child(3n+2) .top { background: #24414d; }
+html[data-theme="dark"] .course:nth-child(3n) .top { background: #433b34; }
+html[data-theme="dark"] :is(.course-icon, .course .level) { color: #f0e3df; }
+html[data-theme="dark"] .banner { background: #382d33; color: var(--ink); border-color: #74534e; }
+html[data-theme="dark"] :is(.pill, .badge, .topic) { background: var(--calx-soft); color: var(--calx-readable); }
+html[data-theme="dark"] .bar { background: #334657; }
+html[data-theme="dark"] .bar span { background: var(--calx-coral); }
+html[data-theme="dark"] .learning-path { border-color: var(--line); }
+html[data-theme="dark"] :is(.organic-source-mark, .organic-exercise-work .exercise-notes textarea,
+  .exercise-notes textarea, .reader-notes textarea, .reader-toolbar input,
+  .answer-studio input, .answer-studio textarea, .search, select,
+  .formula-heading .search, .study-chapter-label select) {
+  background: #15212d;
+  border-color: var(--mode-border);
+  color: var(--ink);
+}
+html[data-theme="dark"] .organic-source-card a { color: var(--aqua); }
+html[data-theme="dark"] :is(.organic-exercise-work #exercise-part-label,
+  .organic-exercise-work .native-source-label span:first-child) { color: var(--calx-readable); }
+html[data-theme="dark"] :is(.textbook-note, .lab-source, .selection-note) { border-left-color: var(--calx-coral); }
+html[data-theme="dark"] .pdf-frame { background: var(--calx-soft); border-color: var(--line); }
+html[data-theme="dark"] .formula-card { border-top-color: #8bafba; }
+html[data-theme="dark"] .formula-card[data-current-chapter="true"] { border-top-color: var(--calx-coral); }
+html[data-theme="dark"] :is(.formula-card-header h3, .formula-symbols dt) { color: var(--ink); }
+html[data-theme="dark"] .formula-chapter {
+  background: var(--calx-coral-paper);
+  border-color: #77564f;
+  color: #ffc1b6;
+}
+html[data-theme="dark"] :is(.formula-expression, .formula-notation-source) {
+  background: #15232f;
+  border-color: var(--line);
+  color: #d1eeeb;
+}
+html[data-theme="dark"] :is(.formula-expression math, .formula-card .formula-prose,
+  .formula-card .formula-notation-source .formula-notation-original) { color: #d1eeeb; }
+html[data-theme="dark"] :is(.formula-line, .formula-conditions, .formula-card-footer) { border-color: var(--line); }
+html[data-theme="dark"] :is(.formula-line-label, .formula-conditions h4,
+  .formula-notation-source summary, .formula-note-mark) { color: var(--calx-readable); }
+html[data-theme="dark"] :is(.formula-card-footer .text-button,
+  .formula-card .formula-reference .text-button) { color: var(--aqua); }
+
+/* Buttons, selection states and answer fields retain their original behavior. */
+html[data-theme="dark"] .btn {
+  background: var(--calx-coral);
+  border-color: var(--calx-coral);
+  color: #17212b;
+}
+html[data-theme="dark"] .btn:hover { background: #ffb0a3; border-color: #ffb0a3; color: #17212b; }
+html[data-theme="dark"] :is(.btn.light, .btn.ghost) {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--mode-border);
+}
+html[data-theme="dark"] :is(.btn.light, .btn.ghost):hover {
+  background: var(--mode-hover);
+  color: var(--ink);
+  border-color: #a1afbc;
+}
+html[data-theme="dark"] .btn.lime { background: var(--calx-coral); color: #17212b; }
+html[data-theme="dark"] .skip-link { background: #ffad9f; color: #17212b; }
+html[data-theme="dark"] :is(.segmented, .learning-tabs) { background: var(--calx-paper); border-color: var(--line); }
+html[data-theme="dark"] :is(.segmented button, .learning-tabs button) { color: var(--calx-readable); }
+html[data-theme="dark"] .segmented span { color: #acbac8; }
+html[data-theme="dark"] :is(.segmented .selected, .segmented button.selected,
+  .learning-tabs button.selected) {
+  background: var(--calx-coral-paper);
+  color: #ffc0b5;
+  box-shadow: inset 0 -3px var(--calx-coral);
+}
+html[data-theme="dark"] .learning-tabs button:hover { background: var(--mode-hover); }
+html[data-theme="dark"] :is(.bank-item, .bank-item-number) { color: var(--ink); background: transparent; }
+html[data-theme="dark"] :is(.bank-item small, .question-layout .bank-item small,
+  .bank-work .problem-id, .problem-reference, .interactive-filter, .option-letter,
+  .chapter-gate > .eyebrow) { color: var(--calx-readable); }
+html[data-theme="dark"] .bank-item:hover { background: var(--mode-hover); }
+html[data-theme="dark"] :is(.bank-item.selected, .bank-item.selected:hover,
+  .question-layout .bank-item.selected) {
+  background: var(--calx-coral-paper);
+  border-color: #8c625a;
+  color: #ffd1c8;
+}
+html[data-theme="dark"] :is(.solved-mark, .interactive-tag) { color: #93d5c2; }
+html[data-theme="dark"] .bank-prompt { background: #20313d; color: var(--ink); border-color: var(--aqua); }
+html[data-theme="dark"] .native-problem-statement th { background: var(--calx-soft); }
+html[data-theme="dark"] :is(.question-response-field, .question-response-field:only-of-type) {
+  background: transparent;
+  border-color: var(--line);
+}
+html[data-theme="dark"] :is(.input-wrap, .question-response .input-wrap:not(.answer-confirmed),
+  .hint-blank input, .hint-choice select) {
+  background: #15212d;
+  border-color: var(--mode-border);
+  color: var(--ink);
+}
+html[data-theme="dark"] .input-wrap input { background: transparent; color: var(--ink); }
+html[data-theme="dark"] :is(.question-choice-card, .concept-option, .option) {
+  background: #1b2a37;
+  color: var(--ink);
+  border-color: var(--mode-border);
+}
+html[data-theme="dark"] :is(.question-choice-card:hover, .concept-option:hover, .option:hover) {
+  background: var(--mode-hover);
+  border-color: #a0b3c3;
+}
+html[data-theme="dark"] .question-choice-letter { background: #334556; color: #e1e9f0; }
+html[data-theme="dark"] :is(.question-choice-card.selected, .concept-option.chosen, .option.chosen) {
+  background: var(--calx-coral-paper);
+  border-color: var(--calx-coral);
+  box-shadow: 0 0 0 1px var(--calx-coral);
+}
+html[data-theme="dark"] .question-choice-card.selected .question-choice-letter { background: var(--calx-coral); color: #17212b; }
+html[data-theme="dark"] :is(.input-wrap.answer-confirmed, .hint-blank input[readonly],
+  .input-wrap input.answer-correct, .hint-blank input.answer-correct, textarea.answer-correct,
+  .concept-option.right, .question-choice-group.answer-correct .question-choice-card.selected) {
+  background: var(--mode-good);
+  border-color: #6fcea1;
+  color: #c7f4dc;
+  box-shadow: inset 0 0 0 1px #6fcea1;
+}
+html[data-theme="dark"] .question-choice-group.answer-correct .question-choice-card.selected .question-choice-letter {
+  background: #7ed6aa; color: #132e26;
+}
+html[data-theme="dark"] .answer-success-mark { border-color: var(--calx-paper); background: #267b55; }
+html[data-theme="dark"] :is(.input-wrap input.answer-error, .hint-blank input.answer-error,
+  .concept-option.wrong, .question-choice-group.answer-error .question-choice-card.selected) {
+  background: var(--mode-bad);
+  border-color: #ff9587;
+  color: #ffd0c9;
+  box-shadow: inset 0 0 0 1px #ff9587;
+}
+html[data-theme="dark"] .question-choice-group.answer-error .question-choice-card.selected .question-choice-letter {
+  background: #ffad9f; color: #42231f;
+}
+html[data-theme="dark"] :is(.feedback, .hint-results) { background: var(--mode-info); color: #d7ecec; border-color: #5c929b; }
+html[data-theme="dark"] .feedback.success { background: var(--mode-good); color: #c7f4dc; border-color: #6fcea1; }
+html[data-theme="dark"] .feedback.error { background: var(--mode-bad); color: #ffd0c9; border-color: #c47a70; }
+html[data-theme="dark"] :is(.question-part-result.correct, .secl-correct) { color: var(--mode-good-ink); }
+html[data-theme="dark"] :is(.question-part-result.incorrect, .question-part-result.invalid,
+  .secl-try, .attempt-note) { color: var(--mode-bad-ink); }
+html[data-theme="dark"] :is(.question-part-result.unverified, .question-unverified,
+  .question-caution:not(:empty), .source-gap, .hint-coach-coverage, .answer-missing,
+  .help-pitfalls, .hv-connection .hv-schematic-instruction) {
+  background: var(--mode-warning);
+  color: var(--mode-warning-ink);
+  border-color: #9c8058;
+}
+html[data-theme="dark"] :is(.question-previous-answer, .hint-stack) {
+  background: var(--calx-soft);
+  border-color: var(--line);
+}
+html[data-theme="dark"] :is(.hint-step + .hint-step, .hint-revealed-solution) { border-color: var(--line); }
+html[data-theme="dark"] .hint-number { color: var(--aqua); }
+
+/* Help, worked examples, MathML and the Chapter 23 reference implementation. */
+html[data-theme="dark"] :is(.hint-tier, .hint-tier-three, .hint-reveal,
+  .help-example, .help-example-visible, .help-reference, .hint-coach-target,
+  .hint-coach-equation, .hint-coach-givens dl > div, .help-givens dl > div,
+  .help-symbols > div, .help-substitution) {
+  background: var(--calx-paper);
+  color: var(--ink);
+  border-color: var(--line);
+}
+html[data-theme="dark"] :is(.hint-tier-one, .help-first-action, .hint-coach-small-hint) {
+  background: #332c31;
+  border-color: #a76f60;
+}
+html[data-theme="dark"] :is(.hint-tier-two, .help-rule, .help-current,
+  .help-example-bridge, .help-previous, .hint-step-why, .hint-coach-explain,
+  .hint-coach-setup > summary) { background: var(--mode-info); border-color: #628f97; }
+html[data-theme="dark"] .help-current { border-left-color: var(--aqua); }
+html[data-theme="dark"] .hint-tier-three { border-top-color: var(--calx-coral); }
+html[data-theme="dark"] :is(.answer-final-card, .answer-calculation,
+  .help-solution-calculation, .bank-work #bank-solution-box) {
+  background: var(--calx-coral-paper);
+  border-color: #96665e;
+  border-left-color: var(--calx-coral);
+}
+html[data-theme="dark"] :is(.answer-final-value, .answer-equation,
+  .answer-substitution, .answer-calculation, .help-equation, .help-substitution,
+  .help-symbols dt, .help-solution-calculation, .hint-coach-math,
+  .hint-coach-variables dt, .hv-equation, .htv-equation, .mpv-equation) {
+  color: #d1eeeb;
+}
+html[data-theme="dark"] :is(.answer-worked-list > li, .help-solution-steps > li,
+  .hint-help-detail > .hint-tier) {
+  background: transparent;
+  border-color: var(--line);
+}
+html[data-theme="dark"] :is(.answer-worked-list h4:before, .answer-worked-part > h4,
+  .help-solution-steps > li > h4:before) { color: var(--calx-coral); }
+html[data-theme="dark"] :is(.answer-final-value b, .answer-source-caption,
+  .answer-line-label, .help-step-action, .help-step-pitfall,
+  .hint-coach-equation p, .question-source-answer-label) { color: var(--calx-readable); }
+html[data-theme="dark"] .hint-coach-plan li:before { background: #31505c; color: #d7f1f0; }
+html[data-theme="dark"] .hint-step-progress span { background: #3f5263; }
+html[data-theme="dark"] .hint-step-progress span.current { background: var(--calx-coral); }
+html[data-theme="dark"] .hint-step-progress span.complete { background: #7bcdb0; }
+html[data-theme="dark"] .hint-help-tabs button { color: var(--calx-readable); border-color: var(--mode-border); }
+html[data-theme="dark"] .hint-help-tabs button[aria-pressed="true"] {
+  background: var(--calx-coral-paper);
+  color: #ffc0b5;
+  border-color: var(--calx-coral);
+}
+html[data-theme="dark"] .chapter23-solution-plot { background: var(--calx-paper); }
+html[data-theme="dark"] :is(.chapter23-plot-labels, .chapter23-plot-region,
+  .chapter23-plot-symbol) { fill: var(--calx-readable); }
+html[data-theme="dark"] :is(.chapter23-plot-axis-label, .chapter23-plot-value) { fill: var(--ink); }
+html[data-theme="dark"] :is(.chapter23-plot-axis, .chapter23-plot-tick) { stroke: #a0b2c2; }
+html[data-theme="dark"] .chapter23-plot-grid { stroke: #3b4b5b; }
+html[data-theme="dark"] .chapter23-plot-boundary { stroke: #8095a8; }
+html[data-theme="dark"] :is(.chapter23-plot-curves, .chapter23-plot-open) { stroke: var(--calx-coral); }
+html[data-theme="dark"] .chapter23-plot-open { fill: var(--calx-paper); }
+html[data-theme="dark"] .chapter23-plot-solid { fill: var(--calx-coral); stroke: var(--calx-paper); }
+html[data-theme="dark"] .chapter23-plot-legend-line { stroke: var(--calx-coral); }
+html[data-theme="dark"] .chapter23-plot-comparison { stroke: var(--aqua); }
+html[data-theme="dark"] .chapter23-vector-given { color: var(--calx-coral); stroke: var(--calx-coral); }
+html[data-theme="dark"] .chapter23-vector-resultant { color: var(--aqua); stroke: var(--aqua); }
+html[data-theme="dark"] .chapter23-vector-component { color: var(--calx-readable); stroke: var(--calx-readable); }
+html[data-theme="dark"] .pv3d-axis { stroke: #a0b2c2; fill: #a0b2c2; }
+html[data-theme="dark"] .pv3d-given { stroke: var(--calx-coral); fill: var(--calx-coral); }
+html[data-theme="dark"] .pv3d-resultant { stroke: var(--aqua); fill: var(--aqua); }
+html[data-theme="dark"] .pv3d-component { stroke: var(--calx-readable); fill: var(--calx-readable); }
+html[data-theme="dark"] .pv3d-view-aligned { fill: none; }
+html[data-theme="dark"] .pv3d-unit,html[data-theme="dark"] .pv3d-point { fill: var(--calx-readable); }
+html[data-theme="dark"] .pv3d-text text { fill: var(--calx-readable); }
+html[data-theme="dark"] .pv3d-label { stroke: var(--calx-paper); }
+html[data-theme="dark"] .ptp-svg { --ptp-ink: #bec8d3 !important; --ptp-grid: #3b4b5b !important; --ptp-axis: #a0b2c2 !important; --ptp-curve: #ff9587 !important; --ptp-arrow: #7bcdd1 !important; --ptp-paper: #1a2633 !important; }
+html[data-theme="dark"] .ptp-svg .ptp-ink[fill]:not([fill="none"]) { fill: var(--ptp-ink); }
+html[data-theme="dark"] .ptp-svg .ptp-grid[stroke]:not([stroke="none"]) { stroke: var(--ptp-grid); }
+html[data-theme="dark"] .ptp-svg .ptp-axis[stroke]:not([stroke="none"]) { stroke: var(--ptp-axis); }
+html[data-theme="dark"] .ptp-svg .ptp-curve[stroke]:not([stroke="none"]) { stroke: var(--ptp-curve); }
+html[data-theme="dark"] .ptp-svg .ptp-curve[fill]:not([fill="none"]) { fill: var(--ptp-curve); }
+html[data-theme="dark"] .ptp-svg .ptp-arrow[stroke]:not([stroke="none"]) { stroke: var(--ptp-arrow); }
+html[data-theme="dark"] .ptp-svg .ptp-arrow[fill]:not([fill="none"]) { fill: var(--ptp-arrow); }
+html[data-theme="dark"] .ptp-svg .ptp-paper[stroke]:not([stroke="none"]) { stroke: var(--ptp-paper); }
+html[data-theme="dark"] .chapter23-plot-formula { fill: #ffad9f; }
+
+/* Simulation controls and teaching panels share the workspace palette. */
+html[data-theme="dark"] :is(.section-labs, .subject-labs, .lab-problem-context,
+  .lab, .inline-experiment, .learning-visual, .hint-visual, .help-teaching-visual,
+  .mechanics-practice-visual, .studio-guide, .help-example-diagram) {
+  background: var(--calx-paper);
+  color: var(--ink);
+  border-color: var(--line);
+  box-shadow: none;
+}
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .sl-readouts > div, .learning-readouts, .hv-readouts,
+  .studio-guide svg, .help-example-diagram) { background: #17232f; border-color: var(--line); }
+html[data-theme="dark"] :is(.secl-controls, .sl-controls, .htv-controls,
+  .mpv-controls, .hv-controls, .learning-controls, .htv-heading, .mpv-heading,
+  .hv-heading, .hv-connection, .secl-reference, .secl-explanation,
+  .sl-tabs button, .sim-readouts, .experiment-readout span) {
+  background: var(--calx-soft);
+  border-color: var(--line);
+  color: var(--calx-readable);
+}
+html[data-theme="dark"] :is(.secl-current, .sl-equation, .htv-takeaway,
+  .mpv-equation, .hv-equation, .sl-explanation > p) {
+  background: var(--mode-info);
+  border-color: #628f97;
+  color: #d1eeeb;
+}
+html[data-theme="dark"] :is(.secl-current > b, .secl-eyebrow, .sl-eyebrow,
+  .secl-controls output, .secl-final b, .sl-task b, .sl-derivation summary,
+  .htv-eyebrow, .mpv-eyebrow, .hv-eyebrow, .inline-experiment .eyebrow) { color: var(--calx-coral); }
+html[data-theme="dark"] :is(.secl-formula, .sl-readouts strong,
+  .sl-derivation li strong, .sl-explanation b, .sl-range output,
+  .htv-range output, .mpv-controls output, .sim-readouts b,
+  .htv-heading h5, .hv-heading h4, .hv-readouts b) { color: #d1eeeb; }
+html[data-theme="dark"] :is(.secl-heading p, .secl-intro p, .secl-current p,
+  .secl-reference small, .secl-explanation p, .secl-explanation .secl-change-note,
+  .secl-research p, .secl-research small, .secl-worked li p,
+  .secl-note, .secl-coverage, .secl-source, .secl-status, .sl-lead,
+  .sl-intro p, .sl-mode, .sl-readouts span, .sl-range, .sl-select,
+  .sl-status, .sl-task p, .sl-explanation ol, .sl-note, .sl-visual-link,
+  .htv-heading p, .htv-playback span, .htv-note, .mpv-mode,
+  .mpv-play span, .mpv-control-note, .mpv-explanation .mpv-hidden-note,
+  .hv-step-label, .hv-equation-label, .hv-connection p, .hv-parameter label,
+  .hv-parameter output, .hv-sides, .hv-readouts span, .hv-note,
+  .learning-eyebrow, .learning-prediction, .learning-parameter output,
+  .learning-readouts span, .learning-observation, .learning-note,
+  .lab-context-original summary, .lab-context-work summary,
+  .lab-problem-context figcaption, .lab-context-scope, .lab-context-units,
+  .inline-experiment .experiment-note, .experiment-readout) { color: var(--calx-readable); }
+html[data-theme="dark"] :is(.secl-reference a, .secl-explanation summary,
+  .secl-research summary, .secl-research a) { color: var(--aqua); }
+html[data-theme="dark"] :is(.secl-selectors select, .secl-example-picker select,
+  .secl-answer input[type="number"], .secl-choice, .sl-select select,
+  .help-teaching-visual .htv-select select) {
+  background: #15212d;
+  border-color: var(--mode-border);
+  color: var(--ink);
+}
+html[data-theme="dark"] :is(.secl-example-picker, .lab-problem-context summary) { color: var(--ink); }
+html[data-theme="dark"] :is(.secl-research, .sl-count, .hv-schematic-label, .mpv-mode) {
+  background: var(--calx-soft);
+  border-color: var(--line);
+  color: var(--calx-readable);
+}
+html[data-theme="dark"] :is(.section-labs button, .sl-playback button, .sl-reset,
+  .help-teaching-visual button, .mechanics-practice-visual button) {
+  background: var(--calx-paper);
+  color: var(--ink);
+  border-color: var(--mode-border);
+}
+html[data-theme="dark"] :is(.section-labs button, .sl-playback button, .sl-reset,
+  .help-teaching-visual button, .mechanics-practice-visual button):hover {
+  background: var(--mode-hover);
+}
+html[data-theme="dark"] :is(.secl-play button:first-child,
+  .secl-answer button:first-of-type, .sl-playback button:first-child,
+  .help-teaching-visual button[data-htv-action="play"],
+  .mechanics-practice-visual button[data-mpv-action="play"]) {
+  background: var(--calx-coral);
+  border-color: var(--calx-coral);
+  color: #17212b;
+}
+html[data-theme="dark"] .sl-tabs button[aria-selected="true"] {
+  background: var(--calx-coral-paper);
+  color: #ffc0b5;
+  border-color: var(--calx-coral);
+}
+html[data-theme="dark"] .sl-tabs button span { color: var(--muted); }
+html[data-theme="dark"] .sl-tabs button[aria-selected="true"] span { color: #ffc0b5; }
+html[data-theme="dark"] :is(.learning-side .btn[aria-pressed="true"], .hv-sides .btn[aria-pressed="true"]) {
+  background: var(--mode-info);
+  color: #d1eeeb;
+  border-color: var(--aqua);
+}
+html[data-theme="dark"] .diagram-input {
+  --diagram-ink: #edf1f5;
+  --diagram-pink: #ffad9f;
+  background: var(--calx-paper);
+  border-color: var(--line);
+}
+html[data-theme="dark"] :is(.diagram-input button, .diagram-input input,
+  .diagram-input select) { background: #15212d; border-color: var(--mode-border); color: var(--ink); }
+html[data-theme="dark"] .diagram-input button:hover { background: var(--mode-hover); }
+html[data-theme="dark"] .diagram-input button[aria-pressed="true"] {
+  background: var(--calx-coral); color: #17212b; border-color: var(--calx-coral); box-shadow: none;
+}
+html[data-theme="dark"] :is(.diagram-toolbar, .diagram-point-fields fieldset,
+  .diagram-element-list li, .diagram-scroll) { border-color: var(--line); }
+html[data-theme="dark"] .diagram-scroll { background: #17232f; }
+html[data-theme="dark"] .diagram-canvas {
+  background-color: #17232f;
+  background-image: radial-gradient(#405467 .8px, transparent .8px);
+}
+html[data-theme="dark"] .diagram-canvas [fill="#152c39"] { fill: var(--ink); }
+html[data-theme="dark"] .diagram-canvas [stroke="#152c39"] { stroke: var(--ink); }
+html[data-theme="dark"] .diagram-canvas [fill="#b51f67"] { fill: #ff9bc7; }
+html[data-theme="dark"] .diagram-canvas [stroke="#b51f67"] { stroke: #ff9bc7; }
+
+/* Palette mapping is limited to authored live diagrams, never textbook artwork.
+   Paper, ink, grid and accent families stay distinct; no filter or geometry edit. */
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([fill="#fffdf5"], [fill="#fffdf4"],
+  [fill="#fffdf7"], [fill="#fff"], [fill="#ffffff"]):not(text) { fill: #17232f; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([stroke="#fffdf5"], [stroke="#fffdf4"],
+  [stroke="#fffdf7"], [stroke="#fff"], [stroke="#ffffff"]) { stroke: #17232f; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([fill="#263c3e"], [fill="#243b3d"],
+  [fill="#24464b"], [fill="#294b4e"], [fill="#181818"], [fill="#1d332f"]) { fill: #edf1f5; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([stroke="#263c3e"], [stroke="#243b3d"],
+  [stroke="#24464b"], [stroke="#294b4e"], [stroke="#181818"], [stroke="#1d332f"]) { stroke: #d3e0ea; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([fill="#6b7771"], [fill="#697677"],
+  [fill="#617476"], [fill="#607876"], [fill="#566d4f"]) { fill: #b9c8d5; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([stroke="#6b7771"], [stroke="#697677"],
+  [stroke="#617476"], [stroke="#607876"]) { stroke: #9fb3c4; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([fill="#dfdfd3"], [fill="#dcded4"],
+  [fill="#dce5df"], [fill="#cbdad3"], [fill="#e4ece5"], [fill="#d8e5dd"],
+  [fill="#e8f0e8"], [fill="#dce6dc"], [fill="#e6eee5"], [fill="#e3ebdd"],
+  [fill="#e6eddd"], [fill="#efe2d8"], [fill="#edf3ed"], [fill="#fcf0e8"]) { fill: #354a59; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([stroke="#dfdfd3"], [stroke="#dcded4"],
+  [stroke="#dce5df"], [stroke="#cbdad3"], [stroke="#d3dec9"],
+  [stroke="#c0cfb7"], [stroke="#aabda6"], [stroke="#a8bda3"],
+  [stroke="#b9cbb0"], [stroke="#b4c8ad"]) { stroke: #455a6c; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([fill="#e96658"], [fill="#dc5e52"],
+  [fill="#d85c50"], [fill="#d4554d"], [fill="#ef695c"]) { fill: var(--calx-coral); }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([stroke="#e96658"], [stroke="#dc5e52"],
+  [stroke="#d85c50"], [stroke="#d4554d"], [stroke="#ef695c"]) { stroke: var(--calx-coral); }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([fill="#55999c"], [fill="#14858d"],
+  [fill="#137b80"], [fill="#137d82"]) { fill: var(--aqua); }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([stroke="#55999c"], [stroke="#14858d"],
+  [stroke="#137b80"], [stroke="#137d82"]) { stroke: var(--aqua); }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([fill="#a7772b"], [fill="#986b16"], [fill="#926914"]) { fill: #efc47d; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) :is([stroke="#a7772b"], [stroke="#986b16"], [stroke="#926914"]) { stroke: #efc47d; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) text:is([fill="#fffdf5"], [fill="#fffdf4"],
+  [fill="#fffdf7"], [fill="#fff"], [fill="#ffffff"]) { fill: #13232d; }
+html[data-theme="dark"] :is(.secl-canvas, .sl-stage, .htv-stage, .mpv-stage,
+  .help-example-diagram, .hint-schematic, .lab, .inline-experiment, .hero-equation)
+  svg:not(.native-exercise-svg) text:not([fill]) { fill: var(--ink); }
+
+/* Older foundation simulations use their own small palette and inline SVG text.
+   Match only those exact values; leave source SVG and the dark teaching stages alone. */
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([fill="#293a39"], [fill="#244b4d"]) { fill: var(--ink); }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([stroke="#293a39"], [stroke="#244b4d"]) { stroke: #d3e0ea; }
+html[data-theme="dark"] :is(.lab, .inline-experiment) svg text[style*="fill:#293a39"],
+html[data-theme="dark"] :is(.lab, .inline-experiment) svg text[style*="fill:#1d332f"] { fill: var(--ink) !important; }
+html[data-theme="dark"] :is(.lab, .inline-experiment) svg text[style*="fill:#697775"] { fill: #b9c8d5 !important; }
+html[data-theme="dark"] :is(.lab, .inline-experiment) svg text[style*="fill:#d85549"],
+html[data-theme="dark"] :is(.lab, .inline-experiment) svg text[style*="fill:#346a4e"] { fill: var(--calx-coral) !important; }
+html[data-theme="dark"] :is(.lab, .inline-experiment) svg text[style*="fill:#27858b"] { fill: var(--aqua) !important; }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([fill="#697775"], [fill="#8c9f85"]) { fill: #b9c8d5; }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([stroke="#bfcac5"], [stroke="#d5e8ed"],
+  [stroke="#8cadb6"], [stroke="#bdccc4"], [stroke="#becdaf"], [stroke="#b8c9ab"],
+  [stroke="#adced6"], [stroke="#afbe9f"], [stroke="#adbd9e"], [stroke="#a9bd98"],
+  [stroke="#a8ba97"], [stroke="#aabf96"]) { stroke: #586d7e; }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([fill="#e8efea"], [fill="#e1e9d6"],
+  [fill="#dfe8d4"], [fill="#f5f8ef"]) { fill: #354a59; }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([fill="#d5e9e3"], [fill="#bdebf1"], [fill="#b8e5ec"]) { fill: #23474b; }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([fill="#f8d8c8"], [fill="#fff1f0"],
+  [fill="#f6b1aa"], [fill="#fac9c4"]) { fill: #4d393b; }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([fill="#d85549"], [fill="#da4d3f"],
+  [fill="#cc3f31"], [fill="#dc5c4f"], [fill="#e9685b"], [fill="#ef7367"]) { fill: var(--calx-coral); }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([stroke="#d85549"], [stroke="#da4d3f"],
+  [stroke="#cc3f31"], [stroke="#dc5c4f"], [stroke="#e9685b"]) { stroke: var(--calx-coral); }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([fill="#27858b"], [fill="#346a4e"], [fill="#507a52"],
+  [fill="#346b4e"], [fill="#48794e"], [fill="#3d734d"], [fill="#557b4c"]) { fill: var(--aqua); }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([stroke="#27858b"], [stroke="#346a4e"],
+  [stroke="#51745b"], [stroke="#507a52"], [stroke="#6e915d"], [stroke="#497145"],
+  [stroke="#168184"], [stroke="#367b88"], [stroke="#48794e"], [stroke="#3d734d"],
+  [stroke="#557b4c"], [stroke="#5c844c"]) { stroke: var(--aqua); }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([fill="#be8b59"], [fill="#ba8359"], [fill="#bd8556"],
+  [fill="#bb8255"], [fill="#bb865b"], [fill="#b2845c"]) { fill: #efc47d; }
+html[data-theme="dark"] :is(.lab, .inline-experiment, .help-example-diagram)
+  svg:not(.native-exercise-svg) :is([stroke="#be8b59"], [stroke="#bb8d60"],
+  [stroke="#b38159"], [stroke="#ba8658"], [stroke="#bb865b"], [stroke="#b2845c"]) { stroke: #efc47d; }
+
+/* Textbook scans and source artwork keep their own paper and original colors.
+   These are intentionally distinct from the authored live diagrams above. */
+html[data-theme="dark"] :is(.question-source-art, .native-exercise-columns,
+  .native-exercise-svg, .answer-source-crop, .question-help-source-answer,
+  .native-problem-figures) {
+  background: #fffdf7;
+  color: #252c2a;
+  color-scheme: light;
+  border-color: #73818e;
+}
+html[data-theme="dark"] .question-work.chapter-study-work .chapter-study-figure .question-source-art { background: #fffdf7; }
+html[data-theme="dark"] .native-problem-figures figcaption { color: #555e58; }
+html[data-theme="dark"] .lab-problem-context figure img { background: #fffdf7; }
+html[data-theme="dark"] .question-help-source-answer:empty { background: transparent; }
+html[data-theme="dark"] .question-help-source-answer .question-source-answer-label { color: #555e58; }
+
+/* The fixed calculator has the same dark paper and strong numeric contrast. */
+html[data-theme="dark"] :is(.calculator-trigger, .calculator-mini, .calculator-panel) {
+  background: var(--calx-paper);
+  color: var(--ink);
+  border-color: #718194;
+}
+html[data-theme="dark"] :is(.calculator-mini, .calculator-panel) {
+  border-left-color: var(--calx-coral);
+  border-top-color: var(--calx-coral);
+  box-shadow: 0 12px 36px #0006;
+}
+html[data-theme="dark"] :is(.calculator-trigger:hover,
+  .calculator-trigger[aria-expanded="true"], .calculator-mini:hover,
+  .calc-close:hover, .calc-minimize:hover) { background: var(--mode-hover); border-color: var(--calx-coral); }
+html[data-theme="dark"] :is(.calculator-mini svg, .calc-heading h2 span) { color: var(--calx-coral); }
+html[data-theme="dark"] .calc-heading h2 { color: var(--ink); }
+html[data-theme="dark"] :is(.calc-eyebrow, .calc-mode-note, .calc-display > label,
+  .calc-result-row > span, .calc-target, .calc-history summary, .calc-history-item,
+  .calc-history-item small, .calc-empty, .calc-footnote) { color: var(--calx-readable); }
+html[data-theme="dark"] :is(.calc-close, .calc-minimize, .calc-angle, .calc-inverse) {
+  background: var(--calx-soft);
+  color: var(--ink);
+  border-color: #718194;
+}
+html[data-theme="dark"] :is(.calc-angle button, .calc-inverse) { color: var(--calx-readable); }
+html[data-theme="dark"] :is(.calc-angle button[aria-pressed="true"], .calc-inverse[aria-pressed="true"]) {
+  background: #38505e;
+  color: #d1eeeb;
+}
+html[data-theme="dark"] .calc-display { background: #111e29; border-color: #718194; }
+html[data-theme="dark"] .calc-display input { color: var(--ink); }
+html[data-theme="dark"] .calc-result-row output { color: #d1eeeb; }
+html[data-theme="dark"] :is(.calc-result-row, .calc-history, .calc-history-item, .calc-footnote) { border-color: var(--line); }
+html[data-theme="dark"] .calc-message { color: var(--mode-bad-ink); }
+html[data-theme="dark"] .calc-key { background: #283b4d; color: #e6eef5; border-color: #6a7e91; }
+html[data-theme="dark"] .calc-key-number { background: #20303f; color: #fff; }
+html[data-theme="dark"] .calc-key:hover { background: #3b5366; border-color: #a1b5c6; }
+html[data-theme="dark"] .calc-key:active { background: #466478; }
+html[data-theme="dark"] .calc-key-equals { background: var(--calx-coral); color: #17212b; border-color: var(--calx-coral); }
+html[data-theme="dark"] .calc-key-equals:hover { background: #ffb0a3; border-color: #ffb0a3; }
+
+@media (max-width: 760px) {
+  .shell > header { min-height: 60px; padding-block: 6px; gap: 10px; }
+  .header-right { display: flex; gap: 8px; margin-left: auto; flex-shrink: 0; }
+  .header-right :is(.local-note, .avatar) { display: none; }
+  .crumb { min-width: 0; line-height: 1.6; }
+  .theme-toggle { padding: 9px 10px; font-size: 11px; }
+  html[data-theme="dark"] .fresh-hero { background: #37303a; }
+  html[data-theme="dark"] .fresh-hero .hero-visual { background: #1d2c3b; }
+}
+@media (max-width: 380px) {
+  .theme-toggle-label { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+  .theme-toggle { padding: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle { transition: none; }
+}
+
+/* Fixed-scale Chapter 6 force constructions. Preserve open paths and markers. */
+html[data-theme="dark"] .pfc-svg .pfc-ink[fill] { fill: #e5eae4; }
+html[data-theme="dark"] .pfc-svg .pfc-grid[stroke] { stroke: #3d4d4b; }
+html[data-theme="dark"] .pfc-svg .pfc-axis[stroke] { stroke: #8baba4; }
+html[data-theme="dark"] .pfc-svg .pfc-paper[fill] { fill: #182323; }
+html[data-theme="dark"] .pfc-svg .pfc-region[fill] { fill: #243332; }
+html[data-theme="dark"] .pfc-svg .pfc-first[stroke] { stroke: #ff9587; }
+html[data-theme="dark"] .pfc-svg .pfc-first[fill]:not([fill="none"]) { fill: #ff9587; }
+html[data-theme="dark"] .pfc-svg .pfc-second[stroke] { stroke: #7bcdd1; }
+html[data-theme="dark"] .pfc-svg .pfc-second[fill]:not([fill="none"]) { fill: #7bcdd1; }
+html[data-theme="dark"] .pfc-svg .pfc-third[stroke] { stroke: #cfb9ef; }
+html[data-theme="dark"] .pfc-svg .pfc-third[fill]:not([fill="none"]) { fill: #cfb9ef; }
+
+/* Typed Chapter 7 work/energy functions; hollow endpoint limits remain hollow. */
+html[data-theme="dark"] .pwp-svg .pwp-ink[fill] { fill: #e5eae4; }
+html[data-theme="dark"] .pwp-svg .pwp-grid[stroke] { stroke: #3d4d4b; }
+html[data-theme="dark"] .pwp-svg .pwp-axis[stroke] { stroke: #8baba4; }
+html[data-theme="dark"] .pwp-svg .pwp-paper[fill] { fill: #182323; }
+html[data-theme="dark"] .pwp-svg .pwp-first[stroke] { stroke: #ff9587; }
+html[data-theme="dark"] .pwp-svg .pwp-first[fill]:not([fill="none"]) { fill: #ff9587; }
+html[data-theme="dark"] .pwp-svg .pwp-second[stroke] { stroke: #7bcdd1; }
+html[data-theme="dark"] .pwp-svg .pwp-second[fill]:not([fill="none"]) { fill: #7bcdd1; }
+html[data-theme="dark"] .pwp-svg .pwp-third[stroke] { stroke: #cfb9ef; }
+html[data-theme="dark"] .pwp-svg .pwp-third[fill]:not([fill="none"]) { fill: #cfb9ef; }
+html[data-theme="dark"] .pwp-svg .pwp-open-first[fill] { fill: #182323; }
+html[data-theme="dark"] .pwp-svg .pwp-open-first[stroke] { stroke: #ff9587; }
+html[data-theme="dark"] .pwp-svg .pwp-open-second[fill] { fill: #182323; }
+html[data-theme="dark"] .pwp-svg .pwp-open-second[stroke] { stroke: #7bcdd1; }
+html[data-theme="dark"] .pwp-svg .pwp-open-third[fill] { fill: #182323; }
+html[data-theme="dark"] .pwp-svg .pwp-open-third[stroke] { stroke: #cfb9ef; }

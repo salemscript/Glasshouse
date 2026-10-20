@@ -1,0 +1,99 @@
+/* Dedicated circuit uses Glasshouse's cream/coral and dark-mode tokens. */
+.rc-circuit-lab { --rc-ink:#263c3e; --rc-muted:#59655f; --rc-coral:#bb4337; --rc-accent:#e96658; --rc-aqua:#267b80; --rc-line:#b6bcb3; --rc-paper:#fffdf5; --rc-soft:#f3f1e8; color:var(--rc-ink); font:14px/1.65 Inter,Arial,sans-serif; }
+html[data-theme="dark"] .rc-circuit-lab { --rc-ink:#f4f6fa; --rc-muted:#bdcad5; --rc-coral:#ffad9f; --rc-accent:#ff9587; --rc-aqua:#7bcdd1; --rc-line:#667888; --rc-paper:#1a2633; --rc-soft:#202f3e; }
+.rc-heading { max-width:780px; margin:10px 0 14px; }
+.rc-heading h3 { font-size:clamp(22px,3vw,30px); line-height:1.25; letter-spacing:-.035em; margin:8px 0; color:var(--rc-ink); }
+.rc-heading p { color:var(--rc-muted); margin:0; }
+.rc-scene { width:100%; overflow-x:auto; background:var(--rc-paper); border:1px solid var(--rc-line); border-radius:12px; -webkit-overflow-scrolling:touch; }
+.rc-circuit-svg { display:block; width:100%; min-width:780px; height:auto; color:var(--rc-ink); font-family:Inter,Arial,sans-serif; }
+.rc-circuit-svg text { fill:var(--rc-ink); font-size:18px; }
+.rc-circuit-svg .rc-label { font-size:18px; font-weight:600; }
+.rc-circuit-svg .rc-small { font-size:15px; fill:var(--rc-muted); }
+.rc-circuit-svg .rc-gap-label { font-size:14px; font-weight:500; }
+.rc-wire,.rc-resistor,.rc-switch { fill:none; stroke:var(--rc-ink); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+.rc-wire.rc-inactive { stroke:var(--rc-line); stroke-dasharray:5 5; }
+.rc-wire.rc-active,.rc-switch { stroke:var(--rc-coral); }
+.rc-battery { stroke:var(--rc-ink); stroke-width:5; }
+.rc-circuit-svg .rc-polarity { fill:var(--rc-coral); font-size:23px; }
+.rc-junction { fill:var(--rc-coral); }
+.rc-contact { fill:var(--rc-paper); stroke:var(--rc-coral); stroke-width:2; }
+.rc-plate { stroke-width:8; stroke-linecap:square; }
+.rc-positive { stroke:var(--rc-coral); }
+.rc-negative { stroke:var(--rc-aqua); }
+.rc-charge-positive { fill:var(--rc-coral)!important; font-weight:700; font-size:19px!important; }
+.rc-charge-negative { fill:var(--rc-aqua)!important; font-weight:700; font-size:19px!important; }
+.rc-gap { fill:var(--rc-soft); }
+.rc-field-fill,.rc-heat { fill:var(--rc-accent); }
+.rc-field-arrow { stroke:var(--rc-coral); stroke-width:1.8; fill:none; }
+.rc-voltage { stroke:var(--rc-ink); stroke-width:1.5; }
+.rc-current-arrow { stroke:var(--rc-coral); stroke-width:2; fill:none; }
+.rc-electron { fill:var(--rc-aqua); stroke:var(--rc-paper); stroke-width:1.2; }
+.rc-current-particle { fill:var(--rc-coral); stroke:var(--rc-paper); stroke-width:1.2; }
+.rc-frame-note,.rc-help,.rc-source { color:var(--rc-muted); font-size:12px; line-height:1.65; }
+.rc-frame-note { margin:8px 0 18px; }
+.rc-readouts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1px; border:1px solid var(--rc-line); background:var(--rc-line); border-radius:9px; overflow:hidden; margin-bottom:22px; }
+.rc-readouts>div { padding:13px 16px; background:var(--rc-paper); }
+.rc-readouts span { display:block; font-size:12px; color:var(--rc-muted); }
+.rc-readouts b { display:block; font-size:19px; font-weight:600; color:var(--rc-ink); font-variant-numeric:tabular-nums; }
+.rc-control-grid { display:grid; grid-template-columns:1fr 1fr; gap:30px; }
+.rc-circuit-lab label { color:var(--rc-ink); display:block; font-size:13px; font-weight:500; }
+.rc-circuit-lab output { float:right; font-weight:600; color:var(--rc-coral); font-variant-numeric:tabular-nums; }
+.rc-circuit-lab input[type="range"] { display:block; width:100%; min-height:36px; margin:2px 0 9px; accent-color:var(--rc-coral); }
+.rc-circuit-lab button { min-height:42px; border:1px solid var(--rc-line); border-radius:6px; background:var(--rc-paper); color:var(--rc-ink); font:600 12px/1.4 Inter,Arial,sans-serif; padding:9px 13px; cursor:pointer; }
+.rc-circuit-lab button:hover { border-color:var(--rc-coral); background:var(--rc-soft); }
+.rc-circuit-lab button[aria-pressed="true"] { color:var(--rc-coral); border-color:var(--rc-coral); background:var(--rc-soft); }
+.rc-circuit-lab :is(button,select,input,summary,.rc-scene):focus-visible { outline:3px solid var(--rc-aqua); outline-offset:3px; }
+.rc-switches { border:0; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:8px; }
+.rc-switches legend { padding:0 0 8px; font-weight:600; font-size:13px; }
+.rc-transport,.rc-presets { display:flex; flex-wrap:wrap; gap:7px; margin:9px 0; }
+.rc-circuit-lab select,.rc-circuit-lab input[type="number"] { display:block; width:100%; margin:6px 0 10px; padding:10px 11px; min-height:42px; border:1px solid var(--rc-line); border-radius:5px; background:var(--rc-paper); color:var(--rc-ink); font:14px/1.4 Inter,Arial,sans-serif; }
+.rc-field-toggle { display:flex!important; gap:8px; align-items:center; }
+.rc-field-toggle input { accent-color:var(--rc-coral); }
+.rc-status { min-height:46px; color:var(--rc-muted); font-size:12px; }
+.rc-explanation,.rc-practice { border-top:1px solid var(--rc-line); margin-top:20px; padding-top:15px; }
+.rc-circuit-lab summary { cursor:pointer; font-weight:600; font-size:15px; color:var(--rc-ink); padding:4px 0; }
+.rc-teaching { padding-left:22px; max-width:880px; }
+.rc-teaching li { margin:12px 0; padding-left:4px; }
+.rc-equation { background:var(--rc-soft); border-radius:7px; padding:15px 20px; overflow-x:auto; color:var(--rc-ink); }
+.rc-equation math { color:var(--rc-ink); font-family:'CALX Latin Modern Math','Latin Modern Math','STIX Two Math',Cambria Math,serif; font-size:22px; }
+.rc-equation p { color:var(--rc-ink); font-size:13px; margin:8px 0 0; }
+.rc-loop-check { margin:12px 0; color:var(--rc-muted); font-size:13px; }
+.rc-practice>label { max-width:420px; margin-top:10px; }
+.rc-answer { display:flex; gap:9px; flex-wrap:wrap; align-items:flex-end; }
+.rc-answer label { width:200px; }
+.rc-answer input[type="number"] { margin-bottom:0; }
+.rc-answer button { margin-bottom:0; }
+.rc-feedback-correct { color:var(--rc-aqua); }
+.rc-feedback-retry { color:var(--rc-coral); }
+[data-rc-solution] { border-left:3px solid var(--rc-accent); padding:2px 14px; }
+.rc-source { border-top:1px solid var(--rc-line); padding-top:14px; margin-top:24px; }
+@media(max-width:720px) { .rc-control-grid { grid-template-columns:1fr; gap:12px; } .rc-readouts { grid-template-columns:repeat(2,minmax(0,1fr)); } .rc-readouts>div { padding:10px 12px; } .rc-readouts b { font-size:16px; } .rc-circuit-svg { min-width:780px; } }
+@media(prefers-reduced-motion:reduce) { .rc-circuit-lab * { animation:none!important; transition:none!important; scroll-behavior:auto!important; } }
+/* Follow component voltage through the actual circuit; current is the moving quantity. */
+.rc-inspect-controls { display:flex; flex-wrap:wrap; gap:7px; margin:16px 0 12px; }
+.rc-inspect-controls button { flex:1 1 135px; text-align:left; }
+.rc-inspect-controls button[aria-pressed="true"] { background:var(--rc-coral); color:var(--rc-paper); }
+html[data-theme="dark"] .rc-inspect-controls button[aria-pressed="true"] { color:#15222f; }
+.rc-inspection-halo { fill:var(--rc-accent); fill-opacity:.1; stroke:var(--rc-coral); stroke-width:2; stroke-dasharray:5 4; }
+.rc-inspection-halo path { fill:none; stroke-width:13; stroke-opacity:.28; stroke-dasharray:none; }
+.rc-potential-low,.rc-potential-high { fill:none; stroke-width:5; stroke-linecap:round; stroke-linejoin:round; }
+.rc-potential-low { stroke:var(--rc-aqua); }
+.rc-potential-high { stroke:var(--rc-coral); }
+.rc-potential-key-low { fill:var(--rc-aqua); }
+.rc-potential-key-high { fill:var(--rc-coral); }
+.rc-node circle { fill:var(--rc-paper); stroke:var(--rc-ink); stroke-width:2; }
+.rc-circuit-svg .rc-node-label { fill:var(--rc-ink); font-weight:700; font-size:16px; }
+.rc-resistance-band { stroke:var(--rc-coral); stroke-width:5; }
+.rc-snapshot { display:flex; flex-wrap:wrap; align-items:baseline; gap:5px 15px; margin:0 0 15px; color:var(--rc-ink); padding:12px 16px; border-left:3px solid var(--rc-coral); background:var(--rc-soft); }
+.rc-snapshot b { font-size:13px; }
+.rc-snapshot span { font-size:13px; }
+.rc-inspection { background:var(--rc-paper); border:1px solid var(--rc-line); border-radius:8px; padding:17px 20px; margin:0 0 18px; }
+.rc-inspection h4 { color:var(--rc-ink); margin:0 0 8px; font-size:17px; line-height:1.4; }
+.rc-inspection p { color:var(--rc-ink); margin:8px 0; max-width:900px; }
+.rc-inspection-equation { font-family:'CALX Latin Modern Math','Latin Modern Math','STIX Two Math',Cambria Math,serif; font-size:19px; overflow-wrap:anywhere; }
+.rc-inspection .rc-watch { color:var(--rc-muted); font-size:13px; }
+@media(max-width:720px) { .rc-inspection { padding:14px; } .rc-inspect-controls button { flex-basis:40%; } .rc-inspection-equation { font-size:17px; } }
+.rc-resistor-voltage-low,.rc-resistor-voltage-high { fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+.rc-resistor-voltage-low { stroke:var(--rc-aqua); }
+.rc-resistor-voltage-high { stroke:url(#rc-resistor-voltage); }
+.rc-potential-gradient-stop { stop-color:var(--rc-coral); }

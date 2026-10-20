@@ -1,0 +1,51 @@
+/* Calm chapter references. Native MathML inherits a local system math font. */
+.formula-heading{align-items:flex-end;gap:28px;margin:0 0 24px}
+.formula-heading>div:first-child{max-width:650px}
+.formula-heading h2{font-size:clamp(25px,2.8vw,34px);line-height:1.18;letter-spacing:-.035em;margin:10px 0 12px}
+.formula-heading p{font-size:14px;line-height:1.7;margin:0;color:#575651}
+.formula-search-wrap{flex:0 0 290px;min-width:0}
+.formula-search-wrap label{display:block;font-size:12px;font-weight:650;color:#363632;margin:0 0 9px}
+.formula-heading .search{display:block;width:100%;min-height:47px;background:#fff;padding:13px 15px;border:1px solid #a5a29b;color:#181818}
+.formula-heading .search::placeholder{color:#74716c}
+.formula-reference-note{display:flex;gap:11px;align-items:flex-start;max-width:850px;margin:0 0 24px;color:#4a5455}
+.formula-reference-note p{font-size:12px;line-height:1.65;margin:0}
+.formula-note-mark{flex:0 0 19px;width:19px;height:19px;display:grid;place-items:center;border:1px solid #809f9f;border-radius:50%;font:italic 12px Georgia,serif;color:#2a5d66;margin-top:1px}
+.formula-results{font-size:11px;color:#62605a;letter-spacing:.04em;margin:0 0 15px}
+#formula-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.formula-card{min-width:0;background:#fff;border:1px solid #d9d4cc;border-top:3px solid #24373b;padding:28px 28px 0;box-shadow:none}
+.formula-card-header{display:flex;align-items:flex-start;gap:18px;min-width:0;margin-bottom:22px}
+.formula-chapter{font-size:10px;line-height:1.4;font-weight:700;white-space:nowrap;letter-spacing:.08em;text-transform:uppercase;color:#292b27;padding:7px 9px;background:#fbe3df;border:1px solid #eccac4;font-variant-numeric:tabular-nums}
+.formula-card-header h3{font-size:19px;line-height:1.35;font-weight:650;letter-spacing:-.023em;margin:2px 0 0;color:#20231f;overflow-wrap:break-word}
+.formula-expression{display:grid;gap:0;line-height:1.55;margin:0 0 22px;padding:5px 18px;background:#f5faf9;border:1px solid #deebea;color:#14292d;font-family:Georgia,'Times New Roman',serif;overflow-wrap:normal}
+.formula-line{min-width:0;padding:19px 0 21px;border-top:1px solid #dfeae7}
+.formula-line:first-child{border:0}
+.formula-line-label{display:block;text-align:center;font:600 10px/1.6 Inter,Arial,Helvetica,sans-serif;letter-spacing:.04em;color:#4d6c6e;margin:0 0 13px}
+.formula-math-scroll{max-width:100%;min-width:0;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#96bab9 transparent;padding:5px 1px 8px}
+.formula-math-scroll:focus-visible{outline:2px solid #047c9d;outline-offset:3px}
+.formula-expression math{font-family:'STIX Two Math','Cambria Math','Latin Modern Math',Georgia,serif;font-size:clamp(21px,2.05vw,27px);math-style:normal;display:block;width:max-content;min-width:min-content;margin:0 auto;line-height:1.75;color:#14292d}
+.formula-expression mtext{font-family:Inter,Arial,Helvetica,sans-serif;font-size:.86em;line-height:1.6}
+.formula-card .formula-prose{font:19px/1.8 Georgia,'Times New Roman',serif;margin:0;text-align:center;color:#14292d;overflow-wrap:break-word;text-wrap:pretty}
+.formula-symbols{margin:0 0 22px;padding:0;display:grid;gap:8px}
+.formula-symbols>div{display:grid;grid-template-columns:minmax(55px,90px) minmax(0,1fr);gap:12px;align-items:baseline}
+.formula-symbols dt{font:italic 15px/1.5 Georgia,'Times New Roman',serif;color:#263b3f;overflow-wrap:anywhere}
+.formula-symbols dd{margin:0;font-size:12px;line-height:1.65;color:#575950}
+.formula-conditions{border-top:1px solid #e8e3db;padding:18px 0 0;margin:0 0 20px}
+.formula-conditions h4{font-size:10px;line-height:1.4;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#57584e;margin:0 0 9px}
+.formula-card .formula-conditions p{font-size:13px;line-height:1.8;margin:0;color:#444840;max-width:65ch;text-wrap:pretty}
+.formula-card .formula-reference{margin:0 0 20px;font-size:10px;line-height:1.65;color:#747369}
+.formula-card .formula-notation-note{font:12px/1.65 Inter,Arial,Helvetica,sans-serif;color:#62635a;margin:12px 0 0}
+.formula-card-footer{border-top:1px solid #e8e3db;padding:17px 0 19px}
+.formula-card-footer .text-button{font-size:11px;line-height:1.65;color:#275965;text-align:left;text-decoration-thickness:1px;text-underline-offset:4px;min-height:28px}
+#formula-list>.empty{grid-column:1/-1;padding:24px 0;color:#62605a}
+@media(min-width:1380px){.formula-card{padding:32px 32px 0}.formula-card-header{margin-bottom:26px}.formula-expression{padding-inline:22px}}
+@media(max-width:900px){#formula-list{grid-template-columns:1fr}.formula-heading{align-items:stretch}.formula-search-wrap{flex-basis:260px}.formula-expression math{font-size:26px}.formula-card{padding:26px 26px 0}.formula-math-scroll{padding-inline:6px}}
+@media(max-width:760px){.formula-heading{display:flex;flex-direction:column;gap:22px}.formula-search-wrap{flex-basis:auto;width:100%}.formula-heading .search{font-size:16px}.formula-reference-note{margin-bottom:20px}.formula-card-header{gap:12px}.formula-card-header h3{font-size:18px}.formula-chapter{font-size:9px;padding:7px}.formula-card{padding:22px 18px 0}.formula-expression{padding-inline:12px}.formula-expression math{font-size:23px}.formula-card .formula-prose{font-size:18px;line-height:1.8}.formula-symbols>div{grid-template-columns:65px minmax(0,1fr);gap:10px}.formula-symbols dd{font-size:12px}.formula-card-footer{padding-block:15px 18px}}
+@media(prefers-reduced-motion:reduce){.formula-card,.formula-math-scroll{scroll-behavior:auto}}
+
+.formula-notation-source{border:1px solid #e4e2db;padding:12px 14px;margin:0 0 20px;background:#fcfbf8}
+.formula-notation-source summary{cursor:pointer;font-size:11px;line-height:1.7;color:#52594f;font-weight:600}
+.formula-card .formula-notation-source p{font-size:12px;line-height:1.8;color:#62635a;margin:12px 0 0}
+.formula-card .formula-notation-source .formula-notation-original{font:18px/1.8 Georgia,'Times New Roman',serif;color:#293c3f}
+.formula-card .formula-reference .text-button{font-size:10px;line-height:1.6;color:#275965;margin-top:4px}
+
+.formula-card[data-current-chapter="true"]{border-top-color:#e86b5e;box-shadow:0 0 0 1px #e86b5e33;scroll-margin-top:24px}
