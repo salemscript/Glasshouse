@@ -38,4 +38,16 @@ assert(!C.validate({ground:0,elements:[el('resistor','R1',[1,1],[2,1],0)]}).vali
 assert(!C.validate({ground:0,elements:[el('wire','W1',[1,1],[2,1]),el('resistor','R1',[1,1],[2,1],100)]}).valid);checks++;
 assert(!C.validate({ground:0,elements:[el('voltage','V1',[1,1],[1,2],NaN)]}).valid);checks++;
 for(const p of ['blank','divider','series','parallel','bridge'])assert(C.validate(C.preset(p)).valid);checks+=5;
-console.log(`PASS: ${checks} solver assertions: analytic series/parallel/bridge results, KCL, energy, scaling, polarity, floating networks, open paths, current sources, ideal-source conflicts and underdetermined currents.`);
+// Wire-arrow directions are checked independently at every actual grid junction.
+for(const name of ['divider','series','parallel','bridge'])for(const sign of [1,-1]){
+ const circuit=C.preset(name);circuit.elements.find(e=>e.type==='voltage').value*=sign;
+ const result=solved(circuit),segments=C.wireCurrents(circuit,result),junction={};
+ for(const e of circuit.elements.filter(e=>e.type!=='wire')){const I=result.branches[e.id].current;junction[e.a]=(junction[e.a]||0)+I;junction[e.b]=(junction[e.b]||0)-I;}
+ for(const e of segments){assert.notEqual(e.current,null);checks++;junction[e.a]=(junction[e.a]||0)+e.current;junction[e.b]=(junction[e.b]||0)-e.current;}
+ Object.values(junction).forEach(v=>near(v,0));
+ if(name==='divider'){const top=segments.find(e=>e.a===N(1,1)&&e.b===N(2,1));near(top.current,sign*.03);const bottom=segments.find(e=>e.a===N(1,4)&&e.b===N(2,4));near(bottom.current,-sign*.03);}
+}
+let loop=C.preset('blank');loop.elements=[el('wire','W1',[1,1],[3,1]),el('wire','W2',[3,1],[3,3]),el('wire','W3',[3,3],[1,3]),el('wire','W4',[1,3],[1,1])];
+assert(C.wireCurrents(loop,solved(loop)).every(e=>e.current===null));checks++;
+let opened=C.preset('divider');opened.elements=opened.elements.filter(e=>e.id!=='R1');C.wireCurrents(opened,solved(opened)).forEach(e=>near(e.current,0));
+console.log(`PASS: ${checks} solver assertions: analytic series/parallel/bridge results, KCL, energy, scaling, polarity, floating networks, open paths, current sources, ideal-source conflicts and underdetermined currents; full wire-arrow directions and ambiguous ideal-wire cycles.`);

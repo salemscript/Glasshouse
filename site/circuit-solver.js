@@ -133,6 +133,42 @@
   }
   return{version:1,elements,ground,positive,negative};
  }
- const api={COLS,ROWS,MAX_ELEMENTS,LIMITS,validNode,node,xy,label,adjacent,wireNodes,wireEdges,edge,validate,linear,solve,preset};
+ // Recover only uniquely determined ideal-wire segment currents. A bridge of
+ // the wire graph carries the sum of component currents on one side (KCL).
+ // Edges on ideal-wire cycles have an arbitrary circulating current: leave null.
+ function wireCurrents(input,result){
+  const edges=new Map(),graph=new Map(),out=new Map(),unknown=new Set();
+  const addNode=n=>{if(!graph.has(n))graph.set(n,[]);};
+  for(const e of input.elements.filter(e=>e.type==='wire')){
+   const ns=wireNodes(e.a,e.b);
+   for(let i=1;i<ns.length;i++){
+    const a=Math.min(ns[i-1],ns[i]),b=Math.max(ns[i-1],ns[i]),key=edge(a,b);
+    if(edges.has(key))continue;const item={a,b,current:null};edges.set(key,item);addNode(a);addNode(b);graph.get(a).push(b);graph.get(b).push(a);
+   }
+  }
+  for(const e of input.elements.filter(e=>e.type!=='wire')){
+   const I=result.branches[e.id]?.current;
+   if(!Number.isFinite(I)){unknown.add(e.a);unknown.add(e.b);continue;}
+   out.set(e.a,(out.get(e.a)||0)+I);out.set(e.b,(out.get(e.b)||0)-I);
+  }
+  let tick=0;const entered=new Map(),low=new Map();
+  function visit(n,parent,pending){
+   entered.set(n,++tick);low.set(n,tick);let sum=out.get(n)||0,bad=unknown.has(n);
+   for(const child of graph.get(n)){
+    if(child===parent)continue;
+    if(entered.has(child)){low.set(n,Math.min(low.get(n),entered.get(child)));continue;}
+    const sub=visit(child,n,pending);sum+=sub.sum;bad=bad||sub.bad;low.set(n,Math.min(low.get(n),low.get(child)));
+    if(low.get(child)>entered.get(n))pending.push({item:edges.get(edge(n,child)),from:n,to:child,sum:sub.sum});
+   }
+   return{sum,bad};
+  }
+  for(const n of graph.keys())if(!entered.has(n)){
+   const pending=[],total=visit(n,null,pending);
+   if(total.bad||Math.abs(total.sum)>1e-7)continue;
+   for(const p of pending)p.item.current=p.item.a===p.from?p.sum:-p.sum;
+  }
+  return [...edges.values()];
+ }
+ const api={COLS,ROWS,MAX_ELEMENTS,LIMITS,validNode,node,xy,label,adjacent,wireNodes,wireEdges,edge,validate,linear,solve,preset,wireCurrents};
  root.CircuitSolver=api;if(typeof module==='object'&&module.exports)module.exports=api;
 })(typeof window!=='undefined'?window:globalThis);
