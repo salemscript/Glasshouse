@@ -169,6 +169,7 @@ window.SectionLabs = (() => {
   // Specialized apparatus models own their controls and physical-time lifecycle.
   // Section construction models and every existing example remain available.
   function labModules(){return [
+    {key:'circuitBuilder',module:window.CircuitBuilderLab,selector:'[data-circuit-builder]'},
     {key:'circuit',module:window.RCCircuitLab,selector:'[data-rc-lab]'},
     {key:'electricFlux',module:window.ElectricFluxLab,selector:'[data-electric-flux-lab]'},
     {key:'physicsApparatus',module:window.PhysicsApparatusLab,selector:'[data-gp-lab]'},
@@ -180,7 +181,7 @@ window.SectionLabs = (() => {
     {key:'organicGeometry',module:window.OrganicGeometryLab,selector:'[data-organic-geometry-lab]'}
   ].filter(item=>item.module);}
   function modelShortcuts(subject){
-    const options={physics:[['4.4','Launch a projectile'],['15.1','Move an oscillator'],['19.3','Explore gas particles'],['27.4','Charge a capacitor'],['34.4','Build an image'],['38.2','Release photoelectrons']],chemistry:[['8.2','Gas piston & particles']],statics:[['5.2','Move a beam load']],dynamics:[['12.2','Run the moving cart']],calculus:[['6.2','Build a solid from slices'],['11.1','Explore sequences & series']],organic:[['1.6','Rotate bond geometry']]};
+    const options={physics:[['4.4','Launch a projectile'],['15.1','Move an oscillator'],['19.3','Explore gas particles'],['27.1','Build your own circuit'],['27.4','Charge a capacitor'],['34.4','Build an image'],['38.2','Release photoelectrons']],chemistry:[['8.2','Gas piston & particles']],statics:[['5.2','Move a beam load']],dynamics:[['12.2','Run the moving cart']],calculus:[['6.2','Build a solid from slices'],['11.1','Explore sequences & series']],organic:[['1.6','Rotate bond geometry']]};
     const links=(options[subject]||[]).flatMap(([section,label])=>{const q=catalog(subject).find(q=>q.section===section);return q&&labModules().some(item=>item.module.applies(q,'base'))?[`<a href="${link(subject,q.chapter,q.section)}">${esc(label)} ↗</a>`]:[];});
     return links.length?`<nav class="secl-model-shortcuts" aria-label="Hands-on models"><span>Hands-on model</span>${links.join('')}</nav>`:'';
   }
