@@ -20,7 +20,7 @@ window.AnswerLibrary=(()=>{
  function validateGuidance(q){
   const out={...q};let removed=false;
   for(const key of ['learningSolutions','workedSolutions'])if(out[key]?.length){const valid=out[key].filter(s=>compatibleSolution(s,out));removed||=valid.length!==out[key].length;out[key]=valid;}
-  if(removed&&!out.learningSolutions?.length&&!out.workedSolutions?.length){out.steps=[];out.solutionStatus=out.answerAudit?.steps?.length?'reviewed-worked-explanation':'reference-only';}
+  if(removed&&!out.learningSolutions?.length&&!out.workedSolutions?.length){const a=out.answerAudit;if(a?.fullWorkedSolution&&a.steps?.length){out.steps=a.steps.map(s=>[s.equation,s.calculation,s.why].filter(Boolean).join(' '));out.solutionStatus='reviewed-specific-solution';}else{out.steps=[];out.solutionStatus=a?.steps?.length?'reviewed-worked-explanation':'reference-only';}}
   return out;
  }
  // Retain useful audited guides, but do not let a guide for one part hide
