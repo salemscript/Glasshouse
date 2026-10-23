@@ -1,0 +1,194 @@
+{
+  "reviewedAt": "2026-10-23",
+  "chapter2ProblemsPlus": {
+    "sourcePages": {
+      "local": [
+        93,
+        94
+      ],
+      "printed": [
+        169,
+        170
+      ],
+      "globalPdf": [
+        201,
+        202
+      ]
+    },
+    "visualReview": "Both source pages rendered at 2000 px and inspected; all fourteen original statements and subparts used.",
+    "exercises": 14,
+    "fields": 27,
+    "authoringFile": "scripts/calculus-answer-checks/chapter-02/author-problems-plus.py",
+    "patch": "scripts/calculus-answer-checks/chapter-02/problems-plus.json",
+    "independentChecks": "python3 scripts/calculus-ch1/check-problems-plus.py",
+    "notableConditions": [
+      "#5a has right limit0 but left+infinity; #5b equals1 from either side.",
+      "#6 floor regions are half-open squares/strips, never a circle or full continuous hyperbola.",
+      "#10 the angle bisector is from B to AC; coordinate-locus sign is positive2bx, with b/3<x<b and0<y<2b.",
+      "#11 opposite points on a small circle are opposite on that circle, not necessarily globally antipodal on Earth; continuity is needed.",
+      "#14 only supplied bound is assumed; differentiability at0 is proved."
+    ]
+  },
+  "chapter3": {
+    "status": "Independent selected high-risk review complete; not an audit of all Chapter3 exercises.",
+    "sourceVisualPages": [
+      {
+        "local": 35,
+        "printed": 205
+      },
+      {
+        "local": 63,
+        "printed": 233
+      },
+      {
+        "local": 98,
+        "printed": 268
+      },
+      {
+        "local": 99,
+        "printed": 269
+      },
+      {
+        "local": 102,
+        "printed": 272
+      },
+      {
+        "local": 103,
+        "printed": 273
+      },
+      {
+        "local": 104,
+        "printed": 274
+      }
+    ],
+    "findings": [
+      {
+        "id": "calculus-section-3-4-66",
+        "change": "Advised owner to replace provisional h′2≈1.5 with graph-based≈.85–1; g′2≈9.3–10.",
+        "evidence": "Evaluated existing magenta cubic Bézier artwork in practice/calculus/237.svg.gz, source12pointgrid. f2≈1.01569049,f′2≈−.87535299,f′(f2)≈−.97525646; product≈.85369366. f′4≈2.31635749,4f′4≈9.26542995.",
+        "limitation": "These are estimates from the printed artwork, not exact analytic function values; explicit generous tolerances are required."
+      },
+      {
+        "id": "calculus-section-3-4-65",
+        "verified": "(3/4,DNE,−2); middle one-sided derivative slopes−6 and4/3."
+      },
+      {
+        "id": "calculus-section-3-7-5",
+        "verified": "Velocity graphs: a speedup(0,1)∪(2,3),slowdown(1,2); b speedup(1,2)∪(3,4),slowdown(0,1)∪(2,3)."
+      },
+      {
+        "id": "calculus-section-3-7-6",
+        "verified": "Both position graphs: speedup(1,2)∪(3,4),slowdown(0,1)∪(2,3),openintervalsexcludeendpoint/verticalslopeissues."
+      },
+      {
+        "id": "calculus-chapter-03-review-70",
+        "verified": "Grid exact f2=1,f′2=−1,g2=4,g′2=2,f′4=3 → product−2,quotient−3/8,composition6."
+      },
+      {
+        "ids": [
+          53,
+          97,
+          98,
+          99,
+          100,
+          102,
+          103
+        ],
+        "scope": "Chapter3ReviewExercises",
+        "verified": "53:−5x⁴/y¹¹,y≠0.97:4/3cm²/min.98:8/(9π)cm/s.99:13ft/s.100:120/√241ft/s.102endpoints(369±16√31)/125.103fullrealaccuracyunion(−3.1326200962,−2.8658956706)∪(−.2355496675,.4014453381).",
+        "independentMethod": "Direct implicit differentiation; independent conservation/geometry calculations; quadratic solving for102; t=realcuberoot(1+3x) gives |(t−1)²(t+2)|<.3 for103."
+      },
+      {
+        "scope": "Chapter3ProblemsPlus",
+        "verified": "11:center(0,5/4).12:c=−5/2 plus c=0 at vertical/horizontal origin tangents if interpreted as at some intersection.13:three common tangent lines.19:intercept ranges open(3,∞),(2,∞),(0,5/3),(−5/2,0).30:tangent-slope quadratic plus real/distinct/exterior restrictions.33:minr=1/(2√29).34:just-before immersion r²/(R²−r²),afterfullimmersion0.35:inflow2+375π/128.",
+        "ownership": "Findings messaged chapter3owner for authoring; no edits to ownerfiles."
+      },
+      {
+        "scope": "Section3.8RBCAppliedProject",
+        "sourceLocalPage": 74,
+        "verified": "NoANHendRBC2.25e^−.5=1.364693984L;loss.885306016L. Single-drawANHmaxvolume5−(1.25/.45)e^.5=.4202186925L. Continuouswellmixedmaxvolume5ln1.8−2.5=.4389333245L. Atconstraintbothmodels:preopRBC1.25e^.5=2.060901588L,postopprereturn1.25L,savedRBC.189098412L,finalreturnedRBC1.439098412L,actualANHloss.810901588L.",
+        "sourceCaveat": "Pre-extraction sequence says blood extracted and replaced; it does not explicitly fix simultaneous vs subsequent replacement. Owner advised to label both model assumptions rather than silently grade ambiguous volume."
+      }
+    ]
+  },
+  "limitations": [
+    "Numeric/choice controls assess their explicit subtask only. Sketches, open examples and proofs retain complete=false.",
+    "No browser QA from this verifier; parent integrates and tests final shared bank."
+  ],
+  "chapter2ReviewConceptsAndTF": {
+    "exercises": 42,
+    "fields": 65,
+    "sourceLocalPages": [
+      89,
+      90
+    ],
+    "sourcePrintedPages": [
+      165,
+      166
+    ],
+    "sourceGlobalPages": [
+      197,
+      198
+    ],
+    "patch": "scripts/calculus-answer-checks/chapter-02/review-concepts.json",
+    "sourceReview": "Both rendered pages visually inspected; definitions, all source subparts, and each truth claim derived from limit laws or explicit counterexamples.",
+    "notableConditions": [
+      "True/False6 explicitly uses finite real limits; an infinite limit may still occur when numerator tends2 and denominator0.",
+      "True/False15: a vertical asymptote does not rule out an isolated assigned point value.",
+      "True/False24 root proven using internal point1, not merely endpoints0 and2."
+    ]
+  },
+  "patchRuntime": "Both Chapter2 patches:92correct fields/blank feedback and148wrong-option/numeric rejection assertions passed actual site AnswerChecker. Shared UI integration remains parent responsibility.",
+  "chapter2Section26SelectedReview": {
+    "sourceVisualPage": {
+      "local": 62,
+      "printed": 138
+    },
+    "checked": "Limits13–46 and asymptotes47–52 compared with the exact rendered source. Selected mathematical/condition review of56,59,65,67–73,75–81 also matched the authored results.",
+    "issuesFound": [],
+    "limitations": [
+      "No independent fresh graph interpretation of section2.6 exercises3–10.",
+      "This is selected independent mathematical review, not a second proof of every one of the81entries."
+    ]
+  },
+  "chapter2ReviewExercisesSelectedReview": {
+    "sourceLocalPages": [
+      90,
+      92
+    ],
+    "sourcePrintedPages": [
+      166,
+      168
+    ],
+    "sourceGlobalPages": [
+      198,
+      200
+    ],
+    "confirmed": {
+      "1": "limits3,0,DNE,2,+∞,−∞,4,−1; horizontals4,−1; verticals0,2; discontinuities−3,0,2,4",
+      "47": "nondifferentiable−4,−1,2,5",
+      "48": "f=a,f′=c,f″=b",
+      "52": "1950slope≈.1 and1965≈−.18 appropriate"
+    },
+    "recommendedChanges": [
+      {
+        "exercise": 52,
+        "part": "F′(1987)",
+        "finding": "Native artwork has a tiny wiggle near1987; original SVG Bézier derivative≈−.004 versus broad-trend≈+.02. Recommended widen .02±.018 to .02±.04or.05, permitting nearzero/slightlynegative graph readings.",
+        "method": "SVGcurve points from practice/calculus/200.svg.gz; xscale2.6687pt/year,y38.56pt/child. Derivative1950≈.09774936,1965≈−.17451899,1987≈−.00403602. Printed artwork estimates, not analytic underlying fertility data."
+      }
+    ]
+  },
+  "chapter2Section28Graph56": {
+    "sourceLocalPage": 88,
+    "sourcePrintedPage": 164,
+    "finding": "Original position drawing does not uniquely specify pointwise second/third derivatives at10s; owner foundC1butnotC2 Bézier join. Recommended source-aligned qualitative/units recognition contract with explicit limited assessment, or a stated finite-difference smoothing estimate instead of claiming exact instantaneous numeric acceleration/jerk from artwork.",
+    "sourceInterpretation": "Position increases; slope grows before transition near10 and approaches a positive constant later; acceleration decreases during transition; jerk unitsft/s³."
+  },
+  "chapter3Legacy246Audit": "See legacy-chapter3-review.json and check-legacy-chapter3.py: all246 source pages inspected; one real wrong-power transcription discovered, five variable-name inconsistencies and one removable derivative hole reported.",
+  "chapter2Section27Graphs18And19": {
+    "sourceLocalPage": 73,
+    "sourcePrintedPage": 149,
+    "confirmed": "18(a)10,(b)[10,50],(c)[40,60] larger,(d)−20/3;19f′50≈25–30,bfalse,ctrue; owner estimates/tolerances appropriate."
+  }
+}

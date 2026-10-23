@@ -48,3 +48,18 @@ The new **View worked solution** button enters the existing solution view and
 marks the attempt assisted. It does not mark an exercise correct or complete.
 The original three-tier hint control continues to work. Coverage is recorded
 in `coverage.json`. No recurring automation is enabled.
+
+## Chapter 1 re-review, 2026-10-23
+
+All 368 exercise IDs retain answer checks (678 fields across seven sets).
+`review-2026-10-23.json` records set-level coverage and the scope of this
+re-review. A source sign error was corrected in §1.2 Exercise 8: the printed
+family is `f(x)=1+m(x+3)`, so all lines meet at **(−3,1)**. The revised TSV
+contains the corrected answer, distractor and worked substitutions; the
+independent mathematics script now protects this source sign explicitly.
+The integration patch is `scripts/calculus-answer-checks/chapter-01.json`.
+The unchanged runtime harness also passed with that patch overlaid in memory:
+368 exercise IDs, 678 correct fields, 1,216 rejected wrong answers and 650
+help modes. Independent mathematical checks passed 3,359 cases. Drawing and
+proof choices still assess a stated result or method; they do not grade a
+student's freehand drawing or written proof.

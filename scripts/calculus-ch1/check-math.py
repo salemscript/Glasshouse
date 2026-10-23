@@ -32,6 +32,15 @@ equal((1/x-1/a)/(x-a),-1/(a*x))
 equal(((x+3)/(x+1)-2)/(x-1),-1/(x+1))
 stated('section-1-1',30,'−1/(x+1)')
 
+# Source §1.2 #8 is 1+m(x+3): a plus sign fixes the common point at -3.
+m=s.symbols('m',real=True)
+equal((1+m*(x+3)).subs(x,-3),1)
+for slope,want in [(-1,-x-2),(0,s.Integer(1)),(1,x+4)]:
+    equal((1+m*(x+3)).subs(m,slope),want)
+stated('section-1-2',8,'(−3,1)')
+assert 'All pass through (−3,1).' == (HERE/'checks/section-1-2.tsv').read_text().split('8\t',1)[1].split('\t',1)[0]
+checks+=1
+
 # Derive compositions from their original functions, then compare with the authored forms.
 pairs={
 33:(3*x+5,x*x+x,[3*x*x+3*x+5,9*x*x+33*x+30,9*x+20,x**4+2*x**3+2*x*x+x]),

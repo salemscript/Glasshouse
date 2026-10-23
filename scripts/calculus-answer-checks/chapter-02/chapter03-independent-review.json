@@ -1,0 +1,57 @@
+{
+  "chapter": 3,
+  "subset": "ProblemsPlus15,16,21,29",
+  "assertions": 7892,
+  "sourcePdf": "site/books/calculus/chapter-03.pdf",
+  "sourceSha256": "c5079cc69423602516047144e1e9550d58194286edba4e67bf8c29dcd6d178c9",
+  "sourceLocalPages": [
+    102,
+    103,
+    104
+  ],
+  "printedPages": [
+    272,
+    273,
+    274
+  ],
+  "sourceVisuallyInspected": true,
+  "findings": {
+    "15": {
+      "angularSpeed": "12πrad/s",
+      "rodAngularVelocityAtPiOver3": "12π/√33rad/s",
+      "pinPosition": ".4[cosθ+√(9−sin²θ)]m",
+      "pinVelocity": "−4.8πsinθ[1+cosθ/√(9−sin²θ)]m/s",
+      "conditions": "Right-hand slider branch; α is the positive rod inclination at P shown in the figure. Wheel speed360rev/min=6rev/s."
+    },
+    "16": {
+      "ratio1": "(b−c)/(b−a)",
+      "ratio2": "(c−a)/(b−a)",
+      "sum": 1,
+      "conditions": "a<c<b are the contact x-coordinates. Rendered formula has denominators |PP1| and |PP2| respectively; OCR has cross-index corruption."
+    },
+    "21": {
+      "intersectionI": [
+        1,
+        1
+      ],
+      "acuteAngleIDegrees": 53,
+      "intersectionsII": [
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "acuteAngleIIDegrees": 63,
+      "conditions": "Use acute nonoriented angle (absolute slope-difference quotient). The printed signed formula describes an oriented angle."
+    },
+    "29": {
+      "derivative": "1/(a+cosx)",
+      "conditions": "For a real original expression require |a|>1 and a+√(a²−1)+cosx≠0. If a>1 denominator is nonzero for all realx; if a<−1 the identity applies on each interval excluding principal-arctangent poles."
+    }
+  },
+  "limitations": "Independent derivations and numerical consistency checks of these four exercises only. No Chapter3 owned files mutated."
+}

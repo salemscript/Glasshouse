@@ -1,0 +1,55 @@
+{
+  "calculus-section-1-2-8": {
+    "fullWorkedSolution": true,
+    "status": "original-worked-explanation",
+    "finalText": "Every line passes through (−3,1).",
+    "steps": [
+      {
+        "title": "Work through the question",
+        "equation": "At x=−3, f(−3)=1+m(−3+3)=1 for every m. Examples m=−1,0,1 give −x−2, 1, and x+4."
+      },
+      {
+        "title": "Check the reasoning and conditions",
+        "why": "Changing m rotates a line about the common point; it does not change the common point's coordinates."
+      },
+      {
+        "title": "Final answer",
+        "calculation": "Every line passes through (−3,1)."
+      }
+    ],
+    "workedSolutionSource": {
+      "type": "original-derivation-from-user-supplied-textbook",
+      "book": "Stewart, Calculus: Early Transcendentals, 8th edition",
+      "chapter": 1,
+      "sourceSet": "section-1-2",
+      "exercise": "8",
+      "pdfPages": [
+        65,
+        66
+      ],
+      "questionFigures": "Preserved original exercise artwork; diagram estimates are explicitly approximate.",
+      "authoringFile": "scripts/calculus-ch1/section-1-2.tsv",
+      "review": "2026-10-23 re-review: visually checked original chapter PDF local page 25, printed p.33; plus sign in f(x)=1+m(x+3) gives common point (-3,1). Parameter substitution independently checked."
+    },
+    "responsePartPrompt": "Use the original exercise above and answer the labeled checks below.",
+    "objectiveCheckVersion": 1,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "grader": {
+      "label": "Your answer",
+      "provenance": "source-aligned-authored-objective-response",
+      "hint": "Use the source statement and its domain, units and part labels. The worked solution is available separately.",
+      "type": "choice",
+      "answer": "All pass through (−3,1).",
+      "options": [
+        "All pass through (−3,1).",
+        "All have the same slope 1.",
+        "All pass through (3,1)."
+      ],
+      "selectionPrompt": "Choose the result or reasoning that matches the source exercise.",
+      "explanation": "Changing m rotates a line about the common point; it does not change the common point's coordinates.",
+      "scope": "Checks the displayed numeric answers or selected results. Freehand drawings and written proofs are not automatically assessed.",
+      "complete": false
+    }
+  }
+}
