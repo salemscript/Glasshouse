@@ -33,6 +33,7 @@
     var meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.setAttribute('content', theme === 'dark' ? '#200e16' : '#ff674f');
     paintControls();
+    window.dispatchEvent(new CustomEvent('glasshouse:mode-change'));
   }
   apply(preference || systemTheme());
   document.addEventListener('click', function (event) {
