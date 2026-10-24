@@ -1,9 +1,26 @@
-/* Native equations across Physics; content verification remains separate. */
+/* Native equations throughout the learning interface; content verification remains separate. */
 @font-face{font-family:'CALX Latin Modern Math';src:url('assets/math/latinmodern-math.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
-:is(.chapter-study-work,.physics-study-work) .solution-math-scroll{display:block;min-width:0;max-width:100%;overflow-x:auto;overflow-y:hidden;padding:9px 2px 13px;scrollbar-width:thin;scrollbar-color:#90b5b0 transparent;white-space:normal;overflow-wrap:normal}
-:is(.chapter-study-work,.physics-study-work) .solution-math-scroll:focus-visible{outline:2px solid #e96658;outline-offset:3px;border-radius:3px}
-:is(.chapter-study-work,.physics-study-work) .solution-math-scroll math{font-family:'CALX Latin Modern Math','Latin Modern Math','STIX Two Math','Cambria Math',math,serif;font-size:clamp(22px,2.2vw,27px);font-weight:400;font-style:normal;line-height:1.9;math-style:normal;math-depth:0;display:block;width:max-content;max-width:none;margin:0;color:var(--solution-math-ink,#184c50);white-space:nowrap}
-:is(.chapter-study-work,.physics-study-work) .solution-math-scroll mtext{font-family:'CALX Latin Modern Math','Latin Modern Math','STIX Two Math','Cambria Math',math,serif;font-style:normal}
-:is(.chapter-study-work,.physics-study-work) .solution-math-scroll mi[mathvariant="normal"]{font-style:normal}
-:is(.chapter-study-work,.physics-study-work) .help-equation:has(.solution-math-scroll),:is(.chapter-study-work,.physics-study-work) .help-substitution:has(.solution-math-scroll),:is(.chapter-study-work,.physics-study-work) .help-solution-calculation:has(.solution-math-scroll){overflow-wrap:normal;white-space:normal}
-@media(max-width:640px){:is(.chapter-study-work,.physics-study-work) .solution-math-scroll math{font-size:22px}:is(.chapter-study-work,.physics-study-work) .solution-math-scroll{padding-block:10px 14px}}
+.solution-math-scroll{display:block;min-width:0;max-width:100%;overflow-x:auto;overflow-y:hidden;padding:9px 2px 13px;scrollbar-width:thin;scrollbar-color:#90b5b0 transparent;white-space:normal;overflow-wrap:normal}
+.solution-math-scroll:focus-visible{outline:2px solid #e96658;outline-offset:3px;border-radius:3px}
+.solution-math-scroll math{font-family:'CALX Latin Modern Math','Latin Modern Math','STIX Two Math','Cambria Math',math,serif;font-size:clamp(22px,2.2vw,27px);font-weight:400;font-style:normal;line-height:1.9;math-style:normal;math-depth:0;display:block;width:max-content;max-width:none;margin:0;color:var(--solution-math-ink,#184c50);white-space:nowrap}
+.solution-math-scroll mtext{font-family:'CALX Latin Modern Math','Latin Modern Math','STIX Two Math','Cambria Math',math,serif;font-style:normal}
+.solution-math-scroll mi[mathvariant="normal"]{font-style:normal}
+.help-equation:has(.solution-math-scroll),.help-substitution:has(.solution-math-scroll),.help-solution-calculation:has(.solution-math-scroll){overflow-wrap:normal;white-space:normal}
+@media(max-width:640px){.solution-math-scroll math{font-size:22px}.solution-math-scroll{padding-block:10px 14px}}
+
+/* Shared readable typesetting for answer cards, formulas and guided steps. */
+.solution-math-scroll{color:inherit;overscroll-behavior-x:contain}
+.solution-math-scroll math{color:inherit;font-size:clamp(20px,1.6vw,25px);line-height:1.65}
+.solution-math-inline{display:inline-block;max-width:100%;vertical-align:middle;padding:3px 2px 5px;line-height:1.4}
+.solution-math-inline math{display:inline-block;font-size:1.12em;margin:0;vertical-align:middle}
+.question-choice-content{display:block;min-width:0;max-width:100%;line-height:1.65;font-size:16px;overflow-wrap:anywhere}
+.question-choice-content .solution-math-scroll{padding:5px 0 7px}
+.question-choice-content math{font-size:clamp(21px,1.7vw,25px)}
+.question-choice-card:has(math){align-items:center;min-height:72px;padding-block:15px}
+.question-choice-card input[type=radio],.question-choice-letter{flex-shrink:0}
+.question-response-field label:has(math){line-height:1.8}
+.solution-math-scroll mfrac{math-depth:0}
+@media(max-width:640px){.question-choice-content math{font-size:21px}.question-choice-card:has(math){padding:12px 10px;gap:10px}.solution-math-scroll{max-width:100%}}
+
+.question-choice-group legend .solution-math-inline{font-weight:400}
+.input-wrap>span:has(math){flex-shrink:0;padding-inline:8px}

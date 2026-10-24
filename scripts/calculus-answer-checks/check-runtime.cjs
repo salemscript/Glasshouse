@@ -7,7 +7,7 @@ const previous=JSON.parse(zlib.gunzipSync(cp.execFileSync('git',['show','HEAD:si
 for(const q of source.filter(q=>!['appendix','diagnostic'].includes(q.chapter)))assert.deepStrictEqual(library.questions[q.id],previous.questions[q.id],q.id+' outside scope');
 const c={console,TextDecoder,TextEncoder,Response,Blob,DecompressionStream,URL,Set,Map,Math,Number,JSON,Date,setTimeout,clearTimeout,document:{addEventListener(){},querySelector(){return null},querySelectorAll(){return[]}},localStorage:{getItem(){return null},setItem(){}},fetch:async url=>new Response(fs.readFileSync(path.join(site,url)))};
 c.window=c;vm.createContext(c);
-for(const file of ['study-data.js','concept-choice-data.js','answer-checker.js','response-parts.js','concept-choices.js','problem-content.js','help-tutor.js','hint-journey.js','answer-library.js','textbook-practice.js'])vm.runInContext(fs.readFileSync(path.join(site,file),'utf8'),c,{filename:file});
+for(const file of ['solution-math.js','study-data.js','concept-choice-data.js','answer-checker.js','response-parts.js','concept-choices.js','problem-content.js','help-tutor.js','hint-journey.js','answer-library.js','textbook-practice.js'])vm.runInContext(fs.readFileSync(path.join(site,file),'utf8'),c,{filename:file});
 (async()=>{
  const totals={};const failures=[];
  for(const original of source){

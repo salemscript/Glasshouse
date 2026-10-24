@@ -3,7 +3,7 @@ const {parseHTML}=require('linkedom'),fs=require('fs'),path=require('path'),vm=r
 const site=path.resolve(__dirname,'../../site')+'/',{document,Event}=parseHTML('<html><body></body></html>');
 const storage=new Map(),c={console,document,Event,TextDecoder,TextEncoder,Response,Blob,DecompressionStream,URL,setTimeout,clearTimeout,location:{hash:''},history:[],record(){},matchMedia:()=>({matches:true}),title:()=>'',Study:{tabs:()=>''},DiagramInput:{unmount(){}},ProblemVisuals:{stop(){}},Bank:{data:()=>[]},ExerciseFeedback:{answer(){},reset(){}},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},fetch:async url=>new Response(fs.readFileSync(site+url))};
 c.window=c;vm.createContext(c);
-for(const f of ['study-data.js','concept-choice-data.js','answer-checker.js','response-parts.js','concept-choices.js','problem-content.js','help-tutor.js','hint-journey.js','answer-library.js','textbook-practice.js'])vm.runInContext(fs.readFileSync(site+f,'utf8'),c,{filename:f});
+for(const f of ['solution-math.js','study-data.js','concept-choice-data.js','answer-checker.js','response-parts.js','concept-choices.js','problem-content.js','help-tutor.js','hint-journey.js','answer-library.js','textbook-practice.js'])vm.runInContext(fs.readFileSync(site+f,'utf8'),c,{filename:f});
 const data=name=>JSON.parse(zlib.gunzipSync(fs.readFileSync(site+'questions/'+name)));
 const selected=process.argv.slice(2);
 assert(selected.length<=1&&(!selected.length||/^--chapter=([1-9]|1[0-7]|appendix|diagnostic)$/.test(selected[0])),'Use --chapter=1 through17, appendix or diagnostic; no flag tests all records.');
