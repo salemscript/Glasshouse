@@ -1,0 +1,52 @@
+{
+  "calculus-section-g-1": {
+    "reasoning": "For the decreasing convex curve1/t on[1,1.5], the right rectangle is strictly below the curve and the endpoint chord strictly above. Areas are(1/2)(2/3)=1/3 and(1/2)(1+2/3)/2=5/12. M₁₀=(1/20)Σ from i=0to9 of1/[1+(2i+1)/40]. The selections do not grade the area proof.",
+    "fields": 2,
+    "limited": true
+  },
+  "calculus-section-g-2": {
+    "reasoning": "Example1 has A=(1,1),D=(2,1/2),so the secant slope is−1/2. Set−1/t²=−1/2 to find t=√2; tangent y=√2−t/2. Strict convexity puts the curve above this tangent except at tangency. Integrating gives√2−3/4≈0.664214>0.66. Proof reasoning must still be written.",
+    "fields": 4,
+    "limited": true
+  },
+  "calculus-section-g-3": {
+    "reasoning": "On[k,k+1],1/(k+1)<1/t<1/k except at endpoints. Integrate then sum k=1,…,n−1. The strict statement requires integer n≥2; at n=1 all three values are0. This checks the comparison, not a complete proof.",
+    "fields": 2,
+    "limited": true
+  },
+  "calculus-section-g-4": {
+    "reasoning": "For ln2 the curve lies below1 on(1,2]. On[1,3] the tangent at2 is1−t/4 and lies below1/t except at2; its integral is1. Thus ln2<1<ln3; ln is increasing and ln e=1, so2<e<3. Written area proof remains separate.",
+    "fields": 3,
+    "limited": true
+  },
+  "calculus-section-g-5": {
+    "reasoning": "By chain and rational power rules, d[ln(x^r)]/dx=(r x^(r−1))/x^r=r/x. Hence the difference has derivative0 on(0,∞), so is constant; evaluate at1 to obtain0. The source establishes rational r here before extending real powers. This checks proof milestones.",
+    "fields": 3,
+    "limited": true
+  },
+  "calculus-section-g-6": {
+    "reasoning": "Since e^x,e^y>0, the quotient law gives ln(e^x/e^y)=x−y=ln(e^(x−y)). Injectivity of ln proves equality for real x,y; written argument remains separate.",
+    "fields": 2,
+    "limited": true
+  },
+  "calculus-section-g-7": {
+    "reasoning": "Use the established rational-power logarithm law: ln((e^x)^r)=r ln(e^x)=rx=ln(e^(rx)); injectivity establishes the law. The source initially assumes rational r. Written proof remains separate.",
+    "fields": 2,
+    "limited": true
+  },
+  "calculus-section-g-8": {
+    "reasoning": "By the definition of real powers, b^(x−y)=e^((x−y)ln b)=e^(x ln b)/e^(y ln b)=b^x/b^y. Positivity of b makes all logarithms and denominators valid. Written proof remains separate.",
+    "fields": 2,
+    "limited": true
+  },
+  "calculus-section-g-9": {
+    "reasoning": "Write(ab)^x=e^(x ln(ab))=e^(x ln a+x ln b)=a^x b^x. Positivity of both bases is essential for the stated real-power definition. The choices check proof milestones.",
+    "fields": 2,
+    "limited": true
+  },
+  "calculus-section-g-10": {
+    "reasoning": "Require b>0,b≠1; positive arguments x,y for a/b and x>0 with real exponent y for c. Put u=log_b x,v=log_b y and apply b^(u+v)=xy,b^(u−v)=x/y,(b^u)^y=x^y, then use the inverse log_b. The choices identify each conclusion but do not assess its full proof.",
+    "fields": 3,
+    "limited": true
+  }
+}

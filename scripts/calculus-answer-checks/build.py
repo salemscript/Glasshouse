@@ -51,6 +51,8 @@ def main():
         present={q['id'] for q in source}
         source[insertion:insertion]=[q for q in correction['addQuestions'] if q['id'] not in present]
     crops=json.loads((HERE/'source-crop-corrections-14-17.json').read_text())['questions']
+    supplemental_crops=HERE/'source-crop-corrections-supplemental.json'
+    if supplemental_crops.exists(): crops.update(json.loads(supplemental_crops.read_text())['questions'])
     for q in source:
         if q['id'] in crops: q.update(crops[q['id']])
     (DATA/'calculus.json.gz').write_bytes(gzip.compress(json.dumps(source,ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
@@ -59,8 +61,9 @@ def main():
     library = read(out)
     for qid in removed: library['questions'].pop(qid,None)
     changed = set()
-    for chapter in range(1, 18):
-        paths = [HERE / f'chapter-{chapter:02}.json']
+    for chapter in [*range(1,18), 'appendix', 'diagnostic']:
+        paths = ([HERE / f'chapter-{chapter:02}.json'] if isinstance(chapter,int) else
+                 [HERE/f'{name}.json' for name in (['appendix-ab','appendix-cd','appendix-eh','appendix-g'] if chapter=='appendix' else ['diagnostic'])])
         if chapter == 2:
             paths += [HERE/'chapter-02/problems-plus.json', HERE/'chapter-02/review-concepts.json', HERE/'chapter-02/review-exercises.json']
         if chapter in (3,4,5):
@@ -82,11 +85,11 @@ def main():
                          objectiveFieldCount=len(fs))
             assert entry.get('responsePartPrompt'), (qid, 'explicit source part contract required')
             changed.add(qid)
-    report = {'requestedChapters': list(range(1,18)), 'chapters': {},
+    report = {'requestedChapters': [*range(1,18),'appendix','diagnostic'], 'chapters': {},
               'patchedRecords': len(changed), 'complete': True,
               'assessmentScope': 'Numeric fields and explicit mathematical selections are checked. '
               'A selected result does not automatically assess a freehand graph, written proof, or open-ended construction.'}
-    for chapter in range(1, 18):
+    for chapter in [*range(1,18), 'appendix', 'diagnostic']:
         qs = [q for q in source if q['chapter'] == chapter]
         missing = []
         count = Counter()
@@ -110,10 +113,11 @@ def main():
         assert report['complete'], 'Missing exact question checks; see chapter source patches.'
     library.setdefault('coverage', {})['chapter1To3ObjectiveChecks'] = {
         ch: {k: v for k, v in result.items() if k in ('total', 'checkable', 'fields')}
-        for ch, result in report['chapters'].items() if int(ch)<=3}
-    library['coverage']['chapter4To8ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if 4<=int(ch)<=8}
-    library['coverage']['chapter9To13ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if 9<=int(ch)<=13}
-    library['coverage']['chapter14To17ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if 14<=int(ch)<=17}
+        for ch, result in report['chapters'].items() if ch.isdigit() and int(ch)<=3}
+    library['coverage']['chapter4To8ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if ch.isdigit() and 4<=int(ch)<=8}
+    library['coverage']['chapter9To13ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if ch.isdigit() and 9<=int(ch)<=13}
+    library['coverage']['chapter14To17ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if ch.isdigit() and 14<=int(ch)<=17}
+    library['coverage']['supplementalObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if ch in ('appendix','diagnostic')}
     library['coverage']['total'] = len(source)
     library['coverage']['answerRecords'] = len(library['questions'])
     library['coverage']['missing'] = library['coverage']['total'] - len(library['questions'])

@@ -1,3 +1,17 @@
+# Complete calculus answer-check coverage
+
+All **8,522** listed calculus tasks now have explicit reviewed answer checks: **8,120** chapter1–17 tasks, **371** appendix tasks and **31** diagnostic tasks. The supplemental pass supplies **880** fields and removes the final388 missing-check gaps, while rechecking14 existing appendix checks. There are **18,082** fields across the whole calculus collection.
+
+The supplemental source review covers appendices A/B/C/D/E/G/H and diagnostic algebra, analytic geometry, functions and trigonometry. Appendix F contains theorem proofs rather than an exercise set. Every supplied task ID is preserved. Fourteen source-crop corrections restore cross-column continuations or complete diagnostic diagrams and remove unrelated import strips. Referenced identities are displayed with the affected proof questions. The diagnostic exercise-set picker separately filters its four subjects.
+
+Authoring and independent checks: `appendix-ab/`, `appendix-cd/`, `appendix-eh/`, and `diagnostic-g/`. Each includes exact source inspection and original reasoning; symbolic algebra, numerical checks, geometry or sign tests independently verify mathematical answers. Cross-agent reviews also checked equation transcription, domains, endpoints and distractors. Runtime tests cover the complete collection; supplemental DOM tests check actual input, radio and part-button events plus saved-note migration.
+
+**Scope:** Answer-check coverage does not mean every task has a fully worked solution. For proof and drawing tasks, the checker assesses explicitly labeled mathematical results; it does not automatically assess the entire proof or drawing, or award full completion for those limited checks.
+
+Run shared `build.py --require-complete`, `check-runtime.cjs` and `check-dom.cjs` after authoring. DOM tests accept `--chapter=appendix` and `--chapter=diagnostic` as well as1–17. Publication remains the existing GitHub Pages/custom-domain deployment; no recurring automation is enabled.
+
+---
+
 # Calculus answer checks: Chapters 1–8
 
 ## Chapters 4–8 completion

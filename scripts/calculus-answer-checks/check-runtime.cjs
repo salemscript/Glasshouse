@@ -1,16 +1,16 @@
-/* Run the actual practice enrichment/part/checker pipeline for Chapters 1–17. */
+/* Run the actual practice enrichment/part/checker pipeline for all calculus records, including appendices and diagnostic tests. */
 const fs=require('fs'),path=require('path'),vm=require('vm'),zlib=require('zlib'),assert=require('assert'),cp=require('child_process');
 const root=path.resolve(__dirname,'../..'),site=path.join(root,'site');
 const read=name=>JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(site,'questions',name))));
 const source=read('calculus.json.gz'),library=read('answer-library-calculus.json.gz');
 const previous=JSON.parse(zlib.gunzipSync(cp.execFileSync('git',['show','HEAD:site/questions/answer-library-calculus.json.gz'],{cwd:root,maxBuffer:10e6})));
-for(const q of source.filter(q=>![14,15,16,17].includes(q.chapter)))assert.deepStrictEqual(library.questions[q.id],previous.questions[q.id],q.id+' outside scope');
+for(const q of source.filter(q=>!['appendix','diagnostic'].includes(q.chapter)))assert.deepStrictEqual(library.questions[q.id],previous.questions[q.id],q.id+' outside scope');
 const c={console,TextDecoder,TextEncoder,Response,Blob,DecompressionStream,URL,Set,Map,Math,Number,JSON,Date,setTimeout,clearTimeout,document:{addEventListener(){},querySelector(){return null},querySelectorAll(){return[]}},localStorage:{getItem(){return null},setItem(){}},fetch:async url=>new Response(fs.readFileSync(path.join(site,url)))};
 c.window=c;vm.createContext(c);
 for(const file of ['study-data.js','concept-choice-data.js','answer-checker.js','response-parts.js','concept-choices.js','problem-content.js','help-tutor.js','hint-journey.js','answer-library.js','textbook-practice.js'])vm.runInContext(fs.readFileSync(path.join(site,file),'utf8'),c,{filename:file});
 (async()=>{
  const totals={};const failures=[];
- for(const original of source.filter(q=>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17].includes(q.chapter))){
+ for(const original of source){
   try{
    const q=(await c.TextbookPractice.context('calculus',original.id)).question;
    const fields=c.ResponseParts.fields(q);
@@ -41,6 +41,6 @@ for(const file of ['study-data.js','concept-choice-data.js','answer-checker.js',
  }
  fs.writeFileSync(path.join(__dirname,'runtime-audit.json'),JSON.stringify({totals,failures},null,2)+'\n');
  assert.equal(failures.length,0,JSON.stringify(failures.slice(0,8)));
- for(const [ch,total] of [[1,368],[2,570],[3,844],[4,785],[5,486],[6,307],[7,647],[8,239],[9,238],[10,455],[11,751],[12,449],[13,286],[14,646],[15,490],[16,436],[17,123]])assert.equal(totals[ch].questions,total,'chapter '+ch+' coverage');
+ for(const [ch,total] of [[1,368],[2,570],[3,844],[4,785],[5,486],[6,307],[7,647],[8,239],[9,238],[10,455],[11,751],[12,449],[13,286],[14,646],[15,490],[16,436],[17,123],['appendix',371],['diagnostic',31]])assert.equal(totals[ch].questions,total,'chapter '+ch+' coverage');
  console.log('PASS actual practice pipeline: '+JSON.stringify(totals));
 })().catch(e=>{console.error(e);process.exitCode=1});

@@ -16,7 +16,9 @@
     14,
     15,
     16,
-    17
+    17,
+    "appendix",
+    "diagnostic"
   ],
   "chapters": {
     "1": {
@@ -982,9 +984,73 @@
         }
       },
       "missing": []
+    },
+    "appendix": {
+      "total": 371,
+      "checkable": 371,
+      "fields": 765,
+      "fieldTypes": {
+        "numeric": 366,
+        "choice": 399
+      },
+      "sets": {
+        "section-a": {
+          "total": 70,
+          "checkable": 70,
+          "fields": 84
+        },
+        "section-b": {
+          "total": 62,
+          "checkable": 62,
+          "fields": 112
+        },
+        "section-c": {
+          "total": 40,
+          "checkable": 40,
+          "fields": 149
+        },
+        "section-d": {
+          "total": 89,
+          "checkable": 89,
+          "fields": 200
+        },
+        "section-e": {
+          "total": 50,
+          "checkable": 50,
+          "fields": 58
+        },
+        "section-g": {
+          "total": 10,
+          "checkable": 10,
+          "fields": 25
+        },
+        "section-h": {
+          "total": 50,
+          "checkable": 50,
+          "fields": 137
+        }
+      },
+      "missing": []
+    },
+    "diagnostic": {
+      "total": 31,
+      "checkable": 31,
+      "fields": 115,
+      "fieldTypes": {
+        "numeric": 36,
+        "choice": 79
+      },
+      "sets": {
+        "diagnostic-tests": {
+          "total": 31,
+          "checkable": 31,
+          "fields": 115
+        }
+      },
+      "missing": []
     }
   },
-  "patchedRecords": 7753,
+  "patchedRecords": 8155,
   "complete": true,
   "assessmentScope": "Numeric fields and explicit mathematical selections are checked. A selected result does not automatically assess a freehand graph, written proof, or open-ended construction."
 }
