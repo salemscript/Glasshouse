@@ -1,0 +1,94 @@
+{
+  "chapter": 9,
+  "sourceSHA256": "008f8498f03c21bd465de4aba1cc067dadbc8890e6d2f2c5f3093147c533523f",
+  "reviewedPrintedPages": [
+    590,
+    591
+  ],
+  "questions": {
+    "calculus-section-9-1-1": "Differentiate each exponential and combine like terms; the e^(−2x) terms cancel.",
+    "calculus-section-9-1-2": "Apply product rule to−t cos t−t; direct substitution verifies the differential equation and initial value.",
+    "calculus-section-9-1-3": "The characteristic polynomial2r²+r−1=(2r−1)(r+1) vanishes at both roots. Linearity then makes any linear combination a solution.",
+    "calculus-section-9-1-4": "Differentiating sin andcos twice multiplies by−k². The equation4y″=−25y requiresk²=25/4.",
+    "calculus-section-9-1-5": "For(a),(b), y″+y=0. For(c) the result iscosx. For(d), differentiating−xcosx/2 twice gives y″+y=sinx.",
+    "calculus-section-9-1-6": "y′=(1−lnx−C)/x². Initial conditions giveC=2 andC=2−ln2; the source uses real ln x.",
+    "calculus-section-9-1-7": "The right side−y² is nonpositive. The reciprocal family excludes the equilibrium0; y(0)=1/2 givesC=2, with pole at−2.",
+    "calculus-section-9-1-8": "The productxy³ controls slope. The displayed positive family needs c−x²>0. Applying y(0)=2 givesc=1/4. The equilibrium y=0 illustrates why large x alone does not force a large slope.",
+    "calculus-section-9-1-9": "Factor1.2P(1−P/4200) and use the physically meaningful nonnegative population domain.",
+    "calculus-section-9-1-10": "The equation isv′=−v(v−a)(v−1), with0<a<1. Sign changes at the three simple roots determine all intervals.",
+    "calculus-section-9-1-11": "The source graph(a) descends after its local maximum. Graph(b) crosses y=1 without a horizontal tangent, violating the zero right side there.",
+    "calculus-section-9-1-12": "The source curve has positive slope atx=0, ruling outB, and decreases for positive x whiley>0, ruling outA.",
+    "calculus-section-9-1-13": "(a) slope≥1 and increases with distance from the origin;(b) slope has the sign ofx and vanishes at0;(c) slope is positive≤1/2 and flattens away from the origin;(d) has equilibriumy=0.",
+    "calculus-section-9-1-14": "Cooling is proportional to excess temperature and points toward ambient20°C. The model predicts the stated trend, with the source caveat that proportionality is approximate for moderate temperature differences.",
+    "calculus-section-9-1-15": "For k>0 andP(0)<M, the solution increases concave down towardM, so the learning rate k(M−P) shrinks.",
+    "calculus-section-9-1-16": "The rate is proportional to the remaining length deficit; solve the linear equation and apply the initial length.",
+    "calculus-section-9-1-17": "Chain rule gives the derivative withα(1−b)=k. Also c_s−c=c_s e^(−αt^(1−b)), so the right side matches. Both positive factors t^(−b) andthe exponential decrease fort>0."
+  },
+  "checks": [
+    {
+      "label": "1 DE residual",
+      "residual": "0"
+    },
+    {
+      "label": "2 DE residual",
+      "residual": "0"
+    },
+    {
+      "label": "2 initial",
+      "residual": "0"
+    },
+    {
+      "label": "3 characteristic root1/2",
+      "residual": "0"
+    },
+    {
+      "label": "3 characteristic root-1",
+      "residual": "0"
+    },
+    {
+      "label": "5 residual0",
+      "residual": "0"
+    },
+    {
+      "label": "5 residual1",
+      "residual": "0"
+    },
+    {
+      "label": "5 residual2",
+      "residual": "0"
+    },
+    {
+      "label": "5 residual3",
+      "residual": "0"
+    },
+    {
+      "label": "6 residual",
+      "residual": "0"
+    },
+    {
+      "label": "7 solution1/2",
+      "residual": "0"
+    },
+    {
+      "label": "7 IVP1/2",
+      "residual": "0"
+    },
+    {
+      "label": "7 solution0",
+      "residual": "0"
+    },
+    {
+      "label": "7 IVP0",
+      "residual": "0"
+    },
+    {
+      "label": "8 DE",
+      "residual": "0"
+    },
+    {
+      "label": "8 IVP",
+      "residual": "0"
+    }
+  ],
+  "limits": "Graph, direction-field, full written proof and modeling discussion checks verify selected mathematical conclusions rather than the full original work. Those records are marked complete:false."
+}

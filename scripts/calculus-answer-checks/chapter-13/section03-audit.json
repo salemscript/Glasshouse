@@ -1,0 +1,562 @@
+{
+  "notes": {
+    "calculus-section-13-3-1": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-2": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-3": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-4": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-5": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-6": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-7": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-8": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-9": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-10": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-11": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-12": "Integrate |r′(t)| over the specified interval; a closed curve is traced once over its full period.",
+    "calculus-section-13-3-13": "Speed is sqrt26; starting point has t=1.",
+    "calculus-section-13-3-14": "Speed=2e^t; the start is t=0. For forward physical arc length use s≥0.",
+    "calculus-section-13-3-15": "Constant speed5 gives parameter increment1 from t=0.",
+    "calculus-section-13-3-16": "Speed2/(1+t²); invert using the tangent-half-angle identities.",
+    "calculus-section-13-3-17": "Normalize r′, then normalize T′; curvature is |T′|/|r′|. Exercise18 assumes t>0.",
+    "calculus-section-13-3-18": "Normalize r′, then normalize T′; curvature is |T′|/|r′|. Exercise18 assumes t>0.",
+    "calculus-section-13-3-19": "Normalize r′, then normalize T′; curvature is |T′|/|r′|. Exercise18 assumes t>0.",
+    "calculus-section-13-3-20": "Normalize r′, then normalize T′; curvature is |T′|/|r′|. Exercise18 assumes t>0.",
+    "calculus-section-13-3-21": "Use |r′×r″|/|r′|³ at regular parameter values; #21 excludes t=0, where r′=0.",
+    "calculus-section-13-3-22": "Use |r′×r″|/|r′|³ at regular parameter values; #21 excludes t=0, where r′=0.",
+    "calculus-section-13-3-23": "Use |r′×r″|/|r′|³ at regular parameter values; #21 excludes t=0, where r′=0.",
+    "calculus-section-13-3-24": "Find the source parameter for the point before evaluating |r′×r″|/|r′|³.",
+    "calculus-section-13-3-25": "Find the source parameter for the point before evaluating |r′×r″|/|r′|³.",
+    "calculus-section-13-3-26": "Find the source parameter for the point before evaluating |r′×r″|/|r′|³.",
+    "calculus-section-13-3-27": "For a graph y=f(x), κ=|f″|/(1+f′²)^(3/2). A steep slope alone does not imply high curvature.",
+    "calculus-section-13-3-28": "For a graph y=f(x), κ=|f″|/(1+f′²)^(3/2). A steep slope alone does not imply high curvature.",
+    "calculus-section-13-3-29": "For a graph y=f(x), κ=|f″|/(1+f′²)^(3/2). A steep slope alone does not imply high curvature.",
+    "calculus-section-13-3-34": "For a graph y=f(x), κ=|f″|/(1+f′²)^(3/2). A steep slope alone does not imply high curvature.",
+    "calculus-section-13-3-35": "For a graph y=f(x), κ=|f″|/(1+f′²)^(3/2). A steep slope alone does not imply high curvature.",
+    "calculus-section-13-3-30": "For ln x, κ=x/(1+x²)^(3/2), x>0; derivative changes sign at1/√2.",
+    "calculus-section-13-3-31": "For e^x, κ=e^x/(1+e^(2x))^(3/2); maximize in u=e^x>0.",
+    "calculus-section-13-3-32": "At the origin of y=ax², κ=2|a|. This checks a valid construction, not uniqueness.",
+    "calculus-section-13-3-33": "The source is a qualitative sketch. Use osculating radii roughly1 unit at P and2–3 units at Q; numerical ranges are deliberately approximate, not exact measurements.",
+    "calculus-section-13-3-36": "#36 is not regular at t=0,2π,4π,6π,8π; curvature is undefined there. Plot on the regular intervals and do not fill singular values with zero.",
+    "calculus-section-13-3-37": "#36 is not regular at t=0,2π,4π,6π,8π; curvature is undefined there. Plot on the regular intervals and do not fill singular values with zero.",
+    "calculus-section-13-3-38": "The two inflection points of the bell-shaped b correspond to zeros of a; curvature is nonnegative.",
+    "calculus-section-13-3-39": "The steep flank of a lowers curvature; its rounded top gives the sharp peak of b.",
+    "calculus-section-13-3-40": "Over0≤t<2π, numerical extrema occur near0.543786,π/2,2.597806,3.685379,3π/2,5.739399; these give six distinct spatial points.",
+    "calculus-section-13-3-41": "Writing c=cos t gives κ=(3/2)sqrt(1+(c−3/2)²)/(17/4−3c)^(3/2), maximized at c=1.",
+    "calculus-section-13-3-42": "Embed the curve in z=0, compute the cross product, and use its nonnegative magnitude.",
+    "calculus-section-13-3-43": "Use the planar cross-product formula. In #44 take a,b>0 and ω≠0; curvature is independent of traversal speed |ω|.",
+    "calculus-section-13-3-44": "Use the planar cross-product formula. In #44 take a,b>0 and ω≠0; curvature is independent of traversal speed |ω|.",
+    "calculus-section-13-3-45": "Use the planar cross-product formula. In #44 take a,b>0 and ω≠0; curvature is independent of traversal speed |ω|.",
+    "calculus-section-13-3-46": "κ(0)=c²/(1+c²)^(3/2); optimize over c²≥0.",
+    "calculus-section-13-3-47": "T follows increasing t; N points toward bending; B=T×N.",
+    "calculus-section-13-3-48": "T follows increasing t; N points toward bending; B=T×N.",
+    "calculus-section-13-3-49": "Normal plane normal is r′; osculating plane normal is r′×r″. Nonzero scalar multiples represent the same plane.",
+    "calculus-section-13-3-50": "Normal plane normal is r′; osculating plane normal is r′×r″. Nonzero scalar multiples represent the same plane.",
+    "calculus-section-13-3-55": "Normal plane normal is r′; osculating plane normal is r′×r″. Nonzero scalar multiples represent the same plane.",
+    "calculus-section-13-3-51": "Ellipse semiaxes2 and3 give curvature radii9/2 and4/3; centers lie inward along the principal normal.",
+    "calculus-section-13-3-52": "ρ=(1+x²)^(3/2); add ρ times the upward principal normal to each point.",
+    "calculus-section-13-3-53": "Parallelism of(3t²,3,4t³) and(6,6,−8) forces t=−1.",
+    "calculus-section-13-3-54": "r′×r″=(36t²,−12t⁴,−18t). Equal first and second components force t=0, where this cross product vanishes and the osculating plane is undefined.",
+    "calculus-section-13-3-56": "",
+    "calculus-section-13-3-57": "The z-components of the three unit vectors are1/√3,0,√(2/3), independently of t.",
+    "calculus-section-13-3-58": "The plane spanned by T and B has normal N; the nonzero normal component of acceleration is parallel to N.",
+    "calculus-section-13-3-59": "T′=|T′|N and ds/dt=|r′|>0.",
+    "calculus-section-13-3-60": "Differentiate T=(cosφ,sinφ); its derivative magnitude is |dφ/ds|.",
+    "calculus-section-13-3-61": "At regular points with nonzero curvature, T,N,B form an orthonormal basis; a planar curve has constant binormal.",
+    "calculus-section-13-3-62": "Differentiate N=B×T and use B_s=−τN, T_s=κN and the orientation of the frame.",
+    "calculus-section-13-3-63": "Differentiate r′=s′T and use the frame derivatives; the triple product isolates the binormal coefficient.",
+    "calculus-section-13-3-64": "For(a cos t,a sin t,bt), speed²=a²+b² and the cross-product/triple-product ratios are constant.",
+    "calculus-section-13-3-65": "",
+    "calculus-section-13-3-66": "",
+    "calculus-section-13-3-67": "Length per turn is sqrt((2π·10)²+34²) Å; multiply by2.9×10^8 turns and10^−8 cm/Å.",
+    "calculus-section-13-3-68": "Impose P(0)=P′(0)=P″(0)=0, P(1)=1 andP′(1)=P″(1)=0."
+  },
+  "cases": [
+    {
+      "n": 1,
+      "kind": "length",
+      "r": [
+        "t",
+        "3*cos(t)",
+        "3*sin(t)"
+      ],
+      "lo": "-5",
+      "hi": "5",
+      "expected": "10*sqrt(10)"
+    },
+    {
+      "n": 2,
+      "kind": "length",
+      "r": [
+        "2*t",
+        "t**2",
+        "t**3/3"
+      ],
+      "lo": "0",
+      "hi": "1",
+      "expected": "7/3"
+    },
+    {
+      "n": 3,
+      "kind": "length",
+      "r": [
+        "sqrt(2)*t",
+        "exp(t)",
+        "exp(-t)"
+      ],
+      "lo": "0",
+      "hi": "1",
+      "expected": "E - exp(-1)"
+    },
+    {
+      "n": 4,
+      "kind": "length",
+      "r": [
+        "cos(t)",
+        "sin(t)",
+        "log(cos(t))"
+      ],
+      "lo": "0",
+      "hi": "pi/4",
+      "expected": "log(1 + sqrt(2))"
+    },
+    {
+      "n": 5,
+      "kind": "length",
+      "r": [
+        "1",
+        "t**2",
+        "t**3"
+      ],
+      "lo": "0",
+      "hi": "1",
+      "expected": "-8/27 + 13*sqrt(13)/27"
+    },
+    {
+      "n": 6,
+      "kind": "length",
+      "r": [
+        "t**2",
+        "9*t",
+        "4*t**(3/2)"
+      ],
+      "lo": "1",
+      "hi": "4",
+      "expected": "42"
+    },
+    {
+      "n": 7,
+      "kind": "length",
+      "r": [
+        "t**2",
+        "t**3",
+        "t**4"
+      ],
+      "lo": "0",
+      "hi": "2",
+      "expected": "18.68329847233039956364381120864965721651"
+    },
+    {
+      "n": 8,
+      "kind": "length",
+      "r": [
+        "t",
+        "exp(-t)",
+        "t*exp(-t)"
+      ],
+      "lo": "1",
+      "hi": "3",
+      "expected": "2.045371596444270760026151950256550408642"
+    },
+    {
+      "n": 9,
+      "kind": "length",
+      "r": [
+        "cos(pi*t)",
+        "2*t",
+        "sin(2*pi*t)"
+      ],
+      "lo": "0",
+      "hi": "2",
+      "expected": "10.33111812965116613256856221999951158925"
+    },
+    {
+      "n": 10,
+      "kind": "length",
+      "r": [
+        "sin(t)",
+        "sin(2*t)",
+        "sin(3*t)"
+      ],
+      "lo": "0",
+      "hi": "2*pi",
+      "expected": "16.02640249313398765716923620173446395337"
+    },
+    {
+      "n": 11,
+      "kind": "length",
+      "r": [
+        "t",
+        "t**2/2",
+        "t**3/6"
+      ],
+      "lo": "0",
+      "hi": "6",
+      "expected": "42"
+    },
+    {
+      "n": 12,
+      "kind": "length",
+      "r": [
+        "cos(t)",
+        "2*sin(t)",
+        "-2*sin(t) - cos(t) + 2"
+      ],
+      "lo": "0",
+      "hi": "2*pi",
+      "expected": "13.5190891500306478508351252126411405161"
+    },
+    {
+      "n": 17,
+      "kind": "frame",
+      "r": [
+        "t",
+        "3*cos(t)",
+        "3*sin(t)"
+      ],
+      "T": [
+        "sqrt(10)/10",
+        "-3*sqrt(10)*sin(t)/10",
+        "3*sqrt(10)*cos(t)/10"
+      ],
+      "N": [
+        "0",
+        "-cos(t)",
+        "-sin(t)"
+      ],
+      "kappa": "3/10"
+    },
+    {
+      "n": 18,
+      "kind": "frame",
+      "r": [
+        "t**2",
+        "-t*cos(t) + sin(t)",
+        "t*sin(t) + cos(t)"
+      ],
+      "T": [
+        "2*sqrt(5)/5",
+        "sqrt(5)*sin(t)/5",
+        "sqrt(5)*cos(t)/5"
+      ],
+      "N": [
+        "0",
+        "cos(t)",
+        "-sin(t)"
+      ],
+      "kappa": "1/(5*t)"
+    },
+    {
+      "n": 19,
+      "kind": "frame",
+      "r": [
+        "sqrt(2)*t",
+        "exp(t)",
+        "exp(-t)"
+      ],
+      "T": [
+        "1/sqrt(cosh(2*t) + 1)",
+        "sqrt(2)*exp(t)/(2*sqrt(cosh(2*t) + 1))",
+        "-sqrt(2)*exp(-t)/(2*sqrt(cosh(2*t) + 1))"
+      ],
+      "N": [
+        "-2*sqrt(cosh(2*t) + 1)*exp(t)*sinh(t)/sqrt(2*exp(4*t) + exp(2*t)*cosh(4*t) + 3*exp(2*t) + 2)",
+        "2*(1 + exp(-2*t))*exp(2*t)*cosh(t)**3/(sqrt((exp(2*t) + 1)**2 + exp(2*t)*sinh(2*t)**2)*(cosh(2*t) + 1)**(3/2))",
+        "2*(exp(2*t) + 1)*cosh(t)**3/(sqrt((exp(2*t) + 1)**2 + exp(2*t)*sinh(2*t)**2)*(cosh(2*t) + 1)**(3/2))"
+      ],
+      "kappa": "sqrt(2)/(4*cosh(t)**2)"
+    },
+    {
+      "n": 20,
+      "kind": "frame",
+      "r": [
+        "t",
+        "t**2/2",
+        "t**2"
+      ],
+      "T": [
+        "1/sqrt(5*t**2 + 1)",
+        "t/sqrt(5*t**2 + 1)",
+        "2*t/sqrt(5*t**2 + 1)"
+      ],
+      "N": [
+        "-sqrt(5)*t/sqrt(5*t**2 + 1)",
+        "sqrt(5)/(5*sqrt(5*t**2 + 1))",
+        "2*sqrt(5)/(5*sqrt(5*t**2 + 1))"
+      ],
+      "kappa": "sqrt(5)/(5*t**2 + 1)**(3/2)"
+    },
+    {
+      "n": 21,
+      "kind": "curvature",
+      "r": [
+        "0",
+        "t**3",
+        "t**2"
+      ],
+      "kappa": "6/((9*t**2 + 4)**(3/2)*Abs(t))"
+    },
+    {
+      "n": 22,
+      "kind": "curvature",
+      "r": [
+        "t",
+        "t**2",
+        "exp(t)"
+      ],
+      "kappa": "sqrt(4*(t - 1)**2*exp(2*t) + exp(2*t) + 4)/(4*t**2 + exp(2*t) + 1)**(3/2)"
+    },
+    {
+      "n": 23,
+      "kind": "curvature",
+      "r": [
+        "sqrt(6)*t**2",
+        "2*t",
+        "2*t**3"
+      ],
+      "kappa": "sqrt(6)/(2*(9*t**4 + 6*t**2 + 1))"
+    },
+    {
+      "n": 24,
+      "kind": "curvature-point",
+      "r": [
+        "t**2",
+        "log(t)",
+        "t*log(t)"
+      ],
+      "at": "1",
+      "expected": "sqrt(30)/18"
+    },
+    {
+      "n": 25,
+      "kind": "curvature-point",
+      "r": [
+        "t",
+        "t**2",
+        "t**3"
+      ],
+      "at": "1",
+      "expected": "sqrt(266)/98"
+    },
+    {
+      "n": 26,
+      "kind": "curvature-point",
+      "r": [
+        "cos(t)",
+        "sin(t)",
+        "sin(5*t)"
+      ],
+      "at": "0",
+      "expected": "1/26"
+    },
+    {
+      "n": 36,
+      "kind": "curvature",
+      "r": [
+        "t - sin(t)",
+        "1 - cos(t)",
+        "4*cos(t/2)"
+      ],
+      "kappa": "sqrt(2)*sqrt((12*sin(t)**2 + 15*cos(t) + cos(3*t) - 16)/(cos(t) - 1))/(16*(1 - cos(t))**(3/2))"
+    },
+    {
+      "n": 37,
+      "kind": "curvature",
+      "r": [
+        "t*exp(t)",
+        "exp(-t)",
+        "sqrt(2)*t"
+      ],
+      "kappa": "sqrt((2*(t + 2)**2*exp(2*t) + (2*t + 3)**2)*exp(2*t) + 2)*exp(2*t)/(((t + 1)**2*exp(2*t) + 2)*exp(2*t) + 1)**(3/2)"
+    },
+    {
+      "n": 40,
+      "kind": "curvature",
+      "r": [
+        "sin(3*t)",
+        "sin(2*t)",
+        "sin(3*t)"
+      ],
+      "kappa": "3*Abs(5*sin(t) + sin(5*t))/(2*(2*cos(2*t)**2 + 9*cos(3*t)**2)**(3/2))"
+    },
+    {
+      "n": 41,
+      "kind": "curvature",
+      "r": [
+        "t - 3*sin(t)/2",
+        "1 - 3*cos(t)/2",
+        "t"
+      ],
+      "kappa": "6*sqrt(-4*sin(t)**2 - 12*cos(t) + 17)/(17 - 12*cos(t))**(3/2)"
+    },
+    {
+      "n": 43,
+      "kind": "curvature",
+      "r": [
+        "t**2",
+        "t**3",
+        "0"
+      ],
+      "kappa": "6/((9*t**2 + 4)**(3/2)*Abs(t))"
+    },
+    {
+      "n": 44,
+      "kind": "curvature",
+      "r": [
+        "a*cos(omega*t)",
+        "b*sin(omega*t)",
+        "0"
+      ],
+      "kappa": "a*b/(a**2*sin(omega*t)**2 + b**2*cos(omega*t)**2)**(3/2)"
+    },
+    {
+      "n": 45,
+      "kind": "curvature",
+      "r": [
+        "exp(t)*cos(t)",
+        "exp(t)*sin(t)",
+        "0"
+      ],
+      "kappa": "sqrt(2)*exp(-t)/2"
+    },
+    {
+      "n": 47,
+      "kind": "frame-point",
+      "r": [
+        "t**2",
+        "2*t**3/3",
+        "t"
+      ],
+      "at": "1",
+      "T": [
+        "2/3",
+        "2/3",
+        "1/3"
+      ],
+      "N": [
+        "-1/3",
+        "2/3",
+        "-2/3"
+      ],
+      "B": [
+        "-2/3",
+        "1/3",
+        "2/3"
+      ]
+    },
+    {
+      "n": 48,
+      "kind": "frame-point",
+      "r": [
+        "cos(t)",
+        "sin(t)",
+        "log(cos(t))"
+      ],
+      "at": "0",
+      "T": [
+        "0",
+        "1",
+        "0"
+      ],
+      "N": [
+        "-sqrt(2)/2",
+        "0",
+        "-sqrt(2)/2"
+      ],
+      "B": [
+        "-sqrt(2)/2",
+        "0",
+        "sqrt(2)/2"
+      ]
+    },
+    {
+      "n": 49,
+      "kind": "planes",
+      "r": [
+        "sin(2*t)",
+        "-cos(2*t)",
+        "4*t"
+      ],
+      "at": "pi/2",
+      "normal": [
+        "-2",
+        "0",
+        "4"
+      ],
+      "binormal": [
+        "16",
+        "0",
+        "8"
+      ]
+    },
+    {
+      "n": 50,
+      "kind": "planes",
+      "r": [
+        "log(t)",
+        "2*t",
+        "t**2"
+      ],
+      "at": "1",
+      "normal": [
+        "1",
+        "2",
+        "2"
+      ],
+      "binormal": [
+        "4",
+        "-4",
+        "2"
+      ]
+    },
+    {
+      "n": 55,
+      "kind": "planes",
+      "r": [
+        "t**2",
+        "t",
+        "t**4"
+      ],
+      "at": "1",
+      "normal": [
+        "2",
+        "1",
+        "4"
+      ],
+      "binormal": [
+        "12",
+        "-16",
+        "-2"
+      ]
+    },
+    {
+      "n": 65,
+      "kind": "torsion",
+      "r": [
+        "t",
+        "t**2/2",
+        "t**3/3"
+      ],
+      "expected": "2/(t**4 + 4*t**2 + 1)"
+    },
+    {
+      "n": 66,
+      "kind": "torsion-point",
+      "r": [
+        "sinh(t)",
+        "cosh(t)",
+        "t"
+      ],
+      "at": "0",
+      "expected": "-1/2"
+    }
+  ]
+}

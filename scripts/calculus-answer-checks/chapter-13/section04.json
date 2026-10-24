@@ -1,0 +1,3435 @@
+{
+  "calculus-section-13-4-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [0,1] · x",
+          "answer": 1.8,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [0,1] · y",
+          "answer": -3.8,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [0,1] · z",
+          "answer": -0.7,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [1/2,1] · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [1/2,1] · y",
+          "answer": -2.4,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [1/2,1] · z",
+          "answer": -0.6,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [1,2] · x",
+          "answer": 2.8,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [1,2] · y",
+          "answer": 1.8,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [1,2] · z",
+          "answer": -0.3,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [1,3/2] · x",
+          "answer": 2.8,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [1,3/2] · y",
+          "answer": 0.8,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Average velocity [1,3/2] · z",
+          "answer": -0.4,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Centered velocity estimate · x",
+          "answer": 2.4,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Centered velocity estimate · y",
+          "answer": -0.8,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Centered velocity estimate · z",
+          "answer": -0.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Estimated speed",
+          "answer": 2.578759391645525,
+          "unit": "",
+          "tolerance": 0.01,
+          "explanation": "Use displacement divided by elapsed time; center the difference at t=1 for the estimate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 16,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Average velocity",
+          "answer": "[r(2.4)−r(2)]/0.4",
+          "options": [
+            "r(2.4)/2.4",
+            "r(2.4)−r(2)",
+            "[r(2.4)−r(2)]/0.4"
+          ],
+          "explanation": "From the printed axes the nearby displacement estimates have speeds around3 units/time; the smooth tangent at r(2) points up-left. The sketch cannot supply an exact derivative.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Average velocity",
+          "answer": "[r(2)−r(1.5)]/0.5",
+          "options": [
+            "[r(2)−r(1.5)]/0.5",
+            "r(2)/2",
+            "r(2)−r(1.5)"
+          ],
+          "explanation": "From the printed axes the nearby displacement estimates have speeds around3 units/time; the smooth tangent at r(2) points up-left. The sketch cannot supply an exact derivative.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Instantaneous velocity",
+          "answer": "lim h→0 [r(2+h)−r(2)]/h",
+          "options": [
+            "lim h→0 [r(2+h)−r(2)]/h",
+            "lim h→0 r(2+h)/h",
+            "r(2)/2"
+          ],
+          "explanation": "From the printed axes the nearby displacement estimates have speeds around3 units/time; the smooth tangent at r(2) points up-left. The sketch cannot supply an exact derivative.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Direction",
+          "answer": "Tangent pointing up and left",
+          "options": [
+            "Radially from the origin",
+            "Tangent pointing down and right",
+            "Tangent pointing up and left"
+          ],
+          "explanation": "From the printed axes the nearby displacement estimates have speeds around3 units/time; the smooth tangent at r(2) points up-left. The sketch cannot supply an exact derivative.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "d · Approximate speed",
+          "answer": 3.2,
+          "unit": "",
+          "tolerance": 0.7,
+          "explanation": "From the printed axes the nearby displacement estimates have speeds around3 units/time; the smooth tangent at r(2) points up-left. The sketch cannot supply an exact derivative.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "-t",
+          "options": [
+            "t",
+            "-2*t",
+            "-t"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · x",
+          "answer": -1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(t^2 + 1)",
+          "options": [
+            "2*sqrt(t^2 + 1)",
+            "-sqrt(t^2 + 1)",
+            "sqrt(t^2 + 1)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · x",
+          "answer": -2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · x",
+          "answer": -2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · x",
+          "answer": -1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 11,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "2*t",
+          "options": [
+            "4*t",
+            "2*t",
+            "-2*t"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "-2/t^3",
+          "options": [
+            "-4/t^3",
+            "-2/t^3",
+            "2/t^3"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · y",
+          "answer": "6/t^4",
+          "options": [
+            "12/t^4",
+            "6/t^4",
+            "-6/t^4"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "2*(Abs(t)/t^4)*sqrt(t^8 + 1)",
+          "options": [
+            "4*sqrt(t^8 + 1)*Abs(t)/t^4",
+            "2*(Abs(t)/t^4)*sqrt(t^8 + 1)",
+            "-2*Abs(t)/t^4*sqrt(t^8 + 1)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · y",
+          "answer": -2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · y",
+          "answer": 6.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 11,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "-3*sin(t)",
+          "options": [
+            "-6*sin(t)",
+            "-3*sin(t)",
+            "3*sin(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "2*cos(t)",
+          "options": [
+            "4*cos(t)",
+            "2*cos(t)",
+            "-2*cos(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · x",
+          "answer": "-3*cos(t)",
+          "options": [
+            "3*cos(t)",
+            "-3*cos(t)",
+            "-6*cos(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · y",
+          "answer": "-2*sin(t)",
+          "options": [
+            "-4*sin(t)",
+            "2*sin(t)",
+            "-2*sin(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(5*sin(t)^2 + 4)",
+          "options": [
+            "sqrt(5*sin(t)^2 + 4)",
+            "-sqrt(5*sin(t)^2 + 4)",
+            "2*sqrt(5*sin(t)^2 + 4)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · x",
+          "answer": 1.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · y",
+          "answer": 1.7320508075688772,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · x",
+          "answer": -2.598076211353316,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · x",
+          "answer": -1.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · y",
+          "answer": -1.7320508075688772,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 11,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "exp(t)",
+          "options": [
+            "exp(t)",
+            "2*exp(t)",
+            "-exp(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "2*exp(2*t)",
+          "options": [
+            "2*exp(2*t)",
+            "-2*exp(2*t)",
+            "4*exp(2*t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · x",
+          "answer": "exp(t)",
+          "options": [
+            "2*exp(t)",
+            "exp(t)",
+            "-exp(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · y",
+          "answer": "4*exp(2*t)",
+          "options": [
+            "4*exp(2*t)",
+            "-4*exp(2*t)",
+            "8*exp(2*t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(4*exp(4*t) + exp(2*t))",
+          "options": [
+            "2*sqrt(4*exp(4*t) + exp(2*t))",
+            "-sqrt(4*exp(4*t) + exp(2*t))",
+            "sqrt(4*exp(4*t) + exp(2*t))"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · y",
+          "answer": 4.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 11,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Velocity · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "2*t",
+          "options": [
+            "4*t",
+            "2*t",
+            "-2*t"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity · z",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · z",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(4*t^2 + 1)",
+          "options": [
+            "-sqrt(4*t^2 + 1)",
+            "2*sqrt(4*t^2 + 1)",
+            "sqrt(4*t^2 + 1)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · z",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · z",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · z",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 16,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Velocity · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "-2*sin(t)",
+          "options": [
+            "2*sin(t)",
+            "-4*sin(t)",
+            "-2*sin(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · z",
+          "answer": "cos(t)",
+          "options": [
+            "2*cos(t)",
+            "cos(t)",
+            "-cos(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · y",
+          "answer": "-2*cos(t)",
+          "options": [
+            "2*cos(t)",
+            "-4*cos(t)",
+            "-2*cos(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · z",
+          "answer": "-sin(t)",
+          "options": [
+            "-2*sin(t)",
+            "sin(t)",
+            "-sin(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(3*sin(t)^2 + 2)",
+          "options": [
+            "-sqrt(3*sin(t)^2 + 2)",
+            "sqrt(3*sin(t)^2 + 2)",
+            "2*sqrt(3*sin(t)^2 + 2)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Position at specified t · z",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity at specified t · z",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · y",
+          "answer": -2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration at specified t · z",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 16,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "2*t + 1",
+          "options": [
+            "2*t + 1",
+            "-2*t - 1",
+            "4*t + 2"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "2*t - 1",
+          "options": [
+            "2*t - 1",
+            "4*t - 2",
+            "1 - 2*t"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · z",
+          "answer": "3*t^2",
+          "options": [
+            "3*t^2",
+            "-3*t^2",
+            "6*t^2"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · z",
+          "answer": "6*t",
+          "options": [
+            "12*t",
+            "6*t",
+            "-6*t"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(9*t^4 + 8*t^2 + 2)",
+          "options": [
+            "sqrt(9*t^4 + 8*t^2 + 2)",
+            "2*sqrt(9*t^4 + 8*t^2 + 2)",
+            "-sqrt(9*t^4 + 8*t^2 + 2)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "-2*sin(t)",
+          "options": [
+            "-4*sin(t)",
+            "2*sin(t)",
+            "-2*sin(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity · y",
+          "answer": 3.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · z",
+          "answer": "2*cos(t)",
+          "options": [
+            "-2*cos(t)",
+            "4*cos(t)",
+            "2*cos(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · x",
+          "answer": "-2*cos(t)",
+          "options": [
+            "2*cos(t)",
+            "-4*cos(t)",
+            "-2*cos(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · z",
+          "answer": "-2*sin(t)",
+          "options": [
+            "-4*sin(t)",
+            "2*sin(t)",
+            "-2*sin(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(13)",
+          "options": [
+            "sqrt(13)",
+            "2*sqrt(13)",
+            "-sqrt(13)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Velocity · x",
+          "answer": 1.4142135623730951,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "exp(t)",
+          "options": [
+            "2*exp(t)",
+            "exp(t)",
+            "-exp(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · z",
+          "answer": "-exp(-t)",
+          "options": [
+            "exp(-t)",
+            "-2*exp(-t)",
+            "-exp(-t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · y",
+          "answer": "exp(t)",
+          "options": [
+            "exp(t)",
+            "2*exp(t)",
+            "-exp(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · z",
+          "answer": "exp(-t)",
+          "options": [
+            "-exp(-t)",
+            "exp(-t)",
+            "2*exp(-t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(2*cosh(2*t) + 2)",
+          "options": [
+            "sqrt(2*cosh(2*t) + 2)",
+            "-sqrt(2*cosh(2*t) + 2)",
+            "2*sqrt(2*cosh(2*t) + 2)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "2*t",
+          "options": [
+            "-2*t",
+            "2*t",
+            "4*t"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · z",
+          "answer": "1/t",
+          "options": [
+            "2/t",
+            "1/t",
+            "-1/t"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · z",
+          "answer": "-1/t^2",
+          "options": [
+            "-2/t^2",
+            "-1/t^2",
+            "t^(-2)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(4*t^2 + 4 + t^(-2))",
+          "options": [
+            "2*sqrt(4*t^2 + 4 + t^(-2))",
+            "sqrt(4*t^2 + 4 + t^(-2))",
+            "-sqrt(4*t^2 + 4 + t^(-2))"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "sqrt(2)*exp(t)*cos(t + pi/4)",
+          "options": [
+            "2*sqrt(2)*exp(t)*cos(t + pi/4)",
+            "sqrt(2)*exp(t)*cos(t + pi/4)",
+            "-sqrt(2)*exp(t)*cos(t + pi/4)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "sqrt(2)*exp(t)*sin(t + pi/4)",
+          "options": [
+            "2*sqrt(2)*exp(t)*sin(t + pi/4)",
+            "-sqrt(2)*exp(t)*sin(t + pi/4)",
+            "sqrt(2)*exp(t)*sin(t + pi/4)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · z",
+          "answer": "(t + 1)*exp(t)",
+          "options": [
+            "(t + 1)*exp(t)",
+            "2*(t + 1)*exp(t)",
+            "-(t + 1)*exp(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · x",
+          "answer": "-2*exp(t)*sin(t)",
+          "options": [
+            "-2*exp(t)*sin(t)",
+            "-4*exp(t)*sin(t)",
+            "2*exp(t)*sin(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · y",
+          "answer": "2*exp(t)*cos(t)",
+          "options": [
+            "4*exp(t)*cos(t)",
+            "2*exp(t)*cos(t)",
+            "-2*exp(t)*cos(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · z",
+          "answer": "(t + 2)*exp(t)",
+          "options": [
+            "2*(t + 2)*exp(t)",
+            "-(t + 2)*exp(t)",
+            "(t + 2)*exp(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(t^2 + 2*t + 3)*exp(t)",
+          "options": [
+            "2*sqrt(t^2 + 2*t + 3)*exp(t)",
+            "-sqrt(t^2 + 2*t + 3)*exp(t)",
+            "sqrt(t^2 + 2*t + 3)*exp(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "2*t",
+          "options": [
+            "2*t",
+            "-2*t",
+            "4*t"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "t*sin(t)",
+          "options": [
+            "2*t*sin(t)",
+            "-t*sin(t)",
+            "t*sin(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · z",
+          "answer": "t*cos(t)",
+          "options": [
+            "t*cos(t)",
+            "-t*cos(t)",
+            "2*t*cos(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Acceleration · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · y",
+          "answer": "t*cos(t) + sin(t)",
+          "options": [
+            "-t*cos(t) - sin(t)",
+            "t*cos(t) + sin(t)",
+            "2*t*cos(t) + 2*sin(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Acceleration · z",
+          "answer": "-t*sin(t) + cos(t)",
+          "options": [
+            "-t*sin(t) + cos(t)",
+            "-2*t*sin(t) + 2*cos(t)",
+            "t*sin(t) - cos(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed",
+          "answer": "sqrt(5)*Abs(t)",
+          "options": [
+            "sqrt(5)*Abs(t)",
+            "-sqrt(5)*Abs(t)",
+            "2*sqrt(5)*Abs(t)"
+          ],
+          "explanation": "Differentiate position componentwise; speed is the nonnegative magnitude of velocity. The graph/vector drawing itself requires visual review.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "2*t + 3",
+          "options": [
+            "4*t + 6",
+            "2*t + 3",
+            "-2*t - 3"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Velocity · y",
+          "answer": -1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · z",
+          "answer": "t^2",
+          "options": [
+            "-t^2",
+            "2*t^2",
+            "t^2"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · x",
+          "answer": "t*(t + 3)",
+          "options": [
+            "t*(t + 3)",
+            "-t*(t + 3)",
+            "2*t*(t + 3)"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · y",
+          "answer": "1 - t",
+          "options": [
+            "t - 1",
+            "2 - 2*t",
+            "1 - t"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · z",
+          "answer": "t^3/3 + 1",
+          "options": [
+            "-t^3/3 - 1",
+            "2*t^3/3 + 2",
+            "t^3/3 + 1"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-16": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity · x",
+          "answer": "1 - cos(t)",
+          "options": [
+            "cos(t) - 1",
+            "1 - cos(t)",
+            "2 - 2*cos(t)"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · y",
+          "answer": "2*sin(t)",
+          "options": [
+            "2*sin(t)",
+            "-2*sin(t)",
+            "4*sin(t)"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Velocity · z",
+          "answer": "3*t^2 + 1",
+          "options": [
+            "3*t^2 + 1",
+            "-3*t^2 - 1",
+            "6*t^2 + 2"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · x",
+          "answer": "t - sin(t)",
+          "options": [
+            "-t + sin(t)",
+            "t - sin(t)",
+            "2*t - 2*sin(t)"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · y",
+          "answer": "3 - 2*cos(t)",
+          "options": [
+            "3 - 2*cos(t)",
+            "6 - 4*cos(t)",
+            "2*cos(t) - 3"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · z",
+          "answer": "t^3 + t - 4",
+          "options": [
+            "2*t^3 + 2*t - 8",
+            "-t^3 - t + 4",
+            "t^3 + t - 4"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Position · x",
+          "answer": "t^3/3 + t",
+          "options": [
+            "-t^3/3 - t",
+            "t^3/3 + t",
+            "2*t^3/3 + 2*t"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · y",
+          "answer": "t - sin(t) + 1",
+          "options": [
+            "-t + sin(t) - 1",
+            "2*t - 2*sin(t) + 2",
+            "t - sin(t) + 1"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · z",
+          "answer": "sin(t)^2/2",
+          "options": [
+            "sin(t)^2",
+            "sin(t)^2/2",
+            "-sin(t)^2/2"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Position · x",
+          "answer": "t^3/6",
+          "options": [
+            "t^3/3",
+            "-t^3/6",
+            "t^3/6"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · y",
+          "answer": "-t + exp(t)",
+          "options": [
+            "-t + exp(t)",
+            "t - exp(t)",
+            "-2*t + 2*exp(t)"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position · z",
+          "answer": "2*t + exp(-t)",
+          "options": [
+            "-2*t - exp(-t)",
+            "2*t + exp(-t)",
+            "4*t + 2*exp(-t)"
+          ],
+          "explanation": "Integrate acceleration, impose v(0), integrate again, then impose r(0).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-19": {
+    "grader": {
+      "type": "numeric",
+      "label": "Time of minimum speed",
+      "answer": 4.0,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Speed squared=8(t−4)²+153; its global minimum occurs at t=4.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-20": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Required force · x",
+          "answer": "6*m*t",
+          "options": [
+            "-6*m*t",
+            "6*m*t",
+            "12*m*t"
+          ],
+          "explanation": "Newton’s law gives F=m r″ for constant mass m.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Required force · y",
+          "answer": "2*m",
+          "options": [
+            "-2*m",
+            "4*m",
+            "2*m"
+          ],
+          "explanation": "Newton’s law gives F=m r″ for constant mass m.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Required force · z",
+          "answer": "6*m*t",
+          "options": [
+            "6*m*t",
+            "12*m*t",
+            "-6*m*t"
+          ],
+          "explanation": "Newton’s law gives F=m r″ for constant mass m.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-21": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Position, meters · x",
+          "answer": "t",
+          "options": [
+            "-t",
+            "2*t",
+            "t"
+          ],
+          "explanation": "The stated applied net force is(0,0,20)N and mass4kg, so acceleration is(0,0,5)m/s²; integrate with the initial data.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position, meters · y",
+          "answer": "-t",
+          "options": [
+            "-t",
+            "t",
+            "-2*t"
+          ],
+          "explanation": "The stated applied net force is(0,0,20)N and mass4kg, so acceleration is(0,0,5)m/s²; integrate with the initial data.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position, meters · z",
+          "answer": "5*t^2/2",
+          "options": [
+            "5*t^2",
+            "-5*t^2/2",
+            "5*t^2/2"
+          ],
+          "explanation": "The stated applied net force is(0,0,20)N and mass4kg, so acceleration is(0,0,5)m/s²; integrate with the initial data.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Speed, m/s",
+          "answer": "sqrt(25*t^2 + 2)",
+          "options": [
+            "2*sqrt(25*t^2 + 2)",
+            "sqrt(25*t^2 + 2)",
+            "-sqrt(25*t^2 + 2)"
+          ],
+          "explanation": "The stated applied net force is(0,0,20)N and mass4kg, so acceleration is(0,0,5)m/s²; integrate with the initial data.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-22": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Derivative identity",
+          "answer": "0=d(v·v)/dt=2v·a",
+          "options": [
+            "v=a",
+            "0=v+a",
+            "0=d(v·v)/dt=2v·a"
+          ],
+          "explanation": "Constant speed means v·v is constant, not necessarily v itself.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Conclusion",
+          "answer": "v·a=0; velocity and acceleration are orthogonal",
+          "options": [
+            "v·a=0; velocity and acceleration are orthogonal",
+            "v×a=0; they must be parallel",
+            "Acceleration must vanish"
+          ],
+          "explanation": "Constant speed means v·v is constant, not necessarily v itself.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-23": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Range",
+          "answer": 3534.7975664670967,
+          "unit": "m",
+          "tolerance": 0.1,
+          "explanation": "Use g=9.8m/s², no drag, equal launch/landing heights; horizontal speed is constant.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Maximum height",
+          "answer": 1530.6122448979593,
+          "unit": "m",
+          "tolerance": 0.1,
+          "explanation": "Use g=9.8m/s², no drag, equal launch/landing heights; horizontal speed is constant.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Impact speed",
+          "answer": 200.0,
+          "unit": "m/s",
+          "tolerance": 2.0000000000000002e-07,
+          "explanation": "Use g=9.8m/s², no drag, equal launch/landing heights; horizontal speed is constant.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-24": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Range",
+          "answer": 3591.6191897712256,
+          "unit": "m",
+          "tolerance": 0.1,
+          "explanation": "Solve100+v_y t−gt²/2=0 for the positive flight time. Impact kinetic energy includes the initial100m elevation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Maximum height above ground",
+          "answer": 1630.6122448979593,
+          "unit": "m",
+          "tolerance": 0.1,
+          "explanation": "Solve100+v_y t−gt²/2=0 for the positive flight time. Impact kinetic energy includes the initial100m elevation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Impact speed",
+          "answer": 204.8414020651099,
+          "unit": "m/s",
+          "tolerance": 0.01,
+          "explanation": "Solve100+v_y t−gt²/2=0 for the positive flight time. Impact kinetic energy includes the initial100m elevation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-25": {
+    "grader": {
+      "type": "numeric",
+      "label": "Initial speed",
+      "answer": 29.698484809834994,
+      "unit": "m/s",
+      "tolerance": 0.01,
+      "explanation": "R=v0² sin(2θ)/g and sin90°=1.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-26": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Lower angle",
+          "answer": 5.294131699873059,
+          "unit": "degrees",
+          "tolerance": 0.01,
+          "explanation": "The two elevations are complementary because they have the same sin(2θ).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Higher angle",
+          "answer": 84.70586830012694,
+          "unit": "degrees",
+          "tolerance": 0.01,
+          "explanation": "The two elevations are complementary because they have the same sin(2θ).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-27": {
+    "grader": {
+      "type": "numeric",
+      "label": "Muzzle speed",
+      "answer": 544.4165173453056,
+      "unit": "ft/s",
+      "tolerance": 0.1,
+      "explanation": "At the apex vertical speed is zero; use g=32ft/s² and sin36°.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909
+      ]
+    }
+  },
+  "calculus-section-13-4-28": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Height at fence",
+          "answer": 11.201765114758631,
+          "unit": "ft",
+          "tolerance": 0.1,
+          "explanation": "Substitute t=400/(115cos50°) into y=3+115sin50°t−16t².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Home run?",
+          "answer": "Yes, the ball clears the10-ft fence",
+          "options": [
+            "No, it strikes below10ft",
+            "No, it has landed before400ft",
+            "Yes, the ball clears the10-ft fence"
+          ],
+          "explanation": "Substitute t=400/(115cos50°) into y=3+115sin50°t−16t².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        909,
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-29": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "First interval lower elevation",
+          "answer": 12.987317461835051,
+          "unit": "degrees",
+          "tolerance": 0.02,
+          "explanation": "For ground impact inside the city require y(100)>15 and range<600; y(100)>15 already implies range>100. Wall-grazing/boundary endpoints are excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "First interval upper elevation",
+          "answer": 33.372009604114815,
+          "unit": "degrees",
+          "tolerance": 0.02,
+          "explanation": "For ground impact inside the city require y(100)>15 and range<600; y(100)>15 already implies range>100. Wall-grazing/boundary endpoints are excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Second interval lower elevation",
+          "answer": 56.627990395885185,
+          "unit": "degrees",
+          "tolerance": 0.02,
+          "explanation": "For ground impact inside the city require y(100)>15 and range<600; y(100)>15 already implies range>100. Wall-grazing/boundary endpoints are excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Second interval upper elevation",
+          "answer": 85.54344814811309,
+          "unit": "degrees",
+          "tolerance": 0.02,
+          "explanation": "For ground impact inside the city require y(100)>15 and range<600; y(100)>15 already implies range>100. Wall-grazing/boundary endpoints are excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Endpoint interpretation",
+          "answer": "Use strict intervals to clear the near wall and land before the far wall",
+          "options": [
+            "Only45° works",
+            "Use strict intervals to clear the near wall and land before the far wall",
+            "All four endpoints are guaranteed safe"
+          ],
+          "explanation": "For ground impact inside the city require y(100)>15 and range<600; y(100)>15 already implies range>100. Wall-grazing/boundary endpoints are excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-30": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Height / maximum height at half-ascent time",
+          "answer": 0.75,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "The apex time is v0 sinα/g and maximum height is(v0 sinα)²/(2g).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Substitution",
+          "answer": "t=v0 sinα/(2g) into y=v0 sinα t−gt²/2",
+          "options": [
+            "t=v0 cosα/g into y",
+            "t=2v0 sinα/g",
+            "t=v0 sinα/(2g) into y=v0 sinα t−gt²/2"
+          ],
+          "explanation": "The apex time is v0 sinα/g and maximum height is(v0 sinα)²/(2g).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-31": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Landing point, ft · x",
+          "answer": 250.0,
+          "unit": "",
+          "tolerance": 2.5000000000000004e-07,
+          "explanation": "Vertical motion80t−16t² gives positive landing time5s; x=50t,y=−2t².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Landing point, ft · y",
+          "answer": -50.0,
+          "unit": "",
+          "tolerance": 5.0000000000000004e-08,
+          "explanation": "Vertical motion80t−16t² gives positive landing time5s; x=50t,y=−2t².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Landing point, ft · z",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Vertical motion80t−16t² gives positive landing time5s; x=50t,y=−2t².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Impact speed",
+          "answer": 96.43650760992955,
+          "unit": "ft/s",
+          "tolerance": 0.01,
+          "explanation": "Vertical motion80t−16t² gives positive landing time5s; x=50t,y=−2t².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-32": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Eastward landing distance",
+          "answer": 23.4277384423157,
+          "unit": "m",
+          "tolerance": 0.01,
+          "explanation": "Axes east,north,up give a=(5,0,−9.8); initial velocity(0,−15√3,15). Use positive time30/9.8.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Southward landing distance",
+          "answer": 79.53294524550967,
+          "unit": "m",
+          "tolerance": 0.01,
+          "explanation": "Axes east,north,up give a=(5,0,−9.8); initial velocity(0,−15√3,15). Use positive time30/9.8.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Impact speed",
+          "answer": 33.679034790551185,
+          "unit": "m/s",
+          "tolerance": 0.01,
+          "explanation": "Axes east,north,up give a=(5,0,−9.8); initial velocity(0,−15√3,15). Use positive time30/9.8.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-33": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Downstream distance",
+          "answer": 16.0,
+          "unit": "m",
+          "tolerance": 1.6e-08,
+          "explanation": "dy/dx=(f(x)−5sinθ)/(5cosθ). Zero net drift requires5sinθ=mean(f)=2m/s. The S-shaped drift is consistent with slow banks and fast central water.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Path y(x), meters",
+          "answer": "-x^3/2000 + 3*x^2/100",
+          "options": [
+            "x^3/2000 - 3*x^2/100",
+            "-x^3/1000 + 3*x^2/50",
+            "-x^3/2000 + 3*x^2/100"
+          ],
+          "explanation": "dy/dx=(f(x)−5sinθ)/(5cosθ). Zero net drift requires5sinθ=mean(f)=2m/s. The S-shaped drift is consistent with slow banks and fast central water.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Heading south of east",
+          "answer": 23.57817847820183,
+          "unit": "degrees",
+          "tolerance": 0.01,
+          "explanation": "dy/dx=(f(x)−5sinθ)/(5cosθ). Zero net drift requires5sinθ=mean(f)=2m/s. The S-shaped drift is consistent with slow banks and fast central water.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Path y(x), meters",
+          "answer": "sqrt(21)*(-x^3/400 + 3*x^2/20 - 2*x)/21",
+          "options": [
+            "sqrt(21)*(-x^3/400 + 3*x^2/20 - 2*x)/21",
+            "-sqrt(21)*(-x^3/400 + 3*x^2/20 - 2*x)/21",
+            "2*sqrt(21)*(-x^3/400 + 3*x^2/20 - 2*x)/21"
+          ],
+          "explanation": "dy/dx=(f(x)−5sinθ)/(5cosθ). Zero net drift requires5sinθ=mean(f)=2m/s. The S-shaped drift is consistent with slow banks and fast central water.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Shape",
+          "answer": "Initially upstream, then downstream through the middle, then upstream again to B",
+          "options": [
+            "Straight across from A to B",
+            "Monotonically downstream",
+            "Initially upstream, then downstream through the middle, then upstream again to B"
+          ],
+          "explanation": "dy/dx=(f(x)−5sinθ)/(5cosθ). Zero net drift requires5sinθ=mean(f)=2m/s. The S-shaped drift is consistent with slow banks and fast central water.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-34": {
+    "grader": {
+      "type": "numeric",
+      "label": "Heading south of east",
+      "answer": 22.45587801364209,
+      "unit": "degrees",
+      "tolerance": 0.01,
+      "explanation": "Mean current is(1/40)∫0^40 3sin(πx/40)dx=6/π; cancel it with the southward component of boat velocity.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-35": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Path",
+          "answer": "A circle about the c-axis in the plane c·r=c·r(0); a stationary point in the degenerate case",
+          "options": [
+            "An arbitrary straight line",
+            "A circle about the c-axis in the plane c·r=c·r(0); a stationary point in the degenerate case",
+            "A spiral with increasing radius"
+          ],
+          "explanation": "r·(c×r)=0 and c·(c×r)=0; their derivatives show constant radius and axial coordinate. If c×r0=0 the point is stationary.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Invariants",
+          "answer": "|r| and c·r are constant",
+          "options": [
+            "Only |r′| grows exponentially",
+            "|r| and c·r are constant",
+            "r is parallel to r′"
+          ],
+          "explanation": "r·(c×r)=0 and c·(c×r)=0; their derivatives show constant radius and axial coordinate. If c×r0=0 the point is stationary.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-36": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Straight-line acceleration",
+          "answer": "Parallel to the fixed line, possibly zero",
+          "options": [
+            "Parallel to the fixed line, possibly zero",
+            "Always zero",
+            "Always normal to the line"
+          ],
+          "explanation": "On a fixed line both derivatives follow its direction; constant speed gives v·a=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Constant-speed acceleration",
+          "answer": "Normal to velocity, possibly zero",
+          "options": [
+            "Parallel to velocity",
+            "Normal to velocity, possibly zero",
+            "Nonzero in every case"
+          ],
+          "explanation": "On a fixed line both derivatives follow its direction; constant speed gives v·a=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-37": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangential acceleration",
+          "answer": "(18*t^3 + 4*t)/(sqrt(9*t^2 + 4)*Abs(t))",
+          "options": [
+            "2*(18*t^3 + 4*t)/(sqrt(9*t^2 + 4)*Abs(t))",
+            "-(18*t^3 + 4*t)/(sqrt(9*t^2 + 4)*Abs(t))",
+            "(18*t^3 + 4*t)/(sqrt(9*t^2 + 4)*Abs(t))"
+          ],
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Normal acceleration",
+          "answer": "6*t^2/(sqrt(9*t^2 + 4)*Abs(t))",
+          "options": [
+            "-6*t^2/(sqrt(9*t^2 + 4)*Abs(t))",
+            "6*t^2/(sqrt(9*t^2 + 4)*Abs(t))",
+            "12*t^2/(sqrt(9*t^2 + 4)*Abs(t))"
+          ],
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "At t=0",
+          "answer": "Velocity vanishes; Frenet components are defined only for t>0, with right-hand limits aT→2,aN→0",
+          "options": [
+            "Velocity vanishes; Frenet components are defined only for t>0, with right-hand limits aT→2,aN→0",
+            "Normal acceleration diverges",
+            "Both Frenet directions are uniquely defined at t=0"
+          ],
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-38": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangential acceleration",
+          "answer": "4*t*(t^2 + 1)/sqrt(t^4 + 2*t^2 + 1)",
+          "options": [
+            "8*t*(t^2 + 1)/sqrt(t^4 + 2*t^2 + 1)",
+            "-4*t*(t^2 + 1)/sqrt(t^4 + 2*t^2 + 1)",
+            "4*t*(t^2 + 1)/sqrt(t^4 + 2*t^2 + 1)"
+          ],
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Normal acceleration",
+          "answer": "4*(t^2 + 1)/sqrt(t^4 + 2*t^2 + 1)",
+          "options": [
+            "8*(t^2 + 1)/sqrt(t^4 + 2*t^2 + 1)",
+            "-4*(t^2 + 1)/sqrt(t^4 + 2*t^2 + 1)",
+            "4*(t^2 + 1)/sqrt(t^4 + 2*t^2 + 1)"
+          ],
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-39": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangential acceleration",
+          "answer": "0",
+          "options": [
+            "0",
+            "0 − 1",
+            "0 + 1"
+          ],
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Normal acceleration",
+          "answer": "1",
+          "options": [
+            "-1",
+            "2",
+            "1"
+          ],
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-40": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangential acceleration",
+          "answer": "(8*exp(2*t) + 4)*exp(2*t)/sqrt(4*exp(4*t) + 4*exp(2*t) + 1)",
+          "options": [
+            "-(8*exp(2*t) + 4)*exp(2*t)/sqrt(4*exp(4*t) + 4*exp(2*t) + 1)",
+            "2*(8*exp(2*t) + 4)*exp(2*t)/sqrt(4*exp(4*t) + 4*exp(2*t) + 1)",
+            "(8*exp(2*t) + 4)*exp(2*t)/sqrt(4*exp(4*t) + 4*exp(2*t) + 1)"
+          ],
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Normal acceleration",
+          "answer": "2*exp(t)",
+          "options": [
+            "4*exp(t)",
+            "-2*exp(t)",
+            "2*exp(t)"
+          ],
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-41": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Tangential acceleration",
+          "answer": 1.2780193008453875,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Normal acceleration",
+          "answer": 2.0896570691543306,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-42": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Tangential acceleration",
+          "answer": -13.363062095621219,
+          "unit": "",
+          "tolerance": 1.3363062095621219e-08,
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Normal acceleration",
+          "answer": 2.32992949004287,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "aT=(v·a)/|v| is signed; aN=|v×a|/|v| is nonnegative, at regular points.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-43": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Approximate tangential component",
+          "answer": 5.0,
+          "unit": "cm/s²",
+          "tolerance": 1.2,
+          "explanation": "The diagram suggests an angle of roughly60° between a and the forward tangent: aT≈10cos60°,aN≈10sin60°. The drawing is not an exact angle specification.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Approximate normal component",
+          "answer": 8.660254037844387,
+          "unit": "cm/s²",
+          "tolerance": 0.8,
+          "explanation": "The diagram suggests an angle of roughly60° between a and the forward tangent: aT≈10cos60°,aN≈10sin60°. The drawing is not an exact angle specification.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-44": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Derivative",
+          "answer": "L′=m(v×v+r×a)=mr×a=τ",
+          "options": [
+            "L′=mr×v",
+            "L′=m(v×v+r×a)=mr×a=τ",
+            "L′=mv×a"
+          ],
+          "explanation": "Use the cross-product product rule and v×v=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Zero-torque consequence",
+          "answer": "Angular momentum L is constant",
+          "options": [
+            "Position must be constant",
+            "Angular momentum L is constant",
+            "Velocity must be zero"
+          ],
+          "explanation": "Use the cross-product product rule and v×v=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-45": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Turn engines off at t",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "At t=1, r=(4,2,5),r′=(1,1,2). Adding2r′ gives the station(6,4,9). The tangent must meet all three station coordinates.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Coasting duration in the same time units",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "At t=1, r=(4,2,5),r′=(1,1,2). Adding2r′ gives the station(6,4,9). The tangent must meet all three station coordinates.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910
+      ]
+    }
+  },
+  "calculus-section-13-4-46": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Velocity",
+          "answer": "v(t)=v(0)−ln[m(0)/m(t)] v_e",
+          "options": [
+            "v(t)=v(0)−ln[m(0)/m(t)] v_e",
+            "v(t)=v(0)+ln[m(0)/m(t)] v_e",
+            "v(t)=v(0)−m(t)v_e"
+          ],
+          "explanation": "Integrate dv=v_e dm/m for constant relative exhaust vector. A speed gain2|v_e| requires m_final/m_initial=e^−2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Fraction of initial mass burned",
+          "answer": 0.8646647167633873,
+          "unit": "",
+          "tolerance": 1e-05,
+          "explanation": "Integrate dv=v_e dm/m for constant relative exhaust vector. A speed gain2|v_e| requires m_final/m_initial=e^−2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        910,
+        911
+      ]
+    }
+  },
+  "calculus-section-13-4-1-project-kepler-s-laws-applied-project-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Angular momentum per mass",
+          "answer": "h=r²θ′ k",
+          "options": [
+            "h=r²θ k",
+            "h=rθ′ k",
+            "h=r²θ′ k"
+          ],
+          "explanation": "The polar cross product gives h=r×r′; a small sector has area½r²dθ.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Scalar relation",
+          "answer": "r²θ′=h",
+          "options": [
+            "r²θ′=h",
+            "r²θ=h",
+            "rθ′=h"
+          ],
+          "explanation": "The polar cross product gives h=r×r′; a small sector has area½r²dθ.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Swept-area rate",
+          "answer": "A′=r²θ′/2",
+          "options": [
+            "A′=r²θ′/2",
+            "A′=rθ′",
+            "A′=πr²"
+          ],
+          "explanation": "The polar cross product gives h=r×r′; a small sector has area½r²dθ.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Constant rate",
+          "answer": "A′=h/2",
+          "options": [
+            "A′=h",
+            "A′=h/2",
+            "A′=2h"
+          ],
+          "explanation": "The polar cross product gives h=r×r′; a small sector has area½r²dθ.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        911
+      ]
+    }
+  },
+  "calculus-section-13-4-2-project-kepler-s-laws-applied-project-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Orbital period",
+          "answer": "T=2πab/h",
+          "options": [
+            "T=2πab/h",
+            "T=2πa/h",
+            "T=πab/h"
+          ],
+          "explanation": "Areaπab divided by areal rateh/2 gives T; substitute h²=GMb²/a.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Semilatus rectum",
+          "answer": "h²/(GM)=ed=b²/a",
+          "options": [
+            "h²/(GM)=a²/b",
+            "h²/(GM)=ed=b²/a",
+            "h²/(GM)=ab"
+          ],
+          "explanation": "Areaπab divided by areal rateh/2 gives T; substitute h²=GMb²/a.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Third law",
+          "answer": "T²=4π²a³/(GM)",
+          "options": [
+            "T²=GM a³",
+            "T²=4π²a³/(GM)",
+            "T²=4π²a²/(GM)"
+          ],
+          "explanation": "Areaπab divided by areal rateh/2 gives T; substitute h²=GMb²/a.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        911,
+        912
+      ]
+    }
+  },
+  "calculus-section-13-4-3-project-kepler-s-laws-applied-project-1": {
+    "grader": {
+      "type": "numeric",
+      "label": "Earth orbital major axis",
+      "answer": 299207423854.2341,
+      "unit": "m",
+      "tolerance": 149603711.92711705,
+      "explanation": "Kepler’s law solves for semimajor axis a; the requested major-axis length is2a. Convert days to seconds.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        911,
+        912
+      ]
+    }
+  },
+  "calculus-section-13-4-4-project-kepler-s-laws-applied-project-1": {
+    "grader": {
+      "type": "numeric",
+      "label": "Geosynchronous altitude using24h period",
+      "answer": 35880474.305047825,
+      "unit": "m",
+      "tolerance": 150000,
+      "explanation": "Use T=24h as the exercise approximation, compute orbital radius(GMT²/4π²)^(1/3), then subtract Earth radius. Using a sidereal day differs by about77km and is accepted.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        911,
+        912
+      ]
+    }
+  }
+}

@@ -1,0 +1,661 @@
+{
+  "calculus-chapter-09-problems-plus-1-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "All functions",
+      "answer": "f(x)=10e^x orf(x)=−10e^x",
+      "options": [
+        "f(x)=10e^x orf(x)=−10e^x",
+        "−(f(x)=10e^x orf(x)=−10e^x)",
+        "2(f(x)=10e^x orf(x)=−10e^x)"
+      ],
+      "explanation": "Atx=0,f(0)²=100. Differentiate the integral identity:2ff′=f²+(f′)², hence(f′−f)²=0 everywhere. Thusf′=f and the two initial signs give exactly these functions; substitution confirms the original identity.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        668
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-2-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "All possible functions",
+      "answer": "g(x)=Ce^x√(2x−1), x>1/2, any real C",
+      "options": [
+        "g(x)=Ce^(−x)√(2x−1), x>1/2",
+        "g(x)=Ce^x√(2x−1), x>1/2, any real C",
+        "g(x)=Ce^x/√(2x−1), x>1/2"
+      ],
+      "explanation": "The source hasf=e^(x²), not e^x. The equalityf′g+fg′=f′g′ gives(2x−1)g′=2xg; integrateg′/g=1+1/(2x−1). The zero function is included byC=0.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        668
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-3-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Derivative identity",
+          "answer": "f′(x)=f(x)lim[h→0](f(h)−1)/h=f(x)",
+          "options": [
+            "2(f′(x)=f(x)lim[h→0](f(h)−1)/h=f(x))",
+            "f′(x)=f(x)lim[h→0](f(h)−1)/h=f(x)",
+            "−(f′(x)=f(x)lim[h→0](f(h)−1)/h=f(x))"
+          ],
+          "explanation": "The multiplicative identity turns the difference quotient at arbitraryx into f(x) times the quotient at0. Sincef′(0)=1, the derivative exists everywhere and equalsf; f(0)=1 fixes the exponential constant.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Function",
+          "answer": "f(x)=e^x",
+          "options": [
+            "2(f(x)=e^x)",
+            "f(x)=e^x",
+            "−(f(x)=e^x)"
+          ],
+          "explanation": "The multiplicative identity turns the difference quotient at arbitraryx into f(x) times the quotient at0. Sincef′(0)=1, the derivative exists everywhere and equalsf; f(0)=1 fixes the exponential constant.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        668
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-4-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "All nonzero functions on a connected interval",
+          "answer": "f(x)=Ae^x orf(x)=Ae^(−x), A≠0",
+          "options": [
+            "−(f(x)=Ae^x orf(x)=Ae^(−x), A≠0)",
+            "2(f(x)=Ae^x orf(x)=Ae^(−x), A≠0)",
+            "f(x)=Ae^x orf(x)=Ae^(−x), A≠0"
+          ],
+          "explanation": "WriteF′=f,G′=1/f,FG=−1. Differentiating givesfG+F/f=0, soF²=f². Continuity and nonvanishing forceF=f orF=−f throughout a connected interval, hencef′=f orf′=−f. Corresponding primitives±f and∓1/f verify the product.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Meaning of the indefinite integrals",
+          "answer": "There exist choices of antiderivative constants whose product is−1; arbitrary independent constants do not preserve it",
+          "options": [
+            "−(There exist choices of antiderivative constants whose product is−1; arbitrary independent constants do not preserve it)",
+            "2(There exist choices of antiderivative constants whose product is−1; arbitrary independent constants do not preserve it)",
+            "There exist choices of antiderivative constants whose product is−1; arbitrary independent constants do not preserve it"
+          ],
+          "explanation": "WriteF′=f,G′=1/f,FG=−1. Differentiating givesfG+F/f=0, soF²=f². Continuity and nonvanishing forceF=f orF=−f throughout a connected interval, hencef′=f orf′=−f. Corresponding primitives±f and∓1/f verify the product.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        668
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-5-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Standard positive branch, n>0",
+          "answer": "f(x)=x^(1/n), x≥0",
+          "options": [
+            "2(f(x)=x^(1/n), x≥0)",
+            "−(f(x)=x^(1/n), x≥0)",
+            "f(x)=x^(1/n), x≥0"
+          ],
+          "explanation": "Differentiating∫[0,x]f=kf^(n+1) on a positive interval gives(f^n)′=n/[k(n+1)]. The standard answer assumes positivity immediately after0. The literal nonnegative wording also permits a waiting interval; f(1)=1 then fixes its slope. We state n>0 and x≥0 because arbitrary real powers otherwise need domain conditions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Proportionality constant for that branch",
+          "answer": "n/(n+1)",
+          "options": [
+            "−(n/(n+1))",
+            "2(n/(n+1))",
+            "n/(n+1)"
+          ],
+          "explanation": "Differentiating∫[0,x]f=kf^(n+1) on a positive interval gives(f^n)′=n/[k(n+1)]. The standard answer assumes positivity immediately after0. The literal nonnegative wording also permits a waiting interval; f(1)=1 then fixes its slope. We state n>0 and x≥0 because arbitrary real powers otherwise need domain conditions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Nonuniqueness if only f≥0 is required",
+          "answer": "For any0≤a<1: f=0 on[0,a], andf=[(x−a)/(1−a)]^(1/n) forx>a",
+          "options": [
+            "For any0≤a<1: f=0 on[0,a], andf=[(x−a)/(1−a)]^(1/n) forx>a",
+            "2(For any0≤a<1: f=0 on[0,a], andf=[(x−a)/(1−a)]^(1/n) forx>a)",
+            "−(For any0≤a<1: f=0 on[0,a], andf=[(x−a)/(1−a)]^(1/n) forx>a)"
+          ],
+          "explanation": "Differentiating∫[0,x]f=kf^(n+1) on a positive interval gives(f^n)′=n/[k(n+1)]. The standard answer assumes positivity immediately after0. The literal nonnegative wording also permits a waiting interval; f(1)=1 then fixes its slope. We state n>0 and x≥0 because arbitrary real powers otherwise need domain conditions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Proportionality constant for delayed branch",
+          "answer": "n(1−a)/(n+1)",
+          "options": [
+            "−(n(1−a)/(n+1))",
+            "n(1−a)/(n+1)",
+            "2(n(1−a)/(n+1))"
+          ],
+          "explanation": "Differentiating∫[0,x]f=kf^(n+1) on a positive interval gives(f^n)′=n/[k(n+1)]. The standard answer assumes positivity immediately after0. The literal nonnegative wording also permits a waiting interval; f(1)=1 then fixes its slope. We state n>0 and x≥0 because arbitrary real powers otherwise need domain conditions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        668
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-6-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Curves, c>0",
+      "answer": "y=exp[(x−c)/c] andy=exp[−(x−c)/c]",
+      "options": [
+        "y=exp[(x−c)/c] andy=exp[−(x−c)/c]",
+        "−(y=exp[(x−c)/c] andy=exp[−(x−c)/c])",
+        "2(y=exp[(x−c)/c] andy=exp[−(x−c)/c])"
+      ],
+      "explanation": "The horizontal subtangent length is|y/y′|=c, so on a smooth connected branchy′=±y/c. Through(c,1), the two signs give the two exponential curves. A positive length requiresc>0.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        668
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-7-problems-plus-0": {
+    "grader": {
+      "type": "numeric",
+      "label": "Room temperature",
+      "answer": 20.0,
+      "unit": "°C",
+      "tolerance": 2e-08,
+      "explanation": "Equal ten-minute intervals have the same cooling factorq. Thus(80−T)²=(100−T)(65−T), givingT=20°C andq=3/4; this also reproduces65°C.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        668
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-8-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Hours before noon snow began",
+          "answer": 0.6180339887498949,
+          "unit": "h",
+          "tolerance": 1e-05,
+          "explanation": "Constant snowfall makes depth proportionalt+b. Fixed volumetric removal givesx′=K/(t+b). Distances6and3km implyln[(b+1)/b]=2ln[(b+2)/(b+1)], henceb²+b−1=0 and its positive root. Subtract60b minutes fromnoon.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Clock time",
+          "answer": "Approximately11:22:55 am",
+          "options": [
+            "−(Approximately11:22:55 am)",
+            "Approximately11:22:55 am",
+            "2(Approximately11:22:55 am)"
+          ],
+          "explanation": "Constant snowfall makes depth proportionalt+b. Fixed volumetric removal givesx′=K/(t+b). Distances6and3km implyln[(b+1)/b]=2ln[(b+2)/(b+1)], henceb²+b−1=0 and its positive root. Subtract60b minutes fromnoon.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        668
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-9-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) differential equation",
+          "answer": "xy″=√(1+(y′)²)",
+          "options": [
+            "−(xy″=√(1+(y′)²))",
+            "2(xy″=√(1+(y′)²))",
+            "xy″=√(1+(y′)²)"
+          ],
+          "explanation": "The rabbit lies at the y-interceptY=y−xy′ of the pursuit tangent. Equal traveled speeds relate rabbit motion to dog arc length and give the stated DE. Setz=y′, integrateasinhz=ln(x/L), then integrate again usingy(L)=0. Separationx√(1+z²)=(x²+L²)/(2L) tendsL/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) slope",
+          "answer": "y′=x/(2L)−L/(2x)",
+          "options": [
+            "2(y′=x/(2L)−L/(2x))",
+            "−(y′=x/(2L)−L/(2x))",
+            "y′=x/(2L)−L/(2x)"
+          ],
+          "explanation": "The rabbit lies at the y-interceptY=y−xy′ of the pursuit tangent. Equal traveled speeds relate rabbit motion to dog arc length and give the stated DE. Setz=y′, integrateasinhz=ln(x/L), then integrate again usingy(L)=0. Separationx√(1+z²)=(x²+L²)/(2L) tendsL/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) path",
+          "answer": "y=(x²−L²)/(4L)−(L/2)ln(x/L), 0<x≤L",
+          "options": [
+            "2(y=(x²−L²)/(4L)−(L/2)ln(x/L), 0<x≤L)",
+            "−(y=(x²−L²)/(4L)−(L/2)ln(x/L), 0<x≤L)",
+            "y=(x²−L²)/(4L)−(L/2)ln(x/L), 0<x≤L"
+          ],
+          "explanation": "The rabbit lies at the y-interceptY=y−xy′ of the pursuit tangent. Equal traveled speeds relate rabbit motion to dog arc length and give the stated DE. Setz=y′, integrateasinhz=ln(x/L), then integrate again usingy(L)=0. Separationx√(1+z²)=(x²+L²)/(2L) tendsL/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) capture",
+          "answer": "Never; the separation approachesL/2, not0",
+          "options": [
+            "2(Never; the separation approachesL/2, not0)",
+            "Never; the separation approachesL/2, not0",
+            "−(Never; the separation approachesL/2, not0)"
+          ],
+          "explanation": "The rabbit lies at the y-interceptY=y−xy′ of the pursuit tangent. Equal traveled speeds relate rabbit motion to dog arc length and give the stated DE. Setz=y′, integrateasinhz=ln(x/L), then integrate again usingy(L)=0. Separationx√(1+z²)=(x²+L²)/(2L) tendsL/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        668,
+        669
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-10-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) equation, dog twice as fast",
+          "answer": "xy″=(1/2)√(1+(y′)²)",
+          "options": [
+            "xy″=(1/2)√(1+(y′)²)",
+            "2(xy″=(1/2)√(1+(y′)²))",
+            "−(xy″=(1/2)√(1+(y′)²))"
+          ],
+          "explanation": "For speed ratiok=vDog/vRabbit, asinhy′=(1/k)ln(x/L). Atk=1/2 the dog path isx³/(6L²)+L²/(2x)−2L/3 and the separation isx³/(2L²)+L²/(2x). Its unique minimum on0<x≤L occurs atx=L/3^(1/4). Rabbit ordinate isy−xy′.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) dog path",
+          "answer": "y=x^(3/2)/(3√L)−√(Lx)+2L/3",
+          "options": [
+            "−(y=x^(3/2)/(3√L)−√(Lx)+2L/3)",
+            "y=x^(3/2)/(3√L)−√(Lx)+2L/3",
+            "2(y=x^(3/2)/(3√L)−√(Lx)+2L/3)"
+          ],
+          "explanation": "For speed ratiok=vDog/vRabbit, asinhy′=(1/k)ln(x/L). Atk=1/2 the dog path isx³/(6L²)+L²/(2x)−2L/3 and the separation isx³/(2L²)+L²/(2x). Its unique minimum on0<x≤L occurs atx=L/3^(1/4). Rabbit ordinate isy−xy′.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) capture point",
+          "answer": "(0,2L/3)",
+          "options": [
+            "2((0,2L/3))",
+            "−((0,2L/3))",
+            "(0,2L/3)"
+          ],
+          "explanation": "For speed ratiok=vDog/vRabbit, asinhy′=(1/k)ln(x/L). Atk=1/2 the dog path isx³/(6L²)+L²/(2x)−2L/3 and the separation isx³/(2L²)+L²/(2x). Its unique minimum on0<x≤L occurs atx=L/3^(1/4). Rabbit ordinate isy−xy′.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) minimum separation, dog half as fast",
+          "answer": "2L/3^(3/4)",
+          "options": [
+            "−(2L/3^(3/4))",
+            "2L/3^(3/4)",
+            "2(2L/3^(3/4))"
+          ],
+          "explanation": "For speed ratiok=vDog/vRabbit, asinhy′=(1/k)ln(x/L). Atk=1/2 the dog path isx³/(6L²)+L²/(2x)−2L/3 and the separation isx³/(2L²)+L²/(2x). Its unique minimum on0<x≤L occurs atx=L/3^(1/4). Rabbit ordinate isy−xy′.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) dog position",
+          "answer": "(L/3^(1/4), L[5/3^(7/4)−2/3])",
+          "options": [
+            "−((L/3^(1/4), L[5/3^(7/4)−2/3]))",
+            "(L/3^(1/4), L[5/3^(7/4)−2/3])",
+            "2((L/3^(1/4), L[5/3^(7/4)−2/3]))"
+          ],
+          "explanation": "For speed ratiok=vDog/vRabbit, asinhy′=(1/k)ln(x/L). Atk=1/2 the dog path isx³/(6L²)+L²/(2x)−2L/3 and the separation isx³/(2L²)+L²/(2x). Its unique minimum on0<x≤L occurs atx=L/3^(1/4). Rabbit ordinate isy−xy′.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) rabbit position",
+          "answer": "(0, L[8/3^(7/4)−2/3])",
+          "options": [
+            "−((0, L[8/3^(7/4)−2/3]))",
+            "(0, L[8/3^(7/4)−2/3])",
+            "2((0, L[8/3^(7/4)−2/3]))"
+          ],
+          "explanation": "For speed ratiok=vDog/vRabbit, asinhy′=(1/k)ln(x/L). Atk=1/2 the dog path isx³/(6L²)+L²/(2x)−2L/3 and the separation isx³/(2L²)+L²/(2x). Its unique minimum on0<x≤L occurs atx=L/3^(1/4). Rabbit ordinate isy−xy′.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        669
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-11-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) time from60ft to100ft",
+          "answer": 9.8,
+          "unit": "h",
+          "tolerance": 1e-08,
+          "explanation": "Withr=1.5h, V=(3π/4)h³ andA=(9π/4)h². Before removalV′=60000π; after90ft it is40000π. Compute volume increments divided by their respective rates. The cone radius at100ft is150ft, below the silo200ft radius, so the conical model fits throughout.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) uncovered floor area",
+          "answer": 100216.8056495144,
+          "unit": "ft²",
+          "tolerance": 0.01,
+          "explanation": "Withr=1.5h, V=(3π/4)h³ andA=(9π/4)h². Before removalV′=60000π; after90ft it is40000π. Compute volume increments divided by their respective rates. The cone radius at100ft is150ft, below the silo200ft radius, so the conical model fits throughout.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) rate of covered-area growth",
+          "answer": 6283.185307179587,
+          "unit": "ft²/h",
+          "tolerance": 0.01,
+          "explanation": "Withr=1.5h, V=(3π/4)h³ andA=(9π/4)h². Before removalV′=60000π; after90ft it is40000π. Compute volume increments divided by their respective rates. The cone radius at100ft is150ft, below the silo200ft radius, so the conical model fits throughout.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) time after loader starts at90ft",
+          "answer": 5.08125,
+          "unit": "h",
+          "tolerance": 1e-08,
+          "explanation": "Withr=1.5h, V=(3π/4)h³ andA=(9π/4)h². Before removalV′=60000π; after90ft it is40000π. Compute volume increments divided by their respective rates. The cone radius at100ft is150ft, below the silo200ft radius, so the conical model fits throughout.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) total time from60ft with removal beginning at90ft",
+          "answer": 11.49375,
+          "unit": "h",
+          "tolerance": 1.1493750000000002e-08,
+          "explanation": "Withr=1.5h, V=(3π/4)h³ andA=(9π/4)h². Before removalV′=60000π; after90ft it is40000π. Compute volume increments divided by their respective rates. The cone radius at100ft is150ft, below the silo200ft radius, so the conical model fits throughout.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        669
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-12-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Curve",
+      "answer": "y=6/x, x>0",
+      "options": [
+        "2(y=6/x, x>0)",
+        "−(y=6/x, x>0)",
+        "y=6/x, x>0"
+      ],
+      "explanation": "If the tangent intercepts are(a,0),(0,b), midpointP=(x,y) impliesa=2x,b=2y. Tangent slope−b/a=−y/x gives(xy)′=0; through(3,2),xy=6.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        669
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-13-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Implicit curve",
+          "answer": "x²+(y−6)²=25",
+          "options": [
+            "2(x²+(y−6)²=25)",
+            "−(x²+(y−6)²=25)",
+            "x²+(y−6)²=25"
+          ],
+          "explanation": "The normal through(x,y) and(0,6) has slope(y−6)/x=−1/y′. Thereforex+(y−6)y′=0 and the curve is a circle centered(0,6); the given point fixes radius5. The lower graph branch contains(3,2).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Graph branch through(3,2)",
+          "answer": "y=6−√(25−x²), −5<x<5",
+          "options": [
+            "y=6−√(25−x²), −5<x<5",
+            "2(y=6−√(25−x²), −5<x<5)",
+            "−(y=6−√(25−x²), −5<x<5)"
+          ],
+          "explanation": "The normal through(x,y) and(0,6) has slope(y−6)/x=−1/y′. Thereforex+(y−6)y′=0 and the curve is a circle centered(0,6); the given point fixes radius5. The lower graph branch contains(3,2).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        669
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-14-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Nondegenerate curve family",
+      "answer": "2x²+y²=C, C>0",
+      "options": [
+        "2(2x²+y²=C, C>0)",
+        "−(2x²+y²=C, C>0)",
+        "2x²+y²=C, C>0"
+      ],
+      "explanation": "If the y-axis bisects the normal segment from(x,y) to its x-intercept, that intercept is(−x,0). Normal slopey/(2x) givesy′=−2x/y; integration yields ellipses2x²+y²=C. Degenerate zero-length segments are excluded.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        669
+      ]
+    }
+  },
+  "calculus-chapter-09-problems-plus-15-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Nondegenerate curve branches",
+      "answer": "xy=C withC≠0",
+      "options": [
+        "−(xy=C withC≠0)",
+        "2(xy=C withC≠0)",
+        "xy=C withC≠0"
+      ],
+      "explanation": "The equal sides from(x,y) to(0,0) and to(a,0) requirea=2x (a=0 is the degenerate triangle). Tangent slope−y/x implies(xy)′=0. The nonzero condition excludes collapsed triangles on the axes.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        669
+      ]
+    }
+  }
+}

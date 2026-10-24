@@ -1,0 +1,1634 @@
+{
+  "calculus-section-9-2-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a-i) y(0)=0",
+          "answer": "Even curve with minimum0 atx=0, tending towardy=1/2 as|x| increases",
+          "options": [
+            "Odd increasing curve",
+            "Constant0",
+            "Even curve with minimum0 atx=0, tending towardy=1/2 as|x| increases"
+          ],
+          "explanation": "The source equation is y′=xcos(πy). Constant solutions requirecosπy=0. Smoothness gives uniqueness, preventing crossings of equilibria; replacing x by−x preserves each initial solution at0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a-ii) y(0)=0.5",
+          "answer": "Constant y=1/2",
+          "options": [
+            "Constant y=1/2",
+            "Decreasing to0",
+            "Increasing without bound"
+          ],
+          "explanation": "The source equation is y′=xcos(πy). Constant solutions requirecosπy=0. Smoothness gives uniqueness, preventing crossings of equilibria; replacing x by−x preserves each initial solution at0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a-iii) y(0)=1",
+          "answer": "Even curve with maximum1 at0, tending towardy=1/2 as|x| increases",
+          "options": [
+            "Constant1",
+            "Even curve with maximum1 at0, tending towardy=1/2 as|x| increases",
+            "Increasing for x>0"
+          ],
+          "explanation": "The source equation is y′=xcos(πy). Constant solutions requirecosπy=0. Smoothness gives uniqueness, preventing crossings of equilibria; replacing x by−x preserves each initial solution at0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a-iv) y(0)=1.6",
+          "answer": "Even curve with minimum1.6 at0, tending towardy=5/2 as|x| increases",
+          "options": [
+            "Even curve with minimum1.6 at0, tending towardy=5/2 as|x| increases",
+            "Constant1.6",
+            "Decreasing toward1/2"
+          ],
+          "explanation": "The source equation is y′=xcos(πy). Constant solutions requirecosπy=0. Smoothness gives uniqueness, preventing crossings of equilibria; replacing x by−x preserves each initial solution at0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) all equilibria",
+          "answer": "y=k+1/2, k∈ℤ",
+          "options": [
+            "y=k, k∈ℤ",
+            "Only y=0",
+            "y=k+1/2, k∈ℤ"
+          ],
+          "explanation": "The source equation is y′=xcos(πy). Constant solutions requirecosπy=0. Smoothness gives uniqueness, preventing crossings of equilibria; replacing x by−x preserves each initial solution at0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        628
+      ]
+    }
+  },
+  "calculus-section-9-2-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a-i) y(0)=1",
+          "answer": "No classical IVP solution: tan(πy/2) is undefined at y=1",
+          "options": [
+            "No classical IVP solution: tan(πy/2) is undefined at y=1",
+            "Constant y=1",
+            "A differentiable increasing solution through(0,1)"
+          ],
+          "explanation": "The printed equation and initial values were visually checked. Odd-integer y are poles of the tangent, so vertical direction marks do not create a differentiable IVP there. For0<y<1 separation gives sin(πy/2)=sin(π/10)e^(πx/2); even integers are genuine equilibria.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a-ii) y(0)=0.2",
+          "answer": "Increases toward y=1 with a vertical tangent at a finite right endpoint; tends toward0 to the left",
+          "options": [
+            "Increases toward y=1 with a vertical tangent at a finite right endpoint; tends toward0 to the left",
+            "Constant0.2",
+            "Decreases toward0 asx increases"
+          ],
+          "explanation": "The printed equation and initial values were visually checked. Odd-integer y are poles of the tangent, so vertical direction marks do not create a differentiable IVP there. For0<y<1 separation gives sin(πy/2)=sin(π/10)e^(πx/2); even integers are genuine equilibria.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a-iii) y(0)=2",
+          "answer": "Constant y=2",
+          "options": [
+            "Constant y=0",
+            "No solution at y=2",
+            "Constant y=2"
+          ],
+          "explanation": "The printed equation and initial values were visually checked. Odd-integer y are poles of the tangent, so vertical direction marks do not create a differentiable IVP there. For0<y<1 separation gives sin(πy/2)=sin(π/10)e^(πx/2); even integers are genuine equilibria.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a-iv) y(1)=3",
+          "answer": "No classical IVP solution: tan(πy/2) is undefined at y=3",
+          "options": [
+            "Constant y=3",
+            "No classical IVP solution: tan(πy/2) is undefined at y=3",
+            "A differentiable decreasing solution through(1,3)"
+          ],
+          "explanation": "The printed equation and initial values were visually checked. Odd-integer y are poles of the tangent, so vertical direction marks do not create a differentiable IVP there. For0<y<1 separation gives sin(πy/2)=sin(π/10)e^(πx/2); even integers are genuine equilibria.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) equilibria",
+          "answer": "y=2k, k∈ℤ",
+          "options": [
+            "y=2k+1, k∈ℤ",
+            "y=2k, k∈ℤ",
+            "Every integer y"
+          ],
+          "explanation": "The printed equation and initial values were visually checked. Odd-integer y are poles of the tangent, so vertical direction marks do not create a differentiable IVP there. For0<y<1 separation gives sin(πy/2)=sin(π/10)e^(πx/2); even integers are genuine equilibria.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        628,
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-3": {
+    "grader": {
+      "type": "choice",
+      "label": "Matching field",
+      "answer": "III",
+      "options": [
+        "III",
+        "IV",
+        "I",
+        "II"
+      ],
+      "explanation": "Slope2−y is independent ofx, positive below2, zero at2 and negative above2.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-4": {
+    "grader": {
+      "type": "choice",
+      "label": "Matching field",
+      "answer": "I",
+      "options": [
+        "II",
+        "I",
+        "IV",
+        "III"
+      ],
+      "explanation": "Slopes vanish onx=0 andy=2 and reverse across either line.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-5": {
+    "grader": {
+      "type": "choice",
+      "label": "Matching field",
+      "answer": "IV",
+      "options": [
+        "II",
+        "IV",
+        "III",
+        "I"
+      ],
+      "explanation": "Zero slopes occur alongy=1−x; slope increases asx ory increases.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-6": {
+    "grader": {
+      "type": "choice",
+      "label": "Matching field",
+      "answer": "II",
+      "options": [
+        "III",
+        "II",
+        "I",
+        "IV"
+      ],
+      "explanation": "The field has horizontal segments onx=kπ andy=kπ and alternates sign between them.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) solution",
+          "answer": "2 - exp(-x^2/2)",
+          "options": [
+            "4 - 2*exp(-x^2/2)",
+            "2 - exp(-x^2/2)",
+            "-2 + exp(-x^2/2)"
+          ],
+          "explanation": "FieldI corresponds toy′=x(2−y). The initial offset from equilibrium2 is multiplied by the displayed decay factor.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) solution",
+          "answer": "2 + exp(-x^2/2)/2",
+          "options": [
+            "-2 - exp(-x^2/2)/2",
+            "4 + exp(-x^2/2)",
+            "2 + exp(-x^2/2)/2"
+          ],
+          "explanation": "FieldI corresponds toy′=x(2−y). The initial offset from equilibrium2 is multiplied by the displayed decay factor.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) solution",
+          "answer": "2 + 3*exp(-x^2/2)/2",
+          "options": [
+            "-2 - 3*exp(-x^2/2)/2",
+            "2 + 3*exp(-x^2/2)/2",
+            "4 + 3*exp(-x^2/2)"
+          ],
+          "explanation": "FieldI corresponds toy′=x(2−y). The initial offset from equilibrium2 is multiplied by the displayed decay factor.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) solution",
+          "answer": "2 - exp(-x)",
+          "options": [
+            "-2 + exp(-x)",
+            "4 - 2*exp(-x)",
+            "2 - exp(-x)"
+          ],
+          "explanation": "FieldIII corresponds toy′=2−y. The initial offset from equilibrium2 is multiplied by the displayed decay factor.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) solution",
+          "answer": "2 + exp(-x)/2",
+          "options": [
+            "2 + exp(-x)/2",
+            "4 + exp(-x)",
+            "-2 - exp(-x)/2"
+          ],
+          "explanation": "FieldIII corresponds toy′=2−y. The initial offset from equilibrium2 is multiplied by the displayed decay factor.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) solution",
+          "answer": "2 + 3*exp(-x)/2",
+          "options": [
+            "2 + 3*exp(-x)/2",
+            "4 + 3*exp(-x)",
+            "-2 - 3*exp(-x)/2"
+          ],
+          "explanation": "FieldIII corresponds toy′=2−y. The initial offset from equilibrium2 is multiplied by the displayed decay factor.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "One solution with y(0)=-1",
+          "answer": "-exp(x/2)",
+          "options": [
+            "-exp(x/2)",
+            "exp(x/2)",
+            "-2*exp(x/2)"
+          ],
+          "explanation": "The general solution isCe^(x/2); three distinct choices illustrate the field.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "One solution with y(0)=0",
+          "answer": "0",
+          "options": [
+            "0 + 1",
+            "0",
+            "0 − 1"
+          ],
+          "explanation": "The general solution isCe^(x/2); three distinct choices illustrate the field.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "One solution with y(0)=1",
+          "answer": "exp(x/2)",
+          "options": [
+            "-exp(x/2)",
+            "2*exp(x/2)",
+            "exp(x/2)"
+          ],
+          "explanation": "The general solution isCe^(x/2); three distinct choices illustrate the field.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Field pattern",
+          "answer": "Slopes depend only on y: positive above0, negative below0, zero on0",
+          "options": [
+            "Slopes depend only on y: positive above0, negative below0, zero on0",
+            "All slopes are positive",
+            "Slopes depend only onx"
+          ],
+          "explanation": "The general solution isCe^(x/2); three distinct choices illustrate the field.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "One solution with y(0)=-1",
+          "answer": "x - exp(-x)",
+          "options": [
+            "-x + exp(-x)",
+            "x - exp(-x)",
+            "2*x - 2*exp(-x)"
+          ],
+          "explanation": "Solvingy′+y=x+1 givesy=x+Ce^(−x). The derivative vanishes where the right side x−y+1 is0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "One solution with y(0)=0",
+          "answer": "x",
+          "options": [
+            "-x",
+            "x",
+            "2*x"
+          ],
+          "explanation": "Solvingy′+y=x+1 givesy=x+Ce^(−x). The derivative vanishes where the right side x−y+1 is0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "One solution with y(0)=1",
+          "answer": "x + exp(-x)",
+          "options": [
+            "2*x + 2*exp(-x)",
+            "-x - exp(-x)",
+            "x + exp(-x)"
+          ],
+          "explanation": "Solvingy′+y=x+1 givesy=x+Ce^(−x). The derivative vanishes where the right side x−y+1 is0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Horizontal direction segments",
+          "answer": "Along y=x+1",
+          "options": [
+            "Along y=x+1",
+            "Alongy=x",
+            "Alongy=0"
+          ],
+          "explanation": "Solvingy′+y=x+1 givesy=x+Ce^(−x). The derivative vanishes where the right side x−y+1 is0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution through(1,0)",
+          "answer": "2*x - 4*exp(x - 1) + 2",
+          "options": [
+            "2*x - 4*exp(x - 1) + 2",
+            "4*x - 8*exp(x - 1) + 4",
+            "-2*x + 4*exp(x - 1) - 2"
+          ],
+          "explanation": "A particular solution is2x+2; the homogeneous term isCe^x. y(1)=0 givesC=−4/e.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Slope at(1,0)",
+          "answer": -2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "A particular solution is2x+2; the homogeneous term isCe^x. y(1)=0 givesC=−4/e.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Zero-slope line",
+          "answer": "y=2x",
+          "options": [
+            "y=2x",
+            "y=x",
+            "x=0"
+          ],
+          "explanation": "A particular solution is2x+2; the homogeneous term isCe^x. y(1)=0 givesC=−4/e.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Zero-slope set",
+          "answer": "x=0 or y=x",
+          "options": [
+            "x=0 or y=x",
+            "2(x=0 or y=x)",
+            "−(x=0 or y=x)"
+          ],
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Initial slope",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Curve checkpoint y(−1)",
+          "answer": 2.0594074053420814,
+          "unit": "",
+          "tolerance": 0.002,
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Curve checkpoint y(1)",
+          "answer": 1.2380351360532589,
+          "unit": "",
+          "tolerance": 0.002,
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Zero-slope set",
+          "answer": "x=−y²",
+          "options": [
+            "x=−y²",
+            "−(x=−y²)",
+            "2(x=−y²)"
+          ],
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Initial slope",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Curve checkpoint y(−1)",
+          "answer": 0.4555445260819196,
+          "unit": "",
+          "tolerance": 0.002,
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Curve checkpoint y(1)",
+          "answer": 0.5571617541190516,
+          "unit": "",
+          "tolerance": 0.002,
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Zero-slope set",
+          "answer": "y=0 or y=2x²",
+          "options": [
+            "2(y=0 or y=2x²)",
+            "−(y=0 or y=2x²)",
+            "y=0 or y=2x²"
+          ],
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Initial slope",
+          "answer": -0.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Curve checkpoint y(−1)",
+          "answer": 1.3318715653996722,
+          "unit": "",
+          "tolerance": 0.002,
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Curve checkpoint y(1)",
+          "answer": 0.902745471186692,
+          "unit": "",
+          "tolerance": 0.002,
+          "explanation": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution through(0,1)",
+          "answer": "exp(x^2/2 + x)",
+          "options": [
+            "2*exp(x^2/2 + x)",
+            "exp(x^2/2 + x)",
+            "-exp(x^2/2 + x)"
+          ],
+          "explanation": "Integratey′/y=1+x. The positive IVP solution has its minimum atx=−1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Slope at(0,1)",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integratey′/y=1+x. The positive IVP solution has its minimum atx=−1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Stationary abscissa on this solution",
+          "answer": "x=−1",
+          "options": [
+            "x=−1",
+            "x=1",
+            "x=0"
+          ],
+          "explanation": "Integratey′/y=1+x. The positive IVP solution has its minimum atx=−1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-16": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution through(0,1)",
+          "answer": "-x + 2*atan(x + tan(1/2))",
+          "options": [
+            "-2*x + 4*atan(x + tan(1/2))",
+            "x - 2*atan(x + tan(1/2))",
+            "-x + 2*atan(x + tan(1/2))"
+          ],
+          "explanation": "Setu=x+y, so u′=1+cosu andtan(u/2)=x+tan(1/2). The displayed continuous arctangent branch satisfies the initial value and equation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Initial slope",
+          "answer": 0.5403023058681398,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Setu=x+y, so u′=1+cosu andtan(u/2)=x+tan(1/2). The displayed continuous arctangent branch satisfies the initial value and equation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Initial c with a finite limit asx→∞",
+          "answer": "−2≤c≤2",
+          "options": [
+            "Every real c",
+            "Onlyc=0",
+            "−2≤c≤2"
+          ],
+          "explanation": "Factory(y²−4). The equilibria±2 are unstable and0 is stable. For|y|>2 the cubic growth leads to finite-time escape, so the forward solution is not defined for arbitrarily large x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Limit for−2<c<2",
+          "answer": "0",
+          "options": [
+            "2",
+            "−2",
+            "0"
+          ],
+          "explanation": "Factory(y²−4). The equilibria±2 are unstable and0 is stable. For|y|>2 the cubic growth leads to finite-time escape, so the forward solution is not defined for arbitrarily large x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Limits at boundary initial values",
+          "answer": "c=−2 gives−2; c=2 gives2",
+          "options": [
+            "Both give0",
+            "Both are undefined",
+            "c=−2 gives−2; c=2 gives2"
+          ],
+          "explanation": "Factory(y²−4). The equilibria±2 are unstable and0 is stable. For|y|>2 the cubic growth leads to finite-time escape, so the forward solution is not defined for arbitrarily large x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Outside this range",
+          "answer": "Solutions escape to infinity in finite forward time, so no limit atx→∞ exists",
+          "options": [
+            "Solutions escape to infinity in finite forward time, so no limit atx→∞ exists",
+            "Solutions approach±2",
+            "Solutions approach0"
+          ],
+          "explanation": "Factory(y²−4). The equilibria±2 are unstable and0 is stable. For|y|>2 the cubic growth leads to finite-time escape, so the forward solution is not defined for arbitrarily large x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Equilibrium notation",
+          "answer": "Let r₁<r₂<r₃<r₄ be the four shown roots of f, approximately−2,−1,1,2",
+          "options": [
+            "Let r₁<r₂<r₃<r₄ be the four shown roots of f, approximately−2,−1,1,2",
+            "Onlyy=0 is an equilibrium",
+            "Every y is an equilibrium"
+          ],
+          "explanation": "Use only the source sign pattern +,−,+,−,+ across its four zeros. Root positions are approximate graphical values; no unprovided analytic f or blow-up time is inferred.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "If y(0)<r₂",
+          "answer": "Limit r₁",
+          "options": [
+            "Limit r₂",
+            "Limit r₄",
+            "Limit r₁"
+          ],
+          "explanation": "Use only the source sign pattern +,−,+,−,+ across its four zeros. Root positions are approximate graphical values; no unprovided analytic f or blow-up time is inferred.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "If y(0)=r₂",
+          "answer": "Constant r₂",
+          "options": [
+            "Constant r₂",
+            "Limit r₁",
+            "Limit r₃"
+          ],
+          "explanation": "Use only the source sign pattern +,−,+,−,+ across its four zeros. Root positions are approximate graphical values; no unprovided analytic f or blow-up time is inferred.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "If r₂<y(0)<r₄",
+          "answer": "Limit r₃",
+          "options": [
+            "Limit r₂",
+            "Limit r₄",
+            "Limit r₃"
+          ],
+          "explanation": "Use only the source sign pattern +,−,+,−,+ across its four zeros. Root positions are approximate graphical values; no unprovided analytic f or blow-up time is inferred.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "If y(0)=r₄",
+          "answer": "Constant r₄",
+          "options": [
+            "Limit r₃",
+            "Limit0",
+            "Constant r₄"
+          ],
+          "explanation": "Use only the source sign pattern +,−,+,−,+ across its four zeros. Root positions are approximate graphical values; no unprovided analytic f or blow-up time is inferred.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "If y(0)>r₄",
+          "answer": "Increases with no finite equilibrium limit; the sketch alone does not decide finite-time escape",
+          "options": [
+            "Limit r₃",
+            "Decreases to r₄",
+            "Increases with no finite equilibrium limit; the sketch alone does not decide finite-time escape"
+          ],
+          "explanation": "Use only the source sign pattern +,−,+,−,+ across its four zeros. Root positions are approximate graphical values; no unprovided analytic f or blow-up time is inferred.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-19": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) h=0.4",
+          "answer": 1.4,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Euler givesy_n=(1+h)^n for y′=y. The exact convex curvee^x lies above its forward tangent steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h=0.2",
+          "answer": 1.44,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Euler givesy_n=(1+h)^n for y′=y. The exact convex curvee^x lies above its forward tangent steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h=0.1",
+          "answer": 1.4641,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Euler givesy_n=(1+h)^n for y′=y. The exact convex curvee^x lies above its forward tangent steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) estimate direction",
+          "answer": "All are underestimates",
+          "options": [
+            "All are overestimates",
+            "All are underestimates",
+            "All are exact"
+          ],
+          "explanation": "Euler givesy_n=(1+h)^n for y′=y. The exact convex curvee^x lies above its forward tangent steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) exact minus estimate, h=0.4",
+          "answer": 0.09182469764127031,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Euler givesy_n=(1+h)^n for y′=y. The exact convex curvee^x lies above its forward tangent steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) exact minus estimate, h=0.2",
+          "answer": 0.05182469764127032,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Euler givesy_n=(1+h)^n for y′=y. The exact convex curvee^x lies above its forward tangent steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) exact minus estimate, h=0.1",
+          "answer": 0.027724697641270318,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Euler givesy_n=(1+h)^n for y′=y. The exact convex curvee^x lies above its forward tangent steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) error trend",
+          "answer": "Roughly halves when h is halved; the ratio approaches1/2 as h→0",
+          "options": [
+            "Error stays constant",
+            "Exactly quarters every time",
+            "Roughly halves when h is halved; the ratio approaches1/2 as h→0"
+          ],
+          "explanation": "Euler givesy_n=(1+h)^n for y′=y. The exact convex curvee^x lies above its forward tangent steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 8,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629
+      ]
+    }
+  },
+  "calculus-section-9-2-20": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Graph-based Euler y(1), h=1",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 0.12,
+          "explanation": "Read the printed direction segments, advance horizontally by the stated h and vertically by h times the local slope. No analytic differential equation is supplied, so the ordinate checks allow explicit graphical uncertainty.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Graph-based Euler y(2), h=1",
+          "answer": 1.67,
+          "unit": "",
+          "tolerance": 0.18,
+          "explanation": "Read the printed direction segments, advance horizontally by the stated h and vertically by h times the local slope. No analytic differential equation is supplied, so the ordinate checks allow explicit graphical uncertainty.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Graph-based Euler y(0.5), h=0.5",
+          "answer": 0.5,
+          "unit": "",
+          "tolerance": 0.08,
+          "explanation": "Read the printed direction segments, advance horizontally by the stated h and vertically by h times the local slope. No analytic differential equation is supplied, so the ordinate checks allow explicit graphical uncertainty.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Graph-based Euler y(1), h=0.5",
+          "answer": 0.9,
+          "unit": "",
+          "tolerance": 0.12,
+          "explanation": "Read the printed direction segments, advance horizontally by the stated h and vertically by h times the local slope. No analytic differential equation is supplied, so the ordinate checks allow explicit graphical uncertainty.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Graph-based Euler y(1.5), h=0.5",
+          "answer": 1.24,
+          "unit": "",
+          "tolerance": 0.15,
+          "explanation": "Read the printed direction segments, advance horizontally by the stated h and vertically by h times the local slope. No analytic differential equation is supplied, so the ordinate checks allow explicit graphical uncertainty.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Graph-based Euler y(2), h=0.5",
+          "answer": 1.55,
+          "unit": "",
+          "tolerance": 0.18,
+          "explanation": "Read the printed direction segments, advance horizontally by the stated h and vertically by h times the local slope. No analytic differential equation is supplied, so the ordinate checks allow explicit graphical uncertainty.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Estimate direction",
+          "answer": "Overestimates: the positive slopes get smaller as y rises",
+          "options": [
+            "Overestimates: the positive slopes get smaller as y rises",
+            "Exactly equal to the true curve",
+            "Underestimates: slopes increase"
+          ],
+          "explanation": "Read the printed direction segments, advance horizontally by the stated h and vertically by h times the local slope. No analytic differential equation is supplied, so the ordinate checks allow explicit graphical uncertainty.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        629,
+        630
+      ]
+    }
+  },
+  "calculus-section-9-2-21": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "y1",
+          "answer": -1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use each current point(x_n,y_n), starting(1,0), in y_(n+1)=y_n+0.5(y_n−2x_n).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "y2",
+          "answer": -3.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use each current point(x_n,y_n), starting(1,0), in y_(n+1)=y_n+0.5(y_n−2x_n).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "y3",
+          "answer": -6.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use each current point(x_n,y_n), starting(1,0), in y_(n+1)=y_n+0.5(y_n−2x_n).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "y4",
+          "answer": -12.25,
+          "unit": "",
+          "tolerance": 1.225e-08,
+          "explanation": "Use each current point(x_n,y_n), starting(1,0), in y_(n+1)=y_n+0.5(y_n−2x_n).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        630
+      ]
+    }
+  },
+  "calculus-section-9-2-22": {
+    "grader": {
+      "type": "numeric",
+      "label": "Euler estimate y(1.0)",
+      "answer": 0.8183468758527626,
+      "unit": "",
+      "tolerance": 5e-06,
+      "explanation": "Forward Euler uses the source initial y(0)=1 and step0.2. Recompute slope at the OLD point before each update; the answer is the requested Euler estimate, not a higher-order solver value.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        630
+      ]
+    }
+  },
+  "calculus-section-9-2-23": {
+    "grader": {
+      "type": "numeric",
+      "label": "Euler estimate y(0.5)",
+      "answer": 1.761639264,
+      "unit": "",
+      "tolerance": 5e-06,
+      "explanation": "Forward Euler uses the source initial y(0)=1 and step0.1. Recompute slope at the OLD point before each update; the answer is the requested Euler estimate, not a higher-order solver value.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        630
+      ]
+    }
+  },
+  "calculus-section-9-2-26": {
+    "grader": {
+      "type": "numeric",
+      "label": "Euler estimate y(2.0)",
+      "answer": 1.9000198880582195,
+      "unit": "",
+      "tolerance": 5e-06,
+      "explanation": "Forward Euler uses the source initial y(0)=1 and step0.01. Recompute slope at the OLD point before each update; the answer is the requested Euler estimate, not a higher-order solver value.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        630
+      ]
+    }
+  },
+  "calculus-section-9-2-24": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Euler y(0.6), h=0.2",
+          "answer": 0.5258011762649012,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Here the source initial value is0, unlike#16. Use y_(n+1)=y_n+hcos(x_n+y_n) for exactly3 or6 steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Euler y(0.6), h=0.1",
+          "answer": 0.503424014034425,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Here the source initial value is0, unlike#16. Use y_(n+1)=y_n+hcos(x_n+y_n) for exactly3 or6 steps.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        630
+      ]
+    }
+  },
+  "calculus-section-9-2-25": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) h=1",
+          "answer": 3.0,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h=0.1",
+          "answer": 2.392793913961655,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h=0.01",
+          "answer": 2.3701108183257835,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h=0.001",
+          "answer": 2.3681004062479305,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) exact solution",
+          "answer": "y=2+e^(−x³)",
+          "options": [
+            "2(y=2+e^(−x³))",
+            "−(y=2+e^(−x³))",
+            "y=2+e^(−x³)"
+          ],
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) signed error exact−Euler, h=1",
+          "answer": -0.6321205588285577,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) signed error exact−Euler, h=0.1",
+          "answer": -0.024914472790212763,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) signed error exact−Euler, h=0.01",
+          "answer": -0.002231377154341029,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) signed error exact−Euler, h=0.001",
+          "answer": -0.0002209650764882897,
+          "unit": "",
+          "tolerance": 5e-06,
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) error reduction",
+          "answer": "For small h, dividing h by10 reduces error by about10; the first coarse step is not in that asymptotic regime",
+          "options": [
+            "Error always divides by100",
+            "For small h, dividing h by10 reduces error by about10; the first coarse step is not in that asymptotic regime",
+            "Error is unchanged"
+          ],
+          "explanation": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 10,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        630
+      ]
+    }
+  },
+  "calculus-section-9-2-27": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) field equation",
+          "answer": "Q′=12−4Q",
+          "options": [
+            "−(Q′=12−4Q)",
+            "Q′=12−4Q",
+            "2(Q′=12−4Q)"
+          ],
+          "explanation": "Divide5Q′+20Q=60 by5. Positive slopes below3 and negative slopes above3 drive all solutions to3; Euler multiplies the deficit3−Q by0.6 each step.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) limiting charge",
+          "answer": 3.0,
+          "unit": "C",
+          "tolerance": 1e-08,
+          "explanation": "Divide5Q′+20Q=60 by5. Positive slopes below3 and negative slopes above3 drive all solutions to3; Euler multiplies the deficit3−Q by0.6 each step.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) equilibrium",
+          "answer": "Q=3 C",
+          "options": [
+            "Q=0 C",
+            "Q=3 C",
+            "Q=60 C"
+          ],
+          "explanation": "Divide5Q′+20Q=60 by5. Positive slopes below3 and negative slopes above3 drive all solutions to3; Euler multiplies the deficit3−Q by0.6 each step.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) solution through Q(0)=0",
+          "answer": "Q(t)=3(1−e^(−4t))",
+          "options": [
+            "Q(t)=3(1−e^(−4t))",
+            "2(Q(t)=3(1−e^(−4t)))",
+            "−(Q(t)=3(1−e^(−4t)))"
+          ],
+          "explanation": "Divide5Q′+20Q=60 by5. Positive slopes below3 and negative slopes above3 drive all solutions to3; Euler multiplies the deficit3−Q by0.6 each step.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(e) Euler Q(0.5), h=0.1",
+          "answer": 2.76672,
+          "unit": "C",
+          "tolerance": 1e-08,
+          "explanation": "Divide5Q′+20Q=60 by5. Positive slopes below3 and negative slopes above3 drive all solutions to3; Euler multiplies the deficit3−Q by0.6 each step.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        630
+      ]
+    }
+  },
+  "calculus-section-9-2-28": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) differential equation",
+          "answer": "T′=−(T−20)/50, T(0)=95",
+          "options": [
+            "−(T′=−(T−20)/50, T(0)=95)",
+            "2(T′=−(T−20)/50, T(0)=95)",
+            "T′=−(T−20)/50, T(0)=95"
+          ],
+          "explanation": "AtT=70, cooling1°C/min givesk=1/(70−20)=1/50min⁻¹. With h=2, Euler multiplies excess temperature by0.96 five times.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) solution shape",
+          "answer": "T=20+75e^(−t/50), decreasing concave up",
+          "options": [
+            "2(T=20+75e^(−t/50), decreasing concave up)",
+            "−(T=20+75e^(−t/50), decreasing concave up)",
+            "T=20+75e^(−t/50), decreasing concave up"
+          ],
+          "explanation": "AtT=70, cooling1°C/min givesk=1/(70−20)=1/50min⁻¹. With h=2, Euler multiplies excess temperature by0.96 five times.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) limiting temperature",
+          "answer": 20.0,
+          "unit": "°C",
+          "tolerance": 2e-08,
+          "explanation": "AtT=70, cooling1°C/min givesk=1/(70−20)=1/50min⁻¹. With h=2, Euler multiplies excess temperature by0.96 five times.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) Euler T(10), h=2",
+          "answer": 81.15295232,
+          "unit": "°C",
+          "tolerance": 5e-05,
+          "explanation": "AtT=70, cooling1°C/min givesk=1/(70−20)=1/50min⁻¹. With h=2, Euler multiplies excess temperature by0.96 five times.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        630
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "reviewer": "calculus_4 independent peer",
+  "scope": [
+    "13.1 all 54 source exercises",
+    "13.2 all 58 source exercises"
+  ],
+  "sourcePDF": "site/books/calculus/chapter-13.pdf",
+  "sourceSHA256": "8219d36f0a1f61ac21bc7925c081199906ab895bc78e08b03093e06d82cf4c22",
+  "sourcePagesVisuallyInspected": [
+    853,
+    854,
+    855,
+    860,
+    861
+  ],
+  "status": "Complete: all 112 source exercises reviewed; parent confirmed all three findings corrected and is regenerating patches/QA.",
+  "findings": [
+    {
+      "id": "calculus-section-13-1-3",
+      "severity": "answer-error",
+      "source": "p853: middle component t²/sin²t, t→0",
+      "current": "Limit [1,0,1]",
+      "correct": "Limit [1,1,1]",
+      "reason": "(t/sin t)² tends to1.",
+      "resolution": "Parent confirmed author correction and regeneration on 2026-10-24."
+    },
+    {
+      "id": "calculus-section-13-1-8",
+      "severity": "direction-error",
+      "source": "p854: r(t)=<t²−1,t>",
+      "current": "moves downward toward vertex then upward along the right branch",
+      "correct": "Moves upward throughout: lower-right branch toward (−1,0), then upper-right branch away from the vertex",
+      "reason": "dy/dt=1>0 throughout; x decreases before t=0 and increases after.",
+      "resolution": "Parent confirmed author correction and regeneration on 2026-10-24."
+    },
+    {
+      "id": "calculus-section-13-1-54",
+      "severity": "proof-wording",
+      "current": "all three coordinate differences<ε/√3",
+      "correct": "all three absolute coordinate differences<ε/√3",
+      "reason": "Without absolute values, large negative differences satisfy the proposed premise but do not bound the vector norm.",
+      "resolution": "Parent confirmed author correction and regeneration on 2026-10-24."
+    }
+  ],
+  "confirmed": [
+    {
+      "ids": "13.1 #21–26",
+      "result": "II,VI,V,I,IV,III verified directly against all six printed graph silhouettes and the source frequencies/radii."
+    },
+    {
+      "ids": "13.1 #28,34,38,40",
+      "result": "Checked source-sensitive squares/exponents: z=sin²t in28; y=e^(−t) in34; z=cos4t in38; radial factor sqrt(1−0.25cos²10t) in40. Current mathematical choices agree."
+    },
+    {
+      "ids": "13.1 #42–48",
+      "result": "Intersection parameterizations satisfy both source surfaces and correct nonnegative branches, including sqrt3*|cos t| in46 and top ellipsoid branch in48."
+    },
+    {
+      "ids": "13.2 #1",
+      "result": "Source P=r(4), Q=r(4.2), R=r(4.5). P→R, P→Q and scaling2,5 are correct; forward unit tangent points toward Q."
+    },
+    {
+      "ids": "13.2 #3–31",
+      "result": "Coordinate derivatives, source parameter values, signs, points, and input exponents compared with rendered p860; no transcription mismatches found."
+    },
+    {
+      "ids": "13.2 #33",
+      "result": "Forward tangent vectors(1,0,0),(1,2,1); angle acos(1/sqrt6)=65.905157°→66°."
+    },
+    {
+      "ids": "13.2 #34",
+      "result": "Final effective row correct: intersection(1,0,4), source parameters t=1,s=2, tangents(1,−1,2),(−1,1,4), angle acos(1/sqrt3)=54.735610°→55°. Earlier wrong row is popped before output; optional dead-code cleanup."
+    },
+    {
+      "ids": "13.2 #35–58",
+      "result": "Integrands, initial conditions, vector-product orders and proof targets compared to p861; no source mismatches found."
+    }
+  ]
+}

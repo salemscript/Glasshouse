@@ -1,0 +1,106 @@
+{
+  "chapter": 9,
+  "sourceSHA256": "008f8498f03c21bd465de4aba1cc067dadbc8890e6d2f2c5f3093147c533523f",
+  "reviewedPrintedPages": [
+    617,
+    618,
+    619,
+    620
+  ],
+  "questions": {
+    "calculus-section-9-4-1": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+    "calculus-section-9-4-2": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+    "calculus-section-9-4-3": "The rate is.05P(1−P/100). Its maximum is at half capacity, andP″ changes sign there. Initial values60,80 are already concave down for t≥0;120,140 decrease concave up toward100.",
+    "calculus-section-9-4-4": "Use the logistic field and forward Euler recurrence at the old population. The exact initial offset coefficient is6000/1000−1=5.",
+    "calculus-section-9-4-5": "The initial fraction is1/4 of carrying capacity, soA=3. Half-capacity occurs when3e^(−.71t)=1.",
+    "calculus-section-9-4-6": "k=.4,M=400 andA=7. The initial rate is.4·50−.001·50²=17.5; solve7e^(−.4t)=1.",
+    "calculus-section-9-4-7": "A=9 andP(1)=2500 implye^(−k)=1/3. At t=4, P=10000/(1+9/81)=9000.",
+    "calculus-section-9-4-8": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+    "calculus-section-9-4-9": "Use the actual printed numbers35–40million births and15–20million deaths per year, despite their poor fit to the supplied later population. The source suggests using the initial relative rate as k; this contract explicitly selects range midpoints. It is a historical textbook model, not a current demographic forecast.",
+    "calculus-section-9-4-10": "Use the exact logistic ratio from282million in2000 and309million in2010. Solve800/(1+Ae^(−kt))=500; distinguish the fractional crossing year from the first whole-number year afterward.",
+    "calculus-section-9-4-11": "Initial fraction.08 givesA=11.5. At noon(t=4), y=.5 sets11.5e^(−4k)=1. For y=.9, the denominator offset is1/9.",
+    "calculus-section-9-4-12": "P(0)=400 givesA=24;P(1)=1200 givese^(−k)=11/36. Half capacity is reached when24e^(−kt)=1.",
+    "calculus-section-9-4-13": "DifferentiateP′=kP(1−P/M) and substituteP′ again. Equivalently maximize the concave quadratic rate inP.",
+    "calculus-section-9-4-14": "InP=M/(1+Ae^(−kt)), A=M/P₀−1 controls the initial condition and k multiplies time. ForP₀>M, solutions decrease concave up towardM.",
+    "calculus-section-9-4-15": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+    "calculus-section-9-4-16": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+    "calculus-section-9-4-17": "SolveP′−kP=−m. The coefficient ofe^(kt) decides the trend. For Ireland,.016·8,000,000−210,000=−82,000people/year.",
+    "calculus-section-9-4-18": "Separatey^(−1−c)dy=kdt. The denominator reaches0 in finite time. Using y(3)=16,y₀=2,c=.01 eliminatesk and givesT=3/[1−8^(−.01)].",
+    "calculus-section-9-4-19": "Factor the rate as.00008(P−250)(750−P). Shift by250 to solve a logistic equation with remaining capacity500 andrate.04. The physical population stops at0, before the rational formula reaches its pole.",
+    "calculus-section-9-4-20": "The natural logistic production rate.08P(1−P/1000) has maximum20 atP=500. Above that catch, P′ is strictly negative everywhere; at equality the double equilibrium is stable only from above.",
+    "calculus-section-9-4-21": "For positive P, cancelP to obtain(k/M)(P−m)(M−P). Shift bym and solve the resulting logistic equation. Belowm the numerator reaches0 at the displayed finite time; continuing to negative population is physically inadmissible.",
+    "calculus-section-9-4-22": "Letu=ln(P/M); thenu′=−cu. Differentiate the ratecP ln(M/P) with respect toP to obtainc[ln(M/P)−1], maximized atM/e. The stated limit assumesc>0; c=0 yields constantP₀.",
+    "calculus-section-9-4-23": "Integrate the periodic relative ratekcos(rt−φ). The additive sinφ term is required by the initial condition.",
+    "calculus-section-9-4-24": "Usecos²u=(1+cos2u)/2. The bounded sinusoidal exponent cannot offset the growingkt/2 term fork>0.",
+    "calculus-section-9-4-25": "Use1+tanhz=2/(1+e^(−2z)). Substitutez=k(t−c)/2 ande^(kc)=A. The logarithm requiresA>0."
+  },
+  "checks": [
+    {
+      "label": "logistic DE",
+      "residual": "0"
+    },
+    {
+      "label": "logistic initial",
+      "residual": "0"
+    },
+    {
+      "label": "10 recovered2010",
+      "residual": "0"
+    },
+    {
+      "label": "12 recoveredyear1",
+      "residual": "0"
+    },
+    {
+      "label": "13 acceleration identity",
+      "residual": "0"
+    },
+    {
+      "label": "19 harvested DE 200",
+      "residual": "0"
+    },
+    {
+      "label": "19 initial 200",
+      "residual": "0"
+    },
+    {
+      "label": "19 harvested DE 300",
+      "residual": "0"
+    },
+    {
+      "label": "19 initial 300",
+      "residual": "0"
+    },
+    {
+      "label": "15 exponential SSE alternateparameterization",
+      "value": 342242902.22734153,
+      "expected": 342242902.2273414
+    },
+    {
+      "label": "15 logistic SSE alternateparameterization",
+      "value": 10781260.086579194,
+      "expected": 10781260.086579002
+    },
+    {
+      "label": "16 exponential SSE alternateparameterization",
+      "value": 57735.63440245635,
+      "expected": 57735.63440245634
+    },
+    {
+      "label": "16 logistic SSE alternateparameterization",
+      "value": 44205.76614145919,
+      "expected": 44205.7661414594
+    },
+    {
+      "label": "8 exponential SSE alternateparameterization",
+      "value": 122777.07074931536,
+      "expected": 122777.07074931281
+    },
+    {
+      "label": "8 logistic SSE alternateparameterization",
+      "value": 362.8382907559872,
+      "expected": 362.83829075598345
+    }
+  ],
+  "limits": "Graph, direction-field, full written proof and modeling discussion checks verify selected mathematical conclusions rather than the full original work. Those records are marked complete:false."
+}

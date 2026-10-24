@@ -1,0 +1,502 @@
+{
+  "calculus-section-9-3-1-project-applied-project-how-fast-does-a-tank-drain-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) height equation in ft and seconds",
+          "answer": "h′=−√h/72",
+          "options": [
+            "−(h′=−√h/72)",
+            "2(h′=−√h/72)",
+            "h′=−√h/72"
+          ],
+          "explanation": "The hole radius is1/12ft, areaπ/144; tank cross-section4π. Torricelli flow is−(π/144)√(64h), givingh′=−√h/72. Stop the squared formula when√h reaches0; do not extend it into a refilling branch.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) full-tank solution",
+          "answer": "h(t)=(√6−t/144)² for0≤t≤144√6; h=0 afterward",
+          "options": [
+            "−(h(t)=(√6−t/144)² for0≤t≤144√6; h=0 afterward)",
+            "2(h(t)=(√6−t/144)² for0≤t≤144√6; h=0 afterward)",
+            "h(t)=(√6−t/144)² for0≤t≤144√6; h=0 afterward"
+          ],
+          "explanation": "The hole radius is1/12ft, areaπ/144; tank cross-section4π. Torricelli flow is−(π/144)√(64h), givingh′=−√h/72. Stop the squared formula when√h reaches0; do not extend it into a refilling branch.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) emptying time",
+          "answer": 352.72652296077763,
+          "unit": "s",
+          "tolerance": 0.005,
+          "explanation": "The hole radius is1/12ft, areaπ/144; tank cross-section4π. Torricelli flow is−(π/144)√(64h), givingh′=−√h/72. Stop the squared formula when√h reaches0; do not extend it into a refilling branch.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        639
+      ]
+    }
+  },
+  "calculus-section-9-3-2-project-applied-project-how-fast-does-a-tank-drain-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) fitted k",
+          "answer": -0.042065495664691234,
+          "unit": "√cm/s",
+          "tolerance": 5e-06,
+          "explanation": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) fitted height",
+          "answer": "h(t)=[√10−(√10−√3)t/68]² until empty, then0",
+          "options": [
+            "h(t)=[√10−(√10−√3)t/68]² until empty, then0",
+            "2(h(t)=[√10−(√10−√3)t/68]² until empty, then0)",
+            "−(h(t)=[√10−(√10−√3)t/68]² until empty, then0)"
+          ],
+          "explanation": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h(10)",
+          "answer": 8.714009876094275,
+          "unit": "cm",
+          "tolerance": 0.005,
+          "explanation": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h(20)",
+          "answer": 7.516495048464358,
+          "unit": "cm",
+          "tolerance": 0.005,
+          "explanation": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h(30)",
+          "answer": 6.4074555171102485,
+          "unit": "cm",
+          "tolerance": 0.005,
+          "explanation": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h(40)",
+          "answer": 5.386891282031947,
+          "unit": "cm",
+          "tolerance": 0.005,
+          "explanation": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h(50)",
+          "answer": 4.454802343229453,
+          "unit": "cm",
+          "tolerance": 0.005,
+          "explanation": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) h(60)",
+          "answer": 3.611188700702767,
+          "unit": "cm",
+          "tolerance": 0.005,
+          "explanation": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) comparison requirement",
+          "answer": "Collect actual heights, then compare measured-minus-predicted residuals; no measured values are supplied",
+          "options": [
+            "Invent measured heights equal to predictions",
+            "The model guarantees exact experimental agreement",
+            "Collect actual heights, then compare measured-minus-predicted residuals; no measured values are supplied"
+          ],
+          "explanation": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 9,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        639
+      ]
+    }
+  },
+  "calculus-section-9-3-3-project-applied-project-how-fast-does-a-tank-drain-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Height equation",
+          "answer": "h′=−√h/1152, with h in ft andt in seconds",
+          "options": [
+            "h′=−√h/1152, with h in ft andt in seconds",
+            "2(h′=−√h/1152, with h in ft andt in seconds)",
+            "−(h′=−√h/1152, with h in ft andt in seconds)"
+          ],
+          "explanation": "Outlet diameter2.5in gives radius5/48ft. Tank area100πft²; Torricelli gives√h(t)=√H−t/2304. Requireh(600)≥2160/62.5=34.56ft and choose equality for the minimum.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Minimum initial tank height",
+          "answer": 37.68967901875675,
+          "unit": "ft",
+          "tolerance": 0.005,
+          "explanation": "Outlet diameter2.5in gives radius5/48ft. Tank area100πft²; Torricelli gives√h(t)=√H−t/2304. Requireh(600)≥2160/62.5=34.56ft and choose equality for the minimum.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        639,
+        640
+      ]
+    }
+  },
+  "calculus-section-9-3-4-project-applied-project-how-fast-does-a-tank-drain-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) differential equation",
+          "answer": "(4h−h²)h′=−0.0001√(20h)",
+          "options": [
+            "(4h−h²)h′=−0.0001√(20h)",
+            "−((4h−h²)h′=−0.0001√(20h))",
+            "2((4h−h²)h′=−0.0001√(20h))"
+          ],
+          "explanation": "Horizontal sections of the radius2m sphere have areaπ(4h−h²). Half full meansh(0)=2m. Divide volume outflow through areaπ(0.01)² by this section, and integrate dt=(4h−h²)dh/[0.0001√(20h)] from0 to2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) complete draining time",
+          "answer": 11805.83659796195,
+          "unit": "s",
+          "tolerance": 0.05,
+          "explanation": "Horizontal sections of the radius2m sphere have areaπ(4h−h²). Half full meansh(0)=2m. Divide volume outflow through areaπ(0.01)² by this section, and integrate dt=(4h−h²)dh/[0.0001√(20h)] from0 to2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        639,
+        640
+      ]
+    }
+  },
+  "calculus-section-9-3-1-project-applied-project-which-is-faster-going-up-or-coming-down-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity",
+          "answer": "v(t)=(v₀+mg/p)e^(−pt/m)−mg/p",
+          "options": [
+            "v(t)=(v₀+mg/p)e^(−pt/m)−mg/p",
+            "−(v(t)=(v₀+mg/p)e^(−pt/m)−mg/p)",
+            "2(v(t)=(v₀+mg/p)e^(−pt/m)−mg/p)"
+          ],
+          "explanation": "DivideNewton’s equation bym. The deviationv+mg/p decays at ratep/m, and the initial condition fixes its coefficient.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Initial check",
+          "answer": "v(0)=v₀",
+          "options": [
+            "2(v(0)=v₀)",
+            "−(v(0)=v₀)",
+            "v(0)=v₀"
+          ],
+          "explanation": "DivideNewton’s equation bym. The deviationv+mg/p decays at ratep/m, and the initial condition fixes its coefficient.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        640
+      ]
+    }
+  },
+  "calculus-section-9-3-2-project-applied-project-which-is-faster-going-up-or-coming-down-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Height above launch point",
+          "answer": "y(t)=(v₀+mg/p)(m/p)(1−e^(−pt/m))−mgt/p",
+          "options": [
+            "y(t)=(v₀+mg/p)(m/p)(1−e^(−pt/m))−mgt/p",
+            "2(y(t)=(v₀+mg/p)(m/p)(1−e^(−pt/m))−mgt/p)",
+            "−(y(t)=(v₀+mg/p)(m/p)(1−e^(−pt/m))−mgt/p)"
+          ],
+          "explanation": "Integrate velocity from0 to t and use ground-level launchy(0)=0. The formula applies until the return to ground.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Initial height",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate velocity from0 to t and use ground-level launchy(0)=0. The formula applies until the return to ground.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        640,
+        641
+      ]
+    }
+  },
+  "calculus-section-9-3-3-project-applied-project-which-is-faster-going-up-or-coming-down-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "General ascent time",
+          "answer": "t₁=(m/p)ln(1+pv₀/(mg))",
+          "options": [
+            "t₁=(m/p)ln(1+pv₀/(mg))",
+            "2(t₁=(m/p)ln(1+pv₀/(mg)))",
+            "−(t₁=(m/p)ln(1+pv₀/(mg)))"
+          ],
+          "explanation": "At maximum heightv=0. Solve the exponential equation; the numerical check explicitly usesg=9.8m/s².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Ascent time, m=1kg,v₀=20m/s,p=0.1kg/s,g=9.8m/s²",
+          "answer": 1.8571714579509284,
+          "unit": "s",
+          "tolerance": 0.005,
+          "explanation": "At maximum heightv=0. Solve the exponential equation; the numerical check explicitly usesg=9.8m/s².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        640,
+        641
+      ]
+    }
+  },
+  "calculus-section-9-3-4-project-applied-project-which-is-faster-going-up-or-coming-down-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Return time t₂, same parameters",
+          "answer": 3.8368726970757,
+          "unit": "s",
+          "tolerance": 0.02,
+          "explanation": "Find the nonzero positive root of1180(1−e^(−t/10))−98t=0. Compare the return-minus-ascent time with the ascent duration.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Descent duration t₂−t₁",
+          "answer": 1.9797012391247717,
+          "unit": "s",
+          "tolerance": 0.02,
+          "explanation": "Find the nonzero positive root of1180(1−e^(−t/10))−98t=0. Compare the return-minus-ascent time with the ascent duration.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Faster phase",
+          "answer": "Ascent",
+          "options": [
+            "Ascent",
+            "Equal duration",
+            "Descent"
+          ],
+          "explanation": "Find the nonzero positive root of1180(1−e^(−t/10))−98t=0. Compare the return-minus-ascent time with the ascent duration.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        640,
+        641
+      ]
+    }
+  },
+  "calculus-section-9-3-5-project-applied-project-which-is-faster-going-up-or-coming-down-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Height at twice the ascent time",
+          "answer": "y(2t₁)=(m²g/p²)[x−1/x−2lnx], x=e^(pt₁/m)>1",
+          "options": [
+            "y(2t₁)=(m²g/p²)[x−1/x−2lnx], x=e^(pt₁/m)>1",
+            "2(y(2t₁)=(m²g/p²)[x−1/x−2lnx], x=e^(pt₁/m)>1)",
+            "−(y(2t₁)=(m²g/p²)[x−1/x−2lnx], x=e^(pt₁/m)>1)"
+          ],
+          "explanation": "f(1)=0 andf′>0 onx>1 implyf(x)>0. Thus the ball is still above ground after twice the ascent time.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Derivative of f(x)=x−1/x−2lnx",
+          "answer": "f′(x)=(x−1)²/x²>0 forx>1",
+          "options": [
+            "2(f′(x)=(x−1)²/x²>0 forx>1)",
+            "−(f′(x)=(x−1)²/x²>0 forx>1)",
+            "f′(x)=(x−1)²/x²>0 forx>1"
+          ],
+          "explanation": "f(1)=0 andf′>0 onx>1 implyf(x)>0. Thus the ball is still above ground after twice the ascent time.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Sign ofy(2t₁)",
+          "answer": "Positive",
+          "options": [
+            "Positive",
+            "Negative",
+            "Zero"
+          ],
+          "explanation": "f(1)=0 andf′>0 onx>1 implyf(x)>0. Thus the ball is still above ground after twice the ascent time.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Conclusion",
+          "answer": "t₂>2t₁, so descent takes longer than ascent",
+          "options": [
+            "t₂<2t₁, so ascent takes longer",
+            "The durations are always equal",
+            "t₂>2t₁, so descent takes longer than ascent"
+          ],
+          "explanation": "f(1)=0 andf′>0 onx>1 implyf(x)>0. Thus the ball is still above ground after twice the ascent time.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        640,
+        641
+      ]
+    }
+  }
+}

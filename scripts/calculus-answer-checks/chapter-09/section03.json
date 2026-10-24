@@ -1,0 +1,2433 @@
+{
+  "calculus-section-9-3-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Nonzero solution family",
+          "answer": "y=1/(C−x³), on intervals avoiding C−x³=0",
+          "options": [
+            "−(y=1/(C−x³), on intervals avoiding C−x³=0)",
+            "2(y=1/(C−x³), on intervals avoiding C−x³=0)",
+            "y=1/(C−x³), on intervals avoiding C−x³=0"
+          ],
+          "explanation": "Separatey^(−2)dy=3x²dx, integrate−1/y=x³+constant. Dividing byy² excludes the zero solution, so include it separately.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Additional equilibrium",
+          "answer": "y=0",
+          "options": [
+            "y=0",
+            "y=1",
+            "y=x"
+          ],
+          "explanation": "Separatey^(−2)dy=3x²dx, integrate−1/y=x³+constant. Dividing byy² excludes the zero solution, so include it separately.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Positive branches",
+          "answer": "√y=x²/4+C, restricted to x²/4+C>0",
+          "options": [
+            "2(√y=x²/4+C, restricted to x²/4+C>0)",
+            "√y=x²/4+C, restricted to x²/4+C>0",
+            "−(√y=x²/4+C, restricted to x²/4+C>0)"
+          ],
+          "explanation": "The real equation requiresy≥0. For y>0, integrate dy/√y=x dx. Squaring without retaining the nonnegative square root introduces false branches. Non-Lipschitz behavior at0 permits waiting-time joins.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Zero and joined solutions",
+          "answer": "y=0 is a solution; positive branches may join zero intervals with zero derivative",
+          "options": [
+            "Only the positive family exists",
+            "y=0 is a solution; positive branches may join zero intervals with zero derivative",
+            "Every squared branch is valid even where x²/4+C<0"
+          ],
+          "explanation": "The real equation requiresy≥0. For y>0, integrate dy/√y=x dx. Squaring without retaining the nonnegative square root introduces false branches. Non-Lipschitz behavior at0 permits waiting-time joins.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution family",
+          "answer": "y²=x²+2ln|x|+C",
+          "options": [
+            "2(y²=x²+2ln|x|+C)",
+            "y²=x²+2ln|x|+C",
+            "−(y²=x²+2ln|x|+C)"
+          ],
+          "explanation": "Separatey dy=(x+1/x)dx.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain/constant condition",
+          "answer": "x≠0, y≠0; select either sign on a positive-radicand interval",
+          "options": [
+            "x≠0, y≠0; select either sign on a positive-radicand interval",
+            "2(x≠0, y≠0; select either sign on a positive-radicand interval)",
+            "−(x≠0, y≠0; select either sign on a positive-radicand interval)"
+          ],
+          "explanation": "Separatey dy=(x+1/x)dx.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution family",
+          "answer": "y=−ln(x²/2+C)",
+          "options": [
+            "−(y=−ln(x²/2+C))",
+            "y=−ln(x²/2+C)",
+            "2(y=−ln(x²/2+C))"
+          ],
+          "explanation": "Integrate e^(−y)dy=−x dx to e^(−y)=x²/2+C.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain/constant condition",
+          "answer": "x²/2+C>0",
+          "options": [
+            "−(x²/2+C>0)",
+            "x²/2+C>0",
+            "2(x²/2+C>0)"
+          ],
+          "explanation": "Integrate e^(−y)dy=−x dx to e^(−y)=x²/2+C.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution family",
+          "answer": "e^y−y=2x+sinx+C",
+          "options": [
+            "e^y−y=2x+sinx+C",
+            "2(e^y−y=2x+sinx+C)",
+            "−(e^y−y=2x+sinx+C)"
+          ],
+          "explanation": "The derivative of e^y−y is(e^y−1)y′. At y=0 the original left side is0 but2+cosx>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain/constant condition",
+          "answer": "y≠0 for a differentiable solution",
+          "options": [
+            "2(y≠0 for a differentiable solution)",
+            "y≠0 for a differentiable solution",
+            "−(y≠0 for a differentiable solution)"
+          ],
+          "explanation": "The derivative of e^y−y is(e^y−1)y′. At y=0 the original left side is0 but2+cosx>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution family",
+          "answer": "u²/2+u⁵/5=−1/t+t³/3+C",
+          "options": [
+            "−(u²/2+u⁵/5=−1/t+t³/3+C)",
+            "u²/2+u⁵/5=−1/t+t³/3+C",
+            "2(u²/2+u⁵/5=−1/t+t³/3+C)"
+          ],
+          "explanation": "Multiply byu+u⁴ and divide byt²; integrate t^(−2)+t².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain/constant condition",
+          "answer": "t≠0 andu≠0,−1",
+          "options": [
+            "2(t≠0 andu≠0,−1)",
+            "−(t≠0 andu≠0,−1)",
+            "t≠0 andu≠0,−1"
+          ],
+          "explanation": "Multiply byu+u⁴ and divide byt²; integrate t^(−2)+t².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution family",
+          "answer": "θsinθ+cosθ=−e^(−t²)/2+C",
+          "options": [
+            "−(θsinθ+cosθ=−e^(−t²)/2+C)",
+            "2(θsinθ+cosθ=−e^(−t²)/2+C)",
+            "θsinθ+cosθ=−e^(−t²)/2+C"
+          ],
+          "explanation": "Separateθcosθ dθ=t e^(−t²)dt; integrate by parts on the left.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain/constant condition",
+          "answer": "θ≠0 andcosθ≠0",
+          "options": [
+            "−(θ≠0 andcosθ≠0)",
+            "θ≠0 andcosθ≠0",
+            "2(θ≠0 andcosθ≠0)"
+          ],
+          "explanation": "Separateθcosθ dθ=t e^(−t²)dt; integrate by parts on the left.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution family",
+          "answer": "−(lnH+1)/H=(1+R²)^(3/2)/3+C",
+          "options": [
+            "−(−(lnH+1)/H=(1+R²)^(3/2)/3+C)",
+            "2(−(lnH+1)/H=(1+R²)^(3/2)/3+C)",
+            "−(lnH+1)/H=(1+R²)^(3/2)/3+C"
+          ],
+          "explanation": "Separate(lnH)/H² dH=R√(1+R²)dR. Integration by parts produces the left side.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain/constant condition",
+          "answer": "H>0 andH≠1",
+          "options": [
+            "2(H>0 andH≠1)",
+            "−(H>0 andH≠1)",
+            "H>0 andH≠1"
+          ],
+          "explanation": "Separate(lnH)/H² dH=R√(1+R²)dR. Integration by parts produces the left side.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution family",
+          "answer": "p=Ce^(t³/3−t)−1",
+          "options": [
+            "2(p=Ce^(t³/3−t)−1)",
+            "−(p=Ce^(t³/3−t)−1)",
+            "p=Ce^(t³/3−t)−1"
+          ],
+          "explanation": "Factorp′=(t²−1)(p+1), separate and exponentiate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain/constant condition",
+          "answer": "All real t; C=0 includes equilibriump=−1",
+          "options": [
+            "2(All real t; C=0 includes equilibriump=−1)",
+            "All real t; C=0 includes equilibriump=−1",
+            "−(All real t; C=0 includes equilibriump=−1)"
+          ],
+          "explanation": "Factorp′=(t²−1)(p+1), separate and exponentiate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution family",
+          "answer": "z=−ln(e^t+C)",
+          "options": [
+            "z=−ln(e^t+C)",
+            "2(z=−ln(e^t+C))",
+            "−(z=−ln(e^t+C))"
+          ],
+          "explanation": "Differentiate e^(−z); the equation givesd(e^(−z))/dt=e^t.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain/constant condition",
+          "answer": "e^t+C>0",
+          "options": [
+            "−(e^t+C>0)",
+            "2(e^t+C>0)",
+            "e^t+C>0"
+          ],
+          "explanation": "Differentiate e^(−z); the equation givesd(e^(−z))/dt=e^t.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "IVP solution",
+          "answer": "-log(1 - x^2/2)",
+          "options": [
+            "-2*log(1 - x^2/2)",
+            "-log(1 - x^2/2)",
+            "log(1 - x^2/2)"
+          ],
+          "explanation": "Separation gives e^(−y)=C−x²/2; y(0)=0 fixesC=1. Positivity determines the interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Maximal interval",
+          "answer": "(−√2,√2)",
+          "options": [
+            "(−√2,√2)",
+            "(0,∞)",
+            "All real x"
+          ],
+          "explanation": "Separation gives e^(−y)=C−x²/2; y(0)=0 fixesC=1. Positivity determines the interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "IVP solution",
+          "answer": "-sqrt(-2*x*cos(x) + 2*sin(x) + 1)",
+          "options": [
+            "-2*sqrt(-2*x*cos(x) + 2*sin(x) + 1)",
+            "-sqrt(-2*x*cos(x) + 2*sin(x) + 1)",
+            "sqrt(-2*x*cos(x) + 2*sin(x) + 1)"
+          ],
+          "explanation": "Integrate y dy=xsinx dx using parts, and choose the negative branch fromy(0)=−1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Branch/domain",
+          "answer": "Negative square root on the connected interval containing0 where the radicand is positive",
+          "options": [
+            "Positive square root",
+            "Allow radicand0 despite the original denominator y",
+            "Negative square root on the connected interval containing0 where the radicand is positive"
+          ],
+          "explanation": "Integrate y dy=xsinx dx using parts, and choose the negative branch fromy(0)=−1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "IVP solution",
+          "answer": "u(t)=−√(25+t²+tan t)",
+          "options": [
+            "u(t)=−√(25+t²+tan t)",
+            "2(u(t)=−√(25+t²+tan t))",
+            "−(u(t)=−√(25+t²+tan t))"
+          ],
+          "explanation": "Integrating2u du=(2t+sec²t)dt yieldsu²=t²+tan t+C; u(0)=−5 fixes25 and the negative sign.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain",
+          "answer": "The connected interval containing0 with cos t≠0 and25+t²+tan t>0",
+          "options": [
+            "The connected interval containing0 with cos t≠0 and25+t²+tan t>0",
+            "2(The connected interval containing0 with cos t≠0 and25+t²+tan t>0)",
+            "−(The connected interval containing0 with cos t≠0 and25+t²+tan t>0)"
+          ],
+          "explanation": "Integrating2u du=(2t+sec²t)dt yieldsu²=t²+tan t+C; u(0)=−5 fixes25 and the negative sign.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "IVP solution",
+          "answer": "y=(2−√(1+x²))^(1/3), using the real cube root",
+          "options": [
+            "2(y=(2−√(1+x²))^(1/3), using the real cube root)",
+            "y=(2−√(1+x²))^(1/3), using the real cube root",
+            "−(y=(2−√(1+x²))^(1/3), using the real cube root)"
+          ],
+          "explanation": "Integrate3y²dy=−x/√(1+x²)dx. The constant is2. At y=0 the original coefficient vanishes whilex≠0, so the differentiable solution cannot pass throughx=±√3.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Maximal interval containing0",
+          "answer": "(−√3,√3)",
+          "options": [
+            "All real x",
+            "(−√3,√3)",
+            "(−1,1)"
+          ],
+          "explanation": "Integrate3y²dy=−x/√(1+x²)dx. The constant is2. At y=0 the original coefficient vanishes whilex≠0, so the differentiable solution cannot pass throughx=±√3.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Implicit IVP solution",
+          "answer": "y²/2+(3+y²)^(3/2)/3=x²lnx/2−x²/4+41/12",
+          "options": [
+            "y²/2+(3+y²)^(3/2)/3=x²lnx/2−x²/4+41/12",
+            "2(y²/2+(3+y²)^(3/2)/3=x²lnx/2−x²/4+41/12)",
+            "−(y²/2+(3+y²)^(3/2)/3=x²lnx/2−x²/4+41/12)"
+          ],
+          "explanation": "Integrate both sides of y(1+√(3+y²))dy=xlnx dx; the initial value gives constant41/12.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Branch",
+          "answer": "Use y>0 andx>0 in the connected domain through(1,1)",
+          "options": [
+            "−(Use y>0 andx>0 in the connected domain through(1,1))",
+            "Use y>0 andx>0 in the connected domain through(1,1)",
+            "2(Use y>0 andx>0 in the connected domain through(1,1))"
+          ],
+          "explanation": "Integrate both sides of y(1+√(3+y²))dy=xlnx dx; the initial value gives constant41/12.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-16": {
+    "grader": {
+      "type": "choice",
+      "label": "IVP solution for t≥0",
+      "answer": "P(t)=[t^(3/2)/3+√2−1/3]²",
+      "options": [
+        "−(P(t)=[t^(3/2)/3+√2−1/3]²)",
+        "P(t)=[t^(3/2)/3+√2−1/3]²",
+        "2(P(t)=[t^(3/2)/3+√2−1/3]²)"
+      ],
+      "explanation": "For positiveP andt, separate dP/√P=√t dt. The initial condition at t=1 fixes the positive square-root branch.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-17": {
+    "grader": {
+      "type": "choice",
+      "label": "IVP solution",
+      "answer": "y=a[4sinx/√3−1], 0<x<π/2",
+      "options": [
+        "2(y=a[4sinx/√3−1], 0<x<π/2)",
+        "y=a[4sinx/√3−1], 0<x<π/2",
+        "−(y=a[4sinx/√3−1], 0<x<π/2)"
+      ],
+      "explanation": "Integrate dy/(a+y)=cotx dx, then usey(π/3)=a. The formula also coversa=0, the equilibrium.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "IVP solution",
+          "answer": "L(t)=−1/[1+k(t ln t−t+1)]",
+          "options": [
+            "−(L(t)=−1/[1+k(t ln t−t+1)])",
+            "L(t)=−1/[1+k(t ln t−t+1)]",
+            "2(L(t)=−1/[1+k(t ln t−t+1)])"
+          ],
+          "explanation": "Integrate L^(−2)dL=kln t dt. L(1)=−1 supplies the constant.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain",
+          "answer": "t>0 in the connected interval through1 where the denominator is nonzero",
+          "options": [
+            "2(t>0 in the connected interval through1 where the denominator is nonzero)",
+            "t>0 in the connected interval through1 where the denominator is nonzero",
+            "−(t>0 in the connected interval through1 where the denominator is nonzero)"
+          ],
+          "explanation": "Integrate L^(−2)dL=kln t dt. L(1)=−1 supplies the constant.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-19": {
+    "grader": {
+      "type": "choice",
+      "label": "Curve through(0,2)",
+      "answer": "sqrt(x^2 + 4)",
+      "options": [
+        "-sqrt(x^2 + 4)",
+        "sqrt(x^2 + 4)",
+        "2*sqrt(x^2 + 4)"
+      ],
+      "explanation": "Fromy dy=x dx gety²=x²+C; the initial point choosesC=4 and positivey.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-20": {
+    "grader": {
+      "type": "choice",
+      "label": "f(x)",
+      "answer": "exp(x^2/2) + 1",
+      "options": [
+        "-exp(x^2/2) - 1",
+        "2*exp(x^2/2) + 2",
+        "exp(x^2/2) + 1"
+      ],
+      "explanation": "Forf−1, the equation is(f−1)′=x(f−1). Initialf(0)−1=1.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-21": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Transformed equation",
+          "answer": "u′=1+u",
+          "options": [
+            "2(u′=1+u)",
+            "u′=1+u",
+            "−(u′=1+u)"
+          ],
+          "explanation": "u=x+y has derivative1+y′=1+u; solve the separable equation and subtractx.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Solution",
+          "answer": "y=Ce^x−x−1",
+          "options": [
+            "y=Ce^x−x−1",
+            "−(y=Ce^x−x−1)",
+            "2(y=Ce^x−x−1)"
+          ],
+          "explanation": "u=x+y has derivative1+y′=1+u; solve the separable equation and subtractx.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-22": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Transformed equation",
+          "answer": "v′=e^v/x, v=y/x",
+          "options": [
+            "−(v′=e^v/x, v=y/x)",
+            "v′=e^v/x, v=y/x",
+            "2(v′=e^v/x, v=y/x)"
+          ],
+          "explanation": "Substitutey=xv andy′=v+xv′, cancelxv, then integratee^(−v)dv=dx/x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Solution",
+          "answer": "y=−xln(C−ln|x|)",
+          "options": [
+            "2(y=−xln(C−ln|x|))",
+            "−(y=−xln(C−ln|x|))",
+            "y=−xln(C−ln|x|)"
+          ],
+          "explanation": "Substitutey=xv andy′=v+xv′, cancelxv, then integratee^(−v)dv=dx/x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain",
+          "answer": "x≠0 andC−ln|x|>0",
+          "options": [
+            "2(x≠0 andC−ln|x|>0)",
+            "x≠0 andC−ln|x|>0",
+            "−(x≠0 andC−ln|x|>0)"
+          ],
+          "explanation": "Substitutey=xv andy′=v+xv′, cancelxv, then integratee^(−v)dv=dx/x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-23": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) nonconstant branches",
+          "answer": "arcsin y=x²+C, with−π/2<x²+C<π/2",
+          "options": [
+            "−(arcsin y=x²+C, with−π/2<x²+C<π/2)",
+            "2(arcsin y=x²+C, with−π/2<x²+C<π/2)",
+            "arcsin y=x²+C, with−π/2<x²+C<π/2"
+          ],
+          "explanation": "Integrate dy/√(1−y²)=2x dx on−1<y<1. The inverse-sine range matters: continuing sin(x²) past its first maximum violates the differential equation. Join the equilibrium1 at both endpoints to obtain a global differentiable IVP solution.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) equilibria and joins",
+          "answer": "y=±1 are equilibria; branches can join them with zero derivative",
+          "options": [
+            "−(y=±1 are equilibria; branches can join them with zero derivative)",
+            "2(y=±1 are equilibria; branches can join them with zero derivative)",
+            "y=±1 are equilibria; branches can join them with zero derivative"
+          ],
+          "explanation": "Integrate dy/√(1−y²)=2x dx on−1<y<1. The inverse-sine range matters: continuing sin(x²) past its first maximum violates the differential equation. Join the equilibrium1 at both endpoints to obtain a global differentiable IVP solution.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) maximal global IVP solution",
+          "answer": "y=sin(x²) for|x|≤√(π/2); y=1 for|x|≥√(π/2)",
+          "options": [
+            "2(y=sin(x²) for|x|≤√(π/2); y=1 for|x|≥√(π/2))",
+            "−(y=sin(x²) for|x|≤√(π/2); y=1 for|x|≥√(π/2))",
+            "y=sin(x²) for|x|≤√(π/2); y=1 for|x|≥√(π/2)"
+          ],
+          "explanation": "Integrate dy/√(1−y²)=2x dx on−1<y<1. The inverse-sine range matters: continuing sin(x²) past its first maximum violates the differential equation. Join the equilibrium1 at both endpoints to obtain a global differentiable IVP solution.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) y(0)=2",
+          "answer": "No real solution:√(1−y²) is not real at2",
+          "options": [
+            "y=sin(x²)+2",
+            "y=2 is an equilibrium",
+            "No real solution:√(1−y²) is not real at2"
+          ],
+          "explanation": "Integrate dy/√(1−y²)=2x dx on−1<y<1. The inverse-sine range matters: continuing sin(x²) past its first maximum violates the differential equation. Join the equilibrium1 at both endpoints to obtain a global differentiable IVP solution.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-24": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution",
+          "answer": "y=−ln(C+sinx), whereC+sinx>0",
+          "options": [
+            "y=−ln(C+sinx), whereC+sinx>0",
+            "2(y=−ln(C+sinx), whereC+sinx>0)",
+            "−(y=−ln(C+sinx), whereC+sinx>0)"
+          ],
+          "explanation": "The source exponent is−y. Integrating e^(−y)y′=−cosx gives e^(−y)=C+sinx. The logarithm argument must stay positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Effect of larger C",
+          "answer": "Lowers y at every common x and may enlarge its domain; it is not a uniform vertical translation",
+          "options": [
+            "Lowers y at every common x and may enlarge its domain; it is not a uniform vertical translation",
+            "All curves are unchanged",
+            "Raises every curve"
+          ],
+          "explanation": "The source exponent is−y. Integrating e^(−y)y′=−cosx gives e^(−y)=C+sinx. The logarithm argument must stay positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Condition for an all-real-x solution",
+          "answer": "C>1",
+          "options": [
+            "C>1",
+            "C≥−1",
+            "Every C"
+          ],
+          "explanation": "The source exponent is−y. Integrating e^(−y)y′=−cosx gives e^(−y)=C+sinx. The logarithm argument must stay positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-25": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Implicit IVP curve",
+          "answer": "cos y=cos x−1",
+          "options": [
+            "cos y=cos x−1",
+            "−(cos y=cos x−1)",
+            "2(cos y=cos x−1)"
+          ],
+          "explanation": "Multiply bysin y and integrate; initial data fix the constant−1. At x=±π/2 the branch reachesy=π, where the original denominator vanishes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Explicit branch through(0,π/2)",
+          "answer": "y=arccos(cosx−1), −π/2<x<π/2",
+          "options": [
+            "2(y=arccos(cosx−1), −π/2<x<π/2)",
+            "y=arccos(cosx−1), −π/2<x<π/2",
+            "−(y=arccos(cosx−1), −π/2<x<π/2)"
+          ],
+          "explanation": "Multiply bysin y and integrate; initial data fix the constant−1. At x=±π/2 the branch reachesy=π, where the original denominator vanishes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-26": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Implicit family",
+          "answer": "(y−1)e^y=(1+x²)^(3/2)/3+C",
+          "options": [
+            "(y−1)e^y=(1+x²)^(3/2)/3+C",
+            "−((y−1)e^y=(1+x²)^(3/2)/3+C)",
+            "2((y−1)e^y=(1+x²)^(3/2)/3+C)"
+          ],
+          "explanation": "Integrate y e^y dy=x√(1+x²)dx. The derivative of the left side isy e^y, positive above0 and negative below0; the differential equation is undefined aty=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Excluded y",
+          "answer": "y=0",
+          "options": [
+            "y=1",
+            "All y<0",
+            "y=0"
+          ],
+          "explanation": "Integrate y e^y dy=x√(1+x²)dx. The derivative of the left side isy e^y, positive above0 and negative below0; the differential equation is undefined aty=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Increasing C at a fixed x on a common branch",
+          "answer": "Raises the positive-y branch and lowers the negative-y branch",
+          "options": [
+            "Raises both branches",
+            "Has no effect",
+            "Raises the positive-y branch and lowers the negative-y branch"
+          ],
+          "explanation": "Integrate y e^y dy=x√(1+x²)dx. The derivative of the left side isy e^y, positive above0 and negative below0; the differential equation is undefined aty=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-27": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(b) nonzero family",
+          "answer": "y=−1/(x+C)",
+          "options": [
+            "2(y=−1/(x+C))",
+            "−(y=−1/(x+C))",
+            "y=−1/(x+C)"
+          ],
+          "explanation": "Integratey^(−2)dy=dx and retain the equilibrium excluded by division.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Additional solution",
+          "answer": "y=0",
+          "options": [
+            "y=1",
+            "y=x",
+            "y=0"
+          ],
+          "explanation": "Integratey^(−2)dy=dx and retain the equilibrium excluded by division.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a,c) field and curve behavior",
+          "answer": "Slopes are positive away from y=0, so every nonzero branch increases on its interval",
+          "options": [
+            "All curves are bounded globally",
+            "All curves decrease",
+            "Slopes are positive away from y=0, so every nonzero branch increases on its interval"
+          ],
+          "explanation": "Integratey^(−2)dy=dx and retain the equilibrium excluded by division.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-28": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(b) general solution",
+          "answer": "y=Ce^(x²/2), C∈ℝ",
+          "options": [
+            "y=Ce^(−x²/2), C∈ℝ",
+            "y=C+x²/2",
+            "y=Ce^(x²/2), C∈ℝ"
+          ],
+          "explanation": "Separate dy/y=x dx for nonzero y;C=0 restores the zero solution.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a,c) geometry",
+          "answer": "Every curve is even; positive branches have a minimum at0 and negative branches a maximum",
+          "options": [
+            "All curves cross y=0",
+            "Every curve is even; positive branches have a minimum at0 and negative branches a maximum",
+            "All curves are odd"
+          ],
+          "explanation": "Separate dy/y=x dx for nonzero y;C=0 restores the zero solution.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-29": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Orthogonal trajectories",
+          "answer": "y=Cx², together with the vertical trajectoryx=0",
+          "options": [
+            "−(y=Cx², together with the vertical trajectoryx=0)",
+            "2(y=Cx², together with the vertical trajectoryx=0)",
+            "y=Cx², together with the vertical trajectoryx=0"
+          ],
+          "explanation": "The original slope is−x/(2y); its negative reciprocal integrates to parabolas, plus the vertical axis. At vertical/horizontal tangencies interpret orthogonality geometrically, not by multiplying infinite slopes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Orthogonal slope where finite",
+          "answer": "2y/x",
+          "options": [
+            "2(2y/x)",
+            "−(2y/x)",
+            "2y/x"
+          ],
+          "explanation": "The original slope is−x/(2y); its negative reciprocal integrates to parabolas, plus the vertical axis. At vertical/horizontal tangencies interpret orthogonality geometrically, not by multiplying infinite slopes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-30": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Orthogonal trajectories",
+          "answer": "2x²+3y²=C, C>0",
+          "options": [
+            "−(2x²+3y²=C, C>0)",
+            "2x²+3y²=C, C>0",
+            "2(2x²+3y²=C, C>0)"
+          ],
+          "explanation": "Eliminatek to get original slope3y/(2x), then integrate3y dy=−2x dx. At vertical/horizontal tangencies interpret orthogonality geometrically, not by multiplying infinite slopes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Orthogonal slope where finite",
+          "answer": "−2x/(3y)",
+          "options": [
+            "−(−2x/(3y))",
+            "2(−2x/(3y))",
+            "−2x/(3y)"
+          ],
+          "explanation": "Eliminatek to get original slope3y/(2x), then integrate3y dy=−2x dx. At vertical/horizontal tangencies interpret orthogonality geometrically, not by multiplying infinite slopes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636
+      ]
+    }
+  },
+  "calculus-section-9-3-31": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Orthogonal trajectories",
+          "answer": "y²−x²=C",
+          "options": [
+            "−(y²−x²=C)",
+            "2(y²−x²=C)",
+            "y²−x²=C"
+          ],
+          "explanation": "The original hyperbola has slope−y/x; integratey dy=x dx for orthogonal curves. At vertical/horizontal tangencies interpret orthogonality geometrically, not by multiplying infinite slopes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Orthogonal slope where finite",
+          "answer": "x/y",
+          "options": [
+            "−(x/y)",
+            "2(x/y)",
+            "x/y"
+          ],
+          "explanation": "The original hyperbola has slope−y/x; integratey dy=x dx for orthogonal curves. At vertical/horizontal tangencies interpret orthogonality geometrically, not by multiplying infinite slopes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636,
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-32": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Orthogonal trajectories",
+          "answer": "y³=3x+C",
+          "options": [
+            "2(y³=3x+C)",
+            "y³=3x+C",
+            "−(y³=3x+C)"
+          ],
+          "explanation": "The original reciprocal family satisfiesy′=−y²; integratey²dy=dx. At vertical/horizontal tangencies interpret orthogonality geometrically, not by multiplying infinite slopes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Orthogonal slope where finite",
+          "answer": "1/y²",
+          "options": [
+            "2(1/y²)",
+            "−(1/y²)",
+            "1/y²"
+          ],
+          "explanation": "The original reciprocal family satisfiesy′=−y²; integratey²dy=dx. At vertical/horizontal tangencies interpret orthogonality geometrically, not by multiplying infinite slopes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        636,
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-33": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution",
+      "answer": "exp(2 - x^2/2) + 1",
+      "options": [
+        "2*exp(2 - x^2/2) + 2",
+        "exp(2 - x^2/2) + 1",
+        "-exp(2 - x^2/2) - 1"
+      ],
+      "explanation": "Differentiate the integral equation toy′=x(1−y); settingx=2 givesy(2)=2. Solve and check the original constant.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-34": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution",
+          "answer": "sqrt(2*log(x) + 4)",
+          "options": [
+            "2*sqrt(2*log(x) + 4)",
+            "sqrt(2*log(x) + 4)",
+            "-sqrt(2*log(x) + 4)"
+          ],
+          "explanation": "FTC givesy′=1/(xy) andy(1)=2. Thusy²=4+2lnx with the positive branch; the original integrand excludesy=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Maximal domain through1",
+          "answer": "x>e^(−2)",
+          "options": [
+            "All real x",
+            "x>e^(−2)",
+            "x>0"
+          ],
+          "explanation": "FTC givesy′=1/(xy) andy(1)=2. Thusy²=4+2lnx with the positive branch; the original integrand excludesy=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-35": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution",
+      "answer": "(x^2 + 4)^2/4",
+      "options": [
+        "(x^2 + 4)^2/4",
+        "(x^2 + 4)^2/2",
+        "-(x^2 + 4)^2/4"
+      ],
+      "explanation": "FTC givesy′=2x√y andy(0)=4. Integrating the positive square-root branch gives√y=x²/2+2, positive for every realx.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-36": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution on the interval through t=3",
+          "answer": "f(t)=(t+1)/(t−1)",
+          "options": [
+            "f(t)=tan(3−t)",
+            "f(t)=(t+1)/(t−1)",
+            "f(t)=(t−1)/(t+1)"
+          ],
+          "explanation": "The printed equation is(t²+1)f′+f²+1=0. Separate toarctanf=−arctant+C; f(3)=2 givesC=3π/4 on the continuous branch. The tangent subtraction identity simplifies tof=(t+1)/(t−1). Its pole at1 explains the source restrictiont≠1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Maximal IVP interval",
+          "answer": "t>1",
+          "options": [
+            "t<1",
+            "All real t",
+            "t>1"
+          ],
+          "explanation": "The printed equation is(t²+1)f′+f²+1=0. Separate toarctanf=−arctant+C; f(3)=2 givesC=3π/4 on the continuous branch. The tangent subtraction identity simplifies tof=(t+1)/(t−1). Its pole at1 explains the source restrictiont≠1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-37": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Charge",
+          "answer": "Q(t)=3(1−e^(−4t)) C",
+          "options": [
+            "−(Q(t)=3(1−e^(−4t)) C)",
+            "2(Q(t)=3(1−e^(−4t)) C)",
+            "Q(t)=3(1−e^(−4t)) C"
+          ],
+          "explanation": "The referenced circuit hasQ′=12−4Q andQ(0)=0; separate around equilibrium3.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Limiting charge",
+          "answer": 3.0,
+          "unit": "C",
+          "tolerance": 1e-08,
+          "explanation": "The referenced circuit hasQ′=12−4Q andQ(0)=0; separate around equilibrium3.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-38": {
+    "grader": {
+      "type": "choice",
+      "label": "Coffee temperature",
+      "answer": "T(t)=20+75e^(−t/50) °C, t in minutes",
+      "options": [
+        "T(t)=20+75e^(−t/50) °C, t in minutes",
+        "2(T(t)=20+75e^(−t/50) °C, t in minutes)",
+        "−(T(t)=20+75e^(−t/50) °C, t in minutes)"
+      ],
+      "explanation": "The referenced cooling model hask=1/50min⁻¹ and initial excess temperature75°C.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-39": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "General performance",
+          "answer": "P(t)=M+Ce^(−kt)",
+          "options": [
+            "P(t)=M+Ce^(−kt)",
+            "2(P(t)=M+Ce^(−kt))",
+            "−(P(t)=M+Ce^(−kt))"
+          ],
+          "explanation": "Integrate the constant-coefficient equationP′=k(M−P), withk>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Limit as t→∞",
+          "answer": "M",
+          "options": [
+            "0",
+            "C",
+            "M"
+          ],
+          "explanation": "Integrate the constant-coefficient equationP′=k(M−P), withk>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-40": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) a≠b solution",
+          "answer": "x(t)=ab[e^((a−b)kt)−1]/[a e^((a−b)kt)−b]",
+          "options": [
+            "x(t)=ab[e^((a−b)kt)−1]/[a e^((a−b)kt)−b]",
+            "2(x(t)=ab[e^((a−b)kt)−1]/[a e^((a−b)kt)−b])",
+            "−(x(t)=ab[e^((a−b)kt)−1]/[a e^((a−b)kt)−b])"
+          ],
+          "explanation": "Partial fractions separate dx/[(a−x)(b−x)]=kdt. The initial product concentration0 fixes the ratio constant. When a=b integrate(a−x)^(−2); the half-time condition givesak=1/20.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) a=b solution",
+          "answer": "x(t)=a²kt/(1+akt)",
+          "options": [
+            "−(x(t)=a²kt/(1+akt))",
+            "x(t)=a²kt/(1+akt)",
+            "2(x(t)=a²kt/(1+akt))"
+          ],
+          "explanation": "Partial fractions separate dx/[(a−x)(b−x)]=kdt. The initial product concentration0 fixes the ratio constant. When a=b integrate(a−x)^(−2); the half-time condition givesak=1/20.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) if x(20)=a/2",
+          "answer": "x(t)=at/(t+20)",
+          "options": [
+            "2(x(t)=at/(t+20))",
+            "x(t)=at/(t+20)",
+            "−(x(t)=at/(t+20))"
+          ],
+          "explanation": "Partial fractions separate dx/[(a−x)(b−x)]=kdt. The initial product concentration0 fixes the ratio constant. When a=b integrate(a−x)^(−2); the half-time condition givesak=1/20.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-41": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) a=b solution",
+          "answer": "x(t)=a−a/[1+(k√a/2)t]²",
+          "options": [
+            "−(x(t)=a−a/[1+(k√a/2)t]²)",
+            "2(x(t)=a−a/[1+(k√a/2)t]²)",
+            "x(t)=a−a/[1+(k√a/2)t]²"
+          ],
+          "explanation": "For equal initial concentrations the rate isk(a−x)^(3/2). Otherwise useu=√(b−x), giving−2du/[k(a−b+u²)] and applyt=0 atx=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) a>b time to concentration x",
+          "answer": "t=2/[k√(a−b)]·[arctan√(b/(a−b))−arctan√((b−x)/(a−b))], 0≤x≤b",
+          "options": [
+            "t=2/[k√(a−b)]·[arctan√(b/(a−b))−arctan√((b−x)/(a−b))], 0≤x≤b",
+            "−(t=2/[k√(a−b)]·[arctan√(b/(a−b))−arctan√((b−x)/(a−b))], 0≤x≤b)",
+            "2(t=2/[k√(a−b)]·[arctan√(b/(a−b))−arctan√((b−x)/(a−b))], 0≤x≤b)"
+          ],
+          "explanation": "For equal initial concentrations the rate isk(a−x)^(3/2). Otherwise useu=√(b−x), giving−2du/[k(a−b+u²)] and applyt=0 atx=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-42": {
+    "grader": {
+      "type": "choice",
+      "label": "Temperature",
+      "answer": "T(r)=35−20/r °C, 1≤r≤2",
+      "options": [
+        "T(r)=35−20/r °C, 1≤r≤2",
+        "−(T(r)=35−20/r °C, 1≤r≤2)",
+        "2(T(r)=35−20/r °C, 1≤r≤2)"
+      ],
+      "explanation": "LetS=T′; S′+2S/r=0 impliesS=C/r² andT=A+B/r. Temperatures15°C at1m and25°C at2m giveA=35,B=−20.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-43": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) concentration",
+          "answer": "C(t)=r/k+(C₀−r/k)e^(−kt)",
+          "options": [
+            "C(t)=r/k+(C₀−r/k)e^(−kt)",
+            "2(C(t)=r/k+(C₀−r/k)e^(−kt))",
+            "−(C(t)=r/k+(C₀−r/k)e^(−kt))"
+          ],
+          "explanation": "The equilibrium isr/k; the differenceC−r/k decays exponentially.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) limit",
+          "answer": "r/k",
+          "options": [
+            "r/k",
+            "−(r/k)",
+            "2(r/k)"
+          ],
+          "explanation": "The equilibrium isr/k; the differenceC−r/k decays exponentially.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) interpretation when C₀<r/k",
+          "answer": "Concentration rises toward the balance where removalkC equals inputr",
+          "options": [
+            "Concentration decreases toward0",
+            "Concentration grows without bound",
+            "Concentration rises toward the balance where removalkC equals inputr"
+          ],
+          "explanation": "The equilibrium isr/k; the differenceC−r/k decays exponentially.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-44": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) IVP, x in billions of dollars and t in days",
+          "answer": "x′=(10−x)/200, x(0)=0",
+          "options": [
+            "2(x′=(10−x)/200, x(0)=0)",
+            "−(x′=(10−x)/200, x(0)=0)",
+            "x′=(10−x)/200, x(0)=0"
+          ],
+          "explanation": "Assume bills entering banks are representative of circulation. Daily replacement equals0.05billion times the old-currency fraction1−x/10.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) solution",
+          "answer": "x(t)=10(1−e^(−t/200)) billion dollars",
+          "options": [
+            "x(t)=10(1−e^(−t/200)) billion dollars",
+            "2(x(t)=10(1−e^(−t/200)) billion dollars)",
+            "−(x(t)=10(1−e^(−t/200)) billion dollars)"
+          ],
+          "explanation": "Assume bills entering banks are representative of circulation. Daily replacement equals0.05billion times the old-currency fraction1−x/10.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) 90% replacement time",
+          "answer": 460.51701859880916,
+          "unit": "days",
+          "tolerance": 0.005,
+          "explanation": "Assume bills entering banks are representative of circulation. Daily replacement equals0.05billion times the old-currency fraction1−x/10.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637
+      ]
+    }
+  },
+  "calculus-section-9-3-45": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) salt",
+          "answer": "S(t)=15e^(−t/100) kg",
+          "options": [
+            "S(t)=15e^(−t/100) kg",
+            "2(S(t)=15e^(−t/100) kg)",
+            "−(S(t)=15e^(−t/100) kg)"
+          ],
+          "explanation": "Volume stays1000L and pure inflow adds no salt. Outflow rate10·S/1000 givesS′=−S/100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) salt after20min",
+          "answer": 12.280961296169728,
+          "unit": "kg",
+          "tolerance": 0.0005,
+          "explanation": "Volume stays1000L and pure inflow adds no salt. Outflow rate10·S/1000 givesS′=−S/100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        637,
+        638
+      ]
+    }
+  },
+  "calculus-section-9-3-46": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "CO₂ percentage",
+          "answer": "p(t)=0.05+0.10e^(−t/90), t in minutes",
+          "options": [
+            "2(p(t)=0.05+0.10e^(−t/90), t in minutes)",
+            "p(t)=0.05+0.10e^(−t/90), t in minutes",
+            "−(p(t)=0.05+0.10e^(−t/90), t in minutes)"
+          ],
+          "explanation": "The turnover time is180/2=90minutes. The percentage approaches the inflow percentage0.05, starting at0.15.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Limiting percentage",
+          "answer": 0.05,
+          "unit": "%",
+          "tolerance": 1e-08,
+          "explanation": "The turnover time is180/2=90minutes. The percentage approaches the inflow percentage0.05, starting at0.15.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        638
+      ]
+    }
+  },
+  "calculus-section-9-3-47": {
+    "grader": {
+      "type": "numeric",
+      "label": "Alcohol after1hour",
+      "answer": 4.902376727811947,
+      "unit": "%",
+      "tolerance": 0.0005,
+      "explanation": "Percentage satisfiesp′=(6−p)/100 andp(0)=4; use60minutes.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        638
+      ]
+    }
+  },
+  "calculus-section-9-3-48": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) salt",
+          "answer": "S(t)=(130/3)(1−e^(−3t/200)) kg",
+          "options": [
+            "2(S(t)=(130/3)(1−e^(−3t/200)) kg)",
+            "−(S(t)=(130/3)(1−e^(−3t/200)) kg)",
+            "S(t)=(130/3)(1−e^(−3t/200)) kg"
+          ],
+          "explanation": "Salt input0.05·5+0.04·10=.65kg/min; well-mixed outflow is.015Skg/min. The constant-volume equilibrium is.65/.015=130/3kg.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) salt after1hour",
+          "answer": 25.715314744574037,
+          "unit": "kg",
+          "tolerance": 0.0005,
+          "explanation": "Salt input0.05·5+0.04·10=.65kg/min; well-mixed outflow is.015Skg/min. The constant-volume equilibrium is.65/.015=130/3kg.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        638
+      ]
+    }
+  },
+  "calculus-section-9-3-49": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Velocity equation",
+          "answer": "v′=g−kv",
+          "options": [
+            "−(v′=g−kv)",
+            "v′=g−kv",
+            "2(v′=g−kv)"
+          ],
+          "explanation": "Expand(mv)′=m′v+mv′ and usem′=km. Cancel positive m; the velocity relaxes exponentially towardg/k.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Terminal downward velocity",
+          "answer": "g/k",
+          "options": [
+            "2(g/k)",
+            "g/k",
+            "−(g/k)"
+          ],
+          "explanation": "Expand(mv)′=m′v+mv′ and usem′=km. Cancel positive m; the velocity relaxes exponentially towardg/k.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        638
+      ]
+    }
+  },
+  "calculus-section-9-3-50": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) velocity",
+          "answer": "v=v₀e^(−kt/m)",
+          "options": [
+            "v=v₀e^(−kt/m)",
+            "2(v=v₀e^(−kt/m))",
+            "−(v=v₀e^(−kt/m))"
+          ],
+          "explanation": "Separate Newton’s law for each drag model and integrate velocity. The quadratic formula−kv² describes resistance for nonnegative velocity; for negative motion its sign must be reversed. Quadratic-drag speed decreases like1/t, whose integral diverges.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) position",
+          "answer": "s=s₀+(mv₀/k)(1−e^(−kt/m))",
+          "options": [
+            "−(s=s₀+(mv₀/k)(1−e^(−kt/m)))",
+            "2(s=s₀+(mv₀/k)(1−e^(−kt/m)))",
+            "s=s₀+(mv₀/k)(1−e^(−kt/m))"
+          ],
+          "explanation": "Separate Newton’s law for each drag model and integrate velocity. The quadratic formula−kv² describes resistance for nonnegative velocity; for negative motion its sign must be reversed. Quadratic-drag speed decreases like1/t, whose integral diverges.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) total distance",
+          "answer": "m|v₀|/k",
+          "options": [
+            "m|v₀|/k",
+            "−(m|v₀|/k)",
+            "2(m|v₀|/k)"
+          ],
+          "explanation": "Separate Newton’s law for each drag model and integrate velocity. The quadratic formula−kv² describes resistance for nonnegative velocity; for negative motion its sign must be reversed. Quadratic-drag speed decreases like1/t, whose integral diverges.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) velocity forv₀≥0",
+          "answer": "v=v₀/[1+(kv₀/m)t]",
+          "options": [
+            "−(v=v₀/[1+(kv₀/m)t])",
+            "2(v=v₀/[1+(kv₀/m)t])",
+            "v=v₀/[1+(kv₀/m)t]"
+          ],
+          "explanation": "Separate Newton’s law for each drag model and integrate velocity. The quadratic formula−kv² describes resistance for nonnegative velocity; for negative motion its sign must be reversed. Quadratic-drag speed decreases like1/t, whose integral diverges.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) position forv₀≥0",
+          "answer": "s=s₀+(m/k)ln[1+(kv₀/m)t]",
+          "options": [
+            "2(s=s₀+(m/k)ln[1+(kv₀/m)t])",
+            "s=s₀+(m/k)ln[1+(kv₀/m)t]",
+            "−(s=s₀+(m/k)ln[1+(kv₀/m)t])"
+          ],
+          "explanation": "Separate Newton’s law for each drag model and integrate velocity. The quadratic formula−kv² describes resistance for nonnegative velocity; for negative motion its sign must be reversed. Quadratic-drag speed decreases like1/t, whose integral diverges.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) total distance",
+          "answer": "Infinite forv₀>0; zero ifv₀=0",
+          "options": [
+            "Infinite forv₀>0; zero ifv₀=0",
+            "Always finite",
+            "Alwaysmv₀/k"
+          ],
+          "explanation": "Separate Newton’s law for each drag model and integrate velocity. The quadratic formula−kv² describes resistance for nonnegative velocity; for negative motion its sign must be reversed. Quadratic-drag speed decreases like1/t, whose integral diverges.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        638
+      ]
+    }
+  },
+  "calculus-section-9-3-51": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) differential relation",
+          "answer": "dL₁/dL₂=kL₁/L₂",
+          "options": [
+            "2(dL₁/dL₂=kL₁/L₂)",
+            "−(dL₁/dL₂=kL₁/L₂)",
+            "dL₁/dL₂=kL₁/L₂"
+          ],
+          "explanation": "Divide the proportional specific growth rates and integrate logarithmic derivatives. The printed coefficient is0.0794; the unknown proportionality constant remains.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) allometric law",
+          "answer": "L₁=C L₂^k",
+          "options": [
+            "L₁=C L₂^k",
+            "L₁=C L₂^(−k)",
+            "L₁=C+kL₂"
+          ],
+          "explanation": "Divide the proportional specific growth rates and integrate logarithmic derivatives. The printed coefficient is0.0794; the unknown proportionality constant remains.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) biomass law from supplied k",
+          "answer": "B=C V^0.0794",
+          "options": [
+            "B=C V^0.0794",
+            "B=C V^(−0.0794)",
+            "B=C+0.0794V"
+          ],
+          "explanation": "Divide the proportional specific growth rates and integrate logarithmic derivatives. The printed coefficient is0.0794; the unknown proportionality constant remains.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        638
+      ]
+    }
+  },
+  "calculus-section-9-3-52": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) positive family",
+          "answer": "V(t)=b exp(Ce^(−at))",
+          "options": [
+            "−(V(t)=b exp(Ce^(−at)))",
+            "V(t)=b exp(Ce^(−at))",
+            "2(V(t)=b exp(Ce^(−at)))"
+          ],
+          "explanation": "Letu=ln(V/b), givingu′=−au. Positive volumes are required for the logarithm;C=−lnb enforces unit initial volume.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) initial V(0)=1",
+          "answer": "V(t)=b^(1−e^(−at))",
+          "options": [
+            "2(V(t)=b^(1−e^(−at)))",
+            "V(t)=b^(1−e^(−at))",
+            "−(V(t)=b^(1−e^(−at)))"
+          ],
+          "explanation": "Letu=ln(V/b), givingu′=−au. Positive volumes are required for the logarithm;C=−lnb enforces unit initial volume.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        638
+      ]
+    }
+  },
+  "calculus-section-9-3-53": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) model",
+          "answer": "A′=k√A(M−A), k>0",
+          "options": [
+            "−(A′=k√A(M−A), k>0)",
+            "2(A′=k√A(M−A), k>0)",
+            "A′=k√A(M−A), k>0"
+          ],
+          "explanation": "Maximize√A(M−A) on[0,M]: its derivative is(M−3A)/(2√A). Foru=√A>0, u′=k(M−u²)/2. Keepu≥0; squaring an unrestrictedtanh creates spurious decreasing branches belowM.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) fastest-growth area",
+          "answer": "A=M/3",
+          "options": [
+            "A=M/3",
+            "−(A=M/3)",
+            "2(A=M/3)"
+          ],
+          "explanation": "Maximize√A(M−A) on[0,M]: its derivative is(M−3A)/(2√A). Foru=√A>0, u′=k(M−u²)/2. Keepu≥0; squaring an unrestrictedtanh creates spurious decreasing branches belowM.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) growing nonzero branches0<A<M",
+          "answer": "A=M tanh²[k√M(t−t₀)/2], t>t₀",
+          "options": [
+            "2(A=M tanh²[k√M(t−t₀)/2], t>t₀)",
+            "A=M tanh²[k√M(t−t₀)/2], t>t₀",
+            "−(A=M tanh²[k√M(t−t₀)/2], t>t₀)"
+          ],
+          "explanation": "Maximize√A(M−A) on[0,M]: its derivative is(M−3A)/(2√A). Foru=√A>0, u′=k(M−u²)/2. Keepu≥0; squaring an unrestrictedtanh creates spurious decreasing branches belowM.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) equilibria and other branches",
+          "answer": "A=0 andA=M; aboveM use M coth²[k√M(t−t₀)/2] on t>t₀; a growing branch can follow a zero interval",
+          "options": [
+            "−(A=0 andA=M; aboveM use M coth²[k√M(t−t₀)/2] on t>t₀; a growing branch can follow a zero interval)",
+            "2(A=0 andA=M; aboveM use M coth²[k√M(t−t₀)/2] on t>t₀; a growing branch can follow a zero interval)",
+            "A=0 andA=M; aboveM use M coth²[k√M(t−t₀)/2] on t>t₀; a growing branch can follow a zero interval"
+          ],
+          "explanation": "Maximize√A(M−A) on[0,M]: its derivative is(M−3A)/(2√A). Foru=√A>0, u′=k(M−u²)/2. Keepu≥0; squaring an unrestrictedtanh creates spurious decreasing branches belowM.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        638
+      ]
+    }
+  },
+  "calculus-section-9-3-54": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) required launch speed",
+          "answer": "v₀=√[2gRh/(R+h)]",
+          "options": [
+            "−(v₀=√[2gRh/(R+h)])",
+            "v₀=√[2gRh/(R+h)]",
+            "2(v₀=√[2gRh/(R+h)])"
+          ],
+          "explanation": "Usev dv/dx=−gR²/(R+x)² and integrate fromsurface speedv₀ tozero speed at heighth. Convert Earth radius3960mi into feet before combining with32ft/s².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) escape speed",
+          "answer": "v_e=√(2gR)",
+          "options": [
+            "2(v_e=√(2gR))",
+            "v_e=√(2gR)",
+            "−(v_e=√(2gR))"
+          ],
+          "explanation": "Usev dv/dx=−gR²/(R+x)² and integrate fromsurface speedv₀ tozero speed at heighth. Convert Earth radius3960mi into feet before combining with32ft/s².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) escape speed",
+          "answer": 36580.91305585469,
+          "unit": "ft/s",
+          "tolerance": 0.05,
+          "explanation": "Usev dv/dx=−gR²/(R+x)² and integrate fromsurface speedv₀ tozero speed at heighth. Convert Earth radius3960mi into feet before combining with32ft/s².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) escape speed",
+          "answer": 6.928203230275509,
+          "unit": "mi/s",
+          "tolerance": 5e-05,
+          "explanation": "Usev dv/dx=−gR²/(R+x)² and integrate fromsurface speedv₀ tozero speed at heighth. Convert Earth radius3960mi into feet before combining with32ft/s².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        638,
+        639
+      ]
+    }
+  }
+}

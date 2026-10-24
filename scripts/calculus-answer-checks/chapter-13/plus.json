@@ -1,0 +1,614 @@
+{
+  "calculus-chapter-13-problems-plus-1-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Velocity · x",
+          "answer": "-R*omega*sin(omega*t)",
+          "options": [
+            "-2*R*omega*sin(omega*t)",
+            "R*omega*sin(omega*t)",
+            "-R*omega*sin(omega*t)"
+          ],
+          "explanation": "Differentiate the circular position: v is perpendicular to r and a=−ω²r. The inward force magnitude is mRω²=mv²/R.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Velocity · y",
+          "answer": "R*omega*cos(omega*t)",
+          "options": [
+            "R*omega*cos(omega*t)",
+            "2*R*omega*cos(omega*t)",
+            "-R*omega*cos(omega*t)"
+          ],
+          "explanation": "Differentiate the circular position: v is perpendicular to r and a=−ω²r. The inward force magnitude is mRω²=mv²/R.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · v·r",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate the circular position: v is perpendicular to r and a=−ω²r. The inward force magnitude is mRω²=mv²/R.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Speed",
+          "answer": "R*omega",
+          "options": [
+            "R*omega",
+            "2*R*omega",
+            "-R*omega"
+          ],
+          "explanation": "Differentiate the circular position: v is perpendicular to r and a=−ω²r. The inward force magnitude is mRω²=mv²/R.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Period",
+          "answer": "2*pi/omega",
+          "options": [
+            "-2*pi/omega",
+            "4*pi/omega",
+            "2*pi/omega"
+          ],
+          "explanation": "Differentiate the circular position: v is perpendicular to r and a=−ω²r. The inward force magnitude is mRω²=mv²/R.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Acceleration · x",
+          "answer": "-R*omega^2*cos(omega*t)",
+          "options": [
+            "-R*omega^2*cos(omega*t)",
+            "-2*R*omega^2*cos(omega*t)",
+            "R*omega^2*cos(omega*t)"
+          ],
+          "explanation": "Differentiate the circular position: v is perpendicular to r and a=−ω²r. The inward force magnitude is mRω²=mv²/R.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Acceleration · y",
+          "answer": "-R*omega^2*sin(omega*t)",
+          "options": [
+            "-R*omega^2*sin(omega*t)",
+            "R*omega^2*sin(omega*t)",
+            "-2*R*omega^2*sin(omega*t)"
+          ],
+          "explanation": "Differentiate the circular position: v is perpendicular to r and a=−ω²r. The inward force magnitude is mRω²=mv²/R.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Acceleration magnitude",
+          "answer": "R*omega^2",
+          "options": [
+            "2*R*omega^2",
+            "-R*omega^2",
+            "R*omega^2"
+          ],
+          "explanation": "Differentiate the circular position: v is perpendicular to r and a=−ω²r. The inward force magnitude is mRω²=mv²/R.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Force magnitude",
+          "answer": "R*m*omega^2",
+          "options": [
+            "-R*m*omega^2",
+            "2*R*m*omega^2",
+            "R*m*omega^2"
+          ],
+          "explanation": "Differentiate the circular position: v is perpendicular to r and a=−ω²r. The inward force magnitude is mRω²=mv²/R.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 9,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        915
+      ]
+    }
+  },
+  "calculus-chapter-13-problems-plus-2-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Rated speed squared",
+          "answer": "R*g*tan(theta)",
+          "options": [
+            "-R*g*tan(theta)",
+            "R*g*tan(theta)",
+            "2*R*g*tan(theta)"
+          ],
+          "explanation": "Divide Fsinθ=mv²/R by Fcosθ=mg. At fixed banking angle, R scales as v²;1.5²×400=900.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Rated speed",
+          "answer": 52.16055971111011,
+          "unit": "ft/s",
+          "tolerance": 0.01,
+          "explanation": "Divide Fsinθ=mv²/R by Fcosθ=mg. At fixed banking angle, R scales as v²;1.5²×400=900.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · New curve radius",
+          "answer": 900.0,
+          "unit": "ft",
+          "tolerance": 9.000000000000001e-07,
+          "explanation": "Divide Fsinθ=mv²/R by Fcosθ=mg. At fixed banking angle, R scales as v²;1.5²×400=900.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        915
+      ]
+    }
+  },
+  "calculus-chapter-13-problems-plus-3-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Maximum-height elevation",
+          "answer": 90.0,
+          "unit": "degrees",
+          "tolerance": 9.000000000000001e-08,
+          "explanation": "Eliminate t to get y=x tanα−x²(1+tan²α)/(2R); real roots in tanα give the reachable envelope. Shared gravitational drop proves interception.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Maximum height",
+          "answer": "v0^2/(2*g)",
+          "options": [
+            "-v0^2/(2*g)",
+            "v0^2/(2*g)",
+            "v0^2/g"
+          ],
+          "explanation": "Eliminate t to get y=x tanα−x²(1+tan²α)/(2R); real roots in tanα give the reachable envelope. Shared gravitational drop proves interception.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Reachable nonnegative-height region",
+          "answer": "x²+2Ry≤R² with y≥0, where R=v0²/g",
+          "options": [
+            "x²+2Ry≥R² with y≥0",
+            "x²+2Ry≤R² with y≥0, where R=v0²/g",
+            "Every point in the upper half-plane"
+          ],
+          "explanation": "Eliminate t to get y=x tanα−x²(1+tan²α)/(2R); real roots in tanα give the reachable envelope. Shared gravitational drop proves interception.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Discriminant criterion",
+          "answer": "Real launch angles exist exactly when R²−x²−2Ry≥0",
+          "options": [
+            "Real launch angles exist only at45°",
+            "No quadratic in tanα arises",
+            "Real launch angles exist exactly when R²−x²−2Ry≥0"
+          ],
+          "explanation": "Eliminate t to get y=x tanα−x²(1+tan²α)/(2R); real roots in tanα give the reachable envelope. Shared gravitational drop proves interception.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Target interception",
+          "answer": "Aim with tanα=h/D; both objects drop gt²/2 and meet at t=D/(v0 cosα), if above ground",
+          "options": [
+            "Aim horizontally for every h",
+            "The target must remain fixed",
+            "Aim with tanα=h/D; both objects drop gt²/2 and meet at t=D/(v0 cosα), if above ground"
+          ],
+          "explanation": "Eliminate t to get y=x tanα−x²(1+tan²α)/(2R); real roots in tanα give the reachable envelope. Shared gravitational drop proves interception.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        915,
+        916
+      ]
+    }
+  },
+  "calculus-chapter-13-problems-plus-4-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · x(t)",
+          "answer": "t*v0*cos(alpha)",
+          "options": [
+            "-t*v0*cos(alpha)",
+            "t*v0*cos(alpha)",
+            "2*t*v0*cos(alpha)"
+          ],
+          "explanation": "Intersect the projectile with y=±x tanθ. Along-plane range is2v0² cosα sin(α±θ)/(g cos²θ); optimize the sine product. For uphill target distance R the optimal v0²=Rg(1+sinθ).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · y(t)",
+          "answer": "-g*t^2/2 + t*v0*sin(alpha)",
+          "options": [
+            "-g*t^2/2 + t*v0*sin(alpha)",
+            "-g*t^2 + 2*t*v0*sin(alpha)",
+            "g*t^2/2 - t*v0*sin(alpha)"
+          ],
+          "explanation": "Intersect the projectile with y=±x tanθ. Along-plane range is2v0² cosα sin(α±θ)/(g cos²θ); optimize the sine product. For uphill target distance R the optimal v0²=Rg(1+sinθ).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Downhill optimal elevation above horizontal",
+          "answer": "α=π/4−θ/2",
+          "options": [
+            "α=π/4+θ/2",
+            "α=θ",
+            "α=π/4−θ/2"
+          ],
+          "explanation": "Intersect the projectile with y=±x tanθ. Along-plane range is2v0² cosα sin(α±θ)/(g cos²θ); optimize the sine product. For uphill target distance R the optimal v0²=Rg(1+sinθ).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Uphill optimal elevation above horizontal",
+          "answer": "α=π/4+θ/2",
+          "options": [
+            "α=π/4+θ/2",
+            "α=π/2",
+            "α=π/4−θ/2"
+          ],
+          "explanation": "Intersect the projectile with y=±x tanθ. Along-plane range is2v0² cosα sin(α±θ)/(g cos²θ); optimize the sine product. For uphill target distance R the optimal v0²=Rg(1+sinθ).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Minimum-energy elevation",
+          "answer": "α=π/4+θ/2",
+          "options": [
+            "α=π/4+θ/2",
+            "α=θ",
+            "α=π/4−θ/2"
+          ],
+          "explanation": "Intersect the projectile with y=±x tanθ. Along-plane range is2v0² cosα sin(α±θ)/(g cos²θ); optimize the sine product. For uphill target distance R the optimal v0²=Rg(1+sinθ).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Minimum initial speed squared for uphill distance R",
+          "answer": "R*g*(sin(theta) + 1)",
+          "options": [
+            "-R*g*(sin(theta) + 1)",
+            "2*R*g*(sin(theta) + 1)",
+            "R*g*(sin(theta) + 1)"
+          ],
+          "explanation": "Intersect the projectile with y=±x tanθ. Along-plane range is2v0² cosα sin(α±θ)/(g cos²θ); optimize the sine product. For uphill target distance R the optimal v0²=Rg(1+sinθ).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        916
+      ]
+    }
+  },
+  "calculus-chapter-13-problems-plus-5-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · First impact horizontal distance from table edge",
+          "answer": 0.9354143466934853,
+          "unit": "ft",
+          "tolerance": 0.001,
+          "explanation": "Use g32ft/s² and initial vertical speed0. Rebound components both scale by0.8, so its additional horizontal range is(2·0.8)(2·0.8|vy|/32)=1.28 times the first horizontal distance.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Impact speed",
+          "answer": 15.0996688705415,
+          "unit": "ft/s",
+          "tolerance": 0.001,
+          "explanation": "Use g32ft/s² and initial vertical speed0. Rebound components both scale by0.8, so its additional horizontal range is(2·0.8)(2·0.8|vy|/32)=1.28 times the first horizontal distance.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Angle from vertical",
+          "answer": 7.611378517094657,
+          "unit": "degrees",
+          "tolerance": 0.01,
+          "explanation": "Use g32ft/s² and initial vertical speed0. Rebound components both scale by0.8, so its additional horizontal range is(2·0.8)(2·0.8|vy|/32)=1.28 times the first horizontal distance.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Second impact horizontal distance from table edge",
+          "answer": 2.1327447104611466,
+          "unit": "ft",
+          "tolerance": 0.001,
+          "explanation": "Use g32ft/s² and initial vertical speed0. Rebound components both scale by0.8, so its additional horizontal range is(2·0.8)(2·0.8|vy|/32)=1.28 times the first horizontal distance.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        916
+      ]
+    }
+  },
+  "calculus-chapter-13-problems-plus-6-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Curvature",
+      "answer": "pi*Abs(t)",
+      "options": [
+        "-pi*Abs(t)",
+        "2*pi*Abs(t)",
+        "pi*Abs(t)"
+      ],
+      "explanation": "By the fundamental theorem, r′=(sin(πt²/2),cos(πt²/2)) has unit speed. Its derivative has magnitudeπ|t|.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        916
+      ]
+    }
+  },
+  "calculus-chapter-13-problems-plus-7-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Elevation maximizing total flight distance",
+          "answer": 56.46583512745235,
+          "unit": "degrees",
+          "tolerance": 0.5001,
+          "explanation": "Integrate speed over the full flight: S=(v²/g)[sinα+cos²α asinh(tanα)]. The unique interior maximum occurs near56.47°, which rounds to56°; this differs from maximum horizontal range.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Stationary equation",
+          "answer": "sinα·asinh(tanα)=1",
+          "options": [
+            "sinα·asinh(tanα)=1",
+            "tanα=1",
+            "sin(2α)=1"
+          ],
+          "explanation": "Integrate speed over the full flight: S=(v²/g)[sinα+cos²α asinh(tanα)]. The unique interior maximum occurs near56.47°, which rounds to56°; this differs from maximum horizontal range.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        916
+      ]
+    }
+  },
+  "calculus-chapter-13-problems-plus-8-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Unrolled cylinder model · Centerline radius",
+          "answer": "R+r",
+          "options": [
+            "r",
+            "R+r",
+            "R−r"
+          ],
+          "explanation": "Unroll the centerline cylinder of circumference C=2π(R+r). A helix of axial pitch p has perpendicular spacing pC/sqrt(C²+p²). Equating that spacing to2r gives p=2rC/sqrt(C²−4r²). The axial span of centerline length L is Lp/sqrt(C²+p²)=2rL/C=Lr/[π(R+r)]. For r≪R this becomes Lr/(πR). This is the elementary unrolled-strip winding model, with end effects and exact3D solid-tube contact explicitly excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Unrolled cylinder model · Tight winding condition",
+          "answer": "Adjacent helical centerlines are separated by2r perpendicular to their direction on the unrolled cylinder",
+          "options": [
+            "The axial pitch must equal2r exactly for every slope",
+            "Adjacent helical centerlines are separated by2r perpendicular to their direction on the unrolled cylinder",
+            "The cable centerlines may coincide"
+          ],
+          "explanation": "Unroll the centerline cylinder of circumference C=2π(R+r). A helix of axial pitch p has perpendicular spacing pC/sqrt(C²+p²). Equating that spacing to2r gives p=2rC/sqrt(C²−4r²). The axial span of centerline length L is Lp/sqrt(C²+p²)=2rL/C=Lr/[π(R+r)]. For r≪R this becomes Lr/(πR). This is the elementary unrolled-strip winding model, with end effects and exact3D solid-tube contact explicitly excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Unrolled cylinder model · Axial centerline span",
+          "answer": "Lr/[π(R+r)]",
+          "options": [
+            "Lr/[2π(R+r)]",
+            "2Lr/[π(R+r)]",
+            "Lr/[π(R+r)]"
+          ],
+          "explanation": "Unroll the centerline cylinder of circumference C=2π(R+r). A helix of axial pitch p has perpendicular spacing pC/sqrt(C²+p²). Equating that spacing to2r gives p=2rC/sqrt(C²−4r²). The axial span of centerline length L is Lp/sqrt(C²+p²)=2rL/C=Lr/[π(R+r)]. For r≪R this becomes Lr/(πR). This is the elementary unrolled-strip winding model, with end effects and exact3D solid-tube contact explicitly excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Thin-cable approximation r≪R",
+          "answer": "Lr/(πR)",
+          "options": [
+            "Lr/(πR)",
+            "L",
+            "2Lr/(πR)"
+          ],
+          "explanation": "Unroll the centerline cylinder of circumference C=2π(R+r). A helix of axial pitch p has perpendicular spacing pC/sqrt(C²+p²). Equating that spacing to2r gives p=2rC/sqrt(C²−4r²). The axial span of centerline length L is Lp/sqrt(C²+p²)=2rL/C=Lr/[π(R+r)]. For r≪R this becomes Lr/(πR). This is the elementary unrolled-strip winding model, with end effects and exact3D solid-tube contact explicitly excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Model limitation",
+          "answer": "The formula neglects finite end coverage and exact3D tube-contact corrections; the source does not specify those conventions",
+          "options": [
+            "No geometry assumptions are needed",
+            "The formula neglects finite end coverage and exact3D tube-contact corrections; the source does not specify those conventions",
+            "It is an exact universal finite-thickness packing law"
+          ],
+          "explanation": "Unroll the centerline cylinder of circumference C=2π(R+r). A helix of axial pitch p has perpendicular spacing pC/sqrt(C²+p²). Equating that spacing to2r gives p=2rC/sqrt(C²−4r²). The axial span of centerline length L is Lp/sqrt(C²+p²)=2rL/C=Lr/[π(R+r)]. For r≪R this becomes Lr/(πR). This is the elementary unrolled-strip winding model, with end effects and exact3D solid-tube contact explicitly excluded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        916
+      ]
+    }
+  },
+  "calculus-chapter-13-problems-plus-9-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Nondegenerate plane equation",
+          "answer": "(a×b)·(x−c)=0, where a=(a1,a2,a3), b=(b1,b2,b3), c=(c1,c2,c3)",
+          "options": [
+            "(a+b)·x=0 always",
+            "a·x=0 always",
+            "(a×b)·(x−c)=0, where a=(a1,a2,a3), b=(b1,b2,b3), c=(c1,c2,c3)"
+          ],
+          "explanation": "Dot the displacement with a×b. If this normal vanishes, choose any nonzero normal perpendicular to the remaining span instead.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Why the curve is planar",
+          "answer": "r(t)−c=t²a+tb lies in span{a,b}",
+          "options": [
+            "Every quadratic curve is a circle",
+            "Its curvature must be0",
+            "r(t)−c=t²a+tb lies in span{a,b}"
+          ],
+          "explanation": "Dot the displacement with a×b. If this normal vanishes, choose any nonzero normal perpendicular to the remaining span instead.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Degenerate case a×b=0",
+          "answer": "The curve lies in a line or is a point; choose any plane containing it",
+          "options": [
+            "The curve lies in a line or is a point; choose any plane containing it",
+            "No plane exists",
+            "The zero normal determines a unique plane"
+          ],
+          "explanation": "Dot the displacement with a×b. If this normal vanishes, choose any nonzero normal perpendicular to the remaining span instead.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        916
+      ]
+    }
+  }
+}

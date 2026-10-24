@@ -1,0 +1,25 @@
+# Printed751–752; endpoint convergence is evaluated independently of radius.
+put(8,1,C('Σc_n(x−a)^n with fixed coefficients and center a','Any infinite sum regardless of powers','Only a finite polynomial'),limited=True)
+put(8,2,C('R is the distance from center within which absolute convergence holds; use ratio/root test','R is the sum at the center','R is always finite',label='(a)'),C('Interior |x−a|<R plus whichever endpoints separately converge','Always the closed interval','The ratio test decides every endpoint',label='(b)'),limited=True)
+intervals={3:(1,'(−1,1)'),4:(1,'(−1,1]'),5:(1,'[−1,1)'),6:(1,'[−1,1]'),7:(S.oo,'All real x'),8:(0,'{0}'),9:(4,'[−4,4]'),10:(S.Rational(1,2),'(−1/2,1/2)'),11:(S.Rational(1,4),'(−1/4,1/4]'),12:(5,'(−5,5]'),13:(2,'[−2,2)'),14:(S.oo,'All real x'),15:(1,'[1,3]'),16:(2,'(−1,3]'),17:(2,'[−4,0)'),18:(8,'(−14,2)'),19:(S.oo,'All real x'),20:(S.Rational(5,2),'[−2,3)'),23:(0,'{1/2}'),24:(S.oo,'All real x'),25:(S.Rational(1,5),'[3/5,1]'),26:(1,'[−1,1]'),27:(S.oo,'All real x'),28:(2,'(−2,2)')}
+for i,(rad,interval) in intervals.items():
+ rf=C('∞','0','1',label='Radius R') if rad==S.oo else N(rad,'Radius R')
+ wrong=['No real x','Only the center'] if interval not in ['{0}','{1/2}'] else ['All real x','An interval of positive length']
+ put(8,i,rf,C(interval,*wrong,label='Interval of convergence'),why='Apply the ratio or root test to the interior, then substitute each finite endpoint into the original series. Radius0 still includes the center.')
+ CASES.append(dict(kind='power-interval',id=f'calculus-section-11-8-{i}',radius=str(rad),interval=interval))
+put(8,21,C('b','1/b','0',label='Radius'),C('(a−b,a+b)','[a−b,a+b]','All real x',label='Interval'),why='Endpoint terms have magnitude n and do not tend to0.')
+put(8,22,C('1/b','b','0',label='Radius'),C('[a−1/b,a+1/b)','(a−1/b,a+1/b]','All real x',label='Interval'),why='The left endpoint alternates1/ln n; the right endpoint is the divergent positive series.')
+put(8,29,C('Yes, absolutely: |−2|<4','No','Undetermined',label='(a)'),C('Undetermined at the opposite endpoint−4','Always converges','Always diverges',label='(b)'),limited=True)
+put(8,30,C('Converges absolutely','Diverges','Undetermined',label='(a) x=1'),C('Diverges','Converges absolutely','Undetermined',label='(b) x=8'),C('Converges absolutely','Diverges','Undetermined',label='(c) x=−3'),C('Diverges','Converges absolutely','Undetermined',label='(d) x=−9'),why='Convergence at−4 guarantees absolute convergence for |x|<4; divergence at6 rules out convergence for |x|>6.')
+put(8,31,C('k^k','1/k^k','1',label='Radius'),why='Ratio of consecutive coefficients tends to k^(−k), including k=1.')
+put(8,32,C('Σ_(n=0)^∞t^n','Σt^n/n²','Σ(−1)^n t^n/n',label='(a) (p,q)'),C('Σ_(n=1)^∞(−1)^(n−1)t^n/n','Σt^n/n','Σt^n',label='(b) (p,q]'),C('Σ_(n=1)^∞t^n/n','Σ(−1)^n t^n/n','Σt^n',label='(c) [p,q)'),C('Σ_(n=1)^∞t^n/n²','Σt^n/n','Σt^n',label='(d) [p,q]'),why='Here t=(2x−p−q)/(q−p), so the two endpoints become−1 and1. Other valid examples need separate review.',limited=True)
+put(8,33,C('No: infinite radius forces convergence on the entire real line','Yes, every power series has that interval','Yes, choose a geometric series'),limited=True)
+put(8,34,C('−1<x<1','−1≤x≤1','All real x',label='Convergence interval'),F((1-x**(n+1))/(1-x),'Partial sum through x^n, x≠1'),limited=True)
+put(8,35,C('All real x','Only |x|<1','Only x≥0',label='(a) Domain'),F(x/2-x**3/16+x**5/384,'(b,c) First3nonzero terms'),why='The absolute ratio is x²/[4(n+1)(n+2)]→0; graph/CAS comparisons require separate review.',limited=True)
+put(8,36,C('All real x','Only |x|<1','Only x≥0',label='(a) Domain'),F(1+x**3/6+x**6/180+x**9/12960,'(b,c) First4nonzero terms'),why='Term ratio is x³/[(3n+2)(3n+3)]→0. This is the particular Airy-equation solution with A(0)=1,A′(0)=0.',limited=True)
+put(8,37,C('(−1,1)','[−1,1]','All real x',label='Interval'),F((1+2*x)/(1-x*x),'f(x)'),why='Separate even and odd geometric subseries.')
+put(8,38,C('(−1,1) unless all c₀,c₁,c₂,c₃ are0, in which case all real x','Always all real x','Always [−1,1]',label='Interval'),C('(c₀+c₁x+c₂x²+c₃x³)/(1−x⁴)','(c₀+c₁x)/(1−x²)','c₀/(1−x)',label='f(x), |x|<1'),why='Group into blocks of4. At±1 a nonzero periodic coefficient subsequence prevents terms tending to0; the all-zero series is the exceptional entire function.')
+put(8,39,C('R=1/c','R=c','R=c²'),why='The root-test limit for c_nx^n is c|x|.',limited=True)
+put(8,40,C('R=lim |c_n/c_(n+1)|','R=lim |c_(n+1)/c_n|','R=0 necessarily'),why='Use the ratio test, including limiting radii0and∞.',limited=True)
+put(8,41,N(2,'Radius'),why='The sum converges inside2. If it extended beyond2, subtracting the radius3series would extend the radius2series, a contradiction.')
+put(8,42,C('sqrt(R), with0and∞ interpreted accordingly','R²','2R',label='Radius'),why='The original variable is replaced by x², so |x²|<R.')

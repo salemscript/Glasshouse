@@ -1,0 +1,104 @@
+{
+  "chapter": 9,
+  "sourceSHA256": "008f8498f03c21bd465de4aba1cc067dadbc8890e6d2f2c5f3093147c533523f",
+  "reviewedPrintedPages": [
+    637,
+    638
+  ],
+  "questions": {
+    "calculus-chapter-09-problems-plus-1-problems-plus-0": "Atx=0,f(0)²=100. Differentiate the integral identity:2ff′=f²+(f′)², hence(f′−f)²=0 everywhere. Thusf′=f and the two initial signs give exactly these functions; substitution confirms the original identity.",
+    "calculus-chapter-09-problems-plus-2-problems-plus-0": "The source hasf=e^(x²), not e^x. The equalityf′g+fg′=f′g′ gives(2x−1)g′=2xg; integrateg′/g=1+1/(2x−1). The zero function is included byC=0.",
+    "calculus-chapter-09-problems-plus-3-problems-plus-0": "The multiplicative identity turns the difference quotient at arbitraryx into f(x) times the quotient at0. Sincef′(0)=1, the derivative exists everywhere and equalsf; f(0)=1 fixes the exponential constant.",
+    "calculus-chapter-09-problems-plus-4-problems-plus-0": "WriteF′=f,G′=1/f,FG=−1. Differentiating givesfG+F/f=0, soF²=f². Continuity and nonvanishing forceF=f orF=−f throughout a connected interval, hencef′=f orf′=−f. Corresponding primitives±f and∓1/f verify the product.",
+    "calculus-chapter-09-problems-plus-5-problems-plus-0": "Differentiating∫[0,x]f=kf^(n+1) on a positive interval gives(f^n)′=n/[k(n+1)]. The standard answer assumes positivity immediately after0. The literal nonnegative wording also permits a waiting interval; f(1)=1 then fixes its slope. We state n>0 and x≥0 because arbitrary real powers otherwise need domain conditions.",
+    "calculus-chapter-09-problems-plus-6-problems-plus-0": "The horizontal subtangent length is|y/y′|=c, so on a smooth connected branchy′=±y/c. Through(c,1), the two signs give the two exponential curves. A positive length requiresc>0.",
+    "calculus-chapter-09-problems-plus-7-problems-plus-0": "Equal ten-minute intervals have the same cooling factorq. Thus(80−T)²=(100−T)(65−T), givingT=20°C andq=3/4; this also reproduces65°C.",
+    "calculus-chapter-09-problems-plus-8-problems-plus-0": "Constant snowfall makes depth proportionalt+b. Fixed volumetric removal givesx′=K/(t+b). Distances6and3km implyln[(b+1)/b]=2ln[(b+2)/(b+1)], henceb²+b−1=0 and its positive root. Subtract60b minutes fromnoon.",
+    "calculus-chapter-09-problems-plus-9-problems-plus-0": "The rabbit lies at the y-interceptY=y−xy′ of the pursuit tangent. Equal traveled speeds relate rabbit motion to dog arc length and give the stated DE. Setz=y′, integrateasinhz=ln(x/L), then integrate again usingy(L)=0. Separationx√(1+z²)=(x²+L²)/(2L) tendsL/2.",
+    "calculus-chapter-09-problems-plus-10-problems-plus-0": "For speed ratiok=vDog/vRabbit, asinhy′=(1/k)ln(x/L). Atk=1/2 the dog path isx³/(6L²)+L²/(2x)−2L/3 and the separation isx³/(2L²)+L²/(2x). Its unique minimum on0<x≤L occurs atx=L/3^(1/4). Rabbit ordinate isy−xy′.",
+    "calculus-chapter-09-problems-plus-11-problems-plus-0": "Withr=1.5h, V=(3π/4)h³ andA=(9π/4)h². Before removalV′=60000π; after90ft it is40000π. Compute volume increments divided by their respective rates. The cone radius at100ft is150ft, below the silo200ft radius, so the conical model fits throughout.",
+    "calculus-chapter-09-problems-plus-12-problems-plus-0": "If the tangent intercepts are(a,0),(0,b), midpointP=(x,y) impliesa=2x,b=2y. Tangent slope−b/a=−y/x gives(xy)′=0; through(3,2),xy=6.",
+    "calculus-chapter-09-problems-plus-13-problems-plus-0": "The normal through(x,y) and(0,6) has slope(y−6)/x=−1/y′. Thereforex+(y−6)y′=0 and the curve is a circle centered(0,6); the given point fixes radius5. The lower graph branch contains(3,2).",
+    "calculus-chapter-09-problems-plus-14-problems-plus-0": "If the y-axis bisects the normal segment from(x,y) to its x-intercept, that intercept is(−x,0). Normal slopey/(2x) givesy′=−2x/y; integration yields ellipses2x²+y²=C. Degenerate zero-length segments are excluded.",
+    "calculus-chapter-09-problems-plus-15-problems-plus-0": "The equal sides from(x,y) to(0,0) and to(a,0) requirea=2x (a=0 is the degenerate triangle). Tangent slope−y/x implies(xy)′=0. The nonzero condition excludes collapsed triangles on the axes."
+  },
+  "checks": [
+    {
+      "label": "1 original integral",
+      "residual": "0"
+    },
+    {
+      "label": "2 mistaken product equality",
+      "residual": "0"
+    },
+    {
+      "label": "7 successive cooling",
+      "residual": "0"
+    },
+    {
+      "label": "8 snow logarithm algebra",
+      "residual": "0"
+    },
+    {
+      "label": "9 squared pursuit DE",
+      "residual": "0"
+    },
+    {
+      "label": "9 initial position",
+      "residual": "0"
+    },
+    {
+      "label": "9 initial slope",
+      "residual": "0"
+    },
+    {
+      "label": "10a squared pursuit DE",
+      "residual": "0"
+    },
+    {
+      "label": "10a initial position",
+      "residual": "0"
+    },
+    {
+      "label": "10a initial slope",
+      "residual": "0"
+    },
+    {
+      "label": "10b squared pursuit DE",
+      "residual": "0"
+    },
+    {
+      "label": "10b initial position",
+      "residual": "0"
+    },
+    {
+      "label": "10b initial slope",
+      "residual": "0"
+    },
+    {
+      "label": "10b minimum condition",
+      "residual": "0"
+    },
+    {
+      "label": "10b minimum distance",
+      "residual": "0"
+    },
+    {
+      "label": "11a volume",
+      "residual": "0"
+    },
+    {
+      "label": "11c interval",
+      "residual": "0"
+    },
+    {
+      "label": "11c total",
+      "residual": "0"
+    },
+    {
+      "label": "13 initial circle",
+      "residual": "0"
+    }
+  ],
+  "limits": "Graph, direction-field, full written proof and modeling discussion checks verify selected mathematical conclusions rather than the full original work. Those records are marked complete:false."
+}

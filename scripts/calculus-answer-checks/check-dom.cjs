@@ -6,8 +6,8 @@ c.window=c;vm.createContext(c);
 for(const f of ['study-data.js','concept-choice-data.js','answer-checker.js','response-parts.js','concept-choices.js','problem-content.js','help-tutor.js','hint-journey.js','answer-library.js','textbook-practice.js'])vm.runInContext(fs.readFileSync(site+f,'utf8'),c,{filename:f});
 const data=name=>JSON.parse(zlib.gunzipSync(fs.readFileSync(site+'questions/'+name)));
 const selected=process.argv.slice(2);
-assert(selected.length<=1&&(!selected.length||/^--chapter=[1-8]$/.test(selected[0])),'Use --chapter=1 through8, or no flag for all eight.');
-const chapters=selected.length?[Number(selected[0].slice(-1))]:[1,2,3,4,5,6,7,8];
+assert(selected.length<=1&&(!selected.length||/^--chapter=([1-9]|1[0-3])$/.test(selected[0])),'Use --chapter=1 through13, or no flag for all thirteen.');
+const chapters=selected.length?[Number(selected[0].split('=')[1])]:[1,2,3,4,5,6,7,8,9,10,11,12,13];
 const raw=data('calculus.json.gz').filter(q=>chapters.includes(q.chapter));
 const click=el=>{assert(el,'missing button');el.dispatchEvent(new Event('click',{bubbles:true}));};
 (async()=>{
@@ -41,8 +41,8 @@ const click=el=>{assert(el,'missing button');el.dispatchEvent(new Event('click',
   const f=fields[0];document.querySelector('#question-answer-'+f.fieldKey).value=f.rule.type==='choice'?f.rule.options.find(o=>o!==f.rule.answer):String(f.rule.answer+Math.max(1,Math.abs(f.rule.answer)*.1,(f.rule.tolerance||0)*10,(f.rule.relativeTolerance||0)*Math.abs(f.rule.answer)*10));
   click(all);assert(document.querySelector('#question-feedback .error'),original.id+' wrong feedback');
  }
- assert.equal(raw.length,chapters.reduce((sum,ch)=>sum+({1:368,2:570,3:844,4:785,5:486,6:307,7:647,8:239}[ch]),0));
- const auditName=chapters.length===8?'dom-audit.json':'dom-audit-chapter-'+chapters[0]+'.json';
+ assert.equal(raw.length,chapters.reduce((sum,ch)=>sum+({1:368,2:570,3:844,4:785,5:486,6:307,7:647,8:239,9:238,10:455,11:751,12:449,13:286}[ch]),0));
+ const auditName=chapters.length===13?'dom-audit.json':'dom-audit-chapter-'+chapters[0]+'.json';
  fs.writeFileSync(path.join(__dirname,auditName),JSON.stringify({totals,checks:['actual delegated input/radio events','blank/incorrect/correct feedback','individual part controls','saved note migration','scope-limited completion restrictions']},null,2)+'\n');
  console.log('PASS actual UI events: '+JSON.stringify(totals));
 })().catch(e=>{console.error(e);process.exitCode=1});

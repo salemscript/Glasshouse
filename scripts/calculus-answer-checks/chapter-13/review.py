@@ -1,0 +1,52 @@
+from common import *
+row=lambda k,*fs,**kw:A.row('review',k,*fs,**kw)
+cc=lambda k,*fs,**kw:row(k,*fs,suffix='-concept-check-1',limited=True,**kw)
+cc(1,c('Definition','A function assigning a vector to each allowed parameter value','A single fixed scalar','An equation containing only x'),c('Derivative and integral','Differentiate or integrate each component','Differentiate the magnitude only','Integrate only the first component'))
+cc(2,c('Connection','The tips of r(t), with tails at the origin, trace the parametrized space curve','Every space curve must be a line','A vector function specifies only speed'))
+cc(3,c('Tangent vector','r′(t0), if nonzero','r(t0)','r″(t0) always'),c('Tangent line','r(t0)+u r′(t0)','u r(t0)','r′(t0)+u r″(t0)'),c('Unit tangent','T=r′/|r′|','T=r/|r|','T=r″/|r″|'))
+for_data=[('a','u′+v′','u′v′'),('b','cu′','c′u′'),('c','f′u+fu′','f′u′'),('d','u′·v+u·v′','u′·v′'),('e','u′×v+u×v′','u′×v′'),('f','u′(f(t))f′(t)','u′(t)f(t)')]
+cc(4,*[c(k+' · Derivative',a,b,'0') for k,a,b in for_data])
+cc(5,c('Arc length','∫a^b |r′(t)|dt','|∫a^b r′(t)dt| in every case','∫a^b |r(t)|dt'))
+cc(6,c('a · Definition','κ=|dT/ds|','κ=dT/dt','κ=|r|'),c('b · General parameter','κ=|T′|/|r′|','κ=|T′||r′|','κ=|r′|/|T′|'),c('c · Cross-product formula','κ=|r′×r″|/|r′|³','κ=|r′×r″|/|r′|²','κ=r′·r″'),c('d · Graph formula','κ=|f″|/[1+(f′)²]^(3/2)','κ=f″','κ=|f′|'))
+cc(7,c('a · Unit normal','N=T′/|T′|','N=T/|T|','N=r″ always'),c('a · Binormal','B=T×N','B=N×T','B=T+N'),c('b · Normal plane','Through the point, perpendicular to T','Spanned by T and N','Perpendicular to B'),c('b · Osculating plane','Through the point, spanned by T,N and normal to B','Perpendicular to T','Spanned by N,B'),c('b · Osculating circle','Center r+N/κ and radius1/κ in the osculating plane','Center r and radiusκ','Center r−N/κ and radiusκ'))
+cc(8,c('a · Velocity, speed, acceleration','v=r′, speed=|r′|, a=r″','v=r, speed=r′, a=|r|','v=r″, speed=|r|, a=r′'),c('b · Acceleration decomposition','a=(d|v|/dt)T+κ|v|²N','a=|v|T+κN','a=κ|v|²T+(d|v|/dt)N'))
+cc(9,c('First law','Elliptical orbits with the sun at one focus','Circular orbits with the sun always at the center','Parabolic closed orbits'),c('Second law','Equal areas swept in equal times','Equal distances in equal times','Equal angles in equal times'),c('Third law','T² is proportional to the cube of the semimajor axis','T is proportional to the radius','T³ is proportional to a²'))
+tfs={1:(True,'r=t³(1,2,3), which covers a line.'),2:(True,'In x=0, eliminate t to get y=z²/16.'),3:(False,'y=3−x/2, so the origin is absent.'),4:(True,'The vector derivative is componentwise.'),5:(False,'The derivative is u′×v+u×v′.'),6:(False,'For r=(cos t,sin t), the left side is0 and the right side1.'),7:(False,'Divide |T′| by speed, or differentiate T with respect to arc length.'),8:(False,'B=T×N; reversing order reverses its sign.'),9:(True,'For twice continuously differentiable f, an inflection point has f″=0 and henceκ=0.'),10:(True,'On a connected regular interval κ=0 makes T constant, so the curve is a line.'),11:(False,'r=(cos t²,sin t²) has unit magnitude but speed2|t|.'),12:(True,'Differentiate r·r=1 to obtain2r·r′=0.'),13:(True,'Choose the osculating circle orientation to match T; its principal normal and curvature agree.'),14:(False,'Changing parameter speed rescales r′; reversing orientation reverses T.')}
+for k,(ans,why) in tfs.items():row(k,c('Truth value','True' if ans else 'False','False' if ans else 'True'),suffix='-true-false-quiz-2',limited=True,why=why)
+r=vec([t,s.cos(pi*t),s.sin(pi*t)])
+row(1,c('a · Curve','A radius1 helix about the x-axis, x≥0, pitch2','A unit circle in x=0','A straight line'),*V(r.diff(t),'b · r′'),*V(r.diff(t,2),'b · r″'),limited=True)
+r=vec([s.sqrt(2-t),(s.exp(t)-1)/t,s.log(t+1)])
+row(2,c('a · Domain','(−1,0)∪(0,2]','[−1,2]','(0,∞)'),*V([s.sqrt(2),1,0],'b · Limit at0'),*V(r.diff(t),'c · Derivative'),why='Exclude t=0 in the original quotient, require t>−1 for logarithm and t≤2 for square root; the limit can exist at an excluded parameter.')
+row(3,*V([4*s.cos(t),4*s.sin(t),5-4*s.cos(t)],'One parametrization'),why='Use the radius4 cylinder and substitute z=5−x. Take0≤t<2π for one traversal.')
+u=s.symbols('u',real=True);row(4,*V(vec([1,s.sqrt(3),2])+u*vec([s.sqrt(3),2,0]),'Tangent line'),limited=True,why='The source point corresponds to t=π/6; derivative(√3,2,0) is tangent.')
+row(5,*V([R(1,3),-2/pi**2,2/pi],'Definite vector integral'),why='Integrate componentwise; integration by parts handles tcosπt.')
+row(6,*V([R(15,8),0,-s.log(2)],'a · xz-plane intersection'),*V(vec([1,1,0])+u*vec([-3,2,1]),'b · Tangent line'),c('c · Normal plane','−3(x−1)+2(y−1)+z=0','−3(x−1)+2(y−1)+z=1','x+y+z=2'),why='y=0 gives t=1/2; the point(1,1,0) has t=1, whose derivative is(−3,2,1).')
+speed=lambda z:s.sqrt(4*z*z+9*z**4+16*z**6)
+val=R(1,6)*(speed(0)+speed(3)+4*sum(speed(R(j,2)) for j in [1,3,5])+2*sum(speed(R(j,2)) for j in [2,4]))
+row(7,n('Simpson estimate n=6',val,tol=.0005),why='h=0.5; Simpson weights1,4,2,4,2,4,1 are applied to sqrt(4t²+9t⁴+16t⁶). This is the requested approximation, not the exact length.')
+row(8,n('Arc length',R(2,27)*(13*s.sqrt(13)-8)),why='Speed=sqrt(9t+4); integrate from0 to1.')
+row(9,n('Angle of intersection',90,'degrees'),why='At t=0 the tangent vectors are(0,1,1) and(1,0,0), hence orthogonal.')
+ss=s.symbols('s',real=True);rt=s.log(1+ss/s.sqrt(3));row(10,*V([(1+ss/s.sqrt(3)),(1+ss/s.sqrt(3))*s.sin(rt),(1+ss/s.sqrt(3))*s.cos(rt)],'Arc-length parametrization'),why='Speed√3e^t gives s=√3(e^t−1) from t=0. Forward arc length uses s≥0; the signed extension has s>−√3.')
+# For0<t<π/2: speed=sin(t)cos(t)sqrt13.
+T=vec([3*s.sin(t),-3*s.cos(t),2])/s.sqrt(13);N=vec([s.cos(t),s.sin(t),0]);B=s.simplify(T.cross(N))
+row(11,*V(T,'a · T'),*V(N,'b · N'),*V(B,'c · B'),f('d · Curvature',3/(13*s.sin(t)*s.cos(t))),c('Endpoint qualification','These frame formulas apply on0<t<π/2; source velocity is zero at both endpoints','The original parametrization is regular at both endpoints','Curvature is0 at both endpoints'),why='For(sin³t,cos³t,sin²t), r′=sin t cos t(3sin t,−3cos t,2). Differentiate the unit tangent; endpoint Frenet frames are understood only by limits.')
+row(12,n('κ at(3,0)',R(3,16)),n('κ at(0,4)',R(4,9)),why='Ellipse curvature ab/(a²sin²t+b²cos²t)^(3/2), with a=3,b=4.')
+row(13,n('Curvature',12/(17*s.sqrt(17))),why='f′(1)=4,f″(1)=12; use graph curvature.')
+row(14,c('Osculating circle','x²+(y+1/2)²=1/4','x²+(y−1/2)²=1/4','x²+y²=1/4'),limited=True,why='At the origin y″=−2, so κ=2, radius1/2 and center(0,−1/2).')
+row(15,c('Osculating plane','x−2y+2π=0','x+2y−2π=0','z=1'),why='At t=π, r′=(2,1,0) and r″=(0,0,−4), so a normal is(1,−2,0).')
+row(16,c('a · Average velocity','5[r(3.2)−r(3)]','r(3.2)−r(3)','r(3)/3'),c('b · Velocity','lim h→0 [r(3+h)−r(3)]/h','r(3.2)/3.2','5r(3)'),c('c · Unit tangent','T(3)=r′(3)/|r′(3)|, directed right and downward','T(3)=r(3)/|r(3)|','T(3) points left and upward'),limited=True,why='The forward secant points right/down; its limit is the tangent, then normalize.')
+for k,r0 in {17:[t*s.log(t),t,s.exp(-t)],18:[2*t*t-3,2*t]}.items():
+ r=vec(r0);v=r.diff(t);acc=v.diff(t);fs=V(v,'Velocity')+[f('Speed',norm(v))]+V(acc,'Acceleration')
+ if k==18:fs+=V(r.subs(t,1),'Position at t=1')+V(v.subs(t,1),'Velocity at t=1')+V(acc.subs(t,1),'Acceleration at t=1')+[c('Path','x=y²/2−3','y=x²','x=y−3')]
+ row(k,*fs,limited=k==18,why='Differentiate each position component twice; speed is the norm of the first derivative.')
+row(19,*V([t**3+t,t**4-t,3*t-t**3],'Position'),why='Integrate a=(6t,12t²,−6t) and impose v0=(1,−1,3),r0=0.')
+v=43/s.sqrt(2);T=(v+s.sqrt(v*v+4*16*7))/32
+row(20,n('a · Horizontal position at2s',2*v,'ft',tol=.01),n('a · Height at2s',7+2*v-64,'ft',tol=.01),n('b · Maximum height',7+v*v/64,'ft',tol=.01),n('c · Landing distance',v*T,'ft',tol=.01),why='Use x=43cos45°t,y=7+43sin45°t−16t². The2s time is still before ground impact.')
+ang=s.asin(s.sqrt(2*R(49,5)*30)/40);row(21,n('Elevation for maximum range',ang*180/pi,'degrees',tol=.01),n('Maximum range',1600*s.sin(2*ang)/R(49,5),'m',tol=.01),why='The unconstrained45° shot exceeds the30m ceiling. The optimum just reaches the ceiling at its apex, so v0²sin²α/(2g)=30; use g=9.8.')
+row(22,f('Tangential acceleration',4*t/s.sqrt(5+4*t*t)),f('Normal acceleration',2*s.sqrt(5)/s.sqrt(5+4*t*t)),why='v=(1,2,2t),a=(0,0,2); project along v and take the cross-product magnitude.')
+w=s.symbols('omega',positive=True);cor=vec([2*w*s.exp(-t)*s.sin(w*t),-2*w*s.exp(-t)*s.cos(w*t)])
+row(23,c('a · Velocity','v=R+tR′=R+t v_d','v=tR′ only','v=R′'),c('b · Acceleration','a=2R′+tR″=2v_d+t a_d','a=R″ only','a=R′+tR″'),*V(cor,'c · Coriolis acceleration'),limited=True,why='Differentiate the product twice. For radial distance e^−t the cross term2ρ′R′ is−2e^−tR′.')
+row(24,n('a · Curvature on straight pieces',0),n('a · Curvature on circular connector',1),c('a · Join behavior','F and F′ are continuous at both joins, but curvature jumps0↔1','F jumps at both joins','Curvature is continuous'),f('b · Quintic connector',3*x**5-8*x**4+6*x**3),c('b · Degree4 possible?','No; the six endpoint conditions require the nonzero fifth-degree coefficient','Yes, x⁴ works','Yes, x works'),limited=True,why='For the second connector impose P(0)=P′(0)=P″(0)=0,P(1)=P′(1)=1,P″(1)=0, yielding3x⁵−8x⁴+6x³.')
+from pathlib import Path
+HERE=Path(__file__).parent
+(HERE/'review.json').write_text(json.dumps(A.out,ensure_ascii=False,indent=2)+'\n');(HERE/'review-audit.json').write_text(json.dumps(A.notes,ensure_ascii=False,indent=2)+'\n');print('13 review',len(A.out))

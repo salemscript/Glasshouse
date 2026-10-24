@@ -1,0 +1,772 @@
+{
+  "calculus-section-9-6-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) prey and predator",
+          "answer": "y is prey, x is predator",
+          "options": [
+            "2(y is prey, x is predator)",
+            "y is prey, x is predator",
+            "−(y is prey, x is predator)"
+          ],
+          "explanation": "The interaction increases the predator derivative and decreases the prey derivative. The negative x² term in(b) limits prey even without predators.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) other restrictions/food",
+          "answer": "Prey has exponential growth without predators; predators have no other food source",
+          "options": [
+            "2(Prey has exponential growth without predators; predators have no other food source)",
+            "−(Prey has exponential growth without predators; predators have no other food source)",
+            "Prey has exponential growth without predators; predators have no other food source"
+          ],
+          "explanation": "The interaction increases the predator derivative and decreases the prey derivative. The negative x² term in(b) limits prey even without predators.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) prey and predator",
+          "answer": "x is prey, y is predator",
+          "options": [
+            "x is prey, y is predator",
+            "−(x is prey, y is predator)",
+            "2(x is prey, y is predator)"
+          ],
+          "explanation": "The interaction increases the predator derivative and decreases the prey derivative. The negative x² term in(b) limits prey even without predators.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) other restrictions/food",
+          "answer": "Prey has self-limiting growth with carrying capacity1000; predators have no other food source",
+          "options": [
+            "2(Prey has self-limiting growth with carrying capacity1000; predators have no other food source)",
+            "Prey has self-limiting growth with carrying capacity1000; predators have no other food source",
+            "−(Prey has self-limiting growth with carrying capacity1000; predators have no other food source)"
+          ],
+          "explanation": "The interaction increases the predator derivative and decreases the prey derivative. The negative x² term in(b) limits prey even without predators.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        662
+      ]
+    }
+  },
+  "calculus-section-9-6-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) interaction",
+          "answer": "Cooperation: increasing either species increases the other derivative",
+          "options": [
+            "−(Cooperation: increasing either species increases the other derivative)",
+            "Cooperation: increasing either species increases the other derivative",
+            "2(Cooperation: increasing either species increases the other derivative)"
+          ],
+          "explanation": "Inspect the signs of the cross effects. In(a), dy/dt=0.08x+0.00004xy as actually printed; this still increases with x for nonnegative populations. In(b), each species also has a negative quadratic self-limiting term.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) source detail",
+          "answer": "The printed second equation contains0.08x, not0.08y",
+          "options": [
+            "−(The printed second equation contains0.08x, not0.08y)",
+            "The printed second equation contains0.08x, not0.08y",
+            "2(The printed second equation contains0.08x, not0.08y)"
+          ],
+          "explanation": "Inspect the signs of the cross effects. In(a), dy/dt=0.08x+0.00004xy as actually printed; this still increases with x for nonnegative populations. In(b), each species also has a negative quadratic self-limiting term.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) interaction",
+          "answer": "Competition: both interaction terms are negative",
+          "options": [
+            "Competition: both interaction terms are negative",
+            "2(Competition: both interaction terms are negative)",
+            "−(Competition: both interaction terms are negative)"
+          ],
+          "explanation": "Inspect the signs of the cross effects. In(a), dy/dt=0.08x+0.00004xy as actually printed; this still increases with x for nonnegative populations. In(b), each species also has a negative quadratic self-limiting term.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        662,
+        663
+      ]
+    }
+  },
+  "calculus-section-9-6-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) interaction",
+          "answer": "Competition",
+          "options": [
+            "2(Competition)",
+            "−(Competition)",
+            "Competition"
+          ],
+          "explanation": "For coexistence solve4x+y=500 and2x+y=400, givingx=50,y=300. Axis equilibria describe extinction of one or both species; the interior point has both populations constant.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) all nonnegative equilibria",
+          "answer": "(0,0), (125,0), (0,400), (50,300)",
+          "options": [
+            "2((0,0), (125,0), (0,400), (50,300))",
+            "−((0,0), (125,0), (0,400), (50,300))",
+            "(0,0), (125,0), (0,400), (50,300)"
+          ],
+          "explanation": "For coexistence solve4x+y=500 and2x+y=400, givingx=50,y=300. Axis equilibria describe extinction of one or both species; the interior point has both populations constant.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        663
+      ]
+    }
+  },
+  "calculus-section-9-6-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "One valid system, all constants positive",
+          "answer": "L′=−aL+bLH; H′=−cH−dLH+eHW; W′=fW−gHW",
+          "options": [
+            "2(L′=−aL+bLH; H′=−cH−dLH+eHW; W′=fW−gHW)",
+            "L′=−aL+bLH; H′=−cH−dLH+eHW; W′=fW−gHW",
+            "−(L′=−aL+bLH; H′=−cH−dLH+eHW; W′=fW−gHW)"
+          ],
+          "explanation": "Use mass-action encounter terms LH and HW. The uncoupled growth signs follow the stated absence assumptions. Other reasonable models are possible; this checks one explicit model.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Interaction signs",
+          "answer": "Hares benefit lynx and harm willow; willow benefits hares and lynx harm hares",
+          "options": [
+            "−(Hares benefit lynx and harm willow; willow benefits hares and lynx harm hares)",
+            "2(Hares benefit lynx and harm willow; willow benefits hares and lynx harm hares)",
+            "Hares benefit lynx and harm willow; willow benefits hares and lynx harm hares"
+          ],
+          "explanation": "Use mass-action encounter terms LH and HW. The uncoupled growth signs follow the stated absence assumptions. Other reasonable models are possible; this checks one explicit model.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        663
+      ]
+    }
+  },
+  "calculus-section-9-6-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) time evolution",
+          "answer": "Initially rabbits increase and foxes decrease; rabbits reach a maximum before foxes; both cycle repeatedly",
+          "options": [
+            "Initially rabbits increase and foxes decrease; rabbits reach a maximum before foxes; both cycle repeatedly",
+            "−(Initially rabbits increase and foxes decrease; rabbits reach a maximum before foxes; both cycle repeatedly)",
+            "2(Initially rabbits increase and foxes decrease; rabbits reach a maximum before foxes; both cycle repeatedly)"
+          ],
+          "explanation": "Follow the printed arrow from the marked point near(300,100) along the lower branch to the right, then upward, leftward and downward. The closed loop indicates repeated states; precise periods are not encoded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) phase direction",
+          "answer": "Counterclockwise with R horizontal and F vertical",
+          "options": [
+            "Counterclockwise with R horizontal and F vertical",
+            "2(Counterclockwise with R horizontal and F vertical)",
+            "−(Counterclockwise with R horizontal and F vertical)"
+          ],
+          "explanation": "Follow the printed arrow from the marked point near(300,100) along the lower branch to the right, then upward, leftward and downward. The closed loop indicates repeated states; precise periods are not encoded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) time graph relation",
+          "answer": "Periodic populations with fox peaks lagging rabbit peaks",
+          "options": [
+            "Periodic populations with fox peaks lagging rabbit peaks",
+            "2(Periodic populations with fox peaks lagging rabbit peaks)",
+            "−(Periodic populations with fox peaks lagging rabbit peaks)"
+          ],
+          "explanation": "Follow the printed arrow from the marked point near(300,100) along the lower branch to the right, then upward, leftward and downward. The closed loop indicates repeated states; precise periods are not encoded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        663
+      ]
+    }
+  },
+  "calculus-section-9-6-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) initial changes",
+          "answer": "Both populations initially decrease",
+          "options": [
+            "Both populations initially decrease",
+            "2(Both populations initially decrease)",
+            "−(Both populations initially decrease)"
+          ],
+          "explanation": "Follow the curve from the marked upper endpoint toward its leftmost point, then its low point, then the rightmost point and inward. The displayed finite curve alone does not specify an exact limiting population or period.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) subsequent sequence",
+          "answer": "Rabbits turn upward first, then foxes; rabbits later turn downward while foxes still rise",
+          "options": [
+            "Rabbits turn upward first, then foxes; rabbits later turn downward while foxes still rise",
+            "2(Rabbits turn upward first, then foxes; rabbits later turn downward while foxes still rise)",
+            "−(Rabbits turn upward first, then foxes; rabbits later turn downward while foxes still rise)"
+          ],
+          "explanation": "Follow the curve from the marked upper endpoint toward its leftmost point, then its low point, then the rightmost point and inward. The displayed finite curve alone does not specify an exact limiting population or period.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) graph character",
+          "answer": "Changing oscillations rather than the repeated fixed-amplitude cycle of Exercise5",
+          "options": [
+            "Changing oscillations rather than the repeated fixed-amplitude cycle of Exercise5",
+            "2(Changing oscillations rather than the repeated fixed-amplitude cycle of Exercise5)",
+            "−(Changing oscillations rather than the repeated fixed-amplitude cycle of Exercise5)"
+          ],
+          "explanation": "Follow the curve from the marked upper endpoint toward its leftmost point, then its low point, then the rightmost point and inward. The displayed finite curve alone does not specify an exact limiting population or period.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        663
+      ]
+    }
+  },
+  "calculus-section-9-6-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Phase curve with species1 horizontal",
+          "answer": "A closed counterclockwise loop, starting near(100,50)",
+          "options": [
+            "−(A closed counterclockwise loop, starting near(100,50))",
+            "2(A closed counterclockwise loop, starting near(100,50))",
+            "A closed counterclockwise loop, starting near(100,50)"
+          ],
+          "explanation": "Plot simultaneous population pairs. Initially both rise, then species1 turns down while species2 continues up; the repeating time traces produce a counterclockwise loop.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Relative peak timing",
+          "answer": "Species1 peaks before species2",
+          "options": [
+            "Species1 peaks before species2",
+            "−(Species1 peaks before species2)",
+            "2(Species1 peaks before species2)"
+          ],
+          "explanation": "Plot simultaneous population pairs. Initially both rise, then species1 turns down while species2 continues up; the repeating time traces produce a counterclockwise loop.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        663
+      ]
+    }
+  },
+  "calculus-section-9-6-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Starting point (species1,species2)",
+          "answer": "Approximately(800,700)",
+          "options": [
+            "2(Approximately(800,700))",
+            "Approximately(800,700)",
+            "−(Approximately(800,700))"
+          ],
+          "explanation": "Read simultaneous values from the two time graphs, not one population against time. Species2 reaches its minimum before species1 reaches its maximum; then both approach their respective limits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Limiting point",
+          "answer": "Approximately(1200,200)",
+          "options": [
+            "Approximately(1200,200)",
+            "2(Approximately(1200,200))",
+            "−(Approximately(1200,200))"
+          ],
+          "explanation": "Read simultaneous values from the two time graphs, not one population against time. Species2 reaches its minimum before species1 reaches its maximum; then both approach their respective limits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Phase evolution",
+          "answer": "Initially rightward and downward; later turns around the limiting point with diminishing excursions",
+          "options": [
+            "Initially rightward and downward; later turns around the limiting point with diminishing excursions",
+            "−(Initially rightward and downward; later turns around the limiting point with diminishing excursions)",
+            "2(Initially rightward and downward; later turns around the limiting point with diminishing excursions)"
+          ],
+          "explanation": "Read simultaneous values from the two time graphs, not one population against time. Species2 reaches its minimum before species1 reaches its maximum; then both approach their respective limits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        663
+      ]
+    }
+  },
+  "calculus-section-9-6-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Separated equation",
+          "answer": "(0.08/W−0.001)dW=(−0.02/R+0.00002)dR",
+          "options": [
+            "(0.08/W−0.001)dW=(−0.02/R+0.00002)dR",
+            "−((0.08/W−0.001)dW=(−0.02/R+0.00002)dR)",
+            "2((0.08/W−0.001)dW=(−0.02/R+0.00002)dR)"
+          ],
+          "explanation": "Separate the slope equation for positive populations and integrate. Exponentiating gives the stated invariant; substitute the initial point for its constant. Axis equilibria require separate treatment.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Logarithmic invariant",
+          "answer": "0.02lnR+0.08lnW−0.00002R−0.001W=constant",
+          "options": [
+            "−(0.02lnR+0.08lnW−0.00002R−0.001W=constant)",
+            "0.02lnR+0.08lnW−0.00002R−0.001W=constant",
+            "2(0.02lnR+0.08lnW−0.00002R−0.001W=constant)"
+          ],
+          "explanation": "Separate the slope equation for positive populations and integrate. Exponentiating gives the stated invariant; substitute the initial point for its constant. Axis equilibria require separate treatment.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Multiplicative invariant",
+          "answer": "R^0.02 W^0.08 exp(−0.00002R−0.001W)=C",
+          "options": [
+            "2(R^0.02 W^0.08 exp(−0.00002R−0.001W)=C)",
+            "−(R^0.02 W^0.08 exp(−0.00002R−0.001W)=C)",
+            "R^0.02 W^0.08 exp(−0.00002R−0.001W)=C"
+          ],
+          "explanation": "Separate the slope equation for positive populations and integrate. Exponentiating gives the stated invariant; substitute the initial point for its constant. Axis equilibria require separate treatment.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Constant through(1000,40)",
+          "answer": "C=1000^0.02·40^0.08·e^(−0.06)",
+          "options": [
+            "C=1000^0.02·40^0.08·e^(−0.06)",
+            "2(C=1000^0.02·40^0.08·e^(−0.06))",
+            "−(C=1000^0.02·40^0.08·e^(−0.06))"
+          ],
+          "explanation": "Separate the slope equation for positive populations and integrate. Exponentiating gives the stated invariant; substitute the initial point for its constant. Axis equilibria require separate treatment.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Phase curve",
+          "answer": "Closed counterclockwise curve around(1000,80)",
+          "options": [
+            "2(Closed counterclockwise curve around(1000,80))",
+            "Closed counterclockwise curve around(1000,80)",
+            "−(Closed counterclockwise curve around(1000,80))"
+          ],
+          "explanation": "Separate the slope equation for positive populations and integrate. Exponentiating gives the stated invariant; substitute the initial point for its constant. Axis equilibria require separate treatment.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        663,
+        664
+      ]
+    }
+  },
+  "calculus-section-9-6-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) equilibria (A,L)",
+          "answer": "(0,0) and(5000,200)",
+          "options": [
+            "(0,0) and(5000,200)",
+            "−((0,0) and(5000,200))",
+            "2((0,0) and(5000,200))"
+          ],
+          "explanation": "Set both derivatives to zero for equilibria. Nullclines areL=200 andA=5000; their signs give the cycle direction and predator lag. The origin represents joint extinction and the positive equilibrium constant coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) slope",
+          "answer": "dL/dA=L(−0.5+0.0001A)/[A(2−0.01L)]",
+          "options": [
+            "2(dL/dA=L(−0.5+0.0001A)/[A(2−0.01L)])",
+            "dL/dA=L(−0.5+0.0001A)/[A(2−0.01L)]",
+            "−(dL/dA=L(−0.5+0.0001A)/[A(2−0.01L)])"
+          ],
+          "explanation": "Set both derivatives to zero for equilibria. Nullclines areL=200 andA=5000; their signs give the cycle direction and predator lag. The origin represents joint extinction and the positive equilibrium constant coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) interior phase curves",
+          "answer": "Closed counterclockwise loops around(5000,200), except the equilibrium itself",
+          "options": [
+            "−(Closed counterclockwise loops around(5000,200), except the equilibrium itself)",
+            "2(Closed counterclockwise loops around(5000,200), except the equilibrium itself)",
+            "Closed counterclockwise loops around(5000,200), except the equilibrium itself"
+          ],
+          "explanation": "Set both derivatives to zero for equilibria. Nullclines areL=200 andA=5000; their signs give the cycle direction and predator lag. The origin represents joint extinction and the positive equilibrium constant coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) initial motion from(1000,200)",
+          "answer": "A′=0 andL′=−80; then A increases as L falls below200",
+          "options": [
+            "−(A′=0 andL′=−80; then A increases as L falls below200)",
+            "A′=0 andL′=−80; then A increases as L falls below200",
+            "2(A′=0 andL′=−80; then A increases as L falls below200)"
+          ],
+          "explanation": "Set both derivatives to zero for equilibria. Nullclines areL=200 andA=5000; their signs give the cycle direction and predator lag. The origin represents joint extinction and the positive equilibrium constant coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d–e) cycle/lag",
+          "answer": "Aphids peak when L crosses200 upward; ladybugs peak later when A crosses5000 downward",
+          "options": [
+            "Aphids peak when L crosses200 upward; ladybugs peak later when A crosses5000 downward",
+            "2(Aphids peak when L crosses200 upward; ladybugs peak later when A crosses5000 downward)",
+            "−(Aphids peak when L crosses200 upward; ladybugs peak later when A crosses5000 downward)"
+          ],
+          "explanation": "Set both derivatives to zero for equilibria. Nullclines areL=200 andA=5000; their signs give the cycle direction and predator lag. The origin represents joint extinction and the positive equilibrium constant coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        664
+      ]
+    }
+  },
+  "calculus-section-9-6-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) no wolves",
+          "answer": "Logistic rabbits with carrying capacity5000",
+          "options": [
+            "Logistic rabbits with carrying capacity5000",
+            "−(Logistic rabbits with carrying capacity5000)",
+            "2(Logistic rabbits with carrying capacity5000)"
+          ],
+          "explanation": "The wolf nullcline givesR=1000; substituting into the rabbit equation givesW=.08(1−.2)/.001=64. The displayed inward spiral approaches this coexistence point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) equilibria (R,W)",
+          "answer": "(0,0), (5000,0), (1000,64)",
+          "options": [
+            "2((0,0), (5000,0), (1000,64))",
+            "(0,0), (5000,0), (1000,64)",
+            "−((0,0), (5000,0), (1000,64))"
+          ],
+          "explanation": "The wolf nullcline givesR=1000; substituting into the rabbit equation givesW=.08(1−.2)/.001=64. The displayed inward spiral approaches this coexistence point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) eventual outcome",
+          "answer": "R→1000 andW→64 with damped oscillations",
+          "options": [
+            "2(R→1000 andW→64 with damped oscillations)",
+            "−(R→1000 andW→64 with damped oscillations)",
+            "R→1000 andW→64 with damped oscillations"
+          ],
+          "explanation": "The wolf nullcline givesR=1000; substituting into the rabbit equation givesW=.08(1−.2)/.001=64. The displayed inward spiral approaches this coexistence point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) initial changes at(1000,40)",
+          "answer": "R increases initially (R′=24), W′=0 and W subsequently rises",
+          "options": [
+            "R increases initially (R′=24), W′=0 and W subsequently rises",
+            "2(R increases initially (R′=24), W′=0 and W subsequently rises)",
+            "−(R increases initially (R′=24), W′=0 and W subsequently rises)"
+          ],
+          "explanation": "The wolf nullcline givesR=1000; substituting into the rabbit equation givesW=.08(1−.2)/.001=64. The displayed inward spiral approaches this coexistence point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) graphs",
+          "answer": "Damped oscillations about1000 rabbits and64 wolves, with wolf peaks lagging rabbit peaks",
+          "options": [
+            "2(Damped oscillations about1000 rabbits and64 wolves, with wolf peaks lagging rabbit peaks)",
+            "−(Damped oscillations about1000 rabbits and64 wolves, with wolf peaks lagging rabbit peaks)",
+            "Damped oscillations about1000 rabbits and64 wolves, with wolf peaks lagging rabbit peaks"
+          ],
+          "explanation": "The wolf nullcline givesR=1000; substituting into the rabbit equation givesW=.08(1−.2)/.001=64. The displayed inward spiral approaches this coexistence point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        664
+      ]
+    }
+  },
+  "calculus-section-9-6-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) no ladybugs",
+          "answer": "Logistic aphids with carrying capacity10000",
+          "options": [
+            "−(Logistic aphids with carrying capacity10000)",
+            "Logistic aphids with carrying capacity10000",
+            "2(Logistic aphids with carrying capacity10000)"
+          ],
+          "explanation": "The positive equilibrium hasA=5000 fromL′=0, thenL=100 fromA′=0. The Jacobian there has trace−1 and determinant.5, giving eigenvalues(−1±i)/2 and a stable spiral. Axis solutions are special and do not approach coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) equilibria (A,L)",
+          "answer": "(0,0), (10000,0), (5000,100)",
+          "options": [
+            "−((0,0), (10000,0), (5000,100))",
+            "(0,0), (10000,0), (5000,100)",
+            "2((0,0), (10000,0), (5000,100))"
+          ],
+          "explanation": "The positive equilibrium hasA=5000 fromL′=0, thenL=100 fromA′=0. The Jacobian there has trace−1 and determinant.5, giving eigenvalues(−1±i)/2 and a stable spiral. Axis solutions are special and do not approach coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) slope",
+          "answer": "dL/dA=L(−0.5+0.0001A)/[A(2−0.0002A−0.01L)]",
+          "options": [
+            "dL/dA=L(−0.5+0.0001A)/[A(2−0.0002A−0.01L)]",
+            "−(dL/dA=L(−0.5+0.0001A)/[A(2−0.0002A−0.01L)])",
+            "2(dL/dA=L(−0.5+0.0001A)/[A(2−0.0002A−0.01L)])"
+          ],
+          "explanation": "The positive equilibrium hasA=5000 fromL′=0, thenL=100 fromA′=0. The Jacobian there has trace−1 and determinant.5, giving eigenvalues(−1±i)/2 and a stable spiral. Axis solutions are special and do not approach coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) positive interior phase behavior",
+          "answer": "Trajectories approach(5000,100); the equilibrium itself is constant",
+          "options": [
+            "2(Trajectories approach(5000,100); the equilibrium itself is constant)",
+            "−(Trajectories approach(5000,100); the equilibrium itself is constant)",
+            "Trajectories approach(5000,100); the equilibrium itself is constant"
+          ],
+          "explanation": "The positive equilibrium hasA=5000 fromL′=0, thenL=100 fromA′=0. The Jacobian there has trace−1 and determinant.5, giving eigenvalues(−1±i)/2 and a stable spiral. Axis solutions are special and do not approach coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(e) initial derivatives at(1000,200)",
+          "answer": "A′=−200 andL′=−80",
+          "options": [
+            "−(A′=−200 andL′=−80)",
+            "A′=−200 andL′=−80",
+            "2(A′=−200 andL′=−80)"
+          ],
+          "explanation": "The positive equilibrium hasA=5000 fromL′=0, thenL=100 fromA′=0. The Jacobian there has trace−1 and determinant.5, giving eigenvalues(−1±i)/2 and a stable spiral. Axis solutions are special and do not approach coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(e–f) eventual populations",
+          "answer": "A→5000 andL→100; oscillations decay, with ladybug peaks lagging aphid peaks",
+          "options": [
+            "A→5000 andL→100; oscillations decay, with ladybug peaks lagging aphid peaks",
+            "2(A→5000 andL→100; oscillations decay, with ladybug peaks lagging aphid peaks)",
+            "−(A→5000 andL→100; oscillations decay, with ladybug peaks lagging aphid peaks)"
+          ],
+          "explanation": "The positive equilibrium hasA=5000 fromL′=0, thenL=100 fromA′=0. The Jacobian there has trace−1 and determinant.5, giving eigenvalues(−1±i)/2 and a stable spiral. Axis solutions are special and do not approach coexistence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        664
+      ]
+    }
+  }
+}

@@ -57,7 +57,7 @@ function route(){
  if(p==='labs'){
   page='labs';current=nativeSubjectBooks.includes(id)?id:'calculus';labChapter=/^\d+$/.test(detail||'')?Number(detail):null;labSection=/^\d+[.]\d+$/.test(section||'')?section:null;labReturn='';labExample='base';
   const selected=queryString.match(/(?:^|&)example=([a-z0-9-]+)(?:&|$)/);if(selected)labExample=selected[1];
-  const raw=queryString.match(/(?:^|&)return=([^&]*)/);if(raw){try{const back=decodeURIComponent(raw[1]);if(/^(calculus|physics|organic|chemistry|statics|dynamics)\/problems\/[a-zA-Z0-9.-]+$/.test(back))labReturn=back}catch{}}
+  const raw=queryString.match(/(?:^|&)return=([^&]*)/);if(raw){try{const back=decodeURIComponent(raw[1]);if(/^(calculus|physics|organic|chemistry|statics|dynamics)\/problems\/[\p{L}\p{M}\p{N}.-]+$/u.test(back))labReturn=back}catch{}}
  }else if(nativeSubjectBooks.includes(p)){page=p;current=p;Exercises.route(p,id,detail)}else if(['home','subjects','progress','sources','practice','bank','textbooks','textbook-problems'].includes(p)){page=p;if(['practice','bank','textbook-problems'].includes(page)&&subject(id)&&id!==current){current=id;params=defaultParams(id);resetExercise()}if(page==='practice'&&!subject(current)){current='calculus';params=defaultParams(current)}if(page==='textbook-problems')Textbooks.route(id,detail)}else page='home';render();
 }
 document.addEventListener('change',e=>{if(e.target.id==='lab-topic-select'&&nativeSubjectBooks.includes(e.target.value))location.hash=`labs/${e.target.value}`});

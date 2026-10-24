@@ -1,0 +1,1988 @@
+{
+  "calculus-section-9-4-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) carrying capacity",
+          "answer": 1200.0,
+          "unit": "",
+          "tolerance": 1.2000000000000002e-06,
+          "explanation": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) k",
+          "answer": 0.04,
+          "unit": "week⁻¹",
+          "tolerance": 1e-08,
+          "explanation": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) solution",
+          "answer": "P(t)=1200/(1 + 19*exp(-t/25))",
+          "options": [
+            "−(P(t)=1200/(1 + 19*exp(-t/25)))",
+            "P(t)=1200/(1 + 19*exp(-t/25))",
+            "2(P(t)=1200/(1 + 19*exp(-t/25)))"
+          ],
+          "explanation": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) population after10weeks",
+          "answer": 87.36116298006326,
+          "unit": "",
+          "tolerance": 0.005,
+          "explanation": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        648
+      ]
+    }
+  },
+  "calculus-section-9-4-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) carrying capacity",
+          "answer": 50.0,
+          "unit": "",
+          "tolerance": 5.0000000000000004e-08,
+          "explanation": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) k",
+          "answer": 0.02,
+          "unit": "week⁻¹",
+          "tolerance": 1e-08,
+          "explanation": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) solution",
+          "answer": "P(t)=50/(1 + exp(-t/50)/4)",
+          "options": [
+            "2(P(t)=50/(1 + exp(-t/50)/4))",
+            "−(P(t)=50/(1 + exp(-t/50)/4))",
+            "P(t)=50/(1 + exp(-t/50)/4)"
+          ],
+          "explanation": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) population after10weeks",
+          "answer": 41.504705335995226,
+          "unit": "",
+          "tolerance": 0.005,
+          "explanation": "WriteP′=kP(1−P/M); the initial condition givesA=M/P₀−1 inP=M/(1+Ae^(−kt)).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        648
+      ]
+    }
+  },
+  "calculus-section-9-4-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) carrying capacity",
+          "answer": 100.0,
+          "unit": "",
+          "tolerance": 1.0000000000000001e-07,
+          "explanation": "The rate is.05P(1−P/100). Its maximum is at half capacity, andP″ changes sign there. Initial values60,80 are already concave down for t≥0;120,140 decrease concave up toward100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(a) k",
+          "answer": 0.05,
+          "unit": "week⁻¹",
+          "tolerance": 1e-08,
+          "explanation": "The rate is.05P(1−P/100). Its maximum is at half capacity, andP″ changes sign there. Initial values60,80 are already concave down for t≥0;120,140 decrease concave up toward100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) slopes near0",
+          "answer": "NearP=0 andP=100",
+          "options": [
+            "At every P",
+            "NearP=50 only",
+            "NearP=0 andP=100"
+          ],
+          "explanation": "The rate is.05P(1−P/100). Its maximum is at half capacity, andP″ changes sign there. Initial values60,80 are already concave down for t≥0;120,140 decrease concave up toward100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) largest positive slope at P",
+          "answer": 50.0,
+          "unit": "",
+          "tolerance": 5.0000000000000004e-08,
+          "explanation": "The rate is.05P(1−P/100). Its maximum is at half capacity, andP″ changes sign there. Initial values60,80 are already concave down for t≥0;120,140 decrease concave up toward100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) increasing/decreasing",
+          "answer": "Increasing for0<P<100; decreasing forP>100",
+          "options": [
+            "Increasing for0<P<100; decreasing forP>100",
+            "Decreasing for0<P<100",
+            "Increasing for everyP>0"
+          ],
+          "explanation": "The rate is.05P(1−P/100). Its maximum is at half capacity, andP″ changes sign there. Initial values60,80 are already concave down for t≥0;120,140 decrease concave up toward100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) shared long-term behavior",
+          "answer": "Every positive initial population approaches100",
+          "options": [
+            "Every population tends to0",
+            "Every positive initial population approaches100",
+            "Only initial values below50 approach100"
+          ],
+          "explanation": "The rate is.05P(1−P/100). Its maximum is at half capacity, andP″ changes sign there. Initial values60,80 are already concave down for t≥0;120,140 decrease concave up toward100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) future inflection among the listed initial values",
+          "answer": "P₀=20 or40; inflection atP=50",
+          "options": [
+            "Every listed initial value; inflection at100",
+            "P₀=120 or140 only",
+            "P₀=20 or40; inflection atP=50"
+          ],
+          "explanation": "The rate is.05P(1−P/100). Its maximum is at half capacity, andP″ changes sign there. Initial values60,80 are already concave down for t≥0;120,140 decrease concave up toward100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) equilibria",
+          "answer": "P=0 andP=100",
+          "options": [
+            "−(P=0 andP=100)",
+            "2(P=0 andP=100)",
+            "P=0 andP=100"
+          ],
+          "explanation": "The rate is.05P(1−P/100). Its maximum is at half capacity, andP″ changes sign there. Initial values60,80 are already concave down for t≥0;120,140 decrease concave up toward100.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 8,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        648
+      ]
+    }
+  },
+  "calculus-section-9-4-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) DE",
+          "answer": "P′=0.0015P(1−P/6000)",
+          "options": [
+            "2(P′=0.0015P(1−P/6000))",
+            "P′=0.0015P(1−P/6000)",
+            "−(P′=0.0015P(1−P/6000))"
+          ],
+          "explanation": "Use the logistic field and forward Euler recurrence at the old population. The exact initial offset coefficient is6000/1000−1=5.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) field",
+          "answer": "Positive slopes for0<P<6000, negative forP>6000, zero at0 and6000",
+          "options": [
+            "−(Positive slopes for0<P<6000, negative forP>6000, zero at0 and6000)",
+            "Positive slopes for0<P<6000, negative forP>6000, zero at0 and6000",
+            "2(Positive slopes for0<P<6000, negative forP>6000, zero at0 and6000)"
+          ],
+          "explanation": "Use the logistic field and forward Euler recurrence at the old population. The exact initial offset coefficient is6000/1000−1=5.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) future inflection",
+          "answer": "Initial1000 or2000 crossesP=3000; initial4000 is concave down,8000 decreases concave up",
+          "options": [
+            "−(Initial1000 or2000 crossesP=3000; initial4000 is concave down,8000 decreases concave up)",
+            "2(Initial1000 or2000 crossesP=3000; initial4000 is concave down,8000 decreases concave up)",
+            "Initial1000 or2000 crossesP=3000; initial4000 is concave down,8000 decreases concave up"
+          ],
+          "explanation": "Use the logistic field and forward Euler recurrence at the old population. The exact initial offset coefficient is6000/1000−1=5.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) Euler P(50), h=1year",
+          "answer": 1064.0394764208972,
+          "unit": "",
+          "tolerance": 0.005,
+          "explanation": "Use the logistic field and forward Euler recurrence at the old population. The exact initial offset coefficient is6000/1000−1=5.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(e) exact IVP",
+          "answer": "P(t)=6000/(1+5e^(−0.0015t))",
+          "options": [
+            "2(P(t)=6000/(1+5e^(−0.0015t)))",
+            "−(P(t)=6000/(1+5e^(−0.0015t)))",
+            "P(t)=6000/(1+5e^(−0.0015t))"
+          ],
+          "explanation": "Use the logistic field and forward Euler recurrence at the old population. The exact initial offset coefficient is6000/1000−1=5.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(e) exact P(50)",
+          "answer": 1064.0717632576918,
+          "unit": "",
+          "tolerance": 0.005,
+          "explanation": "Use the logistic field and forward Euler recurrence at the old population. The exact initial offset coefficient is6000/1000−1=5.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(e,f) comparison",
+          "answer": "Euler underestimates this concave-up initial segment; both curves increase toward6000",
+          "options": [
+            "Euler overestimates; exact curve decreases",
+            "Euler underestimates this concave-up initial segment; both curves increase toward6000",
+            "Both methods are exactly identical"
+          ],
+          "explanation": "Use the logistic field and forward Euler recurrence at the old population. The exact initial offset coefficient is6000/1000−1=5.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        648,
+        649
+      ]
+    }
+  },
+  "calculus-section-9-4-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) biomass after1year",
+          "answer": 32324112.68339839,
+          "unit": "kg",
+          "tolerance": 5000,
+          "explanation": "The initial fraction is1/4 of carrying capacity, soA=3. Half-capacity occurs when3e^(−.71t)=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) time to4×10⁷kg",
+          "answer": 1.547341251645225,
+          "unit": "years",
+          "tolerance": 0.0005,
+          "explanation": "The initial fraction is1/4 of carrying capacity, soA=3. Half-capacity occurs when3e^(−.71t)=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        649
+      ]
+    }
+  },
+  "calculus-section-9-4-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) carrying capacity",
+          "answer": 400.0,
+          "unit": "",
+          "tolerance": 4.0000000000000003e-07,
+          "explanation": "k=.4,M=400 andA=7. The initial rate is.4·50−.001·50²=17.5; solve7e^(−.4t)=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) P′(0)",
+          "answer": 17.5,
+          "unit": "per year",
+          "tolerance": 1.75e-08,
+          "explanation": "k=.4,M=400 andA=7. The initial rate is.4·50−.001·50²=17.5; solve7e^(−.4t)=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) time to half capacity",
+          "answer": 4.864775372638284,
+          "unit": "years",
+          "tolerance": 0.0005,
+          "explanation": "k=.4,M=400 andA=7. The initial rate is.4·50−.001·50²=17.5; solve7e^(−.4t)=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        649
+      ]
+    }
+  },
+  "calculus-section-9-4-7": {
+    "grader": {
+      "type": "numeric",
+      "label": "Population after another3years (t=4)",
+      "answer": 9000.0,
+      "unit": "",
+      "tolerance": 9e-06,
+      "explanation": "A=9 andP(1)=2500 implye^(−k)=1/3. At t=4, P=10000/(1+9/81)=9000.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        649
+      ]
+    }
+  },
+  "calculus-section-9-4-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) graphical carrying-capacity estimate",
+          "answer": 675.0,
+          "unit": "",
+          "tolerance": 30,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) first-interval relative-rate estimate (39−18)/(2·18)",
+          "answer": 0.5833333333333334,
+          "unit": "hour⁻¹",
+          "tolerance": 0.0005,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) exponential fit P=a·e^(kt), a",
+          "answer": 134.32019407892014,
+          "unit": "",
+          "tolerance": 0.13432019407892015,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) exponential fit P=a·e^(kt), k",
+          "answer": 0.09962455422025002,
+          "unit": "",
+          "tolerance": 0.001,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) logistic fit P=L/(1+B·e^(−kt)), L",
+          "answer": 673.7430402393618,
+          "unit": "",
+          "tolerance": 0.6737430402393618,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) logistic fit P=L/(1+B·e^(−kt)), B",
+          "answer": 61.88897719254174,
+          "unit": "",
+          "tolerance": 0.06188897719254174,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) logistic fit P=L/(1+B·e^(−kt)), k",
+          "answer": 0.5175844782168859,
+          "unit": "",
+          "tolerance": 0.001,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at0h",
+          "answer": 134.32019407892014,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at2h",
+          "answer": 163.93591120435087,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at4h",
+          "answer": 200.0814781924031,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at6h",
+          "answer": 244.19663526776196,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at8h",
+          "answer": 298.03856516270247,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at10h",
+          "answer": 363.75188473356127,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at12h",
+          "answer": 443.95406874605504,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at14h",
+          "answer": 541.8397084060308,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at16h",
+          "answer": 661.3077574326012,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) exponential prediction at18h",
+          "answer": 807.1168341040482,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at0h",
+          "answer": 10.71321351238741,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at2h",
+          "answer": 29.317543305994327,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at4h",
+          "answer": 76.50198125499725,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at6h",
+          "answer": 178.58199263559513,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at8h",
+          "answer": 339.4542190496901,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at10h",
+          "answer": 499.15696179690127,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at12h",
+          "answer": 599.2962661769723,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at14h",
+          "answer": 645.2735299909277,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at16h",
+          "answer": 663.3483952043573,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) logistic prediction at18h",
+          "answer": 670.0141142276802,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) model comparison",
+          "answer": "The logistic least-squares fit has much smaller residuals and captures leveling off; the exponential fit cannot level off",
+          "options": [
+            "Both fits are identical",
+            "The exponential model is exact at all observations",
+            "The logistic least-squares fit has much smaller residuals and captures leveling off; the exponential fit cannot level off"
+          ],
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(e) logistic prediction after7hours",
+          "answer": 254.00913163257815,
+          "unit": "",
+          "tolerance": 0.1,
+          "explanation": "For numerical regression fields use unweighted least squares of the original cell counts, not logarithms, with positive parameters. The initial finite-difference estimate is separately labeled and is not forced as the fitted k. These explicit conventions provide a reproducible checked model; other justified fits and the graph itself are not fully assessed.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 29,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        649
+      ]
+    }
+  },
+  "calculus-section-9-4-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) midpoint-rate convention",
+          "answer": "Use net20million/year andk=20/6100 per year, withP measured in billions",
+          "options": [
+            "2(Use net20million/year andk=20/6100 per year, withP measured in billions)",
+            "−(Use net20million/year andk=20/6100 per year, withP measured in billions)",
+            "Use net20million/year andk=20/6100 per year, withP measured in billions"
+          ],
+          "explanation": "Use the actual printed numbers35–40million births and15–20million deaths per year, despite their poor fit to the supplied later population. The source suggests using the initial relative rate as k; this contract explicitly selects range midpoints. It is a historical textbook model, not a current demographic forecast.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) DE",
+          "answer": "P′=(20/6100)P(1−P/20), P(0)=6.1",
+          "options": [
+            "P′=(20/6100)P(1−P/20), P(0)=6.1",
+            "−(P′=(20/6100)P(1−P/20), P(0)=6.1)",
+            "2(P′=(20/6100)P(1−P/20), P(0)=6.1)"
+          ],
+          "explanation": "Use the actual printed numbers35–40million births and15–20million deaths per year, despite their poor fit to the supplied later population. The source suggests using the initial relative rate as k; this contract explicitly selects range midpoints. It is a historical textbook model, not a current demographic forecast.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) predicted2010 population under midpoint convention",
+          "answer": 6.239881795616197,
+          "unit": "billion",
+          "tolerance": 0.005,
+          "explanation": "Use the actual printed numbers35–40million births and15–20million deaths per year, despite their poor fit to the supplied later population. The source suggests using the initial relative rate as k; this contract explicitly selects range midpoints. It is a historical textbook model, not a current demographic forecast.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) comparison to stated6.9billion",
+          "answer": "The model underpredicts the supplied2010 value",
+          "options": [
+            "The model underpredicts the supplied2010 value",
+            "The model exceeds6.9",
+            "The model equals6.9 exactly"
+          ],
+          "explanation": "Use the actual printed numbers35–40million births and15–20million deaths per year, despite their poor fit to the supplied later population. The source suggests using the initial relative rate as k; this contract explicitly selects range midpoints. It is a historical textbook model, not a current demographic forecast.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) predicted2100 population",
+          "answer": 7.570887438632873,
+          "unit": "billion",
+          "tolerance": 0.005,
+          "explanation": "Use the actual printed numbers35–40million births and15–20million deaths per year, despite their poor fit to the supplied later population. The source suggests using the initial relative rate as k; this contract explicitly selects range midpoints. It is a historical textbook model, not a current demographic forecast.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) predicted2500 population",
+          "answer": 13.866644089078218,
+          "unit": "billion",
+          "tolerance": 0.005,
+          "explanation": "Use the actual printed numbers35–40million births and15–20million deaths per year, despite their poor fit to the supplied later population. The source suggests using the initial relative rate as k; this contract explicitly selects range midpoints. It is a historical textbook model, not a current demographic forecast.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Input-range qualification",
+          "answer": "Printed birth/death ranges allow net15–25million/year, so predictions depend on the selected rate",
+          "options": [
+            "Printed birth/death ranges allow net15–25million/year, so predictions depend on the selected rate",
+            "The printed ranges determine one exact k",
+            "Replace the printed figures silently with modern statistics"
+          ],
+          "explanation": "Use the actual printed numbers35–40million births and15–20million deaths per year, despite their poor fit to the supplied later population. The source suggests using the initial relative rate as k; this contract explicitly selects range midpoints. It is a historical textbook model, not a current demographic forecast.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        649
+      ]
+    }
+  },
+  "calculus-section-9-4-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) initial logistic model",
+          "answer": "P(t)=800/[1+(259/141)e^(−kt)], millions, t years after2000",
+          "options": [
+            "P(t)=800/[1+(259/141)e^(−kt)], millions, t years after2000",
+            "−(P(t)=800/[1+(259/141)e^(−kt)], millions, t years after2000)",
+            "2(P(t)=800/[1+(259/141)e^(−kt)], millions, t years after2000)"
+          ],
+          "explanation": "Use the exact logistic ratio from282million in2000 and309million in2010. Solve800/(1+Ae^(−kt))=500; distinguish the fractional crossing year from the first whole-number year afterward.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) fitted k",
+          "answer": 0.014496532042459435,
+          "unit": "year⁻¹",
+          "tolerance": 5e-07,
+          "explanation": "Use the exact logistic ratio from282million in2000 and309million in2010. Solve800/(1+Ae^(−kt))=500; distinguish the fractional crossing year from the first whole-number year afterward.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) population2100",
+          "answer": 559.0391497651792,
+          "unit": "million",
+          "tolerance": 0.05,
+          "explanation": "Use the exact logistic ratio from282million in2000 and309million in2010. Solve800/(1+Ae^(−kt))=500; distinguish the fractional crossing year from the first whole-number year afterward.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) population2200",
+          "answer": 726.5190314382545,
+          "unit": "million",
+          "tolerance": 0.05,
+          "explanation": "Use the exact logistic ratio from282million in2000 and309million in2010. Solve800/(1+Ae^(−kt))=500; distinguish the fractional crossing year from the first whole-number year afterward.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) continuous threshold year for500million",
+          "answer": 2077.183549266141,
+          "unit": "year",
+          "tolerance": 0.05,
+          "explanation": "Use the exact logistic ratio from282million in2000 and309million in2010. Solve800/(1+Ae^(−kt))=500; distinguish the fractional crossing year from the first whole-number year afterward.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) first integer year above500million",
+          "answer": 2078.0,
+          "unit": "",
+          "tolerance": 2.0780000000000003e-06,
+          "explanation": "Use the exact logistic ratio from282million in2000 and309million in2010. Solve800/(1+Ae^(−kt))=500; distinguish the fractional crossing year from the first whole-number year afterward.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        649
+      ]
+    }
+  },
+  "calculus-section-9-4-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) DE",
+          "answer": "y′=ky(1−y), k>0",
+          "options": [
+            "−(y′=ky(1−y), k>0)",
+            "y′=ky(1−y), k>0",
+            "2(y′=ky(1−y), k>0)"
+          ],
+          "explanation": "Initial fraction.08 givesA=11.5. At noon(t=4), y=.5 sets11.5e^(−4k)=1. For y=.9, the denominator offset is1/9.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) nonconstant solution",
+          "answer": "y=1/(1+Ae^(−kt)); also y=0 andy=1 equilibria",
+          "options": [
+            "y=1/(1+Ae^(−kt)); also y=0 andy=1 equilibria",
+            "−(y=1/(1+Ae^(−kt)); also y=0 andy=1 equilibria)",
+            "2(y=1/(1+Ae^(−kt)); also y=0 andy=1 equilibria)"
+          ],
+          "explanation": "Initial fraction.08 givesA=11.5. At noon(t=4), y=.5 sets11.5e^(−4k)=1. For y=.9, the denominator offset is1/9.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) hours after8am for90%",
+          "answer": 7.5985460633018835,
+          "unit": "hours",
+          "tolerance": 0.005,
+          "explanation": "Initial fraction.08 givesA=11.5. At noon(t=4), y=.5 sets11.5e^(−4k)=1. For y=.9, the denominator offset is1/9.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) decimal clock hour, 24-hour time",
+          "answer": 15.598546063301884,
+          "unit": "hours",
+          "tolerance": 0.005,
+          "explanation": "Initial fraction.08 givesA=11.5. At noon(t=4), y=.5 sets11.5e^(−4k)=1. For y=.9, the denominator offset is1/9.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        649
+      ]
+    }
+  },
+  "calculus-section-9-4-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) fish population",
+          "answer": "P(t)=10000/[1+24(11/36)^t]",
+          "options": [
+            "−(P(t)=10000/[1+24(11/36)^t])",
+            "P(t)=10000/[1+24(11/36)^t]",
+            "2(P(t)=10000/[1+24(11/36)^t])"
+          ],
+          "explanation": "P(0)=400 givesA=24;P(1)=1200 givese^(−k)=11/36. Half capacity is reached when24e^(−kt)=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) time to5000fish",
+          "answer": 2.680491223650534,
+          "unit": "years",
+          "tolerance": 0.0005,
+          "explanation": "P(0)=400 givesA=24;P(1)=1200 givese^(−k)=11/36. Half capacity is reached when24e^(−kt)=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        649
+      ]
+    }
+  },
+  "calculus-section-9-4-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) second derivative",
+          "answer": "P″=k²P(1−P/M)(1−2P/M)",
+          "options": [
+            "P″=k²P(1−P/M)(1−2P/M)",
+            "−(P″=k²P(1−P/M)(1−2P/M))",
+            "2(P″=k²P(1−P/M)(1−2P/M))"
+          ],
+          "explanation": "DifferentiateP′=kP(1−P/M) and substituteP′ again. Equivalently maximize the concave quadratic rate inP.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) fastest-growth population",
+          "answer": "M/2",
+          "options": [
+            "2(M/2)",
+            "M/2",
+            "−(M/2)"
+          ],
+          "explanation": "DifferentiateP′=kP(1−P/M) and substituteP′ again. Equivalently maximize the concave quadratic rate inP.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Maximum positive growth rate",
+          "answer": "kM/4",
+          "options": [
+            "kM/4",
+            "2(kM/4)",
+            "−(kM/4)"
+          ],
+          "explanation": "DifferentiateP′=kP(1−P/M) and substituteP′ again. Equivalently maximize the concave quadratic rate inP.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        649,
+        650
+      ]
+    }
+  },
+  "calculus-section-9-4-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Varying P₀ for fixed M,k",
+          "answer": "Changes the initial height; ordered positive solutions do not cross and all approachM",
+          "options": [
+            "Changes the initial height; ordered positive solutions do not cross and all approachM",
+            "−(Changes the initial height; ordered positive solutions do not cross and all approachM)",
+            "2(Changes the initial height; ordered positive solutions do not cross and all approachM)"
+          ],
+          "explanation": "InP=M/(1+Ae^(−kt)), A=M/P₀−1 controls the initial condition and k multiplies time. ForP₀>M, solutions decrease concave up towardM.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Varying positive k for fixedM,P₀",
+          "answer": "Rescales time: largerk approaches the same equilibrium faster; initial height and carrying capacity stay fixed",
+          "options": [
+            "Rescales time: largerk approaches the same equilibrium faster; initial height and carrying capacity stay fixed",
+            "−(Rescales time: largerk approaches the same equilibrium faster; initial height and carrying capacity stay fixed)",
+            "2(Rescales time: largerk approaches the same equilibrium faster; initial height and carrying capacity stay fixed)"
+          ],
+          "explanation": "InP=M/(1+Ae^(−kt)), A=M/P₀−1 controls the initial condition and k multiplies time. ForP₀>M, solutions decrease concave up towardM.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Concavity for0<P₀<M",
+          "answer": "Changes atP=M/2; an initial value aboveM/2 is already concave down fort≥0",
+          "options": [
+            "−(Changes atP=M/2; an initial value aboveM/2 is already concave down fort≥0)",
+            "Changes atP=M/2; an initial value aboveM/2 is already concave down fort≥0",
+            "2(Changes atP=M/2; an initial value aboveM/2 is already concave down fort≥0)"
+          ],
+          "explanation": "InP=M/(1+Ae^(−kt)), A=M/P₀−1 controls the initial condition and k multiplies time. ForP₀>M, solutions decrease concave up towardM.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        650
+      ]
+    }
+  },
+  "calculus-section-9-4-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Model convention",
+          "answer": "t=years since1960; population units arethousands; unweighted least squares in original population values",
+          "options": [
+            "−(t=years since1960; population units arethousands; unweighted least squares in original population values)",
+            "t=years since1960; population units arethousands; unweighted least squares in original population values",
+            "2(t=years since1960; population units arethousands; unweighted least squares in original population values)"
+          ],
+          "explanation": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Exponential P=94000+a·e^(kt), a",
+          "answer": 10665.27073444566,
+          "unit": "",
+          "tolerance": 10.66527073444566,
+          "explanation": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Exponential P=94000+a·e^(kt), k",
+          "answer": 0.026467905065005754,
+          "unit": "",
+          "tolerance": 2.6467905065005755e-05,
+          "explanation": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Logistic P=94000+L/[1+B·e^(−kt)], L",
+          "answer": 33086.43845698747,
+          "unit": "",
+          "tolerance": 33.086438456987466,
+          "explanation": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Logistic P=94000+L/[1+B·e^(−kt)], B",
+          "answer": 12.342777941070032,
+          "unit": "",
+          "tolerance": 0.012342777941070032,
+          "explanation": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Logistic P=94000+L/[1+B·e^(−kt)], k",
+          "answer": 0.1657320579319559,
+          "unit": "",
+          "tolerance": 0.0001657320579319559,
+          "explanation": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Exponential RMSE",
+          "answer": 5577.9020349569155,
+          "unit": "thousand people",
+          "tolerance": 1,
+          "explanation": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Logistic RMSE",
+          "answer": 990.0073501370507,
+          "unit": "thousand people",
+          "tolerance": 1,
+          "explanation": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Comparison",
+          "answer": "The logistic fit has lower original-scale squared error; neither curve reproduces every measurement or a later decline",
+          "options": [
+            "The logistic fit has lower original-scale squared error; neither curve reproduces every measurement or a later decline",
+            "The exponential fit has lower squared error",
+            "Both models interpolate every observation"
+          ],
+          "explanation": "Apply the source-recommended offset94000 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 9,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        650
+      ]
+    }
+  },
+  "calculus-section-9-4-16": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Model convention",
+          "answer": "t=years since1960; population units arethousands; unweighted least squares in original population values",
+          "options": [
+            "t=years since1960; population units arethousands; unweighted least squares in original population values",
+            "2(t=years since1960; population units arethousands; unweighted least squares in original population values)",
+            "−(t=years since1960; population units arethousands; unweighted least squares in original population values)"
+          ],
+          "explanation": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Exponential P=3500+a·e^(kt), a",
+          "answer": 260.70429663233574,
+          "unit": "",
+          "tolerance": 0.26070429663233574,
+          "explanation": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Exponential P=3500+a·e^(kt), k",
+          "answer": 0.03350900806916395,
+          "unit": "",
+          "tolerance": 3.3509008069163956e-05,
+          "explanation": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Logistic P=3500+L/[1+B·e^(−kt)], L",
+          "answer": 2251.292156154165,
+          "unit": "",
+          "tolerance": 2.251292156154165,
+          "explanation": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Logistic P=3500+L/[1+B·e^(−kt)], B",
+          "answer": 9.52066043903779,
+          "unit": "",
+          "tolerance": 0.00952066043903779,
+          "explanation": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Logistic P=3500+L/[1+B·e^(−kt)], k",
+          "answer": 0.05224007804840749,
+          "unit": "",
+          "tolerance": 5.224007804840749e-05,
+          "explanation": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Exponential RMSE",
+          "answer": 72.44787116670118,
+          "unit": "thousand people",
+          "tolerance": 1,
+          "explanation": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Logistic RMSE",
+          "answer": 63.39326472788668,
+          "unit": "thousand people",
+          "tolerance": 1,
+          "explanation": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Comparison",
+          "answer": "The logistic fit has lower original-scale squared error; neither curve reproduces every measurement or a later decline",
+          "options": [
+            "The exponential fit has lower squared error",
+            "Both models interpolate every observation",
+            "The logistic fit has lower original-scale squared error; neither curve reproduces every measurement or a later decline"
+          ],
+          "explanation": "Apply the source-recommended offset3500 and fit both positive-parameter models by original-scale nonlinear least squares. The complete table is used. Different regression criteria can produce other legitimate coefficients; this contract names its criterion and does not certify freehand graphs or future predictions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 9,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        650
+      ]
+    }
+  },
+  "calculus-section-9-4-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) solution",
+          "answer": "P(t)=m/k+(P₀−m/k)e^(kt)",
+          "options": [
+            "−(P(t)=m/k+(P₀−m/k)e^(kt))",
+            "2(P(t)=m/k+(P₀−m/k)e^(kt))",
+            "P(t)=m/k+(P₀−m/k)e^(kt)"
+          ],
+          "explanation": "SolveP′−kP=−m. The coefficient ofe^(kt) decides the trend. For Ireland,.016·8,000,000−210,000=−82,000people/year.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) exponential expansion",
+          "answer": "m<kP₀",
+          "options": [
+            "m=kP₀",
+            "m<kP₀",
+            "m>kP₀"
+          ],
+          "explanation": "SolveP′−kP=−m. The coefficient ofe^(kt) decides the trend. For Ireland,.016·8,000,000−210,000=−82,000people/year.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) constant population",
+          "answer": "m=kP₀",
+          "options": [
+            "m>kP₀",
+            "m=0 only",
+            "m=kP₀"
+          ],
+          "explanation": "SolveP′−kP=−m. The coefficient ofe^(kt) decides the trend. For Ireland,.016·8,000,000−210,000=−82,000people/year.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) decline",
+          "answer": "m>kP₀; stop the physical model at extinction",
+          "options": [
+            "Every m>0 causes decline",
+            "m<kP₀",
+            "m>kP₀; stop the physical model at extinction"
+          ],
+          "explanation": "SolveP′−kP=−m. The coefficient ofe^(kt) decides the trend. For Ireland,.016·8,000,000−210,000=−82,000people/year.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) Ireland initial rate",
+          "answer": -82000.0,
+          "unit": "people/year",
+          "tolerance": 8.2e-05,
+          "explanation": "SolveP′−kP=−m. The coefficient ofe^(kt) decides the trend. For Ireland,.016·8,000,000−210,000=−82,000people/year.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) trend",
+          "answer": "Declining",
+          "options": [
+            "Expanding",
+            "Declining",
+            "Constant"
+          ],
+          "explanation": "SolveP′−kP=−m. The coefficient ofe^(kt) decides the trend. For Ireland,.016·8,000,000−210,000=−82,000people/year.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        650
+      ]
+    }
+  },
+  "calculus-section-9-4-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) positive IVP solution",
+          "answer": "y(t)=[y₀^(−c)−ckt]^(−1/c), t<T",
+          "options": [
+            "−(y(t)=[y₀^(−c)−ckt]^(−1/c), t<T)",
+            "2(y(t)=[y₀^(−c)−ckt]^(−1/c), t<T)",
+            "y(t)=[y₀^(−c)−ckt]^(−1/c), t<T"
+          ],
+          "explanation": "Separatey^(−1−c)dy=kdt. The denominator reaches0 in finite time. Using y(3)=16,y₀=2,c=.01 eliminatesk and givesT=3/[1−8^(−.01)].",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) doomsday time",
+          "answer": "T=y₀^(−c)/(ck)",
+          "options": [
+            "T=y₀^(−c)/(ck)",
+            "2(T=y₀^(−c)/(ck))",
+            "−(T=y₀^(−c)/(ck))"
+          ],
+          "explanation": "Separatey^(−1−c)dy=kdt. The denominator reaches0 in finite time. Using y(3)=16,y₀=2,c=.01 eliminatesk and givesT=3/[1−8^(−.01)].",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(c) rabbit doomsday, elapsed sinceinitial pair",
+          "answer": 145.77470265528567,
+          "unit": "months",
+          "tolerance": 0.005,
+          "explanation": "Separatey^(−1−c)dy=kdt. The denominator reaches0 in finite time. Using y(3)=16,y₀=2,c=.01 eliminatesk and givesT=3/[1−8^(−.01)].",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        650
+      ]
+    }
+  },
+  "calculus-section-9-4-19": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) interpretation of−15",
+          "answer": "Harvest15fish each week",
+          "options": [
+            "Harvest15fish each week",
+            "A relative mortality rate15%",
+            "A carrying capacity15fish"
+          ],
+          "explanation": "Factor the rate as.00008(P−250)(750−P). Shift by250 to solve a logistic equation with remaining capacity500 andrate.04. The physical population stops at0, before the rational formula reaches its pole.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) slope signs",
+          "answer": "Positive for250<P<750; negative below250 andabove750",
+          "options": [
+            "−(Positive for250<P<750; negative below250 andabove750)",
+            "2(Positive for250<P<750; negative below250 andabove750)",
+            "Positive for250<P<750; negative below250 andabove750"
+          ],
+          "explanation": "Factor the rate as.00008(P−250)(750−P). Shift by250 to solve a logistic equation with remaining capacity500 andrate.04. The physical population stops at0, before the rational formula reaches its pole.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) equilibria",
+          "answer": "P=250 andP=750",
+          "options": [
+            "P=250 andP=750",
+            "−(P=250 andP=750)",
+            "2(P=250 andP=750)"
+          ],
+          "explanation": "Factor the rate as.00008(P−250)(750−P). Shift by250 to solve a logistic equation with remaining capacity500 andrate.04. The physical population stops at0, before the rational formula reaches its pole.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) initial-population outcomes",
+          "answer": "Below250 leads to extinction;250 stays fixed; above250 approaches750",
+          "options": [
+            "2(Below250 leads to extinction;250 stays fixed; above250 approaches750)",
+            "−(Below250 leads to extinction;250 stays fixed; above250 approaches750)",
+            "Below250 leads to extinction;250 stays fixed; above250 approaches750"
+          ],
+          "explanation": "Factor the rate as.00008(P−250)(750−P). Shift by250 to solve a logistic equation with remaining capacity500 andrate.04. The physical population stops at0, before the rational formula reaches its pole.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(e) P(0)=200 solution",
+          "answer": "P(t)=250+500/[1−11e^(−0.04t)], until extinction",
+          "options": [
+            "−(P(t)=250+500/[1−11e^(−0.04t)], until extinction)",
+            "2(P(t)=250+500/[1−11e^(−0.04t)], until extinction)",
+            "P(t)=250+500/[1−11e^(−0.04t)], until extinction"
+          ],
+          "explanation": "Factor the rate as.00008(P−250)(750−P). Shift by250 to solve a logistic equation with remaining capacity500 andrate.04. The physical population stops at0, before the rational formula reaches its pole.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(e) P(0)=300 solution",
+          "answer": "P(t)=250+500/[1+9e^(−0.04t)]",
+          "options": [
+            "2(P(t)=250+500/[1+9e^(−0.04t)])",
+            "−(P(t)=250+500/[1+9e^(−0.04t)])",
+            "P(t)=250+500/[1+9e^(−0.04t)]"
+          ],
+          "explanation": "Factor the rate as.00008(P−250)(750−P). Shift by250 to solve a logistic equation with remaining capacity500 andrate.04. The physical population stops at0, before the rational formula reaches its pole.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(e) extinction time forP₀=200",
+          "answer": 32.48207460325652,
+          "unit": "weeks",
+          "tolerance": 0.005,
+          "explanation": "Factor the rate as.00008(P−250)(750−P). Shift by250 to solve a logistic equation with remaining capacity500 andrate.04. The physical population stops at0, before the rational formula reaches its pole.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        650
+      ]
+    }
+  },
+  "calculus-section-9-4-20": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a,b) equilibrium existence",
+          "answer": "Real equilibria exist forc≤20; physical harvesting meansc≥0",
+          "options": [
+            "Real equilibria exist forc≤20; physical harvesting meansc≥0",
+            "−(Real equilibria exist forc≤20; physical harvesting meansc≥0)",
+            "2(Real equilibria exist forc≤20; physical harvesting meansc≥0)"
+          ],
+          "explanation": "The natural logistic production rate.08P(1−P/1000) has maximum20 atP=500. Above that catch, P′ is strictly negative everywhere; at equality the double equilibrium is stable only from above.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) unavoidable extinction for everypositive initial population",
+          "answer": "c>20",
+          "options": [
+            "c>20",
+            "c<20",
+            "c=0"
+          ],
+          "explanation": "The natural logistic production rate.08P(1−P/1000) has maximum20 atP=500. Above that catch, P′ is strictly negative everywhere; at equality the double equilibrium is stable only from above.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) equilibrium formula",
+          "answer": "P=500±√(250000−12500c)",
+          "options": [
+            "P=500±√(250000−12500c)",
+            "−(P=500±√(250000−12500c))",
+            "2(P=500±√(250000−12500c))"
+          ],
+          "explanation": "The natural logistic production rate.08P(1−P/1000) has maximum20 atP=500. Above that catch, P′ is strictly negative everywhere; at equality the double equilibrium is stable only from above.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(d) mathematical maximum sustainable weekly catch",
+          "answer": 20.0,
+          "unit": "fish/week",
+          "tolerance": 2e-08,
+          "explanation": "The natural logistic production rate.08P(1−P/1000) has maximum20 atP=500. Above that catch, P′ is strictly negative everywhere; at equality the double equilibrium is stable only from above.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) sustainability qualification",
+          "answer": "Atc=20 onlyP₀≥500 survives; below20 requireP₀ above the lower equilibrium, with a margin for disturbances",
+          "options": [
+            "Atc=20 onlyP₀≥500 survives; below20 requireP₀ above the lower equilibrium, with a margin for disturbances",
+            "Any initial population survives wheneverc≤20",
+            "Atc=20 every initial population grows"
+          ],
+          "explanation": "The natural logistic production rate.08P(1−P/1000) has maximum20 atP=500. Above that catch, P′ is strictly negative everywhere; at equality the double equilibrium is stable only from above.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        650,
+        651
+      ]
+    }
+  },
+  "calculus-section-9-4-21": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) sign",
+          "answer": "Increasing form<P<M; decreasing for0<P<m",
+          "options": [
+            "−(Increasing form<P<M; decreasing for0<P<m)",
+            "Increasing form<P<M; decreasing for0<P<m",
+            "2(Increasing form<P<M; decreasing for0<P<m)"
+          ],
+          "explanation": "For positive P, cancelP to obtain(k/M)(P−m)(M−P). Shift bym and solve the resulting logistic equation. Belowm the numerator reaches0 at the displayed finite time; continuing to negative population is physically inadmissible.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) equilibria for specified parameters",
+          "answer": "P=200 andP=1000; P=0 is outside the original expression’s domain",
+          "options": [
+            "P=200 andP=1000; P=0 is outside the original expression’s domain",
+            "−(P=200 andP=1000; P=0 is outside the original expression’s domain)",
+            "2(P=200 andP=1000; P=0 is outside the original expression’s domain)"
+          ],
+          "explanation": "For positive P, cancelP to obtain(k/M)(P−m)(M−P). Shift bym and solve the resulting logistic equation. Belowm the numerator reaches0 at the displayed finite time; continuing to negative population is physically inadmissible.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) trajectories",
+          "answer": "Below200 dies out;200 stays fixed; above200 approaches1000",
+          "options": [
+            "−(Below200 dies out;200 stays fixed; above200 approaches1000)",
+            "2(Below200 dies out;200 stays fixed; above200 approaches1000)",
+            "Below200 dies out;200 stays fixed; above200 approaches1000"
+          ],
+          "explanation": "For positive P, cancelP to obtain(k/M)(P−m)(M−P). Shift bym and solve the resulting logistic equation. Belowm the numerator reaches0 at the displayed finite time; continuing to negative population is physically inadmissible.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) general IVP forP₀≠m",
+          "answer": "P(t)=m+(M−m)/[1+((M−P₀)/(P₀−m))e^(−k(M−m)t/M)]",
+          "options": [
+            "P(t)=m+(M−m)/[1+((M−P₀)/(P₀−m))e^(−k(M−m)t/M)]",
+            "−(P(t)=m+(M−m)/[1+((M−P₀)/(P₀−m))e^(−k(M−m)t/M)])",
+            "2(P(t)=m+(M−m)/[1+((M−P₀)/(P₀−m))e^(−k(M−m)t/M)])"
+          ],
+          "explanation": "For positive P, cancelP to obtain(k/M)(P−m)(M−P). Shift bym and solve the resulting logistic equation. Belowm the numerator reaches0 at the displayed finite time; continuing to negative population is physically inadmissible.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) omitted equilibrium",
+          "answer": "P=m",
+          "options": [
+            "2(P=m)",
+            "P=m",
+            "−(P=m)"
+          ],
+          "explanation": "For positive P, cancelP to obtain(k/M)(P−m)(M−P). Shift bym and solve the resulting logistic equation. Belowm the numerator reaches0 at the displayed finite time; continuing to negative population is physically inadmissible.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) extinction time for0<P₀<m",
+          "answer": "T=M/[k(M−m)]·ln[m(M−P₀)/(M(m−P₀))]",
+          "options": [
+            "−(T=M/[k(M−m)]·ln[m(M−P₀)/(M(m−P₀))])",
+            "T=M/[k(M−m)]·ln[m(M−P₀)/(M(m−P₀))]",
+            "2(T=M/[k(M−m)]·ln[m(M−P₀)/(M(m−P₀))])"
+          ],
+          "explanation": "For positive P, cancelP to obtain(k/M)(P−m)(M−P). Shift bym and solve the resulting logistic equation. Belowm the numerator reaches0 at the displayed finite time; continuing to negative population is physically inadmissible.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        651
+      ]
+    }
+  },
+  "calculus-section-9-4-22": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) positive solution throughP(0)=P₀",
+          "answer": "P(t)=M exp[ln(P₀/M)e^(−ct)]",
+          "options": [
+            "−(P(t)=M exp[ln(P₀/M)e^(−ct)])",
+            "2(P(t)=M exp[ln(P₀/M)e^(−ct)])",
+            "P(t)=M exp[ln(P₀/M)e^(−ct)]"
+          ],
+          "explanation": "Letu=ln(P/M); thenu′=−cu. Differentiate the ratecP ln(M/P) with respect toP to obtainc[ln(M/P)−1], maximized atM/e. The stated limit assumesc>0; c=0 yields constantP₀.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) limit for positivegrowthconstantc",
+          "answer": "M",
+          "options": [
+            "−(M)",
+            "2(M)",
+            "M"
+          ],
+          "explanation": "Letu=ln(P/M); thenu′=−cu. Differentiate the ratecP ln(M/P) with respect toP to obtainc[ln(M/P)−1], maximized atM/e. The stated limit assumesc>0; c=0 yields constantP₀.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) specified Gompertz curve",
+          "answer": "P(t)=1000 exp[−ln10·e^(−0.05t)]",
+          "options": [
+            "−(P(t)=1000 exp[−ln10·e^(−0.05t)])",
+            "P(t)=1000 exp[−ln10·e^(−0.05t)]",
+            "2(P(t)=1000 exp[−ln10·e^(−0.05t)])"
+          ],
+          "explanation": "Letu=ln(P/M); thenu′=−cu. Differentiate the ratecP ln(M/P) with respect toP to obtainc[ln(M/P)−1], maximized atM/e. The stated limit assumesc>0; c=0 yields constantP₀.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) comparison with1000/(1+9e^(−0.08t))",
+          "answer": "Both approach1000 and have an inflection; Gompertz reaches its fastest-growth point sooner, at a lower population",
+          "options": [
+            "Gompertz has no inflection",
+            "They are identical curves",
+            "Both approach1000 and have an inflection; Gompertz reaches its fastest-growth point sooner, at a lower population"
+          ],
+          "explanation": "Letu=ln(P/M); thenu′=−cu. Differentiate the ratecP ln(M/P) with respect toP to obtainc[ln(M/P)−1], maximized atM/e. The stated limit assumesc>0; c=0 yields constantP₀.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) fastest-growth population",
+          "answer": "M/e",
+          "options": [
+            "−(M/e)",
+            "2(M/e)",
+            "M/e"
+          ],
+          "explanation": "Letu=ln(P/M); thenu′=−cu. Differentiate the ratecP ln(M/P) with respect toP to obtainc[ln(M/P)−1], maximized atM/e. The stated limit assumesc>0; c=0 yields constantP₀.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        651
+      ]
+    }
+  },
+  "calculus-section-9-4-23": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) solution",
+          "answer": "P(t)=P₀ exp{(k/r)[sin(rt−φ)+sinφ]}",
+          "options": [
+            "2(P(t)=P₀ exp{(k/r)[sin(rt−φ)+sinφ]})",
+            "P(t)=P₀ exp{(k/r)[sin(rt−φ)+sinφ]}",
+            "−(P(t)=P₀ exp{(k/r)[sin(rt−φ)+sinφ]})"
+          ],
+          "explanation": "Integrate the periodic relative ratekcos(rt−φ). The additive sinφ term is required by the initial condition.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) role of k,r,φ",
+          "answer": "k/r sets log-amplitude; period2π/r; φ shifts the seasonal phase while normalization preservesP(0)=P₀",
+          "options": [
+            "2(k/r sets log-amplitude; period2π/r; φ shifts the seasonal phase while normalization preservesP(0)=P₀)",
+            "−(k/r sets log-amplitude; period2π/r; φ shifts the seasonal phase while normalization preservesP(0)=P₀)",
+            "k/r sets log-amplitude; period2π/r; φ shifts the seasonal phase while normalization preservesP(0)=P₀"
+          ],
+          "explanation": "Integrate the periodic relative ratekcos(rt−φ). The additive sinφ term is required by the initial condition.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) long-term limit forP₀>0",
+          "answer": "No limit: positive periodic oscillations persist",
+          "options": [
+            "∞",
+            "0",
+            "No limit: positive periodic oscillations persist"
+          ],
+          "explanation": "Integrate the periodic relative ratekcos(rt−φ). The additive sinφ term is required by the initial condition.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        651
+      ]
+    }
+  },
+  "calculus-section-9-4-24": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) solution",
+          "answer": "P(t)=P₀ exp{kt/2+[k/(4r)][sin(2rt−2φ)+sin(2φ)]}",
+          "options": [
+            "P(t)=P₀ exp{kt/2+[k/(4r)][sin(2rt−2φ)+sin(2φ)]}",
+            "−(P(t)=P₀ exp{kt/2+[k/(4r)][sin(2rt−2φ)+sin(2φ)]})",
+            "2(P(t)=P₀ exp{kt/2+[k/(4r)][sin(2rt−2φ)+sin(2φ)]})"
+          ],
+          "explanation": "Usecos²u=(1+cos2u)/2. The bounded sinusoidal exponent cannot offset the growingkt/2 term fork>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) behavior",
+          "answer": "ForP₀>0, population is nondecreasing and tends to∞; periodic modulation has periodπ/r around exponential trend e^(kt/2)",
+          "options": [
+            "−(ForP₀>0, population is nondecreasing and tends to∞; periodic modulation has periodπ/r around exponential trend e^(kt/2))",
+            "2(ForP₀>0, population is nondecreasing and tends to∞; periodic modulation has periodπ/r around exponential trend e^(kt/2))",
+            "ForP₀>0, population is nondecreasing and tends to∞; periodic modulation has periodπ/r around exponential trend e^(kt/2)"
+          ],
+          "explanation": "Usecos²u=(1+cos2u)/2. The bounded sinusoidal exponent cannot offset the growingkt/2 term fork>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) parameters",
+          "answer": "k controls average relative growth and log-modulation; r controls seasonal frequency and inverse log-amplitude; φ controls phase",
+          "options": [
+            "k controls average relative growth and log-modulation; r controls seasonal frequency and inverse log-amplitude; φ controls phase",
+            "2(k controls average relative growth and log-modulation; r controls seasonal frequency and inverse log-amplitude; φ controls phase)",
+            "−(k controls average relative growth and log-modulation; r controls seasonal frequency and inverse log-amplitude; φ controls phase)"
+          ],
+          "explanation": "Usecos²u=(1+cos2u)/2. The bounded sinusoidal exponent cannot offset the growingkt/2 term fork>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        651
+      ]
+    }
+  },
+  "calculus-section-9-4-25": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Hyperbolic-tangent form",
+          "answer": "P(t)=(M/2)[1+tanh(k(t−c)/2)], c=lnA/k",
+          "options": [
+            "2(P(t)=(M/2)[1+tanh(k(t−c)/2)], c=lnA/k)",
+            "−(P(t)=(M/2)[1+tanh(k(t−c)/2)], c=lnA/k)",
+            "P(t)=(M/2)[1+tanh(k(t−c)/2)], c=lnA/k"
+          ],
+          "explanation": "Use1+tanhz=2/(1+e^(−2z)). Substitutez=k(t−c)/2 ande^(kc)=A. The logarithm requiresA>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Real-parameter condition",
+          "answer": "A>0, equivalently0<P₀<M; equilibria andP₀>M need separate forms",
+          "options": [
+            "−(A>0, equivalently0<P₀<M; equilibria andP₀>M need separate forms)",
+            "2(A>0, equivalently0<P₀<M; equilibria andP₀>M need separate forms)",
+            "A>0, equivalently0<P₀<M; equilibria andP₀>M need separate forms"
+          ],
+          "explanation": "Use1+tanhz=2/(1+e^(−2z)). Substitutez=k(t−c)/2 ande^(kc)=A. The logarithm requiresA>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        651
+      ]
+    }
+  }
+}

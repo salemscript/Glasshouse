@@ -1,0 +1,165 @@
+{
+  "chapter": 9,
+  "sourceSHA256": "008f8498f03c21bd465de4aba1cc067dadbc8890e6d2f2c5f3093147c533523f",
+  "reviewedPrintedPages": [
+    597,
+    598,
+    599
+  ],
+  "questions": {
+    "calculus-section-9-2-1": "The source equation is y′=xcos(πy). Constant solutions requirecosπy=0. Smoothness gives uniqueness, preventing crossings of equilibria; replacing x by−x preserves each initial solution at0.",
+    "calculus-section-9-2-2": "The printed equation and initial values were visually checked. Odd-integer y are poles of the tangent, so vertical direction marks do not create a differentiable IVP there. For0<y<1 separation gives sin(πy/2)=sin(π/10)e^(πx/2); even integers are genuine equilibria.",
+    "calculus-section-9-2-3": "Slope2−y is independent ofx, positive below2, zero at2 and negative above2.",
+    "calculus-section-9-2-4": "Slopes vanish onx=0 andy=2 and reverse across either line.",
+    "calculus-section-9-2-5": "Zero slopes occur alongy=1−x; slope increases asx ory increases.",
+    "calculus-section-9-2-6": "The field has horizontal segments onx=kπ andy=kπ and alternates sign between them.",
+    "calculus-section-9-2-7": "FieldI corresponds toy′=x(2−y). The initial offset from equilibrium2 is multiplied by the displayed decay factor.",
+    "calculus-section-9-2-8": "FieldIII corresponds toy′=2−y. The initial offset from equilibrium2 is multiplied by the displayed decay factor.",
+    "calculus-section-9-2-9": "The general solution isCe^(x/2); three distinct choices illustrate the field.",
+    "calculus-section-9-2-10": "Solvingy′+y=x+1 givesy=x+Ce^(−x). The derivative vanishes where the right side x−y+1 is0.",
+    "calculus-section-9-2-11": "A particular solution is2x+2; the homogeneous term isCe^x. y(1)=0 givesC=−4/e.",
+    "calculus-section-9-2-12": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+    "calculus-section-9-2-14": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+    "calculus-section-9-2-15": "Evaluate the source right side at the initial point and solveF(x,y)=0 for the horizontal segments. Numerical curve checkpoints use adaptive high-accuracy integration and are checks on the intended sketch, not on freehand linework.",
+    "calculus-section-9-2-13": "Integratey′/y=1+x. The positive IVP solution has its minimum atx=−1.",
+    "calculus-section-9-2-16": "Setu=x+y, so u′=1+cosu andtan(u/2)=x+tan(1/2). The displayed continuous arctangent branch satisfies the initial value and equation.",
+    "calculus-section-9-2-17": "Factory(y²−4). The equilibria±2 are unstable and0 is stable. For|y|>2 the cubic growth leads to finite-time escape, so the forward solution is not defined for arbitrarily large x.",
+    "calculus-section-9-2-18": "Use only the source sign pattern +,−,+,−,+ across its four zeros. Root positions are approximate graphical values; no unprovided analytic f or blow-up time is inferred.",
+    "calculus-section-9-2-19": "Euler givesy_n=(1+h)^n for y′=y. The exact convex curvee^x lies above its forward tangent steps.",
+    "calculus-section-9-2-20": "Read the printed direction segments, advance horizontally by the stated h and vertically by h times the local slope. No analytic differential equation is supplied, so the ordinate checks allow explicit graphical uncertainty.",
+    "calculus-section-9-2-21": "Use each current point(x_n,y_n), starting(1,0), in y_(n+1)=y_n+0.5(y_n−2x_n).",
+    "calculus-section-9-2-22": "Forward Euler uses the source initial y(0)=1 and step0.2. Recompute slope at the OLD point before each update; the answer is the requested Euler estimate, not a higher-order solver value.",
+    "calculus-section-9-2-23": "Forward Euler uses the source initial y(0)=1 and step0.1. Recompute slope at the OLD point before each update; the answer is the requested Euler estimate, not a higher-order solver value.",
+    "calculus-section-9-2-26": "Forward Euler uses the source initial y(0)=1 and step0.01. Recompute slope at the OLD point before each update; the answer is the requested Euler estimate, not a higher-order solver value.",
+    "calculus-section-9-2-24": "Here the source initial value is0, unlike#16. Use y_(n+1)=y_n+hcos(x_n+y_n) for exactly3 or6 steps.",
+    "calculus-section-9-2-25": "Let z=y−2. Euler givesz_(n+1)=(1−3h x_n²)z_n. The exact z=e^(−x³) hasz′=−3x²z and z(0)=1. Signed error is explicitly exact minus approximation.",
+    "calculus-section-9-2-27": "Divide5Q′+20Q=60 by5. Positive slopes below3 and negative slopes above3 drive all solutions to3; Euler multiplies the deficit3−Q by0.6 each step.",
+    "calculus-section-9-2-28": "AtT=70, cooling1°C/min givesk=1/(70−20)=1/50min⁻¹. With h=2, Euler multiplies excess temperature by0.96 five times."
+  },
+  "checks": [
+    {
+      "label": "7 DE residual",
+      "residual": "0"
+    },
+    {
+      "label": "7 initial",
+      "residual": "0"
+    },
+    {
+      "label": "8 DE residual",
+      "residual": "0"
+    },
+    {
+      "label": "8 initial",
+      "residual": "0"
+    },
+    {
+      "label": "9 DE residual",
+      "residual": "0"
+    },
+    {
+      "label": "9 initial",
+      "residual": "0"
+    },
+    {
+      "label": "10 DE residual",
+      "residual": "0"
+    },
+    {
+      "label": "10 initial",
+      "residual": "0"
+    },
+    {
+      "label": "11 DE residual",
+      "residual": "0"
+    },
+    {
+      "label": "11 initial",
+      "residual": "0"
+    },
+    {
+      "label": "13 DE residual",
+      "residual": "0"
+    },
+    {
+      "label": "13 initial",
+      "residual": "0"
+    },
+    {
+      "label": "19 Euler vs geometric progression 2/5",
+      "value": 1.4,
+      "expected": 1.4
+    },
+    {
+      "label": "19 Euler vs geometric progression 1/5",
+      "value": 1.44,
+      "expected": 1.44
+    },
+    {
+      "label": "19 Euler vs geometric progression 1/10",
+      "value": 1.4641,
+      "expected": 1.4641
+    },
+    {
+      "label": "25 Euler vs product 1.0",
+      "value": 3.0,
+      "expected": 3.0
+    },
+    {
+      "label": "25 Euler vs product 0.1",
+      "value": 2.392793913961655,
+      "expected": 2.392793913961655
+    },
+    {
+      "label": "25 Euler vs product 0.01",
+      "value": 2.3701108183257835,
+      "expected": 2.3701108183257835
+    },
+    {
+      "label": "25 Euler vs product 0.001",
+      "value": 2.3681004062479305,
+      "expected": 2.3681004062479305
+    },
+    {
+      "label": "27 affine recurrence",
+      "value": 2.76672,
+      "expected": 2.76672
+    },
+    {
+      "label": "28 affine recurrence",
+      "value": 81.15295232,
+      "expected": 81.15295232
+    },
+    {
+      "label": "12 RK4 vs adaptive -1",
+      "value": 2.059407405342572,
+      "expected": 2.0594074053420814
+    },
+    {
+      "label": "12 RK4 vs adaptive 1",
+      "value": 1.2380351360576773,
+      "expected": 1.2380351360532589
+    },
+    {
+      "label": "14 RK4 vs adaptive -1",
+      "value": 0.45554452608187274,
+      "expected": 0.4555445260819196
+    },
+    {
+      "label": "14 RK4 vs adaptive 1",
+      "value": 0.5571617541192335,
+      "expected": 0.5571617541190516
+    },
+    {
+      "label": "15 RK4 vs adaptive -1",
+      "value": 1.3318715654001676,
+      "expected": 1.3318715653996722
+    },
+    {
+      "label": "15 RK4 vs adaptive 1",
+      "value": 0.9027454711880659,
+      "expected": 0.902745471186692
+    }
+  ],
+  "limits": "Graph, direction-field, full written proof and modeling discussion checks verify selected mathematical conclusions rather than the full original work. Those records are marked complete:false."
+}

@@ -1,0 +1,991 @@
+{
+  "calculus-section-9-1-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "y′",
+          "answer": "2*exp(x)/3 - 2*exp(-2*x)",
+          "options": [
+            "-2*exp(x)/3 + 2*exp(-2*x)",
+            "4*exp(x)/3 - 4*exp(-2*x)",
+            "2*exp(x)/3 - 2*exp(-2*x)"
+          ],
+          "explanation": "Differentiate each exponential and combine like terms; the e^(−2x) terms cancel.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "y′+2y",
+          "answer": "2*exp(x)",
+          "options": [
+            "4*exp(x)",
+            "-2*exp(x)",
+            "2*exp(x)"
+          ],
+          "explanation": "Differentiate each exponential and combine like terms; the e^(−2x) terms cancel.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "dy/dt",
+          "answer": "−cos t+t sin t−1",
+          "options": [
+            "−(−cos t+t sin t−1)",
+            "2(−cos t+t sin t−1)",
+            "−cos t+t sin t−1"
+          ],
+          "explanation": "Apply product rule to−t cos t−t; direct substitution verifies the differential equation and initial value.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "t dy/dt and y+t² sin t",
+          "answer": "Both equal−t cos t+t² sin t−t",
+          "options": [
+            "−(Both equal−t cos t+t² sin t−t)",
+            "Both equal−t cos t+t² sin t−t",
+            "2(Both equal−t cos t+t² sin t−t)"
+          ],
+          "explanation": "Apply product rule to−t cos t−t; direct substitution verifies the differential equation and initial value.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "y(π)",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Apply product rule to−t cos t−t; direct substitution verifies the differential equation and initial value.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) values of r",
+          "answer": "r=1/2 or r=−1",
+          "options": [
+            "r=±1",
+            "r=1/2 or r=−1",
+            "r=1 or r=−1/2"
+          ],
+          "explanation": "The characteristic polynomial2r²+r−1=(2r−1)(r+1) vanishes at both roots. Linearity then makes any linear combination a solution.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) residual2y″+y′−y",
+          "answer": "0 for every choice of constants a,b",
+          "options": [
+            "0 for every choice of constants a,b",
+            "a+b",
+            "Only0 when a=b=0"
+          ],
+          "explanation": "The characteristic polynomial2r²+r−1=(2r−1)(r+1) vanishes at both roots. Linearity then makes any linear combination a solution.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) values of k",
+          "answer": "k=±5/2",
+          "options": [
+            "k=±5",
+            "k=±5/2",
+            "k=±2/5"
+          ],
+          "explanation": "Differentiating sin andcos twice multiplies by−k². The equation4y″=−25y requiresk²=25/4.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) second derivative of the family",
+          "answer": "y″=−(25/4)y",
+          "options": [
+            "2(y″=−(25/4)y)",
+            "y″=−(25/4)y",
+            "−(y″=−(25/4)y)"
+          ],
+          "explanation": "Differentiating sin andcos twice multiplies by−k². The equation4y″=−25y requiresk²=25/4.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) solution?",
+          "answer": "No",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "For(a),(b), y″+y=0. For(c) the result iscosx. For(d), differentiating−xcosx/2 twice gives y″+y=sinx.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) solution?",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "For(a),(b), y″+y=0. For(c) the result iscosx. For(d), differentiating−xcosx/2 twice gives y″+y=sinx.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) solution?",
+          "answer": "No",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "For(a),(b), y″+y=0. For(c) the result iscosx. For(d), differentiating−xcosx/2 twice gives y″+y=sinx.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) solution?",
+          "answer": "Yes",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "For(a),(b), y″+y=0. For(c) the result iscosx. For(d), differentiating−xcosx/2 twice gives y″+y=sinx.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) residualx²y′+xy",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "y′=(1−lnx−C)/x². Initial conditions giveC=2 andC=2−ln2; the source uses real ln x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) dependence on C",
+          "answer": "At each x>0, increasing C raises y byΔC/x",
+          "options": [
+            "At each x>0, increasing C raises y byΔC/x",
+            "Changing C translates every graph by a constant vertical amount",
+            "All values of C give the same graph"
+          ],
+          "explanation": "y′=(1−lnx−C)/x². Initial conditions giveC=2 andC=2−ln2; the source uses real ln x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) y(x)",
+          "answer": "(log(x) + 2)/x",
+          "options": [
+            "(log(x) + 2)/x",
+            "2*(log(x) + 2)/x",
+            "-(log(x) + 2)/x"
+          ],
+          "explanation": "y′=(1−lnx−C)/x². Initial conditions giveC=2 andC=2−ln2; the source uses real ln x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) y(x)",
+          "answer": "(log(x) - log(2) + 2)/x",
+          "options": [
+            "(log(x) - log(2) + 2)/x",
+            "2*(log(x) - log(2) + 2)/x",
+            "-(log(x) - log(2) + 2)/x"
+          ],
+          "explanation": "y′=(1−lnx−C)/x². Initial conditions giveC=2 andC=2−ln2; the source uses real ln x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Domain",
+          "answer": "x>0",
+          "options": [
+            "x>0",
+            "x≠0 with the displayed real logarithm",
+            "All real x"
+          ],
+          "explanation": "y′=(1−lnx−C)/x². Initial conditions giveC=2 andC=2−ln2; the source uses real ln x.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) monotonicity",
+          "answer": "Every solution is nonincreasing; a nonzero solution has negative slope",
+          "options": [
+            "Every solution is constant",
+            "Every solution is nonincreasing; a nonzero solution has negative slope",
+            "Every solution increases"
+          ],
+          "explanation": "The right side−y² is nonpositive. The reciprocal family excludes the equilibrium0; y(0)=1/2 givesC=2, with pole at−2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) derivative",
+          "answer": "−1/(x+C)²=−y²",
+          "options": [
+            "2(−1/(x+C)²=−y²)",
+            "−1/(x+C)²=−y²",
+            "−(−1/(x+C)²=−y²)"
+          ],
+          "explanation": "The right side−y² is nonpositive. The reciprocal family excludes the equilibrium0; y(0)=1/2 givesC=2, with pole at−2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) additional solution",
+          "answer": "y=0",
+          "options": [
+            "y=0",
+            "y=x",
+            "y=1"
+          ],
+          "explanation": "The right side−y² is nonpositive. The reciprocal family excludes the equilibrium0; y(0)=1/2 givesC=2, with pole at−2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) IVP solution",
+          "answer": "1/(x + 2)",
+          "options": [
+            "1/(x + 2)",
+            "-1/(x + 2)",
+            "2/(x + 2)"
+          ],
+          "explanation": "The right side−y² is nonpositive. The reciprocal family excludes the equilibrium0; y(0)=1/2 givesC=2, with pole at−2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) maximal interval containing0",
+          "answer": "(−2,∞)",
+          "options": [
+            "All real x",
+            "(−∞,−2)",
+            "(−2,∞)"
+          ],
+          "explanation": "The right side−y² is nonpositive. The reciprocal family excludes the equilibrium0; y(0)=1/2 givesC=2, with pole at−2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) near x=0 for finite y",
+          "answer": "Slopes are near horizontal because y′=xy³",
+          "options": [
+            "Every solution has slope1 at0",
+            "Slopes are near horizontal because y′=xy³",
+            "Every solution becomes vertical at0"
+          ],
+          "explanation": "The productxy³ controls slope. The displayed positive family needs c−x²>0. Applying y(0)=2 givesc=1/4. The equilibrium y=0 illustrates why large x alone does not force a large slope.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) large |x|",
+          "answer": "The slope magnitude is|x||y|³; large|x| alone does not ensure steepness if y is small",
+          "options": [
+            "Every solution must become steep even if y=0",
+            "The slope depends only on x",
+            "The slope magnitude is|x||y|³; large|x| alone does not ensure steepness if y is small"
+          ],
+          "explanation": "The productxy³ controls slope. The displayed positive family needs c−x²>0. Applying y(0)=2 givesc=1/4. The equilibrium y=0 illustrates why large x alone does not force a large slope.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) derivative of(c−x²)^(−1/2)",
+          "answer": "x(c−x²)^(−3/2)=xy³",
+          "options": [
+            "−(x(c−x²)^(−3/2)=xy³)",
+            "x(c−x²)^(−3/2)=xy³",
+            "2(x(c−x²)^(−3/2)=xy³)"
+          ],
+          "explanation": "The productxy³ controls slope. The displayed positive family needs c−x²>0. Applying y(0)=2 givesc=1/4. The equilibrium y=0 illustrates why large x alone does not force a large slope.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) positive-family shape",
+          "answer": "Symmetric about x=0, decreasing for x<0 and increasing for x>0 within|x|<√c",
+          "options": [
+            "Symmetric about x=0, decreasing for x<0 and increasing for x>0 within|x|<√c",
+            "Constant for every c",
+            "Increasing everywhere"
+          ],
+          "explanation": "The productxy³ controls slope. The displayed positive family needs c−x²>0. Applying y(0)=2 givesc=1/4. The equilibrium y=0 illustrates why large x alone does not force a large slope.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) IVP solution",
+          "answer": "2/sqrt(1 - 4*x^2)",
+          "options": [
+            "4/sqrt(1 - 4*x^2)",
+            "-2/sqrt(1 - 4*x^2)",
+            "2/sqrt(1 - 4*x^2)"
+          ],
+          "explanation": "The productxy³ controls slope. The displayed positive family needs c−x²>0. Applying y(0)=2 givesc=1/4. The equilibrium y=0 illustrates why large x alone does not force a large slope.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) interval",
+          "answer": "(−1/2,1/2)",
+          "options": [
+            "(−2,2)",
+            "All real x",
+            "(−1/2,1/2)"
+          ],
+          "explanation": "The productxy³ controls slope. The displayed positive family needs c−x²>0. Applying y(0)=2 givesc=1/4. The equilibrium y=0 illustrates why large x alone does not force a large slope.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) increasing, physical P≥0",
+          "answer": "0<P<4200",
+          "options": [
+            "All P>0",
+            "P>4200",
+            "0<P<4200"
+          ],
+          "explanation": "Factor1.2P(1−P/4200) and use the physically meaningful nonnegative population domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) decreasing, physical P≥0",
+          "answer": "P>4200",
+          "options": [
+            "0<P<4200",
+            "P=0",
+            "P>4200"
+          ],
+          "explanation": "Factor1.2P(1−P/4200) and use the physically meaningful nonnegative population domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) equilibria",
+          "answer": "P=0 andP=4200",
+          "options": [
+            "OnlyP=4200",
+            "P=1.2",
+            "P=0 andP=4200"
+          ],
+          "explanation": "Factor1.2P(1−P/4200) and use the physically meaningful nonnegative population domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) equilibria",
+          "answer": "v=0,a,1",
+          "options": [
+            "v=0,1+a",
+            "v=a only",
+            "v=0,a,1"
+          ],
+          "explanation": "The equation isv′=−v(v−a)(v−1), with0<a<1. Sign changes at the three simple roots determine all intervals.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) increasing",
+          "answer": "v<0 or a<v<1",
+          "options": [
+            "v>0",
+            "v<0 or a<v<1",
+            "0<v<a or v>1"
+          ],
+          "explanation": "The equation isv′=−v(v−a)(v−1), with0<a<1. Sign changes at the three simple roots determine all intervals.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) decreasing",
+          "answer": "0<v<a or v>1",
+          "options": [
+            "v<0 or a<v<1",
+            "v<0",
+            "0<v<a or v>1"
+          ],
+          "explanation": "The equation isv′=−v(v−a)(v−1), with0<a<1. Sign changes at the three simple roots determine all intervals.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621
+      ]
+    }
+  },
+  "calculus-section-9-1-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) obstruction",
+          "answer": "The graph has a decreasing segment, bute^t(y−1)²≥0",
+          "options": [
+            "Every solution must decrease",
+            "The graph has a decreasing segment, bute^t(y−1)²≥0",
+            "The graph must pass through the origin"
+          ],
+          "explanation": "The source graph(a) descends after its local maximum. Graph(b) crosses y=1 without a horizontal tangent, violating the zero right side there.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) obstruction",
+          "answer": "At y=1 the slope must be0; the shown curve crosses with positive slope",
+          "options": [
+            "No solution can be positive",
+            "At y=1 the slope must be0; the shown curve crosses with positive slope",
+            "At y=1 the slope must be1"
+          ],
+          "explanation": "The source graph(a) descends after its local maximum. Graph(b) crosses y=1 without a horizontal tangent, violating the zero right side there.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        621,
+        622
+      ]
+    }
+  },
+  "calculus-section-9-1-12": {
+    "grader": {
+      "type": "choice",
+      "label": "Correct equation",
+      "answer": "C: y′=1−2xy",
+      "options": [
+        "C: y′=1−2xy",
+        "A: y′=1+xy",
+        "B: y′=−2xy"
+      ],
+      "explanation": "The source curve has positive slope atx=0, ruling outB, and decreases for positive x whiley>0, ruling outA.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        622
+      ]
+    }
+  },
+  "calculus-section-9-1-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) matching graph",
+          "answer": "III",
+          "options": [
+            "II",
+            "IV",
+            "III",
+            "I"
+          ],
+          "explanation": "(a) slope≥1 and increases with distance from the origin;(b) slope has the sign ofx and vanishes at0;(c) slope is positive≤1/2 and flattens away from the origin;(d) has equilibriumy=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) matching graph",
+          "answer": "I",
+          "options": [
+            "III",
+            "I",
+            "IV",
+            "II"
+          ],
+          "explanation": "(a) slope≥1 and increases with distance from the origin;(b) slope has the sign ofx and vanishes at0;(c) slope is positive≤1/2 and flattens away from the origin;(d) has equilibriumy=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) matching graph",
+          "answer": "IV",
+          "options": [
+            "III",
+            "IV",
+            "II",
+            "I"
+          ],
+          "explanation": "(a) slope≥1 and increases with distance from the origin;(b) slope has the sign ofx and vanishes at0;(c) slope is positive≤1/2 and flattens away from the origin;(d) has equilibriumy=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(d) matching graph",
+          "answer": "II",
+          "options": [
+            "II",
+            "IV",
+            "III",
+            "I"
+          ],
+          "explanation": "(a) slope≥1 and increases with distance from the origin;(b) slope has the sign ofx and vanishes at0;(c) slope is positive≤1/2 and flattens away from the origin;(d) has equilibriumy=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        622
+      ]
+    }
+  },
+  "calculus-section-9-1-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) cooling rate",
+          "answer": "Fastest initially; its magnitude falls as temperature approaches20°C",
+          "options": [
+            "Fastest initially; its magnitude falls as temperature approaches20°C",
+            "Slow initially and faster later",
+            "Constant rate until20°C"
+          ],
+          "explanation": "Cooling is proportional to excess temperature and points toward ambient20°C. The model predicts the stated trend, with the source caveat that proportionality is approximate for moderate temperature differences.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) model",
+          "answer": "T′=−k(T−20), k>0",
+          "options": [
+            "2(T′=−k(T−20), k>0)",
+            "−(T′=−k(T−20), k>0)",
+            "T′=−k(T−20), k>0"
+          ],
+          "explanation": "Cooling is proportional to excess temperature and points toward ambient20°C. The model predicts the stated trend, with the source caveat that proportionality is approximate for moderate temperature differences.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "(b) initial temperature",
+          "answer": 95.0,
+          "unit": "°C",
+          "tolerance": 9.5e-08,
+          "explanation": "Cooling is proportional to excess temperature and points toward ambient20°C. The model predicts the stated trend, with the source caveat that proportionality is approximate for moderate temperature differences.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) solution shape",
+          "answer": "T=20+75e^(−kt): decreasing, concave up, approaching20°C",
+          "options": [
+            "T=20+75e^(−kt): decreasing, concave up, approaching20°C",
+            "T=95−75kt for every t",
+            "T=20−75e^(−kt)"
+          ],
+          "explanation": "Cooling is proportional to excess temperature and points toward ambient20°C. The model predicts the stated trend, with the source caveat that proportionality is approximate for moderate temperature differences.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        622
+      ]
+    }
+  },
+  "calculus-section-9-1-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) rate trend for P(0)<M",
+          "answer": "Largest initially and decreases toward0",
+          "options": [
+            "Largest initially and decreases toward0",
+            "Always equals0",
+            "Always increases"
+          ],
+          "explanation": "For k>0 andP(0)<M, the solution increases concave down towardM, so the learning rate k(M−P) shrinks.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) interpretation",
+          "answer": "Improvement is proportional to the remaining gap M−P",
+          "options": [
+            "Improvement is proportional to the remaining gap M−P",
+            "The learner exceeds M in finite time",
+            "Improvement is proportional to P alone"
+          ],
+          "explanation": "For k>0 andP(0)<M, the solution increases concave down towardM, so the learning rate k(M−P) shrinks.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) solution",
+          "answer": "P(t)=M−[M−P(0)]e^(−kt)",
+          "options": [
+            "−(P(t)=M−[M−P(0)]e^(−kt))",
+            "P(t)=M−[M−P(0)]e^(−kt)",
+            "2(P(t)=M−[M−P(0)]e^(−kt))"
+          ],
+          "explanation": "For k>0 andP(0)<M, the solution increases concave down towardM, so the learning rate k(M−P) shrinks.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        622
+      ]
+    }
+  },
+  "calculus-section-9-1-16": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) differential equation",
+          "answer": "L′=k(L∞−L), k>0",
+          "options": [
+            "2(L′=k(L∞−L), k>0)",
+            "−(L′=k(L∞−L), k>0)",
+            "L′=k(L∞−L), k>0"
+          ],
+          "explanation": "The rate is proportional to the remaining length deficit; solve the linear equation and apply the initial length.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) typical solution forL(0)<L∞",
+          "answer": "L(t)=L∞−[L∞−L(0)]e^(−kt), increasing and concave down",
+          "options": [
+            "L(t)=L∞−[L∞−L(0)]e^(−kt), increasing and concave down",
+            "2(L(t)=L∞−[L∞−L(0)]e^(−kt), increasing and concave down)",
+            "−(L(t)=L∞−[L∞−L(0)]e^(−kt), increasing and concave down)"
+          ],
+          "explanation": "The rate is proportional to the remaining length deficit; solve the linear equation and apply the initial length.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        622
+      ]
+    }
+  },
+  "calculus-section-9-1-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Derivative of proposed concentration",
+          "answer": "c′(t)=k c_s t^(−b)e^(−αt^(1−b))",
+          "options": [
+            "c′(t)=k c_s t^(−b)e^(−αt^(1−b))",
+            "−(c′(t)=k c_s t^(−b)e^(−αt^(1−b)))",
+            "2(c′(t)=k c_s t^(−b)e^(−αt^(1−b)))"
+          ],
+          "explanation": "Chain rule gives the derivative withα(1−b)=k. Also c_s−c=c_s e^(−αt^(1−b)), so the right side matches. Both positive factors t^(−b) andthe exponential decrease fort>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Dissolution trend",
+          "answer": "Concentration increases from0 towardc_s; its rate decreases for t>0",
+          "options": [
+            "The rate remains constant",
+            "Concentration decreases toward0",
+            "Concentration increases from0 towardc_s; its rate decreases for t>0"
+          ],
+          "explanation": "Chain rule gives the derivative withα(1−b)=k. Also c_s−c=c_s e^(−αt^(1−b)), so the right side matches. Both positive factors t^(−b) andthe exponential decrease fort>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Parameter identity",
+          "answer": "α(1−b)=k",
+          "options": [
+            "2(α(1−b)=k)",
+            "−(α(1−b)=k)",
+            "α(1−b)=k"
+          ],
+          "explanation": "Chain rule gives the derivative withα(1−b)=k. Also c_s−c=c_s e^(−αt^(1−b)), so the right side matches. Both positive factors t^(−b) andthe exponential decrease fort>0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 9,
+      "pages": [
+        622
+      ]
+    }
+  }
+}

@@ -2,7 +2,7 @@
 'use strict';
 window.LabProblemContext=(()=>{
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- const route=/^(calculus|physics|organic|chemistry|statics|dynamics)\/problems\/([a-zA-Z0-9.-]+)$/,sourceFile=/^practice\/(?:calculus|physics|chemistry|organic|organic-body)\/\d+\.svg\.gz$/;
+ const route=/^(calculus|physics|organic|chemistry|statics|dynamics)\/problems\/([\p{L}\p{M}\p{N}.-]+)$/u,sourceFile=/^practice\/(?:calculus|physics|chemistry|organic|organic-body)\/\d+\.svg\.gz$/;
  const urls=new Set();let generation=0;
  const revoke=url=>{URL.revokeObjectURL(url);urls.delete(url)};
  function unmount(){generation++;for(const url of urls)URL.revokeObjectURL(url);urls.clear()}

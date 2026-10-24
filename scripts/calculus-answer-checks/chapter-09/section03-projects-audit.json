@@ -1,0 +1,73 @@
+{
+  "chapter": 9,
+  "sourceSHA256": "008f8498f03c21bd465de4aba1cc067dadbc8890e6d2f2c5f3093147c533523f",
+  "reviewedPrintedPages": [
+    608,
+    609,
+    610
+  ],
+  "questions": {
+    "calculus-section-9-3-1-project-applied-project-how-fast-does-a-tank-drain-1": "The hole radius is1/12ft, areaπ/144; tank cross-section4π. Torricelli flow is−(π/144)√(64h), givingh′=−√h/72. Stop the squared formula when√h reaches0; do not extend it into a refilling branch.",
+    "calculus-section-9-3-2-project-applied-project-how-fast-does-a-tank-drain-1": "Integrateh′=k√h to√h=√10+kt/2, and useh(68)=3 to fit negativek. The physical demonstration cannot be graded without the student’s observations.",
+    "calculus-section-9-3-3-project-applied-project-how-fast-does-a-tank-drain-1": "Outlet diameter2.5in gives radius5/48ft. Tank area100πft²; Torricelli gives√h(t)=√H−t/2304. Requireh(600)≥2160/62.5=34.56ft and choose equality for the minimum.",
+    "calculus-section-9-3-4-project-applied-project-how-fast-does-a-tank-drain-1": "Horizontal sections of the radius2m sphere have areaπ(4h−h²). Half full meansh(0)=2m. Divide volume outflow through areaπ(0.01)² by this section, and integrate dt=(4h−h²)dh/[0.0001√(20h)] from0 to2.",
+    "calculus-section-9-3-1-project-applied-project-which-is-faster-going-up-or-coming-down-2": "DivideNewton’s equation bym. The deviationv+mg/p decays at ratep/m, and the initial condition fixes its coefficient.",
+    "calculus-section-9-3-2-project-applied-project-which-is-faster-going-up-or-coming-down-2": "Integrate velocity from0 to t and use ground-level launchy(0)=0. The formula applies until the return to ground.",
+    "calculus-section-9-3-3-project-applied-project-which-is-faster-going-up-or-coming-down-2": "At maximum heightv=0. Solve the exponential equation; the numerical check explicitly usesg=9.8m/s².",
+    "calculus-section-9-3-4-project-applied-project-which-is-faster-going-up-or-coming-down-2": "Find the nonzero positive root of1180(1−e^(−t/10))−98t=0. Compare the return-minus-ascent time with the ascent duration.",
+    "calculus-section-9-3-5-project-applied-project-which-is-faster-going-up-or-coming-down-2": "f(1)=0 andf′>0 onx>1 implyf(x)>0. Thus the ball is still above ground after twice the ascent time."
+  },
+  "checks": [
+    {
+      "label": "Tank1 Torricelli coefficient",
+      "residual": "0"
+    },
+    {
+      "label": "Tank2 observed terminal depth",
+      "residual": "0"
+    },
+    {
+      "label": "Tank3 outlet coefficient",
+      "residual": "0"
+    },
+    {
+      "label": "Tank3 pressure at600",
+      "residual": "0"
+    },
+    {
+      "label": "Tank4 independent quadrature",
+      "value": 11805.83659796195,
+      "expected": 11805.83659796195
+    },
+    {
+      "label": "Ball velocity DE",
+      "residual": "0"
+    },
+    {
+      "label": "Ball initial velocity",
+      "residual": "0"
+    },
+    {
+      "label": "Ball height derivative",
+      "residual": "0"
+    },
+    {
+      "label": "Ball height initial",
+      "residual": "0"
+    },
+    {
+      "label": "Ball ascent zero",
+      "residual": "0"
+    },
+    {
+      "label": "Ball nonzero root",
+      "value": 6.842277657836021e-49,
+      "expected": 0.0
+    },
+    {
+      "label": "Ball comparison derivative",
+      "residual": "0"
+    }
+  ],
+  "limits": "Graph, direction-field, full written proof and modeling discussion checks verify selected mathematical conclusions rather than the full original work. Those records are marked complete:false."
+}

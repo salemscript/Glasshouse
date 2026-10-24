@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "reviewer": "independent chapter-11 agent",
+  "mode": "read-only source/answer review; only this audit written",
+  "source": "site/books/calculus/chapter-09.pdf",
+  "sourceSHA256": "008f8498f03c21bd465de4aba1cc067dadbc8890e6d2f2c5f3093147c533523f",
+  "sourcePrintedPages": [
+    590,
+    591,
+    597,
+    598,
+    631,
+    632,
+    633
+  ],
+  "reviewed": {
+    "9.1": [
+      11,
+      12,
+      13
+    ],
+    "9.2": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "9.6": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "taskCount": 33,
+  "actualMismatches": [],
+  "checks": [
+    {
+      "items": "9.1#11–13",
+      "findings": "The decreasing segment in11(a) violates nonnegative derivative;11(b) crosses y=1 without horizontal tangent.12 is C.13 matching III,I,IV,II agrees with source figures and right-side signs."
+    },
+    {
+      "items": "9.2#1–2",
+      "findings": "Reviewed printed equations and all eight initial conditions. For x cos(πy), equilibrium half-integers and even solution shapes agree. The source tangent equation genuinely assigns odd-integer initial heights in2(a-i,iv), where the right side is undefined; the no-classical-solution contracts correctly expose the source singularity rather than inventing a differentiable curve."
+    },
+    {
+      "items": "9.2#3–8",
+      "findings": "Field matches III,I,IV,II are correct. Fields I andIII give decay factors exp(−x²/2) andexp(−x), respectively; all stated initial values match."
+    },
+    {
+      "items": "9.2#9–16",
+      "findings": "Explicit curves and initial conditions agree with source equations. Nullclines12:x=0 ory=x;14:x=−y²;15:y=0 ory=2x² are correct.16 substitution u=x+y gives tan(u/2)=x+tan(1/2), with correct continuous branch."
+    },
+    {
+      "items": "9.2#17–18",
+      "findings": "Cubic17 has stable0, unstable±2, and finite forward escape for|c|>2.18 graph signs +,−,+,−,+ and all equilibrium-basin statements agree; approximate root labels avoid claiming unavailable exact values."
+    },
+    {
+      "items": "9.6#1–4",
+      "findings": "Predator/prey labels, restriction signs and equilibria agree. The unusual0.08x in2(a) is actually printed. Proposed three-species system4 correctly follows every absence/growth assumption."
+    },
+    {
+      "items": "9.6#5–8",
+      "findings": "Phase directions and predator lag5/7 agree with arrows/time curves.6 starts at upper endpoint, moves down-left, then right/down, then up/right, then up/left.8 starts approximately(800,700) and approaches(1200,200), with species2 minimum preceding species1 maximum. No invented exact periods or long-time outcome for the finite open sketch6."
+    },
+    {
+      "items": "9.6#9–12",
+      "findings": "Conserved quantity9, constant at(1000,40), phase orientation, nullclines and equilibria verified directly. Logistic equilibria11:(1000,64),12:(5000,100) agree with source spiral.12 Jacobian trace−1 determinant1/2 yields stable focus; initial derivatives−200,−80 are correct."
+    }
+  ],
+  "limitations": "This bounded audit checks source-sensitive figures and requested answer semantics, not graphical-drawing grading, unrelated questions, or every numerical integration checkpoint. Graph/drawing tasks remain limited-scope."
+}

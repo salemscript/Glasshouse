@@ -1,0 +1,2583 @@
+{
+  "calculus-chapter-12-review-1-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Distinction",
+      "answer": "A scalar has magnitude alone; a vector has magnitude and direction",
+      "options": [
+        "Both have only magnitude",
+        "A scalar has magnitude alone; a vector has magnitude and direction",
+        "Only scalars have direction"
+      ],
+      "selectionPrompt": "Choose the correct Distinction.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The zero vector has zero magnitude and no distinguished direction.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-2-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Geometric addition",
+          "answer": "Head-to-tail triangle rule or parallelogram diagonal",
+          "options": [
+            "Head-to-tail triangle rule or parallelogram diagonal",
+            "Multiply the arrow lengths",
+            "Always subtract directions"
+          ],
+          "selectionPrompt": "Choose the correct Geometric addition.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Vector displacement combines componentwise and by successive arrows."
+        },
+        {
+          "type": "choice",
+          "label": "Algebraic addition",
+          "answer": "Add corresponding components",
+          "options": [
+            "Add only magnitudes",
+            "Add corresponding components",
+            "Multiply corresponding components"
+          ],
+          "selectionPrompt": "Choose the correct Algebraic addition.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Vector displacement combines componentwise and by successive arrows."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-3-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Geometric scaling",
+          "answer": "Length scales by|c|; direction is preserved ifc>0 and reversed ifc<0; c=0 gives zero",
+          "options": [
+            "Length scales by|c|; direction is preserved ifc>0 and reversed ifc<0; c=0 gives zero",
+            "Negative c leaves direction unchanged",
+            "Length always scales by c without absolute value"
+          ],
+          "selectionPrompt": "Choose the correct Geometric scaling.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Scalar multiplication distributes to each coordinate."
+        },
+        {
+          "type": "choice",
+          "label": "Components",
+          "answer": "ca=(ca₁,ca₂,ca₃)",
+          "options": [
+            "ca=(ca₁,ca₂,ca₃)",
+            "ca=(c,c,c)",
+            "ca=(a₁+c,a₂+c,a₃+c)"
+          ],
+          "selectionPrompt": "Choose the correct Components.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Scalar multiplication distributes to each coordinate."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-4-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Displacement P to Q",
+      "answer": "Q−P",
+      "options": [
+        "P+Q",
+        "P−Q",
+        "Q−P"
+      ],
+      "selectionPrompt": "Choose the correct Displacement P to Q.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Terminal minus initial coordinates gives the directed displacement.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-5-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Lengths and angle",
+          "answer": "a·b=|a||b|cosθ",
+          "options": [
+            "a·b=|a||b|cosθ",
+            "a·b=|a||b|sinθ",
+            "a·b=|a|+|b|"
+          ],
+          "selectionPrompt": "Choose the correct Lengths and angle.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The dot product is scalar and records the parallel component."
+        },
+        {
+          "type": "choice",
+          "label": "Components",
+          "answer": "a·b=Σaᵢbᵢ",
+          "options": [
+            "a·b=Σaᵢbᵢ",
+            "a·b=(a₁b₁,a₂b₂,a₃b₃)",
+            "a·b=Σ(aᵢ+bᵢ)"
+          ],
+          "selectionPrompt": "Choose the correct Components.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The dot product is scalar and records the parallel component."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-6-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Uses",
+      "answer": "Angles, orthogonality, scalar/vector projections, and work",
+      "options": [
+        "Angles, orthogonality, scalar/vector projections, and work",
+        "Only adding forces",
+        "A vector perpendicular to two vectors directly"
+      ],
+      "selectionPrompt": "Choose the correct Uses.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The cosine formula and projection formula supply these applications.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-7-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Scalar projection",
+          "answer": "compₐb=(a·b)/|a|",
+          "options": [
+            "compₐb=(a·b)/|b|",
+            "compₐb=|a×b|",
+            "compₐb=(a·b)/|a|"
+          ],
+          "selectionPrompt": "Choose the correct Scalar projection.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For nonzero a the vector projection is the signed scalar projection times a/|a|. It lies along a and the residual is perpendicular to a."
+        },
+        {
+          "type": "choice",
+          "label": "Vector projection",
+          "answer": "projₐb=(a·b)a/|a|²",
+          "options": [
+            "projₐb=a+b",
+            "projₐb=(a·b)b/|b|²",
+            "projₐb=(a·b)a/|a|²"
+          ],
+          "selectionPrompt": "Choose the correct Vector projection.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For nonzero a the vector projection is the signed scalar projection times a/|a|. It lies along a and the residual is perpendicular to a."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-8-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Magnitude and direction",
+          "answer": "|a×b|=|a||b|sinθ, perpendicular to both by the right-hand rule",
+          "options": [
+            "Magnitude uses cosθ and direction is parallel to a",
+            "|a×b|=|a||b|sinθ, perpendicular to both by the right-hand rule",
+            "Always the zero vector"
+          ],
+          "selectionPrompt": "Choose the correct Magnitude and direction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The cyclic component formula fixes the right-hand orientation."
+        },
+        {
+          "type": "choice",
+          "label": "Components",
+          "answer": "(a₂b₃−a₃b₂,a₃b₁−a₁b₃,a₁b₂−a₂b₁)",
+          "options": [
+            "(a₂b₃−a₃b₂,a₃b₁−a₁b₃,a₁b₂−a₂b₁)",
+            "(a₂b₃+a₃b₂,a₃b₁+a₁b₃,a₁b₂+a₂b₁)",
+            "(a₁b₁,a₂b₂,a₃b₃)"
+          ],
+          "selectionPrompt": "Choose the correct Components.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The cyclic component formula fixes the right-hand orientation."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-9-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Uses",
+      "answer": "Normals, areas, torque, and scalar-triple-product volume",
+      "options": [
+        "Normals, areas, torque, and scalar-triple-product volume",
+        "Scalar work directly",
+        "Adding vector lengths"
+      ],
+      "selectionPrompt": "Choose the correct Uses.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Cross products encode oriented area and perpendicular directions.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-10-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Parallelogram area",
+          "answer": "|a×b|",
+          "options": [
+            "a·b",
+            "|a|+|b|",
+            "|a×b|"
+          ],
+          "selectionPrompt": "Choose the correct (a) Parallelogram area.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Area is base times perpendicular height; volume is base area times perpendicular third-edge height."
+        },
+        {
+          "type": "choice",
+          "label": "(b) Parallelepiped volume",
+          "answer": "|a·(b×c)|",
+          "options": [
+            "|a·(b×c)|",
+            "|a×b|+|c|",
+            "a·b·c"
+          ],
+          "selectionPrompt": "Choose the correct (b) Parallelepiped volume.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Area is base times perpendicular height; volume is base area times perpendicular third-edge height."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-11-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Plane normal",
+      "answer": "Cross two nonparallel vectors in the plane, or read(a,b,c) from ax+by+cz=d",
+      "options": [
+        "Choose any vector in the plane",
+        "Cross two nonparallel vectors in the plane, or read(a,b,c) from ax+by+cz=d",
+        "Add any two plane points"
+      ],
+      "selectionPrompt": "Choose the correct Plane normal.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "A normal is perpendicular to all tangent directions.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-12-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Acute plane angle",
+      "answer": "arccos(|n₁·n₂|/(|n₁||n₂|))",
+      "options": [
+        "arccos(|n₁·n₂|/(|n₁||n₂|))",
+        "arcsin((n₁·n₂)/(|n₁||n₂|))",
+        "The angle between any two points"
+      ],
+      "selectionPrompt": "Choose the correct Acute plane angle.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The smaller angle between the normals equals the acute plane angle.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-13-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Vector equation",
+          "answer": "r=r₀+tv, v≠0",
+          "options": [
+            "r=r₀+t",
+            "r=r₀+tv, v≠0",
+            "r·v=0"
+          ],
+          "selectionPrompt": "Choose the correct Vector equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Eliminate the common parameter only for nonzero direction components."
+        },
+        {
+          "type": "choice",
+          "label": "Parametric equations",
+          "answer": "x=x₀+tv₁, y=y₀+tv₂, z=z₀+tv₃",
+          "options": [
+            "x=x₀, y=y₀, z=z₀ only",
+            "x=x₀+tv₁, y=y₀+tv₂, z=z₀+tv₃",
+            "x=y=z=0"
+          ],
+          "selectionPrompt": "Choose the correct Parametric equations.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Eliminate the common parameter only for nonzero direction components."
+        },
+        {
+          "type": "choice",
+          "label": "Symmetric equations",
+          "answer": "(x−x₀)/v₁=(y−y₀)/v₂=(z−z₀)/v₃; ifvᵢ=0 replace that ratio by its fixed-coordinate equation",
+          "options": [
+            "x−x₀=y−y₀=z−z₀ for every line",
+            "(x−x₀)/v₁=(y−y₀)/v₂=(z−z₀)/v₃; ifvᵢ=0 replace that ratio by its fixed-coordinate equation",
+            "x/v₁+y/v₂+z/v₃=1"
+          ],
+          "selectionPrompt": "Choose the correct Symmetric equations.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Eliminate the common parameter only for nonzero direction components."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-14-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Vector equation",
+          "answer": "n·(r−r₀)=0, n≠0",
+          "options": [
+            "n×r=0",
+            "r=r₀+tn only",
+            "n·(r−r₀)=0, n≠0"
+          ],
+          "selectionPrompt": "Choose the correct Vector equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "A point lies in the plane exactly when its displacement from a fixed plane point is orthogonal to the normal."
+        },
+        {
+          "type": "choice",
+          "label": "Scalar equation",
+          "answer": "a(x−x₀)+b(y−y₀)+c(z−z₀)=0",
+          "options": [
+            "a(x−x₀)+b(y−y₀)+c(z−z₀)=0",
+            "x=x₀,y=y₀,z=z₀",
+            "x²+y²+z²=1"
+          ],
+          "selectionPrompt": "Choose the correct Scalar equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "A point lies in the plane exactly when its displacement from a fixed plane point is orthogonal to the normal."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-15-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Parallel vectors",
+          "answer": "Nonzero vectors are scalar multiples; equivalently their cross product is zero in R³",
+          "options": [
+            "Their dot product is zero",
+            "Nonzero vectors are scalar multiples; equivalently their cross product is zero in R³",
+            "Their magnitudes are equal"
+          ],
+          "selectionPrompt": "Choose the correct (a) Parallel vectors.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Handle zero-vector direction conventions separately; plane normals must be nonzero."
+        },
+        {
+          "type": "choice",
+          "label": "(b) Perpendicular vectors",
+          "answer": "Their dot product is zero",
+          "options": [
+            "Their dot product is zero",
+            "Their sum is zero",
+            "Their cross product is zero"
+          ],
+          "selectionPrompt": "Choose the correct (b) Perpendicular vectors.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Handle zero-vector direction conventions separately; plane normals must be nonzero."
+        },
+        {
+          "type": "choice",
+          "label": "(c) Parallel planes",
+          "answer": "Their nonzero normals are proportional",
+          "options": [
+            "They contain the same point",
+            "Their nonzero normals are proportional",
+            "Their normals are perpendicular"
+          ],
+          "selectionPrompt": "Choose the correct (c) Parallel planes.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Handle zero-vector direction conventions separately; plane normals must be nonzero."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-16-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Collinear points",
+          "answer": "(Q−P)×(R−P)=0",
+          "options": [
+            "Equal distances are required",
+            "(Q−P)·(R−P)=0",
+            "(Q−P)×(R−P)=0"
+          ],
+          "selectionPrompt": "Choose the correct (a) Collinear points.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross-product area and scalar-triple-product volume detect the relevant degeneracy."
+        },
+        {
+          "type": "choice",
+          "label": "(b) Coplanar points",
+          "answer": "(Q−P)·[(R−P)×(S−P)]=0",
+          "options": [
+            "(Q−P)·[(R−P)×(S−P)]=0",
+            "All pairwise distances equal",
+            "All coordinate sums zero"
+          ],
+          "selectionPrompt": "Choose the correct (b) Coplanar points.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross-product area and scalar-triple-product volume detect the relevant degeneracy."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-17-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Point to line r=q+tv",
+          "answer": "|(p−q)×v|/|v|",
+          "options": [
+            "|(p−q)·v|/|v|",
+            "|p−q| always",
+            "|(p−q)×v|/|v|"
+          ],
+          "selectionPrompt": "Choose the correct (a) Point to line r=q+tv.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use perpendicular heights, treating parallel directions separately because their cross product vanishes."
+        },
+        {
+          "type": "choice",
+          "label": "(b) Point to plane n·r=d",
+          "answer": "|n·p−d|/|n|",
+          "options": [
+            "|p|",
+            "|n·p+d|",
+            "|n·p−d|/|n|"
+          ],
+          "selectionPrompt": "Choose the correct (b) Point to plane n·r=d.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use perpendicular heights, treating parallel directions separately because their cross product vanishes."
+        },
+        {
+          "type": "choice",
+          "label": "(c) Two lines",
+          "answer": "Nonparallel: |(q−p)·(u×v)|/|u×v|; parallel: point-to-line distance; intersecting:0",
+          "options": [
+            "Always |p−q|",
+            "Nonparallel: |(q−p)·(u×v)|/|u×v|; parallel: point-to-line distance; intersecting:0",
+            "Always0"
+          ],
+          "selectionPrompt": "Choose the correct (c) Two lines.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use perpendicular heights, treating parallel directions separately because their cross product vanishes."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-18-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Traces",
+      "answer": "Intersections with coordinate-parallel planes, found by fixing one coordinate",
+      "options": [
+        "Only intersections with axes",
+        "Intersections with coordinate-parallel planes, found by fixing one coordinate",
+        "The gradient vector"
+      ],
+      "selectionPrompt": "Choose the correct Traces.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Substitute x=k,y=k,or z=k to obtain the corresponding planar curve.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-19-concept-check-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Ellipsoid",
+          "answer": "x²/a²+y²/b²+z²/c²=1",
+          "options": [
+            "z=x+y",
+            "x²/a²+y²/b²+z²/c²=1",
+            "x²/a²+y²/b²−z²/c²=1"
+          ],
+          "selectionPrompt": "Choose the correct Ellipsoid.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Take positive axis scales; rotations, translations, and axis permutations produce equivalent orientations."
+        },
+        {
+          "type": "choice",
+          "label": "Elliptic cone",
+          "answer": "x²/a²+y²/b²=z²/c²",
+          "options": [
+            "x²/a²+y²/b²=z²/c²",
+            "x²/a²+y²/b²+z²/c²=1",
+            "z=x²+y²+1"
+          ],
+          "selectionPrompt": "Choose the correct Elliptic cone.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Take positive axis scales; rotations, translations, and axis permutations produce equivalent orientations."
+        },
+        {
+          "type": "choice",
+          "label": "Elliptic paraboloid",
+          "answer": "z/c=x²/a²+y²/b²",
+          "options": [
+            "z/c=x²/a²−y²/b²",
+            "z²/c²=x²/a²+y²/b²",
+            "z/c=x²/a²+y²/b²"
+          ],
+          "selectionPrompt": "Choose the correct Elliptic paraboloid.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Take positive axis scales; rotations, translations, and axis permutations produce equivalent orientations."
+        },
+        {
+          "type": "choice",
+          "label": "Hyperbolic paraboloid",
+          "answer": "z/c=x²/a²−y²/b²",
+          "options": [
+            "z/c=x²/a²+y²/b²",
+            "z/c=x²/a²−y²/b²",
+            "x²+y²+z²=1"
+          ],
+          "selectionPrompt": "Choose the correct Hyperbolic paraboloid.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Take positive axis scales; rotations, translations, and axis permutations produce equivalent orientations."
+        },
+        {
+          "type": "choice",
+          "label": "One-sheet hyperboloid",
+          "answer": "x²/a²+y²/b²−z²/c²=1",
+          "options": [
+            "x²/a²+y²/b²+z²/c²=1",
+            "x²/a²+y²/b²−z²/c²=1",
+            "−x²/a²−y²/b²+z²/c²=1"
+          ],
+          "selectionPrompt": "Choose the correct One-sheet hyperboloid.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Take positive axis scales; rotations, translations, and axis permutations produce equivalent orientations."
+        },
+        {
+          "type": "choice",
+          "label": "Two-sheet hyperboloid",
+          "answer": "−x²/a²−y²/b²+z²/c²=1",
+          "options": [
+            "−x²/a²−y²/b²+z²/c²=1",
+            "x²/a²+y²/b²+z²/c²=1",
+            "x²/a²+y²/b²−z²/c²=1"
+          ],
+          "selectionPrompt": "Choose the correct Two-sheet hyperboloid.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Take positive axis scales; rotations, translations, and axis permutations produce equivalent orientations."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-1-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Dot product is a scalar sum, not a component vector.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-2-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "u=i,v=−i gives0 on the left and2 on the right.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-3-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "u=i,v=j gives0 versus1.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-4-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "u=v=i gives0 versus1.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-5-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Real multiplication commutes in the component sum.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-6-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "i×j=k but j×i=−k.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-7-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Reversing order negates the vector but preserves its norm.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-8-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "A scalar factors out of the dot-product sum.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-9-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Each cross-product component is linear in the first input.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-10-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Distribute in the first cross-product input.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-11-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Both sides are the same scalar triple-product determinant.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-12-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Take u=i,v=i,w=j: left=−j and right=0.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-13-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The cross product is perpendicular to either input.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-14-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Distribute and use v×v=0.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-15-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "(3,−1,2) is half the plane normal, hence perpendicular to the plane.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-16-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "A nondegenerate single linear equation defines a plane, not a line.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-17-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The free z-coordinate makes a circular cylinder.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-18-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The free z-coordinate makes a parabolic cylinder.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-19-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "i·j=0 with both vectors nonzero.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-20-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "i×i=0 with both vectors nonzero.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-21-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The identity|u×v|²+(u·v)²=|u|²|v|² forces a zero magnitude.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-22-true-false-quiz-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "selectionPrompt": "Choose the correct Truth value.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "This is Cauchy–Schwarz:|cosθ|≤1, with zero cases immediate.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Sphere",
+          "answer": "(x+1)²+(y−2)²+(z−1)²=69",
+          "options": [
+            "(x+1)²+(y−2)²+(z−1)²=49",
+            "x²+y²+z²=69",
+            "(x+1)²+(y−2)²+(z−1)²=69"
+          ],
+          "selectionPrompt": "Choose the correct (a) Sphere.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Squared radius in(a) is7²+(−4)²+2²=69. Setx=0 for(b). Complete all three squares for(c)."
+        },
+        {
+          "type": "choice",
+          "label": "(b) yz trace",
+          "answer": "x=0,(y−2)²+(z−1)²=68",
+          "options": [
+            "Empty",
+            "x=0,(y−2)²+(z−1)²=68",
+            "x=0,(y−2)²+(z−1)²=69"
+          ],
+          "selectionPrompt": "Choose the correct (b) yz trace.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Squared radius in(a) is7²+(−4)²+2²=69. Setx=0 for(b). Complete all three squares for(c)."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) Center x",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Squared radius in(a) is7²+(−4)²+2²=69. Setx=0 for(b). Complete all three squares for(c)."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) Center y",
+          "answer": -1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Squared radius in(a) is7²+(−4)²+2²=69. Setx=0 for(b). Complete all three squares for(c)."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) Center z",
+          "answer": -3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Squared radius in(a) is7²+(−4)²+2²=69. Setx=0 for(b). Complete all three squares for(c)."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) Radius",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Squared radius in(a) is7²+(−4)²+2²=69. Setx=0 for(b). Complete all three squares for(c)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) a+b",
+          "answer": "Arrow from the tail of a to the head of b in the displayed head-to-tail configuration",
+          "options": [
+            "Vector a alone",
+            "Arrow from the tail of a to the head of b in the displayed head-to-tail configuration",
+            "Arrow from head of b to tail of a"
+          ],
+          "selectionPrompt": "Choose the correct (a) a+b.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the displayed arrow orientation and head-to-tail addition; construction selections do not evaluate the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "(b) a−b",
+          "answer": "Place −b at the head of a, then join initial tail to final head",
+          "options": [
+            "Place b at the head of a",
+            "Reverse a only",
+            "Place −b at the head of a, then join initial tail to final head"
+          ],
+          "selectionPrompt": "Choose the correct (b) a−b.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the displayed arrow orientation and head-to-tail addition; construction selections do not evaluate the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "(c) a/2",
+          "answer": "Same direction as a and half its length",
+          "options": [
+            "Same direction as a and half its length",
+            "Opposite direction, same length",
+            "Twice its length"
+          ],
+          "selectionPrompt": "Choose the correct (c) a/2.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the displayed arrow orientation and head-to-tail addition; construction selections do not evaluate the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "(d) 2a+b",
+          "answer": "Two successive copies of a followed by b",
+          "options": [
+            "Reverse both arrows",
+            "a followed by two copies of b",
+            "Two successive copies of a followed by b"
+          ],
+          "selectionPrompt": "Choose the correct (d) 2a+b.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the displayed arrow orientation and head-to-tail addition; construction selections do not evaluate the finished drawing."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-3": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "u·v",
+          "answer": 4.242640687119285,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Both magnitudes use2·3 and45°; rotation from u to v is counterclockwise."
+        },
+        {
+          "type": "numeric",
+          "label": "|u×v|",
+          "answer": 4.242640687119285,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Both magnitudes use2·3 and45°; rotation from u to v is counterclockwise."
+        },
+        {
+          "type": "choice",
+          "label": "Cross-product direction",
+          "answer": "Out of the page",
+          "options": [
+            "Out of the page",
+            "Into the page",
+            "In the page"
+          ],
+          "selectionPrompt": "Choose the correct Cross-product direction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Both magnitudes use2·3 and45°; rotation from u to v is counterclockwise."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-4": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) 2a+3b x",
+          "answer": 11.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) 2a+3b y",
+          "answer": -4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) 2a+3b z",
+          "answer": -1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) |b|",
+          "answer": 3.7416573867739413,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) a·b",
+          "answer": -1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(d) a×b x",
+          "answer": -3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(d) a×b y",
+          "answer": -7.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(d) a×b z",
+          "answer": -5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(e) |b×c|",
+          "answer": 17.74823934929885,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(f) a·(b×c)",
+          "answer": 18.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(g) c×c x",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(g) c×c y",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(g) c×c z",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(h) a×(b×c) x",
+          "answer": 33.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(h) a×(b×c) y",
+          "answer": -21.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(h) a×(b×c) z",
+          "answer": 6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(i) compₐb",
+          "answer": -0.408248290463863,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(j) projₐb x",
+          "answer": -0.16666666666666666,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(j) projₐb y",
+          "answer": -0.16666666666666666,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(j) projₐb z",
+          "answer": 0.3333333333333333,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        },
+        {
+          "type": "numeric",
+          "label": "(k) Angle",
+          "answer": 96.26395271992723,
+          "tolerance": 0.51,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each vector operation in its displayed order; normalize by a, not b, for projection of b onto a."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 21,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-5": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Smaller x",
+          "answer": -4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Orthogonality givesx²+6x+8=(x+2)(x+4)=0."
+        },
+        {
+          "type": "numeric",
+          "label": "Larger x",
+          "answer": -2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Orthogonality givesx²+6x+8=(x+2)(x+4)=0."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-6": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Unit vector with positive x x",
+          "answer": 0.9525793444156804,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two nonparallel given vectors and normalize; both signs are allowed."
+        },
+        {
+          "type": "numeric",
+          "label": "Unit vector with positive x y",
+          "answer": 0.2721655269759087,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two nonparallel given vectors and normalize; both signs are allowed."
+        },
+        {
+          "type": "numeric",
+          "label": "Unit vector with positive x z",
+          "answer": -0.13608276348795434,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two nonparallel given vectors and normalize; both signs are allowed."
+        },
+        {
+          "type": "numeric",
+          "label": "Opposite unit vector x",
+          "answer": -0.9525793444156804,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two nonparallel given vectors and normalize; both signs are allowed."
+        },
+        {
+          "type": "numeric",
+          "label": "Opposite unit vector y",
+          "answer": -0.2721655269759087,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two nonparallel given vectors and normalize; both signs are allowed."
+        },
+        {
+          "type": "numeric",
+          "label": "Opposite unit vector z",
+          "answer": 0.13608276348795434,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two nonparallel given vectors and normalize; both signs are allowed."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-7": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a)",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cyclic scalar-triple permutations preserve sign; swapping two inputs reverses sign; a repeated input gives zero."
+        },
+        {
+          "type": "numeric",
+          "label": "(b)",
+          "answer": -2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cyclic scalar-triple permutations preserve sign; swapping two inputs reverses sign; a repeated input gives zero."
+        },
+        {
+          "type": "numeric",
+          "label": "(c)",
+          "answer": -2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cyclic scalar-triple permutations preserve sign; swapping two inputs reverses sign; a repeated input gives zero."
+        },
+        {
+          "type": "numeric",
+          "label": "(d)",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cyclic scalar-triple permutations preserve sign; swapping two inputs reverses sign; a repeated input gives zero."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-8": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Inner vector identity",
+          "answer": "(b×c)×(c×a)=[a·(b×c)]c",
+          "options": [
+            "(b×c)×(c×a)=0",
+            "(b×c)×(c×a)=a+b+c",
+            "(b×c)×(c×a)=[a·(b×c)]c"
+          ],
+          "selectionPrompt": "Choose the correct Inner vector identity.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply vector-triple expansion to the inner expression, then dot with a×b and use scalar-triple cyclicity."
+        },
+        {
+          "type": "choice",
+          "label": "Final scalar",
+          "answer": "[a·(b×c)]²",
+          "options": [
+            "a·(b×c)",
+            "[a·(b×c)]²",
+            "−[a·(b×c)]²"
+          ],
+          "selectionPrompt": "Choose the correct Final scalar.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply vector-triple expansion to the inner expression, then dot with a×b and use scalar-triple cyclicity."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-9": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Acute angle",
+      "answer": 70.52877936550931,
+      "tolerance": 0.005,
+      "unit": "degrees",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Take body-diagonal directions(1,1,1) and(1,1,−1); normalized absolute dot product is1/3.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-10": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Volume",
+      "answer": 6.0,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Subtract A from B,C,D and take the absolute scalar triple product.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-11": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) One normal",
+          "answer": "(4, -3, 4)",
+          "options": [
+            "(4, -3, 4)",
+            "(1, 0, -1)",
+            "(0, 4, 3)"
+          ],
+          "selectionPrompt": "Choose the correct (a) One normal.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross AB and AC to get a normal; triangle area is half its norm."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) Area",
+          "answer": 3.2015621187164243,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross AB and AC to get a normal; triangle area is half its norm."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-12": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Work",
+      "answer": 87.0,
+      "tolerance": 1e-07,
+      "unit": "J",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Displacement=(4,3,6); dot with(3,5,10) gives12+15+60=87.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-13": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Upper rope tension",
+          "answer": 166.43942938986552,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Vertical rope components cancel; horizontal components add to255N. Solve the two linear equilibrium equations."
+        },
+        {
+          "type": "numeric",
+          "label": "Lower rope tension",
+          "answer": 113.85127498992867,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Vertical rope components cancel; horizontal components add to255N. Solve the two linear equilibrium equations."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-14": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Torque magnitude",
+      "answer": 17.320508075688775,
+      "tolerance": 1e-07,
+      "unit": "N·m",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The radius is vertical0.4m and the force is30° above horizontal, so the angle is60°; torque=0.4·50sin60°.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-15": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Parametric equations",
+      "answer": "x=4 - 3·t; y=2·t - 1; z=3·t + 2",
+      "options": [
+        "x=4 - 3·t; y=2·t - 1; z=3·t + 2",
+        "x=0;y=0;z=0",
+        "x=t;y=t;z=t"
+      ],
+      "selectionPrompt": "Choose the correct Parametric equations.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Use r=p+td with the specified point and a direction parallel to the given line or perpendicular to the given plane.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-16": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Parametric equations",
+      "answer": "x=3·t + 1; y=2·t; z=t - 1",
+      "options": [
+        "x=t;y=t;z=t",
+        "x=0;y=0;z=0",
+        "x=3·t + 1; y=2·t; z=t - 1"
+      ],
+      "selectionPrompt": "Choose the correct Parametric equations.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Use r=p+td with the specified point and a direction parallel to the given line or perpendicular to the given plane.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-17": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Parametric equations",
+      "answer": "x=2·t - 2; y=2 - t; z=5·t + 4",
+      "options": [
+        "x=0;y=0;z=0",
+        "x=t;y=t;z=t",
+        "x=2·t - 2; y=2 - t; z=5·t + 4"
+      ],
+      "selectionPrompt": "Choose the correct Parametric equations.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Use r=p+td with the specified point and a direction parallel to the given line or perpendicular to the given plane.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-18": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Plane equation",
+      "answer": "x + 4·y - 3·z=6",
+      "options": [
+        "x + 4·y - 3·z=5",
+        "x + 4·y - 3·z=6",
+        "x + 4·y - 3·z=7"
+      ],
+      "selectionPrompt": "Choose the correct Plane equation.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Use the given or derived normal and the point-normal equation n·(r−p)=0.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-19": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Plane equation",
+      "answer": "-4·x + 3·y + z=-14",
+      "options": [
+        "-4·x + 3·y + z=-13",
+        "-4·x + 3·y + z=-15",
+        "-4·x + 3·y + z=-14"
+      ],
+      "selectionPrompt": "Choose the correct Plane equation.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Use the given or derived normal and the point-normal equation n·(r−p)=0.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-20": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Plane equation",
+      "answer": "6·x + 9·y - z=26",
+      "options": [
+        "6·x + 9·y - z=25",
+        "6·x + 9·y - z=26",
+        "6·x + 9·y - z=27"
+      ],
+      "selectionPrompt": "Choose the correct Plane equation.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Use the given or derived normal and the point-normal equation n·(r−p)=0.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-21": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Intersection x",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Substitution yields3−t=2, so t=1."
+        },
+        {
+          "type": "numeric",
+          "label": "Intersection y",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Substitution yields3−t=2, so t=1."
+        },
+        {
+          "type": "numeric",
+          "label": "Intersection z",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Substitution yields3−t=2, so t=1."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-22": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Distance",
+      "answer": 2.1213203435596424,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Use the cross-product point-to-line distance formula.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-23": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Relationship",
+      "answer": "Skew",
+      "options": [
+        "Parallel",
+        "Skew",
+        "Intersecting"
+      ],
+      "selectionPrompt": "Choose the correct Relationship.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The directions are not proportional and all three coordinate equations have no simultaneous solution.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-24": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Classification",
+          "answer": "Neither parallel nor perpendicular",
+          "options": [
+            "Perpendicular",
+            "Parallel",
+            "Neither parallel nor perpendicular"
+          ],
+          "selectionPrompt": "Choose the correct (a) Classification.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Normals are not proportional and their dot product is−5, not zero."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) Normal dot product",
+          "answer": -5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Normals are not proportional and their dot product is−5, not zero."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) Acute angle",
+          "answer": 57.58442674210833,
+          "tolerance": 0.51,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Normals are not proportional and their dot product is−5, not zero."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-25": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Plane",
+      "answer": "x+y+z=4",
+      "options": [
+        "x+y+z=1",
+        "x+y−2z=1",
+        "x+y+z=4"
+      ],
+      "selectionPrompt": "Choose the correct Plane.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Add the two intersection-plane equations; the resulting normal is perpendicular to(1,1,−2).",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-26": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Plane",
+          "answer": "-x - 3·y - z=-6",
+          "options": [
+            "-x - 3·y - z=-6",
+            "-x - 3·y - z=-5",
+            "x+y+z=0"
+          ],
+          "selectionPrompt": "Choose the correct (a) Plane.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two side vectors for the first normal; use that normal as the perpendicular-line direction. Cross both plane normals for the intersection direction and solve for one common point."
+        },
+        {
+          "type": "choice",
+          "label": "(b) Symmetric line",
+          "answer": "(x+1)/(-1)=(y+1)/(-3)=(z−10)/(-1)",
+          "options": [
+            "(x+1)/(-1)=(y+1)/(-3)=(z−10)/(-1)",
+            "x+1=y+1=z−10",
+            "x=y=z"
+          ],
+          "selectionPrompt": "Choose the correct (b) Symmetric line.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two side vectors for the first normal; use that normal as the perpendicular-line direction. Cross both plane normals for the intersection direction and solve for one common point."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) Acute angle",
+          "answer": 43.29268888402832,
+          "tolerance": 0.51,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two side vectors for the first normal; use that normal as the perpendicular-line direction. Cross both plane normals for the intersection direction and solve for one common point."
+        },
+        {
+          "type": "choice",
+          "label": "(d) Parametric intersection",
+          "answer": "r=(0, 2, 0)+t(5, -5, 10)",
+          "options": [
+            "r=(2,1,1)+t(1,0,0)",
+            "r=(0,0,0)+t(1,1,1)",
+            "r=(0, 2, 0)+t(5, -5, 10)"
+          ],
+          "selectionPrompt": "Choose the correct (d) Parametric intersection.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Cross the two side vectors for the first normal; use that normal as the perpendicular-line direction. Cross both plane normals for the intersection direction and solve for one common point."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-27": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Distance",
+      "answer": 1.1766968108291043,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The constants2 and−4 differ by6; the common normal has length√26.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-28": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Plane x=3 parallel to yz-plane",
+      "options": [
+        "Plane x=3 parallel to yz-plane",
+        "Sphere centered at origin",
+        "Empty surface"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Complete coordinate squares if necessary, then inspect which variable is linear or missing and the signs of squared terms.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-29": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Plane x=z containing y-axis",
+      "options": [
+        "Sphere centered at origin",
+        "Plane x=z containing y-axis",
+        "Empty surface"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Complete coordinate squares if necessary, then inspect which variable is linear or missing and the signs of squared terms.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-30": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Parabolic cylinder y=z² with rulings parallel to x-axis",
+      "options": [
+        "Parabolic cylinder y=z² with rulings parallel to x-axis",
+        "Empty surface",
+        "Sphere centered at origin"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Complete coordinate squares if necessary, then inspect which variable is linear or missing and the signs of squared terms.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-31": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Elliptic cone about x-axis, vertex origin",
+      "options": [
+        "Elliptic cone about x-axis, vertex origin",
+        "Empty surface",
+        "Sphere centered at origin"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Complete coordinate squares if necessary, then inspect which variable is linear or missing and the signs of squared terms.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-32": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Plane with normal(4,−1,2), passing through(1,0,0)",
+      "options": [
+        "Empty surface",
+        "Plane with normal(4,−1,2), passing through(1,0,0)",
+        "Sphere centered at origin"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Complete coordinate squares if necessary, then inspect which variable is linear or missing and the signs of squared terms.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-33": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Two-sheet hyperboloid y²/4−x²−z²=1 about y-axis",
+      "options": [
+        "Two-sheet hyperboloid y²/4−x²−z²=1 about y-axis",
+        "Sphere centered at origin",
+        "Empty surface"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Complete coordinate squares if necessary, then inspect which variable is linear or missing and the signs of squared terms.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-34": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "One-sheet hyperboloid y²+z²−x²=1 about x-axis",
+      "options": [
+        "Empty surface",
+        "One-sheet hyperboloid y²+z²−x²=1 about x-axis",
+        "Sphere centered at origin"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Complete coordinate squares if necessary, then inspect which variable is linear or missing and the signs of squared terms.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-35": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Ellipsoid x²+(y−1)²+z²/4=1, center(0,1,0)",
+      "options": [
+        "Sphere centered at origin",
+        "Ellipsoid x²+(y−1)²+z²/4=1, center(0,1,0)",
+        "Empty surface"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Complete coordinate squares if necessary, then inspect which variable is linear or missing and the signs of squared terms.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-36": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Circular paraboloid x=(y−1)²+(z−2)², vertex(0,1,2), opening in +x",
+      "options": [
+        "Empty surface",
+        "Sphere centered at origin",
+        "Circular paraboloid x=(y−1)²+(z−2)², vertex(0,1,2), opening in +x"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Complete coordinate squares if necessary, then inspect which variable is linear or missing and the signs of squared terms.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-37": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Ellipsoid equation",
+      "answer": "4x²+y²+z²=16",
+      "options": [
+        "x²+4y²+4z²=16",
+        "4x²+y²+z²=4",
+        "4x²+y²+z²=16"
+      ],
+      "selectionPrompt": "Choose the correct Ellipsoid equation.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Rotation about x replaces the squared radial coordinate y² by y²+z².",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-chapter-12-review-38": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Equation",
+          "answer": "4x²+3(y+5/3)²+4z²=16/3",
+          "options": [
+            "4x²+3(y+5/3)²+4z²=16/3",
+            "4x²+3(y−5/3)²+4z²=16/3",
+            "x²+y²+z²=1"
+          ],
+          "selectionPrompt": "Choose the correct Equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Square |y−1|=2√(x²+(y+1)²+z²) and complete the y square; both original distances are nonnegative."
+        },
+        {
+          "type": "choice",
+          "label": "Surface",
+          "answer": "Ellipsoid centered at(0,−5/3,0), semiaxes2/√3,4/3,2/√3",
+          "options": [
+            "Ellipsoid centered at(0,−5/3,0), semiaxes2/√3,4/3,2/√3",
+            "Hyperboloid of one sheet",
+            "Paraboloid"
+          ],
+          "selectionPrompt": "Choose the correct Surface.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Square |y−1|=2√(x²+(y+1)²+z²) and complete the y square; both original distances are nonnegative."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  }
+}

@@ -1,0 +1,3079 @@
+{
+  "calculus-section-13-2-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Displacements",
+          "answer": "Arrows P→R and P→Q",
+          "options": [
+            "Arrows P→R and P→Q",
+            "Arrows O→R and O→Q",
+            "Arrows R→P and Q→P"
+          ],
+          "explanation": "Difference vectors join the corresponding endpoints; division by positive time increments preserves direction.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Difference quotients",
+          "answer": "2 times P→R and 5 times P→Q, both based at P",
+          "options": [
+            "Position vectors from O",
+            "2 times P→R and 5 times P→Q, both based at P",
+            "Half of P→R and one fifth of P→Q"
+          ],
+          "explanation": "Difference vectors join the corresponding endpoints; division by positive time increments preserves direction.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Derivative and unit tangent",
+          "answer": "r′(4)=lim[h→0](r(4+h)−r(4))/h; T(4)=r′(4)/|r′(4)|",
+          "options": [
+            "r′(4)=r(4)",
+            "r′(4)=lim[h→0](r(4+h)−r(4))/h; T(4)=r′(4)/|r′(4)|",
+            "T(4)=r(4)/|r(4)|"
+          ],
+          "explanation": "Difference vectors join the corresponding endpoints; division by positive time increments preserves direction.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Orientation",
+          "answer": "Unit tangent at P points toward Q along increasing t",
+          "options": [
+            "Unit tangent points opposite Q",
+            "Unit tangent at P points toward Q along increasing t",
+            "Unit tangent points toward O"
+          ],
+          "explanation": "Difference vectors join the corresponding endpoints; division by positive time increments preserves direction.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · r(1) · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · r(1) · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · r(1.1) · x",
+          "answer": 1.21,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · r(1.1) · y",
+          "answer": 1.1,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Displacement · x",
+          "answer": 0.21,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Displacement · y",
+          "answer": 0.1,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · r′(1) · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · r′(1) · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Secant quotient · x",
+          "answer": 2.1,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Secant quotient · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Comparison",
+          "answer": "The secant quotient tends to the tangent as the time increment tends to zero",
+          "options": [
+            "The secant quotient tends to the tangent as the time increment tends to zero",
+            "The two vectors are exactly equal",
+            "Their lengths must both equal1"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 11,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curve",
+          "answer": "Parabola y=(x+2)²+1, traced toward increasing x",
+          "options": [
+            "A circle centered at the origin",
+            "Parabola y=(x+2)²+1, traced toward increasing x",
+            "A straight line through the origin"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · r′(t) · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · y",
+          "answer": "2*t",
+          "options": [
+            "4*t",
+            "2*t",
+            "-2*t"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · x",
+          "answer": -3.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · y",
+          "answer": -2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curve",
+          "answer": "Semicubical parabola y²=x³, x≥0; parameter increases from lower to upper branch",
+          "options": [
+            "Semicubical parabola y²=x³, x≥0; parameter increases from lower to upper branch",
+            "A circle centered at the origin",
+            "A straight line through the origin"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · x",
+          "answer": "2*t",
+          "options": [
+            "4*t",
+            "-2*t",
+            "2*t"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · y",
+          "answer": "3*t^2",
+          "options": [
+            "3*t^2",
+            "-3*t^2",
+            "6*t^2"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · y",
+          "answer": 3.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curve",
+          "answer": "x=y² with y>0, traced upward",
+          "options": [
+            "A circle centered at the origin",
+            "x=y² with y>0, traced upward",
+            "A straight line through the origin"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · x",
+          "answer": "2*exp(2*t)",
+          "options": [
+            "2*exp(2*t)",
+            "-2*exp(2*t)",
+            "4*exp(2*t)"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · y",
+          "answer": "exp(t)",
+          "options": [
+            "-exp(t)",
+            "2*exp(t)",
+            "exp(t)"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curve",
+          "answer": "y=2ln x with x>0, traced toward increasing x",
+          "options": [
+            "y=2ln x with x>0, traced toward increasing x",
+            "A straight line through the origin",
+            "A circle centered at the origin"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · x",
+          "answer": "exp(t)",
+          "options": [
+            "-exp(t)",
+            "2*exp(t)",
+            "exp(t)"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · r′(t) · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curve",
+          "answer": "Ellipse x²/16+y²/4=1, counterclockwise",
+          "options": [
+            "A straight line through the origin",
+            "A circle centered at the origin",
+            "Ellipse x²/16+y²/4=1, counterclockwise"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · x",
+          "answer": "4*cos(t)",
+          "options": [
+            "4*cos(t)",
+            "-4*cos(t)",
+            "8*cos(t)"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · y",
+          "answer": "2*sin(t)",
+          "options": [
+            "2*sin(t)",
+            "4*sin(t)",
+            "-2*sin(t)"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · x",
+          "answer": 2.8284271247461903,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · y",
+          "answer": 1.4142135623730951,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · x",
+          "answer": -2.8284271247461903,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · y",
+          "answer": 1.4142135623730951,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curve",
+          "answer": "Circle (x−1)²+(y+1)²=1, counterclockwise",
+          "options": [
+            "A circle centered at the origin",
+            "A straight line through the origin",
+            "Circle (x−1)²+(y+1)²=1, counterclockwise"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · x",
+          "answer": "-sin(t)",
+          "options": [
+            "-2*sin(t)",
+            "-sin(t)",
+            "sin(t)"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · r′(t) · y",
+          "answer": "cos(t)",
+          "options": [
+            "2*cos(t)",
+            "cos(t)",
+            "-cos(t)"
+          ],
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · x",
+          "answer": 1.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Position · y",
+          "answer": -1.8660254037844386,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · x",
+          "answer": 0.8660254037844386,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Tangent · y",
+          "answer": 0.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Eliminate t for the shape, then differentiate each component. The position arrow starts at the origin; the tangent is placed at the curve point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "r′(t) · x",
+          "answer": "1/(2*sqrt(t - 2))",
+          "options": [
+            "-1/(2*sqrt(t - 2))",
+            "1/sqrt(t - 2)",
+            "1/(2*sqrt(t - 2))"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "r′(t) · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · z",
+          "answer": "-2/t^3",
+          "options": [
+            "-2/t^3",
+            "2/t^3",
+            "-4/t^3"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "r′(t) · x",
+          "answer": "-exp(-t)",
+          "options": [
+            "-2*exp(-t)",
+            "exp(-t)",
+            "-exp(-t)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · y",
+          "answer": "1 - 3*t^2",
+          "options": [
+            "3*t^2 - 1",
+            "2 - 6*t^2",
+            "1 - 3*t^2"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · z",
+          "answer": "1/t",
+          "options": [
+            "-1/t",
+            "1/t",
+            "2/t"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "r′(t) · x",
+          "answer": "2*t",
+          "options": [
+            "4*t",
+            "-2*t",
+            "2*t"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · y",
+          "answer": "-2*t*sin(t^2)",
+          "options": [
+            "2*t*sin(t^2)",
+            "-2*t*sin(t^2)",
+            "-4*t*sin(t^2)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · z",
+          "answer": "sin(2*t)",
+          "options": [
+            "2*sin(2*t)",
+            "-sin(2*t)",
+            "sin(2*t)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "r′(t) · x",
+          "answer": "-1/(t + 1)^2",
+          "options": [
+            "-2/(t + 1)^2",
+            "(t + 1)^(-2)",
+            "-1/(t + 1)^2"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · y",
+          "answer": "(t + 1)^(-2)",
+          "options": [
+            "(t + 1)^(-2)",
+            "2/(t + 1)^2",
+            "-1/(t + 1)^2"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · z",
+          "answer": "t*(t + 2)/(t^2 + 2*t + 1)",
+          "options": [
+            "t*(t + 2)/(t^2 + 2*t + 1)",
+            "-t*(t + 2)/(t^2 + 2*t + 1)",
+            "2*t*(t + 2)/(t^2 + 2*t + 1)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "r′(t) · x",
+          "answer": "t*cos(t) + sin(t)",
+          "options": [
+            "2*t*cos(t) + 2*sin(t)",
+            "-t*cos(t) - sin(t)",
+            "t*cos(t) + sin(t)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · y",
+          "answer": "sqrt(2)*exp(t)*cos(t + pi/4)",
+          "options": [
+            "2*sqrt(2)*exp(t)*cos(t + pi/4)",
+            "-sqrt(2)*exp(t)*cos(t + pi/4)",
+            "sqrt(2)*exp(t)*cos(t + pi/4)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · z",
+          "answer": "cos(2*t)",
+          "options": [
+            "-cos(2*t)",
+            "cos(2*t)",
+            "2*cos(2*t)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "r′(t) · x",
+          "answer": "a*sin(2*a*t)",
+          "options": [
+            "-a*sin(2*a*t)",
+            "a*sin(2*a*t)",
+            "2*a*sin(2*a*t)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · y",
+          "answer": "(b*t + 1)*exp(b*t)",
+          "options": [
+            "2*(b*t + 1)*exp(b*t)",
+            "-(b*t + 1)*exp(b*t)",
+            "(b*t + 1)*exp(b*t)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′(t) · z",
+          "answer": "-c*sin(2*c*t)",
+          "options": [
+            "c*sin(2*c*t)",
+            "-c*sin(2*c*t)",
+            "-2*c*sin(2*c*t)"
+          ],
+          "explanation": "Differentiate componentwise using product and chain rules on the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-15": {
+    "grader": {
+      "type": "choice",
+      "label": "r′(t)",
+      "answer": "b+2tc",
+      "options": [
+        "b+2tc",
+        "2tb+c",
+        "a+b+tc"
+      ],
+      "explanation": "The vectors a,b,c are constant.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-16": {
+    "grader": {
+      "type": "choice",
+      "label": "r′(t)",
+      "answer": "a×b+2t(a×c)",
+      "options": [
+        "a×b+t(a×c)",
+        "b×a+2t(c×a)",
+        "a×b+2t(a×c)"
+      ],
+      "explanation": "Expand r=t(a×b)+t²(a×c); preserve cross-product order.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Unit tangent · x",
+          "answer": 0.2857142857142857,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Unit tangent · y",
+          "answer": 0.42857142857142855,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Unit tangent · z",
+          "answer": 0.8571428571428571,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Unit tangent · x",
+          "answer": 0.1111111111111111,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Unit tangent · y",
+          "answer": 0.4444444444444444,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Unit tangent · z",
+          "answer": 0.8888888888888888,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-19": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Unit tangent · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Unit tangent · y",
+          "answer": 0.6,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Unit tangent · z",
+          "answer": 0.8,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-20": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Unit tangent · x",
+          "answer": 0.23570226039551584,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Unit tangent · y",
+          "answer": -0.23570226039551584,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Unit tangent · z",
+          "answer": 0.9428090415820634,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Evaluate r′ at the specified parameter, then divide by its positive magnitude.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-21": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "r′ · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′ · y",
+          "answer": "2*t",
+          "options": [
+            "-2*t",
+            "2*t",
+            "4*t"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′ · z",
+          "answer": "3*t^2",
+          "options": [
+            "6*t^2",
+            "-3*t^2",
+            "3*t^2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "T(1) · x",
+          "answer": 0.2672612419124244,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "T(1) · y",
+          "answer": 0.5345224838248488,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "T(1) · z",
+          "answer": 0.8017837257372732,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "r″ · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "r″ · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r″ · z",
+          "answer": "6*t",
+          "options": [
+            "6*t",
+            "-6*t",
+            "12*t"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′×r″ · x",
+          "answer": "6*t^2",
+          "options": [
+            "-6*t^2",
+            "12*t^2",
+            "6*t^2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′×r″ · y",
+          "answer": "-6*t",
+          "options": [
+            "-6*t",
+            "-12*t",
+            "6*t"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "r′×r″ · z",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 12,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-22": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "T(0) · x",
+          "answer": 0.6666666666666666,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "T(0) · y",
+          "answer": -0.6666666666666666,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "T(0) · z",
+          "answer": 0.3333333333333333,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "r″(0) · x",
+          "answer": 4.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "r″(0) · y",
+          "answer": 4.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "r″(0) · z",
+          "answer": 4.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r′·r″",
+          "answer": "8*t^2*exp(4*t) + 12*t*exp(4*t) + 12*exp(4*t) - 8*exp(-4*t)",
+          "options": [
+            "-8*t^2*exp(4*t) - 12*t*exp(4*t) - 12*exp(4*t) + 8*exp(-4*t)",
+            "8*t^2*exp(4*t) + 12*t*exp(4*t) + 12*exp(4*t) - 8*exp(-4*t)",
+            "16*t^2*exp(4*t) + 24*t*exp(4*t) + 24*exp(4*t) - 16*exp(-4*t)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-23": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · x",
+          "answer": "2*u + 2",
+          "options": [
+            "2*u + 2",
+            "4*u + 4",
+            "-2*u - 2"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · y",
+          "answer": "2*u + 4",
+          "options": [
+            "-2*u - 4",
+            "4*u + 8",
+            "2*u + 4"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · z",
+          "answer": "u + 1",
+          "options": [
+            "2*u + 2",
+            "u + 1",
+            "-u - 1"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-24": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · x",
+          "answer": "u",
+          "options": [
+            "u",
+            "-u",
+            "2*u"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · y",
+          "answer": "u",
+          "options": [
+            "-u",
+            "2*u",
+            "u"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · z",
+          "answer": "u*log(2) + 1",
+          "options": [
+            "2*u*log(2) + 2",
+            "-u*log(2) - 1",
+            "u*log(2) + 1"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-25": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · x",
+          "answer": "1 - u",
+          "options": [
+            "u - 1",
+            "1 - u",
+            "2 - 2*u"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · y",
+          "answer": "u",
+          "options": [
+            "-u",
+            "2*u",
+            "u"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · z",
+          "answer": "1 - u",
+          "options": [
+            "1 - u",
+            "u - 1",
+            "2 - 2*u"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-26": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · x",
+          "answer": "u/2 + 2",
+          "options": [
+            "-u/2 - 2",
+            "u + 4",
+            "u/2 + 2"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · y",
+          "answer": "u/2 + log(4)",
+          "options": [
+            "-u/2 - log(4)",
+            "u/2 + log(4)",
+            "u + 2*log(4)"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · z",
+          "answer": "u + 1",
+          "options": [
+            "-u - 1",
+            "u + 1",
+            "2*u + 2"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-29": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · x",
+          "answer": "u",
+          "options": [
+            "u",
+            "2*u",
+            "-u"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · y",
+          "answer": "1 - u",
+          "options": [
+            "1 - u",
+            "u - 1",
+            "2 - 2*u"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · z",
+          "answer": "2*u",
+          "options": [
+            "-2*u",
+            "4*u",
+            "2*u"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-30": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · x",
+          "answer": "-u + sqrt(3)",
+          "options": [
+            "u - sqrt(3)",
+            "-u + sqrt(3)",
+            "-2*u + 2*sqrt(3)"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · y",
+          "answer": "sqrt(3)*u + 1",
+          "options": [
+            "2*sqrt(3)*u + 2",
+            "-sqrt(3)*u - 1",
+            "sqrt(3)*u + 1"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · z",
+          "answer": "-4*sqrt(3)*u + 2",
+          "options": [
+            "4*sqrt(3)*u - 2",
+            "-8*sqrt(3)*u + 4",
+            "-4*sqrt(3)*u + 2"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-31": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · x",
+          "answer": "-u - pi",
+          "options": [
+            "-2*u - 2*pi",
+            "-u - pi",
+            "u + pi"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · y",
+          "answer": "u + pi",
+          "options": [
+            "2*u + 2*pi",
+            "-u - pi",
+            "u + pi"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · z",
+          "answer": "-pi*u",
+          "options": [
+            "-pi*u",
+            "pi*u",
+            "-2*pi*u"
+          ],
+          "explanation": "Use r(t₀)+u r′(t₀), with u a new line parameter. Nonzero scalar multiples of the direction describe the same line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-27": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · x",
+          "answer": "4*u + 3",
+          "options": [
+            "4*u + 3",
+            "-4*u - 3",
+            "8*u + 6"
+          ],
+          "explanation": "The direction is perpendicular to both surface normals(6,8,0) and(0,8,4).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · y",
+          "answer": "4 - 3*u",
+          "options": [
+            "4 - 3*u",
+            "8 - 6*u",
+            "3*u - 4"
+          ],
+          "explanation": "The direction is perpendicular to both surface normals(6,8,0) and(0,8,4).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line (parameter u) · z",
+          "answer": "6*u + 2",
+          "options": [
+            "6*u + 2",
+            "12*u + 4",
+            "-6*u - 2"
+          ],
+          "explanation": "The direction is perpendicular to both surface normals(6,8,0) and(0,8,4).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-28": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Point · x",
+          "answer": 1.7320508075688772,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "The plane normal(sqrt3,1,0) dotted with r′ gives−2sqrt3 sin t+2cos t=0; in[0,π] this selects t=π/6.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Point · y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "The plane normal(sqrt3,1,0) dotted with r′ gives−2sqrt3 sin t+2cos t=0; in[0,π] this selects t=π/6.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Point · z",
+          "answer": 1.6880917949644685,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "The plane normal(sqrt3,1,0) dotted with r′ gives−2sqrt3 sin t+2cos t=0; in[0,π] this selects t=π/6.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-32": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Intersection · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "At t=0 the tangent has z=1 and y=2x; at t=1/2 it is the vertical line x=1,y=2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Intersection · y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "At t=0 the tangent has z=1 and y=2x; at t=1/2 it is the vertical line x=1,y=2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Intersection · z",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "At t=0 the tangent has z=1 and y=2x; at t=1/2 it is the vertical line x=1,y=2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891
+      ]
+    }
+  },
+  "calculus-section-13-2-33": {
+    "grader": {
+      "type": "numeric",
+      "label": "Angle between forward tangent vectors",
+      "answer": 65.9051574478893,
+      "unit": "degrees",
+      "tolerance": 0.51,
+      "explanation": "At0 the tangents are(1,0,0) and(1,2,1).",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        891,
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-34": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Intersection · x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "s=3−t and3+t²=s² give t=1,s=2. Tangents(1,−1,2),(−1,1,4) have dot product6 and norm product sqrt108.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Intersection · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "s=3−t and3+t²=s² give t=1,s=2. Tangents(1,−1,2),(−1,1,4) have dot product6 and norm product sqrt108.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Intersection · z",
+          "answer": 4.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "s=3−t and3+t²=s² give t=1,s=2. Tangents(1,−1,2),(−1,1,4) have dot product6 and norm product sqrt108.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Angle between forward tangent vectors",
+          "answer": 54.735610317245346,
+          "unit": "degrees",
+          "tolerance": 0.51,
+          "explanation": "s=3−t and3+t²=s² give t=1,s=2. Tangents(1,−1,2),(−1,1,4) have dot product6 and norm product sqrt108.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-35": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Integral · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral · y",
+          "answer": -4.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral · z",
+          "answer": 32.0,
+          "unit": "",
+          "tolerance": 3.2e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-36": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Integral · x",
+          "answer": 24.8,
+          "unit": "",
+          "tolerance": 2.4800000000000004e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral · z",
+          "answer": 17.066666666666666,
+          "unit": "",
+          "tolerance": 1.7066666666666667e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-37": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Integral · x",
+          "answer": 0.6931471805599453,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral · y",
+          "answer": 0.7853981633974483,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral · z",
+          "answer": 0.34657359027997264,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-38": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Integral · x",
+          "answer": 0.41421356237309503,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral · y",
+          "answer": 0.14269908169872417,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral · z",
+          "answer": 0.16666666666666666,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate every component over the same interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-39": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Antiderivative · x",
+          "answer": "tan(t) + C",
+          "options": [
+            "tan(t) + C",
+            "-tan(t) + C",
+            "2*tan(t) + C"
+          ],
+          "explanation": "Each component has its own arbitrary constant; restrict to connected intervals of the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Antiderivative · y",
+          "answer": "(t^2 + 1)^4/8 + C",
+          "options": [
+            "(t^2 + 1)^4/4 + C",
+            "(t^2 + 1)^4/8 + C",
+            "-(t^2 + 1)^4/8 + C"
+          ],
+          "explanation": "Each component has its own arbitrary constant; restrict to connected intervals of the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Antiderivative · z",
+          "answer": "t^3*log(t)/3 - t^3/9 + C",
+          "options": [
+            "2*t^3*log(t)/3 - 2*t^3/9 + C",
+            "-t^3*log(t)/3 + t^3/9 + C",
+            "t^3*log(t)/3 - t^3/9 + C"
+          ],
+          "explanation": "Each component has its own arbitrary constant; restrict to connected intervals of the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-40": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Antiderivative · x",
+          "answer": "(2*t - 1)*exp(2*t)/4 + C",
+          "options": [
+            "-(2*t - 1)*exp(2*t)/4 + C",
+            "(2*t - 1)*exp(2*t)/2 + C",
+            "(2*t - 1)*exp(2*t)/4 + C"
+          ],
+          "explanation": "Each component has its own arbitrary constant; restrict to connected intervals of the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Antiderivative · y",
+          "answer": "-t - log(Abs(t - 1)) + C",
+          "options": [
+            "-t - log(Abs(t - 1)) + C",
+            "-2*t - 2*log(Abs(t - 1)) + C",
+            "t + log(Abs(t - 1)) + C"
+          ],
+          "explanation": "Each component has its own arbitrary constant; restrict to connected intervals of the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Antiderivative · z",
+          "answer": "asin(t) + C",
+          "options": [
+            "asin(t) + C",
+            "-asin(t) + C",
+            "2*asin(t) + C"
+          ],
+          "explanation": "Each component has its own arbitrary constant; restrict to connected intervals of the original real domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-41": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "r(t) · x",
+          "answer": "t^2",
+          "options": [
+            "t^2",
+            "2*t^2",
+            "-t^2"
+          ],
+          "explanation": "Integrate componentwise, then use all three initial-position components.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r(t) · y",
+          "answer": "t^3",
+          "options": [
+            "-t^3",
+            "t^3",
+            "2*t^3"
+          ],
+          "explanation": "Integrate componentwise, then use all three initial-position components.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r(t) · z",
+          "answer": "2*t^(3/2)/3 - 2/3",
+          "options": [
+            "2*t^(3/2)/3 - 2/3",
+            "4*t^(3/2)/3 - 4/3",
+            "2/3 - 2*t^(3/2)/3"
+          ],
+          "explanation": "Integrate componentwise, then use all three initial-position components.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-42": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "r(t) · x",
+          "answer": "t^2/2 + 1",
+          "options": [
+            "-t^2/2 - 1",
+            "t^2 + 2",
+            "t^2/2 + 1"
+          ],
+          "explanation": "Integrate componentwise, then use all three initial-position components.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r(t) · y",
+          "answer": "exp(t)",
+          "options": [
+            "exp(t)",
+            "2*exp(t)",
+            "-exp(t)"
+          ],
+          "explanation": "Integrate componentwise, then use all three initial-position components.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "r(t) · z",
+          "answer": "(t - 1)*exp(t) + 2",
+          "options": [
+            "-(t - 1)*exp(t) - 2",
+            "(t - 1)*exp(t) + 2",
+            "2*(t - 1)*exp(t) + 4"
+          ],
+          "explanation": "Integrate componentwise, then use all three initial-position components.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-43": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "(u+v)′=u′+v′",
+      "options": [
+        "The conclusion follows without differentiability assumptions",
+        "(u+v)′=u′+v′",
+        "Reverse the sign of the displayed identity"
+      ],
+      "explanation": "Apply the scalar sum rule in each coordinate.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-44": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "(fu)′=f′u+fu′",
+      "options": [
+        "Reverse the sign of the displayed identity",
+        "(fu)′=f′u+fu′",
+        "The conclusion follows without differentiability assumptions"
+      ],
+      "explanation": "Apply the scalar product rule in each coordinate.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-45": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "(u×v)′=u′×v+u×v′",
+      "options": [
+        "Reverse the sign of the displayed identity",
+        "The conclusion follows without differentiability assumptions",
+        "(u×v)′=u′×v+u×v′"
+      ],
+      "explanation": "Differentiate the determinant components without reversing cross-product order.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-46": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "(u(f(t)))′=f′(t)u′(f(t))",
+      "options": [
+        "(u(f(t)))′=f′(t)u′(f(t))",
+        "The conclusion follows without differentiability assumptions",
+        "Reverse the sign of the displayed identity"
+      ],
+      "explanation": "Apply the scalar chain rule to each coordinate.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-51": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "r×r′=ω(a×b)",
+      "options": [
+        "The conclusion follows without differentiability assumptions",
+        "r×r′=ω(a×b)",
+        "Reverse the sign of the displayed identity"
+      ],
+      "explanation": "Expand and use a×a=b×b=0, b×a=−a×b, cos²+sin²=1.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-52": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "r″=−ω²r",
+      "options": [
+        "The conclusion follows without differentiability assumptions",
+        "r″=−ω²r",
+        "Reverse the sign of the displayed identity"
+      ],
+      "explanation": "Differentiate each trigonometric coefficient twice.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-53": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "(r×r′)′=r′×r′+r×r″=r×r″",
+      "options": [
+        "Reverse the sign of the displayed identity",
+        "(r×r′)′=r′×r′+r×r″=r×r″",
+        "The conclusion follows without differentiability assumptions"
+      ],
+      "explanation": "A vector crossed with itself is zero.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-54": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "u′·(v×w)+u·(v′×w)+u·(v×w′)",
+      "options": [
+        "u′·(v×w)+u·(v′×w)+u·(v×w′)",
+        "Reverse the sign of the displayed identity",
+        "The conclusion follows without differentiability assumptions"
+      ],
+      "explanation": "Use the dot-product rule and the cross-product rule.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-55": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "d|r|/dt=(r·r′)/|r|, when |r|>0",
+      "options": [
+        "Reverse the sign of the displayed identity",
+        "The conclusion follows without differentiability assumptions",
+        "d|r|/dt=(r·r′)/|r|, when |r|>0"
+      ],
+      "explanation": "Differentiate |r|²=r·r and divide by2|r|.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-56": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "|r|² is constant, so the curve lies on a sphere centered at0",
+      "options": [
+        "|r|² is constant, so the curve lies on a sphere centered at0",
+        "The conclusion follows without differentiability assumptions",
+        "Reverse the sign of the displayed identity"
+      ],
+      "explanation": "The derivative of |r|² is2r·r′=0 on the parameter interval.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-57": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "u′=r·(r′×r‴)",
+      "options": [
+        "The conclusion follows without differentiability assumptions",
+        "Reverse the sign of the displayed identity",
+        "u′=r·(r′×r‴)"
+      ],
+      "explanation": "Product-rule terms with two equal vectors have zero scalar triple product.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-58": {
+    "grader": {
+      "type": "choice",
+      "label": "Identity / proof conclusion",
+      "answer": "For h>0 the chord points forward; for h<0 both chord and divisor reverse, so the limit still points toward increasing t",
+      "options": [
+        "For h>0 the chord points forward; for h<0 both chord and divisor reverse, so the limit still points toward increasing t",
+        "Reverse the sign of the displayed identity",
+        "The conclusion follows without differentiability assumptions"
+      ],
+      "explanation": "Use the orientation of difference quotients; a unit tangent requires a nonzero derivative.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-47": {
+    "grader": {
+      "type": "choice",
+      "label": "Derivative of u·v",
+      "answer": "2*t*cos(t) - 2*sin(t)*cos(t) + 2*sin(t)",
+      "options": [
+        "2*t*cos(t) - 2*sin(t)*cos(t) + 2*sin(t)",
+        "4*t*cos(t) - 4*sin(t)*cos(t) + 4*sin(t)",
+        "-2*t*cos(t) + 2*sin(t)*cos(t) - 2*sin(t)"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-48": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Derivative of u×v · x",
+          "answer": "t*sin(t) - cos(t) + cos(2*t)",
+          "options": [
+            "-t*sin(t) + cos(t) - cos(2*t)",
+            "t*sin(t) - cos(t) + cos(2*t)",
+            "2*t*sin(t) - 2*cos(t) + 2*cos(2*t)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Derivative of u×v · y",
+          "answer": "2*t - sin(2*t)",
+          "options": [
+            "4*t - 2*sin(2*t)",
+            "2*t - sin(2*t)",
+            "-2*t + sin(2*t)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Derivative of u×v · z",
+          "answer": "t*sin(t) - cos(t) + cos(2*t)",
+          "options": [
+            "2*t*sin(t) - 2*cos(t) + 2*cos(2*t)",
+            "t*sin(t) - cos(t) + cos(2*t)",
+            "-t*sin(t) + cos(t) - cos(2*t)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-49": {
+    "grader": {
+      "type": "numeric",
+      "label": "f′(2)",
+      "answer": 35.0,
+      "unit": "",
+      "tolerance": 3.5e-08,
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  },
+  "calculus-section-13-2-50": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "r′(2) · x",
+          "answer": 12.0,
+          "unit": "",
+          "tolerance": 1.2000000000000002e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "r′(2) · y",
+          "answer": -29.0,
+          "unit": "",
+          "tolerance": 2.9e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "r′(2) · z",
+          "answer": 14.0,
+          "unit": "",
+          "tolerance": 1.4000000000000001e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 13,
+      "pages": [
+        892
+      ]
+    }
+  }
+}

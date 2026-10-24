@@ -1,0 +1,91 @@
+{
+  "questions": {
+    "calculus-chapter-12-problems-plus-1-problems-plus-0": {
+      "pages": [
+        875
+      ],
+      "reasoning": "One corner-ball center is(r,r,r); its distance from cube center(1/2,1/2,1/2) is√3(1/2−r)=2r. The positive solution also keeps distinct corner balls from overlapping.",
+      "limited": false
+    },
+    "calculus-chapter-12-problems-plus-2-problems-plus-0": {
+      "pages": [
+        875
+      ],
+      "reasoning": "Decompose into the original box, six unit-thick face slabs, twelve quarter-cylinder edge pieces, and eight octants totaling one unit ball.",
+      "limited": false
+    },
+    "calculus-chapter-12-problems-plus-3-problems-plus-0": {
+      "pages": [
+        875
+      ],
+      "reasoning": "Solve the two plane equations for x,y in terms of z. Eliminating c gives x²+y²−z²=1. The closure bounds disks of areaπ(1+z²), whose integral from0 to1 is4π/3. The omitted ruling has zero effect on this enclosed volume.",
+      "limited": true
+    },
+    "calculus-chapter-12-problems-plus-4-problems-plus-0": {
+      "pages": [
+        875
+      ],
+      "reasoning": "The ground velocity is160km/h at5° east of north. Subtract the180km/h northward air velocity to obtain wind. To track north, cancel its east component with a westward airplane component.",
+      "limited": false
+    },
+    "calculus-chapter-12-problems-plus-5-problems-plus-0": {
+      "pages": [
+        875
+      ],
+      "reasoning": "The angle cosine is5/(2·3)=5/6. Alternating projections repeatedly multiply lengths by5/6, starting with length3 at n=2. Sum2+3/(1−5/6)=20.",
+      "limited": false
+    },
+    "calculus-chapter-12-problems-plus-6-problems-plus-0": {
+      "pages": [
+        875
+      ],
+      "reasoning": "The containing ball has centerO=(1,2,3), radius5√6, and|P−O|=√6. If a contained sphere throughP has centerC and radiusr, r≤|C−O|+√6 and r+|C−O|≤5√6, hence r≤3√6. Equality is achieved atC=(5,4,1).",
+      "limited": false
+    },
+    "calculus-chapter-12-problems-plus-7-problems-plus-0": {
+      "pages": [
+        875,
+        876
+      ],
+      "reasoning": "Resolve along the incline and normal to it. At incipient downward sliding friction is uphill; at incipient upward sliding it is downhill. The latter solution divides by cosθ−μs sinθ, so the stated finite hmax formula requires this denominator to be positive.",
+      "limited": true
+    },
+    "calculus-chapter-12-problems-plus-8-problems-plus-0": {
+      "pages": [
+        876
+      ],
+      "reasoning": "The maximal set is the intersection of the three projection cylinders. At a given y its width is2√(1/4−y²) and height1−2|y|. Integrating their product over−1/2≤y≤1/2 givesπ/4−1/3. Thin shells can retain all shadows with volume tending to0.",
+      "limited": true
+    }
+  },
+  "checks": [
+    {
+      "label": "PP1 center distance",
+      "residual": "0"
+    },
+    {
+      "label": "PP3 plane1",
+      "residual": "0"
+    },
+    {
+      "label": "PP3 plane2",
+      "residual": "0"
+    },
+    {
+      "label": "PP3 surface",
+      "residual": "0"
+    },
+    {
+      "label": "PP6 through P",
+      "residual": "0"
+    },
+    {
+      "label": "PP6 internal tangent",
+      "residual": "0"
+    },
+    {
+      "label": "PP8 maximal volume",
+      "residual": "0"
+    }
+  ]
+}

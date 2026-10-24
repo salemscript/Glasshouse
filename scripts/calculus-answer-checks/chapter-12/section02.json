@@ -1,0 +1,2139 @@
+{
+  "calculus-section-12-2-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Ticket cost",
+          "answer": "Scalar",
+          "options": [
+            "Scalar",
+            "Vector"
+          ],
+          "selectionPrompt": "Choose the correct (a) Ticket cost.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Magnitude alone gives a scalar; current and flight direction require direction as well."
+        },
+        {
+          "type": "choice",
+          "label": "(b) River current",
+          "answer": "Vector",
+          "options": [
+            "Vector",
+            "Scalar"
+          ],
+          "selectionPrompt": "Choose the correct (b) River current.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Magnitude alone gives a scalar; current and flight direction require direction as well."
+        },
+        {
+          "type": "choice",
+          "label": "(c) Initial flight path",
+          "answer": "Vector",
+          "options": [
+            "Vector",
+            "Scalar"
+          ],
+          "selectionPrompt": "Choose the correct (c) Initial flight path.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Magnitude alone gives a scalar; current and flight direction require direction as well."
+        },
+        {
+          "type": "choice",
+          "label": "(d) Population",
+          "answer": "Scalar",
+          "options": [
+            "Scalar",
+            "Vector"
+          ],
+          "selectionPrompt": "Choose the correct (d) Population.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Magnitude alone gives a scalar; current and flight direction require direction as well."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Relationship",
+      "answer": "The vector is the directed displacement from(0,0) to the point(4,7)",
+      "options": [
+        "The point is a direction with no location",
+        "The vector must start at(4,7)",
+        "The vector is the directed displacement from(0,0) to the point(4,7)"
+      ],
+      "selectionPrompt": "Choose the correct Relationship.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "A point is a location; the same coordinate tuple specifies the position vector from the origin. Translated arrows can represent the same vector.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-3": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Equal displayed vectors",
+      "answer": "AB=DC; DA=CB; DE=EB; CE=EA",
+      "options": [
+        "AB=DC; DA=CB; DE=EB; CE=EA",
+        "AB=CD; DA=BC; DE=BE",
+        "AB=DA; DE=CE"
+      ],
+      "selectionPrompt": "Choose the correct Equal displayed vectors.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Opposite sides of a parallelogram have equal same-direction displacements; its diagonals bisect each other.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-4": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a)",
+          "answer": "AC",
+          "options": [
+            "CA",
+            "AB",
+            "AC"
+          ],
+          "selectionPrompt": "Choose the correct (a).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Write each directed segment XY as Y−X and cancel intermediate endpoints."
+        },
+        {
+          "type": "choice",
+          "label": "(b)",
+          "answer": "CB",
+          "options": [
+            "BC",
+            "CB",
+            "CD"
+          ],
+          "selectionPrompt": "Choose the correct (b).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Write each directed segment XY as Y−X and cancel intermediate endpoints."
+        },
+        {
+          "type": "choice",
+          "label": "(c)",
+          "answer": "DA",
+          "options": [
+            "DB",
+            "AD",
+            "DA"
+          ],
+          "selectionPrompt": "Choose the correct (c).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Write each directed segment XY as Y−X and cancel intermediate endpoints."
+        },
+        {
+          "type": "choice",
+          "label": "(d)",
+          "answer": "DB",
+          "options": [
+            "BD",
+            "DB",
+            "CA"
+          ],
+          "selectionPrompt": "Choose the correct (d).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Write each directed segment XY as Y−X and cancel intermediate endpoints."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-5": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "u+v head-to-tail construction",
+          "answer": "1 times u, same direction. Then 1 times v, same direction. ",
+          "options": [
+            "All arrows must start at the same tail and their heads are joined",
+            "1 times u, same direction. Then 1 times v, same direction. ",
+            "Reverse every listed arrow without changing its length"
+          ],
+          "selectionPrompt": "Choose the correct u+v head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "u+w head-to-tail construction",
+          "answer": "1 times u, same direction. Then 1 times w, same direction. ",
+          "options": [
+            "All arrows must start at the same tail and their heads are joined",
+            "1 times u, same direction. Then 1 times w, same direction. ",
+            "Reverse every listed arrow without changing its length"
+          ],
+          "selectionPrompt": "Choose the correct u+w head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "v+w head-to-tail construction",
+          "answer": "1 times v, same direction. Then 1 times w, same direction. ",
+          "options": [
+            "Reverse every listed arrow without changing its length",
+            "1 times v, same direction. Then 1 times w, same direction. ",
+            "All arrows must start at the same tail and their heads are joined"
+          ],
+          "selectionPrompt": "Choose the correct v+w head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "u−v head-to-tail construction",
+          "answer": "1 times u, same direction. Then 1 times v, opposite direction. ",
+          "options": [
+            "All arrows must start at the same tail and their heads are joined",
+            "Reverse every listed arrow without changing its length",
+            "1 times u, same direction. Then 1 times v, opposite direction. "
+          ],
+          "selectionPrompt": "Choose the correct u−v head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "v+u+w head-to-tail construction",
+          "answer": "1 times u, same direction. Then 1 times v, same direction. Then 1 times w, same direction. ",
+          "options": [
+            "1 times u, same direction. Then 1 times v, same direction. Then 1 times w, same direction. ",
+            "Reverse every listed arrow without changing its length",
+            "All arrows must start at the same tail and their heads are joined"
+          ],
+          "selectionPrompt": "Choose the correct v+u+w head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "u−w−v head-to-tail construction",
+          "answer": "1 times u, same direction. Then 1 times v, opposite direction. Then 1 times w, opposite direction. ",
+          "options": [
+            "1 times u, same direction. Then 1 times v, opposite direction. Then 1 times w, opposite direction. ",
+            "Reverse every listed arrow without changing its length",
+            "All arrows must start at the same tail and their heads are joined"
+          ],
+          "selectionPrompt": "Choose the correct u−w−v head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-6": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a+b head-to-tail construction",
+          "answer": "1 times a, same direction. Then 1 times b, same direction. ",
+          "options": [
+            "1 times a, same direction. Then 1 times b, same direction. ",
+            "Reverse every listed arrow without changing its length",
+            "All arrows must start at the same tail and their heads are joined"
+          ],
+          "selectionPrompt": "Choose the correct a+b head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "a−b head-to-tail construction",
+          "answer": "1 times a, same direction. Then 1 times b, opposite direction. ",
+          "options": [
+            "1 times a, same direction. Then 1 times b, opposite direction. ",
+            "All arrows must start at the same tail and their heads are joined",
+            "Reverse every listed arrow without changing its length"
+          ],
+          "selectionPrompt": "Choose the correct a−b head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "a/2 head-to-tail construction",
+          "answer": "0.5 times a, same direction. ",
+          "options": [
+            "0.5 times a, same direction. ",
+            "All arrows must start at the same tail and their heads are joined",
+            "Reverse every listed arrow without changing its length"
+          ],
+          "selectionPrompt": "Choose the correct a/2 head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "−3b head-to-tail construction",
+          "answer": "3 times b, opposite direction. ",
+          "options": [
+            "Reverse every listed arrow without changing its length",
+            "All arrows must start at the same tail and their heads are joined",
+            "3 times b, opposite direction. "
+          ],
+          "selectionPrompt": "Choose the correct −3b head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "a+2b head-to-tail construction",
+          "answer": "1 times a, same direction. Then 2 times b, same direction. ",
+          "options": [
+            "1 times a, same direction. Then 2 times b, same direction. ",
+            "Reverse every listed arrow without changing its length",
+            "All arrows must start at the same tail and their heads are joined"
+          ],
+          "selectionPrompt": "Choose the correct a+2b head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        },
+        {
+          "type": "choice",
+          "label": "2b−a head-to-tail construction",
+          "answer": "1 times a, opposite direction. Then 2 times b, same direction. ",
+          "options": [
+            "All arrows must start at the same tail and their heads are joined",
+            "Reverse every listed arrow without changing its length",
+            "1 times a, opposite direction. Then 2 times b, same direction. "
+          ],
+          "selectionPrompt": "Choose the correct 2b−a head-to-tail construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Construct each scaled arrow in the indicated direction, place successive tails at preceding heads, and draw the resultant from the initial tail to the final head. These checks assess the construction recipe rather than the finished drawing."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-7": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "c",
+          "answer": "(a+b)/2",
+          "options": [
+            "a+b",
+            "(a−b)/2",
+            "(a+b)/2"
+          ],
+          "selectionPrompt": "Choose the correct c.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Take P as origin: Q=a,R=b and midpoint M=(a+b)/2. Thus PM=c and MR=b−M=d."
+        },
+        {
+          "type": "choice",
+          "label": "d",
+          "answer": "(b−a)/2",
+          "options": [
+            "(b−a)/2",
+            "a+b",
+            "(a−b)/2"
+          ],
+          "selectionPrompt": "Choose the correct d.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Take P as origin: Q=a,R=b and midpoint M=(a+b)/2. Thus PM=c and MR=b−M=d."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-8": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "|w|",
+      "answer": 1.4142135623730951,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "w=−(u+v); perpendicular unit vectors have sum length√2.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-9": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "AB x",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        },
+        {
+          "type": "numeric",
+          "label": "AB y",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-10": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "AB x",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        },
+        {
+          "type": "numeric",
+          "label": "AB y",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-11": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "AB x",
+          "answer": -1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        },
+        {
+          "type": "numeric",
+          "label": "AB y",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-12": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "AB x",
+          "answer": -2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        },
+        {
+          "type": "numeric",
+          "label": "AB y",
+          "answer": -2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-13": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "AB x",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        },
+        {
+          "type": "numeric",
+          "label": "AB y",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        },
+        {
+          "type": "numeric",
+          "label": "AB z",
+          "answer": -2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-14": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "AB x",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        },
+        {
+          "type": "numeric",
+          "label": "AB y",
+          "answer": -2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        },
+        {
+          "type": "numeric",
+          "label": "AB z",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract initial coordinates from terminal coordinates. The equivalent arrow from the origin ends at this difference tuple."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-15": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Sum x",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        },
+        {
+          "type": "numeric",
+          "label": "Sum y",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-16": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Sum x",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        },
+        {
+          "type": "numeric",
+          "label": "Sum y",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-17": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Sum x",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        },
+        {
+          "type": "numeric",
+          "label": "Sum y",
+          "answer": 8.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        },
+        {
+          "type": "numeric",
+          "label": "Sum z",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-18": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Sum x",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        },
+        {
+          "type": "numeric",
+          "label": "Sum y",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        },
+        {
+          "type": "numeric",
+          "label": "Sum z",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add corresponding components; place the second arrow at the head of the first."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-19": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a+b x",
+          "answer": 6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "a+b y",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b x",
+          "answer": 6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b y",
+          "answer": 14.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "|a|",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "|a−b|",
+          "answer": 13.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-20": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a+b x",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "a+b y",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b x",
+          "answer": 18.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b y",
+          "answer": 8.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "|a|",
+          "answer": 5.830951894845301,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "|a−b|",
+          "answer": 7.810249675906654,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-21": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a+b x",
+          "answer": 6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "a+b y",
+          "answer": -3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "a+b z",
+          "answer": -2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b x",
+          "answer": 20.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b y",
+          "answer": -12.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b z",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "|a|",
+          "answer": 5.385164807134504,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "|a−b|",
+          "answer": 7.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 8,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-22": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a+b x",
+          "answer": 13.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "a+b y",
+          "answer": -1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "a+b z",
+          "answer": -3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b x",
+          "answer": 42.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b y",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "4a+2b z",
+          "answer": -14.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "|a|",
+          "answer": 9.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        },
+        {
+          "type": "numeric",
+          "label": "|a−b|",
+          "answer": 6.557438524302,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add and scale componentwise; magnitudes are square roots of sums of component squares."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 8,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-23": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Requested vector x",
+          "answer": 0.9486832980505138,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        },
+        {
+          "type": "numeric",
+          "label": "Requested vector y",
+          "answer": -0.31622776601683794,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-24": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Requested vector x",
+          "answer": -0.8451542547285166,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        },
+        {
+          "type": "numeric",
+          "label": "Requested vector y",
+          "answer": 0.50709255283711,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        },
+        {
+          "type": "numeric",
+          "label": "Requested vector z",
+          "answer": -0.1690308509457033,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-25": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Requested vector x",
+          "answer": 0.8888888888888888,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        },
+        {
+          "type": "numeric",
+          "label": "Requested vector y",
+          "answer": -0.1111111111111111,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        },
+        {
+          "type": "numeric",
+          "label": "Requested vector z",
+          "answer": 0.4444444444444444,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-26": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Requested vector x",
+          "answer": 3.4285714285714284,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        },
+        {
+          "type": "numeric",
+          "label": "Requested vector y",
+          "answer": 1.1428571428571428,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        },
+        {
+          "type": "numeric",
+          "label": "Requested vector z",
+          "answer": -1.7142857142857142,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Divide by the positive norm to preserve direction, then multiply by the requested length."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-27": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Angle",
+      "answer": 60.0,
+      "tolerance": 1e-07,
+      "unit": "degrees",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "cosθ=1/√(1+3)=1/2 and the vector lies in the first quadrant.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-28": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Angle",
+      "answer": 36.86989764584402,
+      "tolerance": 0.005,
+      "unit": "degrees",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The first-quadrant angle is arctan(6/8).",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-29": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "v x",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Resolve magnitude4 atπ/3 into4cos(π/3),4sin(π/3)."
+        },
+        {
+          "type": "numeric",
+          "label": "v y",
+          "answer": 3.4641016151377544,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Resolve magnitude4 atπ/3 into4cos(π/3),4sin(π/3)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-30": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Horizontal component",
+          "answer": 39.40053768033609,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The angle is measured above horizontal, so horizontal=magnitude·cosθ and vertical=magnitude·sinθ."
+        },
+        {
+          "type": "numeric",
+          "label": "Vertical component",
+          "answer": 30.783073766282914,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The angle is measured above horizontal, so horizontal=magnitude·cosθ and vertical=magnitude·sinθ."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-31": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Horizontal component",
+          "answer": 45.96266658713868,
+          "tolerance": 0.005,
+          "unit": "ft/s",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The angle is measured above horizontal, so horizontal=magnitude·cosθ and vertical=magnitude·sinθ."
+        },
+        {
+          "type": "numeric",
+          "label": "Vertical component",
+          "answer": 38.56725658119235,
+          "tolerance": 0.005,
+          "unit": "ft/s",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The angle is measured above horizontal, so horizontal=magnitude·cosθ and vertical=magnitude·sinθ."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-32": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Resultant magnitude",
+          "answer": 28.66433653280001,
+          "tolerance": 0.005,
+          "unit": "lb",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add horizontal and vertical components before finding magnitude and the quadrant-correct atan2 angle."
+        },
+        {
+          "type": "numeric",
+          "label": "Angle counterclockwise from +x",
+          "answer": 12.373170399509261,
+          "tolerance": 0.005,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add horizontal and vertical components before finding magnitude and the quadrant-correct atan2 angle."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-33": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Resultant magnitude",
+          "answer": 264.5751311064591,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add horizontal and vertical components before finding magnitude and the quadrant-correct atan2 angle."
+        },
+        {
+          "type": "numeric",
+          "label": "Angle counterclockwise from +x",
+          "answer": 139.1066053508691,
+          "tolerance": 0.005,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Add horizontal and vertical components before finding magnitude and the quadrant-correct atan2 angle."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-34": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "True course: degrees east of north",
+          "answer": 70.40792513367211,
+          "tolerance": 0.005,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Wind FROM northwest blows southeast. Add its positive east and negative north components to the airplane air velocity."
+        },
+        {
+          "type": "numeric",
+          "label": "Ground speed",
+          "answer": 267.3396269309191,
+          "tolerance": 0.005,
+          "unit": "km/h",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Wind FROM northwest blows southeast. Add its positive east and negative north components to the airplane air velocity."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-35": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Speed",
+          "answer": 22.20360331117452,
+          "tolerance": 0.005,
+          "unit": "mi/h",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The velocity relative to water is(−3,22) in east,north coordinates."
+        },
+        {
+          "type": "numeric",
+          "label": "Direction: degrees west of north",
+          "answer": 7.765166018425333,
+          "tolerance": 0.005,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The velocity relative to water is(−3,22) in east,north coordinates."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-36": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Left-end cable x",
+          "answer": 144.33756729740645,
+          "tolerance": 0.005,
+          "unit": "lb",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Forces ON the beam point upward toward the hook. Vertical components share500lb equally; each cable is60° above the beam."
+        },
+        {
+          "type": "numeric",
+          "label": "Left-end cable y",
+          "answer": 250.0,
+          "tolerance": 0.005,
+          "unit": "lb",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Forces ON the beam point upward toward the hook. Vertical components share500lb equally; each cable is60° above the beam."
+        },
+        {
+          "type": "numeric",
+          "label": "Right-end cable x",
+          "answer": -144.33756729740645,
+          "tolerance": 0.005,
+          "unit": "lb",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Forces ON the beam point upward toward the hook. Vertical components share500lb equally; each cable is60° above the beam."
+        },
+        {
+          "type": "numeric",
+          "label": "Right-end cable y",
+          "answer": 250.0,
+          "tolerance": 0.005,
+          "unit": "lb",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Forces ON the beam point upward toward the hook. Vertical components share500lb equally; each cable is60° above the beam."
+        },
+        {
+          "type": "numeric",
+          "label": "Each magnitude",
+          "answer": 288.6751345948129,
+          "tolerance": 0.005,
+          "unit": "lb",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Forces ON the beam point upward toward the hook. Vertical components share500lb equally; each cable is60° above the beam."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-37": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "2m rope tension magnitude",
+          "answer": 275.9718783741476,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Horizontal forces cancel and vertical components sum to350N; lengths do not enter this static equilibrium once angles are given."
+        },
+        {
+          "type": "numeric",
+          "label": "3m rope tension magnitude",
+          "answer": 225.112796023282,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Horizontal forces cancel and vertical components sum to350N; lengths do not enter this static equilibrium once angles are given."
+        },
+        {
+          "type": "numeric",
+          "label": "2m rope x component",
+          "answer": -177.3913040408227,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Horizontal forces cancel and vertical components sum to350N; lengths do not enter this static equilibrium once angles are given."
+        },
+        {
+          "type": "numeric",
+          "label": "2m rope y component",
+          "answer": 211.40672388562223,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Horizontal forces cancel and vertical components sum to350N; lengths do not enter this static equilibrium once angles are given."
+        },
+        {
+          "type": "numeric",
+          "label": "3m rope x component",
+          "answer": 177.39130404082272,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Horizontal forces cancel and vertical components sum to350N; lengths do not enter this static equilibrium once angles are given."
+        },
+        {
+          "type": "numeric",
+          "label": "3m rope y component",
+          "answer": 138.59327611437777,
+          "tolerance": 0.005,
+          "unit": "N",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Horizontal forces cancel and vertical components sum to350N; lengths do not enter this static equilibrium once angles are given."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-38": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Weight",
+      "answer": 30.090751157602412,
+      "tolerance": 0.005,
+      "unit": "N",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Two equal upward tension components25sin37° balance the chain weight.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-39": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) Steering upstream from straight across",
+          "answer": 46.63494512870542,
+          "tolerance": 0.005,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "With upstream positive, boat velocity relative to water is(3/t,2/t+3.5). Set its squared norm to13², take positive t, then compute the steering angle."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) Trip time",
+          "answer": 20.16496031926125,
+          "tolerance": 0.005,
+          "unit": "minutes",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "With upstream positive, boat velocity relative to water is(3/t,2/t+3.5). Set its squared norm to13², take positive t, then compute the steering angle."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-40": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Counterbalancing force magnitude",
+      "answer": 26.092356992035846,
+      "tolerance": 0.005,
+      "unit": "N",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The in-plane resultant squared uses the cosine dot-product term; add the perpendicular force squared. Negation leaves magnitude unchanged.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-41": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Both unit vectors",
+      "answer": "±(1,4)/√17",
+      "options": [
+        "±(1,2)/√5",
+        "±(1,4)/√17",
+        "±(4,1)/√17"
+      ],
+      "selectionPrompt": "Choose the correct Both unit vectors.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Tangent slope atx=2 is4; normalize(1,4).",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-42": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Tangent unit vectors",
+          "answer": "±(1/2,√3/2)",
+          "options": [
+            "±(1/2,√3/2)",
+            "±(√3/2,1/2)",
+            "±(1,√3)"
+          ],
+          "selectionPrompt": "Choose the correct (a) Tangent unit vectors.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The slope2cos(π/6)=√3 determines the tangent. Rotate a unit tangent by90° to get a unit normal."
+        },
+        {
+          "type": "choice",
+          "label": "(b) Normal unit vectors",
+          "answer": "±(−√3/2,1/2)",
+          "options": [
+            "±(−1,√3)",
+            "±(−√3/2,1/2)",
+            "±(1/2,√3/2)"
+          ],
+          "selectionPrompt": "Choose the correct (b) Normal unit vectors.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The slope2cos(π/6)=√3 determines the tangent. Rotate a unit tangent by90° to get a unit normal."
+        },
+        {
+          "type": "choice",
+          "label": "(c) Common starting point",
+          "answer": "(π/6,1)",
+          "options": [
+            "(π/6,1)",
+            "(π/3,1)",
+            "(0,0)"
+          ],
+          "selectionPrompt": "Choose the correct (c) Common starting point.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The slope2cos(π/6)=√3 determines the tangent. Rotate a unit tangent by90° to get a unit normal."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-43": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Sum",
+      "answer": "Zero vector",
+      "options": [
+        "AB",
+        "AC",
+        "Zero vector"
+      ],
+      "selectionPrompt": "Choose the correct Sum.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "(B−A)+(C−B)+(A−C)=0.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-44": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Position vector",
+          "answer": "c=(2a+b)/3",
+          "options": [
+            "c=(2a+b)/3",
+            "c=(a+b)/2",
+            "c=(a+2b)/3"
+          ],
+          "selectionPrompt": "Choose the correct Position vector.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Twice as far from B as from A means AC:CB=1:2. Thus c=a+(b−a)/3."
+        },
+        {
+          "type": "choice",
+          "label": "Displacement ratio",
+          "answer": "AC=AB/3 and CB=2AB/3",
+          "options": [
+            "AC=2AB/3",
+            "C is the midpoint",
+            "AC=AB/3 and CB=2AB/3"
+          ],
+          "selectionPrompt": "Choose the correct Displacement ratio.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Twice as far from B as from A means AC:CB=1:2. Thus c=a+(b−a)/3."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-45": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(c,d) s",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Solve3s+2t=7 and2s−t=1; s=1,t=2. The head-to-tail construction uses one a and two b arrows."
+        },
+        {
+          "type": "numeric",
+          "label": "(c,d) t",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Solve3s+2t=7 and2s−t=1; s=1,t=2. The head-to-tail construction uses one a and two b arrows."
+        },
+        {
+          "type": "choice",
+          "label": "(a,b) Component identity",
+          "answer": "(7,1)=(3,2)+2(2,−1)",
+          "options": [
+            "(7,1)=(3,2)+(2,−1)",
+            "(7,1)=(3,2)+2(2,−1)",
+            "(7,1)=2(3,2)+(2,−1)"
+          ],
+          "selectionPrompt": "Choose the correct (a,b) Component identity.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Solve3s+2t=7 and2s−t=1; s=1,t=2. The head-to-tail construction uses one a and two b arrows."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-46": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Geometric construction",
+          "answer": "Resolve c along the two nonparallel side directions of a parallelogram",
+          "options": [
+            "Only perpendicular vectors can span a plane",
+            "Every c must be a scalar multiple of a",
+            "Resolve c along the two nonparallel side directions of a parallelogram"
+          ],
+          "selectionPrompt": "Choose the correct Geometric construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Nonparallel nonzero vectors form a basis of their plane; invertibility gives existence and uniqueness."
+        },
+        {
+          "type": "choice",
+          "label": "Component justification",
+          "answer": "The 2×2 coordinate matrix with columns a,b has nonzero determinant, so its system for s,t has a unique solution",
+          "options": [
+            "The 2×2 coordinate matrix with columns a,b has nonzero determinant, so its system for s,t has a unique solution",
+            "The determinant is always zero",
+            "Set s=t=1 for all c"
+          ],
+          "selectionPrompt": "Choose the correct Component justification.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Nonparallel nonzero vectors form a basis of their plane; invertibility gives existence and uniqueness."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-47": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Set",
+      "answer": "Sphere surface of radius1 centered at(x₀,y₀,z₀)",
+      "options": [
+        "Solid unit ball centered at origin",
+        "Sphere surface of radius1 centered at(x₀,y₀,z₀)",
+        "Plane through r₀"
+      ],
+      "selectionPrompt": "Choose the correct Set.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The norm is Euclidean distance to the given center.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-48": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Set",
+      "answer": "Ellipse with foci r₁,r₂ and major-axis length k; a circle if the foci coincide",
+      "options": [
+        "Hyperbola with transverse-axis length k",
+        "Line segment between the foci",
+        "Ellipse with foci r₁,r₂ and major-axis length k; a circle if the foci coincide"
+      ],
+      "selectionPrompt": "Choose the correct Set.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The sum of the focal distances is fixed and exceeds the interfocus distance.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-49": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Property2 identity",
+          "answer": "(u+v)+w=u+(v+w)",
+          "options": [
+            "(u+v)+w=u+(v+w)",
+            "u+v=u−v",
+            "u+v=u·v"
+          ],
+          "selectionPrompt": "Choose the correct Property2 identity.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply associativity of real addition independently in each coordinate."
+        },
+        {
+          "type": "choice",
+          "label": "Component proof",
+          "answer": "Both sides have components(u₁+v₁+w₁,u₂+v₂+w₂)",
+          "options": [
+            "Only lengths need to match",
+            "The components multiply",
+            "Both sides have components(u₁+v₁+w₁,u₂+v₂+w₂)"
+          ],
+          "selectionPrompt": "Choose the correct Component proof.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply associativity of real addition independently in each coordinate."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-50": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Property5 identity",
+          "answer": "c(u+v)=cu+cv",
+          "options": [
+            "c(u+v)=cu+v",
+            "c(u+v)=u+cv",
+            "c(u+v)=cu+cv"
+          ],
+          "selectionPrompt": "Choose the correct Property5 identity.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Real distributivity proves the component identity; dilation or reflection of the vector triangle proves the geometry."
+        },
+        {
+          "type": "choice",
+          "label": "Algebra/geometric reason",
+          "answer": "Distribute c in every coordinate; similar triangles scale lengths by|c|, with direction reversal if c<0",
+          "options": [
+            "Distribute c in every coordinate; similar triangles scale lengths by|c|, with direction reversal if c<0",
+            "Vector direction never changes under a negative scalar",
+            "Only positive c is allowed"
+          ],
+          "selectionPrompt": "Choose the correct Algebra/geometric reason.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Real distributivity proves the component identity; dilation or reflection of the vector triangle proves the geometry."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-51": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Midpoint joining vector",
+          "answer": "(C−B)/2 for midpoints of AB and AC",
+          "options": [
+            "(C−B)/2 for midpoints of AB and AC",
+            "(B−C)/3",
+            "C−B"
+          ],
+          "selectionPrompt": "Choose the correct Midpoint joining vector.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract(A+B)/2 from(A+C)/2; A cancels."
+        },
+        {
+          "type": "choice",
+          "label": "Conclusion",
+          "answer": "Parallel to BC and half its length",
+          "options": [
+            "Perpendicular to BC",
+            "Same length as BC",
+            "Parallel to BC and half its length"
+          ],
+          "selectionPrompt": "Choose the correct Conclusion.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract(A+B)/2 from(A+C)/2; A cancels."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-2-52": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "After xz reflection",
+          "answer": "(a₁,−a₂,a₃)",
+          "options": [
+            "(a₁,−a₂,a₃)",
+            "(a₁,a₂,−a₃)",
+            "(−a₁,a₂,a₃)"
+          ],
+          "selectionPrompt": "Choose the correct After xz reflection.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Each mirror reverses its normal component and preserves tangential components. Three perpendicular mirrors reverse all three components."
+        },
+        {
+          "type": "choice",
+          "label": "After all three mirrors",
+          "answer": "−a=(−a₁,−a₂,−a₃), antiparallel to initial ray",
+          "options": [
+            "Zero vector",
+            "a unchanged",
+            "−a=(−a₁,−a₂,−a₃), antiparallel to initial ray"
+          ],
+          "selectionPrompt": "Choose the correct After all three mirrors.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Each mirror reverses its normal component and preserves tangential components. Three perpendicular mirrors reverse all three components."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  }
+}

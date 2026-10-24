@@ -1,0 +1,3637 @@
+{
+  "calculus-section-10-3-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a Cartesian x",
+          "answer": 0.7071067811865476,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a Cartesian y",
+          "answer": 0.7071067811865476,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a another positive-r pair",
+          "answer": "(1,9*pi/4)",
+          "options": [
+            "−((1,9*pi/4))",
+            "(1,9*pi/4)",
+            "2((1,9*pi/4))"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a another negative-r pair",
+          "answer": "(-1,5*pi/4)",
+          "options": [
+            "(-1,5*pi/4)",
+            "−((-1,5*pi/4))",
+            "2((-1,5*pi/4))"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b Cartesian x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b Cartesian y",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b another positive-r pair",
+          "answer": "(2,5*pi/2)",
+          "options": [
+            "−((2,5*pi/2))",
+            "2((2,5*pi/2))",
+            "(2,5*pi/2)"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b another negative-r pair",
+          "answer": "(-2,7*pi/2)",
+          "options": [
+            "−((-2,7*pi/2))",
+            "2((-2,7*pi/2))",
+            "(-2,7*pi/2)"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c Cartesian x",
+          "answer": 1.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c Cartesian y",
+          "answer": -2.598076211353316,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c another positive-r pair",
+          "answer": "(3,5*pi/3)",
+          "options": [
+            "2((3,5*pi/3))",
+            "(3,5*pi/3)",
+            "−((3,5*pi/3))"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c another negative-r pair",
+          "answer": "(-3,2*pi/3)",
+          "options": [
+            "2((-3,2*pi/3))",
+            "(-3,2*pi/3)",
+            "−((-3,2*pi/3))"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 12,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a Cartesian x",
+          "answer": -1.7320508075688772,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a Cartesian y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a another positive-r pair",
+          "answer": "(2,17*pi/6)",
+          "options": [
+            "−((2,17*pi/6))",
+            "(2,17*pi/6)",
+            "2((2,17*pi/6))"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a another negative-r pair",
+          "answer": "(-2,11*pi/6)",
+          "options": [
+            "(-2,11*pi/6)",
+            "−((-2,11*pi/6))",
+            "2((-2,11*pi/6))"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b Cartesian x",
+          "answer": -0.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b Cartesian y",
+          "answer": -0.8660254037844386,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b another positive-r pair",
+          "answer": "(1,4*pi/3)",
+          "options": [
+            "2((1,4*pi/3))",
+            "(1,4*pi/3)",
+            "−((1,4*pi/3))"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b another negative-r pair",
+          "answer": "(-1,pi/3)",
+          "options": [
+            "−((-1,pi/3))",
+            "(-1,pi/3)",
+            "2((-1,pi/3))"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c Cartesian x",
+          "answer": 0.7071067811865476,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c Cartesian y",
+          "answer": 0.7071067811865476,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c another positive-r pair",
+          "answer": "(1,9*pi/4)",
+          "options": [
+            "2((1,9*pi/4))",
+            "−((1,9*pi/4))",
+            "(1,9*pi/4)"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c another negative-r pair",
+          "answer": "(-1,13*pi/4)",
+          "options": [
+            "(-1,13*pi/4)",
+            "−((-1,13*pi/4))",
+            "2((-1,13*pi/4))"
+          ],
+          "explanation": "Usex=rcosθ,y=rsinθ. Adding2π preserves coordinates; negatingr and addingπ also preserves them. The selected pairs are representatives of infinitely many equivalent pairs.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 12,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a y",
+          "answer": -2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b x",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b y",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c x",
+          "answer": -0.8660254037844386,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c y",
+          "answer": 0.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a x",
+          "answer": -2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a y",
+          "answer": -3.4641016151377544,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b x",
+          "answer": 1.4142135623730951,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b y",
+          "answer": -1.4142135623730951,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c x",
+          "answer": -1.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c y",
+          "answer": 2.598076211353316,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Multiply the signed radius by cosine and sine. Negative radius places the point opposite the angle ray.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a positive r pair",
+          "answer": "(4√2,3π/4)",
+          "options": [
+            "2((4√2,3π/4))",
+            "−((4√2,3π/4))",
+            "(4√2,3π/4)"
+          ],
+          "explanation": "Use radius√(x²+y²), choose the correct quadrant, and shift the negative-radius angle byπ modulo2π. All listed angles satisfy0≤θ<2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a negative r pair",
+          "answer": "(−4√2,7π/4)",
+          "options": [
+            "(−4√2,7π/4)",
+            "−((−4√2,7π/4))",
+            "2((−4√2,7π/4))"
+          ],
+          "explanation": "Use radius√(x²+y²), choose the correct quadrant, and shift the negative-radius angle byπ modulo2π. All listed angles satisfy0≤θ<2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b positive r pair",
+          "answer": "(6,π/3)",
+          "options": [
+            "2((6,π/3))",
+            "(6,π/3)",
+            "−((6,π/3))"
+          ],
+          "explanation": "Use radius√(x²+y²), choose the correct quadrant, and shift the negative-radius angle byπ modulo2π. All listed angles satisfy0≤θ<2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b negative r pair",
+          "answer": "(−6,4π/3)",
+          "options": [
+            "2((−6,4π/3))",
+            "−((−6,4π/3))",
+            "(−6,4π/3)"
+          ],
+          "explanation": "Use radius√(x²+y²), choose the correct quadrant, and shift the negative-radius angle byπ modulo2π. All listed angles satisfy0≤θ<2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a positive r pair",
+          "answer": "(2,11π/6)",
+          "options": [
+            "(2,11π/6)",
+            "−((2,11π/6))",
+            "2((2,11π/6))"
+          ],
+          "explanation": "Use radius√(x²+y²), choose the correct quadrant, and shift the negative-radius angle byπ modulo2π. All listed angles satisfy0≤θ<2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a negative r pair",
+          "answer": "(−2,5π/6)",
+          "options": [
+            "−((−2,5π/6))",
+            "2((−2,5π/6))",
+            "(−2,5π/6)"
+          ],
+          "explanation": "Use radius√(x²+y²), choose the correct quadrant, and shift the negative-radius angle byπ modulo2π. All listed angles satisfy0≤θ<2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b positive r pair",
+          "answer": "(6,π)",
+          "options": [
+            "(6,π)",
+            "−((6,π))",
+            "2((6,π))"
+          ],
+          "explanation": "Use radius√(x²+y²), choose the correct quadrant, and shift the negative-radius angle byπ modulo2π. All listed angles satisfy0≤θ<2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b negative r pair",
+          "answer": "(−6,0)",
+          "options": [
+            "2((−6,0))",
+            "(−6,0)",
+            "−((−6,0))"
+          ],
+          "explanation": "Use radius√(x²+y²), choose the correct quadrant, and shift the negative-radius angle byπ modulo2π. All listed angles satisfy0≤θ<2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-7": {
+    "grader": {
+      "type": "choice",
+      "label": "Region with boundary conventions",
+      "answer": "Outside or on the unit circle: x²+y²≥1",
+      "options": [
+        "Outside or on the unit circle: x²+y²≥1",
+        "2(Outside or on the unit circle: x²+y²≥1)",
+        "−(Outside or on the unit circle: x²+y²≥1)"
+      ],
+      "explanation": "Translate both radial bounds and angular bounds, preserving strict versus inclusive inequalities from the source.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-8": {
+    "grader": {
+      "type": "choice",
+      "label": "Region with boundary conventions",
+      "answer": "Third-quadrant quarter-disk x≤0,y≤0,x²+y²<4; axes and origin included, circular arc excluded",
+      "options": [
+        "−(Third-quadrant quarter-disk x≤0,y≤0,x²+y²<4; axes and origin included, circular arc excluded)",
+        "Third-quadrant quarter-disk x≤0,y≤0,x²+y²<4; axes and origin included, circular arc excluded",
+        "2(Third-quadrant quarter-disk x≤0,y≤0,x²+y²<4; axes and origin included, circular arc excluded)"
+      ],
+      "explanation": "Translate both radial bounds and angular bounds, preserving strict versus inclusive inequalities from the source.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-9": {
+    "grader": {
+      "type": "choice",
+      "label": "Region with boundary conventions",
+      "answer": "Closed upward wedge y≥|x|, including the origin",
+      "options": [
+        "Closed upward wedge y≥|x|, including the origin",
+        "2(Closed upward wedge y≥|x|, including the origin)",
+        "−(Closed upward wedge y≥|x|, including the origin)"
+      ],
+      "explanation": "Translate both radial bounds and angular bounds, preserving strict versus inclusive inequalities from the source.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-10": {
+    "grader": {
+      "type": "choice",
+      "label": "Region with boundary conventions",
+      "answer": "Annular upper sector1≤r≤3, π/6<θ<5π/6; circular arcs included, bounding rays excluded",
+      "options": [
+        "−(Annular upper sector1≤r≤3, π/6<θ<5π/6; circular arcs included, bounding rays excluded)",
+        "Annular upper sector1≤r≤3, π/6<θ<5π/6; circular arcs included, bounding rays excluded",
+        "2(Annular upper sector1≤r≤3, π/6<θ<5π/6; circular arcs included, bounding rays excluded)"
+      ],
+      "explanation": "Translate both radial bounds and angular bounds, preserving strict versus inclusive inequalities from the source.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-11": {
+    "grader": {
+      "type": "choice",
+      "label": "Region with boundary conventions",
+      "answer": "Right-facing annular sector2<r<3, −π/3≤θ≤π/3; bounding rays included, circles excluded",
+      "options": [
+        "2(Right-facing annular sector2<r<3, −π/3≤θ≤π/3; bounding rays included, circles excluded)",
+        "Right-facing annular sector2<r<3, −π/3≤θ≤π/3; bounding rays included, circles excluded",
+        "−(Right-facing annular sector2<r<3, −π/3≤θ≤π/3; bounding rays included, circles excluded)"
+      ],
+      "explanation": "Translate both radial bounds and angular bounds, preserving strict versus inclusive inequalities from the source.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-12": {
+    "grader": {
+      "type": "choice",
+      "label": "Region with boundary conventions",
+      "answer": "Closed lower exterior half-plane regiony≤0,x²+y²≥1",
+      "options": [
+        "−(Closed lower exterior half-plane regiony≤0,x²+y²≥1)",
+        "2(Closed lower exterior half-plane regiony≤0,x²+y²≥1)",
+        "Closed lower exterior half-plane regiony≤0,x²+y²≥1"
+      ],
+      "explanation": "Translate both radial bounds and angular bounds, preserving strict versus inclusive inequalities from the source.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-13": {
+    "grader": {
+      "type": "numeric",
+      "label": "Distance",
+      "answer": 5.291502622129181,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "The angular difference isπ/3; the cosine rule givesd²=4²+6²−2·4·6cos(π/3)=28.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-14": {
+    "grader": {
+      "type": "choice",
+      "label": "Distance formula",
+      "answer": "√[r₁²+r₂²−2r₁r₂cos(θ₁−θ₂)]",
+      "options": [
+        "2(√[r₁²+r₂²−2r₁r₂cos(θ₁−θ₂)])",
+        "−(√[r₁²+r₂²−2r₁r₂cos(θ₁−θ₂)])",
+        "√[r₁²+r₂²−2r₁r₂cos(θ₁−θ₂)]"
+      ],
+      "explanation": "Expand the squared Cartesian coordinate differences and usecos(θ₁−θ₂)=cosθ₁cosθ₂+sinθ₁sinθ₂. The formula also works for signed radii.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cartesian equation",
+          "answer": "x²+y²=5",
+          "options": [
+            "2(x²+y²=5)",
+            "x²+y²=5",
+            "−(x²+y²=5)"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Identification",
+          "answer": "Circle centered(0,0), radius√5",
+          "options": [
+            "Circle centered(0,0), radius√5",
+            "2(Circle centered(0,0), radius√5)",
+            "−(Circle centered(0,0), radius√5)"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-16": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cartesian equation",
+          "answer": "x=4",
+          "options": [
+            "−(x=4)",
+            "x=4",
+            "2(x=4)"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Identification",
+          "answer": "Vertical line",
+          "options": [
+            "−(Vertical line)",
+            "2(Vertical line)",
+            "Vertical line"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cartesian equation",
+          "answer": "(x−5/2)²+y²=25/4",
+          "options": [
+            "(x−5/2)²+y²=25/4",
+            "−((x−5/2)²+y²=25/4)",
+            "2((x−5/2)²+y²=25/4)"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Identification",
+          "answer": "Circle centered(5/2,0), radius5/2",
+          "options": [
+            "−(Circle centered(5/2,0), radius5/2)",
+            "Circle centered(5/2,0), radius5/2",
+            "2(Circle centered(5/2,0), radius5/2)"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cartesian equation",
+          "answer": "y=√3x",
+          "options": [
+            "y=√3x",
+            "2(y=√3x)",
+            "−(y=√3x)"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Identification",
+          "answer": "Line through origin when signedr is allowed; withr≥0 alone, only the rayx≥0",
+          "options": [
+            "−(Line through origin when signedr is allowed; withr≥0 alone, only the rayx≥0)",
+            "Line through origin when signedr is allowed; withr≥0 alone, only the rayx≥0",
+            "2(Line through origin when signedr is allowed; withr≥0 alone, only the rayx≥0)"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-19": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cartesian equation",
+          "answer": "x²−y²=1",
+          "options": [
+            "−(x²−y²=1)",
+            "2(x²−y²=1)",
+            "x²−y²=1"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Identification",
+          "answer": "Hyperbola opening left and right",
+          "options": [
+            "2(Hyperbola opening left and right)",
+            "−(Hyperbola opening left and right)",
+            "Hyperbola opening left and right"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-20": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cartesian equation",
+          "answer": "2xy=1",
+          "options": [
+            "−(2xy=1)",
+            "2xy=1",
+            "2(2xy=1)"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Identification",
+          "answer": "Rectangular hyperbola",
+          "options": [
+            "2(Rectangular hyperbola)",
+            "Rectangular hyperbola",
+            "−(Rectangular hyperbola)"
+          ],
+          "explanation": "User²=x²+y²,rcosθ=x,rsinθ=y, and the double-angle identities. Retain the signed-radius convention for the constant-angle line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        697
+      ]
+    }
+  },
+  "calculus-section-10-3-21": {
+    "grader": {
+      "type": "choice",
+      "label": "A polar equation",
+      "answer": "rsinθ=2",
+      "options": [
+        "2(rsinθ=2)",
+        "−(rsinθ=2)",
+        "rsinθ=2"
+      ],
+      "explanation": "Substitutex=rcosθ,y=rsinθ. Check anyr=0 solution separately if dividing byr; Exercise24 includes the parabola vertex at the origin.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-22": {
+    "grader": {
+      "type": "choice",
+      "label": "A polar equation",
+      "answer": "θ=π/4 with signedr (equivalentlyr(sinθ−cosθ)=0)",
+      "options": [
+        "θ=π/4 with signedr (equivalentlyr(sinθ−cosθ)=0)",
+        "2(θ=π/4 with signedr (equivalentlyr(sinθ−cosθ)=0))",
+        "−(θ=π/4 with signedr (equivalentlyr(sinθ−cosθ)=0))"
+      ],
+      "explanation": "Substitutex=rcosθ,y=rsinθ. Check anyr=0 solution separately if dividing byr; Exercise24 includes the parabola vertex at the origin.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-23": {
+    "grader": {
+      "type": "choice",
+      "label": "A polar equation",
+      "answer": "r(sinθ−3cosθ)=1",
+      "options": [
+        "−(r(sinθ−3cosθ)=1)",
+        "2(r(sinθ−3cosθ)=1)",
+        "r(sinθ−3cosθ)=1"
+      ],
+      "explanation": "Substitutex=rcosθ,y=rsinθ. Check anyr=0 solution separately if dividing byr; Exercise24 includes the parabola vertex at the origin.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-24": {
+    "grader": {
+      "type": "choice",
+      "label": "A polar equation",
+      "answer": "r=cosθ/(4sin²θ), sinθ≠0, together with the origin",
+      "options": [
+        "−(r=cosθ/(4sin²θ), sinθ≠0, together with the origin)",
+        "2(r=cosθ/(4sin²θ), sinθ≠0, together with the origin)",
+        "r=cosθ/(4sin²θ), sinθ≠0, together with the origin"
+      ],
+      "explanation": "Substitutex=rcosθ,y=rsinθ. Check anyr=0 solution separately if dividing byr; Exercise24 includes the parabola vertex at the origin.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-25": {
+    "grader": {
+      "type": "choice",
+      "label": "A polar equation",
+      "answer": "r=2ccosθ",
+      "options": [
+        "−(r=2ccosθ)",
+        "r=2ccosθ",
+        "2(r=2ccosθ)"
+      ],
+      "explanation": "Substitutex=rcosθ,y=rsinθ. Check anyr=0 solution separately if dividing byr; Exercise24 includes the parabola vertex at the origin.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-26": {
+    "grader": {
+      "type": "choice",
+      "label": "A polar equation",
+      "answer": "r²cos2θ=4",
+      "options": [
+        "r²cos2θ=4",
+        "−(r²cos2θ=4)",
+        "2(r²cos2θ=4)"
+      ],
+      "explanation": "Substitutex=rcosθ,y=rsinθ. Check anyr=0 solution separately if dividing byr; Exercise24 includes the parabola vertex at the origin.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-27": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) convenient system/equation",
+          "answer": "Polar: θ=π/6 with signedr",
+          "options": [
+            "2(Polar: θ=π/6 with signedr)",
+            "−(Polar: θ=π/6 with signedr)",
+            "Polar: θ=π/6 with signedr"
+          ],
+          "explanation": "A constant angle directly describes a line through the pole; a constantx directly describes a vertical line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) convenient system/equation",
+          "answer": "Cartesian: x=3",
+          "options": [
+            "Cartesian: x=3",
+            "2(Cartesian: x=3)",
+            "−(Cartesian: x=3)"
+          ],
+          "explanation": "A constant angle directly describes a line through the pole; a constantx directly describes a vertical line.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-28": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) convenient equation",
+          "answer": "Cartesian: (x−2)²+(y−3)²=25",
+          "options": [
+            "2(Cartesian: (x−2)²+(y−3)²=25)",
+            "Cartesian: (x−2)²+(y−3)²=25",
+            "−(Cartesian: (x−2)²+(y−3)²=25)"
+          ],
+          "explanation": "A translated circle has a simple Cartesian center-radius equation; a circle centered at the pole has constant radius.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) convenient equation",
+          "answer": "Polar: r=4",
+          "options": [
+            "−(Polar: r=4)",
+            "Polar: r=4",
+            "2(Polar: r=4)"
+          ],
+          "explanation": "A translated circle has a simple Cartesian center-radius equation; a circle centered at the pole has constant radius.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-29": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Circle centered(0,−1), radius1",
+          "options": [
+            "−(Circle centered(0,−1), radius1)",
+            "Circle centered(0,−1), radius1",
+            "2(Circle centered(0,−1), radius1)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "x²+(y+1)²=1",
+          "options": [
+            "x²+(y+1)²=1",
+            "−(x²+(y+1)²=1)",
+            "2(x²+(y+1)²=1)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-30": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Left-facing cardioid, cusp at origin",
+          "options": [
+            "Left-facing cardioid, cusp at origin",
+            "2(Left-facing cardioid, cusp at origin)",
+            "−(Left-facing cardioid, cusp at origin)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Farthest point(−2,0); symmetric aboutx-axis",
+          "options": [
+            "−(Farthest point(−2,0); symmetric aboutx-axis)",
+            "Farthest point(−2,0); symmetric aboutx-axis",
+            "2(Farthest point(−2,0); symmetric aboutx-axis)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-31": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Right-facing cardioid, cusp at origin",
+          "options": [
+            "Right-facing cardioid, cusp at origin",
+            "2(Right-facing cardioid, cusp at origin)",
+            "−(Right-facing cardioid, cusp at origin)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Farthest point(4,0); symmetric aboutx-axis",
+          "options": [
+            "Farthest point(4,0); symmetric aboutx-axis",
+            "2(Farthest point(4,0); symmetric aboutx-axis)",
+            "−(Farthest point(4,0); symmetric aboutx-axis)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-32": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Right-facing inner-loop limaçon",
+          "options": [
+            "−(Right-facing inner-loop limaçon)",
+            "Right-facing inner-loop limaçon",
+            "2(Right-facing inner-loop limaçon)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Outer tip(3,0), inner tip(1,0); zerosθ=2π/3,4π/3",
+          "options": [
+            "Outer tip(3,0), inner tip(1,0); zerosθ=2π/3,4π/3",
+            "2(Outer tip(3,0), inner tip(1,0); zerosθ=2π/3,4π/3)",
+            "−(Outer tip(3,0), inner tip(1,0); zerosθ=2π/3,4π/3)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-33": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Outward Archimedean spiral",
+          "options": [
+            "Outward Archimedean spiral",
+            "2(Outward Archimedean spiral)",
+            "−(Outward Archimedean spiral)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "r increases by2π each full revolution; starts at origin",
+          "options": [
+            "−(r increases by2π each full revolution; starts at origin)",
+            "r increases by2π each full revolution; starts at origin",
+            "2(r increases by2π each full revolution; starts at origin)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-34": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Two spiral arms symmetric aboutx-axis",
+          "options": [
+            "2(Two spiral arms symmetric aboutx-axis)",
+            "−(Two spiral arms symmetric aboutx-axis)",
+            "Two spiral arms symmetric aboutx-axis"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Both begin at origin; endpoints coincide at(4π²,0) forθ=±2π",
+          "options": [
+            "−(Both begin at origin; endpoints coincide at(4π²,0) forθ=±2π)",
+            "2(Both begin at origin; endpoints coincide at(4π²,0) forθ=±2π)",
+            "Both begin at origin; endpoints coincide at(4π²,0) forθ=±2π"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-35": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Three-petal rose of radius3",
+          "options": [
+            "2(Three-petal rose of radius3)",
+            "−(Three-petal rose of radius3)",
+            "Three-petal rose of radius3"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Petal directions0,2π/3,4π/3",
+          "options": [
+            "Petal directions0,2π/3,4π/3",
+            "−(Petal directions0,2π/3,4π/3)",
+            "2(Petal directions0,2π/3,4π/3)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-36": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Five-petal rose of radius1",
+          "options": [
+            "2(Five-petal rose of radius1)",
+            "Five-petal rose of radius1",
+            "−(Five-petal rose of radius1)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "A petal points downward; signedr=−sin5θ",
+          "options": [
+            "A petal points downward; signedr=−sin5θ",
+            "2(A petal points downward; signedr=−sin5θ)",
+            "−(A petal points downward; signedr=−sin5θ)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-37": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Eight-petal rose of radius2",
+          "options": [
+            "−(Eight-petal rose of radius2)",
+            "2(Eight-petal rose of radius2)",
+            "Eight-petal rose of radius2"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Petal axesθ=kπ/4",
+          "options": [
+            "−(Petal axesθ=kπ/4)",
+            "Petal axesθ=kπ/4",
+            "2(Petal axesθ=kπ/4)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-38": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Twelve-petal rose of radius2",
+          "options": [
+            "Twelve-petal rose of radius2",
+            "2(Twelve-petal rose of radius2)",
+            "−(Twelve-petal rose of radius2)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Petal axesθ=π/12+kπ/6",
+          "options": [
+            "Petal axesθ=π/12+kπ/6",
+            "−(Petal axesθ=π/12+kπ/6)",
+            "2(Petal axesθ=π/12+kπ/6)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-39": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Right-facing inner-loop limaçon",
+          "options": [
+            "−(Right-facing inner-loop limaçon)",
+            "Right-facing inner-loop limaçon",
+            "2(Right-facing inner-loop limaçon)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Outer and inner positive-x tips4 and2",
+          "options": [
+            "Outer and inner positive-x tips4 and2",
+            "−(Outer and inner positive-x tips4 and2)",
+            "2(Outer and inner positive-x tips4 and2)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-40": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Upward-facing inner-loop limaçon",
+          "options": [
+            "Upward-facing inner-loop limaçon",
+            "2(Upward-facing inner-loop limaçon)",
+            "−(Upward-facing inner-loop limaçon)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Outer and inner positive-y tips6 and4",
+          "options": [
+            "Outer and inner positive-y tips6 and4",
+            "−(Outer and inner positive-y tips6 and4)",
+            "2(Outer and inner positive-y tips6 and4)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-41": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Two-loop lemniscate alongy=x",
+          "options": [
+            "−(Two-loop lemniscate alongy=x)",
+            "2(Two-loop lemniscate alongy=x)",
+            "Two-loop lemniscate alongy=x"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Maximum radius3, directionsπ/4 and5π/4",
+          "options": [
+            "2(Maximum radius3, directionsπ/4 and5π/4)",
+            "−(Maximum radius3, directionsπ/4 and5π/4)",
+            "Maximum radius3, directionsπ/4 and5π/4"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-42": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Four petals along coordinate axes",
+          "options": [
+            "−(Four petals along coordinate axes)",
+            "2(Four petals along coordinate axes)",
+            "Four petals along coordinate axes"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Maximum radius1; real points requirecos4θ≥0 and both signs ofr",
+          "options": [
+            "Maximum radius1; real points requirecos4θ≥0 and both signs ofr",
+            "−(Maximum radius1; real points requirecos4θ≥0 and both signs ofr)",
+            "2(Maximum radius1; real points requirecos4θ≥0 and both signs ofr)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-43": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Three-lobed closed curve with no pole crossing",
+          "options": [
+            "Three-lobed closed curve with no pole crossing",
+            "−(Three-lobed closed curve with no pole crossing)",
+            "2(Three-lobed closed curve with no pole crossing)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "1≤r≤3; maximum directionsπ/6,5π/6,3π/2",
+          "options": [
+            "2(1≤r≤3; maximum directionsπ/6,5π/6,3π/2)",
+            "1≤r≤3; maximum directionsπ/6,5π/6,3π/2",
+            "−(1≤r≤3; maximum directionsπ/6,5π/6,3π/2)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-44": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Two opposite inward spirals forθ>0",
+          "options": [
+            "−(Two opposite inward spirals forθ>0)",
+            "2(Two opposite inward spirals forθ>0)",
+            "Two opposite inward spirals forθ>0"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "r=±1/√θ; both approach the pole asθ→∞",
+          "options": [
+            "r=±1/√θ; both approach the pole asθ→∞",
+            "−(r=±1/√θ; both approach the pole asθ→∞)",
+            "2(r=±1/√θ; both approach the pole asθ→∞)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-45": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Symmetric multi-loop closed curve",
+          "options": [
+            "Symmetric multi-loop closed curve",
+            "2(Symmetric multi-loop closed curve)",
+            "−(Symmetric multi-loop closed curve)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "Use0≤θ≤4π; includes(±1,0) and(0,±1/√2), and repeated pole crossings",
+          "options": [
+            "Use0≤θ≤4π; includes(±1,0) and(0,±1/√2), and repeated pole crossings",
+            "2(Use0≤θ≤4π; includes(±1,0) and(0,±1/√2), and repeated pole crossings)",
+            "−(Use0≤θ≤4π; includes(±1,0) and(0,±1/√2), and repeated pole crossings)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-46": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Closed looped curve symmetric aboutx-axis",
+          "options": [
+            "−(Closed looped curve symmetric aboutx-axis)",
+            "Closed looped curve symmetric aboutx-axis",
+            "2(Closed looped curve symmetric aboutx-axis)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Key graph features",
+          "answer": "0≤θ≤3π traces the complete locus;θ=0 gives(1,0),θ=3π/2 gives the pole",
+          "options": [
+            "0≤θ≤3π traces the complete locus;θ=0 gives(1,0),θ=3π/2 gives the pole",
+            "2(0≤θ≤3π traces the complete locus;θ=0 gives(1,0),θ=3π/2 gives the pole)",
+            "−(0≤θ≤3π traces the complete locus;θ=0 gives(1,0),θ=3π/2 gives the pole)"
+          ],
+          "explanation": "Track the signed radius and its zeros, extrema, symmetries and period. A negative radius reverses the direction; check the full parameter interval instead of assuming every polar curve closes after2π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-47": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Polar shape",
+          "answer": "Closed vertically elongated, horizontally pinched curve with no pole crossing",
+          "options": [
+            "2(Closed vertically elongated, horizontally pinched curve with no pole crossing)",
+            "−(Closed vertically elongated, horizontally pinched curve with no pole crossing)",
+            "Closed vertically elongated, horizontally pinched curve with no pole crossing"
+          ],
+          "explanation": "Read the given r-versus-θ graph: its two maxima point vertically, and the positive minima point horizontally. No exact formula is given, so the check uses graph landmarks.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Radius landmarks",
+          "answer": "Approximatelyr=.5 atθ=0,π,2π andr=2 atθ=π/2,3π/2",
+          "options": [
+            "2(Approximatelyr=.5 atθ=0,π,2π andr=2 atθ=π/2,3π/2)",
+            "Approximatelyr=.5 atθ=0,π,2π andr=2 atθ=π/2,3π/2",
+            "−(Approximatelyr=.5 atθ=0,π,2π andr=2 atθ=π/2,3π/2)"
+          ],
+          "explanation": "Read the given r-versus-θ graph: its two maxima point vertically, and the positive minima point horizontally. No exact formula is given, so the check uses graph landmarks.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-48": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Polar shape",
+          "answer": "Three-lobed closed curve, maximum radii2 and minimum radii1",
+          "options": [
+            "−(Three-lobed closed curve, maximum radii2 and minimum radii1)",
+            "2(Three-lobed closed curve, maximum radii2 and minimum radii1)",
+            "Three-lobed closed curve, maximum radii2 and minimum radii1"
+          ],
+          "explanation": "Three full radial oscillations occur in0≤θ≤2π, starting at a maximum. Since radius stays positive, there are no inner loops or pole crossings.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Lobe directions",
+          "answer": "0,2π/3,4π/3",
+          "options": [
+            "−(0,2π/3,4π/3)",
+            "0,2π/3,4π/3",
+            "2(0,2π/3,4π/3)"
+          ],
+          "explanation": "Three full radial oscillations occur in0≤θ≤2π, starting at a maximum. Since radius stays positive, there are no inner loops or pole crossings.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-49": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cartesian x relation",
+          "answer": "x=4cosθ+2",
+          "options": [
+            "−(x=4cosθ+2)",
+            "2(x=4cosθ+2)",
+            "x=4cosθ+2"
+          ],
+          "explanation": "As|r|→∞,cosθ→0 andx→2; y is unbounded. Zerosr=0 requirecosθ=−1/2, producing the inner-loop pole crossing.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Vertical asymptote x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "As|r|→∞,cosθ→0 andx→2; y is unbounded. Zerosr=0 requirecosθ=−1/2, producing the inner-loop pole crossing.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Axis intercepts",
+          "answer": "(6,0), (2,0), and the origin",
+          "options": [
+            "2((6,0), (2,0), and the origin)",
+            "−((6,0), (2,0), and the origin)",
+            "(6,0), (2,0), and the origin"
+          ],
+          "explanation": "As|r|→∞,cosθ→0 andx→2; y is unbounded. Zerosr=0 requirecosθ=−1/2, producing the inner-loop pole crossing.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-50": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cartesian y relation",
+          "answer": "y=2sinθ−1",
+          "options": [
+            "2(y=2sinθ−1)",
+            "y=2sinθ−1",
+            "−(y=2sinθ−1)"
+          ],
+          "explanation": "As|r|→∞,sinθ→0 andy→−1; x is unbounded. Zeros occur atsinθ=1/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Horizontal asymptote y",
+          "answer": -1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "As|r|→∞,sinθ→0 andy→−1; x is unbounded. Zeros occur atsinθ=1/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Vertical-axis intercepts",
+          "answer": "(0,1) and(0,−3), plus origin",
+          "options": [
+            "−((0,1) and(0,−3), plus origin)",
+            "(0,1) and(0,−3), plus origin",
+            "2((0,1) and(0,−3), plus origin)"
+          ],
+          "explanation": "As|r|→∞,sinθ→0 andy→−1; x is unbounded. Zeros occur atsinθ=1/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-51": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cartesian x",
+          "answer": "x=sin²θ",
+          "options": [
+            "−(x=sin²θ)",
+            "x=sin²θ",
+            "2(x=sin²θ)"
+          ],
+          "explanation": "x=r cosθ=sin²θ andy=sin³θ/cosθ. Thus the curve stays in the stated strip and has upper/lower branches approachingx=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Implicit equation",
+          "answer": "y²=x³/(1−x), 0≤x<1",
+          "options": [
+            "−(y²=x³/(1−x), 0≤x<1)",
+            "2(y²=x³/(1−x), 0≤x<1)",
+            "y²=x³/(1−x), 0≤x<1"
+          ],
+          "explanation": "x=r cosθ=sin²θ andy=sin³θ/cosθ. Thus the curve stays in the stated strip and has upper/lower branches approachingx=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Vertical asymptote",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "x=r cosθ=sin²θ andy=sin³θ/cosθ. Thus the curve stays in the stated strip and has upper/lower branches approachingx=1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-52": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Polar equation",
+          "answer": "r²=sin²2θ",
+          "options": [
+            "−(r²=sin²2θ)",
+            "r²=sin²2θ",
+            "2(r²=sin²2θ)"
+          ],
+          "explanation": "The equation becomesr⁶=r⁴sin²2θ; keep the origin when dividing. r=|sin2θ| withr≥0 traces the four petals.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Shape",
+          "answer": "Four-petal rose with radius1 and diagonal petal axes",
+          "options": [
+            "Four-petal rose with radius1 and diagonal petal axes",
+            "2(Four-petal rose with radius1 and diagonal petal axes)",
+            "−(Four-petal rose with radius1 and diagonal petal axes)"
+          ],
+          "explanation": "The equation becomesr⁶=r⁴sin²2θ; keep the origin when dividing. r=|sin2θ| withr≥0 traces the four petals.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-53": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) inner-loop criterion",
+          "answer": "|c|>1",
+          "options": [
+            "|c|>1",
+            "2(|c|>1)",
+            "−(|c|>1)"
+          ],
+          "explanation": "The inner loop corresponds to1+csinθ≤0. At the inward axial point, the polar curvature numeratorr²+2r′²−rr″ changes sign at|c|=1/2. At|c|=1 the curve is a cardioid.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) c>1 interval, α=arcsin(1/c)",
+          "answer": "π+α≤θ≤2π−α",
+          "options": [
+            "−(π+α≤θ≤2π−α)",
+            "2(π+α≤θ≤2π−α)",
+            "π+α≤θ≤2π−α"
+          ],
+          "explanation": "The inner loop corresponds to1+csinθ≤0. At the inward axial point, the polar curvature numeratorr²+2r′²−rr″ changes sign at|c|=1/2. At|c|=1 the curve is a cardioid.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(a) c<−1 interval, α=arcsin(1/|c|)",
+          "answer": "α≤θ≤π−α",
+          "options": [
+            "−(α≤θ≤π−α)",
+            "α≤θ≤π−α",
+            "2(α≤θ≤π−α)"
+          ],
+          "explanation": "The inner loop corresponds to1+csinθ≤0. At the inward axial point, the polar curvature numeratorr²+2r′²−rr″ changes sign at|c|=1/2. At|c|=1 the curve is a cardioid.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) dimple disappears",
+          "answer": "At|c|=1/2; 0≤|c|≤1/2 is convex, 1/2<|c|<1 is dimpled",
+          "options": [
+            "At|c|=1/2; 0≤|c|≤1/2 is convex, 1/2<|c|<1 is dimpled",
+            "−(At|c|=1/2; 0≤|c|≤1/2 is convex, 1/2<|c|<1 is dimpled)",
+            "2(At|c|=1/2; 0≤|c|≤1/2 is convex, 1/2<|c|<1 is dimpled)"
+          ],
+          "explanation": "The inner loop corresponds to1+csinθ≤0. At the inward axial point, the polar curvature numeratorr²+2r′²−rr″ changes sign at|c|=1/2. At|c|=1 the curve is a cardioid.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-54": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a",
+          "answer": "VI",
+          "options": [
+            "VI",
+            "IV",
+            "II",
+            "I",
+            "III",
+            "V"
+          ],
+          "explanation": "Logarithmic spiral turns tighten outward; quadratic spiral turns spread outward. cos3θ is a three-petal rose,2+cos3θ is a positive three-lobed curve, cos(θ/2) makes the symmetric multi-loop graph, and2+cos(3θ/2) requires4π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b",
+          "answer": "III",
+          "options": [
+            "V",
+            "VI",
+            "II",
+            "III",
+            "I",
+            "IV"
+          ],
+          "explanation": "Logarithmic spiral turns tighten outward; quadratic spiral turns spread outward. cos3θ is a three-petal rose,2+cos3θ is a positive three-lobed curve, cos(θ/2) makes the symmetric multi-loop graph, and2+cos(3θ/2) requires4π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c",
+          "answer": "II",
+          "options": [
+            "V",
+            "VI",
+            "I",
+            "IV",
+            "III",
+            "II"
+          ],
+          "explanation": "Logarithmic spiral turns tighten outward; quadratic spiral turns spread outward. cos3θ is a three-petal rose,2+cos3θ is a positive three-lobed curve, cos(θ/2) makes the symmetric multi-loop graph, and2+cos(3θ/2) requires4π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d",
+          "answer": "IV",
+          "options": [
+            "V",
+            "III",
+            "II",
+            "I",
+            "IV",
+            "VI"
+          ],
+          "explanation": "Logarithmic spiral turns tighten outward; quadratic spiral turns spread outward. cos3θ is a three-petal rose,2+cos3θ is a positive three-lobed curve, cos(θ/2) makes the symmetric multi-loop graph, and2+cos(3θ/2) requires4π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "e",
+          "answer": "V",
+          "options": [
+            "III",
+            "VI",
+            "V",
+            "I",
+            "IV",
+            "II"
+          ],
+          "explanation": "Logarithmic spiral turns tighten outward; quadratic spiral turns spread outward. cos3θ is a three-petal rose,2+cos3θ is a positive three-lobed curve, cos(θ/2) makes the symmetric multi-loop graph, and2+cos(3θ/2) requires4π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "f",
+          "answer": "I",
+          "options": [
+            "VI",
+            "IV",
+            "I",
+            "II",
+            "III",
+            "V"
+          ],
+          "explanation": "Logarithmic spiral turns tighten outward; quadratic spiral turns spread outward. cos3θ is a three-petal rose,2+cos3θ is a positive three-lobed curve, cos(θ/2) makes the symmetric multi-loop graph, and2+cos(3θ/2) requires4π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-55": {
+    "grader": {
+      "type": "choice",
+      "label": "Tangent slope",
+      "answer": "sqrt(3)/3",
+      "options": [
+        "2*sqrt(3)/3",
+        "sqrt(3)/3",
+        "-sqrt(3)/3"
+      ],
+      "explanation": "dy/dx=(r′sinθ+rcosθ)/(r′cosθ−rsinθ). Substitute the angle after differentiating both Cartesian coordinates.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-56": {
+    "grader": {
+      "type": "choice",
+      "label": "Tangent slope",
+      "answer": "2 - 3*sqrt(2)/2",
+      "options": [
+        "-2 + 3*sqrt(2)/2",
+        "4 - 3*sqrt(2)",
+        "2 - 3*sqrt(2)/2"
+      ],
+      "explanation": "dy/dx=(r′sinθ+rcosθ)/(r′cosθ−rsinθ). Substitute the angle after differentiating both Cartesian coordinates.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-57": {
+    "grader": {
+      "type": "choice",
+      "label": "Tangent slope",
+      "answer": "-pi",
+      "options": [
+        "-2*pi",
+        "pi",
+        "-pi"
+      ],
+      "explanation": "dy/dx=(r′sinθ+rcosθ)/(r′cosθ−rsinθ). Substitute the angle after differentiating both Cartesian coordinates.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-58": {
+    "grader": {
+      "type": "choice",
+      "label": "Tangent slope",
+      "answer": "-sqrt(3)",
+      "options": [
+        "-sqrt(3)",
+        "sqrt(3)",
+        "-2*sqrt(3)"
+      ],
+      "explanation": "dy/dx=(r′sinθ+rcosθ)/(r′cosθ−rsinθ). Substitute the angle after differentiating both Cartesian coordinates.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-59": {
+    "grader": {
+      "type": "choice",
+      "label": "Tangent slope",
+      "answer": "1",
+      "options": [
+        "2",
+        "1",
+        "-1"
+      ],
+      "explanation": "dy/dx=(r′sinθ+rcosθ)/(r′cosθ−rsinθ). Substitute the angle after differentiating both Cartesian coordinates.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-60": {
+    "grader": {
+      "type": "choice",
+      "label": "Tangent slope",
+      "answer": "sqrt(3)/9",
+      "options": [
+        "2*sqrt(3)/9",
+        "sqrt(3)/9",
+        "-sqrt(3)/9"
+      ],
+      "explanation": "dy/dx=(r′sinθ+rcosθ)/(r′cosθ−rsinθ). Substitute the angle after differentiating both Cartesian coordinates.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-61": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Horizontal tangencies (Cartesian)",
+          "answer": "(3/2,3/2), (3/2,−3/2)",
+          "options": [
+            "(3/2,3/2), (3/2,−3/2)",
+            "−((3/2,3/2), (3/2,−3/2))",
+            "2((3/2,3/2), (3/2,−3/2))"
+          ],
+          "explanation": "The curve is the circle(x−3/2)²+y²=9/4. Top/bottom tangents are horizontal and left/right tangents vertical.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Vertical tangencies",
+          "answer": "(0,0), (3,0)",
+          "options": [
+            "−((0,0), (3,0))",
+            "(0,0), (3,0)",
+            "2((0,0), (3,0))"
+          ],
+          "explanation": "The curve is the circle(x−3/2)²+y²=9/4. Top/bottom tangents are horizontal and left/right tangents vertical.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-62": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Horizontal tangencies, polar representatives",
+          "answer": "(1/2,π/6), (1/2,5π/6), (2,3π/2)",
+          "options": [
+            "(1/2,π/6), (1/2,5π/6), (2,3π/2)",
+            "−((1/2,π/6), (1/2,5π/6), (2,3π/2))",
+            "2((1/2,π/6), (1/2,5π/6), (2,3π/2))"
+          ],
+          "explanation": "Forr=1−sinθ, y′=cosθ(1−2sinθ), x′=−cos2θ−sinθ. At the pole both derivatives vanish, so use a local expansion to identify the vertical cusp tangent.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Vertical tangencies",
+          "answer": "(3/2,7π/6), (3/2,11π/6), and the cusp at the poleθ=π/2",
+          "options": [
+            "2((3/2,7π/6), (3/2,11π/6), and the cusp at the poleθ=π/2)",
+            "−((3/2,7π/6), (3/2,11π/6), and the cusp at the poleθ=π/2)",
+            "(3/2,7π/6), (3/2,11π/6), and the cusp at the poleθ=π/2"
+          ],
+          "explanation": "Forr=1−sinθ, y′=cosθ(1−2sinθ), x′=−cos2θ−sinθ. At the pole both derivatives vanish, so use a local expansion to identify the vertical cusp tangent.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-63": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Horizontal tangencies, polar representatives",
+          "answer": "(3/2,π/3), (3/2,5π/3), and cusp at poleθ=π",
+          "options": [
+            "−((3/2,π/3), (3/2,5π/3), and cusp at poleθ=π)",
+            "2((3/2,π/3), (3/2,5π/3), and cusp at poleθ=π)",
+            "(3/2,π/3), (3/2,5π/3), and cusp at poleθ=π"
+          ],
+          "explanation": "y′=cosθ+cos2θ,x′=−sinθ(1+2cosθ). Atθ=π the parametric derivatives vanish but the limiting tangent is horizontal.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Vertical tangencies",
+          "answer": "(2,0), (1/2,2π/3), (1/2,4π/3)",
+          "options": [
+            "−((2,0), (1/2,2π/3), (1/2,4π/3))",
+            "2((2,0), (1/2,2π/3), (1/2,4π/3))",
+            "(2,0), (1/2,2π/3), (1/2,4π/3)"
+          ],
+          "explanation": "y′=cosθ+cos2θ,x′=−sinθ(1+2cosθ). Atθ=π the parametric derivatives vanish but the limiting tangent is horizontal.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-64": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Horizontal tangencies",
+          "answer": "(e^θ,θ) withθ=−π/4+kπ, k∈ℤ",
+          "options": [
+            "2((e^θ,θ) withθ=−π/4+kπ, k∈ℤ)",
+            "(e^θ,θ) withθ=−π/4+kπ, k∈ℤ",
+            "−((e^θ,θ) withθ=−π/4+kπ, k∈ℤ)"
+          ],
+          "explanation": "Withr′=r>0, y′=r(sinθ+cosθ) andx′=r(cosθ−sinθ). Their zeros never coincide.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Vertical tangencies",
+          "answer": "(e^θ,θ) withθ=π/4+kπ, k∈ℤ",
+          "options": [
+            "2((e^θ,θ) withθ=π/4+kπ, k∈ℤ)",
+            "−((e^θ,θ) withθ=π/4+kπ, k∈ℤ)",
+            "(e^θ,θ) withθ=π/4+kπ, k∈ℤ"
+          ],
+          "explanation": "Withr′=r>0, y′=r(sinθ+cosθ) andx′=r(cosθ−sinθ). Their zeros never coincide.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        698
+      ]
+    }
+  },
+  "calculus-section-10-3-65": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Center",
+          "answer": "(b/2,a/2)",
+          "options": [
+            "(b/2,a/2)",
+            "2((b/2,a/2))",
+            "−((b/2,a/2))"
+          ],
+          "explanation": "Multiply by r to obtainx²+y²=ay+bx and complete both squares.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Radius",
+          "answer": "√(a²+b²)/2",
+          "options": [
+            "√(a²+b²)/2",
+            "2(√(a²+b²)/2)",
+            "−(√(a²+b²)/2)"
+          ],
+          "explanation": "Multiply by r to obtainx²+y²=ay+bx and complete both squares.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Cartesian equation",
+          "answer": "(x−b/2)²+(y−a/2)²=(a²+b²)/4",
+          "options": [
+            "(x−b/2)²+(y−a/2)²=(a²+b²)/4",
+            "2((x−b/2)²+(y−a/2)²=(a²+b²)/4)",
+            "−((x−b/2)²+(y−a/2)²=(a²+b²)/4)"
+          ],
+          "explanation": "Multiply by r to obtainx²+y²=ay+bx and complete both squares.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-66": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Intersection points",
+          "answer": "(0,0) and(a/2,a/2), for a≠0",
+          "options": [
+            "−((0,0) and(a/2,a/2), for a≠0)",
+            "(0,0) and(a/2,a/2), for a≠0",
+            "2((0,0) and(a/2,a/2), for a≠0)"
+          ],
+          "explanation": "The circles arex²+(y−a/2)²=a²/4 and(x−a/2)²+y²=a²/4. Their radius directions are perpendicular at each intersection, hence so are their tangents. The degeneratea=0 case is not two regular curves.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangents at nonzero intersection",
+          "answer": "Vertical forr=asinθ; horizontal forr=acosθ",
+          "options": [
+            "Vertical forr=asinθ; horizontal forr=acosθ",
+            "−(Vertical forr=asinθ; horizontal forr=acosθ)",
+            "2(Vertical forr=asinθ; horizontal forr=acosθ)"
+          ],
+          "explanation": "The circles arex²+(y−a/2)²=a²/4 and(x−a/2)²+y²=a²/4. Their radius directions are perpendicular at each intersection, hence so are their tangents. The degeneratea=0 case is not two regular curves.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangents at origin",
+          "answer": "Horizontal forr=asinθ; vertical forr=acosθ",
+          "options": [
+            "−(Horizontal forr=asinθ; vertical forr=acosθ)",
+            "Horizontal forr=asinθ; vertical forr=acosθ",
+            "2(Horizontal forr=asinθ; vertical forr=acosθ)"
+          ],
+          "explanation": "The circles arex²+(y−a/2)²=a²/4 and(x−a/2)²+y²=a²/4. Their radius directions are perpendicular at each intersection, hence so are their tangents. The degeneratea=0 case is not two regular curves.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-67": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Sufficient parameter interval",
+          "answer": "0≤θ≤4π",
+          "options": [
+            "2(0≤θ≤4π)",
+            "−(0≤θ≤4π)",
+            "0≤θ≤4π"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Graph features",
+          "answer": "r ranges−1to3; negative-radius segments create inner loops",
+          "options": [
+            "−(r ranges−1to3; negative-radius segments create inner loops)",
+            "2(r ranges−1to3; negative-radius segments create inner loops)",
+            "r ranges−1to3; negative-radius segments create inner loops"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-68": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Sufficient parameter interval",
+          "answer": "0≤θ≤2π",
+          "options": [
+            "−(0≤θ≤2π)",
+            "2(0≤θ≤2π)",
+            "0≤θ≤2π"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Graph features",
+          "answer": "r=√(1−.8sin²θ), horizontal radius1 andvertical radius1/√5",
+          "options": [
+            "r=√(1−.8sin²θ), horizontal radius1 andvertical radius1/√5",
+            "−(r=√(1−.8sin²θ), horizontal radius1 andvertical radius1/√5)",
+            "2(r=√(1−.8sin²θ), horizontal radius1 andvertical radius1/√5)"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-69": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Sufficient parameter interval",
+          "answer": "0≤θ≤2π",
+          "options": [
+            "2(0≤θ≤2π)",
+            "−(0≤θ≤2π)",
+            "0≤θ≤2π"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Graph features",
+          "answer": "Butterfly curve symmetric abouty-axis; signed radius can be negative",
+          "options": [
+            "2(Butterfly curve symmetric abouty-axis; signed radius can be negative)",
+            "−(Butterfly curve symmetric abouty-axis; signed radius can be negative)",
+            "Butterfly curve symmetric abouty-axis; signed radius can be negative"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-70": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Sufficient parameter interval",
+          "answer": "0≤θ≤2π with continuous limiting values at singular angles",
+          "options": [
+            "0≤θ≤2π with continuous limiting values at singular angles",
+            "2(0≤θ≤2π with continuous limiting values at singular angles)",
+            "−(0≤θ≤2π with continuous limiting values at singular angles)"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Graph features",
+          "answer": "r→0 atθ=kπ andr→1 atθ=π/2+kπ; symmetric about both axes",
+          "options": [
+            "2(r→0 atθ=kπ andr→1 atθ=π/2+kπ; symmetric about both axes)",
+            "r→0 atθ=kπ andr→1 atθ=π/2+kπ; symmetric about both axes",
+            "−(r→0 atθ=kπ andr→1 atθ=π/2+kπ; symmetric about both axes)"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-71": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Sufficient parameter interval",
+          "answer": "0≤θ≤2π",
+          "options": [
+            "0≤θ≤2π",
+            "2(0≤θ≤2π)",
+            "−(0≤θ≤2π)"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Graph features",
+          "answer": "r=1+cos^999θ, almost unit circle except a narrow right bulge and narrow left indentation to the pole",
+          "options": [
+            "2(r=1+cos^999θ, almost unit circle except a narrow right bulge and narrow left indentation to the pole)",
+            "−(r=1+cos^999θ, almost unit circle except a narrow right bulge and narrow left indentation to the pole)",
+            "r=1+cos^999θ, almost unit circle except a narrow right bulge and narrow left indentation to the pole"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-72": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Sufficient parameter interval",
+          "answer": "0≤θ≤8π",
+          "options": [
+            "−(0≤θ≤8π)",
+            "0≤θ≤8π",
+            "2(0≤θ≤8π)"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Graph features",
+          "answer": "Positive radius between1and3; full closed curve needs four revolutions",
+          "options": [
+            "−(Positive radius between1and3; full closed curve needs four revolutions)",
+            "Positive radius between1and3; full closed curve needs four revolutions",
+            "2(Positive radius between1and3; full closed curve needs four revolutions)"
+          ],
+          "explanation": "Choose an interval that closes both the radial function and the angular direction. Resolve removable limiting values instead of drawing across undefined numeric samples.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-73": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "First rotation",
+          "answer": "Counterclockwiseπ/6",
+          "options": [
+            "Counterclockwiseπ/6",
+            "−(Counterclockwiseπ/6)",
+            "2(Counterclockwiseπ/6)"
+          ],
+          "explanation": "Putφ=θ−α; radius equals the old radius atφ, while the displayed angle isφ+α.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Second rotation",
+          "answer": "Counterclockwiseπ/3",
+          "options": [
+            "Counterclockwiseπ/3",
+            "2(Counterclockwiseπ/3)",
+            "−(Counterclockwiseπ/3)"
+          ],
+          "explanation": "Putφ=θ−α; radius equals the old radius atφ, while the displayed angle isφ+α.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "General rule",
+          "answer": "r=f(θ−α) rotates the graph counterclockwise byα",
+          "options": [
+            "2(r=f(θ−α) rotates the graph counterclockwise byα)",
+            "r=f(θ−α) rotates the graph counterclockwise byα",
+            "−(r=f(θ−α) rotates the graph counterclockwise byα)"
+          ],
+          "explanation": "Putφ=θ−α; radius equals the old radius atφ, while the displayed angle isφ+α.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-74": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Highest y-coordinate",
+          "answer": 0.769800358919501,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "y=sin2θsinθ=2sin²θcosθ. Its positive maximum occurs atcosθ=1/√3 (with both signs ofsinθ); signed-radius tracing supplies the same upper points. Differentiate to locate these extrema.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Locations",
+          "answer": "(±2√6/9,4√3/9)",
+          "options": [
+            "2((±2√6/9,4√3/9))",
+            "(±2√6/9,4√3/9)",
+            "−((±2√6/9,4√3/9))"
+          ],
+          "explanation": "y=sin2θsinθ=2sin²θcosθ. Its positive maximum occurs atcosθ=1/√3 (with both signs ofsinθ); signed-radius tracing supplies the same upper points. Differentiate to locate these extrema.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-75": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Shape by |c|",
+          "answer": "0:circle; 0<|c|≤1/2:convex limaçon; 1/2<|c|<1:dimple; |c|=1:cardioid; |c|>1:inner loop",
+          "options": [
+            "0:circle; 0<|c|≤1/2:convex limaçon; 1/2<|c|<1:dimple; |c|=1:cardioid; |c|>1:inner loop",
+            "2(0:circle; 0<|c|≤1/2:convex limaçon; 1/2<|c|<1:dimple; |c|=1:cardioid; |c|>1:inner loop)",
+            "−(0:circle; 0<|c|≤1/2:convex limaçon; 1/2<|c|<1:dimple; |c|=1:cardioid; |c|>1:inner loop)"
+          ],
+          "explanation": "Zeros1+ccosθ=0 appear exactly at|c|≥1. Curvature loses convexity at|c|=1/2; the sign ofc sets the horizontal orientation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Sign change",
+          "answer": "Changingc to−c reflects the curve acrossy-axis",
+          "options": [
+            "Changingc to−c reflects the curve acrossy-axis",
+            "−(Changingc to−c reflects the curve acrossy-axis)",
+            "2(Changingc to−c reflects the curve acrossy-axis)"
+          ],
+          "explanation": "Zeros1+ccosθ=0 appear exactly at|c|≥1. Curvature loses convexity at|c|=1/2; the sign ofc sets the horizontal orientation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-76": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Even n",
+          "answer": "1≤r≤2, equal narrow outward bulges on both horizontal axes",
+          "options": [
+            "−(1≤r≤2, equal narrow outward bulges on both horizontal axes)",
+            "2(1≤r≤2, equal narrow outward bulges on both horizontal axes)",
+            "1≤r≤2, equal narrow outward bulges on both horizontal axes"
+          ],
+          "explanation": "The source iscos^nθ, notcos(nθ). Increasingn narrows the angular regions of deviation from the unit circle; it does not create n rose petals. Full plotted traces retain narrow radial excursions near the axes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Odd n",
+          "answer": "0≤r≤2, outward bulge atθ=0 and indentation reaching the pole atθ=π",
+          "options": [
+            "2(0≤r≤2, outward bulge atθ=0 and indentation reaching the pole atθ=π)",
+            "0≤r≤2, outward bulge atθ=0 and indentation reaching the pole atθ=π",
+            "−(0≤r≤2, outward bulge atθ=0 and indentation reaching the pole atθ=π)"
+          ],
+          "explanation": "The source iscos^nθ, notcos(nθ). Increasingn narrows the angular regions of deviation from the unit circle; it does not create n rose petals. Full plotted traces retain narrow radial excursions near the axes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Large-n pointwise behavior",
+          "answer": "r→1 when|cosθ|<1; atθ=0 it remains2; atθ=π it is2 for evenn and0 for oddn",
+          "options": [
+            "−(r→1 when|cosθ|<1; atθ=0 it remains2; atθ=π it is2 for evenn and0 for oddn)",
+            "r→1 when|cosθ|<1; atθ=0 it remains2; atθ=π it is2 for evenn and0 for oddn",
+            "2(r→1 when|cosθ|<1; atθ=0 it remains2; atθ=π it is2 for evenn and0 for oddn)"
+          ],
+          "explanation": "The source iscos^nθ, notcos(nθ). Increasingn narrows the angular regions of deviation from the unit circle; it does not create n rose petals. Full plotted traces retain narrow radial excursions near the axes.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-77": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Angle relation",
+          "answer": "tanψ=r/r′ whereverr′≠0",
+          "options": [
+            "2(tanψ=r/r′ whereverr′≠0)",
+            "−(tanψ=r/r′ whereverr′≠0)",
+            "tanψ=r/r′ whereverr′≠0"
+          ],
+          "explanation": "In the radial/tangential moving basis, the tangent derivative isr′e_r+r e_θ, giving the component ratio. This also handles vertical Cartesian tangents without dividing bydx/dθ.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "When r′=0 andr≠0",
+          "answer": "The tangent is perpendicular to the radial line",
+          "options": [
+            "The tangent is perpendicular to the radial line",
+            "2(The tangent is perpendicular to the radial line)",
+            "−(The tangent is perpendicular to the radial line)"
+          ],
+          "explanation": "In the radial/tangential moving basis, the tangent derivative isr′e_r+r e_θ, giving the component ratio. This also handles vertical Cartesian tangents without dividing bydx/dθ.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-78": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) constant angle",
+          "answer": 0.7853981633974483,
+          "unit": "rad",
+          "tolerance": 1e-08,
+          "explanation": "Forr=e^θ,r′=r andtanψ=1. In general constantr/r′ yieldsr′=kr; k=0 includes circles forψ=π/2. A radial line has no nonzero-radius regular representationr=f(θ) over an angle interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) tangent atθ=0",
+          "answer": "y=x−1",
+          "options": [
+            "2(y=x−1)",
+            "−(y=x−1)",
+            "y=x−1"
+          ],
+          "explanation": "Forr=e^θ,r′=r andtanψ=1. In general constantr/r′ yieldsr′=kr; k=0 includes circles forψ=π/2. A radial line has no nonzero-radius regular representationr=f(θ) over an angle interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) tangent atθ=π/2",
+          "answer": "y=−x+e^(π/2)",
+          "options": [
+            "2(y=−x+e^(π/2))",
+            "y=−x+e^(π/2)",
+            "−(y=−x+e^(π/2))"
+          ],
+          "explanation": "Forr=e^θ,r′=r andtanψ=1. In general constantr/r′ yieldsr′=kr; k=0 includes circles forψ=π/2. A radial line has no nonzero-radius regular representationr=f(θ) over an angle interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(c) general family",
+          "answer": "r=Ce^(kθ), k=cotψ on a regular nonzero-radius branch",
+          "options": [
+            "r=Ce^(kθ), k=cotψ on a regular nonzero-radius branch",
+            "−(r=Ce^(kθ), k=cotψ on a regular nonzero-radius branch)",
+            "2(r=Ce^(kθ), k=cotψ on a regular nonzero-radius branch)"
+          ],
+          "explanation": "Forr=e^θ,r′=r andtanψ=1. In general constantr/r′ yieldsr′=kr; k=0 includes circles forψ=π/2. A radial line has no nonzero-radius regular representationr=f(θ) over an angle interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  }
+}

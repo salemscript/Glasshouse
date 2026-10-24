@@ -1,0 +1,316 @@
+{
+  "calculus-section-10-3-1-project-laboratory-project-families-of-polar-curves-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) r=sin(nθ) petal count",
+          "answer": "n petals for oddn,2n petals for evenn",
+          "options": [
+            "2(n petals for oddn,2n petals for evenn)",
+            "n petals for oddn,2n petals for evenn",
+            "−(n petals for oddn,2n petals for evenn)"
+          ],
+          "explanation": "For oddn, a negative radial lobe retraces an opposite positive petal; for evenn it adds a distinct petal. Absolute value turns every angular half-wave into a positive radial petal, giving2n distinct directions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "(b) r=|sin(nθ)| petal count",
+          "answer": "2n petals for every positive integern",
+          "options": [
+            "−(2n petals for every positive integern)",
+            "2n petals for every positive integern",
+            "2(2n petals for every positive integern)"
+          ],
+          "explanation": "For oddn, a negative radial lobe retraces an opposite positive petal; for evenn it adds a distinct petal. Absolute value turns every angular half-wave into a positive radial petal, giving2n distinct directions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-2-project-laboratory-project-families-of-polar-curves-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Rotational symmetry",
+          "answer": "Rotation by2π/n preserves the curve",
+          "options": [
+            "−(Rotation by2π/n preserves the curve)",
+            "2(Rotation by2π/n preserves the curve)",
+            "Rotation by2π/n preserves the curve"
+          ],
+          "explanation": "The radius ranges1−|c| to1+|c|. Increasingn repeats the same radial oscillation more often. Negative-radius pieces must be plotted opposite their angle; the loop count refers to parameter intervals, and geometric overlaps can occur for special parameters. Graph construction itself is not automatically checked.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c=0",
+          "answer": "Unit circle",
+          "options": [
+            "2(Unit circle)",
+            "−(Unit circle)",
+            "Unit circle"
+          ],
+          "explanation": "The radius ranges1−|c| to1+|c|. Increasingn repeats the same radial oscillation more often. Negative-radius pieces must be plotted opposite their angle; the loop count refers to parameter intervals, and geometric overlaps can occur for special parameters. Graph construction itself is not automatically checked.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "0<|c|<1",
+          "answer": "n radial lobes, no pole crossing",
+          "options": [
+            "n radial lobes, no pole crossing",
+            "−(n radial lobes, no pole crossing)",
+            "2(n radial lobes, no pole crossing)"
+          ],
+          "explanation": "The radius ranges1−|c| to1+|c|. Increasingn repeats the same radial oscillation more often. Negative-radius pieces must be plotted opposite their angle; the loop count refers to parameter intervals, and geometric overlaps can occur for special parameters. Graph construction itself is not automatically checked.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "|c|=1",
+          "answer": "n cusp contacts with the pole",
+          "options": [
+            "n cusp contacts with the pole",
+            "2(n cusp contacts with the pole)",
+            "−(n cusp contacts with the pole)"
+          ],
+          "explanation": "The radius ranges1−|c| to1+|c|. Increasingn repeats the same radial oscillation more often. Negative-radius pieces must be plotted opposite their angle; the loop count refers to parameter intervals, and geometric overlaps can occur for special parameters. Graph construction itself is not automatically checked.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "|c|>1",
+          "answer": "n negative-radius parameter intervals generating smaller loops; for oddn they nest inside large loops, for evenn they occupy alternating angular sectors",
+          "options": [
+            "2(n negative-radius parameter intervals generating smaller loops; for oddn they nest inside large loops, for evenn they occupy alternating angular sectors)",
+            "n negative-radius parameter intervals generating smaller loops; for oddn they nest inside large loops, for evenn they occupy alternating angular sectors",
+            "−(n negative-radius parameter intervals generating smaller loops; for oddn they nest inside large loops, for evenn they occupy alternating angular sectors)"
+          ],
+          "explanation": "The radius ranges1−|c| to1+|c|. Increasingn repeats the same radial oscillation more often. Negative-radius pieces must be plotted opposite their angle; the loop count refers to parameter intervals, and geometric overlaps can occur for special parameters. Graph construction itself is not automatically checked.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Sign ofc",
+          "answer": "Changing sign rotates the curve byπ/n",
+          "options": [
+            "2(Changing sign rotates the curve byπ/n)",
+            "−(Changing sign rotates the curve byπ/n)",
+            "Changing sign rotates the curve byπ/n"
+          ],
+          "explanation": "The radius ranges1−|c| to1+|c|. Increasingn repeats the same radial oscillation more often. Negative-radius pieces must be plotted opposite their angle; the loop count refers to parameter intervals, and geometric overlaps can occur for special parameters. Graph construction itself is not automatically checked.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699
+      ]
+    }
+  },
+  "calculus-section-10-3-3-project-laboratory-project-families-of-polar-curves-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a=0",
+          "answer": "Unit circle",
+          "options": [
+            "Unit circle",
+            "2(Unit circle)",
+            "−(Unit circle)"
+          ],
+          "explanation": "Denominator1+acosθ stays positive for|a|<1. For0<a<1, the curvature numerator atθ=0 has factor1−2a−a², so convexity changes ata=√2−1. At|a|=1 the zero of the denominator first appears; beyond it two singular angles exist. At poles of the expression, no finite point should be drawn.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Reflection",
+          "answer": "Changinga to−a reflects the curve abouty-axis",
+          "options": [
+            "−(Changinga to−a reflects the curve abouty-axis)",
+            "2(Changinga to−a reflects the curve abouty-axis)",
+            "Changinga to−a reflects the curve abouty-axis"
+          ],
+          "explanation": "Denominator1+acosθ stays positive for|a|<1. For0<a<1, the curvature numerator atθ=0 has factor1−2a−a², so convexity changes ata=√2−1. At|a|=1 the zero of the denominator first appears; beyond it two singular angles exist. At poles of the expression, no finite point should be drawn.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "First loss of convexity",
+          "answer": "|a|=√2−1",
+          "options": [
+            "2(|a|=√2−1)",
+            "−(|a|=√2−1)",
+            "|a|=√2−1"
+          ],
+          "explanation": "Denominator1+acosθ stays positive for|a|<1. For0<a<1, the curvature numerator atθ=0 has factor1−2a−a², so convexity changes ata=√2−1. At|a|=1 the zero of the denominator first appears; beyond it two singular angles exist. At poles of the expression, no finite point should be drawn.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "0<|a|<1",
+          "answer": "Bounded closed curve; dimple for√2−1<|a|<1",
+          "options": [
+            "Bounded closed curve; dimple for√2−1<|a|<1",
+            "2(Bounded closed curve; dimple for√2−1<|a|<1)",
+            "−(Bounded closed curve; dimple for√2−1<|a|<1)"
+          ],
+          "explanation": "Denominator1+acosθ stays positive for|a|<1. For0<a<1, the curvature numerator atθ=0 has factor1−2a−a², so convexity changes ata=√2−1. At|a|=1 the zero of the denominator first appears; beyond it two singular angles exist. At poles of the expression, no finite point should be drawn.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "|a|=1",
+          "answer": "The denominator vanishes on one axis and the curve becomes unbounded; a cusp reaches the pole on the opposite axis",
+          "options": [
+            "−(The denominator vanishes on one axis and the curve becomes unbounded; a cusp reaches the pole on the opposite axis)",
+            "The denominator vanishes on one axis and the curve becomes unbounded; a cusp reaches the pole on the opposite axis",
+            "2(The denominator vanishes on one axis and the curve becomes unbounded; a cusp reaches the pole on the opposite axis)"
+          ],
+          "explanation": "Denominator1+acosθ stays positive for|a|<1. For0<a<1, the curvature numerator atθ=0 has factor1−2a−a², so convexity changes ata=√2−1. At|a|=1 the zero of the denominator first appears; beyond it two singular angles exist. At poles of the expression, no finite point should be drawn.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "|a|>1",
+          "answer": "Two denominator-zero angles create unbounded branches, with additional pole crossings atcosθ=1/a",
+          "options": [
+            "Two denominator-zero angles create unbounded branches, with additional pole crossings atcosθ=1/a",
+            "2(Two denominator-zero angles create unbounded branches, with additional pole crossings atcosθ=1/a)",
+            "−(Two denominator-zero angles create unbounded branches, with additional pole crossings atcosθ=1/a)"
+          ],
+          "explanation": "Denominator1+acosθ stays positive for|a|<1. For0<a<1, the curvature numerator atθ=0 has factor1−2a−a², so convexity changes ata=√2−1. At|a|=1 the zero of the denominator first appears; beyond it two singular angles exist. At poles of the expression, no finite point should be drawn.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699,
+        700
+      ]
+    }
+  },
+  "calculus-section-10-3-4-project-laboratory-project-families-of-polar-curves-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a<c",
+          "answer": "Two disjoint ovals around(±c,0)",
+          "options": [
+            "2(Two disjoint ovals around(±c,0))",
+            "−(Two disjoint ovals around(±c,0))",
+            "Two disjoint ovals around(±c,0)"
+          ],
+          "explanation": "The Cartesian equation is[(x−c)²+y²][(x+c)²+y²]=a⁴. Atx=0 it requiresy²=a²−c², so the topology changes ata=c. The curvature at the y-axis ends changes sign ata=√2c. The radial quadratic isr²=c²cos2θ±√(a⁴−c⁴sin²2θ); keep only real nonnegative r².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a=c",
+          "answer": "Bernoulli lemniscate touching at the origin",
+          "options": [
+            "−(Bernoulli lemniscate touching at the origin)",
+            "2(Bernoulli lemniscate touching at the origin)",
+            "Bernoulli lemniscate touching at the origin"
+          ],
+          "explanation": "The Cartesian equation is[(x−c)²+y²][(x+c)²+y²]=a⁴. Atx=0 it requiresy²=a²−c², so the topology changes ata=c. The curvature at the y-axis ends changes sign ata=√2c. The radial quadratic isr²=c²cos2θ±√(a⁴−c⁴sin²2θ); keep only real nonnegative r².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c<a<√2c",
+          "answer": "One connected dimpled oval",
+          "options": [
+            "2(One connected dimpled oval)",
+            "One connected dimpled oval",
+            "−(One connected dimpled oval)"
+          ],
+          "explanation": "The Cartesian equation is[(x−c)²+y²][(x+c)²+y²]=a⁴. Atx=0 it requiresy²=a²−c², so the topology changes ata=c. The curvature at the y-axis ends changes sign ata=√2c. The radial quadratic isr²=c²cos2θ±√(a⁴−c⁴sin²2θ); keep only real nonnegative r².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a≥√2c",
+          "answer": "One convex oval (threshold curvature zero ata=√2c)",
+          "options": [
+            "−(One convex oval (threshold curvature zero ata=√2c))",
+            "One convex oval (threshold curvature zero ata=√2c)",
+            "2(One convex oval (threshold curvature zero ata=√2c))"
+          ],
+          "explanation": "The Cartesian equation is[(x−c)²+y²][(x+c)²+y²]=a⁴. Atx=0 it requiresy²=a²−c², so the topology changes ata=c. The curvature at the y-axis ends changes sign ata=√2c. The radial quadratic isr²=c²cos2θ±√(a⁴−c⁴sin²2θ); keep only real nonnegative r².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Cartesian interpretation",
+          "answer": "Product of distances to(−c,0) and(c,0) equalsa²",
+          "options": [
+            "2(Product of distances to(−c,0) and(c,0) equalsa²)",
+            "Product of distances to(−c,0) and(c,0) equalsa²",
+            "−(Product of distances to(−c,0) and(c,0) equalsa²)"
+          ],
+          "explanation": "The Cartesian equation is[(x−c)²+y²][(x+c)²+y²]=a⁴. Atx=0 it requiresy²=a²−c², so the topology changes ata=c. The curvature at the y-axis ends changes sign ata=√2c. The radial quadratic isr²=c²cos2θ±√(a⁴−c⁴sin²2θ); keep only real nonnegative r².",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        699,
+        700
+      ]
+    }
+  }
+}

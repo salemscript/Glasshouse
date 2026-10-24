@@ -1,0 +1,383 @@
+{
+  "calculus-chapter-10-problems-plus-1-problems-plus-0": {
+    "grader": {
+      "type": "numeric",
+      "label": "Shaded area",
+      "answer": 0.6302934872554409,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "The inner arcs are radius√2 centered at(±1,0),(0,±1). In the first quadrant, the limiting arcs switch at x=y=(√3−1)/2. Integrate y=sqrt(2−x²)−1 up to that switch and y=sqrt(2−(x+1)²) thereafter, then multiply by4.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        723
+      ]
+    }
+  },
+  "calculus-chapter-10-problems-plus-2-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Absolute x-coordinate of both highest/lowest points",
+          "answer": 0.7071067811865476,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Complete the square in x² to maximize y². Substitution gives r²=1/(cos⁴θ+sin⁴θ) for r≠0; the excluded algebraic factor also supplies the isolated origin. Area=½∫0^2π2/(1+cos²2θ)dθ=π√2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Highest y",
+          "answer": 1.09868411346781,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Complete the square in x² to maximize y². Substitution gives r²=1/(cos⁴θ+sin⁴θ) for r≠0; the excluded algebraic factor also supplies the isolated origin. Area=½∫0^2π2/(1+cos²2θ)dθ=π√2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Lowest y",
+          "answer": -1.09868411346781,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Complete the square in x² to maximize y². Substitution gives r²=1/(cos⁴θ+sin⁴θ) for r≠0; the excluded algebraic factor also supplies the isolated origin. Area=½∫0^2π2/(1+cos²2θ)dθ=π√2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Shape",
+          "answer": "A fourfold symmetric rounded outer loop plus the isolated origin",
+          "options": [
+            "A fourfold symmetric rounded outer loop plus the isolated origin",
+            "A unit circle only",
+            "An unbounded hyperbola"
+          ],
+          "explanation": "Complete the square in x² to maximize y². Substitution gives r²=1/(cos⁴θ+sin⁴θ) for r≠0; the excluded algebraic factor also supplies the isolated origin. Area=½∫0^2π2/(1+cos²2θ)dθ=π√2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Nonzero polar boundary r²",
+          "answer": "1/(sin(t)^4 + cos(t)^4)",
+          "options": [
+            "2/(sin(t)^4 + cos(t)^4)",
+            "1/(sin(t)^4 + cos(t)^4)",
+            "-1/(sin(t)^4 + cos(t)^4)"
+          ],
+          "explanation": "Complete the square in x² to maximize y². Substitution gives r²=1/(cos⁴θ+sin⁴θ) for r≠0; the excluded algebraic factor also supplies the isolated origin. Area=½∫0^2π2/(1+cos²2θ)dθ=π√2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Enclosed area",
+          "answer": 4.442882938158366,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Complete the square in x² to maximize y². Substitution gives r²=1/(cos⁴θ+sin⁴θ) for r≠0; the excluded algebraic factor also supplies the isolated origin. Area=½∫0^2π2/(1+cos²2θ)dθ=π√2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        723
+      ]
+    }
+  },
+  "calculus-chapter-10-problems-plus-3-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Left edge",
+          "answer": -1.299038105676658,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "For0≤c≤1 the extreme horizontal values occur on c=1 at sinθ=1/2. The top is the cardioid point(0,2), while the bottom is the c=0 circle point(0,−1).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Right edge",
+          "answer": 1.299038105676658,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "For0≤c≤1 the extreme horizontal values occur on c=1 at sinθ=1/2. The top is the cardioid point(0,2), while the bottom is the c=0 circle point(0,−1).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Bottom edge",
+          "answer": -1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "For0≤c≤1 the extreme horizontal values occur on c=1 at sinθ=1/2. The top is the cardioid point(0,2), while the bottom is the c=0 circle point(0,−1).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Top edge",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "For0≤c≤1 the extreme horizontal values occur on c=1 at sinθ=1/2. The top is the cardioid point(0,2), while the bottom is the c=0 circle point(0,−1).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        723
+      ]
+    }
+  },
+  "calculus-chapter-10-problems-plus-4-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Path r(θ), initial bug atθ=0",
+          "answer": "sqrt(2)*a*exp(-t)/2",
+          "options": [
+            "sqrt(2)*a*exp(-t)/2",
+            "sqrt(2)*a*exp(-t)",
+            "-sqrt(2)*a*exp(-t)/2"
+          ],
+          "explanation": "The velocity toward the next bug has equal inward-radial and positive-tangential components, so dr/dθ=−r. Initially r=a/√2; integrate sqrt(r²+r′²)=√2r from0 to∞. Formulas use t=θ.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Distance traveled",
+          "answer": "a",
+          "options": [
+            "2*a",
+            "-a",
+            "a"
+          ],
+          "explanation": "The velocity toward the next bug has equal inward-radial and positive-tangential components, so dr/dθ=−r. Initially r=a/√2; integrate sqrt(r²+r′²)=√2r from0 to∞. Formulas use t=θ.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        723
+      ]
+    }
+  },
+  "calculus-chapter-10-problems-plus-5-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Standard-form tangent",
+          "answer": "x x0/a²−y y0/b²=1 at(x0,y0)",
+          "options": [
+            "x x0/a²−y y0/b²=1 at(x0,y0)",
+            "x x0/a²+y y0/b²=1",
+            "x+y=x0+y0"
+          ],
+          "explanation": "Intersect the tangent with both asymptotes. The two x-values are a²b/(bx0∓ay0); averaging them, and their signed y-values, recovers the tangency point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Intersection midpoint",
+          "answer": "((x+ +x−)/2,(y+ +y−)/2)=(x0,y0)",
+          "options": [
+            "((x+ +x−)/2,(y+ +y−)/2)=(x0,y0)",
+            "The midpoint is always the origin",
+            "The midpoint is twice the tangency point"
+          ],
+          "explanation": "Intersect the tangent with both asymptotes. The two x-values are a²b/(bx0∓ay0); averaging them, and their signed y-values, recovers the tangency point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Algebraic reason",
+          "answer": "x0²/a²−y0²/b²=1 simplifies the average of the intersections with y=±(b/a)x",
+          "options": [
+            "The tangent passes through the origin",
+            "x0²/a²−y0²/b²=1 simplifies the average of the intersections with y=±(b/a)x",
+            "The asymptotes are parallel"
+          ],
+          "explanation": "Intersect the tangent with both asymptotes. The two x-values are a²b/(bx0∓ay0); averaging them, and their signed y-values, recovers the tangency point.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        723
+      ]
+    }
+  },
+  "calculus-chapter-10-problems-plus-6-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · x(θ)",
+          "answer": "b*cos(3*t) + 3*r*cos(t)",
+          "options": [
+            "-b*cos(3*t) - 3*r*cos(t)",
+            "b*cos(3*t) + 3*r*cos(t)",
+            "2*b*cos(3*t) + 6*r*cos(t)"
+          ],
+          "explanation": "The rolling circle center is3r(cosθ,sinθ); no slip rotates the point through3θ. At the three parameter offsets, the b terms coincide and the3r terms form an equilateral triangle. Its Reuleaux rotor has width3√3r; fitting the minor-width bottleneck6r−2b yields b≤(3/2)(2−√3)r, the stated criterion.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · y(θ)",
+          "answer": "b*sin(3*t) + 3*r*sin(t)",
+          "options": [
+            "b*sin(3*t) + 3*r*sin(t)",
+            "-b*sin(3*t) - 3*r*sin(t)",
+            "2*b*sin(3*t) + 6*r*sin(t)"
+          ],
+          "explanation": "The rolling circle center is3r(cosθ,sinθ); no slip rotates the point through3θ. At the three parameter offsets, the b terms coincide and the3r terms form an equilateral triangle. Its Reuleaux rotor has width3√3r; fitting the minor-width bottleneck6r−2b yields b≤(3/2)(2−√3)r, the stated criterion.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Family",
+          "answer": "At b=0 a radius3r circle; as b increases toward r the twofold curve develops increasingly pointed ends, reaching an epicycloid at b=r",
+          "options": [
+            "A threefold curve for all b",
+            "At b=0 a radius3r circle; as b increases toward r the twofold curve develops increasingly pointed ends, reaching an epicycloid at b=r",
+            "Always a circle"
+          ],
+          "explanation": "The rolling circle center is3r(cosθ,sinθ); no slip rotates the point through3θ. At the three parameter offsets, the b terms coincide and the3r terms form an equilateral triangle. Its Reuleaux rotor has width3√3r; fitting the minor-width bottleneck6r−2b yields b≤(3/2)(2−√3)r, the stated criterion.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Triangle parameters",
+          "answer": "θ,θ+2π/3,θ+4π/3",
+          "options": [
+            "θ,θ+2π/3,θ+4π/3",
+            "θ,2θ,3θ always",
+            "θ,θ+π/2,θ+π"
+          ],
+          "explanation": "The rolling circle center is3r(cosθ,sinθ); no slip rotates the point through3θ. At the three parameter offsets, the b terms coincide and the3r terms form an equilateral triangle. Its Reuleaux rotor has width3√3r; fitting the minor-width bottleneck6r−2b yields b≤(3/2)(2−√3)r, the stated criterion.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Triangle side length",
+          "answer": "3*sqrt(3)*r",
+          "options": [
+            "-3*sqrt(3)*r",
+            "6*sqrt(3)*r",
+            "3*sqrt(3)*r"
+          ],
+          "explanation": "The rolling circle center is3r(cosθ,sinθ); no slip rotates the point through3θ. At the three parameter offsets, the b terms coincide and the3r terms form an equilateral triangle. Its Reuleaux rotor has width3√3r; fitting the minor-width bottleneck6r−2b yields b≤(3/2)(2−√3)r, the stated criterion.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Centroid x",
+          "answer": "b*cos(3*t)",
+          "options": [
+            "-b*cos(3*t)",
+            "b*cos(3*t)",
+            "2*b*cos(3*t)"
+          ],
+          "explanation": "The rolling circle center is3r(cosθ,sinθ); no slip rotates the point through3θ. At the three parameter offsets, the b terms coincide and the3r terms form an equilateral triangle. Its Reuleaux rotor has width3√3r; fitting the minor-width bottleneck6r−2b yields b≤(3/2)(2−√3)r, the stated criterion.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Centroid y",
+          "answer": "b*sin(3*t)",
+          "options": [
+            "b*sin(3*t)",
+            "-b*sin(3*t)",
+            "2*b*sin(3*t)"
+          ],
+          "explanation": "The rolling circle center is3r(cosθ,sinθ); no slip rotates the point through3θ. At the three parameter offsets, the b terms coincide and the3r terms form an equilateral triangle. Its Reuleaux rotor has width3√3r; fitting the minor-width bottleneck6r−2b yields b≤(3/2)(2−√3)r, the stated criterion.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Maximum allowed b/r",
+          "answer": "3 - 3*sqrt(3)/2",
+          "options": [
+            "3 - 3*sqrt(3)/2",
+            "-3 + 3*sqrt(3)/2",
+            "6 - 3*sqrt(3)"
+          ],
+          "explanation": "The rolling circle center is3r(cosθ,sinθ); no slip rotates the point through3θ. At the three parameter offsets, the b terms coincide and the3r terms form an equilateral triangle. Its Reuleaux rotor has width3√3r; fitting the minor-width bottleneck6r−2b yields b≤(3/2)(2−√3)r, the stated criterion.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 8,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 10,
+      "pages": [
+        723
+      ]
+    }
+  }
+}

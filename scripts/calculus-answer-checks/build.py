@@ -42,11 +42,19 @@ def main():
     parser.add_argument('--require-complete', action='store_true')
     args = parser.parse_args()
     source = read(DATA / 'calculus.json.gz')
+    correction=json.loads((HERE/'chapter-11/source-correction.json').read_text())
+    removed=set(correction['removeQuestionIds'])
+    insertion=next((i for i,q in enumerate(source) if q['id'] in removed),len(source))
+    source=[q for q in source if q['id'] not in removed]
+    present={q['id'] for q in source}
+    source[insertion:insertion]=[q for q in correction['addQuestions'] if q['id'] not in present]
+    (DATA/'calculus.json.gz').write_bytes(gzip.compress(json.dumps(source,ensure_ascii=False,separators=(',',':')).encode(),mtime=0))
     by_id = {q['id']: q for q in source}
     out = DATA / 'answer-library-calculus.json.gz'
     library = read(out)
+    for qid in removed: library['questions'].pop(qid,None)
     changed = set()
-    for chapter in range(1, 9):
+    for chapter in range(1, 14):
         paths = [HERE / f'chapter-{chapter:02}.json']
         if chapter == 2:
             paths += [HERE/'chapter-02/problems-plus.json', HERE/'chapter-02/review-concepts.json', HERE/'chapter-02/review-exercises.json']
@@ -69,11 +77,11 @@ def main():
                          objectiveFieldCount=len(fs))
             assert entry.get('responsePartPrompt'), (qid, 'explicit source part contract required')
             changed.add(qid)
-    report = {'requestedChapters': list(range(1,9)), 'chapters': {},
+    report = {'requestedChapters': list(range(1,14)), 'chapters': {},
               'patchedRecords': len(changed), 'complete': True,
               'assessmentScope': 'Numeric fields and explicit mathematical selections are checked. '
               'A selected result does not automatically assess a freehand graph, written proof, or open-ended construction.'}
-    for chapter in range(1, 9):
+    for chapter in range(1, 14):
         qs = [q for q in source if q['chapter'] == chapter]
         missing = []
         count = Counter()
@@ -98,7 +106,9 @@ def main():
     library.setdefault('coverage', {})['chapter1To3ObjectiveChecks'] = {
         ch: {k: v for k, v in result.items() if k in ('total', 'checkable', 'fields')}
         for ch, result in report['chapters'].items() if int(ch)<=3}
-    library['coverage']['chapter4To8ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if int(ch)>=4}
+    library['coverage']['chapter4To8ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if 4<=int(ch)<=8}
+    library['coverage']['chapter9To13ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if 9<=int(ch)<=13}
+    library['coverage']['total'] = len(source)
     library['coverage']['answerRecords'] = len(library['questions'])
     library['coverage']['missing'] = library['coverage']['total'] - len(library['questions'])
     library['coverage']['newGraderRecords'] = sum(bool(v.get('grader')) for v in library['questions'].values())

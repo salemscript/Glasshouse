@@ -1,0 +1,1968 @@
+{
+  "calculus-section-12-1-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Position x",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The x displacement is4; downward means negative z; y stays0."
+        },
+        {
+          "type": "numeric",
+          "label": "Position y",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The x displacement is4; downward means negative z; y stays0."
+        },
+        {
+          "type": "numeric",
+          "label": "Position z",
+          "answer": -3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The x displacement is4; downward means negative z; y stays0."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Coordinate placement",
+      "answer": "(1,5,3): all positive; (0,2,−3): yz-plane; (−3,0,2): xz-plane; (2,−2,−1): x positive, y and z negative",
+      "options": [
+        "All coordinates are positive",
+        "(1,5,3): all positive; (0,2,−3): yz-plane; (−3,0,2): xz-plane; (2,−2,−1): x positive, y and z negative",
+        "All four lie in the xy-plane"
+      ],
+      "selectionPrompt": "Choose the correct Coordinate placement.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Place each coordinate along its signed axis; zero coordinates identify coordinate planes.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-3": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Closest to yz-plane",
+          "answer": "C",
+          "options": [
+            "C",
+            "A",
+            "B"
+          ],
+          "selectionPrompt": "Choose the correct Closest to yz-plane.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Distance to yz-plane is|x|; membership in xz-plane requires y=0."
+        },
+        {
+          "type": "choice",
+          "label": "In xz-plane",
+          "answer": "A",
+          "options": [
+            "B",
+            "A",
+            "C"
+          ],
+          "selectionPrompt": "Choose the correct In xz-plane.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Distance to yz-plane is|x|; membership in xz-plane requires y=0."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-4": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "xy projection x",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "numeric",
+          "label": "xy projection y",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "numeric",
+          "label": "xy projection z",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "numeric",
+          "label": "yz projection x",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "numeric",
+          "label": "yz projection y",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "numeric",
+          "label": "yz projection z",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "numeric",
+          "label": "xz projection x",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "numeric",
+          "label": "xz projection y",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "numeric",
+          "label": "xz projection z",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "numeric",
+          "label": "Diagonal length",
+          "answer": 6.164414002968976,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        },
+        {
+          "type": "choice",
+          "label": "All vertices",
+          "answer": "(x,y,z) with x∈{0,2}, y∈{0,3}, z∈{0,5}",
+          "options": [
+            "All coordinates must be equal",
+            "(x,y,z) with x∈{0,2}, y∈{0,3}, z∈{0,5}",
+            "Only the origin and (2,3,5)"
+          ],
+          "selectionPrompt": "Choose the correct All vertices.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Projection sets the perpendicular coordinate to zero; box vertices independently choose an endpoint on each axis. Distance is√(4+9+25)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 11,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-5": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "In R²",
+          "answer": "Line parallel to the y-axis through(4,0)",
+          "options": [
+            "Line parallel to the y-axis through(4,0)",
+            "The x-axis",
+            "Circle of radius4"
+          ],
+          "selectionPrompt": "Choose the correct In R².",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Coordinates not constrained by x=4 vary freely."
+        },
+        {
+          "type": "choice",
+          "label": "In R³",
+          "answer": "Plane parallel to yz-plane through(4,0,0)",
+          "options": [
+            "Plane parallel to yz-plane through(4,0,0)",
+            "A line only",
+            "Sphere of radius4"
+          ],
+          "selectionPrompt": "Choose the correct In R³.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Coordinates not constrained by x=4 vary freely."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-6": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "y=3",
+          "answer": "Plane parallel to xz-plane",
+          "options": [
+            "A sphere",
+            "Plane parallel to xz-plane",
+            "Plane parallel to xy-plane"
+          ],
+          "selectionPrompt": "Choose the correct y=3.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Fixing one coordinate leaves a plane; fixing y and z leaves one free x-coordinate."
+        },
+        {
+          "type": "choice",
+          "label": "z=5",
+          "answer": "Plane parallel to xy-plane",
+          "options": [
+            "Plane parallel to xy-plane",
+            "A circle",
+            "Plane parallel to yz-plane"
+          ],
+          "selectionPrompt": "Choose the correct z=5.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Fixing one coordinate leaves a plane; fixing y and z leaves one free x-coordinate."
+        },
+        {
+          "type": "choice",
+          "label": "Both",
+          "answer": "Line {(t,3,5):t∈R}, parallel to x-axis",
+          "options": [
+            "Line {(t,3,5):t∈R}, parallel to x-axis",
+            "The whole yz-plane",
+            "Single point(0,3,5)"
+          ],
+          "selectionPrompt": "Choose the correct Both.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Fixing one coordinate leaves a plane; fixing y and z leaves one free x-coordinate."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-7": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Plane through(2,0,0) and(0,2,0), parallel to z-axis",
+      "options": [
+        "Sphere centered at origin",
+        "Cylinder of radius2",
+        "Plane through(2,0,0) and(0,2,0), parallel to z-axis"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The equation fixes a linear relationship between x and y while z is unrestricted.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-8": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Surface",
+      "answer": "Circular cylinder of radius3 about the y-axis",
+      "options": [
+        "Circle in the xy-plane only",
+        "Sphere of radius3",
+        "Circular cylinder of radius3 about the y-axis"
+      ],
+      "selectionPrompt": "Choose the correct Surface.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The xz cross-section is a circle and y is free.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-9": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "PQ",
+          "answer": 6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        },
+        {
+          "type": "numeric",
+          "label": "QR",
+          "answer": 6.324555320336759,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        },
+        {
+          "type": "numeric",
+          "label": "PR",
+          "answer": 6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        },
+        {
+          "type": "choice",
+          "label": "Right triangle?",
+          "answer": "No",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "selectionPrompt": "Choose the correct Right triangle?.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        },
+        {
+          "type": "choice",
+          "label": "Isosceles?",
+          "answer": "Yes",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "selectionPrompt": "Choose the correct Isosceles?.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-10": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "PQ",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        },
+        {
+          "type": "numeric",
+          "label": "QR",
+          "answer": 6.708203932499369,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        },
+        {
+          "type": "numeric",
+          "label": "PR",
+          "answer": 6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        },
+        {
+          "type": "choice",
+          "label": "Right triangle?",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "selectionPrompt": "Choose the correct Right triangle?.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        },
+        {
+          "type": "choice",
+          "label": "Isosceles?",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "selectionPrompt": "Choose the correct Isosceles?.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compute each squared distance as the sum of coordinate-difference squares. Compare squared side lengths for Pythagoras and lengths for equality."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-11": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Collinear?",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "selectionPrompt": "Choose the correct (a) Collinear?.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "In(a) AB=(1,3,−4), AC=(−1,−1,1) are not proportional. In(b) DF=3DE=(3,9,−3)."
+        },
+        {
+          "type": "choice",
+          "label": "(b) Collinear?",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "selectionPrompt": "Choose the correct (b) Collinear?.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "In(a) AB=(1,3,−4), AC=(−1,−1,1) are not proportional. In(b) DF=3DE=(3,9,−3)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-12": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) xy-plane",
+          "answer": 6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Distance to a coordinate plane is the absolute omitted coordinate; distance to an axis is the norm of the other two coordinates."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) yz-plane",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Distance to a coordinate plane is the absolute omitted coordinate; distance to an axis is the norm of the other two coordinates."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) xz-plane",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Distance to a coordinate plane is the absolute omitted coordinate; distance to an axis is the norm of the other two coordinates."
+        },
+        {
+          "type": "numeric",
+          "label": "(d) x-axis",
+          "answer": 6.324555320336759,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Distance to a coordinate plane is the absolute omitted coordinate; distance to an axis is the norm of the other two coordinates."
+        },
+        {
+          "type": "numeric",
+          "label": "(e) y-axis",
+          "answer": 7.211102550927978,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Distance to a coordinate plane is the absolute omitted coordinate; distance to an axis is the norm of the other two coordinates."
+        },
+        {
+          "type": "numeric",
+          "label": "(f) z-axis",
+          "answer": 4.47213595499958,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Distance to a coordinate plane is the absolute omitted coordinate; distance to an axis is the norm of the other two coordinates."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-13": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Sphere",
+          "answer": "(x+3)²+(y−2)²+(z−5)²=16",
+          "options": [
+            "(x−3)²+(y+2)²+(z+5)²=16",
+            "(x+3)²+(y−2)²+(z−5)²=4",
+            "(x+3)²+(y−2)²+(z−5)²=16"
+          ],
+          "selectionPrompt": "Choose the correct Sphere.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use squared distance from the center; setting x=0 subtracts9 from radius squared."
+        },
+        {
+          "type": "choice",
+          "label": "yz intersection",
+          "answer": "x=0, (y−2)²+(z−5)²=7",
+          "options": [
+            "x=0, (y−2)²+(z−5)²=16",
+            "No intersection",
+            "x=0, (y−2)²+(z−5)²=7"
+          ],
+          "selectionPrompt": "Choose the correct yz intersection.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use squared distance from the center; setting x=0 subtracts9 from radius squared."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-14": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Sphere",
+          "answer": "(x−2)²+(y+6)²+(z−4)²=25",
+          "options": [
+            "x²+y²+z²=25",
+            "(x−2)²+(y+6)²+(z−4)²=25",
+            "(x+2)²+(y−6)²+(z+4)²=25"
+          ],
+          "selectionPrompt": "Choose the correct Sphere.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Set each perpendicular coordinate to0; a negative residual radius squared means an empty intersection."
+        },
+        {
+          "type": "choice",
+          "label": "xy intersection",
+          "answer": "z=0, (x−2)²+(y+6)²=9",
+          "options": [
+            "z=0, (x−2)²+(y+6)²=9",
+            "z=0, x²+y²=25",
+            "No intersection"
+          ],
+          "selectionPrompt": "Choose the correct xy intersection.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Set each perpendicular coordinate to0; a negative residual radius squared means an empty intersection."
+        },
+        {
+          "type": "choice",
+          "label": "yz intersection",
+          "answer": "x=0, (y+6)²+(z−4)²=21",
+          "options": [
+            "x=0, y²+z²=25",
+            "No intersection",
+            "x=0, (y+6)²+(z−4)²=21"
+          ],
+          "selectionPrompt": "Choose the correct yz intersection.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Set each perpendicular coordinate to0; a negative residual radius squared means an empty intersection."
+        },
+        {
+          "type": "choice",
+          "label": "xz intersection",
+          "answer": "Empty",
+          "options": [
+            "y=0, (x−2)²+(z−4)²=11",
+            "Empty",
+            "A single point"
+          ],
+          "selectionPrompt": "Choose the correct xz intersection.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Set each perpendicular coordinate to0; a negative residual radius squared means an empty intersection."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-15": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center x",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center y",
+          "answer": 8.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center z",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Radius",
+          "answer": 5.477225575051661,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "choice",
+          "label": "Sphere equation",
+          "answer": "(x−(3))²+(y−(8))²+(z−(1))²=30",
+          "options": [
+            "(x−(3))²+(y−(8))²+(z−(1))²=31",
+            "(x−(3))²+(y−(8))²+(z−(1))²=30",
+            "x²+y²+z²=30"
+          ],
+          "selectionPrompt": "Choose the correct Sphere equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-16": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center x",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center y",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center z",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Radius",
+          "answer": 3.7416573867739413,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "choice",
+          "label": "Sphere equation",
+          "answer": "(x−(1))²+(y−(2))²+(z−(3))²=14",
+          "options": [
+            "(x−(1))²+(y−(2))²+(z−(3))²=15",
+            "x²+y²+z²=14",
+            "(x−(1))²+(y−(2))²+(z−(3))²=14"
+          ],
+          "selectionPrompt": "Choose the correct Sphere equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-17": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center x",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center y",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center z",
+          "answer": -4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Radius",
+          "answer": 6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "choice",
+          "label": "Sphere equation",
+          "answer": "(x−(1))²+(y−(2))²+(z−(-4))²=36",
+          "options": [
+            "(x−(1))²+(y−(2))²+(z−(-4))²=36",
+            "(x−(1))²+(y−(2))²+(z−(-4))²=37",
+            "x²+y²+z²=36"
+          ],
+          "selectionPrompt": "Choose the correct Sphere equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-18": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center x",
+          "answer": -4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center y",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center z",
+          "answer": -1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Radius",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "choice",
+          "label": "Sphere equation",
+          "answer": "(x−(-4))²+(y−(3))²+(z−(-1))²=9",
+          "options": [
+            "x²+y²+z²=9",
+            "(x−(-4))²+(y−(3))²+(z−(-1))²=9",
+            "(x−(-4))²+(y−(3))²+(z−(-1))²=10"
+          ],
+          "selectionPrompt": "Choose the correct Sphere equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-19": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center x",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center y",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center z",
+          "answer": -6.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Radius",
+          "answer": 6.363961030678928,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "choice",
+          "label": "Sphere equation",
+          "answer": "(x−(2))²+(y−(0))²+(z−(-6))²=81/2",
+          "options": [
+            "(x−(2))²+(y−(0))²+(z−(-6))²=81/2",
+            "x²+y²+z²=81/2",
+            "(x−(2))²+(y−(0))²+(z−(-6))²=83/2"
+          ],
+          "selectionPrompt": "Choose the correct Sphere equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-20": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center x",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center y",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center z",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Radius",
+          "answer": 2.8867513459481287,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "choice",
+          "label": "Sphere equation",
+          "answer": "(x−(0))²+(y−(1))²+(z−(2))²=25/3",
+          "options": [
+            "(x−(0))²+(y−(1))²+(z−(2))²=25/3",
+            "x²+y²+z²=25/3",
+            "(x−(0))²+(y−(1))²+(z−(2))²=28/3"
+          ],
+          "selectionPrompt": "Choose the correct Sphere equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-22": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center x",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center y",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center z",
+          "answer": -3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Radius",
+          "answer": 6.4031242374328485,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "choice",
+          "label": "Sphere equation",
+          "answer": "(x−(3))²+(y−(5))²+(z−(-3))²=41",
+          "options": [
+            "(x−(3))²+(y−(5))²+(z−(-3))²=41",
+            "(x−(3))²+(y−(5))²+(z−(-3))²=42",
+            "x²+y²+z²=41"
+          ],
+          "selectionPrompt": "Choose the correct Sphere equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-24": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center x",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center y",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Center z",
+          "answer": 9.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "numeric",
+          "label": "Radius",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        },
+        {
+          "type": "choice",
+          "label": "Sphere equation",
+          "answer": "(x−(5))²+(y−(4))²+(z−(9))²=16",
+          "options": [
+            "(x−(5))²+(y−(4))²+(z−(9))²=16",
+            "x²+y²+z²=16",
+            "(x−(5))²+(y−(4))²+(z−(9))²=17"
+          ],
+          "selectionPrompt": "Choose the correct Sphere equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Complete coordinate squares or use the specified center and squared distance. For22 use the midpoint of the diameter. For24 the smallest distance to an octant boundary is4."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-21": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) midpoint formula",
+          "answer": "((x₁+x₂)/2,(y₁+y₂)/2,(z₁+z₂)/2)",
+          "options": [
+            "((x₂−x₁)/2,(y₂−y₁)/2,(z₂−z₁)/2)",
+            "((x₁+x₂)/2,(y₁+y₂)/2,(z₁+z₂)/2)",
+            "(x₁+x₂,y₁+y₂,z₁+z₂)"
+          ],
+          "selectionPrompt": "Choose the correct (a) midpoint formula.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The arithmetic coordinate average divides the displacement vector into two equal halves; apply the distance formula to each vertex and opposite midpoint."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) Median from A",
+          "answer": 2.5,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The arithmetic coordinate average divides the displacement vector into two equal halves; apply the distance formula to each vertex and opposite midpoint."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) Median from B",
+          "answer": 4.847679857416329,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The arithmetic coordinate average divides the displacement vector into two equal halves; apply the distance formula to each vertex and opposite midpoint."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) Median from C",
+          "answer": 4.6097722286464435,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The arithmetic coordinate average divides the displacement vector into two equal halves; apply the distance formula to each vertex and opposite midpoint."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-23": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) Sphere",
+          "answer": "(x−2)²+(y+3)²+(z−6)²=36",
+          "options": [
+            "x²+y²+z²=36",
+            "(x−2)²+(y+3)²+(z−6)²=6",
+            "(x−2)²+(y+3)²+(z−6)²=36"
+          ],
+          "selectionPrompt": "Choose the correct (a) Sphere.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Tangency radius is the distance from the center to the plane:6,2,3 respectively."
+        },
+        {
+          "type": "choice",
+          "label": "(b) Sphere",
+          "answer": "(x−2)²+(y+3)²+(z−6)²=4",
+          "options": [
+            "(x−2)²+(y+3)²+(z−6)²=2",
+            "(x−2)²+(y+3)²+(z−6)²=4",
+            "x²+y²+z²=4"
+          ],
+          "selectionPrompt": "Choose the correct (b) Sphere.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Tangency radius is the distance from the center to the plane:6,2,3 respectively."
+        },
+        {
+          "type": "choice",
+          "label": "(c) Sphere",
+          "answer": "(x−2)²+(y+3)²+(z−6)²=9",
+          "options": [
+            "(x−2)²+(y+3)²+(z−6)²=9",
+            "x²+y²+z²=9",
+            "(x−2)²+(y+3)²+(z−6)²=3"
+          ],
+          "selectionPrompt": "Choose the correct (c) Sphere.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Tangency radius is the distance from the center to the plane:6,2,3 respectively."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-25": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Plane x=5 parallel to yz-plane",
+      "options": [
+        "Plane x=5 parallel to yz-plane",
+        "All of R³",
+        "A single point at the origin"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-26": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Plane y=−2 parallel to xz-plane",
+      "options": [
+        "A single point at the origin",
+        "All of R³",
+        "Plane y=−2 parallel to xz-plane"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-27": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Open half-space y<8, excluding its boundary plane",
+      "options": [
+        "A single point at the origin",
+        "Open half-space y<8, excluding its boundary plane",
+        "All of R³"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-28": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Closed half-space z≥−1, including its boundary plane",
+      "options": [
+        "A single point at the origin",
+        "All of R³",
+        "Closed half-space z≥−1, including its boundary plane"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-29": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Closed slab between z=0 and z=6",
+      "options": [
+        "A single point at the origin",
+        "All of R³",
+        "Closed slab between z=0 and z=6"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-30": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Two planes y=2 and y=−2",
+      "options": [
+        "Two planes y=2 and y=−2",
+        "A single point at the origin",
+        "All of R³"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-31": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Circle of radius2 centered at(0,0,−1) in plane z=−1",
+      "options": [
+        "Circle of radius2 centered at(0,0,−1) in plane z=−1",
+        "All of R³",
+        "A single point at the origin"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-32": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Circular cylindrical surface of radius2 about z-axis",
+      "options": [
+        "All of R³",
+        "A single point at the origin",
+        "Circular cylindrical surface of radius2 about z-axis"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-33": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Sphere surface of radius2 centered at origin",
+      "options": [
+        "All of R³",
+        "A single point at the origin",
+        "Sphere surface of radius2 centered at origin"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-34": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Closed solid ball of radius2 centered at origin",
+      "options": [
+        "Closed solid ball of radius2 centered at origin",
+        "A single point at the origin",
+        "All of R³"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-35": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Closed spherical shell with inner radius1 and outer radius√5",
+      "options": [
+        "Closed spherical shell with inner radius1 and outer radius√5",
+        "All of R³",
+        "A single point at the origin"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-36": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Plane x=z containing the y-axis",
+      "options": [
+        "Plane x=z containing the y-axis",
+        "All of R³",
+        "A single point at the origin"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-37": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Closed infinite solid cylinder of radius3 about y-axis",
+      "options": [
+        "All of R³",
+        "Closed infinite solid cylinder of radius3 about y-axis",
+        "A single point at the origin"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-38": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "Exterior of sphere centered at(0,0,1), radius1, excluding the sphere",
+      "options": [
+        "A single point at the origin",
+        "All of R³",
+        "Exterior of sphere centered at(0,0,1), radius1, excluding the sphere"
+      ],
+      "selectionPrompt": "Choose the correct Region.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Read the unrestricted coordinates and distinguish equality (surface) from inequality (solid), respecting strict or inclusive boundaries.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-39": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region inequalities",
+      "answer": "0≤x≤5",
+      "options": [
+        "x=y=z=0",
+        "x²+y²+z²≤1",
+        "0≤x≤5"
+      ],
+      "selectionPrompt": "Choose the correct Region inequalities.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Translate each geometric distance and boundary condition directly; include boundaries unless explicitly excluded.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-40": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region inequalities",
+      "answer": "x²+y²≤4 and 0≤z≤8",
+      "options": [
+        "x²+y²+z²≤1",
+        "x=y=z=0",
+        "x²+y²≤4 and 0≤z≤8"
+      ],
+      "selectionPrompt": "Choose the correct Region inequalities.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Translate each geometric distance and boundary condition directly; include boundaries unless explicitly excluded.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-41": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region inequalities",
+      "answer": "r²<x²+y²+z²<R²",
+      "options": [
+        "r²<x²+y²+z²<R²",
+        "x²+y²+z²≤1",
+        "x=y=z=0"
+      ],
+      "selectionPrompt": "Choose the correct Region inequalities.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Translate each geometric distance and boundary condition directly; include boundaries unless explicitly excluded.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-42": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Region inequalities",
+      "answer": "x²+y²+z²≤4 and z≥0",
+      "options": [
+        "x²+y²+z²≤4 and z≥0",
+        "x²+y²+z²≤1",
+        "x=y=z=0"
+      ],
+      "selectionPrompt": "Choose the correct Region inequalities.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Translate each geometric distance and boundary condition directly; include boundaries unless explicitly excluded.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-43": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) Approximate P x",
+          "answer": 2.0,
+          "tolerance": 0.51,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The projection preserves x,y and sets z=0. The yz-plane requires x=0; the xz-plane requires y=0. Read the marked unit ticks for P."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) Approximate P y",
+          "answer": 1.0,
+          "tolerance": 0.51,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The projection preserves x,y and sets z=0. The yz-plane requires x=0; the xz-plane requires y=0. Read the marked unit ticks for P."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) Approximate P z",
+          "answer": 4.0,
+          "tolerance": 0.51,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The projection preserves x,y and sets z=0. The yz-plane requires x=0; the xz-plane requires y=0. Read the marked unit ticks for P."
+        },
+        {
+          "type": "choice",
+          "label": "(b) A",
+          "answer": "The common point of L₁ and L₂",
+          "options": [
+            "The point P",
+            "The common point of L₁ and L₂",
+            "The y-intercept of L₂"
+          ],
+          "selectionPrompt": "Choose the correct (b) A.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The projection preserves x,y and sets z=0. The yz-plane requires x=0; the xz-plane requires y=0. Read the marked unit ticks for P."
+        },
+        {
+          "type": "choice",
+          "label": "(b) B",
+          "answer": "Point on L₁ directly above the y-intercept of L₂",
+          "options": [
+            "The common point of L₁ and L₂",
+            "Point on L₁ directly above the y-intercept of L₂",
+            "The origin"
+          ],
+          "selectionPrompt": "Choose the correct (b) B.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The projection preserves x,y and sets z=0. The yz-plane requires x=0; the xz-plane requires y=0. Read the marked unit ticks for P."
+        },
+        {
+          "type": "choice",
+          "label": "(b) C",
+          "answer": "Point on L₁ directly above the x-intercept of L₂",
+          "options": [
+            "The origin",
+            "Point on L₁ directly above the x-intercept of L₂",
+            "The y-intercept of L₂"
+          ],
+          "selectionPrompt": "Choose the correct (b) C.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The projection preserves x,y and sets z=0. The yz-plane requires x=0; the xz-plane requires y=0. Read the marked unit ticks for P."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-44": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Sphere center x",
+          "answer": 8.333333333333334,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Square |P−A|=2|P−B|, expand and complete squares. The center is(4B−A)/3 and radius2|A−B|/3."
+        },
+        {
+          "type": "numeric",
+          "label": "Sphere center y",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Square |P−A|=2|P−B|, expand and complete squares. The center is(4B−A)/3 and radius2|A−B|/3."
+        },
+        {
+          "type": "numeric",
+          "label": "Sphere center z",
+          "answer": -3.6666666666666665,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Square |P−A|=2|P−B|, expand and complete squares. The center is(4B−A)/3 and radius2|A−B|/3."
+        },
+        {
+          "type": "numeric",
+          "label": "Sphere radius",
+          "answer": 6.073622386096199,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Square |P−A|=2|P−B|, expand and complete squares. The center is(4B−A)/3 and radius2|A−B|/3."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-45": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Equation",
+          "answer": "14x−6y−10z=9",
+          "options": [
+            "7x−3y−5z=9",
+            "14x−6y−10z=−9",
+            "14x−6y−10z=9"
+          ],
+          "selectionPrompt": "Choose the correct Equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Equate squared distances; the quadratic terms cancel, leaving2(B−A)·P=|B|²−|A|²=9."
+        },
+        {
+          "type": "choice",
+          "label": "Set",
+          "answer": "Perpendicular-bisector plane of AB",
+          "options": [
+            "Line AB",
+            "Perpendicular-bisector plane of AB",
+            "Sphere centered at A"
+          ],
+          "selectionPrompt": "Choose the correct Set.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Equate squared distances; the quadratic terms cancel, leaving2(B−A)·P=|B|²−|A|²=9."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-46": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Common volume",
+      "answer": 2.879793265790644,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Both spheres have radius2 and their centers are3 units apart. Their intersection is two caps of height1/2. Each cap volume isπh²(2−h/3), so the total is11π/12.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-47": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Distance between sphere surfaces",
+      "answer": 0.4641016151377546,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The radii are2 and1 and centers are distance√12 apart. They are disjoint; subtract both radii.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  },
+  "calculus-section-12-1-48": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "One valid solid",
+          "answer": "x²+y²≤1 and 0≤z≤2(1−|y|)",
+          "options": [
+            "x²+y²≤1 and 0≤z≤2(1−|y|)",
+            "x²+y²+z²≤1",
+            "0≤x,y,z≤1"
+          ],
+          "selectionPrompt": "Choose the correct One valid solid.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Above each disk point cap the height by2(1−|y|). Choosing y=0 yields every point of the square xz shadow; each y admits x=0 and exactly the triangular z range."
+        },
+        {
+          "type": "choice",
+          "label": "Projections",
+          "answer": "xy: unit disk; xz: [−1,1]×[0,2] square; yz: triangle with vertices(−1,0),(1,0),(0,2)",
+          "options": [
+            "All projections are triangles",
+            "xy: unit disk; xz: [−1,1]×[0,2] square; yz: triangle with vertices(−1,0),(1,0),(0,2)",
+            "All projections are circles"
+          ],
+          "selectionPrompt": "Choose the correct Projections.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Above each disk point cap the height by2(1−|y|). Choosing y=0 yields every point of the square xz shadow; each y admits x=0 and exactly the triangular z range."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 4,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 12 source; original independently checked answer contract."
+  }
+}
