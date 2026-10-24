@@ -1,0 +1,274 @@
+{
+  "notes": {
+    "calculus-chapter-17-review-1-concept-check-1": "Substitution of e^(rx) yields the characteristic polynomial; each case supplies two independent homogeneous solutions.",
+    "calculus-chapter-17-review-2-concept-check-1": "",
+    "calculus-chapter-17-review-3-concept-check-1": "",
+    "calculus-chapter-17-review-4-concept-check-1": "Newton’s law and Kirchhoff’s voltage law lead to the same second-order linear structure, with mass/inductance, damping/resistance and stiffness/inverse capacitance corresponding.",
+    "calculus-chapter-17-review-5-concept-check-1": "",
+    "calculus-chapter-17-review-1-true-false-quiz-2": "The homogeneous linear operator applied to a sum is the sum of its zero outputs.",
+    "calculus-chapter-17-review-2-true-false-quiz-2": "The operator applied to C₁y₁+C₂y₂ gives (C₁+C₂)x, which equals x only under an additional restriction such as C₁+C₂=1.",
+    "calculus-chapter-17-review-3-true-false-quiz-2": "cosh x and sinh x are independent linear combinations of e^x and e^(−x).",
+    "calculus-chapter-17-review-4-true-false-quiz-2": "e^x is a homogeneous solution, so the proposed trial gives zero. Resonance requires a trial Ax e^x, with A=1/2.",
+    "calculus-chapter-17-review-1": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+    "calculus-chapter-17-review-2": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+    "calculus-chapter-17-review-3": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+    "calculus-chapter-17-review-4": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+    "calculus-chapter-17-review-5": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+    "calculus-chapter-17-review-6": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+    "calculus-chapter-17-review-7": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+    "calculus-chapter-17-review-8": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+    "calculus-chapter-17-review-9": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+    "calculus-chapter-17-review-10": "Variation of parameters with cos x,sin x gives u₁=−x and u₂=ln(sin x); the source interval makes sin x positive.",
+    "calculus-chapter-17-review-11": "Apply both specified initial values after finding the general solution; verify the differential equation and both conditions.",
+    "calculus-chapter-17-review-12": "Apply both specified initial values after finding the general solution; verify the differential equation and both conditions.",
+    "calculus-chapter-17-review-13": "Apply both specified initial values after finding the general solution; verify the differential equation and both conditions.",
+    "calculus-chapter-17-review-14": "Apply both specified initial values after finding the general solution; verify the differential equation and both conditions.",
+    "calculus-chapter-17-review-15": "y(0)=1 fixes the cosine coefficient; every such solution has y(π)=−e^(−2π), not −1.",
+    "calculus-chapter-17-review-16": "The sine term vanishes at both endpoints. The two boundary conditions agree and leave its coefficient free.",
+    "calculus-chapter-17-review-17": "c₀=0,c₁=1; cₙ₊₂=−cₙ/(n+2), leaving only the displayed odd powers.",
+    "calculus-chapter-17-review-18": "Match (n+2)(n+1)cₙ₊₂=(n+2)cₙ. This recurrence plus two arbitrary starting coefficients determines the entire solution series.",
+    "calculus-chapter-17-review-19": "LQ″+RQ′+Q/C=12 with L=2,R=40,1/C=400, Q(0)=0.01 and Q′(0)=0.",
+    "calculus-chapter-17-review-20": "k=12.8/0.2=64 N/m. Solve 2x″+16x′+64x=0 with x(0)=0 and x′(0)=2.4.",
+    "calculus-chapter-17-review-21": "Uniform density gives M_r=M(r/R)³. Newton’s law produces a harmonic oscillator in the signed coordinate y; the physical distance is |y|. Release at rest from y=R, and use maximum speed ωR. Use consistent units for R=3960 mi and g."
+  },
+  "differentialChecks": [
+    {
+      "coefficients": [
+        "4",
+        "0",
+        "-1"
+      ],
+      "forcing": "0",
+      "solution": "C1*exp(-x/2) + C2*exp(x/2)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-2",
+        "10"
+      ],
+      "forcing": "0",
+      "solution": "(C1*sin(3*x) + C2*cos(3*x))*exp(x)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "0",
+        "3"
+      ],
+      "forcing": "0",
+      "solution": "C1*sin(sqrt(3)*x) + C2*cos(sqrt(3)*x)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "8",
+        "16"
+      ],
+      "forcing": "0",
+      "solution": "(C1 + C2*x)*exp(-4*x)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-4",
+        "5"
+      ],
+      "forcing": "exp(2*x)",
+      "solution": "(C1*sin(x) + C2*cos(x) + 1)*exp(2*x)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "1",
+        "-2"
+      ],
+      "forcing": "x**2",
+      "solution": "C1*exp(-2*x) + C2*exp(x) - x**2/2 - x/2 - 3/4",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-2",
+        "1"
+      ],
+      "forcing": "x*cos(x)",
+      "solution": "-x*sin(x)/2 + (C1 + C2*x)*exp(x) - sin(x)/2 - cos(x)/2",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "0",
+        "4"
+      ],
+      "forcing": "sin(2*x)",
+      "solution": "C2*sin(2*x) + (C1 - x/4)*cos(2*x)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-1",
+        "-6"
+      ],
+      "forcing": "1 + exp(-2*x)",
+      "solution": "C2*exp(3*x) + (C1 - x/5)*exp(-2*x) - 1/6",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "0",
+        "1"
+      ],
+      "forcing": "csc(x)",
+      "solution": "C1*cos(x) + C2*sin(x) - x*cos(x) + log(sin(x))*sin(x)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "6",
+        "0"
+      ],
+      "forcing": "0",
+      "solution": "5 - 2*exp(6)*exp(-6*x)",
+      "ics": {
+        "y": [
+          [
+            "1",
+            "3"
+          ]
+        ],
+        "dy": [
+          [
+            "1",
+            "12"
+          ]
+        ]
+      }
+    },
+    {
+      "coefficients": [
+        "1",
+        "-6",
+        "25"
+      ],
+      "forcing": "0",
+      "solution": "(-5*sin(4*x)/4 + 2*cos(4*x))*exp(3*x)",
+      "ics": {
+        "y": [
+          [
+            "0",
+            "2"
+          ]
+        ],
+        "dy": [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "coefficients": [
+        "1",
+        "-5",
+        "4"
+      ],
+      "forcing": "0",
+      "solution": "(exp(3*x)/3 - 1/3)*exp(x)",
+      "ics": {
+        "y": [
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "dy": [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "coefficients": [
+        "9",
+        "0",
+        "1"
+      ],
+      "forcing": "3*x + exp(-x)",
+      "solution": "3*x - 27*sin(x/3)/10 + 9*cos(x/3)/10 + exp(-x)/10",
+      "ics": {
+        "y": [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "dy": [
+          [
+            "0",
+            "2"
+          ]
+        ]
+      }
+    },
+    {
+      "coefficients": [
+        "2",
+        "40",
+        "400"
+      ],
+      "forcing": "12",
+      "solution": "(-sin(10*x)/50 - cos(10*x)/50)*exp(-10*x) + 3/100",
+      "ics": {
+        "y": [
+          [
+            "0",
+            "1/100"
+          ]
+        ],
+        "dy": [
+          [
+            "0",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "coefficients": [
+        "2",
+        "16",
+        "64"
+      ],
+      "forcing": "0",
+      "solution": "3*exp(-4*x)*sin(4*x)/5",
+      "ics": {
+        "y": [
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "dy": [
+          [
+            "0",
+            "12/5"
+          ]
+        ]
+      }
+    }
+  ]
+}

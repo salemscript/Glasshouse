@@ -1,0 +1,247 @@
+{
+  "notes": {
+    "calculus-section-15-7-1": "x=r cosθ,y=r sinθ; keepz unchanged and plot these Cartesian coordinates.",
+    "calculus-section-15-7-2": "x=r cosθ,y=r sinθ; keepz unchanged and plot these Cartesian coordinates.",
+    "calculus-section-15-7-3": "",
+    "calculus-section-15-7-4": "",
+    "calculus-section-15-7-5": "",
+    "calculus-section-15-7-6": "",
+    "calculus-section-15-7-7": "",
+    "calculus-section-15-7-8": "",
+    "calculus-section-15-7-9": "",
+    "calculus-section-15-7-10": "",
+    "calculus-section-15-7-11": "",
+    "calculus-section-15-7-12": "",
+    "calculus-section-15-7-14": "",
+    "calculus-section-15-7-13": "",
+    "calculus-section-15-7-15": "",
+    "calculus-section-15-7-16": "",
+    "calculus-section-15-7-17": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-18": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-19": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-20": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-21": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-22": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-23": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-24": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-29": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-30": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-7-25": "Surfaces intersect atr=4; rotational symmetry fixesx̄=ȳ=0.",
+    "calculus-section-15-7-26": "",
+    "calculus-section-15-7-27": "",
+    "calculus-section-15-7-28": "Densitykr gives mass4πk∫₀ᵃr²sqrt(a²−r²)dr.",
+    "calculus-section-15-7-31": "Each weight element is lifted to heightz; the mean height of a uniform cone above its base ish/4.",
+    "calculus-section-15-7-1-project-discovery-project-the-intersection-of-three-cylinders-1": "",
+    "calculus-section-15-7-2-project-discovery-project-the-intersection-of-three-cylinders-1": "Use48 congruent regions0≤z≤y≤x withx²+y²≤1; integrate their volume.",
+    "calculus-section-15-7-3-project-discovery-project-the-intersection-of-three-cylinders-1": "Two equal-radius cylinders imply equality of the squared unmatched coordinates. The third inequality limits the equal coordinate magnitude.",
+    "calculus-section-15-7-4-project-discovery-project-the-intersection-of-three-cylinders-1": "",
+    "calculus-section-15-7-5-project-discovery-project-the-intersection-of-three-cylinders-1": ""
+  },
+  "integrals": [
+    {
+      "id": "7.17",
+      "integrand": "r**2",
+      "bounds": [
+        [
+          "z",
+          "-5",
+          "4"
+        ],
+        [
+          "r",
+          "0",
+          "4"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "384*pi"
+    },
+    {
+      "id": "7.18",
+      "integrand": "r*z",
+      "bounds": [
+        [
+          "z",
+          "r**2",
+          "4"
+        ],
+        [
+          "r",
+          "0",
+          "2"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "64*pi/3"
+    },
+    {
+      "id": "7.19",
+      "integrand": "r*(r*sin(theta) + r*cos(theta) + z)",
+      "bounds": [
+        [
+          "z",
+          "0",
+          "4 - r**2"
+        ],
+        [
+          "r",
+          "0",
+          "2"
+        ],
+        [
+          "theta",
+          "0",
+          "pi/2"
+        ]
+      ],
+      "result": "8*pi/3 + 128/15"
+    },
+    {
+      "id": "7.20",
+      "integrand": "r*(-r*sin(theta) + r*cos(theta))",
+      "bounds": [
+        [
+          "z",
+          "0",
+          "r*sin(theta) + 4"
+        ],
+        [
+          "r",
+          "1",
+          "4"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "-255*pi/4"
+    },
+    {
+      "id": "7.21",
+      "integrand": "r**3*cos(theta)**2",
+      "bounds": [
+        [
+          "z",
+          "0",
+          "2*r"
+        ],
+        [
+          "r",
+          "0",
+          "1"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "2*pi/5"
+    },
+    {
+      "id": "7.22",
+      "integrand": "2*r*sqrt(4 - r**2)",
+      "bounds": [
+        [
+          "r",
+          "0",
+          "1"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "2*pi*(16/3 - 2*sqrt(3))"
+    },
+    {
+      "id": "7.23",
+      "integrand": "r*(-r + sqrt(2 - r**2))",
+      "bounds": [
+        [
+          "r",
+          "0",
+          "1"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "2*pi*(-2/3 + 2*sqrt(2)/3)"
+    },
+    {
+      "id": "7.24",
+      "integrand": "r*(-r**2 + sqrt(2 - r**2))",
+      "bounds": [
+        [
+          "r",
+          "0",
+          "1"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "2*pi*(-7/12 + 2*sqrt(2)/3)"
+    },
+    {
+      "id": "7.29",
+      "integrand": "r**2*z*cos(theta)",
+      "bounds": [
+        [
+          "z",
+          "r",
+          "2"
+        ],
+        [
+          "r",
+          "0",
+          "2"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "0"
+    },
+    {
+      "id": "7.30",
+      "integrand": "r**2",
+      "bounds": [
+        [
+          "z",
+          "0",
+          "9 - r**2"
+        ],
+        [
+          "r",
+          "0",
+          "3"
+        ],
+        [
+          "theta",
+          "0",
+          "pi"
+        ]
+      ],
+      "result": "162*pi/5"
+    }
+  ]
+}

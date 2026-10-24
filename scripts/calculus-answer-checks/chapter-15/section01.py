@@ -1,0 +1,23 @@
+from common import *
+row=lambda k,*fs,**kw:A.row(1,k,*fs,**kw)
+row(1,n('a · Upper-right sum',288),n('b · Midpoint sum',144),why='Each subrectangle has area4; sum xy over six sample points.')
+row(2,n('a · Lower-right sum',-12),n('b · Upper-left sum',-8),why='Each subrectangle has area2. Use x=2,4 with y=−1,0,1 for a; x=0,2 with y=0,1,2 for b.')
+fun=lambda xx,yy:xx*s.exp(-xx*yy)
+row(3,n('a · Upper-right sum',sum(fun(xx,yy) for xx in [1,2] for yy in [R(1,2),1])/2),n('b · Midpoint sum',sum(fun(xx,yy) for xx in [R(1,2),R(3,2)] for yy in [R(1,4),R(3,4)])/2))
+fun=lambda xx,yy:1+xx**2+3*yy
+row(4,n('a · Lower-left sum',R(3,4)*sum(fun(xx,yy) for xx in [1,R(3,2)] for yy in [0,R(3,2)])),n('b · Midpoint sum',R(3,4)*sum(fun(xx,yy) for xx in [R(5,4),R(7,4)] for yy in [R(3,4),R(9,4)])))
+row(5,c('Order and reason','U < V < L; the surface decreases in both positive coordinate directions','L < V < U; the surface increases','U = V = L'),limited=True)
+row(6,n('Midpoint estimate using six10-ft squares',100*(3+7+10+3+5+8),'ft³'),limited=True,why='Use depth samples at x=5,15 and y=5,15,25; each rectangle has area100ft². Other justified quadrature estimates need not equal this one.')
+row(7,n('a · Midpoint integral estimate',248,tol=24),n('b · Average-value estimate',15.5,tol=1.5),limited=True,why='Read approximate contour values 27, 13, 5, 17 at (1,1), (3,1), (1,3), (3,3). Multiply their sum by 4; divide by area 16 for the average. These are interpolated visual estimates, not exact function values.')
+row(8,n('Estimated average temperature',35,'°F',tol=4),limited=True,why='Divide the state into16 equal rectangles and average the midpoint temperatures read from the contour map; contour interpolation permits nearby estimates.')
+for num,expr,bounds in [(9,s.sqrt(2),[(x,2,6),(y,-1,5)]),(10,2*x+1,[(x,0,2),(y,0,4)]),(11,4-2*y,[(x,0,1),(y,0,1)])]:integral(1,num,expr,bounds)
+row(12,c('Solid','0≤x≤4, 0≤y≤2, 0≤z≤sqrt(9−y²): part of a radius3 cylinder along x','A sphere of radius3','A cone along z'),limited=True)
+for num,expr in [(13,x+3*x*x*y*y),(14,y*s.sqrt(x+2))]:row(num,f('Integral with respect to x from0 to2',s.integrate(expr,(x,0,2))),f('Integral with respect to y from0 to3',s.integrate(expr,(y,0,3))))
+cases={15:(6*x*x*y-2*x,[(y,0,2),(x,1,4)]),16:((x+y)**2,[(x,0,1),(y,0,1)]),17:(x+s.exp(-y),[(x,1,2),(y,0,1)]),18:(s.sin(x)+s.sin(y),[(y,0,pi/2),(x,0,pi/6)]),19:(y+y*y*s.cos(x),[(x,0,pi/2),(y,-3,3)]),20:(s.log(y)/x/y,[(y,1,5),(x,1,3)]),21:(x/y+y/x,[(y,1,2),(x,1,4)]),22:(y*s.exp(x-y),[(x,0,2),(y,0,1)]),23:(x*x*s.sin(3*y),[(y,0,pi/2),(x,0,3)]),24:(x*y*s.sqrt(x*x+y*y),[(y,0,1),(x,0,1)]),25:(v*(u+v*v)**4,[(u,0,1),(v,0,1)]),26:(s.sqrt(x+y),[(x,0,1),(y,0,1)]),27:(x/s.cos(y)**2,[(y,0,pi/4),(x,0,2)]),28:(y+x/y**2,[(x,0,2),(y,1,2)]),29:(x*y*y/(x*x+1),[(y,-3,3),(x,0,1)]),30:(s.tan(x)/s.sqrt(1-y*y),[(y,0,R(1,2)),(x,0,pi/3)]),31:(x*s.sin(x+y),[(y,0,pi/3),(x,0,pi/6)]),32:(x/(1+x*y),[(y,0,1),(x,0,1)]),33:(y*s.exp(-x*y),[(x,0,2),(y,0,3)]),34:(1/(1+x+y),[(y,1,2),(x,1,3)]),37:((4*x+6*y+15)/2,[(y,-1,1),(x,-1,2)]),38:(3*y*y-x*x+2,[(x,-1,1),(y,1,2)]),39:(1-x*x/4-y*y/9,[(y,-2,2),(x,-1,1)]),40:(x*x+x*y*y,[(y,-2,2),(x,0,5)]),41:(1+x*x*y*s.exp(y),[(x,-1,1),(y,0,1)]),42:(16-x*x,[(x,0,4),(y,0,5)]),43:(1+x*x+(y-2)**2,[(y,0,4),(x,-1,1)]),44:(x+2*y-2*x*y/(x*x+1),[(y,0,4),(x,0,2)]),45:(x**5*y**3*s.exp(x*y),[(y,0,1),(x,0,1)]),47:(x*x*y/10,[(x,-1,1),(y,0,5)]),48:(s.exp(y)*s.sqrt(x+s.exp(y))/4,[(x,0,4),(y,0,1)]),49:(x*y/(1+x**4),[(x,-1,1),(y,0,1)]),50:(1+x*x*s.sin(y)+y*y*s.sin(x),[(x,-pi,pi),(y,-pi,pi)])}
+for num,(expr,bounds) in cases.items():integral(1,num,expr,bounds,label='Average value' if num in[47,48] else 'Volume' if 37<=num<=46 else 'Integral',limited=num in[44,45])
+for num,ans in [(35,'0≤x≤1, 0≤y≤1, 0≤z≤4−x−2y; upper boundary is a plane'),(36,'0≤x≤1, 0≤y≤1, 0≤z≤2−x²−y²; upper boundary is a downward paraboloid')]:row(num,c('Solid',ans,'A full sphere','A constant-height box'),limited=True)
+val=mp.quad(lambda xx:mp.quad(lambda yy:2-xx*xx-yy*yy-mp.exp(-xx*xx)*mp.cos(xx*xx+yy*yy),[-1,1]),[-1,1])
+row(46,n('Volume',val,tol=.000051),limited=True,why='Integrate upper minus lower surface over[−1,1]²; e^(−x²)cos(x²+y²) is the lower surface.')
+row(51,n('dy then dx',R(1,2)),n('dx then dy',-R(1,2)),c('Fubini applicability','No contradiction: the integrand is unbounded at(0,0) and not absolutely integrable','Fubini is false for continuous functions','The two iterated integrals must be equal'),limited=True)
+row(52,c('a · Similarity','Both allow interchange of operations under suitable continuity hypotheses','Both require all functions to be linear','Both concern only one variable'),c('b · Mixed derivatives','g_xy=g_yx=f(x,y), by applying the Fundamental Theorem twice','g_xy=−g_yx','g_xy=f_x'),limited=True)
+save('section01')

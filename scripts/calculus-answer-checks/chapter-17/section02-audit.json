@@ -1,0 +1,306 @@
+{
+  "notes": {
+    "calculus-section-17-2-1": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-2": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-3": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-4": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-5": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-6": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-7": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-8": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-9": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-10": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-11": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-12": "Choose a particular trial matching the forcing, multiply by x if it overlaps the complementary solution, then match coefficients. Add the complementary solution and impose any stated initial conditions. Direct substitution checks the result.",
+    "calculus-section-17-2-13": "Include the complete polynomial times sine/cosine pair. Multiply each resonant component by x once for a simple characteristic root; do not solve for the arbitrary trial coefficients.",
+    "calculus-section-17-2-14": "Include the complete polynomial times sine/cosine pair. Multiply each resonant component by x once for a simple characteristic root; do not solve for the arbitrary trial coefficients.",
+    "calculus-section-17-2-15": "Include the complete polynomial times sine/cosine pair. Multiply each resonant component by x once for a simple characteristic root; do not solve for the arbitrary trial coefficients.",
+    "calculus-section-17-2-16": "Include the complete polynomial times sine/cosine pair. Multiply each resonant component by x once for a simple characteristic root; do not solve for the arbitrary trial coefficients.",
+    "calculus-section-17-2-17": "Include the complete polynomial times sine/cosine pair. Multiply each resonant component by x once for a simple characteristic root; do not solve for the arbitrary trial coefficients.",
+    "calculus-section-17-2-18": "Include the complete polynomial times sine/cosine pair. Multiply each resonant component by x once for a simple characteristic root; do not solve for the arbitrary trial coefficients.",
+    "calculus-section-17-2-19": "For normalized forcing g=G/a and W=y₁y₂′−y₁′y₂, variation of parameters gives u₁′=−y₂g/W and u₂′=y₁g/W. Its solution agrees with undetermined coefficients up to homogeneous terms.",
+    "calculus-section-17-2-20": "For normalized forcing g=G/a and W=y₁y₂′−y₁′y₂, variation of parameters gives u₁′=−y₂g/W and u₂′=y₁g/W. Its solution agrees with undetermined coefficients up to homogeneous terms.",
+    "calculus-section-17-2-21": "For normalized forcing g=G/a and W=y₁y₂′−y₁′y₂, variation of parameters gives u₁′=−y₂g/W and u₂′=y₁g/W. Its solution agrees with undetermined coefficients up to homogeneous terms.",
+    "calculus-section-17-2-22": "For normalized forcing g=G/a and W=y₁y₂′−y₁′y₂, variation of parameters gives u₁′=−y₂g/W and u₂′=y₁g/W. Its solution agrees with undetermined coefficients up to homogeneous terms.",
+    "calculus-section-17-2-23": "Variation of parameters integrates −y₂G/(aW) and y₁G/(aW); substitute the particular solution into the original equation. Restrict to an interval where the forcing is defined.",
+    "calculus-section-17-2-24": "Variation of parameters integrates −y₂G/(aW) and y₁G/(aW); substitute the particular solution into the original equation. Restrict to an interval where the forcing is defined.",
+    "calculus-section-17-2-25": "Variation of parameters integrates −y₂G/(aW) and y₁G/(aW); substitute the particular solution into the original equation. Restrict to an interval where the forcing is defined.",
+    "calculus-section-17-2-26": "Variation of parameters integrates −y₂G/(aW) and y₁G/(aW); substitute the particular solution into the original equation. Restrict to an interval where the forcing is defined.",
+    "calculus-section-17-2-27": "Variation of parameters integrates −y₂G/(aW) and y₁G/(aW); substitute the particular solution into the original equation. Restrict to an interval where the forcing is defined.",
+    "calculus-section-17-2-28": "Variation of parameters integrates −y₂G/(aW) and y₁G/(aW); substitute the particular solution into the original equation. Restrict to an interval where the forcing is defined."
+  },
+  "differentialChecks": [
+    {
+      "coefficients": [
+        "1",
+        "2",
+        "-8"
+      ],
+      "forcing": "1 - 2*x**2",
+      "solution": "C1*exp(-4*x) + C2*exp(2*x) + x**2/4 + x/8 - 1/32",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-3",
+        "0"
+      ],
+      "forcing": "sin(2*x)",
+      "solution": "C1 + C2*exp(3*x) - sin(2*x)/13 + 3*cos(2*x)/26",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "9",
+        "0",
+        "1"
+      ],
+      "forcing": "exp(2*x)",
+      "solution": "C1*sin(x/3) + C2*cos(x/3) + exp(2*x)/37",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-2",
+        "2"
+      ],
+      "forcing": "x + exp(x)",
+      "solution": "x/2 + (C1*sin(x) + C2*cos(x) + 1)*exp(x) + 1/2",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-4",
+        "5"
+      ],
+      "forcing": "exp(-x)",
+      "solution": "(C1*sin(x) + C2*cos(x))*exp(2*x) + exp(-x)/10",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-4",
+        "4"
+      ],
+      "forcing": "x - sin(x)",
+      "solution": "x/4 + (C1 + C2*x)*exp(2*x) - 3*sin(x)/25 - 4*cos(x)/25 + 1/4",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-2",
+        "5"
+      ],
+      "forcing": "sin(x)",
+      "solution": "(-sin(2*x)/20 + 9*cos(2*x)/10)*exp(x) + sin(x)/5 + cos(x)/10",
+      "ics": {
+        "y": [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "dy": [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "coefficients": [
+        "1",
+        "0",
+        "-1"
+      ],
+      "forcing": "x*exp(2*x)",
+      "solution": "(3*x - 4)*exp(2*x)/9 + exp(x) - 5*exp(-x)/9",
+      "ics": {
+        "y": [
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "dy": [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "coefficients": [
+        "1",
+        "-1",
+        "0"
+      ],
+      "forcing": "x*exp(x)",
+      "solution": "(x**2/2 - x + 2)*exp(x)",
+      "ics": {
+        "y": [
+          [
+            "0",
+            "2"
+          ]
+        ],
+        "dy": [
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "coefficients": [
+        "1",
+        "1",
+        "-2"
+      ],
+      "forcing": "x + sin(2*x)",
+      "solution": "-x/2 + 17*exp(x)/15 - 3*sin(2*x)/20 - cos(2*x)/20 - 1/4 + exp(-2*x)/6",
+      "ics": {
+        "y": [
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "dy": [
+          [
+            "0",
+            "0"
+          ]
+        ]
+      }
+    },
+    {
+      "coefficients": [
+        "1",
+        "3",
+        "2"
+      ],
+      "forcing": "cos(x)",
+      "solution": "C1*exp(-2*x) + C2*exp(-x) + 3*sin(x)/10 + cos(x)/10",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "0",
+        "4"
+      ],
+      "forcing": "exp(-x)",
+      "solution": "C1*sin(2*x) + C2*cos(2*x) + exp(-x)/5",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "4",
+        "0",
+        "1"
+      ],
+      "forcing": "cos(x)",
+      "solution": "C1*sin(x/2) + C2*cos(x/2) - cos(x)/3",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-2",
+        "-3"
+      ],
+      "forcing": "x + 2",
+      "solution": "C1*exp(-x) + C2*exp(3*x) - x/3 - 4/9",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-2",
+        "1"
+      ],
+      "forcing": "exp(-x)",
+      "solution": "(C1 + C2*x)*exp(x) + exp(-x)/4",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-1",
+        "0"
+      ],
+      "forcing": "exp(x)",
+      "solution": "C1 + (C2 + x)*exp(x)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "0",
+        "1"
+      ],
+      "forcing": "sec(x)**2",
+      "solution": "C1*cos(x) + C2*sin(x) + log(tan(x) + sec(x))*sin(x) - 1",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "0",
+        "1"
+      ],
+      "forcing": "sec(x)**3",
+      "solution": "C1*cos(x) + C2*sin(x) + sec(x)/2",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-3",
+        "2"
+      ],
+      "forcing": "1/(1 + exp(-x))",
+      "solution": "C1*exp(x) + C2*exp(2*x) + (-x + log(exp(x) + 1))*exp(x) + (log(1 + exp(-x)) - exp(-x))*exp(2*x)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "3",
+        "2"
+      ],
+      "forcing": "sin(exp(x))",
+      "solution": "C1*exp(-x) + C2*exp(-2*x) - exp(-2*x)*sin(exp(x))",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "-2",
+        "1"
+      ],
+      "forcing": "exp(x)/(x**2 + 1)",
+      "solution": "(C1 + C2*x)*exp(x) + (x*atan(x) - log(x**2 + 1)/2)*exp(x)",
+      "ics": {}
+    },
+    {
+      "coefficients": [
+        "1",
+        "4",
+        "4"
+      ],
+      "forcing": "exp(-2*x)/x**3",
+      "solution": "(C1 + C2*x)*exp(-2*x) + exp(-2*x)/(2*x)",
+      "ics": {}
+    }
+  ]
+}

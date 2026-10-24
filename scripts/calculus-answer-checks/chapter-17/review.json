@@ -1,0 +1,1092 @@
+{
+  "calculus-chapter-17-review-1-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Homogeneous equation",
+          "answer": "ay″+by′+cy=0, a≠0, with constant a,b,c",
+          "options": [
+            "ay″+by′+cy=x",
+            "ay′+by+c=0",
+            "ay″+by′+cy=0, a≠0, with constant a,b,c"
+          ],
+          "explanation": "Substitution of e^(rx) yields the characteristic polynomial; each case supplies two independent homogeneous solutions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Auxiliary equation",
+          "answer": "ar²+br+c=0",
+          "options": [
+            "ar²+br+c=0",
+            "ar²+br−c=0",
+            "ar+b+c=0"
+          ],
+          "explanation": "Substitution of e^(rx) yields the characteristic polynomial; each case supplies two independent homogeneous solutions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Distinct real roots r₁,r₂",
+          "answer": "y=C₁e^(r₁x)+C₂e^(r₂x)",
+          "options": [
+            "y=C₁e^(r₁x)+C₂e^(r₂x)",
+            "y=(C₁+C₂x)e^(r₁x)",
+            "y=C₁cos(r₁x)+C₂sin(r₂x)"
+          ],
+          "explanation": "Substitution of e^(rx) yields the characteristic polynomial; each case supplies two independent homogeneous solutions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Repeated real root r",
+          "answer": "y=(C₁+C₂x)e^(rx)",
+          "options": [
+            "y=(C₁+C₂x)e^(rx)",
+            "y=C₁e^(rx)+C₂e^(−rx)",
+            "y=(C₁+C₂)e^(rx)"
+          ],
+          "explanation": "Substitution of e^(rx) yields the characteristic polynomial; each case supplies two independent homogeneous solutions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Roots α±iβ, β≠0",
+          "answer": "y=e^(αx)[C₁cos(βx)+C₂sin(βx)]",
+          "options": [
+            "y=e^(αx)(C₁+C₂x)",
+            "y=e^(βx)[C₁cos(αx)+C₂sin(αx)]",
+            "y=e^(αx)[C₁cos(βx)+C₂sin(βx)]"
+          ],
+          "explanation": "Substitution of e^(rx) yields the characteristic polynomial; each case supplies two independent homogeneous solutions.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-2-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Initial-value problem",
+          "answer": "An ODE with y(a) and y′(a) specified at the same point",
+          "options": [
+            "An ODE with y(a),y(b) specified at two different points",
+            "An ODE without any conditions",
+            "An ODE with y(a) and y′(a) specified at the same point"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Boundary-value problem",
+          "answer": "An ODE with endpoint conditions at different points, such as y(a),y(b)",
+          "options": [
+            "An equation whose coefficients must vanish at endpoints",
+            "An ODE with only y′(a) specified",
+            "An ODE with endpoint conditions at different points, such as y(a),y(b)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-3-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Nonhomogeneous equation",
+          "answer": "ay″+by′+cy=G(x), a≠0, constant coefficients",
+          "options": [
+            "ay″+by′+cy=0 only",
+            "ay″+by′+cy=G(x), a≠0, constant coefficients",
+            "y″+y²=G(x)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Complementary equation and solution",
+          "answer": "Solve ay″+by′+cy=0 for y_c, then y=y_c+y_p",
+          "options": [
+            "Solve ay″+by′+cy=0 for y_c, then y=y_c+y_p",
+            "Every solution is just one particular solution",
+            "Solve ay″+by′+cy=1, then multiply by G"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Undetermined coefficients",
+          "answer": "Choose a trial matching forcing; multiply resonant terms by a sufficient power of x, substitute and match coefficients",
+          "options": [
+            "Always try a constant regardless of forcing",
+            "Use the forcing itself as y without testing",
+            "Choose a trial matching forcing; multiply resonant terms by a sufficient power of x, substitute and match coefficients"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Variation of parameters",
+          "answer": "For basis y₁,y₂ and W=y₁y₂′−y₁′y₂, integrate u₁′=−y₂G/(aW), u₂′=y₁G/(aW); y_p=u₁y₁+u₂y₂",
+          "options": [
+            "Set both variable coefficients equal to G",
+            "Take u₁′=y₁G and u₂′=y₂G in every equation",
+            "For basis y₁,y₂ and W=y₁y₂′−y₁′y₂, integrate u₁′=−y₂G/(aW), u₂′=y₁G/(aW); y_p=u₁y₁+u₂y₂"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-4-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Spring model",
+          "answer": "mx″+cx′+kx=F(t), displacement measured from equilibrium",
+          "options": [
+            "mx′+kx=F(t)",
+            "mx″+cx′+kx=F(t), displacement measured from equilibrium",
+            "mx″−kx=0 for every spring"
+          ],
+          "explanation": "Newton’s law and Kirchhoff’s voltage law lead to the same second-order linear structure, with mass/inductance, damping/resistance and stiffness/inverse capacitance corresponding.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Series RLC circuit",
+          "answer": "LQ″+RQ′+Q/C=E(t), I=Q′",
+          "options": [
+            "LQ′+RQ+CQ=E(t)",
+            "LQ″−RQ′+CQ=0",
+            "LQ″+RQ′+Q/C=E(t), I=Q′"
+          ],
+          "explanation": "Newton’s law and Kirchhoff’s voltage law lead to the same second-order linear structure, with mass/inductance, damping/resistance and stiffness/inverse capacitance corresponding.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-5-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Power-series method",
+          "answer": "Substitute y=Σcₙx^n, differentiate, align powers, equate coefficients and use initial data to determine the starting coefficients",
+          "options": [
+            "Differentiate the equation until it becomes a polynomial",
+            "Substitute y=Σcₙx^n, differentiate, align powers, equate coefficients and use initial data to determine the starting coefficients",
+            "Set every coefficient equal to y(0)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Validity",
+          "answer": "The resulting series must converge on the interval where it is used",
+          "options": [
+            "The resulting series must converge on the interval where it is used",
+            "Convergence never matters",
+            "Any formal divergent series gives numerical answers"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-1-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "explanation": "The homogeneous linear operator applied to a sum is the sum of its zero outputs.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-2-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "The operator applied to C₁y₁+C₂y₂ gives (C₁+C₂)x, which equals x only under an additional restriction such as C₁+C₂=1.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-3-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "cosh x and sinh x are independent linear combinations of e^x and e^(−x).",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-4-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "explanation": "e^x is a homogeneous solution, so the proposed trial gives zero. Resonance requires a trial Ax e^x, with A=1/2.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-1": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "C1*exp(-x/2) + C2*exp(x/2)",
+      "options": [
+        "C1*exp(-x/2) + C2*exp(x/2) + 1",
+        "C1*exp(-x/2) + C2*exp(x/2)",
+        "C1*exp(-x/2) + C2*exp(x/2) - 1"
+      ],
+      "explanation": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "(C1*sin(3*x) + C2*cos(3*x))*exp(x)",
+      "options": [
+        "(C1*sin(3*x) + C2*cos(3*x))*exp(x) - 1",
+        "(C1*sin(3*x) + C2*cos(3*x))*exp(x) + 1",
+        "(C1*sin(3*x) + C2*cos(3*x))*exp(x)"
+      ],
+      "explanation": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-3": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "C1*sin(sqrt(3)*x) + C2*cos(sqrt(3)*x)",
+      "options": [
+        "C1*sin(sqrt(3)*x) + C2*cos(sqrt(3)*x)",
+        "C1*sin(sqrt(3)*x) + C2*cos(sqrt(3)*x) + 1",
+        "C1*sin(sqrt(3)*x) + C2*cos(sqrt(3)*x) - 1"
+      ],
+      "explanation": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-4": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "(C1 + C2*x)*exp(-4*x)",
+      "options": [
+        "(C1 + C2*x)*exp(-4*x)",
+        "(C1 + C2*x)*exp(-4*x) + 1",
+        "(C1 + C2*x)*exp(-4*x) - 1"
+      ],
+      "explanation": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-5": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "(C1*sin(x) + C2*cos(x) + 1)*exp(2*x)",
+      "options": [
+        "(C1*sin(x) + C2*cos(x) + 1)*exp(2*x)",
+        "(C1*sin(x) + C2*cos(x) + 1)*exp(2*x) - 1",
+        "(C1*sin(x) + C2*cos(x) + 1)*exp(2*x) + 1"
+      ],
+      "explanation": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-6": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "C1*exp(-2*x) + C2*exp(x) - x^2/2 - x/2 - 3/4",
+      "options": [
+        "C1*exp(-2*x) + C2*exp(x) - x^2/2 - x/2 + 1/4",
+        "C1*exp(-2*x) + C2*exp(x) - x^2/2 - x/2 - 7/4",
+        "C1*exp(-2*x) + C2*exp(x) - x^2/2 - x/2 - 3/4"
+      ],
+      "explanation": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-7": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "-x*sin(x)/2 + (C1 + C2*x)*exp(x) - sin(x)/2 - cos(x)/2",
+      "options": [
+        "-x*sin(x)/2 + (C1 + C2*x)*exp(x) - sin(x)/2 - cos(x)/2 + 1",
+        "-x*sin(x)/2 + (C1 + C2*x)*exp(x) - sin(x)/2 - cos(x)/2 - 1",
+        "-x*sin(x)/2 + (C1 + C2*x)*exp(x) - sin(x)/2 - cos(x)/2"
+      ],
+      "explanation": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-8": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "C2*sin(2*x) + (C1 - x/4)*cos(2*x)",
+      "options": [
+        "C2*sin(2*x) + (C1 - x/4)*cos(2*x) + 1",
+        "C2*sin(2*x) + (C1 - x/4)*cos(2*x)",
+        "C2*sin(2*x) + (C1 - x/4)*cos(2*x) - 1"
+      ],
+      "explanation": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-9": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "C2*exp(3*x) + (C1 - x/5)*exp(-2*x) - 1/6",
+      "options": [
+        "C2*exp(3*x) + (C1 - x/5)*exp(-2*x) + 5/6",
+        "C2*exp(3*x) + (C1 - x/5)*exp(-2*x) - 7/6",
+        "C2*exp(3*x) + (C1 - x/5)*exp(-2*x) - 1/6"
+      ],
+      "explanation": "Add a particular solution to the characteristic-root complementary solution. The proposed expression is verified by differentiating and substituting into the original equation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solution y(x)",
+          "answer": "C1*cos(x) + C2*sin(x) - x*cos(x) + log(sin(x))*sin(x)",
+          "options": [
+            "C1*cos(x) + C2*sin(x) - x*cos(x) + log(sin(x))*sin(x) + 1",
+            "C1*cos(x) + C2*sin(x) - x*cos(x) + log(sin(x))*sin(x) - 1",
+            "C1*cos(x) + C2*sin(x) - x*cos(x) + log(sin(x))*sin(x)"
+          ],
+          "explanation": "Variation of parameters with cos x,sin x gives u₁=−x and u₂=ln(sin x); the source interval makes sin x positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Interval",
+          "answer": "0<x<π/2",
+          "options": [
+            "0<x<π/2",
+            "x=0 only",
+            "All real x"
+          ],
+          "explanation": "Variation of parameters with cos x,sin x gives u₁=−x and u₂=ln(sin x); the source interval makes sin x positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-11": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "5 - 2*exp(6)*exp(-6*x)",
+      "options": [
+        "5 - 2*exp(6)*exp(-6*x)",
+        "x + 5 - 2*exp(6)*exp(-6*x)",
+        "-x + 5 - 2*exp(6)*exp(-6*x)"
+      ],
+      "explanation": "Apply both specified initial values after finding the general solution; verify the differential equation and both conditions.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-12": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "(-5*sin(4*x)/4 + 2*cos(4*x))*exp(3*x)",
+      "options": [
+        "(-5*sin(4*x)/4 + 2*cos(4*x))*exp(3*x)",
+        "(-5*sin(4*x)/4 + 2*cos(4*x))*exp(3*x) - 1",
+        "(-5*sin(4*x)/4 + 2*cos(4*x))*exp(3*x) + 1"
+      ],
+      "explanation": "Apply both specified initial values after finding the general solution; verify the differential equation and both conditions.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-13": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "(exp(3*x)/3 - 1/3)*exp(x)",
+      "options": [
+        "(exp(3*x)/3 - 1/3)*exp(x)",
+        "(exp(3*x)/3 - 1/3)*exp(x) + 1",
+        "(exp(3*x)/3 - 1/3)*exp(x) - 1"
+      ],
+      "explanation": "Apply both specified initial values after finding the general solution; verify the differential equation and both conditions.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-14": {
+    "grader": {
+      "type": "choice",
+      "label": "Solution y(x)",
+      "answer": "3*x - 27*sin(x/3)/10 + 9*cos(x/3)/10 + exp(-x)/10",
+      "options": [
+        "3*x - 27*sin(x/3)/10 + 9*cos(x/3)/10 - 1 + exp(-x)/10",
+        "3*x - 27*sin(x/3)/10 + 9*cos(x/3)/10 + 1 + exp(-x)/10",
+        "3*x - 27*sin(x/3)/10 + 9*cos(x/3)/10 + exp(-x)/10"
+      ],
+      "explanation": "Apply both specified initial values after finding the general solution; verify the differential equation and both conditions.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-15": {
+    "grader": {
+      "type": "choice",
+      "label": "Boundary-value result",
+      "answer": "No solution",
+      "options": [
+        "Infinitely many solutions",
+        "No solution",
+        "A unique solution"
+      ],
+      "explanation": "y(0)=1 fixes the cosine coefficient; every such solution has y(π)=−e^(−2π), not −1.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-16": {
+    "grader": {
+      "type": "choice",
+      "label": "Complete solution family",
+      "answer": "y=e^(−2x)[cos(5x)+C sin(5x)], C arbitrary",
+      "options": [
+        "No solution",
+        "y=e^(−2x)[cos(5x)+C sin(5x)], C arbitrary",
+        "y=e^(−2x)[sin(5x)+C cos(5x)]"
+      ],
+      "explanation": "The sine term vanishes at both endpoints. The two boundary conditions agree and leave its coefficient free.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Complete series",
+          "answer": "y=Σ(n=0…∞) (−1)^n x^(2n+1)/(3·5·…·(2n+1)), with empty product 1",
+          "options": [
+            "y=Σ(n=0…∞) (−1)^n x^(2n+1)/(3·5·…·(2n+1)), with empty product 1",
+            "y=Σ(n=0…∞) x^(2n+1)/(3·5·…·(2n+1))",
+            "y=sin x"
+          ],
+          "explanation": "c₀=0,c₁=1; cₙ₊₂=−cₙ/(n+2), leaving only the displayed odd powers.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "First terms",
+          "answer": "x−x³/3+x⁵/15−x⁷/105+…",
+          "options": [
+            "x−x³/6+x⁵/120−…",
+            "1−x²/2+x⁴/8−…",
+            "x−x³/3+x⁵/15−x⁷/105+…"
+          ],
+          "explanation": "c₀=0,c₁=1; cₙ₊₂=−cₙ/(n+2), leaving only the displayed odd powers.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "All real x",
+            "|x|<2",
+            "|x|<1"
+          ],
+          "explanation": "c₀=0,c₁=1; cₙ₊₂=−cₙ/(n+2), leaving only the displayed odd powers.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Complete series definition",
+          "answer": "y=Σcₙx^n, c₀,c₁ arbitrary; cₙ₊₂=cₙ/(n+1), n≥0",
+          "options": [
+            "cₙ₊₂=−cₙ/(n+1)",
+            "y=Σcₙx^n, c₀,c₁ arbitrary; cₙ₊₂=cₙ/(n+1), n≥0",
+            "cₙ₊₂=cₙ/(n+2)"
+          ],
+          "explanation": "Match (n+2)(n+1)cₙ₊₂=(n+2)cₙ. This recurrence plus two arbitrary starting coefficients determines the entire solution series.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "First terms",
+          "answer": "c₀(1+x²+x⁴/3+x⁶/15+…)+c₁(x+x³/2+x⁵/8+x⁷/48+…)",
+          "options": [
+            "c₀(1−x²+…)+c₁(x−x³/2+…)",
+            "c₀ cos x+c₁ sin x",
+            "c₀(1+x²+x⁴/3+x⁶/15+…)+c₁(x+x³/2+x⁵/8+x⁷/48+…)"
+          ],
+          "explanation": "Match (n+2)(n+1)cₙ₊₂=(n+2)cₙ. This recurrence plus two arbitrary starting coefficients determines the entire solution series.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "|x|<2",
+            "|x|<1",
+            "All real x"
+          ],
+          "explanation": "Match (n+2)(n+1)cₙ₊₂=(n+2)cₙ. This recurrence plus two arbitrary starting coefficients determines the entire solution series.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212
+      ]
+    }
+  },
+  "calculus-chapter-17-review-19": {
+    "grader": {
+      "type": "choice",
+      "label": "Charge Q(t), coulombs",
+      "answer": "(-sin(10*t)/50 - cos(10*t)/50)*exp(-10*t) + 3/100",
+      "options": [
+        "(-sin(10*t)/50 - cos(10*t)/50)*exp(-10*t) - 97/100",
+        "(-sin(10*t)/50 - cos(10*t)/50)*exp(-10*t) + 103/100",
+        "(-sin(10*t)/50 - cos(10*t)/50)*exp(-10*t) + 3/100"
+      ],
+      "explanation": "LQ″+RQ′+Q/C=12 with L=2,R=40,1/C=400, Q(0)=0.01 and Q′(0)=0.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1212,
+        1213
+      ]
+    }
+  },
+  "calculus-chapter-17-review-20": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Spring constant",
+          "answer": 64.0,
+          "unit": "N/m",
+          "tolerance": 6.4e-08,
+          "explanation": "k=12.8/0.2=64 N/m. Solve 2x″+16x′+64x=0 with x(0)=0 and x′(0)=2.4.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Position x(t), meters",
+          "answer": "3*exp(-4*t)*sin(4*t)/5",
+          "options": [
+            "3*exp(-4*t)*sin(4*t)/5",
+            "-1 + 3*exp(-4*t)*sin(4*t)/5",
+            "1 + 3*exp(-4*t)*sin(4*t)/5"
+          ],
+          "explanation": "k=12.8/0.2=64 N/m. Solve 2x″+16x′+64x=0 with x(0)=0 and x′(0)=2.4.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1213
+      ]
+    }
+  },
+  "calculus-chapter-17-review-21": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Interior gravitational force",
+          "answer": "F_r=−GMmr/R³",
+          "options": [
+            "F_r=−GMmr/R³",
+            "F_r=−GMm/r² for all interior r",
+            "F_r=−GMmr/R²"
+          ],
+          "explanation": "Uniform density gives M_r=M(r/R)³. Newton’s law produces a harmonic oscillator in the signed coordinate y; the physical distance is |y|. Release at rest from y=R, and use maximum speed ωR. Use consistent units for R=3960 mi and g.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Equation and released solution",
+          "answer": "y″=−(g/R)y and y(t)=R cos(√(g/R)t)",
+          "options": [
+            "y″=−(g/R)y and y(t)=R cos(√(g/R)t)",
+            "y″=−gy and y(t)=R cos(√g t)",
+            "y″=−g/y²"
+          ],
+          "explanation": "Uniform density gives M_r=M(r/R)³. Newton’s law produces a harmonic oscillator in the signed coordinate y; the physical distance is |y|. Release at rest from y=R, and use maximum speed ωR. Use consistent units for R=3960 mi and g.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Period",
+          "answer": "T=2π√(R/g)",
+          "options": [
+            "T=2π√(R/g)",
+            "T=π√(R/g)",
+            "T=2π√(g/R)"
+          ],
+          "explanation": "Uniform density gives M_r=M(r/R)³. Newton’s law produces a harmonic oscillator in the signed coordinate y; the physical distance is |y|. Release at rest from y=R, and use maximum speed ωR. Use consistent units for R=3960 mi and g.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Speed at the center",
+          "answer": "√(gR)=√(GM/R)",
+          "options": [
+            "2√(gR)",
+            "√(gR)=√(GM/R)",
+            "gR"
+          ],
+          "explanation": "Uniform density gives M_r=M(r/R)³. Newton’s law produces a harmonic oscillator in the signed coordinate y; the physical distance is |y|. Release at rest from y=R, and use maximum speed ωR. Use consistent units for R=3960 mi and g.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1213
+      ]
+    }
+  }
+}

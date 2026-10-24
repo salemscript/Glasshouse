@@ -1,0 +1,2829 @@
+{
+  "calculus-chapter-15-review-1-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Riemann sum",
+          "answer": "ΣᵢΣⱼf(x*ᵢⱼ,y*ᵢⱼ)ΔA; forf≥0 it approximates volume",
+          "options": [
+            "Σf without area factors",
+            "ΣᵢΣⱼf(x*ᵢⱼ,y*ᵢⱼ)ΔA; forf≥0 it approximates volume"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Definition",
+          "answer": "Limit of those sums as both mesh sizes tend to0",
+          "options": [
+            "One fixed midpoint sum",
+            "Limit of those sums as both mesh sizes tend to0"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Geometric meaning",
+          "answer": "Volume forf≥0; signed volume above minus below otherwise",
+          "options": [
+            "Always a nonnegative volume",
+            "Volume forf≥0; signed volume above minus below otherwise"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Evaluation",
+          "answer": "Either iterated order with the rectangle bounds, by Fubini",
+          "options": [
+            "Differentiate twice",
+            "Either iterated order with the rectangle bounds, by Fubini"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "e · Midpoint Rule",
+          "answer": "ΣᵢΣⱼf(midpoint of subrectangle)ΔA",
+          "options": [
+            "ΣᵢΣⱼf(midpoint of subrectangle)ΔA",
+            "Average only the corner values without area"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "f · Mean value",
+          "answer": "(1/A(R))∫∫R f dA",
+          "options": [
+            "(1/A(R))∫∫R f dA",
+            "A(R)∫∫R f dA"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-2-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · General region",
+          "answer": "Extendf by0 outsideD in a bounding rectangle and integrate",
+          "options": [
+            "Integratef over all of the rectangle unchanged",
+            "Extendf by0 outsideD in a bounding rectangle and integrate"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Type I",
+          "answer": "a≤x≤b,g₁(x)≤y≤g₂(x); integrate dy then dx",
+          "options": [
+            "a≤x≤b,g₁(x)≤y≤g₂(x); integrate dy then dx",
+            "Horizontal slices only"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Type II",
+          "answer": "c≤y≤d,h₁(y)≤x≤h₂(y); integrate dx then dy",
+          "options": [
+            "Vertical slices only",
+            "c≤y≤d,h₁(y)≤x≤h₂(y); integrate dx then dy"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Properties",
+          "answer": "Linearity,monotonicity,additivity over nonoverlapping regions,and bounds mA≤∫f≤MA",
+          "options": [
+            "Linearity,monotonicity,additivity over nonoverlapping regions,and bounds mA≤∫f≤MA",
+            "Products of integrals always equal the integral of a product"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-3-concept-check-1": {
+    "grader": {
+      "type": "choice",
+      "label": "Change and purpose",
+      "answer": "x=r cosθ,y=r sinθ,dA=r dr dθ; simplify circles,radial integrands,and circular sectors",
+      "options": [
+        "x=r cosθ,y=r sinθ,dA=r dr dθ; simplify circles,radial integrands,and circular sectors",
+        "Use dA=dr dθ without a Jacobian"
+      ],
+      "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-4-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Mass",
+          "answer": "m=∫∫DρdA",
+          "options": [
+            "m=∫∫D1dA for every density",
+            "m=∫∫DρdA"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Moments",
+          "answer": "M_x=∫∫D yρdA,M_y=∫∫D xρdA",
+          "options": [
+            "M_x=∫∫D xρdA,M_y=∫∫D yρdA",
+            "M_x=∫∫D yρdA,M_y=∫∫D xρdA"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Center",
+          "answer": "(x̄,ȳ)=(M_y/m,M_x/m)",
+          "options": [
+            "(M_x/m,M_y/m)",
+            "(x̄,ȳ)=(M_y/m,M_x/m)"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Inertia",
+          "answer": "I_x=∫∫y²ρ,I_y=∫∫x²ρ,I_0=I_x+I_y",
+          "options": [
+            "I_x=∫∫y²ρ,I_y=∫∫x²ρ,I_0=I_x+I_y",
+            "Use unsquared distances for all inertias"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-5-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Rectangle probability",
+          "answer": "∫[a,b]∫[c,d] f(x,y) dy dx",
+          "options": [
+            "∫[a,b]∫[c,d] f(x,y) dy dx",
+            "f(a,c)+f(b,d)"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Density properties",
+          "answer": "f≥0 and ∫∫R² f=1",
+          "options": [
+            "f≥0 and ∫∫R² f=1",
+            "f must be constant everywhere"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Expectations",
+          "answer": "E[X]=∫∫x f,E[Y]=∫∫y f overR²",
+          "options": [
+            "E[X]=∫∫f,E[Y]=∫∫f",
+            "E[X]=∫∫x f,E[Y]=∫∫y f overR²"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-6-concept-check-1": {
+    "grader": {
+      "type": "choice",
+      "label": "Surface area",
+      "answer": "∫∫D sqrt(1+f_x²+f_y²)dA",
+      "options": [
+        "∫∫D f dA",
+        "∫∫D sqrt(1+f_x²+f_y²)dA"
+      ],
+      "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-7-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Definition",
+          "answer": "Limit ofΣᵢⱼₖ f(sample)ΔV as all mesh sizes tend to0",
+          "options": [
+            "Limit ofΣᵢⱼₖ f(sample)ΔV as all mesh sizes tend to0",
+            "Sum of samples without volumes"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Evaluation",
+          "answer": "Successive one-variable integration in any valid order",
+          "options": [
+            "Differentiate three times",
+            "Successive one-variable integration in any valid order"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · General solid",
+          "answer": "Extendf by0 outsideE inside a bounding box",
+          "options": [
+            "IgnoreE and integrate the unmodifiedf over the box",
+            "Extendf by0 outsideE inside a bounding box"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Type1",
+          "answer": "(x,y)∈D,u₁(x,y)≤z≤u₂(x,y); integratez first",
+          "options": [
+            "(x,y)∈D,u₁(x,y)≤z≤u₂(x,y); integratez first",
+            "x is always the inner variable"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "e · Type2",
+          "answer": "(y,z)∈D,u₁(y,z)≤x≤u₂(y,z); integratex first",
+          "options": [
+            "z is always the inner variable",
+            "(y,z)∈D,u₁(y,z)≤x≤u₂(y,z); integratex first"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "f · Type3",
+          "answer": "(x,z)∈D,u₁(x,z)≤y≤u₂(x,z); integratey first",
+          "options": [
+            "(x,z)∈D,u₁(x,z)≤y≤u₂(x,z); integratey first",
+            "x is always the inner variable"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-8-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Mass",
+          "answer": "m=∫∫∫EρdV",
+          "options": [
+            "Volume independently of density",
+            "m=∫∫∫EρdV"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Plane moments",
+          "answer": "M_yz=∫xρ,M_xz=∫yρ,M_xy=∫zρ",
+          "options": [
+            "M_yz=∫zρ,M_xy=∫xρ",
+            "M_yz=∫xρ,M_xz=∫yρ,M_xy=∫zρ"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Center",
+          "answer": "(M_yz,M_xz,M_xy)/m",
+          "options": [
+            "(M_yz,M_xz,M_xy)/m",
+            "Divide moments by area"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Axial inertias",
+          "answer": "I_x=∫(y²+z²)ρ,I_y=∫(x²+z²)ρ,I_z=∫(x²+y²)ρ",
+          "options": [
+            "I_x=∫x²ρ,I_y=∫y²ρ,I_z=∫z²ρ",
+            "I_x=∫(y²+z²)ρ,I_y=∫(x²+z²)ρ,I_z=∫(x²+y²)ρ"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-9-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Cylindrical change",
+          "answer": "x=r cosθ,y=r sinθ,z=z; dV=r dz dr dθ",
+          "options": [
+            "dV=dz dr dθ",
+            "x=r cosθ,y=r sinθ,z=z; dV=r dz dr dθ"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Spherical change",
+          "answer": "x=ρsinφcosθ,y=ρsinφsinθ,z=ρcosφ; dV=ρ²sinφ dρ dφ dθ",
+          "options": [
+            "dV=ρsinφ dρ dφ dθ",
+            "x=ρsinφcosθ,y=ρsinφsinθ,z=ρcosφ; dV=ρ²sinφ dρ dφ dθ"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · When useful",
+          "answer": "Cylindrical for axial/circular symmetry; spherical for spheres,cones,and radial distance",
+          "options": [
+            "Cylindrical for axial/circular symmetry; spherical for spheres,cones,and radial distance",
+            "Only rectangular boxes"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-10-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Jacobian",
+          "answer": "g_u h_v−g_v h_u",
+          "options": [
+            "g_u+h_v",
+            "g_u h_v−g_v h_u"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Double integral",
+          "answer": "∫∫S f(g(u,v),h(u,v)) |J| du dv",
+          "options": [
+            "Use signedJ even when negative",
+            "∫∫S f(g(u,v),h(u,v)) |J| du dv"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Triple integral",
+          "answer": "Transformf and bounds; multiply by absolute determinant ∂(x,y,z)/∂(u,v,w)",
+          "options": [
+            "No determinant is needed in3D",
+            "Transformf and bounds; multiply by absolute determinant ∂(x,y,z)/∂(u,v,w)"
+          ],
+          "explanation": "These are the defining formulas and hypotheses; a selection checks the mathematical statement, not a full written explanation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-1-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "Fubini swaps the order on the same rectangle.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-2-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "The proposed limits do not describe the same triangle and leave an outer bound depending on the inner variable.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-3-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "The integrand and rectangular region separate.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-4-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "The integrand is odd iny on a symmetricy interval.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-5-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "explanation": "The rectangle product integral factors into two identical integrals.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-6-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "Integrand≤x²+sqrt(y)≤3 on a rectangle of area3.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-7-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "This is a hemisphere of radius2, volume16π/3.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-8-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "explanation": "Squared distance fromz-axis isr² and cylindricaldV addsr.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092
+      ]
+    }
+  },
+  "calculus-chapter-15-review-9-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Truth value",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "The cylindrical Jacobianr is missing.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1092,
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-1": {
+    "grader": {
+      "type": "numeric",
+      "label": "Upper-right Riemann estimate",
+      "answer": 64.0,
+      "unit": "",
+      "tolerance": 3,
+      "explanation": "Nine unit-area squares. Approximate corner values sum to about64; readings from the contour map are estimates.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-2": {
+    "grader": {
+      "type": "numeric",
+      "label": "Midpoint estimate",
+      "answer": 44.5,
+      "unit": "",
+      "tolerance": 3,
+      "explanation": "Use nine unit-area squares and evaluate the map at(.5,.5),(.5,1.5),etc.; estimated values sum to about44.5.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-3": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 21.68309708188642,
+      "unit": "",
+      "tolerance": 2.168309708188642e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-4": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.7182818284590452,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-5": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.42073549240394825,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-6": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 4.37456376070837,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-7": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.6666666666666666,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-8": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.25,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-19": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.42073549240394825,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-20": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.42957045711476133,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-21": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 198.21439674636756,
+      "unit": "",
+      "tolerance": 1.9821439674636757e-07,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-22": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 1.7083333333333333,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-23": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.17328679513998632,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-24": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.43882457311747564,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-25": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 8.0,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-26": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 1.3333333333333333,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-27": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 50.89380098815465,
+      "unit": "",
+      "tolerance": 5.089380098815465e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-28": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.60947570824873,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-29": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 40.5,
+      "unit": "",
+      "tolerance": 4.0500000000000005e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-30": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.000925925925925926,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-31": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.03272492347489368,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-32": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.5416666666666666,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093,
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-33": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 4.266666666666667,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093,
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-34": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.2243994752564138,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093,
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-35": {
+    "grader": {
+      "type": "numeric",
+      "label": "Volume",
+      "answer": 176.0,
+      "unit": "",
+      "tolerance": 1.7600000000000001e-07,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-36": {
+    "grader": {
+      "type": "numeric",
+      "label": "Volume",
+      "answer": 2.65,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-38": {
+    "grader": {
+      "type": "numeric",
+      "label": "Volume",
+      "answer": 37.69911184307752,
+      "unit": "",
+      "tolerance": 3.769911184307752e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-40": {
+    "grader": {
+      "type": "numeric",
+      "label": "Volume",
+      "answer": 0.5235987755982989,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-45": {
+    "grader": {
+      "type": "numeric",
+      "label": "Area",
+      "answer": 1.6176203555716204,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-47": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 97.2,
+      "unit": "",
+      "tolerance": 9.720000000000001e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-48": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 22.340214425527417,
+      "unit": "",
+      "tolerance": 2.2340214425527418e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-56": {
+    "grader": {
+      "type": "numeric",
+      "label": "Volume",
+      "answer": 0.011111111111111112,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-9": {
+    "grader": {
+      "type": "choice",
+      "label": "Iterated integral",
+      "answer": "∫[0,π]∫[2,4] f(r cosθ,r sinθ)r dr dθ",
+      "options": [
+        "∫[0,2π]∫[2,4] f r dr dθ",
+        "∫[0,π]∫[2,4] f(r cosθ,r sinθ)r dr dθ",
+        "∫[0,π]∫[0,4] f r dr dθ"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-10": {
+    "grader": {
+      "type": "choice",
+      "label": "Iterated integral",
+      "answer": "∫[0,4]∫[y−4,4−y] f(x,y) dx dy",
+      "options": [
+        "∫[−4,4]∫[0,4] f dy dx",
+        "∫[0,4]∫[y−4,4−y] f(x,y) dx dy",
+        "∫[0,4]∫[−4,4] f dx dy"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Rectangular x",
+          "answer": 1.7320508075688772,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Rectangular y",
+          "answer": 3.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Rectangular z",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Sphericalρ",
+          "answer": 4.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Sphericalθ",
+          "answer": 1.0471975511965979,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Sphericalφ",
+          "answer": 1.0471975511965979,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Cylindricalr",
+          "answer": 2.8284271247461903,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Cylindricalθ",
+          "answer": 0.7853981633974483,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Cylindricalz",
+          "answer": -1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Sphericalρ",
+          "answer": 3.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Sphericalθ",
+          "answer": 0.7853981633974483,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Sphericalφ",
+          "answer": 1.9106332362490186,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Rectangular x",
+          "answer": 2.8284271247461903,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Rectangular y",
+          "answer": 2.8284271247461903,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Rectangular z",
+          "answer": 6.928203230275509,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Cylindricalr",
+          "answer": 4.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Cylindricalθ",
+          "answer": 0.7853981633974483,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Cylindricalz",
+          "answer": 6.928203230275509,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Angles are radians with azimuth0≤θ<2π and polar angle0≤φ≤π.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · θ=π/4",
+          "answer": "Vertical half-planey=x,x≥0",
+          "options": [
+            "Full planey=x",
+            "Upper cone",
+            "Vertical half-planey=x,x≥0"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · φ=π/4",
+          "answer": "Upper circular conez=sqrt(x²+y²)",
+          "options": [
+            "Upper circular conez=sqrt(x²+y²)",
+            "Vertical half-planey=x",
+            "Planez=1"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Cylinder/sphere forms",
+          "answer": "r²+z²=4; ρ=2",
+          "options": [
+            "r+z=4;ρ=4",
+            "r=2;ρsinφ=2",
+            "r²+z²=4; ρ=2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Cylinder/sphere forms",
+          "answer": "r=2; ρsinφ=2",
+          "options": [
+            "r=2; ρsinφ=2",
+            "r²+z²=4;ρ=2",
+            "r=4;ρcosφ=2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-16": {
+    "grader": {
+      "type": "choice",
+      "label": "Solid",
+      "answer": "First-quadrant azimuth wedge inside spherex²+y²+(z−1)²≤1 and above conez=sqrt3 sqrt(x²+y²)",
+      "options": [
+        "Quarter of unit ball centered at origin",
+        "First-quadrant azimuth wedge inside spherex²+y²+(z−1)²≤1 and above conez=sqrt3 sqrt(x²+y²)",
+        "Full hemisphere radius2"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-17": {
+    "grader": {
+      "type": "choice",
+      "label": "Region",
+      "answer": "One first-quadrant petal of roser=sin2θ",
+      "options": [
+        "Unit disk",
+        "One first-quadrant petal of roser=sin2θ",
+        "Full four-petal rose"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Solid",
+          "answer": "First-octant spherical shell1≤ρ≤2",
+          "options": [
+            "First-octant spherical shell1≤ρ≤2",
+            "First-octant ballρ≤2",
+            "Full shell1≤ρ≤2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 3.6651914291880923,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1093
+      ]
+    }
+  },
+  "calculus-chapter-15-review-37": {
+    "grader": {
+      "type": "numeric",
+      "label": "Volume",
+      "answer": 0.6666666666666666,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Use absolute determinant of three edge vectors divided by6.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-39": {
+    "grader": {
+      "type": "choice",
+      "label": "One wedge volume",
+      "answer": "2*a^3*Abs(m)/9",
+      "options": [
+        "4*a^3*Abs(m)/9",
+        "-2*a^3*Abs(m)/9",
+        "2*a^3*Abs(m)/9"
+      ],
+      "explanation": "A wedge over one half of the ellipse has height|mx|; the two opposite wedges have equal volume.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-41": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Mass",
+          "answer": 0.25,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Center x",
+          "answer": 0.3333333333333333,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Center y",
+          "answer": 0.5333333333333333,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · I_x",
+          "answer": 0.08333333333333333,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · I_y",
+          "answer": 0.041666666666666664,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Radius aboutx-axis",
+          "answer": 0.5773502691896257,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Radius abouty-axis",
+          "answer": 0.408248290463863,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-42": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Centroid x",
+          "answer": "4*a/(3*pi)",
+          "options": [
+            "8*a/(3*pi)",
+            "4*a/(3*pi)",
+            "-4*a/(3*pi)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Centroid y",
+          "answer": "4*a/(3*pi)",
+          "options": [
+            "8*a/(3*pi)",
+            "-4*a/(3*pi)",
+            "4*a/(3*pi)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Center x",
+          "answer": "5*pi*a/32",
+          "options": [
+            "-5*pi*a/32",
+            "5*pi*a/32",
+            "5*pi*a/16"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Center y",
+          "answer": "5*a/8",
+          "options": [
+            "-5*a/8",
+            "5*a/4",
+            "5*a/8"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-43": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Centroid x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Base isz=0,apexz=h; radius atheightz isa(1−z/h). Density isr for b.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "a · Centroid y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Base isz=0,apexz=h; radius atheightz isa(1−z/h). Density isr for b.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Centroid z",
+          "answer": "h/4",
+          "options": [
+            "h/2",
+            "-h/4",
+            "h/4"
+          ],
+          "explanation": "Base isz=0,apexz=h; radius atheightz isa(1−z/h). Density isr for b.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · I_z",
+          "answer": "pi*a^5*h/15",
+          "options": [
+            "-pi*a^5*h/15",
+            "pi*a^5*h/15",
+            "2*pi*a^5*h/15"
+          ],
+          "explanation": "Base isz=0,apexz=h; radius atheightz isa(1−z/h). Density isr for b.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-44": {
+    "grader": {
+      "type": "choice",
+      "label": "Area",
+      "answer": "3*pi*sqrt(a^2 + 1)/a^2",
+      "options": [
+        "6*pi*sqrt(a^2 + 1)/a^2",
+        "3*pi*sqrt(a^2 + 1)/a^2",
+        "-3*pi*sqrt(a^2 + 1)/a^2"
+      ],
+      "explanation": "Positivez cone hasr=z/a; use lateral frustum areaπ(r₁+r₂)times slantheight.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-46": {
+    "grader": {
+      "type": "numeric",
+      "label": "Surface area",
+      "answer": 62.97139941329688,
+      "unit": "",
+      "tolerance": 5.1e-05,
+      "explanation": "Integrate sqrt(1+sin²y+x²cos²y) over[−3,3]×[−π,π].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-49": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Left intersection x",
+          "answer": -0.7145563847430096,
+          "unit": "",
+          "tolerance": 0.0001,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Right intersection x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral",
+          "answer": 0.05121196481876983,
+          "unit": "",
+          "tolerance": 0.0001,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-50": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center · x",
+          "answer": 0.19047619047619047,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center · y",
+          "answer": 0.5238095238095238,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center · z",
+          "answer": 1.1428571428571428,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-51": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · C",
+          "answer": 0.06666666666666667,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Probability",
+          "answer": 0.3333333333333333,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Probability",
+          "answer": 0.022222222222222223,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-52": {
+    "grader": {
+      "type": "numeric",
+      "label": "Probability",
+      "answer": 0.13153233451754875,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Assume independent exponential lifetimes. Their sum has gamma shape3; evaluate itsCDF at1000/800=1.25.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-53": {
+    "grader": {
+      "type": "choice",
+      "label": "dx dy dz order",
+      "answer": "∫[0,1]∫[0,1−z]∫[−sqrt(y),sqrt(y)] f(x,y,z) dx dy dz",
+      "options": [
+        "∫[0,1]∫[0,1−z]∫[−sqrt(y),sqrt(y)] f(x,y,z) dx dy dz",
+        "∫[0,1]∫[0,1]∫[−1,1] f dx dy dz",
+        "∫[0,1]∫[z,1]∫[0,y] f dx dy dz"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-54": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "dz dy dx · Bounds outermost first",
+          "answer": "x:0..8;y:cuberoot(x)..2;z:0..y²",
+          "options": [
+            "Use these bounds with2f",
+            "Use these bounds with−f",
+            "x:0..8;y:cuberoot(x)..2;z:0..y²"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "dx dz dy · Bounds outermost first",
+          "answer": "y:0..2;z:0..y²;x:0..y³",
+          "options": [
+            "Use these bounds with2f",
+            "Use these bounds with−f",
+            "y:0..2;z:0..y²;x:0..y³"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "dx dy dz · Bounds outermost first",
+          "answer": "z:0..4;y:sqrt(z)..2;x:0..y³",
+          "options": [
+            "z:0..4;y:sqrt(z)..2;x:0..y³",
+            "Use these bounds with2f",
+            "Use these bounds with−f"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "dy dz dx · Bounds outermost first",
+          "answer": "Sum: x:0..8,z:0..x^(2/3),y:cuberoot(x)..2; plusx:0..8,z:x^(2/3)..4,y:sqrt(z)..2",
+          "options": [
+            "Use these bounds with2f",
+            "Sum: x:0..8,z:0..x^(2/3),y:cuberoot(x)..2; plusx:0..8,z:x^(2/3)..4,y:sqrt(z)..2",
+            "Use these bounds with−f"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "dy dx dz · Bounds outermost first",
+          "answer": "Sum:z:0..4,x:0..z^(3/2),y:sqrt(z)..2; plusz:0..4,x:z^(3/2)..8,y:cuberoot(x)..2",
+          "options": [
+            "Use these bounds with−f",
+            "Sum:z:0..4,x:0..z^(3/2),y:sqrt(z)..2; plusz:0..4,x:z^(3/2)..8,y:cuberoot(x)..2",
+            "Use these bounds with2f"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-55": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": -0.6931471805599453,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "u=x−y ranges−2..0,v=x+y ranges2..4,|J|=1/2; integrateu/(2v).",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-57": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 0.0,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "The diamond is symmetric acrossy=0 andxy is odd iny.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094
+      ]
+    }
+  },
+  "calculus-chapter-15-review-58": {
+    "grader": {
+      "type": "choice",
+      "label": "Mean-value argument",
+      "answer": "m≤average≤M by integral bounds; continuity on the connected region gives a point attaining this average",
+      "options": [
+        "The average must be an extremum",
+        "The function must be constant",
+        "m≤average≤M by integral bounds; continuity on the connected region gives a point attaining this average"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1094,
+        1095
+      ]
+    }
+  },
+  "calculus-chapter-15-review-59": {
+    "grader": {
+      "type": "choice",
+      "label": "Shrinking-disk limit",
+      "answer": "The average equalsf(P_r) at someP_r inD_r; P_r→(a,b), so continuity givesf(a,b)",
+      "options": [
+        "The average equalsf(P_r) at someP_r inD_r; P_r→(a,b), so continuity givesf(a,b)",
+        "The limit is always areaπr²",
+        "The limit is always0"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1095
+      ]
+    }
+  },
+  "calculus-chapter-15-review-60": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Annulus integral",
+          "answer": "n≠2:2π(R^(2−n)−r^(2−n))/(2−n); n=2:2πln(R/r)",
+          "options": [
+            "Always2πln(R/r)",
+            "Alwaysπ(R²−r²)",
+            "n≠2:2π(R^(2−n)−r^(2−n))/(2−n); n=2:2πln(R/r)"
+          ],
+          "explanation": "Polar measure givesr^(1−n)dr and spherical measure givesr^(2−n)dr; test integrability at0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Finite limit asr→0",
+          "answer": "n<2",
+          "options": [
+            "n≥2",
+            "Every integern",
+            "n<2"
+          ],
+          "explanation": "Polar measure givesr^(1−n)dr and spherical measure givesr^(2−n)dr; test integrability at0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Spherical-shell integral",
+          "answer": "n≠3:4π(R^(3−n)−r^(3−n))/(3−n); n=3:4πln(R/r)",
+          "options": [
+            "Always4π(R³−r³)/3",
+            "Always4πln(R/r)",
+            "n≠3:4π(R^(3−n)−r^(3−n))/(3−n); n=3:4πln(R/r)"
+          ],
+          "explanation": "Polar measure givesr^(1−n)dr and spherical measure givesr^(2−n)dr; test integrability at0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Finite limit asr→0",
+          "answer": "n<3",
+          "options": [
+            "Every integern",
+            "n<3",
+            "n≥3"
+          ],
+          "explanation": "Polar measure givesr^(1−n)dr and spherical measure givesr^(2−n)dr; test integrability at0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1095
+      ]
+    }
+  }
+}

@@ -1,0 +1,3172 @@
+{
+  "calculus-section-14-1-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Apparent temperature",
+          "answer": -27.0,
+          "unit": "°C",
+          "tolerance": 2.7e-08,
+          "explanation": "Read the wind-chill table at the specified row and column; each slice fixes one independent variable.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Wind speed",
+          "answer": 20.0,
+          "unit": "km/h",
+          "tolerance": 2e-08,
+          "explanation": "Read the wind-chill table at the specified row and column; each slice fixes one independent variable.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Actual temperature",
+          "answer": -35.0,
+          "unit": "°C",
+          "tolerance": 3.5e-08,
+          "explanation": "Read the wind-chill table at the specified row and column; each slice fixes one independent variable.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Fixed T=−5°C",
+          "answer": "W decreases as wind speed increases",
+          "options": [
+            "Wind speed is fixed at5",
+            "W decreases as wind speed increases",
+            "W increases as wind speed increases"
+          ],
+          "explanation": "Read the wind-chill table at the specified row and column; each slice fixes one independent variable.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "e · Fixed v=50 km/h",
+          "answer": "W increases as actual temperature increases",
+          "options": [
+            "W decreases as actual temperature increases",
+            "T is fixed at50",
+            "W increases as actual temperature increases"
+          ],
+          "explanation": "Read the wind-chill table at the specified row and column; each slice fixes one independent variable.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        930
+      ]
+    }
+  },
+  "calculus-section-14-1-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Apparent temperature",
+          "answer": 124.0,
+          "unit": "°F",
+          "tolerance": 1.24e-07,
+          "explanation": "Read Table3. At80°F, values77→83; at100°F,99→144 as humidity20→70%.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Humidity",
+          "answer": 60.0,
+          "unit": "%",
+          "tolerance": 6.000000000000001e-08,
+          "explanation": "Read Table3. At80°F, values77→83; at100°F,99→144 as humidity20→70%.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · Temperature",
+          "answer": 85.0,
+          "unit": "°F",
+          "tolerance": 8.500000000000001e-08,
+          "explanation": "Read Table3. At80°F, values77→83; at100°F,99→144 as humidity20→70%.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Humidity dependence",
+          "answer": "Both increase with humidity; the100°F slice increases much faster",
+          "options": [
+            "Both decrease with humidity",
+            "The80°F slice increases faster",
+            "Both increase with humidity; the100°F slice increases much faster"
+          ],
+          "explanation": "Read Table3. At80°F, values77→83; at100°F,99→144 as humidity20→70%.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        930
+      ]
+    }
+  },
+  "calculus-section-14-1-3": {
+    "grader": {
+      "type": "numeric",
+      "label": "Production",
+      "answer": 94.220551760623,
+      "unit": "million dollars",
+      "tolerance": 0.05,
+      "explanation": "Substitute120 thousand labor hours and20 million dollars of capital.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        930
+      ]
+    }
+  },
+  "calculus-section-14-1-4": {
+    "grader": {
+      "type": "choice",
+      "label": "Scaling both inputs by2",
+      "answer": "P(2L,2K)=2P(L,K) for both models",
+      "options": [
+        "P(2L,2K)=2P(L,K) for both models",
+        "P(2L,2K)=4P(L,K)",
+        "Only the specific model doubles"
+      ],
+      "explanation": "The exponents add to1:2^α2^(1−α)=2.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        930
+      ]
+    }
+  },
+  "calculus-section-14-1-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Surface area",
+          "answer": 20.52446390382371,
+          "unit": "ft²",
+          "tolerance": 0.01,
+          "explanation": "The personal numerical answer depends on the student’s measurements; its setup is checked.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Personal measurements",
+          "answer": "Substitute your weight in pounds and height in inches into0.1091w^0.425h^0.725",
+          "options": [
+            "Surface area is independent of height",
+            "Substitute your weight in pounds and height in inches into0.1091w^0.425h^0.725",
+            "Use kilograms and centimeters without conversion"
+          ],
+          "explanation": "The personal numerical answer depends on the student’s measurements; its setup is checked.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        930
+      ]
+    }
+  },
+  "calculus-section-14-1-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Model W(−15,40)",
+          "answer": -27.44996533374941,
+          "unit": "°C",
+          "tolerance": 0.05,
+          "explanation": "These two representative comparisons check the requested model/table investigation; other chosen samples are also possible.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Model W(−20,20)",
+          "answer": -30.478945408950928,
+          "unit": "°C",
+          "tolerance": 0.05,
+          "explanation": "These two representative comparisons check the requested model/table investigation; other chosen samples are also possible.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Comparison",
+          "answer": "Approximately−27 and−30, close to the integer table values",
+          "options": [
+            "Approximately−27 and−30, close to the integer table values",
+            "Both model predictions are positive",
+            "The model ignores wind speed"
+          ],
+          "explanation": "These two representative comparisons check the requested model/table investigation; other chosen samples are also possible.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        930
+      ]
+    }
+  },
+  "calculus-section-14-1-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Wave height",
+          "answer": 25.0,
+          "unit": "ft",
+          "tolerance": 2.5000000000000002e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · v=30 knots",
+          "answer": "Height increases with duration and approaches19ft",
+          "options": [
+            "Height decreases with duration",
+            "Height increases with duration and approaches19ft",
+            "Wind speed varies while duration is30h"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · t=30h",
+          "answer": "Height increases with wind speed",
+          "options": [
+            "Duration varies while wind speed is30knots",
+            "Height increases with wind speed",
+            "Height decreases with wind speed"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        930
+      ]
+    }
+  },
+  "calculus-section-14-1-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Cost",
+          "answer": "5*x/2 + 4*y + 9*z/2 + 8000",
+          "options": [
+            "5*x/2 + 4*y + 9*z/2 + 8000",
+            "-5*x/2 - 4*y - 9*z/2 - 8000",
+            "5*x + 8*y + 9*z + 16000"
+          ],
+          "explanation": "Add fixed cost and per-box costs; box counts are nonnegative integers.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Cost",
+          "answer": 53500.0,
+          "unit": "dollars",
+          "tolerance": 5.3500000000000006e-05,
+          "explanation": "Add fixed cost and per-box costs; box counts are nonnegative integers.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Domain",
+          "answer": "Nonnegative integer triples(x,y,z)",
+          "options": [
+            "All real triples",
+            "Positive triples with x+y+z=8000",
+            "Nonnegative integer triples(x,y,z)"
+          ],
+          "explanation": "Add fixed cost and per-box costs; box counts are nonnegative integers.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        930,
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · g(2,−1)",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Domain",
+          "answer": "R²",
+          "options": [
+            "x+2y≥0",
+            "R²",
+            "x+2y≠0"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Range",
+          "answer": "[−1,1]",
+          "options": [
+            "[0,1]",
+            "R",
+            "[−1,1]"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · F(3,1)",
+          "answer": 2.732050807568877,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Domain",
+          "answer": "−2≤y≤2, any real x",
+          "options": [
+            "−2<y<2",
+            "−2≤y≤2, any real x",
+            "x²+y²≤4"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Range",
+          "answer": "[1,3]",
+          "options": [
+            "[−1,3]",
+            "[1,3]",
+            "[0,2]"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · f(1,1,1)",
+          "answer": 3.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Domain",
+          "answer": "x,y,z≥0 and x²+y²+z²<4",
+          "options": [
+            "x,y,z≥0 and x²+y²+z²<4",
+            "x²+y²+z²≤4",
+            "x,y,z>0 and x²+y²+z²≤4"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · g(1,2,3)",
+          "answer": 24.0,
+          "unit": "",
+          "tolerance": 2.4000000000000003e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Domain",
+          "answer": "x+y+z≤10",
+          "options": [
+            "x²+y²+z²≤10",
+            "x+y+z≤10",
+            "x+y+z<10"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-13": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "x≥2 and y≥1",
+      "options": [
+        "Only the origin",
+        "All real inputs",
+        "x≥2 and y≥1"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-14": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "x≥3y",
+      "options": [
+        "All real inputs",
+        "x≥3y",
+        "Only the origin"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-15": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "x²+9y²<9",
+      "options": [
+        "Only the origin",
+        "x²+9y²<9",
+        "All real inputs"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-16": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "x²+y²≥4",
+      "options": [
+        "All real inputs",
+        "x²+y²≥4",
+        "Only the origin"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-17": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "x+y≠0",
+      "options": [
+        "All real inputs",
+        "x+y≠0",
+        "Only the origin"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-18": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "x<2 and x²+y²≠1",
+      "options": [
+        "Only the origin",
+        "x<2 and x²+y²≠1",
+        "All real inputs"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-19": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "y≥x² and x≠±1",
+      "options": [
+        "y≥x² and x≠±1",
+        "All real inputs",
+        "Only the origin"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-20": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "−1≤x+y≤1",
+      "options": [
+        "Only the origin",
+        "−1≤x+y≤1",
+        "All real inputs"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-21": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "−2≤x≤2, −3≤y≤3, −1≤z≤1",
+      "options": [
+        "Only the origin",
+        "All real inputs",
+        "−2≤x≤2, −3≤y≤3, −1≤z≤1"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-22": {
+    "grader": {
+      "type": "choice",
+      "label": "Domain",
+      "answer": "4x²+4y²+z²<16",
+      "options": [
+        "All real inputs",
+        "4x²+4y²+z²<16",
+        "Only the origin"
+      ],
+      "explanation": "Even roots require nonnegative radicands, logarithms positive arguments, and denominators nonzero; arcsine requires an input in[−1,1].",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-23": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph",
+      "answer": "Plane z=y, parallel to x-axis",
+      "options": [
+        "Plane z=y, parallel to x-axis",
+        "The plane z=0",
+        "A sphere centered at the origin"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-24": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph",
+      "answer": "Parabolic cylinder z=x², parallel to y-axis",
+      "options": [
+        "A sphere centered at the origin",
+        "Parabolic cylinder z=x², parallel to y-axis",
+        "The plane z=0"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-25": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph",
+      "answer": "Plane4x+5y+z=10; intercepts(5/2,0,0),(0,2,0),(0,0,10)",
+      "options": [
+        "Plane4x+5y+z=10; intercepts(5/2,0,0),(0,2,0),(0,0,10)",
+        "The plane z=0",
+        "A sphere centered at the origin"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-26": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph",
+      "answer": "Cosine cylinder z=cos y, parallel to x-axis",
+      "options": [
+        "A sphere centered at the origin",
+        "Cosine cylinder z=cos y, parallel to x-axis",
+        "The plane z=0"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-27": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph",
+      "answer": "Sine cylinder z=sin x, parallel to y-axis",
+      "options": [
+        "Sine cylinder z=sin x, parallel to y-axis",
+        "The plane z=0",
+        "A sphere centered at the origin"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-28": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph",
+      "answer": "Downward circular paraboloid, vertex(0,0,2)",
+      "options": [
+        "Downward circular paraboloid, vertex(0,0,2)",
+        "The plane z=0",
+        "A sphere centered at the origin"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-29": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph",
+      "answer": "Upward elliptic paraboloid, vertex(0,0,1)",
+      "options": [
+        "A sphere centered at the origin",
+        "The plane z=0",
+        "Upward elliptic paraboloid, vertex(0,0,1)"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-30": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph",
+      "answer": "Upper elliptic cone z²=4x²+y²",
+      "options": [
+        "Upper elliptic cone z²=4x²+y²",
+        "The plane z=0",
+        "A sphere centered at the origin"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-31": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph",
+      "answer": "Upper half of ellipsoid4x²+y²+z²=4",
+      "options": [
+        "The plane z=0",
+        "Upper half of ellipsoid4x²+y²+z²=4",
+        "A sphere centered at the origin"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-32": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a",
+          "answer": "III",
+          "options": [
+            "II",
+            "III",
+            "VI",
+            "I",
+            "V",
+            "IV"
+          ],
+          "explanation": "Compare radial symmetry, axes traces, oscillation, signs and decay of the six source surfaces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b",
+          "answer": "I",
+          "options": [
+            "II",
+            "VI",
+            "IV",
+            "I",
+            "V",
+            "III"
+          ],
+          "explanation": "Compare radial symmetry, axes traces, oscillation, signs and decay of the six source surfaces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c",
+          "answer": "IV",
+          "options": [
+            "III",
+            "IV",
+            "V",
+            "II",
+            "VI",
+            "I"
+          ],
+          "explanation": "Compare radial symmetry, axes traces, oscillation, signs and decay of the six source surfaces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d",
+          "answer": "V",
+          "options": [
+            "III",
+            "II",
+            "V",
+            "IV",
+            "I",
+            "VI"
+          ],
+          "explanation": "Compare radial symmetry, axes traces, oscillation, signs and decay of the six source surfaces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "e",
+          "answer": "VI",
+          "options": [
+            "VI",
+            "I",
+            "II",
+            "IV",
+            "III",
+            "V"
+          ],
+          "explanation": "Compare radial symmetry, axes traces, oscillation, signs and decay of the six source surfaces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "f",
+          "answer": "II",
+          "options": [
+            "VI",
+            "I",
+            "V",
+            "III",
+            "IV",
+            "II"
+          ],
+          "explanation": "Compare radial symmetry, axes traces, oscillation, signs and decay of the six source surfaces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-33": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "f(−3,3), estimate",
+          "answer": 55.0,
+          "unit": "",
+          "tolerance": 5,
+          "explanation": "Interpolate neighboring labeled contours; tightly spaced curves indicate a steeper slope.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "f(3,−2), estimate",
+          "answer": 35.0,
+          "unit": "",
+          "tolerance": 5,
+          "explanation": "Interpolate neighboring labeled contours; tightly spaced curves indicate a steeper slope.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Surface shape",
+          "answer": "A hill, steeper on its southern side than northern side",
+          "options": [
+            "A bowl with minimum at center",
+            "A hill, steeper on its southern side than northern side",
+            "A plane with constant slope"
+          ],
+          "explanation": "Interpolate neighboring labeled contours; tightly spaced curves indicate a steeper slope.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931
+      ]
+    }
+  },
+  "calculus-section-14-1-34": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Chicago pressure, estimate",
+          "answer": 1014.0,
+          "unit": "mb",
+          "tolerance": 2,
+          "explanation": "Read the enclosing isobars. Vancouver has the tightest isobar spacing among the four marked cities.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Nashville pressure, estimate",
+          "answer": 1012.0,
+          "unit": "mb",
+          "tolerance": 2,
+          "explanation": "Read the enclosing isobars. Vancouver has the tightest isobar spacing among the four marked cities.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "San Francisco pressure, estimate",
+          "answer": 1013.0,
+          "unit": "mb",
+          "tolerance": 2,
+          "explanation": "Read the enclosing isobars. Vancouver has the tightest isobar spacing among the four marked cities.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Vancouver pressure, estimate",
+          "answer": 1017.0,
+          "unit": "mb",
+          "tolerance": 2,
+          "explanation": "Read the enclosing isobars. Vancouver has the tightest isobar spacing among the four marked cities.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Strongest winds",
+          "answer": "Vancouver",
+          "options": [
+            "Nashville",
+            "Vancouver",
+            "Chicago"
+          ],
+          "explanation": "Read the enclosing isobars. Vancouver has the tightest isobar spacing among the four marked cities.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        931,
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-35": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "June9 at10m",
+          "answer": 12.0,
+          "unit": "°C",
+          "tolerance": 1,
+          "explanation": "The first point lies near12°C; the second near20°C, using the time/depth contour map.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "June29 at5m",
+          "answer": 20.0,
+          "unit": "°C",
+          "tolerance": 2,
+          "explanation": "The first point lies near12°C; the second near20°C, using the time/depth contour map.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-36": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Cone",
+          "answer": "II: equal radial spacing for equal height increments",
+          "options": [
+            "II: equal radial spacing for equal height increments",
+            "I: decreasing radial spacing",
+            "Neither"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Paraboloid",
+          "answer": "I: radial spacing decreases outward",
+          "options": [
+            "II: equal radial spacing",
+            "Neither",
+            "I: radial spacing decreases outward"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-37": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Terrain at A",
+          "answer": "Steep: contours are close together",
+          "options": [
+            "Nearly flat: contours widely spaced",
+            "Steep: contours are close together",
+            "Below sea level"
+          ],
+          "explanation": "Use Figure12; contour spacing measures horizontal distance per fixed elevation change.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Terrain at B",
+          "answer": "Relatively gentle: contours farther apart",
+          "options": [
+            "A vertical cliff",
+            "Relatively gentle: contours farther apart",
+            "Steeper than A"
+          ],
+          "explanation": "Use Figure12; contour spacing measures horizontal distance per fixed elevation change.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-38": {
+    "grader": {
+      "type": "choice",
+      "label": "Contour structure",
+      "answer": "Four clusters of nested closed curves around four peaks; outer contours join at lower levels",
+      "options": [
+        "Four clusters of nested closed curves around four peaks; outer contours join at lower levels",
+        "One concentric family centered at the origin",
+        "Only parallel straight lines"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-39": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Level curves",
+          "answer": "m=kh² for k=18.5,25,30,40, h>0",
+          "options": [
+            "m=k/h²",
+            "m=kh² for k=18.5,25,30,40, h>0",
+            "h=km²"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Optimal region",
+          "answer": "18.5h²≤m≤25h² with h>0",
+          "options": [
+            "m≤18.5h²",
+            "18.5h²≤m≤25h² with h>0",
+            "m≥30h²"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "BMI for62kg,1.52m",
+          "answer": 26.83518005540166,
+          "unit": "",
+          "tolerance": 0.01,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Classification",
+          "answer": "Overweight, outside optimal region",
+          "options": [
+            "Overweight, outside optimal region",
+            "Optimal",
+            "Underweight"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-40": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "BMI level",
+          "answer": 20.0,
+          "unit": "",
+          "tolerance": 2e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Level curve and two examples",
+          "answer": "m=20h²; (h,m)=(1.5m,45kg),(1.8m,64.8kg)",
+          "options": [
+            "m=20h; (1.5m,30kg),(1.8m,36kg)",
+            "m=20h²; (h,m)=(1.5m,45kg),(1.8m,64.8kg)",
+            "m=20/h²"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-41": {
+    "grader": {
+      "type": "choice",
+      "label": "Qualitative surface",
+      "answer": "Radially symmetric depression with values increasing outward; steep near center, gentler outward",
+      "options": [
+        "A flat horizontal plane",
+        "A constant-radius vertical cylinder",
+        "Radially symmetric depression with values increasing outward; steep near center, gentler outward"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-42": {
+    "grader": {
+      "type": "choice",
+      "label": "Qualitative surface",
+      "answer": "Parabolic level curves; height decreases as y increases, and slopes flatten toward the upper part of the map",
+      "options": [
+        "A flat horizontal plane",
+        "Parabolic level curves; height decreases as y increases, and slopes flatten toward the upper part of the map",
+        "A constant-radius vertical cylinder"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-43": {
+    "grader": {
+      "type": "choice",
+      "label": "Qualitative surface",
+      "answer": "Valley along y=x in the first quadrant, rising away from this diagonal on either side",
+      "options": [
+        "Valley along y=x in the first quadrant, rising away from this diagonal on either side",
+        "A constant-radius vertical cylinder",
+        "A flat horizontal plane"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-44": {
+    "grader": {
+      "type": "choice",
+      "label": "Qualitative surface",
+      "answer": "Four planar faces forming a downward square pyramid, highest at the origin",
+      "options": [
+        "A constant-radius vertical cylinder",
+        "Four planar faces forming a downward square pyramid, highest at the origin",
+        "A flat horizontal plane"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-45": {
+    "grader": {
+      "type": "choice",
+      "label": "Level curves",
+      "answer": "x²−y²=k: hyperbolas; k=0 gives y=±x",
+      "options": [
+        "Only the unit circle",
+        "x²−y²=k: hyperbolas; k=0 gives y=±x",
+        "Parallel vertical lines for every level"
+      ],
+      "explanation": "Set f(x,y)=k and solve without adding points outside the original domain.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-46": {
+    "grader": {
+      "type": "choice",
+      "label": "Level curves",
+      "answer": "xy=k: rectangular hyperbolas; k=0 gives both axes",
+      "options": [
+        "xy=k: rectangular hyperbolas; k=0 gives both axes",
+        "Only the unit circle",
+        "Parallel vertical lines for every level"
+      ],
+      "explanation": "Set f(x,y)=k and solve without adding points outside the original domain.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-47": {
+    "grader": {
+      "type": "choice",
+      "label": "Level curves",
+      "answer": "y=k−sqrt(x), x≥0: downward square-root curves",
+      "options": [
+        "Only the unit circle",
+        "y=k−sqrt(x), x≥0: downward square-root curves",
+        "Parallel vertical lines for every level"
+      ],
+      "explanation": "Set f(x,y)=k and solve without adding points outside the original domain.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-48": {
+    "grader": {
+      "type": "choice",
+      "label": "Level curves",
+      "answer": "x²+4y²=e^k: concentric ellipses, all real k",
+      "options": [
+        "x²+4y²=e^k: concentric ellipses, all real k",
+        "Parallel vertical lines for every level",
+        "Only the unit circle"
+      ],
+      "explanation": "Set f(x,y)=k and solve without adding points outside the original domain.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-49": {
+    "grader": {
+      "type": "choice",
+      "label": "Level curves",
+      "answer": "y=ke^(−x): exponential curves; k=0 is y=0",
+      "options": [
+        "Parallel vertical lines for every level",
+        "Only the unit circle",
+        "y=ke^(−x): exponential curves; k=0 is y=0"
+      ],
+      "explanation": "Set f(x,y)=k and solve without adding points outside the original domain.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-50": {
+    "grader": {
+      "type": "choice",
+      "label": "Level curves",
+      "answer": "y=k+arctan x: vertical translates of arctangent",
+      "options": [
+        "Only the unit circle",
+        "y=k+arctan x: vertical translates of arctangent",
+        "Parallel vertical lines for every level"
+      ],
+      "explanation": "Set f(x,y)=k and solve without adding points outside the original domain.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-51": {
+    "grader": {
+      "type": "choice",
+      "label": "Level curves",
+      "answer": "x²+y²=k³, k≥0: concentric circles",
+      "options": [
+        "x²+y²=k³, k≥0: concentric circles",
+        "Parallel vertical lines for every level",
+        "Only the unit circle"
+      ],
+      "explanation": "Set f(x,y)=k and solve without adding points outside the original domain.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-52": {
+    "grader": {
+      "type": "choice",
+      "label": "Level curves",
+      "answer": "For k≠0: x²+(y−1/(2k))²=1/(4k²), excluding origin; k=0 gives y=0,x≠0",
+      "options": [
+        "For k≠0: x²+(y−1/(2k))²=1/(4k²), excluding origin; k=0 gives y=0,x≠0",
+        "Parallel vertical lines for every level",
+        "Only the unit circle"
+      ],
+      "explanation": "Set f(x,y)=k and solve without adding points outside the original domain.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-53": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Contours",
+          "answer": "x²+9y²=k≥0: ellipses",
+          "options": [
+            "x+y=k: lines",
+            "x²−9y²=k: hyperbolas",
+            "x²+9y²=k≥0: ellipses"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Graph",
+          "answer": "Upward elliptic paraboloid with vertex at origin",
+          "options": [
+            "Upward elliptic paraboloid with vertex at origin",
+            "Downward cone",
+            "Sphere"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-54": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Contours",
+          "answer": "9x²+4y²=36−k² for0≤k≤6",
+          "options": [
+            "9x²+4y²=36−k² for0≤k≤6",
+            "9x²+4y²=36+k²",
+            "x²+y²=k"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Graph",
+          "answer": "Upper half ellipsoid9x²+4y²+z²=36",
+          "options": [
+            "Full ellipsoid",
+            "Parabolic cylinder",
+            "Upper half ellipsoid9x²+4y²+z²=36"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932
+      ]
+    }
+  },
+  "calculus-section-14-1-55": {
+    "grader": {
+      "type": "choice",
+      "label": "Isothermals",
+      "answer": "x²+2y²=100/k−1, 0<k≤100; ellipses (origin at100)",
+      "options": [
+        "x²+2y²=100/k−1, 0<k≤100; ellipses (origin at100)",
+        "Parallel lines",
+        "x²+2y²=k−100"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        932,
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-56": {
+    "grader": {
+      "type": "choice",
+      "label": "Equipotentials",
+      "answer": "x²+y²=r²−c²/k², k≥c/r: concentric circles inside radius r",
+      "options": [
+        "x²+y²=r²+c²/k²",
+        "x²+y²=r²−c²/k², k≥c/r: concentric circles inside radius r",
+        "Only the circle of radius r"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-57": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph and contour features",
+      "answer": "Zero traces x=0 and y=±x divide three positive and three negative sectors; a monkey saddle at origin",
+      "options": [
+        "Zero traces x=0 and y=±x divide three positive and three negative sectors; a monkey saddle at origin",
+        "A plane with constant slope",
+        "A positive function increasing without bound in every direction"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-58": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph and contour features",
+      "answer": "Zero traces x=0,y=0,y=±x divide four positive and four negative sectors",
+      "options": [
+        "Zero traces x=0,y=0,y=±x divide four positive and four negative sectors",
+        "A positive function increasing without bound in every direction",
+        "A plane with constant slope"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-59": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph and contour features",
+      "answer": "Damped oscillations tend to0 at infinity; f(0,0)=1 and both coordinate reflections preserve the graph",
+      "options": [
+        "A plane with constant slope",
+        "Damped oscillations tend to0 at infinity; f(0,0)=1 and both coordinate reflections preserve the graph",
+        "A positive function increasing without bound in every direction"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-60": {
+    "grader": {
+      "type": "choice",
+      "label": "Graph and contour features",
+      "answer": "Periodic hills and valleys, range[−1,1]; zero lines x=π/2+kπ or y=π/2+kπ",
+      "options": [
+        "Periodic hills and valleys, range[−1,1]; zero lines x=π/2+kπ or y=π/2+kπ",
+        "A positive function increasing without bound in every direction",
+        "A plane with constant slope"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-61": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Graph",
+          "answer": "C",
+          "options": [
+            "F",
+            "D",
+            "B",
+            "C",
+            "A",
+            "E"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Contour map",
+          "answer": "II",
+          "options": [
+            "III",
+            "IV",
+            "I",
+            "II",
+            "VI",
+            "V"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-62": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Graph",
+          "answer": "A",
+          "options": [
+            "F",
+            "D",
+            "C",
+            "B",
+            "A",
+            "E"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Contour map",
+          "answer": "IV",
+          "options": [
+            "II",
+            "V",
+            "III",
+            "VI",
+            "I",
+            "IV"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-63": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Graph",
+          "answer": "F",
+          "options": [
+            "C",
+            "D",
+            "F",
+            "E",
+            "A",
+            "B"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Contour map",
+          "answer": "I",
+          "options": [
+            "I",
+            "III",
+            "II",
+            "IV",
+            "VI",
+            "V"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-64": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Graph",
+          "answer": "E",
+          "options": [
+            "B",
+            "F",
+            "C",
+            "D",
+            "E",
+            "A"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Contour map",
+          "answer": "III",
+          "options": [
+            "II",
+            "V",
+            "I",
+            "III",
+            "VI",
+            "IV"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-65": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Graph",
+          "answer": "B",
+          "options": [
+            "D",
+            "F",
+            "E",
+            "A",
+            "B",
+            "C"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Contour map",
+          "answer": "VI",
+          "options": [
+            "III",
+            "IV",
+            "II",
+            "VI",
+            "I",
+            "V"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-66": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Graph",
+          "answer": "D",
+          "options": [
+            "F",
+            "A",
+            "E",
+            "D",
+            "C",
+            "B"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Contour map",
+          "answer": "V",
+          "options": [
+            "V",
+            "II",
+            "III",
+            "VI",
+            "I",
+            "IV"
+          ],
+          "explanation": "Match zero traces, symmetries, periodicity and amplitude patterns in the source diagrams.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        933
+      ]
+    }
+  },
+  "calculus-section-14-1-67": {
+    "grader": {
+      "type": "choice",
+      "label": "Level surfaces",
+      "answer": "Parallel planes x+3y+5z=k",
+      "options": [
+        "Parallel horizontal planes",
+        "Parallel planes x+3y+5z=k",
+        "Concentric spheres for all real k"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-68": {
+    "grader": {
+      "type": "choice",
+      "label": "Level surfaces",
+      "answer": "Concentric ellipsoids x²+3y²+5z²=k for k>0; origin for k=0; empty for k<0",
+      "options": [
+        "Concentric ellipsoids x²+3y²+5z²=k for k>0; origin for k=0; empty for k<0",
+        "Parallel horizontal planes",
+        "Concentric spheres for all real k"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-69": {
+    "grader": {
+      "type": "choice",
+      "label": "Level surfaces",
+      "answer": "Circular cylinders y²+z²=k>0 along x-axis; x-axis for k=0; empty for k<0",
+      "options": [
+        "Circular cylinders y²+z²=k>0 along x-axis; x-axis for k=0; empty for k<0",
+        "Parallel horizontal planes",
+        "Concentric spheres for all real k"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-70": {
+    "grader": {
+      "type": "choice",
+      "label": "Level surfaces",
+      "answer": "k>0: two-sheet hyperboloids along x; k<0: one-sheet hyperboloids along x; k=0: double cone",
+      "options": [
+        "Concentric spheres for all real k",
+        "k>0: two-sheet hyperboloids along x; k<0: one-sheet hyperboloids along x; k=0: double cone",
+        "Parallel horizontal planes"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-71": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a",
+          "answer": "Translate up2",
+          "options": [
+            "Translate up2",
+            "Translate down2",
+            "Stretch horizontally by2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b",
+          "answer": "Stretch vertically by2",
+          "options": [
+            "Stretch vertically by2",
+            "Reflect in xy-plane",
+            "Translate up2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c",
+          "answer": "Reflect in xy-plane",
+          "options": [
+            "Reflect in xy-plane",
+            "Translate down1",
+            "Reflect in yz-plane"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d",
+          "answer": "Reflect in xy-plane then translate up2",
+          "options": [
+            "Translate up2 only",
+            "Reflect in yz-plane",
+            "Reflect in xy-plane then translate up2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-72": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a",
+          "answer": "Translate2 units in +x direction",
+          "options": [
+            "Translate up2",
+            "Translate2 units in −x direction",
+            "Translate2 units in +x direction"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b",
+          "answer": "Translate2 units in −y direction",
+          "options": [
+            "Stretch vertically",
+            "Translate2 units in +y direction",
+            "Translate2 units in −y direction"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c",
+          "answer": "Translate−3 in x and+4 in y",
+          "options": [
+            "Translate+3 in x and+4 in y",
+            "Translate+3 in x and−4 in y",
+            "Translate−3 in x and+4 in y"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-73": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Maximum behavior",
+          "answer": "A finite absolute maximum; two local maxima and one saddle, no local minima",
+          "options": [
+            "A finite absolute maximum; two local maxima and one saddle, no local minima",
+            "One local minimum and no maxima",
+            "Unbounded above"
+          ],
+          "explanation": "Complete the square in y; stationary x solves4x³−12.5x−3=0. Outer roots have negative-definite Hessian.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Local maximum 1 · x",
+          "answer": -1.632676178670688,
+          "unit": "",
+          "tolerance": 0.003,
+          "explanation": "Complete the square in y; stationary x solves4x³−12.5x−3=0. Outer roots have negative-definite Hessian.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Local maximum 1 · y",
+          "answer": 2.0408452233383603,
+          "unit": "",
+          "tolerance": 0.003,
+          "explanation": "Complete the square in y; stationary x solves4x³−12.5x−3=0. Outer roots have negative-definite Hessian.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Local maximum 1 · z",
+          "answer": 4.656577049236951,
+          "unit": "",
+          "tolerance": 0.003,
+          "explanation": "Complete the square in y; stationary x solves4x³−12.5x−3=0. Outer roots have negative-definite Hessian.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Local maximum 2 · x",
+          "answer": 1.8773641831242573,
+          "unit": "",
+          "tolerance": 0.003,
+          "explanation": "Complete the square in y; stationary x solves4x³−12.5x−3=0. Outer roots have negative-definite Hessian.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Local maximum 2 · y",
+          "answer": -2.346705228905322,
+          "unit": "",
+          "tolerance": 0.003,
+          "explanation": "Complete the square in y; stationary x solves4x³−12.5x−3=0. Outer roots have negative-definite Hessian.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Local maximum 2 · z",
+          "answer": 15.238120274772733,
+          "unit": "",
+          "tolerance": 0.003,
+          "explanation": "Complete the square in y; stationary x solves4x³−12.5x−3=0. Outer roots have negative-definite Hessian.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-74": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute maximum",
+          "answer": 0.18393972058572117,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use |xy|≤(x²+y²)/2 and maximize r²e^(−r²)/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute minimum",
+          "answer": -0.18393972058572117,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Use |xy|≤(x²+y²)/2 and maximize r²e^(−r²)/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Extremum locations",
+          "answer": "Maxima at(±1/√2,±1/√2) with same signs; minima with opposite signs",
+          "options": [
+            "Maxima at(±1/√2,±1/√2) with same signs; minima with opposite signs",
+            "Maximum at origin only",
+            "No extrema"
+          ],
+          "explanation": "Use |xy|≤(x²+y²)/2 and maximize r²e^(−r²)/2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-75": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "At infinity",
+          "answer": "Tends to0 as x²+y²→∞",
+          "options": [
+            "Tends to1",
+            "Tends to0 as x²+y²→∞",
+            "Unbounded on every ray"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "At origin",
+          "answer": "No limit; y=0 gives1/x",
+          "options": [
+            "Limit1",
+            "No limit; y=0 gives1/x",
+            "Limit0"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-76": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Large inputs",
+          "answer": "No unique limit: y=x gives1/2, y=2x gives2/5",
+          "options": [
+            "Always tends to1/2",
+            "Always tends to0",
+            "No unique limit: y=x gives1/2, y=2x gives2/5"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "At origin",
+          "answer": "No limit: y=0 gives0, y=x gives1/2",
+          "options": [
+            "No limit: y=0 gives0, y=x gives1/2",
+            "Limit0",
+            "Limit1/2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-77": {
+    "grader": {
+      "type": "choice",
+      "label": "Dependence on c",
+      "answer": "c<0: Gaussian hill, narrower as |c| grows; c=0: plane1; c>0: radial bowl unbounded upward",
+      "options": [
+        "c<0: Gaussian hill, narrower as |c| grows; c=0: plane1; c>0: radial bowl unbounded upward",
+        "Always a Gaussian hill",
+        "Always a saddle"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-78": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Dependence on a,b",
+          "answer": "Signs set positive hills/negative troughs; a=b gives radial symmetry; unequal coefficients break rotational symmetry; swapping a,b exchanges axes",
+          "options": [
+            "Signs set positive hills/negative troughs; a=b gives radial symmetry; unequal coefficients break rotational symmetry; swapping a,b exchanges axes",
+            "Only a+b matters at every point",
+            "All graphs are positive"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Decay",
+          "answer": "All approach0 at infinity",
+          "options": [
+            "All are unbounded at infinity",
+            "All approach0 at infinity",
+            "All approach1 at infinity"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-79": {
+    "grader": {
+      "type": "choice",
+      "label": "Classification",
+      "answer": "|c|<2 elliptic paraboloid; c=±2 parabolic cylinder; |c|>2 hyperbolic paraboloid",
+      "options": [
+        "Always elliptic paraboloid",
+        "|c|<2 elliptic paraboloid; c=±2 parabolic cylinder; |c|>2 hyperbolic paraboloid",
+        "Transitions at c=0 only"
+      ],
+      "explanation": "Rotated eigenvalues are1±c/2.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-80": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "General construction",
+          "answer": "Rotate the nonnegative-radius graph z=g(r), r≥0, about the z-axis",
+          "options": [
+            "Rotate the entire graph about the x-axis",
+            "Rotate the nonnegative-radius graph z=g(r), r≥0, about the z-axis",
+            "Extrude the graph parallel to y-axis"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Five examples",
+          "answer": "Cone; exponential radial bowl; logarithmic funnel; radial sine ripples; reciprocal funnel",
+          "options": [
+            "Five spheres",
+            "Cone; exponential radial bowl; logarithmic funnel; radial sine ripples; reciprocal funnel",
+            "Five planes"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  },
+  "calculus-section-14-1-81": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Logarithmic identity",
+          "answer": "ln(P/K)=ln b+α ln(L/K)",
+          "options": [
+            "ln(P/K)=ln b+(1−α)ln(L/K)",
+            "ln(P/K)=ln b+α ln(L/K)",
+            "ln(P/K)=b+α(L/K)"
+          ],
+          "explanation": "Divide by K, take logs, then regress the24 Table2 log-ratios. The student-generated table and plot are not automatically graded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Regression slope",
+          "answer": 0.744,
+          "unit": "",
+          "tolerance": 0.006,
+          "explanation": "Divide by K, take logs, then regress the24 Table2 log-ratios. The student-generated table and plot are not automatically graded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Regression intercept",
+          "answer": 0.007,
+          "unit": "",
+          "tolerance": 0.006,
+          "explanation": "Divide by K, take logs, then regress the24 Table2 log-ratios. The student-generated table and plot are not automatically graded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Rounded model",
+          "answer": "P≈1.01L^0.75K^0.25",
+          "options": [
+            "P≈1.01L^0.75K^0.25",
+            "P≈L+K",
+            "P≈1.01L^0.25K^0.75"
+          ],
+          "explanation": "Divide by K, take logs, then regress the24 Table2 log-ratios. The student-generated table and plot are not automatically graded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        934
+      ]
+    }
+  }
+}

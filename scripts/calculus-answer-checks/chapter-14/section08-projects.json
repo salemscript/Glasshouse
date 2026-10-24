@@ -1,0 +1,718 @@
+{
+  "calculus-section-14-8-1-project-applied-project-rocket-science-1": {
+    "grader": {
+      "type": "choice",
+      "label": "Final velocity",
+      "answer": "v_f=c ln[(M₁+M₂+M₃+A)/(SM₁+M₂+M₃+A)]+c ln[(M₂+M₃+A)/(SM₂+M₃+A)]+c ln[(M₃+A)/(SM₃+A)]",
+      "options": [
+        "v_f=c ln[(M₁+M₂+M₃+A)/A] regardless of S",
+        "v_f=c ln[(M₁+M₂+M₃+A)/(SM₁+M₂+M₃+A)]+c ln[(M₂+M₃+A)/(SM₂+M₃+A)]+c ln[(M₃+A)/(SM₃+A)]",
+        "v_f is the negative of this sum of three log ratios"
+      ],
+      "explanation": "At each burn, the later stages plus payload are carried as that stage’s payload. Add the three velocity increments with the initial-to-final mass ratio in each logarithm, assuming the stated common c and S and negligible external forces.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1010
+      ]
+    }
+  },
+  "calculus-section-14-8-2-project-applied-project-rocket-science-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Each successive total-mass ratio",
+          "answer": "T_i/T_(i+1)=(1−S)N_i/(1−SN_i), with T₁=M+A,T₂=M₂+M₃+A,T₃=M₃+A,T₄=A",
+          "options": [
+            "T_i/T_(i+1)=(1−SN_i)/[(1−S)N_i]",
+            "T_i/T_(i+1)=N_i/(1−S)",
+            "T_i/T_(i+1)=(1−S)N_i/(1−SN_i), with T₁=M+A,T₂=M₂+M₃+A,T₃=M₃+A,T₄=A"
+          ],
+          "explanation": "Rearrange N_i=T_i/[SM_i+T_(i+1)] using M_i=T_i−T_(i+1), then multiply the three telescoping ratios. Physical stages require1≤N_i<1/S for0<S<1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Product identity",
+          "answer": "(M+A)/A=(1−S)³N₁N₂N₃/[(1−SN₁)(1−SN₂)(1−SN₃)]",
+          "options": [
+            "(M+A)/A=(1−S)³/[(1−SN₁)(1−SN₂)(1−SN₃)]",
+            "(M+A)/A=N₁N₂N₃",
+            "(M+A)/A=(1−S)³N₁N₂N₃/[(1−SN₁)(1−SN₂)(1−SN₃)]"
+          ],
+          "explanation": "Rearrange N_i=T_i/[SM_i+T_(i+1)] using M_i=T_i−T_(i+1), then multiply the three telescoping ratios. Physical stages require1≤N_i<1/S for0<S<1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1010
+      ]
+    }
+  },
+  "calculus-section-14-8-3-project-applied-project-rocket-science-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Monotonic objective",
+          "answer": "ln((M+A)/A) is strictly increasing in M for fixed A>0",
+          "options": [
+            "ln((M+A)/A) is strictly increasing in M for fixed A>0",
+            "It depends only on A",
+            "It is strictly decreasing in M"
+          ],
+          "explanation": "For w_i=ln N_i, the objective is3ln(1−S)+Σ[w_i−ln(1−S e^w_i)] with fixed sum v_f/c. Its second derivative isS e^w/(1−S e^w)²>0; equal w_i gives the global minimum.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Optimal N values",
+          "answer": "N₁=N₂=N₃=exp(v_f/(3c))",
+          "options": [
+            "N₁=N₂=N₃=exp(v_f/(3c))",
+            "N₁=N₂=N₃=v_f/(3c)",
+            "N₁=N₂=N₃=exp(v_f/c)"
+          ],
+          "explanation": "For w_i=ln N_i, the objective is3ln(1−S)+Σ[w_i−ln(1−S e^w_i)] with fixed sum v_f/c. Its second derivative isS e^w/(1−S e^w)²>0; equal w_i gives the global minimum.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Finite-mass feasibility",
+          "answer": "0≤v_f<3c ln(1/S), for0<S<1",
+          "options": [
+            "Any arbitrarily large v_f is feasible with finite mass",
+            "0≤v_f<3c ln(1/S), for0<S<1",
+            "v_f must equal3c ln(1/S)"
+          ],
+          "explanation": "For w_i=ln N_i, the objective is3ln(1−S)+Σ[w_i−ln(1−S e^w_i)] with fixed sum v_f/c. Its second derivative isS e^w/(1−S e^w)²>0; equal w_i gives the global minimum.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1010,
+        1011
+      ]
+    }
+  },
+  "calculus-section-14-8-4-project-applied-project-rocket-science-1": {
+    "grader": {
+      "type": "choice",
+      "label": "Minimum engine mass",
+      "answer": "M_min=A{[(1−S)e^(v_f/(3c))/(1−S e^(v_f/(3c)))]³−1}",
+      "options": [
+        "M_min=A e^(v_f/(3c))",
+        "M_min=A[e^(v_f/c)−1] for every S",
+        "M_min=A{[(1−S)e^(v_f/(3c))/(1−S e^(v_f/(3c)))]³−1}"
+      ],
+      "explanation": "Let R=(1−S)N/(1−SN) with N=e^(v_f/(3c)). The optimal total launch mass is AR³ and subtracting the payload gives engine-plus-fuel mass A(R³−1).",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1010,
+        1011
+      ]
+    }
+  },
+  "calculus-section-14-8-5-project-applied-project-rocket-science-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Minimum M/A",
+          "answer": 89.41552089372972,
+          "unit": "",
+          "tolerance": 0.0001,
+          "explanation": "With S=.2,c=6000mi/h and v_f=17500mi/h, compute N=e^(17500/18000), R=.8N/(1−.2N). Then M₃=A(R−1),M₂=AR(R−1),M₁=AR²(R−1). Mass ratios do not depend on the unit used for A.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · M1/A",
+          "answer": 70.27076577488523,
+          "unit": "",
+          "tolerance": 0.0001,
+          "explanation": "With S=.2,c=6000mi/h and v_f=17500mi/h, compute N=e^(17500/18000), R=.8N/(1−.2N). Then M₃=A(R−1),M₂=AR(R−1),M₁=AR²(R−1). Mass ratios do not depend on the unit used for A.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · M2/A",
+          "answer": 15.656464228222035,
+          "unit": "",
+          "tolerance": 0.0001,
+          "explanation": "With S=.2,c=6000mi/h and v_f=17500mi/h, compute N=e^(17500/18000), R=.8N/(1−.2N). Then M₃=A(R−1),M₂=AR(R−1),M₁=AR²(R−1). Mass ratios do not depend on the unit used for A.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · M3/A",
+          "answer": 3.4882908906224523,
+          "unit": "",
+          "tolerance": 0.0001,
+          "explanation": "With S=.2,c=6000mi/h and v_f=17500mi/h, compute N=e^(17500/18000), R=.8N/(1−.2N). Then M₃=A(R−1),M₂=AR(R−1),M₁=AR²(R−1). Mass ratios do not depend on the unit used for A.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1010,
+        1011
+      ]
+    }
+  },
+  "calculus-section-14-8-6-project-applied-project-rocket-science-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Stage1 mass",
+          "answer": 1556141.3856162548,
+          "unit": "lb (same mass-unit convention as the 500-lb payload)",
+          "tolerance": 1,
+          "explanation": "Use the same S=.2,c=6000mi/h but v_f=24700mi/h and A=500lb. The geometrically decreasing stage masses again follow R²(R−1),R(R−1),R−1 times A; these are the source’s common pound-based mass ratios.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Stage2 mass",
+          "answer": 104150.41176583731,
+          "unit": "lb (same mass-unit convention as the 500-lb payload)",
+          "tolerance": 1,
+          "explanation": "Use the same S=.2,c=6000mi/h but v_f=24700mi/h and A=500lb. The geometrically decreasing stage masses again follow R²(R−1),R(R−1),R−1 times A; these are the source’s common pound-based mass ratios.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Stage3 mass",
+          "answer": 6970.644422966599,
+          "unit": "lb (same mass-unit convention as the 500-lb payload)",
+          "tolerance": 1,
+          "explanation": "Use the same S=.2,c=6000mi/h but v_f=24700mi/h and A=500lb. The geometrically decreasing stage masses again follow R²(R−1),R(R−1),R−1 times A; these are the source’s common pound-based mass ratios.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1010,
+        1011
+      ]
+    }
+  },
+  "calculus-section-14-8-1-project-applied-project-hydro-turbine-optimization-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Interior Q1 = slope·Q_T + intercept · slope",
+          "answer": 0.3410134060440808,
+          "unit": "",
+          "tolerance": 5e-07,
+          "explanation": "The common positive head factor H=170−1.6×10^−6Q_T² is fixed at a given total flow. Maximize Σ(a_i+b_iQ_i−d_iQ_i²); interior marginal powers b_i−2d_iQ_i are equal. The negative definite Hessian ensures the unique global constrained maximum, with clipping when a flow bound is active.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Interior Q1 · intercept",
+          "answer": -75.18272362341862,
+          "unit": "ft³/s",
+          "tolerance": 0.0005,
+          "explanation": "The common positive head factor H=170−1.6×10^−6Q_T² is fixed at a given total flow. Maximize Σ(a_i+b_iQ_i−d_iQ_i²); interior marginal powers b_i−2d_iQ_i are equal. The negative definite Hessian ensures the unique global constrained maximum, with clipping when a flow bound is active.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Interior Q2 = slope·Q_T + intercept · slope",
+          "answer": 0.29665985003408313,
+          "unit": "",
+          "tolerance": 5e-07,
+          "explanation": "The common positive head factor H=170−1.6×10^−6Q_T² is fixed at a given total flow. Maximize Σ(a_i+b_iQ_i−d_iQ_i²); interior marginal powers b_i−2d_iQ_i are equal. The negative definite Hessian ensures the unique global constrained maximum, with clipping when a flow bound is active.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Interior Q2 · intercept",
+          "answer": 20.949784139968397,
+          "unit": "ft³/s",
+          "tolerance": 0.0005,
+          "explanation": "The common positive head factor H=170−1.6×10^−6Q_T² is fixed at a given total flow. Maximize Σ(a_i+b_iQ_i−d_iQ_i²); interior marginal powers b_i−2d_iQ_i are equal. The negative definite Hessian ensures the unique global constrained maximum, with clipping when a flow bound is active.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Interior Q3 = slope·Q_T + intercept · slope",
+          "answer": 0.36232674392183595,
+          "unit": "",
+          "tolerance": 5e-07,
+          "explanation": "The common positive head factor H=170−1.6×10^−6Q_T² is fixed at a given total flow. Maximize Σ(a_i+b_iQ_i−d_iQ_i²); interior marginal powers b_i−2d_iQ_i are equal. The negative definite Hessian ensures the unique global constrained maximum, with clipping when a flow bound is active.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Interior Q3 · intercept",
+          "answer": 54.232939483451084,
+          "unit": "ft³/s",
+          "tolerance": 0.0005,
+          "explanation": "The common positive head factor H=170−1.6×10^−6Q_T² is fixed at a given total flow. Maximize Σ(a_i+b_iQ_i−d_iQ_i²); interior marginal powers b_i−2d_iQ_i are equal. The negative definite Hessian ensures the unique global constrained maximum, with clipping when a flow bound is active.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Bounds outside the interior interval",
+          "answer": "Q_i=clip((b_i−λ)/(2d_i),250,cap_i), choose λ so ΣQ_i=Q_T",
+          "options": [
+            "Q_i=clip((b_i−λ)/(2d_i),250,cap_i), choose λ so ΣQ_i=Q_T",
+            "Keep the affine formulas even if a turbine exceeds its cap",
+            "Split flow equally for all Q_T"
+          ],
+          "explanation": "The common positive head factor H=170−1.6×10^−6Q_T² is fixed at a given total flow. Maximize Σ(a_i+b_iQ_i−d_iQ_i²); interior marginal powers b_i−2d_iQ_i are equal. The negative definite Hessian ensures the unique global constrained maximum, with clipping when a flow bound is active.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1011
+      ]
+    }
+  },
+  "calculus-section-14-8-2-project-applied-project-hydro-turbine-optimization-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Lower Q_T for all three affine formulas",
+          "answer": 953.5775364250171,
+          "unit": "ft³/s",
+          "tolerance": 0.001,
+          "explanation": "Intersect each inequality250≤slope_i Q_T+intercept_i≤cap_i. All-three operation at bound-active totals is possible between the sum of lower bounds750 and upper bounds3445.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Upper Q_T for all three affine formulas",
+          "answer": 3231.2466031188587,
+          "unit": "ft³/s",
+          "tolerance": 0.001,
+          "explanation": "Intersect each inequality250≤slope_i Q_T+intercept_i≤cap_i. All-three operation at bound-active totals is possible between the sum of lower bounds750 and upper bounds3445.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Full feasible all-three interval (with clipping)",
+          "answer": "750≤Q_T≤3445 ft³/s",
+          "options": [
+            "250≤Q_T≤1225 ft³/s",
+            "All nonnegative Q_T",
+            "750≤Q_T≤3445 ft³/s"
+          ],
+          "explanation": "Intersect each inequality250≤slope_i Q_T+intercept_i≤cap_i. All-three operation at bound-active totals is possible between the sum of lower bounds750 and upper bounds3445.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1011
+      ]
+    }
+  },
+  "calculus-section-14-8-3-project-applied-project-hydro-turbine-optimization-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Q1",
+          "answer": 777.3507914867832,
+          "unit": "ft³/s",
+          "tolerance": 0.01,
+          "explanation": "At the interior optimum the first-order change vanishes on zero-sum perturbations; the exact quadratic difference is negative. Numeric comparisons also check nearby splits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Q2",
+          "answer": 762.5994092251759,
+          "unit": "ft³/s",
+          "tolerance": 0.01,
+          "explanation": "At the interior optimum the first-order change vanishes on zero-sum perturbations; the exact quadratic difference is negative. Numeric comparisons also check nearby splits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Q3",
+          "answer": 960.0497992880406,
+          "unit": "ft³/s",
+          "tolerance": 0.01,
+          "explanation": "At the interior optimum the first-order change vanishes on zero-sum perturbations; the exact quadratic difference is negative. Numeric comparisons also check nearby splits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Maximum power",
+          "answer": 28411.680534726955,
+          "unit": "kW",
+          "tolerance": 0.1,
+          "explanation": "At the interior optimum the first-order change vanishes on zero-sum perturbations; the exact quadratic difference is negative. Numeric comparisons also check nearby splits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Nearby feasible perturbations",
+          "answer": "Every nonzero zero-sum perturbation lowers power by HΣd_i(ΔQ_i)²",
+          "options": [
+            "Every nonzero zero-sum perturbation lowers power by HΣd_i(ΔQ_i)²",
+            "All distributions give the same power",
+            "Some sufficiently small zero-sum perturbation raises power"
+          ],
+          "explanation": "At the interior optimum the first-order change vanishes on zero-sum perturbations; the exact quadratic difference is negative. Numeric comparisons also check nearby splits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1011
+      ]
+    }
+  },
+  "calculus-section-14-8-4-project-applied-project-hydro-turbine-optimization-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "1000ft³/s · recommended single turbine",
+          "answer": "Turbine 3",
+          "options": [
+            "Turbine 1",
+            "Turbine 2",
+            "Turbine 3"
+          ],
+          "explanation": "For each total, compare the three individual quadratic curves with the constrained all-three maximum. An inactive turbine contributes zero power, not its negative constant intercept. The curves share the same head factor for this total flow; their domain restrictions still apply.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "1000ft³/s · best single-turbine power",
+          "answer": 12222.472,
+          "unit": "kW",
+          "tolerance": 0.1,
+          "explanation": "For each total, compare the three individual quadratic curves with the constrained all-three maximum. An inactive turbine contributes zero power, not its negative constant intercept. The curves share the same head factor for this total flow; their domain restrictions still apply.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "600ft³/s · recommended single turbine",
+          "answer": "Turbine 1",
+          "options": [
+            "Turbine 1",
+            "Turbine 3",
+            "Turbine 2"
+          ],
+          "explanation": "For each total, compare the three individual quadratic curves with the constrained all-three maximum. An inactive turbine contributes zero power, not its negative constant intercept. The curves share the same head factor for this total flow; their domain restrictions still apply.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "600ft³/s · best single-turbine power",
+          "answer": 7292.347808,
+          "unit": "kW",
+          "tolerance": 0.1,
+          "explanation": "For each total, compare the three individual quadratic curves with the constrained all-three maximum. An inactive turbine contributes zero power, not its negative constant intercept. The curves share the same head factor for this total flow; their domain restrictions still apply.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "1000ft³/s · single versus three",
+          "answer": "Use the best single turbine; it beats the optimal three-turbine split",
+          "options": [
+            "They give equal power",
+            "Use all three; they always beat one",
+            "Use the best single turbine; it beats the optimal three-turbine split"
+          ],
+          "explanation": "For each total, compare the three individual quadratic curves with the constrained all-three maximum. An inactive turbine contributes zero power, not its negative constant intercept. The curves share the same head factor for this total flow; their domain restrictions still apply.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "600ft³/s · three-turbine feasibility",
+          "answer": "Impossible: three minimum flows require750ft³/s",
+          "options": [
+            "Feasible with200ft³/s through each",
+            "Always feasible if enough turbines are turned on",
+            "Impossible: three minimum flows require750ft³/s"
+          ],
+          "explanation": "For each total, compare the three individual quadratic curves with the constrained all-three maximum. An inactive turbine contributes zero power, not its negative constant intercept. The curves share the same head factor for this total flow; their domain restrictions still apply.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1011,
+        1012
+      ]
+    }
+  },
+  "calculus-section-14-8-5-project-applied-project-hydro-turbine-optimization-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Recommended pair",
+          "answer": "Turbines 1,3",
+          "options": [
+            "Turbines 2,3",
+            "Turbines 1,2",
+            "Turbines 1,3"
+          ],
+          "explanation": "For each feasible pair solve equality of its two marginal quadratic powers with the sum1500. Compare all three pair maxima and the all-three maximum, including fixed operating intercepts only for active turbines.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Q1",
+          "answer": 662.2474747474747,
+          "unit": "ft³/s",
+          "tolerance": 0.01,
+          "explanation": "For each feasible pair solve equality of its two marginal quadratic powers with the sum1500. Compare all three pair maxima and the all-three maximum, including fixed operating intercepts only for active turbines.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Q2",
+          "answer": 0.0,
+          "unit": "ft³/s",
+          "tolerance": 0.01,
+          "explanation": "For each feasible pair solve equality of its two marginal quadratic powers with the sum1500. Compare all three pair maxima and the all-three maximum, including fixed operating intercepts only for active turbines.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Q3",
+          "answer": 837.7525252525254,
+          "unit": "ft³/s",
+          "tolerance": 0.01,
+          "explanation": "For each feasible pair solve equality of its two marginal quadratic powers with the sum1500. Compare all three pair maxima and the all-three maximum, including fixed operating intercepts only for active turbines.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Two-turbine power",
+          "answer": 18208.300040404047,
+          "unit": "kW",
+          "tolerance": 0.1,
+          "explanation": "For each feasible pair solve equality of its two marginal quadratic powers with the sum1500. Compare all three pair maxima and the all-three maximum, including fixed operating intercepts only for active turbines.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Optimal all-three power",
+          "answer": 16538.74243187155,
+          "unit": "kW",
+          "tolerance": 0.1,
+          "explanation": "For each feasible pair solve equality of its two marginal quadratic powers with the sum1500. Compare all three pair maxima and the all-three maximum, including fixed operating intercepts only for active turbines.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Comparison",
+          "answer": "The best two turbines generate more power than all three",
+          "options": [
+            "All three generate more power",
+            "Equal power",
+            "The best two turbines generate more power than all three"
+          ],
+          "explanation": "For each feasible pair solve equality of its two marginal quadratic powers with the sum1500. Compare all three pair maxima and the all-three maximum, including fixed operating intercepts only for active turbines.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1011,
+        1012
+      ]
+    }
+  },
+  "calculus-section-14-8-6-project-applied-project-hydro-turbine-optimization-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Operating recommendation",
+          "answer": "Use all three and enforce turbine3 cap1225ft³/s; optimize the remaining2175ft³/s between1 and2",
+          "options": [
+            "Use the unconstrained affine split even when Q₃>1225",
+            "Use only turbines1 and2 for all3400ft³/s",
+            "Use all three and enforce turbine3 cap1225ft³/s; optimize the remaining2175ft³/s between1 and2"
+          ],
+          "explanation": "No pair has enough capacity for3400. The unconstrained optimum exceeds turbine3’s cap. Set Q₃=1225 and equate the remaining marginal powers while Q₁+Q₂=2175; both remain within their limits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Q1",
+          "answer": 1110.0,
+          "unit": "ft³/s",
+          "tolerance": 0.01,
+          "explanation": "No pair has enough capacity for3400. The unconstrained optimum exceeds turbine3’s cap. Set Q₃=1225 and equate the remaining marginal powers while Q₁+Q₂=2175; both remain within their limits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Q2",
+          "answer": 1065.0000000000014,
+          "unit": "ft³/s",
+          "tolerance": 0.01,
+          "explanation": "No pair has enough capacity for3400. The unconstrained optimum exceeds turbine3’s cap. Set Q₃=1225 and equate the remaining marginal powers while Q₁+Q₂=2175; both remain within their limits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Q3",
+          "answer": 1225.0,
+          "unit": "ft³/s",
+          "tolerance": 0.01,
+          "explanation": "No pair has enough capacity for3400. The unconstrained optimum exceeds turbine3’s cap. Set Q₃=1225 and equate the remaining marginal powers while Q₁+Q₂=2175; both remain within their limits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Maximum power",
+          "answer": 33924.043536920006,
+          "unit": "kW",
+          "tolerance": 0.1,
+          "explanation": "No pair has enough capacity for3400. The unconstrained optimum exceeds turbine3’s cap. Set Q₃=1225 and equate the remaining marginal powers while Q₁+Q₂=2175; both remain within their limits.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1011,
+        1012
+      ]
+    }
+  }
+}

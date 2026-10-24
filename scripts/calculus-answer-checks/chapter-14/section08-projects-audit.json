@@ -1,0 +1,274 @@
+{
+  "notes": {
+    "calculus-section-14-8-1-project-applied-project-rocket-science-1": "At each burn, the later stages plus payload are carried as that stage’s payload. Add the three velocity increments with the initial-to-final mass ratio in each logarithm, assuming the stated common c and S and negligible external forces.",
+    "calculus-section-14-8-2-project-applied-project-rocket-science-1": "Rearrange N_i=T_i/[SM_i+T_(i+1)] using M_i=T_i−T_(i+1), then multiply the three telescoping ratios. Physical stages require1≤N_i<1/S for0<S<1.",
+    "calculus-section-14-8-3-project-applied-project-rocket-science-1": "For w_i=ln N_i, the objective is3ln(1−S)+Σ[w_i−ln(1−S e^w_i)] with fixed sum v_f/c. Its second derivative isS e^w/(1−S e^w)²>0; equal w_i gives the global minimum.",
+    "calculus-section-14-8-4-project-applied-project-rocket-science-1": "Let R=(1−S)N/(1−SN) with N=e^(v_f/(3c)). The optimal total launch mass is AR³ and subtracting the payload gives engine-plus-fuel mass A(R³−1).",
+    "calculus-section-14-8-5-project-applied-project-rocket-science-1": "With S=.2,c=6000mi/h and v_f=17500mi/h, compute N=e^(17500/18000), R=.8N/(1−.2N). Then M₃=A(R−1),M₂=AR(R−1),M₁=AR²(R−1). Mass ratios do not depend on the unit used for A.",
+    "calculus-section-14-8-6-project-applied-project-rocket-science-1": "Use the same S=.2,c=6000mi/h but v_f=24700mi/h and A=500lb. The geometrically decreasing stage masses again follow R²(R−1),R(R−1),R−1 times A; these are the source’s common pound-based mass ratios.",
+    "calculus-section-14-8-1-project-applied-project-hydro-turbine-optimization-2": "The common positive head factor H=170−1.6×10^−6Q_T² is fixed at a given total flow. Maximize Σ(a_i+b_iQ_i−d_iQ_i²); interior marginal powers b_i−2d_iQ_i are equal. The negative definite Hessian ensures the unique global constrained maximum, with clipping when a flow bound is active.",
+    "calculus-section-14-8-2-project-applied-project-hydro-turbine-optimization-2": "Intersect each inequality250≤slope_i Q_T+intercept_i≤cap_i. All-three operation at bound-active totals is possible between the sum of lower bounds750 and upper bounds3445.",
+    "calculus-section-14-8-3-project-applied-project-hydro-turbine-optimization-2": "At the interior optimum the first-order change vanishes on zero-sum perturbations; the exact quadratic difference is negative. Numeric comparisons also check nearby splits.",
+    "calculus-section-14-8-4-project-applied-project-hydro-turbine-optimization-2": "For each total, compare the three individual quadratic curves with the constrained all-three maximum. An inactive turbine contributes zero power, not its negative constant intercept. The curves share the same head factor for this total flow; their domain restrictions still apply.",
+    "calculus-section-14-8-5-project-applied-project-hydro-turbine-optimization-2": "For each feasible pair solve equality of its two marginal quadratic powers with the sum1500. Compare all three pair maxima and the all-three maximum, including fixed operating intercepts only for active turbines.",
+    "calculus-section-14-8-6-project-applied-project-hydro-turbine-optimization-2": "No pair has enough capacity for3400. The unconstrained optimum exceeds turbine3’s cap. Set Q₃=1225 and equate the remaining marginal powers while Q₁+Q₂=2175; both remain within their limits."
+  },
+  "hydroComparisons": {
+    "600": [
+      {
+        "active": [
+          1
+        ],
+        "flows": [
+          600.0,
+          0.0,
+          0.0
+        ],
+        "power": 7292.347808
+      },
+      {
+        "active": [
+          3
+        ],
+        "flows": [
+          0.0,
+          0.0,
+          600.0
+        ],
+        "power": 7108.353344000003
+      },
+      {
+        "active": [
+          2
+        ],
+        "flows": [
+          0.0,
+          600.0,
+          0.0
+        ],
+        "power": 6791.530464
+      },
+      {
+        "active": [
+          1,
+          2
+        ],
+        "flows": [
+          274.68643101482326,
+          325.3135689851767,
+          0.0
+        ],
+        "power": 4712.222939968072
+      },
+      {
+        "active": [
+          1,
+          3
+        ],
+        "flows": [
+          250.0,
+          0.0,
+          350.00000000000006
+        ],
+        "power": 4584.782864000002
+      },
+      {
+        "active": [
+          2,
+          3
+        ],
+        "flows": [
+          0.0,
+          257.2098475967174,
+          342.7901524032826
+        ],
+        "power": 3911.861919549825
+      }
+    ],
+    "1000": [
+      {
+        "active": [
+          3
+        ],
+        "flows": [
+          0.0,
+          0.0,
+          999.9999999999998
+        ],
+        "power": 12222.472
+      },
+      {
+        "active": [
+          1
+        ],
+        "flows": [
+          1000.0,
+          0.0,
+          0.0
+        ],
+        "power": 11452.883999999998
+      },
+      {
+        "active": [
+          1,
+          3
+        ],
+        "flows": [
+          419.8232323232322,
+          0.0,
+          580.1767676767677
+        ],
+        "power": 11392.112224747478
+      },
+      {
+        "active": [
+          1,
+          2
+        ],
+        "flows": [
+          488.59749144811866,
+          511.40250855188145,
+          0.0
+        ],
+        "power": 11187.89018244014
+      },
+      {
+        "active": [
+          2
+        ],
+        "flows": [
+          0.0,
+          999.9999999999999,
+          0.0
+        ],
+        "power": 10843.275999999998
+      },
+      {
+        "active": [
+          2,
+          3
+        ],
+        "flows": [
+          0.0,
+          437.28018757327084,
+          562.7198124267294
+        ],
+        "power": 10841.684787807742
+      },
+      {
+        "active": [
+          1,
+          2,
+          3
+        ],
+        "flows": [
+          265.83068242066196,
+          317.6096341740513,
+          416.55968340528676
+        ],
+        "power": 8397.385487408166
+      }
+    ],
+    "1500": [
+      {
+        "active": [
+          1,
+          3
+        ],
+        "flows": [
+          662.2474747474747,
+          0.0,
+          837.7525252525254
+        ],
+        "power": 18208.300040404047
+      },
+      {
+        "active": [
+          2,
+          3
+        ],
+        "flows": [
+          0.0,
+          662.3681125439624,
+          837.6318874560376
+        ],
+        "power": 17720.56804689332
+      },
+      {
+        "active": [
+          1,
+          2
+        ],
+        "flows": [
+          755.9863169897377,
+          744.0136830102622,
+          0.0
+        ],
+        "power": 17454.842964652224
+      },
+      {
+        "active": [
+          1,
+          2,
+          3
+        ],
+        "flows": [
+          436.33738544270244,
+          465.9395591910929,
+          597.7230553662048
+        ],
+        "power": 16538.74243187155
+      }
+    ],
+    "2500": [
+      {
+        "active": [
+          1,
+          2,
+          3
+        ],
+        "flows": [
+          777.3507914867832,
+          762.5994092251759,
+          960.0497992880406
+        ],
+        "power": 28411.680534726955
+      }
+    ],
+    "3400": [
+      {
+        "active": [
+          1,
+          2,
+          3
+        ],
+        "flows": [
+          1110.0,
+          1065.0000000000014,
+          1225.0
+        ],
+        "power": 33924.043536920006
+      }
+    ]
+  },
+  "affineSlopes": [
+    0.3410134060440808,
+    0.29665985003408313,
+    0.36232674392183595
+  ],
+  "affineIntercepts": [
+    -75.18272362341862,
+    20.949784139968397,
+    54.232939483451084
+  ],
+  "interiorInterval": [
+    953.5775364250171,
+    3231.2466031188587
+  ],
+  "independentChecks": 12,
+  "sourcePages": [
+    979,
+    980,
+    981
+  ]
+}

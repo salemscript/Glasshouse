@@ -1,0 +1,431 @@
+{
+  "calculus-section-14-7-1-project-applied-project-designing-a-dumpster-1": {
+    "grader": {
+      "type": "choice",
+      "label": "Volume and measured drawing",
+      "answer": "For an ideal rectangular interior, V=lwh; measure usable interior dimensions and document deviations",
+      "options": [
+        "V=2(lw+lh+wh)",
+        "Use exterior sheet dimensions without allowance for wall thickness",
+        "For an ideal rectangular interior, V=lwh; measure usable interior dimensions and document deviations"
+      ],
+      "explanation": "This is a personal field investigation. The checker verifies the rectangular-volume setup; the actual measurements, construction description and sketch must be supplied by the student.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1001
+      ]
+    }
+  },
+  "calculus-section-14-7-2-project-applied-project-designing-a-dumpster-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Explicit simplified cost model",
+          "answer": "C=0.90lw+1.40h(l+w)+0.18(2l+2w+4h)+50N, lwh=V",
+          "options": [
+            "C=0.70lw+0.90h(l+w), with no weld cost",
+            "C=0.90lwh+50N",
+            "C=0.90lw+1.40h(l+w)+0.18(2l+2w+4h)+50N, lwh=V"
+          ],
+          "explanation": "Assume rectangular base and four vertical walls, N fixed lids, and welds around the base plus four vertical seams, with lengths in feet. Different actual seam/lid/shape choices require recalculation; no unique dimensions exist without the measured V.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Symmetric optimum for that model",
+          "answer": "l=w=a, h=V/a²; a is the positive root1.8a⁴+0.72a³−2.8Va−1.44V=0",
+          "options": [
+            "Always l=w=h regardless of material prices",
+            "a=V, h=1",
+            "l=w=a, h=V/a²; a is the positive root1.8a⁴+0.72a³−2.8Va−1.44V=0"
+          ],
+          "explanation": "Assume rectangular base and four vertical walls, N fixed lids, and welds around the base plus four vertical seams, with lengths in feet. Different actual seam/lid/shape choices require recalculation; no unique dimensions exist without the measured V.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1001
+      ]
+    }
+  },
+  "calculus-section-14-7-3-project-applied-project-designing-a-dumpster-1": {
+    "grader": {
+      "type": "choice",
+      "label": "Sensitivity to assumptions",
+      "answer": "Lid count, weld layout, thickness allowances and handling constraints can change the cost optimum; fixed lid cost does not alter dimensions if N stays fixed",
+      "options": [
+        "Lid count, weld layout, thickness allowances and handling constraints can change the cost optimum; fixed lid cost does not alter dimensions if N stays fixed",
+        "Steel thickness never affects usable volume",
+        "Every simplification leaves the optimum unchanged"
+      ],
+      "explanation": "The written assessment must tie assumptions to the actual observed container; this check covers the mathematical sensitivity, not the full discussion.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1001
+      ]
+    }
+  },
+  "calculus-section-14-7-4-project-applied-project-designing-a-dumpster-1": {
+    "grader": {
+      "type": "choice",
+      "label": "Recommendation and savings",
+      "answer": "Compare observed-model cost with optimized-model cost at the same usable volume, then check manufacturing/handling constraints before recommending changes",
+      "options": [
+        "Savings equal the full existing cost",
+        "Always replace the observed container with a cube",
+        "Compare observed-model cost with optimized-model cost at the same usable volume, then check manufacturing/handling constraints before recommending changes"
+      ],
+      "explanation": "The user-selected dumpster dimensions and construction details determine the numeric savings; the checker does not invent a field survey.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1001
+      ]
+    }
+  },
+  "calculus-section-14-7-1-project-discovery-project-quadratic-approximations-and-critical-points-2": {
+    "grader": {
+      "type": "choice",
+      "label": "Matching derivatives",
+      "answer": "Q_x(a,b)=f_x(a,b), Q_y(a,b)=f_y(a,b), and Q_xx,Q_xy,Q_yy equal the corresponding derivatives of f at(a,b)",
+      "options": [
+        "Q_x(a,b)=f_x(a,b), Q_y(a,b)=f_y(a,b), and Q_xx,Q_xy,Q_yy equal the corresponding derivatives of f at(a,b)",
+        "The first derivatives are always0",
+        "Only the function values match"
+      ],
+      "explanation": "Differentiate the Taylor polynomial and set each displacement to0; constant quadratic coefficients recover the Hessian.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1001,
+        1002
+      ]
+    }
+  },
+  "calculus-section-14-7-2-project-discovery-project-quadratic-approximations-and-critical-points-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Linear polynomial L",
+          "answer": "1",
+          "options": [
+            "1",
+            "2",
+            "-1"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Quadratic polynomial Q",
+          "answer": "-x^2 - y^2 + 1",
+          "options": [
+            "-x^2 - y^2 + 1",
+            "x^2 + y^2 - 1",
+            "-2*x^2 - 2*y^2 + 2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Comparison",
+          "answer": "L is the horizontal tangent plane; Q captures downward curvature and is more accurate near origin; neither captures far-field Gaussian decay",
+          "options": [
+            "L is the horizontal tangent plane; Q captures downward curvature and is more accurate near origin; neither captures far-field Gaussian decay",
+            "Q is less accurate in every neighborhood",
+            "L and Q equal f everywhere"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1001,
+        1002
+      ]
+    }
+  },
+  "calculus-section-14-7-3-project-discovery-project-quadratic-approximations-and-critical-points-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · L",
+          "answer": "x + y",
+          "options": [
+            "-x - y",
+            "x + y",
+            "2*x + 2*y"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Q",
+          "answer": "x*y + x + y^2/2",
+          "options": [
+            "2*x*y + 2*x + y^2",
+            "-x*y - x - y^2/2",
+            "x*y + x + y^2/2"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · L(0.9,0.1)",
+          "answer": 1.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Q(0.9,0.1)",
+          "answer": 0.995,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · f(0.9,0.1)",
+          "answer": 0.9946538262680829,
+          "unit": "",
+          "tolerance": 1e-06,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Graph comparison",
+          "answer": "Both tangent at(1,0); Q includes curvature and gives a closer value at(0.9,0.1)",
+          "options": [
+            "Both tangent at(1,0); Q includes curvature and gives a closer value at(0.9,0.1)",
+            "L equals f on the entire plane",
+            "Q and L are identical"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1001,
+        1002
+      ]
+    }
+  },
+  "calculus-section-14-7-4-project-discovery-project-quadratic-approximations-and-critical-points-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Completed square",
+          "answer": "a[(x+by/(2a))²+(4ac−b²)y²/(4a²)]",
+          "options": [
+            "a(x+y)²",
+            "a[(x+by/(2a))²+(4ac−b²)y²/(4a²)]",
+            "a[(x+by/a)²+cy²]"
+          ],
+          "explanation": "For a≠0, completing the square exposes the signs of both quadratic directions. If a=0 and D<0, b≠0 and the xy term still gives a saddle.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · D>0,a>0",
+          "answer": "Strict minimum at origin",
+          "options": [
+            "Saddle",
+            "Strict minimum at origin",
+            "Strict maximum at origin"
+          ],
+          "explanation": "For a≠0, completing the square exposes the signs of both quadratic directions. If a=0 and D<0, b≠0 and the xy term still gives a saddle.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · D>0,a<0",
+          "answer": "Strict maximum at origin",
+          "options": [
+            "Strict minimum at origin",
+            "Saddle",
+            "Strict maximum at origin"
+          ],
+          "explanation": "For a≠0, completing the square exposes the signs of both quadratic directions. If a=0 and D<0, b≠0 and the xy term still gives a saddle.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · D<0",
+          "answer": "Saddle at origin",
+          "options": [
+            "Strict maximum",
+            "Strict minimum",
+            "Saddle at origin"
+          ],
+          "explanation": "For a≠0, completing the square exposes the signs of both quadratic directions. If a=0 and D<0, b≠0 and the xy term still gives a saddle.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1001,
+        1002
+      ]
+    }
+  },
+  "calculus-section-14-7-5-project-discovery-project-quadratic-approximations-and-critical-points-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Q",
+          "answer": "(f_xx(0,0)/2)x²+f_xy(0,0)xy+(f_yy(0,0)/2)y²",
+          "options": [
+            "(f_xx(0,0)/2)x²+f_xy(0,0)xy+(f_yy(0,0)/2)y²",
+            "f_x(0,0)x+f_y(0,0)y",
+            "f_xx x²+f_xy xy+f_yy y²"
+          ],
+          "explanation": "At the critical point, constant and linear terms vanish. The quadratic remainder controls local signs when the Hessian is nondegenerate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Classification of Q",
+          "answer": "D=f_xx f_yy−f_xy²; D>0 with f_xx>0 gives minimum, f_xx<0 maximum; D<0 saddle; D=0 inconclusive",
+          "options": [
+            "D<0 always gives minimum",
+            "D=0 always gives saddle",
+            "D=f_xx f_yy−f_xy²; D>0 with f_xx>0 gives minimum, f_xx<0 maximum; D<0 saddle; D=0 inconclusive"
+          ],
+          "explanation": "At the critical point, constant and linear terms vanish. The quadratic remainder controls local signs when the Hessian is nondegenerate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Implication for f",
+          "answer": "The same nondegenerate Hessian classification holds locally for f",
+          "options": [
+            "Q and f are identical everywhere",
+            "The same nondegenerate Hessian classification holds locally for f",
+            "Classification never transfers"
+          ],
+          "explanation": "At the critical point, constant and linear terms vanish. The quadratic remainder controls local signs when the Hessian is nondegenerate.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1001,
+        1002
+      ]
+    }
+  }
+}

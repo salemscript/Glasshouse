@@ -1,0 +1,22 @@
+from common import *
+row=lambda k,*fs,**kw:A.row(3,k,*fs,**kw)
+regions={1:'Polar: ∫[0,2π]∫[2,5] f(r cosθ,r sinθ) r dr dθ',2:'Rectangular: ∫[−1,1]∫[−x,1] f(x,y) dy dx',3:'Polar: ∫[π,2π]∫[0,1] f(r cosθ,r sinθ) r dr dθ',4:'Polar: ∫[−π/4,3π/4]∫[0,3] f(r cosθ,r sinθ) r dr dθ'}
+for num,ans in regions.items():row(num,c('Coordinates and iterated integral',ans,ans.replace(' f(',' 2f('),ans.replace(' f(',' −f(')),limited=True,why='Bounds describe the pictured region. Polar area has Jacobian r.')
+row(5,c('Region','Annular sector1≤r≤2, π/4≤θ≤3π/4','Full annulus1≤r≤2','Diskr≤2'),n('Area',3*pi/4),limited=True)
+row(6,c('Region','Left half of diskx²+(y−1)²≤1','Right half of unit disk centered at origin','Full disk centered at(0,1)'),n('Area',pi/2),limited=True)
+cases={7:(r**4*s.cos(theta)**2*s.sin(theta),[(r,0,5),(theta,0,pi)]),8:(r*r*(2*s.cos(theta)-s.sin(theta)),[(r,0,2),(theta,pi/4,pi/2)]),9:(r*s.sin(r*r),[(r,1,3),(theta,0,pi/2)]),10:(r*s.sin(theta)**2,[(r,a,b),(theta,0,2*pi)]),11:(r*s.exp(-r*r),[(r,0,2),(theta,-pi/2,pi/2)]),12:(r*s.cos(r),[(r,0,2),(theta,0,2*pi)]),13:(r*theta,[(r,1,2),(theta,0,pi/4)]),14:(r*r*s.cos(theta),[(r,2*s.cos(theta),2),(theta,0,pi/2)]),15:(r,[(r,0,s.cos(3*theta)),(theta,-pi/6,pi/6)]),16:(4*r,[(r,0,1-s.cos(theta)),(theta,0,pi/2)]),17:(r,[(r,1,2*s.cos(theta)),(theta,-pi/3,pi/3)]),19:(r**3,[(r,0,5),(theta,0,2*pi)]),20:(r*r,[(r,1,2),(theta,0,2*pi)]),21:((4-2*r*s.cos(theta)-r*s.sin(theta))*r,[(r,0,1),(theta,0,2*pi)]),22:(2*s.sqrt(16-r*r)*r,[(r,2,4),(theta,0,2*pi)]),24:((6-2*r*r)*r,[(r,0,s.sqrt(3)),(theta,0,pi/2)]),25:((s.sqrt(1-r*r)-r)*r,[(r,0,s.sqrt(2)/2),(theta,0,2*pi)]),26:((6-3*r*r)*r,[(r,0,s.sqrt(2)),(theta,0,2*pi)]),27:(2*s.sqrt(64-4*r*r)*r,[(r,0,2),(theta,0,2*pi)]),29:(s.exp(-r*r)*r,[(r,0,2),(theta,0,pi/2)]),30:((2*r*s.cos(theta)+r*s.sin(theta))*r,[(r,0,a),(theta,0,pi)]),31:(r**4*s.cos(theta)*s.sin(theta)**2,[(r,0,1),(theta,0,pi/6)]),32:(r*r,[(r,0,2*s.cos(theta)),(theta,0,pi/2)])}
+for num,(expr,bounds) in cases.items():integral(3,num,expr,bounds,label='Area' if 15<=num<=18 else 'Volume' if 19<=num<=28 else 'Integral')
+vol=s.integrate(((1+s.cos(theta))**2-9*s.cos(theta)**2),(theta,pi/3,pi/2))+s.integrate((1+s.cos(theta))**2,(theta,pi/2,pi))
+row(18,n('Area',vol),why='Use symmetry. Forπ/3≤θ≤π/2 subtract the circle radius3cosθ; forπ/2≤θ≤π the cardioid sector is entirely outside the circle.')
+row(23,f('Volume',4*pi*a**3/3))
+row(28,c('a · Remaining volume','(4π/3)(r₂²−r₁²)^(3/2)','(4π/3)(r₂³−r₁³)','πr₂²r₁'),f('b · In terms of height',pi*h**3/6),why='Integrate2sqrt(r₂²−r²)r dr dθ forr₁≤r≤r₂; h=2sqrt(r₂²−r₁²).')
+row(33,c('Single integral','2π∫[0,1] r e^(r⁴) dr','2π∫[0,1] e^(r²) dr','π∫[0,1] r²e^r dr'),n('Value',2*mp.pi*mp.quad(lambda q:q*mp.exp(q**4),[0,1]),tol=.000051))
+row(34,c('Single integral','(1/2)∫[0,1] r³sqrt(1+r²) dr','∫[0,1] r sqrt(1+r²) dr','(π/2)∫[0,1] r³ dr'),n('Value',mp.quad(lambda q:q**3*mp.sqrt(1+q*q)/2,[0,1]),tol=.000051))
+row(35,n('Volume',1800*pi,'ft³'),why='The mean of the linear depth over a centered disk is its center depth4.5ft; multiply byπ20².')
+row(36,c('a · Total water rate','2π[1−(R+1)e^(−R)] ft³/hour','2πR e^(−R) ft³/hour','πR²e^(−R) ft³/hour'),c('b · Mean depth rate','2[1−(R+1)e^(−R)]/R² ft/hour','2π[1−(R+1)e^(−R)] ft/hour','e^(−R)/R ft/hour'),why='Integrate e^(−r) against2πr dr and divide byπR² for the mean.')
+row(37,f('Average value',2/(a+b)),why='Integrand1/r cancels the Jacobian; divide2π(b−a) byπ(b²−a²).')
+row(38,f('Average distance',2*a/3))
+row(39,c('Combined polar integral','∫[0,π/4]∫[1,2] r³cosθ sinθ dr dθ','∫[0,π/2]∫[0,2] r³ dr dθ','∫[0,π/4]∫[0,1] r³cosθ sinθ dr dθ'),n('Value',R(15,16)))
+row(40,n('a · Plane Gaussian integral',pi),c('b · Product of one-dimensional integrals','(∫[−∞,∞]e^(−x²)dx)²=π','The product is2π','The product is1'),n('c · Gaussian integral',s.sqrt(pi)),n('d · Variance-one Gaussian integral',s.sqrt(2*pi)),limited=True,why='Integrate e^(−r²)r dr dθ on growing disks; positivity fixes the square root. Scalingx bysqrt2 gives the last result.')
+row(41,n('a · ∫₀∞ x²e^(−x²)dx',s.sqrt(pi)/4),n('b · ∫₀∞ sqrt(x)e^(−x)dx',s.sqrt(pi)/2),why='Integrate by parts for a; substitute x=t² for b.')
+save('section03')

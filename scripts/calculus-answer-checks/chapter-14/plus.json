@@ -1,0 +1,458 @@
+{
+  "calculus-chapter-14-problems-plus-1-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Minimum sum",
+          "answer": "L²W²/4, attained by cutting through both midlines",
+          "options": [
+            "L²W²/4, attained by cutting through both midlines",
+            "0",
+            "L²W²/2"
+          ],
+          "explanation": "The sum factors as[x²+(L−x)²][y²+(W−y)²]. Each factor is minimized at its midpoint and maximized at an endpoint. Genuine four positive-area rectangles require interior cuts, so the endpoint bound is a supremum.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Maximum / supremum",
+          "answer": "L²W² if degenerate edge cuts are allowed; otherwise no attained maximum, supremum L²W²",
+          "options": [
+            "4L²W²",
+            "L²W²/4",
+            "L²W² if degenerate edge cuts are allowed; otherwise no attained maximum, supremum L²W²"
+          ],
+          "explanation": "The sum factors as[x²+(L−x)²][y²+(W−y)²]. Each factor is minimized at its midpoint and maximized at an endpoint. Genuine four positive-area rectangles require interior cuts, so the endpoint bound is a supremum.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1016
+      ]
+    }
+  },
+  "calculus-chapter-14-problems-plus-2-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Level curves",
+          "answer": "x²+2y²=−10⁴ ln c, 0<c≤1 (ellipses, or the origin for c=1)",
+          "options": [
+            "x²+y²=−10⁴ ln c",
+            "y=cx",
+            "x²+2y²=−10⁴ ln c, 0<c≤1 (ellipses, or the origin for c=1)"
+          ],
+          "explanation": "The gradient is a positive scalar multiple of⟨−2x,−4y⟩. Its slope is2y/x, yielding y=Kx²; the arrows follow increasing concentration toward the origin.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Differential equation",
+          "answer": "dy/dx=2y/x where x≠0",
+          "options": [
+            "dy/dx=y/(2x)",
+            "dy/dx=−x/(2y)",
+            "dy/dx=2y/x where x≠0"
+          ],
+          "explanation": "The gradient is a positive scalar multiple of⟨−2x,−4y⟩. Its slope is2y/x, yielding y=Kx²; the arrows follow increasing concentration toward the origin.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Path from(x₀,y₀), x₀≠0",
+          "answer": "y=(y₀/x₀²)x², traversed toward the origin",
+          "options": [
+            "y=(y₀/x₀)x",
+            "y=y₀ exp(x−x₀)",
+            "y=(y₀/x₀²)x², traversed toward the origin"
+          ],
+          "explanation": "The gradient is a positive scalar multiple of⟨−2x,−4y⟩. Its slope is2y/x, yielding y=Kx²; the arrows follow increasing concentration toward the origin.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Axis cases",
+          "answer": "If x₀=0 follow the y-axis toward0; if y₀=0 follow the x-axis; at the origin remain there",
+          "options": [
+            "If x₀=0 follow the y-axis toward0; if y₀=0 follow the x-axis; at the origin remain there",
+            "No path exists from an axis",
+            "Every shark follows a straight line from any initial point"
+          ],
+          "explanation": "The gradient is a positive scalar multiple of⟨−2x,−4y⟩. Its slope is2y/x, yielding y=Kx²; the arrows follow increasing concentration toward the origin.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1016
+      ]
+    }
+  },
+  "calculus-chapter-14-problems-plus-3-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Each sloping side and bottom width",
+          "answer": "x=w/3 and bottom w−2x=w/3",
+          "options": [
+            "x=w/2 and bottom0",
+            "x=w/4 and bottom w/2",
+            "x=w/3 and bottom w−2x=w/3"
+          ],
+          "explanation": "The trapezoid area is x sinθ[w−2x+x cosθ]. Optimize in x and θ; the semicircle uses arc lengthπr=w.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Angle θ",
+          "answer": "π/3",
+          "options": [
+            "π/2",
+            "π/6",
+            "π/3"
+          ],
+          "explanation": "The trapezoid area is x sinθ[w−2x+x cosθ]. Optimize in x and θ; the semicircle uses arc lengthπr=w.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Maximum area",
+          "answer": "√3 w²/12",
+          "options": [
+            "√3 w²/12",
+            "w²/4",
+            "w²/8"
+          ],
+          "explanation": "The trapezoid area is x sinθ[w−2x+x cosθ]. Optimize in x and θ; the semicircle uses arc lengthπr=w.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Semicircular alternative",
+          "answer": "Better: radius w/π and area w²/(2π)>√3 w²/12",
+          "options": [
+            "Worse: area w²/(2π)<√3 w²/12",
+            "Exactly equal area",
+            "Better: radius w/π and area w²/(2π)>√3 w²/12"
+          ],
+          "explanation": "The trapezoid area is x sinθ[w−2x+x cosθ]. Optimize in x and θ; the semicircle uses arc lengthπr=w.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1016
+      ]
+    }
+  },
+  "calculus-chapter-14-problems-plus-4-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Continuity criterion at the origin",
+          "answer": "r>2, provided the real power is defined for every real base x+y+z",
+          "options": [
+            "r>2, provided the real power is defined for every real base x+y+z",
+            "r≥2",
+            "r>0"
+          ],
+          "explanation": "|x+y+z|≤√3ρ bounds |f| by3^(r/2)ρ^(r−2). Along the x-axis, r≤2 cannot give limit0. Because x+y+z can be negative, arbitrary real exponents need a stated signed/absolute-power convention; the literal real-power formula on R³ excludes irrational and even-denominator exponents.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Real-domain qualification",
+          "answer": "For integer exponents: r=3,4,…; more generally reduced rational r>2 with odd denominator works under ordinary real powers",
+          "options": [
+            "Every irrational r>2 defines a real function on all R³",
+            "For integer exponents: r=3,4,…; more generally reduced rational r>2 with odd denominator works under ordinary real powers",
+            "Every real r≥2 works without any domain condition"
+          ],
+          "explanation": "|x+y+z|≤√3ρ bounds |f| by3^(r/2)ρ^(r−2). Along the x-axis, r≤2 cannot give limit0. Because x+y+z can be negative, arbitrary real exponents need a stated signed/absolute-power convention; the literal real-power formula on R³ excludes irrational and even-denominator exponents.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1016
+      ]
+    }
+  },
+  "calculus-chapter-14-problems-plus-5-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Common point",
+          "answer": "(0,0,0)",
+          "options": [
+            "(0,0,0)",
+            "(0,0,1)",
+            "(1,1,1)"
+          ],
+          "explanation": "g_x=f(y/x)−(y/x)f′(y/x), g_y=f′(y/x). At any source point x≠0, Euler’s degree-one identity gives Z=g_x X+g_y Y, which passes through the origin.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Tangent-plane identity",
+          "answer": "For g=x f(y/x), xg_x+yg_y=g, so its tangent plane has zero constant term",
+          "options": [
+            "All tangent planes are horizontal",
+            "For g=x f(y/x), xg_x+yg_y=g, so its tangent plane has zero constant term",
+            "For g=x f(y/x), xg_x+yg_y=0 always"
+          ],
+          "explanation": "g_x=f(y/x)−(y/x)f′(y/x), g_y=f′(y/x). At any source point x≠0, Euler’s degree-one identity gives Z=g_x X+g_y Y, which passes through the origin.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1016
+      ]
+    }
+  },
+  "calculus-chapter-14-problems-plus-6-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Newton update",
+          "answer": "X₂=X₁−J(X₁)⁻¹(F(X₁),G(X₁))ᵀ, det J≠0",
+          "options": [
+            "X₂=X₁+J(X₁)⁻¹(F(X₁),G(X₁))ᵀ",
+            "X₂=J(X₁)X₁",
+            "X₂=X₁−J(X₁)⁻¹(F(X₁),G(X₁))ᵀ, det J≠0"
+          ],
+          "explanation": "Linearize both equations at the current point and solve the2×2 Jacobian system for the correction. The two positive intersections are symmetric under interchange of x,y; independently substituting the high-precision roots verifies both equations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Coordinate formulas",
+          "answer": "x₂=x₁−(FG_y−F_yG)/(F_xG_y−F_yG_x); y₂=y₁−(F_xG−FG_x)/(F_xG_y−F_yG_x)",
+          "options": [
+            "Both denominators are always1",
+            "x₂=x₁−F/F_x; y₂=y₁−G/G_y for every coupled system",
+            "x₂=x₁−(FG_y−F_yG)/(F_xG_y−F_yG_x); y₂=y₁−(F_xG−FG_x)/(F_xG_y−F_yG_x)"
+          ],
+          "explanation": "Linearize both equations at the current point and solve the2×2 Jacobian system for the correction. The two positive intersections are symmetric under interchange of x,y; independently substituting the high-precision roots verifies both equations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Intersection1 x (smaller x)",
+          "answer": 2.4496246279280904,
+          "unit": "",
+          "tolerance": 6e-07,
+          "explanation": "Linearize both equations at the current point and solve the2×2 Jacobian system for the correction. The two positive intersections are symmetric under interchange of x,y; independently substituting the high-precision roots verifies both equations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Intersection1 y",
+          "answer": 4.551951419577532,
+          "unit": "",
+          "tolerance": 6e-07,
+          "explanation": "Linearize both equations at the current point and solve the2×2 Jacobian system for the correction. The two positive intersections are symmetric under interchange of x,y; independently substituting the high-precision roots verifies both equations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Intersection2 x",
+          "answer": 4.551951419577532,
+          "unit": "",
+          "tolerance": 6e-07,
+          "explanation": "Linearize both equations at the current point and solve the2×2 Jacobian system for the correction. The two positive intersections are symmetric under interchange of x,y; independently substituting the high-precision roots verifies both equations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Intersection2 y",
+          "answer": 2.4496246279280904,
+          "unit": "",
+          "tolerance": 6e-07,
+          "explanation": "Linearize both equations at the current point and solve the2×2 Jacobian system for the correction. The two positive intersections are symmetric under interchange of x,y; independently substituting the high-precision roots verifies both equations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1016,
+        1017
+      ]
+    }
+  },
+  "calculus-chapter-14-problems-plus-7-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Optimal a",
+          "answer": 1.224744871391589,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Set A=1/a²,B=1/b². Enclosure means max_(0≤y≤2)[2Ay+(B−A)y²]≤1. The optimum has B=A−A² and maximizes AB=A²(1−A), giving A=2/3,B=2/9, hence a=√(3/2),b=3/√2. The endpoint-contact branch cannot improve the area.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Optimal b",
+          "answer": 2.1213203435596424,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Set A=1/a²,B=1/b². Enclosure means max_(0≤y≤2)[2Ay+(B−A)y²]≤1. The optimum has B=A−A² and maximizes AB=A²(1−A), giving A=2/3,B=2/9, hence a=√(3/2),b=3/√2. The endpoint-contact branch cannot improve the area.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Minimum area",
+          "answer": 8.16209713905398,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Set A=1/a²,B=1/b². Enclosure means max_(0≤y≤2)[2Ay+(B−A)y²]≤1. The optimum has B=A−A² and maximizes AB=A²(1−A), giving A=2/3,B=2/9, hence a=√(3/2),b=3/√2. The endpoint-contact branch cannot improve the area.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1017
+      ]
+    }
+  },
+  "calculus-chapter-14-problems-plus-8-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Sharp upper bound",
+          "answer": "a²+b²+c²",
+          "options": [
+            "(a+b+c)²",
+            "a²+b²+c²",
+            "a²+b²"
+          ],
+          "explanation": "Cauchy–Schwarz for vectors(a,b,c) and(x,y,1) proves the bound. Equality requires proportional vectors. This exposes the omitted c=0 exception in the source claim; along(x,y)=t(a,b) the bound is approached as |t|→∞.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Equality when c≠0",
+          "answer": "At(x,y)=(a/c,b/c)",
+          "options": [
+            "At(x,y)=(a,b) for every c",
+            "At(x,y)=(a/c,b/c)",
+            "At the origin for every a,b,c"
+          ],
+          "explanation": "Cauchy–Schwarz for vectors(a,b,c) and(x,y,1) proves the bound. Equality requires proportional vectors. This exposes the omitted c=0 exception in the source claim; along(x,y)=t(a,b) the bound is approached as |t|→∞.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Special case c=0",
+          "answer": "If(a,b)≠(0,0), the bound a²+b² is only a supremum, not attained; if a=b=0 the function is identically0",
+          "options": [
+            "If(a,b)≠(0,0), the bound a²+b² is only a supremum, not attained; if a=b=0 the function is identically0",
+            "The maximum is always attained at(a,b)",
+            "The function is unbounded"
+          ],
+          "explanation": "Cauchy–Schwarz for vectors(a,b,c) and(x,y,1) proves the bound. Equality requires proportional vectors. This exposes the omitted c=0 exception in the source claim; along(x,y)=t(a,b) the bound is approached as |t|→∞.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 14,
+      "pages": [
+        1017
+      ]
+    }
+  }
+}

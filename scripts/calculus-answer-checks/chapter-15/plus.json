@@ -1,0 +1,484 @@
+{
+  "calculus-chapter-15-problems-plus-1-problems-plus-0": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 30.0,
+      "unit": "",
+      "tolerance": 3.0000000000000004e-08,
+      "explanation": "Partition the2-by3rectangle into six unit squares. On a square[k,k+1]×[j,j+1], the floor is k+j on one half and k+j+1 on the other.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1096
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-2-problems-plus-0": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral",
+      "answer": 1.7182818284590453,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Split at y=x. Symmetry gives2∫₀¹x e^(x²)dx=e−1.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1096
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-3-problems-plus-0": {
+    "grader": {
+      "type": "numeric",
+      "label": "Average value",
+      "answer": 0.42073549240394825,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Reverse0≤x≤t≤1: ∫₀¹∫ₓ¹cos(t²)dtdx=∫₀¹t cos(t²)dt; interval length is1.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1096
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-4-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Change of variables",
+          "answer": "u=a·r,v=b·r,w=c·r; |∂(x,y,z)/∂(u,v,w)|=1/|a·(b×c)|",
+          "options": [
+            "u=a·r,v=b·r,w=c·r; |∂(x,y,z)/∂(u,v,w)|=1/|a·(b×c)|",
+            "No Jacobian is needed",
+            "The inverse Jacobian is|a·(b×c)|"
+          ],
+          "explanation": "The vectors must be linearly independent. TransformE to the box[0,α]×[0,β]×[0,γ] and integrateuvw.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Integral",
+          "answer": "(αβγ)²/[8|a·(b×c)|] for independent vectors and nonnegative bounds",
+          "options": [
+            "αβγ/[8|a·(b×c)|]",
+            "(αβγ)²|a·(b×c)|/8",
+            "(αβγ)²/[8|a·(b×c)|] for independent vectors and nonnegative bounds"
+          ],
+          "explanation": "The vectors must be linearly independent. TransformE to the box[0,α]×[0,β]×[0,γ] and integrateuvw.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1096
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-5-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Termwise integral and series",
+      "answer": "∫∫(xy)^k dA=1/(k+1)², so sum=Σ[n=1..∞]1/n²",
+      "options": [
+        "Each term integrates to1/(k+1)",
+        "∫∫(xy)^k dA=1/(k+1)², so sum=Σ[n=1..∞]1/n²",
+        "The terms alternate"
+      ],
+      "explanation": "Nonnegative geometric-series terms permit monotone convergence to the improper integral.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1096
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-6-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Rotated region and Jacobian",
+          "answer": "0≤u≤sqrt2, |v|≤min(u,sqrt2−u), |J|=1",
+          "options": [
+            "u²+v²≤1, |J|=1",
+            "0≤u≤sqrt2, |v|≤min(u,sqrt2−u), |J|=1",
+            "0≤u,v≤1, |J|=2"
+          ],
+          "explanation": "Rotate the unit square using the stated map; integrate in u or v on the two triangular halves. The logarithm/trigonometric substitution evaluates the resulting improper integral toπ²/6.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Transformed integrand",
+          "answer": "2/(2−u²+v²)",
+          "options": [
+            "2/(2−u²+v²)",
+            "2/(2+u²−v²)",
+            "1/(1−uv)"
+          ],
+          "explanation": "Rotate the unit square using the stated map; integrate in u or v on the two triangular halves. The logarithm/trigonometric substitution evaluates the resulting improper integral toπ²/6.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral and series sum",
+          "answer": 1.6449340668482264,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Rotate the unit square using the stated map; integrate in u or v on the two triangular halves. The logarithm/trigonometric substitution evaluates the resulting improper integral toπ²/6.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1096
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-7-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Series",
+          "answer": "Σ[n=1..∞]1/n³=ζ(3)",
+          "options": [
+            "Σ1/n",
+            "Σ[n=1..∞]1/n³=ζ(3)",
+            "Σ1/n²"
+          ],
+          "explanation": "Expand the geometric series and integratex^k y^k z^k over the cube. For the alternating case, separate even terms or bound the alternating remainder.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Alternating series",
+          "answer": "Σ[n=1..∞](−1)^(n−1)/n³=(3/4)ζ(3)",
+          "options": [
+            "(1/2)ζ(3)",
+            "Σ[n=1..∞](−1)^(n−1)/n³=(3/4)ζ(3)",
+            "−ζ(3)"
+          ],
+          "explanation": "Expand the geometric series and integratex^k y^k z^k over the cube. For the alternating case, separate even terms or bound the alternating remainder.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Integral to two decimal places",
+          "answer": 0.9015426773696957,
+          "unit": "",
+          "tolerance": 0.0051,
+          "explanation": "Expand the geometric series and integratex^k y^k z^k over the cube. For the alternating case, separate even terms or bound the alternating remainder.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1096,
+        1097
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-8-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Iterated-integral representation",
+          "answer": "∫[1,π]∫[0,∞]1/(1+t²x²) dx dt",
+          "options": [
+            "∫[1,π]∫[0,∞]x/(1+t²x²) dx dt",
+            "∫[0,π]∫[0,1]1/(1+x²) dx dt",
+            "∫[1,π]∫[0,∞]1/(1+t²x²) dx dt"
+          ],
+          "explanation": "Differentiate arctan(tx) with respect tot and divide byx. The innerx integral isπ/(2t).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Integral",
+          "answer": 1.7981374998645792,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Differentiate arctan(tx) with respect tot and divide byx. The innerx integral isπ/(2t).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1097
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-9-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Cylindrical Laplacian",
+          "answer": "u_rr+(1/r)u_r+(1/r²)u_θθ+u_zz=0",
+          "options": [
+            "u_rr+(2/r)u_r+u_zz=0",
+            "u_rr+u_θθ+u_zz=0",
+            "u_rr+(1/r)u_r+(1/r²)u_θθ+u_zz=0"
+          ],
+          "explanation": "Apply the chain rule twice using the coordinate maps; formulas apply away from coordinate singularities, with smooth extension interpreted in Cartesian coordinates.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Spherical Laplacian",
+          "answer": "u_ρρ+(2/ρ)u_ρ+(cotφ/ρ²)u_φ+(1/ρ²)u_φφ+(1/(ρ²sin²φ))u_θθ=0",
+          "options": [
+            "u_ρρ+u_φφ+u_θθ=0",
+            "u_ρρ+(1/ρ)u_ρ+(1/ρ²)u_φφ=0",
+            "u_ρρ+(2/ρ)u_ρ+(cotφ/ρ²)u_φ+(1/ρ²)u_φφ+(1/(ρ²sin²φ))u_θθ=0"
+          ],
+          "explanation": "Apply the chain rule twice using the coordinate maps; formulas apply away from coordinate singularities, with smooth extension interpreted in Cartesian coordinates.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1097
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-10-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Disk force magnitude",
+          "answer": "2πGmρ[1−d/sqrt(R²+d²)]",
+          "options": [
+            "2πGmρd/sqrt(R²+d²)",
+            "2πGmρR/d",
+            "2πGmρ[1−d/sqrt(R²+d²)]"
+          ],
+          "explanation": "Horizontal force components cancel by symmetry. Integrate the vertical componentGmρd·2πr dr/(r²+d²)^(3/2), then letR→∞.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Infinite-plane limit",
+          "answer": "2πGmρ, independent of positive d",
+          "options": [
+            "2πGmρ, independent of positive d",
+            "Zero",
+            "2πGmρ/d²"
+          ],
+          "explanation": "Horizontal force components cancel by symmetry. Integrate the vertical componentGmρd·2πr dr/(r²+d²)^(3/2), then letR→∞.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1097
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-11-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Reordered integral",
+      "answer": "∫[0,x]f(t)[∫[t,x]∫[t,y] dz dy]dt=(1/2)∫[0,x](x−t)²f(t)dt",
+      "options": [
+        "∫[0,x](x−t)f(t)dt",
+        "∫[0,x]f(t)[∫[t,x]∫[t,y] dz dy]dt=(1/2)∫[0,x](x−t)²f(t)dt",
+        "x²∫[0,x]f(t)dt"
+      ],
+      "explanation": "Forfixedt the(y,z)regiont≤z≤y≤x is a triangle of area(x−t)²/2; continuity justifies reversing the integrals.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1097
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-12-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Limit",
+          "answer": 0.7190642309523356,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Factor n from the square root; the remaining factor n^(−3) is the cell area(1/n)(1/n²).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Riemann integral",
+          "answer": "∫[0,1]∫[0,1](1+x+y)^(−1/2) dy dx",
+          "options": [
+            "∫[0,1](1+x)^(−1/2)dx",
+            "∫[0,1]∫[0,1](x+y)^(−1/2)dy dx",
+            "∫[0,1]∫[0,1](1+x+y)^(−1/2) dy dx"
+          ],
+          "explanation": "Factor n from the square root; the remaining factor n^(−3) is the cell area(1/n)(1/n²).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1097
+      ]
+    }
+  },
+  "calculus-chapter-15-problems-plus-13-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Smaller-piece volume",
+      "answer": "pi*a*b*c*(2/3 - 8*sqrt(3)/27)",
+      "options": [
+        "-pi*a*b*c*(2/3 - 8*sqrt(3)/27)",
+        "2*pi*a*b*c*(2/3 - 8*sqrt(3)/27)",
+        "pi*a*b*c*(2/3 - 8*sqrt(3)/27)"
+      ],
+      "explanation": "Scalex=au,y=bv,z=cw to the unit ball. The cuttingplane has distance1/√3 from the center; integrate the capπ∫[1/√3,1](1−t²)dt and multiply byabc.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1097
+      ]
+    }
+  }
+}

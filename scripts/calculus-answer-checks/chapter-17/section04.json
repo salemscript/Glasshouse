@@ -1,0 +1,600 @@
+{
+  "calculus-section-17-4-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Series solution",
+          "answer": "y=C Σ(n=0…∞) x^n/n! = Ce^x",
+          "options": [
+            "y=C Σ(n=0…∞) (−x)^n/n!",
+            "y=C Σ(n=0…∞) x^n/n! = Ce^x",
+            "y=C/(1−x)"
+          ],
+          "explanation": "Coefficient matching gives (n+1)cₙ₊₁=cₙ, hence cₙ=C/n!.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "All real x",
+            "x=0 only",
+            "|x|<1"
+          ],
+          "explanation": "Coefficient matching gives (n+1)cₙ₊₁=cₙ, hence cₙ=C/n!.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Series solution",
+          "answer": "y=C Σ(n=0…∞) x^(2n)/(2^n n!) = Ce^(x²/2)",
+          "options": [
+            "y=C Σ(n=0…∞) (−1)^n x^(2n)/(2^n n!)",
+            "y=C Σ(n=0…∞) x^(2n)/(2^n n!) = Ce^(x²/2)",
+            "y=Ce^(x²)"
+          ],
+          "explanation": "c₁=0 and (n+1)cₙ₊₁=cₙ₋₁. Odd coefficients vanish and even coefficients are C/(2^n n!).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "x>0 only",
+            "|x|<1",
+            "All real x"
+          ],
+          "explanation": "c₁=0 and (n+1)cₙ₊₁=cₙ₋₁. Odd coefficients vanish and even coefficients are C/(2^n n!).",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Series solution",
+          "answer": "y=C Σ(n=0…∞) x^(3n)/(3^n n!) = Ce^(x³/3)",
+          "options": [
+            "y=C Σ(n=0…∞) x^(3n)/(n!)",
+            "y=C Σ(n=0…∞) x^(3n)/(3^n n!) = Ce^(x³/3)",
+            "y=Ce^(x²/2)"
+          ],
+          "explanation": "c₁=c₂=0 and (n+1)cₙ₊₁=cₙ₋₂. Only powers divisible by three remain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "All real x",
+            "|x|<3",
+            "x=0 only"
+          ],
+          "explanation": "c₁=c₂=0 and (n+1)cₙ₊₁=cₙ₋₂. Only powers divisible by three remain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Series about 0",
+          "answer": "y=c₀ Σ(n=0…∞) (n+1)(x/3)^n = c₀/(1−x/3)²",
+          "options": [
+            "y=c₀ Σ(n=0…∞) (x/3)^n",
+            "y=c₀ Σ(n=0…∞) (n+1)(−x/3)^n",
+            "y=c₀ Σ(n=0…∞) (n+1)(x/3)^n = c₀/(1−x/3)²"
+          ],
+          "explanation": "(n+2)cₙ−3(n+1)cₙ₊₁=0 gives cₙ=c₀(n+1)/3^n. The zero solution extends everywhere; nonzero solutions have a pole at x=3.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence of nonzero series",
+          "answer": "|x|<3",
+          "options": [
+            "|x|<3",
+            "|x|<1",
+            "All real x"
+          ],
+          "explanation": "(n+2)cₙ−3(n+1)cₙ₊₁=0 gives cₙ=c₀(n+1)/3^n. The zero solution extends everywhere; nonzero solutions have a pole at x=3.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Complete series definition",
+          "answer": "y=Σ cₙx^n, c₀,c₁ arbitrary; cₙ₊₂=−cₙ/(n+2) for n≥0",
+          "options": [
+            "cₙ₊₂=−cₙ/[(n+1)(n+2)]",
+            "cₙ₊₂=cₙ/(n+2)",
+            "y=Σ cₙx^n, c₀,c₁ arbitrary; cₙ₊₂=−cₙ/(n+2) for n≥0"
+          ],
+          "explanation": "The x^n coefficient is (n+2)(n+1)cₙ₊₂+(n+1)cₙ. The recurrence and two free starting coefficients determine every coefficient.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "First terms",
+          "answer": "c₀(1−x²/2+x⁴/8−x⁶/48+…)+c₁(x−x³/3+x⁵/15−x⁷/105+…)",
+          "options": [
+            "c₀(1−x²/2+x⁴/8−x⁶/48+…)+c₁(x−x³/3+x⁵/15−x⁷/105+…)",
+            "c₀ cos x+c₁ sin x",
+            "c₀(1+x²/2+…)+c₁(x+x³/3+…)"
+          ],
+          "explanation": "The x^n coefficient is (n+2)(n+1)cₙ₊₂+(n+1)cₙ. The recurrence and two free starting coefficients determine every coefficient.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "|x|<2",
+            "|x|<1",
+            "All real x"
+          ],
+          "explanation": "The x^n coefficient is (n+2)(n+1)cₙ₊₂+(n+1)cₙ. The recurrence and two free starting coefficients determine every coefficient.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Series solution",
+          "answer": "y=c₀ Σ x^(2n)/(2n)! + c₁ Σ x^(2n+1)/(2n+1)! = c₀ cosh x+c₁ sinh x",
+          "options": [
+            "y=c₀ Σ x^(2n)/(2n)! + c₁ Σ x^(2n+1)/(2n+1)! = c₀ cosh x+c₁ sinh x",
+            "y=(c₀+c₁x)e^x",
+            "y=c₀ cos x+c₁ sin x"
+          ],
+          "explanation": "(n+2)(n+1)cₙ₊₂=cₙ; even and odd coefficients propagate independently. Both sums start at n=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "x>0 only",
+            "|x|<1",
+            "All real x"
+          ],
+          "explanation": "(n+2)(n+1)cₙ₊₂=cₙ; even and odd coefficients propagate independently. Both sums start at n=0.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Series solution",
+          "answer": "y=c₀+c₁ Σ(n=1…∞) x^n/n = c₀−c₁ ln(1−x)",
+          "options": [
+            "y=c₀+c₁ Σ(n=1…∞) (−1)^n x^n/n",
+            "y=c₀+c₁ Σ(n=1…∞) x^n/n = c₀−c₁ ln(1−x)",
+            "y=c₀+c₁e^x"
+          ],
+          "explanation": "The differential equation gives cₙ₊₂=(n+1)cₙ₊₁/(n+2), so cₙ=c₁/n for n≥1. The series converges conditionally at −1, diverges at +1; termwise differential operations are justified inside |x|<1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence when c₁≠0",
+          "answer": "−1≤x<1 (radius 1)",
+          "options": [
+            "All real x",
+            "−1<x≤1",
+            "−1≤x<1 (radius 1)"
+          ],
+          "explanation": "The differential equation gives cₙ₊₂=(n+1)cₙ₊₁/(n+2), so cₙ=c₁/n for n≥1. The series converges conditionally at −1, diverges at +1; termwise differential operations are justified inside |x|<1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Complete series definition",
+          "answer": "y=Σ cₙx^n; c₀,c₁ arbitrary, c₂=0, cₙ₊₃=cₙ/[(n+3)(n+2)] for n≥0",
+          "options": [
+            "cₙ₊₃=−cₙ/[(n+3)(n+2)]",
+            "cₙ₊₂=cₙ/[(n+2)(n+1)]",
+            "y=Σ cₙx^n; c₀,c₁ arbitrary, c₂=0, cₙ₊₃=cₙ/[(n+3)(n+2)] for n≥0"
+          ],
+          "explanation": "Match y″=xy: 2c₂=0 and (n+3)(n+2)cₙ₊₃=cₙ. The resulting two power series are entire.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "First terms",
+          "answer": "c₀(1+x³/6+x⁶/180+x⁹/12960+…)+c₁(x+x⁴/12+x⁷/504+x¹⁰/45360+…)",
+          "options": [
+            "c₀(1+x³/6+x⁶/180+x⁹/12960+…)+c₁(x+x⁴/12+x⁷/504+x¹⁰/45360+…)",
+            "c₀(1−x³/6+…)+c₁(x−x⁴/12+…)",
+            "c₀ cos x+c₁ sin x"
+          ],
+          "explanation": "Match y″=xy: 2c₂=0 and (n+3)(n+2)cₙ₊₃=cₙ. The resulting two power series are entire.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "|x|<3",
+            "All real x",
+            "|x|<1"
+          ],
+          "explanation": "Match y″=xy: 2c₂=0 and (n+3)(n+2)cₙ₊₃=cₙ. The resulting two power series are entire.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "IVP series",
+          "answer": "y=Σ(n=0…∞) x^(2n)/(2^n n!) = e^(x²/2)",
+          "options": [
+            "y=Σ(n=0…∞) x^(2n)/(2^n n!) = e^(x²/2)",
+            "y=e^(−x²/2)",
+            "y=cosh x"
+          ],
+          "explanation": "c₀=1,c₁=0; cₙ₊₂=cₙ/(n+2), so all odd coefficients vanish.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "|x|<2",
+            "|x|<1",
+            "All real x"
+          ],
+          "explanation": "c₀=1,c₁=0; cₙ₊₂=cₙ/(n+2), so all odd coefficients vanish.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Complete IVP series",
+          "answer": "y=Σ cₙx^n; c₀=1,c₁=c₂=c₃=0; cₙ₊₄=−cₙ/[(n+4)(n+3)] for n≥0",
+          "options": [
+            "cₙ₊₄=cₙ/[(n+4)(n+3)]",
+            "y=Σ cₙx^n; c₀=1,c₁=c₂=c₃=0; cₙ₊₄=−cₙ/[(n+4)(n+3)] for n≥0",
+            "cₙ₊₂=−cₙ/[(n+2)(n+1)]"
+          ],
+          "explanation": "From y″=−x²y, the constant and linear coefficients vanish and the recurrence steps by four.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "First terms",
+          "answer": "1−x⁴/12+x⁸/672−x¹²/88704+…",
+          "options": [
+            "1−x²/2+x⁴/24−…",
+            "1+x⁴/12+x⁸/672+…",
+            "1−x⁴/12+x⁸/672−x¹²/88704+…"
+          ],
+          "explanation": "From y″=−x²y, the constant and linear coefficients vanish and the recurrence steps by four.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "All real x",
+            "|x|<4",
+            "|x|<1"
+          ],
+          "explanation": "From y″=−x²y, the constant and linear coefficients vanish and the recurrence steps by four.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Complete IVP series",
+          "answer": "y=Σ cₙx^n; c₀=0,c₁=1,c₂=0; cₙ₊₃=−(n+1)cₙ/[(n+3)(n+2)] for n≥0",
+          "options": [
+            "y=Σ cₙx^n; c₀=0,c₁=1,c₂=0; cₙ₊₃=−(n+1)cₙ/[(n+3)(n+2)] for n≥0",
+            "cₙ₊₂=−cₙ/(n+2)",
+            "cₙ₊₃=(n+1)cₙ/[(n+3)(n+2)]"
+          ],
+          "explanation": "The x^(n+1) coefficient of x²y′+xy is (n+1)cₙ; use both initial values and propagate the recurrence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "First terms",
+          "answer": "x−x⁴/6+5x⁷/252−x¹⁰/567+…",
+          "options": [
+            "x−x³/3+x⁵/15−…",
+            "x+x⁴/6+5x⁷/252+…",
+            "x−x⁴/6+5x⁷/252−x¹⁰/567+…"
+          ],
+          "explanation": "The x^(n+1) coefficient of x²y′+xy is (n+1)cₙ; use both initial values and propagate the recurrence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Convergence",
+          "answer": "All real x",
+          "options": [
+            "|x|<1",
+            "|x|<3",
+            "All real x"
+          ],
+          "explanation": "The x^(n+1) coefficient of x²y′+xy is (n+1)cₙ; use both initial values and propagate the recurrence.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  },
+  "calculus-section-17-4-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Bessel series",
+          "answer": "J₀(x)=Σ(n=0…∞) (−1)^n x^(2n)/[4^n(n!)²]",
+          "options": [
+            "J₀(x)=Σ(n=0…∞) (−1)^n x^(2n)/[4^n(n!)²]",
+            "J₀(x)=cos x",
+            "J₀(x)=Σ(n=0…∞) x^(2n)/[4^n(n!)²]"
+          ],
+          "explanation": "Coefficient matching yields n²cₙ=−cₙ₋₂, c₀=1,c₁=0. For |x|≤5, terms decrease from n≥2, so the T₂₀ tail is at most 5²²/[4¹¹(11!)²]<4×10^−6. Plot successive even polynomials; the curve itself is not automatically graded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "a · Convergence",
+          "answer": "All real x",
+          "options": [
+            "|x|<1",
+            "All real x",
+            "|x|<5"
+          ],
+          "explanation": "Coefficient matching yields n²cₙ=−cₙ₋₂, c₀=1,c₁=0. For |x|≤5, terms decrease from n≥2, so the T₂₀ tail is at most 5²²/[4¹¹(11!)²]<4×10^−6. Plot successive even polynomials; the curve itself is not automatically graded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · A sufficient approximation on [−5,5]",
+          "answer": "T₂₀(x)=Σ(n=0…10) (−1)^n x^(2n)/[4^n(n!)²]; uniform error <0.000004",
+          "options": [
+            "T₂(x)=1−x²/4 is accurate to 0.000004 throughout",
+            "No Taylor polynomial approximates J₀ on [−5,5]",
+            "T₂₀(x)=Σ(n=0…10) (−1)^n x^(2n)/[4^n(n!)²]; uniform error <0.000004"
+          ],
+          "explanation": "Coefficient matching yields n²cₙ=−cₙ₋₂, c₀=1,c₁=0. For |x|≤5, terms decrease from n≥2, so the T₂₀ tail is at most 5²²/[4¹¹(11!)²]<4×10^−6. Plot successive even polynomials; the curve itself is not automatically graded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · J₀(5), for checking the plot",
+          "answer": -0.1775967713143383,
+          "unit": "",
+          "tolerance": 4e-06,
+          "explanation": "Coefficient matching yields n²cₙ=−cₙ₋₂, c₀=1,c₁=0. For |x|≤5, terms decrease from n≥2, so the T₂₀ tail is at most 5²²/[4¹¹(11!)²]<4×10^−6. Plot successive even polynomials; the curve itself is not automatically graded.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 17,
+      "pages": [
+        1211
+      ]
+    }
+  }
+}

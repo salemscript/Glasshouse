@@ -1,0 +1,717 @@
+{
+  "notes": {
+    "calculus-section-15-4-1": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-4-2": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-4-3": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-4": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-5": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-6": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-7": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-8": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-9": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-10": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-11": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-12": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-13": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-14": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-15": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-16": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-17": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-18": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-19": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-20": "",
+    "calculus-section-15-4-21": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-22": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-23": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-24": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-25": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-26": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+    "calculus-section-15-4-27": "",
+    "calculus-section-15-4-28": "",
+    "calculus-section-15-4-29": "",
+    "calculus-section-15-4-30": "Assume independent exponential lifetimes; a uses the square of a CDF and b integrates over the trianglex+y≤1000.",
+    "calculus-section-15-4-31": "Standardize to independent normal coordinates; a is essentially half the mass, b is a radius√2 disk in the standard bivariate normal.",
+    "calculus-section-15-4-32": "They meet iff Y≤X≤Y+30. Integrate e^(−x)y/50 over0≤y≤10 and those x bounds.",
+    "calculus-section-15-4-33": ""
+  },
+  "integrals": [
+    {
+      "id": "4.1",
+      "integrand": "2*x + 4*y",
+      "bounds": [
+        [
+          "x",
+          "0",
+          "5"
+        ],
+        [
+          "y",
+          "2",
+          "5"
+        ]
+      ],
+      "result": "285"
+    },
+    {
+      "id": "4.2",
+      "integrand": "r**2",
+      "bounds": [
+        [
+          "r",
+          "0",
+          "1"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "2*pi/3"
+    },
+    {
+      "id": "4.3",
+      "density": "k*y**2",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "x",
+          "1",
+          "3"
+        ],
+        [
+          "y",
+          "1",
+          "4"
+        ]
+      ],
+      "mass": "42*k",
+      "moments": [
+        "84*k",
+        "255*k/2",
+        "2046*k/5",
+        "182*k"
+      ]
+    },
+    {
+      "id": "4.4",
+      "density": "x**2 + y**2 + 1",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "x",
+          "0",
+          "a"
+        ],
+        [
+          "y",
+          "0",
+          "b"
+        ]
+      ],
+      "mass": "a*b*(a**2 + b**2 + 3)/3",
+      "moments": [
+        "a**2*b*(3*a**2 + 2*b**2 + 6)/12",
+        "a*b**2*(2*a**2 + 3*b**2 + 6)/12",
+        "a*b**3*(5*a**2 + 9*b**2 + 15)/45",
+        "a**3*b*(9*a**2 + 5*b**2 + 15)/45"
+      ]
+    },
+    {
+      "id": "4.5",
+      "density": "x + y",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "x/2",
+          "3 - x"
+        ],
+        [
+          "x",
+          "0",
+          "2"
+        ]
+      ],
+      "mass": "6",
+      "moments": [
+        "9/2",
+        "9",
+        "78/5",
+        "24/5"
+      ]
+    },
+    {
+      "id": "4.6",
+      "density": "x",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "x",
+          "y/2",
+          "1 - 2*y"
+        ],
+        [
+          "y",
+          "0",
+          "2/5"
+        ]
+      ],
+      "mass": "2/25",
+      "moments": [
+        "31/750",
+        "7/750",
+        "16/9375",
+        "78/3125"
+      ]
+    },
+    {
+      "id": "4.7",
+      "density": "k*y",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "0",
+          "1 - x**2"
+        ],
+        [
+          "x",
+          "-1",
+          "1"
+        ]
+      ],
+      "mass": "8*k/15",
+      "moments": [
+        "0",
+        "32*k/105",
+        "64*k/315",
+        "8*k/105"
+      ]
+    },
+    {
+      "id": "4.8",
+      "density": "k*x**2",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "x**2",
+          "x + 2"
+        ],
+        [
+          "x",
+          "-1",
+          "2"
+        ]
+      ],
+      "mass": "63*k/20",
+      "moments": [
+        "18*k/5",
+        "531*k/70",
+        "207*k/10",
+        "369*k/70"
+      ]
+    },
+    {
+      "id": "4.9",
+      "density": "x*y",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "0",
+          "exp(-x)"
+        ],
+        [
+          "x",
+          "0",
+          "1"
+        ]
+      ],
+      "mass": "(-3 + exp(2))*exp(-2)/8",
+      "moments": [
+        "(-5 + exp(2))*exp(-2)/8",
+        "(-4 + exp(3))*exp(-3)/27",
+        "(-5 + exp(4))*exp(-4)/64",
+        "3/16 - 19*exp(-2)/16"
+      ]
+    },
+    {
+      "id": "4.10",
+      "density": "y",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "0",
+          "cos(x)"
+        ],
+        [
+          "x",
+          "-pi/2",
+          "pi/2"
+        ]
+      ],
+      "mass": "pi/4",
+      "moments": [
+        "0",
+        "4/9",
+        "3*pi/32",
+        "pi*(-6 + pi**2)/48"
+      ]
+    },
+    {
+      "id": "4.11",
+      "density": "r*sin(theta)",
+      "coordinates": [
+        "r*cos(theta)",
+        "r*sin(theta)"
+      ],
+      "jacobian": "r",
+      "bounds": [
+        [
+          "r",
+          "0",
+          "1"
+        ],
+        [
+          "theta",
+          "0",
+          "pi/2"
+        ]
+      ],
+      "mass": "1/3",
+      "moments": [
+        "1/8",
+        "pi/16",
+        "2/15",
+        "1/15"
+      ]
+    },
+    {
+      "id": "4.12",
+      "density": "r**2",
+      "coordinates": [
+        "r*cos(theta)",
+        "r*sin(theta)"
+      ],
+      "jacobian": "r",
+      "bounds": [
+        [
+          "r",
+          "0",
+          "1"
+        ],
+        [
+          "theta",
+          "0",
+          "pi/2"
+        ]
+      ],
+      "mass": "pi/8",
+      "moments": [
+        "1/5",
+        "1/5",
+        "pi/24",
+        "pi/24"
+      ]
+    },
+    {
+      "id": "4.13",
+      "density": "r",
+      "coordinates": [
+        "r*cos(theta)",
+        "r*sin(theta)"
+      ],
+      "jacobian": "r",
+      "bounds": [
+        [
+          "r",
+          "1",
+          "2"
+        ],
+        [
+          "theta",
+          "0",
+          "pi"
+        ]
+      ],
+      "mass": "7*pi/3",
+      "moments": [
+        "0",
+        "15/2",
+        "31*pi/10",
+        "31*pi/10"
+      ]
+    },
+    {
+      "id": "4.14",
+      "density": "1/r",
+      "coordinates": [
+        "r*cos(theta)",
+        "r*sin(theta)"
+      ],
+      "jacobian": "r",
+      "bounds": [
+        [
+          "r",
+          "1",
+          "2"
+        ],
+        [
+          "theta",
+          "0",
+          "pi"
+        ]
+      ],
+      "mass": "pi",
+      "moments": [
+        "0",
+        "3",
+        "7*pi/6",
+        "7*pi/6"
+      ]
+    },
+    {
+      "id": "4.15",
+      "density": "k*(x**2 + y**2)",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "0",
+          "a - x"
+        ],
+        [
+          "x",
+          "0",
+          "a"
+        ]
+      ],
+      "mass": "a**4*k/6",
+      "moments": [
+        "a**5*k/15",
+        "a**5*k/15",
+        "7*a**6*k/180",
+        "7*a**6*k/180"
+      ]
+    },
+    {
+      "id": "4.16",
+      "density": "1/r",
+      "coordinates": [
+        "r*cos(theta)",
+        "r*sin(theta)"
+      ],
+      "jacobian": "r",
+      "bounds": [
+        [
+          "r",
+          "1",
+          "2*sin(theta)"
+        ],
+        [
+          "theta",
+          "pi/6",
+          "5*pi/6"
+        ]
+      ],
+      "mass": "-2*pi/3 + 2*sqrt(3)",
+      "moments": [
+        "0",
+        "sqrt(3)",
+        "-pi/9 + 31*sqrt(3)/20",
+        "-pi/9 + 9*sqrt(3)/20"
+      ]
+    },
+    {
+      "id": "4.17",
+      "density": "k*y**2",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "x",
+          "1",
+          "3"
+        ],
+        [
+          "y",
+          "1",
+          "4"
+        ]
+      ],
+      "mass": "42*k",
+      "moments": [
+        "84*k",
+        "255*k/2",
+        "2046*k/5",
+        "182*k"
+      ]
+    },
+    {
+      "id": "4.18",
+      "density": "x",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "x",
+          "y/2",
+          "1 - 2*y"
+        ],
+        [
+          "y",
+          "0",
+          "2/5"
+        ]
+      ],
+      "mass": "2/25",
+      "moments": [
+        "31/750",
+        "7/750",
+        "16/9375",
+        "78/3125"
+      ]
+    },
+    {
+      "id": "4.19",
+      "density": "k*(x**2 + y**2)",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "0",
+          "a - x"
+        ],
+        [
+          "x",
+          "0",
+          "a"
+        ]
+      ],
+      "mass": "a**4*k/6",
+      "moments": [
+        "a**5*k/15",
+        "a**5*k/15",
+        "7*a**6*k/180",
+        "7*a**6*k/180"
+      ]
+    },
+    {
+      "id": "4.21",
+      "density": "rho",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "x",
+          "0",
+          "b"
+        ],
+        [
+          "y",
+          "0",
+          "h"
+        ]
+      ],
+      "mass": "b*h*rho",
+      "moments": [
+        "b**2*h*rho/2",
+        "b*h**2*rho/2",
+        "b*h**3*rho/3",
+        "b**3*h*rho/3"
+      ]
+    },
+    {
+      "id": "4.22",
+      "density": "rho",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "0",
+          "h*(1 - x/b)"
+        ],
+        [
+          "x",
+          "0",
+          "b"
+        ]
+      ],
+      "mass": "b*h*rho/2",
+      "moments": [
+        "b**2*h*rho/6",
+        "b*h**2*rho/6",
+        "b*h**3*rho/12",
+        "b**3*h*rho/12"
+      ]
+    },
+    {
+      "id": "4.23",
+      "density": "rho",
+      "coordinates": [
+        "r*cos(theta)",
+        "r*sin(theta)"
+      ],
+      "jacobian": "r",
+      "bounds": [
+        [
+          "r",
+          "0",
+          "a"
+        ],
+        [
+          "theta",
+          "0",
+          "pi/2"
+        ]
+      ],
+      "mass": "pi*a**2*rho/4",
+      "moments": [
+        "a**3*rho/3",
+        "a**3*rho/3",
+        "pi*a**4*rho/16",
+        "pi*a**4*rho/16"
+      ]
+    },
+    {
+      "id": "4.24",
+      "density": "rho",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "0",
+          "sin(x)"
+        ],
+        [
+          "x",
+          "0",
+          "pi"
+        ]
+      ],
+      "mass": "2*rho",
+      "moments": [
+        "pi*rho",
+        "pi*rho/4",
+        "4*rho/9",
+        "rho*(-4 + pi**2)"
+      ]
+    },
+    {
+      "id": "4.25",
+      "density": "r**2",
+      "coordinates": [
+        "r*cos(theta)",
+        "r*sin(theta)"
+      ],
+      "jacobian": "r",
+      "bounds": [
+        [
+          "r",
+          "0",
+          "cos(2*theta)"
+        ],
+        [
+          "theta",
+          "-pi/4",
+          "pi/4"
+        ]
+      ],
+      "mass": "3*pi/64",
+      "moments": [
+        "256*sqrt(2)/3465",
+        "0",
+        "-4/105 + 5*pi/384",
+        "4/105 + 5*pi/384"
+      ]
+    },
+    {
+      "id": "4.26",
+      "density": "x**2*y**2",
+      "coordinates": [
+        "x",
+        "y"
+      ],
+      "jacobian": "1",
+      "bounds": [
+        [
+          "y",
+          "0",
+          "x*exp(-x)"
+        ],
+        [
+          "x",
+          "0",
+          "2"
+        ]
+      ],
+      "mass": "40/729 - 7192*exp(-6)/729",
+      "moments": [
+        "80/729 - 19568*exp(-6)/729",
+        "45/4096 - 42037*exp(-8)/4096",
+        "1008/390625 - 4889488*exp(-10)/390625",
+        "560/2187 - 168080*exp(-6)/2187"
+      ]
+    }
+  ]
+}

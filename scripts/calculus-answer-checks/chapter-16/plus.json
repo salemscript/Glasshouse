@@ -1,0 +1,245 @@
+{
+  "calculus-chapter-16-problems-plus-1-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Divergence-theorem argument",
+          "answer": "div(r/r³)=0 away fromP; radial side flux is0; sphere-patch flux isArea(S(a))/a², equal to∬S(r·n)/r³dS",
+          "options": [
+            "div(r/r³)=0 away fromP; radial side flux is0; sphere-patch flux isArea(S(a))/a², equal to∬S(r·n)/r³dS",
+            "The sphere-patch flux equalsArea(S(a)) without division bya²",
+            "The radial side flux equals the entire solid angle"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Radius independence",
+          "answer": "Sphere-patch area scales asa², so the ratio is independent ofa",
+          "options": [
+            "Solid angle scales inversely witha",
+            "Sphere-patch area scales asa², so the ratio is independent ofa",
+            "Solid angle scales linearly witha"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1182
+      ]
+    }
+  },
+  "calculus-chapter-16-problems-plus-2-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Maximizing positive curve",
+      "answer": "Ellipse6x²+3y²=1, traversed counterclockwise",
+      "options": [
+        "Ellipse3x²+6y²=1",
+        "Circlex²+y²=1",
+        "Ellipse6x²+3y²=1, traversed counterclockwise"
+      ],
+      "explanation": "Green integrand is1−6x²−3y²; include exactly its positive region to maximize the integral.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1182
+      ]
+    }
+  },
+  "calculus-chapter-16-problems-plus-3-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Curl and area proof",
+      "answer": "LetF=½(n×r);curlF=n andF·dr is the displayed integrand, soStokes givesArea",
+      "options": [
+        "LetF=½(n×r);curlF=n andF·dr is the displayed integrand, soStokes givesArea",
+        "The line integral equals perimeter",
+        "LetF=n;curlF=n"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1182
+      ]
+    }
+  },
+  "calculus-chapter-16-problems-plus-4-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Trace z=0",
+          "answer": "Two line segments y=±x, −1≤x≤1",
+          "options": [
+            "Two line segments y=±x, −1≤x≤1",
+            "Only origin",
+            "Unit circle"
+          ],
+          "explanation": "Fixu+v=w; eliminateu fromx=sin u,y=sin(w−u). The two choices ofcosw give the two traces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Traces z=±1",
+          "answer": "Unit circlex²+y²=1 in each of those horizontal planes",
+          "options": [
+            "Unit circlex²+y²=1 in each of those horizontal planes",
+            "Two isolated points",
+            "Ellipse4x²+y²=1"
+          ],
+          "explanation": "Fixu+v=w; eliminateu fromx=sin u,y=sin(w−u). The two choices ofcosw give the two traces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Traces z=±1/2",
+          "answer": "Union of ellipsesx²+y²±√3xy=1/4 at each height",
+          "options": [
+            "Linesy=±x",
+            "Unit circle",
+            "Union of ellipsesx²+y²±√3xy=1/4 at each height"
+          ],
+          "explanation": "Fixu+v=w; eliminateu fromx=sin u,y=sin(w−u). The two choices ofcosw give the two traces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Overall bounds",
+          "answer": "−1≤x,y,z≤1; repeated parameter patches overlap",
+          "options": [
+            "A sphere",
+            "−1≤x,y,z≤1; repeated parameter patches overlap",
+            "Unbounded in all directions"
+          ],
+          "explanation": "Fixu+v=w; eliminateu fromx=sin u,y=sin(w−u). The two choices ofcosw give the two traces.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1182
+      ]
+    }
+  },
+  "calculus-chapter-16-problems-plus-5-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Product-gradient identity",
+      "answer": "∇(F·G)=(F·∇)G+(G·∇)F+F×curlG+G×curlF",
+      "options": [
+        "∇(F·G)=F divG only",
+        "∇(F·G)=(F·∇)G+(G·∇)F+F×curlG+G×curlF",
+        "Same with both cross-product signs negative"
+      ],
+      "explanation": "Expand one coordinate using the product rule; cross-product terms cancel the extra directional derivatives. Repeat cyclically.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1182,
+        1183
+      ]
+    }
+  },
+  "calculus-chapter-16-problems-plus-6-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Work differential",
+          "answer": "dW=APdx=P dV, henceW=∮P dV",
+          "options": [
+            "dW=APdx=P dV, henceW=∮P dV",
+            "dW=Pdx/A",
+            "W=∮VdP without a sign change"
+          ],
+          "explanation": "WithV horizontal andP vertical,∮P dV is positive for clockwise loops. The source cycle has opposite loop orientations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Signed areas",
+          "answer": "Work equals area of the clockwise power loop minus area of the counterclockwise pumping loop",
+          "options": [
+            "Work is the sum of unsigned loop areas",
+            "Work is zero for every closed PV-cycle",
+            "Work equals area of the clockwise power loop minus area of the counterclockwise pumping loop"
+          ],
+          "explanation": "WithV horizontal andP vertical,∮P dV is positive for clockwise loops. The source cycle has opposite loop orientations.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1183
+      ]
+    }
+  }
+}

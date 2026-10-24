@@ -1,0 +1,1712 @@
+{
+  "calculus-section-15-4-1": {
+    "grader": {
+      "type": "numeric",
+      "label": "Charge(C)",
+      "answer": 285.0,
+      "unit": "",
+      "tolerance": 2.85e-07,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055
+      ]
+    }
+  },
+  "calculus-section-15-4-2": {
+    "grader": {
+      "type": "numeric",
+      "label": "Charge(C)",
+      "answer": 2.0943951023931957,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055
+      ]
+    }
+  },
+  "calculus-section-15-4-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Mass",
+          "answer": "42*k",
+          "options": [
+            "84*k",
+            "42*k",
+            "-42*k"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 3.0357142857142856,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055,
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Mass",
+          "answer": "a*b*(a^2 + b^2 + 3)/3",
+          "options": [
+            "2*a*b*(a^2 + b^2 + 3)/3",
+            "-a*b*(a^2 + b^2 + 3)/3",
+            "a*b*(a^2 + b^2 + 3)/3"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Center of mass · x",
+          "answer": "a*(3*a^2 + 2*b^2 + 6)/(4*(a^2 + b^2 + 3))",
+          "options": [
+            "a*(3*a^2 + 2*b^2 + 6)/(2*(a^2 + b^2 + 3))",
+            "a*(3*a^2 + 2*b^2 + 6)/(4*(a^2 + b^2 + 3))",
+            "-a*(3*a^2 + 2*b^2 + 6)/(4*(a^2 + b^2 + 3))"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Center of mass · y",
+          "answer": "b*(2*a^2 + 3*b^2 + 6)/(4*(a^2 + b^2 + 3))",
+          "options": [
+            "-b*(2*a^2 + 3*b^2 + 6)/(4*(a^2 + b^2 + 3))",
+            "b*(2*a^2 + 3*b^2 + 6)/(2*(a^2 + b^2 + 3))",
+            "b*(2*a^2 + 3*b^2 + 6)/(4*(a^2 + b^2 + 3))"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055,
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Mass",
+          "answer": 6.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.75,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 1.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055,
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Mass",
+          "answer": 0.08,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.5166666666666667,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 0.11666666666666667,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055,
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Mass",
+          "answer": "8*k/15",
+          "options": [
+            "16*k/15",
+            "-8*k/15",
+            "8*k/15"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 0.5714285714285714,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055,
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Mass",
+          "answer": "63*k/20",
+          "options": [
+            "-63*k/20",
+            "63*k/10",
+            "63*k/20"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 1.1428571428571428,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 2.4081632653061225,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055,
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Mass",
+          "answer": 0.07424926878627024,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.5443211581443946,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 0.399481039227386,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055,
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Mass",
+          "answer": 0.7853981633974483,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 0.5658842421045167,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1055,
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.375,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 0.5890486225480862,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.5092958178940651,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 0.5092958178940651,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 1.02313891987647,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 0.954929658551372,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Center of mass · x",
+          "answer": "2*a/5",
+          "options": [
+            "2*a/5",
+            "-2*a/5",
+            "4*a/5"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Center of mass · y",
+          "answer": "2*a/5",
+          "options": [
+            "2*a/5",
+            "4*a/5",
+            "-2*a/5"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-16": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 1.2645415579562869,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "I_x",
+          "answer": "2046*k/5",
+          "options": [
+            "-2046*k/5",
+            "4092*k/5",
+            "2046*k/5"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_y",
+          "answer": "182*k",
+          "options": [
+            "-182*k",
+            "364*k",
+            "182*k"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_0",
+          "answer": "2956*k/5",
+          "options": [
+            "2956*k/5",
+            "-2956*k/5",
+            "5912*k/5"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "I_x",
+          "answer": 0.0017066666666666667,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_y",
+          "answer": 0.02496,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_0",
+          "answer": 0.02666666666666667,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-19": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "I_x",
+          "answer": "7*a^6*k/180",
+          "options": [
+            "-7*a^6*k/180",
+            "7*a^6*k/90",
+            "7*a^6*k/180"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_y",
+          "answer": "7*a^6*k/180",
+          "options": [
+            "-7*a^6*k/180",
+            "7*a^6*k/90",
+            "7*a^6*k/180"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_0",
+          "answer": "7*a^6*k/90",
+          "options": [
+            "7*a^6*k/45",
+            "7*a^6*k/90",
+            "-7*a^6*k/90"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-20": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Harder axis",
+          "answer": "y-axis, because I_y > I_x",
+          "options": [
+            "Equal difficulty",
+            "x-axis, because I_x > I_y",
+            "y-axis, because I_y > I_x"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_x",
+          "answer": 5.866666666666666,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_y",
+          "answer": 6.133333333333334,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-21": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "I_x",
+          "answer": "b*h^3*rho/3",
+          "options": [
+            "-b*h^3*rho/3",
+            "2*b*h^3*rho/3",
+            "b*h^3*rho/3"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_y",
+          "answer": "b^3*h*rho/3",
+          "options": [
+            "-b^3*h*rho/3",
+            "2*b^3*h*rho/3",
+            "b^3*h*rho/3"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_0",
+          "answer": "b*h*rho*(b^2 + h^2)/3",
+          "options": [
+            "b*h*rho*(b^2 + h^2)/3",
+            "-b*h*rho*(b^2 + h^2)/3",
+            "2*b*h*rho*(b^2 + h^2)/3"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "x-radius of gyration sqrt(I_y/m)",
+          "answer": "sqrt(3)*b/3",
+          "options": [
+            "2*sqrt(3)*b/3",
+            "sqrt(3)*b/3",
+            "-sqrt(3)*b/3"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "y-radius of gyration sqrt(I_x/m)",
+          "answer": "sqrt(3)*h/3",
+          "options": [
+            "2*sqrt(3)*h/3",
+            "sqrt(3)*h/3",
+            "-sqrt(3)*h/3"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-22": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "I_x",
+          "answer": "b*h^3*rho/12",
+          "options": [
+            "b*h^3*rho/6",
+            "b*h^3*rho/12",
+            "-b*h^3*rho/12"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_y",
+          "answer": "b^3*h*rho/12",
+          "options": [
+            "b^3*h*rho/12",
+            "-b^3*h*rho/12",
+            "b^3*h*rho/6"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_0",
+          "answer": "b*h*rho*(b^2 + h^2)/12",
+          "options": [
+            "b*h*rho*(b^2 + h^2)/12",
+            "-b*h*rho*(b^2 + h^2)/12",
+            "b*h*rho*(b^2 + h^2)/6"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "x-radius of gyration sqrt(I_y/m)",
+          "answer": "sqrt(6)*b/6",
+          "options": [
+            "-sqrt(6)*b/6",
+            "sqrt(6)*b/6",
+            "sqrt(6)*b/3"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "y-radius of gyration sqrt(I_x/m)",
+          "answer": "sqrt(6)*h/6",
+          "options": [
+            "sqrt(6)*h/6",
+            "sqrt(6)*h/3",
+            "-sqrt(6)*h/6"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-23": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "I_x",
+          "answer": "pi*a^4*rho/16",
+          "options": [
+            "-pi*a^4*rho/16",
+            "pi*a^4*rho/16",
+            "pi*a^4*rho/8"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_y",
+          "answer": "pi*a^4*rho/16",
+          "options": [
+            "pi*a^4*rho/16",
+            "pi*a^4*rho/8",
+            "-pi*a^4*rho/16"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_0",
+          "answer": "pi*a^4*rho/8",
+          "options": [
+            "pi*a^4*rho/8",
+            "pi*a^4*rho/4",
+            "-pi*a^4*rho/8"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "x-radius of gyration sqrt(I_y/m)",
+          "answer": "a/2",
+          "options": [
+            "-a/2",
+            "a/2",
+            "a"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "y-radius of gyration sqrt(I_x/m)",
+          "answer": "a/2",
+          "options": [
+            "a",
+            "a/2",
+            "-a/2"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-24": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "I_x",
+          "answer": "4*rho/9",
+          "options": [
+            "-4*rho/9",
+            "8*rho/9",
+            "4*rho/9"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_y",
+          "answer": "rho*(-4 + pi^2)",
+          "options": [
+            "-rho*(-4 + pi^2)",
+            "rho*(-4 + pi^2)",
+            "2*rho*(-4 + pi^2)"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "I_0",
+          "answer": "rho*(-32 + 9*pi^2)/9",
+          "options": [
+            "-rho*(-32 + 9*pi^2)/9",
+            "2*rho*(-32 + 9*pi^2)/9",
+            "rho*(-32 + 9*pi^2)/9"
+          ],
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "x-radius of gyration sqrt(I_y/m)",
+          "answer": 1.713126440326189,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "y-radius of gyration sqrt(I_x/m)",
+          "answer": 0.4714045207910317,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-25": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Mass",
+          "answer": 0.14726215563702155,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 0.7095133489138059,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 0.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_x",
+          "answer": 0.002810916248379004,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_y",
+          "answer": 0.07900139243885519,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_0",
+          "answer": 0.0818123086872342,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-26": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Mass",
+          "answer": 0.03041538318987044,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · x",
+          "answer": 1.4204681875895815,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Center of mass · y",
+          "answer": 0.24801579644614213,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_x",
+          "answer": 0.0020122050258572477,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_y",
+          "answer": 0.06555616559026908,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "I_0",
+          "answer": 0.06756837061612633,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Integrate density for mass, xρ and yρ for first moments, y²ρ and x²ρ for inertias; divide first moments by mass. Any proportionality constant k is positive.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-27": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · C",
+          "answer": 0.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · P(X≤1,Y≤1)",
+          "answer": 0.375,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · P(X+Y≤1)",
+          "answer": 0.10416666666666667,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-28": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Density conditions",
+          "answer": "f≥0 and its integral over the unit square equals1",
+          "options": [
+            "Its integral equals4",
+            "It is negative on part of the square",
+            "f≥0 and its integral over the unit square equals1"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b(i) · P(X≥1/2)",
+          "answer": 0.75,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b(ii) · Joint probability",
+          "answer": 0.1875,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · E[X]",
+          "answer": 0.6666666666666666,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · E[Y]",
+          "answer": 0.6666666666666666,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-29": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Normalization",
+          "answer": "Nonnegative; (0.5∫₀∞e^(−0.5x)dx)(0.2∫₀∞e^(−0.2y)dy)=1",
+          "options": [
+            "Integral equals0.1",
+            "Nonnegative; (0.5∫₀∞e^(−0.5x)dx)(0.2∫₀∞e^(−0.2y)dy)=1",
+            "Integral diverges"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b(i) · P(Y≥1)",
+          "answer": 0.8187307530779818,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b(ii) · P(X≤2,Y≤4)",
+          "answer": 0.3480904829329226,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · E[X]",
+          "answer": 2.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "c · E[Y]",
+          "answer": 5.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056
+      ]
+    }
+  },
+  "calculus-section-15-4-30": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Both fail within1000hours",
+          "answer": 0.39957640089372803,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Assume independent exponential lifetimes; a uses the square of a CDF and b integrates over the trianglex+y≤1000.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Sum of lifetimes≤1000hours",
+          "answer": 0.26424111765711533,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Assume independent exponential lifetimes; a uses the square of a CDF and b integrates over the trianglex+y≤1000.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1056,
+        1057
+      ]
+    }
+  },
+  "calculus-section-15-4-31": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · Probability",
+          "answer": 0.5,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Standardize to independent normal coordinates; a is essentially half the mass, b is a radius√2 disk in the standard bivariate normal.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "b · Probability",
+          "answer": 0.6321205588285577,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Standardize to independent normal coordinates; a is essentially half the mass, b is a radius√2 disk in the standard bivariate normal.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1057
+      ]
+    }
+  },
+  "calculus-section-15-4-32": {
+    "grader": {
+      "type": "numeric",
+      "label": "Probability of meeting",
+      "answer": 0.019990012015450382,
+      "unit": "",
+      "tolerance": 1e-08,
+      "explanation": "They meet iff Y≤X≤Y+30. Integrate e^(−x)y/50 over0≤y≤10 and those x bounds.",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1057
+      ]
+    }
+  },
+  "calculus-section-15-4-33": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Exposure integral",
+          "answer": "(k/20)∫∫[x²+y²≤100](20−sqrt((x−x₀)²+(y−y₀)²))dA",
+          "options": [
+            "(k/20)∫∫[x²+y²≤100](20−sqrt((x−x₀)²+(y−y₀)²))dA",
+            "k∫∫[disk]distance dA",
+            "The exposure is zero everywhere"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · At center",
+          "answer": "200*pi*k/3",
+          "options": [
+            "400*pi*k/3",
+            "200*pi*k/3",
+            "-200*pi*k/3"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · At edge",
+          "answer": "k*(-1600/9 + 100*pi)",
+          "options": [
+            "2*k*(-1600/9 + 100*pi)",
+            "k*(-1600/9 + 100*pi)",
+            "-k*(-1600/9 + 100*pi)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Preference by exposure alone",
+          "answer": "Edge, since its exposure is lower",
+          "options": [
+            "Edge, since its exposure is lower",
+            "Exposure is constant",
+            "Center, since its exposure is lower"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 15,
+      "pages": [
+        1057
+      ]
+    }
+  }
+}

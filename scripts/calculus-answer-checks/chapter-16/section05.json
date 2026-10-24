@@ -1,0 +1,1651 @@
+{
+  "calculus-section-16-5-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curl",
+          "answer": "⟨0, 0, 0⟩",
+          "options": [
+            "⟨0, 0, 0⟩",
+            "⟨-1, -1, -1⟩",
+            "⟨1, 1, 1⟩"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Divergence",
+          "answer": "x^2*y^2 + x^2*z^2 + y^2*z^2",
+          "options": [
+            "2*x^2*y^2 + 2*x^2*z^2 + 2*y^2*z^2",
+            "x^2*y^2 + x^2*z^2 + y^2*z^2",
+            "-x^2*y^2 - x^2*z^2 - y^2*z^2"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curl",
+          "answer": "⟨-2*x^3*y*z + 4*y^3*z^3, 0, 3*x^2*y*z^2⟩",
+          "options": [
+            "⟨-2*x^3*y*z + 4*y^3*z^3 + 1, 1, 3*x^2*y*z^2 + 1⟩",
+            "⟨-2*x^3*y*z + 4*y^3*z^3, 0, 3*x^2*y*z^2⟩",
+            "⟨-2*x^3*y*z + 4*y^3*z^3 - 1, -1, 3*x^2*y*z^2 - 1⟩"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Divergence",
+          "answer": "x^3*z^2 + 3*y^4*z^2",
+          "options": [
+            "x^3*z^2 + 3*y^4*z^2",
+            "-x^3*z^2 - 3*y^4*z^2",
+            "2*x^3*z^2 + 6*y^4*z^2"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curl",
+          "answer": "⟨z*exp(x), x*y*exp(z) - y*z*exp(x), -x*exp(z)⟩",
+          "options": [
+            "⟨z*exp(x), x*y*exp(z) - y*z*exp(x), -x*exp(z)⟩",
+            "⟨z*exp(x) + 1, x*y*exp(z) - y*z*exp(x) + 1, -x*exp(z) + 1⟩",
+            "⟨z*exp(x) - 1, x*y*exp(z) - y*z*exp(x) - 1, -x*exp(z) - 1⟩"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Divergence",
+          "answer": "y*exp(x) + y*exp(z)",
+          "options": [
+            "2*y*exp(x) + 2*y*exp(z)",
+            "-y*exp(x) - y*exp(z)",
+            "y*exp(x) + y*exp(z)"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curl",
+          "answer": "⟨x*cos(x*y) - x*cos(x*z), -y*cos(x*y) + y*cos(y*z), z*cos(x*z) - z*cos(y*z)⟩",
+          "options": [
+            "⟨x*cos(x*y) - x*cos(x*z) - 1, -y*cos(x*y) + y*cos(y*z) - 1, z*cos(x*z) - z*cos(y*z) - 1⟩",
+            "⟨x*cos(x*y) - x*cos(x*z) + 1, -y*cos(x*y) + y*cos(y*z) + 1, z*cos(x*z) - z*cos(y*z) + 1⟩",
+            "⟨x*cos(x*y) - x*cos(x*z), -y*cos(x*y) + y*cos(y*z), z*cos(x*z) - z*cos(y*z)⟩"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Divergence",
+          "answer": "0",
+          "options": [
+            "0",
+            "0 − 1",
+            "0 + 1"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curl",
+          "answer": "⟨-sqrt(z)/(y + 1)^2, -sqrt(x)/(z + 1)^2, -sqrt(y)/(x + 1)^2⟩",
+          "options": [
+            "⟨-sqrt(z)/(y + 1)^2 - 1, -sqrt(x)/(z + 1)^2 - 1, -sqrt(y)/(x + 1)^2 - 1⟩",
+            "⟨-sqrt(z)/(y + 1)^2 + 1, -sqrt(x)/(z + 1)^2 + 1, -sqrt(y)/(x + 1)^2 + 1⟩",
+            "⟨-sqrt(z)/(y + 1)^2, -sqrt(x)/(z + 1)^2, -sqrt(y)/(x + 1)^2⟩"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Divergence",
+          "answer": "1/(2*sqrt(z)*(y + 1)) + 1/(2*sqrt(y)*(x + 1)) + 1/(2*sqrt(x)*(z + 1))",
+          "options": [
+            "1/(sqrt(z)*(y + 1)) + 1/(sqrt(y)*(x + 1)) + 1/(sqrt(x)*(z + 1))",
+            "-1/(2*sqrt(z)*(y + 1)) - 1/(2*sqrt(y)*(x + 1)) - 1/(2*sqrt(x)*(z + 1))",
+            "1/(2*sqrt(z)*(y + 1)) + 1/(2*sqrt(y)*(x + 1)) + 1/(2*sqrt(x)*(z + 1))"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curl",
+          "answer": "⟨-3/(x + 3*z) + 2/(x + 2*y), 3/(2*y + 3*z) - 1/(x + 2*y), -2/(2*y + 3*z) + 1/(x + 3*z)⟩",
+          "options": [
+            "⟨-1 - 3/(x + 3*z) + 2/(x + 2*y), -1 + 3/(2*y + 3*z) - 1/(x + 2*y), -1 - 2/(2*y + 3*z) + 1/(x + 3*z)⟩",
+            "⟨-3/(x + 3*z) + 2/(x + 2*y), 3/(2*y + 3*z) - 1/(x + 2*y), -2/(2*y + 3*z) + 1/(x + 3*z)⟩",
+            "⟨1 - 3/(x + 3*z) + 2/(x + 2*y), 1 + 3/(2*y + 3*z) - 1/(x + 2*y), 1 - 2/(2*y + 3*z) + 1/(x + 3*z)⟩"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Divergence",
+          "answer": "0",
+          "options": [
+            "0 + 1",
+            "0",
+            "0 − 1"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curl",
+          "answer": "⟨-exp(y)*cos(z), -exp(z)*cos(x), -exp(x)*cos(y)⟩",
+          "options": [
+            "⟨-exp(y)*cos(z) - 1, -exp(z)*cos(x) - 1, -exp(x)*cos(y) - 1⟩",
+            "⟨-exp(y)*cos(z), -exp(z)*cos(x), -exp(x)*cos(y)⟩",
+            "⟨-exp(y)*cos(z) + 1, -exp(z)*cos(x) + 1, -exp(x)*cos(y) + 1⟩"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Divergence",
+          "answer": "exp(x)*sin(y) + exp(y)*sin(z) + exp(z)*sin(x)",
+          "options": [
+            "-exp(x)*sin(y) - exp(y)*sin(z) - exp(z)*sin(x)",
+            "2*exp(x)*sin(y) + 2*exp(y)*sin(z) + 2*exp(z)*sin(x)",
+            "exp(x)*sin(y) + exp(y)*sin(z) + exp(z)*sin(x)"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Curl",
+          "answer": "⟨-y/(y^2*z^2 + 1), -z/(x^2*z^2 + 1), -x/(x^2*y^2 + 1)⟩",
+          "options": [
+            "⟨-y/(y^2*z^2 + 1) - 1, -z/(x^2*z^2 + 1) - 1, -x/(x^2*y^2 + 1) - 1⟩",
+            "⟨-y/(y^2*z^2 + 1), -z/(x^2*z^2 + 1), -x/(x^2*y^2 + 1)⟩",
+            "⟨-y/(y^2*z^2 + 1) + 1, -z/(x^2*z^2 + 1) + 1, -x/(x^2*y^2 + 1) + 1⟩"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Divergence",
+          "answer": "x/(x^2*z^2 + 1) + y/(x^2*y^2 + 1) + z/(y^2*z^2 + 1)",
+          "options": [
+            "x/(x^2*z^2 + 1) + y/(x^2*y^2 + 1) + z/(y^2*z^2 + 1)",
+            "-x/(x^2*z^2 + 1) - y/(x^2*y^2 + 1) - z/(y^2*z^2 + 1)",
+            "2*x/(x^2*z^2 + 1) + 2*y/(x^2*y^2 + 1) + 2*z/(y^2*z^2 + 1)"
+          ],
+          "explanation": "curlF=(R_y−Q_z,P_z−R_x,Q_x−P_y); divF=P_x+Q_y+R_z. Differentiate each component on its actual domain.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Divergence",
+          "answer": "Negative",
+          "options": [
+            "Zero",
+            "Negative",
+            "Positive"
+          ],
+          "explanation": "Divergence measures local spreading; curl follows the sign of local counterclockwise rotation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Curl",
+          "answer": "Zero",
+          "options": [
+            "Positive z-direction",
+            "Negative z-direction",
+            "Zero"
+          ],
+          "explanation": "Divergence measures local spreading; curl follows the sign of local counterclockwise rotation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Divergence",
+          "answer": "Positive",
+          "options": [
+            "Positive",
+            "Negative",
+            "Zero"
+          ],
+          "explanation": "Divergence measures local spreading; curl follows the sign of local counterclockwise rotation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Curl",
+          "answer": "Zero",
+          "options": [
+            "Negative z-direction",
+            "Positive z-direction",
+            "Zero"
+          ],
+          "explanation": "Divergence measures local spreading; curl follows the sign of local counterclockwise rotation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Divergence",
+          "answer": "Zero",
+          "options": [
+            "Zero",
+            "Negative",
+            "Positive"
+          ],
+          "explanation": "Divergence measures local spreading; curl follows the sign of local counterclockwise rotation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Curl",
+          "answer": "Negative z-direction",
+          "options": [
+            "Zero",
+            "Negative z-direction",
+            "Positive z-direction"
+          ],
+          "explanation": "Divergence measures local spreading; curl follows the sign of local counterclockwise rotation.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Expression type",
+          "answer": "Not defined: curl requires a vector field",
+          "options": [
+            "Always a nonzero vector",
+            "Not defined: curl requires a vector field",
+            "Always a nonzero scalar"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Expression type",
+          "answer": "Vector field",
+          "options": [
+            "Vector field",
+            "Not defined",
+            "Always a nonzero scalar"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Expression type",
+          "answer": "Scalar field",
+          "options": [
+            "Vector field",
+            "Always a nonzero vector",
+            "Scalar field"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · Expression type",
+          "answer": "Vector field (zero)",
+          "options": [
+            "Not defined",
+            "Always a nonzero scalar",
+            "Vector field (zero)"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "e · Expression type",
+          "answer": "Not defined in this vector-calculus convention: grad requires a scalar",
+          "options": [
+            "Always a nonzero vector",
+            "Not defined in this vector-calculus convention: grad requires a scalar",
+            "Always a nonzero scalar"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "f · Expression type",
+          "answer": "Vector field",
+          "options": [
+            "Always a nonzero scalar",
+            "Not defined",
+            "Vector field"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "g · Expression type",
+          "answer": "Scalar field",
+          "options": [
+            "Scalar field",
+            "Always a nonzero vector",
+            "Vector field"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "h · Expression type",
+          "answer": "Not defined: div requires a vector field",
+          "options": [
+            "Always a nonzero vector",
+            "Always a nonzero scalar",
+            "Not defined: div requires a vector field"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "i · Expression type",
+          "answer": "Vector field",
+          "options": [
+            "Not defined",
+            "Always a nonzero scalar",
+            "Vector field"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "j · Expression type",
+          "answer": "Not defined: div requires a vector field",
+          "options": [
+            "Always a nonzero vector",
+            "Not defined: div requires a vector field",
+            "Always a nonzero scalar"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "k · Expression type",
+          "answer": "Not defined: a vector cross scalar is undefined",
+          "options": [
+            "Not defined: a vector cross scalar is undefined",
+            "Always a nonzero scalar",
+            "Always a nonzero vector"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "l · Expression type",
+          "answer": "Scalar field (zero)",
+          "options": [
+            "Always a nonzero vector",
+            "Scalar field (zero)",
+            "Vector field"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 12,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Conservative?",
+          "answer": "Yes",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Potential",
+          "answer": "x*y^2*z^3 + C",
+          "options": [
+            "2*x*y^2*z^3 + C",
+            "x*y^2*z^3 + C",
+            "-x*y^2*z^3 + C"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Conservative?",
+          "answer": "No",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Cross-partial obstruction",
+          "answer": "P_y=xz⁴ but Q_x=2xz⁴",
+          "options": [
+            "Divergence must be zero",
+            "All cross partials agree",
+            "P_y=xz⁴ but Q_x=2xz⁴"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Conservative?",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Cross-partial obstruction",
+          "answer": "P_y=−z sin y but Q_x=z sin y",
+          "options": [
+            "P_y=−z sin y but Q_x=z sin y",
+            "All cross partials agree",
+            "Divergence must be zero"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-16": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Conservative?",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Potential",
+          "answer": "x + y*sin(z) + C",
+          "options": [
+            "-x - y*sin(z) + C",
+            "x + y*sin(z) + C",
+            "2*x + 2*y*sin(z) + C"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Conservative?",
+          "answer": "Yes",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Potential",
+          "answer": "x*exp(y*z) + C",
+          "options": [
+            "-x*exp(y*z) + C",
+            "x*exp(y*z) + C",
+            "2*x*exp(y*z) + C"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Conservative?",
+          "answer": "Yes",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "Potential",
+          "answer": "exp(x)*sin(y*z) + C",
+          "options": [
+            "exp(x)*sin(y*z) + C",
+            "2*exp(x)*sin(y*z) + C",
+            "-exp(x)*sin(y*z) + C"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-19": {
+    "grader": {
+      "type": "choice",
+      "label": "Can such G exist?",
+      "answer": "No: divergence of the proposed curl equals1",
+      "options": [
+        "Yes because every vector field is a curl",
+        "No: divergence of the proposed curl equals1",
+        "Yes because the proposed divergence is0"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-20": {
+    "grader": {
+      "type": "choice",
+      "label": "Can such G exist?",
+      "answer": "No: divergence of⟨x,y,z⟩ is3, whereas div(curlG)=0",
+      "options": [
+        "Yes, G=⟨x²,y²,z²⟩/2",
+        "Yes, G=⟨y,z,x⟩",
+        "No: divergence of⟨x,y,z⟩ is3, whereas div(curlG)=0"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-21": {
+    "grader": {
+      "type": "choice",
+      "label": "Curl",
+      "answer": "Zero: all cross-coordinate derivatives vanish",
+      "options": [
+        "Zero: all cross-coordinate derivatives vanish",
+        "⟨f′,g′,h′⟩",
+        "f′+g′+h′"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140
+      ]
+    }
+  },
+  "calculus-section-16-5-22": {
+    "grader": {
+      "type": "choice",
+      "label": "Divergence",
+      "answer": "Zero: P_x=Q_y=R_z=0",
+      "options": [
+        "f_y+g_z+h_x",
+        "Always3",
+        "Zero: P_x=Q_y=R_z=0"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1140,
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-23": {
+    "grader": {
+      "type": "choice",
+      "label": "Verified identity and key step",
+      "answer": "div(F+G)=divF+divG by linearity of component derivatives",
+      "options": [
+        "div(F+G)=divF+divG by linearity of component derivatives",
+        "Replace the final plus sign by minus and the final minus sign by plus",
+        "The identity holds only when every field is constant"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-24": {
+    "grader": {
+      "type": "choice",
+      "label": "Verified identity and key step",
+      "answer": "curl(F+G)=curlF+curlG by linearity of component derivatives",
+      "options": [
+        "curl(F+G)=curlF+curlG by linearity of component derivatives",
+        "The identity holds only when every field is constant",
+        "Replace the final plus sign by minus and the final minus sign by plus"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-25": {
+    "grader": {
+      "type": "choice",
+      "label": "Verified identity and key step",
+      "answer": "div(fF)=f divF+F·∇f by the product rule",
+      "options": [
+        "div(fF)=f divF+F·∇f by the product rule",
+        "Replace the final plus sign by minus and the final minus sign by plus",
+        "The identity holds only when every field is constant"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-26": {
+    "grader": {
+      "type": "choice",
+      "label": "Verified identity and key step",
+      "answer": "curl(fF)=f curlF+(∇f)×F by the product rule",
+      "options": [
+        "The identity holds only when every field is constant",
+        "Replace the final plus sign by minus and the final minus sign by plus",
+        "curl(fF)=f curlF+(∇f)×F by the product rule"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-27": {
+    "grader": {
+      "type": "choice",
+      "label": "Verified identity and key step",
+      "answer": "div(F×G)=G·curlF−F·curlG by expanding the determinant and regrouping",
+      "options": [
+        "The identity holds only when every field is constant",
+        "div(F×G)=G·curlF−F·curlG by expanding the determinant and regrouping",
+        "Replace the final plus sign by minus and the final minus sign by plus"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-28": {
+    "grader": {
+      "type": "choice",
+      "label": "Verified identity and key step",
+      "answer": "div(∇f×∇g)=∇g·curl∇f−∇f·curl∇g=0",
+      "options": [
+        "div(∇f×∇g)=∇g·curl∇f−∇f·curl∇g=0",
+        "The identity holds only when every field is constant",
+        "Replace the final plus sign by minus and the final minus sign by plus"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-29": {
+    "grader": {
+      "type": "choice",
+      "label": "Verified identity and key step",
+      "answer": "curl(curlF)=∇(divF)−∇²F using equality of continuous mixed partials",
+      "options": [
+        "Replace the final plus sign by minus and the final minus sign by plus",
+        "The identity holds only when every field is constant",
+        "curl(curlF)=∇(divF)−∇²F using equality of continuous mixed partials"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-30": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a · ∇·r",
+          "answer": 3.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · ∇·(r r-vector)",
+          "answer": "4r",
+          "options": [
+            "3r",
+            "4r",
+            "r"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · ∇²(r³)",
+          "answer": "12r",
+          "options": [
+            "6r",
+            "12r",
+            "9r"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-31": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · ∇r",
+          "answer": "r-vector/r",
+          "options": [
+            "r-vector/r",
+            "r-vector/r²",
+            "r-vector"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · ∇×r",
+          "answer": "⟨0, 0, 0⟩",
+          "options": [
+            "⟨-1, -1, -1⟩",
+            "⟨1, 1, 1⟩",
+            "⟨0, 0, 0⟩"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · ∇(1/r)",
+          "answer": "−r-vector/r³",
+          "options": [
+            "−r-vector/r³",
+            "−r-vector/r²",
+            "r-vector/r³"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d · ∇lnr",
+          "answer": "r-vector/r²",
+          "options": [
+            "−r-vector/r²",
+            "r-vector/r²",
+            "r-vector/r"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-32": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Divergence",
+          "answer": "(3−p)/r^p, r>0",
+          "options": [
+            "(3+p)/r^p",
+            "(3−p)/r^p, r>0",
+            "p/r³"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "p for zero divergence",
+          "answer": 3.0,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-33": {
+    "grader": {
+      "type": "choice",
+      "label": "Apply flux Green theorem to",
+      "answer": "f∇g, whose divergence is∇f·∇g+f∇²g",
+      "options": [
+        "∇f×∇g",
+        "f∇g, whose divergence is∇f·∇g+f∇²g",
+        "f+g"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-34": {
+    "grader": {
+      "type": "choice",
+      "label": "Derivation",
+      "answer": "Subtract first identities for(f,g) and(g,f); ∇f·∇g terms cancel",
+      "options": [
+        "Set f=g=0 in the first identity",
+        "Add the two first identities",
+        "Subtract first identities for(f,g) and(g,f); ∇f·∇g terms cancel"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-35": {
+    "grader": {
+      "type": "choice",
+      "label": "Boundary normal integral",
+      "answer": "0: set f=1 in the first identity and use∇²g=0",
+      "options": [
+        "0: set f=1 in the first identity and use∇²g=0",
+        "Area(D)",
+        "Length(C)"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-36": {
+    "grader": {
+      "type": "choice",
+      "label": "Energy integral",
+      "answer": "0: set g=f; boundary term vanishes since f=0 on C, and volume term since∇²f=0",
+      "options": [
+        "Always positive",
+        "Area(D)",
+        "0: set g=f; boundary term vanishes since f=0 on C, and volume term since∇²f=0"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-37": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a · Velocity",
+          "answer": "v=w×r, perpendicular to w and r with magnitudeωd",
+          "options": [
+            "v=r×w",
+            "v=w×r, perpendicular to w and r with magnitudeωd",
+            "v=w·r"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b · Components",
+          "answer": "⟨−ωy,ωx,0⟩",
+          "options": [
+            "⟨ωx,ωy,0⟩",
+            "⟨−ωy,ωx,0⟩",
+            "⟨ωy,−ωx,0⟩"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c · Curl",
+          "answer": "2w=⟨0,0,2ω⟩",
+          "options": [
+            "−2w",
+            "2w=⟨0,0,2ω⟩",
+            "w"
+          ],
+          "explanation": "",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141
+      ]
+    }
+  },
+  "calculus-section-16-5-38": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a",
+          "answer": "curl(curlE)=−E_tt/c²",
+          "options": [
+            "The right side has the opposite sign",
+            "The factor is c² instead of1/c²",
+            "curl(curlE)=−E_tt/c²"
+          ],
+          "explanation": "Commute time derivatives with curl and substitute Maxwell equations; divE=divH=0 in the curl-curl identity.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "b",
+          "answer": "curl(curlH)=−H_tt/c²",
+          "options": [
+            "The right side has the opposite sign",
+            "curl(curlH)=−H_tt/c²",
+            "The factor is c² instead of1/c²"
+          ],
+          "explanation": "Commute time derivatives with curl and substitute Maxwell equations; divE=divH=0 in the curl-curl identity.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "c",
+          "answer": "∇²E=E_tt/c²",
+          "options": [
+            "∇²E=E_tt/c²",
+            "The right side has the opposite sign",
+            "The factor is c² instead of1/c²"
+          ],
+          "explanation": "Commute time derivatives with curl and substitute Maxwell equations; divE=divH=0 in the curl-curl identity.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "choice",
+          "label": "d",
+          "answer": "∇²H=H_tt/c²",
+          "options": [
+            "The factor is c² instead of1/c²",
+            "The right side has the opposite sign",
+            "∇²H=H_tt/c²"
+          ],
+          "explanation": "Commute time derivatives with curl and substitute Maxwell equations; divE=divH=0 in the curl-curl identity.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1141,
+        1142
+      ]
+    }
+  },
+  "calculus-section-16-5-39": {
+    "grader": {
+      "type": "choice",
+      "label": "Construction",
+      "answer": "Every continuous f works: G=(∫₀ˣ f(t,y,z)dt,0,0) has divG=f",
+      "options": [
+        "Every continuous f works: G=(∫₀ˣ f(t,y,z)dt,0,0) has divG=f",
+        "Only constant f can be a divergence",
+        "Only harmonic f can be a divergence"
+      ],
+      "explanation": "",
+      "provenance": "explicit-source-inspected-original-answer-contract",
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals, 8e",
+      "chapter": 16,
+      "pages": [
+        1142
+      ]
+    }
+  }
+}

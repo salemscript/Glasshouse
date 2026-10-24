@@ -1,0 +1,25 @@
+from common import *
+row=lambda k,*fs,**kw:A.row(7,k,*fs,**kw)
+for num,pairs in[(1,[(4,pi/3,-2),(2,-pi/2,1)]),(2,[(s.sqrt(2),3*pi/4,2),(1,1,1)])]:row(num,*[n(part+' · '+axis,value) for part,(rr,tt,zz) in zip(['a','b'],pairs) for axis,value in zip(['x','y','z'],[rr*s.cos(tt),rr*s.sin(tt),zz])],limited=True,why='x=r cosθ,y=r sinθ; keepz unchanged and plot these Cartesian coordinates.')
+for num,pairs in[(3,[(s.sqrt(2),3*pi/4,1),(4,2*pi/3,3)]),(4,[(2,3*pi/4,1),(2*s.sqrt(2),pi/4,2)])]:row(num,*[n(part+' · '+axis,value) for part,vals in zip(['a','b'],pairs) for axis,value in zip(['r','θ in radians,0≤θ<2π','z'],vals)])
+for num,ans,wrong in[(5,'Circular cylinder radius2 about z-axis','Sphere radius2'),(6,'Vertical half-plane at azimuthπ/6, includingz-axis','Full plane with both opposite azimuths'),(7,'Spherex²+y²+z²=4, radius2','Cylinder radius2'),(8,'Cylinderx²+(y−1)²=1, parallel toz-axis','Sphere centered at(0,1,0)')]:row(num,c('Surface',ans,wrong,'A single point'))
+row(9,c('a · Cylindrical equation','r²−r cosθ+z²=1','r²+z²=1','r−cosθ+z=1'),c('b · Cylindrical equation','z=r²cos(2θ)','z=r²','z=r cosθ'))
+row(10,c('a · Cylindrical equation','2r²−z²=4','r²+z²=4','2r−z=4'),c('b · Cylindrical equation','2r cosθ−r sinθ+z=1','2r−rθ+z=1','r²+z=1'))
+for num,ans in[(11,'Between upwardz=r² and downwardz=8−r² paraboloids,0≤r≤2'),(12,'First-quadrant quarter cone:0≤θ≤π/2,0≤r≤2,r≤z≤2'),(14,'Betweenz=r² andz=5−r²; intersectionr=sqrt(5/2),z=5/2')]:row(num,c('Solid description',ans,'Full sphere','Cylinder with constant upper and lower heights'),limited=True)
+row(13,c('Shell inequalities and placement','6≤r≤7,0≤θ≤2π,0≤z≤20(cm); z-axis along the shell, origin at center of one end','0≤r≤7,0≤z≤20','6≤z≤7,0≤r≤20'),limited=True)
+for num,ans,val in[(15,'Half-solidx≥0 underz=r² and abovez=0,0≤r≤2',4*pi),(16,'Inside radius2 cylinder, abovez=0 and belowz=r',16*pi/3)]:row(num,c('Solid',ans,'A sphere','A full constant-height cylinder'),n('Volume',val),limited=True)
+cases={17:(r*r,[(z,-5,4),(r,0,4),(theta,0,2*pi)]),18:(z*r,[(z,r*r,4),(r,0,2),(theta,0,2*pi)]),19:((r*s.cos(theta)+r*s.sin(theta)+z)*r,[(z,0,4-r*r),(r,0,2),(theta,0,pi/2)]),20:((r*s.cos(theta)-r*s.sin(theta))*r,[(z,0,r*s.sin(theta)+4),(r,1,4),(theta,0,2*pi)]),21:(r**3*s.cos(theta)**2,[(z,0,2*r),(r,0,1),(theta,0,2*pi)]),22:(2*s.sqrt(4-r*r)*r,[(r,0,1),(theta,0,2*pi)]),23:((s.sqrt(2-r*r)-r)*r,[(r,0,1),(theta,0,2*pi)]),24:((s.sqrt(2-r*r)-r*r)*r,[(r,0,1),(theta,0,2*pi)]),29:(r*r*s.cos(theta)*z,[(z,r,2),(r,0,2),(theta,0,2*pi)]),30:(r*r,[(z,0,9-r*r),(r,0,3),(theta,0,pi)])}
+for num,(expr,bounds) in cases.items():integral(7,num,expr,bounds,label='Volume' if 22<=num<=24 else 'Integral')
+vol=s.integrate((24-r*r-2*r)*r,(r,0,4))*2*pi;moment=s.integrate(((24-r*r)**2-4*r*r)/2*r,(r,0,4))*2*pi
+row(25,n('a · Volume',vol),n('b · Centroid x',0),n('b · Centroid y',0),n('b · Centroid z',moment/vol),why='Surfaces intersect atr=4; rotational symmetry fixesx̄=ȳ=0.')
+row(26,f('a · Volume',a**3*(2*pi/3-R(8,9))),c('b · Solid','Inside sphere radiusa and cylinder(x−a/2)²+y²≤a²/4','Sphere with a centered axial hole','Half of the entire sphere'),limited=True)
+row(27,f('Mass(K denoted k)',k*pi*a*a/8),n('Center · x',0),n('Center · y',0),f('Center · z',2*a/3))
+row(28,f('Mass',k*pi*pi*a**4/4),why='Densitykr gives mass4πk∫₀ᵃr²sqrt(a²−r²)dr.')
+row(31,c('a · Work integral','W=∫∫∫[mountain] g(P)h(P)dV','W=∫∫∫g(P)dV','W=∫∫∫h(P)dV'),n('b · Work',200*pi*62000**2*12400**2/12,'ft·lb'),why='Each weight element is lifted to heightz; the mean height of a uniform cone above its base ish/4.')
+suffix='-project-discovery-project-the-intersection-of-three-cylinders-1'
+row(1,c('Faces and solid','x²+y²≤1,x²+z²≤1,y²+z²≤1; boundary patches lie on each corresponding cylinder','Unit sphere','Intersection of only the first two cylinders'),limited=True,suffix=suffix)
+row(2,n('Volume',16-8*s.sqrt(2)),suffix=suffix,why='Use48 congruent regions0≤z≤y≤x withx²+y²≤1; integrate their volume.')
+row(3,c('Edge curves','For each permutation of coordinates:(±sqrt(1−t²),±t,±t), |t|≤1/sqrt2, retaining pairwise-cylinder intersections on all three solids','Three great circles of the unit sphere','Twelve straight edges of a cube'),limited=True,suffix=suffix,why='Two equal-radius cylinders imply equality of the squared unmatched coordinates. The third inequality limits the equal coordinate magnitude.')
+row(4,c('Effect of changing first radius a','a<1 trims the solid;1<a<sqrt2 enlarges it; a≥sqrt2 makes the first cylinder redundant','Any a>1 removes all boundaries','The shape never changes'),limited=True,suffix=suffix)
+row(5,c('Integral for0<a<1','∫∫[x²+y²≤a²]2sqrt(1−max(x²,y²))dA','∫∫[x²+y²≤a²]2sqrt(1−x²−y²)dA','∫∫[x²+y²≤a²]2dA'),c('Integral fora>1','Same integrand over{x²+y²≤a²,|x|≤1,|y|≤1}; for a≥sqrt2 use the whole square[−1,1]²','Same disk integral without restricting|x|,|y|','The volume is zero'),limited=True,suffix=suffix)
+save('section07')

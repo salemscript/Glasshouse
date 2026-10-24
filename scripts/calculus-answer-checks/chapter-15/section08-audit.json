@@ -1,0 +1,303 @@
+{
+  "notes": {
+    "calculus-section-15-8-1": "Usex=ρsinφcosθ,y=ρsinφsinθ,z=ρcosφ and plot the resulting point.",
+    "calculus-section-15-8-2": "Usex=ρsinφcosθ,y=ρsinφsinθ,z=ρcosφ and plot the resulting point.",
+    "calculus-section-15-8-3": "",
+    "calculus-section-15-8-4": "",
+    "calculus-section-15-8-5": "",
+    "calculus-section-15-8-6": "",
+    "calculus-section-15-8-7": "",
+    "calculus-section-15-8-8": "",
+    "calculus-section-15-8-9": "",
+    "calculus-section-15-8-10": "",
+    "calculus-section-15-8-11": "",
+    "calculus-section-15-8-12": "",
+    "calculus-section-15-8-13": "",
+    "calculus-section-15-8-14": "",
+    "calculus-section-15-8-15": "",
+    "calculus-section-15-8-16": "",
+    "calculus-section-15-8-17": "",
+    "calculus-section-15-8-18": "",
+    "calculus-section-15-8-19": "The figure shows a quarter cylinder with radius3 and height2.",
+    "calculus-section-15-8-20": "The figure is the upper spherical shell1≤ρ≤2 with its first-octant wedge removed. Independently reviewed against the original diagram.",
+    "calculus-section-15-8-21": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-22": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-23": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-24": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-25": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-26": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-27": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-30": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-39": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-41": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-43": "Integrate the inner variable first, then use the stated outer bounds; include the Jacobian when coordinates change.",
+    "calculus-section-15-8-28": "",
+    "calculus-section-15-8-29": "Use0≤ρ≤4cosφ and0≤φ≤π/3; divide thez moment21π by volume10π.",
+    "calculus-section-15-8-31": "Example4 uses0≤ρ≤cosφ,0≤φ≤π/4. Its volume isπ/8; integrateρcosφ for thez moment.",
+    "calculus-section-15-8-32": "Place the hemisphere abovez=0; densitykρ and spherical Jacobianρ²sinφ.",
+    "calculus-section-15-8-33": "For uniform densityk, hemisphere mass2πka³/3 and moment about a base diameter is(2/5)Ma².",
+    "calculus-section-15-8-34": "Density is kz=kρcosφ on the upper hemisphere.",
+    "calculus-section-15-8-35": "Use0≤ρ≤1,0≤φ≤π/4; firstz moment isπ/8.",
+    "calculus-section-15-8-36": "The wedge occupies1/12 of the full azimuth, so its volume is1/12 of4πa³/3.",
+    "calculus-section-15-8-37": "",
+    "calculus-section-15-8-38": "",
+    "calculus-section-15-8-40": "",
+    "calculus-section-15-8-42": "Integrandz(x²+y²+z²) is odd inz over the centered ball.",
+    "calculus-section-15-8-44": "Integrate the given density against4πρ²dρ using meters throughout.",
+    "calculus-section-15-8-45": "",
+    "calculus-section-15-8-46": "Use Earth radius3960mi and the central angle from the dot product of the latitude/longitude unit vectors; source cities are LosAngeles andMontréal.",
+    "calculus-section-15-8-47": "Volume=(1/3)∫₀²π∫₀π[1+(1/5)sin6θsin5φ]³sinφdφdθ. Odd powers ofsin6θ vanish; ∫sin²5φsinφ=100/99.",
+    "calculus-section-15-8-48": "Use4π∫₀∞ρ³e^(−ρ²)dρ=2π.",
+    "calculus-section-15-8-49": "Integrateρ²sinφ exactly, then apply the one-variable mean value theorem to each radial and polar factor.",
+    "calculus-section-15-8-1-project-applied-project-roller-derby-1": "Useω=v/r in mgh=mv²/2+Iω²/2.",
+    "calculus-section-15-8-2-project-applied-project-roller-derby-1": "",
+    "calculus-section-15-8-3-project-applied-project-roller-derby-1": "For a release at rest without an artificial delay, integrate the ODE; y=g sin²α t²/[2(1+I*)].",
+    "calculus-section-15-8-4-project-applied-project-roller-derby-1": "",
+    "calculus-section-15-8-5-project-applied-project-roller-derby-1": "",
+    "calculus-section-15-8-6-project-applied-project-roller-derby-1": ""
+  },
+  "integrals": [
+    {
+      "id": "8.21",
+      "integrand": "rho**6*sin(phi)",
+      "bounds": [
+        [
+          "rho",
+          "0",
+          "5"
+        ],
+        [
+          "phi",
+          "0",
+          "pi"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "312500*pi/7"
+    },
+    {
+      "id": "8.22",
+      "integrand": "rho**6*sin(phi)**3*sin(theta)**2*cos(phi)**2",
+      "bounds": [
+        [
+          "rho",
+          "0",
+          "1"
+        ],
+        [
+          "phi",
+          "0",
+          "pi/3"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "47*pi/3360"
+    },
+    {
+      "id": "8.23",
+      "integrand": "rho**4*sin(phi)**3",
+      "bounds": [
+        [
+          "rho",
+          "2",
+          "3"
+        ],
+        [
+          "phi",
+          "0",
+          "pi"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "1688*pi/15"
+    },
+    {
+      "id": "8.24",
+      "integrand": "rho**4*sin(phi)**3*sin(theta)**2",
+      "bounds": [
+        [
+          "rho",
+          "0",
+          "3"
+        ],
+        [
+          "phi",
+          "0",
+          "pi"
+        ],
+        [
+          "theta",
+          "0",
+          "pi"
+        ]
+      ],
+      "result": "162*pi/5"
+    },
+    {
+      "id": "8.25",
+      "integrand": "rho**3*exp(rho**2)*sin(phi)**2*cos(theta)",
+      "bounds": [
+        [
+          "rho",
+          "0",
+          "1"
+        ],
+        [
+          "phi",
+          "0",
+          "pi/2"
+        ],
+        [
+          "theta",
+          "0",
+          "pi/2"
+        ]
+      ],
+      "result": "pi/8"
+    },
+    {
+      "id": "8.26",
+      "integrand": "rho**3*sin(phi)",
+      "bounds": [
+        [
+          "rho",
+          "1",
+          "2"
+        ],
+        [
+          "phi",
+          "0",
+          "pi/4"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "2*pi*(15/4 - 15*sqrt(2)/8)"
+    },
+    {
+      "id": "8.27",
+      "integrand": "rho**2*sin(phi)",
+      "bounds": [
+        [
+          "rho",
+          "0",
+          "a"
+        ],
+        [
+          "phi",
+          "pi/6",
+          "pi/3"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "2*pi*(-a**3/6 + sqrt(3)*a**3/6)"
+    },
+    {
+      "id": "8.30",
+      "integrand": "rho**2*sin(phi)",
+      "bounds": [
+        [
+          "rho",
+          "0",
+          "2"
+        ],
+        [
+          "phi",
+          "pi/4",
+          "pi/2"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "8*sqrt(2)*pi/3"
+    },
+    {
+      "id": "8.39",
+      "integrand": "r*z",
+      "bounds": [
+        [
+          "z",
+          "r**2",
+          "2*r*sin(theta)"
+        ],
+        [
+          "r",
+          "0",
+          "2*sin(theta)"
+        ],
+        [
+          "theta",
+          "0",
+          "pi"
+        ]
+      ],
+      "result": "5*pi/6"
+    },
+    {
+      "id": "8.41",
+      "integrand": "rho**4*sin(phi)**3*sin(theta)*cos(theta)",
+      "bounds": [
+        [
+          "rho",
+          "0",
+          "sqrt(2)"
+        ],
+        [
+          "phi",
+          "0",
+          "pi/4"
+        ],
+        [
+          "theta",
+          "0",
+          "pi/2"
+        ]
+      ],
+      "result": "-1/3 + 4*sqrt(2)/15"
+    },
+    {
+      "id": "8.43",
+      "integrand": "rho**5*sin(phi)",
+      "bounds": [
+        [
+          "rho",
+          "0",
+          "4*cos(phi)"
+        ],
+        [
+          "phi",
+          "0",
+          "pi/2"
+        ],
+        [
+          "theta",
+          "0",
+          "2*pi"
+        ]
+      ],
+      "result": "4096*pi/21"
+    }
+  ]
+}

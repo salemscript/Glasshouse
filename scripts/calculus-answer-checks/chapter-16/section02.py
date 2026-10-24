@@ -1,0 +1,31 @@
+from common import *
+row=lambda k,*fs,**kw:A.row(2,k,*fs,**kw)
+vals={1:line(y,[t*t,2*t],0,3,True),2:line(x/y,[t**3,t**4],1,2,True),3:line(x*y**4,[4*s.cos(t),4*s.sin(t)],-pi/2,pi/2,True),4:seg(x*s.exp(y),[2,0],[5,4],True),5:line([0,x*x*y+s.sin(x)],[t,t*t],0,pi),6:s.E-1/s.E,7:seg([x+2*y,x*x],[0,0],[2,1])+seg([x+2*y,x*x],[2,1],[3,0]),8:R(83,3),9:line(x*x*y,[s.cos(t),s.sin(t),t],0,pi/2,True),10:seg(y*y*z,[3,1,2],[1,2,5],True),11:seg(x*s.exp(y*z),[0,0,0],[1,2,3],True),12:line(x*x+y*y+z*z,[t,s.cos(2*t),s.sin(2*t)],0,2*pi,True),13:line([0,x*y*s.exp(y*z),0],[t,t*t,t**3],0,1),14:line([y,z,x],[s.sqrt(t),t,t*t],1,4),15:seg([z*z,x*x,y*y],[1,0,0],[4,1,2]),16:2,19:line([x*y*y,-x*x],[t**3,t*t],0,1),20:line([x+y*y,x*z,y+z],[t*t,t**3,-2*t],0,2),21:line([s.sin(x),s.cos(y),x*z],[t**3,-t*t,t],0,1),22:line([x,y,x*y],[s.cos(t),s.sin(t),t],0,pi),23:line([s.sqrt(x+y),y/x],[s.sin(t)**2,s.sin(t)*s.cos(t)],pi/6,pi/3),24:line([y*z*s.exp(x),z*x*s.exp(y),x*y*s.exp(z)],[s.sin(t),s.cos(t),s.tan(t)],0,pi/4),25:line(x*y*s.atan(z),[t*t,t**3,s.sqrt(t)],1,2,True),26:line(z*s.log(x+y),[1+3*t,2+t*t,t**4],-1,1,True),27:line([x-y,x*y],[2*s.cos(t),2*s.sin(t)],0,3*pi/2),28:0,29:1-1/s.E+R(3,8),30:-2,31:line(x**3*y*y*z,[s.exp(-t)*s.cos(4*t),s.exp(-t)*s.sin(4*t),s.exp(-t)],0,2*pi,True),32:0,39:2*pi*pi,40:R(7,3)+(s.exp(2)-s.E)/2,41:seg([x-y*y,y-z*z,z-x*x],[0,0,1],[2,1,0]),45:16650,46:16245,48:1.6*pi}
+for k,val in vals.items():
+ fs=[n('Line integral' if k<33 else 'Work' if k in(39,40,41,45,46) else 'Paint required',val, 'ft·lb' if k in(45,46) else 'L' if k==48 else '',tol=0.000051 if k in(23,24,25,26) else None)]
+ if k in(27,28):fs.append(c('Sign','Positive' if k==27 else 'Zero','Negative','Zero' if k==27 else 'Positive'))
+ if k==29:fs.append(c('b · Sample field vectors','At t=0:⟨e^−1,0⟩; t=1/√2:⟨e^−1/2,1/(4√2)⟩; t=1:⟨1,1⟩','All vectors are zero','All vectors equal⟨1,1⟩'))
+ if k==30:fs.append(c('b · Sample field vectors','F(r(t))=⟨2t,t²,3t⟩ at t=±1,±1/2','F(r(t))=⟨t,−t,0⟩','F(r(t))=⟨1,1,1⟩'))
+ if k==32:fs.append(c('b · Why zero','F=x⟨x,y⟩ is radial and perpendicular to the circle tangent','F is tangent to the circle everywhere','F is zero everywhere on the circle'))
+ if k==48:fs.append(c('Fence height','h(t)=4+cos2t, ranging3–5m','h(t)=4+sin t, ranging0–4m','Constant4m'))
+ row(k,*fs,limited=k in(27,28,29,30,32,48),why='Parametrize the oriented curve. Scalar integrals use |r′|dt; work uses F(r(t))·r′dt. Piecewise curves add their contributions.')
+row(17,c('a · Vertical segment','Positive','Negative','Zero'),c('b · Counterclockwise circle','Negative','Positive','Zero'),limited=True,why='The pictured field is clockwise: upward on the left, opposite a counterclockwise tangent.')
+row(18,c('C₁','Positive','Negative','Zero'),c('C₂','Negative','Positive','Zero'),limited=True,why='Compare each oriented curve tangent to the local plotted arrows.')
+k,a,m,b,cc,K=s.symbols('k a m b c K',positive=True)
+row(33,f('Mass',2*pi*k),n('x̄',4/pi),n('ȳ',0),why='Uniform semicircle radius2 has length2π; symmetry givesȳ=0.')
+row(34,f('Mass',k*a**3/2),f('x̄',2*a/3),f('ȳ',2*a/3))
+row(35,c('a · Center-of-mass formulas','m=∫ρds; (x̄,ȳ,z̄)=(∫xρds,∫yρds,∫zρds)/m','Divide each moment by curve length even for variable density','Use∫ρdx instead of∫ρds'),n('b · x̄',0),n('b · ȳ',0),n('b · z̄',3*pi))
+D=2*pi+8*pi**3/3
+row(36,n('Mass',s.sqrt(2)*D),n('x̄',(4*pi**4+2*pi*pi)/D),n('ȳ',4*pi/D),n('z̄',-4*pi*pi/D),why='ρ=t²+1, ds=√2dt; compute each first moment over0≤t≤2π.')
+row(37,f('Iₓ',k*(pi/2-R(4,3))),f('Iᵧ',k*(pi/2-R(2,3))),why='Example3 uses upper unit semicircle andρ=k(1−y); integrate k sin²t(1−sin t) and k cos²t(1−sin t) over0≤t≤π.')
+row(38,f('Iₓ',k*s.sqrt(13)*(4*pi+24*pi**3)),f('Iᵧ',k*s.sqrt(13)*(4*pi+24*pi**3)),f('I_z',8*pi*k*s.sqrt(13)),why='Use the radius2 helix and constantdensityk of35; ds=√13dt, z=3t.')
+row(42,f('Work',K*(R(1,2)-1/s.sqrt(30))),why='Potential is−K/r; work is potential at endpoint minus start.')
+row(43,cv('a · Force',[2*m*a,6*m*b*t]),f('b · Work',m*(4*a*a+9*b*b)/2),why='F=mr″; work is change in kinetic energy.')
+row(44,f('Work',m*(b*b-a*a)/2),why='Kinetic energy changes fromm(a²+c²)/2 tom(b²+c²)/2.')
+row(47,n('a · Work',0),c('b · Radial linear field','Yes, work is zero because k⟨x,y⟩ is perpendicular to the circle tangent','No, work is2πk','No, work isπk'),limited=True)
+row(49,c('Fundamental step','∫v·r′dt=v·[r(b)−r(a)] since v is constant','∫v·dr=v·[r(b)+r(a)]','Integral depends only on curve length'),limited=True)
+row(50,c('Derivative identity','d(|r|²)/dt=2r·r′; integrate and divide by2','d(|r|²)/dt=r·r′','d(|r|²)/dt=|r′|²'),limited=True)
+row(51,n('Estimated work',22,'J',tol=3),limited=True,why='Use four horizontal segments of length2 with horizontal force components about2,2,2,2, and three vertical segments of length2 with vertical components about1,1,1: about22J; endpoint sampling alternatives differ. See source estimate audit.')
+row(52,c('Circle integral','∮B·dr=B(2πr)=μ₀I, so B=μ₀I/(2πr)','B=μ₀I·2πr','B=μ₀I/(πr²)'),limited=True)
+savepart('section02')
+(ROOT/'scripts/calculus-answer-checks/chapter-16/section02-integrals.json').write_text(json.dumps(A.integrals,indent=2))
