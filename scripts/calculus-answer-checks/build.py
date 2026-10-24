@@ -46,12 +46,14 @@ def main():
     out = DATA / 'answer-library-calculus.json.gz'
     library = read(out)
     changed = set()
-    for chapter in (1, 2, 3):
+    for chapter in range(1, 9):
         paths = [HERE / f'chapter-{chapter:02}.json']
         if chapter == 2:
             paths += [HERE/'chapter-02/problems-plus.json', HERE/'chapter-02/review-concepts.json', HERE/'chapter-02/review-exercises.json']
-        if chapter == 3:
-            paths += [HERE/'chapter-03/review.json']
+        if chapter in (3,4,5):
+            paths += [HERE/f'chapter-{chapter:02}/review.json']
+        if chapter == 6:
+            paths += [HERE/'chapter-06/recovered-446.json']
         updates = {}
         for patch in paths:
             if patch.exists():
@@ -63,15 +65,15 @@ def main():
             entry = library['questions'].setdefault(qid, {})
             entry.update(update)
             entry.update(objectiveChecksVerified=True,
-                         objectiveCheckVersion=2,
+                         objectiveCheckVersion=max(2,update.get('objectiveCheckVersion',2)),
                          objectiveFieldCount=len(fs))
             assert entry.get('responsePartPrompt'), (qid, 'explicit source part contract required')
             changed.add(qid)
-    report = {'requestedChapters': [1, 2, 3], 'chapters': {},
+    report = {'requestedChapters': list(range(1,9)), 'chapters': {},
               'patchedRecords': len(changed), 'complete': True,
               'assessmentScope': 'Numeric fields and explicit mathematical selections are checked. '
               'A selected result does not automatically assess a freehand graph, written proof, or open-ended construction.'}
-    for chapter in (1, 2, 3):
+    for chapter in range(1, 9):
         qs = [q for q in source if q['chapter'] == chapter]
         missing = []
         count = Counter()
@@ -95,7 +97,8 @@ def main():
         assert report['complete'], 'Missing exact question checks; see chapter source patches.'
     library.setdefault('coverage', {})['chapter1To3ObjectiveChecks'] = {
         ch: {k: v for k, v in result.items() if k in ('total', 'checkable', 'fields')}
-        for ch, result in report['chapters'].items()}
+        for ch, result in report['chapters'].items() if int(ch)<=3}
+    library['coverage']['chapter4To8ObjectiveChecks'] = {ch: {k:v for k,v in result.items() if k in ('total','checkable','fields')} for ch,result in report['chapters'].items() if int(ch)>=4}
     library['coverage']['answerRecords'] = len(library['questions'])
     library['coverage']['missing'] = library['coverage']['total'] - len(library['questions'])
     library['coverage']['newGraderRecords'] = sum(bool(v.get('grader')) for v in library['questions'].values())

@@ -1,0 +1,3592 @@
+{
+  "calculus-section-4-1-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Minimum comparison",
+      "answer": "Absolute: no larger than every domain value; local: no larger than nearby domain values",
+      "options": [
+        "Absolute and local mean the same thing",
+        "Local means least value over the entire domain",
+        "Absolute: no larger than every domain value; local: no larger than nearby domain values"
+      ],
+      "selectionPrompt": "Choose the correct Minimum comparison.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The difference is the range of comparison: the entire domain versus a neighborhood of the point.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) theorem",
+          "answer": "Extreme Value Theorem",
+          "options": [
+            "Intermediate Value Theorem",
+            "Extreme Value Theorem",
+            "Mean Value Theorem"
+          ],
+          "selectionPrompt": "Choose the correct (a) theorem.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Continuity on a closed bounded interval guarantees attained extrema; Fermat’s theorem identifies interior candidates."
+        },
+        {
+          "type": "choice",
+          "label": "(b) procedure",
+          "answer": "Evaluate f at interior critical numbers and both endpoints; compare all values",
+          "options": [
+            "Evaluate f at interior critical numbers and both endpoints; compare all values",
+            "Set f=0 and compare its roots",
+            "Compare only endpoint values"
+          ],
+          "selectionPrompt": "Choose the correct (b) procedure.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Continuity on a closed bounded interval guarantees attained extrema; Fermat’s theorem identifies interior candidates."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-3": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a",
+          "answer": "Neither",
+          "options": [
+            "Local minimum only",
+            "Local maximum only",
+            "Absolute minimum",
+            "Neither",
+            "Absolute maximum"
+          ],
+          "selectionPrompt": "Choose the correct a.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "b",
+          "answer": "Local minimum only",
+          "options": [
+            "Neither",
+            "Local minimum only",
+            "Local maximum only",
+            "Absolute minimum",
+            "Absolute maximum"
+          ],
+          "selectionPrompt": "Choose the correct b.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "c",
+          "answer": "Local maximum only",
+          "options": [
+            "Absolute maximum",
+            "Local minimum only",
+            "Neither",
+            "Local maximum only",
+            "Absolute minimum"
+          ],
+          "selectionPrompt": "Choose the correct c.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "d",
+          "answer": "Neither",
+          "options": [
+            "Absolute maximum",
+            "Local maximum only",
+            "Local minimum only",
+            "Neither",
+            "Absolute minimum"
+          ],
+          "selectionPrompt": "Choose the correct d.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "r",
+          "answer": "Absolute minimum",
+          "options": [
+            "Neither",
+            "Absolute minimum",
+            "Local minimum only",
+            "Absolute maximum",
+            "Local maximum only"
+          ],
+          "selectionPrompt": "Choose the correct r.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "s",
+          "answer": "Absolute maximum",
+          "options": [
+            "Local minimum only",
+            "Neither",
+            "Absolute minimum",
+            "Absolute maximum",
+            "Local maximum only"
+          ],
+          "selectionPrompt": "Choose the correct s.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-4": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "a",
+          "answer": "Absolute minimum",
+          "options": [
+            "Neither",
+            "Local maximum only",
+            "Absolute minimum",
+            "Absolute maximum",
+            "Local minimum only"
+          ],
+          "selectionPrompt": "Choose the correct a.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "b",
+          "answer": "Local maximum only",
+          "options": [
+            "Absolute maximum",
+            "Local maximum only",
+            "Local minimum only",
+            "Neither",
+            "Absolute minimum"
+          ],
+          "selectionPrompt": "Choose the correct b.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "c",
+          "answer": "Neither",
+          "options": [
+            "Local maximum only",
+            "Absolute minimum",
+            "Local minimum only",
+            "Neither",
+            "Absolute maximum"
+          ],
+          "selectionPrompt": "Choose the correct c.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "d",
+          "answer": "Local minimum only",
+          "options": [
+            "Neither",
+            "Local minimum only",
+            "Local maximum only",
+            "Absolute minimum",
+            "Absolute maximum"
+          ],
+          "selectionPrompt": "Choose the correct d.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "r",
+          "answer": "Absolute maximum",
+          "options": [
+            "Absolute maximum",
+            "Absolute minimum",
+            "Neither",
+            "Local minimum only",
+            "Local maximum only"
+          ],
+          "selectionPrompt": "Choose the correct r.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "s",
+          "answer": "Neither",
+          "options": [
+            "Absolute minimum",
+            "Absolute maximum",
+            "Neither",
+            "Local minimum only",
+            "Local maximum only"
+          ],
+          "selectionPrompt": "Choose the correct s.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Compare the filled graph values with their nearby values and with the whole domain; open circles are excluded. Endpoint extrema are classified as absolute, not interior local extrema."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 6,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-5": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "5",
+          "options": [
+            "2",
+            "5",
+            "None",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Read the ordinate of each attained extremum. Filled isolated values count, open circles do not, and endpoints are not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "None",
+          "options": [
+            "1",
+            "3",
+            "None",
+            "2"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Read the ordinate of each attained extremum. Filled isolated values count, open circles do not, and endpoints are not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum values",
+          "answer": "4 and5",
+          "options": [
+            "1",
+            "2",
+            "None",
+            "4 and5"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum values.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Read the ordinate of each attained extremum. Filled isolated values count, open circles do not, and endpoints are not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum values",
+          "answer": "2 and3",
+          "options": [
+            "2 and3",
+            "1",
+            "2",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum values.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Read the ordinate of each attained extremum. Filled isolated values count, open circles do not, and endpoints are not interior local extrema."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-6": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "None",
+          "options": [
+            "2",
+            "1",
+            "None",
+            "3"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Read the ordinate of each attained extremum. Filled isolated values count, open circles do not, and endpoints are not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "1",
+          "options": [
+            "None",
+            "1",
+            "3",
+            "2"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Read the ordinate of each attained extremum. Filled isolated values count, open circles do not, and endpoints are not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum values",
+          "answer": "3 and4",
+          "options": [
+            "1",
+            "3 and4",
+            "2",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum values.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Read the ordinate of each attained extremum. Filled isolated values count, open circles do not, and endpoints are not interior local extrema."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum values",
+          "answer": "1 and2",
+          "options": [
+            "1 and2",
+            "2",
+            "1",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum values.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Read the ordinate of each attained extremum. Filled isolated values count, open circles do not, and endpoints are not interior local extrema."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-7": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "One valid piecewise-linear construction: join these ordered points",
+      "answer": "(1,2),(2,0),(3,3),(4,1),(5,4)",
+      "options": [
+        "(1,4),(2,3),(3,2),(4,1),(5,0)",
+        "(1,0),(2,1),(3,2),(4,3),(5,4)",
+        "(1,2),(2,0),(3,3),(4,1),(5,4)"
+      ],
+      "selectionPrompt": "Choose the correct One valid piecewise-linear construction: join these ordered points.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The connected segments are continuous and their successive heights give exactly the specified absolute and interior local extrema.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-8": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "One valid piecewise-linear construction: join these ordered points",
+      "answer": "(1,1),(2,3),(3,2),(4,4),(5,0)",
+      "options": [
+        "(1,4),(2,3),(3,2),(4,1),(5,0)",
+        "(1,0),(2,1),(3,2),(4,3),(5,4)",
+        "(1,1),(2,3),(3,2),(4,4),(5,0)"
+      ],
+      "selectionPrompt": "Choose the correct One valid piecewise-linear construction: join these ordered points.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The connected segments are continuous and their successive heights give exactly the specified absolute and interior local extrema.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-9": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "One valid piecewise-linear construction: join these ordered points",
+      "answer": "(1,1),(2,3),(3,0),(4,4),(5,2)",
+      "options": [
+        "(1,4),(2,3),(3,2),(4,1),(5,0)",
+        "(1,1),(2,3),(3,0),(4,4),(5,2)",
+        "(1,0),(2,1),(3,2),(4,3),(5,4)"
+      ],
+      "selectionPrompt": "Choose the correct One valid piecewise-linear construction: join these ordered points.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The connected segments are continuous and their successive heights give exactly the specified absolute and interior local extrema.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-10": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "One valid construction",
+          "answer": "f(x)=3−(x−2)² for1≤x≤2; f(x)=3−[(x−4)³+8]/3 for2<x≤5",
+          "options": [
+            "f(x)=x on[1,5]",
+            "f(x)=−(x−2)² on[1,5]",
+            "f(x)=3−(x−2)² for1≤x≤2; f(x)=3−[(x−4)³+8]/3 for2<x≤5"
+          ],
+          "selectionPrompt": "Choose the correct One valid construction.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The right piece has derivative−(x−4)² and matches value3 at2; it decreases to0 at5 and has a stationary non-extremum at4."
+        },
+        {
+          "type": "choice",
+          "label": "Behavior at4",
+          "answer": "Horizontal tangent while decreasing through4; no local extremum",
+          "options": [
+            "Horizontal tangent while decreasing through4; no local extremum",
+            "Local minimum",
+            "Local maximum"
+          ],
+          "selectionPrompt": "Choose the correct Behavior at4.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The right piece has derivative−(x−4)² and matches value3 at2; it decreases to0 at5 and has a stationary non-extremum at4."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-11": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) differentiable example",
+          "answer": "−(x−2)²",
+          "options": [
+            "−(x−2)²",
+            "x",
+            "(x−2)²"
+          ],
+          "selectionPrompt": "Choose the correct (a) differentiable example.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Each choice attains a local maximum at2 with the required regularity."
+        },
+        {
+          "type": "choice",
+          "label": "(b) continuous corner example",
+          "answer": "−|x−2|",
+          "options": [
+            "|x−2|",
+            "x−2",
+            "−|x−2|"
+          ],
+          "selectionPrompt": "Choose the correct (b) continuous corner example.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Each choice attains a local maximum at2 with the required regularity."
+        },
+        {
+          "type": "choice",
+          "label": "(c) discontinuous example",
+          "answer": "f(2)=1 and f(x)=0 forx≠2",
+          "options": [
+            "f(2)=1 and f(x)=0 forx≠2",
+            "f(x)=x for allx",
+            "f(x)=−(x−2)²"
+          ],
+          "selectionPrompt": "Choose the correct (c) discontinuous example.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Each choice attains a local maximum at2 with the required regularity."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-12": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) example on[−1,2]",
+          "answer": "f(x)=x",
+          "options": [
+            "f(x)=x",
+            "f(x)=−x²",
+            "f(x)=sinx"
+          ],
+          "selectionPrompt": "Choose the correct (a) example on[−1,2].",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For(a) the maximum is at an endpoint. For(b)0 is a local maximum, while the blowup as x→2⁻ prevents an absolute maximum."
+        },
+        {
+          "type": "choice",
+          "label": "(b) example on[−1,2]",
+          "answer": "f(x)=−x² forx≤1; f(x)=1/(2−x) for1<x<2; f(2)=0",
+          "options": [
+            "f(x)=−x² everywhere",
+            "f(x)=−x² forx≤1; f(x)=1/(2−x) for1<x<2; f(2)=0",
+            "f(x)=x"
+          ],
+          "selectionPrompt": "Choose the correct (b) example on[−1,2].",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For(a) the maximum is at an endpoint. For(b)0 is a local maximum, while the blowup as x→2⁻ prevents an absolute maximum."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-13": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) example",
+          "answer": "f(−1)=2; f(x)=x for−1<x≤2",
+          "options": [
+            "f(x)=x on[−1,2]",
+            "f(−1)=2; f(x)=x for−1<x≤2",
+            "f(x)=x² on[−1,2]"
+          ],
+          "selectionPrompt": "Choose the correct (a) example.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For(a),2 is attained but infimum−1 is not. For(b),the jump is discontinuous but both0 and1 are attained."
+        },
+        {
+          "type": "choice",
+          "label": "(b) example",
+          "answer": "f(x)=0 forx<0 and f(x)=1 forx≥0 on[−1,2]",
+          "options": [
+            "f(x)=0 forx<0 and f(x)=1 forx≥0 on[−1,2]",
+            "f(x)=1/x on[−1,2]",
+            "f(x)=x on[−1,2]"
+          ],
+          "selectionPrompt": "Choose the correct (b) example.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For(a),2 is attained but infimum−1 is not. For(b),the jump is discontinuous but both0 and1 are attained."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-14": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) valid example",
+          "answer": "f(x)=−(x²−1)² onℝ",
+          "options": [
+            "f(x)=x onℝ",
+            "f(x)=−(x²−1)² onℝ",
+            "f(x)=x² onℝ"
+          ],
+          "selectionPrompt": "Choose the correct (a) valid example.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For(a),maxima at±1 and minimum at0, with f→−∞. For(b),five simple roots yield three minima/two maxima; two even-multiplicity roots add stationary non-extrema."
+        },
+        {
+          "type": "choice",
+          "label": "(b) valid derivative for a suitable antiderivative",
+          "answer": "f′(x)=(x+3)(x+2)(x+1)x(x−1)(x−2)²(x−3)²",
+          "options": [
+            "f′(x)=x²+1",
+            "f′(x)=x⁷",
+            "f′(x)=(x+3)(x+2)(x+1)x(x−1)(x−2)²(x−3)²"
+          ],
+          "selectionPrompt": "Choose the correct (b) valid derivative for a suitable antiderivative.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For(a),maxima at±1 and minimum at0, with f→−∞. For(b),five simple roots yield three minima/two maxima; two even-multiplicity roots add stationary non-extrema."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-15": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "4",
+          "options": [
+            "4",
+            "1",
+            "0",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "None",
+          "options": [
+            "None",
+            "0",
+            "1",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "−1",
+            "1",
+            "None",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "−1",
+            "1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-16": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "8/3",
+          "options": [
+            "8/3",
+            "1",
+            "0",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "None",
+          "options": [
+            "None",
+            "1",
+            "−1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "0",
+            "−1",
+            "None",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "0",
+            "1",
+            "−1",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-17": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "1",
+          "options": [
+            "1",
+            "−1",
+            "0",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "None",
+          "options": [
+            "0",
+            "None",
+            "−1",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "1",
+            "−1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "0",
+            "1",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-18": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "None",
+          "options": [
+            "0",
+            "None",
+            "1",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "None",
+          "options": [
+            "None",
+            "0",
+            "1",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "−1",
+            "1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "−1",
+            "1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-19": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "None",
+          "options": [
+            "1",
+            "0",
+            "None",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "0",
+          "options": [
+            "1",
+            "0",
+            "None",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "0",
+            "None",
+            "−1",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "0",
+            "−1",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-20": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "1",
+          "options": [
+            "None",
+            "−1",
+            "1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "None",
+          "options": [
+            "0",
+            "−1",
+            "1",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "1",
+            "−1",
+            "None",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "1",
+            "None",
+            "−1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-21": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "1",
+          "options": [
+            "−1",
+            "1",
+            "None",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "−1",
+          "options": [
+            "−1",
+            "1",
+            "0",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "0",
+            "−1",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "0",
+            "−1",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-22": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "1",
+          "options": [
+            "None",
+            "0",
+            "1",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "−1",
+          "options": [
+            "0",
+            "1",
+            "None",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "1",
+          "options": [
+            "0",
+            "None",
+            "−1",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "−1",
+          "options": [
+            "1",
+            "−1",
+            "0",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-23": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "ln2",
+          "options": [
+            "None",
+            "0",
+            "ln2",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "None",
+          "options": [
+            "0",
+            "1",
+            "None",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "−1",
+            "None",
+            "1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "−1",
+            "0",
+            "None",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-24": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "None",
+          "options": [
+            "None",
+            "−1",
+            "1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "0",
+          "options": [
+            "None",
+            "1",
+            "0",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "0",
+            "−1",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "0",
+          "options": [
+            "−1",
+            "1",
+            "0",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-25": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "1",
+          "options": [
+            "1",
+            "None",
+            "−1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "None",
+          "options": [
+            "1",
+            "−1",
+            "0",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "0",
+            "None",
+            "−1",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "−1",
+            "None",
+            "1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-26": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "None",
+          "options": [
+            "None",
+            "0",
+            "1",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "None",
+          "options": [
+            "1",
+            "0",
+            "None",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "1",
+            "−1",
+            "0",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "−1",
+            "0",
+            "1",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-27": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "None",
+          "options": [
+            "0",
+            "−1",
+            "1",
+            "None"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "−1",
+          "options": [
+            "1",
+            "0",
+            "None",
+            "−1"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "−1",
+            "0",
+            "None",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "0",
+          "options": [
+            "−1",
+            "0",
+            "None",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-28": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum value",
+          "answer": "None",
+          "options": [
+            "−1",
+            "1",
+            "None",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum value",
+          "answer": "−2",
+          "options": [
+            "None",
+            "−2",
+            "1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local maximum value(s)",
+          "answer": "None",
+          "options": [
+            "0",
+            "−1",
+            "None",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Local maximum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        },
+        {
+          "type": "choice",
+          "label": "Local minimum value(s)",
+          "answer": "None",
+          "options": [
+            "None",
+            "1",
+            "−1",
+            "0"
+          ],
+          "selectionPrompt": "Choose the correct Local minimum value(s).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source domain, including open versus closed endpoints. A limiting value not attained is not an extremum. Local extrema here require an interior neighborhood."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-29": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "1/3",
+      "options": [
+        "None",
+        "1/3",
+        "All real numbers"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-30": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "−5 and1",
+      "options": [
+        "All real numbers",
+        "−5 and1",
+        "None"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-31": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "−2 and3",
+      "options": [
+        "−2 and3",
+        "All real numbers",
+        "None"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-32": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "None",
+      "options": [
+        "All real numbers",
+        "0",
+        "None"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-33": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "0",
+      "options": [
+        "0",
+        "All real numbers",
+        "None"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-34": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "4/3",
+      "options": [
+        "4/3",
+        "None",
+        "All real numbers"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-35": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "0 and2",
+      "options": [
+        "All real numbers",
+        "0 and2",
+        "None"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-36": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "1−√5 and1+√5",
+      "options": [
+        "1−√5 and1+√5",
+        "All real numbers",
+        "None"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-37": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "0 and4/9",
+      "options": [
+        "All real numbers",
+        "0 and4/9",
+        "None"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-38": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "−2,0,2",
+      "options": [
+        "All real numbers",
+        "−2,0,2",
+        "None"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-39": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "0,8/7,4",
+      "options": [
+        "All real numbers",
+        "None",
+        "0,8/7,4"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-40": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "θ=±π/3+kπ, k∈ℤ",
+      "options": [
+        "None",
+        "θ=±π/3+kπ, k∈ℤ",
+        "All real numbers"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-41": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "θ=kπ, k∈ℤ",
+      "options": [
+        "θ=kπ, k∈ℤ",
+        "All real numbers",
+        "None"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-42": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "−1,−2√2/3,2√2/3,1",
+      "options": [
+        "None",
+        "All real numbers",
+        "−1,−2√2/3,2√2/3,1"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-43": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "0 and2/3",
+      "options": [
+        "None",
+        "0 and2/3",
+        "All real numbers"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-44": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Critical number(s)",
+      "answer": "√e",
+      "options": [
+        "None",
+        "All real numbers",
+        "√e"
+      ],
+      "selectionPrompt": "Choose the correct Critical number(s).",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Solve f′=0 and include points in the real domain where the derivative does not exist. Exclude poles that are not in the function’s domain; fractional powers use their real meanings.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-45": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Number of critical numbers",
+      "answer": 10.0,
+      "tolerance": 0,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "All roots lie where the derivative’s amplitude can reach1: |x|≤10ln5 for45 and |x|≤√90 for46. Count the crossings within this bounded region; the smooth oscillatory lobes give no additional roots outside it.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-46": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Number of critical numbers",
+      "answer": 14.0,
+      "tolerance": 0,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "All roots lie where the derivative’s amplitude can reach1: |x|≤10ln5 for45 and |x|≤√90 for46. Count the crossings within this bounded region; the smooth oscillatory lobes give no additional roots outside it.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-47": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 7.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 16.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-48": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 113.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-49": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": -19.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 8.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-50": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": -76.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-51": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": -31.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 33.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-52": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": -64.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 125.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-53": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 5.2,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-54": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-56": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 0.5698767642386944,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-57": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 2.598076211353316,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-58": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 2.5707963267948966,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 3.7123889803846897,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-59": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": -2.772588722239781,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 0.18393972058572117,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-60": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": -0.7357588823428847,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 1.6487212707001282,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-61": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": -0.2876820724517809,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 1.0986122886681098,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-62": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": -0.5707963267948967,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 1.3483646726639351,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-65": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 1.814096799382044,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 2.185903200617956,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "choice",
+          "label": "Exact minimum",
+          "answer": "2 - 6·√(15)/125",
+          "options": [
+            "1 - 6·√(15)/125",
+            "3 - 6·√(15)/125",
+            "2 - 6·√(15)/125"
+          ],
+          "selectionPrompt": "Choose the correct Exact minimum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "choice",
+          "label": "Exact maximum",
+          "answer": "6·√(15)/125 + 2",
+          "options": [
+            "6·√(15)/125 + 2",
+            "6·√(15)/125 + 3",
+            "6·√(15)/125 + 1"
+          ],
+          "selectionPrompt": "Choose the correct Exact maximum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-66": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 1.8898815748423097,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 2.853617111695658,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "choice",
+          "label": "Exact minimum",
+          "answer": "3·2^(1/3)/2",
+          "options": [
+            "1 + 3·2^(1/3)/2",
+            "-1 + 3·2^(1/3)/2",
+            "3·2^(1/3)/2"
+          ],
+          "selectionPrompt": "Choose the correct Exact minimum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "choice",
+          "label": "Exact maximum",
+          "answer": "(1 + exp(3))·exp(-2)",
+          "options": [
+            "1 + (1 + exp(3))·exp(-2)",
+            "-1 + (1 + exp(3))·exp(-2)",
+            "(1 + exp(3))·exp(-2)"
+          ],
+          "selectionPrompt": "Choose the correct Exact maximum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-67": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 0.3247595264191645,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "choice",
+          "label": "Exact minimum",
+          "answer": "0",
+          "options": [
+            "0",
+            "-1",
+            "1"
+          ],
+          "selectionPrompt": "Choose the correct Exact minimum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "choice",
+          "label": "Exact maximum",
+          "answer": "3·√(3)/16",
+          "options": [
+            "3·√(3)/16",
+            "3·√(3)/16 + 1",
+            "-1 + 3·√(3)/16"
+          ],
+          "selectionPrompt": "Choose the correct Exact maximum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-68": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum value",
+          "answer": -2.2556495831671763,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": -1.1677063269057153,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "choice",
+          "label": "Exact minimum",
+          "answer": "-√(3) - pi/6",
+          "options": [
+            "-√(3) - pi/6 + 1",
+            "-√(3) - 1 - pi/6",
+            "-√(3) - pi/6"
+          ],
+          "selectionPrompt": "Choose the correct Exact minimum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        },
+        {
+          "type": "choice",
+          "label": "Exact maximum",
+          "answer": "-2 - 2·cos(2)",
+          "options": [
+            "-2 - 2·cos(2)",
+            "-3 - 2·cos(2)",
+            "-1 - 2·cos(2)"
+          ],
+          "selectionPrompt": "Choose the correct Exact maximum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous function at both endpoints and all interior critical numbers, then select the least and greatest values."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-55": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute minimum",
+          "answer": -0.3849001794597505,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For the real cube root, critical points are0 and±1/(3√3). Compare them with endpoints−1 and4; f(0)=f(−1)=0."
+        },
+        {
+          "type": "numeric",
+          "label": "Absolute maximum",
+          "answer": 2.4125989480318006,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For the real cube root, critical points are0 and±1/(3√3). Compare them with endpoints−1 and4; f(0)=f(−1)=0."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-63": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Maximum value",
+          "answer": "a^a b^b/(a+b)^(a+b)",
+          "options": [
+            "a^a b^b/(a+b)^(a+b)",
+            "a^a/(a+b)^a",
+            "(a+b)^(a+b)/(a^a b^b)"
+          ],
+          "selectionPrompt": "Choose the correct Maximum value.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Logarithmic differentiation gives a/x−b/(1−x)=0; endpoints give0 and a,b>0."
+        },
+        {
+          "type": "choice",
+          "label": "Maximizing x",
+          "answer": "a/(a+b)",
+          "options": [
+            "a/(a+b)",
+            "b/(a+b)",
+            "1/2"
+          ],
+          "selectionPrompt": "Choose the correct Maximizing x.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Logarithmic differentiation gives a/x−b/(1−x)=0; endpoints give0 and a,b>0."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-64": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Critical number 1 in ascending order",
+          "answer": -2.1284190638445772,
+          "tolerance": 0.051,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Critical numbers arise at the three zeros inside the absolute value and at±√(5/3), where its derivative vanishes. Round each to one decimal place."
+        },
+        {
+          "type": "numeric",
+          "label": "Critical number 2 in ascending order",
+          "answer": -1.2909944487358056,
+          "tolerance": 0.051,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Critical numbers arise at the three zeros inside the absolute value and at±√(5/3), where its derivative vanishes. Round each to one decimal place."
+        },
+        {
+          "type": "numeric",
+          "label": "Critical number 3 in ascending order",
+          "answer": -0.20163967572340466,
+          "tolerance": 0.051,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Critical numbers arise at the three zeros inside the absolute value and at±√(5/3), where its derivative vanishes. Round each to one decimal place."
+        },
+        {
+          "type": "numeric",
+          "label": "Critical number 4 in ascending order",
+          "answer": 1.2909944487358056,
+          "tolerance": 0.051,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Critical numbers arise at the three zeros inside the absolute value and at±√(5/3), where its derivative vanishes. Round each to one decimal place."
+        },
+        {
+          "type": "numeric",
+          "label": "Critical number 5 in ascending order",
+          "answer": 2.330058739567982,
+          "tolerance": 0.051,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Critical numbers arise at the three zeros inside the absolute value and at±√(5/3), where its derivative vanishes. Round each to one decimal place."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-69": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Maximum BAC",
+          "answer": 0.17724384210615532,
+          "tolerance": 0.0005,
+          "unit": "mg/mL",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "C′=1.35e^(−2.802t)(1−2.802t); the derivative changes from positive to negative at1/2.802h, inside[0,3]."
+        },
+        {
+          "type": "numeric",
+          "label": "Time of maximum",
+          "answer": 0.35688793718772305,
+          "tolerance": 0.0005,
+          "unit": "hours",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "C′=1.35e^(−2.802t)(1−2.802t); the derivative changes from positive to negative at1/2.802h, inside[0,3]."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-70": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Maximum concentration",
+      "answer": 1.1851851851851851,
+      "tolerance": 0.0005,
+      "unit": "μg/mL",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Set−0.4e^(−0.4t)+0.6e^(−0.6t)=0, giving t=5ln1.5. Compare with both endpoints of[0,12]. The source unit is micrograms per mL.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-71": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Maximum-density temperature",
+      "answer": 3.966514624018559,
+      "tolerance": 0.005,
+      "unit": "°C",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "At fixed mass, maximum density means minimum volume. Solve V′=−0.06426+0.0170086T−0.0002037T²=0 and compare with0°C,30°C.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-72": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Minimizing angle",
+          "answer": "θ=arctanμ",
+          "options": [
+            "θ=arctan(1/μ)",
+            "θ=π/2",
+            "θ=arctanμ"
+          ],
+          "selectionPrompt": "Choose the correct Minimizing angle.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Differentiate μW/(μsinθ+cosθ); positive factors leave the sign of sinθ−μcosθ. It changes from negative to positive at tanθ=μ."
+        },
+        {
+          "type": "choice",
+          "label": "Derivative sign factor",
+          "answer": "sinθ−μcosθ",
+          "options": [
+            "sinθ+μcosθ",
+            "sinθ−μcosθ",
+            "cosθ−μsinθ"
+          ],
+          "selectionPrompt": "Choose the correct Derivative sign factor.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Differentiate μW/(μsinθ+cosθ); positive factors leave the sign of sinθ−μcosθ. It changes from negative to positive at tanθ=μ."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-73": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Time since January1",
+          "answer": 4.109482333661302,
+          "tolerance": 0.01,
+          "unit": "months",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Find zeros of L′ and compare levels at those in[0,12] and the endpoints. The interior maximum occurs approximately4.1months after January1."
+        },
+        {
+          "type": "choice",
+          "label": "Approximate calendar time",
+          "answer": "Early May2012",
+          "options": [
+            "Early May2012",
+            "December2012",
+            "Early August2012"
+          ],
+          "selectionPrompt": "Choose the correct Approximate calendar time.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Find zeros of L′ and compare levels at those in[0,12] and the endpoints. The interior maximum occurs approximately4.1months after January1."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-74": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) cubic coefficient",
+          "answer": 0.0014613726810765158,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Least-squares cubic regression uses all eight source measurements; differentiate that fit and check its vertex and endpoints on[0,125]."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) quadratic coefficient",
+          "answer": -0.1155339182688394,
+          "tolerance": 1e-05,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Least-squares cubic regression uses all eight source measurements; differentiate that fit and check its vertex and endpoints on[0,125]."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) linear coefficient",
+          "answer": 24.981691908090458,
+          "tolerance": 0.001,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Least-squares cubic regression uses all eight source measurements; differentiate that fit and check its vertex and endpoints on[0,125]."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) constant coefficient",
+          "answer": -21.268723982871567,
+          "tolerance": 0.01,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Least-squares cubic regression uses all eight source measurements; differentiate that fit and check its vertex and endpoints on[0,125]."
+        },
+        {
+          "type": "choice",
+          "label": "(b) acceleration model",
+          "answer": "a(t)=3At²+2Bt+C when v(t)=At³+Bt²+Ct+D",
+          "options": [
+            "a(t)=3At²+2Bt+C when v(t)=At³+Bt²+Ct+D",
+            "a(t)=At²+Bt+C",
+            "a(t)=At³+Bt²+Ct+D"
+          ],
+          "selectionPrompt": "Choose the correct (b) acceleration model.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Least-squares cubic regression uses all eight source measurements; differentiate that fit and check its vertex and endpoints on[0,125]."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) minimum acceleration",
+          "answer": 21.937046180276514,
+          "tolerance": 0.02,
+          "unit": "ft/s²",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Least-squares cubic regression uses all eight source measurements; differentiate that fit and check its vertex and endpoints on[0,125]."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) maximum acceleration",
+          "answer": 64.60005676634229,
+          "tolerance": 0.02,
+          "unit": "ft/s²",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Least-squares cubic regression uses all eight source measurements; differentiate that fit and check its vertex and endpoints on[0,125]."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 7,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-75": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) maximizing r",
+          "answer": "2r₀/3",
+          "options": [
+            "r₀/2",
+            "r₀",
+            "2r₀/3"
+          ],
+          "selectionPrompt": "Choose the correct (a) maximizing r.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "v′=kr(2r₀−3r) with k>0; compare the stationary point and endpoints of the restricted interval."
+        },
+        {
+          "type": "choice",
+          "label": "(a) comparison",
+          "answer": "Matches the observed two-thirds radius",
+          "options": [
+            "Predicts zero radius",
+            "Matches the observed two-thirds radius",
+            "Contradicts the observed radius"
+          ],
+          "selectionPrompt": "Choose the correct (a) comparison.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "v′=kr(2r₀−3r) with k>0; compare the stationary point and endpoints of the restricted interval."
+        },
+        {
+          "type": "choice",
+          "label": "(b) maximum speed",
+          "answer": "4kr₀³/27",
+          "options": [
+            "2kr₀²/3",
+            "kr₀³/4",
+            "4kr₀³/27"
+          ],
+          "selectionPrompt": "Choose the correct (b) maximum speed.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "v′=kr(2r₀−3r) with k>0; compare the stationary point and endpoints of the restricted interval."
+        },
+        {
+          "type": "choice",
+          "label": "(c) graph behavior on[0,r₀]",
+          "answer": "Zero at both ends, rises to2r₀/3 then falls",
+          "options": [
+            "Always rises",
+            "Always falls",
+            "Zero at both ends, rises to2r₀/3 then falls"
+          ],
+          "selectionPrompt": "Choose the correct (c) graph behavior on[0,r₀].",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "v′=kr(2r₀−3r) with k>0; compare the stationary point and endpoints of the restricted interval."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-76": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "g′(5)",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "g′=3(x−5)² is positive on both sides of5, so the function keeps increasing."
+        },
+        {
+          "type": "choice",
+          "label": "Classification",
+          "answer": "Stationary point with no local extremum",
+          "options": [
+            "Local maximum",
+            "Stationary point with no local extremum",
+            "Local minimum"
+          ],
+          "selectionPrompt": "Choose the correct Classification.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "g′=3(x−5)² is positive on both sides of5, so the function keeps increasing."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-77": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Derivative argument",
+      "answer": "101x¹⁰⁰+51x⁵⁰+1>0 for every realx",
+      "options": [
+        "101x¹⁰⁰+51x⁵⁰+1>0 for every realx",
+        "The derivative is zero everywhere",
+        "The derivative changes sign at0"
+      ],
+      "selectionPrompt": "Choose the correct Derivative argument.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Every even power is nonnegative and the constant1 makes the derivative strictly positive; hence no local extrema.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-78": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Inequality reversal",
+      "answer": "f(c)≤f(x) nearby implies−f(c)≥−f(x) nearby",
+      "options": [
+        "f(c)≤f(x) implies−f(c)≤−f(x)",
+        "f(c)≤f(x) nearby implies−f(c)≥−f(x) nearby",
+        "Negation does not change extrema"
+      ],
+      "selectionPrompt": "Choose the correct Inequality reversal.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Multiplying the defining local-minimum inequality by−1 reverses it.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-79": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "One-sided difference quotient signs",
+          "answer": "Nonnegative for h>0; nonpositive for h<0",
+          "options": [
+            "Nonpositive for h>0; nonnegative for h<0",
+            "Both strictly positive",
+            "Nonnegative for h>0; nonpositive for h<0"
+          ],
+          "selectionPrompt": "Choose the correct One-sided difference quotient signs.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "At a local minimum the numerator f(c+h)−f(c) is nonnegative. Dividing by positive or negative h and matching finite one-sided limits forces zero."
+        },
+        {
+          "type": "choice",
+          "label": "Consequence when derivative exists",
+          "answer": "The common limit must be0",
+          "options": [
+            "The common limit must be0",
+            "The derivative must be1",
+            "The derivative does not exist"
+          ],
+          "selectionPrompt": "Choose the correct Consequence when derivative exists.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "At a local minimum the numerator f(c+h)−f(c) is nonnegative. Dividing by positive or negative h and matching finite one-sided limits forces zero."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-80": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) possible critical counts",
+          "answer": "0,1,or2",
+          "options": [
+            "0,1,or2",
+            "Exactly1",
+            "Exactly2"
+          ],
+          "selectionPrompt": "Choose the correct (a) possible critical counts.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The derivative is a quadratic. Two simple roots change signs; a double root does not, so a cubic has either two local extrema or none."
+        },
+        {
+          "type": "choice",
+          "label": "(a) example cubics with0,1,2 critical numbers",
+          "answer": "x³+x; x³; x³−3x",
+          "options": [
+            "x³−3x; x³+x; x³",
+            "x²; x;1",
+            "x³+x; x³; x³−3x"
+          ],
+          "selectionPrompt": "Choose the correct (a) example cubics with0,1,2 critical numbers.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The derivative is a quadratic. Two simple roots change signs; a double root does not, so a cubic has either two local extrema or none."
+        },
+        {
+          "type": "choice",
+          "label": "(b) possible local-extremum counts",
+          "answer": "0or2",
+          "options": [
+            "0or2",
+            "0,1,or2",
+            "Exactly1"
+          ],
+          "selectionPrompt": "Choose the correct (b) possible local-extremum counts.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The derivative is a quadratic. Two simple roots change signs; a double root does not, so a cubic has either two local extrema or none."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-1-project-applied-project-the-calculus-of-rainbows-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Stationary condition",
+          "answer": "cosα=√((k²−1)/3)",
+          "options": [
+            "cosα=√((k²−1)/8)",
+            "cosα=√((k²−1)/3)",
+            "cosα=k"
+          ],
+          "selectionPrompt": "Choose the correct Stationary condition.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Snell gives β′=cosα/√(k²−sin²α). Set D′=2−4β′=0 and verify a minimum."
+        },
+        {
+          "type": "numeric",
+          "label": "Incidence angle",
+          "answer": 59.39110234029069,
+          "tolerance": 0.1,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Snell gives β′=cosα/√(k²−sin²α). Set D′=2−4β′=0 and verify a minimum."
+        },
+        {
+          "type": "numeric",
+          "label": "Minimum deviation",
+          "answer": 137.97034113430232,
+          "tolerance": 0.1,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Snell gives β′=cosα/√(k²−sin²α). Set D′=2−4β′=0 and verify a minimum."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-2-project-applied-project-the-calculus-of-rainbows-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Red primary rainbow angle",
+          "answer": 42.25293268860523,
+          "tolerance": 0.1,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Repeat the minimizing-angle calculation for each supplied refractive index, then take180°−D."
+        },
+        {
+          "type": "numeric",
+          "label": "Violet primary rainbow angle",
+          "answer": 40.575405419638884,
+          "tolerance": 0.1,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Repeat the minimizing-angle calculation for each supplied refractive index, then take180°−D."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-3-project-applied-project-the-calculus-of-rainbows-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Secondary deviation",
+          "answer": "D=2α−6β+2π",
+          "options": [
+            "D=2α−6β+2π",
+            "D=2α−2β",
+            "D=2α−4β+π"
+          ],
+          "selectionPrompt": "Choose the correct Secondary deviation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Two internal reflections produce D=2π+2α−6β. The physical counterclockwise deviation is about231°, equivalent to129° in the opposite sense; the rainbow radius is D−180°≈51°."
+        },
+        {
+          "type": "choice",
+          "label": "Stationary condition",
+          "answer": "cosα=√((k²−1)/8)",
+          "options": [
+            "cosα=√((k²−1)/3)",
+            "cosα=√((k²−1)/8)",
+            "cosα=k"
+          ],
+          "selectionPrompt": "Choose the correct Stationary condition.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Two internal reflections produce D=2π+2α−6β. The physical counterclockwise deviation is about231°, equivalent to129° in the opposite sense; the rainbow radius is D−180°≈51°."
+        },
+        {
+          "type": "numeric",
+          "label": "Minimum deviation",
+          "answer": 129.02190647432428,
+          "tolerance": 0.1,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Two internal reflections produce D=2π+2α−6β. The physical counterclockwise deviation is about231°, equivalent to129° in the opposite sense; the rainbow radius is D−180°≈51°."
+        },
+        {
+          "type": "numeric",
+          "label": "Secondary rainbow angle",
+          "answer": 50.97809352567572,
+          "tolerance": 0.1,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Two internal reflections produce D=2π+2α−6β. The physical counterclockwise deviation is about231°, equivalent to129° in the opposite sense; the rainbow radius is D−180°≈51°."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-1-4-project-applied-project-the-calculus-of-rainbows-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Red secondary angle",
+          "answer": 50.57570902335385,
+          "tolerance": 0.1,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The secondary rainbow angle increases with refractive index, whereas the primary angle decreases. The two calculated radii demonstrate reversed ordering."
+        },
+        {
+          "type": "numeric",
+          "label": "Violet secondary angle",
+          "answer": 53.60534486994612,
+          "tolerance": 0.1,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The secondary rainbow angle increases with refractive index, whereas the primary angle decreases. The two calculated radii demonstrate reversed ordering."
+        },
+        {
+          "type": "choice",
+          "label": "Color ordering",
+          "answer": "Secondary has violet outside red; primary has red outside violet",
+          "options": [
+            "Both bows have red outside violet",
+            "Both bows have violet outside red",
+            "Secondary has violet outside red; primary has red outside violet"
+          ],
+          "selectionPrompt": "Choose the correct Color ordering.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The secondary rainbow angle increases with refractive index, whereas the primary angle decreases. The two calculated radii demonstrate reversed ordering."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "calculus-section-6-2-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,2] pi*(x + 1)^2 dx",
+          "options": [
+            "−(∫[0,2] pi*(x + 1)^2 dx)",
+            "∫[0,2] pi*(x + 1)^2 dx",
+            "2(∫[0,2] pi*(x + 1)^2 dx)"
+          ],
+          "explanation": "Outer radius x+1; inner radius0. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 27.22713633111154,
+          "unit": "",
+          "tolerance": 2.722713633111154e-08,
+          "explanation": "Outer radius x+1; inner radius0. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[1,4] pi/x^2 dx",
+          "options": [
+            "2(∫[1,4] pi/x^2 dx)",
+            "∫[1,4] pi/x^2 dx",
+            "−(∫[1,4] pi/x^2 dx)"
+          ],
+          "explanation": "Disk radius1/x. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 2.356194490192345,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Disk radius1/x. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[1,5] pi*(x - 1) dx",
+          "options": [
+            "−(∫[1,5] pi*(x - 1) dx)",
+            "2(∫[1,5] pi*(x - 1) dx)",
+            "∫[1,5] pi*(x - 1) dx"
+          ],
+          "explanation": "The curve meets y=0 atx=1; radius√(x−1). The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 25.132741228718345,
+          "unit": "",
+          "tolerance": 2.5132741228718345e-08,
+          "explanation": "The curve meets y=0 atx=1; radius√(x−1). The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[-1,1] pi*exp(2*x) dx",
+          "options": [
+            "∫[-1,1] pi*exp(2*x) dx",
+            "2(∫[-1,1] pi*exp(2*x) dx)",
+            "−(∫[-1,1] pi*exp(2*x) dx)"
+          ],
+          "explanation": "Disk radius e^x. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 11.394118012887876,
+          "unit": "",
+          "tolerance": 1.1394118012887876e-08,
+          "explanation": "Disk radius e^x. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,9] 4*pi*y dy",
+          "options": [
+            "2(∫[0,9] 4*pi*y dy)",
+            "∫[0,9] 4*pi*y dy",
+            "−(∫[0,9] 4*pi*y dy)"
+          ],
+          "explanation": "Disk radius2√y. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 508.9380098815465,
+          "unit": "",
+          "tolerance": 5.089380098815465e-07,
+          "explanation": "Disk radius2√y. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,4] pi*y^4/4 dy",
+          "options": [
+            "2(∫[0,4] pi*y^4/4 dy)",
+            "−(∫[0,4] pi*y^4/4 dy)",
+            "∫[0,4] pi*y^4/4 dy"
+          ],
+          "explanation": "The source equation is2x=y², so radius y²/2. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 160.8495438637974,
+          "unit": "",
+          "tolerance": 1.6084954386379742e-07,
+          "explanation": "The source equation is2x=y², so radius y²/2. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-7": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,1] pi*(-x^6 + x^2) dx",
+          "options": [
+            "−(∫[0,1] pi*(-x^6 + x^2) dx)",
+            "∫[0,1] pi*(-x^6 + x^2) dx",
+            "2(∫[0,1] pi*(-x^6 + x^2) dx)"
+          ],
+          "explanation": "For0≤x≤1, outer radius x and inner radius x³. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 0.5983986006837702,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "For0≤x≤1, outer radius x and inner radius x³. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[-2,2] pi*((6 - x^2)^2 - 4) dx",
+          "options": [
+            "2(∫[-2,2] pi*((6 - x^2)^2 - 4) dx)",
+            "−(∫[-2,2] pi*((6 - x^2)^2 - 4) dx)",
+            "∫[-2,2] pi*((6 - x^2)^2 - 4) dx"
+          ],
+          "explanation": "Intersections with y=2 arex=±2; outer radius6−x², inner radius2. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 241.2743157956961,
+          "unit": "",
+          "tolerance": 2.412743157956961e-07,
+          "explanation": "Intersections with y=2 arex=±2; outer radius6−x², inner radius2. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,2] pi*(-y^4 + 4*y^2) dy",
+          "options": [
+            "2(∫[0,2] pi*(-y^4 + 4*y^2) dy)",
+            "∫[0,2] pi*(-y^4 + 4*y^2) dy",
+            "−(∫[0,2] pi*(-y^4 + 4*y^2) dy)"
+          ],
+          "explanation": "Outer radius2y and inner radius y²; intersections y=0,2. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 13.404128655316452,
+          "unit": "",
+          "tolerance": 1.3404128655316453e-08,
+          "explanation": "Outer radius2y and inner radius y²; intersections y=0,2. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-10": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[-1,1] pi*(-y^8 + (2 - y^2)^2) dy",
+          "options": [
+            "−(∫[-1,1] pi*(-y^8 + (2 - y^2)^2) dy)",
+            "∫[-1,1] pi*(-y^8 + (2 - y^2)^2) dy",
+            "2(∫[-1,1] pi*(-y^8 + (2 - y^2)^2) dy)"
+          ],
+          "explanation": "Outer radius2−y², inner radius y⁴; real intersections y=±1. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 17.31366617978375,
+          "unit": "",
+          "tolerance": 1.731366617978375e-08,
+          "explanation": "Outer radius2−y², inner radius y⁴; real intersections y=±1. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-11": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,1] pi*(-(1 - sqrt(x))^2 + (1 - x^2)^2) dx",
+          "options": [
+            "−(∫[0,1] pi*(-(1 - sqrt(x))^2 + (1 - x^2)^2) dx)",
+            "2(∫[0,1] pi*(-(1 - sqrt(x))^2 + (1 - x^2)^2) dx)",
+            "∫[0,1] pi*(-(1 - sqrt(x))^2 + (1 - x^2)^2) dx"
+          ],
+          "explanation": "About y=1, distances are1−x² and1−√x, both nonnegative on0–1. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 1.1519173063162575,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "About y=1, distances are1−x² and1−√x, both nonnegative on0–1. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-12": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[1,2] pi*((x^3 + 3)^2 - 16) dx",
+          "options": [
+            "−(∫[1,2] pi*((x^3 + 3)^2 - 16) dx)",
+            "2(∫[1,2] pi*((x^3 + 3)^2 - 16) dx)",
+            "∫[1,2] pi*((x^3 + 3)^2 - 16) dx"
+          ],
+          "explanation": "About y=−3, outer radius x³+3 and inner radius4; the curve meets y=1 atx=1. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 105.6921528457709,
+          "unit": "",
+          "tolerance": 1.0569215284577091e-07,
+          "explanation": "About y=−3, outer radius x³+3 and inner radius4; the curve meets y=1 atx=1. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-13": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[-pi/3,pi/3] pi*(4 - sec(x)^2) dx",
+          "options": [
+            "−(∫[-pi/3,pi/3] pi*(4 - sec(x)^2) dx)",
+            "2(∫[-pi/3,pi/3] pi*(4 - sec(x)^2) dx)",
+            "∫[-pi/3,pi/3] pi*(4 - sec(x)^2) dx"
+          ],
+          "explanation": "Use the central bounded component: outer radius2, inner radius secx, about y=1. Other periodic components have the same volume. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 15.436148884166316,
+          "unit": "",
+          "tolerance": 1.5436148884166317e-08,
+          "explanation": "Use the central bounded component: outer radius2, inner radius secx, about y=1. Other periodic components have the same volume. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-14": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,pi/4] pi*(-(sin(x) + 1)^2 + (cos(x) + 1)^2) dx",
+          "options": [
+            "−(∫[0,pi/4] pi*(-(sin(x) + 1)^2 + (cos(x) + 1)^2) dx)",
+            "2(∫[0,pi/4] pi*(-(sin(x) + 1)^2 + (cos(x) + 1)^2) dx)",
+            "∫[0,pi/4] pi*(-(sin(x) + 1)^2 + (cos(x) + 1)^2) dx"
+          ],
+          "explanation": "About y=−1, outer radius1+cosx and inner radius1+sinx. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 4.1733768959320425,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "About y=−1, outer radius1+cosx and inner radius1+sinx. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-15": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,1] pi*((2 - y^(1/3))^2 - 1) dy",
+          "options": [
+            "−(∫[0,1] pi*((2 - y^(1/3))^2 - 1) dy)",
+            "∫[0,1] pi*((2 - y^(1/3))^2 - 1) dy",
+            "2(∫[0,1] pi*((2 - y^(1/3))^2 - 1) dy)"
+          ],
+          "explanation": "Horizontal washers about x=2 have outer radius2−y^(1/3), inner radius1. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 1.8849555921538759,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "Horizontal washers about x=2 have outer radius2−y^(1/3), inner radius1. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-17": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[-sqrt(2)/2,sqrt(2)/2] pi*((3 - y^2)^2 - (y^2 + 2)^2) dy",
+          "options": [
+            "∫[-sqrt(2)/2,sqrt(2)/2] pi*((3 - y^2)^2 - (y^2 + 2)^2) dy",
+            "2(∫[-sqrt(2)/2,sqrt(2)/2] pi*((3 - y^2)^2 - (y^2 + 2)^2) dy)",
+            "−(∫[-sqrt(2)/2,sqrt(2)/2] pi*((3 - y^2)^2 - (y^2 + 2)^2) dy)"
+          ],
+          "explanation": "About x=3, outer radius3−y² and inner radius2+y²; intersections are y=±1/√2. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 14.80960979386122,
+          "unit": "",
+          "tolerance": 1.4809609793861221e-08,
+          "explanation": "About x=3, outer radius3−y² and inner radius2+y²; intersections are y=±1/√2. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-19": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,1] pi*x^2 dx",
+          "options": [
+            "∫[0,1] pi*x^2 dx",
+            "2(∫[0,1] pi*x^2 dx)",
+            "−(∫[0,1] pi*x^2 dx)"
+          ],
+          "explanation": "R₁ is0≤y≤x≤1; aroundOA(y=0), disk radiusx. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 1.0471975511965979,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "R₁ is0≤y≤x≤1; aroundOA(y=0), disk radiusx. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    },
+    "nativeFigures": [
+      {
+        "url": "books/calculus/section-6-2-regions.svg",
+        "alt": "Original reconstructed unit-square diagram. R₁ lies below y=x; R₂ above y=x^(1/4); R₃ between those curves."
+      }
+    ]
+  },
+  "calculus-section-6-2-20": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,1] pi*(1 - y^2) dy",
+          "options": [
+            "2(∫[0,1] pi*(1 - y^2) dy)",
+            "∫[0,1] pi*(1 - y^2) dy",
+            "−(∫[0,1] pi*(1 - y^2) dy)"
+          ],
+          "explanation": "AroundOC(x=0), horizontal washer radii1 andy. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 2.0943951023931957,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "AroundOC(x=0), horizontal washer radii1 andy. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    },
+    "nativeFigures": [
+      {
+        "url": "books/calculus/section-6-2-regions.svg",
+        "alt": "Original reconstructed unit-square diagram. R₁ lies below y=x; R₂ above y=x^(1/4); R₃ between those curves."
+      }
+    ]
+  },
+  "calculus-section-6-2-21": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,1] pi*(1 - y)^2 dy",
+          "options": [
+            "2(∫[0,1] pi*(1 - y)^2 dy)",
+            "∫[0,1] pi*(1 - y)^2 dy",
+            "−(∫[0,1] pi*(1 - y)^2 dy)"
+          ],
+          "explanation": "AroundAB(x=1), horizontal disk radius1−y. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 1.0471975511965979,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "AroundAB(x=1), horizontal disk radius1−y. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    },
+    "nativeFigures": [
+      {
+        "url": "books/calculus/section-6-2-regions.svg",
+        "alt": "Original reconstructed unit-square diagram. R₁ lies below y=x; R₂ above y=x^(1/4); R₃ between those curves."
+      }
+    ]
+  },
+  "calculus-section-6-2-22": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Disk/washer volume integral",
+          "answer": "∫[0,1] pi*(1 - (1 - x)^2) dx",
+          "options": [
+            "∫[0,1] pi*(1 - (1 - x)^2) dx",
+            "−(∫[0,1] pi*(1 - (1 - x)^2) dx)",
+            "2(∫[0,1] pi*(1 - (1 - x)^2) dx)"
+          ],
+          "explanation": "AroundBC(y=1), vertical washer radii1 and1−x. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 2.0943951023931957,
+          "unit": "",
+          "tolerance": 1e-08,
+          "explanation": "AroundBC(y=1), vertical washer radii1 and1−x. The cross-section area isπ(R²−r²); integrate over the stated interval.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    },
+    "nativeFigures": [
+      {
+        "url": "books/calculus/section-6-2-regions.svg",
+        "alt": "Original reconstructed unit-square diagram. R₁ lies below y=x; R₂ above y=x^(1/4); R₃ between those curves."
+      }
+    ]
+  },
+  "calculus-section-6-2-16": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Washer setup",
+          "answer": "π∫[0,1/2](3²−2²)dy + π∫[1/2,1][(1+1/y)²−2²]dy",
+          "options": [
+            "π∫[0,1/2](3²−2²)dy + π∫[1/2,1][(1+1/y)²−2²]dy",
+            "π∫[0,1](3²−2²)dy",
+            "π∫[1,2](1/x)²dx"
+          ],
+          "explanation": "Around x=−1, horizontal washers use x from1 to2 while0≤y≤1/2, then1 to1/y for1/2≤y≤1. The outer boundary changes at y=1/2; inner radius remains2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 10.638357487786791,
+          "unit": "",
+          "tolerance": 1.0638357487786793e-08,
+          "explanation": "Around x=−1, horizontal washers use x from1 to2 while0≤y≤1/2, then1 to1/y for1/2≤y≤1. The outer boundary changes at y=1/2; inner radius remains2.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  },
+  "calculus-section-6-2-18": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Washer setup",
+          "answer": "π∫[0,2](3²−1²)dy + π∫[2,4][3²−(y−1)²]dy",
+          "options": [
+            "π∫[0,2](3²−1²)dy + π∫[2,4][3²−(y−1)²]dy",
+            "π∫[2,4]y²dy",
+            "π∫[0,4](3²−1²)dy"
+          ],
+          "explanation": "Around x=1, horizontal washers spanx=2 to4 belowy=2, thenx=y to4 above. Outer radius3; inner radius1 ory−1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        },
+        {
+          "type": "numeric",
+          "label": "Volume",
+          "answer": 79.58701389094144,
+          "unit": "",
+          "tolerance": 7.958701389094145e-08,
+          "explanation": "Around x=1, horizontal washers spanx=2 to4 belowy=2, thenx=y to4 above. Outer radius3; inner radius1 ory−1.",
+          "provenance": "explicit-source-inspected-original-answer-contract"
+        }
+      ],
+      "complete": false,
+      "scope": "Checks each labeled answer or conclusion. A drawing, proof, open-ended model, or written explanation is not automatically assessed."
+    },
+    "responsePartPrompt": "Use the complete original textbook question above. Supply each labeled quantity or select the indicated mathematical conclusion. Drawing/proof checks assess results, not the full drawing or proof.",
+    "objectiveCheckVersion": 3,
+    "objectiveChecksVerified": true,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "type": "source-reviewed-original-calculation",
+      "title": "Stewart Calculus: Early Transcendentals,8e",
+      "printedPage": 446,
+      "fullPDFPage": 478,
+      "sourceURL": "https://s3.amazonaws.com/scschoolfiles/3191/calculus_early_transcendentals_james_stewart_8th_edition.pdf"
+    }
+  }
+}

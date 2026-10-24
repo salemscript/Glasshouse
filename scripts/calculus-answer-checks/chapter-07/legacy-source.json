@@ -1,0 +1,2685 @@
+{
+  "calculus-section-7-1-1": {
+    "grader": {
+      "type": "choice",
+      "answer": "(x/2 − 1/4)·e^(2·x) + C",
+      "options": [
+        "(x/2 − 1/4)·e^(2·x) + C",
+        "−(x/2 − 1/4)·e^(2·x) + C",
+        "2·(x/2 − 1/4)·e^(2·x) + C",
+        "x² + (x/2 − 1/4)·e^(2·x) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·e^(2·x)) dx; use u=x, dv=e^(2·x) dx"
+  },
+  "calculus-section-7-1-10": {
+    "grader": {
+      "type": "choice",
+      "answer": "x·ln(x)/2 − x/2 + C",
+      "options": [
+        "x·ln(x)/2 − x/2 + C",
+        "−x·ln(x)/2 + x/2 + C",
+        "x·ln(x) − x + C",
+        "x² + x·ln(x)/2 − x/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (ln(√(x))) dx"
+  },
+  "calculus-section-7-1-11": {
+    "grader": {
+      "type": "choice",
+      "answer": "t⁵·ln(t)/5 − t⁵/25 + C",
+      "options": [
+        "t⁵·ln(t)/5 − t⁵/25 + C",
+        "−t⁵·ln(t)/5 + t⁵/25 + C",
+        "2·t⁵·ln(t)/5 − 2·t⁵/25 + C",
+        "t⁵·ln(t)/5 − t⁵/25 + t² + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (t⁴·ln(t)) dt"
+  },
+  "calculus-section-7-1-12": {
+    "grader": {
+      "type": "choice",
+      "answer": "y·arctan(2·y) − ln(4·y² + 1)/4 + C",
+      "options": [
+        "y·arctan(2·y) − ln(4·y² + 1)/4 + C",
+        "−y·arctan(2·y) + ln(4·y² + 1)/4 + C",
+        "2·y·arctan(2·y) − ln(4·y² + 1)/2 + C",
+        "y² + y·arctan(2·y) − ln(4·y² + 1)/4 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (arctan(2·y)) dy"
+  },
+  "calculus-section-7-1-13": {
+    "grader": {
+      "type": "choice",
+      "answer": "−t·cot(t) + ln|sin t| + C",
+      "options": [
+        "−t·cot(t) + ln|sin t| + C",
+        "t·cot(t) − ln|sin t| + C",
+        "−2·t·cot(t) + 2·ln|sin t| + C",
+        "t² − t·cot(t) + ln|sin t| + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (t·csc(t)²) dt"
+  },
+  "calculus-section-7-1-14": {
+    "grader": {
+      "type": "choice",
+      "answer": "x·sinh(a·x)/a − cosh(a·x)/a² + C if a≠0; x²/2 + C if a=0",
+      "options": [
+        "x·sinh(a·x)/a − cosh(a·x)/a² + C if a≠0; x²/2 + C if a=0",
+        "−x·sinh(a·x)/a + cosh(a·x)/a² + C if a≠0; x²/2 + C if a=0",
+        "2·x·sinh(a·x)/a − 2·cosh(a·x)/a² + C if a≠0; x²/2 + C if a=0",
+        "x² + x·sinh(a·x)/a − cosh(a·x)/a² + C if a≠0; x²/2 + C if a=0"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·cosh(a·x)) dx"
+  },
+  "calculus-section-7-1-15": {
+    "grader": {
+      "type": "choice",
+      "answer": "x·ln(x)² − 2·x·ln(x) + 2·x + C",
+      "options": [
+        "x·ln(x)² − 2·x·ln(x) + 2·x + C",
+        "−x·ln(x)² + 2·x·ln(x) − 2·x + C",
+        "2·x·ln(x)² − 4·x·ln(x) + 4·x + C",
+        "x² + x·ln(x)² − 2·x·ln(x) + 2·x + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (ln(x)²) dx"
+  },
+  "calculus-section-7-1-16": {
+    "grader": {
+      "type": "choice",
+      "label": "Antiderivative",
+      "answer": "−10^(−z)*(z/ln(10)+1/ln(10)^2) + C",
+      "options": [
+        "−10^(−z)/ln(10) + C",
+        "−10^(−z)*(z/ln(10)+1/ln(10)^2) + C",
+        "10^z*(z/ln(10)−1/ln(10)^2) + C"
+      ],
+      "provenance": "source-transcribed-independently-calculated",
+      "explanation": "Use u=z and dv=10^(−z)dz, so v=−10^(−z)/ln(10). The source has z divided by 10^z.",
+      "fieldIndex": 0,
+      "scope": "Checks the labeled mathematical results. Graphs, proofs, explanations and software output comparisons must still be reviewed separately."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (z/10^z) dz"
+  },
+  "calculus-section-7-1-17": {
+    "grader": {
+      "type": "choice",
+      "answer": "(2·sin(3·θ) − 3·cos(3·θ))·e^(2·θ)/13 + C",
+      "options": [
+        "(2·sin(3·θ) − 3·cos(3·θ))·e^(2·θ)/13 + C",
+        "−(2·sin(3·θ) − 3·cos(3·θ))·e^(2·θ)/13 + C",
+        "2·(2·sin(3·θ) − 3·cos(3·θ))·e^(2·θ)/13 + C",
+        "θ² + (2·sin(3·θ) − 3·cos(3·θ))·e^(2·θ)/13 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (e^(2·θ)·sin(3·θ)) dθ"
+  },
+  "calculus-section-7-1-18": {
+    "grader": {
+      "type": "choice",
+      "answer": "(2·sin(2·θ) − cos(2·θ))·e^(−θ)/5 + C",
+      "options": [
+        "(2·sin(2·θ) − cos(2·θ))·e^(−θ)/5 + C",
+        "−(2·sin(2·θ) − cos(2·θ))·e^(−θ)/5 + C",
+        "2·(2·sin(2·θ) − cos(2·θ))·e^(−θ)/5 + C",
+        "θ² + (2·sin(2·θ) − cos(2·θ))·e^(−θ)/5 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (e^(−θ)·cos(2·θ)) dθ"
+  },
+  "calculus-section-7-1-19": {
+    "grader": {
+      "type": "choice",
+      "answer": "(z³ − 3·z² + 6·z − 6)·e^(z) + C",
+      "options": [
+        "(z³ − 3·z² + 6·z − 6)·e^(z) + C",
+        "−(z³ − 3·z² + 6·z − 6)·e^(z) + C",
+        "2·(z³ − 3·z² + 6·z − 6)·e^(z) + C",
+        "z² + (z³ − 3·z² + 6·z − 6)·e^(z) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (z³·e^(z)) dz"
+  },
+  "calculus-section-7-1-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "2·x^(3/2)·ln(x)/3 − 4·x^(3/2)/9 + C",
+      "options": [
+        "2·x^(3/2)·ln(x)/3 − 4·x^(3/2)/9 + C",
+        "−2·x^(3/2)·ln(x)/3 + 4·x^(3/2)/9 + C",
+        "4·x^(3/2)·ln(x)/3 − 8·x^(3/2)/9 + C",
+        "2·x^(3/2)·ln(x)/3 − 4·x^(3/2)/9 + x² + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (√(x)·ln(x)) dx; use u=ln(x), dv=√(x) dx"
+  },
+  "calculus-section-7-1-20": {
+    "grader": {
+      "type": "choice",
+      "answer": "−x²/2 + x·tan(x) + ln|cos x| + C",
+      "options": [
+        "−x²/2 + x·tan(x) + ln|cos x| + C",
+        "x²/2 − x·tan(x) − ln|cos x| + C",
+        "−x² + 2·x·tan(x) + 2·ln|cos x| + C",
+        "x²/2 + x·tan(x) + ln|cos x| + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·tan(x)²) dx"
+  },
+  "calculus-section-7-1-21": {
+    "grader": {
+      "type": "choice",
+      "answer": "e^(2·x)/(8·x + 4) + C",
+      "options": [
+        "e^(2·x)/(8·x + 4) + C",
+        "−e^(2·x)/(8·x + 4) + C",
+        "2·e^(2·x)/(8·x + 4) + C",
+        "x² + e^(2·x)/(8·x + 4) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·e^(2·x)/(2·x + 1)²) dx"
+  },
+  "calculus-section-7-1-22": {
+    "grader": {
+      "type": "choice",
+      "answer": "x·arcsin(x)² − 2·x + 2·√(1 − x²)·arcsin(x) + C",
+      "options": [
+        "x·arcsin(x)² − 2·x + 2·√(1 − x²)·arcsin(x) + C",
+        "−x·arcsin(x)² + 2·x − 2·√(1 − x²)·arcsin(x) + C",
+        "2·x·arcsin(x)² − 4·x + 4·√(1 − x²)·arcsin(x) + C",
+        "x² + x·arcsin(x)² − 2·x + 2·√(1 − x²)·arcsin(x) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (arcsin(x)²) dx"
+  },
+  "calculus-section-7-1-23": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.05783375944955756,
+      "tolerance": 1e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "(−2 + π)/(2·π²)"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1/2 (x·cos(π·x)) dx"
+  },
+  "calculus-section-7-1-24": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.7927233529713461,
+      "tolerance": 7.927233529713461e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "3 − 6·e⁻¹"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 ((x² + 1)·e^(−x)) dx"
+  },
+  "calculus-section-7-1-25": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.897530974320244,
+      "tolerance": 3.8975309743202443e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−sinh(2) + 2·cosh(2)"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 2 (y·sinh(y)) dy"
+  },
+  "calculus-section-7-1-26": {
+    "grader": {
+      "type": "numeric",
+      "answer": 1.0706147037154097,
+      "tolerance": 1.0706147037154097e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−7/9 + 8·ln(2)/3"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 1 to 2 (w²·ln(w)) dw"
+  },
+  "calculus-section-7-1-27": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.4781124175131799,
+      "tolerance": 4.781124175131799e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "4/5 − ln(5)/5"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 1 to 5 (ln(R)/R²) dR"
+  },
+  "calculus-section-7-1-28": {
+    "grader": {
+      "type": "numeric",
+      "answer": -19.739208802178716,
+      "tolerance": 1.9739208802178717e-07,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−2·π²"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 2·π (t²·sin(2·t)) dt"
+  },
+  "calculus-section-7-1-29": {
+    "grader": {
+      "type": "numeric",
+      "answer": -0.7853981633974483,
+      "tolerance": 7.853981633974483e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−π/4"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π (x·sin(x)·cos(x)) dx"
+  },
+  "calculus-section-7-1-3": {
+    "grader": {
+      "type": "choice",
+      "answer": "x·sin(5·x)/5 + cos(5·x)/25 + C",
+      "options": [
+        "x·sin(5·x)/5 + cos(5·x)/25 + C",
+        "−x·sin(5·x)/5 − cos(5·x)/25 + C",
+        "2·x·sin(5·x)/5 + 2·cos(5·x)/25 + C",
+        "x² + x·sin(5·x)/5 + cos(5·x)/25 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·cos(5·x)) dx"
+  },
+  "calculus-section-7-1-30": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.4680751089996333,
+      "tolerance": 4.680751089996333e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−π/4 + ln(2)/2 + √(3)·π/6"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 1 to √(3) (arctan(1/x)) dx"
+  },
+  "calculus-section-7-1-31": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.6953312003483718,
+      "tolerance": 6.953312003483718e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "2·(−3 + e⁴)·e⁻⁵"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 1 to 5 (M·e^(−M)) dM"
+  },
+  "calculus-section-7-1-32": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.04079997569023166,
+      "tolerance": 1e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−ln(2)/8 − ln(2)²/8 + 3/16"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 1 to 2 (ln(x)²/x³) dx"
+  },
+  "calculus-section-7-1-33": {
+    "grader": {
+      "type": "numeric",
+      "answer": -0.15342640972002736,
+      "tolerance": 1.5342640972002735e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−1/2 + ln(2)/2"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/3 (ln(cos(x))·sin(x)) dx"
+  },
+  "calculus-section-7-1-34": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.11584138583382404,
+      "tolerance": 1.1584138583382404e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "16/3 − 7·√(5)/3"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 (r³/√(r² + 4)) dr"
+  },
+  "calculus-section-7-1-35": {
+    "grader": {
+      "type": "numeric",
+      "answer": 1.7964425068430292,
+      "tolerance": 1.796442506843029e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−64·ln(2)/25 + 62/125 + 32·ln(2)²/5"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 1 to 2 (x⁴·ln(x)²) dx"
+  },
+  "calculus-section-7-1-36": {
+    "grader": {
+      "type": "choice",
+      "answer": "e^(t)/2 − √(2)·sin(t + π/4)/2",
+      "options": [
+        "e^(t)/2 − √(2)·sin(t + π/4)/2",
+        "e^(t) − √(2)·sin(t + π/4)",
+        "−e^(t)/2 + √(2)·sin(t + π/4)/2",
+        "e^(t)/2 − √(2)·sin(t + π/4)/2 + 1"
+      ],
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to t (e^(s)·sin(t − s)) ds"
+  },
+  "calculus-section-7-1-37": {
+    "grader": {
+      "type": "choice",
+      "answer": "2·(√(x) − 1)·e^(√(x)) + C",
+      "options": [
+        "2·(√(x) − 1)·e^(√(x)) + C",
+        "−2·(√(x) − 1)·e^(√(x)) + C",
+        "4·(√(x) − 1)·e^(√(x)) + C",
+        "x² + 2·(√(x) − 1)·e^(√(x)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "First make a substitution and then use integration by parts to evaluate the integral.\n∫ (e^(√(x))) dx"
+  },
+  "calculus-section-7-1-38": {
+    "grader": {
+      "type": "choice",
+      "answer": "x·(sin(ln(x)) + cos(ln(x)))/2 + C",
+      "options": [
+        "x·(sin(ln(x)) + cos(ln(x)))/2 + C",
+        "−x·(sin(ln(x)) + cos(ln(x)))/2 + C",
+        "x·(sin(ln(x)) + cos(ln(x))) + C",
+        "x² + x·(sin(ln(x)) + cos(ln(x)))/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "First make a substitution and then use integration by parts to evaluate the integral.\n∫ (cos(ln(x))) dx"
+  },
+  "calculus-section-7-1-39": {
+    "grader": {
+      "type": "numeric",
+      "answer": -1.2853981633974483,
+      "tolerance": 1.2853981633974483e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−π/4 − 1/2"
+    },
+    "nativePrompt": "First make a substitution and then use integration by parts to evaluate the integral.\n∫ from √(2)·√(π)/2 to √(π) (θ³·cos(θ²)) dθ"
+  },
+  "calculus-section-7-1-4": {
+    "grader": {
+      "type": "choice",
+      "answer": "(5·y − 25)·e^(y/5) + C",
+      "options": [
+        "(5·y − 25)·e^(y/5) + C",
+        "−(5·y − 25)·e^(y/5) + C",
+        "2·(5·y − 25)·e^(y/5) + C",
+        "y² + (5·y − 25)·e^(y/5) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (y·e^(y/5)) dy"
+  },
+  "calculus-section-7-1-40": {
+    "grader": {
+      "type": "numeric",
+      "answer": 1.4715177646857693,
+      "tolerance": 1.4715177646857694e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "4·e⁻¹"
+    },
+    "nativePrompt": "First make a substitution and then use integration by parts to evaluate the integral.\n∫ from 0 to π (e^(cos(t))·sin(2·t)) dt"
+  },
+  "calculus-section-7-1-41": {
+    "grader": {
+      "type": "choice",
+      "answer": "x − (x + 1)²/4 + (x² − 1)·ln(x + 1)/2 + 1 + C",
+      "options": [
+        "x − (x + 1)²/4 + (x² − 1)·ln(x + 1)/2 + 1 + C",
+        "−x + (x + 1)²/4 − (x² − 1)·ln(x + 1)/2 − 1 + C",
+        "2·x − (x + 1)²/2 + (x² − 1)·ln(x + 1) + 2 + C",
+        "x² + x − (x + 1)²/4 + (x² − 1)·ln(x + 1)/2 + 1 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "First make a substitution and then use integration by parts to evaluate the integral.\n∫ (x·ln(x + 1)) dx"
+  },
+  "calculus-section-7-1-42": {
+    "grader": {
+      "type": "choice",
+      "answer": "√(1 − ln(x)²) + ln(x)·arcsin(ln(x)) + C",
+      "options": [
+        "√(1 − ln(x)²) + ln(x)·arcsin(ln(x)) + C",
+        "−√(1 − ln(x)²) − ln(x)·arcsin(ln(x)) + C",
+        "2·√(1 − ln(x)²) + 2·ln(x)·arcsin(ln(x)) + C",
+        "x² + √(1 − ln(x)²) + ln(x)·arcsin(ln(x)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "First make a substitution and then use integration by parts to evaluate the integral.\n∫ (arcsin(ln(x))/x) dx"
+  },
+  "calculus-section-7-1-43": {
+    "grader": {
+      "type": "choice",
+      "answer": "−(x/2 + 1/4)·e^(−2·x) + C",
+      "options": [
+        "−(x/2 + 1/4)·e^(−2·x) + C",
+        "(x/2 + 1/4)·e^(−2·x) + C",
+        "−2·(x/2 + 1/4)·e^(−2·x) + C",
+        "x² − (x/2 + 1/4)·e^(−2·x) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "complete": false
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·e^(−2·x)) dx\nIllustrate and check the answer by graphing both the integrand and its antiderivative, taking C=0."
+  },
+  "calculus-section-7-1-44": {
+    "grader": {
+      "type": "choice",
+      "answer": "2·x^(5/2)·ln(x)/5 − 4·x^(5/2)/25 + C",
+      "options": [
+        "2·x^(5/2)·ln(x)/5 − 4·x^(5/2)/25 + C",
+        "−2·x^(5/2)·ln(x)/5 + 4·x^(5/2)/25 + C",
+        "4·x^(5/2)·ln(x)/5 − 8·x^(5/2)/25 + C",
+        "2·x^(5/2)·ln(x)/5 − 4·x^(5/2)/25 + x² + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "complete": false
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^(3/2)·ln(x)) dx\nIllustrate and check the answer by graphing both the integrand and its antiderivative, taking C=0."
+  },
+  "calculus-section-7-1-45": {
+    "grader": {
+      "type": "choice",
+      "answer": "(x² + 1)^(5/2)/5 − (x² + 1)^(3/2)/3 + C",
+      "options": [
+        "(x² + 1)^(5/2)/5 − (x² + 1)^(3/2)/3 + C",
+        "−(x² + 1)^(5/2)/5 + (x² + 1)^(3/2)/3 + C",
+        "2·(x² + 1)^(5/2)/5 − 2·(x² + 1)^(3/2)/3 + C",
+        "x² + (x² + 1)^(5/2)/5 − (x² + 1)^(3/2)/3 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "complete": false
+    },
+    "nativePrompt": "Evaluate the indefinite integral. Illustrate and check the answer by graphing both the integrand and antiderivative, taking C=0.\n∫ (x³·√(x² + 1)) dx"
+  },
+  "calculus-section-7-1-46": {
+    "grader": {
+      "type": "choice",
+      "answer": "−x²·cos(2·x)/2 + x·sin(2·x)/2 + cos(2·x)/4 + C",
+      "options": [
+        "−x²·cos(2·x)/2 + x·sin(2·x)/2 + cos(2·x)/4 + C",
+        "x²·cos(2·x)/2 − x·sin(2·x)/2 − cos(2·x)/4 + C",
+        "−x²·cos(2·x) + x·sin(2·x) + cos(2·x)/2 + C",
+        "−x²·cos(2·x)/2 + x² + x·sin(2·x)/2 + cos(2·x)/4 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "complete": false
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x²·sin(2·x)) dx\nIllustrate and check the answer by graphing both the integrand and its antiderivative, taking C=0."
+  },
+  "calculus-section-7-1-5": {
+    "grader": {
+      "type": "choice",
+      "answer": "−(t/3 + 1/9)·e^(−3·t) + C",
+      "options": [
+        "−(t/3 + 1/9)·e^(−3·t) + C",
+        "(t/3 + 1/9)·e^(−3·t) + C",
+        "−2·(t/3 + 1/9)·e^(−3·t) + C",
+        "t² − (t/3 + 1/9)·e^(−3·t) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (t·e^(−3·t)) dt"
+  },
+  "calculus-section-7-1-6": {
+    "grader": {
+      "type": "choice",
+      "answer": "(1 − x)·cos(π·x)/π + sin(π·x)/π² + C",
+      "options": [
+        "(1 − x)·cos(π·x)/π + sin(π·x)/π² + C",
+        "−(1 − x)·cos(π·x)/π − sin(π·x)/π² + C",
+        "2·(1 − x)·cos(π·x)/π + 2·sin(π·x)/π² + C",
+        "x² + (1 − x)·cos(π·x)/π + sin(π·x)/π² + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ ((x − 1)·sin(π·x)) dx"
+  },
+  "calculus-section-7-1-7": {
+    "grader": {
+      "type": "choice",
+      "answer": "(2·x + 2)·cos(x) + (x² + 2·x − 2)·sin(x) + C",
+      "options": [
+        "(2·x + 2)·cos(x) + (x² + 2·x − 2)·sin(x) + C",
+        "−(2·x + 2)·cos(x) − (x² + 2·x − 2)·sin(x) + C",
+        "2·(2·x + 2)·cos(x) + 2·(x² + 2·x − 2)·sin(x) + C",
+        "x² + (2·x + 2)·cos(x) + (x² + 2·x − 2)·sin(x) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ ((x² + 2·x)·cos(x)) dx"
+  },
+  "calculus-section-7-1-8": {
+    "grader": {
+      "type": "choice",
+      "answer": "−t²·cos(β·t)/β + 2·t·sin(β·t)/β² + 2·cos(β·t)/β³ + C if beta≠0; 0 + C if beta=0",
+      "options": [
+        "−t²·cos(β·t)/β + 2·t·sin(β·t)/β² + 2·cos(β·t)/β³ + C if beta≠0; 0 + C if beta=0",
+        "t²·cos(β·t)/β − 2·t·sin(β·t)/β² − 2·cos(β·t)/β³ + C if beta≠0; 0 + C if beta=0",
+        "−2·t²·cos(β·t)/β + 4·t·sin(β·t)/β² + 4·cos(β·t)/β³ + C if beta≠0; 0 + C if beta=0",
+        "t² − t²·cos(β·t)/β + 2·t·sin(β·t)/β² + 2·cos(β·t)/β³ + C if beta≠0; 0 + C if beta=0"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (t²·sin(β·t)) dt"
+  },
+  "calculus-section-7-1-9": {
+    "grader": {
+      "type": "choice",
+      "answer": "x·arccos(x) − √(1 − x²) + C",
+      "options": [
+        "x·arccos(x) − √(1 − x²) + C",
+        "−x·arccos(x) + √(1 − x²) + C",
+        "2·x·arccos(x) − 2·√(1 − x²) + C",
+        "x² + x·arccos(x) − √(1 − x²) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (arccos(x)) dx"
+  },
+  "calculus-section-7-2-1": {
+    "grader": {
+      "type": "choice",
+      "answer": "−sin(x)⁵/5 + sin(x)³/3 + C",
+      "options": [
+        "−sin(x)⁵/5 + sin(x)³/3 + C",
+        "sin(x)⁵/5 − sin(x)³/3 + C",
+        "−2·sin(x)⁵/5 + 2·sin(x)³/3 + C",
+        "x − sin(x)⁵/5 + sin(x)³/3 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(x)²·cos(x)³) dx"
+  },
+  "calculus-section-7-2-10": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.19634954084936207,
+      "tolerance": 1.9634954084936207e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "π/16"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π (sin(t)²·cos(t)⁴) dt"
+  },
+  "calculus-section-7-2-11": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.19634954084936207,
+      "tolerance": 1.9634954084936207e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "π/16"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/2 (sin(x)²·cos(x)²) dx"
+  },
+  "calculus-section-7-2-12": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.068583470577035,
+      "tolerance": 3.068583470577035e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−4 + 9·π/4"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/2 ((2 − sin(θ))²) dθ"
+  },
+  "calculus-section-7-2-13": {
+    "grader": {
+      "type": "choice",
+      "answer": "2·cos(θ)^(7/2)/7 − 2·cos(θ)^(3/2)/3 + C",
+      "options": [
+        "2·cos(θ)^(7/2)/7 − 2·cos(θ)^(3/2)/3 + C",
+        "−2·cos(θ)^(7/2)/7 + 2·cos(θ)^(3/2)/3 + C",
+        "4·cos(θ)^(7/2)/7 − 4·cos(θ)^(3/2)/3 + C",
+        "θ + 2·cos(θ)^(7/2)/7 − 2·cos(θ)^(3/2)/3 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(θ)³·√(cos(θ))) dθ"
+  },
+  "calculus-section-7-2-14": {
+    "grader": {
+      "type": "choice",
+      "answer": "sin(2/t)/4 − 1/(2·t) + C",
+      "options": [
+        "sin(2/t)/4 − 1/(2·t) + C",
+        "−sin(2/t)/4 + 1/(2·t) + C",
+        "sin(2/t)/2 − 1/t + C",
+        "t + sin(2/t)/4 − 1/(2·t) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(1/t)²/t²) dt"
+  },
+  "calculus-section-7-2-15": {
+    "grader": {
+      "type": "choice",
+      "answer": "ln(|sin(x)|) − sin(x)²/2 + C",
+      "options": [
+        "ln(|sin(x)|) − sin(x)²/2 + C",
+        "−ln(|sin(x)|) + sin(x)²/2 + C",
+        "2·ln(|sin(x)|) − sin(x)² + C",
+        "x + ln(|sin(x)|) − sin(x)²/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (cos(x)²·cot(x)) dx"
+  },
+  "calculus-section-7-2-16": {
+    "grader": {
+      "type": "choice",
+      "answer": "sin(x)³/3 + C",
+      "options": [
+        "sin(x)³/3 + C",
+        "−sin(x)³/3 + C",
+        "2·sin(x)³/3 + C",
+        "x + sin(x)³/3 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (cos(x)³·tan(x)²) dx"
+  },
+  "calculus-section-7-2-17": {
+    "grader": {
+      "type": "choice",
+      "answer": "sin(x)⁴/2 + C",
+      "options": [
+        "sin(x)⁴/2 + C",
+        "−sin(x)⁴/2 + C",
+        "sin(x)⁴ + C",
+        "x + sin(x)⁴/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(x)²·sin(2·x)) dx"
+  },
+  "calculus-section-7-2-18": {
+    "grader": {
+      "type": "choice",
+      "answer": "−cos(x/2) − cos(3·x/2)/3 + C",
+      "options": [
+        "−cos(x/2) − cos(3·x/2)/3 + C",
+        "cos(x/2) + cos(3·x/2)/3 + C",
+        "−2·cos(x/2) − 2·cos(3·x/2)/3 + C",
+        "x − cos(x/2) − cos(3·x/2)/3 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(x)·cos(x/2)) dx"
+  },
+  "calculus-section-7-2-19": {
+    "grader": {
+      "type": "choice",
+      "answer": "t²/4 − t·sin(2·t)/4 − cos(2·t)/8 + C",
+      "options": [
+        "t²/4 − t·sin(2·t)/4 − cos(2·t)/8 + C",
+        "−t²/4 + t·sin(2·t)/4 + cos(2·t)/8 + C",
+        "t²/2 − t·sin(2·t)/2 − cos(2·t)/4 + C",
+        "t²/4 − t·sin(2·t)/4 + t − cos(2·t)/8 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (t·sin(t)²) dt"
+  },
+  "calculus-section-7-2-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "cos(θ)⁷/7 − cos(θ)⁵/5 + C",
+      "options": [
+        "cos(θ)⁷/7 − cos(θ)⁵/5 + C",
+        "−cos(θ)⁷/7 + cos(θ)⁵/5 + C",
+        "2·cos(θ)⁷/7 − 2·cos(θ)⁵/5 + C",
+        "θ + cos(θ)⁷/7 − cos(θ)⁵/5 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(θ)³·cos(θ)⁴) dθ"
+  },
+  "calculus-section-7-2-20": {
+    "grader": {
+      "type": "choice",
+      "answer": "−3·x·cos(x)/4 + x·cos(3·x)/12 + 3·sin(x)/4 − sin(3·x)/36 + C",
+      "options": [
+        "−3·x·cos(x)/4 + x·cos(3·x)/12 + 3·sin(x)/4 − sin(3·x)/36 + C",
+        "3·x·cos(x)/4 − x·cos(3·x)/12 − 3·sin(x)/4 + sin(3·x)/36 + C",
+        "−3·x·cos(x)/2 + x·cos(3·x)/6 + 3·sin(x)/2 − sin(3·x)/18 + C",
+        "−3·x·cos(x)/4 + x·cos(3·x)/12 + x + 3·sin(x)/4 − sin(3·x)/36 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·sin(x)³) dx"
+  },
+  "calculus-section-7-2-21": {
+    "grader": {
+      "type": "choice",
+      "answer": "sec(x)³/3 + C",
+      "options": [
+        "sec(x)³/3 + C",
+        "−sec(x)³/3 + C",
+        "2·sec(x)³/3 + C",
+        "x + sec(x)³/3 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(x)·sec(x)³) dx"
+  },
+  "calculus-section-7-2-22": {
+    "grader": {
+      "type": "choice",
+      "answer": "tan(θ)⁵/5 + tan(θ)³/3 + C",
+      "options": [
+        "tan(θ)⁵/5 + tan(θ)³/3 + C",
+        "−tan(θ)⁵/5 − tan(θ)³/3 + C",
+        "2·tan(θ)⁵/5 + 2·tan(θ)³/3 + C",
+        "θ + tan(θ)⁵/5 + tan(θ)³/3 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(θ)²·sec(θ)⁴) dθ"
+  },
+  "calculus-section-7-2-23": {
+    "grader": {
+      "type": "choice",
+      "answer": "−x + tan(x) + C",
+      "options": [
+        "−x + tan(x) + C",
+        "x − tan(x) + C",
+        "−2·x + 2·tan(x) + C",
+        "tan(x) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(x)²) dx"
+  },
+  "calculus-section-7-2-24": {
+    "grader": {
+      "type": "choice",
+      "answer": "tan(x)³/3 + C",
+      "options": [
+        "tan(x)³/3 + C",
+        "−tan(x)³/3 + C",
+        "2·tan(x)³/3 + C",
+        "x + tan(x)³/3 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(x)⁴ + tan(x)²) dx"
+  },
+  "calculus-section-7-2-25": {
+    "grader": {
+      "type": "choice",
+      "answer": "tan(x)⁹/9 + 2·tan(x)⁷/7 + tan(x)⁵/5 + C",
+      "options": [
+        "tan(x)⁹/9 + 2·tan(x)⁷/7 + tan(x)⁵/5 + C",
+        "−tan(x)⁹/9 − 2·tan(x)⁷/7 − tan(x)⁵/5 + C",
+        "2·tan(x)⁹/9 + 4·tan(x)⁷/7 + 2·tan(x)⁵/5 + C",
+        "x + tan(x)⁹/9 + 2·tan(x)⁷/7 + tan(x)⁵/5 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(x)⁴·sec(x)⁶) dx"
+  },
+  "calculus-section-7-2-26": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.455988455988456,
+      "tolerance": 4.55988455988456e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "316/693"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/4 (tan(θ)⁶·sec(θ)⁶) dθ"
+  },
+  "calculus-section-7-2-27": {
+    "grader": {
+      "type": "choice",
+      "answer": "sec(x)³/3 − sec(x) + C",
+      "options": [
+        "sec(x)³/3 − sec(x) + C",
+        "−sec(x)³/3 + sec(x) + C",
+        "2·sec(x)³/3 − 2·sec(x) + C",
+        "x + sec(x)³/3 − sec(x) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(x)³·sec(x)) dx"
+  },
+  "calculus-section-7-2-28": {
+    "grader": {
+      "type": "choice",
+      "answer": "sec(x)⁷/7 − 2·sec(x)⁵/5 + sec(x)³/3 + C",
+      "options": [
+        "sec(x)⁷/7 − 2·sec(x)⁵/5 + sec(x)³/3 + C",
+        "−sec(x)⁷/7 + 2·sec(x)⁵/5 − sec(x)³/3 + C",
+        "2·sec(x)⁷/7 − 4·sec(x)⁵/5 + 2·sec(x)³/3 + C",
+        "x + sec(x)⁷/7 − 2·sec(x)⁵/5 + sec(x)³/3 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(x)⁵·sec(x)³) dx"
+  },
+  "calculus-section-7-2-29": {
+    "grader": {
+      "type": "choice",
+      "answer": "tan(x)⁸/8 + tan(x)⁶/3 + tan(x)⁴/4 + C",
+      "options": [
+        "tan(x)⁸/8 + tan(x)⁶/3 + tan(x)⁴/4 + C",
+        "−tan(x)⁸/8 − tan(x)⁶/3 − tan(x)⁴/4 + C",
+        "tan(x)⁸/4 + 2·tan(x)⁶/3 + tan(x)⁴/2 + C",
+        "x + tan(x)⁸/8 + tan(x)⁶/3 + tan(x)⁴/4 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(x)³·sec(x)⁶) dx"
+  },
+  "calculus-section-7-2-3": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.008333333333333333,
+      "tolerance": 1e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "1/120"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/2 (sin(θ)⁷·cos(θ)⁵) dθ"
+  },
+  "calculus-section-7-2-30": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.11873149673078165,
+      "tolerance": 1.1873149673078165e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−2/3 + π/4"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/4 (tan(t)⁴) dt"
+  },
+  "calculus-section-7-2-31": {
+    "grader": {
+      "type": "choice",
+      "answer": "−ln(|cos(x)|) + tan(x)⁴/4 − tan(x)²/2 + C",
+      "options": [
+        "−ln(|cos(x)|) + tan(x)⁴/4 − tan(x)²/2 + C",
+        "ln(|cos(x)|) − tan(x)⁴/4 + tan(x)²/2 + C",
+        "−2·ln(|cos(x)|) + tan(x)⁴/2 − tan(x)² + C",
+        "x − ln(|cos(x)|) + tan(x)⁴/4 − tan(x)²/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(x)⁵) dx"
+  },
+  "calculus-section-7-2-32": {
+    "grader": {
+      "type": "choice",
+      "answer": "−ln(|tan(x) + sec(x)|)/2 + tan(x)·sec(x)/2 + C",
+      "options": [
+        "−ln(|tan(x) + sec(x)|)/2 + tan(x)·sec(x)/2 + C",
+        "ln(|tan(x) + sec(x)|)/2 − tan(x)·sec(x)/2 + C",
+        "−ln(|tan(x) + sec(x)|) + tan(x)·sec(x) + C",
+        "x − ln(|tan(x) + sec(x)|)/2 + tan(x)·sec(x)/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (tan(x)²·sec(x)) dx"
+  },
+  "calculus-section-7-2-33": {
+    "grader": {
+      "type": "choice",
+      "answer": "x·sec(x) − ln(|tan(x) + sec(x)|) + C",
+      "options": [
+        "x·sec(x) − ln(|tan(x) + sec(x)|) + C",
+        "−x·sec(x) + ln(|tan(x) + sec(x)|) + C",
+        "2·x·sec(x) − 2·ln(|tan(x) + sec(x)|) + C",
+        "x·sec(x) + x − ln(|tan(x) + sec(x)|) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·tan(x)·sec(x)) dx"
+  },
+  "calculus-section-7-2-34": {
+    "grader": {
+      "type": "choice",
+      "answer": "1/(2·cos(φ)²) + C",
+      "options": [
+        "1/(2·cos(φ)²) + C",
+        "−1/(2·cos(φ)²) + C",
+        "cos(φ)⁻² + C",
+        "φ + 1/(2·cos(φ)²) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(φ)/cos(φ)³) dφ"
+  },
+  "calculus-section-7-2-35": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.6848532563722796,
+      "tolerance": 6.848532563722795e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−π/3 + √(3)"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from π/6 to π/2 (cot(x)²) dx"
+  },
+  "calculus-section-7-2-36": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.15342640972002736,
+      "tolerance": 1.5342640972002735e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "1/2 − ln(2)/2"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from π/4 to π/2 (cot(x)³) dx"
+  },
+  "calculus-section-7-2-37": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.2201209368781723,
+      "tolerance": 2.201209368781723e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−8/105 + 22·√(2)/105"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from π/4 to π/2 (cot(φ)⁵·csc(φ)³) dφ"
+  },
+  "calculus-section-7-2-38": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.34285714285714286,
+      "tolerance": 3.4285714285714287e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "12/35"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from π/4 to π/2 (cot(θ)⁴·csc(θ)⁴) dθ"
+  },
+  "calculus-section-7-2-39": {
+    "grader": {
+      "type": "choice",
+      "answer": "ln(|cot(x) − csc(x)|) + C",
+      "options": [
+        "ln(|cot(x) − csc(x)|) + C",
+        "−ln(|cot(x) − csc(x)|) + C",
+        "2·ln(|cot(x) − csc(x)|) + C",
+        "x + ln(|cot(x) − csc(x)|) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (csc(x)) dx"
+  },
+  "calculus-section-7-2-4": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.5333333333333333,
+      "tolerance": 5.333333333333333e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "8/15"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/2 (sin(x)⁵) dx"
+  },
+  "calculus-section-7-2-40": {
+    "grader": {
+      "type": "numeric",
+      "answer": 1.782543350530925,
+      "tolerance": 1.782543350530925e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−1/3 − ln(3)/4 − ln(2 − √(3))/2 + √(3)"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from π/6 to π/3 (csc(x)³) dx"
+  },
+  "calculus-section-7-2-41": {
+    "grader": {
+      "type": "choice",
+      "answer": "−cos(3·x)/6 − cos(13·x)/26 + C",
+      "options": [
+        "−cos(3·x)/6 − cos(13·x)/26 + C",
+        "cos(3·x)/6 + cos(13·x)/26 + C",
+        "−cos(3·x)/3 − cos(13·x)/13 + C",
+        "x − cos(3·x)/6 − cos(13·x)/26 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(8·x)·cos(5·x)) dx"
+  },
+  "calculus-section-7-2-42": {
+    "grader": {
+      "type": "choice",
+      "answer": "sin(4·θ)/8 − sin(8·θ)/16 + C",
+      "options": [
+        "sin(4·θ)/8 − sin(8·θ)/16 + C",
+        "−sin(4·θ)/8 + sin(8·θ)/16 + C",
+        "sin(4·θ)/4 − sin(8·θ)/8 + C",
+        "θ + sin(4·θ)/8 − sin(8·θ)/16 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(2·θ)·sin(6·θ)) dθ"
+  },
+  "calculus-section-7-2-43": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.06666666666666667,
+      "tolerance": 1e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "1/15"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/2 (cos(5·t)·cos(10·t)) dt"
+  },
+  "calculus-section-7-2-44": {
+    "grader": {
+      "type": "choice",
+      "answer": "1/(4·cos(x)⁴) + C",
+      "options": [
+        "1/(4·cos(x)⁴) + C",
+        "−1/(4·cos(x)⁴) + C",
+        "1/(2·cos(x)⁴) + C",
+        "x + 1/(4·cos(x)⁴) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(x)·sec(x)⁵) dx"
+  },
+  "calculus-section-7-2-45": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.7071067811865476,
+      "tolerance": 7.071067811865476e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "√(2)/2"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/6 (√(cos(2·x) + 1)) dx"
+  },
+  "calculus-section-7-2-46": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.7071067811865476,
+      "tolerance": 7.071067811865476e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "√(2)/2"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/4 (√(1 − cos(4·θ))) dθ"
+  },
+  "calculus-section-7-2-47": {
+    "grader": {
+      "type": "choice",
+      "answer": "sin(2·x)/2 + C",
+      "options": [
+        "sin(2·x)/2 + C",
+        "−sin(2·x)/2 + C",
+        "sin(2·x) + C",
+        "x + sin(2·x)/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ ((1 − tan(x)²)/sec(x)²) dx"
+  },
+  "calculus-section-7-2-48": {
+    "grader": {
+      "type": "choice",
+      "answer": "cot(x/2) + C",
+      "options": [
+        "cot(x/2) + C",
+        "−cot(x/2) + C",
+        "2·cot(x/2) + C",
+        "x + cot(x/2) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (1/(cos(x) − 1)) dx"
+  },
+  "calculus-section-7-2-49": {
+    "grader": {
+      "type": "choice",
+      "answer": "−x²/2 + x·tan(x) + ln(|cos(x)|) + C",
+      "options": [
+        "−x²/2 + x·tan(x) + ln(|cos(x)|) + C",
+        "x²/2 − x·tan(x) − ln(|cos(x)|) + C",
+        "−x² + 2·x·tan(x) + 2·ln(|cos(x)|) + C",
+        "−x²/2 + x·tan(x) + x + ln(|cos(x)|) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·tan(x)²) dx"
+  },
+  "calculus-section-7-2-5": {
+    "grader": {
+      "type": "choice",
+      "answer": "−cos(2·t)⁷/14 + cos(2·t)⁵/5 − cos(2·t)³/6 + C",
+      "options": [
+        "−cos(2·t)⁷/14 + cos(2·t)⁵/5 − cos(2·t)³/6 + C",
+        "cos(2·t)⁷/14 − cos(2·t)⁵/5 + cos(2·t)³/6 + C",
+        "−cos(2·t)⁷/7 + 2·cos(2·t)⁵/5 − cos(2·t)³/3 + C",
+        "t − cos(2·t)⁷/14 + cos(2·t)⁵/5 − cos(2·t)³/6 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (sin(2·t)⁵·cos(2·t)²) dt"
+  },
+  "calculus-section-7-2-6": {
+    "grader": {
+      "type": "choice",
+      "answer": "sin(t²)⁵/10 − sin(t²)³/3 + sin(t²)/2 + C",
+      "options": [
+        "sin(t²)⁵/10 − sin(t²)³/3 + sin(t²)/2 + C",
+        "−sin(t²)⁵/10 + sin(t²)³/3 − sin(t²)/2 + C",
+        "sin(t²)⁵/5 − 2·sin(t²)³/3 + sin(t²) + C",
+        "t + sin(t²)⁵/10 − sin(t²)³/3 + sin(t²)/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (t·cos(t²)⁵) dt"
+  },
+  "calculus-section-7-2-7": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.7853981633974483,
+      "tolerance": 7.853981633974483e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "π/4"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/2 (cos(θ)²) dθ"
+  },
+  "calculus-section-7-2-8": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.791111706428122,
+      "tolerance": 3.791111706428122e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "3·√(3)/8 + π"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 2·π (sin(θ/3)²) dθ"
+  },
+  "calculus-section-7-2-9": {
+    "grader": {
+      "type": "numeric",
+      "answer": 1.1780972450961724,
+      "tolerance": 1.1780972450961725e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "3·π/8"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π (cos(2·t)⁴) dt"
+  },
+  "calculus-section-7-3-10": {
+    "grader": {
+      "type": "numeric",
+      "answer": 1.0471975511965979,
+      "tolerance": 1.0471975511965978e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "π/3"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 2/3 (√(4 − 9·x²)) dx"
+  },
+  "calculus-section-7-3-11": {
+    "grader": {
+      "type": "numeric",
+      "label": "Integral value",
+      "answer": 0.08333333333333333,
+      "unit": "",
+      "tolerance": 1e-07,
+      "provenance": "source-transcribed-independently-calculated",
+      "explanation": "The source integrand includes x. With u=1−4x², du=−8x dx; the endpoints become 1 and 0, giving (1/8)∫₀¹√u du=1/12.",
+      "fieldIndex": 0,
+      "scope": "Checks the labeled mathematical results. Graphs, proofs, explanations and software output comparisons must still be reviewed separately."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1/2 (x*sqrt(1−4*x^2)) dx"
+  },
+  "calculus-section-7-3-12": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.881373587019543,
+      "tolerance": 8.81373587019543e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "ln(1 + √(2))"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 2 (1/√(t² + 4)) dt"
+  },
+  "calculus-section-7-3-13": {
+    "grader": {
+      "type": "choice",
+      "answer": "arctan(√(x² − 9)/3)/6 − √(x² − 9)/(2·x²) + C",
+      "options": [
+        "arctan(√(x² − 9)/3)/6 − √(x² − 9)/(2·x²) + C",
+        "−arctan(√(x² − 9)/3)/6 + √(x² − 9)/(2·x²) + C",
+        "arctan(√(x² − 9)/3)/3 − √(x² − 9)/x² + C",
+        "x + arctan(√(x² − 9)/3)/6 − √(x² − 9)/(2·x²) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (√(x² − 9)/x³) dx"
+  },
+  "calculus-section-7-3-14": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.6426990816987241,
+      "tolerance": 6.426990816987241e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "1/4 + π/8"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 ((x² + 1)⁻²) dx"
+  },
+  "calculus-section-7-3-16": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.047044027704686,
+      "tolerance": 3.0470440277046864e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−81/4 + 81·π/32 + 567·√(3)/64"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from √(2)/3 to 2/3 (1/(x⁵·√(9·x² − 1))) dx"
+  },
+  "calculus-section-7-3-17": {
+    "grader": {
+      "type": "choice",
+      "answer": "√(x² − 7) + C",
+      "options": [
+        "√(x² − 7) + C",
+        "−√(x² − 7) + C",
+        "2·√(x² − 7) + C",
+        "x + √(x² − 7) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x/√(x² − 7)) dx"
+  },
+  "calculus-section-7-3-19": {
+    "grader": {
+      "type": "choice",
+      "answer": "√(x² + 1) + ln(|x|/(√(x² + 1) + 1)) + C",
+      "options": [
+        "√(x² + 1) + ln(|x|/(√(x² + 1) + 1)) + C",
+        "−√(x² + 1) − ln(|x|/(√(x² + 1) + 1)) + C",
+        "2·√(x² + 1) + 2·ln(|x|/(√(x² + 1) + 1)) + C",
+        "x + √(x² + 1) + ln(|x|/(√(x² + 1) + 1)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (√(x² + 1)/x) dx"
+  },
+  "calculus-section-7-3-20": {
+    "grader": {
+      "type": "choice",
+      "answer": "√(x² + 1) + C",
+      "options": [
+        "√(x² + 1) + C",
+        "−√(x² + 1) + C",
+        "2·√(x² + 1) + C",
+        "x + √(x² + 1) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x/√(x² + 1)) dx"
+  },
+  "calculus-section-7-3-21": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.05654866776461628,
+      "tolerance": 1e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "9·π/500"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 3/5 (x²/√(9 − 25·x²)) dx"
+  },
+  "calculus-section-7-3-22": {
+    "grader": {
+      "type": "numeric",
+      "answer": 1.147793574696319,
+      "tolerance": 1.147793574696319e-08,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "ln(1 + √(2))/2 + √(2)/2"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 (√(x² + 1)) dx"
+  },
+  "calculus-section-7-3-23": {
+    "grader": {
+      "type": "choice",
+      "answer": "ln(|x + √(x² + 2·x + 5) + 1|) + C",
+      "options": [
+        "ln(|x + √(x² + 2·x + 5) + 1|) + C",
+        "−ln(|x + √(x² + 2·x + 5) + 1|) + C",
+        "2·ln(|x + √(x² + 2·x + 5) + 1|) + C",
+        "x + ln(|x + √(x² + 2·x + 5) + 1|) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (1/√(x² + 2·x + 5)) dx"
+  },
+  "calculus-section-7-3-24": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.39269908169872414,
+      "tolerance": 3.926990816987241e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "π/8"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 (√(−x² + x)) dx"
+  },
+  "calculus-section-7-3-25": {
+    "grader": {
+      "type": "choice",
+      "answer": "(x − 1)³·√(−x² + 2·x + 3)/4 − 2·(−x² + 2·x + 3)^(3/2)/3 + 4·arcsin(x/2 − 1/2) + C",
+      "options": [
+        "(x − 1)³·√(−x² + 2·x + 3)/4 − 2·(−x² + 2·x + 3)^(3/2)/3 + 4·arcsin(x/2 − 1/2) + C",
+        "−(x − 1)³·√(−x² + 2·x + 3)/4 + 2·(−x² + 2·x + 3)^(3/2)/3 − 4·arcsin(x/2 − 1/2) + C",
+        "(x − 1)³·√(−x² + 2·x + 3)/2 − 4·(−x² + 2·x + 3)^(3/2)/3 + 8·arcsin(x/2 − 1/2) + C",
+        "x + (x − 1)³·√(−x² + 2·x + 3)/4 − 2·(−x² + 2·x + 3)^(3/2)/3 + 4·arcsin(x/2 − 1/2) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x²·√(−x² + 2·x + 3)) dx"
+  },
+  "calculus-section-7-3-26": {
+    "grader": {
+      "type": "choice",
+      "answer": "−arcsin(x − 1/2)/8 + (5·x/4 + 3/8)/(8·√(1 − (x − 1/2)²)) + C",
+      "options": [
+        "−arcsin(x − 1/2)/8 + (5·x/4 + 3/8)/(8·√(1 − (x − 1/2)²)) + C",
+        "arcsin(x − 1/2)/8 − (5·x/4 + 3/8)/(8·√(1 − (x − 1/2)²)) + C",
+        "−arcsin(x − 1/2)/4 + (5·x/4 + 3/8)/(4·√(1 − (x − 1/2)²)) + C",
+        "x − arcsin(x − 1/2)/8 + (5·x/4 + 3/8)/(8·√(1 − (x − 1/2)²)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x²/(−4·x² + 4·x + 3)^(3/2)) dx"
+  },
+  "calculus-section-7-3-27": {
+    "grader": {
+      "type": "choice",
+      "answer": "(x + 1)·√(x² + 2·x)/2 − ln(|x + √(x² + 2·x) + 1|)/2 + C",
+      "options": [
+        "(x + 1)·√(x² + 2·x)/2 − ln(|x + √(x² + 2·x) + 1|)/2 + C",
+        "−(x + 1)·√(x² + 2·x)/2 + ln(|x + √(x² + 2·x) + 1|)/2 + C",
+        "(x + 1)·√(x² + 2·x) − ln(|x + √(x² + 2·x) + 1|) + C",
+        "x + (x + 1)·√(x² + 2·x)/2 − ln(|x + √(x² + 2·x) + 1|)/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (√(x² + 2·x)) dx"
+  },
+  "calculus-section-7-3-28": {
+    "grader": {
+      "type": "choice",
+      "answer": "(x/2 − 3/2)/((x − 1)² + 1) + 3·arctan(x − 1)/2 + C",
+      "options": [
+        "(x/2 − 3/2)/((x − 1)² + 1) + 3·arctan(x − 1)/2 + C",
+        "−(x/2 − 3/2)/((x − 1)² + 1) − 3·arctan(x − 1)/2 + C",
+        "2·(x/2 − 3/2)/((x − 1)² + 1) + 3·arctan(x − 1) + C",
+        "x + (x/2 − 3/2)/((x − 1)² + 1) + 3·arctan(x − 1)/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ ((x² + 1)/(x² − 2·x + 2)²) dx"
+  },
+  "calculus-section-7-3-29": {
+    "grader": {
+      "type": "choice",
+      "answer": "x²·√(1 − x⁴)/4 + arcsin(x²)/4 + C",
+      "options": [
+        "x²·√(1 − x⁴)/4 + arcsin(x²)/4 + C",
+        "−x²·√(1 − x⁴)/4 − arcsin(x²)/4 + C",
+        "x²·√(1 − x⁴)/2 + arcsin(x²)/2 + C",
+        "x²·√(1 − x⁴)/4 + x + arcsin(x²)/4 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x·√(1 − x⁴)) dx"
+  },
+  "calculus-section-7-3-30": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.881373587019543,
+      "tolerance": 8.81373587019543e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "ln(1 + √(2))"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to π/2 (cos(t)/√(sin(t)² + 1)) dt"
+  },
+  "calculus-section-7-3-4": {
+    "grader": {
+      "type": "choice",
+      "answer": "−x·√(9 − x²)/2 + 9·arcsin(x/3)/2 + C",
+      "options": [
+        "−x·√(9 − x²)/2 + 9·arcsin(x/3)/2 + C",
+        "x·√(9 − x²)/2 − 9·arcsin(x/3)/2 + C",
+        "−x·√(9 − x²) + 9·arcsin(x/3) + C",
+        "−x·√(9 − x²)/2 + x + 9·arcsin(x/3)/2 + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x²/√(9 − x²)) dx"
+  },
+  "calculus-section-7-3-5": {
+    "grader": {
+      "type": "choice",
+      "answer": "(x² − 1)^(3/2)/(3·x³) + C",
+      "options": [
+        "(x² − 1)^(3/2)/(3·x³) + C",
+        "−(x² − 1)^(3/2)/(3·x³) + C",
+        "2·(x² − 1)^(3/2)/(3·x³) + C",
+        "x + (x² − 1)^(3/2)/(3·x³) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (√(x² − 1)/x⁴) dx"
+  },
+  "calculus-section-7-3-6": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.8038475772933681,
+      "tolerance": 8.038475772933681e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "6 − 3·√(3)"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 3 (x/√(36 − x²)) dx"
+  },
+  "calculus-section-7-3-7": {
+    "grader": {
+      "type": "choice",
+      "answer": "√(2)/(2·a²)",
+      "options": [
+        "√(2)/(2·a²)",
+        "−√(2)/(2·a²)",
+        "√(2)/a²",
+        "√(2)/(4·a²)"
+      ],
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to a ((a² + x²)^(−3/2)) dx; a > 0"
+  },
+  "calculus-section-7-3-8": {
+    "grader": {
+      "type": "choice",
+      "answer": "√(t² − 16)/(16·t) + C",
+      "options": [
+        "√(t² − 16)/(16·t) + C",
+        "−√(t² − 16)/(16·t) + C",
+        "√(t² − 16)/(8·t) + C",
+        "t + √(t² − 16)/(16·t) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (1/(t²·√(t² − 16))) dt"
+  },
+  "calculus-section-7-3-9": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.09404036659943024,
+      "tolerance": 1e-09,
+      "label": "Integral",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "−3·√(2)/4 + 2·√(3)/3"
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 2 to 3 ((x² − 1)^(−3/2)) dx"
+  },
+  "calculus-section-7-4-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "A/(1+2x)+B/(3-x)",
+          "options": [
+            "A/(1+2x)+B/(3-x)^2",
+            "A/(1+2x)^2+B/(3-x)",
+            "A/(1+2x)+B/(3+x)",
+            "A/(1+2x)+B/(3-x)"
+          ],
+          "label": "a",
+          "fieldIndex": 0,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (a). Leave coefficients unevaluated.",
+          "explanation": "A linear factor takes a constant numerator; retain both distinct factors.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        },
+        {
+          "type": "choice",
+          "answer": "A/x+B/x^2+C/x^3+D/(x+1)",
+          "options": [
+            "A/x+B/x^2+C/x^3+D/(x+1)^2",
+            "A/x+B/x^2+C/x^4+D/(x+1)",
+            "A/x+B/x^2+C/x^3+D/(x+1)",
+            "A/x^3+B/(x+1)"
+          ],
+          "label": "b",
+          "fieldIndex": 1,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (b). Leave coefficients unevaluated.",
+          "explanation": "A triple factor needs the first, second and third denominator powers; one term over x^3 is not the general decomposition.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        }
+      ]
+    },
+    "nativePrompt": "For each function, write the form of its partial-fraction decomposition as in Example 7; leave its unknown coefficients unevaluated.\n(a) (4+x)/((1+2x)(3-x))\n(b) (1-x)/(x^3+x^4)\nUse the standard complete template from denominator factors, even when a coefficient could later turn out to be zero. Different letters are unknown constants."
+  },
+  "calculus-section-7-4-10": {
+    "grader": {
+      "type": "choice",
+      "answer": "(4/9)ln|y+4|+(1/18)ln|2y-1| + C",
+      "options": [
+        "(1/9)ln|y+4|+(2/9)ln|2y-1| + C",
+        "(4/9)ln|y+4|-(1/18)ln|2y-1| + C",
+        "(4/9)ln|y+4|+(1/18)ln|2y-1| + C",
+        "(4/9)ln|y+4|+(1/9)ln|2y-1| + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "The coefficient 1/9 belongs to the rational term; its integral has coefficient 1/18 because the derivative of 2y-1 is 2.",
+      "hint": "Check the polynomial quotient or partial fractions, then include the reciprocal inner-derivative factor in each logarithm."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ y/((y+4)(2y-1)) dy\ny < -4, -4 < y < 1/2, or y > 1/2; constants may differ on those intervals."
+  },
+  "calculus-section-7-4-11": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.8109302162163288,
+      "tolerance": 0.0005,
+      "label": "Integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "unit": "",
+      "answerText": "2ln(3/2)",
+      "selectionPrompt": "Enter the integral value to at least 3 decimal places (no +C).",
+      "explanation": "Include the 1/2 chain-rule factor for the 2x+1 logarithm, then subtract F(0) from F(1). The final result is positive and has no +C.",
+      "hint": "Factor the denominator, preserve its original domain, and distinguish definite endpoint evaluation from a parameter-dependent primitive."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 of 2/(2x^2+3x+1) dx\nGlasshouse answer entry: enter the dimensionless result to at least 3 decimal places.\nThe poles -1 and -1/2 lie outside [0,1]; the integrand is continuous throughout the closed interval."
+  },
+  "calculus-section-7-4-12": {
+    "grader": {
+      "type": "numeric",
+      "answer": -0.9808292530117262,
+      "tolerance": 0.0005,
+      "label": "Integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "unit": "",
+      "answerText": "ln(3/8)",
+      "selectionPrompt": "Enter the integral value to at least 3 decimal places (no +C).",
+      "explanation": "Keep absolute values in the primitive and subtract the entire lower-endpoint expression. The source integrand is negative on [0,1], so a positive result signals a sign or endpoint error.",
+      "hint": "Factor the denominator, preserve its original domain, and distinguish definite endpoint evaluation from a parameter-dependent primitive."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 of (x-4)/(x^2-5x+6) dx\nGlasshouse answer entry: enter the dimensionless result to at least 3 decimal places.\nThe poles 2 and 3 lie outside [0,1]; the numerator is negative and denominator positive throughout this interval."
+  },
+  "calculus-section-7-4-13": {
+    "grader": {
+      "type": "choice",
+      "answer": "a ln|x-b| + C",
+      "options": [
+        "a ln|x+b| + C",
+        "ln|x-b| + C",
+        "a/(x-b) + C",
+        "a ln|x-b| + C"
+      ],
+      "label": "Antiderivative family",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose a formula valid for arbitrary real constants on the original domain.",
+      "explanation": "Treat a and b as constants, not nonzero assumptions. Cancel x only on the original domain and integrate the remaining reciprocal to a logarithm, retaining its factor a.",
+      "hint": "Factor the denominator, preserve its original domain, and distinguish definite endpoint evaluation from a parameter-dependent primitive."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ ax/(x^2-bx) dx\nHere a and b are arbitrary real constants. Glasshouse clarification: preserve the original domain x != 0 and x != b even after cancellation; choose a formula valid for all parameter values.\na,b are arbitrary real constants; x != 0 and x != b. If b=0 there is just one excluded point. Constants of integration may differ on disconnected intervals."
+  },
+  "calculus-section-7-4-14": {
+    "grader": {
+      "type": "choice",
+      "answer": "If a != b: (ln|x+a|-ln|x+b|)/(b-a) + C. If a = b: -1/(x+a) + C.",
+      "options": [
+        "If a != b: 2(ln|x+a|-ln|x+b|)/(b-a) + C. If a = b: -2/(x+a) + C.",
+        "If a != b: (ln|x+a|+ln|x+b|)/(b-a) + C. If a = b: ln|x+a| + C.",
+        "If a != b: (ln|x+a|-ln|x+b|)/(b-a) + C. If a = b: -1/(x+a) + C.",
+        "If a != b: (ln|x+a|-ln|x+b|)/(a-b) + C. If a = b: 1/(x+a) + C."
+      ],
+      "label": "Antiderivative family",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose a formula valid for arbitrary real constants on the original domain.",
+      "explanation": "A formula divided by b-a applies only when a!=b. Preserve the logarithm order/sign and separately integrate (x+a)^(-2) when a=b.",
+      "hint": "Factor the denominator, preserve its original domain, and distinguish definite endpoint evaluation from a parameter-dependent primitive."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ 1/((x+a)(x+b)) dx\nHere a and b are arbitrary real constants. Glasshouse clarification: no a != b condition is printed, so choose a result covering both a != b and a = b, always away from denominator zeros.\nFor a!=b, exclude x=-a and x=-b. For a=b, exclude x=-a. Constants may differ on each connected interval."
+  },
+  "calculus-section-7-4-15": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.708240530771945,
+      "tolerance": 0.0005,
+      "label": "Integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "5/2-ln6",
+      "unit": "",
+      "selectionPrompt": "Enter the dimensionless definite-integral result to at least 3 decimal places.",
+      "explanation": "Keep the polynomial quotient x+3 and subtract all of F(-1), including its negative polynomial contribution. Use absolute values in both logarithms.",
+      "hint": "Factor and inspect the interval, include any polynomial quotient, then subtract the whole lower endpoint value."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from -1 to 0 of (x^3-4x+1)/(x^2-3x+2) dx\nGlasshouse answer entry: give the dimensionless result to at least 3 decimal places.\nThe denominator zeros x=1 and x=2 are outside [-1,0]; use absolute-value logarithms because x-1 and x-2 are negative there."
+  },
+  "calculus-section-7-4-16": {
+    "grader": {
+      "type": "numeric",
+      "answer": 2.291759469228055,
+      "tolerance": 0.0005,
+      "label": "Integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "1/2+ln6",
+      "unit": "",
+      "selectionPrompt": "Enter the dimensionless definite-integral result to at least 3 decimal places.",
+      "explanation": "A repeated x^2 factor needs both 1/x and 1/x^2 terms. The negative inverse-square term integrates to positive 1/x; then subtract F(1) from F(2).",
+      "hint": "Factor and inspect the interval, include any polynomial quotient, then subtract the whole lower endpoint value."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 1 to 2 of (x^3+4x^2+x-1)/(x^3+x^2) dx\nGlasshouse answer entry: give the dimensionless result to at least 3 decimal places.\nThe denominator factors as x^2(x+1); both poles 0 and -1 are outside [1,2]. Include both x and x^2 terms in the partial fractions."
+  },
+  "calculus-section-7-4-17": {
+    "grader": {
+      "type": "numeric",
+      "answer": 1.7654926554211072,
+      "tolerance": 0.0005,
+      "label": "Integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "(9/5)ln(8/3)",
+      "unit": "",
+      "selectionPrompt": "Enter the dimensionless definite-integral result to at least 3 decimal places.",
+      "explanation": "Keep all three denominator factors and use the source variable y. For ln|y-3|, the absolute arguments at upper/lower limits are 1 and 2, respectively.",
+      "hint": "Factor and inspect the interval, include any polynomial quotient, then subtract the whole lower endpoint value."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 1 to 2 of (4y^2-7y-12)/(y(y+2)(y-3)) dy\nGlasshouse answer entry: give the dimensionless result to at least 3 decimal places.\nThe original variable is y. Poles -2,0,3 are outside [1,2]; y-3 is negative throughout the interval, so keep its logarithmic absolute value."
+  },
+  "calculus-section-7-4-18": {
+    "grader": {
+      "type": "numeric",
+      "answer": 2.019170746988274,
+      "tolerance": 0.0005,
+      "label": "Integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "3+ln(3/8)",
+      "unit": "",
+      "selectionPrompt": "Enter the dimensionless definite-integral result to at least 3 decimal places.",
+      "explanation": "Retain quotient 3 and both negative remainder coefficients. Endpoint subtraction gives a negative logarithmic correction to 3, so the result is positive but below 3.",
+      "hint": "Factor and inspect the interval, include any polynomial quotient, then subtract the whole lower endpoint value."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 1 to 2 of (3x^2+6x+2)/(x^2+3x+2) dx\nGlasshouse answer entry: give the dimensionless result to at least 3 decimal places.\nThe denominator zeros -1 and -2 are outside [1,2]. Equal numerator/denominator degrees require a constant polynomial quotient before partial fractions."
+  },
+  "calculus-section-7-4-19": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.3301009632046025,
+      "tolerance": 0.0005,
+      "label": "Integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "1/2+ln(27/32)",
+      "unit": "",
+      "selectionPrompt": "Enter the dimensionless definite-integral result to at least 3 decimal places.",
+      "explanation": "Keep the repeated-factor term. Its primitive is negative 1/(x+1), and subtracting F(0) contributes +1. Do not reverse ln(27/32).",
+      "hint": "Include every repeated-factor power; integrate reciprocals and inverse squares using different rules."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 of (x^2+x+1)/((x+1)^2(x+2)) dx\nGlasshouse answer entry: give the dimensionless result to at least 3 decimal places.\nThe integrand is continuous on [0,1]. Its excluded points -1 and -2 lie outside this interval; the repeated factor (x+1)^2 needs both reciprocal powers."
+  },
+  "calculus-section-7-4-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "A/(x+3)+B/(x-2)",
+          "options": [
+            "A/(x+3)^2+B/(x-2)",
+            "A/(x+3)+B/(x-2)^2",
+            "A/(x+3)+B/(x-2)",
+            "A/(x-3)+B/(x+2)"
+          ],
+          "label": "a",
+          "fieldIndex": 0,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (a). Leave coefficients unevaluated.",
+          "explanation": "Check the factor signs: (x+3)(x-2)=x^2+x-6.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        },
+        {
+          "type": "choice",
+          "answer": "1+(Ax+B)/(x^2+x+6)",
+          "options": [
+            "x+(Ax+B)/(x^2+x+6)",
+            "1+(Ax+B)/(x^2+x+6)",
+            "(Ax+B)/(x^2+x+6)",
+            "1+A/(x^2+x+6)"
+          ],
+          "label": "b",
+          "fieldIndex": 1,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (b). Leave coefficients unevaluated.",
+          "explanation": "Do not omit the quotient 1; a general quadratic-factor numerator is linear, not just a constant.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        }
+      ]
+    },
+    "nativePrompt": "For each function, write the form of its partial-fraction decomposition as in Example 7; leave its unknown coefficients unevaluated.\n(a) (x-6)/(x^2+x-6)\n(b) x^2/(x^2+x+6)\nUse the standard complete template from denominator factors, even when a coefficient could later turn out to be zero. Different letters are unknown constants."
+  },
+  "calculus-section-7-4-20": {
+    "grader": {
+      "type": "numeric",
+      "answer": -1.7296264847046454,
+      "tolerance": 0.0005,
+      "label": "Integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "-1/2-ln2-(1/3)ln5",
+      "unit": "",
+      "selectionPrompt": "Enter the dimensionless definite-integral result to at least 3 decimal places.",
+      "explanation": "Retain numerator x(3-5x), the squared factor, and the logarithmic chain factor 1/3. Subtract the entire F(2); the answer must be negative.",
+      "hint": "Include every repeated-factor power; integrate reciprocals and inverse squares using different rules."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 2 to 3 of x(3-5x)/((3x-1)(x-1)^2) dx\nGlasshouse answer entry: give the dimensionless result to at least 3 decimal places.\nThe poles x=1/3 and x=1 are outside [2,3]. The source numerator is x(3-5x), including its negative leading coefficient; the denominator (x-1) is squared."
+  },
+  "calculus-section-7-4-21": {
+    "grader": {
+      "type": "choice",
+      "answer": "-t/(2(t^2-1))+(1/4)ln|(t+1)/(t-1)| + C",
+      "options": [
+        "t/(2(t^2-1))+(1/4)ln|(t+1)/(t-1)| + C",
+        "-t/(2(t^2-1))-(1/4)ln|(t+1)/(t-1)| + C",
+        "-t/(2(t^2-1))+(1/2)ln|(t+1)/(t-1)| + C",
+        "-t/(2(t^2-1))+(1/4)ln|(t+1)/(t-1)| + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Keep all four repeated-factor terms. Positive inverse squares integrate to negative reciprocals, and the correct log ratio is (t+1)/(t-1). Preserve t != ±1 and +C.",
+      "hint": "Check the polynomial quotient or partial fractions, then include the reciprocal inner-derivative factor in each logarithm."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ 1/(t^2-1)^2 dt\nGlasshouse answer entry: choose a complete antiderivative, including its constant of integration.\nReal t != -1 and t != 1. The antiderivative holds on each interval (-∞,-1), (-1,1), (1,∞), with an independent arbitrary constant on each interval."
+  },
+  "calculus-section-7-4-22": {
+    "grader": {
+      "type": "choice",
+      "answer": "x^3/3+(1/2)ln(x^2+9)+(2/3)arctan(x/3) + C",
+      "options": [
+        "x^3/3+(1/2)ln(x^2+9)+2arctan(x/3) + C",
+        "x^3/3+(1/2)ln(x^2+9)-(2/3)arctan(x/3) + C",
+        "x^3/3+(1/2)ln(x^2+9)+(2/3)arctan(x/3) + C",
+        "x^3/3+ln(x^2+9)+(2/3)arctan(x/3) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Divide first. Keep the logarithmic factor 1/2 and the inverse-tangent coefficient 2/3; the latter comes from scaling x by 3, not by 9.",
+      "hint": "Check the polynomial quotient or partial fractions, then include the reciprocal inner-derivative factor in each logarithm."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^4+9x^2+x+2)/(x^2+9) dx\nGlasshouse answer entry: choose a complete antiderivative, including its constant of integration.\nAll real x: x^2+9 is strictly positive. No real poles, parameters or endpoint limits are supplied; arctan is the real principal inverse tangent."
+  },
+  "calculus-section-7-4-23": {
+    "grader": {
+      "type": "choice",
+      "answer": "ln|x-1|-(1/2)ln(x^2+9)-(1/3)arctan(x/3) + C",
+      "options": [
+        "ln|x-1|-ln(x^2+9)-(1/3)arctan(x/3) + C",
+        "ln|x-1|-(1/2)ln(x^2+9)-(1/3)arctan(x/3) + C",
+        "ln|x-1|-(1/2)ln(x^2+9)-arctan(x/3) + C",
+        "ln|x-1|-(1/2)ln(x^2+9)+(1/3)arctan(x/3) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Use a linear quadratic numerator, preserve both negative remainder terms, and include the 1/3 inverse-tangent scale. A changed arctan coefficient is not an arbitrary constant.",
+      "hint": "Set up a linear numerator over the irreducible quadratic and identify its square-root scale before integrating."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ 10/((x-1)(x^2+9)) dx\nGlasshouse answer entry: choose a complete antiderivative, including its constant of integration.\nReal x != 1. The quadratic is strictly positive; constants may differ on (-∞,1) and (1,∞). No bounds or physical units are supplied."
+  },
+  "calculus-section-7-4-24": {
+    "grader": {
+      "type": "choice",
+      "answer": "2ln|x|-(1/2)ln(x^2+3)-(1/sqrt(3))arctan(x/sqrt(3)) + C",
+      "options": [
+        "2ln|x|-(1/2)ln(x^2+3)-(1/sqrt(3))arctan(x/sqrt(3)) + C",
+        "2ln|x|-(1/2)ln(x^2+3)-(1/3)arctan(x/3) + C",
+        "2ln|x|-(1/2)ln(x^2+3)+(1/sqrt(3))arctan(x/sqrt(3)) + C",
+        "ln|x|-(1/2)ln(x^2+3)-(1/sqrt(3))arctan(x/sqrt(3)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Keep the 2ln|x| coefficient and the negative constant remainder. In x^2+a^2, a=sqrt(3), so both the inverse-tangent argument and coefficient use sqrt(3).",
+      "hint": "Set up a linear numerator over the irreducible quadratic and identify its square-root scale before integrating."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^2-x+6)/(x^3+3x) dx\nGlasshouse answer entry: choose a complete antiderivative, including its constant of integration.\nReal x != 0. The factor x^2+3 is positive, and its inverse-tangent scale is sqrt(3), not 3. Constants may differ on (-∞,0) and (0,∞). No endpoints or physical units are supplied."
+  },
+  "calculus-section-7-4-25": {
+    "grader": {
+      "type": "choice",
+      "answer": "-2ln|x+1|+ln(x^2+1)+2arctan(x) + C",
+      "options": [
+        "-2ln|x+1|+2ln(x^2+1)+2arctan(x) + C",
+        "2ln|x+1|+ln(x^2+1)+2arctan(x) + C",
+        "-2ln|x+1|+ln(x^2+1)-2arctan(x) + C",
+        "-2ln|x+1|+ln(x^2+1)+2arctan(x) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Factor by grouping first. The decomposition has A=-2, B=D=2; integrating 2x/(x^2+1) gives one logarithm, not twice that logarithm.",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ 4x/(x^3+x^2+x+1) dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nReal x != -1. Since x^3+x^2+x+1=(x+1)(x^2+1), there is one real pole. Constants may differ on (-∞,-1) and (-1,∞); no bounds, physical units or parameters are given."
+  },
+  "calculus-section-7-4-26": {
+    "grader": {
+      "type": "choice",
+      "answer": "arctan(x)-1/(2(x^2+1)) + C",
+      "options": [
+        "arctan(x)-1/(x^2+1) + C",
+        "arctan(x)+(1/2)ln(x^2+1) + C",
+        "arctan(x)-1/(2(x^2+1)) + C",
+        "arctan(x)+1/(2(x^2+1)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Preserve the squared denominator. Its x-numerator term integrates to a negative reciprocal with factor 1/2, not a logarithm; the remaining first-power quadratic gives arctan(x).",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^2+x+1)/(x^2+1)^2 dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nEvery real x, since x^2+1 is strictly positive. The square applies to the whole quadratic denominator. No bounds, physical units, parameters or initial values are supplied."
+  },
+  "calculus-section-7-4-27": {
+    "grader": {
+      "type": "choice",
+      "answer": "(1/2)ln(x^2+1)+arctan(x)-(1/2)arctan(x/2) + C",
+      "options": [
+        "ln(x^2+1)+arctan(x)-(1/2)arctan(x/2) + C",
+        "(1/2)ln(x^2+1)+arctan(x)-(1/2)arctan(x/2) + C",
+        "(1/2)ln(x^2+1)+arctan(x)-arctan(x/2) + C",
+        "(1/2)ln(x^2+1)+arctan(x)+(1/2)arctan(x/2) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Use a linear numerator over each quadratic, then keep the two inverse-tangent scales separate. The negative term with denominator x^2+4 needs coefficient -1/2 on arctan(x/2).",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^3+4x+3)/(x^4+5x^2+4) dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nEvery real x. The denominator is (x^2+1)(x^2+4), with no real zeros. No bounds, physical units, parameters or initial conditions are given."
+  },
+  "calculus-section-7-4-28": {
+    "grader": {
+      "type": "choice",
+      "answer": "ln|x|+1/(3x)+(1/(3sqrt(6)))arctan(x/sqrt(6)) + C",
+      "options": [
+        "ln|x|+1/(3x)+(1/(3sqrt(6)))arctan(x/sqrt(6)) + C",
+        "ln|x|-1/(3x)+(1/(3sqrt(6)))arctan(x/sqrt(6)) + C",
+        "ln|x|+1/(3x)+(1/18)arctan(x/6) + C",
+        "ln|x|+1/(3x)-(1/(3sqrt(6)))arctan(x/sqrt(6)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Include both repeated-linear terms. The negative inverse square integrates to a positive reciprocal. The quadratic's scale is sqrt(6), so both the arctan coefficient and its argument must use sqrt(6).",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^3+6x-2)/(x^4+6x^2) dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nReal x != 0. The denominator is x^2(x^2+6), and the quadratic is positive. Constants may differ on (-∞,0) and (0,∞). No bounds, physical units, initial conditions or additional parameters are given."
+  },
+  "calculus-section-7-4-29": {
+    "grader": {
+      "type": "choice",
+      "answer": "(1/2)ln(x^2+2x+5)+(3/2)arctan((x+1)/2) + C",
+      "options": [
+        "(1/2)ln(x^2+2x+5)+3arctan((x+1)/2) + C",
+        "(1/2)ln(x^2+2x+5)-(3/2)arctan((x+1)/2) + C",
+        "(1/2)ln(x^2+2x+5)+(3/2)arctan(x/2) + C",
+        "(1/2)ln(x^2+2x+5)+(3/2)arctan((x+1)/2) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Complete the square first. Keep the shift x+1, the constant remainder 3 and the inverse-tangent scale 2. The arctan coefficient is 3/2, not 3.",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x+4)/(x^2+2x+5) dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nEvery real x: x^2+2x+5=(x+1)^2+4 is strictly positive. No bounds, units, parameters or initial conditions are supplied; one arbitrary constant applies over the real line."
+  },
+  "calculus-section-7-4-3": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "A/x+B/x^2+(Cx+D)/(x^2+1)",
+          "options": [
+            "A/x+B/x^2+(Cx+D)/(x^2+1)^2",
+            "A/x+B/x^2+(Cx+D)/(x^2+1)",
+            "A/x^2+B/(x^2+1)",
+            "A/x+B/x^2+C/(x^2+1)"
+          ],
+          "label": "a",
+          "fieldIndex": 0,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (a). Leave coefficients unevaluated.",
+          "explanation": "Do not simplify away a generic template term by solving its coefficient; this problem asks for the general form.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        },
+        {
+          "type": "choice",
+          "answer": "1+A/x+B/(x-1)+C/(x-2)",
+          "options": [
+            "1+A/x+B/(x-1)+C/(x-2)",
+            "A/x+B/(x-1)+C/(x-2)",
+            "1+A/x^2+B/(x-1)+C/(x-2)",
+            "x+A/x+B/(x-1)+C/(x-2)"
+          ],
+          "label": "b",
+          "fieldIndex": 1,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (b). Leave coefficients unevaluated.",
+          "explanation": "The fractional sum alone tends to zero for large x, but the original function tends to 1; keep the polynomial quotient.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        }
+      ]
+    },
+    "nativePrompt": "For each function, write the form of its partial-fraction decomposition as in Example 7; leave its unknown coefficients unevaluated.\n(a) 1/(x^2+x^4)\n(b) (x^3+1)/(x^3-3x^2+2x)\nUse the standard complete template from denominator factors, even when a coefficient could later turn out to be zero. Different letters are unknown constants."
+  },
+  "calculus-section-7-4-30": {
+    "grader": {
+      "type": "choice",
+      "answer": "(1/4)ln(x^2+1)+(1/4)ln(x^2+3)-(3/2)arctan(x)-(1/(2sqrt(3)))arctan(x/sqrt(3)) + C",
+      "options": [
+        "(1/4)ln(x^2+1)+(1/4)ln(x^2+3)-(3/2)arctan(x)+(1/(2sqrt(3)))arctan(x/sqrt(3)) + C",
+        "(1/4)ln(x^2+1)+(1/4)ln(x^2+3)-(3/2)arctan(x)-(1/6)arctan(x/3) + C",
+        "(1/4)ln(x^2+1)+(1/4)ln(x^2+3)-(3/2)arctan(x)-(1/(2sqrt(3)))arctan(x/sqrt(3)) + C",
+        "(1/2)ln(x^2+1)+(1/2)ln(x^2+3)-(3/2)arctan(x)-(1/(2sqrt(3)))arctan(x/sqrt(3)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Preserve all four source numerator terms while solving coefficients. Each linear term produces a logarithm with coefficient 1/4; both inverse-tangent terms are negative, and the second scale is sqrt(3).",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^3-2x^2+2x-5)/(x^4+4x^2+3) dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nEvery real x. The denominator factors as (x^2+1)(x^2+3), with both factors positive. No bounds, units, parameters or initial conditions are supplied; no real pole separates the domain."
+  },
+  "calculus-section-7-4-31": {
+    "grader": {
+      "type": "choice",
+      "answer": "(1/3)ln|x-1|-(1/6)ln(x^2+x+1)-(1/sqrt(3))arctan((2x+1)/sqrt(3)) + C",
+      "options": [
+        "(1/3)ln|x-1|-(1/6)ln(x^2+x+1)-(1/3)arctan((2x+1)/sqrt(3)) + C",
+        "(1/3)ln|x-1|-(1/6)ln(x^2+x+1)-(1/sqrt(3))arctan((2x+1)/sqrt(3)) + C",
+        "(1/3)ln|x-1|-(1/6)ln(x^2+x+1)+(1/sqrt(3))arctan((2x+1)/sqrt(3)) + C",
+        "(1/3)ln|x-1|-(1/3)ln(x^2+x+1)-(1/sqrt(3))arctan((2x+1)/sqrt(3)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Factor the difference of cubes, retain the pole at1, and split the quadratic numerator into an inner-derivative part plus a negative constant remainder. The arctan coefficient is -1/sqrt(3).",
+      "hint": "Separate logarithmic and inverse-tangent pieces; keep the real domain and any source endpoint limits."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ 1/(x^3-1) dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nReal x != 1. The factor x^2+x+1=(x+1/2)^2+3/4 is positive. The two intervals (-∞,1) and (1,∞) may have independent arbitrary constants; no bounds or physical units are supplied."
+  },
+  "calculus-section-7-4-32": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.03111416031739347,
+      "tolerance": 5e-05,
+      "label": "Definite-integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "(1/2)ln(18/13)-(2/3)(pi/4-arctan(2/3)) ≈ 0.0311141603",
+      "relativeTolerance": 0,
+      "unit": "",
+      "selectionPrompt": "Enter the dimensionless definite-integral value to at least four decimal places.",
+      "explanation": "Keep the original interval0to1 or transform both limits to2/3and1. Subtract the whole lower primitive; the result is positive and has no arbitrary constant.",
+      "hint": "Separate logarithmic and inverse-tangent pieces; keep the real domain and any source endpoint limits."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 of x/(x^2+4x+13) dx\nGlasshouse answer entry: enter the dimensionless definite-integral value to at least four decimal places.\nThe integrand is continuous on [0,1], because x^2+4x+13=(x+2)^2+9>0 for every real x. The source lower bound is0 and upper bound1. This definite result has no arbitrary +C or physical units."
+  },
+  "calculus-section-7-4-33": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.24520731325293155,
+      "tolerance": 5e-05,
+      "label": "Definite-integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "(1/4)ln(8/3) ≈ 0.2452073133",
+      "relativeTolerance": 0,
+      "unit": "",
+      "selectionPrompt": "Enter the dimensionless definite-integral value to at least four decimal places.",
+      "explanation": "Retain the definite limits0to1. The primitive has factor1/4; its lower endpoint contributes ln3, so the result uses the ratio8/3 and has no arbitrary constant.",
+      "hint": "Compare polynomial degrees, factor when useful, and retain the real domain and every source endpoint limit."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ from 0 to 1 of (x^3+2x)/(x^4+4x^2+3) dx\nGlasshouse answer entry: enter the dimensionless definite-integral value to at least four decimal places.\nThe source interval is [0,1]. The denominator (x^2+1)(x^2+3) is positive for every real x, so the integrand is continuous throughout this interval. No physical units or extra parameters are given. The definite result has no arbitrary +C."
+  },
+  "calculus-section-7-4-34": {
+    "grader": {
+      "type": "choice",
+      "answer": "x^3/3-ln|x+1| + C",
+      "options": [
+        "x^3-ln|x+1| + C",
+        "x^3/3-1/(x+1) + C",
+        "x^3/3-ln|x+1| + C",
+        "x^3/3+ln|x+1| + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Divide before decomposing. The remainder is minus the denominator's quadratic factor, leaving only-1/(x+1). Integrate it as a negative logarithm and retain the original pole and+C.",
+      "hint": "Compare polynomial degrees, factor when useful, and retain the real domain and every source endpoint limit."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^5+x-1)/(x^3+1) dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nReal x != -1. The original denominator factors as(x+1)(x^2-x+1), and x^2-x+1=(x-1/2)^2+3/4>0. Independent arbitrary constants may be used on(-∞,-1)and(-1,∞). No bounds, physical units or extra parameters are supplied."
+  },
+  "calculus-section-7-4-35": {
+    "grader": {
+      "type": "choice",
+      "answer": "2ln|x|+(3/2)ln(x^2+1)+x/[2(x^2+1)]+(1/2)arctan(x) + C",
+      "options": [
+        "2ln|x|+3ln(x^2+1)+x/[2(x^2+1)]+(1/2)arctan(x) + C",
+        "2ln|x|+(3/2)ln(x^2+1)+x/[2(x^2+1)]+(1/2)arctan(x) + C",
+        "2ln|x|+(3/2)ln(x^2+1)+arctan(x) + C",
+        "2ln|x|+(3/2)ln(x^2+1)-x/[2(x^2+1)]+(1/2)arctan(x) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Retain both quadratic powers. The squared-denominator primitive requires a positive rational correction plus half an inverse tangent; the logarithm from3x has factor3/2. Zero remains excluded.",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (5x^4+7x^2+x+2)/[x(x^2+1)^2] dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nReal x != 0; x^2+1 is positive, so zero is the only real pole. Work separately on(-∞,0) and(0,∞), allowing independent constants. No bounds, extra parameters, units or initial conditions are supplied."
+  },
+  "calculus-section-7-4-36": {
+    "grader": {
+      "type": "choice",
+      "answer": "(1/5)ln|x^5+5x^3+5x| + C",
+      "options": [
+        "(1/5)ln|x^5+5x^3+5x| + C",
+        "ln|x^5+5x^3+5x| + C",
+        "5ln|x^5+5x^3+5x| + C",
+        "(1/5)ln(x^4+5x^2+5) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Differentiate the whole denominator. It is5 times the numerator, so the primitive needs1/5. Keep the complete denominator inside ln| |, retain+C, and exclude zero.",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^4+3x^2+1)/(x^5+5x^3+5x) dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nReal x != 0. The denominator is x(x^4+5x^2+5), whose quartic factor is strictly positive for every real x. Constants may differ on(-∞,0) and(0,∞). No bounds, physical units, extra parameters or initial conditions are supplied."
+  },
+  "calculus-section-7-4-37": {
+    "grader": {
+      "type": "choice",
+      "answer": "(3x-8)/[4(x^2-4x+6)]+[7/(4sqrt(2))]arctan((x-2)/sqrt(2)) + C",
+      "options": [
+        "(3x-8)/[4(x^2-4x+6)]+(7/4)arctan((x-2)/sqrt(2)) + C",
+        "(3x-8)/[4(x^2-4x+6)]+[7/(2sqrt(2))]arctan((x-2)/sqrt(2)) + C",
+        "-(3x-8)/[4(x^2-4x+6)]+[7/(4sqrt(2))]arctan((x-2)/sqrt(2)) + C",
+        "(3x-8)/[4(x^2-4x+6)]+[7/(4sqrt(2))]arctan((x-2)/sqrt(2)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose a complete antiderivative on the entire real domain.",
+      "explanation": "Complete the square with center2 and scale sqrt(2), preserve the shifted linear numerator, and integrate the squared-quadratic remainder with its rational correction. No real value is excluded.",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^2-3x+7)/(x^2-4x+6)^2 dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nAll real x. The inner quadratic x^2-4x+6=(x-2)^2+2 is strictly positive, so its square never vanishes. There are no poles or disconnected real branches, and one arbitrary constant applies on the entire real line. No limits, physical units, extra parameters or initial conditions are supplied."
+  },
+  "calculus-section-7-4-38": {
+    "grader": {
+      "type": "choice",
+      "answer": "(1/2)ln(x^2+2x+2)-(3x+4)/[2(x^2+2x+2)]-(5/2)arctan(x+1) + C",
+      "options": [
+        "ln(x^2+2x+2)-(3x+4)/[2(x^2+2x+2)]-(5/2)arctan(x+1) + C",
+        "(1/2)ln(x^2+2x+2)+(3x+4)/[2(x^2+2x+2)]-(5/2)arctan(x+1) + C",
+        "(1/2)ln(x^2+2x+2)-(3x+4)/[2(x^2+2x+2)]-(5/2)arctan(x+1) + C",
+        "(1/2)ln(x^2+2x+2)-(3x+4)/[2(x^2+2x+2)]+(5/2)arctan(x+1) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose a complete antiderivative on the entire real domain.",
+      "explanation": "Shift by u=x+1, expand the entire cubic, retain both quadratic powers and combine the inverse-tangent coefficients as-1-3/2. Both rational and logarithmic corrections remain; the domain is all real x.",
+      "hint": "Retain every denominator power, then distinguish inner-derivative, inverse-tangent and inverse-power terms."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (x^3+2x^2+3x-2)/(x^2+2x+2)^2 dx\nGlasshouse answer entry: choose a complete antiderivative, including its arbitrary constant.\nAll real x. The quadratic x^2+2x+2=(x+1)^2+1 is strictly positive; its square has no real zeros. One arbitrary constant applies on the connected real domain, with no excluded value at x=-1. No limits, physical units, extra parameters or initial conditions are given."
+  },
+  "calculus-section-7-4-39": {
+    "grader": {
+      "type": "choice",
+      "answer": "2arctan(sqrt(x-1)) + C",
+      "options": [
+        "2arctan(x-1) + C",
+        "2arctan(sqrt(x-1)) + C",
+        "arctan(sqrt(x-1)) + C",
+        "-2arctan(sqrt(x-1)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose a complete antiderivative on each allowed real interval.",
+      "explanation": "Rationalize with u=sqrt(x-1), replace x and dx as well as the radical, and retain the outside2. The final square root stays inside the inverse tangent; x=1 remains excluded.",
+      "hint": "Rationalize the full integrand and differential, respect the square-root range, then check any real denominator zeros."
+    },
+    "nativePrompt": "Make a substitution to express the integrand as a rational function and then evaluate the integral.\n∫ dx/[x sqrt(x-1)]\nGlasshouse answer entry: choose the complete antiderivative after carrying out the required rationalizing substitution.\nReal x > 1. The radicand requires x >= 1, but the square root is in the denominator, so x=1 is excluded. The allowed substitution u=sqrt(x-1) satisfies u>0. One arbitrary constant applies on(1,∞). No limits, units, extra parameters or initial conditions are given."
+  },
+  "calculus-section-7-4-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "x^2+A/(x-1)+B/(x-1)^2",
+          "options": [
+            "x^2+A/(x-1)+B/(x-1)^2",
+            "A/(x-1)+B/(x-1)^2",
+            "x^2+A/(x-1)^2",
+            "x^2+A/(x+1)+B/(x+1)^2"
+          ],
+          "label": "a",
+          "fieldIndex": 0,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (a). Leave coefficients unevaluated.",
+          "explanation": "Polynomial division is necessary because the numerator has larger degree; both repeated-factor powers are needed.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        },
+        {
+          "type": "choice",
+          "answer": "A/x+(Bx+C)/(x^2+x+1)",
+          "options": [
+            "A/x+B/(x^2+x+1)",
+            "A/x^2+(Bx+C)/(x^2+x+1)",
+            "A/x+(Bx+C)/(x^2+x+1)^2",
+            "A/x+(Bx+C)/(x^2+x+1)"
+          ],
+          "label": "b",
+          "fieldIndex": 1,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (b). Leave coefficients unevaluated.",
+          "explanation": "The quadratic has no real roots and must stay intact; give it a linear numerator.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        }
+      ]
+    },
+    "nativePrompt": "For each function, write the form of its partial-fraction decomposition as in Example 7; leave its unknown coefficients unevaluated.\n(a) (x^4-2x^3+x^2+2x-1)/(x^2-2x+1)\n(b) (x^2-1)/(x^3+x^2+x)\nUse the standard complete template from denominator factors, even when a coefficient could later turn out to be zero. Different letters are unknown constants."
+  },
+  "calculus-section-7-4-40": {
+    "grader": {
+      "type": "choice",
+      "answer": "(3/2)ln(sqrt(x+3)+3)+(1/2)ln|sqrt(x+3)-1| + C",
+      "options": [
+        "(3/2)ln(sqrt(x+3)+3)+(1/2)ln|sqrt(x+3)-1| + C",
+        "(1/2)ln(sqrt(x+3)+3)+(3/2)ln|sqrt(x+3)-1| + C",
+        "3ln(sqrt(x+3)+3)+ln|sqrt(x+3)-1| + C",
+        "(3/2)ln(sqrt(x+3)+3)-(1/2)ln|sqrt(x+3)-1| + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose a complete antiderivative on each allowed real interval.",
+      "explanation": "Replace x=u^2-3 and dx=2u du, then solve both coefficient equations. Keep the unequal positive log coefficients and the absolute value foru-1. Excludex=-2, not the allowed radical boundaryx=-3.",
+      "hint": "Rationalize the full integrand and differential, respect the square-root range, then check any real denominator zeros."
+    },
+    "nativePrompt": "Make a substitution to express the integrand as a rational function and then evaluate the integral.\n∫ dx/[2sqrt(x+3)+x]\nGlasshouse answer entry: choose a complete antiderivative on each allowed real interval.\nThe original real integrand is defined for x >= -3 except x=-2. With u=sqrt(x+3), u>=0 and2u+x=(u+3)(u-1); the negative algebraic rootu=-3 is not allowed by the square root. Primitive differentiation uses the open intervals(-3,-2) and(-2,∞), with independent constants across the pole. The first primitive extends continuously to x=-3 and has right derivative f(-3)=-1/3 there. No two-sided derivative outside the real domain is claimed. No limits, units, extra parameters or initial conditions are supplied."
+  },
+  "calculus-section-7-4-41": {
+    "grader": {
+      "type": "choice",
+      "answer": "2ln(sqrt(x)+1)-ln(x)-2/sqrt(x) + C",
+      "options": [
+        "2ln(sqrt(x)+1)-ln(x)+2/sqrt(x) + C",
+        "-2ln(sqrt(x)+1)-ln(x)-2/sqrt(x) + C",
+        "2ln(sqrt(x)+1)-ln(x)-1/sqrt(x) + C",
+        "2ln(sqrt(x)+1)-ln(x)-2/sqrt(x) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Use u=sqrt(x), retain both powers of the repeated u factor, and integrate2/u^2 as-2/u. Both logarithms and the reciprocal must be restored in x; zero stays excluded.",
+      "hint": "Rationalize the root with its full differential; retain the original domain and transform every supplied endpoint."
+    },
+    "nativePrompt": "Make a substitution to express the integrand as a rational function and then evaluate the integral.\n∫ dx/[x^2+x sqrt(x)]\nGlasshouse answer entry: choose the complete antiderivative on its real domain, including the arbitrary constant.\nReal x>0. The square root requires x>=0, but x^2+x sqrt(x)=x sqrt(x)(sqrt(x)+1) vanishes at x=0. With u=sqrt(x), u>0; the algebraic factoru+1 has no zero in that range. One arbitrary constant applies on(0,∞). No limits, units, extra parameters or initial conditions are supplied."
+  },
+  "calculus-section-7-4-42": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.579441541679836,
+      "tolerance": 5e-05,
+      "label": "Definite-integral value",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "answerText": "3ln(2)-3/2 ≈ 0.5794415417",
+      "relativeTolerance": 0,
+      "unit": "",
+      "selectionPrompt": "Enter the dimensionless definite-integral value to at least four decimal places.",
+      "explanation": "Keep the definite0to1limits and cube-root substitution. Include dx=3u^2 du, divide the rational function before integrating, and subtract both endpoint values. The final result has no arbitrary constant.",
+      "hint": "Rationalize the root with its full differential; retain the original domain and transform every supplied endpoint."
+    },
+    "nativePrompt": "Make a substitution to express the integrand as a rational function and then evaluate the integral.\n∫ from 0 to 1 of1/[1+cube_root(x)] dx\nGlasshouse answer entry: enter the dimensionless definite-integral value to at least four decimal places.\nThe source interval is[0,1], including both endpoints. Its cube root is the real nonnegative root on this interval; 1+cube_root(x)>=1, so the integrand is continuous withf(0)=1 andf(1)=1/2. Useu=cube_root(x) with0<=u<=1 and the smooth inversemapx=u^3. There is no pole in the source interval; the algebraic rootu=-1 is outside it. No physical units, extra parameters or initial conditions are given. The definite result has no arbitrary+C."
+  },
+  "calculus-section-7-4-43": {
+    "grader": {
+      "type": "choice",
+      "answer": "(3/10)(x^2+1)^(5/3)-(3/4)(x^2+1)^(2/3) + C",
+      "options": [
+        "(3/10)(x^2+1)^(4/3)-(3/4)(x^2+1)^(2/3) + C",
+        "(3/10)(x^2+1)^(5/3)-(3/4)(x^2+1)^(2/3) + C",
+        "(3/5)(x^2+1)^(5/3)-(3/4)(x^2+1)^(2/3) + C",
+        "(3/10)(x^2+1)^(5/3)+(3/4)(x^2+1)^(2/3) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose a complete antiderivative on each allowed real interval.",
+      "explanation": "Use the entire cube root, transformx^2 andx dx together, and integrate both terms of(3/2)(u^4-u). Keep the negative second term and the all-real domain, includingzero.",
+      "hint": "Rationalize the whole radical and transform the differential; check the source domain without turning stationary maps into false poles."
+    },
+    "nativePrompt": "Make a substitution to express the integrand as a rational function and then evaluate the integral.\n∫ x^3/cube_root(x^2+1) dx\nGlasshouse answer entry: choose a complete antiderivative on the real domain, including its arbitrary constant.\nAll real x. The radicand x^2+1>=1, so its real cube root is positive and the original denominator never vanishes. The substitutionu=cube_root(x^2+1) has rangeu>=1 and derivativezero atx=0; zero is an allowed original point, not a pole. The substitution is not globally one-to-one inx, but its chain-rule primitive is valid acrosszero with one global constant on the connected real domain. No limits, units, extra parameters or initial conditions are supplied."
+  },
+  "calculus-section-7-4-44": {
+    "grader": {
+      "type": "choice",
+      "answer": "2ln(1+sqrt(x))+2/(1+sqrt(x)) + C",
+      "options": [
+        "2ln(1+sqrt(x))+2/(1+sqrt(x)) + C",
+        "2ln(1+sqrt(x))-2/(1+sqrt(x)) + C",
+        "4ln(1+sqrt(x))+2/(1+sqrt(x)) + C",
+        "2ln(1+sqrt(x))+1/(1+sqrt(x)) + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose a complete antiderivative on each allowed real interval.",
+      "explanation": "Preserve the outer square, include dx=2u du, and retain both reciprocal powers. The second primitive term is positive. Zero remains in the original domain, with a separately checked right derivative.",
+      "hint": "Rationalize the whole radical and transform the differential; check the source domain without turning stationary maps into false poles."
+    },
+    "nativePrompt": "Make a substitution to express the integrand as a rational function and then evaluate the integral.\n∫ dx/(1+sqrt(x))^2\nGlasshouse answer entry: choose a complete antiderivative on the real domain, including its arbitrary constant.\nThe original real integrand is defined forx>=0, includingzero. The entire sum1+sqrt(x) is squared and remains positive, so there are no real poles on that domain. Useu=sqrt(x)>=0 with smooth inversemapx=u^2. The ordinary primitive derivative holds forx>0; its continuous extension tozero has right derivative1=f(0). No two-sided derivative into nonreal square roots is asserted. One constant extends along[0,∞); no limits, units, extra parameters or initial conditions are supplied."
+  },
+  "calculus-section-7-4-5": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "x^4+4x^2+16+A/(x-2)+B/(x+2)",
+          "options": [
+            "A/(x-2)+B/(x+2)",
+            "x^4+4x^2+16+A/(x-2)^2+B/(x+2)",
+            "x^4+4x^2+16+A/(x-4)+B/(x+4)",
+            "x^4+4x^2+16+A/(x-2)+B/(x+2)"
+          ],
+          "label": "a",
+          "fieldIndex": 0,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (a). Leave coefficients unevaluated.",
+          "explanation": "The two simple fractions account only for the proper remainder, not the polynomial quotient.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        },
+        {
+          "type": "choice",
+          "answer": "(Ax+B)/(x^2-x+1)+(Cx+D)/(x^2+2)+(Ex+F)/(x^2+2)^2",
+          "options": [
+            "(Ax+B)/(x^2-x+1)+(Cx+D)/(x^2+2)^2",
+            "(Ax+B)/(x^2-x+1)+(Cx+D)/(x^2+2)+(Ex+F)/(x^2+2)^3",
+            "(Ax+B)/(x^2-x+1)+(Cx+D)/(x^2+2)+(Ex+F)/(x^2+2)^2",
+            "A/(x^2-x+1)+B/(x^2+2)+C/(x^2+2)^2"
+          ],
+          "label": "b",
+          "fieldIndex": 1,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (b). Leave coefficients unevaluated.",
+          "explanation": "A repeated quadratic needs both powers, and each numerator must allow a linear term plus a constant.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        }
+      ]
+    },
+    "nativePrompt": "For each function, write the form of its partial-fraction decomposition as in Example 7; leave its unknown coefficients unevaluated.\n(a) x^6/(x^2-4)\n(b) x^4/((x^2-x+1)(x^2+2)^2)\nUse the standard complete template from denominator factors, even when a coefficient could later turn out to be zero. Different letters are unknown constants."
+  },
+  "calculus-section-7-4-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "1+A/t+B/t^2+C/t^3+D/(t+1)+(Et+F)/(t^2-t+1)",
+          "options": [
+            "1+A/t^3+B/(t+1)+(Ct+D)/(t^2-t+1)",
+            "1+A/t+B/t^2+C/t^3+D/(t+1)+E/(t^2-t+1)",
+            "1+A/t+B/t^2+C/t^3+D/(t+1)+(Et+F)/(t^2-t+1)",
+            "A/t+B/t^2+C/t^3+D/(t+1)+(Et+F)/(t^2-t+1)"
+          ],
+          "label": "a",
+          "fieldIndex": 0,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (a). Leave coefficients unevaluated.",
+          "explanation": "The triple factor t needs all three powers, the quotient 1 must remain, and the quadratic numerator must be linear in t.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        },
+        {
+          "type": "choice",
+          "answer": "A/x+B/(x-1)+(Cx+D)/(x^2+1)+(Ex+F)/(x^2+1)^2",
+          "options": [
+            "A/x+B/(x-1)+(Cx+D)/(x^2+1)+(Ex+F)/(x^2+1)^3",
+            "A/x+B/(x-1)+(Cx+D)/(x^2+1)+(Ex+F)/(x^2+1)^2",
+            "A/x+B/(x-1)+(Cx+D)/(x^2+1)^2",
+            "A/x+B/(x-1)+C/(x^2+1)+D/(x^2+1)^2"
+          ],
+          "label": "b",
+          "fieldIndex": 1,
+          "provenance": "independently-derived-and-symbolically-checked",
+          "selectionPrompt": "Choose the standard complete partial-fraction template for part (b). Leave coefficients unevaluated.",
+          "explanation": "Recognize x^4+2x^2+1 as a repeated quadratic; do not treat it as a new irreducible quartic.",
+          "hint": "Check polynomial division, real factors, every repeated power, and numerator degree before comparing the choices."
+        }
+      ]
+    },
+    "nativePrompt": "For each function, write the form of its partial-fraction decomposition as in Example 7; leave its unknown coefficients unevaluated.\n(a) (t^6+1)/(t^6+t^3)\n(b) (x^5+1)/((x^2-x)(x^4+2x^2+1))\nUse the standard complete template from denominator factors, even when a coefficient could later turn out to be zero. Different letters are unknown constants."
+  },
+  "calculus-section-7-4-7": {
+    "grader": {
+      "type": "choice",
+      "answer": "x^4/4+x^3/3+x^2/2+x+ln|x-1| + C",
+      "options": [
+        "x^4/4+x^3/3+x^2/2+x+2ln|x-1| + C",
+        "x^4/4+x^3/3+x^2/2+x+ln|x-1| + C",
+        "x^4/4+x^3/3+x^2/2+x-ln|x-1| + C",
+        "x^4/4+x^3/3+x^2/2+ln|x-1| + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Check the full polynomial quotient, the positive logarithm sign, and +C. Differentiate each choice: its derivative must equal the original fraction.",
+      "hint": "Check the polynomial quotient or partial fractions, then include the reciprocal inner-derivative factor in each logarithm."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ x^4/(x-1) dx\nx < 1 or x > 1; choose an independent constant on each interval."
+  },
+  "calculus-section-7-4-8": {
+    "grader": {
+      "type": "choice",
+      "answer": "3t-5ln|t+1| + C",
+      "options": [
+        "3t-5ln|t+1| + C",
+        "3t+5ln|t+1| + C",
+        "3t-2ln|t+1| + C",
+        "(3/2)t^2-5ln|t+1| + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "The remainder is -5 after division, not -2. Keep its negative sign and integrate the constant quotient to 3t.",
+      "hint": "Check the polynomial quotient or partial fractions, then include the reciprocal inner-derivative factor in each logarithm."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (3t-2)/(t+1) dt\nt < -1 or t > -1; choose an independent constant on each interval."
+  },
+  "calculus-section-7-4-9": {
+    "grader": {
+      "type": "choice",
+      "answer": "(1/2)ln|2x+1|+2ln|x-1| + C",
+      "options": [
+        "ln|2x+1|+2ln|x-1| + C",
+        "(1/2)ln|2x+1|-2ln|x-1| + C",
+        "2ln|2x+1|+(1/2)ln|x-1| + C",
+        "(1/2)ln|2x+1|+2ln|x-1| + C"
+      ],
+      "label": "Antiderivative",
+      "fieldIndex": 0,
+      "provenance": "independently-derived-and-symbolically-checked",
+      "selectionPrompt": "Choose an antiderivative on each connected interval of the stated domain.",
+      "explanation": "Do not confuse partial-fraction coefficients with logarithm coefficients: integrating 1/(2x+1) introduces an extra factor 1/2.",
+      "hint": "Check the polynomial quotient or partial fractions, then include the reciprocal inner-derivative factor in each logarithm."
+    },
+    "nativePrompt": "Evaluate the integral.\n∫ (5x+1)/((2x+1)(x-1)) dx\nx < -1/2, -1/2 < x < 1, or x > 1; constants may differ on those intervals."
+  }
+}

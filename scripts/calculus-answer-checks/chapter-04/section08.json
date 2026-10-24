@@ -1,0 +1,1385 @@
+{
+  "calculus-section-4-8-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) graph estimate x₂",
+          "answer": 7.1,
+          "tolerance": 0.5,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Extend each tangent to its x-intercept; the source diagram supports approximate readings, not exact decimal iterates."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) graph estimate x₃",
+          "answer": 6.8,
+          "tolerance": 0.3,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Extend each tangent to its x-intercept; the source diagram supports approximate readings, not exact decimal iterates."
+        },
+        {
+          "type": "choice",
+          "label": "(b) better initial choice",
+          "answer": "Yes: x₁=8 approaches from the increasing, concave-up side",
+          "options": [
+            "No: every initial value gives identical iterations",
+            "Yes: x₁=8 approaches from the increasing, concave-up side",
+            "No: Newton’s method cannot find this root"
+          ],
+          "selectionPrompt": "Choose the correct (b) better initial choice.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Extend each tangent to its x-intercept; the source diagram supports approximate readings, not exact decimal iterates."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Graph estimate x₂",
+          "answer": 3.5,
+          "tolerance": 0.5,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Starting at1, extend the tangent to the x-axis and repeat at its intercept. These are approximate source-graph readings."
+        },
+        {
+          "type": "numeric",
+          "label": "Graph estimate x₃",
+          "answer": 2.8,
+          "tolerance": 0.35,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Starting at1, extend the tangent to the x-axis and repeat at its intercept. These are approximate source-graph readings."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-3": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "x₂",
+      "answer": 4.5,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The next iterate is the tangent’s x-intercept:0=9−2x gives4.5.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-4": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) x₁=0",
+          "answer": "Iterates move left and do not reach a root",
+          "options": [
+            "Iterates move left and do not reach a root",
+            "Converges to the right root",
+            "Derivative is zero at the start"
+          ],
+          "selectionPrompt": "Choose the correct (a) x₁=0.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the drawn tangent slopes. Horizontal tangents make division by f′ undefined, and the nearly flat positive left tail drives iterates farther left."
+        },
+        {
+          "type": "choice",
+          "label": "(b) x₁=1",
+          "answer": "Fails because the initial tangent is horizontal",
+          "options": [
+            "Converges to the left root",
+            "Converges to the right root",
+            "Fails because the initial tangent is horizontal"
+          ],
+          "selectionPrompt": "Choose the correct (b) x₁=1.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the drawn tangent slopes. Horizontal tangents make division by f′ undefined, and the nearly flat positive left tail drives iterates farther left."
+        },
+        {
+          "type": "choice",
+          "label": "(c) x₁=3",
+          "answer": "Converges to the left root near2",
+          "options": [
+            "Converges to the right root near6",
+            "Initial derivative is zero",
+            "Converges to the left root near2"
+          ],
+          "selectionPrompt": "Choose the correct (c) x₁=3.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the drawn tangent slopes. Horizontal tangents make division by f′ undefined, and the nearly flat positive left tail drives iterates farther left."
+        },
+        {
+          "type": "choice",
+          "label": "(d) x₁=4",
+          "answer": "Fails because the initial tangent is horizontal",
+          "options": [
+            "Converges to the left root",
+            "Converges to the right root",
+            "Fails because the initial tangent is horizontal"
+          ],
+          "selectionPrompt": "Choose the correct (d) x₁=4.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the drawn tangent slopes. Horizontal tangents make division by f′ undefined, and the nearly flat positive left tail drives iterates farther left."
+        },
+        {
+          "type": "choice",
+          "label": "(e) x₁=5",
+          "answer": "Converges to the right root near6",
+          "options": [
+            "Initial derivative is zero",
+            "Converges to the left root",
+            "Converges to the right root near6"
+          ],
+          "selectionPrompt": "Choose the correct (e) x₁=5.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the drawn tangent slopes. Horizontal tangents make division by f′ undefined, and the nearly flat positive left tail drives iterates farther left."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-5": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Starting values expected to converge",
+      "answer": "a and b",
+      "options": [
+        "All four",
+        "a and b",
+        "c and d"
+      ],
+      "selectionPrompt": "Choose the correct Starting values expected to converge.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Near the root the tangents from a and b repeatedly reduce distance to0. Farther out, the shallow tangents at c,d overshoot and drive large oscillations.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-6": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "x₃",
+      "answer": -0.6825396825396826,
+      "tolerance": 5.1e-05,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Perform exactly two Newton updates from the supplied x₁, keeping unrounded intermediate values.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-7": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "x₃",
+      "answer": 1.5215151805995457,
+      "tolerance": 5.1e-05,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Perform exactly two Newton updates from the supplied x₁, keeping unrounded intermediate values.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-8": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "x₃",
+      "answer": -1.2917177959183674,
+      "tolerance": 5.1e-05,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Perform exactly two Newton updates from the supplied x₁, keeping unrounded intermediate values.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-9": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "x₂",
+          "answer": -1.25,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The tangent at x₁ has equation y=f(x₁)+f′(x₁)(x−x₁); its zero is x₂."
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line y",
+          "answer": "4·x + 5",
+          "options": [
+            "5·x + 6",
+            "4·x + 5",
+            "5·x + 5"
+          ],
+          "selectionPrompt": "Choose the correct Tangent line y.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The tangent at x₁ has equation y=f(x₁)+f′(x₁)(x−x₁); its zero is x₂."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-10": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "x₂",
+          "answer": 1.3333333333333333,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The tangent at x₁ has equation y=f(x₁)+f′(x₁)(x−x₁); its zero is x₂."
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line y",
+          "answer": "3·x - 4",
+          "options": [
+            "3·x - 4",
+            "4·x - 4",
+            "4·x - 3"
+          ],
+          "selectionPrompt": "Choose the correct Tangent line y.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The tangent at x₁ has equation y=f(x₁)+f′(x₁)(x−x₁); its zero is x₂."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-11": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Fourth root of75",
+      "answer": 2.942830956382712,
+      "tolerance": 5.1e-09,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Use f(x)=x⁴−75 and the positive initial estimate3; retain guard digits through convergence.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-12": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Eighth root of500",
+      "answer": 2.174559276040982,
+      "tolerance": 5.1e-09,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Use f(x)=x⁸−500 and a positive initial estimate near2.2.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-13": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) existence reason",
+          "answer": "Polynomial continuity and opposite endpoint signs imply a root by the IVT",
+          "options": [
+            "A horizontal tangent guarantees a root",
+            "Polynomial continuity and opposite endpoint signs imply a root by the IVT",
+            "Equal endpoint signs imply a root"
+          ],
+          "selectionPrompt": "Choose the correct (a) existence reason.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous polynomial at both endpoints, then use Newton’s iteration and verify the resulting residual."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) root",
+          "answer": 2.63002025452454,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous polynomial at both endpoints, then use Newton’s iteration and verify the resulting residual."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-14": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) existence reason",
+          "answer": "Polynomial continuity and opposite endpoint signs imply a root by the IVT",
+          "options": [
+            "Equal endpoint signs imply a root",
+            "Polynomial continuity and opposite endpoint signs imply a root by the IVT",
+            "A horizontal tangent guarantees a root"
+          ],
+          "selectionPrompt": "Choose the correct (a) existence reason.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous polynomial at both endpoints, then use Newton’s iteration and verify the resulting residual."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) root",
+          "answer": 3.274472637047903,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Evaluate the continuous polynomial at both endpoints, then use Newton’s iteration and verify the resulting residual."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-15": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Root 1 (ascending order)",
+      "answer": -1.9646355974888645,
+      "tolerance": 5.1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-16": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Root 1 (ascending order)",
+      "answer": 2.2788626600758284,
+      "tolerance": 5.1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-17": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": -2.938100393970812,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": -2.663178883363779,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 3 (ascending order)",
+          "answer": 1.170120950002626,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-18": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": -0.4840283022306844,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": 1.8971794010653942,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-19": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": -1.2576912625511312,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": 0.6534825247841733,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-20": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": 0.6530597291556943,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": 3.755700865749994,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-21": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": -0.9020254924297008,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": 0.0,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 3 (ascending order)",
+          "answer": 0.9020254924297008,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-22": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": -1.0615497746313838,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": 1.7284663189971772,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-23": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": -1.6931202937582628,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": -0.7446666792158543,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 3 (ascending order)",
+          "answer": 1.2658709420919343,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-24": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": -1.044503071109637,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": 1.3325831553934233,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 3 (ascending order)",
+          "answer": 2.7055120932482875,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-25": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Root 1 (ascending order)",
+      "answer": 0.7668257939012316,
+      "tolerance": 5.1e-09,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-26": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": -0.7348591038166163,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": 1.0,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-27": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": 0.21916367723635213,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": 1.0842246163093805,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-28": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Root 1 (ascending order)",
+          "answer": 0.24852413564554984,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        },
+        {
+          "type": "numeric",
+          "label": "Root 2 (ascending order)",
+          "answer": 4.0501098351360465,
+          "tolerance": 5.1e-09,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply xₙ₊₁=xₙ−f(xₙ)/f′(xₙ), retaining guard digits. Substitute the resulting real roots into the original equation; exclude values outside its domain."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-29": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) square-root iteration",
+          "answer": "xₙ₊₁=(xₙ+a/xₙ)/2",
+          "options": [
+            "xₙ₊₁=(xₙ+a/xₙ)/2",
+            "xₙ₊₁=(xₙ−a/xₙ)/2",
+            "xₙ₊₁=xₙ+a/xₙ"
+          ],
+          "selectionPrompt": "Choose the correct (a) square-root iteration.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply Newton to x²−a, whose derivative is2x, then simplify the update. A positive initial value gives the positive root."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) √1000",
+          "answer": 31.622776601683793,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply Newton to x²−a, whose derivative is2x, then simplify the update. A positive initial value gives the positive root."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-30": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) reciprocal iteration",
+          "answer": "xₙ₊₁=2xₙ−axₙ²",
+          "options": [
+            "xₙ₊₁=2xₙ−axₙ²",
+            "xₙ₊₁=2xₙ+axₙ²",
+            "xₙ₊₁=xₙ−axₙ²"
+          ],
+          "selectionPrompt": "Choose the correct (a) reciprocal iteration.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For f=1/x−a and f′=−1/x², Newton simplifies to2x−ax². Use a nonzero starting value in the convergence interval."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) 1/1.6984",
+          "answer": 0.5887894488930758,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For f=1/x−a and f′=−1/x², Newton simplifies to2x−ax². Use a nonzero starting value in the convergence interval."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-31": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Failure at x₁=1",
+      "answer": "f′(1)=0 but f(1)=4; the tangent has no x-intercept",
+      "options": [
+        "f′(1)=4 so division is impossible",
+        "f(1)=0 so the root is already found",
+        "f′(1)=0 but f(1)=4; the tangent has no x-intercept"
+      ],
+      "selectionPrompt": "Choose the correct Failure at x₁=1.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "f′=3x²−3 vanishes at1; the next Newton quotient is undefined.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-32": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) root from x₁=1",
+          "answer": 1.324717957244746,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The equation has one real root. Small starting-value changes near a horizontal tangent cause large changes in subsequent steps and iteration count."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) root from x₁=0.6",
+          "answer": 1.324717957244746,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The equation has one real root. Small starting-value changes near a horizontal tangent cause large changes in subsequent steps and iteration count."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) root from x₁=0.57",
+          "answer": 1.324717957244746,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The equation has one real root. Small starting-value changes near a horizontal tangent cause large changes in subsequent steps and iteration count."
+        },
+        {
+          "type": "choice",
+          "label": "(d) sensitivity reason",
+          "answer": "Near x=1/√3 the derivative is nearly zero, producing very large Newton steps",
+          "options": [
+            "The equation has three real roots",
+            "All three first steps are equal",
+            "Near x=1/√3 the derivative is nearly zero, producing very large Newton steps"
+          ],
+          "selectionPrompt": "Choose the correct (d) sensitivity reason.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The equation has one real root. Small starting-value changes near a horizontal tangent cause large changes in subsequent steps and iteration count."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-33": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Iteration for nonzero xₙ",
+          "answer": "xₙ₊₁=−2xₙ",
+          "options": [
+            "xₙ₊₁=0",
+            "xₙ₊₁=xₙ/2",
+            "xₙ₊₁=−2xₙ"
+          ],
+          "selectionPrompt": "Choose the correct Iteration for nonzero xₙ.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For the real cube root, f′=(1/3)x^(−2/3), so f/f′=3x."
+        },
+        {
+          "type": "choice",
+          "label": "Behavior",
+          "answer": "Alternating signs with doubling magnitude; no convergence",
+          "options": [
+            "Alternating signs with doubling magnitude; no convergence",
+            "Converges in one step",
+            "Converges monotonically to0"
+          ],
+          "selectionPrompt": "Choose the correct Behavior.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For the real cube root, f′=(1/3)x^(−2/3), so f/f′=3x."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-34": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Iteration for nonzero xₙ",
+          "answer": "xₙ₊₁=−xₙ",
+          "options": [
+            "xₙ₊₁=−xₙ",
+            "xₙ₊₁=xₙ/2",
+            "xₙ₊₁=−2xₙ"
+          ],
+          "selectionPrompt": "Choose the correct Iteration for nonzero xₙ.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For either sign of x, f/f′=2x. Hence Newton flips sign without reducing magnitude."
+        },
+        {
+          "type": "choice",
+          "label": "Behavior",
+          "answer": "A two-cycle between x₁ and−x₁",
+          "options": [
+            "A two-cycle between x₁ and−x₁",
+            "Magnitude doubles",
+            "Converges to0"
+          ],
+          "selectionPrompt": "Choose the correct Behavior.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For either sign of x, f/f′=2x. Hence Newton flips sign without reducing magnitude."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-35": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) critical number 1",
+          "answer": -1.2932274422530494,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply Newton to f′=6x⁵−4x³+9x²−2; compare f at all three real stationary points. Since f→∞ at both ends, the least value is the absolute minimum."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) critical number 2",
+          "answer": -0.4417311866093694,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply Newton to f′=6x⁵−4x³+9x²−2; compare f at all three real stationary points. Since f→∞ at both ends, the least value is the absolute minimum."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) critical number 3",
+          "answer": 0.5078535856357845,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply Newton to f′=6x⁵−4x³+9x²−2; compare f at all three real stationary points. Since f→∞ at both ends, the least value is the absolute minimum."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) absolute minimum",
+          "answer": -2.0212322357625427,
+          "tolerance": 5.1e-05,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply Newton to f′=6x⁵−4x³+9x²−2; compare f at all three real stationary points. Since f→∞ at both ends, the least value is the absolute minimum."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-36": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Absolute maximum value",
+          "answer": 0.5610963381910451,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Solve cosx−xsinx=0 in(0,π/2), then compare with f(0)=0 and f(π)=−π."
+        },
+        {
+          "type": "numeric",
+          "label": "Location",
+          "answer": 0.8603335890193797,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Solve cosx−xsinx=0 in(0,π/2), then compare with f(0)=0 and f(π)=−π."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-37": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Inflection x",
+          "answer": 1.519855298431129,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Solve(2−x²)sinx+4xcosx=0 in(0,π) and verify the concavity changes there; endpoints are not inflection points."
+        },
+        {
+          "type": "numeric",
+          "label": "Inflection y",
+          "answer": 2.3069636164112683,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Solve(2−x²)sinx+4xcosx=0 in(0,π) and verify the concavity changes there; endpoints are not inflection points."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-38": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Largest tangent slope",
+      "answer": 0.21723362821122166,
+      "tolerance": 5.1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "A tangent through the origin obeys xcosx=sinx. The first nonzero positive solution near4.493409 gives the greatest positive slope; at later roots the magnitude1/√(1+x²) is smaller.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-39": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Closest point x",
+          "answer": 0.41024548769854163,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Minimize squared distance x²+(x−1)⁴; its derivative vanishes when x+2(x−1)³=0. The second derivative is positive everywhere."
+        },
+        {
+          "type": "numeric",
+          "label": "Closest point y",
+          "answer": 0.34781038477993104,
+          "tolerance": 5.1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Minimize squared distance x²+(x−1)⁴; its derivative vanishes when x+2(x−1)³=0. The second derivative is positive everywhere."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-40": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "θ in radians",
+          "answer": 2.2622051713025657,
+          "tolerance": 5.1e-05,
+          "unit": "rad",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Arc length gives rθ=5 and chord length gives2r sin(θ/2)=4; eliminate radius. Reject the extraneous zero-angle root of the multiplied equation."
+        },
+        {
+          "type": "numeric",
+          "label": "θ to nearest degree",
+          "answer": 130.0,
+          "tolerance": 0,
+          "unit": "degrees",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Arc length gives rθ=5 and chord length gives2r sin(θ/2)=4; eliminate radius. Reject the extraneous zero-angle root of the multiplied equation."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-41": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Equation after eliminating denominators",
+          "answer": "48i(1+i)^60−(1+i)^60+1=0",
+          "options": [
+            "48i(1+i)^60−(1+i)^60+1=0",
+            "60i(1+i)^48−(1+i)^48+1=0",
+            "48i−(1+i)^60+1=0"
+          ],
+          "selectionPrompt": "Choose the correct Equation after eliminating denominators.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Set18000=375[1−(1+i)^(−60)]/i. Solve for the positive rate; i=0 is an extraneous root of the denominator-cleared equation because zero-rate payments total22500."
+        },
+        {
+          "type": "numeric",
+          "label": "Monthly interest rate",
+          "answer": 0.7628602809953978,
+          "tolerance": 1e-05,
+          "unit": "percent/month",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Set18000=375[1−(1+i)^(−60)]/i. Solve for the positive rate; i=0 is an extraneous root of the denominator-cleared equation because zero-rate payments total22500."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-8-42": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) L₁ x-coordinate",
+          "answer": 0.9899890264895487,
+          "tolerance": 1e-07,
+          "unit": "AU",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source mass ratio r=3.04042×10⁻⁶ and solve each stated fifth-degree equation, choosing the location near Earth as shown."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) L₂ x-coordinate",
+          "answer": 1.0100782366725387,
+          "tolerance": 1e-07,
+          "unit": "AU",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use the source mass ratio r=3.04042×10⁻⁶ and solve each stated fifth-degree equation, choosing the location near Earth as shown."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  }
+}

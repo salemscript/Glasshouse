@@ -1,0 +1,3013 @@
+{
+  "calculus-chapter-05-review-1-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "Σ f(xᵢ*)Δxᵢ, with xᵢ* in subintervali and Δxᵢ its width",
+          "options": [
+            "Σ f′(xᵢ*)Δxᵢ",
+            "Σ f(xᵢ*)Δxᵢ, with xᵢ* in subintervali and Δxᵢ its width",
+            "Σ f(xᵢ*) without widths"
+          ],
+          "label": "a · Riemann sum",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Sum of rectangle areas approximating the area under f",
+          "options": [
+            "Exact area for every partition",
+            "Sum of rectangle areas approximating the area under f",
+            "Area between f and its derivative"
+          ],
+          "label": "b · f≥0",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Signed rectangle sum: positive above and negative below the axis",
+          "options": [
+            "Negative rectangles are omitted",
+            "Signed rectangle sum: positive above and negative below the axis",
+            "All rectangles count positively"
+          ],
+          "label": "c · Signed f",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-2-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "Integral=lim Σf(xᵢ*)Δxᵢ as maximum width tends to0",
+          "options": [
+            "Integral=one arbitrary sample value",
+            "Integral=lim Σf(xᵢ*)Δxᵢ as maximum width tends to0",
+            "Integral=f(b)−f(a)"
+          ],
+          "label": "a · Definition",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Area below f and above the axis on[a,b]",
+          "options": [
+            "Area between f and its derivative",
+            "Area below f and above the axis on[a,b]",
+            "Length of the graph"
+          ],
+          "label": "b · f≥0",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Area above the axis minus area below it",
+          "options": [
+            "Total unsigned area",
+            "Area above the axis minus area below it",
+            "Area below minus area above"
+          ],
+          "label": "c · Signed interpretation",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-3-concept-check-1": {
+    "grader": {
+      "type": "choice",
+      "answer": "Mₙ=Δx Σ[i=1..n]f(a+(i−1/2)Δx), Δx=(b−a)/n",
+      "options": [
+        "Mₙ=Σf(a+iΔx)",
+        "Mₙ=Δx Σ[i=1..n]f(a+(i−1/2)Δx), Δx=(b−a)/n",
+        "Mₙ=Δx Σf(a+(i−1)Δx)"
+      ],
+      "label": "Midpoint Rule",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-4-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "For continuous f, d/dx∫[a,x]f(t)dt=f(x)",
+          "options": [
+            "d/dx∫[a,x]f(t)dt=f′(x)",
+            "d/dx∫[a,b]f(t)dt=f(x)",
+            "For continuous f, d/dx∫[a,x]f(t)dt=f(x)"
+          ],
+          "label": "Part1",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "∫[a,b]f(x)dx=F(b)−F(a) when F′=f",
+          "options": [
+            "∫[a,b]f(x)dx=F(b)−F(a) when F′=f",
+            "∫[a,b]f(x)dx=f(b)−f(a)",
+            "∫[a,b]f(x)dx=F(a)−F(b)"
+          ],
+          "label": "Part2",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-5-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "∫[a,b]F′(x)dx=F(b)−F(a)",
+          "options": [
+            "∫[a,b]F′(x)dx=F(a)+F(b)",
+            "∫[a,b]F′(x)dx=F(b)−F(a)",
+            "The integral of a rate always gives the final total without an initial value"
+          ],
+          "label": "a · Net Change Theorem",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Water volume added from t₁ to t₂ (signed net inflow if r is signed)",
+          "options": [
+            "Mean water depth",
+            "Water flow rate at t₂",
+            "Water volume added from t₁ to t₂ (signed net inflow if r is signed)"
+          ],
+          "label": "b · Inflow integral",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-6-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "Displacement between60s and120s, in feet",
+          "options": [
+            "Change in velocity",
+            "Displacement between60s and120s, in feet",
+            "Total distance regardless of direction"
+          ],
+          "label": "a · Integral of velocity",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Total distance traveled between60s and120s, in feet",
+          "options": [
+            "Final speed",
+            "Total distance traveled between60s and120s, in feet",
+            "Signed displacement"
+          ],
+          "label": "b · Integral of speed",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Change in velocity v(120)−v(60), in ft/s",
+          "options": [
+            "Change in velocity v(120)−v(60), in ft/s",
+            "Final position",
+            "Total distance"
+          ],
+          "label": "c · Integral of acceleration",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-7-concept-check-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "The family F+C of antiderivatives with F′=f on an interval",
+          "options": [
+            "The family F+C of antiderivatives with F′=f on an interval",
+            "Only the area above the axis",
+            "A single definite number"
+          ],
+          "label": "a · Indefinite integral",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Choose any antiderivative F; definite integral=F(b)−F(a)",
+          "options": [
+            "The definite integral is always positive",
+            "Add arbitraryC to every definite integral",
+            "Choose any antiderivative F; definite integral=F(b)−F(a)"
+          ],
+          "label": "b · Connection",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-8-concept-check-1": {
+    "grader": {
+      "type": "choice",
+      "answer": "Differentiating an accumulation integral recovers f; integrating f′ recovers f up to an additive constant",
+      "options": [
+        "Differentiating and integrating always give exactly the original function with no constant",
+        "The two operations are unrelated",
+        "Differentiating an accumulation integral recovers f; integrating f′ recovers f up to an additive constant"
+      ],
+      "label": "Inverse processes",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-9-concept-check-1": {
+    "grader": {
+      "type": "choice",
+      "answer": "Set u=g(x), du=g′(x)dx; ∫f(g(x))g′(x)dx=∫f(u)du. Transform definite bounds too.",
+      "options": [
+        "Substitute a convenient symbol without the derivative factor",
+        "Set u=g(x), du=g′(x)dx; ∫f(g(x))g′(x)dx=∫f(u)du. Transform definite bounds too.",
+        "Change x to u but keep dx and both bounds unchanged"
+      ],
+      "label": "Substitution Rule",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-1-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "Linearity.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-2-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "Products of integrals do not generally equal the integral of a product.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-3-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "Constant-multiple rule.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-4-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "The variable x cannot be factored out as a constant.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-5-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "For f=1 on[0,4], left=4 and right=2.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-6-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "label": "Truth value",
+      "explanation": "FTC2.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-7-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "Order is preserved by integration on an ordered interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-8-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "label": "Truth value",
+      "explanation": "Pointwise order of functions does not order their derivatives.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-9-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "label": "Truth value",
+      "explanation": "The integrand is odd on[−1,1].",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-10-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "label": "Truth value",
+      "explanation": "The bx term is odd and the remaining terms are even.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-11-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "|x| is continuous but not differentiable at0.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-12-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "FTC1 constructs an antiderivative for every continuous function.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-13-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "True",
+      "options": [
+        "False",
+        "True"
+      ],
+      "label": "Truth value",
+      "explanation": "Integral additivity with oriented endpoints.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-14-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "f(x)=x−1/2 has zero integral without being identicallyzero.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-15-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "Both integration limits are constants; the derivative is0.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-16-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "label": "Truth value",
+      "explanation": "The function is negative for1<x≤2, so the integral is signed area.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-17-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "label": "Truth value",
+      "explanation": "The singularity at0 makes the improper integral diverge; a formal primitive evaluation across it is invalid.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-18-true-false-quiz-2": {
+    "grader": {
+      "type": "choice",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "label": "Truth value",
+      "explanation": "A bounded jump discontinuity can still be Riemann integrable.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        453,
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-1": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "answer": 8.0,
+          "label": "a · Left-endpoint sum",
+          "tolerance": 0.6,
+          "unit": "",
+          "explanation": "Six width1 strips; graph estimates at integer or half-integer x. The sum is signed rectangle area.",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 5.2,
+          "label": "b · Midpoint sum",
+          "tolerance": 0.7,
+          "unit": "",
+          "explanation": "Six width1 strips; graph estimates at integer or half-integer x. The sum is signed rectangle area.",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-2": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "answer": 1.25,
+          "label": "a · Right sum n=4",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 0.6666666666666666,
+          "label": "b · Integral by definition",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 0.6666666666666666,
+          "label": "c · FTC check",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Positive area on[1,2] minus negative area magnitude on[0,1]",
+          "options": [
+            "All area is counted positive",
+            "Positive area on[1,2] minus negative area magnitude on[0,1]",
+            "Only area on[1,2] contributes"
+          ],
+          "label": "d · Geometry",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-3": {
+    "grader": {
+      "type": "choice",
+      "answer": "1/2 + pi/4",
+      "options": [
+        "1/2 + pi/4",
+        "-pi/4 - 1/2",
+        "1 + pi/2"
+      ],
+      "label": "Result",
+      "explanation": "Triangle area1/2 plus unit quarter-circle areaπ/4.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-4": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "∫[0,π]sin(x)dx",
+          "options": [
+            "∫[0,1]sin(x)dx",
+            "∫[0,π]cos(x)dx",
+            "∫[0,π]sin(x)dx"
+          ],
+          "label": "Definite integral",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 2.0,
+          "label": "Value",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-5": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.0,
+      "label": "Answer",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-6": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "lim[n→∞](4/n)Σ[i=1..n][1+4i/n+2(1+4i/n)^5]",
+          "options": [
+            "lim[n→∞](1/n)Σ[i=1..n](i/n+2(i/n)^5)",
+            "lim[n→∞]Σ[i=1..n](1+4i/n)",
+            "lim[n→∞](4/n)Σ[i=1..n][1+4i/n+2(1+4i/n)^5]"
+          ],
+          "label": "a · Right-sum limit",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 5220.0,
+          "label": "a · Limit value",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 5220.0,
+          "label": "b · FTC value",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-7": {
+    "grader": {
+      "type": "choice",
+      "answer": "f=c, f′=b, and∫[0,x]f(t)dt=a",
+      "options": [
+        "f=a, f′=b, and integral=c",
+        "f=c, f′=b, and∫[0,x]f(t)dt=a",
+        "f=b, f′=c, and integral=a"
+      ],
+      "label": "Graph identification",
+      "explanation": "a vanishes at0 and has slopes matching c; the slopes of c match b.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-8": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "-1 + exp(pi/4)",
+          "options": [
+            "-2 + 2*exp(pi/4)",
+            "-1 + exp(pi/4)",
+            "1 - exp(pi/4)"
+          ],
+          "label": "a · Integral of derivative",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 0.0,
+          "label": "b · Derivative of fixed-bound integral",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "exp(arctan(x))",
+          "options": [
+            "-exp(arctan(x))",
+            "exp(arctan(x))",
+            "2*exp(arctan(x))"
+          ],
+          "label": "c · Accumulation derivative",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-9": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "answer": 3.0,
+          "label": "g(4)",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "Signed triangle areas on[0,2]cancel; rectangle[2,3]has area2 and triangle[3,4]area1.",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 0.0,
+          "label": "g′(4)",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "Signed triangle areas on[0,2]cancel; rectangle[2,3]has area2 and triangle[3,4]area1.",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-10": {
+    "grader": {
+      "type": "numeric",
+      "answer": -2.0,
+      "label": "g″(4)",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "FTC gives g″(4)=f′(4), slope−2.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-11": {
+    "grader": {
+      "type": "numeric",
+      "answer": 37.0,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-13": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.9,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-14": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.1,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-15": {
+    "grader": {
+      "type": "numeric",
+      "answer": -76.0,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-16": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.2666666666666666,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-17": {
+    "grader": {
+      "type": "numeric",
+      "answer": 5.25,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-18": {
+    "grader": {
+      "type": "numeric",
+      "answer": 5.777777777777778,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-20": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.2122065907891938,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-21": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.2804903282692988,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-22": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.0,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-23": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.0,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-24": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.4328847416198293,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-38": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.75,
+      "label": "Answer",
+      "tolerance": 1e-07,
+      "unit": "",
+      "explanation": "Evaluate the exact source integral on its stated bounds. Symmetry is used only on a symmetric interval.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-12": {
+    "grader": {
+      "type": "choice",
+      "answer": "T*(T^4 - 20*T + 35)/5",
+      "options": [
+        "2*T*(T^4 - 20*T + 35)/5",
+        "-T*(T^4 - 20*T + 35)/5",
+        "T*(T^4 - 20*T + 35)/5"
+      ],
+      "label": "Integral in terms of T",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-19": {
+    "grader": {
+      "type": "choice",
+      "answer": "Does not exist as an ordinary improper integral",
+      "options": [
+        "Does not exist as an ordinary improper integral",
+        "0",
+        "A finite value from plugging both endpoints into a primitive"
+      ],
+      "label": "Integral status",
+      "explanation": "An interior singularity must be split into one-sided improper integrals; those do not both converge.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-26": {
+    "grader": {
+      "type": "choice",
+      "answer": "Does not exist as an ordinary improper integral",
+      "options": [
+        "0",
+        "A finite value from plugging both endpoints into a primitive",
+        "Does not exist as an ordinary improper integral"
+      ],
+      "label": "Integral status",
+      "explanation": "An interior singularity must be split into one-sided improper integrals; those do not both converge.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-25": {
+    "grader": {
+      "type": "choice",
+      "answer": "x - 2*ln(Abs(x)) - 1/x + C",
+      "options": [
+        "-x + 2*ln(Abs(x)) + 1/x + C",
+        "2*x - 4*ln(Abs(x)) - 2/x + C",
+        "x - 2*ln(Abs(x)) - 1/x + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-27": {
+    "grader": {
+      "type": "choice",
+      "answer": "sqrt(x*(x + 4)) + C",
+      "options": [
+        "sqrt(x*(x + 4)) + C",
+        "2*sqrt(x*(x + 4)) + C",
+        "-sqrt(x*(x + 4)) + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-28": {
+    "grader": {
+      "type": "choice",
+      "answer": "-ln(Abs(cot(x) + 1)) + C",
+      "options": [
+        "-2*ln(Abs(cot(x) + 1)) + C",
+        "ln(Abs(cot(x) + 1)) + C",
+        "-ln(Abs(cot(x) + 1)) + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-29": {
+    "grader": {
+      "type": "choice",
+      "answer": "sin(pi*t)^2/(2*pi) + C",
+      "options": [
+        "sin(pi*t)^2/(2*pi) + C",
+        "sin(pi*t)^2/pi + C",
+        "-sin(pi*t)^2/(2*pi) + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-30": {
+    "grader": {
+      "type": "choice",
+      "answer": "-sin(cos(x)) + C",
+      "options": [
+        "sin(cos(x)) + C",
+        "-sin(cos(x)) + C",
+        "-2*sin(cos(x)) + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-31": {
+    "grader": {
+      "type": "choice",
+      "answer": "2*exp(sqrt(x)) + C",
+      "options": [
+        "2*exp(sqrt(x)) + C",
+        "-2*exp(sqrt(x)) + C",
+        "4*exp(sqrt(x)) + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-32": {
+    "grader": {
+      "type": "choice",
+      "answer": "-cos(ln(x)) + C",
+      "options": [
+        "-cos(ln(x)) + C",
+        "-2*cos(ln(x)) + C",
+        "cos(ln(x)) + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-33": {
+    "grader": {
+      "type": "choice",
+      "answer": "-ln(cos(x))^2/2 + C",
+      "options": [
+        "-ln(cos(x))^2/2 + C",
+        "ln(cos(x))^2/2 + C",
+        "-ln(cos(x))^2 + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-34": {
+    "grader": {
+      "type": "choice",
+      "answer": "arcsin(x^2)/2 + C",
+      "options": [
+        "arcsin(x^2)/2 + C",
+        "arcsin(x^2) + C",
+        "-arcsin(x^2)/2 + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-35": {
+    "grader": {
+      "type": "choice",
+      "answer": "ln(x^4 + 1)/4 + C",
+      "options": [
+        "ln(x^4 + 1)/4 + C",
+        "-ln(x^4 + 1)/4 + C",
+        "ln(x^4 + 1)/2 + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-36": {
+    "grader": {
+      "type": "choice",
+      "answer": "cosh(4*x + 1)/4 + C",
+      "options": [
+        "cosh(4*x + 1)/4 + C",
+        "cosh(4*x + 1)/2 + C",
+        "-cosh(4*x + 1)/4 + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-37": {
+    "grader": {
+      "type": "choice",
+      "answer": "ln(Abs(sec(t) + 1)) + C",
+      "options": [
+        "2*ln(Abs(sec(t) + 1)) + C",
+        "-ln(Abs(sec(t) + 1)) + C",
+        "ln(Abs(sec(t) + 1)) + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-41": {
+    "grader": {
+      "type": "choice",
+      "answer": "2*sqrt(sin(x) + 1) + C",
+      "options": [
+        "-2*sqrt(sin(x) + 1) + C",
+        "4*sqrt(sin(x) + 1) + C",
+        "2*sqrt(sin(x) + 1) + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-42": {
+    "grader": {
+      "type": "choice",
+      "answer": "(x^2 - 2)*sqrt(x^2 + 1)/3 + C",
+      "options": [
+        "-(x^2 - 2)*sqrt(x^2 + 1)/3 + C",
+        "(x^2 - 2)*sqrt(x^2 + 1)/3 + C",
+        "2*(x^2 - 2)*sqrt(x^2 + 1)/3 + C"
+      ],
+      "label": "Antiderivative",
+      "explanation": "A general antiderivative on each connected interval of the original real domain; retain all denominator/log/radical restrictions.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-39": {
+    "grader": {
+      "type": "numeric",
+      "answer": 7.666666666666667,
+      "label": "Answer",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-40": {
+    "grader": {
+      "type": "numeric",
+      "answer": 2.0,
+      "label": "Answer",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        454,
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-43": {
+    "grader": {
+      "type": "numeric",
+      "answer": 12.8,
+      "label": "Exact area",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-44": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.0,
+      "label": "Integral",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-45": {
+    "grader": {
+      "type": "choice",
+      "answer": "x^2/(x^3 + 1)",
+      "options": [
+        "x^2/(x^3 + 1)",
+        "2*x^2/(x^3 + 1)",
+        "-x^2/(x^3 + 1)"
+      ],
+      "label": "Derivative",
+      "explanation": "Apply FTC and multiply by each variable endpoint derivative; subtract the lower-endpoint contribution.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-46": {
+    "grader": {
+      "type": "choice",
+      "answer": "-sqrt(x + sin(x))",
+      "options": [
+        "sqrt(x + sin(x))",
+        "-2*sqrt(x + sin(x))",
+        "-sqrt(x + sin(x))"
+      ],
+      "label": "Derivative",
+      "explanation": "Apply FTC and multiply by each variable endpoint derivative; subtract the lower-endpoint contribution.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-47": {
+    "grader": {
+      "type": "choice",
+      "answer": "4*x^3*cos(x^8)",
+      "options": [
+        "8*x^3*cos(x^8)",
+        "-4*x^3*cos(x^8)",
+        "4*x^3*cos(x^8)"
+      ],
+      "label": "Derivative",
+      "explanation": "Apply FTC and multiply by each variable endpoint derivative; subtract the lower-endpoint contribution.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-48": {
+    "grader": {
+      "type": "choice",
+      "answer": "cos(x)^3/(sin(x)^4 + 1)",
+      "options": [
+        "2*cos(x)^3/(sin(x)^4 + 1)",
+        "cos(x)^3/(sin(x)^4 + 1)",
+        "-cos(x)^3/(sin(x)^4 + 1)"
+      ],
+      "label": "Derivative",
+      "explanation": "Apply FTC and multiply by each variable endpoint derivative; subtract the lower-endpoint contribution.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-49": {
+    "grader": {
+      "type": "choice",
+      "answer": "(-exp(sqrt(x))/2 + exp(x))/x",
+      "options": [
+        "(-exp(sqrt(x))/2 + exp(x))/x",
+        "-(-exp(sqrt(x))/2 + exp(x))/x",
+        "2*(-exp(sqrt(x))/2 + exp(x))/x"
+      ],
+      "label": "Derivative",
+      "explanation": "Apply FTC and multiply by each variable endpoint derivative; subtract the lower-endpoint contribution.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-50": {
+    "grader": {
+      "type": "choice",
+      "answer": "-2*sin(16*x^4) + 3*sin((3*x + 1)^4)",
+      "options": [
+        "-2*sin(16*x^4) + 3*sin((3*x + 1)^4)",
+        "-4*sin(16*x^4) + 6*sin((3*x + 1)^4)",
+        "2*sin(16*x^4) - 3*sin((3*x + 1)^4)"
+      ],
+      "label": "Derivative",
+      "explanation": "Apply FTC and multiply by each variable endpoint derivative; subtract the lower-endpoint contribution.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-51": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "answer": 4.0,
+          "label": "Lower bound",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "On[1,3],2≤sqrt(x²+3)≤sqrt12; multiply by interval width2.",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "4*sqrt(3)",
+          "options": [
+            "-4*sqrt(3)",
+            "8*sqrt(3)",
+            "4*sqrt(3)"
+          ],
+          "label": "Upper bound",
+          "explanation": "On[1,3],2≤sqrt(x²+3)≤sqrt12; multiply by interval width2.",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-52": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "answer": 0.3333333333333333,
+          "label": "Lower bound",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 0.5,
+          "label": "Upper bound",
+          "tolerance": 1e-08,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-53": {
+    "grader": {
+      "type": "choice",
+      "answer": "0≤x²cosx≤x² on[0,1], so integral≤1/3",
+      "options": [
+        "cosx≥1 on[0,1]",
+        "Integral≤0",
+        "0≤x²cosx≤x² on[0,1], so integral≤1/3"
+      ],
+      "label": "Inequality justification",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-54": {
+    "grader": {
+      "type": "choice",
+      "answer": "sinx/x decreases on[π/4,π/2], so integral≤(π/4)*(2√2/π)=√2/2",
+      "options": [
+        "sinx/x decreases on[π/4,π/2], so integral≤(π/4)*(2√2/π)=√2/2",
+        "sinx/x increases on that interval",
+        "The bound is a consequence of odd symmetry"
+      ],
+      "label": "Inequality justification",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-55": {
+    "grader": {
+      "type": "choice",
+      "answer": "e^x cosx≤e^x on[0,1], so integral≤e−1",
+      "options": [
+        "The integrand is odd",
+        "e^x cosx≤e^x on[0,1], so integral≤e−1",
+        "cosx≥1"
+      ],
+      "label": "Inequality justification",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-56": {
+    "grader": {
+      "type": "choice",
+      "answer": "x*arcsin x≤(π/2)x on[0,1], so integral≤π/4",
+      "options": [
+        "arcsin x≤x for everyx∈[0,1]",
+        "The integral equals0",
+        "x*arcsin x≤(π/2)x on[0,1], so integral≤π/4"
+      ],
+      "label": "Inequality justification",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-57": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.28098102991120977,
+      "label": "Midpoint estimate n=6",
+      "tolerance": 5.1e-05,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-58": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "answer": 29.166666666666668,
+          "label": "a · Displacement",
+          "tolerance": 1e-08,
+          "unit": "m",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 29.5,
+          "label": "b · Distance",
+          "tolerance": 1e-08,
+          "unit": "m",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-59": {
+    "grader": {
+      "type": "choice",
+      "answer": "Total barrels consumed during2000 through2007, ending January1,2008",
+      "options": [
+        "Consumption rate on January1,2008",
+        "Change in consumption rate",
+        "Total barrels consumed during2000 through2007, ending January1,2008"
+      ],
+      "label": "Integral interpretation",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-60": {
+    "grader": {
+      "type": "numeric",
+      "answer": 45.230000000000004,
+      "label": "Midpoint distance estimate",
+      "tolerance": 0.0051,
+      "unit": "m",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-61": {
+    "grader": {
+      "type": "numeric",
+      "answer": 74400.0,
+      "label": "Population increase",
+      "tolerance": 5000,
+      "unit": "bees",
+      "explanation": "Six width4 intervals use graph readings at2,6,10,14,18,22weeks. The graph is approximate; tolerance reflects its scale.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-62": {
+    "grader": {
+      "type": "choice",
+      "answer": "3/2 - pi/4",
+      "options": [
+        "3/2 - pi/4",
+        "-3/2 + pi/4",
+        "3 - pi/2"
+      ],
+      "label": "Signed integral",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-63": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.0,
+      "label": "Answer",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        455,
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-64": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "cos(πx²/2)>0: (−1,1) and intervals where4k−1<x²<4k+1, k≥1",
+          "options": [
+            "C increases exactly where x>0",
+            "cos(πx²/2)>0: (−1,1) and intervals where4k−1<x²<4k+1, k≥1",
+            "C increases everywhere"
+          ],
+          "label": "a · Increasing intervals",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "−x sin(πx²/2)>0; for x>0:4k+2<x²<4k+4; for x<0:4k<x²<4k+2, k≥0",
+          "options": [
+            "−x sin(πx²/2)>0; for x>0:4k+2<x²<4k+4; for x<0:4k<x²<4k+2, k≥0",
+            "C is concave upward everywhere",
+            "C is concave upward wheneverx>0"
+          ],
+          "label": "b · Concavity intervals",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 0.760360881725722,
+          "label": "c · Smaller root",
+          "tolerance": 0.0051,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "numeric",
+          "answer": 1.2230325640468236,
+          "label": "c · Larger root",
+          "tolerance": 0.0051,
+          "unit": "",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "Both are odd and oscillate toward±1/2; their slopes are cos(πx²/2) and sin(πx²/2), so their oscillations are offset, not a constant horizontal translation",
+          "options": [
+            "Both are odd and oscillate toward±1/2; their slopes are cos(πx²/2) and sin(πx²/2), so their oscillations are offset, not a constant horizontal translation",
+            "C and S are identical",
+            "C=S′ for allx"
+          ],
+          "label": "d · Relation of graphs",
+          "explanation": "",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-65": {
+    "grader": {
+      "type": "numeric",
+      "answer": 1.616137513774314,
+      "label": "Positive c",
+      "tolerance": 5.1e-05,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-66": {
+    "grader": {
+      "type": "choice",
+      "answer": "C*exp(−x²/(4kt))/sqrt(4πkt), k>0,t>0",
+      "options": [
+        "C*exp(−x²/(4kt))/sqrt(4πkt), k>0,t>0",
+        "0 for everyx,t",
+        "C*exp(−x²/(4kt))/(4πkt)"
+      ],
+      "label": "Limit as a→0",
+      "explanation": "The numerator integral divided by a tends to its continuous integrand at u=0.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-67": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "answer": "(2*x - 1)*exp(3*x)/(exp(x) - 1)",
+          "options": [
+            "2*(2*x - 1)*exp(3*x)/(exp(x) - 1)",
+            "-(2*x - 1)*exp(3*x)/(exp(x) - 1)",
+            "(2*x - 1)*exp(3*x)/(exp(x) - 1)"
+          ],
+          "label": "Forced formula for x≠0",
+          "explanation": "On an interval containing1 but excluding0, differentiation and the initial identity yield the displayed formula. The literal condition “for all x” with global continuity is inconsistent.",
+          "provenance": "original-source-reviewed-derivation"
+        },
+        {
+          "type": "choice",
+          "answer": "No function continuous on all realx satisfies the identity: atx=0 the differentiated equation requires0=−1",
+          "options": [
+            "f(0)=0 makes the singularity removable",
+            "No function continuous on all realx satisfies the identity: atx=0 the differentiated equation requires0=−1",
+            "The displayed formula is continuous on all realx"
+          ],
+          "label": "Global existence caveat",
+          "explanation": "On an interval containing1 but excluding0, differentiation and the initial identity yield the displayed formula. The literal condition “for all x” with global continuity is inconsistent.",
+          "provenance": "original-source-reviewed-derivation"
+        }
+      ],
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-68": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.0,
+      "label": "Answer",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-69": {
+    "grader": {
+      "type": "choice",
+      "answer": "d(f²)/dx=2ff′; FTC gives f(b)²−f(a)²",
+      "options": [
+        "The derivative of f² is f′²",
+        "d(f²)/dx=2ff′; FTC gives f(b)²−f(a)²",
+        "Replace f by its endpoint average"
+      ],
+      "label": "Proof step",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-70": {
+    "grader": {
+      "type": "numeric",
+      "answer": 3.0,
+      "label": "Answer",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-71": {
+    "grader": {
+      "type": "choice",
+      "answer": "Letu=1−x; dx=−du and reverse the bounds1→0",
+      "options": [
+        "Letu=1−x but keepdx=du",
+        "The identity requires f to be symmetric",
+        "Letu=1−x; dx=−du and reverse the bounds1→0"
+      ],
+      "label": "Substitution proof",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed.",
+      "complete": false
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-72": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.1,
+      "label": "Answer",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  },
+  "calculus-chapter-05-review-73": {
+    "grader": {
+      "type": "numeric",
+      "answer": 0.6666666666666666,
+      "label": "Answer",
+      "tolerance": 1e-08,
+      "unit": "",
+      "explanation": "The regions under a strictly increasing bijection and its inverse partition the unit square.",
+      "provenance": "original-source-reviewed-derivation",
+      "scope": "Checks the labeled results and conclusions; original proofs, drawings, and explanations are not automatically assessed."
+    },
+    "responsePartPrompt": "Answer each labeled check using the original textbook question above.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": {
+      "book": "Stewart, Calculus: Early Transcendentals, 8e",
+      "chapter": 5,
+      "pdfPages": [
+        456
+      ],
+      "authoringFile": "scripts/calculus-answer-checks/chapter-05/review.py"
+    }
+  }
+}

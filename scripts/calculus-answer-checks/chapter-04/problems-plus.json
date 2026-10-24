@@ -1,0 +1,1180 @@
+{
+  "calculus-chapter-04-problems-plus-1-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Maximizing upper vertices",
+          "answer": "(±1/√2,e^(−1/2))",
+          "options": [
+            "(±1,1/e)",
+            "(±√2,e^(−2))",
+            "(±1/√2,e^(−1/2))"
+          ],
+          "selectionPrompt": "Choose the correct Maximizing upper vertices.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Equal upper heights on the Gaussian force symmetric vertices±t. Area2t e^(−t²) has derivative2e^(−t²)(1−2t²), so its unique positive maximum is t=1/√2, exactly the inflection abscissas."
+        },
+        {
+          "type": "numeric",
+          "label": "Maximum area",
+          "answer": 0.8577638849607068,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Equal upper heights on the Gaussian force symmetric vertices±t. Area2t e^(−t²) has derivative2e^(−t²)(1−2t²), so its unique positive maximum is t=1/√2, exactly the inflection abscissas."
+        },
+        {
+          "type": "choice",
+          "label": "Second derivative",
+          "answer": "(4x²−2)e^(−x²)",
+          "options": [
+            "(4x²−2)e^(−x²)",
+            "((4x²−2)e^(−x²)) + 1",
+            "−((4x²−2)e^(−x²))"
+          ],
+          "selectionPrompt": "Choose the correct Second derivative.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Equal upper heights on the Gaussian force symmetric vertices±t. Area2t e^(−t²) has derivative2e^(−t²)(1−2t²), so its unique positive maximum is t=1/√2, exactly the inflection abscissas."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-2-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Equivalent identity",
+          "answer": "sinx−cosx=√2 sin(x−π/4)",
+          "options": [
+            "sinx−cosx=sin(x+π/4)",
+            "sinx−cosx=2sin(x−π/4)",
+            "sinx−cosx=√2 sin(x−π/4)"
+          ],
+          "selectionPrompt": "Choose the correct Equivalent identity.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "A sine has absolute value at most1. The identity gives the stated bound and equality precisely where the shifted sine equals±1."
+        },
+        {
+          "type": "choice",
+          "label": "Equality locations",
+          "answer": "x=3π/4+kπ, k∈ℤ",
+          "options": [
+            "x=kπ",
+            "x=3π/4+kπ, k∈ℤ",
+            "x=π/4+kπ"
+          ],
+          "selectionPrompt": "Choose the correct Equality locations.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "A sine has absolute value at most1. The identity gives the stated bound and equality precisely where the shifted sine equals±1."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-3-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Absolute maximum",
+          "answer": "e^45",
+          "options": [
+            "e^45",
+            "e^5",
+            "e^(−4)"
+          ],
+          "selectionPrompt": "Choose the correct Absolute maximum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Forx≤2 the exponent is45−(x+5)²; forx≥2 it is5−(x−5)². Compare the two branch maxima. Exponentials are positive but approach0 at both infinite ends."
+        },
+        {
+          "type": "numeric",
+          "label": "Maximum attained at x",
+          "answer": -5.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Forx≤2 the exponent is45−(x+5)²; forx≥2 it is5−(x−5)². Compare the two branch maxima. Exponentials are positive but approach0 at both infinite ends."
+        },
+        {
+          "type": "choice",
+          "label": "Absolute minimum",
+          "answer": "None; infimum0 is approached as x→±∞",
+          "options": [
+            "e^(−4)",
+            "0, attained at x=2",
+            "None; infimum0 is approached as x→±∞"
+          ],
+          "selectionPrompt": "Choose the correct Absolute minimum.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Forx≤2 the exponent is45−(x+5)²; forx≥2 it is5−(x−5)². Compare the two branch maxima. Exponentials are positive but approach0 at both infinite ends."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-4-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Maximum product",
+          "answer": 16.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Setu=x²,v=y². Both factorsu(4−u),v(4−v) are nonnegative and at most4, so their product is at most16."
+        },
+        {
+          "type": "choice",
+          "label": "Equality conditions",
+          "answer": "|x|=|y|=√2",
+          "options": [
+            "|x|=|y|=√2",
+            "|x|=|y|=2",
+            "x=y=0"
+          ],
+          "selectionPrompt": "Choose the correct Equality conditions.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Setu=x²,v=y². Both factorsu(4−u),v(4−v) are nonnegative and at most4, so their product is at most16."
+        },
+        {
+          "type": "choice",
+          "label": "One-variable bound",
+          "answer": "u(4−u)=4−(u−2)²≤4 for0≤u≤4",
+          "options": [
+            "(u(4−u)=4−(u−2)²≤4 for0≤u≤4) + 1",
+            "−(u(4−u)=4−(u−2)²≤4 for0≤u≤4)",
+            "u(4−u)=4−(u−2)²≤4 for0≤u≤4"
+          ],
+          "selectionPrompt": "Choose the correct One-variable bound.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Setu=x²,v=y². Both factorsu(4−u),v(4−v) are nonnegative and at most4, so their product is at most16."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-5-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Inflection-point equation",
+          "answer": "(2−x²)sinx−2xcosx=0, x≠0",
+          "options": [
+            "(2−x²)sinx−2xcosx=0, x≠0",
+            "((2−x²)sinx−2xcosx=0, x≠0) + 1",
+            "−((2−x²)sinx−2xcosx=0, x≠0)"
+          ],
+          "selectionPrompt": "Choose the correct Inflection-point equation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The second derivative is[(2−x²)sinx−2xcosx]/x³. At an inflection point, square2xcosx=(2−x²)sinx and use sin²+cos²=1 to obtain4x²=(x⁴+4)sin²x. Divide byx². The removable extension at0 has second derivative−1/3 and is not an inflection."
+        },
+        {
+          "type": "choice",
+          "label": "Resulting locus",
+          "answer": "y²(x⁴+4)=4",
+          "options": [
+            "(y²(x⁴+4)=4) + 1",
+            "y²(x⁴+4)=4",
+            "−(y²(x⁴+4)=4)"
+          ],
+          "selectionPrompt": "Choose the correct Resulting locus.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The second derivative is[(2−x²)sinx−2xcosx]/x³. At an inflection point, square2xcosx=(2−x²)sinx and use sin²+cos²=1 to obtain4x²=(x⁴+4)sin²x. Divide byx². The removable extension at0 has second derivative−1/3 and is not an inflection."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-6-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Point x",
+          "answer": 0.5773502691896257,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Atx=t>0 the tangent is y=1+t²−2tx. Positive intercepts give area(1+t²)²/(4t); its derivative has sign3t²−1 and both endpoint limits are infinite."
+        },
+        {
+          "type": "numeric",
+          "label": "Point y",
+          "answer": 0.6666666666666666,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Atx=t>0 the tangent is y=1+t²−2tx. Positive intercepts give area(1+t²)²/(4t); its derivative has sign3t²−1 and both endpoint limits are infinite."
+        },
+        {
+          "type": "numeric",
+          "label": "Minimum triangle area",
+          "answer": 0.769800358919501,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Atx=t>0 the tangent is y=1+t²−2tx. Positive intercepts give area(1+t²)²/(4t); its derivative has sign3t²−1 and both endpoint limits are infinite."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-7-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "a+b+c+d",
+          "answer": 24.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The linear term in the numerator must vanish for a finite two-sided limit. Withb+c+d=0, sine terms areO(x³), so the limit isa/3=8. Thusa=24 and the requested sum is24."
+        },
+        {
+          "type": "choice",
+          "label": "Necessary cancellation",
+          "answer": "b+c+d=0",
+          "options": [
+            "b+c+d=8",
+            "a=0",
+            "b+c+d=0"
+          ],
+          "selectionPrompt": "Choose the correct Necessary cancellation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The linear term in the numerator must vanish for a finite two-sided limit. Withb+c+d=0, sine terms areO(x³), so the limit isa/3=8. Thusa=24 and the requested sum is24."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-8-problems-plus-0": {
+    "grader": {
+      "type": "numeric",
+      "label": "Limit",
+      "answer": 0.6666666666666666,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Factorx^(1/x) out of numerator and denominator. The remaining differences are exp(log(1+2/x)/x)−1 and exp(log(1+3/x)/x)−1; their leading terms2/x² and3/x² give2/3.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-9-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Highest point x",
+          "answer": -2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Completing the square gives(x+y/2)²+3y²/4=12, so |y|≤4 with equality atx=−y/2."
+        },
+        {
+          "type": "numeric",
+          "label": "Highest point y",
+          "answer": 4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Completing the square gives(x+y/2)²+3y²/4=12, so |y|≤4 with equality atx=−y/2."
+        },
+        {
+          "type": "numeric",
+          "label": "Lowest point x",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Completing the square gives(x+y/2)²+3y²/4=12, so |y|≤4 with equality atx=−y/2."
+        },
+        {
+          "type": "numeric",
+          "label": "Lowest point y",
+          "answer": -4.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Completing the square gives(x+y/2)²+3y²/4=12, so |y|≤4 with equality atx=−y/2."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-10-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Region including boundary",
+          "answer": "−x−e^x≤y≤−x+e^x, for every real x",
+          "options": [
+            "y≥e^x−x",
+            "−e^x≤y≤e^x",
+            "−x−e^x≤y≤−x+e^x, for every real x"
+          ],
+          "selectionPrompt": "Choose the correct Region including boundary.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Resolve the absolute-value inequality into−e^x≤x+y≤e^x. Shade between the two graphs; their gap2e^x is always positive and tends to0 asx→−∞."
+        },
+        {
+          "type": "choice",
+          "label": "Left-hand asymptote of both boundary curves",
+          "answer": "y=−x",
+          "options": [
+            "x=0",
+            "y=−x",
+            "y=0"
+          ],
+          "selectionPrompt": "Choose the correct Left-hand asymptote of both boundary curves.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Resolve the absolute-value inequality into−e^x≤x+y≤e^x. Shade between the two graphs; their gap2e^x is always positive and tends to0 asx→−∞."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-11-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Second intersection Q",
+          "answer": "(−a−1/(2a),(a+1/(2a))²)",
+          "options": [
+            "((−a−1/(2a),(a+1/(2a))²)) + 1",
+            "(−a−1/(2a),(a+1/(2a))²)",
+            "−((−a−1/(2a),(a+1/(2a))²))"
+          ],
+          "selectionPrompt": "Choose the correct Second intersection Q.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Normal slope is−1/(2a). Factoring its intersection withy=x² gives second root−a−1/(2a). Its squared ordinate is minimized at a²=1/2; length=(4a²+1)^(3/2)/(4a²) has the same minimizing a². Include the symmetric negative solution because the text allows any nonzero a."
+        },
+        {
+          "type": "choice",
+          "label": "(a) minimizers for all nonzero real a",
+          "answer": "a=±1/√2; the pictured positive branch gives1/√2",
+          "options": [
+            "a=±1",
+            "a=±1/√2; the pictured positive branch gives1/√2",
+            "Only a=1/√2 when negative a is allowed"
+          ],
+          "selectionPrompt": "Choose the correct (a) minimizers for all nonzero real a.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Normal slope is−1/(2a). Factoring its intersection withy=x² gives second root−a−1/(2a). Its squared ordinate is minimized at a²=1/2; length=(4a²+1)^(3/2)/(4a²) has the same minimizing a². Include the symmetric negative solution because the text allows any nonzero a."
+        },
+        {
+          "type": "numeric",
+          "label": "(a) minimum y-coordinate of Q",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Normal slope is−1/(2a). Factoring its intersection withy=x² gives second root−a−1/(2a). Its squared ordinate is minimized at a²=1/2; length=(4a²+1)^(3/2)/(4a²) has the same minimizing a². Include the symmetric negative solution because the text allows any nonzero a."
+        },
+        {
+          "type": "choice",
+          "label": "(b) minimizers for all nonzero real a",
+          "answer": "a=±1/√2; the pictured positive branch gives1/√2",
+          "options": [
+            "a=±1/√2; the pictured positive branch gives1/√2",
+            "a=±1/2",
+            "a=±1"
+          ],
+          "selectionPrompt": "Choose the correct (b) minimizers for all nonzero real a.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Normal slope is−1/(2a). Factoring its intersection withy=x² gives second root−a−1/(2a). Its squared ordinate is minimized at a²=1/2; length=(4a²+1)^(3/2)/(4a²) has the same minimizing a². Include the symmetric negative solution because the text allows any nonzero a."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) shortest length",
+          "answer": 2.598076211353316,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Normal slope is−1/(2a). Factoring its intersection withy=x² gives second root−a−1/(2a). Its squared ordinate is minimized at a²=1/2; length=(4a²+1)^(3/2)/(4a²) has the same minimizing a². Include the symmetric negative solution because the text allows any nonzero a."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-12-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Parameter range with inflection points",
+          "answer": "c>0 or c<−e/6",
+          "options": [
+            "c>0 or c<−e/6",
+            "c≠0",
+            "c≥−e/6"
+          ],
+          "selectionPrompt": "Choose the correct Parameter range with inflection points.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "y″=6cx+e^x. Forc>0 it crosses once at negative x. Forc<0 positive zeros solve e^x/x=−6c; this ratio has minimum e atx=1. Equality is a double zero without a concavity change."
+        },
+        {
+          "type": "choice",
+          "label": "At c=−e/6",
+          "answer": "The second derivative vanishes at1 but does not change sign, so there is no inflection",
+          "options": [
+            "One inflection at1",
+            "Two inflections",
+            "The second derivative vanishes at1 but does not change sign, so there is no inflection"
+          ],
+          "selectionPrompt": "Choose the correct At c=−e/6.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "y″=6cx+e^x. Forc>0 it crosses once at negative x. Forc<0 positive zeros solve e^x/x=−6c; this ratio has minimum e atx=1. Equality is a double zero without a concavity change."
+        },
+        {
+          "type": "choice",
+          "label": "Number of inflections",
+          "answer": "One for c>0; two for c<−e/6; zero otherwise",
+          "options": [
+            "−(One for c>0; two for c<−e/6; zero otherwise)",
+            "(One for c>0; two for c<−e/6; zero otherwise) + 1",
+            "One for c>0; two for c<−e/6; zero otherwise"
+          ],
+          "selectionPrompt": "Choose the correct Number of inflections.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "y″=6cx+e^x. Forc>0 it crosses once at negative x. Forc<0 positive zeros solve e^x/x=−6c; this ratio has minimum e atx=1. Equality is a double zero without a concavity change."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-13-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Minimizing a",
+          "answer": 1.618033988749895,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The base is tangent at y=−1. The unit-radius tangent condition gives equal-side length a(a+1)/√(a²−1). Differentiating its logarithm gives1/a−1/(a²−1)=0, hence the golden ratio; both endpoint limits are infinite."
+        },
+        {
+          "type": "choice",
+          "label": "Equal-side length as a function of a",
+          "answer": "a√((a+1)/(a−1)), a>1",
+          "options": [
+            "a√((a+1)/(a−1)), a>1",
+            "−(a√((a+1)/(a−1)), a>1)",
+            "(a√((a+1)/(a−1)), a>1) + 1"
+          ],
+          "selectionPrompt": "Choose the correct Equal-side length as a function of a.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The base is tangent at y=−1. The unit-radius tangent condition gives equal-side length a(a+1)/√(a²−1). Differentiating its logarithm gives1/a−1/(a²−1)=0, hence the golden ratio; both endpoint limits are infinite."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-14-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Region in rotated coordinates u=x−y,v=x+y",
+          "answer": "max(0,2|u|−u²)≤v²≤u²+2|u|",
+          "options": [
+            "max(0,2|u|−u²)≤v²≤u²+2|u|",
+            "v²≤u² only",
+            "v²≥u²+2|u|"
+          ],
+          "selectionPrompt": "Choose the correct Region in rotated coordinates u=x−y,v=x+y.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use2xy=(v²−u²)/2 andx²+y²=(u²+v²)/2. Rearranging both inequalities gives the displayed exact description, sufficient to sketch symmetric lobes; it does not grade the drawing."
+        },
+        {
+          "type": "choice",
+          "label": "Boundary treatment",
+          "answer": "Include the boundaries, since both source inequalities are non-strict",
+          "options": [
+            "Include only the origin",
+            "Exclude every boundary",
+            "Include the boundaries, since both source inequalities are non-strict"
+          ],
+          "selectionPrompt": "Choose the correct Boundary treatment.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Use2xy=(v²−u²)/2 andx²+y²=(u²+v²)/2. Rearranging both inequalities gives the displayed exact description, sufficient to sketch symmetric lobes; it does not grade the drawing."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-15-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Maximizing P",
+          "answer": "(m/2,m²/4)",
+          "options": [
+            "(m/2,m²/4)",
+            "((m/2,m²/4)) + 1",
+            "−((m/2,m²/4))"
+          ],
+          "selectionPrompt": "Choose the correct Maximizing P.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "BaseAB is fixed, so maximize perpendicular distance from P=(t,t²) to the chord. This distance is(mt+b−t²)/√(1+m²), maximized at t=m/2, the midpoint of the intersection abscissas."
+        },
+        {
+          "type": "choice",
+          "label": "Condition for two distinct intersections",
+          "answer": "m²+4b>0",
+          "options": [
+            "m²+4b<0",
+            "m²+4b=0",
+            "m²+4b>0"
+          ],
+          "selectionPrompt": "Choose the correct Condition for two distinct intersections.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "BaseAB is fixed, so maximize perpendicular distance from P=(t,t²) to the chord. This distance is(mt+b−t²)/√(1+m²), maximized at t=m/2, the midpoint of the intersection abscissas."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-16-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Minimum triangle area",
+          "answer": 0.25,
+          "tolerance": 1e-07,
+          "unit": "m²",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Let e=AE,f=AF, each at most1. Reflection movesA a unit distance, so its distance from the crease is1/2:ef/√(e²+f²)=1/2. Thus4e²f²=e²+f². Minimize/maximizeef/2 under0<e,f≤1; equality e=f gives the minimum, an endpoint e=1 orf=1 the maximum."
+        },
+        {
+          "type": "numeric",
+          "label": "Maximum triangle area",
+          "answer": 0.28867513459481287,
+          "tolerance": 1e-07,
+          "unit": "m²",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Let e=AE,f=AF, each at most1. Reflection movesA a unit distance, so its distance from the crease is1/2:ef/√(e²+f²)=1/2. Thus4e²f²=e²+f². Minimize/maximizeef/2 under0<e,f≤1; equality e=f gives the minimum, an endpoint e=1 orf=1 the maximum."
+        },
+        {
+          "type": "choice",
+          "label": "Minimum crease intercepts",
+          "answer": "AE=AF=1/√2 m",
+          "options": [
+            "−(AE=AF=1/√2 m)",
+            "AE=AF=1/√2 m",
+            "(AE=AF=1/√2 m) + 1"
+          ],
+          "selectionPrompt": "Choose the correct Minimum crease intercepts.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Let e=AE,f=AF, each at most1. Reflection movesA a unit distance, so its distance from the crease is1/2:ef/√(e²+f²)=1/2. Thus4e²f²=e²+f². Minimize/maximizeef/2 under0<e,f≤1; equality e=f gives the minimum, an endpoint e=1 orf=1 the maximum."
+        },
+        {
+          "type": "choice",
+          "label": "Maximum crease intercepts",
+          "answer": "{AE,AF}={1,1/√3} m",
+          "options": [
+            "{AE,AF}={1,1/√3} m",
+            "−({AE,AF}={1,1/√3} m)",
+            "({AE,AF}={1,1/√3} m) + 1"
+          ],
+          "selectionPrompt": "Choose the correct Maximum crease intercepts.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Let e=AE,f=AF, each at most1. Reflection movesA a unit distance, so its distance from the crease is1/2:ef/√(e²+f²)=1/2. Thus4e²f²=e²+f². Minimize/maximizeef/2 under0<e,f≤1; equality e=f gives the minimum, an endpoint e=1 orf=1 the maximum."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-17-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "All positive a with an intersection",
+          "answer": "0<a≤e^(1/e)",
+          "options": [
+            "All a>0",
+            "a≥1 only",
+            "0<a≤e^(1/e)"
+          ],
+          "selectionPrompt": "Choose the correct All positive a with an intersection.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "An intersection hasx>0 and a=x^(1/x). This function increases from0 to its maximume^(1/e) atx=e, then decreases to1 from above."
+        },
+        {
+          "type": "choice",
+          "label": "Intersection counts",
+          "answer": "One for0<a≤1; two for1<a<e^(1/e); one tangent intersection at a=e^(1/e)",
+          "options": [
+            "One for0<a≤1; two for1<a<e^(1/e); one tangent intersection at a=e^(1/e)",
+            "−(One for0<a≤1; two for1<a<e^(1/e); one tangent intersection at a=e^(1/e))",
+            "(One for0<a≤1; two for1<a<e^(1/e); one tangent intersection at a=e^(1/e)) + 1"
+          ],
+          "selectionPrompt": "Choose the correct Intersection counts.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "An intersection hasx>0 and a=x^(1/x). This function increases from0 to its maximume^(1/e) atx=e, then decreases to1 from above."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-18-problems-plus-0": {
+    "grader": {
+      "type": "numeric",
+      "label": "a",
+      "answer": 0.5,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The logarithm of the limit islim x[ln(1+a/x)−ln(1−a/x)]=2a; e^(2a)=e givesa=1/2.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-19-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Key derivative",
+          "answer": "f′(0)=Σ[k=1..n] k a_k",
+          "options": [
+            "−(f′(0)=Σ[k=1..n] k a_k)",
+            "(f′(0)=Σ[k=1..n] k a_k) + 1",
+            "f′(0)=Σ[k=1..n] k a_k"
+          ],
+          "selectionPrompt": "Choose the correct Key derivative.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Since f(0)=0, divide |f(x)|≤|sinx| by|x| and pass to the limitx→0. The differentiable finite sine sum has derivativeΣk a_k at0."
+        },
+        {
+          "type": "choice",
+          "label": "Bound",
+          "answer": "|f′(0)|≤1",
+          "options": [
+            "−(|f′(0)|≤1)",
+            "|f′(0)|≤1",
+            "(|f′(0)|≤1) + 1"
+          ],
+          "selectionPrompt": "Choose the correct Bound.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Since f(0)=0, divide |f(x)|≤|sinx| by|x| and pass to the limitx→0. The differentiable finite sine sum has derivativeΣk a_k at0."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-20-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "A(θ) for radius r",
+          "answer": "r²(θ−sinθ)/2",
+          "options": [
+            "r²(θ−sinθ)/2",
+            "−(r²(θ−sinθ)/2)",
+            "(r²(θ−sinθ)/2) + 1"
+          ],
+          "selectionPrompt": "Choose the correct A(θ) for radius r.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract the central triangle from the sector forA, and subtract the sector from the two tangent triangles forB. Their leading small-angle terms arer²θ³/12 andr²θ³/24."
+        },
+        {
+          "type": "choice",
+          "label": "B(θ) for radius r",
+          "answer": "r²[tan(θ/2)−θ/2]",
+          "options": [
+            "−(r²[tan(θ/2)−θ/2])",
+            "r²[tan(θ/2)−θ/2]",
+            "(r²[tan(θ/2)−θ/2]) + 1"
+          ],
+          "selectionPrompt": "Choose the correct B(θ) for radius r.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract the central triangle from the sector forA, and subtract the sector from the two tangent triangles forB. Their leading small-angle terms arer²θ³/12 andr²θ³/24."
+        },
+        {
+          "type": "numeric",
+          "label": "Limit A/B",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Subtract the central triangle from the sector forA, and subtract the sector from the two tangent triangles forB. Their leading small-angle terms arer²θ³/12 andr²θ³/24."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-21-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) T₁",
+          "answer": "D/c₁",
+          "options": [
+            "−(D/c₁)",
+            "D/c₁",
+            "(D/c₁) + 1"
+          ],
+          "selectionPrompt": "Choose the correct (a) T₁.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Angleθ is measured from the vertical. DifferentiateT₂:2h sec²θ(sinθ/c₁−1/c₂). UseT₁=.26 andT₃=.34 to getc₁=50/13,h=√30/13. Settingu=c₁/c₂ inT₂=.32 yields289u²−416u+136=0; choose the smaller root to satisfyRS≥0."
+        },
+        {
+          "type": "choice",
+          "label": "(a) T₂",
+          "answer": "2h/(c₁cosθ)+(D−2h tanθ)/c₂",
+          "options": [
+            "−(2h/(c₁cosθ)+(D−2h tanθ)/c₂)",
+            "(2h/(c₁cosθ)+(D−2h tanθ)/c₂) + 1",
+            "2h/(c₁cosθ)+(D−2h tanθ)/c₂"
+          ],
+          "selectionPrompt": "Choose the correct (a) T₂.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Angleθ is measured from the vertical. DifferentiateT₂:2h sec²θ(sinθ/c₁−1/c₂). UseT₁=.26 andT₃=.34 to getc₁=50/13,h=√30/13. Settingu=c₁/c₂ inT₂=.32 yields289u²−416u+136=0; choose the smaller root to satisfyRS≥0."
+        },
+        {
+          "type": "choice",
+          "label": "(a) T₃",
+          "answer": "√(D²+4h²)/c₁",
+          "options": [
+            "√(D²+4h²)/c₁",
+            "−(√(D²+4h²)/c₁)",
+            "(√(D²+4h²)/c₁) + 1"
+          ],
+          "selectionPrompt": "Choose the correct (a) T₃.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Angleθ is measured from the vertical. DifferentiateT₂:2h sec²θ(sinθ/c₁−1/c₂). UseT₁=.26 andT₃=.34 to getc₁=50/13,h=√30/13. Settingu=c₁/c₂ inT₂=.32 yields289u²−416u+136=0; choose the smaller root to satisfyRS≥0."
+        },
+        {
+          "type": "choice",
+          "label": "(b) minimizing angle",
+          "answer": "sinθ=c₁/c₂, provided D−2h tanθ≥0",
+          "options": [
+            "sinθ=c₁/c₂, provided D−2h tanθ≥0",
+            "−(sinθ=c₁/c₂, provided D−2h tanθ≥0)",
+            "(sinθ=c₁/c₂, provided D−2h tanθ≥0) + 1"
+          ],
+          "selectionPrompt": "Choose the correct (b) minimizing angle.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Angleθ is measured from the vertical. DifferentiateT₂:2h sec²θ(sinθ/c₁−1/c₂). UseT₁=.26 andT₃=.34 to getc₁=50/13,h=√30/13. Settingu=c₁/c₂ inT₂=.32 yields289u²−416u+136=0; choose the smaller root to satisfyRS≥0."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) c₁",
+          "answer": 3.8461538461538463,
+          "tolerance": 0.0005,
+          "unit": "km/s",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Angleθ is measured from the vertical. DifferentiateT₂:2h sec²θ(sinθ/c₁−1/c₂). UseT₁=.26 andT₃=.34 to getc₁=50/13,h=√30/13. Settingu=c₁/c₂ inT₂=.32 yields289u²−416u+136=0; choose the smaller root to satisfyRS≥0."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) c₂",
+          "answer": 7.662005964089624,
+          "tolerance": 0.0005,
+          "unit": "km/s",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Angleθ is measured from the vertical. DifferentiateT₂:2h sec²θ(sinθ/c₁−1/c₂). UseT₁=.26 andT₃=.34 to getc₁=50/13,h=√30/13. Settingu=c₁/c₂ inT₂=.32 yields289u²−416u+136=0; choose the smaller root to satisfyRS≥0."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) h",
+          "answer": 0.42132504423474315,
+          "tolerance": 5e-05,
+          "unit": "km",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Angleθ is measured from the vertical. DifferentiateT₂:2h sec²θ(sinθ/c₁−1/c₂). UseT₁=.26 andT₃=.34 to getc₁=50/13,h=√30/13. Settingu=c₁/c₂ inT₂=.32 yields289u²−416u+136=0; choose the smaller root to satisfyRS≥0."
+        },
+        {
+          "type": "choice",
+          "label": "Admissibility of the second algebraic root",
+          "answer": "Reject it because it makes the lower-layer segment RS negative",
+          "options": [
+            "Accept both roots as physical paths",
+            "Reject it because it makes the lower-layer segment RS negative",
+            "Reject both roots"
+          ],
+          "selectionPrompt": "Choose the correct Admissibility of the second algebraic root.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Angleθ is measured from the vertical. DifferentiateT₂:2h sec²θ(sinθ/c₁−1/c₂). UseT₁=.26 andT₃=.34 to getc₁=50/13,h=√30/13. Settingu=c₁/c₂ inT₂=.32 yields289u²−416u+136=0; choose the smaller root to satisfyRS≥0."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 8,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-22-problems-plus-0": {
+    "grader": {
+      "type": "choice",
+      "label": "Parameter range",
+      "answer": "|c|>4√2",
+      "options": [
+        "|c|≥4√2",
+        "|c|>4√2",
+        "c≠0"
+      ],
+      "selectionPrompt": "Choose the correct Parameter range.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Four intersections imply, by repeated Rolle, two distinct zeros off″=12x²+6cx+24, requiringc²>32. Conversely shiftx by−c/4 and subtract a suitable line: the quartic becomesz⁴+(12−3c²/8)z²+constant, a double well when c²>32. A horizontal level between its minima and central maximum gives four distinct roots.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-23-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Height ED as a function of x",
+          "answer": "ℓ+√(r²−x²)−√(d²−2dx+r²)",
+          "options": [
+            "(ℓ+√(r²−x²)−√(d²−2dx+r²)) + 1",
+            "ℓ+√(r²−x²)−√(d²−2dx+r²)",
+            "−(ℓ+√(r²−x²)−√(d²−2dx+r²))"
+          ],
+          "selectionPrompt": "Choose the correct Height ED as a function of x.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The vertical rope remainder isℓ−BF, and EF=√(r²−x²). Differentiate the height; the stationary equation factors as(x−d)(2dx²−r²x−dr²)=0 after squaring. Since d>r, rejectx=d and the negative root. The positive root lies inside(0,r) and is the maximum."
+        },
+        {
+          "type": "choice",
+          "label": "Equilibrium x",
+          "answer": "r[r+√(r²+8d²)]/(4d)",
+          "options": [
+            "r[r+√(r²+8d²)]/(4d)",
+            "(r[r+√(r²+8d²)]/(4d)) + 1",
+            "−(r[r+√(r²+8d²)]/(4d))"
+          ],
+          "selectionPrompt": "Choose the correct Equilibrium x.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The vertical rope remainder isℓ−BF, and EF=√(r²−x²). Differentiate the height; the stationary equation factors as(x−d)(2dx²−r²x−dr²)=0 after squaring. Since d>r, rejectx=d and the negative root. The positive root lies inside(0,r) and is the maximum."
+        },
+        {
+          "type": "choice",
+          "label": "Parameters absent from maximizing x",
+          "answer": "W and ℓ",
+          "options": [
+            "Only r",
+            "d and r",
+            "W and ℓ"
+          ],
+          "selectionPrompt": "Choose the correct Parameters absent from maximizing x.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The vertical rope remainder isℓ−BF, and EF=√(r²−x²). Differentiate the height; the stationary equation factors as(x−d)(2dx²−r²x−dr²)=0 after squaring. Since d>r, rejectx=d and the negative root. The positive root lies inside(0,r) and is the maximum."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-24-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Square-pyramid minimizing height",
+          "answer": "h=4r",
+          "options": [
+            "−(h=4r)",
+            "(h=4r) + 1",
+            "h=4r"
+          ],
+          "selectionPrompt": "Choose the correct Square-pyramid minimizing height.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "A section through the apex and a side midpoint gives base apothem²=r²h/(h−2r). The base area isn·apothem²·tan(π/n). Differentiateh²/(h−2r), which has its unique minimum ath=4r."
+        },
+        {
+          "type": "choice",
+          "label": "Regular n-gon minimizing height",
+          "answer": "h=4r for every integer n≥3",
+          "options": [
+            "(h=4r for every integer n≥3) + 1",
+            "h=4r for every integer n≥3",
+            "−(h=4r for every integer n≥3)"
+          ],
+          "selectionPrompt": "Choose the correct Regular n-gon minimizing height.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "A section through the apex and a side midpoint gives base apothem²=r²h/(h−2r). The base area isn·apothem²·tan(π/n). Differentiateh²/(h−2r), which has its unique minimum ath=4r."
+        },
+        {
+          "type": "choice",
+          "label": "General volume as a function of h",
+          "answer": "V=nr²tan(π/n)h²/[3(h−2r)], h>2r",
+          "options": [
+            "(V=nr²tan(π/n)h²/[3(h−2r)], h>2r) + 1",
+            "−(V=nr²tan(π/n)h²/[3(h−2r)], h>2r)",
+            "V=nr²tan(π/n)h²/[3(h−2r)], h>2r"
+          ],
+          "selectionPrompt": "Choose the correct General volume as a function of h.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "A section through the apex and a side midpoint gives base apothem²=r²h/(h−2r). The base area isn·apothem²·tan(π/n). Differentiateh²/(h−2r), which has its unique minimum ath=4r."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-25-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Additional melting time",
+          "answer": 11.541966305589218,
+          "tolerance": 0.0005,
+          "unit": "hours",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "After3hours radius isR₀2^(−1/3), so the loss3k=R₀(1−2^(−1/3)). Remaining timeR₀2^(−1/3)/k=3/(2^(1/3)−1); this is additional, not total elapsed time."
+        },
+        {
+          "type": "choice",
+          "label": "Why radius shrinks linearly",
+          "answer": "4πR²R′=−k·4πR² impliesR′=−k",
+          "options": [
+            "4πR²R′=−k·4πR² impliesR′=−k",
+            "The volume is linear in time",
+            "The area is constant"
+          ],
+          "selectionPrompt": "Choose the correct Why radius shrinks linearly.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "After3hours radius isR₀2^(−1/3), so the loss3k=R₀(1−2^(−1/3)). Remaining timeR₀2^(−1/3)/k=3/(2^(1/3)−1); this is additional, not total elapsed time."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-chapter-04-problems-plus-26-problems-plus-0": {
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Maximum height for n chambers",
+          "answer": "1+√n",
+          "options": [
+            "−(1+√n)",
+            "1+√n",
+            "(1+√n) + 1"
+          ],
+          "selectionPrompt": "Choose the correct Maximum height for n chambers.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Base case n=1 has height2. Above the original center, the first chord plane rises√(1−r²); induction and scaling give top height r√(n−1) above that plane. Cauchy–Schwarz bounds their sum by√n, attained at r=√((n−1)/n). Add the unit distance from sphere bottom to center."
+        },
+        {
+          "type": "choice",
+          "label": "Inductive step with next radius r",
+          "answer": "1+max[0≤r≤1]{√(1−r²)+r√(n−1)}",
+          "options": [
+            "1+max[0≤r≤1]{√(1−r²)+r√(n−1)}",
+            "−(1+max[0≤r≤1]{√(1−r²)+r√(n−1)})",
+            "(1+max[0≤r≤1]{√(1−r²)+r√(n−1)}) + 1"
+          ],
+          "selectionPrompt": "Choose the correct Inductive step with next radius r.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Base case n=1 has height2. Above the original center, the first chord plane rises√(1−r²); induction and scaling give top height r√(n−1) above that plane. Cauchy–Schwarz bounds their sum by√n, attained at r=√((n−1)/n). Add the unit distance from sphere bottom to center."
+        },
+        {
+          "type": "choice",
+          "label": "Maximizing next radius",
+          "answer": "r=√((n−1)/n)",
+          "options": [
+            "(r=√((n−1)/n)) + 1",
+            "r=√((n−1)/n)",
+            "−(r=√((n−1)/n))"
+          ],
+          "selectionPrompt": "Choose the correct Maximizing next radius.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Base case n=1 has height2. Above the original center, the first chord plane rises√(1−r²); induction and scaling give top height r√(n−1) above that plane. Cauchy–Schwarz bounds their sum by√n, attained at r=√((n−1)/n). Add the unit distance from sphere bottom to center."
+        },
+        {
+          "type": "choice",
+          "label": "Equality construction radii",
+          "answer": "1,√((n−1)/n),√((n−2)/n),…,1/√n",
+          "options": [
+            "(1,√((n−1)/n),√((n−2)/n),…,1/√n) + 1",
+            "−(1,√((n−1)/n),√((n−2)/n),…,1/√n)",
+            "1,√((n−1)/n),√((n−2)/n),…,1/√n"
+          ],
+          "selectionPrompt": "Choose the correct Equality construction radii.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Base case n=1 has height2. Above the original center, the first chord plane rises√(1−r²); induction and scaling give top height r√(n−1) above that plane. Cauchy–Schwarz bounds their sum by√n, attained at r=√((n−1)/n). Add the unit distance from sphere bottom to center."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 3,
+    "objectiveFieldCount": 4,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  }
+}

@@ -1,3 +1,53 @@
+# Calculus answer checks: Chapters 1–8
+
+## Chapters 4–8 completion
+
+All **2,464** textbook question records in Chapters 4–8 have explicit answer checks, comprising **5,091** labeled fields. This includes 22 previously omitted §6.2 exercises reconstructed from the mathematical givens on printed page 446. All pre-existing source question records are preserved; only those 22 records were added.
+
+| Chapter | Questions | Fields |
+|---|---:|---:|
+| 4 | 785 | 2,377 |
+| 5 | 486 | 754 |
+| 6 | 307 | 511 |
+| 7 | 647 | 1,023 |
+| 8 | 239 | 426 |
+
+The actual practice pipeline checks all 4,246 questions in Chapters 1–8 and 8,598 fields. It verifies correct, incorrect, blank, and invalid inputs, including every choice distractor. The separate DOM test exercises real delegated radio/input/button events, individual part buttons, and saved-note migration. Outside Chapters 4–8, answer-library entries are compared structurally against the previous commit and must remain unchanged.
+
+### Assessment scope
+
+Every question has a check, but a selected mathematical conclusion does not grade a student's freehand graph, full proof, essay, or open-ended construction. Those contracts use `complete:false` and state their limits on screen. Answer-check coverage is not a claim that every question has a fully worked solution. Approximate graph readings have labeled tolerances. Source inconsistencies are disclosed rather than hidden: examples include Chapter 4 review #82's printed radical, Chapter 5 review #67's impossible global continuity premise, and §4.7 #82's unbounded-line interpretation.
+
+### Reproduction and evidence
+
+Each chapter directory contains original authoring scripts and source/mathematical audit records. Dependencies are development-only: SymPy, mpmath, NumPy/SciPy, and linkedom. None is shipped to the browser.
+
+- Chapter 4: nine `sectionNN.py` scripts, `problems-plus.py`, `review.py`, then `build.py`. Independent tests: `verify-independent.py`, `check-review.py`.
+- Chapter 5: `author.py` plus `review.py`; independent checks and inherited expansion audits are in its directory.
+- Chapter 6: `restore-source.py` restores only the 22 missing source records and creates an original coordinate diagram; `author.py` and `recovered-446.py` generate answer patches. The restored questions use original paraphrases, not a redistributed external textbook page.
+- Chapter 7: `author.py`; independently checked by `check-math.py`, `check-numerical.py`, and `check-legacy.py`. The legacy snapshot makes the audit reproducible after integration.
+- Chapter 8: `author.py`, independently checked by `check.py` (96 quadrature, geometry, moments, probability and limit regressions).
+
+After regenerating any affected bounded patches:
+
+```sh
+python3 scripts/calculus-answer-checks/build.py --require-complete
+node scripts/calculus-answer-checks/check-runtime.cjs
+NODE_PATH=/tmp/glasshouse-ui-checks/node_modules node scripts/calculus-answer-checks/check-dom.cjs
+python3 tools/verify_export.py --refresh
+python3 tools/verify_export.py
+```
+
+Browser QA confirms a Chapter 8 multipart answer and a restored Chapter 6 question, including exact `pi/3` input, a loaded reconstructed diagram, and no horizontal overflow in a 390px phone iframe (375px content width).
+
+Original exercise images remain the reference for supplied questions. Mathematical verification is distinct from sending an expected answer through its checker. The source data and independently derived answers were reviewed before runtime tests.
+
+No recurring task is enabled. Publishing uses the existing GitHub Pages workflow and custom domain.
+
+---
+
+## Historical Chapters 1–3 baseline
+
 # Calculus Chapters 1–3 answer checks
 
 This source update targets every existing textbook exercise ID in Chapters1–3:

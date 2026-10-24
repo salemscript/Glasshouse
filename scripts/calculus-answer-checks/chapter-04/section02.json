@@ -1,0 +1,1538 @@
+{
+  "calculus-section-4-2-1": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Hypotheses",
+          "answer": "Continuous on[0,8], differentiable on(0,8), equal endpoint values",
+          "options": [
+            "Continuous on[0,8], differentiable on(0,8), equal endpoint values",
+            "Only equal endpoint values are needed",
+            "Differentiability at endpoints is required"
+          ],
+          "selectionPrompt": "Choose the correct Hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The smooth drawn curve has equal endpoint heights and horizontal tangents at the local minimum and maximum."
+        },
+        {
+          "type": "numeric",
+          "label": "First graph estimate c",
+          "answer": 1.0,
+          "tolerance": 0.15,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The smooth drawn curve has equal endpoint heights and horizontal tangents at the local minimum and maximum."
+        },
+        {
+          "type": "numeric",
+          "label": "Second graph estimate c",
+          "answer": 5.0,
+          "tolerance": 0.2,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The smooth drawn curve has equal endpoint heights and horizontal tangents at the local minimum and maximum."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-2": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "One valid example",
+          "answer": "f(x)=|x−4|−1 on[0,8]",
+          "options": [
+            "f(x)=|x−4|−1 on[0,8]",
+            "f(x)=(x−4)²−13 on[0,8]",
+            "f(x)=3 on[0,8]"
+          ],
+          "selectionPrompt": "Choose the correct One valid example.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The V-shape has endpoint values3 and slopes±1, with no zero derivative; its corner violates differentiability."
+        },
+        {
+          "type": "choice",
+          "label": "Missing Rolle hypothesis",
+          "answer": "Differentiability at x=4",
+          "options": [
+            "Continuity",
+            "Endpoint equality",
+            "Differentiability at x=4"
+          ],
+          "selectionPrompt": "Choose the correct Missing Rolle hypothesis.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The V-shape has endpoint values3 and slopes±1, with no zero derivative; its corner violates differentiability."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-3": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "(a) hypotheses",
+          "answer": "Continuous on[0,8] and differentiable on(0,8)",
+          "options": [
+            "Equal endpoints are required",
+            "Only differentiable at endpoints",
+            "Continuous on[0,8] and differentiable on(0,8)"
+          ],
+          "selectionPrompt": "Choose the correct (a) hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Match tangent slopes to the relevant secant. The[0,8] secant has slope3/8; the[2,6] secant has negative slope. These are approximate source-graph readings."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) first c estimate",
+          "answer": 2.0,
+          "tolerance": 0.5,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Match tangent slopes to the relevant secant. The[0,8] secant has slope3/8; the[2,6] secant has negative slope. These are approximate source-graph readings."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) second c estimate",
+          "answer": 6.5,
+          "tolerance": 0.4,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Match tangent slopes to the relevant secant. The[0,8] secant has slope3/8; the[2,6] secant has negative slope. These are approximate source-graph readings."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) first c estimate",
+          "answer": 3.6,
+          "tolerance": 0.5,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Match tangent slopes to the relevant secant. The[0,8] secant has slope3/8; the[2,6] secant has negative slope. These are approximate source-graph readings."
+        },
+        {
+          "type": "numeric",
+          "label": "(c) second c estimate",
+          "answer": 5.5,
+          "tolerance": 0.4,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Match tangent slopes to the relevant secant. The[0,8] secant has slope3/8; the[2,6] secant has negative slope. These are approximate source-graph readings."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-4": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "One valid continuous example",
+          "answer": "f(x)=1 for0≤x≤4; f(x)=1+3(x−4)/4 for4≤x≤8",
+          "options": [
+            "f(x)=1 for0≤x≤4; f(x)=1+3(x−4)/4 for4≤x≤8",
+            "f(x)=1+3x/8",
+            "f(x)=1+x²/16"
+          ],
+          "selectionPrompt": "Choose the correct One valid continuous example.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The piecewise-linear example meets the endpoint values but has a corner in the interior."
+        },
+        {
+          "type": "choice",
+          "label": "Why MVT conclusion fails",
+          "answer": "Derivative is0 or3/4, never3/8, and is undefined at4",
+          "options": [
+            "Derivative is0 or3/4, never3/8, and is undefined at4",
+            "The endpoints are equal",
+            "Every secant slope is0"
+          ],
+          "selectionPrompt": "Choose the correct Why MVT conclusion fails.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The piecewise-linear example meets the endpoint values but has a corner in the interior."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-5": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior; equal endpoint values",
+          "options": [
+            "Only defined at the endpoints",
+            "Continuous on the closed interval and differentiable in its interior; equal endpoint values",
+            "Only continuous in the interior"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-6": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior; equal endpoint values",
+          "options": [
+            "Continuous on the closed interval and differentiable in its interior; equal endpoint values",
+            "Only defined at the endpoints",
+            "Only continuous in the interior"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c",
+          "answer": -0.6666666666666666,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-7": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior; equal endpoint values",
+          "options": [
+            "Only continuous in the interior",
+            "Only defined at the endpoints",
+            "Continuous on the closed interval and differentiable in its interior; equal endpoint values"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c",
+          "answer": 3.141592653589793,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-8": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior; equal endpoint values",
+          "options": [
+            "Only continuous in the interior",
+            "Only defined at the endpoints",
+            "Continuous on the closed interval and differentiable in its interior; equal endpoint values"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-11": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior",
+          "options": [
+            "Continuous on the closed interval and differentiable in its interior",
+            "Only defined at the endpoints",
+            "Only continuous in the interior"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-12": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior",
+          "options": [
+            "Only defined at the endpoints",
+            "Only continuous in the interior",
+            "Continuous on the closed interval and differentiable in its interior"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c 1",
+          "answer": -1.1547005383792515,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c 2",
+          "answer": 1.1547005383792515,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-13": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior",
+          "options": [
+            "Continuous on the closed interval and differentiable in its interior",
+            "Only continuous in the interior",
+            "Only defined at the endpoints"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c",
+          "answer": 2.1640425613334453,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-14": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior",
+          "options": [
+            "Only defined at the endpoints",
+            "Only continuous in the interior",
+            "Continuous on the closed interval and differentiable in its interior"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c",
+          "answer": 1.7320508075688772,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-15": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior",
+          "options": [
+            "Continuous on the closed interval and differentiable in its interior",
+            "Only defined at the endpoints",
+            "Only continuous in the interior"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "choice",
+          "label": "Secant line y",
+          "answer": "x/2",
+          "options": [
+            "3·x/2",
+            "x/2",
+            "3·x/2 + 1"
+          ],
+          "selectionPrompt": "Choose the correct Secant line y.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line y",
+          "answer": "x/2 + 1/2",
+          "options": [
+            "3·x/2 + 3/2",
+            "x/2 + 1/2",
+            "3·x/2 + 1/2"
+          ],
+          "selectionPrompt": "Choose the correct Tangent line y.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "choice",
+          "label": "Parallel?",
+          "answer": "Yes: equal slopes",
+          "options": [
+            "No: distinct slopes",
+            "Yes: equal slopes"
+          ],
+          "selectionPrompt": "Choose the correct Parallel?.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-16": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Applicable hypotheses",
+          "answer": "Continuous on the closed interval and differentiable in its interior",
+          "options": [
+            "Continuous on the closed interval and differentiable in its interior",
+            "Only continuous in the interior",
+            "Only defined at the endpoints"
+          ],
+          "selectionPrompt": "Choose the correct Applicable hypotheses.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "numeric",
+          "label": "c",
+          "answer": 0.8385606384288044,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "choice",
+          "label": "Secant line y",
+          "answer": "x·(1 - exp(2))·exp(-2)/2 + 1",
+          "options": [
+            "x·(1 - exp(2))·exp(-2)/2 + 1",
+            "x·(1 - exp(2))·exp(-2)/2 + x + 2",
+            "x·(1 - exp(2))·exp(-2)/2 + x + 1"
+          ],
+          "selectionPrompt": "Choose the correct Secant line y.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "choice",
+          "label": "Tangent line y",
+          "answer": "(1 - exp(2))·(x - ln(2/(1 - exp(-2))))·exp(-2)/2 - exp(-2)/2 + 1/2",
+          "options": [
+            "x + (1 - exp(2))·(x - ln(2/(1 - exp(-2))))·exp(-2)/2 - exp(-2)/2 + 1/2",
+            "x + (1 - exp(2))·(x - ln(2/(1 - exp(-2))))·exp(-2)/2 - exp(-2)/2 + 3/2",
+            "(1 - exp(2))·(x - ln(2/(1 - exp(-2))))·exp(-2)/2 - exp(-2)/2 + 1/2"
+          ],
+          "selectionPrompt": "Choose the correct Tangent line y.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        },
+        {
+          "type": "choice",
+          "label": "Parallel?",
+          "answer": "Yes: equal slopes",
+          "options": [
+            "Yes: equal slopes",
+            "No: distinct slopes"
+          ],
+          "selectionPrompt": "Choose the correct Parallel?.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Verify continuity and interior differentiability on the given domain. Solve f′(c)=[f(b)−f(a)]/(b−a), retaining only c in(a,b)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 5,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-9": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Common endpoint value",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The real x^(2/3) has a cusp at0; Rolle requires differentiability at every interior point."
+        },
+        {
+          "type": "choice",
+          "label": "Derivative away from0",
+          "answer": "−2/(3∛x), never zero",
+          "options": [
+            "0 everywhere",
+            "−2/(3∛x), never zero",
+            "2x, zero at0"
+          ],
+          "selectionPrompt": "Choose the correct Derivative away from0.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The real x^(2/3) has a cusp at0; Rolle requires differentiability at every interior point."
+        },
+        {
+          "type": "choice",
+          "label": "Failed hypothesis",
+          "answer": "Not differentiable at0",
+          "options": [
+            "Not differentiable at0",
+            "Endpoints unequal",
+            "Not continuous at0"
+          ],
+          "selectionPrompt": "Choose the correct Failed hypothesis.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The real x^(2/3) has a cusp at0; Rolle requires differentiability at every interior point."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-10": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Common endpoint value",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The interior pole violates continuity on[0,π] and differentiability throughout(0,π)."
+        },
+        {
+          "type": "choice",
+          "label": "Derivative",
+          "answer": "sec²x>0 where defined",
+          "options": [
+            "cosx",
+            "sec²x>0 where defined",
+            "0 everywhere"
+          ],
+          "selectionPrompt": "Choose the correct Derivative.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The interior pole violates continuity on[0,π] and differentiability throughout(0,π)."
+        },
+        {
+          "type": "choice",
+          "label": "Failed hypothesis",
+          "answer": "tanx is undefined atπ/2 inside the interval",
+          "options": [
+            "Endpoint values differ",
+            "tanx is undefined atπ/2 inside the interval",
+            "tanx is not differentiable at0"
+          ],
+          "selectionPrompt": "Choose the correct Failed hypothesis.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The interior pole violates continuity on[0,π] and differentiability throughout(0,π)."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-17": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "MVT candidate",
+          "answer": "c=1, excluded from(1,4)",
+          "options": [
+            "c=3",
+            "c=1, excluded from(1,4)",
+            "c=2"
+          ],
+          "selectionPrompt": "Choose the correct MVT candidate.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The secant slope is1/4;−2/(c−3)³=1/4 gives c=1, not an interior point."
+        },
+        {
+          "type": "choice",
+          "label": "Failed hypothesis",
+          "answer": "The pole at3 prevents continuity on[1,4]",
+          "options": [
+            "The function is constant",
+            "The endpoint values are equal",
+            "The pole at3 prevents continuity on[1,4]"
+          ],
+          "selectionPrompt": "Choose the correct Failed hypothesis.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The secant slope is1/4;−2/(c−3)³=1/4 gives c=1, not an interior point."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-18": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Secant slope",
+          "answer": -1.3333333333333333,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "f(0)=1 and f(3)=−3; the corner prevents the MVT hypothesis."
+        },
+        {
+          "type": "choice",
+          "label": "Available derivative values",
+          "answer": "2 or−2, undefined at1/2",
+          "options": [
+            "2 or−2, undefined at1/2",
+            "−4/3 everywhere",
+            "0 or1"
+          ],
+          "selectionPrompt": "Choose the correct Available derivative values.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "f(0)=1 and f(3)=−3; the corner prevents the MVT hypothesis."
+        },
+        {
+          "type": "choice",
+          "label": "Failed hypothesis",
+          "answer": "Not differentiable at1/2",
+          "options": [
+            "Not continuous on[0,3]",
+            "Not differentiable at1/2",
+            "No endpoint values"
+          ],
+          "selectionPrompt": "Choose the correct Failed hypothesis.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "f(0)=1 and f(3)=−3; the corner prevents the MVT hypothesis."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-19": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Existence and uniqueness",
+      "answer": "Opposite signs at−1 and0; f′=2−sinx≥1>0",
+      "options": [
+        "Opposite signs at−1 and0; f′=2−sinx≥1>0",
+        "Both endpoints have the same sign, so no root",
+        "f′ changes sign repeatedly"
+      ],
+      "selectionPrompt": "Choose the correct Existence and uniqueness.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "The IVT gives a root and strict increase excludes two distinct roots.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-20": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Existence and uniqueness",
+      "answer": "Opposite signs at−1 and0; f′=3x²+e^x>0",
+      "options": [
+        "Opposite signs at−1 and0; f′=3x²+e^x>0",
+        "There are three roots because the polynomial is cubic",
+        "The derivative vanishes everywhere"
+      ],
+      "selectionPrompt": "Choose the correct Existence and uniqueness.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Continuity supplies existence; a positive derivative supplies strict increase and uniqueness.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-21": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Derivative on[−2,2]",
+          "answer": "3x²−15≤−3<0",
+          "options": [
+            "3x²−15>0",
+            "3x²−15=0",
+            "3x²−15≤−3<0"
+          ],
+          "selectionPrompt": "Choose the correct Derivative on[−2,2].",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Strict decrease prevents two zeros; alternatively Rolle would force a zero derivative in the interval."
+        },
+        {
+          "type": "choice",
+          "label": "Maximum possible root count",
+          "answer": "1",
+          "options": [
+            "0",
+            "1",
+            "2"
+          ],
+          "selectionPrompt": "Choose the correct Maximum possible root count.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Strict decrease prevents two zeros; alternatively Rolle would force a zero derivative in the interval."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-22": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Key derivative fact",
+          "answer": "4x³+4 has exactly one real zero, x=−1",
+          "options": [
+            "4x³+4 has exactly one real zero, x=−1",
+            "4x³+4 has three real zeros",
+            "The derivative is constant"
+          ],
+          "selectionPrompt": "Choose the correct Key derivative fact.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Three roots of f would give at least two distinct roots of f′ by Rolle, which is impossible."
+        },
+        {
+          "type": "numeric",
+          "label": "Maximum real-root count",
+          "answer": 2.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Three roots of f would give at least two distinct roots of f′ by Rolle, which is impossible."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-23": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) cubic maximum real-root count",
+          "answer": 3.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Repeated Rolle or induction bounds distinct real zeros of a nonzero polynomial."
+        },
+        {
+          "type": "choice",
+          "label": "(b) general bound",
+          "answer": "At most n distinct real roots for degree n",
+          "options": [
+            "At most n−1 real roots",
+            "At least n real roots",
+            "At most n distinct real roots for degree n"
+          ],
+          "selectionPrompt": "Choose the correct (b) general bound.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Repeated Rolle or induction bounds distinct real zeros of a nonzero polynomial."
+        },
+        {
+          "type": "choice",
+          "label": "Proof mechanism",
+          "answer": "Rolle reduces n+1 distinct zeros to n derivative zeros; induction contradicts degree n−1",
+          "options": [
+            "Every polynomial is increasing",
+            "All roots are positive",
+            "Rolle reduces n+1 distinct zeros to n derivative zeros; induction contradicts degree n−1"
+          ],
+          "selectionPrompt": "Choose the correct Proof mechanism.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Repeated Rolle or induction bounds distinct real zeros of a nonzero polynomial."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-24": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "(a) minimum guaranteed roots of f′",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply Rolle between consecutive zeros at each derivative level."
+        },
+        {
+          "type": "numeric",
+          "label": "(b) minimum guaranteed roots of f″",
+          "answer": 1.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply Rolle between consecutive zeros at each derivative level."
+        },
+        {
+          "type": "choice",
+          "label": "(c) generalization",
+          "answer": "n+1 distinct roots and n derivatives imply at least one root of f⁽ⁿ⁾",
+          "options": [
+            "n roots imply n roots of every derivative",
+            "n+1 distinct roots and n derivatives imply at least one root of f⁽ⁿ⁾",
+            "One root implies every derivative has a root"
+          ],
+          "selectionPrompt": "Choose the correct (c) generalization.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Apply Rolle between consecutive zeros at each derivative level."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-25": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "numeric",
+      "label": "Smallest f(4)",
+      "answer": 16.0,
+      "tolerance": 1e-07,
+      "unit": "",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "MVT gives f(4)−10=3f′(c)≥6; f(x)=2x+8 achieves equality.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-26": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Lower bound",
+          "answer": 18.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Multiply3≤f′(c)≤5 by the interval length6."
+        },
+        {
+          "type": "numeric",
+          "label": "Upper bound",
+          "answer": 30.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Multiply3≤f′(c)≤5 by the interval length6."
+        },
+        {
+          "type": "choice",
+          "label": "MVT relation",
+          "answer": "f(8)−f(2)=6f′(c), c∈(2,8)",
+          "options": [
+            "f(8)−f(2)=6f′(c), c∈(2,8)",
+            "f(8)−f(2)=f′(c)/6",
+            "f(8)−f(2)=8f′(c)"
+          ],
+          "selectionPrompt": "Choose the correct MVT relation.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Multiply3≤f′(c)≤5 by the interval length6."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-27": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Does such f exist?",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "selectionPrompt": "Choose the correct Does such f exist?.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The MVT would require a derivative(4−(−1))/2=2.5, contradicting f′≤2."
+        },
+        {
+          "type": "numeric",
+          "label": "Required average derivative",
+          "answer": 2.5,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The MVT would require a derivative(4−(−1))/2=2.5, contradicting f′≤2."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-28": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "For h=f−g",
+      "answer": "h(a)=0 and h′<0, hence h(b)<0",
+      "options": [
+        "h′>0, hence h(b)>0",
+        "h(a)=0 and h′<0, hence h(b)<0",
+        "h is constant"
+      ],
+      "selectionPrompt": "Choose the correct For h=f−g.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "MVT gives h(b)−h(a)=(b−a)h′(c)<0, so f(b)<g(b).",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-29": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "MVT comparison",
+      "answer": "sinx=x cosc with0<c<x<2π, so cosc<1 and sinx<x",
+      "options": [
+        "sinx=x cosc with0<c<x<2π, so cosc<1 and sinx<x",
+        "cosc>1 implies sinx<x",
+        "sinx=x for everyx"
+      ],
+      "selectionPrompt": "Choose the correct MVT comparison.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Apply MVT to sin on[0,x]. Forc strictly between0 and2π, cosc<1.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-30": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Secant slope on[−b,b]",
+      "answer": "[f(b)−f(−b)]/(2b)=f(b)/b",
+      "options": [
+        "[f(b)−f(−b)]/(2b)=0",
+        "[f(b)−f(−b)]/(2b)=2f(b)/b",
+        "[f(b)−f(−b)]/(2b)=f(b)/b"
+      ],
+      "selectionPrompt": "Choose the correct Secant slope on[−b,b].",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Oddness gives f(−b)=−f(b), and MVT realizes this secant slope at an interior derivative.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-31": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "MVT identity",
+          "answer": "sin a−sin b=cos c·(a−b)",
+          "options": [
+            "sin a−sin b=cos c/(a−b)",
+            "sin a−sin b=sin c·(a−b)",
+            "sin a−sin b=cos c·(a−b)"
+          ],
+          "selectionPrompt": "Choose the correct MVT identity.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For a≠b apply MVT on the interval between them; taking absolute values gives the claim. For a=b both sides vanish."
+        },
+        {
+          "type": "choice",
+          "label": "Bounding fact",
+          "answer": "|cos c|≤1",
+          "options": [
+            "|cos c|≥1",
+            "|cos c|≤1",
+            "cos c=0"
+          ],
+          "selectionPrompt": "Choose the correct Bounding fact.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "For a≠b apply MVT on the interval between them; taking absolute values gives the claim. For a=b both sides vanish."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-32": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Comparison function",
+      "answer": "g(x)=cx has g′=c, so f−g=d is constant",
+      "options": [
+        "g(x)=c has g′=c",
+        "g(x)=cx² has g′=c",
+        "g(x)=cx has g′=c, so f−g=d is constant"
+      ],
+      "selectionPrompt": "Choose the correct Comparison function.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Equal derivatives onℝ imply a constant difference; therefore f=cx+d.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-33": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Common derivative",
+          "answer": "−1/x² forx≠0",
+          "options": [
+            "−1/x",
+            "1/x²",
+            "−1/x² forx≠0"
+          ],
+          "selectionPrompt": "Choose the correct Common derivative.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The additive constant can differ on the two components separated by0."
+        },
+        {
+          "type": "choice",
+          "label": "Difference f−g",
+          "answer": "0 forx>0 and−1 forx<0",
+          "options": [
+            "0 for everyx≠0",
+            "0 forx>0 and−1 forx<0",
+            "−1 for everyx≠0"
+          ],
+          "selectionPrompt": "Choose the correct Difference f−g.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The additive constant can differ on the two components separated by0."
+        },
+        {
+          "type": "choice",
+          "label": "Why no global constant follows",
+          "answer": "The domain is disconnected; apply the corollary separately on each interval",
+          "options": [
+            "The domain is disconnected; apply the corollary separately on each interval",
+            "The functions are undefined everywhere",
+            "The derivatives differ"
+          ],
+          "selectionPrompt": "Choose the correct Why no global constant follows.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The additive constant can differ on the two components separated by0."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof."
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-34": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Real domain of the identity",
+          "answer": "0≤x≤1",
+          "options": [
+            "0≤x≤1",
+            "All realx",
+            "All x≥0"
+          ],
+          "selectionPrompt": "Choose the correct Real domain of the identity.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Differentiate both sides on(0,1); the chain factor and √(4x²(1−x²)) simplify because x>0. Continuity extends equality to endpoints."
+        },
+        {
+          "type": "choice",
+          "label": "Common derivative on(0,1)",
+          "answer": "2/√(1−x²)",
+          "options": [
+            "−2/√(1−x²)",
+            "2/√(1−x²)",
+            "1/√(1−x²)"
+          ],
+          "selectionPrompt": "Choose the correct Common derivative on(0,1).",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Differentiate both sides on(0,1); the chain factor and √(4x²(1−x²)) simplify because x>0. Continuity extends equality to endpoints."
+        },
+        {
+          "type": "numeric",
+          "label": "Difference atx=0",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Differentiate both sides on(0,1); the chain factor and √(4x²(1−x²)) simplify because x>0. Continuity extends equality to endpoints."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-35": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Real domain",
+          "answer": "x≥0",
+          "options": [
+            "x≥0",
+            "x>−1",
+            "All realx"
+          ],
+          "selectionPrompt": "Choose the correct Real domain.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The arcsine argument lies in[−1,1] precisely forx≥0; differentiate and fix the constant at1, then extend to0 by continuity."
+        },
+        {
+          "type": "choice",
+          "label": "Common derivative forx>0",
+          "answer": "1/[√x(1+x)]",
+          "options": [
+            "1/[√x(1+x)]",
+            "2/(1+x)",
+            "1/(1+x²)"
+          ],
+          "selectionPrompt": "Choose the correct Common derivative forx>0.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The arcsine argument lies in[−1,1] precisely forx≥0; differentiate and fix the constant at1, then extend to0 by continuity."
+        },
+        {
+          "type": "numeric",
+          "label": "Both sides atx=1",
+          "answer": 0.0,
+          "tolerance": 1e-07,
+          "unit": "",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The arcsine argument lies in[−1,1] precisely forx≥0; differentiate and fix the constant at1, then extend to0 by continuity."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 3,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-36": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "numeric",
+          "label": "Acceleration attained",
+          "answer": 120.0,
+          "tolerance": 1e-07,
+          "unit": "mi/h²",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The average acceleration is(50−30)/(1/6)=120mi/h². MVT guarantees an interior time under the stated regularity."
+        },
+        {
+          "type": "choice",
+          "label": "Required regularity",
+          "answer": "Velocity continuous on the10-minute interval and differentiable inside",
+          "options": [
+            "Acceleration must be constant",
+            "Velocity continuous on the10-minute interval and differentiable inside",
+            "Only two speedometer readings with no continuity"
+          ],
+          "selectionPrompt": "Choose the correct Required regularity.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "The average acceleration is(50−30)/(1/6)=120mi/h². MVT guarantees an interior time under the stated regularity."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-37": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "parts",
+      "parts": [
+        {
+          "type": "choice",
+          "label": "Rolle function",
+          "answer": "h(t)=position₁(t)−position₂(t), with h(start)=h(finish)=0",
+          "options": [
+            "h(t)=speed₁(t)+speed₂(t)",
+            "h(t)=position₁(t)−position₂(t), with h(start)=h(finish)=0",
+            "h(t)=position₁(t)·position₂(t)"
+          ],
+          "selectionPrompt": "Choose the correct Rolle function.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Assume continuous positions and differentiable motion; Rolle on their position difference gives equal velocities at an intermediate time."
+        },
+        {
+          "type": "choice",
+          "label": "Conclusion",
+          "answer": "h′(c)=0, so their instantaneous speeds/forward velocities agree",
+          "options": [
+            "Their speeds agree for the entire race",
+            "h′(c)=0, so their instantaneous speeds/forward velocities agree",
+            "Both runners stop at the same time"
+          ],
+          "selectionPrompt": "Choose the correct Conclusion.",
+          "provenance": "source-inspected-original-answer-contract",
+          "explanation": "Assume continuous positions and differentiable motion; Rolle on their position difference gives equal velocities at an intermediate time."
+        }
+      ],
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 2,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  },
+  "calculus-section-4-2-38": {
+    "nativePrompt": null,
+    "grader": {
+      "type": "choice",
+      "label": "Contradiction from two fixed points",
+      "answer": "g(x)=f(x)−x would have two zeros, so g′(c)=f′(c)−1=0",
+      "options": [
+        "Every function has infinitely many fixed points",
+        "g(x)=f(x)−x would have two zeros, so g′(c)=f′(c)−1=0",
+        "f must be constant"
+      ],
+      "selectionPrompt": "Choose the correct Contradiction from two fixed points.",
+      "provenance": "source-inspected-original-answer-contract",
+      "explanation": "Differentiability and Rolle would force f′(c)=1, contradicting the hypothesis.",
+      "scope": "Checks the requested numerical results and mathematical selections. A selection does not assess a freehand graph or written proof.",
+      "complete": false
+    },
+    "responsePartPrompt": "Use the original textbook question above. Enter each labeled numerical result or select its mathematical answer. Graph/proof selections check conclusions, not the drawing or full reasoning.",
+    "objectiveChecksVerified": true,
+    "objectiveCheckVersion": 2,
+    "objectiveFieldCount": 1,
+    "answerCheckSource": "Stewart Calculus: Early Transcendentals, 8th edition, supplied Chapter 4 source; original independently checked answer contract."
+  }
+}

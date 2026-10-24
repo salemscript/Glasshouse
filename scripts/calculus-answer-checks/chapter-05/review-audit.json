@@ -1,0 +1,229 @@
+{
+  "total": 100,
+  "fields": 127,
+  "sourceSHA256": "d3691100f4309b0cd226cd4a03a8a18ac3bd081c1daae2f87de59e580265c890",
+  "reviewedPrintedPages": [
+    421,
+    422,
+    423,
+    424
+  ],
+  "independentCases": [
+    {
+      "kind": "definite",
+      "number": 11,
+      "integrand": "8*x^3 + 3*x^2",
+      "variable": "x",
+      "lower": "1",
+      "upper": "2",
+      "expected": "37"
+    },
+    {
+      "kind": "definite",
+      "number": 13,
+      "integrand": "1 - x^9",
+      "variable": "x",
+      "lower": "0",
+      "upper": "1",
+      "expected": "9/10"
+    },
+    {
+      "kind": "definite",
+      "number": 14,
+      "integrand": "(1 - x)^9",
+      "variable": "x",
+      "lower": "0",
+      "upper": "1",
+      "expected": "1/10"
+    },
+    {
+      "kind": "definite",
+      "number": 15,
+      "integrand": "(sqrt(u) - 2*u^2)/u",
+      "variable": "u",
+      "lower": "1",
+      "upper": "9",
+      "expected": "-76"
+    },
+    {
+      "kind": "definite",
+      "number": 16,
+      "integrand": "(u^(1/4) + 1)^2",
+      "variable": "u",
+      "lower": "0",
+      "upper": "1",
+      "expected": "49/15"
+    },
+    {
+      "kind": "definite",
+      "number": 17,
+      "integrand": "x*(x^2 + 1)^5",
+      "variable": "x",
+      "lower": "0",
+      "upper": "1",
+      "expected": "21/4"
+    },
+    {
+      "kind": "definite",
+      "number": 18,
+      "integrand": "x^2*sqrt(x^3 + 1)",
+      "variable": "x",
+      "lower": "0",
+      "upper": "2",
+      "expected": "52/9"
+    },
+    {
+      "kind": "definite",
+      "number": 20,
+      "integrand": "sin(3*pi*t)",
+      "variable": "t",
+      "lower": "0",
+      "upper": "1",
+      "expected": "2/(3*pi)"
+    },
+    {
+      "kind": "definite",
+      "number": 21,
+      "integrand": "x^2*cos(x^3)",
+      "variable": "x",
+      "lower": "0",
+      "upper": "1",
+      "expected": "sin(1)/3"
+    },
+    {
+      "kind": "definite",
+      "number": 22,
+      "integrand": "sin(x)/(x^2 + 1)",
+      "variable": "x",
+      "lower": "-1",
+      "upper": "1",
+      "expected": "0"
+    },
+    {
+      "kind": "definite",
+      "number": 23,
+      "integrand": "t^4*tan(t)/(cos(t) + 2)",
+      "variable": "t",
+      "lower": "-pi/4",
+      "upper": "pi/4",
+      "expected": "0"
+    },
+    {
+      "kind": "definite",
+      "number": 24,
+      "integrand": "exp(x)/(exp(2*x) + 1)",
+      "variable": "x",
+      "lower": "0",
+      "upper": "1",
+      "expected": "-pi/4 + arctan(E)"
+    },
+    {
+      "kind": "definite",
+      "number": 38,
+      "integrand": "(tan(t) + 1)^3/cos(t)^2",
+      "variable": "t",
+      "lower": "0",
+      "upper": "pi/4",
+      "expected": "15/4"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 25,
+      "integrand": "(1 - x)^2/x^2",
+      "variable": "x",
+      "primitive": "x - 2*ln(Abs(x)) - 1/x"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 27,
+      "integrand": "(x + 2)/sqrt(x^2 + 4*x)",
+      "variable": "x",
+      "primitive": "sqrt(x^2 + 4*x)"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 28,
+      "integrand": "csc(x)^2/(cot(x) + 1)",
+      "variable": "x",
+      "primitive": "-ln(Abs(cot(x) + 1))"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 29,
+      "integrand": "sin(pi*t)*cos(pi*t)",
+      "variable": "t",
+      "primitive": "sin(pi*t)^2/(2*pi)"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 30,
+      "integrand": "sin(x)*cos(cos(x))",
+      "variable": "x",
+      "primitive": "-sin(cos(x))"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 31,
+      "integrand": "exp(sqrt(x))/sqrt(x)",
+      "variable": "x",
+      "primitive": "2*exp(sqrt(x))"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 32,
+      "integrand": "sin(ln(x))/x",
+      "variable": "x",
+      "primitive": "-cos(ln(x))"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 33,
+      "integrand": "ln(cos(x))*tan(x)",
+      "variable": "x",
+      "primitive": "-ln(cos(x))^2/2"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 34,
+      "integrand": "x/sqrt(1 - x^4)",
+      "variable": "x",
+      "primitive": "arcsin(x^2)/2"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 35,
+      "integrand": "x^3/(x^4 + 1)",
+      "variable": "x",
+      "primitive": "ln(x^4 + 1)/4"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 36,
+      "integrand": "sinh(4*x + 1)",
+      "variable": "x",
+      "primitive": "cosh(4*x + 1)/4"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 37,
+      "integrand": "tan(t)*sec(t)/(sec(t) + 1)",
+      "variable": "t",
+      "primitive": "ln(Abs(sec(t) + 1))"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 41,
+      "integrand": "cos(x)/sqrt(sin(x) + 1)",
+      "variable": "x",
+      "primitive": "2*sqrt(sin(x) + 1)"
+    },
+    {
+      "kind": "antiderivative",
+      "number": 42,
+      "integrand": "x^3/sqrt(x^2 + 1)",
+      "variable": "x",
+      "primitive": "(x^2 + 1)^(3/2)/3 - sqrt(x^2 + 1)"
+    }
+  ],
+  "sourceCaveat": "Review67 requires a local interval excluding0; its literal global continuity condition is inconsistent."
+}
