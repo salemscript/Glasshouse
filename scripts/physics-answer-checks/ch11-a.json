@@ -1,0 +1,1900 @@
+[
+  {
+    "id": "physics-chapter-11-problems-1",
+    "parts": [
+      {
+        "label": "a · Center velocity relative to car",
+        "type": "choice",
+        "answer": "0 m/s",
+        "options": [
+          "0 m/s",
+          "(1 î) m/s",
+          "(1 ĵ) m/s"
+        ],
+        "explanation": "Subtract the center-of-mass velocity from the road-frame velocity; rotation gives ±v at top/bottom."
+      },
+      {
+        "label": "b · Top velocity relative to car",
+        "type": "choice",
+        "answer": "(22.2222 î) m/s",
+        "options": [
+          "(22.2222 î) m/s",
+          "(-22.2222 î) m/s",
+          "(44.4444 î) m/s"
+        ],
+        "explanation": "Subtract the center-of-mass velocity from the road-frame velocity; rotation gives ±v at top/bottom."
+      },
+      {
+        "label": "c · Bottom velocity relative to car",
+        "type": "choice",
+        "answer": "(-22.2222 î) m/s",
+        "options": [
+          "(-22.2222 î) m/s",
+          "(22.2222 î) m/s",
+          "(-44.4444 î) m/s"
+        ],
+        "explanation": "Subtract the center-of-mass velocity from the road-frame velocity; rotation gives ±v at top/bottom."
+      },
+      {
+        "label": "d · Center acceleration relative to car",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "m/s²",
+        "tolerance": 1e-09,
+        "explanation": "The center moves uniformly, while each rim point has centripetal acceleration v²/R."
+      },
+      {
+        "label": "e · Top acceleration relative to car",
+        "type": "numeric",
+        "answer": 1496.4459408903851,
+        "unit": "m/s²",
+        "tolerance": 14.964459408903851,
+        "explanation": "The center moves uniformly, while each rim point has centripetal acceleration v²/R."
+      },
+      {
+        "label": "f · Bottom acceleration relative to car",
+        "type": "numeric",
+        "answer": 1496.4459408903851,
+        "unit": "m/s²",
+        "tolerance": 14.964459408903851,
+        "explanation": "The center moves uniformly, while each rim point has centripetal acceleration v²/R."
+      },
+      {
+        "label": "g · Center velocity relative to road",
+        "type": "choice",
+        "answer": "(22.2222 î) m/s",
+        "options": [
+          "(22.2222 î) m/s",
+          "(-22.2222 î) m/s",
+          "(44.4444 î) m/s"
+        ],
+        "explanation": "Add v in the +x direction to the car-frame velocity."
+      },
+      {
+        "label": "h · Top velocity relative to road",
+        "type": "choice",
+        "answer": "(44.4444 î) m/s",
+        "options": [
+          "(44.4444 î) m/s",
+          "(-44.4444 î) m/s",
+          "(88.8889 î) m/s"
+        ],
+        "explanation": "Add v in the +x direction to the car-frame velocity."
+      },
+      {
+        "label": "i · Bottom velocity relative to road",
+        "type": "choice",
+        "answer": "0 m/s",
+        "options": [
+          "0 m/s",
+          "(1 î) m/s",
+          "(1 ĵ) m/s"
+        ],
+        "explanation": "Add v in the +x direction to the car-frame velocity."
+      },
+      {
+        "label": "j · Center acceleration relative to road",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "m/s²",
+        "tolerance": 1e-09,
+        "explanation": "A constant-velocity change of reference frame does not change acceleration."
+      },
+      {
+        "label": "k · Top acceleration relative to road",
+        "type": "numeric",
+        "answer": 1496.4459408903851,
+        "unit": "m/s²",
+        "tolerance": 14.964459408903851,
+        "explanation": "A constant-velocity change of reference frame does not change acceleration."
+      },
+      {
+        "label": "l · Bottom acceleration relative to road",
+        "type": "numeric",
+        "answer": 1496.4459408903851,
+        "unit": "m/s²",
+        "tolerance": 14.964459408903851,
+        "explanation": "A constant-velocity change of reference frame does not change acceleration."
+      }
+    ],
+    "reasoning": "v=80/3.6=22.2222m/s; R=.33m; a_r=v²/R=1496.4467m/s². Pure rolling makes the road-frame bottom velocity zero, not its acceleration. Verification: Road-minus-car velocity is the same constant vector for all three points; acceleration is frame-invariant. The rim result rounds to the existing1500m/s² key.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-2",
+    "parts": [
+      {
+        "label": "a · Initial angular speed",
+        "type": "numeric",
+        "answer": 59.25925925925926,
+        "unit": "rad/s",
+        "tolerance": 0.5925925925925926,
+        "explanation": "Pure rolling gives ω=v/R."
+      },
+      {
+        "label": "b · Angular deceleration magnitude",
+        "type": "numeric",
+        "answer": 9.3149669482225,
+        "unit": "rad/s²",
+        "tolerance": 0.093149669482225,
+        "explanation": "0=ω₀²−2|α|(30·2π)."
+      },
+      {
+        "label": "c · Braking distance",
+        "type": "numeric",
+        "answer": 70.68583470577033,
+        "unit": "m",
+        "tolerance": 0.7068583470577033,
+        "explanation": "The rolling distance is RΔθ."
+      }
+    ],
+    "reasoning": "Use R=.375m, v=80/3.6m/s, Δθ=60πrad; ω=59.2593rad/s, |α|=9.31497rad/s², s=70.6858m. Verification: Substitution gives final ω²=0 and rolling distance RΔθ; all three values match the existing independently derived checker.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-3",
+    "parts": [
+      {
+        "label": "Work on the hoop",
+        "type": "numeric",
+        "answer": -3.15,
+        "unit": "J",
+        "tolerance": 0.0315,
+        "explanation": "A hoop has equal translational and rotational energies; stopping work is minus their sum."
+      }
+    ],
+    "reasoning": "K=½Mv²+½(MR²)(v/R)²=Mv²=3.15J; W=ΔK=−3.15J. Verification: The work is negative and its magnitude equals both kinetic-energy terms combined; −3.15J matches the key.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-4",
+    "parts": [
+      {
+        "label": "a · Incline angle",
+        "type": "numeric",
+        "answer": 8.047846247311517,
+        "unit": "degrees",
+        "tolerance": 0.08047846247311517,
+        "explanation": "For a solid sphere a=(5/7)g sinθ=.10g, so sinθ=.14."
+      },
+      {
+        "label": "b · Block acceleration and reason",
+        "type": "choice",
+        "answer": "More than 0.10g: it is 0.14g, because no energy goes into rotation.",
+        "options": [
+          "More than 0.10g: it is 0.14g, because no energy goes into rotation.",
+          "Equal to 0.10g: mass cancels for both.",
+          "Less than 0.10g: the block lacks rotational inertia."
+        ],
+        "explanation": "The frictionless block has a=g sinθ rather than (5/7)g sinθ."
+      }
+    ],
+    "reasoning": "Rolling solid sphere: I/(MR²)=2/5, so a=g sinθ/(1+2/5). Verification: Substituting sinθ=.14 into(5/7)g sinθ returns.10g; this matches the existing derived checker.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-5",
+    "parts": [
+      {
+        "label": "Fraction of total kinetic energy in wheel rotation",
+        "type": "numeric",
+        "answer": 0.0196078431372549,
+        "unit": "",
+        "tolerance": 0.0005,
+        "explanation": "Four disks contribute K_rot=4(¼m_w v²)=10v²; total K=½(1000)v²+10v²."
+      },
+      {
+        "label": "Why the wheel radius is unnecessary",
+        "type": "choice",
+        "answer": "R² in I cancels 1/R² in ω² because ω=v/R.",
+        "options": [
+          "R² in I cancels 1/R² in ω² because ω=v/R.",
+          "The wheels have zero rotational inertia.",
+          "The angular speed is independent of radius."
+        ],
+        "explanation": "Each wheel has K_rot=½(½mR²)(v/R)²=¼mv²."
+      }
+    ],
+    "reasoning": "Treat the stated1000kg as total car mass including wheels. K_rot/K_total=20/(1000+20)=1/51≈.0196078; rounded source key .020 is accepted. Verification: Both energies have units kg·m²/s²; the dimensionless ratio rounds to the existing.020 key.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-6",
+    "parts": [
+      {
+        "label": "Rotational inertia",
+        "type": "numeric",
+        "answer": 0.0007200000000000003,
+        "unit": "kg·m²",
+        "tolerance": 7.200000000000003e-06,
+        "explanation": "Read a=3.5m/s² from the graph; solve a=g sin30°/[1+I/(mR²)]."
+      }
+    ],
+    "reasoning": "The plotted line runs from(0,0) to(1s,3.5m/s), one .5m/s grid step below v_s=4m/s. I=.000720kg·m². Verification: Substituting I=.00072kg·m² back into the rolling-acceleration formula gives the visually read3.5m/s² graph slope.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-7",
+    "parts": [
+      {
+        "label": "a · Angular speed at roof edge",
+        "type": "numeric",
+        "answer": 62.60990336999411,
+        "unit": "rad/s",
+        "tolerance": 0.6260990336999411,
+        "explanation": "Energy gives MgL sin30°=¾Mv², then ω=v/R."
+      },
+      {
+        "label": "b · Horizontal distance from roof edge",
+        "type": "numeric",
+        "answer": 4.012511838969151,
+        "unit": "m",
+        "tolerance": 0.04012511838969151,
+        "explanation": "Launch velocity is30° below horizontal; solve5=v sin30°t+½gt², then x=v cos30°t."
+      }
+    ],
+    "reasoning": "v=√39.2m/s; downward launch component v/2; flight time is positive root of4.9t²+(v/2)t−5=0. Verification: The energy equation gives v²=39.2m²/s²; the positive flight-time root returns a5m vertical drop. Angular speed rounds to the63rad/s key.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-8",
+    "parts": [
+      {
+        "label": "a · Can the ball reach x=0?",
+        "type": "choice",
+        "answer": "No. It turns at x=2.0m, where U=75J.",
+        "options": [
+          "No. It turns at x=2.0m, where U=75J.",
+          "Yes. Its speed at x=0 is zero.",
+          "No. It turns at x=5.0m."
+        ],
+        "explanation": "The left ramp rises from U=0 at x=5 to100J at x=1; U=75J occurs at x=2."
+      },
+      {
+        "label": "b · Can the ball reach x=13m?",
+        "type": "choice",
+        "answer": "Yes; U(13m)=60J, leaving15J of kinetic energy.",
+        "options": [
+          "Yes; U(13m)=60J, leaving15J of kinetic energy.",
+          "No; it turns at x=12m.",
+          "Yes; all75J becomes translational kinetic energy."
+        ],
+        "explanation": "The right plateau is60J, below the75J total energy."
+      },
+      {
+        "label": "b · Speed at x=13m",
+        "type": "numeric",
+        "answer": 7.319250547113999,
+        "unit": "m/s",
+        "tolerance": 0.07319250547113999,
+        "explanation": "For a solid sphere K=(7/10)Mv²=75−60=15J."
+      }
+    ],
+    "reasoning": "Read graph turning points using E=U; use both rotational and translational energy, not½Mv² alone. Verification: At the left turning point U=75J and K=0; at x=13m, K+U=15+60=75J, with both rotational and translational K included.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-9",
+    "parts": [
+      {
+        "label": "Horizontal distance from A",
+        "type": "numeric",
+        "answer": 4.780914437337574,
+        "unit": "m",
+        "tolerance": 0.047809144373375745,
+        "explanation": "At the edge v²=(10/7)g(H−h), and t²=2h/g; x=vt."
+      }
+    ],
+    "reasoning": "Energy drop Mg(H−h)=.7Mv², horizontal flight from h=2m gives x=√[20(H−h)h/7]=4.78091m. Verification: The energy-derived speed multiplied by the horizontal-launch fall time yields4.78091m, agreeing with the4.8m key.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-10",
+    "parts": [
+      {
+        "label": "a · Initial rotational kinetic energy",
+        "type": "numeric",
+        "answer": 8,
+        "unit": "J",
+        "tolerance": 0.08,
+        "explanation": "For a thin spherical shell I=(2/3)MR², so K_rot/K_total=2/5."
+      },
+      {
+        "label": "b · Initial center-of-mass speed",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "m/s",
+        "tolerance": 0.03,
+        "explanation": "K_total=½(M+I/R²)v² and M=3I/(2R²)."
+      },
+      {
+        "label": "c · Total kinetic energy after1m",
+        "type": "numeric",
+        "answer": 6.933333333333334,
+        "unit": "J",
+        "tolerance": 0.06933333333333334,
+        "explanation": "The center rises1sin30°=.5m, losing Mg(.5) in kinetic energy."
+      },
+      {
+        "label": "d · Center-of-mass speed after1m",
+        "type": "numeric",
+        "answer": 1.7663521732655694,
+        "unit": "m/s",
+        "tolerance": 0.017663521732655695,
+        "explanation": "Use the same effective rolling inertia M+I/R² in K=½(M+I/R²)v²."
+      }
+    ],
+    "reasoning": "M=2.66667kg for the ideal thin hollow sphere. K_initial=20J, K_rot=8J, v_initial=3m/s; K_final=6.93333J. Verification: Both effective-inertia calculations give K=20J initially and6.93333J finally; the difference equals Mg(.5m).",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "The hollow sphere is the uniform thin spherical shell of the chapter inertia table.",
+      "Rolling without slipping; g=9.8m/s²."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-11",
+    "parts": [
+      {
+        "label": "a · Friction force",
+        "type": "choice",
+        "answer": "(-4 î) N",
+        "options": [
+          "(-4 î) N",
+          "(4 î) N",
+          "(-8 î) N"
+        ],
+        "explanation": "F_app+f=Ma:10+f=10(.6), so f=−4N."
+      },
+      {
+        "label": "b · Rotational inertia",
+        "type": "numeric",
+        "answer": 0.6,
+        "unit": "kg·m²",
+        "tolerance": 0.006,
+        "explanation": "Friction supplies torque4R; α=a/R, so I=4R²/a."
+      }
+    ],
+    "reasoning": "The applied force passes through the center. Torque comes only from friction; I=.600kg·m². Verification: Translation gives10−4=10(.6)N; rotation gives4(.3)=.6(.6/.3)N·m, checking force and torque simultaneously.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-12",
+    "parts": [
+      {
+        "label": "a · Minimum release height",
+        "type": "numeric",
+        "answer": 0.37800000000000006,
+        "unit": "m",
+        "tolerance": 0.003780000000000001,
+        "explanation": "At the top N=0 requires v²=gR. Energy gives mgh=2mgR+.7mgR."
+      },
+      {
+        "label": "b · Horizontal force magnitude at Q",
+        "type": "numeric",
+        "answer": 0.019600000000000003,
+        "unit": "N",
+        "tolerance": 0.00019600000000000002,
+        "explanation": "At Q, height R, v²=(10/7)g(6R−R)=(50/7)gR; N=mv²/R."
+      },
+      {
+        "label": "c · Horizontal force direction",
+        "type": "choice",
+        "answer": "Left, toward the center of the loop.",
+        "options": [
+          "Left, toward the center of the loop.",
+          "Right, away from the loop center.",
+          "Upward, tangent to the loop."
+        ],
+        "explanation": "The horizontal component is the inward centripetal normal force at the rightmost pointQ."
+      }
+    ],
+    "reasoning": "At Q neither gravity nor tangential static friction has a horizontal component; the horizontal resultant is N. Sphere radius is negligible relative to loop radius. Verification: Top-contact threshold gives N=0; energy from6R toR gives v²=(50/7)gR, and the radial force has units N and points inward.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-13",
+    "parts": [
+      {
+        "label": "β in I=βMR²",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "",
+        "tolerance": 0.005,
+        "explanation": "At the bottom N−Mg=Mg=Mv²/r_loop, so v²=gr_loop. Combine with Mgh=½M(1+β)v²."
+      }
+    ],
+    "reasoning": "β=2h/r_loop−1=2(.36)/.48−1=.5. Verification: β=.5 gives K=.75M(gr_loop)=Mg(.36m), while the radial equation returns N=2Mg. Existing key is.50.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-14",
+    "parts": [
+      {
+        "label": "Launch speed at P",
+        "type": "numeric",
+        "answer": 1.3425721582097554,
+        "unit": "m/s",
+        "tolerance": 0.013425721582097554,
+        "explanation": "The plateau launch is horizontal: v=d√[g/(2h₂)]. Rolling energy adds(10/7)gh₁ to v²."
+      }
+    ],
+    "reasoning": "v_plateau=1.05m/s; u²=v_plateau²+(10/7)g(.05)=1.8025; u=1.342572m/s. Verification: The plateau velocity gives t=.06/1.05s and½gt²=.016m; the incoming-minus-outgoing rolling energy equals Mg(.05m).",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-15",
+    "parts": [
+      {
+        "label": "a · Rolling speed relation",
+        "type": "choice",
+        "answer": "v_com=R|ω| (clockwise rotation).",
+        "options": [
+          "v_com=R|ω| (clockwise rotation).",
+          "v_com=2R|ω|.",
+          "v_com=0 while the ball rotates."
+        ],
+        "explanation": "No slip requires zero velocity of the bottom contact point."
+      },
+      {
+        "label": "b · Signed linear acceleration (+x right)",
+        "type": "numeric",
+        "answer": -2.0580000000000003,
+        "unit": "m/s²",
+        "tolerance": 0.020580000000000005,
+        "explanation": "Sliding friction points left: a_x=−μ_k g."
+      },
+      {
+        "label": "c · Signed angular acceleration (+z out of page)",
+        "type": "numeric",
+        "answer": -46.77272727272727,
+        "unit": "rad/s²",
+        "tolerance": 0.46772727272727277,
+        "explanation": "τ_z=−μMgR and I=(2/5)MR², so α_z=−5μg/(2R)."
+      },
+      {
+        "label": "d · Sliding time",
+        "type": "numeric",
+        "answer": 1.1800638622796056,
+        "unit": "s",
+        "tolerance": 0.011800638622796056,
+        "explanation": "Set u−μgt=R[5μg/(2R)]t to obtain t=2u/(7μg)."
+      },
+      {
+        "label": "e · Sliding distance",
+        "type": "numeric",
+        "answer": 8.597608139465699,
+        "unit": "m",
+        "tolerance": 0.08597608139465698,
+        "explanation": "Integrate the constant translational acceleration during slipping."
+      },
+      {
+        "label": "f · Speed when rolling starts",
+        "type": "numeric",
+        "answer": 6.071428571428571,
+        "unit": "m/s",
+        "tolerance": 0.060714285714285714,
+        "explanation": "Substitute t=2u/(7μg) into v=u−μgt."
+      }
+    ],
+    "reasoning": "The ball is modeled as a uniform solid sphere. v decreases while clockwise spin grows; both conditions meet at t≈1.18006s. Verification: At the calculated time, u−μgt=R|α|t=5u/7. The independently computed rounded α,time,distance,speed agree with all four existing key values.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-16",
+    "parts": [
+      {
+        "label": "β in I=βMR²",
+        "type": "numeric",
+        "answer": 0.24982424346576293,
+        "unit": "",
+        "tolerance": 0.0024982424346576292,
+        "explanation": "From horizontal flight, v²=d²g/(2h). Energy gives1+β=2g(H−h)/v²."
+      }
+    ],
+    "reasoning": "β=4h(H−h)/d²−1=.249824. Verification: β substituted into rolling energy gives the same horizontal-launch speed as d/√(2h/g), providing two independent speed calculations.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-17",
+    "parts": [
+      {
+        "label": "a · Acceleration magnitude",
+        "type": "numeric",
+        "answer": 12.514174550654275,
+        "unit": "cm/s²",
+        "tolerance": 0.5,
+        "explanation": "a=g/[1+I/(mr²)] after converting I=950g·cm² to9.50×10⁻⁵kg·m²."
+      },
+      {
+        "label": "b · Descent time",
+        "type": "numeric",
+        "answer": 4.379298180190567,
+        "unit": "s",
+        "tolerance": 0.04379298180190567,
+        "explanation": "From rest, l=½at²."
+      },
+      {
+        "label": "c · Final linear speed",
+        "type": "numeric",
+        "answer": 54.80330183626737,
+        "unit": "cm/s",
+        "tolerance": 0.5480330183626737,
+        "explanation": "v=√(2al)."
+      },
+      {
+        "label": "d · Translational kinetic energy",
+        "type": "numeric",
+        "answer": 18.020411352942162,
+        "unit": "mJ",
+        "tolerance": 0.18020411352942162,
+        "explanation": "K_trans=½mv²."
+      },
+      {
+        "label": "e · Rotational kinetic energy",
+        "type": "numeric",
+        "answer": 1.393179588647058,
+        "unit": "J",
+        "tolerance": 0.01393179588647058,
+        "explanation": "K_rot=½Iω² with ω=v/r."
+      },
+      {
+        "label": "f · Angular speed",
+        "type": "numeric",
+        "answer": 171.26031823833551,
+        "unit": "rad/s",
+        "tolerance": 1.7126031823833552,
+        "explanation": "The string unwinds at the axle radius r, so v=rω."
+      }
+    ],
+    "reasoning": "Axle radius rather than body radius controls unwinding. Check K_trans+K_rot=mgl=1.4112J. Verification: Translational plus rotational energy equals1.4112J=mgl; the converted acceleration,time,speed,and energies agree with available rounded key values.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-18",
+    "parts": [
+      {
+        "label": "a · Acceleration magnitude during fall",
+        "type": "numeric",
+        "answer": 0.19215686274509805,
+        "unit": "m/s²",
+        "tolerance": 0.0019215686274509805,
+        "explanation": "I=½MR² and R/r=10, giving a=g/(1+50)."
+      },
+      {
+        "label": "b · Acceleration magnitude during rise",
+        "type": "numeric",
+        "answer": 0.19215686274509805,
+        "unit": "m/s²",
+        "tolerance": 0.0019215686274509805,
+        "explanation": "The acceleration remains downward with the same magnitude as the string rewinds."
+      },
+      {
+        "label": "c · Cord tension",
+        "type": "numeric",
+        "answer": 1114.5098039215688,
+        "unit": "N",
+        "tolerance": 11.14509803921569,
+        "explanation": "T=M(g−a)."
+      },
+      {
+        "label": "d · Is tension near52kN?",
+        "type": "choice",
+        "answer": "No; the tension is about1.11kN, only2.14% of52kN.",
+        "options": [
+          "No; the tension is about1.11kN, only2.14% of52kN.",
+          "Yes; the tension is approximately52kN.",
+          "No; the tension is zero during motion."
+        ],
+        "explanation": "116(9.8−9.8/51)=1114.51N."
+      },
+      {
+        "label": "e · Acceleration of a geometrically scaled-up yo-yo",
+        "type": "choice",
+        "answer": "The same.",
+        "options": [
+          "The same.",
+          "Greater.",
+          "Less."
+        ],
+        "explanation": "I/(Mr²)=½(R/r)² is unchanged by a uniform geometric scaling."
+      },
+      {
+        "label": "f · Cord tension of scaled-up yo-yo",
+        "type": "choice",
+        "answer": "Greater; it scales with mass (the cube of the linear scale).",
+        "options": [
+          "Greater; it scales with mass (the cube of the linear scale).",
+          "The same; acceleration is unchanged.",
+          "Less; the increased inertia reduces the weight."
+        ],
+        "explanation": "T=M(g−a), and a is unchanged while M grows."
+      }
+    ],
+    "reasoning": "Ignore axle mass; both disks together have I=½MR². On upward motion tension is still upward and acceleration downward. Verification: T+Ma=Mg and Tr=I(a/r) both hold. Similar-shape scaling cancels mass from a but leaves T proportional to mass.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-19",
+    "parts": [
+      {
+        "label": "Net torque about the origin",
+        "type": "choice",
+        "answer": "(-2 î) N·m",
+        "options": [
+          "(-2 î) N·m",
+          "(2 î) N·m",
+          "(-4 î) N·m"
+        ],
+        "explanation": "Add the forces and evaluate r×F: τ_x=(−4)(3)−(5)(−2)=−2."
+      }
+    ],
+    "reasoning": "r=(0,−4,5)m; totalF=(0,−2,3)N; τ=(−2,0,0)N·m. Verification: Direct component expansion and torque linearity r×(F₁+F₂)=r×F₁+r×F₂ give the same−2x torque.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-20",
+    "parts": [
+      {
+        "label": "a · Torque",
+        "type": "choice",
+        "answer": "(24 ĵ) N·m",
+        "options": [
+          "(24 ĵ) N·m",
+          "(-24 ĵ) N·m",
+          "(48 ĵ) N·m"
+        ],
+        "explanation": "Evaluate τ=r×F with r=(−2,0,4)m."
+      },
+      {
+        "label": "b · Torque",
+        "type": "choice",
+        "answer": "(-24 ĵ) N·m",
+        "options": [
+          "(-24 ĵ) N·m",
+          "(24 ĵ) N·m",
+          "(-48 ĵ) N·m"
+        ],
+        "explanation": "Evaluate τ=r×F with r=(−2,0,4)m."
+      },
+      {
+        "label": "c · Torque",
+        "type": "choice",
+        "answer": "(12 ĵ) N·m",
+        "options": [
+          "(12 ĵ) N·m",
+          "(-12 ĵ) N·m",
+          "(24 ĵ) N·m"
+        ],
+        "explanation": "Evaluate τ=r×F with r=(−2,0,4)m."
+      },
+      {
+        "label": "d · Torque",
+        "type": "choice",
+        "answer": "(-12 ĵ) N·m",
+        "options": [
+          "(-12 ĵ) N·m",
+          "(12 ĵ) N·m",
+          "(-24 ĵ) N·m"
+        ],
+        "explanation": "Evaluate τ=r×F with r=(−2,0,4)m."
+      }
+    ],
+    "reasoning": "For x forces τ_y=4F_x; for z forces τ_y=2F_z. Values are+24,−24,+12,−12 N·m along y. Verification: Reversing either force reverses its torque; each result is perpendicular to r and F with units N·m.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-21",
+    "parts": [
+      {
+        "label": "a · Torque from F₁",
+        "type": "choice",
+        "answer": "(6 ĵ + 8 k̂) N·m",
+        "options": [
+          "(6 ĵ + 8 k̂) N·m",
+          "(-6 ĵ − 8 k̂) N·m",
+          "(12 ĵ + 16 k̂) N·m"
+        ],
+        "explanation": "Cross r=(0,−4,3)m with F₁=(2,0,0)N."
+      },
+      {
+        "label": "b · Torque from F₂",
+        "type": "choice",
+        "answer": "(-22 î) N·m",
+        "options": [
+          "(-22 î) N·m",
+          "(22 î) N·m",
+          "(-44 î) N·m"
+        ],
+        "explanation": "τ_x=(−4)(4)−3(2)=−22N·m; other components vanish."
+      }
+    ],
+    "reasoning": "τ₁=(0,6,8),τ₂=(−22,0,0)N·m. Verification: Each cross product is perpendicular to both its position and force vectors; signs follow the right-hand rule.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-22",
+    "parts": [
+      {
+        "label": "F_x",
+        "type": "numeric",
+        "answer": -5,
+        "unit": "N",
+        "tolerance": 0.05,
+        "explanation": "τ_y=r_zF_x−r_xF_z=2F_x+12=2, giving F_x=−5."
+      }
+    ],
+    "reasoning": "Check all three components: r×(−5,7,−6)=(4,2,−1)N·m, exactly the supplied torque. Verification: Substitution of F_x=−5N reproduces all three supplied torque components(4,2,−1), not just the solved y component.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-23",
+    "parts": [
+      {
+        "label": "a · Torque about origin",
+        "type": "choice",
+        "answer": "(-1.5 î − 4 ĵ − 1 k̂) N·m",
+        "options": [
+          "(-1.5 î − 4 ĵ − 1 k̂) N·m",
+          "(1.5 î + 4 ĵ + 1 k̂) N·m",
+          "(-3 î − 8 ĵ − 2 k̂) N·m"
+        ],
+        "explanation": "Use r=(0,.5,−2)m in r×F."
+      },
+      {
+        "label": "b · Torque about(2,0,−3)m",
+        "type": "choice",
+        "answer": "(-1.5 î − 4 ĵ − 1 k̂) N·m",
+        "options": [
+          "(-1.5 î − 4 ĵ − 1 k̂) N·m",
+          "(1.5 î + 4 ĵ + 1 k̂) N·m",
+          "(-3 î − 8 ĵ − 2 k̂) N·m"
+        ],
+        "explanation": "Subtract the new origin: r′=(−2,.5,1)m. The torque is unchanged because the origin shift is parallel to F."
+      }
+    ],
+    "reasoning": "Both torques are(−1.5,−4,−1)N·m. Verification: The origin shift is parallel to F, so its cross product with F vanishes; direct shifted-origin evaluation agrees.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-24",
+    "parts": [
+      {
+        "label": "a · Torque from F₁",
+        "type": "choice",
+        "answer": "(6 î − 3 ĵ − 6 k̂) N·m",
+        "options": [
+          "(6 î − 3 ĵ − 6 k̂) N·m",
+          "(-6 î + 3 ĵ + 6 k̂) N·m",
+          "(12 î − 6 ĵ − 12 k̂) N·m"
+        ],
+        "explanation": "Compute r×F₁."
+      },
+      {
+        "label": "b · Torque from F₂",
+        "type": "choice",
+        "answer": "(26 î + 3 ĵ − 18 k̂) N·m",
+        "options": [
+          "(26 î + 3 ĵ − 18 k̂) N·m",
+          "(-26 î − 3 ĵ + 18 k̂) N·m",
+          "(52 î + 6 ĵ − 36 k̂) N·m"
+        ],
+        "explanation": "Compute r×F₂, retaining the negative x and z force components."
+      },
+      {
+        "label": "c · Torque from F₁+F₂",
+        "type": "choice",
+        "answer": "(32 î − 24 k̂) N·m",
+        "options": [
+          "(32 î − 24 k̂) N·m",
+          "(-32 î + 24 k̂) N·m",
+          "(64 î − 48 k̂) N·m"
+        ],
+        "explanation": "Torque is linear in force: sum the two torques."
+      },
+      {
+        "label": "d · Net torque about(3,2,4)m",
+        "type": "choice",
+        "answer": "0 N·m",
+        "options": [
+          "0 N·m",
+          "(1 î) N·m",
+          "(1 ĵ) N·m"
+        ],
+        "explanation": "Here r′=(0,−4,0)m is parallel to F₁+F₂=(0,−8,0)N."
+      }
+    ],
+    "reasoning": "The cross products are(6,−3,−6),(26,3,−18),(32,0,−24), and zero in N·m. Verification: Adding separate torques equals the cross product with total force; the final origin makes r′ parallel to the total force and gives zero.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-25",
+    "parts": [
+      {
+        "label": "a · Torque about origin",
+        "type": "choice",
+        "answer": "(50 k̂) N·m",
+        "options": [
+          "(50 k̂) N·m",
+          "(-50 k̂) N·m",
+          "(100 k̂) N·m"
+        ],
+        "explanation": "τ_z=3(6)−4(−8)=50N·m."
+      },
+      {
+        "label": "b · Angle between r and F",
+        "type": "numeric",
+        "answer": 90,
+        "unit": "degrees",
+        "tolerance": 0.9,
+        "explanation": "r·F=3(−8)+4(6)=0, so the vectors are perpendicular."
+      }
+    ],
+    "reasoning": "Independent checks: |r|=5m, |F|=10N, |τ|=50N·m=|r||F|. Verification: The dot product vanishes; |r||F|=5·10=50N·m equals the cross-product magnitude. The90° result matches the existing key.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-26",
+    "parts": [
+      {
+        "label": "a · Angular momentum magnitude",
+        "type": "numeric",
+        "answer": 12,
+        "unit": "kg·m²/s",
+        "tolerance": 0.12,
+        "explanation": "The angle between r and v is150°, hence |L|=mrv sin150°=2·3·4·.5."
+      },
+      {
+        "label": "b · Angular momentum direction",
+        "type": "choice",
+        "answer": "+z, out of the page.",
+        "options": [
+          "+z, out of the page.",
+          "−z, into the page.",
+          "Along+r in the plane."
+        ],
+        "explanation": "Rotating r counterclockwise to v gives a positive cross product."
+      },
+      {
+        "label": "c · Torque magnitude",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "N·m",
+        "tolerance": 0.03,
+        "explanation": "The angle between r and F is30°; |τ|=rF sin30°=3·2·.5."
+      },
+      {
+        "label": "d · Torque direction",
+        "type": "choice",
+        "answer": "+z, out of the page.",
+        "options": [
+          "+z, out of the page.",
+          "−z, into the page.",
+          "Along+F in the plane."
+        ],
+        "explanation": "The shown force lies30° counterclockwise from r."
+      }
+    ],
+    "reasoning": "Read θ₂ between−r and v: the actual r-to-v angle is150°. Read θ₃ between+r and F. Both signed cross products are positivez. Verification: The drawn velocity makes150° with+r while the force makes30°; scalar sine magnitudes and signed vector orientations both give+z.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-27",
+    "parts": [
+      {
+        "label": "a · Angular momentum",
+        "type": "choice",
+        "answer": "0 kg·m²/s",
+        "options": [
+          "0 kg·m²/s",
+          "(1 î) kg·m²/s",
+          "(1 ĵ) kg·m²/s"
+        ],
+        "explanation": "v=(−5,0,5)m/s is antiparallel to r=(2,0,−2)m, so r×mv=0."
+      },
+      {
+        "label": "b · Torque",
+        "type": "choice",
+        "answer": "(8 î + 8 k̂) N·m",
+        "options": [
+          "(8 î + 8 k̂) N·m",
+          "(-8 î − 8 k̂) N·m",
+          "(16 î + 16 k̂) N·m"
+        ],
+        "explanation": "r×(0,4,0)=(8,0,8)N·m."
+      }
+    ],
+    "reasoning": "No angular momentum at this instant does not imply zero torque; torque changes angular momentum. Verification: The initial r and velocity are antiparallel, reproducing the zero-angular-momentum key; r×F is perpendicular to both vectors.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-28",
+    "parts": [
+      {
+        "label": "a · Angular momentum about origin",
+        "type": "choice",
+        "answer": "(600 k̂) kg·m²/s",
+        "options": [
+          "(600 k̂) kg·m²/s",
+          "(-600 k̂) kg·m²/s",
+          "(1200 k̂) kg·m²/s"
+        ],
+        "explanation": "L_z=m(xv_y−yv_x)=2[3(60)−(−4)(30)]."
+      },
+      {
+        "label": "b · Angular momentum about(−2,−2)m",
+        "type": "choice",
+        "answer": "(720 k̂) kg·m²/s",
+        "options": [
+          "(720 k̂) kg·m²/s",
+          "(-720 k̂) kg·m²/s",
+          "(1440 k̂) kg·m²/s"
+        ],
+        "explanation": "The relative position is(5,−2)m; L_z=2[5(60)−(−2)(30)]."
+      }
+    ],
+    "reasoning": "Angular momentum depends on the chosen origin; velocity is unchanged by a fixed shift of origin. Verification: Changing origin adds −r_origin×p; this independently produces the change from600 to720kg·m²/s.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-29",
+    "parts": [
+      {
+        "label": "a · Net angular momentum magnitude",
+        "type": "numeric",
+        "answer": 9.797999999999995,
+        "unit": "kg·m²/s",
+        "tolerance": 0.09797999999999996,
+        "explanation": "Particle1 gives clockwise−m₁v₁d₁; particle2 gives counterclockwise+m₂v₂d₂."
+      },
+      {
+        "label": "b · Net direction",
+        "type": "choice",
+        "answer": "+z, out of the page.",
+        "options": [
+          "+z, out of the page.",
+          "−z, into the page.",
+          "Zero; the two contributions cancel."
+        ],
+        "explanation": "−21.45+31.248=+9.798kg·m²/s."
+      }
+    ],
+    "reasoning": "Sum signed angular momenta aboutO, not the unsigned magnitudes. Verification: The two momenta have opposite rotational signs; summing−21.45 and31.248 gives9.798, agreeing with the9.8 key.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-30",
+    "parts": [
+      {
+        "label": "a · Acceleration",
+        "type": "choice",
+        "answer": "(3 î − 4 ĵ + 2 k̂) m/s²",
+        "options": [
+          "(3 î − 4 ĵ + 2 k̂) m/s²",
+          "(-3 î + 4 ĵ − 2 k̂) m/s²",
+          "(6 î − 8 ĵ + 4 k̂) m/s²"
+        ],
+        "explanation": "Newton’s second law gives a=F/m with m=2kg."
+      },
+      {
+        "label": "b · Angular momentum",
+        "type": "choice",
+        "answer": "(42 î + 24 ĵ + 60 k̂) kg·m²/s",
+        "options": [
+          "(42 î + 24 ĵ + 60 k̂) kg·m²/s",
+          "(-42 î − 24 ĵ − 60 k̂) kg·m²/s",
+          "(84 î + 48 ĵ + 120 k̂) kg·m²/s"
+        ],
+        "explanation": "Use L=r×mv with the supplied signed components."
+      },
+      {
+        "label": "c · Torque",
+        "type": "choice",
+        "answer": "(-8 î − 26 ĵ − 40 k̂) N·m",
+        "options": [
+          "(-8 î − 26 ĵ − 40 k̂) N·m",
+          "(8 î + 26 ĵ + 40 k̂) N·m",
+          "(-16 î − 52 ĵ − 80 k̂) N·m"
+        ],
+        "explanation": "Use τ=r×F."
+      },
+      {
+        "label": "d · Angle between v and F",
+        "type": "numeric",
+        "answer": 127.33530414008338,
+        "unit": "degrees",
+        "tolerance": 1.2733530414008338,
+        "explanation": "cosφ=(v·F)/(|v||F|)=−48/√(54·116)."
+      }
+    ],
+    "reasoning": "a=(3,−4,2), L=(42,24,60), τ=(−8,−26,−40), and φ≈127.3353°. Verification: Acceleration times mass reproduces F; both cross products are perpendicular to their inputs, and the dot-product angle is127.3353°.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-31",
+    "parts": [
+      {
+        "label": "a · Angular momentum z component at maximum height",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "kg·m²/s",
+        "tolerance": 1e-09,
+        "explanation": "The instantaneous velocity is zero at the top."
+      },
+      {
+        "label": "b · Angular momentum z component halfway down",
+        "type": "numeric",
+        "answer": -22.62741699796952,
+        "unit": "kg·m²/s",
+        "tolerance": 0.22627416997969518,
+        "explanation": "Halfway down, v_y=−40/√2; the horizontal lever arm aboutP is+2m, so L_z=2mv_y."
+      },
+      {
+        "label": "c · Torque z component at maximum height",
+        "type": "numeric",
+        "answer": -7.840000000000001,
+        "unit": "N·m",
+        "tolerance": 0.07840000000000001,
+        "explanation": "Gravity is constant and its horizontal lever arm aboutP is always2m."
+      },
+      {
+        "label": "d · Torque z component halfway down",
+        "type": "numeric",
+        "answer": -7.840000000000001,
+        "unit": "N·m",
+        "tolerance": 0.07840000000000001,
+        "explanation": "τ_z=r_xF_y=2(−mg), independent of height."
+      }
+    ],
+    "reasoning": "With+z out of the page, the downward motion and downward gravitational torque are negative. L_z=−22.6274 and τ_z=−7.84. Verification: At the apex p=0. Halfway-down energy gives v=−u/√2; gravitational torque is the constant horizontal lever arm times−mg. All available key values agree.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-32",
+    "parts": [
+      {
+        "label": "dL/dt",
+        "type": "choice",
+        "answer": "(2 î − 4 ĵ) N·m",
+        "options": [
+          "(2 î − 4 ĵ) N·m",
+          "(-2 î + 4 ĵ) N·m",
+          "(4 î − 8 ĵ) N·m"
+        ],
+        "explanation": "dL/dt equals the vector sum of the two torques."
+      }
+    ],
+    "reasoning": "τ_net=(2,0,0)+(0,−4,0)=(2,−4,0)N·m. Verification: The angular-momentum derivative has torque units N·m; vector addition preserves the signed components of both supplied torques.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-33",
+    "parts": [
+      {
+        "label": "a · Angular momentum",
+        "type": "choice",
+        "answer": "(-174 k̂) kg·m²/s",
+        "options": [
+          "(-174 k̂) kg·m²/s",
+          "(174 k̂) kg·m²/s",
+          "(-348 k̂) kg·m²/s"
+        ],
+        "explanation": "L_z=m(xv_y−yv_x)=3[3(−6)−8(5)]=−174."
+      },
+      {
+        "label": "b · Torque",
+        "type": "choice",
+        "answer": "(56 k̂) N·m",
+        "options": [
+          "(56 k̂) N·m",
+          "(-56 k̂) N·m",
+          "(112 k̂) N·m"
+        ],
+        "explanation": "τ_z=−yF_x=−8(−7)=56N·m."
+      },
+      {
+        "label": "c · Rate of change of angular momentum",
+        "type": "choice",
+        "answer": "(56 k̂) N·m",
+        "options": [
+          "(56 k̂) N·m",
+          "(-56 k̂) N·m",
+          "(112 k̂) N·m"
+        ],
+        "explanation": "dL/dt=τ_net."
+      }
+    ],
+    "reasoning": "Evaluate at t=0 using the given position and velocity; the force and derivative are positivez even though L is negativez. Verification: The instantaneous cross products give L_z=−174 and τ_z=56; differentiating r×mv gives r×F because v×mv=0.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-34",
+    "parts": [
+      {
+        "label": "a · Torque for |L|=4.0",
+        "type": "choice",
+        "answer": "0 N·m",
+        "options": [
+          "0 N·m",
+          "−4k̂ N·m",
+          "+4k̂ N·m"
+        ],
+        "explanation": "Constant signed angular momentum has zero derivative."
+      },
+      {
+        "label": "b · Torque for |L|=4.0t²",
+        "type": "choice",
+        "answer": "−8t k̂ N·m",
+        "options": [
+          "−8t k̂ N·m",
+          "+8t k̂ N·m",
+          "−4t² k̂ N·m"
+        ],
+        "explanation": "Clockwise means L=−4t²k̂; differentiate."
+      },
+      {
+        "label": "c · Torque for |L|=4.0√t",
+        "type": "choice",
+        "answer": "−2/√t k̂ N·m",
+        "options": [
+          "−2/√t k̂ N·m",
+          "+2/√t k̂ N·m",
+          "−4√t k̂ N·m"
+        ],
+        "explanation": "Differentiate L=−4√t k̂."
+      },
+      {
+        "label": "d · Torque for |L|=4.0/t²",
+        "type": "choice",
+        "answer": "+8/t³ k̂ N·m",
+        "options": [
+          "+8/t³ k̂ N·m",
+          "−8/t³ k̂ N·m",
+          "−4/t² k̂ N·m"
+        ],
+        "explanation": "Differentiate L=−4t⁻²k̂; it becomes less negative, so torque is positivez."
+      }
+    ],
+    "reasoning": "Take+z out of the page and t>0. The supplied magnitudes must first be assigned the negative sign for clockwise motion. Verification: Each result is the derivative of negative(clockwise)L_z; the inverse-square magnitude case gives positive torque as clockwise momentum weakens.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-35",
+    "parts": [
+      {
+        "label": "a · Torque as function of time",
+        "type": "choice",
+        "answer": "48t k̂ N·m",
+        "options": [
+          "48t k̂ N·m",
+          "−48t k̂ N·m",
+          "24t² k̂ N·m"
+        ],
+        "explanation": "r=(4t²,−2t−6t²), a=(8,−12), so τ_z=3[x(−12)−y(8)]=48t."
+      },
+      {
+        "label": "b · Angular momentum magnitude for t>0",
+        "type": "choice",
+        "answer": "Increasing.",
+        "options": [
+          "Increasing.",
+          "Decreasing.",
+          "Unchanging."
+        ],
+        "explanation": "L_z=m(xv_y−yv_x)=24t², whose positive-time magnitude increases."
+      }
+    ],
+    "reasoning": "Differentiating L_z=24t² independently reproduces τ_z=48t. Positive time is the physical interval considered. Verification: Direct differentiation of24t² gives48t; independently evaluating r×ma gives the same torque. Increasing magnitude agrees with the key.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-36",
+    "parts": [
+      {
+        "label": "|L_C|/|L_B|",
+        "type": "numeric",
+        "answer": 1024,
+        "unit": "",
+        "tolerance": 10.24,
+        "explanation": "Equal density/thickness gives I∝R⁴; ω_C/ω_B=(ω_A/2)/(2ω_A)=1/4."
+      }
+    ],
+    "reasoning": "R_C/R_B=8; I_C/I_B=8⁴=4096. No-slip belt constraints give ω_B=2ω_A,ω_C=.5ω_A; ratio=1024. Verification: No-slip belt speeds give ω_B/ω_C=4; equal-material disk inertia scales as R⁴, giving4096/4=1024.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-37",
+    "parts": [
+      {
+        "label": "a · Assembly rotational inertia",
+        "type": "numeric",
+        "answer": 0.0046368,
+        "unit": "kg·m²",
+        "tolerance": 4.6368e-05,
+        "explanation": "The particles are at d,2d,3d fromO; I=m(d²+4d²+9d²)."
+      },
+      {
+        "label": "b · Middle particle angular momentum",
+        "type": "numeric",
+        "answer": 0.0011260799999999998,
+        "unit": "kg·m²/s",
+        "tolerance": 1.1260799999999997e-05,
+        "explanation": "The middle particle has L=m(2d)²ω."
+      },
+      {
+        "label": "c · Assembly angular momentum",
+        "type": "numeric",
+        "answer": 0.00394128,
+        "unit": "kg·m²/s",
+        "tolerance": 3.94128e-05,
+        "explanation": "For the rigid assembly, L=Iω."
+      }
+    ],
+    "reasoning": "Rods have negligible mass; I=.0046368kg·m², middle L=.00112608 and totalL=.00394128kg·m²/s. Verification: The individual angular momenta sum to Iω; all three exact computed values round to the existing key values.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Use g=9.8 m/s² where needed.",
+      "Neglect air resistance; use the idealizations explicitly stated in the source."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-1",
+    "parts": [
+      {
+        "label": "Rank |L_net| about the points",
+        "type": "choice",
+        "answer": "a > b = c > e > d",
+        "options": [
+          "a > b = c > e > d",
+          "a = b > e > c = d",
+          "b > a = e > c > d"
+        ],
+        "explanation": "Assign a=(0,s),b=(s,s),c=(s,0),d=(0,0); signed L/(mv)=2y−x."
+      }
+    ],
+    "reasoning": "The two rightward particles on y=s and y=0 contribute −(s−y)+y; the upward particle on x=s contributes s−x. Magnitudes are2s,s,s,0,s/2 at a,b,c,d,e. Verification: Summing three signed lever-arm contributions gives2s,s,s,0,s/2 before taking magnitudes, confirming all ties.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-2",
+    "parts": [
+      {
+        "label": "a · Forces whose torque is parallel to y",
+        "type": "choice",
+        "answer": "5 and6",
+        "options": [
+          "5 and6",
+          "1 and4",
+          "2 and3"
+        ],
+        "explanation": "AtB=(1,0,1), a force along±z orx makes a purey torque. The other forces givez or mixedx/y orx/z components."
+      },
+      {
+        "label": "b · Rank torque magnitudes",
+        "type": "choice",
+        "answer": "1 = 4 > 2 = 3 = 5 = 6",
+        "options": [
+          "1 = 4 > 2 = 3 = 5 = 6",
+          "1 = 2 = 3 = 4 = 5 = 6",
+          "2 = 3 > 1 = 4 > 5 = 6"
+        ],
+        "explanation": "Forces1 and4 are perpendicular to their entire√2m position vectors; the others have1m perpendicular lever arms."
+      }
+    ],
+    "reasoning": "Use r×F for each labeled force: F1=+z,F2=−y,F3=+x atA; F4=+y,F5=−z,F6=+x atB. Verification: Explicit cross products at both cube vertices distinguish the two √2F torques from four F torques and isolate the pure y components.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-3",
+    "parts": [
+      {
+        "label": "a · Pull along F₂",
+        "type": "choice",
+        "answer": "No rolling acceleration; it remains at rest if static friction holds.",
+        "options": [
+          "No rolling acceleration; it remains at rest if static friction holds.",
+          "It rolls right.",
+          "It rolls left."
+        ],
+        "explanation": "The line of action passes through the instantaneous contact point, giving zero torque about it."
+      },
+      {
+        "label": "b · Pull along F₁",
+        "type": "choice",
+        "answer": "Rolls right (clockwise).",
+        "options": [
+          "Rolls right (clockwise).",
+          "Rolls left (counterclockwise).",
+          "Remains at rest for any pull."
+        ],
+        "explanation": "The pull acts above the contact point and has clockwise torque."
+      },
+      {
+        "label": "c · Pull along F₃",
+        "type": "choice",
+        "answer": "Rolls left (counterclockwise).",
+        "options": [
+          "Rolls left (counterclockwise).",
+          "Rolls right (clockwise).",
+          "Remains at rest for any pull."
+        ],
+        "explanation": "The upward force has a line of action to the right of contact, so its torque is counterclockwise."
+      }
+    ],
+    "reasoning": "Assume sufficient static friction to maintain rolling without slip and a pull that does not lift the yo-yo off the surface. Then torque about contact determines initial rolling direction. Verification: Taking moments about the contact point eliminates both friction and normal force; the drawn lines of action give zero,clockwise,counterclockwise torque.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-4",
+    "parts": [
+      {
+        "label": "a · Angle for zero torque",
+        "type": "choice",
+        "answer": "0° or180°",
+        "options": [
+          "0° or180°",
+          "90° only",
+          "45° or135°"
+        ],
+        "explanation": "τ=rF sinθ=0 requires parallel or antiparallel vectors."
+      },
+      {
+        "label": "b · Angle for12N·m torque",
+        "type": "numeric",
+        "answer": 90,
+        "unit": "degrees",
+        "tolerance": 0.9,
+        "explanation": "The maximum rF=3·4=12N·m requires sinθ=1."
+      }
+    ],
+    "reasoning": "Use τ=rF sinθ with0≤θ≤180°. Verification: Both zero-torque angles satisfy sinθ=0;90° uniquely supplies the maximal12N·m within0–180°.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-5",
+    "parts": [
+      {
+        "label": "a · Rank about P₁",
+        "type": "choice",
+        "answer": "F₁ > F₂ > F₃",
+        "options": [
+          "F₁ > F₂ > F₃",
+          "F₃ > F₂ > F₁",
+          "F₁ = F₂ = F₃"
+        ],
+        "explanation": "F₁ is perpendicular to the plane; F₃ passes along the P₁-origin line and has zero torque."
+      },
+      {
+        "label": "b · Rank about P₂",
+        "type": "choice",
+        "answer": "F₁ = F₂ > F₃",
+        "options": [
+          "F₁ = F₂ > F₃",
+          "F₁ > F₂ > F₃",
+          "F₂ > F₃ > F₁"
+        ],
+        "explanation": "The marked right angle makes F₂ perpendicular to the P₂-origin line, as F₁ is too."
+      },
+      {
+        "label": "c · Rank about P₃",
+        "type": "choice",
+        "answer": "F₁ = F₃ > F₂",
+        "options": [
+          "F₁ = F₃ > F₂",
+          "F₁ = F₂ > F₃",
+          "F₂ = F₃ > F₁"
+        ],
+        "explanation": "P₃-origin is vertical, so horizontalF₃ and out-of-planeF₁ have the full lever arm."
+      }
+    ],
+    "reasoning": "For each chosen point, all forces have the same application position and magnitude. Compare sinθ in|r×F|. Verification: The page-normal force always uses the full lever arm; the marked right angle and parallel-line zero validate the three rankings.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-6",
+    "parts": [
+      {
+        "label": "a · Situation with zero torque",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "",
+        "tolerance": 0,
+        "explanation": "Situation3 has constantL=2."
+      },
+      {
+        "label": "b · Positive constant torque",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "",
+        "tolerance": 0,
+        "explanation": "d(3t+4)/dt=3."
+      },
+      {
+        "label": "c · Negative torque increasing in magnitude",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "",
+        "tolerance": 0,
+        "explanation": "d(−6t²)/dt=−12t; magnitude increases for t>0."
+      },
+      {
+        "label": "d · Negative torque decreasing in magnitude",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "",
+        "tolerance": 0,
+        "explanation": "d(4/t)/dt=−4/t²; magnitude decreases for t>0."
+      }
+    ],
+    "reasoning": "Differentiate the signed angular momentum in each case; no mechanical trajectory reconstruction is needed. Verification: All four analytic derivatives were evaluated; sign and monotonic magnitude were checked for positive time.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-7",
+    "parts": [
+      {
+        "label": "a · Beetle–disk system angular momentum magnitude",
+        "type": "choice",
+        "answer": "Unchanged.",
+        "options": [
+          "Unchanged.",
+          "Increases.",
+          "Decreases."
+        ],
+        "explanation": "There is no external axial torque; the beetle and disk exchange angular momentum internally."
+      },
+      {
+        "label": "b · Beetle angular momentum and angular speed magnitudes",
+        "type": "choice",
+        "answer": "Both increase.",
+        "options": [
+          "Both increase.",
+          "Both decrease.",
+          "Angular momentum increases while angular speed decreases."
+        ],
+        "explanation": "At fixed radius the beetle has constantI, and walking with the rotation transfers angular momentum to it."
+      },
+      {
+        "label": "c · Disk angular momentum and angular speed magnitudes",
+        "type": "choice",
+        "answer": "Both decrease.",
+        "options": [
+          "Both decrease.",
+          "Both increase.",
+          "Both remain unchanged."
+        ],
+        "explanation": "The disk gives the beetle angular momentum, with constantdisk inertia."
+      },
+      {
+        "label": "d · Walking against rotation",
+        "type": "choice",
+        "answer": "System unchanged; disk speeds up; beetle magnitudes decrease until zero, then increase if it reverses.",
+        "options": [
+          "System unchanged; disk speeds up; beetle magnitudes decrease until zero, then increase if it reverses.",
+          "System angular momentum decreases; disk slows down.",
+          "System unchanged; both beetle and disk must speed up in the same direction."
+        ],
+        "explanation": "Signed beetle angular momentum decreases and disk angular momentum increases. A magnitude decreases only until the beetle reaches zero angular velocity; the source does not bound its walking speed."
+      }
+    ],
+    "reasoning": "Take the initial disk direction aspositive. Conservation gives ΔL_disk=−ΔL_beetle. For the usual case where the beetle still moves counterclockwise in the lab, part(d) means beetle decreases and disk increases; the option states the full reversal caveat. Verification: Conserved L_system implies opposite signed transfers; fixed moments of inertia tie each angular speed to its own angular momentum. The magnitude statement explicitly covers reversal.",
+    "sourcePages": [
+      25,
+      26
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-8",
+    "parts": [
+      {
+        "label": "a · Rank final angular speed magnitudes",
+        "type": "choice",
+        "answer": "4 > 6 > 7 > 1 > 2 = 3 = 5",
+        "options": [
+          "4 > 6 > 7 > 1 > 2 = 3 = 5",
+          "6 > 4 > 1 > 7 > 2 = 3 = 5",
+          "4 = 6 = 7 > 1 > 2 = 3 = 5"
+        ],
+        "explanation": "The zero-lever-arm paths2,3,5 give no spin. At the same corner, perpendicularpath4 has the largest lever arm, thenvertical6, thenhorizontal7. Path1 has a smaller offset."
+      },
+      {
+        "label": "b · Paths giving negative angular momentum",
+        "type": "choice",
+        "answer": "1,4, and7",
+        "options": [
+          "1,4, and7",
+          "2,3, and5",
+          "4,5, and6"
+        ],
+        "explanation": "From the shown overhead view, paths1,4,7 impart clockwise angular momentum."
+      }
+    ],
+    "reasoning": "Angular momentum aboutO ismv times signed perpendicular distance. After sticking ω=L/(I_slab+m r_hit²); paths4,6,7 share corner radius, and the rectangular geometry still puts path1 belowpath7. Verification: The diagram fixes clockwise signs for1,4,7. Paths4,6,7 have equal final inertia; for path1 versus7 the rectangular geometry also preserves the ranking after adding the gum inertia.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-9",
+    "parts": [
+      {
+        "label": "Rank torque magnitudes",
+        "type": "choice",
+        "answer": "D > B > A = C",
+        "options": [
+          "D > B > A = C",
+          "B > D > A = C",
+          "A = B = C = D"
+        ],
+        "explanation": "Torque magnitude is|dL/dt|. D has the steepest slope, B a smaller positive slope, and A/C are horizontal."
+      }
+    ],
+    "reasoning": "Read slopes, not heights or interval areas, from the angular-momentum-versus-time plot. Verification: Graph slopes, not L values, are zero at A/C,positive at B and steepest in magnitude at D.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-10",
+    "parts": [
+      {
+        "label": "Rank angular momentum magnitudes",
+        "type": "choice",
+        "answer": "b > c = d > a = e",
+        "options": [
+          "b > c = d > a = e",
+          "e > d > c > b > a",
+          "a = e > c = d > b"
+        ],
+        "explanation": "For horizontal motion along y=1, the lever arm is|y_point−1|:3,2,2,0,0 for b,c,d,a,e."
+      }
+    ],
+    "reasoning": "Horizontal point positions do not matter because L magnitude ismv times perpendicular distance to the line of motion. Verification: Using distances from the actual motion line y=1 yields0,3,2,2,0; changing x alone leaves the result invariant.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-11",
+    "parts": [
+      {
+        "label": "a · Cannonball time compared with marble",
+        "type": "choice",
+        "answer": "The same.",
+        "options": [
+          "The same.",
+          "Longer.",
+          "Shorter."
+        ],
+        "explanation": "Both uniform solid spheres have I/(MR²)=2/5 and thus the same rolling acceleration."
+      },
+      {
+        "label": "b · Cannonball translational kinetic energy compared with marble",
+        "type": "choice",
+        "answer": "Greater.",
+        "options": [
+          "Greater.",
+          "The same.",
+          "Less."
+        ],
+        "explanation": "They reach the same speed, but K_trans=½Mv² is greater for the more massive cannonball."
+      }
+    ],
+    "reasoning": "Assume both are uniform solid spheres rolling without slipping from the same height; size and density cancel from acceleration but not energy. Verification: Both bodies have the same2/5 inertia ratio, giving equal acceleration and speed; mass still multiplies translational energy.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-questions-12",
+    "parts": [
+      {
+        "label": "a · Original solid cylinders",
+        "type": "choice",
+        "answer": "They tie.",
+        "options": [
+          "They tie.",
+          "Brass arrives first.",
+          "Wood arrives first."
+        ],
+        "explanation": "Both have I/(MR²)=1/2, independent of length and density."
+      },
+      {
+        "label": "b · Shortened wood and hollowed brass",
+        "type": "choice",
+        "answer": "The wood cylinder arrives first.",
+        "options": [
+          "The wood cylinder arrives first.",
+          "The brass cylinder arrives first.",
+          "They still tie."
+        ],
+        "explanation": "Wood remains solid withI/(MR²)=1/2; hollowing brass raises this ratio to½[1+(r_inner/R)²], lowering its acceleration."
+      }
+    ],
+    "reasoning": "Rolling acceleration depends on dimensionless inertia rather than absolute mass. Removing central material increases the brass inertia perMR². Verification: The solid ratio1/2 is length-independent; a hollow cylinder has ratio(1+r_inner²/R²)/2>1/2 and therefore smaller rolling acceleration.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Axes and point labels are those of the original chapter diagram."
+    ]
+  }
+]

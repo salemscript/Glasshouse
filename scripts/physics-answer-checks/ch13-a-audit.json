@@ -1,0 +1,45 @@
+{
+  "records": 56,
+  "parts": 102,
+  "coverage": "Questions1\u201312 and Problems1\u201344, complete",
+  "sourcePagesVisuallyReviewed": [
+    5,
+    14,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "checks": [
+    {
+      "problem": 10,
+      "dimensionlessForceResidual": [
+        6.661338147750939e-16,
+        -8.881784197001252e-16
+      ]
+    },
+    {
+      "problem": 15,
+      "dimensionlessForceResidual": [
+        4.85722573273506e-17,
+        9.71445146547012e-17,
+        -1.3877787807814457e-17
+      ]
+    },
+    {
+      "problem": 14,
+      "reconstructedForceN": 2.77e-14,
+      "reconstructedAngleDegrees": -163.8
+    }
+  ],
+  "notableFindings": [
+    "P9 existing answer has km\u00b2 unit; corrected to km.",
+    "P16 source particle mass is0.67kg; final calculation uses0.67.",
+    "P31 explicitly accepts two consistent numeric routes because rounded diameters disagree with table mass/g constants.",
+    "P36 initial energy interpreted as launch kinetic energy; assumption exposed.",
+    "P42 graph U(0)\u2248\u22123.5e\u221210J; tolerance reflects graph precision.",
+    "Q8 density ranking inferred from exterior mass curves and source radii; no unplotted interior slopes assumed."
+  ],
+  "verification": "Each record contains its force, energy, symmetry, shell-theorem or Kepler derivation plus dimensions/signs/limits. Author script evaluates formulas; coordinate cancellations also reconstructed independently."
+}

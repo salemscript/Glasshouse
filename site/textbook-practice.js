@@ -82,7 +82,7 @@ window.TextbookPractice=(()=>{
    const k=rule.fieldKey,input=rule.checkable?document.querySelector('#question-answer-'+k):null,raw=rule.checkable?(input?.value||''):(draft.answers?.[k]||'');draft.answers??={};if(rule.checkable)draft.answers[k]=raw;
    const outcome=AnswerChecker.check(rule.checkable?rule:null,raw),el=document.querySelector('#question-result-'+k);
    if(!rule.checkable)outcome.message='A verified numeric or multiple-choice check for this part is not available yet.';
-   if(chapterStudy(q)&&rule.type==='numeric'){if(outcome.status==='correct'&&rule.explanation)outcome.message='Correct. '+rule.explanation;else if(outcome.status==='incorrect'&&rule.hint)outcome.message+=' '+rule.hint;}
+   if((chapterStudy(q)||(q.book==='physics'&&q.answerAudit?.objectiveChecksVerified))&&rule.type==='numeric'){if(outcome.status==='correct'&&rule.explanation)outcome.message='Correct. '+rule.explanation;else if(outcome.status==='incorrect'&&rule.hint)outcome.message+=' '+rule.hint;}
    el.innerHTML=window.SolutionMath?SolutionMath.inline(outcome.message):esc(outcome.message);el.className='question-part-result '+outcome.status;
    if(['correct','incorrect'].includes(outcome.status))ExerciseFeedback.answer(rule.type==='choice'?'#question-choice-group-'+k:'#question-answer-'+k,outcome.status==='correct');return outcome;
   });

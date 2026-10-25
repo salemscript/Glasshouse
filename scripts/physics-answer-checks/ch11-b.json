@@ -1,0 +1,1377 @@
+[
+  {
+    "id": "physics-chapter-11-problems-38",
+    "parts": [
+      {
+        "label": "a · Angular momentum",
+        "type": "numeric",
+        "answer": 0.528,
+        "unit": "kg·m²/s",
+        "tolerance": 0.0015840000000000001,
+        "explanation": "Angular impulse is ΔL=τΔt=16(0.033)=0.528 kg·m²/s."
+      },
+      {
+        "label": "b · Angular speed",
+        "type": "numeric",
+        "answer": 440.00000000000006,
+        "unit": "rad/s",
+        "tolerance": 1.3200000000000003,
+        "explanation": "ω=L/I=0.528/0.0012=440 rad/s."
+      }
+    ],
+    "reasoning": "Integrate the constant torque over 0.033 s, then divide angular momentum by rotational inertia. Verification: τΔt and Iω both give 0.528 kg·m²/s; torque impulse has angular-momentum units.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Disk starts from rest; if it initially rotates, 0.528 is the change in angular momentum."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-39",
+    "parts": [
+      {
+        "label": "a · Average torque magnitude",
+        "type": "numeric",
+        "answer": 1.4666666666666668,
+        "unit": "N·m",
+        "tolerance": 0.0044,
+        "explanation": "|τavg|=|Lf−Li|/Δt."
+      },
+      {
+        "label": "b · Rotation angle",
+        "type": "numeric",
+        "answer": 20.357142857142854,
+        "unit": "rad",
+        "tolerance": 0.06107142857142856,
+        "explanation": "For constant angular acceleration, θ=(ωi+ωf)Δt/2."
+      },
+      {
+        "label": "c · Work done on wheel",
+        "type": "numeric",
+        "answer": -29.85714285714285,
+        "unit": "J",
+        "tolerance": 0.08957142857142855,
+        "explanation": "W=ΔK=(Lf²−Li²)/(2I), negative because the wheel loses energy."
+      },
+      {
+        "label": "d · Average power delivered by flywheel (positive magnitude)",
+        "type": "numeric",
+        "answer": 19.9047619047619,
+        "unit": "W",
+        "tolerance": 0.059714285714285706,
+        "explanation": "Power delivered is (Ki−Kf)/Δt=19.9048 W. The signed average power done on the flywheel is −19.9048 W."
+      }
+    ],
+    "reasoning": "Use τ=dL/dt, ω=L/I, and K=L²/(2I). Verification: The negative work equals τθ with the braking sign; its magnitude divided by 1.5 s is the positive delivered power. All four values match printed-key rounding.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Part(d) uses the positive power supplied by the slowing flywheel, consistent with the printed answer convention."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-40",
+    "parts": [
+      {
+        "label": "Angular momentum at t=3.00 s",
+        "type": "numeric",
+        "answer": 23,
+        "unit": "kg·m²/s",
+        "tolerance": 0.069,
+        "explanation": "L(3)=L(1)+∫₁³(5+2t)dt=5+[5t+t²]₁³=23."
+      }
+    ],
+    "reasoning": "Angular impulse, rather than instantaneous torque times the full elapsed time, changes L. Verification: Differentiating L(t)=5t+t²−1 recovers τ(t), and L(1)=5.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-41",
+    "parts": [
+      {
+        "label": "a · Rotational inertia",
+        "type": "numeric",
+        "answer": 1.5833333333333333,
+        "unit": "kg·m²",
+        "tolerance": 0.05,
+        "explanation": "A hoop about its in-plane tangent has I=(1/2+1)mR². The square has I=(1+1/3+1/3)mR². Total I=(19/6)mR²."
+      },
+      {
+        "label": "b · Angular momentum",
+        "type": "numeric",
+        "answer": 3.979350694547071,
+        "unit": "kg·m²/s",
+        "tolerance": 0.05,
+        "explanation": "L=Iω with ω=2π/T."
+      }
+    ],
+    "reasoning": "The pictured axis runs along one side of the square and tangent to the hoop, not through the hoop center. Sum the four rod inertias and apply the parallel-axis theorem to the hoop. Verification: Independent rod contributions are 0, mR², mR²/3, mR²/3, and the hoop contributes 3mR²/2; both answers match printed-key rounding.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-42",
+    "parts": [
+      {
+        "label": "a · Angular momentum at 7.0 s",
+        "type": "numeric",
+        "answer": 24,
+        "unit": "kg·m²/s",
+        "tolerance": 0.1,
+        "explanation": "Positive areas from 0–2,2–4,4–7 s are 8,7,9 N·m·s, totaling24."
+      },
+      {
+        "label": "b · Angular momentum at 20 s",
+        "type": "numeric",
+        "answer": 1.5,
+        "unit": "kg·m²/s",
+        "tolerance": 0.1,
+        "explanation": "Continue the signed area: L(20)=24+3−4.5−18−3=1.5."
+      }
+    ],
+    "reasoning": "Graph vertices (t,τ) are (0,4),(2,4),(4,3),(7,3),(9,0),(12,−3),(18,−3),(20,0), in SI units. Initial L=0; integrate each rectangle/trapezoid. Verification: The signed graph areas are 8+7+9+3−4.5−18−3; summing only through 7 s gives 24 and through 20 s gives 1.5.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-43",
+    "parts": [
+      {
+        "label": "a · Initial circle radius",
+        "type": "numeric",
+        "answer": 1.5,
+        "unit": "m",
+        "tolerance": 0.0045000000000000005,
+        "explanation": "Each equal-mass skater is half the3.0 m separation from the center."
+      },
+      {
+        "label": "b · Initial angular speed",
+        "type": "numeric",
+        "answer": 0.9333333333333332,
+        "unit": "rad/s",
+        "tolerance": 0.0028,
+        "explanation": "ω=v/r."
+      },
+      {
+        "label": "c · Initial system kinetic energy",
+        "type": "numeric",
+        "answer": 98,
+        "unit": "J",
+        "tolerance": 0.294,
+        "explanation": "K=2(1/2)(50)(1.4²)."
+      },
+      {
+        "label": "d · Angular speed at 1.0 m separation",
+        "type": "numeric",
+        "answer": 8.4,
+        "unit": "rad/s",
+        "tolerance": 0.0252,
+        "explanation": "I decreases by (0.5/1.5)²=1/9; conserving L increases ω ninefold."
+      },
+      {
+        "label": "e · Final system kinetic energy",
+        "type": "numeric",
+        "answer": 882,
+        "unit": "J",
+        "tolerance": 5,
+        "explanation": "Kf=1/2[2(50)(0.5²)](8.4²)=882 J."
+      },
+      {
+        "label": "f · Source of added kinetic energy",
+        "type": "choice",
+        "answer": "Work done by the skaters, using internal chemical energy",
+        "options": [
+          "Work done by the skaters, using internal chemical energy",
+          "Work done by the frictionless ice",
+          "Angular momentum supplied by the pole"
+        ],
+        "explanation": "Pulling inward converts the skaters’ chemical energy into kinetic energy while net external torque remains negligible."
+      }
+    ],
+    "reasoning": "Conserve angular momentum about the two-skater center of mass. Kinetic energy increases because internal forces perform positive work. Verification: Initial and final Iω each equal 210 kg·m²/s; final energy is nine times initial energy. Numeric values match printed-key rounding.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-44",
+    "parts": [
+      {
+        "label": "a · Final angular speed",
+        "type": "numeric",
+        "answer": 4.192634560906517,
+        "unit": "rad/s",
+        "tolerance": 0.01257790368271955,
+        "explanation": "Taking counterclockwise positive, Li=mvR−Iω0=0.037; If=I+mR²=0.008825. Final rotation is counterclockwise."
+      },
+      {
+        "label": "b · Is mechanical energy conserved?",
+        "type": "choice",
+        "answer": "No; some kinetic energy becomes internal energy",
+        "options": [
+          "No; some kinetic energy becomes internal energy",
+          "Yes; angular momentum conservation guarantees it",
+          "No; all angular momentum is lost"
+        ],
+        "explanation": "The cockroach stops relative to the disk through internal friction. Angular momentum is conserved, but mechanical energy decreases."
+      }
+    ],
+    "reasoning": "Add signed cockroach and disk angular momenta, then use the combined final inertia. Verification: Final Iω reproduces the signed initial angular momentum 0.037 kg·m²/s. Final energy is below the initial 0.3596 J, consistent with dissipation.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Stops means the cockroach is at rest relative to the lazy Susan, not relative to the ground."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-45",
+    "parts": [
+      {
+        "label": "a · Final angular speed",
+        "type": "numeric",
+        "answer": 3.6,
+        "unit": "rev/s",
+        "tolerance": 0.0108,
+        "explanation": "ωf=(Ii/If)ωi=(6/2)(1.2)."
+      },
+      {
+        "label": "b · Kinetic energy ratio Kf/Ki",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "",
+        "tolerance": 0.009000000000000001,
+        "explanation": "At constant L, K=L²/(2I), so Kf/Ki=Ii/If."
+      },
+      {
+        "label": "c · Source of added energy",
+        "type": "choice",
+        "answer": "Muscular work converts chemical energy into rotational kinetic energy",
+        "options": [
+          "Muscular work converts chemical energy into rotational kinetic energy",
+          "The frictionless bearing supplies energy",
+          "Conservation of angular momentum creates energy"
+        ],
+        "explanation": "Moving the bricks inward requires work; torque-free rotation conserves L, not K."
+      }
+    ],
+    "reasoning": "Conserve angular momentum for the man, bricks, and platform. Verification: Initial and final Iω agree; at fixed L the energy rises threefold. Both numeric answers match the existing key.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-46",
+    "parts": [
+      {
+        "label": "Kinetic energy ratio Kf/Ki",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "",
+        "tolerance": 0.009000000000000001,
+        "explanation": "Kf/Ki=Ii/If=3 when If=Ii/3."
+      }
+    ],
+    "reasoning": "With no external torque, L stays constant and rotational kinetic energy is inversely proportional to I. Verification: Substitution into K=L²/(2I) gives a factor of three, with no dimensions in the ratio.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-47",
+    "parts": [
+      {
+        "label": "Wheel angular speed",
+        "type": "numeric",
+        "answer": 0.1661129568106312,
+        "unit": "rad/s",
+        "tolerance": 0.005,
+        "explanation": "Let ωw oppose the train. The train speed relative to ground is0.15−Rωw. Zero total L gives mR(0.15−Rωw)−1.1mR²ωw=0."
+      }
+    ],
+    "reasoning": "The specified train speed is relative to the track, so the wheel motion must be included. The wheel turns opposite the train. Verification: Substitution makes train and wheel angular momenta equal and opposite; the speed matches printed-key rounding.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-48",
+    "parts": [
+      {
+        "label": "Cockroach inertia divided by disk inertia",
+        "type": "numeric",
+        "answer": 0.19999999999999996,
+        "unit": "",
+        "tolerance": 0.0005999999999999998,
+        "explanation": "Idisk(6)=(Idisk+Icock)(5), so Icock/Idisk=6/5−1=0.20."
+      }
+    ],
+    "reasoning": "The graph starts at6rad/s at r=0 and ends at5rad/s at r=R. Use angular momentum conservation. Verification: With Icock=0.2Idisk, final L=1.2Idisk·5 equals initial Idisk·6.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-49",
+    "parts": [
+      {
+        "label": "a · Final speed when both initially turn counterclockwise",
+        "type": "numeric",
+        "answer": 750,
+        "unit": "rev/min",
+        "tolerance": 2.25,
+        "explanation": "ωf=(3.3·450+6.6·900)/(3.3+6.6)=750."
+      },
+      {
+        "label": "b · Final speed when second disk initially turns clockwise",
+        "type": "numeric",
+        "answer": 450,
+        "unit": "rev/min",
+        "tolerance": 1.35,
+        "explanation": "The signed result is (3.3·450−6.6·900)/9.9=−450 rev/min."
+      },
+      {
+        "label": "c · Final direction in the opposite-spin case",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "No rotation"
+        ],
+        "explanation": "With counterclockwise positive, the conserved net angular momentum is negative."
+      }
+    ],
+    "reasoning": "Use signed initial angular momenta and the sum of the final inertias. Verification: Weighted initial angular momenta divided by 9.90 kg·m² reproduce +750 and −450 rev/min; both speed magnitudes match the existing key.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-50",
+    "parts": [
+      {
+        "label": "Rotor revolutions about an inertial axis",
+        "type": "numeric",
+        "answer": 500,
+        "unit": "rev",
+        "tolerance": 1,
+        "explanation": "Integrating Ipωp+Imωm=0 gives |θm|=(Ip/Im)|θp|=6000(30°)=500rev."
+      }
+    ],
+    "reasoning": "The rotor and probe rotate in opposite directions. Relative to the probe the rotor makes500+1/12rev; the inertial-axis count is500rev. Verification: Ipθp+Imθm=0 after converting both angular displacements into revolutions; the two signs are opposite.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Initial total angular momentum is zero; the answer label specifies the inertial-axis convention."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-51",
+    "parts": [
+      {
+        "label": "a · Final angular speed",
+        "type": "numeric",
+        "answer": 266.6666666666667,
+        "unit": "rev/min",
+        "tolerance": 0.8,
+        "explanation": "Iiωi=(Ii+2Ii)ωf."
+      },
+      {
+        "label": "b · Fraction of initial rotational energy lost",
+        "type": "numeric",
+        "answer": 0.6666666666666666,
+        "unit": "",
+        "tolerance": 0.002,
+        "explanation": "Kf/Ki=Ii/(3Ii)=1/3, so the lost fraction is2/3."
+      }
+    ],
+    "reasoning": "Coupling conserves angular momentum but dissipates kinetic energy. Verification: Final Iω equals initial Iω, while final energy is one third of initial energy; both values match printed-key rounding.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-52",
+    "parts": [
+      {
+        "label": "a · Final angular speed",
+        "type": "numeric",
+        "answer": 0.3466666666666667,
+        "unit": "rad/s",
+        "tolerance": 0.0010400000000000001,
+        "explanation": "Idisk=2mR²; initial total3mR² and final total(2+1/4)mR²."
+      },
+      {
+        "label": "b · Kinetic energy ratio",
+        "type": "numeric",
+        "answer": 1.3333333333333333,
+        "unit": "",
+        "tolerance": 0.004,
+        "explanation": "Kf/Ki=Ii/If=3/2.25."
+      },
+      {
+        "label": "c · Why does kinetic energy increase?",
+        "type": "choice",
+        "answer": "The cockroach does work while walking inward",
+        "options": [
+          "The cockroach does work while walking inward",
+          "The axle exerts a driving torque",
+          "Angular momentum increases because the radius decreases"
+        ],
+        "explanation": "Its internal chemical energy is converted to mechanical energy; total L is unchanged."
+      }
+    ],
+    "reasoning": "The cockroach ends at r=R/2, so its orbital inertia is one quarter of its initial value. Verification: Final inertia times final speed equals 0.780mR²/s; the energy increase is consistent with positive internal work.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-53",
+    "parts": [
+      {
+        "label": "Bullet speed",
+        "type": "numeric",
+        "answer": 1285.8873495451164,
+        "unit": "m/s",
+        "tolerance": 50,
+        "explanation": "mvr sin60°=(ML²/12+mr²)ω. Use r=L/2=.250m and include the lodged bullet inertia."
+      }
+    ],
+    "reasoning": "Conserve angular momentum about the fixed rod center during the short collision. Only the perpendicular component of bullet momentum contributes. Verification: Substituting the derived v into mvr sin60° yields Ifω=0.835208 kg·m²/s; it agrees with the printed 1.3×10³ m/s after rounding.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-54",
+    "parts": [
+      {
+        "label": "Increase in kinetic energy",
+        "type": "numeric",
+        "answer": 39.098181818181814,
+        "unit": "J",
+        "tolerance": 0.11729454545454544,
+        "explanation": "Iring=M(R1²+R2²)/2=3.20. Ii=4.48, If=3.52kg·m²; ΔK=L²/(2If)−L²/(2Ii)."
+      }
+    ],
+    "reasoning": "Conserve L=Iiωi while the cat moves from R2 to R1. The cat supplies the increase through work. Verification: Final speed follows from equal Iω; evaluating both kinetic energies separately gives the same positive ΔK.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-55",
+    "parts": [
+      {
+        "label": "Final angular speed",
+        "type": "numeric",
+        "answer": 3.3571428571428568,
+        "unit": "rad/s",
+        "tolerance": 0.05,
+        "explanation": "The falling putty has zero initial angular momentum about the vertical axis. Iω=(I+mR²)ωf."
+      }
+    ],
+    "reasoning": "The vertically falling putty increases the rotational inertia without bringing vertical-axis angular momentum. Verification: Multiplying final combined inertia by final speed reproduces 0.00235 kg·m²/s; the answer matches printed-key rounding.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-56",
+    "parts": [
+      {
+        "label": "Total arm angular momentum (uniform-sweep model)",
+        "type": "numeric",
+        "answer": 6.462704887384717,
+        "unit": "kg·m²/s",
+        "tolerance": 0.019388114662154152,
+        "explanation": "Each arm has I=mℓ²/3=.48. Their angular speeds sum to(0.5+1.0)2π/.700, so Lsum=6.4627."
+      }
+    ],
+    "reasoning": "Both arms sweep in the same angular sense to take up body angular momentum. Verification: The two arm contributions add to (mℓ²/3)(3π/0.700), with angular-momentum units; without uniform sweeps this is the time-average value.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Treat each angular sweep as uniform; without that assumption the supplied sweeps determine the time-average L, not a unique instantaneous value."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-57",
+    "parts": [
+      {
+        "label": "a · Final angular velocity",
+        "type": "numeric",
+        "answer": 18.383838383838384,
+        "unit": "rad/s",
+        "tolerance": 0.5,
+        "explanation": "Initially I=(45+0.5)mr². The small disk center finally lies2r from the axis, adding4mr²."
+      },
+      {
+        "label": "b · Energy ratio K/K0",
+        "type": "numeric",
+        "answer": 0.9191919191919192,
+        "unit": "",
+        "tolerance": 0.0027575757575757577,
+        "explanation": "At constant L the energy ratio is I0/I=45.5/49.5."
+      }
+    ],
+    "reasoning": "Use the parallel-axis theorem for the off-center small disk: I=m r²/2+m(2r)². Verification: 45.5·20=49.5·ωf after canceling mr²; the energy ratio is below one and both answers match printed-key rounding.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-58",
+    "parts": [
+      {
+        "label": "Final angular speed",
+        "type": "numeric",
+        "answer": 2.5714285714285716,
+        "unit": "rad/s",
+        "tolerance": 0.007714285714285715,
+        "explanation": "(300+60·2²)1.5=(300+60·0.5²)ωf."
+      }
+    ],
+    "reasoning": "Treat the slowly walking student as a point mass at her stated radial position. Verification: 540·1.5=315·ωf=810 kg·m²/s; moving inward increases the speed.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-59",
+    "parts": [
+      {
+        "label": "Ejected particle speed",
+        "type": "numeric",
+        "answer": 11,
+        "unit": "m/s",
+        "tolerance": 0.033,
+        "explanation": "With r=.4m, Irod=M(.8²)/12. Conservation gives (Irod+Mr²/3)20=Irodωf+(M/3)r vp, while vp=rωf+6. Solve ωf=12.5 and vp=11."
+      }
+    ],
+    "reasoning": "The particle leaves in the forward tangential direction shown. Its speed is6m/s greater than the new rod-end speed, not the old speed. Verification: The solved speeds satisfy vp−0.4ωf=6 and both sides of the angular-momentum equation equal (2.13333M) in SI units; the 11 m/s answer matches the key.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-60",
+    "parts": [
+      {
+        "label": "a · Total rotational inertia",
+        "type": "numeric",
+        "answer": 0.24036,
+        "unit": "kg·m²",
+        "tolerance": 0.00072108,
+        "explanation": "Add Irod and the block-plus-bullet point-mass inertia:0.060+0.501(0.60²)."
+      },
+      {
+        "label": "b · Bullet speed",
+        "type": "numeric",
+        "answer": 1802.7000000000003,
+        "unit": "m/s",
+        "tolerance": 5.408100000000001,
+        "explanation": "m v ℓ=Itotalω immediately across the collision."
+      }
+    ],
+    "reasoning": "The axle supplies no angular impulse about A, so angular momentum about A is conserved during impact. Verification: The computed bullet speed gives incoming angular momentum equal to 0.24036·4.5=1.08162 kg·m²/s.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-61",
+    "parts": [
+      {
+        "label": "Angular speed after collision",
+        "type": "numeric",
+        "answer": 1.4999999999999998,
+        "unit": "rad/s",
+        "tolerance": 0.0045,
+        "explanation": "Irodωi=(Irod+mputtyL²)ωf."
+      }
+    ],
+    "reasoning": "The initially stationary putty adds orbital inertia at the rod end. Verification: Initial L=0.288 kg·m²/s equals (0.120+0.072)·1.5; the answer matches the key.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-62",
+    "parts": [
+      {
+        "label": "Angular speed in tuck",
+        "type": "numeric",
+        "answer": 20.266822836359836,
+        "unit": "rad/s",
+        "tolerance": 0.06080046850907951,
+        "explanation": "The two extended quarter-turns totalπrad; tucked rotation totals7πrad. With ω1=(I2/I1)ω2, t=[π(I1/I2)+7π]/ω2."
+      }
+    ],
+    "reasoning": "Use conserved angular momentum and add the time spent in the extended and tucked orientations; the angular speeds are not equal. Verification: Using ωextended=ωtucked·3.93/19.9 makes π/ωextended+7π/ωtucked equal the full 1.87 s.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-63",
+    "parts": [
+      {
+        "label": "Angular speed just after catch",
+        "type": "numeric",
+        "answer": 0.0699534753326096,
+        "unit": "rad/s",
+        "tolerance": 0.00020986042599782878,
+        "explanation": "The tangential speed component is v cosφ. Thus m v R cosφ=(Idisk+(mchild+mball)R²)ωf."
+      }
+    ],
+    "reasoning": "The given angle is measured from the tangent, so use cosine rather than sine. The caught ball adds to final inertia. Verification: Final total inertia times ωf equals the incoming tangential angular momentum 24cos37°; the result matches printed-key rounding.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-64",
+    "parts": [
+      {
+        "label": "Angular speed ratio ωf/ωi",
+        "type": "numeric",
+        "answer": 1.5217391304347827,
+        "unit": "",
+        "tolerance": 0.004565217391304348,
+        "explanation": "Each leg contribution scales as sin²θ. Ii=1.44+.660; If=.660+2(1.44)sin²30°=1.38."
+      }
+    ],
+    "reasoning": "The initial extended leg contributes1.44kg·m²; the other leg is along the axis. In the final pose both legs contribute. Angular momentum gives ωf/ωi=Ii/If. Verification: The initial inertia is 2.10 and the final inertia is 1.38 kg·m²; multiplying the final inertia by the speed ratio recovers the initial inertia.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-65",
+    "parts": [
+      {
+        "label": "a · Angular speed just after impact",
+        "type": "numeric",
+        "answer": 0.14814814814814817,
+        "unit": "rad/s",
+        "tolerance": 0.0004444444444444445,
+        "explanation": "Angular momentum about the central pivot:mp v r=(2mball+mp)r²ω."
+      },
+      {
+        "label": "b · Ratio of post-impact energy to incident putty energy",
+        "type": "numeric",
+        "answer": 0.012345679012345682,
+        "unit": "",
+        "tolerance": 3.703703703703704e-05,
+        "explanation": "Compute Kafter=Iω²/2 and divide by mp v²/2."
+      },
+      {
+        "label": "c · Total clockwise angle before first stop",
+        "type": "numeric",
+        "answer": 181.2993353921377,
+        "unit": "°",
+        "tolerance": 0.5,
+        "explanation": "The equal balls’ gravitational energy changes cancel. With clockwise θ from horizontal, ΔU=−mpgr sinθ. Set Kafter=ΔU, selecting the first stop after passing180°."
+      }
+    ],
+    "reasoning": "The putty first moves downward, passes the opposite horizontal position, then stops slightly above it. Do not choose the small arcsine branch near0°. Verification: Collision Iω equals incoming mvr; the energy ratio is below one. At the first stopping angle, the putty rise stores the post-impact kinetic energy. All three numbers match key rounding.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-66",
+    "parts": [
+      {
+        "label": "Maximum angle from vertical",
+        "type": "numeric",
+        "answer": 31.78833061705161,
+        "unit": "°",
+        "tolerance": 0.09536499185115484,
+        "explanation": "v=√(2gh). After sticking, K=(mvℓ)²/(2I), I=Mℓ²/3+mℓ². The rise costs g(Mℓ/2+mℓ)(1−cosθ)."
+      }
+    ],
+    "reasoning": "Use energy for the slide, angular momentum for the inelastic impact, then energy for the swing; kinetic energy is not conserved during impact. Verification: The final angle gives (1−cosθ)=0.15, so the potential increase 0.392·0.15 equals post-impact energy 0.0588 J.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-67",
+    "parts": [
+      {
+        "label": "a · Impact distance d",
+        "type": "numeric",
+        "answer": 0.18,
+        "unit": "m",
+        "tolerance": 0.00054,
+        "explanation": "For zero final L, (Mℓ²/12)ω=(M/3)vd."
+      },
+      {
+        "label": "b · Rotation when d exceeds this value",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "Stationary for every d"
+        ],
+        "explanation": "The downward particle arriving to the right of the axis brings negative angular momentum. At larger d it outweighs the rod’s initial positive L."
+      }
+    ],
+    "reasoning": "Set opposite angular momenta equal to find d=.180m. Verification: At d=0.180 m the particle and rod angular momenta cancel; increasing d makes the clockwise incoming contribution larger. The distance matches the key.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-68",
+    "parts": [
+      {
+        "label": "a · Precession angular speed",
+        "type": "numeric",
+        "answer": 2.0796245897340992,
+        "unit": "rad/s",
+        "tolerance": 0.006238873769202298,
+        "explanation": "Ω=mgl/(Iωspin); ωspin=30·2πrad/s. The sin30° factor cancels between torque and the precessional change in L."
+      },
+      {
+        "label": "b · Precession direction viewed from above",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "No precession"
+        ],
+        "explanation": "The spin angular momentum has a downward component; the gravitational torque gives clockwise steady precession for that spin sense."
+      }
+    ],
+    "reasoning": "Use the rapid-spin, steady-precession approximation. Verification: The precession magnitude satisfies ΩL sin30°=mgℓ sin30°. The torque direction gives clockwise precession for the stated clockwise spin.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Spin angular momentum dominates the angular momentum due to precession."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-69",
+    "parts": [
+      {
+        "label": "Precession rate",
+        "type": "numeric",
+        "answer": 0.04117656687673517,
+        "unit": "rad/s",
+        "tolerance": 0.0001235297006302055,
+        "explanation": "The center lies half the11cm axle length from the support. Ω=mg(.055)/[(mR²/2)ωspin]; mass cancels."
+      }
+    ],
+    "reasoning": "Use lever arm0.055m, not the full axle length, and convert rev/min to rad/s. Verification: The lever arm is half the axle length, mass cancels, and Ω has units s⁻¹; the value matches printed-key rounding.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-70",
+    "parts": [
+      {
+        "label": "Initial center-of-mass speed",
+        "type": "numeric",
+        "answer": 2.3313515280096513,
+        "unit": "m/s",
+        "tolerance": 0.006994054584028954,
+        "explanation": "For a solid ball, K=(7/10)mv². Set this equal to mg(s sin15°)."
+      }
+    ],
+    "reasoning": "Rolling without slipping conserves total kinetic plus gravitational potential energy. Verification: Substitution gives (7/10)mv²=mg·1.5sin15°; the inferred speed is smaller than the corresponding sliding-particle speed.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-71",
+    "parts": [
+      {
+        "label": "a · Center-of-mass acceleration",
+        "type": "numeric",
+        "answer": 1.6,
+        "unit": "m/s²",
+        "tolerance": 0.0048000000000000004,
+        "explanation": "Translation: F+f=ma. Clockwise torque: (F−f)R=(mR²/2)(a/R). Thus a=4F/(3m)."
+      },
+      {
+        "label": "b · Angular acceleration magnitude",
+        "type": "numeric",
+        "answer": 16,
+        "unit": "rad/s²",
+        "tolerance": 0.048,
+        "explanation": "|α|=a/R=1.6/.10."
+      },
+      {
+        "label": "c · Friction force vector",
+        "type": "choice",
+        "answer": "(4.0 N) î",
+        "options": [
+          "(4.0 N) î",
+          "−(4.0 N) î",
+          "(12 N) î"
+        ],
+        "explanation": "f=ma−F=16−12=+4N. Static friction points right in this top-pull geometry."
+      }
+    ],
+    "reasoning": "The line pulls tangentially at the cylinder top. Static friction acts in the same horizontal direction as the applied force to enforce rolling. Verification: F+f=16 N=ma and (F−f)R=0.8 N·m=Iα; the acceleration results match the existing key.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-72",
+    "parts": [
+      {
+        "label": "Translational-to-rotational energy ratio",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "",
+        "tolerance": 0.003,
+        "explanation": "For a thin-walled pipe I=mR² and v=Rω; mv²/2=Iω²/2."
+      }
+    ],
+    "reasoning": "Use the thin cylindrical-shell inertia about its central lengthwise axis. Verification: Substituting I=mR² and ω=v/R makes the two energies identical for every m,R,v.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-73",
+    "parts": [
+      {
+        "label": "a · Angular momentum about origin",
+        "type": "choice",
+        "answer": "0",
+        "options": [
+          "0",
+          "−30t³ k̂ kg·m²/s",
+          "30t³ k̂ kg·m²/s"
+        ],
+        "explanation": "The car moves on the x-axis, so r and p are parallel."
+      },
+      {
+        "label": "b · Torque about origin",
+        "type": "choice",
+        "answer": "0",
+        "options": [
+          "0",
+          "−90t² k̂ N·m",
+          "90t² k̂ N·m"
+        ],
+        "explanation": "The force also lies along the x-axis; r×F=0."
+      },
+      {
+        "label": "c · Angular momentum about (2,5,0) m",
+        "type": "choice",
+        "answer": "−30t³ k̂ kg·m²/s",
+        "options": [
+          "−30t³ k̂ kg·m²/s",
+          "30t³ k̂ kg·m²/s",
+          "−90t² k̂ kg·m²/s"
+        ],
+        "explanation": "ry=−5m, px=3(−2t³); Lz=−ry px=−30t³."
+      },
+      {
+        "label": "d · Torque about (2,5,0) m",
+        "type": "choice",
+        "answer": "−90t² k̂ N·m",
+        "options": [
+          "−90t² k̂ N·m",
+          "90t² k̂ N·m",
+          "−30t³ k̂ N·m"
+        ],
+        "explanation": "Differentiate Lz=−30t³, or use Fx=m dvx/dt=−18t² and τz=−ryFx."
+      },
+      {
+        "label": "e · Angular momentum about (2,−5,0) m",
+        "type": "choice",
+        "answer": "30t³ k̂ kg·m²/s",
+        "options": [
+          "30t³ k̂ kg·m²/s",
+          "−30t³ k̂ kg·m²/s",
+          "90t² k̂ kg·m²/s"
+        ],
+        "explanation": "Here ry=+5m, reversing the sign of Lz."
+      },
+      {
+        "label": "f · Torque about (2,−5,0) m",
+        "type": "choice",
+        "answer": "90t² k̂ N·m",
+        "options": [
+          "90t² k̂ N·m",
+          "−90t² k̂ N·m",
+          "30t³ k̂ N·m"
+        ],
+        "explanation": "τz=d(30t³)/dt=90t²."
+      }
+    ],
+    "reasoning": "Use r relative to each specified reference point. The x coordinate of the reference point does not affect r×p when py=0. Verification: For each reference point, differentiating the angular-momentum result gives its torque result; right-hand-rule signs also follow directly from −ry px.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "t is in seconds and t>0; +z points out of the xy plane."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-74",
+    "parts": [
+      {
+        "label": "Time to zero angular speed",
+        "type": "numeric",
+        "answer": 12.0,
+        "unit": "s",
+        "tolerance": 0.036000000000000004,
+        "explanation": "The opposing angular impulse must equal600kg·m²/s: τt=600."
+      }
+    ],
+    "reasoning": "A constant torque opposite the initial angular momentum first brings L to zero in12s. Verification: The opposing impulse 50·12=600 N·m·s cancels the initial angular momentum exactly.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-75",
+    "parts": [
+      {
+        "label": "a · Merry-go-round rotational inertia",
+        "type": "numeric",
+        "answer": 149.05800000000002,
+        "unit": "kg·m²",
+        "tolerance": 0.44717400000000007,
+        "explanation": "I=Mk²=180(.910²)=149.058."
+      },
+      {
+        "label": "b · Initial child angular momentum",
+        "type": "numeric",
+        "answer": 158.4,
+        "unit": "kg·m²/s",
+        "tolerance": 0.4752,
+        "explanation": "For a tangential approach L=mvR=44(3)(1.2)=158.4."
+      },
+      {
+        "label": "c · Final angular speed",
+        "type": "numeric",
+        "answer": 0.7456995169900856,
+        "unit": "rad/s",
+        "tolerance": 0.001,
+        "explanation": "ωf=mvR/(Mk²+mR²)=158.4/212.418=0.7456995rad/s."
+      }
+    ],
+    "reasoning": "Add the child’s final point-mass inertia to the platform inertia and conserve angular momentum. Verification: Final inertia 212.418 kg·m² times 0.745699517 rad/s equals initial 158.4 kg·m²/s. The old key's 0.744 does not reproduce that equality.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "The supplied givens imply0.7456995rad/s; the previously imported key value0.744 is not the direct result of those givens."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-76",
+    "parts": [
+      {
+        "label": "Rotational kinetic energy",
+        "type": "numeric",
+        "answer": 0.6243001443001442,
+        "unit": "J",
+        "tolerance": 0.0018729004329004328,
+        "explanation": "M=ρabc=.9504kg. Ic=M(a²+b²)/12; the displaced axis is at d=√(a²+b²)/4=.0625m. I=Ic+Md²=.0086625; K=L²/(2I)."
+      }
+    ],
+    "reasoning": "Convert dimensions and density to SI, use the parallel-axis theorem, then use K=L²/(2I). Verification: Directly computing ω=L/I and then Iω²/2 gives the same energy as L²/(2I); density conversion gives mass 0.9504 kg.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-77",
+    "parts": [
+      {
+        "label": "a · Angular momentum magnitude about midpoint",
+        "type": "numeric",
+        "answer": 6.650280000000001e-05,
+        "unit": "kg·m²/s",
+        "tolerance": 1.9950840000000004e-07,
+        "explanation": "Each particle contributes m v(d/2) with the same sign; total magnitude mvd."
+      },
+      {
+        "label": "b · Does a different reference point change the result?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only if the point is outside the two paths"
+        ],
+        "explanation": "For opposite momenta total P=0, so shifting the origin leaves total L unchanged."
+      },
+      {
+        "label": "c · Magnitude at midpoint after reversing one particle",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "kg·m²/s",
+        "tolerance": 1e-09,
+        "explanation": "Equal parallel momenta now give opposite equal angular momenta about a midpoint between the paths."
+      },
+      {
+        "label": "d · Can changing the reference point now change the result?",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only the kinetic energy changes"
+        ],
+        "explanation": "Now total P is nonzero. Shifting a reference point perpendicular to P changes L by −a×P."
+      }
+    ],
+    "reasoning": "Distinguish the opposite-velocity case (zero net momentum) from the same-velocity case (nonzero net momentum). Verification: Adding the individual cross products gives mvd for opposite momenta and zero at the midpoint for parallel momenta; origin dependence follows from L′=L−a×P. Numeric values match the key.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-78",
+    "parts": [
+      {
+        "label": "a · Linear acceleration magnitude",
+        "type": "numeric",
+        "answer": 4.108888888888889,
+        "unit": "m/s²",
+        "tolerance": 0.012326666666666668,
+        "explanation": "0=v0²−2aΔx, so a=43²/450."
+      },
+      {
+        "label": "b · Angular acceleration magnitude",
+        "type": "numeric",
+        "answer": 16.435555555555556,
+        "unit": "rad/s²",
+        "tolerance": 0.04930666666666667,
+        "explanation": "Rolling gives |α|=a/R."
+      },
+      {
+        "label": "c · Frictional torque magnitude",
+        "type": "numeric",
+        "answer": 2.547511111111111,
+        "unit": "N·m",
+        "tolerance": 0.007642533333333333,
+        "explanation": "|τ|=I|α|."
+      }
+    ],
+    "reasoning": "Assume uniform deceleration and no slipping until rest. Verification: Using t=v0/a gives displacement v0t/2=225 m; αR=a and Iα recovers the torque, with consistent SI units.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-79",
+    "parts": [
+      {
+        "label": "a · IA/IB for equal angular momenta",
+        "type": "numeric",
+        "answer": 0.3333333333333333,
+        "unit": "",
+        "tolerance": 0.001,
+        "explanation": "Belt speeds match: ωARA=ωBRB, so ωA=3ωB. Equal Iω requires IA/IB=1/3."
+      },
+      {
+        "label": "b · IA/IB for equal rotational kinetic energies",
+        "type": "numeric",
+        "answer": 0.1111111111111111,
+        "unit": "",
+        "tolerance": 0.0003333333333333333,
+        "explanation": "Equal Iω² requires IA/IB=(ωB/ωA)²=1/9."
+      }
+    ],
+    "reasoning": "The belt constrains tangential speeds, not angular speeds. Verification: With ωA=3ωB, substitution gives equal Iω for ratio 1/3 and equal Iω² for ratio 1/9. Both agree with printed-key rounding.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-80",
+    "parts": [
+      {
+        "label": "Angular momentum vector after collision",
+        "type": "choice",
+        "answer": "5.55 k̂ kg·m²/s",
+        "options": [
+          "5.55 k̂ kg·m²/s",
+          "−5.55 k̂ kg·m²/s",
+          "1.95 k̂ kg·m²/s"
+        ],
+        "explanation": "Total p=(18î−7.5ĵ)kg·m/s. At r=(−.5î−.1ĵ)m, Lz=rxpy−rypx=3.75+1.80=5.55."
+      }
+    ],
+    "reasoning": "Linear momentum is conserved in the completely inelastic collision; compute r×ptotal at its location. Verification: Summing each incoming particle's r×p independently gives +3.75+1.80=+5.55 along k̂, agreeing with the total-momentum cross product.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-81",
+    "parts": [
+      {
+        "label": "a · Rotational kinetic energy",
+        "type": "numeric",
+        "answer": 58.8,
+        "unit": "J",
+        "tolerance": 0.1764,
+        "explanation": "The rolling radius is the axle radius0.200m. I/(mr²)=1.5, so rotation receives1.5/2.5 of the98J gravitational drop."
+      },
+      {
+        "label": "b · Translational kinetic energy",
+        "type": "numeric",
+        "answer": 39.2,
+        "unit": "J",
+        "tolerance": 0.11760000000000001,
+        "explanation": "Translation receives1/2.5 of mgs sin30°=98J."
+      }
+    ],
+    "reasoning": "The wheel does not touch the ramp; v=r_axle ω. Using the0.400m wheel radius would give the wrong energy split. Verification: The two energies sum to 98 J=mgh and their ratio 1.5 equals I/(mr_axle²); both match the existing key.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-82",
+    "parts": [
+      {
+        "label": "a · Rotational inertia about the end",
+        "type": "numeric",
+        "answer": 12.244897959183675,
+        "unit": "kg·m²",
+        "tolerance": 0.036734693877551024,
+        "explanation": "Mass is weight/g. For a uniform rod about an end, I=(W/g)L²/3."
+      },
+      {
+        "label": "b · Angular momentum magnitude",
+        "type": "numeric",
+        "answer": 307.74785178022466,
+        "unit": "kg·m²/s",
+        "tolerance": 0.923243555340674,
+        "explanation": "Convert240rev/min to8πrad/s and compute Iω."
+      }
+    ],
+    "reasoning": "The given10.0N is weight, not mass. Verification: Using the mass 10/g and angular speed 8π yields the required kg·m² and kg·m²/s dimensions; treating newtons as kilograms would fail this check.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-83",
+    "parts": [
+      {
+        "label": "a · Total kinetic energy at bottom",
+        "type": "numeric",
+        "answer": 61.74000000000001,
+        "unit": "J",
+        "tolerance": 0.18522000000000002,
+        "explanation": "For a solid sphere, K=(1/2+1/5)mv²=(7/10)(W/g)v²."
+      },
+      {
+        "label": "b · Distance along incline",
+        "type": "numeric",
+        "answer": 3.4300000000000006,
+        "unit": "m",
+        "tolerance": 0.010290000000000002,
+        "explanation": "At the turning point K=W s sin30°, giving s=3.43m."
+      },
+      {
+        "label": "c · Does the distance depend on sphere mass?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes, proportional to mass",
+          "Yes, inversely proportional to mass"
+        ],
+        "explanation": "Both initial energy and gravitational work are proportional to mass, which cancels."
+      }
+    ],
+    "reasoning": "Use total rolling energy, including spin, rather than translational energy alone. Verification: The energy equals the incline gravitational work 36·3.43·sin30°; mass cancels in the distance expression and numeric answers match key rounding.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-84",
+    "parts": [
+      {
+        "label": "a · Time to string end",
+        "type": "numeric",
+        "answer": 0.8853494030789334,
+        "unit": "s",
+        "tolerance": 0.0026560482092368,
+        "explanation": "Solve ℓ=v0t+(1/2)at² with a=g/[1+I/(mr²)]."
+      },
+      {
+        "label": "b · Total kinetic energy at end",
+        "type": "numeric",
+        "answer": 9.35195546875,
+        "unit": "J",
+        "tolerance": 0.028055866406250005,
+        "explanation": "Ktotal=1/2(m+I/r²)v²=Kinitial+mgℓ."
+      },
+      {
+        "label": "c · Final linear speed",
+        "type": "numeric",
+        "answer": 1.4107941696844735,
+        "unit": "m/s",
+        "tolerance": 0.004232382509053421,
+        "explanation": "v²=v0²+2aℓ."
+      },
+      {
+        "label": "d · Translational kinetic energy",
+        "type": "numeric",
+        "answer": 0.11942041135294217,
+        "unit": "J",
+        "tolerance": 0.0003582612340588265,
+        "explanation": "Kt=mv²/2."
+      },
+      {
+        "label": "e · Angular speed",
+        "type": "numeric",
+        "answer": 440.8731780263979,
+        "unit": "rad/s",
+        "tolerance": 1.3226195340791937,
+        "explanation": "No slip between axle and string gives ω=v/r."
+      },
+      {
+        "label": "f · Rotational kinetic energy",
+        "type": "numeric",
+        "answer": 9.232535057397058,
+        "unit": "J",
+        "tolerance": 0.027697605172191175,
+        "explanation": "Kr=Iω²/2."
+      }
+    ],
+    "reasoning": "Reuse Problem17: I=950g·cm²=9.50×10⁻⁵kg·m², m=.120kg, r=.0032m, string length1.20m. Unlike P17, include the initial rolling kinetic energy. Verification: Independently check final total energy against initial total energy plus mg·1.20; Ktranslation+Krotation agrees and ωr=v.",
+    "sourcePages": [
+      28,
+      32
+    ],
+    "assumptions": [
+      "Initial axle/string motion is nonslipping, so ω0=v0/r."
+    ]
+  },
+  {
+    "id": "physics-chapter-11-problems-85",
+    "parts": [
+      {
+        "label": "a · Merry-go-round angular speed",
+        "type": "choice",
+        "answer": "mvR/(I+MR²)",
+        "options": [
+          "mvR/(I+MR²)",
+          "mvR/I",
+          "mv/(I+MR²)"
+        ],
+        "explanation": "Initial L=0. Afterward rock momentum gives mvR balanced by the opposite platform-plus-girl angular momentum (I+MR²)ω."
+      },
+      {
+        "label": "b · Girl linear speed",
+        "type": "choice",
+        "answer": "mvR²/(I+MR²)",
+        "options": [
+          "mvR²/(I+MR²)",
+          "mvR/(I+MR²)",
+          "mvR²/I"
+        ],
+        "explanation": "The girl stays on the rim; her speed is Rω."
+      }
+    ],
+    "reasoning": "The stated rock speed is relative to ground, so no moving-platform velocity correction is needed. The girl and platform move opposite the rock. Verification: The proposed platform-plus-girl angular momentum is −mvR, canceling the rock's +mvR; multiplying ω by R gives the girl's speed with velocity units.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  },
+  {
+    "id": "physics-chapter-11-problems-86",
+    "parts": [
+      {
+        "label": "a · Rotational inertia",
+        "type": "choice",
+        "answer": "(1/2)mR²",
+        "options": [
+          "(1/2)mR²",
+          "mR²",
+          "(2/5)mR²"
+        ],
+        "explanation": "mgh=(1/2)mv²+(1/2)I(v/R)². Insert h=3v²/(4g) and solve I=mR²/2."
+      },
+      {
+        "label": "b · A body consistent with this inertia",
+        "type": "choice",
+        "answer": "A uniform solid cylinder or disk rolling on its rim",
+        "options": [
+          "A uniform solid cylinder or disk rolling on its rim",
+          "A thin-walled hollow cylinder",
+          "A uniform solid sphere"
+        ],
+        "explanation": "A solid cylinder/disk has I=mR²/2 about its symmetry axis; a hoop and solid sphere have different factors."
+      }
+    ],
+    "reasoning": "Use energy conservation and the rolling constraint to identify the inertia coefficient. Verification: Substituting I=mR²/2 gives total initial energy 3mv²/4=mgh, exactly reproducing the specified maximum height.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": []
+  }
+]

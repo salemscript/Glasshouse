@@ -1,0 +1,1630 @@
+[
+  {
+    "id": "physics-chapter-12-problems-39",
+    "parts": [
+      {
+        "label": "a · tie tension",
+        "type": "numeric",
+        "answer": 207.10418685436682,
+        "unit": "N",
+        "tolerance": 3.1065628028155023,
+        "explanation": "Moment balance for the right leg gives T(H/2)=N_E(0.762)."
+      },
+      {
+        "label": "b · force at A",
+        "type": "numeric",
+        "answer": 539.0,
+        "unit": "N",
+        "tolerance": 8.084999999999999,
+        "explanation": "The two upward floor reactions sum to 854 N."
+      },
+      {
+        "label": "c · force at E",
+        "type": "numeric",
+        "answer": 315.0,
+        "unit": "N",
+        "tolerance": 4.725,
+        "explanation": "About A: N_E(1.524)=854(0.762)(1.80/2.44)."
+      }
+    ],
+    "reasoning": "The tie is halfway up the legs. First solve the whole ladder torque balance, then the isolated right leg. Check: N_A+N_E=854 N and each leg has zero net moment.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Neglect ladder weight; frictionless floor."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-40",
+    "parts": [
+      {
+        "label": "a · cable angle",
+        "type": "numeric",
+        "answer": 29.997574182507943,
+        "unit": "°",
+        "tolerance": 0.44996361273761915,
+        "explanation": "Adding the graph endpoint equations gives (500+700)sinθ=(m_b+m_p)g."
+      },
+      {
+        "label": "b · beam mass",
+        "type": "numeric",
+        "answer": 51.016666666666666,
+        "unit": "kg",
+        "tolerance": 0.76525,
+        "explanation": "At x=0, 500 sinθ=m_b g/2."
+      },
+      {
+        "label": "c · package mass",
+        "type": "numeric",
+        "answer": 10.203333333333333,
+        "unit": "kg",
+        "tolerance": 0.15305,
+        "explanation": "The remaining mass belongs to the package."
+      }
+    ],
+    "reasoning": "Read T=500 N at x/L=0 and 700 N at x/L=1. The torque equation is T sinθ=g(m_b/2+m_p x/L). Check: the masses sum to 61.22 kg and reproduce both graph endpoints.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-41",
+    "parts": [
+      {
+        "label": "a · first event at μ = 0.60",
+        "type": "choice",
+        "answer": "Slides",
+        "options": [
+          "Slides",
+          "Tips",
+          "Slides and tips simultaneously"
+        ],
+        "explanation": "Sliding begins at tanθ=0.60, before the tipping threshold 0.60/0.90."
+      },
+      {
+        "label": "b · angle for μ = 0.60",
+        "type": "numeric",
+        "answer": 30.96375653207352,
+        "unit": "°",
+        "tolerance": 0.4644563479811028,
+        "explanation": "Use θ=arctanμ."
+      },
+      {
+        "label": "c · first event at μ = 0.70",
+        "type": "choice",
+        "answer": "Tips",
+        "options": [
+          "Slides",
+          "Tips",
+          "Slides and tips simultaneously"
+        ],
+        "explanation": "The center of mass passes over the downhill edge before tanθ reaches 0.70."
+      },
+      {
+        "label": "d · angle for μ = 0.70",
+        "type": "numeric",
+        "answer": 33.690067525979785,
+        "unit": "°",
+        "tolerance": 0.5053510128896967,
+        "explanation": "Tipping occurs when 0.90 tanθ=0.60."
+      }
+    ],
+    "reasoning": "The COM height is 0.60+0.30=0.90 m, not the geometric-center height. Compare friction and tipping thresholds. Check: arctan0.60 < arctan(2/3) < arctan0.70.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-42",
+    "parts": [
+      {
+        "label": "percentage of ladder length",
+        "type": "numeric",
+        "answer": 84.78528932234384,
+        "unit": "%",
+        "tolerance": 1.2717793398351576,
+        "explanation": "At impending slip, F_wall=0.53(45+72)g; moments about the foot give F_wall(9.3)=g√(12²−9.3²)(45/3+72f)."
+      }
+    ],
+    "reasoning": "Solve for the fractional distance f measured along the ladder from its foot. The ladder COM is L/3 from its foot in the referenced sample. Check: 0<f<1 and the limiting friction balances the wall force.",
+    "sourcePages": [
+      9,
+      23
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Use the ladder geometry and masses from Sample Problem 12.03."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-43",
+    "parts": [
+      {
+        "label": "a · shear stress",
+        "type": "numeric",
+        "answer": 6498826.84291906,
+        "unit": "Pa",
+        "tolerance": 97482.4026437859,
+        "explanation": "Shear stress is mg/A with A=πd²/4."
+      },
+      {
+        "label": "b · downward deflection",
+        "type": "numeric",
+        "answer": 1.1481260755823672e-05,
+        "unit": "m",
+        "tolerance": 1.7221891133735507e-07,
+        "explanation": "The shear modulus gives Δx/L=stress/G."
+      }
+    ],
+    "reasoning": "Use the projecting length 0.053 m in shear strain. Check dimensions: (Pa)(m)/(Pa)=m; the small deflection is consistent with linear elasticity.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-44",
+    "parts": [
+      {
+        "label": "a · Young modulus",
+        "type": "numeric",
+        "answer": 75000000000.0,
+        "unit": "Pa",
+        "tolerance": 4000000000.0,
+        "explanation": "Read the straight segment near (strain 0.002, stress 150 MPa): E=stress/strain."
+      },
+      {
+        "label": "b · approximate yield strength",
+        "type": "numeric",
+        "answer": 250000000.0,
+        "unit": "Pa",
+        "tolerance": 20000000.0,
+        "explanation": "Yield is where the graph first departs from its initial straight line, approximately 250 MPa."
+      }
+    ],
+    "reasoning": "The peak near 300 MPa is not the yield strength. Check: the straight-line slope has pressure units because strain is dimensionless.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Graph readings are approximate."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-45",
+    "parts": [
+      {
+        "label": "a · fraction supported by A",
+        "type": "numeric",
+        "answer": 0.8,
+        "unit": "",
+        "tolerance": 0.012,
+        "explanation": "Equal shortening implies F_A/(A_A E_A)=F_B/(A_B E_B), so F_A=4F_B."
+      },
+      {
+        "label": "b · fraction supported by B",
+        "type": "numeric",
+        "answer": 0.2,
+        "unit": "",
+        "tolerance": 0.003,
+        "explanation": "F_A+F_B=Mg gives F_B=Mg/5."
+      },
+      {
+        "label": "c · d_A/d_B",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "",
+        "tolerance": 0.00375,
+        "explanation": "Moment balance about the brick COM gives F_A d_A=F_B d_B."
+      }
+    ],
+    "reasoning": "Both cylinders have equal initial length and the brick remains horizontal. Check: fractions sum to one and the stronger support is closer to the COM.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-46",
+    "parts": [
+      {
+        "label": "a · energy to break thread",
+        "type": "numeric",
+        "answer": 3.0336000000000006e-05,
+        "unit": "J",
+        "tolerance": 4.550400000000001e-07,
+        "explanation": "Integrate the three straight segments of the stress–strain graph and multiply by A₀L₀."
+      },
+      {
+        "label": "b · fruit-fly kinetic energy",
+        "type": "numeric",
+        "answer": 8.67e-06,
+        "unit": "J",
+        "tolerance": 1.3005e-07,
+        "explanation": "K=mv²/2 with 6 mg=6×10⁻⁶ kg."
+      },
+      {
+        "label": "c · bee kinetic energy",
+        "type": "numeric",
+        "answer": 3.42216e-05,
+        "unit": "J",
+        "tolerance": 5.133239999999999e-07,
+        "explanation": "K=mv²/2 with 0.388 g=3.88×10⁻⁴ kg."
+      },
+      {
+        "label": "d · does fruit fly break thread?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "Yes",
+          "No",
+          "Exactly at breaking threshold"
+        ],
+        "explanation": "Its kinetic energy is below the graph area energy."
+      },
+      {
+        "label": "e · does bee break thread?",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Exactly at breaking threshold"
+        ],
+        "explanation": "Its kinetic energy exceeds the graph area energy."
+      }
+    ],
+    "reasoning": "The graph explicitly uses initial cross-sectional area, so W=A₀L₀∫σ dε even though the thread volume stays constant. Graph vertices are (0,0), (1,0.12), (1.4,0.30), (2,0.80) in GN/m². Check: W=30.336 μJ lies between the two impact energies.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "All incident kinetic energy is available to stretch the thread.",
+      "Read graph vertices approximately."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-47",
+    "parts": [
+      {
+        "label": "a · overburden weight",
+        "type": "numeric",
+        "answer": 1432368000.0,
+        "unit": "N",
+        "tolerance": 21485520.0,
+        "explanation": "The supported soil volume is tunnel length × width × roof depth."
+      },
+      {
+        "label": "b · minimum number of columns",
+        "type": "numeric",
+        "answer": 75,
+        "unit": "columns",
+        "tolerance": 0,
+        "explanation": "Each column may support half the steel ultimate strength times its 0.096 m² area."
+      }
+    ],
+    "reasoning": "The 60 m is measured to the tunnel roof; the tunnel height is not added. Check: 74 columns exceed the allowed stress while 75 do not.",
+    "sourcePages": [
+      15,
+      24
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Columns share the full overburden load equally."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-48",
+    "parts": [
+      {
+        "label": "work done",
+        "type": "numeric",
+        "answer": 0.055999999999999994,
+        "unit": "J",
+        "tolerance": 0.0008399999999999999,
+        "explanation": "The triangular stress–strain area is ½(7×10⁷)(0.001); multiply by initial wire volume."
+      }
+    ],
+    "reasoning": "Elastic work is ∫F d(ΔL)=AL∫σ dε. Check: Pa·m³=J, giving 0.056 J.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-49",
+    "parts": [
+      {
+        "label": "a · tension in A",
+        "type": "numeric",
+        "answer": 866.6685662670372,
+        "unit": "N",
+        "tolerance": 13.000028494005559,
+        "explanation": "Equal final lengths give 2.500F_A−2.502F_B=EA(0.002)."
+      },
+      {
+        "label": "b · tension in B",
+        "type": "numeric",
+        "answer": 142.73143373296284,
+        "unit": "N",
+        "tolerance": 2.1409715059944427,
+        "explanation": "Use F_A+F_B=103g."
+      },
+      {
+        "label": "c · d_A/d_B",
+        "type": "numeric",
+        "answer": 0.16468975487105014,
+        "unit": "",
+        "tolerance": 0.002470346323065752,
+        "explanation": "Torque equilibrium gives d_A/d_B=F_B/F_A."
+      }
+    ],
+    "reasoning": "The shorter wire must stretch more and carries greater force. Check: both final wire lengths agree; values agree with the printed key to rounding.",
+    "sourcePages": [
+      15,
+      24
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-50",
+    "parts": [
+      {
+        "label": "maximum insect mass",
+        "type": "numeric",
+        "answer": 0.00042073655188968267,
+        "unit": "kg",
+        "tolerance": 6.31104827834524e-06,
+        "explanation": "At strain 2 the thread length triples and its area becomes A₀/3. Each half-thread has sinθ=√8/3, so mg=2σ(A₀/3)sinθ."
+      }
+    ],
+    "reasoning": "Use the current cross section for the stated breaking stress. Check: each segment length triples while its volume remains unchanged; the two upward tension components support the insect.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "The insect is caught at the midpoint; thread weight is negligible."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-51",
+    "parts": [
+      {
+        "label": "a · force at stopper A",
+        "type": "numeric",
+        "answer": 118.46153846153845,
+        "unit": "N",
+        "tolerance": 1.7769230769230768,
+        "explanation": "Equal stopper stiffness and small rotation imply F_A/F_B=r_A/r_B."
+      },
+      {
+        "label": "b · force at stopper B",
+        "type": "numeric",
+        "answer": 67.6923076923077,
+        "unit": "N",
+        "tolerance": 1.0153846153846153,
+        "explanation": "Solve F_A r_A+F_B r_B=220(0.05)."
+      }
+    ],
+    "reasoning": "For a small rotation, stopper compression is proportional to distance from the pivot. Check: the computed moments sum to 11 N·m and agree with the rounded key.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Identical linearly elastic stoppers and small rotation."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-52",
+    "parts": [
+      {
+        "label": "a · strain",
+        "type": "numeric",
+        "answer": 0.0018666666666666666,
+        "unit": "",
+        "tolerance": 2.8e-05,
+        "explanation": "Strain is extension divided by original length."
+      },
+      {
+        "label": "b · stress",
+        "type": "numeric",
+        "answer": 12862261.459943976,
+        "unit": "Pa",
+        "tolerance": 192933.92189915964,
+        "explanation": "Stress is the climber weight divided by πd²/4."
+      },
+      {
+        "label": "c · Young modulus",
+        "type": "numeric",
+        "answer": 6890497210.684273,
+        "unit": "Pa",
+        "tolerance": 103357458.16026409,
+        "explanation": "E=stress/strain."
+      }
+    ],
+    "reasoning": "Convert 9.6 mm to 0.0096 m. Check: E A ΔL/L reproduces 95g, and all values agree with the existing numerical check.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-53",
+    "parts": [
+      {
+        "label": "a · downhill force",
+        "type": "numeric",
+        "answer": 17734041.720664054,
+        "unit": "N",
+        "tolerance": 266010.6258099608,
+        "explanation": "The slab volume gives its mass; the downslope weight component is mg sin26°."
+      },
+      {
+        "label": "b · maximum static friction",
+        "type": "numeric",
+        "answer": 14180467.80797596,
+        "unit": "N",
+        "tolerance": 212707.0171196394,
+        "explanation": "The normal reaction is mg cos26° and limiting friction is μ_s times this."
+      },
+      {
+        "label": "c · minimum bolt count",
+        "type": "numeric",
+        "answer": 16,
+        "unit": "bolts",
+        "tolerance": 0,
+        "explanation": "Divide the force deficit by breaking shear stress times one bolt area, then round upward."
+      }
+    ],
+    "reasoning": "Each bolt supplies at most 230400 N in shear. Check: the required net bolt force is positive, and the next smaller integer count cannot hold the slab.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-54",
+    "parts": [
+      {
+        "label": "maximum base distance from wall",
+        "type": "numeric",
+        "answer": 3.385282654104417,
+        "unit": "m",
+        "tolerance": 0.050779239811566255,
+        "explanation": "Moment balance gives N_wall/W=x/(2h); impending sliding requires x/(2h)=0.46 and x²+h²=25."
+      }
+    ],
+    "reasoning": "Eliminate h using the fixed ladder length. Check: the distance is below 5 m and the required friction equals μW.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-55",
+    "parts": [
+      {
+        "label": "coefficient of static friction",
+        "type": "numeric",
+        "answer": 0.28867513459481287,
+        "unit": "",
+        "tolerance": 0.004330127018922192,
+        "explanation": "At the junction, horizontal tension equals m_B g tan30° because the 30° angle is measured from vertical."
+      }
+    ],
+    "reasoning": "At impending slip, μm_Ag=m_Bg tan30°. Check: gravity cancels and μ≈0.289 agrees with the key.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-56",
+    "parts": [
+      {
+        "label": "a · ramp mass",
+        "type": "numeric",
+        "answer": 500,
+        "unit": "kg",
+        "tolerance": 7.5,
+        "explanation": "At x=0: (20000)(0.49)=m_r g(4/2)."
+      },
+      {
+        "label": "b · man mass",
+        "type": "numeric",
+        "answer": 62.5,
+        "unit": "kg",
+        "tolerance": 0.9375,
+        "explanation": "The endpoint increase gives (5000)(0.49)=m_m g(4)."
+      }
+    ],
+    "reasoning": "The roller force is horizontal, so its moment arm is the 0.49 m height difference. Check: the inferred masses reproduce 20 kN and 25 kN graph endpoints.",
+    "sourcePages": [
+      24,
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-57",
+    "parts": [
+      {
+        "label": "cable tension",
+        "type": "numeric",
+        "answer": 76.46018885356811,
+        "unit": "N",
+        "tolerance": 1.1469028328035216,
+        "explanation": "Along the incline, T cos25°=mg sin45°; the normal force has no component in that direction."
+      }
+    ],
+    "reasoning": "Resolve along the frictionless incline. Check: T≈76.5 N matches the 76 N rounded key.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-58",
+    "parts": [
+      {
+        "label": "a · initial force at A",
+        "type": "numeric",
+        "answer": 196,
+        "unit": "N",
+        "tolerance": 2.94,
+        "explanation": "The centered beam splits its 392 N weight equally; the package is directly over B."
+      },
+      {
+        "label": "b · initial force at B",
+        "type": "numeric",
+        "answer": 294,
+        "unit": "N",
+        "tolerance": 4.41,
+        "explanation": "Add the package weight to the beam share at B."
+      },
+      {
+        "label": "c · final force at A",
+        "type": "numeric",
+        "answer": 441,
+        "unit": "N",
+        "tolerance": 6.614999999999999,
+        "explanation": "After moving left L/4, the beam COM is over A and the package is midway between rollers."
+      },
+      {
+        "label": "d · final force at B",
+        "type": "numeric",
+        "answer": 49,
+        "unit": "N",
+        "tolerance": 0.735,
+        "explanation": "The package contributes half of its 98 N weight at B."
+      },
+      {
+        "label": "e · package distance beyond B at tipping",
+        "type": "numeric",
+        "answer": 0.16,
+        "unit": "m",
+        "tolerance": 0.0024,
+        "explanation": "About B at tipping: 40g(s−L/4)+10gs=0, so s=L/5=0.160 m."
+      }
+    ],
+    "reasoning": "Use the actual roller positions L/4 and 3L/4, with the package fixed to the beam. Check: each support pair sums to 490 N; at the tipping shift the total COM is directly over B.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-59",
+    "parts": [
+      {
+        "label": "a · cable A tension",
+        "type": "numeric",
+        "answer": 8006.6,
+        "unit": "N",
+        "tolerance": 120.099,
+        "explanation": "The vertical cable directly supports the bucket."
+      },
+      {
+        "label": "b · cable B tension",
+        "type": "numeric",
+        "answer": 3654.9424926121287,
+        "unit": "N",
+        "tolerance": 54.82413738918193,
+        "explanation": "Horizontal components cancel and vertical components sum to W."
+      },
+      {
+        "label": "c · cable C tension",
+        "type": "numeric",
+        "answer": 5655.083892420964,
+        "unit": "N",
+        "tolerance": 84.82625838631445,
+        "explanation": "Solve the same two component equations for the right cable."
+      }
+    ],
+    "reasoning": "Use the shown angles measured from horizontal. Check: T_B cos51°=T_C cos66° and T_B sin51°+T_C sin66°=8006.6 N; values match the key.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-60",
+    "parts": [
+      {
+        "label": "a · angle minimizing T₂",
+        "type": "numeric",
+        "answer": 50,
+        "unit": "°",
+        "tolerance": 0.75,
+        "explanation": "T₂=mg cos40°/sin(θ+40°); its denominator is largest at θ+40°=90°."
+      },
+      {
+        "label": "b · minimum T₂",
+        "type": "choice",
+        "answer": "mg cos40°",
+        "options": [
+          "mg cos40°",
+          "mg sin40°",
+          "mg/cos40°"
+        ],
+        "explanation": "At the optimum the sine denominator equals one."
+      }
+    ],
+    "reasoning": "Resolve both cable tensions horizontally and vertically before minimizing. Check: the minimum is smaller than mg and occurs with perpendicular cables.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-61",
+    "parts": [
+      {
+        "label": "ceiling-cable tension",
+        "type": "numeric",
+        "answer": 71.68,
+        "unit": "N",
+        "tolerance": 1.0752000000000002,
+        "explanation": "Successive movable pulleys double rope tension: t, 2t, 4t. The block gets 7t upward and the ceiling carries 8t."
+      }
+    ],
+    "reasoning": "Set 7t=6.4g, then T_ceiling=8t. Check: the ceiling load exceeds block weight because the external pull also acts downward on the pulley system; 71.68 N matches the key.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Massless frictionless pulleys and ropes."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-62",
+    "parts": [
+      {
+        "label": "a · extension of 12 m cable",
+        "type": "numeric",
+        "answer": 0.0008025687216701837,
+        "unit": "m",
+        "tolerance": 1.2038530825052754e-05,
+        "explanation": "Use ΔL=FL/(EA) with F=670g."
+      },
+      {
+        "label": "b · extension of 362 m cable",
+        "type": "numeric",
+        "answer": 0.024210823103717208,
+        "unit": "m",
+        "tolerance": 0.0003631623465557581,
+        "explanation": "Only cable length changes, so extension is proportional to length."
+      }
+    ],
+    "reasoning": "Use steel E=200 GPa and diameter, not radius, 2.5 cm. Check: the extension ratio is exactly 362/12.",
+    "sourcePages": [
+      15,
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Neglect cable weight."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-63",
+    "parts": [
+      {
+        "label": "a₁/L",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "",
+        "tolerance": 0.0075,
+        "explanation": "The top brick COM is above the edge of the second brick."
+      },
+      {
+        "label": "a₂/L",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "",
+        "tolerance": 0.00375,
+        "explanation": "The combined COM of the top two bricks is above the third-brick edge."
+      },
+      {
+        "label": "a₃/L",
+        "type": "numeric",
+        "answer": 0.16666666666666666,
+        "unit": "",
+        "tolerance": 0.0024999999999999996,
+        "explanation": "Apply the same balance to the top three bricks."
+      },
+      {
+        "label": "a₄/L",
+        "type": "numeric",
+        "answer": 0.125,
+        "unit": "",
+        "tolerance": 0.001875,
+        "explanation": "The four-brick COM is directly above the table edge."
+      },
+      {
+        "label": "h/L",
+        "type": "numeric",
+        "answer": 1.0416666666666667,
+        "unit": "",
+        "tolerance": 0.015625,
+        "explanation": "Add 1/2+1/4+1/6+1/8."
+      }
+    ],
+    "reasoning": "For n equal bricks supported by the next surface the added optimal offset is L/(2n). Check: every upper substack COM lies on its supporting edge and h is their sum.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Ideal limiting balance; no safety margin."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-64",
+    "parts": [
+      {
+        "label": "a · bottom force divided by mg",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "",
+        "tolerance": 0.03,
+        "explanation": "The bottom supports both spheres."
+      },
+      {
+        "label": "b · left-wall force divided by mg",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "",
+        "tolerance": 0.015,
+        "explanation": "The contact force has equal horizontal and vertical components at 45°."
+      },
+      {
+        "label": "c · right-wall force divided by mg",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "",
+        "tolerance": 0.015,
+        "explanation": "The upper sphere needs a horizontal reaction equal to its weight."
+      },
+      {
+        "label": "d · intersphere force divided by mg",
+        "type": "numeric",
+        "answer": 1.4142135623730951,
+        "unit": "",
+        "tolerance": 0.021213203435596427,
+        "explanation": "Its vertical component must be mg, so F=mg/sin45°."
+      }
+    ],
+    "reasoning": "All contact forces are normal because surfaces are frictionless. Check: each sphere independently has zero horizontal and vertical resultant.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-65",
+    "parts": [
+      {
+        "label": "a · cable tension",
+        "type": "numeric",
+        "answer": 88.27023351699934,
+        "unit": "N",
+        "tolerance": 1.32405350275499,
+        "explanation": "About the base, T cos25°(2.0)=50(3.2)."
+      },
+      {
+        "label": "b · hinge x component",
+        "type": "numeric",
+        "answer": 30,
+        "unit": "N",
+        "tolerance": 0.44999999999999996,
+        "explanation": "Horizontal balance gives H_x=T cos25°−50."
+      },
+      {
+        "label": "b · hinge y component",
+        "type": "numeric",
+        "answer": 97.3046126523999,
+        "unit": "N",
+        "tolerance": 1.4595691897859984,
+        "explanation": "Vertical balance gives H_y=60+T sin25°."
+      }
+    ],
+    "reasoning": "The cable pulls downward and left. Check: substituting the hinge components cancels both force components and all moments; tension agrees with 88 N key.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-66",
+    "parts": [
+      {
+        "label": "hinge x component",
+        "type": "numeric",
+        "answer": -149.9378649085459,
+        "unit": "N",
+        "tolerance": 2.2490679736281884,
+        "explanation": "The cable pulls up and right, so the hinge pushes left: H_x=−T cos60°."
+      },
+      {
+        "label": "hinge y component",
+        "type": "numeric",
+        "answer": 259.70000000000005,
+        "unit": "N",
+        "tolerance": 3.8955000000000006,
+        "explanation": "Torque gives T sin60°=mg/2, leaving the hinge to support mg/2."
+      }
+    ],
+    "reasoning": "The 60° angle is measured from the horizontal beam. Check: the negative x sign follows the actual diagram, and both support vertical components sum to the weight.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-67",
+    "parts": [
+      {
+        "label": "compressive stress magnitude",
+        "type": "numeric",
+        "answer": 2441804955.8308625,
+        "unit": "Pa",
+        "tolerance": 36627074.33746294,
+        "explanation": "Bulk modulus gives Δp=−BΔV/V₀, with V₀=(0.855)³ and V_f=(0.850)³."
+      }
+    ],
+    "reasoning": "Use volume change rather than linear strain. Check: pressure is positive for compression, and the first-order estimate 3B(0.005/0.855) differs by less than 1%.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Use the stated constant bulk modulus over this small compression."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-68",
+    "parts": [
+      {
+        "label": "a · applied force P",
+        "type": "numeric",
+        "answer": 200,
+        "unit": "N",
+        "tolerance": 3.0,
+        "explanation": "About the floor contact, P(2.50)=500(2.50/2)cosθ with sinθ=1.50/2.50."
+      },
+      {
+        "label": "b · floor-force magnitude",
+        "type": "numeric",
+        "answer": 360.5551275463989,
+        "unit": "N",
+        "tolerance": 5.4083269131959835,
+        "explanation": "P has components (−120,+160) N; the floor reaction is (+120,+340) N."
+      },
+      {
+        "label": "c · minimum friction coefficient",
+        "type": "numeric",
+        "answer": 0.35294117647058826,
+        "unit": "",
+        "tolerance": 0.005294117647058823,
+        "explanation": "At impending slip, μ_s=|f|/N=120/340."
+      }
+    ],
+    "reasoning": "The applied force is perpendicular to the beam and points up-left. Check: both components cancel the applied force and weight, and the moment equation yields 200 N.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-69",
+    "parts": [
+      {
+        "label": "rope angle θ₂",
+        "type": "numeric",
+        "answer": 60,
+        "unit": "°",
+        "tolerance": 0.8999999999999999,
+        "explanation": "Torque about the hinge gives T L sin(θ₁+θ₂)=mg(L/2)sinθ₁. With T=mg/2 and θ₁=60°, the physical triangle selects θ₂=60°."
+      }
+    ],
+    "reasoning": "The alternate algebraic root θ₂=0° is a degenerate geometry with no finite wall-to-rod triangle. Check: the nondegenerate result gives equal sines sin120°=sin60° and matches the printed key.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-70",
+    "parts": [
+      {
+        "label": "a · farther support force",
+        "type": "numeric",
+        "answer": 1528.85,
+        "unit": "N",
+        "tolerance": 22.93275,
+        "explanation": "The uniform bridge contributes half its weight and the nearer-positioned man contributes one quarter to this support."
+      },
+      {
+        "label": "b · nearer support force",
+        "type": "numeric",
+        "answer": 1886.5500000000002,
+        "unit": "N",
+        "tolerance": 28.298250000000003,
+        "explanation": "The remaining three quarters of the man’s weight go to the nearer support."
+      }
+    ],
+    "reasoning": "Take moments about either bridge end. Check: the two forces sum to 2700+73g and the nearer reaction is larger.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-71",
+    "parts": [
+      {
+        "label": "a · friction range for sliding first",
+        "type": "choice",
+        "answer": "μ < 4/7",
+        "options": [
+          "μ < 4/7",
+          "μ > 4/7",
+          "μ = 4/7 only"
+        ],
+        "explanation": "Sliding threshold is μmg; tipping threshold from the lower edge is mg(4 cm)/(7 cm)."
+      },
+      {
+        "label": "b · friction range for tipping first",
+        "type": "choice",
+        "answer": "μ > 4/7",
+        "options": [
+          "μ < 4/7",
+          "μ > 4/7",
+          "μ = 4/7 only"
+        ],
+        "explanation": "If the friction limit exceeds the tipping force, tipping happens first."
+      }
+    ],
+    "reasoning": "At μ=4/7 both thresholds coincide. The normal force reaches the downstream bottom edge at tipping. Check: the comparison is dimensionless and the unknown mass cancels.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-72",
+    "parts": [
+      {
+        "label": "a · string ab tension",
+        "type": "numeric",
+        "answer": 15.246093503232046,
+        "unit": "N",
+        "tolerance": 0.2286914025484807,
+        "explanation": "Horizontal balance gives T_ab cos20°=T_bc cos60°; use the vertical balance next."
+      },
+      {
+        "label": "b · string bc tension",
+        "type": "numeric",
+        "answer": 28.65328312159826,
+        "unit": "N",
+        "tolerance": 0.4297992468239739,
+        "explanation": "Vertical balance is T_bc sin60°−T_ab sin20°=2g."
+      }
+    ],
+    "reasoning": "The lower string ab pulls down-right, not up-right. Check: both junction components sum to zero.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-73",
+    "parts": [
+      {
+        "label": "a · ground x component at F=50 N",
+        "type": "numeric",
+        "answer": 35,
+        "unit": "N",
+        "tolerance": 0.525,
+        "explanation": "Wall reaction is 75+0.2F; ground friction is 75−0.8F."
+      },
+      {
+        "label": "a · ground y component at F=50 N",
+        "type": "numeric",
+        "answer": 200,
+        "unit": "N",
+        "tolerance": 3.0,
+        "explanation": "All other nonweight forces are horizontal."
+      },
+      {
+        "label": "b · ground x component at F=150 N",
+        "type": "numeric",
+        "answer": -45,
+        "unit": "N",
+        "tolerance": 0.6749999999999999,
+        "explanation": "Substitute F=150 into 75−0.8F."
+      },
+      {
+        "label": "b · ground y component at F=150 N",
+        "type": "numeric",
+        "answer": 200,
+        "unit": "N",
+        "tolerance": 3.0,
+        "explanation": "The ground balances the 200 N weight."
+      },
+      {
+        "label": "c · minimum force to move base toward wall",
+        "type": "numeric",
+        "answer": 188.75,
+        "unit": "N",
+        "tolerance": 2.83125,
+        "explanation": "For impending rightward slip, ground friction is −0.38(200)=−76 N. Solve 75−0.8F=−76."
+      }
+    ],
+    "reasoning": "The base-wall separation is 6 m, and the applied-force height is 2(8/10)=1.6 m. Torque about the foot gives 8N_wall=200(3)+1.6F. Check: signs reverse between (a) and (b), and the limiting reaction remains positive.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-74",
+    "parts": [
+      {
+        "label": "mass of unknown object",
+        "type": "choice",
+        "answer": "√(m₁m₂)",
+        "options": [
+          "√(m₁m₂)",
+          "(m₁+m₂)/2",
+          "m₁m₂/(m₁+m₂)"
+        ],
+        "explanation": "The two balances give mℓ_L=m₁ℓ_R and mℓ_R=m₂ℓ_L. Multiplication cancels the unequal arm lengths."
+      }
+    ],
+    "reasoning": "Multiplying yields m²=m₁m₂; positive mass selects the positive square root. Check: the expression has units of mass and reduces to the common mass when m₁=m₂.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-75",
+    "parts": [
+      {
+        "label": "a · other bars in tension",
+        "type": "choice",
+        "answer": "BC, CD, and DA",
+        "options": [
+          "BC, CD, and DA",
+          "AC and BD",
+          "BC and DA only"
+        ],
+        "explanation": "Joint force balance and square symmetry place all perimeter bars in tension and the diagonals in compression."
+      },
+      {
+        "label": "b · tension in each other side bar",
+        "type": "numeric",
+        "answer": 535,
+        "unit": "N",
+        "tolerance": 8.025,
+        "explanation": "At each corner the diagonal’s two equal components balance the two perpendicular side tensions."
+      },
+      {
+        "label": "c · compression in each diagonal",
+        "type": "numeric",
+        "answer": 756.6042558696059,
+        "unit": "N",
+        "tolerance": 11.349063838044088,
+        "explanation": "The diagonal component is C/√2=535 N."
+      }
+    ],
+    "reasoning": "The diagonals pass freely at E, so that crossing is not an extra joint constraint. Check: a 757 N diagonal supplies 535 N in each component, matching the key.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-76",
+    "parts": [
+      {
+        "label": "a · support 1 x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-07,
+        "explanation": "No horizontal external load is present."
+      },
+      {
+        "label": "a · support 1 y component",
+        "type": "numeric",
+        "answer": 1162.9,
+        "unit": "N",
+        "tolerance": 17.4435,
+        "explanation": "Taking moments about support 2 gives R₁(3.92)=250g(1.96)−46g(0.54)."
+      },
+      {
+        "label": "b · support 2 x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-07,
+        "explanation": "No horizontal external load is present."
+      },
+      {
+        "label": "b · support 2 y component",
+        "type": "numeric",
+        "answer": 1737.9,
+        "unit": "N",
+        "tolerance": 26.0685,
+        "explanation": "Use R₁+R₂=(250+46)g."
+      }
+    ],
+    "reasoning": "The gymnast stands at the right end in the diagram, nearest support 2. Check: the larger force is therefore at support 2, and total reaction equals total weight.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-77",
+    "parts": [
+      {
+        "label": "a · wire 1 tension",
+        "type": "numeric",
+        "answer": 1380.179640718563,
+        "unit": "N",
+        "tolerance": 20.702694610778444,
+        "explanation": "Symmetry gives T₃=T₁; equal final lengths give 2T₁−2.006T₂=EA(0.006)."
+      },
+      {
+        "label": "b · wire 2 tension",
+        "type": "numeric",
+        "answer": 179.6407185628741,
+        "unit": "N",
+        "tolerance": 2.6946107784431113,
+        "explanation": "Use 2T₁+T₂=300g."
+      }
+    ],
+    "reasoning": "The middle wire starts longer and carries less load. Check: all three final lengths coincide and all tensions are positive; results round to 1.38 kN and 180 N.",
+    "sourcePages": [
+      15,
+      26
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-78",
+    "parts": [
+      {
+        "label": "a · gravity x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-07,
+        "explanation": "Gravity is vertical."
+      },
+      {
+        "label": "a · gravity y component",
+        "type": "numeric",
+        "answer": -671.279704941824,
+        "unit": "N",
+        "tolerance": 10.06919557412736,
+        "explanation": "The angle is measured from vertical: T L cos50°=W(L/2)sin50°."
+      },
+      {
+        "label": "b · hinge x component",
+        "type": "numeric",
+        "answer": 400,
+        "unit": "N",
+        "tolerance": 6.0,
+        "explanation": "The horizontal cable pulls left with 400 N, requiring an equal rightward hinge force."
+      },
+      {
+        "label": "b · hinge y component",
+        "type": "numeric",
+        "answer": 671.279704941824,
+        "unit": "N",
+        "tolerance": 10.06919557412736,
+        "explanation": "The hinge balances the full beam weight because the cable is horizontal."
+      }
+    ],
+    "reasoning": "Use W=2T cot50°, not 2T tan50°. Check: the actual figure labels θ between the beam and wall; both torque and force residuals vanish.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-79",
+    "parts": [
+      {
+        "label": "a₁/L",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "",
+        "tolerance": 0.0075,
+        "explanation": "In arrangement (a), the right middle brick is at its tipping limit on the bottom brick."
+      },
+      {
+        "label": "a₂/L",
+        "type": "numeric",
+        "answer": 0.625,
+        "unit": "",
+        "tolerance": 0.009375,
+        "explanation": "The left middle brick and top brick act as counterweights: the full-stack COM is L/8 left of the bottom-brick center."
+      },
+      {
+        "label": "b₁/L",
+        "type": "numeric",
+        "answer": 0.6666666666666666,
+        "unit": "",
+        "tolerance": 0.009999999999999998,
+        "explanation": "For either middle brick in (b), moment balance about the bottom-brick edge gives mg(b₁−L/2)+(mg/2)(b₁−L)=0."
+      },
+      {
+        "label": "b₂/L",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "",
+        "tolerance": 0.0075,
+        "explanation": "Arrangement (b) is symmetric about the bottom-brick center, so the table edge can reach that center."
+      },
+      {
+        "label": "arrangement (a) · h/L",
+        "type": "numeric",
+        "answer": 1.125,
+        "unit": "",
+        "tolerance": 0.016875,
+        "explanation": "Add a₁+a₂=L/2+5L/8."
+      },
+      {
+        "label": "arrangement (b) · h/L",
+        "type": "numeric",
+        "answer": 1.1666666666666667,
+        "unit": "",
+        "tolerance": 0.0175,
+        "explanation": "Add b₁+b₂=2L/3+L/2."
+      }
+    ],
+    "reasoning": "In (a) the two left bricks share a center at −L/2 relative to the bottom center and the right middle brick is at +L/2. In (b) the top brick load splits equally and acts at the innermost supporting edges at the limiting arrangement. Check: all supporting contact reactions are nonnegative and each limiting moment is zero.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Ideal limiting equilibrium; bricks are rigid and uniformly weighted."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-80",
+    "parts": [
+      {
+        "label": "pulling force",
+        "type": "numeric",
+        "answer": 43.98889537455768,
+        "unit": "N",
+        "tolerance": 0.6598334306183652,
+        "explanation": "Constant density and mass imply constant volume: L_f/L₀=(r₀/r_f)². Then F=EA₀[(r₀/r_f)²−1]."
+      }
+    ],
+    "reasoning": "The radii are in micrometers: 1000.0 μm=0.001 m. Check: the strain is approximately 0.00020003 and stress is about 14 MPa, below the stated yield constraint.",
+    "sourcePages": [
+      15,
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Engineering stress uses the original cross-sectional area."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-81",
+    "parts": [
+      {
+        "label": "crosspiece distance from free end divided by L",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "",
+        "tolerance": 0.00375,
+        "explanation": "Each man carries W/3. About the singly supported end, (2W/3)x=W(L/2), so x=3L/4 from that end."
+      }
+    ],
+    "reasoning": "The requested distance is measured from the opposite, free end: L−x=L/4. Check: total support is W and each of the two men at the crosspiece carries W/3.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-82",
+    "parts": [
+      {
+        "label": "minimum square-beam thickness",
+        "type": "numeric",
+        "answer": 0.030812273962377172,
+        "unit": "m",
+        "tolerance": 0.00046218410943565756,
+        "explanation": "The referenced sample gives hinge components about 6090 N and 5050 N, hence compressive load approximately 7.91 kN. Require F/t²=(50 MPa)/6."
+      }
+    ],
+    "reasoning": "Use Douglas fir compressive ultimate strength 50 MPa, not steel’s tensile strength. A square section has area t². Check: t≈0.0308 m gives a stress of 8.33 MPa; projecting the load onto the beam axis changes thickness by less than 0.1%.",
+    "sourcePages": [
+      8,
+      15,
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Use the referenced sample’s beam-load approximation; bending and joint stress concentrations are outside this axial-stress estimate."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-83",
+    "parts": [
+      {
+        "label": "a · upper-cord tension",
+        "type": "numeric",
+        "answer": 106.34241862963246,
+        "unit": "N",
+        "tolerance": 1.5951362794444868,
+        "explanation": "The ramp cord carries 11g sin30°. The upper cord balances its left/down components plus the 7g hanging load."
+      },
+      {
+        "label": "b · upper-cord angle to horizontal",
+        "type": "numeric",
+        "answer": 63.96323496744979,
+        "unit": "°",
+        "tolerance": 0.9594485245117469,
+        "explanation": "Use θ=arctan(T_y/T_x) with both upper-cord components positive."
+      }
+    ],
+    "reasoning": "The ramp is frictionless, so tension along it equals the downslope weight component. Check: junction forces sum to zero; results match the 106 N and 64° key.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-84",
+    "parts": [
+      {
+        "label": "a · child weight",
+        "type": "numeric",
+        "answer": 270.4592313609391,
+        "unit": "N",
+        "tolerance": 4.056888470414086,
+        "explanation": "Vertical balance gives W=T cos15°."
+      },
+      {
+        "label": "b · father horizontal force",
+        "type": "numeric",
+        "answer": 72.46933262870581,
+        "unit": "N",
+        "tolerance": 1.087039989430587,
+        "explanation": "Horizontal balance gives F=T sin15°."
+      },
+      {
+        "label": "c · maximum rope angle",
+        "type": "numeric",
+        "answer": 18.97602303688732,
+        "unit": "°",
+        "tolerance": 0.2846403455533098,
+        "explanation": "For the same child, tanθ=F/W; use the maximum F=93 N."
+      }
+    ],
+    "reasoning": "These are static equilibria just before release. Check: the original components have magnitude 280 N, and increasing horizontal force increases the angle.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-85",
+    "parts": [
+      {
+        "label": "tendon force magnitude",
+        "type": "numeric",
+        "answer": 175.6321211090967,
+        "unit": "N",
+        "tolerance": 5,
+        "explanation": "About the upper joint: F_t(d/3)sin45°=d[F_v sin10°+F_h cos10°]."
+      }
+    ],
+    "reasoning": "The unknown joint force acts at the pivot and contributes no torque. Both fingertip force components turn the bone in the same sense. Check: d cancels, units are newtons, and the result rounds to the key’s 180 N.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-86",
+    "parts": [
+      {
+        "label": "a · catch force magnitude",
+        "type": "numeric",
+        "answer": 42.05384615384616,
+        "unit": "N",
+        "tolerance": 0.6308076923076924,
+        "explanation": "About the hinge, F_c(0.91)=11g(0.455−0.100)."
+      },
+      {
+        "label": "b · hinge force magnitude",
+        "type": "numeric",
+        "answer": 65.74615384615385,
+        "unit": "N",
+        "tolerance": 0.9861923076923076,
+        "explanation": "The two upward forces sum to the door weight."
+      }
+    ],
+    "reasoning": "The center of gravity is displaced toward the hinge, reducing the catch load. Check: the catch carries less than half the weight and the reactions sum to 107.8 N.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-87",
+    "parts": [
+      {
+        "label": "a · balancing force x component",
+        "type": "numeric",
+        "answer": -24.4,
+        "unit": "N",
+        "tolerance": 0.366,
+        "explanation": "F₃x=−(8.40+16.0)."
+      },
+      {
+        "label": "b · balancing force y component",
+        "type": "numeric",
+        "answer": 1.6,
+        "unit": "N",
+        "tolerance": 0.024,
+        "explanation": "F₃y=−(−5.70+4.10)."
+      },
+      {
+        "label": "c · direction counterclockwise from +x",
+        "type": "numeric",
+        "answer": 176.24827092947405,
+        "unit": "°",
+        "tolerance": 2.6437240639421105,
+        "explanation": "Use atan2 to place the vector correctly in quadrant II."
+      }
+    ],
+    "reasoning": "The balancing force is the negative vector sum. Check: adding all three forces gives exactly zero in x and y; components match the printed key.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-12-problems-88",
+    "parts": [
+      {
+        "label": "a · additional top displacement",
+        "type": "numeric",
+        "answer": 3.4300000000000006,
+        "unit": "m",
+        "tolerance": 0.1,
+        "explanation": "At the elementary tipping limit the COM projection reaches the base edge; the top displacement is twice the base radius, or 7.44 m."
+      },
+      {
+        "label": "b · angle from vertical",
+        "type": "numeric",
+        "answer": 7.175125088824009,
+        "unit": "°",
+        "tolerance": 0.1,
+        "explanation": "Use tanθ=7.44/59.1 at the tipping threshold."
+      }
+    ],
+    "reasoning": "A uniform tower has its COM at half-height. Thus its top can shift twice as far horizontally as the COM before tipping. Check: the tipping angle is about 7.2°. Treating 59.1 m instead as the fixed axial length gives about 3.37 m additional displacement; both are approximately 3.4 m at the accuracy of this model.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g = 9.8 m/s² where gravity is needed.",
+      "Use the stated height as the vertical height in the elementary leaning-cylinder model; ignore foundation support and actual nonuniform mass."
+    ]
+  }
+]

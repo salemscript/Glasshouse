@@ -1,0 +1,1950 @@
+[
+  {
+    "id": "physics-chapter-13-problems-45",
+    "parts": [
+      {
+        "label": "Mass of Mars",
+        "type": "numeric",
+        "answer": 6.481709933092497e+23,
+        "unit": "kg",
+        "tolerance": 3.889025959855498e+21,
+        "explanation": "For a circular orbit, GM/r²=4π²r/T²; M=4π²r³/(GT²), with T=27540 s."
+      }
+    ],
+    "reasoning": "The negligible-mass satellite measures the central gravitational parameter. Substitute orbital radius, not Mars radius. Verification: Substitution in GM/r²=4π²r/T² reproduces the specified period; agrees with existing rounded6.5e23kg key.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-46",
+    "parts": [
+      {
+        "label": "a · Head-on relative speed",
+        "type": "numeric",
+        "answer": 54079.95212705966,
+        "unit": "km/h",
+        "tolerance": 324.47971276235796,
+        "explanation": "Opposite velocities subtract to relative speed 2v; v=√(GM/r)."
+      },
+      {
+        "label": "b · Perpendicular relative speed",
+        "type": "numeric",
+        "answer": 38240.30087528774,
+        "unit": "km/h",
+        "tolerance": 229.44180525172646,
+        "explanation": "Perpendicular equal velocity vectors give |v₁−v₂|=√2 v."
+      }
+    ],
+    "reasoning": "At altitude700km, r=7.07×10^6m. Vector subtraction, not addition of speed magnitudes, determines part(b). Verification: Vector norms give2v and√2v; converting m/s to km/h multiplies by3.6.",
+    "sourcePages": [
+      28,
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-47",
+    "parts": [
+      {
+        "label": "Estimated number of stars",
+        "type": "numeric",
+        "answer": 50627210401.963036,
+        "unit": "stars",
+        "tolerance": 1518816312.058891,
+        "explanation": "All spherical mass inside the Sun orbit acts centrally: N=4π²r³/(GT²Mstar)."
+      }
+    ],
+    "reasoning": "Use the idealized spherical uniform distribution and put the Sun at its outer boundary. One year=365.25days. Verification: GM=r³(2π/T)² has units m³/s²; dividing central mass by individual star mass is dimensionless.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-48",
+    "parts": [
+      {
+        "label": "Mars orbital period",
+        "type": "numeric",
+        "answer": 1.8739818569025688,
+        "unit": "years",
+        "tolerance": 0.011243891141415413,
+        "explanation": "T_M/T_E=(a_M/a_E)^(3/2)=1.52^(3/2)."
+      },
+      {
+        "label": "Comparison with tabulated period",
+        "type": "choice",
+        "answer": "Agrees with approximately 1.88 years",
+        "options": [
+          "Agrees with approximately 1.88 years",
+          "Twice the tabulated period",
+          "Half the tabulated period"
+        ],
+        "explanation": "The computed1.874years rounds consistently with the listed1.88years."
+      }
+    ],
+    "reasoning": "The Sun mass cancels in the ratio of Kepler laws. Verification: Kepler ratio gives1.874years, agreeing with table13-3 to stated rounding.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-49",
+    "parts": [
+      {
+        "label": "a · Semimajor axis",
+        "type": "numeric",
+        "answer": 18900266685834.527,
+        "unit": "m",
+        "tolerance": 113401600115.00717,
+        "explanation": "a=[GM_s T²/(4π²)]^(1/3), T≈1994−574=1420years."
+      },
+      {
+        "label": "b · Greatest distance / Pluto mean orbital radius",
+        "type": "numeric",
+        "answer": 6.385086704780572,
+        "unit": "",
+        "tolerance": 0.038310520228683434,
+        "explanation": "Aphelion=a(1+e); divide by R_P=5.90×10^12m."
+      }
+    ],
+    "reasoning": "Use the interval between sightings as the orbital period, as requested; month precision is negligible at this scale. Verification: Reconstructed period from a is1420years; greatest radius exceeds a and is below2a.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-50",
+    "parts": [
+      {
+        "label": "Geosynchronous altitude",
+        "type": "numeric",
+        "answer": 35880.47430504783,
+        "unit": "km",
+        "tolerance": 215.282845830287,
+        "explanation": "For T≈24h, orbital radius=[GMT²/(4π²)]^(1/3); subtract Earth radius."
+      }
+    ],
+    "reasoning": "A stationary longitude requires a prograde equatorial circular orbit whose period matches Earth rotation. Sidereal-day convention changes altitude by only about0.2%. Verification: Reconstructed period is24h; radius exceeds altitude byR_E.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-51",
+    "parts": [
+      {
+        "label": "a · Semimajor axis",
+        "type": "numeric",
+        "answer": 6640.0,
+        "unit": "km",
+        "tolerance": 39.84,
+        "explanation": "a=(r_a+r_p)/2=R_E+(360+180)km/2."
+      },
+      {
+        "label": "b · Eccentricity",
+        "type": "numeric",
+        "answer": 0.01355421686746988,
+        "unit": "",
+        "tolerance": 8.132530120481928e-05,
+        "explanation": "e=(r_a−r_p)/(r_a+r_p)."
+      }
+    ],
+    "reasoning": "Distances in elliptical-orbit formulas are measured from Earth center. Verification: a(1±e) reconstructs the given apsis altitudes after subtractingR_E.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-52",
+    "parts": [
+      {
+        "label": "a · Focus-to-focus distance",
+        "type": "numeric",
+        "answer": 5010000000.0,
+        "unit": "m",
+        "tolerance": 30060000.0,
+        "explanation": "The two foci are separated by2ae."
+      },
+      {
+        "label": "b · Separation / solar radius",
+        "type": "numeric",
+        "answer": 7.198275862068965,
+        "unit": "",
+        "tolerance": 0.04318965517241379,
+        "explanation": "Divide2ae by the given solar radius."
+      }
+    ],
+    "reasoning": "The center-to-focus distance is ae; the question asks between both foci. Verification: For e=0 the separation vanishes; both foci are separated by2ae, not ae.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-53",
+    "parts": [
+      {
+        "label": "Planet radius",
+        "type": "numeric",
+        "answer": 5817764.173314432,
+        "unit": "m",
+        "tolerance": 34906.58503988659,
+        "explanation": "Orbit gives GM=4π²r³/T². Surface g=GM/R² gives R=√(GM/8)."
+      }
+    ],
+    "reasoning": "Satellite mass20kg cancels; distinguish orbital radius from planetary radius. Verification: Using the inferred planet GM reproduces both8m/s² surface gravity and2.4h orbit.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-54",
+    "parts": [
+      {
+        "label": "Companion mass, nearest integer multiple of solar mass",
+        "type": "numeric",
+        "answer": 9,
+        "unit": "solar masses",
+        "tolerance": 0.01,
+        "explanation": "The mass function is m₂³/(m₁+m₂)²=v₁³T/(2πG). With masses in solar units, solve x³/(x+6)²=f; x≈9.346."
+      }
+    ],
+    "reasoning": "Use circular binary motion of BOTH bodies: r₁=v₁T/(2π), m₁r₁=m₂r₂. Treating the visible star as a massless test particle would be wrong. Verification: The solved companion ratio is approximately9.35; substituting the unrounded root into the binary mass function reproduces v³T/(2πG).",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-55",
+    "parts": [
+      {
+        "label": "a · Log–log plot",
+        "type": "choice",
+        "answer": "The four points lie approximately on an increasing straight line",
+        "options": [
+          "The four points lie approximately on an increasing straight line",
+          "The points form a horizontal line",
+          "The points form a decreasing straight line"
+        ],
+        "explanation": "Kepler law gives log a=(2/3)log T+(1/3)log(GM/4π²)."
+      },
+      {
+        "label": "b · Measured log–log slope",
+        "type": "numeric",
+        "answer": 0.6656043204435029,
+        "unit": "",
+        "tolerance": 0.015,
+        "explanation": "A least-squares fit to the four listed points gives about0.666; Kepler predicts2/3."
+      },
+      {
+        "label": "b · Comparison to Kepler law",
+        "type": "choice",
+        "answer": "Consistent with 2/3",
+        "options": [
+          "Consistent with 2/3",
+          "Consistent with 3/2",
+          "Consistent with 2"
+        ],
+        "explanation": "The axes are log a vertically and log T horizontally."
+      },
+      {
+        "label": "c · Jupiter mass",
+        "type": "numeric",
+        "answer": 1.8965893606899657e+27,
+        "unit": "kg",
+        "tolerance": 5.689768082069897e+25,
+        "explanation": "Using seconds/meters and expected slope2/3, intercept b gives M=4π²10^(3b)/G≈1.90×10^27kg."
+      }
+    ],
+    "reasoning": "A selected plot behavior checks the graphical conclusion; plotting itself is not automatically assessed. The fit uses log10 with a in meters,T in seconds. Verification: Separate masses from all four moons agree near1.90e27kg; graph slope2/3 is consistent with Kepler law.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "A graphical fit has finite precision; 3% mass tolerance permits reading an intercept from a drawn plot."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-56",
+    "parts": [
+      {
+        "label": "a · Asteroid mass",
+        "type": "numeric",
+        "answer": 6.264715785866503e+16,
+        "unit": "kg",
+        "tolerance": 375882947151990.2,
+        "explanation": "M=4π²r³/(GT²), r=100km,T=27h."
+      },
+      {
+        "label": "b · Asteroid density",
+        "type": "numeric",
+        "answer": 4443.060841040073,
+        "unit": "kg/m³",
+        "tolerance": 26.658365046240437,
+        "explanation": "Convert volume14100km³ to1.4100×10^13m³ and divide mass by volume."
+      }
+    ],
+    "reasoning": "The moon width is not the orbital radius; moon mass is neglected. Verification: Reconstructed orbit period is27h; volume conversion is1km³=1e9m³.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-57",
+    "parts": [
+      {
+        "label": "Binary-star orbital period",
+        "type": "numeric",
+        "answer": 0.7071067811865475,
+        "unit": "years",
+        "tolerance": 0.004242640687119285,
+        "explanation": "For relative separation a=1AU and total mass2M_s, T²=4π²a³/[G(2M_s)]; relative to Earth, T=1/√2year."
+      }
+    ],
+    "reasoning": "Each star circles the midpoint at radiusAU/2; the relative orbit semimajor axis is their separationAU. Verification: Both stars move; centrifugal acceleration about the midpoint uses radius half the separation.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-58",
+    "parts": [
+      {
+        "label": "a · Planet mass / Jupiter mass",
+        "type": "numeric",
+        "answer": 3.674299858415591,
+        "unit": "",
+        "tolerance": 0.15,
+        "explanation": "Star orbit radius is v_star T/(2π); barycenter gives m_p≈M_star r_star/r_p. The graph has amplitude70m/s and period1500days."
+      },
+      {
+        "label": "b · Planet orbital radius / Earth orbital radius",
+        "type": "numeric",
+        "answer": 2.469444687701139,
+        "unit": "",
+        "tolerance": 0.08,
+        "explanation": "For m_p≪M_star, r_p≈[GM_star T²/(4π²)]^(1/3); divide by1.50×10^11m."
+      }
+    ],
+    "reasoning": "Figure13-49 visually reviewed: peak-to-peak period1500days and ±70m/s amplitude. Circular/edge-on approximation is used as requested; negligible planet/star mass ratio is accurate to about0.5%. Verification: The original graph shows speed extrema about±70m/s and period about1500days. A few-percent graph tolerance covers reading uncertainty.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-59",
+    "parts": [
+      {
+        "label": "Common stellar speed",
+        "type": "choice",
+        "answer": "sqrt(G*M/L)",
+        "options": [
+          "sqrt(G*M/L)",
+          "sqrt(2*G*M/L)",
+          "sqrt(G*M/(3*L))"
+        ],
+        "explanation": "Each star feels two forces GM²/L² separated by60°; resultant√3GM²/L² points to center. Orbit radius L/√3 gives Mv²/(L/√3)=√3GM²/L²."
+      }
+    ],
+    "reasoning": "Resolve the two neighbor forces along the radius to the triangle center. Verification: Two60-degree force directions yield a resultant√3 times one force; center distance isL/√3.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-60",
+    "parts": [
+      {
+        "label": "a · Total mechanical energy before collision",
+        "type": "numeric",
+        "answer": -6335228716.645491,
+        "unit": "J",
+        "tolerance": 38011372.29987294,
+        "explanation": "Each satellite has E=−GMm/(2r); sum the two."
+      },
+      {
+        "label": "b · Mechanical energy immediately after collision",
+        "type": "numeric",
+        "answer": -12670457433.290981,
+        "unit": "J",
+        "tolerance": 76022744.59974588,
+        "explanation": "Equal opposite momenta cancel; wreckage has zero kinetic energy and U=−GM(2m)/r."
+      },
+      {
+        "label": "c · Subsequent motion",
+        "type": "choice",
+        "answer": "Falls radially toward Earth center",
+        "options": [
+          "Falls radially toward Earth center",
+          "Continues in the original circular orbit",
+          "Escapes to infinity"
+        ],
+        "explanation": "The combined tangential momentum and angular momentum are zero."
+      }
+    ],
+    "reasoning": "During the collision kinetic energy becomes internal energy; external gravitational potential is unchanged at that instant. Verification: Equal opposite momenta cancel. Lost kinetic energy is positive while the postcollision radial trajectory has zero angular momentum.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-61",
+    "parts": [
+      {
+        "label": "a · Altitude where lift energy equals orbital kinetic energy",
+        "type": "numeric",
+        "answer": 3185.0,
+        "unit": "km",
+        "tolerance": 19.11,
+        "explanation": "GMm(1/R−1/r)=GMm/(2r) gives r=3R/2, hence h=R/2."
+      },
+      {
+        "label": "b · For larger altitudes",
+        "type": "choice",
+        "answer": "Lifting energy is greater",
+        "options": [
+          "Lifting energy is greater",
+          "Orbital kinetic energy is greater",
+          "They remain equal"
+        ],
+        "explanation": "Lift energy rises with altitude whereas circular-orbit kinetic energy decreases."
+      }
+    ],
+    "reasoning": "Use lift from rest at the surface, ignoring Earth rotation. Verification: At h=R/2, GMm(1/R−1/(R+h)) equals GMm/[2(R+h)].",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-62",
+    "parts": [
+      {
+        "label": "a · Potential-energy ratio U_B/U_A",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "",
+        "tolerance": 0.003,
+        "explanation": "r_A=2R_E,r_B=4R_E and U=−GMm/r."
+      },
+      {
+        "label": "b · Kinetic-energy ratio K_B/K_A",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "",
+        "tolerance": 0.003,
+        "explanation": "Circular K=GMm/(2r), so K_B/K_A=r_A/r_B."
+      },
+      {
+        "label": "c · Greater total energy",
+        "type": "choice",
+        "answer": "Satellite B",
+        "options": [
+          "Satellite B",
+          "Satellite A",
+          "Equal total energies"
+        ],
+        "explanation": "E=−GMm/(2r) is less negative at larger radius."
+      },
+      {
+        "label": "d · Energy difference E_B−E_A",
+        "type": "numeric",
+        "answer": 114274795.91836737,
+        "unit": "J",
+        "tolerance": 685648.7755102043,
+        "explanation": "Subtract E_A=−GMm/(4R) from E_B=−GMm/(8R)."
+      }
+    ],
+    "reasoning": "Potential energies are negative but their ratio is positive. Verification: Both U andK scale as1/r, while E is negative; the larger radius gives the greater total energy.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-63",
+    "parts": [
+      {
+        "label": "a · Asteroid period",
+        "type": "numeric",
+        "answer": 2.8284271247461903,
+        "unit": "years",
+        "tolerance": 0.016970562748477143,
+        "explanation": "Kepler gives T/T_E=(r/r_E)^(3/2)=2^(3/2)."
+      },
+      {
+        "label": "b · Asteroid/Earth kinetic-energy ratio",
+        "type": "numeric",
+        "answer": 0.0001,
+        "unit": "",
+        "tolerance": 6.000000000000001e-07,
+        "explanation": "K scales as mass divided by radius, so (2×10^-4)/2=10^-4."
+      }
+    ],
+    "reasoning": "Asteroid and Earth masses are negligible compared with the Sun. Verification: Orbital period is independent of asteroid mass; K scales with mass divided by radius.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-64",
+    "parts": [
+      {
+        "label": "a · Orbital kinetic energy",
+        "type": "numeric",
+        "answer": 800000000.0,
+        "unit": "J",
+        "tolerance": 4800000.0,
+        "explanation": "F=mv²/r, so K=Fr/2."
+      },
+      {
+        "label": "b · Force at enlarged radius",
+        "type": "numeric",
+        "answer": 35.55555555555556,
+        "unit": "N",
+        "tolerance": 0.21333333333333335,
+        "explanation": "Inverse-square scaling gives F_new=F_old(2/3)²."
+      }
+    ],
+    "reasoning": "The satellite mass cancels from K=Fr/2. Verification: Circular force balance gives2K=Fr, and inverse-square scaling gives the enlarged-radius force.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-65",
+    "parts": [
+      {
+        "label": "a · Period dependence",
+        "type": "choice",
+        "answer": "Period scales with radius to the three-halves power",
+        "options": [
+          "Period scales with radius to the three-halves power",
+          "Period scales directly with radius",
+          "Period scales inversely with the square root of radius"
+        ],
+        "explanation": "Kepler law gives T² is proportional to r³."
+      },
+      {
+        "label": "b · Kinetic-energy dependence",
+        "type": "choice",
+        "answer": "Kinetic energy scales inversely with radius",
+        "options": [
+          "Kinetic energy scales inversely with radius",
+          "Kinetic energy scales directly with radius",
+          "Kinetic energy scales inversely with the square of radius"
+        ],
+        "explanation": "K=GMm/(2r)."
+      },
+      {
+        "label": "c · Angular-momentum dependence",
+        "type": "choice",
+        "answer": "Angular momentum scales with the square root of radius",
+        "options": [
+          "Angular momentum scales with the square root of radius",
+          "Angular momentum scales inversely with the square root of radius",
+          "Angular momentum scales with the square of radius"
+        ],
+        "explanation": "L=mrv=m√(GMr)."
+      },
+      {
+        "label": "d · Speed dependence",
+        "type": "choice",
+        "answer": "Speed scales inversely with the square root of radius",
+        "options": [
+          "Speed scales inversely with the square root of radius",
+          "Speed scales with the square root of radius",
+          "Speed scales inversely with radius"
+        ],
+        "explanation": "v=√(GM/r)."
+      }
+    ],
+    "reasoning": "All comparisons hold satellite mass and Earth mass fixed. Verification: Inserting v proportional to r^(-1/2) into T,K,L reproduces all four powers.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-66",
+    "parts": [
+      {
+        "label": "a · Pellet kinetic energy in satellite frame",
+        "type": "numeric",
+        "answer": 464472.78020378464,
+        "unit": "J",
+        "tolerance": 2786.8366812227077,
+        "explanation": "Equal circular speeds in opposite directions give relative speed2v, so K=½m(2v)²."
+      },
+      {
+        "label": "b · Ratio to rifle-bullet energy",
+        "type": "numeric",
+        "answer": 257.32564000209675,
+        "unit": "",
+        "tolerance": 1.5439538400125805,
+        "explanation": "Compare with½m(950m/s)²."
+      }
+    ],
+    "reasoning": "Relative-frame collision energy is four times the pellet Earth-frame orbital kinetic energy. Verification: Relative velocity is2v in the satellite frame; kinetic energy is quadratic, giving four times the pellet Earth-frame energy.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-67",
+    "parts": [
+      {
+        "label": "a · Initial speed",
+        "type": "numeric",
+        "answer": 7.543180498963481,
+        "unit": "km/s",
+        "tolerance": 0.04525908299378088,
+        "explanation": "v=√(GM/r), r=R_E+640km."
+      },
+      {
+        "label": "b · Initial period",
+        "type": "numeric",
+        "answer": 97.31776715268667,
+        "unit": "min",
+        "tolerance": 0.5839066029161201,
+        "explanation": "T=2πr/v."
+      },
+      {
+        "label": "c · Altitude after1500 revolutions",
+        "type": "numeric",
+        "answer": 412.43612417569665,
+        "unit": "km",
+        "tolerance": 2.47461674505418,
+        "explanation": "E_f=E_i−1500(1.4×10^5J), then r_f=−GMm/(2E_f); subtract Earth radius."
+      },
+      {
+        "label": "d · Final speed",
+        "type": "numeric",
+        "answer": 7.668680652435193,
+        "unit": "km/s",
+        "tolerance": 0.04601208391461116,
+        "explanation": "Circular speed rises as the orbit shrinks: v_f=√(GM/r_f)."
+      },
+      {
+        "label": "e · Final period",
+        "type": "numeric",
+        "answer": 92.61763297091677,
+        "unit": "min",
+        "tolerance": 0.5557057978255007,
+        "explanation": "T_f=2π√(r_f³/GM)."
+      },
+      {
+        "label": "f · Average retarding-force magnitude",
+        "type": "numeric",
+        "answer": 0.0032310016638481273,
+        "unit": "N",
+        "tolerance": 0.00012,
+        "explanation": "Average loss per revolution is F_avg times roughly2πr; use the mean orbital radius."
+      },
+      {
+        "label": "g · Satellite angular momentum conserved?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only its magnitude is conserved"
+        ],
+        "explanation": "Drag exerts an external torque on the satellite."
+      },
+      {
+        "label": "h · Isolated satellite–Earth angular momentum conserved?",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only if the satellite speed stays constant"
+        ],
+        "explanation": "Drag transfers angular momentum to Earth/atmosphere; total external torque is zero for the isolated full system."
+      }
+    ],
+    "reasoning": "Circular slowly shrinking orbit approximation. Force tolerance also covers using initial versus final orbit radius. Verification: The total energy change equals1500 times the given loss. The inferred radius decreases while speed rises and period falls; agrees with existing rounded checks.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-68",
+    "parts": [
+      {
+        "label": "a · Initial orbital period",
+        "type": "numeric",
+        "answer": 5541.781039422202,
+        "unit": "s",
+        "tolerance": 33.25068623653321,
+        "explanation": "T0=2π√(r0³/GM)."
+      },
+      {
+        "label": "b · Initial speed",
+        "type": "numeric",
+        "answer": 7675.72089676802,
+        "unit": "m/s",
+        "tolerance": 46.05432538060812,
+        "explanation": "v0=√(GM/r0)."
+      },
+      {
+        "label": "c · Kinetic energy just after burst",
+        "type": "numeric",
+        "answer": 57744249128.50813,
+        "unit": "J",
+        "tolerance": 346465494.7710488,
+        "explanation": "The speed is0.99v0; K=½m(0.99v0)²."
+      },
+      {
+        "label": "d · Potential energy just after burst",
+        "type": "numeric",
+        "answer": -117833382570.1625,
+        "unit": "J",
+        "tolerance": 707000295.4209751,
+        "explanation": "The brief burst does not change position; U=−GMm/r0."
+      },
+      {
+        "label": "e · Total energy after burst",
+        "type": "numeric",
+        "answer": -60089133441.65437,
+        "unit": "J",
+        "tolerance": 360534800.64992625,
+        "explanation": "E=K+U."
+      },
+      {
+        "label": "f · New semimajor axis",
+        "type": "numeric",
+        "answer": 6637905.677027158,
+        "unit": "m",
+        "tolerance": 39827.43406216295,
+        "explanation": "For any bound Kepler orbit, E=−GMm/(2a)."
+      },
+      {
+        "label": "g · New orbital period",
+        "type": "numeric",
+        "answer": 5380.380310945217,
+        "unit": "s",
+        "tolerance": 32.28228186567131,
+        "explanation": "T=2π√(a³/GM)."
+      },
+      {
+        "label": "h · Picard arrival lead at P",
+        "type": "numeric",
+        "answer": 71.40072847698502,
+        "unit": "s",
+        "tolerance": 0.42840437086191013,
+        "explanation": "At the burst Igor is90s ahead, so Igor returns afterT0−90; Picard returns afterT. Subtract these times."
+      }
+    ],
+    "reasoning": "Burst points forward and thrust on ship is backward, so speed decreases as stated. The firing point becomes apogee of the new ellipse. Verification: PostburstK+U equals the stated energy; the shorter ellipse period gives a positive71.4s arrival lead after subtracting Igor’s90s initial lead.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-69",
+    "parts": [
+      {
+        "label": "Fall time relative to physicist",
+        "type": "numeric",
+        "answer": 1.0702591020190138,
+        "unit": "s",
+        "tolerance": 0.006421554612114083,
+        "explanation": "The effective downward acceleration in the cabin is N/m=220/60m/s². Relative fall from rest gives t=√(2h/g_eff)."
+      }
+    ],
+    "reasoning": "Use the scale reading rather than Earth surface g. Verification: The scale normal force equals effective mass times acceleration, so the relative fall uses220/60m/s².",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-70",
+    "parts": [
+      {
+        "label": "a · General mass-limit scaling with assumed height h",
+        "type": "choice",
+        "answer": "M_min = sqrt(h*c^6/(5e6*G²)); M_min is proportional to sqrt(h)",
+        "options": [
+          "M_min = sqrt(h*c^6/(5e6*G²)); M_min is proportional to sqrt(h)",
+          "M_min = h*c²/G; M_min is proportional to h",
+          "M_min is independent of h"
+        ],
+        "explanation": "Substitute r=100GM/c² in Δg≈2GMh/r³ and impose Δg≤10 m/s²."
+      },
+      {
+        "label": "a · Minimum black-hole mass, assuming a2.00m person",
+        "type": "numeric",
+        "answer": 128.65149860930777,
+        "unit": "solar masses",
+        "tolerance": 3.859544958279233,
+        "explanation": "Across height h, Δg≈2GMh/r³. With r=50Rh=100GM/c² and Δg=10, M=√[hc^6/(5×10^6G²)]."
+      },
+      {
+        "label": "b · Type of mass limit",
+        "type": "choice",
+        "answer": "Lower limit; larger masses are tolerable",
+        "options": [
+          "Lower limit; larger masses are tolerable",
+          "Upper limit; smaller masses are tolerable",
+          "No mass dependence"
+        ],
+        "explanation": "At a fixed multiple of the horizon radius, tidal acceleration scales as1/M²."
+      }
+    ],
+    "reasoning": "The source explicitly asks you to estimate height. The numeric check fixes h=2.00m; other heights scale the limit as√(h/2m). Verification: Substitution at50 horizon radii yieldsΔg=10m/s² for the limiting mass; increasing M reduces tides as1/M².",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Person height2.00m, c=3.00×10^8m/s; Newtonian tidal-gradient approximation at50Rh."
+    ],
+    "scope": "The source asks for estimated human height. The general relation is checked; the numerical example assumes h=2.00m. Other justified height estimates give different valid numerical limits."
+  },
+  {
+    "id": "physics-chapter-13-problems-71",
+    "parts": [
+      {
+        "label": "a · Axial gravitational force (positive x away from ring)",
+        "type": "choice",
+        "answer": "F_x=−G*M*m*x/(R²+x²)^(3/2)",
+        "options": [
+          "F_x=−G*M*m*x/(R²+x²)^(3/2)",
+          "F_x=−G*M*m/x²",
+          "F_x=−G*M*m/(R²+x²)"
+        ],
+        "explanation": "All transverse contributions cancel. Project dF onto the axis and integrate the ring mass."
+      },
+      {
+        "label": "b · Speed at center from rest at axial distance x",
+        "type": "choice",
+        "answer": "sqrt(2*G*M*(1/R−1/sqrt(R²+x²)))",
+        "options": [
+          "sqrt(2*G*M*(1/R−1/sqrt(R²+x²)))",
+          "sqrt(2*G*M/R)",
+          "sqrt(2*G*M*(1/sqrt(R²+x²)−1/R))"
+        ],
+        "explanation": "U(x)=−GMm/√(R²+x²), U(0)=−GMm/R; set½mv²=U(x)−U(0)."
+      }
+    ],
+    "reasoning": "Uniform thin ring; release position is the same finite axial distance x as part(a). Verification: Force points toward the ring plane, vanishes atx=0, and approaches the point-mass inverse-square law far away.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-72",
+    "parts": [
+      {
+        "label": "a · Surface gravitational acceleration",
+        "type": "numeric",
+        "answer": 1327330000000.0,
+        "unit": "m/s²",
+        "tolerance": 7963980000.0,
+        "explanation": "g=GM_s/R² with R=10km."
+      },
+      {
+        "label": "b · Speed after1.0m fall",
+        "type": "numeric",
+        "answer": 1629312.7385496008,
+        "unit": "m/s",
+        "tolerance": 9775.876431297605,
+        "explanation": "For1m≪R, g is nearly constant: v=√(2gΔh)."
+      }
+    ],
+    "reasoning": "Newtonian textbook model; nonrotating neutron star. Relativistic corrections are outside this exercise. Verification: The1m drop is1e-4 of the radius; exact energy and constant-g speeds differ by only about0.005%.",
+    "sourcePages": [
+      30,
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-73",
+    "parts": [
+      {
+        "label": "a · Approximate asteroid mass",
+        "type": "numeric",
+        "answer": 1005.2718206114326,
+        "unit": "kg",
+        "tolerance": 80,
+        "explanation": "Energy conservation gives K(r)=E+GMm/r. From graph endpoints ΔK≈2.35×10^9J between1.75×10^7 and1.95×10^7m, solve m=ΔK/[GMΔ(1/r)]."
+      },
+      {
+        "label": "b · Speed at r=1.945×10^7m",
+        "type": "numeric",
+        "answer": 1.5125932695835536,
+        "unit": "km/s",
+        "tolerance": 0.1,
+        "explanation": "The graph gives K≈1.15×10^9J there; use v=√(2K/m)."
+      }
+    ],
+    "reasoning": "Graph values are approximate, so the answer check allows plotting/reading precision. Figure13-53 visually inspected; reported mass is about10^3kg. Verification: The original graph endpoints imply mass≈1000kg and the marked kinetic energy yields≈1.5km/s, agreeing with the existing key.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-74",
+    "parts": [
+      {
+        "label": "a · Surface-gravity relation for Earth-like density",
+        "type": "choice",
+        "answer": "g = (g_E/R_E)*R",
+        "options": [
+          "g = (g_E/R_E)*R",
+          "g = g_E*(R_E/R)²",
+          "g = g_E, independent of R"
+        ],
+        "explanation": "At fixed density M is proportional to R³, so GM/R² is proportional to R."
+      },
+      {
+        "label": "a · Surface acceleration for assumed10m radius",
+        "type": "numeric",
+        "answer": 1.5431520527840285e-05,
+        "unit": "m/s²",
+        "tolerance": 9.25891231670417e-08,
+        "explanation": "For fixed Earth-like density, g=(4πGρ/3)R=(g_E/R_E)R."
+      },
+      {
+        "label": "b · Escape-speed relation for Earth-like density",
+        "type": "choice",
+        "answer": "v_escape = R*sqrt(2*g_E/R_E)",
+        "options": [
+          "v_escape = R*sqrt(2*g_E/R_E)",
+          "v_escape = sqrt(2*g_E*R_E), independent of R",
+          "v_escape = (R_E/R)*sqrt(2*g_E*R_E)"
+        ],
+        "explanation": "Escape energy gives v²=2gR; substitute g=(g_E/R_E)R."
+      },
+      {
+        "label": "b · Escape speed for assumed10m radius",
+        "type": "numeric",
+        "answer": 0.01756788008146702,
+        "unit": "m/s",
+        "tolerance": 0.00010540728048880214,
+        "explanation": "v_esc=√(2gR); with fixed density it is proportional to planet radius."
+      }
+    ],
+    "reasoning": "The prompt deliberately supplies no unique house size. This check uses a house-sized planet of radius10m; both answers scale linearly with the chosen radius. Verification: Both g and escape speed tend to zero linearly with radius at fixed density, and have the expected dimensions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Planet radius10.0m; uniform density equal to Earth mean density; negligible rotation."
+    ],
+    "scope": "House size is deliberately unspecified. General scaling is checked alongside a conditional 10m-radius estimate. Other reasonable house dimensions produce valid estimates."
+  },
+  {
+    "id": "physics-chapter-13-problems-75",
+    "parts": [
+      {
+        "label": "Net gravitational force magnitude",
+        "type": "numeric",
+        "answer": 3.2007068447297745e-07,
+        "unit": "N",
+        "tolerance": 1.920424106837865e-09,
+        "explanation": "Add GmM(x,y)/(x²+y²)^(3/2) for the three source spheres, then take the resultant magnitude."
+      }
+    ],
+    "reasoning": "Independent component sum: Fx=-9.32028194e-09N, Fy=-3.19934955e-07N. The mass at(0,−0.5m) dominates the downward pull. Verification: Direct vector summation gives3.2007e-7N, matching the3.2e-7N existing key.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-76",
+    "parts": [
+      {
+        "label": "Meteor gravitational force at closest approach",
+        "type": "numeric",
+        "answer": 2.8820987654320985e-11,
+        "unit": "N",
+        "tolerance": 1.7292592592592593e-13,
+        "explanation": "Outside a spherical shell the field is that of its mass at the center. Separation=15m+3m=18m."
+      }
+    ],
+    "reasoning": "Do not use3m as center-to-center distance. Verification: The shell theorem uses center distance15+3=18m rather than3m.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-77",
+    "parts": [
+      {
+        "label": "x component of force on B",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-15,
+        "explanation": "Left and right forces cancel:200/(0.80)²=50/(0.40)²."
+      },
+      {
+        "label": "y component of force on B",
+        "type": "numeric",
+        "answer": 3.7352e-07,
+        "unit": "N",
+        "tolerance": 2.2411200000000002e-09,
+        "explanation": "Only A contributes vertically: Fy=G(35)(40)/(0.50)²."
+      },
+      {
+        "label": "z component of force on B",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-15,
+        "explanation": "All masses lie in the xy plane."
+      }
+    ],
+    "reasoning": "Force is +(3.7352×10^-7N)ĵ, with exactly zero x component under the stated data. Verification: Horizontal attractions200/.8² and50/.4² cancel exactly; only the positive y component remains.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-78",
+    "parts": [
+      {
+        "label": "a · Three-body potential energy",
+        "type": "numeric",
+        "answer": -1.4312708333333334e-06,
+        "unit": "J",
+        "tolerance": 8.587625e-09,
+        "explanation": "Sum pair potentials once: −G[m_Bm_C/0.80+m_Bm_D/0.40+m_Cm_D/1.20]."
+      },
+      {
+        "label": "b · Potential energy after replacing A",
+        "type": "choice",
+        "answer": "Less (more negative)",
+        "options": [
+          "Less (more negative)",
+          "More (less negative)",
+          "Unchanged"
+        ],
+        "explanation": "Three additional pair interactions are all negative."
+      },
+      {
+        "label": "c · External work to remove A",
+        "type": "choice",
+        "answer": "Positive",
+        "options": [
+          "Positive",
+          "Negative",
+          "Zero"
+        ],
+        "explanation": "Removing A to infinity increases potential energy from negative pair terms to zero."
+      },
+      {
+        "label": "d · External work to replace A",
+        "type": "choice",
+        "answer": "Negative",
+        "options": [
+          "Negative",
+          "Positive",
+          "Zero"
+        ],
+        "explanation": "Slow replacement lowers potential energy; external work equals that negative change."
+      }
+    ],
+    "reasoning": "Zero potential at infinite separation; removal/replacement is quasistatic. Verification: All three remaining pair potentials are negative. Removing A requires positive external work; replacing it requires negative work.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-79",
+    "parts": [
+      {
+        "label": "Orbital period",
+        "type": "choice",
+        "answer": "T=2*pi*sqrt(r³/(G*(M+m/4)))",
+        "options": [
+          "T=2*pi*sqrt(r³/(G*(M+m/4)))",
+          "T=2*pi*sqrt(r³/(G*(M+m)))",
+          "T=2*pi*sqrt(r³/(G*M))"
+        ],
+        "explanation": "An orbiting star feels GMm/r² plus Gm²/(2r)², both inward. Set mω²r=Gm(M+m/4)/r²."
+      }
+    ],
+    "reasoning": "The central star has zero net force by symmetry; both outer stars remain opposite each other. Verification: The opposite outer star contributesGm/(4r²) inward. Taking m→0 recovers the central-mass Kepler period.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-80",
+    "parts": [
+      {
+        "label": "Why faster rotation cannot be maintained",
+        "type": "choice",
+        "answer": "Gravity would be insufficient to supply the required centripetal acceleration at the equator",
+        "options": [
+          "Gravity would be insufficient to supply the required centripetal acceleration at the equator",
+          "The gravitational force would become repulsive",
+          "The planetary mass would become zero"
+        ],
+        "explanation": "With no extra cohesive support, material would leave the surface ifω²R exceeds GM/R²."
+      },
+      {
+        "label": "a · Shortest-period derivation",
+        "type": "choice",
+        "answer": "GM/R²=4*pi²*R/T² and M=4*pi*ρ*R³/3 give T=sqrt(3*pi/(G*ρ))",
+        "options": [
+          "GM/R²=4*pi²*R/T² and M=4*pi*ρ*R³/3 give T=sqrt(3*pi/(G*ρ))",
+          "GM/R²=4*pi²*R/T gives T=3*pi/(G*ρ)",
+          "T=2*pi*sqrt(R/g) depends on R at fixed density"
+        ],
+        "explanation": "Insert the spherical mass formula into the equatorial balance; radius cancels."
+      },
+      {
+        "label": "b · Shortest period at density3.0g/cm³",
+        "type": "numeric",
+        "answer": 1.9063801996424337,
+        "unit": "hours",
+        "tolerance": 0.011438281197854602,
+        "explanation": "Convert3.0g/cm³ to3000kg/m³, then evaluate√[3π/(Gρ)]."
+      }
+    ],
+    "reasoning": "Idealized self-gravitating fluid/rubble body; a small solid body with material strength can exceed this gravity-only limit. Verification: At the limiting rate centripetal acceleration equals surface gravity; radius cancels for fixed density.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-81",
+    "parts": [
+      {
+        "label": "a · Angular speed",
+        "type": "numeric",
+        "answer": 2.2366269246345043e-07,
+        "unit": "rad/s",
+        "tolerance": 1.3419761547807025e-09,
+        "explanation": "Separation is2r, so GM²/(2r)²=Mω²r."
+      },
+      {
+        "label": "b · Minimum escape speed from midpoint",
+        "type": "numeric",
+        "answer": 89.46507698538016,
+        "unit": "km/s",
+        "tolerance": 0.536790461912281,
+        "explanation": "Potential per mass at midpoint is−2GM/r; zero total energy requires½v²=2GM/r."
+      }
+    ],
+    "reasoning": "Each star orbits at radius r=1.0×10^11m about the midpoint. Verification: Star separation is2r. Midpoint escape potential includes both stars, giving the existing≈89km/s key.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-82",
+    "parts": [
+      {
+        "label": "Perihelion angular speed",
+        "type": "numeric",
+        "answer": 9.242587687997103e-05,
+        "unit": "rad/s",
+        "tolerance": 5.545552612798262e-07,
+        "explanation": "Find a from Kepler law, r_p=2a−r_a; angular momentum gives r_a²ω_a=r_p²ω_p."
+      }
+    ],
+    "reasoning": "Angular speed is about the planet focus, not the ellipse center. Verification: Kepler gives the semimajor axis, and r²ω conservation between apsides reproduces the reported perihelion rate.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-83",
+    "parts": [
+      {
+        "label": "a · Original period",
+        "type": "numeric",
+        "answer": 21484.689637373678,
+        "unit": "s",
+        "tolerance": 128.90813782424206,
+        "explanation": "T0=2π√(r³/GM)."
+      },
+      {
+        "label": "b · Original speed",
+        "type": "numeric",
+        "answer": 12.282876194892124,
+        "unit": "km/s",
+        "tolerance": 0.07369725716935274,
+        "explanation": "v0=√(GM/r)."
+      },
+      {
+        "label": "c · Speed after burst",
+        "type": "numeric",
+        "answer": 12.037218670994282,
+        "unit": "km/s",
+        "tolerance": 0.07222331202596569,
+        "explanation": "Reduce the initial speed by2.00%: v=0.98v0."
+      },
+      {
+        "label": "d · Kinetic energy after burst",
+        "type": "numeric",
+        "answer": 217341950000.0,
+        "unit": "J",
+        "tolerance": 1304051700.0,
+        "explanation": "K=½m(0.98v0)²."
+      },
+      {
+        "label": "e · Potential energy after burst",
+        "type": "numeric",
+        "answer": -452607142857.1429,
+        "unit": "J",
+        "tolerance": 2715642857.1428576,
+        "explanation": "U=−GMm/r; position is unchanged during the short burn."
+      },
+      {
+        "label": "f · Mechanical energy after burst",
+        "type": "numeric",
+        "answer": -235265192857.14288,
+        "unit": "J",
+        "tolerance": 1411591157.1428573,
+        "explanation": "E=K+U."
+      },
+      {
+        "label": "g · New semimajor axis",
+        "type": "numeric",
+        "answer": 40400153.905348204,
+        "unit": "m",
+        "tolerance": 242400.92343208924,
+        "explanation": "a=−GMm/(2E)."
+      },
+      {
+        "label": "h · Period difference T_circular−T_elliptical",
+        "type": "numeric",
+        "answer": 1215.8130622415338,
+        "unit": "s",
+        "tolerance": 7.294878373449203,
+        "explanation": "Calculate elliptical period from a, then subtract from original period."
+      },
+      {
+        "label": "i · Orbit with smaller period",
+        "type": "choice",
+        "answer": "New elliptical orbit",
+        "options": [
+          "New elliptical orbit",
+          "Original circular orbit",
+          "Equal periods"
+        ],
+        "explanation": "The reduced speed lowers total energy and semimajor axis; T² scales as a³."
+      }
+    ],
+    "reasoning": "The burn point is the aphelion of the new ellipse; orbital radius immediately after firing does not shrink instantaneously. Verification: Energy and period checks reproduce the existing values within rounding; energy becomes more negative after braking.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-84",
+    "parts": [
+      {
+        "label": "Percentage by which free-fall acceleration is smaller",
+        "type": "numeric",
+        "answer": 0.030728738897153933,
+        "unit": "%",
+        "tolerance": 0.0001843724333829236,
+        "explanation": "At the equator g=a_g−ω²R; percentage reduction=100ω²R/(GM/R²)."
+      }
+    ],
+    "reasoning": "Use the specifically stated1.98×10^30kg mass, not a different solar-mass rounding. Newtonian rotating-frame model. Verification: Centrifugal acceleration reduces effective free fall; the positive percentage is about0.0307%, far below100%.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-85",
+    "parts": [
+      {
+        "label": "Maximum altitude",
+        "type": "numeric",
+        "answer": 25245.06632157876,
+        "unit": "km",
+        "tolerance": 151.47039792947257,
+        "explanation": "Set½v0²−GM/R=−GM/r_max; solve r_max and subtract R."
+      }
+    ],
+    "reasoning": "Airless Newtonian motion; do not approximate g as constant over this large altitude. Verification: Turning-point energy equals initial energy; a constant-g calculation would be inappropriate at≈4Earth radii altitude.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-86",
+    "parts": [
+      {
+        "label": "a · Earth-rotation acceleration / g",
+        "type": "numeric",
+        "answer": 0.0034375229663430647,
+        "unit": "",
+        "tolerance": 2.0625137798058388e-05,
+        "explanation": "Use a=4π²R/T² with one-day period."
+      },
+      {
+        "label": "b · Earth-orbit acceleration / g",
+        "type": "numeric",
+        "answer": 0.0006067600604209954,
+        "unit": "",
+        "tolerance": 3.6405603625259722e-06,
+        "explanation": "Use a=4π²r/T² for1AU and1year."
+      },
+      {
+        "label": "c · Galactic acceleration / g",
+        "type": "numeric",
+        "answer": 1.4238636084546022e-11,
+        "unit": "",
+        "tolerance": 8.543181650727613e-14,
+        "explanation": "Use the given galactic radius and period; convert years to seconds."
+      }
+    ],
+    "reasoning": "All three acceleration magnitudes are reported as dimensionless multiples of9.8m/s². Verification: All three final acceleration/g values are dimensionless; day and year periods are converted to seconds.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-87",
+    "parts": [
+      {
+        "label": "a · Impact speed after2m fall",
+        "type": "numeric",
+        "answer": 1410955.6762732954,
+        "unit": "m/s",
+        "tolerance": 8465.734057639773,
+        "explanation": "Energy conservation gives v²=2GM[1/R−1/(R+2m)]."
+      },
+      {
+        "label": "b · Tidal acceleration across an apple of height h much smaller than R",
+        "type": "choice",
+        "answer": "Δg ≈ 2*G*M*h/R³",
+        "options": [
+          "Δg ≈ 2*G*M*h/R³",
+          "Δg ≈ G*M/R², independent of apple height",
+          "Δg ≈ G*M*h/R²"
+        ],
+        "explanation": "Differentiate g=GM/r²: the magnitude of dg/dr is2GM/r³; multiply by the vertical extent h."
+      },
+      {
+        "label": "b · Acceleration difference for a6.0cm-tall apple",
+        "type": "numeric",
+        "answer": 2986479.0609111204,
+        "unit": "m/s²",
+        "tolerance": 59729.58121822241,
+        "explanation": "Δg=GM[1/R²−1/(R+0.060m)²]≈2GM(0.060m)/R³."
+      }
+    ],
+    "reasoning": "The source asks for a reasonable apple size. The check fixes vertical extent6.0cm; any other height scales Δg approximately linearly. Verification: Exact two-radius potential and gravity expressions were used. Results agree with the existing1.4e6m/s and3e6m/s² conditional key.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Nonrotating neutron star; apple vertical height0.060m; Newtonian gravity."
+    ],
+    "scope": "The apple size is estimated. The numerical example fixes its vertical extent at6.0cm; other justified sizes are valid and scale the tidal difference approximately linearly."
+  },
+  {
+    "id": "physics-chapter-13-problems-88",
+    "parts": [
+      {
+        "label": "Speed through Earth center",
+        "type": "numeric",
+        "answer": 7.913047866063509,
+        "unit": "km/s",
+        "tolerance": 0.04747828719638105,
+        "explanation": "Inside a uniform sphere U/m=−GM(3R²−r²)/(2R³). Falling from surface to center gains GM/(2R), hence v=√(GM/R)."
+      }
+    ],
+    "reasoning": "Released at rest from Earth surface; uniform density and no air resistance/rotation. Verification: The uniform-sphere potential drops byGM/(2R) from surface to center; speed equals the circular speed at the surface.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-89",
+    "parts": [
+      {
+        "label": "a · Total-energy variation magnitude",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "J",
+        "tolerance": 1e-09,
+        "explanation": "In a fixed Kepler orbit E=−GMm/(2a) is constant."
+      },
+      {
+        "label": "b · Potential-energy variation magnitude",
+        "type": "numeric",
+        "answer": 1.776188999283925e+32,
+        "unit": "J",
+        "tolerance": 1.065713399570355e+30,
+        "explanation": "U_a−U_p=GMm(1/r_p−1/r_a)."
+      },
+      {
+        "label": "c · Kinetic-energy variation magnitude",
+        "type": "numeric",
+        "answer": 1.776188999283925e+32,
+        "unit": "J",
+        "tolerance": 1.065713399570355e+30,
+        "explanation": "Energy conservation gives ΔK=−ΔU, so the magnitudes are equal."
+      },
+      {
+        "label": "d · Speed variation magnitude",
+        "type": "numeric",
+        "answer": 0.9966861006519575,
+        "unit": "km/s",
+        "tolerance": 0.005980116603911745,
+        "explanation": "Use vis-viva at both apsides, or r_p v_p=r_a v_a together with energy conservation."
+      }
+    ],
+    "reasoning": "The question asks variations; positive peak-to-peak magnitudes are checked. K and speed peak at perihelion, while U peaks at aphelion. Verification: The two kinetic/potential variations cancel, and apsidal speeds obeyr_p*v_p=r_a*v_a; existing key agrees to source rounding.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-90",
+    "parts": [
+      {
+        "label": "a · Orbital radius",
+        "type": "numeric",
+        "answer": 18908964.576067645,
+        "unit": "m",
+        "tolerance": 113453.78745640587,
+        "explanation": "F=m4π²r/T² gives r=FT²/(4π²m)."
+      },
+      {
+        "label": "b · Orbital kinetic energy",
+        "type": "numeric",
+        "answer": 756358583.0427058,
+        "unit": "J",
+        "tolerance": 4538151.498256234,
+        "explanation": "For circular motion K=Fr/2."
+      },
+      {
+        "label": "c · Cruton mass",
+        "type": "numeric",
+        "answer": 8.576886149061015e+24,
+        "unit": "kg",
+        "tolerance": 5.146131689436609e+22,
+        "explanation": "Use F=GMm/r², so M=Fr²/(Gm)."
+      }
+    ],
+    "reasoning": "Satellite mass is50kg; orbital period6hours. Verification: The inferred radius, mass and kinetic energy independently reproduce80N and6h.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-91",
+    "parts": [
+      {
+        "label": "a · Total kinetic energy at separation R_i/2",
+        "type": "choice",
+        "answer": "G*m²/R_i",
+        "options": [
+          "G*m²/R_i",
+          "2*G*m²/R_i",
+          "G*m²/(2*R_i)"
+        ],
+        "explanation": "Potential changes from−Gm²/R_i to−2Gm²/R_i, so total K increases byGm²/R_i."
+      },
+      {
+        "label": "b · Kinetic energy of each body",
+        "type": "choice",
+        "answer": "G*m²/(2*R_i)",
+        "options": [
+          "G*m²/(2*R_i)",
+          "G*m²/R_i",
+          "2*G*m²/R_i"
+        ],
+        "explanation": "Equal masses have equal opposite speeds in the center-of-mass frame, sharing totalK equally."
+      },
+      {
+        "label": "c · Speed of each body in inertial frame",
+        "type": "choice",
+        "answer": "sqrt(G*m/R_i)",
+        "options": [
+          "sqrt(G*m/R_i)",
+          "sqrt(2*G*m/R_i)",
+          "2*sqrt(G*m/R_i)"
+        ],
+        "explanation": "Set½mv²=Gm²/(2R_i)."
+      },
+      {
+        "label": "d · Correct relative speed B with respect to A",
+        "type": "choice",
+        "answer": "2*sqrt(G*m/R_i)",
+        "options": [
+          "2*sqrt(G*m/R_i)",
+          "sqrt(G*m/R_i)",
+          "sqrt(2*G*m/R_i)"
+        ],
+        "explanation": "The velocities point in opposite directions, so relative speed is2v."
+      },
+      {
+        "label": "e · Naive kinetic energy from applying ordinary energy conservation in accelerating A frame",
+        "type": "choice",
+        "answer": "G*m²/R_i",
+        "options": [
+          "G*m²/R_i",
+          "G*m²/(2*R_i)",
+          "2*G*m²/R_i"
+        ],
+        "explanation": "The requested naive calculation assigns the entire potential-energy decrease to B; it omits inertial-force work and is not the actual relative kinetic energy."
+      },
+      {
+        "label": "f · Naive relative speed from that invalid energy calculation",
+        "type": "choice",
+        "answer": "sqrt(2*G*m/R_i)",
+        "options": [
+          "sqrt(2*G*m/R_i)",
+          "2*sqrt(G*m/R_i)",
+          "sqrt(G*m/R_i)"
+        ],
+        "explanation": "From the naive K_B=Gm²/R_i one would infer v=√(2Gm/R_i); this is not the physical answer."
+      },
+      {
+        "label": "g · Why answers differ, and which is correct",
+        "type": "choice",
+        "answer": "The A frame accelerates; ordinary mechanical-energy conservation omits fictitious-force work there. Part(d) is correct.",
+        "options": [
+          "The A frame accelerates; ordinary mechanical-energy conservation omits fictitious-force work there. Part(d) is correct.",
+          "The inertial center-of-mass frame is invalid; part(f) is correct.",
+          "Both speeds are correct physical relative speeds."
+        ],
+        "explanation": "Velocity subtraction from the inertial frame is valid. Accounting for inertial-force work in the A frame recovers the speed in part(d)."
+      }
+    ],
+    "reasoning": "Parts(e,f) explicitly ask for the result of a misleading calculation; labels distinguish those naive results from the physical result. Actual B kinetic energy relative to A is2Gm²/R_i. Verification: In the inertial frame the total potential drop is split equally. Relative velocity subtraction gives2v; the accelerating frame must include inertial-force work.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-92",
+    "parts": [
+      {
+        "label": "a · Kinetic energy at1000km altitude",
+        "type": "numeric",
+        "answer": 38252884.085178375,
+        "unit": "J",
+        "tolerance": 229517.30451107025,
+        "explanation": "E=½mv_i²−GMm/r_i is conserved after shutdown; K_f=E+GMm/r_f."
+      },
+      {
+        "label": "b · Maximum altitude",
+        "type": "numeric",
+        "answer": 1034.892505347995,
+        "unit": "km",
+        "tolerance": 6.20935503208797,
+        "explanation": "At the turning point K=0, hence r_max=−GMm/E; subtract R_E."
+      }
+    ],
+    "reasoning": "Initial position is200km above surface, not at the surface. Verification: K decreases on ascent, remains positive at1000km, and reaches zero at the calculated1035km turning altitude.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-93",
+    "parts": [
+      {
+        "label": "Meteorite surface speed",
+        "type": "numeric",
+        "answer": 24158.33189605607,
+        "unit": "m/s",
+        "tolerance": 144.9499913763364,
+        "explanation": "Release from rest at infinity has zero energy. Thus½v²=GM/R at the surface."
+      }
+    ],
+    "reasoning": "Airless, nonrotating planet; speed equals Newtonian escape speed. Verification: The speed squared equals2GM/R, matching the rounded24000m/s existing key.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-94",
+    "parts": [
+      {
+        "label": "a · Kinetic energy at(0.30m,0)",
+        "type": "numeric",
+        "answer": 5.3359999999999996e-08,
+        "unit": "J",
+        "tolerance": 3.2015999999999996e-10,
+        "explanation": "Each source is0.50m from that point; U=−2G(20)(10)/0.50 and E=0."
+      },
+      {
+        "label": "b · Net-force x component",
+        "type": "numeric",
+        "answer": -6.403199999999999e-08,
+        "unit": "N",
+        "tolerance": 3.841919999999999e-10,
+        "explanation": "Add two x projections: Fx=−2G(20)(10)(0.30)/(0.50)³."
+      },
+      {
+        "label": "b · Net-force y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-15,
+        "explanation": "Vertical components cancel by symmetry."
+      },
+      {
+        "label": "b · Net-force z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-15,
+        "explanation": "All points lie in the xy plane."
+      }
+    ],
+    "reasoning": "The ball stays on the x axis by symmetry. Net force points toward the origin. Verification: The3–4–5 geometry yields0.50m source distances; y forces cancel and the x force is negative.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-95",
+    "parts": [
+      {
+        "label": "Force x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-15,
+        "explanation": "Solve circle intersections to get C=(0.16,0.12)m. Sum the x projections of A and B attractions."
+      },
+      {
+        "label": "Force y component",
+        "type": "numeric",
+        "answer": -4.446666666666667e-08,
+        "unit": "N",
+        "tolerance": 2.668e-10,
+        "explanation": "Both sources lie below C, so both y components are negative."
+      },
+      {
+        "label": "Force z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-15,
+        "explanation": "There is no out-of-plane component."
+      }
+    ],
+    "reasoning": "From distances AC=.20m,BC=.15m,AB=.25m, C=(.16,.12)m. F=Gm_C[m_A(r_A−r_C)/AC³+m_B(r_B−r_C)/BC³]. Components (-3.03316483e-24,-4.44666667e-08,0)N. Verification: The two distance constraints yieldC=(.16,.12)m; x attractions cancel exactly and both y contributions are negative.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-96",
+    "parts": [
+      {
+        "label": "a · Verne launch acceleration / g",
+        "type": "numeric",
+        "answer": 28061.224489795917,
+        "unit": "",
+        "tolerance": 168.3673469387755,
+        "explanation": "Use v²=2aL for a launch from rest; divide a by9.8m/s²."
+      },
+      {
+        "label": "b · Effect on astronauts",
+        "type": "choice",
+        "answer": "Deadly",
+        "options": [
+          "Deadly",
+          "Tolerable for an ordinary launch",
+          "No acceleration acts on the astronauts"
+        ],
+        "explanation": "The launch requires roughly28000g, far beyond human tolerance."
+      },
+      {
+        "label": "c · SHARP launch acceleration / g",
+        "type": "numeric",
+        "answer": 714.2857142857142,
+        "unit": "",
+        "tolerance": 4.285714285714286,
+        "explanation": "Use v²=2aL with v=7000m/s,L=3500m."
+      },
+      {
+        "label": "d · Additional-speed requirement with unspecified burn trajectory",
+        "type": "choice",
+        "answer": "No unique maneuver speed increment: the engine must supply specific energy GM/R_E − GM/[2(R_E+h)] − v0²/2",
+        "options": [
+          "No unique maneuver speed increment: the engine must supply specific energy GM/R_E − GM/[2(R_E+h)] − v0²/2",
+          "The speed increment is always sqrt(GM/(R_E+h)) − v0, regardless of ascent",
+          "No extra engine energy is needed because7km/s is enough for the700km circular orbit"
+        ],
+        "explanation": "With h=700km and v0=7km/s, required added mechanical energy per unit mass is about9.91MJ/kg. A scalar speed deficit after coast to that altitude is about1.46km/s, but an actual maneuver also depends on velocity direction and burn timing. Merely subtracting7km/s from orbital speed ignores the climb."
+      }
+    ],
+    "reasoning": "Part(d) assumes ideal redirection into a tangential orbit and no drag; it asks the speed increase, not the full vector impulse for changing trajectory. At700km the unpowered launch has slowed to about6.05km/s. Verification: Both launcher accelerations satisfyv²=2aL. The stated altitude speed deficit includes the gravitational energy needed to ascend and is scoped to its burn assumption.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ],
+    "scope": "Part(d) does not specify engine-burn trajectory. The check assesses the uniquely determined orbital-energy requirement and explains why a unique maneuver delta-v is not determined. Under ideal tangential redirection after unpowered ascent, the conditional scalar speed deficit is1.46km/s."
+  },
+  {
+    "id": "physics-chapter-13-problems-97",
+    "parts": [
+      {
+        "label": "Applied work moving from3R_E to4R_E",
+        "type": "choice",
+        "answer": "G*M_E*m/(12*R_E)",
+        "options": [
+          "G*M_E*m/(12*R_E)",
+          "−G*M_E*m/(12*R_E)",
+          "G*M_E*m/(4*R_E)"
+        ],
+        "explanation": "W=∫_(3R)^(4R) GMm/r² dr=GMm[1/(3R)−1/(4R)]."
+      }
+    ],
+    "reasoning": "Object starts and ends at rest; applied work equals the increase in gravitational potential energy. Verification: The force integral is positive and equalsU_f−U_i; reversing the move reverses its sign.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-98",
+    "parts": [
+      {
+        "label": "City-to-city travel time",
+        "type": "numeric",
+        "answer": 42.14967806355988,
+        "unit": "min",
+        "tolerance": 0.2528980683813593,
+        "explanation": "Along any chord, the gravity component is −GMx/R³. This is SHM withω=√(GM/R³); endpoint-to-endpoint travel is half a period,π/ω."
+      }
+    ],
+    "reasoning": "Uniform Earth density, straight chord, no drag/friction/rotation; result is independent of chord length. Verification: The chord projection gives linear restoring acceleration independently of chord length; crossing takes half the SHM period.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-99",
+    "parts": [
+      {
+        "label": "a · Force magnitude atP",
+        "type": "numeric",
+        "answer": 1.5075457568136454e-12,
+        "unit": "N",
+        "tolerance": 9.045274540881873e-15,
+        "explanation": "Let λ=M/(πR), dF=Gmλdθ/R. Horizontal components cancel; integrate the upward component over0≤θ≤π to get2GMm/(πR²)."
+      },
+      {
+        "label": "a · Force direction",
+        "type": "choice",
+        "answer": "Upward, toward the middle of the semicircular arc",
+        "options": [
+          "Upward, toward the middle of the semicircular arc",
+          "Downward, away from the arc",
+          "Horizontal to the right"
+        ],
+        "explanation": "The displayed arc lies above P; symmetric horizontal components cancel."
+      },
+      {
+        "label": "b · Force for a complete circle",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-18,
+        "explanation": "Every element has an opposite partner, so the net field at the center vanishes."
+      }
+    ],
+    "reasoning": "Figure13-56 visually reviewed: the semicircular rod occupies the upper half-plane. Verification: Original Figure13-56 shows an upper semicircle. Horizontal cancellation and the sine integral give1.51e-12N upward, matching the existing key.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-100",
+    "parts": [
+      {
+        "label": "Weight difference: lower block minus upper block",
+        "type": "numeric",
+        "answer": 3.073315373251775e-07,
+        "unit": "N",
+        "tolerance": 1.843989223951065e-09,
+        "explanation": "Near the surface ΔW≈2GMmh/R³. Substitute M=4πρR³/3 to obtain ΔW≈(8π/3)Gρmh."
+      }
+    ],
+    "reasoning": "h=0.0500m≪R_E and density5500kg/m³; the lower block is heavier. Verification: The first-order inverse-square gradient gives a positive lower-minus-upper weight difference; h/R is negligible.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  },
+  {
+    "id": "physics-chapter-13-problems-101",
+    "parts": [
+      {
+        "label": "Zero-force distance from Earth center",
+        "type": "numeric",
+        "answer": 343852.941207874,
+        "unit": "km",
+        "tolerance": 2063.117647247244,
+        "explanation": "Between the bodies, GM_E/x²=GM_M/(D−x)², so x=D/[1+√(M_M/M_E)]."
+      }
+    ],
+    "reasoning": "Use chapter Earth–Moon distance D=3.82×10^8m and Moon mass7.36×10^22kg; distance is from Earth center. Verification: Substituting the distance in the Earth and Moon inverse-square fields gives equal magnitudes; the zero lies closer to the Moon.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Newtonian gravity; G=6.67×10^-11 SI. Earth M=5.98×10^24 kg, R=6.37×10^6 m; Sun M=1.99×10^30 kg when needed."
+    ]
+  }
+]
