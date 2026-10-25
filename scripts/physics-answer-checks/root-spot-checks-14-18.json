@@ -1,0 +1,11 @@
+{
+  "purpose": "Independent integration checks against stated textbook conditions; these supplement the per-record derivations and conceptual review.",
+  "checks": [
+    {"id":"physics-chapter-15-problems-116","method":"RK4 with dt=0.0001s independently compared against the exact homogeneous-plus-driven solution of 2x''+15x'+350x=15sin(omega_d t), x(0)=x'(0)=0.","maximumDisplacementDisagreementMeters":6e-15,"cases":[{"driveRadPerS":35,"lastPositiveExtremumMeters":0.00614055175,"lastNegativeExtremumMeters":-0.00726104325,"steadyAmplitudeMeters":0.00692958929},{"driveRadPerS":13.2287565553,"lastPositiveExtremumMeters":0.0713649392,"lastNegativeExtremumMeters":-0.0740474637,"steadyAmplitudeMeters":0.0755928946},{"driveRadPerS":20,"lastPositiveExtremumMeters":0.0258264719,"lastNegativeExtremumMeters":-0.0273539317,"steadyAmplitudeMeters":0.0277350098}],"note":"Near-1s graph estimates differ from ideal steady-state values because transient motion remains; the answer tolerance must cover defensible graph estimates."},
+    {"id":"physics-chapter-17-problems-100","independentAnswer":[2,6,10],"reasoning":"Closed-open A allows odd nA. With LB=4LA, nB*v/(8LA)=nA*v/(4LA), hence nB=2nA."},
+    {"id":"physics-chapter-17-problems-103","independentAnswer":400,"unit":"Hz","reasoning":"f'=440(340-80)/(340-54), with observer ahead receding faster than chasing source."},
+    {"id":"physics-chapter-17-problems-105","independentAnswer":{"inPhasePoints":14,"outOfPhasePoints":12},"reasoning":"D/lambda=3.2 permits integers -3..3 and half-integers +/-0.5,+/-1.5,+/-2.5; each gives two angular positions."},
+    {"id":"physics-chapter-17-problems-108","independentAnswer":"lambda=4[sqrt((d/2)^2+(H+h)^2)-sqrt((d/2)^2+H^2)]","reasoning":"The reflected path increases by two times the one-leg difference. First phase change pi requires that increase=lambda/2."},
+    {"id":"physics-chapter-18-problems-108","independentAnswer":56005.7679082,"unit":"W","reasoning":"Uniform stopping gives t=2d/v, withv=83/3.6m/s; average energy conversion rate=(mv^2/2)/t=mv^3/(4d)."}
+  ]
+}

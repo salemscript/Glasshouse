@@ -1,0 +1,3789 @@
+[
+  {
+    "id": "physics-chapter-17-questions-1",
+    "parts": [
+      {
+        "label": "a · Energy-rate ranking",
+        "type": "choice",
+        "answer": "0 > 0.2 wavelength > 0.5 wavelength",
+        "options": [
+          "0 > 0.2 wavelength > 0.5 wavelength",
+          "0.5 wavelength > 0.2 wavelength > 0",
+          "All equal"
+        ],
+        "explanation": "Power is4P₁cos²(Δφ/2)."
+      },
+      {
+        "label": "b · Power divided by Pavg,1",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "In phase doubles amplitude and quadruples power."
+      }
+    ],
+    "reasoning": "Use coherent superposition before squaring the amplitude. Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-2",
+    "parts": [
+      {
+        "label": "a · Phase difference in wavelengths",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "wavelengths",
+        "tolerance": 0,
+        "explanation": "(38−34)/2=2."
+      },
+      {
+        "label": "b · Phase difference in wavelengths",
+        "type": "numeric",
+        "answer": 1.5,
+        "unit": "wavelengths",
+        "tolerance": 0,
+        "explanation": "(39−36)/2=1.5."
+      },
+      {
+        "label": "c · Interference in(a), then(b)",
+        "type": "choice",
+        "answer": "Constructive; destructive",
+        "options": [
+          "Constructive; destructive",
+          "Destructive; constructive",
+          "Constructive; constructive"
+        ],
+        "explanation": "Integer path differences reinforce; half-integers cancel for equal amplitudes."
+      }
+    ],
+    "reasoning": "Unwrapped path differences are 2λ and 1.5λ; reduced phases are 0andπ. Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-3",
+    "parts": [
+      {
+        "label": "Arrival order",
+        "type": "choice",
+        "answer": "A = B, then C",
+        "options": [
+          "A = B, then C",
+          "A, then B, then C",
+          "C, then B, then A"
+        ],
+        "explanation": "Lengths are 6L,3L,2L and speeds 4v₀,2v₀,v₀, so times 1.5,1.5,2 in units L/v₀."
+      }
+    ],
+    "reasoning": "Trace all bends in the diagram; compare length divided by√(B/ρ). Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-4",
+    "parts": [
+      {
+        "label": "a · Number of open ends",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "ends",
+        "tolerance": 0,
+        "explanation": "A sixth harmonic is impossible for a tube with one closed end."
+      },
+      {
+        "label": "b · Midpoint displacement",
+        "type": "choice",
+        "answer": "Anti node",
+        "options": [
+          "Anti node",
+          "Node",
+          "Neither a node nor an antinode"
+        ],
+        "explanation": "Open-open displacement varies as cos(6πx/L); atL/2 it has maximum magnitude."
+      }
+    ],
+    "reasoning": "Open endpoints are displacement antinodes; n=6 leaves an antinode at the center. Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-5",
+    "parts": [
+      {
+        "label": "Length ranking",
+        "type": "choice",
+        "answer": "E > A > D > C > B",
+        "options": [
+          "E > A > D > C > B",
+          "E > D > A = C > B",
+          "A > E > D > C > B"
+        ],
+        "explanation": "A is open at both ends,so its n=3length is6λ/4. B,C,D,E closed-end lengths areλ/4,3λ/4,5λ/4,7λ/4."
+      }
+    ],
+    "reasoning": "Enlarged Fig17-27shows pipe A open at both ends;B–E closed at right. At shared frequency lengths are nλ/2for A and odd nλ/4for others. Verification: counts of quarter wavelengths are A6,B1,C3,D5,E7.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-6",
+    "parts": [
+      {
+        "label": "Matching B harmonics",
+        "type": "choice",
+        "answer": "Odd harmonics: 1, 3, 5, …",
+        "options": [
+          "Odd harmonics: 1, 3, 5, …",
+          "Even harmonics: 2, 4, 6, …",
+          "All harmonics"
+        ],
+        "explanation": "B has f=n v/(4L), while A permits only odd n in the same expression."
+      }
+    ],
+    "reasoning": "Compare open-open length 2L with open-closed length L. Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-7",
+    "parts": [
+      {
+        "label": "Detected-frequency ranking",
+        "type": "choice",
+        "answer": "1 > 4 > 3 > 2",
+        "options": [
+          "1 > 4 > 3 > 2",
+          "2 > 3 > 4 > 1",
+          "1 = 4 > 2 = 3"
+        ],
+        "explanation": "Frequency rises with source velocity projected toward detector; the source moves right."
+      }
+    ],
+    "reasoning": "The horizontal right detector has maximal approach, upper-right partial approach, vertical zero projection, left recession. Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-8",
+    "parts": [
+      {
+        "label": "a · Linear speeds",
+        "type": "choice",
+        "answer": "3 > 1 = 2",
+        "options": [
+          "3 > 1 = 2",
+          "1 > 2 = 3",
+          "1 = 2 = 3"
+        ],
+        "explanation": "Doppler excursion amplitude tracks linear speed."
+      },
+      {
+        "label": "b · Angular speeds",
+        "type": "choice",
+        "answer": "1 > 2 = 3",
+        "options": [
+          "1 > 2 = 3",
+          "3 > 1 = 2",
+          "1 = 2 = 3"
+        ],
+        "explanation": "Curve 1 has twice the oscillation frequency of2and 3."
+      },
+      {
+        "label": "c · Radii",
+        "type": "choice",
+        "answer": "3 > 2 > 1",
+        "options": [
+          "3 > 2 > 1",
+          "1 > 2 > 3",
+          "3 > 1 = 2"
+        ],
+        "explanation": "Use r=v/ω: same speed but faster rotation gives smaller radius."
+      }
+    ],
+    "reasoning": "Visually compare graph amplitudes and periods, then form v/ω. Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-9",
+    "parts": [
+      {
+        "label": "Lower missing frequency",
+        "type": "numeric",
+        "answer": 150,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "Common fundamental 150Hz gives six harmonics below 1000Hz."
+      },
+      {
+        "label": "Upper missing frequency",
+        "type": "numeric",
+        "answer": 450,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "The full list is150,300,450,600,750,900Hz."
+      }
+    ],
+    "reasoning": "A closed pipe cannot have the stated even multiples; use all integer harmonics. Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-10",
+    "parts": [
+      {
+        "label": "Resonant pipe",
+        "type": "choice",
+        "answer": "d",
+        "options": [
+          "d",
+          "a",
+          "b or c"
+        ],
+        "explanation": "Closed-open d of length L/2 has fundamental v/(4·L/2)=v/(2L)."
+      },
+      {
+        "label": "Oscillation mode",
+        "type": "choice",
+        "answer": "Fundamental (first harmonic)",
+        "options": [
+          "Fundamental (first harmonic)",
+          "Second harmonic",
+          "Third harmonic"
+        ],
+        "explanation": "String fundamental isv/(2L); the other pipe boundary conditions exclude that frequency."
+      }
+    ],
+    "reasoning": "Inspect end closures: a,b,d each closed at one end, c open at both. Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-questions-11",
+    "parts": [
+      {
+        "label": "Both possible sets, including the 500Hz fork",
+        "type": "choice",
+        "answer": "(500,501,503,508)Hz or (500,505,507,508)Hz",
+        "options": [
+          "(500,501,503,508)Hz or (500,505,507,508)Hz",
+          "(500,501,502,508)Hz or (500,506,507,508)Hz",
+          "(500,502,505,508)Hz or (500,501,505,508)Hz"
+        ],
+        "explanation": "Pair differences in either valid set are 1,2,3,5,7,8Hz."
+      }
+    ],
+    "reasoning": "Largest separation 8 fixes endpoints 500and 508. The two interior points are mirror-related around 504. Verification: checked against wave superposition, boundary conditions or relative wavefront speeds as applicable.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-1",
+    "parts": [
+      {
+        "label": "a · Distance A",
+        "type": "numeric",
+        "answer": 78.89,
+        "unit": "m",
+        "tolerance": 0.7889,
+        "explanation": "Distance equals sound speed times delay."
+      },
+      {
+        "label": "b · Distance B",
+        "type": "numeric",
+        "answer": 41.16,
+        "unit": "m",
+        "tolerance": 0.41159999999999997,
+        "explanation": "Distance equals sound speed times delay."
+      },
+      {
+        "label": "c · Spectator separation",
+        "type": "numeric",
+        "answer": 88.98189534955974,
+        "unit": "m",
+        "tolerance": 0.8898189534955974,
+        "explanation": "The sight lines meet at90°, so use√(A²+B²)."
+      }
+    ],
+    "reasoning": "Light travel time is negligible relative to acoustic delays. Verification: Pythagorean separation is larger than either source distance.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-2",
+    "parts": [
+      {
+        "label": "Bulk modulus",
+        "type": "numeric",
+        "answer": 143555.7142857143,
+        "unit": "Pa",
+        "tolerance": 1435.557142857143,
+        "explanation": "B=ρv² withρ=.032kg/.0224m³."
+      }
+    ],
+    "reasoning": "Convert liters to cubic meters before computing density. Verification: ρv² has pressure units.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-3",
+    "parts": [
+      {
+        "label": "a · Opposite-wall distance",
+        "type": "numeric",
+        "answer": 2572.5,
+        "unit": "m",
+        "tolerance": 25.725,
+        "explanation": "A single echo traverses twice the distance."
+      },
+      {
+        "label": "b · Individual reflection count",
+        "type": "numeric",
+        "answer": 200.1945525291829,
+        "unit": "reflections",
+        "tolerance": 1,
+        "explanation": "Each wall-to-wall traverse is25.7m; about 200 reflections make about 100 round trips."
+      }
+    ],
+    "reasoning": "The count is about 100 back-and-forth trips (about 200 individual wall reflections). Verification: Each round trip covers twice the wall distance.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-4",
+    "parts": [
+      {
+        "label": "Approximate column length",
+        "type": "numeric",
+        "answer": 171.5,
+        "unit": "m",
+        "tolerance": 1.715,
+        "explanation": "120paces/min means 0.5s per alternating footfall."
+      }
+    ],
+    "reasoning": "The shortest delay reversing which foot advances is one pace, not two paces. Verification: Opposite feet correspond to one beat, not an entire left-to-left cycle.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Take the shortest phase-opposed column; additional full marching cycles would give larger distances."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-5",
+    "parts": [
+      {
+        "label": "Earthquake distance",
+        "type": "numeric",
+        "answer": 1851.4285714285716,
+        "unit": "km",
+        "tolerance": 18.514285714285716,
+        "explanation": "Δt=d/vS−d/vP, using speeds inkm/s."
+      }
+    ],
+    "reasoning": "Solve the difference in travel times for the common distance. Verification: Substitution reproduces the 180s arrival difference.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-6",
+    "parts": [
+      {
+        "label": "Rod length",
+        "type": "numeric",
+        "answer": 44.1,
+        "unit": "m",
+        "tolerance": 0.441,
+        "explanation": "Delay=L/v−L/(15v)."
+      }
+    ],
+    "reasoning": "The rod-transmitted sound arrives first. Verification: Substitution gives 0.12s lag.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-7",
+    "parts": [
+      {
+        "label": "Well depth",
+        "type": "numeric",
+        "answer": 40.68190953519363,
+        "unit": "m",
+        "tolerance": 0.40681909535193633,
+        "explanation": "Solve√(2h/g)+h/343=3.00s."
+      }
+    ],
+    "reasoning": "Equivalently solve 0.5gt²+343t−1029=0 for positive fall time; then h=0.5gt². Verification: Fall time plus sound time returns 3s.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-8",
+    "parts": [
+      {
+        "label": "Compressibility-derivative ratio",
+        "type": "numeric",
+        "answer": 9.018027036045053,
+        "unit": "dimensionless",
+        "tolerance": 0.09018027036045054,
+        "explanation": "B=−V/(dV/dp), so f²∝B and derivative ratio=(fi/fs)²."
+      }
+    ],
+    "reasoning": "Fixed wavelength,density,volume imply sound-speed and frequency ratios are equal. Verification: Frequency ratio is sound-speed ratio at fixed wavelength.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-9",
+    "parts": [
+      {
+        "label": "Shortest crossing time",
+        "type": "numeric",
+        "answer": 0.0002265579396360813,
+        "unit": "s",
+        "tolerance": 2.265579396360813e-06,
+        "explanation": "Phase change across−A/3to+A/3 is2asin(1/3)."
+      }
+    ],
+    "reasoning": "Use sinusoidal motion rather than constant particle velocity. Verification: The shorter crossing passes through equilibrium and is less than half a period.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-10",
+    "parts": [
+      {
+        "label": "a · Air arrival-time difference",
+        "type": "choice",
+        "answer": "D sinθ / v",
+        "options": [
+          "D sinθ / v",
+          "D cosθ / v",
+          "D / (v sinθ)"
+        ],
+        "explanation": "Projected ear separation along propagation is D sinθ."
+      },
+      {
+        "label": "b · Water arrival-time difference",
+        "type": "choice",
+        "answer": "D / vw",
+        "options": [
+          "D / vw",
+          "D sinθ / v",
+          "D / (2vw)"
+        ],
+        "explanation": "Directly right gives the full ear separation."
+      },
+      {
+        "label": "c · Apparent angle",
+        "type": "numeric",
+        "answer": 13.382100656880104,
+        "unit": "degrees",
+        "tolerance": 0.13382100656880103,
+        "explanation": "Equate Dsinθ/v toD/vw; use vw=1482m/s."
+      }
+    ],
+    "reasoning": "The brain applies its air-calibrated time delay to the faster underwater signal. Verification: Underwater source at90° appears closer to forward because water sound is faster.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-11",
+    "parts": [
+      {
+        "label": "a · Air wavelength",
+        "type": "numeric",
+        "answer": 7.622222222222222e-05,
+        "unit": "m",
+        "tolerance": 7.622222222222222e-07,
+        "explanation": "λ=v/f."
+      },
+      {
+        "label": "b · Tissue wavelength",
+        "type": "numeric",
+        "answer": 0.0003333333333333333,
+        "unit": "m",
+        "tolerance": 3.3333333333333333e-06,
+        "explanation": "Frequency remains 4.50MHz."
+      }
+    ],
+    "reasoning": "A medium changes propagation speed and wavelength, not source frequency. Verification: Frequency stays fixed while wavelength changes with medium.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-12",
+    "parts": [
+      {
+        "label": "a · Pressure amplitude",
+        "type": "numeric",
+        "answer": 1.5,
+        "unit": "Pa",
+        "tolerance": 0.015,
+        "explanation": "Read the prefactor."
+      },
+      {
+        "label": "b · Frequency",
+        "type": "numeric",
+        "answer": 157.5,
+        "unit": "Hz",
+        "tolerance": 1.575,
+        "explanation": "ω=315π, so f=ω/(2π)."
+      },
+      {
+        "label": "c · Wavelength",
+        "type": "numeric",
+        "answer": 2.2222222222222223,
+        "unit": "m",
+        "tolerance": 0.022222222222222223,
+        "explanation": "k=.9π, so λ=2π/k."
+      },
+      {
+        "label": "d · Wave speed",
+        "type": "numeric",
+        "answer": 350.0,
+        "unit": "m/s",
+        "tolerance": 3.5,
+        "explanation": "v=ω/k."
+      }
+    ],
+    "reasoning": "Both x and t coefficients are inside a bracket multiplied byπ. Verification: The external π multiplies both coefficients.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-13",
+    "parts": [
+      {
+        "label": "Frequency",
+        "type": "numeric",
+        "answer": 959.9750524749877,
+        "unit": "Hz",
+        "tolerance": 9.599750524749878,
+        "explanation": "kΔx=acos(2/6); f=vk/(2π)."
+      }
+    ],
+    "reasoning": "The intermediate displacements exclude adding extra cycles. Verification: No extra wavelength fits between the stated intermediate displacements.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-14",
+    "parts": [
+      {
+        "label": "a · Initial displacement amplitude",
+        "type": "numeric",
+        "answer": 6.135650650483882e-09,
+        "unit": "m",
+        "tolerance": 6.135650650483882e-11,
+        "explanation": "sm=Δpm/(ρvω); graph peak 8mPa."
+      },
+      {
+        "label": "b · Initial wave number",
+        "type": "numeric",
+        "answer": 9.159162255363828,
+        "unit": "rad/m",
+        "tolerance": 0.09159162255363829,
+        "explanation": "k=ω/v."
+      },
+      {
+        "label": "c · Angular frequency",
+        "type": "numeric",
+        "answer": 3141.592653589793,
+        "unit": "rad/s",
+        "tolerance": 31.41592653589793,
+        "explanation": "Graph period 2ms."
+      },
+      {
+        "label": "d · Cooled displacement amplitude",
+        "type": "numeric",
+        "answer": 5.89462752192205e-09,
+        "unit": "m",
+        "tolerance": 5.894627521922051e-11,
+        "explanation": "Same pressure amplitude andω; use newρv."
+      },
+      {
+        "label": "e · Cooled wave number",
+        "type": "numeric",
+        "answer": 9.817477042468102,
+        "unit": "rad/m",
+        "tolerance": 0.09817477042468102,
+        "explanation": "Cooling changes v, so k changes."
+      },
+      {
+        "label": "f · Cooled angular frequency",
+        "type": "numeric",
+        "answer": 3141.592653589793,
+        "unit": "rad/s",
+        "tolerance": 31.41592653589793,
+        "explanation": "Frequency is fixed by source."
+      }
+    ],
+    "reasoning": "Graph extrema are twice the labeled 4mPa tick; cooling keeps pressure and frequency fixed. Verification: Visually read period 2ms and peak 8mPa; ±4mPa marks are halfway to the peaks.",
+    "sourcePages": [
+      28,
+      29
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-15",
+    "parts": [
+      {
+        "label": "a · Echo-pulse frequency",
+        "type": "numeric",
+        "answer": 228.66666666666666,
+        "unit": "Hz",
+        "tolerance": 2.2866666666666666,
+        "explanation": "Adjacent roundtrip distances differ by2w."
+      },
+      {
+        "label": "b · Narrower terraces",
+        "type": "choice",
+        "answer": "Higher frequency",
+        "options": [
+          "Higher frequency",
+          "Lower frequency",
+          "Unchanged frequency"
+        ],
+        "explanation": "Smaller 2w gives shorter inter-pulse time."
+      }
+    ],
+    "reasoning": "Travel time between successive reflected pulses is2w/v. Verification: The extra roundtrip path is2w.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-16",
+    "parts": [
+      {
+        "label": "Phase difference",
+        "type": "numeric",
+        "answer": 4.112630382881184,
+        "unit": "rad",
+        "tolerance": 0.04112630382881184,
+        "explanation": "Δφ=2π fΔL/v."
+      }
+    ],
+    "reasoning": "Use the 0.40m path difference at540Hz. Verification: Phase is dimensionless kΔr.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-17",
+    "parts": [
+      {
+        "label": "a · Lowest destructive frequency",
+        "type": "numeric",
+        "answer": 142.91666666666669,
+        "unit": "Hz",
+        "tolerance": 1.429166666666667,
+        "explanation": "ΔL=λ/2 for first minimum."
+      },
+      {
+        "label": "b · Second minimum multiplier",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Next odd half-wave order."
+      },
+      {
+        "label": "c · Third minimum multiplier",
+        "type": "numeric",
+        "answer": 5,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Next odd half-wave order."
+      },
+      {
+        "label": "d · Lowest nonzero constructive frequency",
+        "type": "numeric",
+        "answer": 285.83333333333337,
+        "unit": "Hz",
+        "tolerance": 2.858333333333334,
+        "explanation": "ΔL=λ for first positive maximum."
+      },
+      {
+        "label": "e · Second maximum multiplier",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Integer-wave orders."
+      },
+      {
+        "label": "f · Third maximum multiplier",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Integer-wave orders."
+      }
+    ],
+    "reasoning": "Path difference 1.2m; use odd multiples for minima and positive integer multiples for maxima. Verification: All six frequencies lie in20Hz–20kHz; odd destructive and integer constructive orders.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-18",
+    "parts": [
+      {
+        "label": "a · Smallest q",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Extra geometric path L must beλ/2."
+      },
+      {
+        "label": "b · Second smallest q",
+        "type": "numeric",
+        "answer": 1.5,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Next odd half-wavelength is3λ/2."
+      }
+    ],
+    "reasoning": "A takes 2L of vertical detour; B takes L. Horizontal distances cancel, and two extra reflections give no net phase reversal. Verification: Visual ray tracing gives path difference L; two extra reflections add a full cycle.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-19",
+    "parts": [
+      {
+        "label": "a · In-phase positions",
+        "type": "numeric",
+        "answer": 14,
+        "unit": "points",
+        "tolerance": 0,
+        "explanation": "Path orders m=−3,…,3 each intersect the circle twice."
+      },
+      {
+        "label": "b · Opposite-phase positions",
+        "type": "numeric",
+        "answer": 14,
+        "unit": "points",
+        "tolerance": 0,
+        "explanation": "Half-orders±.5,±1.5,±2.5 give 12; extremal±3.5 add 2."
+      }
+    ],
+    "reasoning": "The largest path difference isD=3.5λ; count endpoint directions only once. Verification: Count both upper/lower circle intersections, but endpoint extrema only once.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-20",
+    "parts": [
+      {
+        "label": "a · Net amplitude divided bysm",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Four phasors separated byπ/2 sum to zero."
+      },
+      {
+        "label": "b · Net amplitude divided bysm",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Alternating opposite phasors cancel."
+      },
+      {
+        "label": "c · Net amplitude divided bysm",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "All four waves arrive in phase."
+      }
+    ],
+    "reasoning": "Relative phase between adjacent sources is2πd/λ. Verification: Four phasors cancel at quarter- and half-wavelength spacing.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-21",
+    "parts": [
+      {
+        "label": "a · Lowest destructive frequency",
+        "type": "numeric",
+        "answer": 343.0,
+        "unit": "Hz",
+        "tolerance": 3.43,
+        "explanation": "ΔL=λ/2 for first minimum."
+      },
+      {
+        "label": "b · Second minimum multiplier",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Next odd half-wave order."
+      },
+      {
+        "label": "c · Third minimum multiplier",
+        "type": "numeric",
+        "answer": 5,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Next odd half-wave order."
+      },
+      {
+        "label": "d · Lowest nonzero constructive frequency",
+        "type": "numeric",
+        "answer": 686.0,
+        "unit": "Hz",
+        "tolerance": 6.86,
+        "explanation": "ΔL=λ for first positive maximum."
+      },
+      {
+        "label": "e · Second maximum multiplier",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Integer-wave orders."
+      },
+      {
+        "label": "f · Third maximum multiplier",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Integer-wave orders."
+      }
+    ],
+    "reasoning": "Path difference 0.5m; use odd multiples for minima and positive integer multiples for maxima. Verification: Diagonal 4.25m minus straight 3.75m gives 0.50m.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-22",
+    "parts": [
+      {
+        "label": "Smallest radius",
+        "type": "numeric",
+        "answer": 0.1751938393884109,
+        "unit": "m",
+        "tolerance": 0.0017519383938841091,
+        "explanation": "Set(π−2)r=λ/2."
+      }
+    ],
+    "reasoning": "The semicircular and straight portions differ in length byπr−2r. Verification: Semicircle minus diameter is(π−2)r.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-23",
+    "parts": [
+      {
+        "label": "a · Limiting phase difference",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "rad",
+        "tolerance": 0,
+        "explanation": "√(x²+d²)−x approaches 0 asx grows."
+      },
+      {
+        "label": "b · Far-field interference",
+        "type": "choice",
+        "answer": "Constructive",
+        "options": [
+          "Constructive",
+          "Destructive",
+          "Always zero intensity"
+        ],
+        "explanation": "The sources are in phase and the path difference vanishes."
+      },
+      {
+        "label": "c · Phase change towardS1",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Stays zero"
+        ],
+        "explanation": "The perpendicular-source path becomes longer relative to the direct path."
+      },
+      {
+        "label": "d · x",
+        "type": "numeric",
+        "answer": 127.5,
+        "unit": "m",
+        "tolerance": 1.2750000000000001,
+        "explanation": "Solve√(x²+16²)−x=ΔL."
+      },
+      {
+        "label": "e · x",
+        "type": "numeric",
+        "answer": 63.0,
+        "unit": "m",
+        "tolerance": 0.63,
+        "explanation": "Solve√(x²+16²)−x=ΔL."
+      },
+      {
+        "label": "f · x",
+        "type": "numeric",
+        "answer": 41.166666666666664,
+        "unit": "m",
+        "tolerance": 0.4116666666666666,
+        "explanation": "Solve√(x²+16²)−x=ΔL."
+      }
+    ],
+    "reasoning": "Rationalize the path difference before solving for the requested positions. Verification: Inserting x reproduces each requested path difference.",
+    "sourcePages": [
+      29,
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-24",
+    "parts": [
+      {
+        "label": "a · Initial intensity",
+        "type": "numeric",
+        "answer": 9.999999999999999e-06,
+        "unit": "W/m²",
+        "tolerance": 1e-07,
+        "explanation": "I=I₀10^(β/10)."
+      },
+      {
+        "label": "b · Final intensity",
+        "type": "numeric",
+        "answer": 1e-07,
+        "unit": "W/m²",
+        "tolerance": 1e-09,
+        "explanation": "Use50dB."
+      },
+      {
+        "label": "c · Initial displacement amplitude",
+        "type": "numeric",
+        "answer": 6.987557263126768e-08,
+        "unit": "m",
+        "tolerance": 6.987557263126769e-10,
+        "explanation": "I=ρvω²sm²/2."
+      },
+      {
+        "label": "d · Final displacement amplitude",
+        "type": "numeric",
+        "answer": 6.987557263126768e-09,
+        "unit": "m",
+        "tolerance": 6.987557263126768e-11,
+        "explanation": "Displacement scales with√I at fixed frequency."
+      }
+    ],
+    "reasoning": "UseI₀=10⁻¹²W/m² andω=2π·500rad/s. Verification: 100-fold intensity drop gives 10-fold displacement drop.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-25",
+    "parts": [
+      {
+        "label": "Displacement amplitude",
+        "type": "numeric",
+        "answer": 3.68276603872218e-08,
+        "unit": "m",
+        "tolerance": 3.6827660387221804e-10,
+        "explanation": "Solve I=ρv(2πf)²sm²/2 for sm."
+      }
+    ],
+    "reasoning": "The source PDF specifies 1.00μW/m²=10⁻⁶W/m²; the OCR symbol looks like mW. Verification: Reconstructing intensity from amplitude returns 1μW/m².",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-26",
+    "parts": [
+      {
+        "label": "a · Intensity at1m",
+        "type": "numeric",
+        "answer": 0.07957747154594767,
+        "unit": "W/m²",
+        "tolerance": 0.0007957747154594768,
+        "explanation": "I=P/(4πr²)."
+      },
+      {
+        "label": "b · Intensity at2.5m",
+        "type": "numeric",
+        "answer": 0.012732395447351627,
+        "unit": "W/m²",
+        "tolerance": 0.00012732395447351627,
+        "explanation": "Same power through larger spherical area."
+      }
+    ],
+    "reasoning": "An isotropic source distributes power across a sphere. Verification: Inverse-square ratio is6.25.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-27",
+    "parts": [
+      {
+        "label": "a · Intensity multiplier",
+        "type": "numeric",
+        "answer": 1000,
+        "unit": "dimensionless",
+        "tolerance": 10.0,
+        "explanation": "10^(30/10)."
+      },
+      {
+        "label": "b · Pressure-amplitude multiplier",
+        "type": "numeric",
+        "answer": 31.622776601683793,
+        "unit": "dimensionless",
+        "tolerance": 0.31622776601683794,
+        "explanation": "I∝Δpm²."
+      }
+    ],
+    "reasoning": "A decibel increase measures intensity ratio logarithmically. Verification: Pressure ratio squared equals intensity ratio.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-28",
+    "parts": [
+      {
+        "label": "Intensity ratio",
+        "type": "numeric",
+        "answer": 1.2589254117941673,
+        "unit": "dimensionless",
+        "tolerance": 0.012589254117941673,
+        "explanation": "Ratio=10^(1/10)."
+      }
+    ],
+    "reasoning": "Apply the definition of sound level to the difference. Verification: Ten logarithm of ratio returns 1dB.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-29",
+    "parts": [
+      {
+        "label": "Source power",
+        "type": "numeric",
+        "answer": 0.015001104920891264,
+        "unit": "W",
+        "tolerance": 0.00015001104920891263,
+        "explanation": "P=I4πr²."
+      }
+    ],
+    "reasoning": "Use isotropic energy conservation at2.50m. Verification: Integrating over 4πr² returns source power.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-30",
+    "parts": [
+      {
+        "label": "a · Intensity at3m",
+        "type": "numeric",
+        "answer": 8.841941282883074e-09,
+        "unit": "W/m²",
+        "tolerance": 8.841941282883075e-11,
+        "explanation": "The source PDF says 1.00μW; divide by4π·3²."
+      },
+      {
+        "label": "b · Sound level",
+        "type": "numeric",
+        "answer": 39.46547626538579,
+        "unit": "dB",
+        "tolerance": 0.3946547626538579,
+        "explanation": "β=10log 10(I/I₀)."
+      }
+    ],
+    "reasoning": "Use the visually verified micro-watt power, correcting the text extraction symbol. Verification: Visually confirmed power 1.00μW, not OCR mW.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-31",
+    "parts": [
+      {
+        "label": "General power estimate",
+        "type": "choice",
+        "answer": "P = 4πr² I₀ 10^(62/10), with r the ear-to-knuckle distance",
+        "options": [
+          "P = 4πr² I₀ 10^(62/10), with r the ear-to-knuckle distance",
+          "P = I₀ 10^(62/10) / (4πr²)",
+          "P = 4πr I₀ 10^(62/10)"
+        ],
+        "explanation": "The prompt supplies sound level but no distance, so power needs an assumed r."
+      },
+      {
+        "label": "Example power ifr=0.50m",
+        "type": "numeric",
+        "answer": 4.9790888101603105e-06,
+        "unit": "W",
+        "tolerance": 4.979088810160311e-08,
+        "explanation": "Use an explicit half-meter ear distance inP=4πr²I."
+      }
+    ],
+    "reasoning": "At62dB,I=1.5849×10⁻⁶W/m². A0.50m example gives 4.979×10⁻⁶W. Verification: Power scales with the square of assumed ear distance.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Illustrative ear-to-knuckle distance 0.50m; actual distance is not specified.",
+      "Isotropic emission with full transmission, as requested."
+    ],
+    "scope": "The numerical field is conditional on the labeled 0.50m estimate. Other justified ear distances give different valid power estimates."
+  },
+  {
+    "id": "physics-chapter-17-problems-32",
+    "parts": [
+      {
+        "label": "a · Displacement amplitude",
+        "type": "numeric",
+        "answer": 2.602584547690235e-10,
+        "unit": "m",
+        "tolerance": 2.602584547690235e-12,
+        "explanation": "Δpm=ρvωsm."
+      },
+      {
+        "label": "b · Intensity",
+        "type": "numeric",
+        "answer": 1.5383225309013804e-09,
+        "unit": "W/m²",
+        "tolerance": 1.5383225309013803e-11,
+        "explanation": "I=Δpm²/(2ρv)."
+      }
+    ],
+    "reasoning": "Pressure and displacement amplitudes are related by acoustic impedance times angular frequency. Verification: Independent pressure and displacement intensity formulas agree.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-33",
+    "parts": [
+      {
+        "label": "Eardrum displacement amplitude",
+        "type": "numeric",
+        "answer": 7.556523483057992e-07,
+        "unit": "m",
+        "tolerance": 7.556523483057993e-09,
+        "explanation": "Use the local sound intensity from 85dB andI=ρvω²sm²/2."
+      }
+    ],
+    "reasoning": "Assume the adjacent air displacement equals the radiating eardrum displacement in the ideal acoustic model. Verification: Reconstructed sound level is85dB.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-34",
+    "parts": [
+      {
+        "label": "a · Larger-to-smaller power ratio",
+        "type": "numeric",
+        "answer": 3.1622776601683795,
+        "unit": "dimensionless",
+        "tolerance": 0.08,
+        "explanation": "The curves differ by5dB: PA/PB=10^(5/10)."
+      },
+      {
+        "label": "b · Sound-level difference at10m",
+        "type": "numeric",
+        "answer": 5,
+        "unit": "dB",
+        "tolerance": 0.2,
+        "explanation": "Both sources have the same−20log 10(r) dependence."
+      }
+    ],
+    "reasoning": "Visually read a5dB separation using the 20dB vertical span betweenβ1andβ2. Verification: Graph shows constant 5dB vertical separation; distance-independent power ratio.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-35",
+    "parts": [
+      {
+        "label": "a · Intensity",
+        "type": "numeric",
+        "answer": 5.968310365946075e-05,
+        "unit": "W/m²",
+        "tolerance": 5.968310365946076e-07,
+        "explanation": "Spread 30W over radius 200m sphere."
+      },
+      {
+        "label": "b · Microphone power",
+        "type": "numeric",
+        "answer": 4.476232774459556e-09,
+        "unit": "W",
+        "tolerance": 4.476232774459556e-11,
+        "explanation": "Pdet=IA with 0.750cm²=7.50×10⁻⁵m²."
+      }
+    ],
+    "reasoning": "The small receiving area samples the approximately uniform local intensity. Verification: Intercepted power divided by area returns intensity.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-36",
+    "parts": [
+      {
+        "label": "Required separation",
+        "type": "numeric",
+        "answer": 0.6748095902284189,
+        "unit": "m",
+        "tolerance": 0.006748095902284189,
+        "explanation": "Δβ=20log 10(ri/rf)."
+      }
+    ],
+    "reasoning": "A5dB increase requires reducing distance by10^(5/20). Verification: New distance raises intensity by10^(5/10).",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-37",
+    "parts": [
+      {
+        "label": "a · One-wave power",
+        "type": "numeric",
+        "answer": 3.3795926758582116e-10,
+        "unit": "W",
+        "tolerance": 3.3795926758582117e-12,
+        "explanation": "P=IπR²; I=ρvω²sm²/2."
+      },
+      {
+        "label": "b · Separate-tube total",
+        "type": "numeric",
+        "answer": 6.759185351716423e-10,
+        "unit": "W",
+        "tolerance": 6.759185351716423e-12,
+        "explanation": "Independent tubes carry additive powers."
+      },
+      {
+        "label": "c · Same tube, phase 0",
+        "type": "numeric",
+        "answer": 1.3518370703432846e-09,
+        "unit": "W",
+        "tolerance": 1.3518370703432847e-11,
+        "explanation": "In-phase amplitude 2sm gives 4P."
+      },
+      {
+        "label": "d · Same tube, phase 0.40π",
+        "type": "numeric",
+        "answer": 8.847888493527004e-10,
+        "unit": "W",
+        "tolerance": 8.847888493527004e-12,
+        "explanation": "Interference factor 4cos²(φ/2)."
+      },
+      {
+        "label": "e · Same tube, phaseπ",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "W",
+        "tolerance": 1e-14,
+        "explanation": "Equal opposite waves cancel."
+      }
+    ],
+    "reasoning": "Only overlapping coherent waves have an interference cross term. Verification: Same-tube coherent waves require cross terms; different tubes do not.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-38",
+    "parts": [
+      {
+        "label": "a · Resonant water positions",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "positions",
+        "tolerance": 0,
+        "explanation": "Air lengthsλ/4,3λ/4,5λ/4,7λ/4 fit in1m."
+      },
+      {
+        "label": "b · Least water height",
+        "type": "numeric",
+        "answer": 0.125,
+        "unit": "m",
+        "tolerance": 0.00125,
+        "explanation": "Largest air column.875m leaves.125m water."
+      },
+      {
+        "label": "c · Second least water height",
+        "type": "numeric",
+        "answer": 0.375,
+        "unit": "m",
+        "tolerance": 0.00375,
+        "explanation": "Next air column.625m leaves.375m water."
+      }
+    ],
+    "reasoning": "λ=343/686=.500m; air-length resonances occur at odd eighth-meters. Verification: Odd quarter-wave air lengths fit within 1m.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-39",
+    "parts": [
+      {
+        "label": "a · String-wave speed",
+        "type": "numeric",
+        "answer": 404.8,
+        "unit": "m/s",
+        "tolerance": 4.048,
+        "explanation": "vstring=2Lf1."
+      },
+      {
+        "label": "b · String tension",
+        "type": "numeric",
+        "answer": 595.8656000000001,
+        "unit": "N",
+        "tolerance": 5.958656000000001,
+        "explanation": "T=μvstring²."
+      },
+      {
+        "label": "c · String wavelength",
+        "type": "numeric",
+        "answer": 0.44,
+        "unit": "m",
+        "tolerance": 0.0044,
+        "explanation": "Fundamental wavelength 2L."
+      },
+      {
+        "label": "d · Emitted sound wavelength",
+        "type": "numeric",
+        "answer": 0.37282608695652175,
+        "unit": "m",
+        "tolerance": 0.0037282608695652177,
+        "explanation": "Air wavelength uses air sound speed."
+      }
+    ],
+    "reasoning": "Convert 800mg to8.00×10⁻⁴kg; string and air have the same oscillation frequency. Verification: String speed and tension recover 920Hz fundamental.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-40",
+    "parts": [
+      {
+        "label": "a · Pipe A length",
+        "type": "numeric",
+        "answer": 0.5716666666666667,
+        "unit": "m",
+        "tolerance": 0.005716666666666667,
+        "explanation": "Open-open fundamental 300Hz means L=v/(2f)."
+      },
+      {
+        "label": "b · Pipe B length",
+        "type": "numeric",
+        "answer": 0.42875,
+        "unit": "m",
+        "tolerance": 0.0042875000000000005,
+        "explanation": "Closed-open n=3 frequency 600Hz means L=3v/(4f)."
+      }
+    ],
+    "reasoning": "The second harmonic ofA is600Hz and matches B third harmonic. Verification: Pipe B third harmonic is600Hz, not third allowed mode.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-41",
+    "parts": [
+      {
+        "label": "a · Sound frequency",
+        "type": "numeric",
+        "answer": 833.3333333333334,
+        "unit": "Hz",
+        "tolerance": 8.333333333333334,
+        "explanation": "String fundamental=vstring/(2L)."
+      },
+      {
+        "label": "b · Sound wavelength",
+        "type": "numeric",
+        "answer": 0.41759999999999997,
+        "unit": "m",
+        "tolerance": 0.004176,
+        "explanation": "Use the stated 348m/s air speed."
+      }
+    ],
+    "reasoning": "Sound keeps the string frequency but changes wavelength at the medium boundary. Verification: Sound and string share frequency, not wavelength.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-42",
+    "parts": [
+      {
+        "label": "Frequency",
+        "type": "numeric",
+        "answer": 19736.84210526316,
+        "unit": "Hz",
+        "tolerance": 197.36842105263162,
+        "explanation": "Adjacent nodes areλ/2."
+      }
+    ],
+    "reasoning": "The3.8cm node spacing gives 7.6cm wavelength. Verification: Node spacing is half a wavelength.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-43",
+    "parts": [
+      {
+        "label": "a · Resonances in range",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "frequencies",
+        "tolerance": 0,
+        "explanation": "n=3,4,5 fall in1000–2000Hz."
+      },
+      {
+        "label": "b · Lowest frequency",
+        "type": "numeric",
+        "answer": 1129.1028446389496,
+        "unit": "Hz",
+        "tolerance": 11.291028446389497,
+        "explanation": "Third harmonic is first in range."
+      },
+      {
+        "label": "c · Second lowest frequency",
+        "type": "numeric",
+        "answer": 1505.4704595185995,
+        "unit": "Hz",
+        "tolerance": 15.054704595185996,
+        "explanation": "Fourth harmonic is next."
+      }
+    ],
+    "reasoning": "Open-open pipe harmonics are integer multiples of376.3676Hz. Verification: Only n=3,4,5 lie within 1000–2000Hz.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-44",
+    "parts": [
+      {
+        "label": "a · Fundamental frequency",
+        "type": "numeric",
+        "answer": 85.75,
+        "unit": "Hz",
+        "tolerance": 0.8575,
+        "explanation": "Open-open pipe length 2m gives f=v/(2L)."
+      },
+      {
+        "label": "b · Audibility and pitch",
+        "type": "choice",
+        "answer": "Audible, low frequency",
+        "options": [
+          "Audible, low frequency",
+          "Inaudible below 60Hz",
+          "Audible, high frequency"
+        ],
+        "explanation": "85.75Hz lies near the low end of the specified 60Hz–20kHz range."
+      },
+      {
+        "label": "c · Female fundamental",
+        "type": "choice",
+        "answer": "Higher",
+        "options": [
+          "Higher",
+          "Lower",
+          "Equal"
+        ],
+        "explanation": "Shorter nasal passage gives larger f1."
+      }
+    ],
+    "reasoning": "Treat the bent nasal passage as an open-open pipe of its total path length. Verification: Shorter pipe raises its fundamental.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-45",
+    "parts": [
+      {
+        "label": "a · Open ends ofA",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "ends",
+        "tolerance": 0,
+        "explanation": "n/(n−1)=1.2 gives n=6; adjacent odd-harmonic ratio cannot 1.2."
+      },
+      {
+        "label": "b · Open ends ofB",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "ends",
+        "tolerance": 0,
+        "explanation": "n/(n−2)=1.4 gives n=7, an allowed odd harmonic."
+      }
+    ],
+    "reasoning": "All integer harmonics occur in open-open; only odd occur in open-closed. Verification: Adjacent integer versus adjacent odd harmonics distinguish boundaries.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-46",
+    "parts": [
+      {
+        "label": "a · Number of displacement nodes",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "nodes",
+        "tolerance": 0,
+        "explanation": "B second allowed mode is n=3."
+      },
+      {
+        "label": "b · Smallest node coordinate",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "m",
+        "tolerance": 1e-12,
+        "explanation": "Closed end is a displacement node."
+      },
+      {
+        "label": "c · Second node coordinate",
+        "type": "numeric",
+        "answer": 0.4,
+        "unit": "m",
+        "tolerance": 0.004,
+        "explanation": "Shared f=3·343/(2·1.2), soλ=.8m and node spacing.4m."
+      },
+      {
+        "label": "d · B fundamental",
+        "type": "numeric",
+        "answer": 142.91666666666669,
+        "unit": "Hz",
+        "tolerance": 1.429166666666667,
+        "explanation": "B third harmonic matches A third harmonic."
+      }
+    ],
+    "reasoning": "B length=.6m; nodes x=0and.4m, with an open-end antinode at.6m. Verification: Second allowed closed-pipe harmonic is n=3, with two displacement nodes.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-47",
+    "parts": [
+      {
+        "label": "Depth to water",
+        "type": "numeric",
+        "answer": 12.41856590838005,
+        "unit": "m",
+        "tolerance": 0.1241856590838005,
+        "explanation": "v=√(B/ρ); closed-open fundamental v/(4L)."
+      }
+    ],
+    "reasoning": "The absence of lower resonance identifies 7Hz as fundamental. Verification: Bulk modulus and density give speed before quarter-wave length.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-48",
+    "parts": [
+      {
+        "label": "a · Next A frequency",
+        "type": "numeric",
+        "answer": 260,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "Adjacent open-pipe frequency spacing 390−325=65Hz."
+      },
+      {
+        "label": "b · A harmonic number",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "260/65=4."
+      },
+      {
+        "label": "c · Next B frequency",
+        "type": "numeric",
+        "answer": 840,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "Closed-pipe spacing 1320−1080=240Hz."
+      },
+      {
+        "label": "d · B harmonic number",
+        "type": "numeric",
+        "answer": 7,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "B fundamental 120Hz;840/120=7."
+      }
+    ],
+    "reasoning": "Closed-pipe allowed harmonics skip even integers. Verification: Open spacing 65Hz; closed spacing 240Hz implies f1=120Hz.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-49",
+    "parts": [
+      {
+        "label": "String tension",
+        "type": "numeric",
+        "answer": 45.3024,
+        "unit": "N",
+        "tolerance": 0.453024,
+        "explanation": "Observed consecutive resonances differ 440Hz; T=μ(2Lf1)²."
+      }
+    ],
+    "reasoning": "880and 1320Hz are second and third harmonics; fundamental 440Hz lies below the search range. Verification: The only pair in the stated range requires f1=440Hz.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-50",
+    "parts": [
+      {
+        "label": "a · Matching fundamental",
+        "type": "numeric",
+        "answer": 71.45833333333334,
+        "unit": "Hz",
+        "tolerance": 0.7145833333333335,
+        "explanation": "Closed tube fundamental v/(4L)."
+      },
+      {
+        "label": "b · Wire tension",
+        "type": "numeric",
+        "answer": 64.70695,
+        "unit": "N",
+        "tolerance": 0.6470695000000001,
+        "explanation": "Wire fundamental requires vwire=2Lwiref."
+      }
+    ],
+    "reasoning": "The tube fixes frequency; the string tension must give the same frequency. Verification: String tension reconstructed from matching fundamental.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-51",
+    "parts": [
+      {
+        "label": "Violin period",
+        "type": "numeric",
+        "answer": 0.0022522522522522522,
+        "unit": "s",
+        "tolerance": 2.2522522522522523e-05,
+        "explanation": "Too-tight string has frequency 440+4Hz."
+      }
+    ],
+    "reasoning": "UseT=1/f, not 1/beat frequency. Verification: Increased tension raises frequency to444Hz.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-52",
+    "parts": [
+      {
+        "label": "Unknown initial frequency",
+        "type": "numeric",
+        "answer": 387,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "Adding wax lowers the fork frequency; smaller beats mean it starts above 384Hz."
+      }
+    ],
+    "reasoning": "Of381or387Hz, only 387Hz moves toward 384Hz under mass loading. Verification: Wax lowers frequency, so the unknown initially lies above 384Hz.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-53",
+    "parts": [
+      {
+        "label": "Fractional tension increase",
+        "type": "numeric",
+        "answer": 0.020100000000000007,
+        "unit": "dimensionless",
+        "tolerance": 0.00020100000000000006,
+        "explanation": "At fixed length/density,f∝√T."
+      }
+    ],
+    "reasoning": "A higher-tension wire beats 6Hz with 600Hz, hence 606Hz. Verification: Tension ratio is squared frequency ratio.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-54",
+    "parts": [
+      {
+        "label": "a · Maximum distinct beat frequencies",
+        "type": "numeric",
+        "answer": 10,
+        "unit": "frequencies",
+        "tolerance": 0,
+        "explanation": "Five choose 2 gives ten pairs."
+      },
+      {
+        "label": "b · Minimum distinct beat frequencies",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "frequencies",
+        "tolerance": 0,
+        "explanation": "Equal spacing yields onlyΔf,2Δf,3Δf,4Δf."
+      }
+    ],
+    "reasoning": "Four differences from the lowest fork are necessarily distinct; equal spacing reaches that lower bound. Verification: Ten pairs maximum; equally spaced frequencies give minimum four positive differences.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-55",
+    "parts": [
+      {
+        "label": "a · Lowest heard frequency",
+        "type": "numeric",
+        "answer": 526.1931818181819,
+        "unit": "Hz",
+        "tolerance": 5.261931818181819,
+        "explanation": "Maximum recession speedωR=9m/s."
+      },
+      {
+        "label": "b · Highest heard frequency",
+        "type": "numeric",
+        "answer": 554.5508982035929,
+        "unit": "Hz",
+        "tolerance": 5.545508982035929,
+        "explanation": "Maximum approach speed 9m/s."
+      }
+    ],
+    "reasoning": "A distant listener samples radial source velocities between±ωR. Verification: Maximum radial speed isωR=9m/s.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-56",
+    "parts": [
+      {
+        "label": "Ambulance speed",
+        "type": "numeric",
+        "answer": 4.612578616352209,
+        "unit": "m/s",
+        "tolerance": 0.046125786163522094,
+        "explanation": "After passing, sound travels backward:1590=1600(v+vcyclist)/(v+vambulance)."
+      }
+    ],
+    "reasoning": "Use velocities relative to air; the cyclist is moving toward the backward-traveling wave. Verification: Source and observer move together away after passage; use respective air velocities.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-57",
+    "parts": [
+      {
+        "label": "Doppler frequency shift",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "Hz",
+        "tolerance": 1e-12,
+        "explanation": "Both cars have equal air speed; numerator and denominator Doppler factors cancel."
+      }
+    ],
+    "reasoning": "The siren is behind the speeder, so both move in the sound-propagation direction. Verification: Equal source and observer velocities cancel exactly.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-58",
+    "parts": [
+      {
+        "label": "a · Incident frequency atB",
+        "type": "numeric",
+        "answer": 1583.9518555667,
+        "unit": "Hz",
+        "tolerance": 15.839518555667,
+        "explanation": "fB=fA,emit(v+vB)/(v−vA)."
+      },
+      {
+        "label": "b · Incident wavelength",
+        "type": "numeric",
+        "answer": 0.24925000000000003,
+        "unit": "m",
+        "tolerance": 0.0024925000000000004,
+        "explanation": "Spacing of crests is(v−vA)/femit in every Galilean frame."
+      },
+      {
+        "label": "c · Reflected frequency atA",
+        "type": "numeric",
+        "answer": 2159.87963891675,
+        "unit": "Hz",
+        "tolerance": 21.5987963891675,
+        "explanation": "Treat moving B as source atfB; approaching A as detector."
+      },
+      {
+        "label": "d · Reflected wavelength",
+        "type": "numeric",
+        "answer": 0.16616666666666666,
+        "unit": "m",
+        "tolerance": 0.0016616666666666665,
+        "explanation": "Reflected wave spacing=(v−vB)/fB."
+      }
+    ],
+    "reasoning": "Do not use v/fmeasured for a moving detector; use the wave propagation speed relative to that detector. Verification: Wavelength is invariant under Galilean frame changes; use relative propagation speed in each frame.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-59",
+    "parts": [
+      {
+        "label": "a · Frequency atUS sub",
+        "type": "numeric",
+        "answer": 1022.140221402214,
+        "unit": "Hz",
+        "tolerance": 10.22140221402214,
+        "explanation": "Both approach; use water-relative speeds consistently inkm/h."
+      },
+      {
+        "label": "b · Returned frequency at French sub",
+        "type": "numeric",
+        "answer": 1044.8544485444854,
+        "unit": "Hz",
+        "tolerance": 10.448544485444854,
+        "explanation": "Apply moving-reflector Doppler shift again."
+      }
+    ],
+    "reasoning": "Forward and return shifts have distinct source and detector speeds. Verification: Reflection applies two Doppler transformations, not merely a doubled single shift.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-60",
+    "parts": [
+      {
+        "label": "Returned frequency",
+        "type": "numeric",
+        "answer": 195302.0134228188,
+        "unit": "Hz",
+        "tolerance": 1953.020134228188,
+        "explanation": "An approaching reflector multiplies frequency by(v+u)/(v−u)."
+      }
+    ],
+    "reasoning": "Two Doppler stages combine; transmit and receive unit is stationary. Verification: Incoming and outgoing moving-reflector shifts multiply.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-61",
+    "parts": [
+      {
+        "label": "Echo frequency at bat",
+        "type": "numeric",
+        "answer": 41000.0,
+        "unit": "Hz",
+        "tolerance": 410.0,
+        "explanation": "Bat-to-wall shift 1/(1−.025), then wall-to-bat factor 1+.025."
+      }
+    ],
+    "reasoning": "The wall remains stationary in air, but the bat moves as both source and detector. Verification: Stationary wall changes propagation direction but not laboratory frequency.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-62",
+    "parts": [
+      {
+        "label": "a · Detector speed divided byv",
+        "type": "numeric",
+        "answer": 0.6666666666666666,
+        "unit": "dimensionless",
+        "tolerance": 0.006666666666666666,
+        "explanation": "fdet=f3(1−vD/v)=f1, with f3=3f1."
+      },
+      {
+        "label": "b · Detector speed divided byv",
+        "type": "numeric",
+        "answer": 0.6666666666666666,
+        "unit": "dimensionless",
+        "tolerance": 0.006666666666666666,
+        "explanation": "fdet=f3(1−vD/v)=f1, with f3=3f1."
+      },
+      {
+        "label": "c · Detector speed divided byv",
+        "type": "numeric",
+        "answer": 0.6666666666666666,
+        "unit": "dimensionless",
+        "tolerance": 0.006666666666666666,
+        "explanation": "fdet=f3(1−vD/v)=f1, with f3=3f1."
+      },
+      {
+        "label": "d · Detector speed divided byv",
+        "type": "numeric",
+        "answer": 0.6666666666666666,
+        "unit": "dimensionless",
+        "tolerance": 0.006666666666666666,
+        "explanation": "fdet=f3(1−vD/v)=f1, with f3=3f1."
+      }
+    ],
+    "reasoning": "All four pipes have third-harmonic to fundamental ratio 3, independent of length and end closure. Verification: f3=3f1 for all tubes regardless of whether even harmonics exist.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-63",
+    "parts": [
+      {
+        "label": "Beat frequency",
+        "type": "numeric",
+        "answer": 154.67364442505848,
+        "unit": "Hz",
+        "tolerance": 1.5467364442505849,
+        "explanation": "Receding target echo has f ref=f0(v−u)/(v+u)."
+      }
+    ],
+    "reasoning": "Take the positive difference between incident and reflected frequencies. Verification: Receding target gives lower echo frequency.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-64",
+    "parts": [
+      {
+        "label": "Source speed divided by sound speed",
+        "type": "numeric",
+        "answer": 0.2360679774997898,
+        "unit": "dimensionless",
+        "tolerance": 0.002360679774997898,
+        "explanation": "Solve 2u/(1−u²)=.500 for positive u<1."
+      }
+    ],
+    "reasoning": "Approach and recession have factors 1/(1−u) and 1/(1+u). Verification: Positive subsonic quadratic root selected.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-65",
+    "parts": [
+      {
+        "label": "a · Frequency, source-to-listener wind",
+        "type": "numeric",
+        "answer": 2000,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "Both endpoints fixed: wind changes wavelength and ground wave speed proportionally."
+      },
+      {
+        "label": "b · Frequency, reversed wind",
+        "type": "numeric",
+        "answer": 2000,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "Steady uniform wind still does not change source-receiver frequency."
+      }
+    ],
+    "reasoning": "In the air frame source and listener share the same velocity, so Doppler factors cancel. Verification: Steady uniform wind changes wave speed and wavelength together, not stationary-endpoint frequency.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-66",
+    "parts": [
+      {
+        "label": "a · Still-air frequency",
+        "type": "numeric",
+        "answer": 597.6,
+        "unit": "Hz",
+        "tolerance": 5.976,
+        "explanation": "Source and detector approach at30.5m/s each."
+      },
+      {
+        "label": "b · Wind toward source",
+        "type": "numeric",
+        "answer": 608.1560283687943,
+        "unit": "Hz",
+        "tolerance": 6.081560283687943,
+        "explanation": "Air-frame source speed 61m/s; detector speed zero."
+      },
+      {
+        "label": "c · Reversed wind",
+        "type": "numeric",
+        "answer": 588.9212827988338,
+        "unit": "Hz",
+        "tolerance": 5.889212827988338,
+        "explanation": "Air-frame source speed zero; detector approach 61m/s."
+      }
+    ],
+    "reasoning": "Subtract wind velocity from each ground velocity before applying the Doppler formula. Verification: Use velocities relative to moving air for both trains.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-67",
+    "parts": [
+      {
+        "label": "a · Uncle, still air",
+        "type": "numeric",
+        "answer": 485.8356940509915,
+        "unit": "Hz",
+        "tolerance": 4.858356940509915,
+        "explanation": "Source recedes 10m/s."
+      },
+      {
+        "label": "b · Girl, still air",
+        "type": "numeric",
+        "answer": 500,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "Girl and source move together."
+      },
+      {
+        "label": "c · Uncle, east wind",
+        "type": "numeric",
+        "answer": 486.2258953168044,
+        "unit": "Hz",
+        "tolerance": 4.71671388101983,
+        "explanation": "Westward wave: uncle moves east at10m/s relative air, toward wave; source recedes east at20m/s. f=500(v+10)/(v+20)."
+      },
+      {
+        "label": "d · Girl, east wind",
+        "type": "numeric",
+        "answer": 500,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "Comoving source and detector still cancel."
+      }
+    ],
+    "reasoning": "Wind blows from east toward west at10m/s. Subtract−10m/s from ground velocities: source 20east, uncle 10east, girl 20east. For westward sound f=f0(v+10)/(v+20). Verification: comoving girl always hears 500Hz; uncle hears slightly higher frequency than in still air.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-68",
+    "parts": [
+      {
+        "label": "Approximate sound speed",
+        "type": "numeric",
+        "answer": 324.7595264191645,
+        "unit": "m/s",
+        "tolerance": 3.247595264191645,
+        "explanation": "Mach angle obeys sinθ=v/vplane."
+      }
+    ],
+    "reasoning": "Convert 1350km/h to375m/s before using 60°. Verification: Mach angle uses sine, not tangent.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-69",
+    "parts": [
+      {
+        "label": "a · Mach angle",
+        "type": "numeric",
+        "answer": 41.810314895778596,
+        "unit": "degrees",
+        "tolerance": 0.418103148957786,
+        "explanation": "sinθ=1/M."
+      },
+      {
+        "label": "b · Delay after overhead",
+        "type": "numeric",
+        "answer": 11.259153965255738,
+        "unit": "s",
+        "tolerance": 0.11259153965255739,
+        "explanation": "Plane is horizontal distance h/tanθ away when cone reaches listener."
+      }
+    ],
+    "reasoning": "Use cone geometry measured behind the moving plane. Verification: Delay geometry is altitude·cotθ divided by plane speed.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-70",
+    "parts": [
+      {
+        "label": "Plane altitude",
+        "type": "numeric",
+        "answer": 33000.0,
+        "unit": "m",
+        "tolerance": 330.0,
+        "explanation": "h=vplaneΔt tanθ, with tanθ=1/√(M²−1)."
+      }
+    ],
+    "reasoning": "The plane travels 24750m after passing overhead before the shock arrives. Verification: Altitude recovered from Mach-cone geometry.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-71",
+    "parts": [
+      {
+        "label": "Pain-threshold distance",
+        "type": "numeric",
+        "answer": 0.01,
+        "unit": "m",
+        "tolerance": 0.0001,
+        "explanation": "Inverse-square scaling between threshold intensities 10⁻¹²and 1W/m²."
+      }
+    ],
+    "reasoning": "Use the textbook idealized audibility and pain thresholds; actual hearing sensitivity depends on frequency. Verification: Standard threshold ratio 10^12 gives distance ratio 10^6.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Approximate hearing threshold 10⁻¹²W/m² and pain threshold 1W/m²; isotropic lossless spreading."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-72",
+    "parts": [
+      {
+        "label": "Mach-cone angle",
+        "type": "numeric",
+        "answer": 30.048303343302457,
+        "unit": "degrees",
+        "tolerance": 0.30048303343302457,
+        "explanation": "sinθ=v/vbullet."
+      }
+    ],
+    "reasoning": "The bullet speed exceeds sound speed, so a Mach cone exists. Verification: Subsonic inverse-sine argument lies between 0and 1.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-73",
+    "parts": [
+      {
+        "label": "Spermaceti-sac length",
+        "type": "numeric",
+        "answer": 2.058,
+        "unit": "m",
+        "tolerance": 0.1,
+        "explanation": "Adjacent clicks are about 3ms apart; each additional click makes one roundtrip."
+      }
+    ],
+    "reasoning": "The chart spacing is approximately 3times the 1ms scale; length=vΔt/2. Verification: Visually measured adjacent clicks≈3.0ms against 1.0ms scale; two-way sac traversal.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-74",
+    "parts": [
+      {
+        "label": "Effective bulk modulus",
+        "type": "numeric",
+        "answer": 78732000000,
+        "unit": "Pa",
+        "tolerance": 787320000.0,
+        "explanation": "B=ρv² using 2700kg/m³ and 5400m/s."
+      }
+    ],
+    "reasoning": "Treat the seismic longitudinal speed with the chapter acoustic bulk modulus model; elastic-solid shear correction is not included. Verification: Effective longitudinal bulk modulus computed with stated acoustic approximation.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-75",
+    "parts": [
+      {
+        "label": "a · Intensity at30m",
+        "type": "numeric",
+        "answer": 3.9690666666666656e-05,
+        "unit": "W/m²",
+        "tolerance": 3.9690666666666655e-07,
+        "explanation": "Inverse-square spreading."
+      },
+      {
+        "label": "b · Displacement amplitude at6.1m",
+        "type": "numeric",
+        "answer": 1.7115949843139116e-07,
+        "unit": "m",
+        "tolerance": 1.7115949843139116e-09,
+        "explanation": "sm=√[2I/(ρv)]/ω."
+      },
+      {
+        "label": "c · Pressure amplitude at6.1m",
+        "type": "numeric",
+        "answer": 0.8926688075652693,
+        "unit": "Pa",
+        "tolerance": 0.008926688075652693,
+        "explanation": "Δpm=√(2ρvI)."
+      }
+    ],
+    "reasoning": "Use local intensity at6.10m for parts(b,c), not attenuated intensity at30m. Verification: All pressure/displacement values reconstruct the stated intensity.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-76",
+    "parts": [
+      {
+        "label": "a · Intensity ratio",
+        "type": "numeric",
+        "answer": 5011.872336272725,
+        "unit": "dimensionless",
+        "tolerance": 50.11872336272725,
+        "explanation": "10^(37/10)."
+      },
+      {
+        "label": "b · Pressure-amplitude ratio",
+        "type": "numeric",
+        "answer": 70.79457843841381,
+        "unit": "dimensionless",
+        "tolerance": 0.7079457843841381,
+        "explanation": "Square root of intensity ratio."
+      },
+      {
+        "label": "c · Displacement-amplitude ratio at equal frequency",
+        "type": "numeric",
+        "answer": 70.79457843841381,
+        "unit": "dimensionless",
+        "tolerance": 0.7079457843841381,
+        "explanation": "At equalωand medium,sm²∝I."
+      },
+      {
+        "label": "c · General displacement ratio",
+        "type": "choice",
+        "answer": "√(I₂/I₁) × (f₁/f₂), where 2 denotes the louder sound",
+        "options": [
+          "√(I₂/I₁) × (f₁/f₂), where 2 denotes the louder sound",
+          "Displacement ratio always equals the pressure ratio, regardless of frequency",
+          "Displacement ratio always equals the intensity ratio"
+        ],
+        "explanation": "Since I=ρvω²sm²/2, unequal frequencies require their ratio; the numerical field assumes equal frequencies."
+      }
+    ],
+    "reasoning": "The displacement-amplitude ratio requires equal frequencies; in general multiply the listed ratio byωsmaller-I/ωlarger-I. Verification: Amplitude ratios are the square root of intensity ratio for equal frequency and medium.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Both sounds in the same medium and at the same frequency for part(c); otherwise frequency ratio is also required."
+    ],
+    "scope": "The numerical displacement-amplitude ratio assumes equal frequencies. The general relation explicitly covers the unspecified-frequency case; pressure and intensity ratios do not need this assumption."
+  },
+  {
+    "id": "physics-chapter-17-problems-77",
+    "parts": [
+      {
+        "label": "Smallest L divided byλ",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Extra path 2L=λ/2 for destructive interference."
+      }
+    ],
+    "reasoning": "A descends two vertical legs of length L; B travels straight. Four reflection phase changes contribute an integer number of cycles. Verification: Visual ray tracing adds 2L of path; four reflections preserve phase modulo 2π.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-78",
+    "parts": [
+      {
+        "label": "Flatcar speed",
+        "type": "numeric",
+        "answer": 3.0900900900900967,
+        "unit": "m/s",
+        "tolerance": 0.030900900900900967,
+        "explanation": "Approaching source heard at444Hz; solve 444=440v/(v−u)."
+      }
+    ],
+    "reasoning": "The stationary player produces 440Hz; beat difference 4Hz selects the higher arriving frequency. Verification: Approaching moving source frequency is444Hz.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-79",
+    "parts": [
+      {
+        "label": "a · Smallest nonzero out-of-phase distance",
+        "type": "numeric",
+        "answer": 2.104904985979177,
+        "unit": "m",
+        "tolerance": 0.02104904985979177,
+        "explanation": "Reflection addsπ; first nonzero destructive route has geometric extraλ."
+      },
+      {
+        "label": "b · Smallest in-phase distance",
+        "type": "numeric",
+        "answer": 1.4731450200167007,
+        "unit": "m",
+        "tolerance": 0.014731450200167006,
+        "explanation": "Geometric extraλ/2 cancels the reflectionπ."
+      }
+    ],
+    "reasoning": "Reflected path 2√[(L/2)²+d²]; solve for its difference from L. Verification: Reflection half-cycle reverses usual path-difference conditions.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-80",
+    "parts": [
+      {
+        "label": "Detector speed divided by sound speed",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Difference of factors(1+u)−(1−u)=2u=.500."
+      }
+    ],
+    "reasoning": "For a moving detector and fixed source, frequency shift is linear in velocity. Verification: Moving-observer shift is linear in speed.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-81",
+    "parts": [
+      {
+        "label": "a · Water-to-air pressure ratio",
+        "type": "numeric",
+        "answer": 59.696604199266524,
+        "unit": "dimensionless",
+        "tolerance": 0.4,
+        "explanation": "Equal intensity givesΔp∝√(ρv)."
+      },
+      {
+        "label": "b · Water-to-air intensity ratio",
+        "type": "numeric",
+        "answer": 0.00028060845036902415,
+        "unit": "dimensionless",
+        "tolerance": 2.8060845036902416e-06,
+        "explanation": "Equal pressure gives I∝1/(ρv)."
+      }
+    ],
+    "reasoning": "Use water density 998kg/m³ and speed 1482m/s at20°C, air 1.21kg/m³ and 343m/s. Verification: ρv acoustic-impedance ratio controls intensity versus pressure.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-82",
+    "parts": [
+      {
+        "label": "a · Displacement amplitude",
+        "type": "numeric",
+        "answer": 0.003,
+        "unit": "m",
+        "tolerance": 3e-05,
+        "explanation": "0.30cm=0.003m."
+      },
+      {
+        "label": "b · Wave number",
+        "type": "numeric",
+        "answer": 26.179938779914945,
+        "unit": "rad/m",
+        "tolerance": 0.26179938779914946,
+        "explanation": "Successive maximum expansions are one wavelength apart."
+      },
+      {
+        "label": "c · Angular frequency",
+        "type": "numeric",
+        "answer": 157.07963267948966,
+        "unit": "rad/s",
+        "tolerance": 1.5707963267948966,
+        "explanation": "ω=2πf."
+      },
+      {
+        "label": "d · Wave speed",
+        "type": "numeric",
+        "answer": 6.0,
+        "unit": "m/s",
+        "tolerance": 0.06,
+        "explanation": "v=fλ."
+      },
+      {
+        "label": "e · Time-term sign",
+        "type": "choice",
+        "answer": "Plus: kx + ωt",
+        "options": [
+          "Plus: kx + ωt",
+          "Minus: kx − ωt",
+          "Either sign gives negative-direction travel"
+        ],
+        "explanation": "Constant phase requires dx/dt=−ω/k for plus sign."
+      },
+      {
+        "label": "Initial-condition consistency",
+        "type": "choice",
+        "answer": "Add phase π/2 or −π/2; a zero-phase cosine cannot have s(0,0)=0",
+        "options": [
+          "Add phase π/2 or −π/2; a zero-phase cosine cannot have s(0,0)=0",
+          "The stated zero-phase cosine already has s(0,0)=0",
+          "Changing the propagation sign alone makes s(0,0)=0"
+        ],
+        "explanation": "Cos0=1; the given initial zero requires cosφ=0."
+      }
+    ],
+    "reasoning": "The requested parameters are well-defined; the printed zero-phase cosine omits the phase needed to meet its own initial condition. Verification: Source gives inconsistent zero initial displacement and zero-phase cosine; phase correction is explicitly identified.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ],
+    "scope": "The final consistency check identifies a source equation omission. Either±π/2 phase is valid because initial particle velocity is not specified."
+  },
+  {
+    "id": "physics-chapter-17-problems-83",
+    "parts": [
+      {
+        "label": "a · Blood-flow direction",
+        "type": "choice",
+        "answer": "Leftward",
+        "options": [
+          "Leftward",
+          "Rightward",
+          "No flow"
+        ],
+        "explanation": "The beam travels down-right; increased return frequency means blood approaches the transducer."
+      },
+      {
+        "label": "b · Maximum blood speed",
+        "type": "numeric",
+        "answer": 0.9000445819045345,
+        "unit": "m/s",
+        "tolerance": 0.01,
+        "explanation": "Solve fr/fs=(v+ucosθ)/(v−ucosθ)."
+      },
+      {
+        "label": "c · Larger angle effect",
+        "type": "choice",
+        "answer": "Lower reflected frequency",
+        "options": [
+          "Lower reflected frequency",
+          "Higher reflected frequency",
+          "Unchanged reflected frequency"
+        ],
+        "explanation": "Largerθreduces approaching velocity projection u cosθ."
+      }
+    ],
+    "reasoning": "The double Doppler frequency shift depends on the velocity component along the beam, not the full speed. Verification: Two-way shift uses the blood velocity projection onto the beam.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-84",
+    "parts": [
+      {
+        "label": "a · Arrival-time interval",
+        "type": "choice",
+        "answer": "Δt = L(1/v − 1/vm)",
+        "options": [
+          "Δt = L(1/v − 1/vm)",
+          "Δt = L(1/v + 1/vm)",
+          "Δt = (vm − v)/L"
+        ],
+        "explanation": "Subtract fast metal travel time from slower air travel time."
+      },
+      {
+        "label": "b · Steel pipe length",
+        "type": "numeric",
+        "answer": 364.0162558056449,
+        "unit": "m",
+        "tolerance": 3,
+        "explanation": "Using steel sound speed 5941m/s, solve L=Δt/(1/v−1/vm)."
+      }
+    ],
+    "reasoning": "Use the chapter table steel longitudinal sound speed; table-rounding changes length only slightly. Verification: Fast metal arrival precedes air arrival.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Steel longitudinal sound speed 5941m/s; air 343m/s; Δt=1.00s."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-85",
+    "parts": [
+      {
+        "label": "a · Thickness-oscillation period",
+        "type": "numeric",
+        "answer": 0.011111111111111112,
+        "unit": "s",
+        "tolerance": 0.00011111111111111112,
+        "explanation": "T=1/f."
+      },
+      {
+        "label": "b · Sound wavelength",
+        "type": "numeric",
+        "answer": 3.811111111111111,
+        "unit": "m",
+        "tolerance": 0.03811111111111111,
+        "explanation": "λ=v/f."
+      }
+    ],
+    "reasoning": "The source oscillation frequency is the emitted sound frequency. Verification: Period and wavelength satisfy v=λ/T.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-86",
+    "parts": [
+      {
+        "label": "Source speed divided by sound speed",
+        "type": "numeric",
+        "answer": 0.3333333333333333,
+        "unit": "dimensionless",
+        "tolerance": 0.003333333333333333,
+        "explanation": "Forward wavelength(v−vs)/f, backward(v+vs)/f; ratio 1/2."
+      }
+    ],
+    "reasoning": "The smaller wavelength is in the approach direction toward A. Verification: Forward/backward wavelength ratio solves(1−u)/(1+u)=1/2.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-87",
+    "parts": [
+      {
+        "label": "a · Direct frequency",
+        "type": "numeric",
+        "answer": 970.5882352941177,
+        "unit": "Hz",
+        "tolerance": 9.705882352941178,
+        "explanation": "Siren recedes from listener at10m/s."
+      },
+      {
+        "label": "b · Reflected frequency",
+        "type": "numeric",
+        "answer": 1031.25,
+        "unit": "Hz",
+        "tolerance": 10.3125,
+        "explanation": "Siren approaches stationary cliff; reflection preserves cliff frame frequency."
+      },
+      {
+        "label": "c · Beat frequency",
+        "type": "numeric",
+        "answer": 60.66176470588232,
+        "unit": "Hz",
+        "tolerance": 0.6066176470588233,
+        "explanation": "Take absolute difference."
+      },
+      {
+        "label": "c · Perceptible slow beats?",
+        "type": "choice",
+        "answer": "No: beat frequency exceeds 20Hz",
+        "options": [
+          "No: beat frequency exceeds 20Hz",
+          "Yes: beat frequency is below 20Hz",
+          "No: the two frequencies are equal"
+        ],
+        "explanation": "Difference≈60.66Hz exceeds the stated criterion."
+      }
+    ],
+    "reasoning": "Use330m/s as explicitly specified rather than the chapter default. Verification: Direct receding and reflected approaching frequencies differ by≈60.66Hz.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-88",
+    "parts": [
+      {
+        "label": "a · Resultant amplitude ratio",
+        "type": "numeric",
+        "answer": 2.0,
+        "unit": "dimensionless",
+        "tolerance": 0.02,
+        "explanation": "Two equal phasors sum to magnitude 2cos(φ/2)."
+      },
+      {
+        "label": "b · Resultant amplitude ratio",
+        "type": "numeric",
+        "answer": 1.4142135623730951,
+        "unit": "dimensionless",
+        "tolerance": 0.014142135623730952,
+        "explanation": "Two equal phasors sum to magnitude 2cos(φ/2)."
+      },
+      {
+        "label": "c · Resultant amplitude ratio",
+        "type": "numeric",
+        "answer": 1.7320508075688774,
+        "unit": "dimensionless",
+        "tolerance": 0.017320508075688773,
+        "explanation": "Two equal phasors sum to magnitude 2cos(φ/2)."
+      },
+      {
+        "label": "d · Resultant amplitude ratio",
+        "type": "numeric",
+        "answer": 1.8477590650225735,
+        "unit": "dimensionless",
+        "tolerance": 0.018477590650225736,
+        "explanation": "Two equal phasors sum to magnitude 2cos(φ/2)."
+      }
+    ],
+    "reasoning": "Phase differences lie between 0andπ, so the cosine factor is positive. Verification: Phasor magnitude never exceeds twice either amplitude.",
+    "sourcePages": [
+      33,
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-89",
+    "parts": [
+      {
+        "label": "a · Same-direction amplitude",
+        "type": "numeric",
+        "answer": 20.784609690826528,
+        "unit": "nm",
+        "tolerance": 0.20784609690826528,
+        "explanation": "Two equal 12nm waves combine as2Acos(φ/2)."
+      },
+      {
+        "label": "b · Same-direction wavelength",
+        "type": "numeric",
+        "answer": 35,
+        "unit": "cm",
+        "tolerance": 0.35000000000000003,
+        "explanation": "Superposition preserves k."
+      },
+      {
+        "label": "c · Standing-wave antinode amplitude",
+        "type": "numeric",
+        "answer": 24,
+        "unit": "nm",
+        "tolerance": 0.24,
+        "explanation": "Opposite wavevectors produce a standing wave with maximum amplitude 2A."
+      },
+      {
+        "label": "d · Standing-wave wavelength",
+        "type": "numeric",
+        "answer": 35,
+        "unit": "cm",
+        "tolerance": 0.35000000000000003,
+        "explanation": "Spatial period remainsλ; nodes areλ/2apart."
+      },
+      {
+        "label": "c · Local amplitude away from antinodes",
+        "type": "choice",
+        "answer": "Depends on position; ranges from 0 to24nm",
+        "options": [
+          "Depends on position; ranges from 0 to24nm",
+          "Equals 24nm at every point",
+          "Equals 12nm at every point"
+        ],
+        "explanation": "For one phase convention the envelope is24|cos(kx+π/6)|nm."
+      }
+    ],
+    "reasoning": "Traveling-wave interference and standing-wave envelopes must be distinguished; phase offset shifts nodes. Verification: Counterpropagating case is a standing wave with spatially variable amplitude;24nm is the antinode maximum.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-90",
+    "parts": [
+      {
+        "label": "a · Extreme-to-zero frequency",
+        "type": "numeric",
+        "answer": 571.6666666666667,
+        "unit": "Hz",
+        "tolerance": 5.716666666666668,
+        "explanation": "Nearest extreme-to-equilibrium spacing isλ/4."
+      },
+      {
+        "label": "b · Opposite-extremes frequency",
+        "type": "numeric",
+        "answer": 1143.3333333333335,
+        "unit": "Hz",
+        "tolerance": 11.433333333333335,
+        "explanation": "Nearest opposite extrema areλ/2apart."
+      }
+    ],
+    "reasoning": "Intermediate-displacement conditions prevent additional wavelengths between the particles. Verification: Adjacent extreme-to-zero spacing isλ/4, opposite extremaλ/2.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-91",
+    "parts": [
+      {
+        "label": "a · Moving-forks beats",
+        "type": "numeric",
+        "answer": 7.697381842910545,
+        "unit": "Hz",
+        "tolerance": 0.07697381842910545,
+        "explanation": "One source moves toward listener,the other away."
+      },
+      {
+        "label": "b · Moving-listener beats",
+        "type": "numeric",
+        "answer": 7.696793002915456,
+        "unit": "Hz",
+        "tolerance": 0.07696793002915456,
+        "explanation": "Observer moves toward one fork and away from the other."
+      }
+    ],
+    "reasoning": "Apply source-motion and observer-motion formulas separately; the differences are almost but not exactly equal. Verification: Moving-source and moving-listener formulas agree only to first order in speed.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-92",
+    "parts": [
+      {
+        "label": "Integer divisor",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "s per km",
+        "tolerance": 0,
+        "explanation": "Travel 1km takes 1000/343≈2.915s."
+      }
+    ],
+    "reasoning": "The customary three-second-per-kilometer rule rounds the sound travel time. Verification: 1/0.343≈2.915s per km gives integer 3.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-93",
+    "parts": [
+      {
+        "label": "a · Frequency",
+        "type": "numeric",
+        "answer": 5196.969696969697,
+        "unit": "Hz",
+        "tolerance": 51.96969696969697,
+        "explanation": "A1.65cm arm motion changes path 3.30cm=λ/2."
+      },
+      {
+        "label": "b · SAD-to-SBD amplitude ratio, shorter path larger",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "dimensionless",
+        "tolerance": 0.01,
+        "explanation": "(A+B)/|A−B|=√(900/100)=3; choose A>B.",
+        "acceptedValues": [
+          0.5
+        ]
+      },
+      {
+        "label": "c · Why amplitudes can differ",
+        "type": "choice",
+        "answer": "Different path lengths and losses attenuate the two waves differently",
+        "options": [
+          "Different path lengths and losses attenuate the two waves differently",
+          "A shared source forces equal amplitudes at every detector",
+          "Their frequencies must be different"
+        ],
+        "explanation": "Amplitude depends on transmission and propagation as well as source strength."
+      }
+    ],
+    "reasoning": "Intensity extrema imply an unordered amplitude ratio 2:1. The usual shorter SAD path assignment gives 2; without knowing which path is stronger, its reciprocal is also possible. Verification: Arm motion changes path twice as much; extrema constrain amplitude ratio to2or1/2.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ],
+    "scope": "Part(b) accepts 2 or0.5 because extrema alone do not identify the stronger path;2 assumes the shorter SAD path suffers less loss."
+  },
+  {
+    "id": "physics-chapter-17-problems-94",
+    "parts": [
+      {
+        "label": "a · Energy estimate from mass range",
+        "type": "choice",
+        "answer": "Approximately 3.6×10¹¹ to8.3×10¹¹J if launch kinetic energy is neglected",
+        "options": [
+          "Approximately 3.6×10¹¹ to8.3×10¹¹J if launch kinetic energy is neglected",
+          "Approximately 3.6×10⁷ to8.3×10⁷J",
+          "A unique exact energy is determined without a launch-speed assumption"
+        ],
+        "explanation": "Kimpact=Klaunch+mgh; the supplied mass range and unknown launch speed preclude a unique exact answer."
+      },
+      {
+        "label": "a · Midpoint-mass example energy",
+        "type": "numeric",
+        "answer": 595350000000.0,
+        "unit": "J",
+        "tolerance": 5953500000.0,
+        "explanation": "Usem=1.215×10⁸kg and Klaunch≈0."
+      },
+      {
+        "label": "b · Body-wave intensity for midpoint estimate",
+        "type": "numeric",
+        "answer": 0.9475289536975989,
+        "unit": "W/m²",
+        "tolerance": 0.00947528953697599,
+        "explanation": "Ibody=(.20E/.50s)/(2πr²)."
+      },
+      {
+        "label": "c · Surface-wave intensity for midpoint estimate",
+        "type": "numeric",
+        "answer": 37901.15814790396,
+        "unit": "W/m²",
+        "tolerance": 379.0115814790396,
+        "explanation": "Isurface=(.20E/.50s)/(2πrd),d=5m."
+      },
+      {
+        "label": "d · More easily detected",
+        "type": "choice",
+        "answer": "Surface wave",
+        "options": [
+          "Surface wave",
+          "Body wave",
+          "Equal intensity"
+        ],
+        "explanation": "Cylinder area 2πrd grows linearly with r, rather than quadratically."
+      }
+    ],
+    "reasoning": "Potential energy estimate spans mass range; at midpoint E=5.9535×10¹¹J. Surface/body intensity ratio=r/d=40000. Verification: Energy estimate and intensity ranges explicitly propagate supplied mass range.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Midpoint mass 1.215×10⁸kg; negligible initial kinetic energy for illustrative estimate.",
+      "Impact duration.50s;20%energy per wave type; depth 5m; radius 200km; no attenuation."
+    ],
+    "scope": "Numerical fields use the explicitly labeled midpoint-mass, negligible-launch-energy estimate. Other justified masses and launch energies give different valid estimates."
+  },
+  {
+    "id": "physics-chapter-17-problems-95",
+    "parts": [
+      {
+        "label": "a · Source power",
+        "type": "numeric",
+        "answer": 10.053096491487338,
+        "unit": "W",
+        "tolerance": 0.10053096491487339,
+        "explanation": "P=I4πr²."
+      },
+      {
+        "label": "b · Intensity at5m",
+        "type": "numeric",
+        "answer": 0.032,
+        "unit": "W/m²",
+        "tolerance": 0.00032,
+        "explanation": "Halving r gives four times I."
+      },
+      {
+        "label": "c · Sound level at10m",
+        "type": "numeric",
+        "answer": 99.03089986991944,
+        "unit": "dB",
+        "tolerance": 0.9903089986991944,
+        "explanation": "β=10log 10(I/I₀)."
+      }
+    ],
+    "reasoning": "Use isotropic spreading and standard reference intensity. Verification: Halving distance quadruples intensity.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-96",
+    "parts": [
+      {
+        "label": "Resultant amplitude",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "nm",
+        "tolerance": 0,
+        "explanation": "s1and s3cancel; s2and s4cancel."
+      }
+    ],
+    "reasoning": "Each pair differs in phase byπ but has identical amplitude,k,andω. Verification: Opposite phasors cancel in pairs.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-97",
+    "parts": [
+      {
+        "label": "a · Distance from midpoint",
+        "type": "numeric",
+        "answer": 0.28583333333333333,
+        "unit": "m",
+        "tolerance": 0.0028583333333333334,
+        "explanation": "Opposite emission phase requires oddλ/2path difference; path difference=2x."
+      },
+      {
+        "label": "b · Distance from midpoint",
+        "type": "numeric",
+        "answer": 0.8574999999999999,
+        "unit": "m",
+        "tolerance": 0.008575,
+        "explanation": "Opposite emission phase requires oddλ/2path difference; path difference=2x."
+      },
+      {
+        "label": "c · Distance from midpoint",
+        "type": "numeric",
+        "answer": 1.4291666666666667,
+        "unit": "m",
+        "tolerance": 0.014291666666666668,
+        "explanation": "Opposite emission phase requires oddλ/2path difference; path difference=2x."
+      }
+    ],
+    "reasoning": "The first three maxima lie inside the 2.50m half separation. Verification: Path difference is twice displacement from midpoint.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ],
+    "reviewNotice": "The printed answer key conflicts with the source statement: the sources emit exactly out of phase. The midpoint is therefore a minimum, and the corrected maxima are an odd quarter-wavelength from it.",
+    "referenceAnswer": "(a)0.285833m; (b)0.857500m; (c)1.429167m. Use λ=343/300m and distancesλ/4,3λ/4,5λ/4."
+  },
+  {
+    "id": "physics-chapter-17-problems-98",
+    "parts": [
+      {
+        "label": "a · Stationary-source wavefront spacing",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "m",
+        "tolerance": 0.005,
+        "explanation": "Crests separate by v/f."
+      },
+      {
+        "label": "b · Forward spacing",
+        "type": "numeric",
+        "answer": 0.3396501457725947,
+        "unit": "m",
+        "tolerance": 0.003396501457725947,
+        "explanation": "Source advances vs/f between successive emissions."
+      },
+      {
+        "label": "c · Rearward spacing",
+        "type": "numeric",
+        "answer": 0.6603498542274052,
+        "unit": "m",
+        "tolerance": 0.006603498542274052,
+        "explanation": "Source recedes from rearward crests between successive emissions."
+      }
+    ],
+    "reasoning": "Use wavefront geometry; the emitted frequency remains 686Hz. Verification: Behind-minus-ahead wavelength difference is2vs/f.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-99",
+    "parts": [
+      {
+        "label": "Initial distance D",
+        "type": "numeric",
+        "answer": 170.71067811865473,
+        "unit": "m",
+        "tolerance": 1.7071067811865472,
+        "explanation": "Inew/Iold=[D/(D−50)]²=2."
+      }
+    ],
+    "reasoning": "Choose D>50m so the observer does not cross the point source. Verification: Back substitution gives an intensity ratio of2.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-100",
+    "parts": [
+      {
+        "label": "a · Smallest matching nB",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "nB=2nA with nA odd."
+      },
+      {
+        "label": "b · Second matching nB",
+        "type": "numeric",
+        "answer": 6,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "nA=3gives nB=6."
+      },
+      {
+        "label": "c · Third matching nB",
+        "type": "numeric",
+        "answer": 10,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "nA=5gives nB=10."
+      }
+    ],
+    "reasoning": "A frequencies nAv/(4LA); B frequencies nBv/(8LA). Verification: Frequency matching gives nB=2nA with nA odd.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-101",
+    "parts": [
+      {
+        "label": "a · Gas sound speed",
+        "type": "numeric",
+        "answer": 360.0,
+        "unit": "m/s",
+        "tolerance": 3.6,
+        "explanation": "Third allowed mode isf 5=5v/(4L)."
+      },
+      {
+        "label": "b · Fundamental",
+        "type": "numeric",
+        "answer": 150,
+        "unit": "Hz",
+        "tolerance": 0,
+        "explanation": "750/5=150Hz."
+      }
+    ],
+    "reasoning": "Closed-open pipes allow n=1,3,5,…. Verification: Third allowed harmonic is n=5.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-102",
+    "parts": [
+      {
+        "label": "a · Propagation and intensity",
+        "type": "choice",
+        "answer": "Outward at speed v; period 2π/(kv); amplitude b/r and intensity proportional to1/r²",
+        "options": [
+          "Outward at speed v; period 2π/(kv); amplitude b/r and intensity proportional to1/r²",
+          "Inward at speed v; amplitude proportional tor",
+          "Outward at speed kv; intensity independent of r"
+        ],
+        "explanation": "Constant phase r−vt gives outward motion; squaring amplitude gives inverse-square intensity."
+      },
+      {
+        "label": "b · Dimension ofb",
+        "type": "choice",
+        "answer": "Length squared",
+        "options": [
+          "Length squared",
+          "Length",
+          "Inverse length"
+        ],
+        "explanation": "s=b/r has length units,sob must have units m²."
+      }
+    ],
+    "reasoning": "The spherical waveform conserves power across areas 4πr² while oscillating sinusoidally. Verification: Spherical spreading has amplitude 1/r and intensity 1/r².",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-103",
+    "parts": [
+      {
+        "label": "Frequency heard by Porsche",
+        "type": "numeric",
+        "answer": 400.0,
+        "unit": "Hz",
+        "tolerance": 4.0,
+        "explanation": "Detector and source move in the propagation direction; use(v−vD)/(v−vS)."
+      }
+    ],
+    "reasoning": "Porsche pulls away from chasing police; measured frequency falls to400Hz. Verification: Detector outruns the chasing source, lowering received frequency.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-104",
+    "parts": [
+      {
+        "label": "a · Intensity at3m",
+        "type": "numeric",
+        "answer": 0.08841941282883074,
+        "unit": "W/m²",
+        "tolerance": 0.0008841941282883074,
+        "explanation": "I=P/(4πr²)."
+      },
+      {
+        "label": "b · Amplitude at4m divided by at3m",
+        "type": "numeric",
+        "answer": 0.75,
+        "unit": "dimensionless",
+        "tolerance": 0.0075,
+        "explanation": "Amplitude∝√I∝1/r."
+      }
+    ],
+    "reasoning": "Absorbent walls remove reflected waves,justifying pure outgoing spherical spreading. Verification: Amplitude follows 1/r while intensity follows 1/r².",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-105",
+    "parts": [
+      {
+        "label": "a · In-phase positions",
+        "type": "numeric",
+        "answer": 14,
+        "unit": "points",
+        "tolerance": 0,
+        "explanation": "Integer path orders−3through 3 each appear on two circle sides."
+      },
+      {
+        "label": "b · Opposite-phase positions",
+        "type": "numeric",
+        "answer": 12,
+        "unit": "points",
+        "tolerance": 0,
+        "explanation": "Half orders±.5,±1.5,±2.5each appear twice."
+      }
+    ],
+    "reasoning": "Maximum geometric path difference is3.2λ; there are neither integer nor half-integer endpoint orders. Verification: No half-integer endpoint lies atD/λ=3.2.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-106",
+    "parts": [
+      {
+        "label": "Target speed",
+        "type": "numeric",
+        "answer": 35.835820895522374,
+        "unit": "m/s",
+        "tolerance": 0.35835820895522374,
+        "explanation": "fr/fs=(v+u)/(v−u); solve u=v(fr−fs)/(fr+fs)."
+      }
+    ],
+    "reasoning": "Use the chapter default sound speed 343m/s; the generic wave wording requires the assumption of sound in air. Verification: Solved speed reproduces the reflected frequency 22.2kHz.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Waves are sound in air with speed 343m/s; if another medium is used,the answer scales with its wave speed."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-107",
+    "parts": [
+      {
+        "label": "Sound speed in gas",
+        "type": "numeric",
+        "answer": 820.64,
+        "unit": "m/s",
+        "tolerance": 8.2064,
+        "explanation": "Node-spacing d=λ/2;v=f·2d."
+      }
+    ],
+    "reasoning": "Use0.0920m node spacing,not a full wavelength. Verification: Filings collect at nodes separated byλ/2.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-108",
+    "parts": [
+      {
+        "label": "Wavelength expression",
+        "type": "choice",
+        "answer": "4[√((d/2)²+(H+h)²) − √((d/2)²+H²)]",
+        "options": [
+          "4[√((d/2)²+(H+h)²) − √((d/2)²+H²)]",
+          "2[√((d/2)²+(H+h)²) − √((d/2)²+H²)]",
+          "4[√((d/2)²+(H+h)²) + √((d/2)²+H²)]"
+        ],
+        "explanation": "Reflected path change twice the radical difference equalsλ/2at the first out-of-phase height."
+      }
+    ],
+    "reasoning": "Direct path d and any fixed reflection phase cancel when comparing the two heights. Verification: Increasing path byλ/2 changes interference from in-phase to out-of-phase.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-109",
+    "parts": [
+      {
+        "label": "a · Lowest frequency",
+        "type": "numeric",
+        "answer": 39.28173394281976,
+        "unit": "Hz",
+        "tolerance": 0.39281733942819763,
+        "explanation": "Reflectionπrequires geometric path differenceλ/2for in phase arrival."
+      },
+      {
+        "label": "b · Second lowest frequency",
+        "type": "numeric",
+        "answer": 117.84520182845928,
+        "unit": "Hz",
+        "tolerance": 1.1784520182845928,
+        "explanation": "Next in phase condition is3λ/2."
+      }
+    ],
+    "reasoning": "Reflect source across the wall: reflected horizontal run 25m, direct run 20m,both vertical drop 12.5m. Verification: Image source makes reflected length√[(2d1+d2)²+d3²], direct length√[d2²+d3²].",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-110",
+    "parts": [
+      {
+        "label": "a · Frequency at wall",
+        "type": "numeric",
+        "answer": 467.24458204334366,
+        "unit": "Hz",
+        "tolerance": 4.6724458204334365,
+        "explanation": "Source approach compresses wavefronts."
+      },
+      {
+        "label": "b · Echo at trumpeter",
+        "type": "numeric",
+        "answer": 494.4891640866873,
+        "unit": "Hz",
+        "tolerance": 4.9448916408668735,
+        "explanation": "Wall reflection keeps frequency; moving listener approaches return wave."
+      }
+    ],
+    "reasoning": "Apply Doppler shift outward then back. Verification: Reflected frequency includes the moving trumpeter as detector.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  },
+  {
+    "id": "physics-chapter-17-problems-111",
+    "parts": [
+      {
+        "label": "Source frequency",
+        "type": "numeric",
+        "answer": 481.0,
+        "unit": "Hz",
+        "tolerance": 4.8100000000000005,
+        "explanation": "f2−f1=fs·25/(340−15)=37Hz."
+      }
+    ],
+    "reasoning": "The difference between moving and stationary listener isolates the 25m/s detector velocity increment. Verification: Subtracting detector frequencies eliminates baseline source frequency shift.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Sound speed 343m/s and air density 1.21kg/m³ unless specified otherwise.",
+      "Ideal linear waves; ignore attenuation except geometric spreading and explicitly stated losses."
+    ]
+  }
+]

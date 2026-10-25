@@ -1,0 +1,2677 @@
+[
+  {
+    "id": "physics-chapter-14-problems-1",
+    "parts": [
+      {
+        "label": "Air-sac fraction of expanded body",
+        "type": "numeric",
+        "answer": 0.07407407407407418,
+        "unit": "",
+        "tolerance": 0.0005925925925925935,
+        "explanation": "Mass is unchanged: ρfish(V−Vair)=ρwater V, so Vair/V=1−1/1.08."
+      }
+    ],
+    "reasoning": "Mass is unchanged: ρfish(V−Vair)=ρwater V, so Vair/V=1−1/1.08. Verification: The fraction is positive and less than one; substituting gives density1.00 g/cm³.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Neglect air mass and changes in tissue volume."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-2",
+    "parts": [
+      {
+        "label": "Internal absolute pressure",
+        "type": "numeric",
+        "answer": 99993.76623376623,
+        "unit": "Pa",
+        "tolerance": 799.9501298701299,
+        "explanation": "The upward applied force balances (poutside−pinside)A, giving pinside=100000−480/77."
+      }
+    ],
+    "reasoning": "The upward applied force balances (poutside−pinside)A, giving pinside=100000−480/77. Verification: The pressure lies just below atmospheric pressure; source explicitly prints area77 m².",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-3",
+    "parts": [
+      {
+        "label": "Pressure increase",
+        "type": "numeric",
+        "answer": 110487.72908858852,
+        "unit": "Pa",
+        "tolerance": 883.9018327087082,
+        "explanation": "Δp=F/A=42/[π(0.011)²]."
+      }
+    ],
+    "reasoning": "Δp=F/A=42/[π(0.011)²]. Verification: Force divided by square metres has pascal units; agrees with1.1×10⁵Pa.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-4",
+    "parts": [
+      {
+        "label": "Liquid force on bottom",
+        "type": "numeric",
+        "answer": 18.326000000000004,
+        "unit": "N",
+        "tolerance": 0.14660800000000004,
+        "explanation": "Each litre times density in kg/L gives mass; bottom force from the liquids is the total weight."
+      }
+    ],
+    "reasoning": "Each litre times density in kg/L gives mass; bottom force from the liquids is the total weight. Verification: Masses sum to1.87kg; stacking order cancels.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-5",
+    "parts": [
+      {
+        "label": "Net outward force",
+        "type": "numeric",
+        "answer": 28938.420000000027,
+        "unit": "N",
+        "tolerance": 231.50736000000023,
+        "explanation": "Only the pressure difference contributes: F=(1.00−0.96)atm × area."
+      }
+    ],
+    "reasoning": "Only the pressure difference contributes: F=(1.00−0.96)atm × area. Verification: Positive outward; approximately2.9×10⁴N.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-6",
+    "parts": [
+      {
+        "label": "a · Tire gauge pressure",
+        "type": "numeric",
+        "answer": 193.053196,
+        "unit": "kPa",
+        "tolerance": 1.544425568,
+        "explanation": "Use1 psi=6.894757kPa."
+      },
+      {
+        "label": "b · Systolic pressure",
+        "type": "numeric",
+        "answer": 15.998684210526315,
+        "unit": "kPa",
+        "tolerance": 0.12798947368421051,
+        "explanation": "Multiply120 mmHg by133.322Pa/mmHg."
+      },
+      {
+        "label": "b · Diastolic pressure",
+        "type": "numeric",
+        "answer": 10.66578947368421,
+        "unit": "kPa",
+        "tolerance": 0.08532631578947368,
+        "explanation": "Multiply80 mmHg by133.322Pa/mmHg."
+      }
+    ],
+    "reasoning": "Convert each pressure independently; the120/80 notation is two pressures, not a quotient. Verification: The blood-pressure pair is16.0/10.7kPa, both below tire pressure.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-7",
+    "parts": [
+      {
+        "label": "a · Force relationship",
+        "type": "choice",
+        "answer": "F = πR² Δp",
+        "options": [
+          "F = πR² Δp",
+          "F = 4πR² Δp",
+          "F = 2πR Δp"
+        ],
+        "explanation": "The axial force integrates over the projected circular area, not the curved hemisphere area."
+      },
+      {
+        "label": "b · Pull required per team",
+        "type": "numeric",
+        "answer": 25784.071925623848,
+        "unit": "N",
+        "tolerance": 206.2725754049908,
+        "explanation": "Integrate Δp cosθ dA over the hemisphere: ΔpπR²."
+      },
+      {
+        "label": "c · Why one team and a wall suffice",
+        "type": "choice",
+        "answer": "The wall supplies the opposing reaction force",
+        "options": [
+          "The wall supplies the opposing reaction force",
+          "The wall halves the pressure difference",
+          "Only half the projected area then matters"
+        ],
+        "explanation": "Static tension is the same at both ends; a second moving team is unnecessary."
+      }
+    ],
+    "reasoning": "Resolve elemental pressure force along the separation axis; transverse components cancel. Verification: The required pull is25.8kN per team, not twice this amount.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-8",
+    "parts": [
+      {
+        "label": "Pressure change: flight minus dive",
+        "type": "numeric",
+        "answer": -265501.60000000003,
+        "unit": "Pa",
+        "tolerance": 2124.0128000000004,
+        "explanation": "Subtract p0+ρsea g(20) from p0−ρair g(7600); atmospheric reference cancels."
+      }
+    ],
+    "reasoning": "Subtract p0+ρsea g(20) from p0−ρair g(7600); atmospheric reference cancels. Verification: Both ascent contributions decrease pressure, giving approximately−2.66×10⁵Pa.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use seawater density1024 kg/m³ from the chapter and the stated average air density0.87 kg/m³."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-9",
+    "parts": [
+      {
+        "label": "a · Heart gauge pressure",
+        "type": "numeric",
+        "answer": 135321.7894736842,
+        "unit": "Pa",
+        "tolerance": 1082.5743157894738,
+        "explanation": "The heart is12m below the brain, so addρg(12) to80torr."
+      },
+      {
+        "label": "b · Foot gauge pressure",
+        "type": "numeric",
+        "answer": 1716.2445595854922,
+        "unit": "torr",
+        "tolerance": 13.729956476683938,
+        "explanation": "Feet are21m below the head; add the full hydrostatic head."
+      }
+    ],
+    "reasoning": "Pressure increases downward through a static blood column. Verification: Foot minus heart pressure equalsρg×9m; heart minus brain equalsρg×12m.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-10",
+    "parts": [
+      {
+        "label": "Total water height in long arm",
+        "type": "numeric",
+        "answer": 2.8,
+        "unit": "m",
+        "tolerance": 0.0224,
+        "explanation": "The seal experiences gauge pressureρg(H−0.800); F=ρg(H−0.800)A."
+      }
+    ],
+    "reasoning": "The seal experiences gauge pressureρg(H−0.800); F=ρg(H−0.800)A. Verification: The extra head is2.00m, giving total height2.80m.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-11",
+    "parts": [
+      {
+        "label": "a · Brain gauge pressure",
+        "type": "numeric",
+        "answer": 94.1671848013817,
+        "unit": "torr",
+        "tolerance": 0.7533374784110536,
+        "explanation": "The brain is2m above the heart."
+      },
+      {
+        "label": "b · Foot gauge pressure",
+        "type": "numeric",
+        "answer": 405.8328151986183,
+        "unit": "torr",
+        "tolerance": 3.2466625215889464,
+        "explanation": "The feet are2m below the heart."
+      },
+      {
+        "label": "c · Increase at brain when lowered",
+        "type": "numeric",
+        "answer": 311.6656303972366,
+        "unit": "torr",
+        "tolerance": 2.493325043177893,
+        "explanation": "The head drops4m from upright brain height to water at foot level."
+      }
+    ],
+    "reasoning": "Use the same pressure gradient in the blood for all three height changes. Verification: Brain and foot pressures average250torr; their difference equals the pressure increase in(c).",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-12",
+    "parts": [
+      {
+        "label": "Fresh-water minus Dead-Sea depth",
+        "type": "numeric",
+        "answer": 0.17232142857142857,
+        "unit": "m",
+        "tolerance": 0.0013785714285714287,
+        "explanation": "Maximum breathing depth is Δp/(ρg); subtract the two depths."
+      }
+    ],
+    "reasoning": "Maximum breathing depth is Δp/(ρg); subtract the two depths. Verification: Fresh water permits the greater depth; result0.172m.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-13",
+    "parts": [
+      {
+        "label": "Hydrostatic gauge pressure",
+        "type": "numeric",
+        "answer": 1079.53298791019,
+        "unit": "atm",
+        "tolerance": 8.63626390328152,
+        "explanation": "Water-column pressure isρgh, converted using101325Pa per atmosphere."
+      }
+    ],
+    "reasoning": "Water-column pressure isρgh, converted using101325Pa per atmosphere. Verification: About1.08×10³atm; adding one atmosphere for absolute pressure barely changes this approximation.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-14",
+    "parts": [
+      {
+        "label": "Foot minus brain pressure",
+        "type": "numeric",
+        "answer": 19010.04,
+        "unit": "Pa",
+        "tolerance": 152.08032,
+        "explanation": "Δp=ρgΔh with positive pressure increase downward."
+      }
+    ],
+    "reasoning": "Δp=ρgΔh with positive pressure increase downward. Verification: Units reduce toN/m²; approximately1.90×10⁴Pa.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-15",
+    "parts": [
+      {
+        "label": "Required gauge pressure",
+        "type": "numeric",
+        "answer": -26460.0,
+        "unit": "Pa",
+        "tolerance": 211.68,
+        "explanation": "The upper end must be below atmospheric pressure byρgh to support the mud column."
+      }
+    ],
+    "reasoning": "The upper end must be below atmospheric pressure byρgh to support the mud column. Verification: Negative gauge pressure is required for suction, approximately−2.65×10⁴Pa.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-16",
+    "parts": [
+      {
+        "label": "a · Outside minus inside pressure",
+        "type": "numeric",
+        "answer": 0.01934369602763385,
+        "unit": "atm",
+        "tolerance": 0.00015474956822107081,
+        "explanation": "Outside water pressure exceeds atmospheric lung pressure byρgh."
+      },
+      {
+        "label": "b · Outside minus inside pressure",
+        "type": "numeric",
+        "answer": 0.38687392055267705,
+        "unit": "atm",
+        "tolerance": 0.0030949913644214163,
+        "explanation": "Use the same hydrostatic difference at4.0m."
+      }
+    ],
+    "reasoning": "Report the positive compressive pressure difference on the chest. Verification: The second depth and pressure difference are20 times the first.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-17",
+    "parts": [
+      {
+        "label": "Outward force required",
+        "type": "numeric",
+        "answer": 722534.4,
+        "unit": "N",
+        "tolerance": 5780.2752,
+        "explanation": "Internal atmospheric pressure cancels the atmospheric part outside; multiply water gauge pressure by hatch area."
+      }
+    ],
+    "reasoning": "Internal atmospheric pressure cancels the atmospheric part outside; multiply water gauge pressure by hatch area. Verification: Approximately7.23×10⁵N; pressure force opposes outward opening.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-18",
+    "parts": [
+      {
+        "label": "Bottom force divided by barrel-water weight",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "",
+        "tolerance": 0.016,
+        "explanation": "Fbottom=ρg(H+L)Abase and Wbarrel=ρgHAbase."
+      },
+      {
+        "label": "Why the ratio exceeds one",
+        "type": "choice",
+        "answer": "Pressure on the barrel top adds a downward force to the water",
+        "options": [
+          "Pressure on the barrel top adds a downward force to the water",
+          "The water in the barrel has twice its usual density",
+          "The narrow tube doubles gravitational acceleration"
+        ],
+        "explanation": "The container walls can exert vertical forces; bottom force need not equal water weight alone."
+      }
+    ],
+    "reasoning": "With H=L, the bottom head is2H, while the barrel volume isAbaseH. Verification: The small tube volume does not remove the extra pressure head; force balance includes top-wall forces.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-19",
+    "parts": [
+      {
+        "label": "Increase in wall force",
+        "type": "numeric",
+        "answer": 470400.0,
+        "unit": "N",
+        "tolerance": 3763.2000000000003,
+        "explanation": "Integrate gauge pressureρgy over wall width8m and depth: F=ρgwH²/2."
+      }
+    ],
+    "reasoning": "Integrate gauge pressureρgy over wall width8m and depth: F=ρgwH²/2. Verification: Quadrupling force when depth doubles gives increase4.704×10⁵N; conventional water-density rounding explains the printed4.69×10⁵N.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-20",
+    "parts": [
+      {
+        "label": "a · Force on A from water including atmospheric pressure",
+        "type": "numeric",
+        "answer": 4983125.0,
+        "unit": "N",
+        "tolerance": 39865.0,
+        "explanation": "Face A has area d²=25m² at uniform depth2d=10m."
+      },
+      {
+        "label": "b · Force on B from water including atmospheric pressure",
+        "type": "numeric",
+        "answer": 5595625.0,
+        "unit": "N",
+        "tolerance": 44765.0,
+        "explanation": "Face B has area d² and its centroid lies at depth2.5d=12.5m."
+      },
+      {
+        "label": "a · Net force on A after outside air cancels",
+        "type": "numeric",
+        "answer": 2450000.0,
+        "unit": "N",
+        "tolerance": 19600.0,
+        "explanation": "Subtract atmospheric pressure on the opposite face."
+      },
+      {
+        "label": "b · Net force on B after outside air cancels",
+        "type": "numeric",
+        "answer": 3062500.0,
+        "unit": "N",
+        "tolerance": 24500.0,
+        "explanation": "Integrate the linear pressure over depths2d to3d."
+      }
+    ],
+    "reasoning": "A is the horizontal shelf and B the vertical end face; the original diagram fixes their depths. Verification: The pressure integral on B equals centroid pressure times area. Gauge forces are2.45MN and3.0625MN.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use1atm outside; total one-sided water force includes transmitted atmospheric pressure. Net wall forces subtract outside atmospheric pressure."
+    ],
+    "scope": "Both one-sided total forces and net gauge-pressure forces are labeled to distinguish the two common pressure conventions."
+  },
+  {
+    "id": "physics-chapter-14-problems-21",
+    "parts": [
+      {
+        "label": "Work done by gravity",
+        "type": "numeric",
+        "answer": 0.6350074640000003,
+        "unit": "J",
+        "tolerance": 0.005080059712000003,
+        "explanation": "Each column has U=ρgAh²/2. Final common height is the mean, so Ui−Uf=ρgA(h2−h1)²/4."
+      }
+    ],
+    "reasoning": "Each column has U=ρgAh²/2. Final common height is the mean, so Ui−Uf=ρgA(h2−h1)²/4. Verification: Positive work0.635J; fluid volume remains conserved.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-22",
+    "parts": [
+      {
+        "label": "Brain gauge pressure",
+        "type": "numeric",
+        "answer": 26.500310880829005,
+        "unit": "torr",
+        "tolerance": 0.21200248704663205,
+        "explanation": "In the accelerating frame, pressure increases radially outward at rateρ(4g); the brain is inward."
+      }
+    ],
+    "reasoning": "In the accelerating frame, pressure increases radially outward at rateρ(4g); the brain is inward. Verification: The drop is93.5torr, leaving about26.5torr.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-23",
+    "parts": [
+      {
+        "label": "Root depth below continent",
+        "type": "numeric",
+        "answer": 43.5,
+        "unit": "km",
+        "tolerance": 0.34800000000000003,
+        "explanation": "At compensation depth, excess continental massρcH replaces mantle mass(ρm−ρc)D."
+      }
+    ],
+    "reasoning": "At compensation depth, excess continental massρcH replaces mantle mass(ρm−ρc)D. Verification: T and compensation depth cancel; D≈43.5km, much larger than mountain height.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-24",
+    "parts": [
+      {
+        "label": "a · Horizontal force",
+        "type": "numeric",
+        "answer": 1884785000.0,
+        "unit": "N",
+        "tolerance": 15078280.0,
+        "explanation": "Integrateρg(depth)W d(depth) from0 toD."
+      },
+      {
+        "label": "b · Torque magnitude about O",
+        "type": "numeric",
+        "answer": 21989158333.333332,
+        "unit": "N·m",
+        "tolerance": 175913266.66666666,
+        "explanation": "The triangular pressure distribution actsD/3 above the bottom."
+      },
+      {
+        "label": "c · Moment arm",
+        "type": "numeric",
+        "answer": 11.666666666666666,
+        "unit": "m",
+        "tolerance": 0.09333333333333332,
+        "explanation": "Divide the integrated torqueρgWD³/6 by forceρgWD²/2."
+      }
+    ],
+    "reasoning": "The pressure distribution is triangular and directed horizontally. Verification: The centroid lies one third of D above O; multiplying force by moment arm reproduces torque.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-25",
+    "parts": [
+      {
+        "label": "Atmospheric pressure in pascals",
+        "type": "numeric",
+        "answer": 98565.65917379998,
+        "unit": "Pa",
+        "tolerance": 788.5252733903999,
+        "explanation": "p=ρgh using local mercury density and local gravitational acceleration."
+      },
+      {
+        "label": "Atmospheric pressure in torr",
+        "type": "numeric",
+        "answer": 739.303241767461,
+        "unit": "torr",
+        "tolerance": 5.914425934139689,
+        "explanation": "A torr is101325/760Pa; do not equate a temperature-corrected millimetre column directly with standard torr."
+      }
+    ],
+    "reasoning": "The measured column height must be converted with the specified localρ andg. Verification: Result is approximately98569Pa or739.34torr; distinction from740.35mm is physical.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-26",
+    "parts": [
+      {
+        "label": "Lung gauge pressure",
+        "type": "numeric",
+        "answer": -0.0038687392055267705,
+        "unit": "atm",
+        "tolerance": 3.094991364421416e-05,
+        "explanation": "Suction requires pressure lower than atmosphere byρgh."
+      }
+    ],
+    "reasoning": "Suction requires pressure lower than atmosphere byρgh. Verification: Only392Pa below atmosphere, hence−0.00387atm.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-27",
+    "parts": [
+      {
+        "label": "a · Height for uniform density",
+        "type": "numeric",
+        "answer": 7.953296703296702,
+        "unit": "km",
+        "tolerance": 0.06362637362637362,
+        "explanation": "p0=ρ0gH."
+      },
+      {
+        "label": "b · Height for linearly decreasing density",
+        "type": "numeric",
+        "answer": 15.906593406593403,
+        "unit": "km",
+        "tolerance": 0.12725274725274724,
+        "explanation": "Mean density isρ0/2, so p0=ρ0gH/2."
+      }
+    ],
+    "reasoning": "Integrate hydrostatic pressure from sea level to the zero-pressure top. Verification: The triangular density profile needs twice the height of a uniform profile.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-28",
+    "parts": [
+      {
+        "label": "a · Output force",
+        "type": "choice",
+        "answer": "F = f A/a",
+        "options": [
+          "F = f A/a",
+          "F = f a/A",
+          "F = f"
+        ],
+        "explanation": "Pascal pressure equality givesf/a=F/A."
+      },
+      {
+        "label": "b · Input force",
+        "type": "numeric",
+        "answer": 102.81238875044498,
+        "unit": "N",
+        "tolerance": 0.8224991100035599,
+        "explanation": "The piston-area ratio is the square of the diameter ratio."
+      }
+    ],
+    "reasoning": "Equal pressure gives force proportional to piston area. Verification: The small input force is102.8N, consistent with the large mechanical advantage.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-29",
+    "parts": [
+      {
+        "label": "Sand mass",
+        "type": "numeric",
+        "answer": 8.503401360544217,
+        "unit": "kg",
+        "tolerance": 0.06802721088435373,
+        "explanation": "Spring force kx is output force; input weight must equal kx/18."
+      }
+    ],
+    "reasoning": "Spring force kx is output force; input weight must equal kx/18. Verification: Output force1500N and input weight83.33N give8.503kg; source continuation recovered from PDF23.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-30",
+    "parts": [
+      {
+        "label": "Distance moved",
+        "type": "numeric",
+        "answer": 0.07840000000000003,
+        "unit": "m",
+        "tolerance": 0.0006272000000000002,
+        "explanation": "Net downward force is(5−3)g; divide by mass5kg and use s=at²/2."
+      },
+      {
+        "label": "Direction",
+        "type": "choice",
+        "answer": "Downward",
+        "options": [
+          "Downward",
+          "Upward",
+          "It remains at rest"
+        ],
+        "explanation": "Object weight exceeds displaced-liquid weight."
+      }
+    ],
+    "reasoning": "Archimedes force is3g upward, while object weight is5g downward. Verification: Acceleration3.92m/s² gives0.0784m in0.200s; complete statement recovered from PDF23.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-31",
+    "parts": [
+      {
+        "label": "a · Wood density",
+        "type": "numeric",
+        "answer": 666.6666666666666,
+        "unit": "kg/m³",
+        "tolerance": 5.333333333333333,
+        "explanation": "Floating requiresρwoodV=ρwater(2V/3)."
+      },
+      {
+        "label": "b · Oil density",
+        "type": "numeric",
+        "answer": 740.7407407407406,
+        "unit": "kg/m³",
+        "tolerance": 5.925925925925926,
+        "explanation": "The same block displaces0.90V in oil."
+      }
+    ],
+    "reasoning": "For each liquid, displaced-liquid mass equals wood mass. Verification: Oil density lies between wood and water densities, matching the larger immersed fraction.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-32",
+    "parts": [
+      {
+        "label": "a · Downward top force",
+        "type": "numeric",
+        "answer": 37567.151999999995,
+        "unit": "N",
+        "tolerance": 300.53721599999994,
+        "explanation": "Top depth isL/2; use absolute pressure times L²."
+      },
+      {
+        "label": "b · Upward bottom force",
+        "type": "numeric",
+        "answer": 39747.456,
+        "unit": "N",
+        "tolerance": 317.979648,
+        "explanation": "Bottom depth is3L/2."
+      },
+      {
+        "label": "c · Rope tension",
+        "type": "numeric",
+        "answer": 2229.6960000000004,
+        "unit": "N",
+        "tolerance": 17.837568000000005,
+        "explanation": "Vertical balance:T+Fb−Ft−mg=0."
+      },
+      {
+        "label": "d · Buoyant force",
+        "type": "numeric",
+        "answer": 2180.3039999999996,
+        "unit": "N",
+        "tolerance": 17.442431999999997,
+        "explanation": "Archimedes givesρgL³."
+      },
+      {
+        "label": "Relation among forces",
+        "type": "choice",
+        "answer": "Buoyancy = bottom force − top force; tension + buoyancy = weight",
+        "options": [
+          "Buoyancy = bottom force − top force; tension + buoyancy = weight",
+          "Buoyancy = bottom force + top force; tension = weight",
+          "Tension equals buoyancy regardless of mass"
+        ],
+        "explanation": "Opposing atmospheric contributions cancel in the net liquid force."
+      }
+    ],
+    "reasoning": "Integrate the uniform pressure on each horizontal cube face; side forces cancel. Verification: Bottom minus top is exactlyρgV, independently checking the tension.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-33",
+    "parts": [
+      {
+        "label": "a · Anchor volume",
+        "type": "numeric",
+        "answer": 0.02040816326530612,
+        "unit": "m³",
+        "tolerance": 0.00016326530612244898,
+        "explanation": "Lost apparent weight is buoyancyρwatergV."
+      },
+      {
+        "label": "b · Air weight",
+        "type": "numeric",
+        "answer": 1574.0,
+        "unit": "N",
+        "tolerance": 12.592,
+        "explanation": "Actual weight isρirongV."
+      }
+    ],
+    "reasoning": "The buoyant loss determines volume without needing anchor shape. Verification: Density ratio7.87 multiplies200N to1574N.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-34",
+    "parts": [
+      {
+        "label": "a · Salt-water displaced weight",
+        "type": "numeric",
+        "answer": 35600,
+        "unit": "N",
+        "tolerance": 284.8,
+        "explanation": "Floating requires displaced weight equal boat weight in any liquid."
+      },
+      {
+        "label": "b · Fresh minus salt displaced volume",
+        "type": "numeric",
+        "answer": 0.33024118738404457,
+        "unit": "m³",
+        "tolerance": 0.0026419294990723567,
+        "explanation": "Each displaced volume is weight/(ρg)."
+      }
+    ],
+    "reasoning": "Boat weight is unchanged; denser water needs less volume. Verification: The volume difference is positive, while displaced weights are equal.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-35",
+    "parts": [
+      {
+        "label": "Minimum whole number of logs",
+        "type": "numeric",
+        "answer": 5,
+        "unit": "logs",
+        "tolerance": 0.04,
+        "explanation": "Each fully immersed log supports net load(ρwater−ρwood)gπr²L; divide child weight and round upward."
+      }
+    ],
+    "reasoning": "Each fully immersed log supports net load(ρwater−ρwood)gπr²L; divide child weight and round upward. Verification: Four logs support too little; five provide enough capacity.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-36",
+    "parts": [
+      {
+        "label": "Liquid density",
+        "type": "numeric",
+        "answer": 1799.661663607242,
+        "unit": "kg/m³",
+        "tolerance": 14.397293308857936,
+        "explanation": "The graph falls from0.25N at h=0 to0.10N at h=1.50cm. Its slope magnitude isρgA."
+      }
+    ],
+    "reasoning": "The graph falls from0.25N at h=0 to0.10N at h=1.50cm. Its slope magnitude isρgA. Verification: Graph slope10N/m divided by gA gives approximately1800kg/m³.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Graph readings have finite precision; use the straight partial-immersion segment."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-37",
+    "parts": [
+      {
+        "label": "Inner diameter",
+        "type": "numeric",
+        "answer": 57.34275905894867,
+        "unit": "cm",
+        "tolerance": 0.4587420724715894,
+        "explanation": "At nearly full immersion,ρiron(Vouter−Vinner)=ρwaterVouter."
+      }
+    ],
+    "reasoning": "At nearly full immersion,ρiron(Vouter−Vinner)=ρwaterVouter. Verification: The inner diameter57.3cm is smaller than60cm and leaves the required iron volume.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-38",
+    "parts": [
+      {
+        "label": "a · Ball density",
+        "type": "numeric",
+        "answer": 1500,
+        "unit": "kg/m³",
+        "tolerance": 40,
+        "explanation": "The V-shaped graph has K=0 at density1.50g/cm³, the neutral-buoyancy point."
+      },
+      {
+        "label": "b · Ball volume",
+        "type": "numeric",
+        "answer": 0.0027210884353741495,
+        "unit": "m³",
+        "tolerance": 2.1768707482993196e-05,
+        "explanation": "Work-energy givesK=|ρball−ρliquid|Vg(0.040); use K=1.60J at zero liquid density."
+      }
+    ],
+    "reasoning": "The sign of acceleration changes at neutral buoyancy, but kinetic energy is nonnegative on both branches. Verification: Substitutingρliquid=3000kg/m³ gives the same1.60J, checking the other branch.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-39",
+    "parts": [
+      {
+        "label": "a · Sphere mass",
+        "type": "numeric",
+        "answer": 1.2214512237157116,
+        "unit": "kg",
+        "tolerance": 0.009771609789725693,
+        "explanation": "Floating half-submerged givesm=ρliquidVouter/2."
+      },
+      {
+        "label": "b · Shell-material density",
+        "type": "numeric",
+        "answer": 1343.778801843319,
+        "unit": "kg/m³",
+        "tolerance": 10.750230414746552,
+        "explanation": "Divide shell mass by outer-minus-inner volume."
+      }
+    ],
+    "reasoning": "External displacement uses outer volume; material density uses only the shell volume. Verification: Results agree with1.2kg and1.3×10³kg/m³ to printed precision.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-40",
+    "parts": [
+      {
+        "label": "Additional sinking distance",
+        "type": "numeric",
+        "answer": 0.006500000000000001,
+        "unit": "m",
+        "tolerance": 5.2000000000000004e-05,
+        "explanation": "Extra displaced water mass must equal1.30kg; ΔV=AheadΔh."
+      }
+    ],
+    "reasoning": "Extra displaced water mass must equal1.30kg; ΔV=AheadΔh. Verification: Δh=6.50mm; body displacement increase supplies the added stone weight.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Neglect change in external body volume from swallowed stones; the waterline crosses the stated head area."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-41",
+    "parts": [
+      {
+        "label": "a · Visible ocean fraction",
+        "type": "numeric",
+        "answer": 0.1044921875,
+        "unit": "",
+        "tolerance": 0.0008359375,
+        "explanation": "Visible fraction=1−ρice/ρsaltwater."
+      },
+      {
+        "label": "b · Visible river fraction",
+        "type": "numeric",
+        "answer": 0.08299999999999996,
+        "unit": "",
+        "tolerance": 0.0006639999999999998,
+        "explanation": "Use fresh-water density1000kg/m³."
+      }
+    ],
+    "reasoning": "Floating balances iceberg weight against submerged-water weight. Verification: More is visible in denser salt water, as expected.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-42",
+    "parts": [
+      {
+        "label": "Work done by buoyancy",
+        "type": "numeric",
+        "answer": 4116.0,
+        "unit": "J",
+        "tolerance": 32.928,
+        "explanation": "As the device rises by y, buoyancy isρgA(H−y). Final submerged height is0.4H, so rise is0.6H=0.30m; integrate force over rise."
+      }
+    ],
+    "reasoning": "As the device rises by y, buoyancy isρgA(H−y). Final submerged height is0.4H, so rise is0.6H=0.30m; integrate force over rise. Verification: The average buoyant force is the mean of its initial and final values, yielding4116J.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "The ascent is quasi-static as stated; do not use net-force work for buoyant-force work."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-43",
+    "parts": [
+      {
+        "label": "a · Model volume",
+        "type": "numeric",
+        "answer": 637.76,
+        "unit": "cm³",
+        "tolerance": 5.10208,
+        "explanation": "The removed mass equals displaced water mass;1g water occupies1cm³."
+      },
+      {
+        "label": "b · Actual dinosaur volume",
+        "type": "numeric",
+        "answer": 5.10208,
+        "unit": "m³",
+        "tolerance": 0.04081664,
+        "explanation": "Linear scaling20 gives cubic volume scaling8000."
+      },
+      {
+        "label": "c · Actual dinosaur mass",
+        "type": "numeric",
+        "answer": 5102.08,
+        "unit": "kg",
+        "tolerance": 40.81664,
+        "explanation": "At water density, multiply full-scale volume by1000kg/m³."
+      }
+    ],
+    "reasoning": "Buoyant weighing measures volume independently of plastic density. Verification: Volume5.10208m³ corresponds to5102.08kg.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-44",
+    "parts": [
+      {
+        "label": "a · Lead on top mass",
+        "type": "numeric",
+        "answer": 1.835,
+        "unit": "kg",
+        "tolerance": 0.01468,
+        "explanation": "Lead above water adds weight but no buoyancy: mwood+mlead=ρwater(0.9Vwood)."
+      },
+      {
+        "label": "b · Lead on bottom mass",
+        "type": "numeric",
+        "answer": 2.011442307692308,
+        "unit": "kg",
+        "tolerance": 0.016091538461538463,
+        "explanation": "Submerged lead also displaces water; solve mlead(1−ρwater/ρlead)=required net load."
+      }
+    ],
+    "reasoning": "Wood volume is3.67/600m³; immersion remains90 percent in both cases. Verification: The bottom-mounted lead mass must be larger because lead has its own upward buoyancy.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-45",
+    "parts": [
+      {
+        "label": "Total cavity volume",
+        "type": "numeric",
+        "answer": 0.12628685527578248,
+        "unit": "m³",
+        "tolerance": 0.00101029484220626,
+        "explanation": "Buoyancy gives external volume; weight divided by iron specific weight gives solid-iron volume. Subtract."
+      }
+    ],
+    "reasoning": "Buoyancy gives external volume; weight divided by iron specific weight gives solid-iron volume. Subtract. Verification: Both volumes are positive and external volume is greater; difference0.1263m³.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Cavities exclude water and air buoyancy is negligible."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-46",
+    "parts": [
+      {
+        "label": "Height above surface",
+        "type": "numeric",
+        "answer": 1.4,
+        "unit": "m",
+        "tolerance": 0.0112,
+        "explanation": "Submerged acceleration isg(ρwater/ρball−1). Energy gained over0.600m becomes airborne gravitational potential: h=a(0.600)/g."
+      }
+    ],
+    "reasoning": "Submerged acceleration isg(ρwater/ρball−1). Energy gained over0.600m becomes airborne gravitational potential: h=a(0.600)/g. Verification: The ball rises1.40m after emerging; neglect splash losses and finite emergence distance as instructed.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-47",
+    "parts": [
+      {
+        "label": "a · Initial volume below water",
+        "type": "numeric",
+        "answer": 1.8,
+        "unit": "m³",
+        "tolerance": 0.014400000000000001,
+        "explanation": "Before flooding, displaced-water mass equals1800kg."
+      },
+      {
+        "label": "b · Water volume inside at disappearance",
+        "type": "numeric",
+        "answer": 4.75,
+        "unit": "m³",
+        "tolerance": 0.038,
+        "explanation": "At full submergence, total displaced volume6.55m³ supports car mass plus internal water mass."
+      }
+    ],
+    "reasoning": "Use total sealed geometry for displacement and account separately for entering water. Verification: Flood volume4.75m³ leaves0.25m³ passenger-compartment air; engine/trunk remain excluded to water.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-48",
+    "parts": [
+      {
+        "label": "Iron-ball radius",
+        "type": "numeric",
+        "answer": 0.9716716390908573,
+        "unit": "cm",
+        "tolerance": 0.007773373112726858,
+        "explanation": "The cylinder has buoyant surplusρwaterA(0.04)−ρcylinderA(0.06). This supports the ball’s apparent mass(ρiron−ρwater)V."
+      }
+    ],
+    "reasoning": "The cylinder has buoyant surplusρwaterA(0.04)−ρcylinderA(0.06). This supports the ball’s apparent mass(ρiron−ρwater)V. Verification: Substitution balances the combined cylinder and ball weight against their combined buoyancy.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use iron density7870kg/m³; thread mass and volume are negligible."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-49",
+    "parts": [
+      {
+        "label": "a · Speed through section a",
+        "type": "numeric",
+        "answer": 2.9615384615384617,
+        "unit": "m/s",
+        "tolerance": 0.023692307692307693,
+        "explanation": "At the depressed section, both water depth and submerged barge height decrease by h: area isD(H−h)−d(b−h)."
+      },
+      {
+        "label": "b · Speed through section b",
+        "type": "numeric",
+        "answer": 2.817073170731707,
+        "unit": "m/s",
+        "tolerance": 0.022536585365853658,
+        "explanation": "Before the surface dip, area isDH−db."
+      }
+    ],
+    "reasoning": "Total incoming flow DHvi is conserved around the barge. Verification: Areas390m² and410m² times their respective speeds give1155m³/s. The anchored barge does not sink with the surface dip.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-50",
+    "parts": [
+      {
+        "label": "Average radius inside hill",
+        "type": "numeric",
+        "answer": 3.6000000000000005,
+        "unit": "cm",
+        "tolerance": 0.028800000000000006,
+        "explanation": "Travel time outside hill is60/2.5=24s; inside speed is50/(88.8−24). Continuity makes radius ratio the square root of inverse speed ratio."
+      }
+    ],
+    "reasoning": "Travel time outside hill is60/2.5=24s; inside speed is50/(88.8−24). Continuity makes radius ratio the square root of inverse speed ratio. Verification: Using the calculated radius gives total travel time88.8s.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "The hill section is represented by one uniform effective cross-sectional area."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-51",
+    "parts": [
+      {
+        "label": "Speed from sprinkler holes",
+        "type": "numeric",
+        "answer": 8.099358974358974,
+        "unit": "m/s",
+        "tolerance": 0.0647948717948718,
+        "explanation": "One hose area times speed equals24 hole areas times exit speed."
+      }
+    ],
+    "reasoning": "One hose area times speed equals24 hole areas times exit speed. Verification: The total hole area is smaller than hose area, so exit speed8.10m/s is larger.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-52",
+    "parts": [
+      {
+        "label": "River depth",
+        "type": "numeric",
+        "answer": 3.9638752052545154,
+        "unit": "m",
+        "tolerance": 0.03171100164203612,
+        "explanation": "Sum the volume flow rates of both streams and divide by river width times speed."
+      }
+    ],
+    "reasoning": "Sum the volume flow rates of both streams and divide by river width times speed. Verification: Discharge entering and leaving agrees, approximately120.7m³/s.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-53",
+    "parts": [
+      {
+        "label": "Minimum pump power",
+        "type": "numeric",
+        "answer": 65.81636609270618,
+        "unit": "W",
+        "tolerance": 0.5265309287416494,
+        "explanation": "Power equals mass flow times gained potential plus kinetic energy per mass."
+      }
+    ],
+    "reasoning": "Power equals mass flow times gained potential plus kinetic energy per mass. Verification: Both lifting and exit kinetic energy are needed; result65.8W.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Water initially nearly at rest; pump and hose ideal with no dissipation."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-54",
+    "parts": [
+      {
+        "label": "a · Main flow rate",
+        "type": "numeric",
+        "answer": 56,
+        "unit": "L/min",
+        "tolerance": 0.448,
+        "explanation": "Steady incompressible flow requires the inlet rate equal the three outlet rates."
+      },
+      {
+        "label": "b · Main-speed to 26L/min-branch speed",
+        "type": "numeric",
+        "answer": 1.0083102493074791,
+        "unit": "",
+        "tolerance": 0.008066481994459833,
+        "explanation": "Speed isQ/A; include diameter-squared area ratio."
+      }
+    ],
+    "reasoning": "Continuity applies to flow rates, not directly to speeds when areas differ. Verification: Ratio is near1.01, despite the main flow being more than twice the branch flow.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-55",
+    "parts": [
+      {
+        "label": "Net pressure work",
+        "type": "numeric",
+        "answer": 141855.0,
+        "unit": "J",
+        "tolerance": 1134.84,
+        "explanation": "Net pressure work isΔpΔV; the pipe diameter cancels."
+      }
+    ],
+    "reasoning": "Net pressure work isΔpΔV; the pipe diameter cancels. Verification: Pa·m³=J, giving1.42×10⁵J.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-56",
+    "parts": [
+      {
+        "label": "a · Density ratio ρ₁/ρ₂",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "",
+        "tolerance": 0.016,
+        "explanation": "Both holes have speed√(2gh); equal mass rate requiresρ1A1=ρ2A2."
+      },
+      {
+        "label": "b · Volume-flow ratio",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "",
+        "tolerance": 0.004,
+        "explanation": "Same speed means volume rate proportional to hole area."
+      },
+      {
+        "label": "c · Tank2 height above hole",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "cm",
+        "tolerance": 0.024,
+        "explanation": "Equal volume rates requireA1√h1=A2√h2; h2=h1/4."
+      }
+    ],
+    "reasoning": "Torricelli speed is independent of density; distinguish mass from volume flow. Verification: Area ratio1/2 and head ratio4 make equal flow rates in(c).",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-57",
+    "parts": [
+      {
+        "label": "a · Drainage volume rate",
+        "type": "numeric",
+        "answer": 0.0015761662348876783,
+        "unit": "m³/s",
+        "tolerance": 1.2609329879101426e-05,
+        "explanation": "UseQ=A√(2gD)."
+      },
+      {
+        "label": "b · Distance below bottom",
+        "type": "numeric",
+        "answer": 0.8999999999999999,
+        "unit": "m",
+        "tolerance": 0.0072,
+        "explanation": "Half area doubles speed; v²=v0²+2gy then gives y=3D."
+      }
+    ],
+    "reasoning": "The falling stream narrows because its speed increases while discharge stays constant. Verification: At y=0.90m, speed doubles and cross-section halves.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-58",
+    "parts": [
+      {
+        "label": "Outlet minus inlet pressure",
+        "type": "numeric",
+        "answer": 1718955.0,
+        "unit": "Pa",
+        "tolerance": 13751.64,
+        "explanation": "Bernoulli givespout−pin=ρgD+ρ(vin²−vout²)/2."
+      }
+    ],
+    "reasoning": "Bernoulli givespout−pin=ρgD+ρ(vin²−vout²)/2. Verification: Pressure rises on descending; kinetic acceleration consumes only part of the gravitational head.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-59",
+    "parts": [
+      {
+        "label": "a · Lower speed",
+        "type": "numeric",
+        "answer": 2.5,
+        "unit": "m/s",
+        "tolerance": 0.02,
+        "explanation": "Doubling pipe area halves speed by continuity."
+      },
+      {
+        "label": "b · Lower pressure",
+        "type": "numeric",
+        "answer": 257375.0,
+        "unit": "Pa",
+        "tolerance": 2059.0,
+        "explanation": "Bernoulli adds descending gravitational head and reduced kinetic head."
+      }
+    ],
+    "reasoning": "Both the descent and slowing increase pressure. Verification: Result2.574×10⁵Pa rounds to2.6×10⁵Pa.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-60",
+    "parts": [
+      {
+        "label": "a · Unconstricted speed",
+        "type": "numeric",
+        "answer": 2.4,
+        "unit": "m/s",
+        "tolerance": 0.0192,
+        "explanation": "Water flows through the annulus around the model; area ratio is1−(5/25)²."
+      },
+      {
+        "label": "b · Unconstricted minus constricted pressure",
+        "type": "numeric",
+        "answer": 245.0000000000001,
+        "unit": "Pa",
+        "tolerance": 1.9600000000000009,
+        "explanation": "Higher speed in the constriction means lower static pressure."
+      }
+    ],
+    "reasoning": "Subtract the model cross-sectional area from the pipe area. Verification: Annular and upstream discharges match; pressure difference245Pa has the expected sign.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-61",
+    "parts": [
+      {
+        "label": "a · Upstairs speed",
+        "type": "numeric",
+        "answer": 3.906250000000001,
+        "unit": "m/s",
+        "tolerance": 0.03125000000000001,
+        "explanation": "Continuity scales speed by squared diameter ratio."
+      },
+      {
+        "label": "b · Upstairs pressure",
+        "type": "numeric",
+        "answer": 88.29560546875,
+        "unit": "kPa",
+        "tolerance": 0.70636484375,
+        "explanation": "Both increased speed and elevation reduce pressure."
+      }
+    ],
+    "reasoning": "Apply Bernoulli between inlet and upstairs pipe, with consistent SI areas. Verification: Speed3.906m/s and pressure88.295kPa agree with rounded keys.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-62",
+    "parts": [
+      {
+        "label": "a · Pitot speed relationship",
+        "type": "choice",
+        "answer": "v = √(2ρgh/ρair)",
+        "options": [
+          "v = √(2ρgh/ρair)",
+          "v = √(ρgh/ρair)",
+          "v = √(2ρair gh/ρ)"
+        ],
+        "explanation": "Stagnation pressure riseρairv²/2 balances manometer pressureρgh."
+      },
+      {
+        "label": "b · Airspeed",
+        "type": "numeric",
+        "answer": 63.3050865300927,
+        "unit": "m/s",
+        "tolerance": 0.5064406922407416,
+        "explanation": "Insert alcohol density810kg/m³ and air density1.03kg/m³."
+      }
+    ],
+    "reasoning": "The front opening measures stagnation pressure, side holes measure static pressure. Verification: Dynamic pressure computed from the result equals2063.88Pa.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Neglect air density relative to manometer-liquid density, as in the specified formula."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-63",
+    "parts": [
+      {
+        "label": "Aircraft airspeed",
+        "type": "numeric",
+        "answer": 107.76318121606494,
+        "unit": "m/s",
+        "tolerance": 0.8621054497285195,
+        "explanation": "Dynamic pressureΔp=ρairv²/2."
+      }
+    ],
+    "reasoning": "Dynamic pressureΔp=ρairv²/2. Verification: Substitution returns180Pa; result107.8m/s.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-64",
+    "parts": [
+      {
+        "label": "a · Volume in10minutes",
+        "type": "numeric",
+        "answer": 6.361725123519331,
+        "unit": "m³",
+        "tolerance": 0.050893800988154644,
+        "explanation": "Use exit area, exit speed, and elapsed600s."
+      },
+      {
+        "label": "b · Left-section speed",
+        "type": "numeric",
+        "answer": 5.3999999999999995,
+        "unit": "m/s",
+        "tolerance": 0.043199999999999995,
+        "explanation": "Continuity: v2A2=v1A1."
+      },
+      {
+        "label": "c · Left gauge pressure",
+        "type": "numeric",
+        "answer": 97920.0,
+        "unit": "Pa",
+        "tolerance": 783.36,
+        "explanation": "Exit gauge pressure is zero; Bernoulli gives the upstream pressure excess."
+      }
+    ],
+    "reasoning": "The large section has lower speed and higher static pressure. Verification: Both sections carry0.010603m³/s; left pressure97.92kPa.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-65",
+    "parts": [
+      {
+        "label": "a · Venturi relationship",
+        "type": "choice",
+        "answer": "V = √(2a² Δp/[ρ(a²−A²)])",
+        "options": [
+          "V = √(2a² Δp/[ρ(a²−A²)])",
+          "V = √(2A² Δp/[ρ(a²−A²)])",
+          "V = √(2a² Δp/[ρ(A²−a²)])"
+        ],
+        "explanation": "Usev=AV/a inΔp=ρ(V²−v²)/2; bothΔp and a²−A² are negative."
+      },
+      {
+        "label": "b · Volume flow rate",
+        "type": "numeric",
+        "answer": 0.01955232296514492,
+        "unit": "m³/s",
+        "tolerance": 0.00015641858372115935,
+        "explanation": "Throat area ishalf inlet area, so throat speed is2V; pressure drop14000Pa=3ρV²/2."
+      }
+    ],
+    "reasoning": "Eliminate throat speed using continuity before solving Bernoulli. Verification: ComputedQ gives the stated14kPa pressure decrease; radicand is positive.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-66",
+    "parts": [
+      {
+        "label": "a · Large-section speed",
+        "type": "numeric",
+        "answer": 4.109440351191388,
+        "unit": "m/s",
+        "tolerance": 0.032875522809531106,
+        "explanation": "A=5a implies throat speed5V; p1−p2=ρ(25−1)V²/2."
+      },
+      {
+        "label": "b · Throat speed",
+        "type": "numeric",
+        "answer": 20.54720175595694,
+        "unit": "m/s",
+        "tolerance": 0.16437761404765552,
+        "explanation": "Use continuity."
+      },
+      {
+        "label": "c · Volume flow rate",
+        "type": "numeric",
+        "answer": 0.008068867261042703,
+        "unit": "m³/s",
+        "tolerance": 6.455093808834162e-05,
+        "explanation": "Use large-section areaπ(0.05)²/4."
+      }
+    ],
+    "reasoning": "The zero-throat-pressure limit refers to absolute pressure. Verification: Kinetic pressure rise equals2atm; real cavitation starts above absolute zero at vapor pressure.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal incompressible fresh water; this is the formal zero-pressure limit requested."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-67",
+    "parts": [
+      {
+        "label": "a · Friction holding plug",
+        "type": "numeric",
+        "answer": 73.89025921243193,
+        "unit": "N",
+        "tolerance": 0.5911220736994555,
+        "explanation": "Gauge pressure at plug depth6m times plug area balances friction."
+      },
+      {
+        "label": "b · Volume in3hours",
+        "type": "numeric",
+        "answer": 147.17609659373045,
+        "unit": "m³",
+        "tolerance": 1.1774087727498437,
+        "explanation": "Torricelli exit speed uses depthd, not full dam depthD."
+      }
+    ],
+    "reasoning": "The relevant head is6.0m above the pipe. Verification: Plug force73.89N and volume147.18m³ match printed rounding.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Reservoir level is effectively unchanged during three hours."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-68",
+    "parts": [
+      {
+        "label": "a · Area A₂",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "m²",
+        "tolerance": 0.002,
+        "explanation": "The graph crossesΔp=0 at A1⁻²=16m⁻⁴; thereforeA2⁻²=16."
+      },
+      {
+        "label": "b · Volume flow rate",
+        "type": "numeric",
+        "answer": 6.123724356957945,
+        "unit": "m³/s",
+        "tolerance": 0.048989794855663564,
+        "explanation": "Bernoulli:Δp=(ρQ²/2)(A1⁻²−A2⁻²). Graph slope is600000/32."
+      }
+    ],
+    "reasoning": "Read the linear graph endpoints−300kPa at0 and+300kPa at32m⁻⁴. Verification: UsingQ²=37.5 reproduces both endpoints and the zero crossing.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-69",
+    "parts": [
+      {
+        "label": "a · Volume flow rate",
+        "type": "numeric",
+        "answer": 0.07756717518813397,
+        "unit": "m³/s",
+        "tolerance": 0.0006205374015050718,
+        "explanation": "Δp=ρQ²(1/AA²−1/AB²)/2; pressure is higher in widerB."
+      },
+      {
+        "label": "b · Mass flow rate",
+        "type": "numeric",
+        "answer": 69.81045766932057,
+        "unit": "kg/s",
+        "tolerance": 0.5584836613545646,
+        "explanation": "Mass flow isρQ."
+      }
+    ],
+    "reasoning": "The given positive pressure-difference magnitude corresponds to pB−pA. Verification: Q≈0.07757m³/s and mass rate69.81kg/s; Bernoulli substitution gives7200Pa.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-70",
+    "parts": [
+      {
+        "label": "Net work on0.400m³",
+        "type": "numeric",
+        "answer": -2.507716049382716,
+        "unit": "J",
+        "tolerance": 0.020061728395061727,
+        "explanation": "Continuity gives left speed0.5/4 and right speed0.5/9. Net work equals change in kinetic energy of400kg."
+      }
+    ],
+    "reasoning": "Continuity gives left speed0.5/4 and right speed0.5/9. Net work equals change in kinetic energy of400kg. Verification: Negative work is correct because the water slows; result−2.508J.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-71",
+    "parts": [
+      {
+        "label": "a · Horizontal landing distance",
+        "type": "numeric",
+        "answer": 34.64101615137755,
+        "unit": "cm",
+        "tolerance": 0.2771281292110204,
+        "explanation": "Exit speed√(2gh), fall time√[2(H−h)/g], so x=2√[h(H−h)]."
+      },
+      {
+        "label": "b · Second-hole depth",
+        "type": "numeric",
+        "answer": 30,
+        "unit": "cm",
+        "tolerance": 0.24,
+        "explanation": "The range expression is unchanged whenh becomesH−h."
+      },
+      {
+        "label": "c · Depth for maximum range",
+        "type": "numeric",
+        "answer": 20,
+        "unit": "cm",
+        "tolerance": 0.16,
+        "explanation": "The producth(H−h) is maximized atH/2."
+      }
+    ],
+    "reasoning": "Combine Torricelli discharge with horizontal projectile motion. Verification: The two equal-range depths sum to40cm; maximum range occurs at their midpoint.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-72",
+    "parts": [
+      {
+        "label": "Rainfall rate at flooding threshold",
+        "type": "numeric",
+        "answer": 7.837245502911358,
+        "unit": "cm/h",
+        "tolerance": 0.06269796402329086,
+        "explanation": "At the threshold pM−patm=ρgh2. Bernoulli from roof givesvM=√[2g(h1−h2)]. Divide pipe discharge by horizontal roof area."
+      }
+    ],
+    "reasoning": "At the threshold pM−patm=ρgh2. Bernoulli from roof givesvM=√[2g(h1−h2)]. Divide pipe discharge by horizontal roof area. Verification: The roof catchment is1800m², independent of roof slope; threshold≈7.84cm/h.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-73",
+    "parts": [
+      {
+        "label": "Dead-Sea water density",
+        "type": "numeric",
+        "answer": 1.47,
+        "unit": "g/cm³",
+        "tolerance": 0.01176,
+        "explanation": "Two thirds submerged meansρbody=(2/3)ρwater."
+      },
+      {
+        "label": "Why density exceeds ordinary water",
+        "type": "choice",
+        "answer": "Large dissolved-salt content increases mass per volume",
+        "options": [
+          "Large dissolved-salt content increases mass per volume",
+          "Gravity is much larger at the Dead Sea",
+          "Floating people compress water to this density"
+        ],
+        "explanation": "The buoyancy inference is consistent with highly saline water."
+      }
+    ],
+    "reasoning": "Floating balances body mass and displaced-water mass. Verification: Calculated1.47g/cm³ rounds to1.5g/cm³.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-74",
+    "parts": [
+      {
+        "label": "Mercury rise in left arm",
+        "type": "numeric",
+        "answer": 0.4117647058823529,
+        "unit": "cm",
+        "tolerance": 0.0032941176470588232,
+        "explanation": "Water head balances mercury-level difference2x:ρwater(11.2)=ρHg(2x)."
+      }
+    ],
+    "reasoning": "Water head balances mercury-level difference2x:ρwater(11.2)=ρHg(2x). Verification: Equal arms move in opposite directions by equal amounts, giving0.412cm rise.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-75",
+    "parts": [
+      {
+        "label": "Bubble mass",
+        "type": "numeric",
+        "answer": 5.118471821310054e-07,
+        "unit": "kg",
+        "tolerance": 4.094777457048043e-09,
+        "explanation": "Buoyancy minus weight equalsma; solve m=ρwaterVg/(g+a)."
+      }
+    ],
+    "reasoning": "Buoyancy minus weight equalsma; solve m=ρwaterVg/(g+a). Verification: Substitution yields upward net force0.225m; result5.118×10⁻⁷kg.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect drag and effective added-fluid inertia, as required by the idealized problem."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-76",
+    "parts": [
+      {
+        "label": "a · Fraction above water",
+        "type": "numeric",
+        "answer": 0.050000000000000044,
+        "unit": "",
+        "tolerance": 0.00040000000000000034,
+        "explanation": "Floating fraction submerged isρbody/ρfluid."
+      },
+      {
+        "label": "b · Fraction above quicksand",
+        "type": "numeric",
+        "answer": 0.4062500000000001,
+        "unit": "",
+        "tolerance": 0.003250000000000001,
+        "explanation": "Use quicksand density1.6ρwater."
+      },
+      {
+        "label": "c · Does buoyancy alone force you unable to breathe?",
+        "type": "choice",
+        "answer": "No; about41 percent remains above quicksand in this ideal model",
+        "options": [
+          "No; about41 percent remains above quicksand in this ideal model",
+          "Yes; the entire body must sink",
+          "Yes; the buoyant force is zero"
+        ],
+        "explanation": "The model predicts substantial exposed volume, not inevitable complete submersion."
+      }
+    ],
+    "reasoning": "Apply the same flotation balance with each fluid density. Verification: The denser quicksand increases exposed volume; this conclusion is limited to the stated ideal model.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-77",
+    "parts": [
+      {
+        "label": "Glass-ball mass",
+        "type": "numeric",
+        "answer": 44.18910067519497,
+        "unit": "g",
+        "tolerance": 0.35351280540155977,
+        "explanation": "At restN+buoyancy=mg, so m=N/g+ρmilkV."
+      }
+    ],
+    "reasoning": "At restN+buoyancy=mg, so m=N/g+ρmilkV. Verification: The normal force adds9.673g to displaced milk mass34.516g, giving44.19g.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-78",
+    "parts": [
+      {
+        "label": "Percentage of weight offset",
+        "type": "numeric",
+        "answer": 9.411764705882353,
+        "unit": "%",
+        "tolerance": 0.07529411764705883,
+        "explanation": "Fully submerged buoyancy-to-weight ratio isρsnow/ρskier."
+      }
+    ],
+    "reasoning": "Fully submerged buoyancy-to-weight ratio isρsnow/ρskier. Verification: Volume andg cancel; approximately9.41percent.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-79",
+    "parts": [
+      {
+        "label": "Unknown liquid density",
+        "type": "numeric",
+        "answer": 600.0,
+        "unit": "kg/m³",
+        "tolerance": 4.8,
+        "explanation": "Buoyant losses are6N and10N; same object volume makes their ratio the density ratio."
+      }
+    ],
+    "reasoning": "Buoyant losses are6N and10N; same object volume makes their ratio the density ratio. Verification: Density600kg/m³ is below water density, matching smaller buoyant loss.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-80",
+    "parts": [
+      {
+        "label": "a · Relative density A",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "",
+        "tolerance": 0.016,
+        "explanation": "Half the block height is submerged, so fluid density is2ρblock."
+      },
+      {
+        "label": "b · Relative density B",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "",
+        "tolerance": 0.024,
+        "explanation": "One third is submerged, so density ratio3."
+      },
+      {
+        "label": "c · Relative density C",
+        "type": "numeric",
+        "answer": 1.3333333333333333,
+        "unit": "",
+        "tolerance": 0.010666666666666666,
+        "explanation": "Three quarters submerged gives density ratio4/3."
+      }
+    ],
+    "reasoning": "The block is neutrally buoyant in water, so its density equals water density. Verification: Each fluid-density ratio times its submerged fraction equals1.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-81",
+    "parts": [
+      {
+        "label": "Water overflow volume",
+        "type": "numeric",
+        "answer": 45.23893421169302,
+        "unit": "cm³",
+        "tolerance": 0.36191147369354415,
+        "explanation": "An8cm oil column depresses the water interface by0.8×8=6.4cm while the right surface remains at the overflow rim."
+      }
+    ],
+    "reasoning": "An8cm oil column depresses the water interface by0.8×8=6.4cm while the right surface remains at the overflow rim. Verification: Tube cross-section times6.4cm gives45.24cm³; no extra factor2 because the right surface is fixed.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-82",
+    "parts": [
+      {
+        "label": "Balloon upward acceleration",
+        "type": "numeric",
+        "answer": 3.8220000000000005,
+        "unit": "m/s²",
+        "tolerance": 0.030576000000000006,
+        "explanation": "Outside buoyancy isρoutVg and accelerated mass isρinV; a=g(ρout/ρin−1)."
+      }
+    ],
+    "reasoning": "Outside buoyancy isρoutVg and accelerated mass isρinV; a=g(ρout/ρin−1). Verification: The stated density ratio1.39 gives0.39g, positive upward.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-83",
+    "parts": [
+      {
+        "label": "a · Outlet speed",
+        "type": "numeric",
+        "answer": 3.1924911902775865,
+        "unit": "m/s",
+        "tolerance": 0.025539929522220693,
+        "explanation": "The outlet isd+h2=0.52m below reservoir surface."
+      },
+      {
+        "label": "b · Absolute pressure at B",
+        "type": "numeric",
+        "answer": 92454.0,
+        "unit": "Pa",
+        "tolerance": 739.6320000000001,
+        "explanation": "Bernoulli givespB=p0−ρg[h1+(d+h2)]."
+      },
+      {
+        "label": "c · Limiting lift height as flow approaches zero",
+        "type": "numeric",
+        "answer": 10.204081632653061,
+        "unit": "m",
+        "tolerance": 0.11,
+        "explanation": "A static liquid column cannot have a negative top absolute pressure; hmax=p0/(ρg).",
+        "acceptedValues": [
+          10.3
+        ]
+      }
+    ],
+    "reasoning": "The drawing measuresh2 fromA toC, so the outlet head isd+h2. Verification: The speed gives kinetic head0.52m. At that fixed discharge, actual h1 limit is9.684m; the absolute theoretical zero-flow upper bound is10.204m.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect vapor pressure for the theoretical limit; actual siphons cavitate sooner.",
+      "Part(c) asks the greatest possible lift, interpreted as the zero-flow upper bound."
+    ],
+    "scope": "Part(c) is the theoretical upper bound over arbitrarily slow flow. Keeping the current outlet head fixed lowers the maximum to9.684m; practical vapor pressure lowers it further."
+  },
+  {
+    "id": "physics-chapter-14-problems-84",
+    "parts": [
+      {
+        "label": "a · Normal-trachea speed divided by sound speed",
+        "type": "numeric",
+        "answer": 0.1325738801265267,
+        "unit": "",
+        "tolerance": 0.0010605910410122136,
+        "explanation": "Usev=Q/A and divide by343m/s."
+      },
+      {
+        "label": "b · Contracted-trachea speed divided by sound speed",
+        "type": "numeric",
+        "answer": 0.9609645157100313,
+        "unit": "",
+        "tolerance": 0.007687716125680251,
+        "explanation": "The smaller diameter increases the speed by the inverse square of diameter."
+      }
+    ],
+    "reasoning": "Use the stated volume rate in each cross-section. Verification: The two speed ratios scale as(14/5.2)²; near-sonic results indicate ideal-flow limitations.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Treat the given volume rate as the local volume rate; no compressible-flow model is specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-85",
+    "parts": [
+      {
+        "label": "Maximum lead-shot mass",
+        "type": "numeric",
+        "answer": 1070,
+        "unit": "g",
+        "tolerance": 8.56,
+        "explanation": "Maximum displaced-water mass is1200g; subtract empty can mass130g."
+      }
+    ],
+    "reasoning": "Maximum displaced-water mass is1200g; subtract empty can mass130g. Verification: Lead occupies only1070/11.4≈93.9cm³, so its volume fits inside the can; buoyancy limits loading.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-86",
+    "parts": [
+      {
+        "label": "Tension divided by resting tension",
+        "type": "numeric",
+        "answer": 1.25,
+        "unit": "",
+        "tolerance": 0.01,
+        "explanation": "In the accelerating container effective gravity isg+a=1.25g. Both weight and buoyancy scale by this factor."
+      }
+    ],
+    "reasoning": "In the accelerating container effective gravity isg+a=1.25g. Both weight and buoyancy scale by this factor. Verification: T=(ρliquid−ρblock)V(g+a), so T/T0=1.25.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-87",
+    "parts": [
+      {
+        "label": "Minimum slab area",
+        "type": "numeric",
+        "answer": 26.25906329610033,
+        "unit": "m²",
+        "tolerance": 0.21007250636880265,
+        "explanation": "At maximum load the ice top reaches water level: (ρwater−ρice)A thickness = car mass."
+      }
+    ],
+    "reasoning": "At maximum load the ice top reaches water level: (ρwater−ρice)A thickness = car mass. Verification: Area26.259m² yields the required938kg buoyancy surplus.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-88",
+    "parts": [
+      {
+        "label": "a · Gauge pressure",
+        "type": "numeric",
+        "answer": 22299900.0,
+        "unit": "Pa",
+        "tolerance": 178399.2,
+        "explanation": "ρgh at sphere-center depth."
+      },
+      {
+        "label": "b · Total pressure",
+        "type": "numeric",
+        "answer": 22400900.0,
+        "unit": "Pa",
+        "tolerance": 179207.2,
+        "explanation": "Add atmospheric pressure1.01×10⁵Pa."
+      },
+      {
+        "label": "c · Sum of inward pressure-force magnitudes",
+        "type": "numeric",
+        "answer": 1089070.7667930832,
+        "unit": "N",
+        "tolerance": 8712.566134344666,
+        "explanation": "For a small sphere at nearly uniform depth, use total pressure times surface area4πr²."
+      },
+      {
+        "label": "d · Buoyant force magnitude",
+        "type": "numeric",
+        "answer": 10.125342077350338,
+        "unit": "N",
+        "tolerance": 0.0810027366188027,
+        "explanation": "Integrating pressure vectors givesρgV upward."
+      },
+      {
+        "label": "e · Acceleration magnitude",
+        "type": "numeric",
+        "answer": 8.622634642168565,
+        "unit": "m/s²",
+        "tolerance": 0.06898107713734852,
+        "explanation": "Weight exceeds buoyancy; acceleration is downward."
+      }
+    ],
+    "reasoning": "Distinguish the sum of compressive force magnitudes from their vector sum, which is buoyancy. Verification: The huge inward pressure force does not imply huge net acceleration; vector cancellation leaves about7.6m/s² downward.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Treat pressure as uniform for the compressive magnitude because sphere size is negligible relative to depth; retain gradient for buoyancy."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-problems-89",
+    "parts": [
+      {
+        "label": "a · Weight of overlying seawater",
+        "type": "numeric",
+        "answer": 5662734000.0,
+        "unit": "N",
+        "tolerance": 45301872.0,
+        "explanation": "Column mass isρAh; multiply byg."
+      },
+      {
+        "label": "b · Water-column gauge pressure",
+        "type": "numeric",
+        "answer": 25.403108808290156,
+        "unit": "atm",
+        "tolerance": 0.20322487046632126,
+        "explanation": "The pressure from the water alone isρgh."
+      },
+      {
+        "label": "b · Absolute pressure experienced",
+        "type": "numeric",
+        "answer": 26.403108808290156,
+        "unit": "atm",
+        "tolerance": 0.21122487046632124,
+        "explanation": "Add the atmospheric contribution at the surface."
+      }
+    ],
+    "reasoning": "The term water pressure is sometimes used for hydrostatic gauge pressure; both conventions are explicitly labeled. Verification: Gauge pressure≈25.4atm matches the source key; actual total pressure is≈26.4atm.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Use g=9.80 m/s²; fresh-water density is 1000 kg/m³ unless stated otherwise."
+    ],
+    "scope": "Both gauge water pressure and total absolute pressure are checked separately to avoid conflating them."
+  },
+  {
+    "id": "physics-chapter-14-problems-90",
+    "parts": [
+      {
+        "label": "Minimum pump pressure difference",
+        "type": "numeric",
+        "answer": 43414.0,
+        "unit": "Pa",
+        "tolerance": 347.312,
+        "explanation": "The sewer is4.43m above the outlet; minimum pressure head isρgΔh."
+      }
+    ],
+    "reasoning": "The sewer is4.43m above the outlet; minimum pressure head isρgΔh. Verification: Positive pressure increase43414Pa is required; losses would increase the needed pressure.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Static minimum; ignore pipe friction and kinetic energy changes."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-1",
+    "parts": [
+      {
+        "label": "a · Motion in first fluid",
+        "type": "choice",
+        "answer": "Downward",
+        "options": [
+          "Downward",
+          "Upward",
+          "Remains in place"
+        ],
+        "explanation": "Weight3g exceeds displaced-fluid weight2g."
+      },
+      {
+        "label": "b · Motion in less dense fluid",
+        "type": "choice",
+        "answer": "Downward",
+        "options": [
+          "Downward",
+          "Upward",
+          "Remains in place"
+        ],
+        "explanation": "Lower fluid density further reduces buoyancy."
+      }
+    ],
+    "reasoning": "Compare actual and displaced masses. Verification: The net downward force is already positive before reducing fluid density.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-2",
+    "parts": [
+      {
+        "label": "a · Impossible arrangement",
+        "type": "choice",
+        "answer": "2",
+        "options": [
+          "2",
+          "1",
+          "4"
+        ],
+        "explanation": "Arrangement2 has positive red head but zero gray head above the same interface level."
+      },
+      {
+        "label": "b · Red density in arrangement1",
+        "type": "choice",
+        "answer": "Less than gray density",
+        "options": [
+          "Less than gray density",
+          "Equal to gray density",
+          "Greater than gray density"
+        ],
+        "explanation": "Red column is taller than the corresponding gray head."
+      },
+      {
+        "label": "b · Red density in arrangement3",
+        "type": "choice",
+        "answer": "Equal to gray density",
+        "options": [
+          "Equal to gray density",
+          "Greater than gray density",
+          "Less than gray density"
+        ],
+        "explanation": "Equal column heights give equal densities."
+      },
+      {
+        "label": "b · Red density in arrangement4",
+        "type": "choice",
+        "answer": "Greater than gray density",
+        "options": [
+          "Greater than gray density",
+          "Less than gray density",
+          "Equal to gray density"
+        ],
+        "explanation": "Gray head is taller than red head, so red must be denser."
+      }
+    ],
+    "reasoning": "At the common interface level,ρredhred=ρgrayhgray. Verification: All three possible configurations satisfy this pressure balance with positive density.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-3",
+    "parts": [
+      {
+        "label": "a · Anchor dropped into pool",
+        "type": "choice",
+        "answer": "Water level decreases",
+        "options": [
+          "Water level decreases",
+          "Water level increases",
+          "Water level is unchanged"
+        ],
+        "explanation": "On board the anchor displaces water of its mass; submerged dense anchor displaces only its volume."
+      },
+      {
+        "label": "b · Anchor moved onto ground",
+        "type": "choice",
+        "answer": "Water level decreases",
+        "options": [
+          "Water level decreases",
+          "Water level increases",
+          "Water level is unchanged"
+        ],
+        "explanation": "Removing anchor weight reduces boat displacement with no replacement displacement in pool."
+      },
+      {
+        "label": "c · Floating cork moved into pool",
+        "type": "choice",
+        "answer": "Water level is unchanged",
+        "options": [
+          "Water level is unchanged",
+          "Water level increases",
+          "Water level decreases"
+        ],
+        "explanation": "Floating cork displaces its own weight whether separately floating or supported by boat."
+      }
+    ],
+    "reasoning": "Compare total displaced-water volume before and after each transfer. Verification: The dense anchor has mass greater than the mass of equal-volume water; the floating cork always displaces equal mass.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-4",
+    "parts": [
+      {
+        "label": "Force ranking",
+        "type": "choice",
+        "answer": "e > b = d > a = c",
+        "options": [
+          "e > b = d > a = c",
+          "a = c > b = d > e",
+          "e > d > c > b > a"
+        ],
+        "explanation": "For equal areas, pressure-force magnitude depends only on depth, including upward ceiling forces."
+      }
+    ],
+    "reasoning": "Diagram levels areL for a,c;2L for b,d;3L for e. Verification: Ceiling versus floor orientation reverses direction but not pressure magnitude at equal depth.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-5",
+    "parts": [
+      {
+        "label": "Gauge-pressure ranking",
+        "type": "choice",
+        "answer": "b > a = d > c",
+        "options": [
+          "b > a = d > c",
+          "a > b > c > d",
+          "a = b = c = d"
+        ],
+        "explanation": "Free surfaces a andd have zero gauge pressure; b is below the upper free surface, while c lies above the lower one."
+      }
+    ],
+    "reasoning": "Inside the upper layer pressure rises downward; in the hanging layer pressure falls upward from the exposed underside. Verification: Atmospheric pressure can support the layer because its upper-side pressure is negative gauge.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-6",
+    "parts": [
+      {
+        "label": "Weight ranking",
+        "type": "choice",
+        "answer": "a = b = c",
+        "options": [
+          "a = b = c",
+          "c > b > a",
+          "a > b > c"
+        ],
+        "explanation": "Each floating duck replaces exactly its weight of water in a brim-full container."
+      }
+    ],
+    "reasoning": "Container-plus-contents weight stays unchanged when a floating object spills displaced water. Verification: Duck weight minus spilled-water weight is zero for either duck.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-7",
+    "parts": [
+      {
+        "label": "a · Zero net work",
+        "type": "choice",
+        "answer": "1 and 4",
+        "options": [
+          "1 and 4",
+          "2 and 3",
+          "1 and 2"
+        ],
+        "explanation": "Equal inlet and outlet radii give equal speeds and kinetic energies."
+      },
+      {
+        "label": "b · Positive net work",
+        "type": "choice",
+        "answer": "2",
+        "options": [
+          "2",
+          "3",
+          "4"
+        ],
+        "explanation": "Arrangement2 narrows overall, increasing speed."
+      },
+      {
+        "label": "c · Negative net work",
+        "type": "choice",
+        "answer": "3",
+        "options": [
+          "3",
+          "2",
+          "1"
+        ],
+        "explanation": "Arrangement3 widens overall, reducing speed."
+      }
+    ],
+    "reasoning": "Net work on each unit volume equals change in its kinetic energy; only endpoint areas matter. Verification: The middle constriction does not alter the endpoint energy comparison.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-8",
+    "parts": [
+      {
+        "label": "Weight-per-volume ranking",
+        "type": "choice",
+        "answer": "c > b > a",
+        "options": [
+          "c > b > a",
+          "a > b > c",
+          "a = b = c"
+        ],
+        "explanation": "Slope magnitude of apparent weight versus immersion depth isρgA."
+      }
+    ],
+    "reasoning": "Same block area makes steeper negative slope correspond to larger specific weight. Verification: The plotted c line is steepest, then b, then a.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-9",
+    "parts": [
+      {
+        "label": "Pipe-radius ranking",
+        "type": "choice",
+        "answer": "B > C > A",
+        "options": [
+          "B > C > A",
+          "A > C > B",
+          "A = B = C"
+        ],
+        "explanation": "For fixed flow rate, speed is inversely proportional to area, so lowest kinetic energy means largest radius."
+      }
+    ],
+    "reasoning": "The graph hasKA>KC>KB. Radius ranks in the opposite order. Verification: K scales asr⁻⁴ for a fixed water-element mass and discharge.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  },
+  {
+    "id": "physics-chapter-14-questions-10",
+    "parts": [
+      {
+        "label": "Buoyant-force ranking",
+        "type": "choice",
+        "answer": "a > b > c",
+        "options": [
+          "a > b > c",
+          "c > b > a",
+          "a = b = c"
+        ],
+        "explanation": "Pressure-depth slope isρg and buoyancy isρgV for the same rigid bead."
+      }
+    ],
+    "reasoning": "Use each plot’s slope rather than any one plotted pressure. Verification: The bead volume is fixed, so the buoyancy ranking is exactly the slope ranking.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the static or ideal-flow conditions stated in the source question."
+    ]
+  }
+]
