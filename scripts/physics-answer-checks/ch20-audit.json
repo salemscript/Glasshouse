@@ -1,0 +1,30 @@
+{
+  "chapter":20,
+  "exerciseCount":89,
+  "problemCount":79,
+  "conceptualQuestionCount":10,
+  "answerFieldCount":266,
+  "sourceVisuallyReviewedPages":[21,22,23,24,25,26],
+  "source":"site/books/physics/chapter-20.pdf",
+  "derivationScript":"ch20-author.py",
+  "verification":"All requested results were independently derived from textbook givens and graph geometry; each record includes a specific verification note. Exact source ID set, finite numerical values, tolerances below each nonzero value, and unique choice options are asserted by the author script.",
+  "legacyComparison":{"numericFieldsWithUniquePartMapping":119,"substantiveUnresolvedDisagreements":0,"notes":"Units were converted before comparison. All results agree at source rounding; the largest relative printed-rounding discrepancy is P71(f): exact0.1362479 versus printed0.14, which is its correct two-significant-figure rounding. Multipart fields with duplicated clarifying part labels were reviewed separately."},
+  "reviewedConventions":[
+    {"id":"physics-chapter-20-problems-37","resolution":"Section20-3 defines refrigerator K=QL/W even when the device is called a heat pump. Thus QH=(K+1)W and Wdot=7.54e6/(4.8*3600)=436.3426W. The heating COP would be4.8, not3.8."},
+    {"id":"physics-chapter-20-problems-65","resolution":"Printed part(a) key25.5kJ is total positive heat input, although source wording says net heat. Both total positive input and signed net heat (equal to net cycle work) are checked and visibly distinguished."},
+    {"id":"physics-chapter-20-problems-52","resolution":"Net heat equals net work; total positive heat input is separately labeled to avoid conflating these quantities in the efficiency denominator."},
+    {"id":"physics-chapter-20-questions-3","resolution":"No reversibility is explicitly stated. Check conditional zero entropy change for reversible adiabatic compression and positive entropy generation for irreversible insulated compression."},
+    {"id":"physics-chapter-20-questions-7","resolution":"Total entropy means working fluid plus reservoirs: Carnot0, realpositive, hypotheticalperfectnegative. The working fluid alone returns to its initial entropy every cycle."},
+    {"id":"physics-chapter-20-questions-10","resolution":"Same total-system convention asQ7, applied to refrigerators."}
+  ],
+  "diagramReadings":[
+    {"id":"physics-chapter-20-problems-10","reading":"At380K entropy increase50J/K, not the upper60J/K axis scale."},
+    {"id":"physics-chapter-20-problems-12","reading":"Zero entropy atVi0.4m³, and64J/K atVf4.0m³."},
+    {"id":"physics-chapter-20-problems-18","reading":"StartS5J/K,T400K; finishS20J/K,T200K. T-S area4500J."},
+    {"id":"physics-chapter-20-problems-32","reading":"QH6kJ atTH300K establishes fixed cyclework1kJ."},
+    {"id":"physics-chapter-20-problems-62","reading":"T-S triangle1(6,350),2(8,350),3(8,300), with entropy inJ/K and temperatureK; signed area50J."},
+    {"id":"physics-chapter-20-problems-76","reading":"T-S rectangle400K/250K and entropy0.10/0.60J/K; area75J."}
+  ],
+  "sourcePartScan":"P61(a,b) label the coupled-device diagrams, Q8(a,b,c) label engine examples, and P51(v) is a function argument; all requested quantities are checked.",
+  "scope":"Answer checks assess requested quantities and finite conclusions, not a student's freehand proof or table layout. Problem45 checks every multiplicity and entropy entry of the eight-molecule table."
+}

@@ -1,0 +1,3396 @@
+[
+  {
+    "id": "physics-chapter-20-problems-1",
+    "parts": [
+      {
+        "label": "a · Work done by gas",
+        "type": "numeric",
+        "answer": 9220.521054680616,
+        "unit": "J",
+        "tolerance": 92.20521054680616,
+        "explanation": "W=nRT ln(Vf/Vi)."
+      },
+      {
+        "label": "b · Entropy change",
+        "type": "numeric",
+        "answer": 23.05130263670154,
+        "unit": "J/K",
+        "tolerance": 0.2305130263670154,
+        "explanation": "ΔS=nR ln2."
+      },
+      {
+        "label": "c · Reversible adiabatic entropy change",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J/K",
+        "tolerance": 1e-18,
+        "explanation": "δQrev=0 throughout the adiabatic path."
+      }
+    ],
+    "reasoning": "Verification: Isothermal ideal-gas ΔU=0 gives Q=W=TΔS; reversible adiabatic ΔS=0.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-2",
+    "parts": [
+      {
+        "label": "Gas amount",
+        "type": "numeric",
+        "answer": 2.752348977191776,
+        "unit": "mol",
+        "tolerance": 0.02752348977191776,
+        "explanation": "Solve ΔS=nR ln(Vf/Vi) for n."
+      }
+    ],
+    "reasoning": "Verification: Substitution gives nR ln(3.40/1.30)=22.0 J/K.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-3",
+    "parts": [
+      {
+        "label": "Entropy increase",
+        "type": "numeric",
+        "answer": 14.407064147938463,
+        "unit": "J/K",
+        "tolerance": 0.14407064147938464,
+        "explanation": "ΔS=nR ln2."
+      }
+    ],
+    "reasoning": "Verification: Entropy doubles only logarithmically with volume; temperature cancels.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-4",
+    "parts": [
+      {
+        "label": "Heat absorbed",
+        "type": "numeric",
+        "answer": 18636.899999999998,
+        "unit": "J",
+        "tolerance": 186.36899999999997,
+        "explanation": "Qrev=TΔS."
+      }
+    ],
+    "reasoning": "Verification: Q/T recovers the specified46.0 J/K.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-5",
+    "parts": [
+      {
+        "label": "a · Heat absorbed",
+        "type": "numeric",
+        "answer": 57900.0,
+        "unit": "J",
+        "tolerance": 579.0,
+        "explanation": "Q=mc(Tf−Ti)."
+      },
+      {
+        "label": "b · Entropy increase",
+        "type": "numeric",
+        "answer": 173.2242689023934,
+        "unit": "J/K",
+        "tolerance": 1.732242689023934,
+        "explanation": "ΔS=mc ln(Tf/Ti)."
+      }
+    ],
+    "reasoning": "Verification: The logarithmic entropy integral differs from Q divided by either endpoint temperature.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-6",
+    "parts": [
+      {
+        "label": "a · Ice melting entropy increase",
+        "type": "numeric",
+        "answer": 14.629324546952224,
+        "unit": "J/K",
+        "tolerance": 0.14629324546952224,
+        "explanation": "ΔS=mLf/Tm."
+      },
+      {
+        "label": "b · Vaporization entropy increase",
+        "type": "numeric",
+        "answer": 30.22913037652419,
+        "unit": "J/K",
+        "tolerance": 0.3022913037652419,
+        "explanation": "ΔS=mLv/Tb."
+      }
+    ],
+    "reasoning": "Verification: Latent heats enter as mL at a single phase-change temperature.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-7",
+    "parts": [
+      {
+        "label": "a · Equilibrium temperature",
+        "type": "numeric",
+        "answer": 320.2492211838006,
+        "unit": "K",
+        "tolerance": 3.202492211838006,
+        "explanation": "Set mc(Tf−Ti) summed over copper and lead to zero."
+      },
+      {
+        "label": "b · Total internal-energy change",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J",
+        "tolerance": 1e-18,
+        "explanation": "The insulated isolated two-block system exchanges no energy externally."
+      },
+      {
+        "label": "c · Total entropy change",
+        "type": "numeric",
+        "answer": 1.7343661838303452,
+        "unit": "J/K",
+        "tolerance": 0.017343661838303454,
+        "explanation": "Sum each mc ln(Tf/Ti)."
+      }
+    ],
+    "reasoning": "Verification: Heat lost by copper equals gained by lead and total entropy is positive.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-8",
+    "parts": [
+      {
+        "label": "Entropy increase",
+        "type": "numeric",
+        "answer": 0.03675,
+        "unit": "J/K",
+        "tolerance": 0.0003675,
+        "explanation": "ΔS=n∫(AT³/T)dT=nA(Tf³−Ti³)/3."
+      }
+    ],
+    "reasoning": "Verification: The integral of nAT² is nA(Tf³−Ti³)/3.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-9",
+    "parts": [
+      {
+        "label": "Total cube–lake entropy increase",
+        "type": "numeric",
+        "answer": 0.7510033578622988,
+        "unit": "J/K",
+        "tolerance": 0.007510033578622988,
+        "explanation": "Cube entropy sums warming, melting and water warming; lake entropy is−Q/288.15."
+      }
+    ],
+    "reasoning": "Verification: The lake entropy decrease includes all heat supplied during ice warming, melting and water warming.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-10",
+    "parts": [
+      {
+        "label": "Specific heat",
+        "type": "numeric",
+        "answer": 449.80645551073104,
+        "unit": "J/(kg K)",
+        "tolerance": 8,
+        "explanation": "Read ΔS=50J/K at 380K and use ΔS=mc ln(Tf/Ti)."
+      }
+    ],
+    "reasoning": "Verification: The graph at 380 K is50 J/K, not the60 J/K upper axis tick.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-11",
+    "parts": [
+      {
+        "label": "a · Equilibrium temperature",
+        "type": "numeric",
+        "answer": 56.97047496790759,
+        "unit": "°C",
+        "tolerance": 0.5697047496790759,
+        "explanation": "Heat-capacity-weighted initial temperatures."
+      },
+      {
+        "label": "b · Aluminum entropy change",
+        "type": "numeric",
+        "answer": -22.054107614480763,
+        "unit": "J/K",
+        "tolerance": 0.22054107614480764,
+        "explanation": "mAl cAl ln(Tf/TAl)."
+      },
+      {
+        "label": "c · Water entropy change",
+        "type": "numeric",
+        "answer": 24.882993798168627,
+        "unit": "J/K",
+        "tolerance": 0.2488299379816863,
+        "explanation": "mw cw ln(Tf/Tw)."
+      },
+      {
+        "label": "d · System entropy change",
+        "type": "numeric",
+        "answer": 2.828886183687864,
+        "unit": "J/K",
+        "tolerance": 0.028288861836878638,
+        "explanation": "Add the two material entropy changes."
+      }
+    ],
+    "reasoning": "Verification: The weighted final temperature lies between20 and100°C and total entropy is positive.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-12",
+    "parts": [
+      {
+        "label": "Gas amount",
+        "type": "numeric",
+        "answer": 3.3431377004820924,
+        "unit": "mol",
+        "tolerance": 0.08,
+        "explanation": "Graph gives ΔS=64J/K between.4 and4.0m³; solve nR ln10."
+      }
+    ],
+    "reasoning": "Verification: The curve crosses ΔS=0 at.400m³ and ΔS=64 at4.00m³; nR ln10=64.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-13",
+    "parts": [
+      {
+        "label": "a · Left block entropy change",
+        "type": "numeric",
+        "answer": -0.7101764273493676,
+        "unit": "J/K",
+        "tolerance": 0.007101764273493676,
+        "explanation": "The equal-capacity blocks finish at 300K; C=215/5.5J/K."
+      },
+      {
+        "label": "b · Left reservoir entropy change",
+        "type": "numeric",
+        "answer": 0.7101764273493676,
+        "unit": "J/K",
+        "tolerance": 0.007101764273493676,
+        "explanation": "The reversible comparison reservoir balances block entropy."
+      },
+      {
+        "label": "c · Right block entropy change",
+        "type": "numeric",
+        "answer": 0.7233175247964257,
+        "unit": "J/K",
+        "tolerance": 0.007233175247964257,
+        "explanation": "C ln(300/294.5)."
+      },
+      {
+        "label": "d · Right reservoir entropy change",
+        "type": "numeric",
+        "answer": -0.7233175247964257,
+        "unit": "J/K",
+        "tolerance": 0.007233175247964257,
+        "explanation": "Opposite of reversible block entropy."
+      },
+      {
+        "label": "e · Two-block entropy change",
+        "type": "numeric",
+        "answer": 0.013141097447058159,
+        "unit": "J/K",
+        "tolerance": 0.00013141097447058158,
+        "explanation": "The block-only total is positive."
+      },
+      {
+        "label": "f · Blocks plus comparison reservoirs entropy change",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J/K",
+        "tolerance": 1e-18,
+        "explanation": "Each comparison heat transfer is reversible."
+      }
+    ],
+    "reasoning": "Verification: Each reversible block-reservoir pair has zero entropy change; the physical two blocks have positive net change.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-14",
+    "parts": [
+      {
+        "label": "a · Wabc/(p₀V₀)",
+        "type": "numeric",
+        "answer": 3.0,
+        "unit": "dimensionless",
+        "tolerance": 0.03,
+        "explanation": "Only a→b expands at p₀ from V₀ to4V₀."
+      },
+      {
+        "label": "b · ΔUbc/(p₀V₀)",
+        "type": "numeric",
+        "answer": 6.0,
+        "unit": "dimensionless",
+        "tolerance": 0.06,
+        "explanation": "ΔU=3Δ(pV)/2=3(8−4)p₀V₀/2."
+      },
+      {
+        "label": "c · Cycle ΔU/(p₀V₀)",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "dimensionless",
+        "tolerance": 1e-18,
+        "explanation": "Internal energy is a state function."
+      },
+      {
+        "label": "d · Entropy change b→c",
+        "type": "numeric",
+        "answer": 8.644238488763078,
+        "unit": "J/K",
+        "tolerance": 0.08644238488763077,
+        "explanation": "At fixed V temperature doubles."
+      },
+      {
+        "label": "e · Cycle entropy change",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J/K",
+        "tolerance": 1e-18,
+        "explanation": "The gas returns to its original state."
+      }
+    ],
+    "reasoning": "Verification: For b→c constant V doubles T; full-cycle state-function changes vanish.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-15",
+    "parts": [
+      {
+        "label": "a · Freezing entropy change",
+        "type": "numeric",
+        "answer": -942.3723228995059,
+        "unit": "J/K",
+        "tolerance": 9.423723228995058,
+        "explanation": "Ice mass grows from.227 to 1.000kg, so.773kg freezes at 273.15K."
+      },
+      {
+        "label": "b · Return-process system entropy change",
+        "type": "numeric",
+        "answer": 942.3723228995059,
+        "unit": "J/K",
+        "tolerance": 9.423723228995058,
+        "explanation": "Reverse endpoints reverse the system entropy change."
+      },
+      {
+        "label": "c · Consistency with second law",
+        "type": "choice",
+        "answer": "Yes; system entropy may decrease while total system-plus-surroundings entropy does not",
+        "options": [
+          "Yes; system entropy may decrease while total system-plus-surroundings entropy does not",
+          "No; system entropy must always increase",
+          "Only if both entropy changes arezero"
+        ],
+        "explanation": "The second law constrains total entropy, including the heat reservoirs."
+      }
+    ],
+    "reasoning": "Verification: Final ice mass1kg means.773kg freezes; reverse state change reverses ΔS.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-16",
+    "parts": [
+      {
+        "label": "Total entropy change",
+        "type": "numeric",
+        "answer": 0.6422550414357016,
+        "unit": "J/K",
+        "tolerance": 0.006422550414357016,
+        "explanation": "Combine ice warming, fusion, melt warming and original-water cooling."
+      }
+    ],
+    "reasoning": "Verification: Final temperature is above0°C, verifying complete melting.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-17",
+    "parts": [
+      {
+        "label": "a · p₂/p₁",
+        "type": "numeric",
+        "answer": 0.3333333333333333,
+        "unit": "dimensionless",
+        "tolerance": 0.003333333333333333,
+        "explanation": "The isothermal1→2 expansion triplesV."
+      },
+      {
+        "label": "b · p₃/p₁",
+        "type": "numeric",
+        "answer": 0.2147980049924181,
+        "unit": "dimensionless",
+        "tolerance": 0.002147980049924181,
+        "explanation": "The1↔3 adiabat obeys pV^1.4=constant."
+      },
+      {
+        "label": "c · T₃/T₁",
+        "type": "numeric",
+        "answer": 0.6443940149772542,
+        "unit": "dimensionless",
+        "tolerance": 0.006443940149772543,
+        "explanation": "TV^.4 is constant on the adiabat."
+      },
+      {
+        "label": "d · W₁₂/(nRT₁)",
+        "type": "numeric",
+        "answer": 1.0986122886681098,
+        "unit": "dimensionless",
+        "tolerance": 0.010986122886681098,
+        "explanation": "Isothermal work nRT₁ ln3."
+      },
+      {
+        "label": "e · Q₁₂/(nRT₁)",
+        "type": "numeric",
+        "answer": 1.0986122886681098,
+        "unit": "dimensionless",
+        "tolerance": 0.010986122886681098,
+        "explanation": "Isothermal ΔU=0 so Q=W."
+      },
+      {
+        "label": "f · ΔU₁₂/(nRT₁)",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "dimensionless",
+        "tolerance": 1e-18,
+        "explanation": "T₂=T₁."
+      },
+      {
+        "label": "g · ΔS₁₂/(nR)",
+        "type": "numeric",
+        "answer": 1.0986122886681098,
+        "unit": "dimensionless",
+        "tolerance": 0.010986122886681098,
+        "explanation": "Isothermal entropy nR ln3."
+      },
+      {
+        "label": "h · W₂₃/(nRT₁)",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "dimensionless",
+        "tolerance": 1e-18,
+        "explanation": "V is constant."
+      },
+      {
+        "label": "i · Q₂₃/(nRT₁)",
+        "type": "numeric",
+        "answer": -0.8890149625568644,
+        "unit": "dimensionless",
+        "tolerance": 0.008890149625568644,
+        "explanation": "Q=ΔU=nCV(T₃−T₁)."
+      },
+      {
+        "label": "j · ΔU₂₃/(nRT₁)",
+        "type": "numeric",
+        "answer": -0.8890149625568644,
+        "unit": "dimensionless",
+        "tolerance": 0.008890149625568644,
+        "explanation": "Diatomic rotation active givesCV=2.5R."
+      },
+      {
+        "label": "k · ΔS₂₃/(nR)",
+        "type": "numeric",
+        "answer": -1.0986122886681098,
+        "unit": "dimensionless",
+        "tolerance": 0.010986122886681098,
+        "explanation": "Constant-volume entropy nCV ln(T₃/T₂)."
+      },
+      {
+        "label": "l · W₃₁/(nRT₁)",
+        "type": "numeric",
+        "answer": -0.8890149625568644,
+        "unit": "dimensionless",
+        "tolerance": 0.008890149625568644,
+        "explanation": "AdiabaticQ=0 givesW=−ΔU."
+      },
+      {
+        "label": "m · Q₃₁/(nRT₁)",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "dimensionless",
+        "tolerance": 1e-18,
+        "explanation": "Reversible adiabat hasQ=0."
+      },
+      {
+        "label": "n · ΔU₃₁/(nRT₁)",
+        "type": "numeric",
+        "answer": 0.8890149625568644,
+        "unit": "dimensionless",
+        "tolerance": 0.008890149625568644,
+        "explanation": "Temperature rises fromrT₁ toT₁."
+      },
+      {
+        "label": "o · ΔS₃₁/(nR)",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "dimensionless",
+        "tolerance": 1e-18,
+        "explanation": "Reversible adiabat is isentropic."
+      }
+    ],
+    "reasoning": "Verification: All three ΔU and ΔS increments sum separately to zero over the cycle.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-18",
+    "parts": [
+      {
+        "label": "a · Heat absorbed",
+        "type": "numeric",
+        "answer": 4500.0,
+        "unit": "J",
+        "tolerance": 45.0,
+        "explanation": "Q=∫T dS is the trapezoid under the plotted line."
+      },
+      {
+        "label": "b · Internal-energy change",
+        "type": "numeric",
+        "answer": -4988.4,
+        "unit": "J",
+        "tolerance": 49.884,
+        "explanation": "ΔU=nCVΔT for a monatomic ideal gas."
+      },
+      {
+        "label": "c · Work done by gas",
+        "type": "numeric",
+        "answer": 9488.4,
+        "unit": "J",
+        "tolerance": 94.884,
+        "explanation": "W=Q−ΔU."
+      }
+    ],
+    "reasoning": "Verification: Heat is area under T(S), while ΔU depends only on endpoint T; Q−ΔU=W.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-19",
+    "parts": [
+      {
+        "label": "a · Q₁/(p₁V₁)",
+        "type": "numeric",
+        "answer": 0.6931471805599453,
+        "unit": "dimensionless",
+        "tolerance": 0.006931471805599453,
+        "explanation": "Isothermal expansion."
+      },
+      {
+        "label": "b · Q₂/(p₁V₁)",
+        "type": "numeric",
+        "answer": 4.5,
+        "unit": "dimensionless",
+        "tolerance": 0.045,
+        "explanation": "At fixed2V₁, T rises from T₁to4T₁, giving1.5×3."
+      },
+      {
+        "label": "c · W₁/(p₁V₁)",
+        "type": "numeric",
+        "answer": 0.6931471805599453,
+        "unit": "dimensionless",
+        "tolerance": 0.006931471805599453,
+        "explanation": "IsothermalW=Q."
+      },
+      {
+        "label": "d · W₂/(p₁V₁)",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "dimensionless",
+        "tolerance": 1e-18,
+        "explanation": "Isochoric step."
+      },
+      {
+        "label": "e · Total ΔU/(p₁V₁)",
+        "type": "numeric",
+        "answer": 4.5,
+        "unit": "dimensionless",
+        "tolerance": 0.045,
+        "explanation": "1.5(Tf/Ti−1)=4.5."
+      },
+      {
+        "label": "f · Total entropy change",
+        "type": "numeric",
+        "answer": 23.05130263670154,
+        "unit": "J/K",
+        "tolerance": 0.2305130263670154,
+        "explanation": "ΔS=CV ln(Tf/Ti)+R ln(Vf/Vi), with n=1."
+      },
+      {
+        "label": "g · Alternate Q₁/(p₁V₁)",
+        "type": "numeric",
+        "answer": -0.6931471805599453,
+        "unit": "dimensionless",
+        "tolerance": 0.006931471805599453,
+        "explanation": "Isothermal compression halvesV."
+      },
+      {
+        "label": "h · Alternate Q₂/(p₁V₁)",
+        "type": "numeric",
+        "answer": 7.5,
+        "unit": "dimensionless",
+        "tolerance": 0.075,
+        "explanation": "Isobaric heat nCPΔT=2.5nR(3T₁)."
+      },
+      {
+        "label": "i · Alternate W₁/(p₁V₁)",
+        "type": "numeric",
+        "answer": -0.6931471805599453,
+        "unit": "dimensionless",
+        "tolerance": 0.006931471805599453,
+        "explanation": "Compression hasnegative W."
+      },
+      {
+        "label": "j · Alternate W₂/(p₁V₁)",
+        "type": "numeric",
+        "answer": 3.0,
+        "unit": "dimensionless",
+        "tolerance": 0.03,
+        "explanation": "Pressure2p₁ timesΔV=1.5V₁."
+      },
+      {
+        "label": "k · Alternate total ΔU/(p₁V₁)",
+        "type": "numeric",
+        "answer": 4.5,
+        "unit": "dimensionless",
+        "tolerance": 0.045,
+        "explanation": "Same endpoints require same ΔU."
+      },
+      {
+        "label": "l · Alternate total entropy change",
+        "type": "numeric",
+        "answer": 23.05130263670154,
+        "unit": "J/K",
+        "tolerance": 0.2305130263670154,
+        "explanation": "The same final state has the same entropy."
+      }
+    ],
+    "reasoning": "Verification: Both paths reach Tfinal=4Tinitial and Vfinal=2Vinitial, hence have identical ΔU and ΔS.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-20",
+    "parts": [
+      {
+        "label": "a · Final pressure",
+        "type": "numeric",
+        "answer": 1.8393972058572117,
+        "unit": "kPa",
+        "tolerance": 0.018393972058572117,
+        "explanation": "InsertVf−Vi=1m³ into the exponential."
+      },
+      {
+        "label": "b · Final temperature",
+        "type": "numeric",
+        "answer": 441.4553294057308,
+        "unit": "K",
+        "tolerance": 4.414553294057308,
+        "explanation": "T∝pV for fixedn; Tf/Ti=2/e."
+      },
+      {
+        "label": "c · Expansion work",
+        "type": "numeric",
+        "answer": 3160.6027941427883,
+        "unit": "J",
+        "tolerance": 31.606027941427882,
+        "explanation": "Integrate5000exp(1−V)dV from 1 to 2m³."
+      },
+      {
+        "label": "d · Entropy change",
+        "type": "numeric",
+        "answer": 1.9360641479384633,
+        "unit": "J/K",
+        "tolerance": 0.019360641479384634,
+        "explanation": "Use state-function formula nCV ln(Tf/Ti)+nR ln(Vf/Vi)."
+      }
+    ],
+    "reasoning": "Verification: The specified pV agrees with nRT within source rounding; use the given600K for temperature ratios.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "The rounded source givens pVi=5000J and nRTi≈4988J differ by.25%; temperature ratio uses the stated600K."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-21",
+    "parts": [
+      {
+        "label": "Drop entropy change",
+        "type": "numeric",
+        "answer": -1.1827154771694848,
+        "unit": "J/K",
+        "tolerance": 0.011827154771694848,
+        "explanation": "Reversible comparison: warm supercooled water to 0°C, freeze, cool ice to−5°C."
+      }
+    ],
+    "reasoning": "Verification: The reversible comparison path ends as ice at−5°C, not ice at 0°C.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-22",
+    "parts": [
+      {
+        "label": "a · Equilibrium temperature",
+        "type": "numeric",
+        "answer": 66.52324447880608,
+        "unit": "°C",
+        "tolerance": 0.6652324447880608,
+        "explanation": "Heat lost byoriginal water meltsice andwarms all.142kg."
+      },
+      {
+        "label": "b · Ice entropy change during melting",
+        "type": "numeric",
+        "answer": 14.629324546952224,
+        "unit": "J/K",
+        "tolerance": 0.14629324546952224,
+        "explanation": "Melting at 273.15K."
+      },
+      {
+        "label": "c · Melt entropy change during warming",
+        "type": "numeric",
+        "answer": 10.95918039507732,
+        "unit": "J/K",
+        "tolerance": 0.1095918039507732,
+        "explanation": "Heat meltfrom 273.15K to Tf."
+      },
+      {
+        "label": "d · Original water entropy change",
+        "type": "numeric",
+        "answer": -21.193615731888254,
+        "unit": "J/K",
+        "tolerance": 0.21193615731888255,
+        "explanation": "Original water coolsfrom 353.15K."
+      },
+      {
+        "label": "e · Total entropy change",
+        "type": "numeric",
+        "answer": 4.39488921014129,
+        "unit": "J/K",
+        "tolerance": 0.0439488921014129,
+        "explanation": "Sum all threechanges."
+      }
+    ],
+    "reasoning": "Verification: The positive final temperature verifies full melting; ice and water entropy changes sum to a positive total.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-23",
+    "parts": [
+      {
+        "label": "Hot-reservoir temperature increase",
+        "type": "numeric",
+        "answer": 96.71666666666664,
+        "unit": "K",
+        "tolerance": 0.9671666666666664,
+        "explanation": "TH=TL/(1−eta); subtract the twohot temperatures."
+      }
+    ],
+    "reasoning": "Verification: The same fixed cold reservoir is used for both efficiencies.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-24",
+    "parts": [
+      {
+        "label": "a · Efficiency",
+        "type": "numeric",
+        "answer": 30.76923076923077,
+        "unit": "%",
+        "tolerance": 0.3076923076923077,
+        "explanation": "eta=(QH−QL)/QH."
+      },
+      {
+        "label": "b · Work per cycle",
+        "type": "numeric",
+        "answer": 16.0,
+        "unit": "kJ",
+        "tolerance": 0.16,
+        "explanation": "W=QH−QL."
+      }
+    ],
+    "reasoning": "Verification: Work is the difference of hot and cold heat magnitudes.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-25",
+    "parts": [
+      {
+        "label": "a · Cold reservoir temperature",
+        "type": "numeric",
+        "answer": 265.90909090909093,
+        "unit": "K",
+        "tolerance": 2.6590909090909096,
+        "explanation": "TH−TL=75andeta=(TH−TL)/TH."
+      },
+      {
+        "label": "b · Hot reservoir temperature",
+        "type": "numeric",
+        "answer": 340.90909090909093,
+        "unit": "K",
+        "tolerance": 3.4090909090909096,
+        "explanation": "TH=75/.22."
+      }
+    ],
+    "reasoning": "Verification: TH−TL=75K and TL/TH=.78 simultaneously.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-26",
+    "parts": [
+      {
+        "label": "Efficiency to seven significant figures",
+        "type": "numeric",
+        "answer": 99.99994669285715,
+        "unit": "%",
+        "tolerance": 5e-06,
+        "explanation": "Carnot eta=1−TL/TH with TL 373.15K."
+      }
+    ],
+    "reasoning": "Verification: Seven-significant-figure efficiency is99.99995%; broad percent rounding must not hide the finite cold temperature.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-27",
+    "parts": [
+      {
+        "label": "a · Efficiency",
+        "type": "numeric",
+        "answer": 23.615074289087868,
+        "unit": "%",
+        "tolerance": 0.23615074289087867,
+        "explanation": "eta=1−388.15/508.15."
+      },
+      {
+        "label": "b · Work per cycle",
+        "type": "numeric",
+        "answer": 14877.496802125357,
+        "unit": "J",
+        "tolerance": 148.77496802125358,
+        "explanation": "W=etaQH."
+      }
+    ],
+    "reasoning": "Verification: Efficiency uses kelvin, not a ratio of Celsius readings.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-28",
+    "parts": [
+      {
+        "label": "Combined efficiency",
+        "type": "choice",
+        "answer": "1−T₃/T₁",
+        "options": [
+          "1−T₃/T₁",
+          "1−T₂/T₁",
+          "1−T₃/T₂"
+        ],
+        "explanation": "Q₂/Q₁=T₂/T₁ and Q₃/Q₂=T₃/T₂; multiply and use eta=1−Q₃/Q₁."
+      }
+    ],
+    "reasoning": "Verification: Intermediate heat Q2 cancels between stages, leaving total work Q1−Q3.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-29",
+    "parts": [
+      {
+        "label": "a · Net cycle work",
+        "type": "numeric",
+        "answer": 2272.5,
+        "unit": "J",
+        "tolerance": 22.725,
+        "explanation": "The rectangular cycle area is(p−p₀)(V−V₀)=p₀V₀."
+      },
+      {
+        "label": "b · Heat absorbed along abc",
+        "type": "numeric",
+        "answer": 14771.25,
+        "unit": "J",
+        "tolerance": 147.7125,
+        "explanation": "Qab=1.5p₀V₀ and Qbc=nCPΔT=5p₀V₀; total6.5p₀V₀."
+      },
+      {
+        "label": "c · Cycle efficiency",
+        "type": "numeric",
+        "answer": 15.384615384615385,
+        "unit": "%",
+        "tolerance": 0.15384615384615385,
+        "explanation": "eta=W/Qin."
+      },
+      {
+        "label": "d · Carnot efficiency",
+        "type": "numeric",
+        "answer": 75.0,
+        "unit": "%",
+        "tolerance": 0.75,
+        "explanation": "Tmax/Tmin=(2p₀)(2V₀)/(p₀V₀)=4."
+      },
+      {
+        "label": "e · Carnot efficiency comparison",
+        "type": "choice",
+        "answer": "Greater",
+        "options": [
+          "Greater",
+          "Equal",
+          "Less"
+        ],
+        "explanation": "Reversible heat input along a range of temperatures yields lower efficiency than the bounding Carnot cycle."
+      }
+    ],
+    "reasoning": "Verification: Cycle area and the sum of the four segment works give the same result.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-30",
+    "parts": [
+      {
+        "label": "a · Heat input rate",
+        "type": "numeric",
+        "answer": 4664.374999999999,
+        "unit": "W",
+        "tolerance": 46.64374999999999,
+        "explanation": "QHdot=P/eta, eta=1−TC/TH."
+      },
+      {
+        "label": "b · Exhaust heat rate",
+        "type": "numeric",
+        "answer": 4164.374999999999,
+        "unit": "W",
+        "tolerance": 41.64374999999999,
+        "explanation": "QLdot=QHdot−P."
+      }
+    ],
+    "reasoning": "Verification: Heat-input rate minus exhaust rate equals500W.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-31",
+    "parts": [
+      {
+        "label": "a · Initial heat gained",
+        "type": "numeric",
+        "answer": 32.8,
+        "unit": "kJ",
+        "tolerance": 0.32799999999999996,
+        "explanation": "QH=W/eta."
+      },
+      {
+        "label": "b · Initial heat lost magnitude",
+        "type": "numeric",
+        "answer": 24.599999999999998,
+        "unit": "kJ",
+        "tolerance": 0.246,
+        "explanation": "QL=QH−W."
+      },
+      {
+        "label": "c · Tuned heat gained",
+        "type": "numeric",
+        "answer": 26.451612903225804,
+        "unit": "kJ",
+        "tolerance": 0.2645161290322581,
+        "explanation": "Work remains8.2kJ."
+      },
+      {
+        "label": "d · Tuned heat lost magnitude",
+        "type": "numeric",
+        "answer": 18.251612903225805,
+        "unit": "kJ",
+        "tolerance": 0.18251612903225806,
+        "explanation": "Subtractsame workfromnew heat input."
+      }
+    ],
+    "reasoning": "Verification: At fixed work, improved efficiency reduces both heat absorbed and heat rejected.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-32",
+    "parts": [
+      {
+        "label": "Heat absorbed at 550K",
+        "type": "numeric",
+        "answer": 1833.3333333333335,
+        "unit": "J",
+        "tolerance": 50,
+        "explanation": "ReadQH=6000Jat TH 300K; W=6000(1−250/300)=1000J, thenQH=W/(1−250/550)."
+      }
+    ],
+    "reasoning": "Verification: QH=6kJ at TH=300K establishes W=1kJ; sameW at 550K gives1.833kJ.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-33",
+    "parts": [
+      {
+        "label": "a · Heat added",
+        "type": "numeric",
+        "answer": 1472.015625,
+        "unit": "J",
+        "tolerance": 14.72015625,
+        "explanation": "Isochoric a→b heat=CV(p_b−p_a)Vb/R, withpa=pb/32."
+      },
+      {
+        "label": "b · Heat leaving magnitude",
+        "type": "numeric",
+        "answer": 553.984375,
+        "unit": "J",
+        "tolerance": 5.53984375,
+        "explanation": "Isobaric c→a heat removed=CP pa(Vc−Vb)/R."
+      },
+      {
+        "label": "c · Net work",
+        "type": "numeric",
+        "answer": 918.03125,
+        "unit": "J",
+        "tolerance": 9.1803125,
+        "explanation": "W=Qin−Qout."
+      },
+      {
+        "label": "d · Efficiency",
+        "type": "numeric",
+        "answer": 62.365591397849464,
+        "unit": "%",
+        "tolerance": 0.6236559139784946,
+        "explanation": "eta=1−Qout/Qin."
+      }
+    ],
+    "reasoning": "Verification: The1:8 adiabatic expansion reduces pressure by32 and temperature by4.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-34",
+    "parts": [
+      {
+        "label": "a · Gas classification",
+        "type": "choice",
+        "answer": "Monatomic",
+        "options": [
+          "Monatomic",
+          "Diatomic with rotationactive",
+          "Polyatomic"
+        ],
+        "explanation": "AdiabaticB→C hasVratio8 andpratio1/32, so gamma=ln32/ln8=5/3."
+      },
+      {
+        "label": "b · Engine efficiency",
+        "type": "numeric",
+        "answer": 75.0,
+        "unit": "%",
+        "tolerance": 0.75,
+        "explanation": "Constant-pressure heat input nCP(TB−TA); rejected heat nCP(TC−TD) is one quarter as large."
+      }
+    ],
+    "reasoning": "Verification: The adiabatic endpoints imply8^gamma=32, hence gamma=5/3.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-35",
+    "parts": [
+      {
+        "label": "a · T₂/T₁",
+        "type": "numeric",
+        "answer": 3.0,
+        "unit": "dimensionless",
+        "tolerance": 0.03,
+        "explanation": "Constant-volume ignitiontriples pressure."
+      },
+      {
+        "label": "b · T₃/T₁",
+        "type": "numeric",
+        "answer": 1.9792618661593413,
+        "unit": "dimensionless",
+        "tolerance": 0.019792618661593413,
+        "explanation": "Adiabatic2→3 multiplies T by4^(-.30)."
+      },
+      {
+        "label": "c · T₄/T₁",
+        "type": "numeric",
+        "answer": 0.6597539553864471,
+        "unit": "dimensionless",
+        "tolerance": 0.006597539553864471,
+        "explanation": "Adiabatic4→1 connectsvolume ratio4."
+      },
+      {
+        "label": "d · p₃/p₁",
+        "type": "numeric",
+        "answer": 0.4948154665398353,
+        "unit": "dimensionless",
+        "tolerance": 0.004948154665398353,
+        "explanation": "Adiabatic pV^1.3 is constant."
+      },
+      {
+        "label": "e · p₄/p₁",
+        "type": "numeric",
+        "answer": 0.16493848884661177,
+        "unit": "dimensionless",
+        "tolerance": 0.0016493848884661178,
+        "explanation": "Use the loweradiabat."
+      },
+      {
+        "label": "f · Engine efficiency",
+        "type": "numeric",
+        "answer": 34.02460446135529,
+        "unit": "%",
+        "tolerance": 0.3402460446135529,
+        "explanation": "Ottoefficiency1−(V₁/V₃)^(gamma−1)."
+      }
+    ],
+    "reasoning": "Verification: Both adiabatic paths conserve TV^(gamma−1); efficiency=1−4^(1−gamma).",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-36",
+    "parts": [
+      {
+        "label": "a · Work supplied",
+        "type": "numeric",
+        "answer": 0.07139032661074429,
+        "unit": "J",
+        "tolerance": 0.0007139032661074429,
+        "explanation": "For QL=1J, W=QL(TH/TL−1)."
+      },
+      {
+        "label": "b · Work supplied",
+        "type": "numeric",
+        "answer": 0.4996252810392203,
+        "unit": "J",
+        "tolerance": 0.0049962528103922035,
+        "explanation": "For QL=1J, W=QL(TH/TL−1)."
+      },
+      {
+        "label": "c · Work supplied",
+        "type": "numeric",
+        "answer": 1.9970044932601096,
+        "unit": "J",
+        "tolerance": 0.019970044932601096,
+        "explanation": "For QL=1J, W=QL(TH/TL−1)."
+      },
+      {
+        "label": "d · Work supplied",
+        "type": "numeric",
+        "answer": 4.985044865403788,
+        "unit": "J",
+        "tolerance": 0.04985044865403788,
+        "explanation": "For QL=1J, W=QL(TH/TL−1)."
+      }
+    ],
+    "reasoning": "Verification: Work=QL(TH−TL)/TL increases as the cold reservoir gets colder.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-37",
+    "parts": [
+      {
+        "label": "Required work rate",
+        "type": "numeric",
+        "answer": 436.3425925925926,
+        "unit": "W",
+        "tolerance": 4.3634259259259265,
+        "explanation": "Chapter convention K=QL/W=3.8; QH=QL+W=(K+1)W, so divide the heat delivery rate by4.8."
+      }
+    ],
+    "reasoning": "Verification: The chapter defines refrigerator K=QL/W even for a heat pump; heating COP is K+1=4.8, so W=QH/4.8.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-38",
+    "parts": [
+      {
+        "label": "Heat delivered per joule of electricity",
+        "type": "numeric",
+        "answer": 13.188636363636363,
+        "unit": "J",
+        "tolerance": 0.13188636363636363,
+        "explanation": "Carnotheat pumpKH=TH/(TH−TL); multiplyby1Jelectricalwork."
+      }
+    ],
+    "reasoning": "Verification: A heat-pump coefficient exceeds1 because electricity also moves outdoor heat.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-39",
+    "parts": [
+      {
+        "label": "Heat removed per joule of electricity",
+        "type": "numeric",
+        "answer": 20.371923076923075,
+        "unit": "J",
+        "tolerance": 0.20371923076923076,
+        "explanation": "Carnot refrigeratorK=TL/(TH−TL)."
+      }
+    ],
+    "reasoning": "Verification: Fahrenheit differences convert by5/9, while absolute reservoir temperatures require the273.15 offset.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-40",
+    "parts": [
+      {
+        "label": "a · Heat delivered to room",
+        "type": "numeric",
+        "answer": 49.368421052631575,
+        "unit": "kJ",
+        "tolerance": 0.4936842105263158,
+        "explanation": "QH=QL+W."
+      },
+      {
+        "label": "b · Work supplied",
+        "type": "numeric",
+        "answer": 7.368421052631579,
+        "unit": "kJ",
+        "tolerance": 0.07368421052631578,
+        "explanation": "W=QL/K."
+      }
+    ],
+    "reasoning": "Verification: QL+W equals QH.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-41",
+    "parts": [
+      {
+        "label": "Motor power",
+        "type": "numeric",
+        "answer": 0.25272867326450316,
+        "unit": "hp",
+        "tolerance": 0.0025272867326450316,
+        "explanation": "Actual COP=.27(TL/ΔT); motor power=coolingpower/COP, then convert 746W/hp."
+      }
+    ],
+    "reasoning": "Verification: Actual COP=.27 times idealCOP; horsepower follows from cooling rate/COP.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-42",
+    "parts": [
+      {
+        "label": "Maximum heat removed",
+        "type": "numeric",
+        "answer": 1080000.0,
+        "unit": "J",
+        "tolerance": 10800.0,
+        "explanation": "Work=PΔt; Carnot K=9."
+      }
+    ],
+    "reasoning": "Verification: IdealCOP=270/(300−270)=9, so heat removal is nine times motor work.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-43",
+    "parts": [
+      {
+        "label": "Q₃/Q₁",
+        "type": "numeric",
+        "answer": 2.03125,
+        "unit": "dimensionless",
+        "tolerance": 0.0203125,
+        "explanation": "EngineW/Q₁=.625; refrigeratorQ₃/W=3.25."
+      }
+    ],
+    "reasoning": "Verification: Engine work is.625Q1; refrigerator hot-side heat/work=3.25.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-44",
+    "parts": [
+      {
+        "label": "a · Engine work",
+        "type": "numeric",
+        "answer": 166.66666666666666,
+        "unit": "J",
+        "tolerance": 1.6666666666666665,
+        "explanation": "W=QH(1−TL/TH)."
+      },
+      {
+        "label": "b · Refrigerator work",
+        "type": "numeric",
+        "answer": 342.85714285714283,
+        "unit": "J",
+        "tolerance": 3.4285714285714284,
+        "explanation": "W=QL/K withK=TL/(TH−TL)."
+      }
+    ],
+    "reasoning": "Verification: The reversed machine requires work1200(360−280)/280, not the engine work frompart a.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-45",
+    "parts": [
+      {
+        "label": "Row 0 · Multiplicity for nL=0",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "W=C(8,nL)."
+      },
+      {
+        "label": "Row 0 · Entropy for nL=0",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J/K",
+        "tolerance": 0,
+        "explanation": "S=k lnW."
+      },
+      {
+        "label": "Row 1 · Multiplicity for nL=1",
+        "type": "numeric",
+        "answer": 8.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "W=C(8,nL)."
+      },
+      {
+        "label": "Row 1 · Entropy for nL=1",
+        "type": "numeric",
+        "answer": 2.8696293275181735e-23,
+        "unit": "J/K",
+        "tolerance": 2.8696293275181735e-25,
+        "explanation": "S=k lnW."
+      },
+      {
+        "label": "Row 2 · Multiplicity for nL=2",
+        "type": "numeric",
+        "answer": 28.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "W=C(8,nL)."
+      },
+      {
+        "label": "Row 2 · Entropy for nL=2",
+        "type": "numeric",
+        "answer": 4.5984422240417815e-23,
+        "unit": "J/K",
+        "tolerance": 4.598442224041782e-25,
+        "explanation": "S=k lnW."
+      },
+      {
+        "label": "Row 3 · Multiplicity for nL=3",
+        "type": "numeric",
+        "answer": 56.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "W=C(8,nL)."
+      },
+      {
+        "label": "Row 3 · Entropy for nL=3",
+        "type": "numeric",
+        "answer": 5.554985333214507e-23,
+        "unit": "J/K",
+        "tolerance": 5.5549853332145065e-25,
+        "explanation": "S=k lnW."
+      },
+      {
+        "label": "Row 4 · Multiplicity for nL=4",
+        "type": "numeric",
+        "answer": 70.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "W=C(8,nL)."
+      },
+      {
+        "label": "Row 4 · Entropy for nL=4",
+        "type": "numeric",
+        "answer": 5.862923434028116e-23,
+        "unit": "J/K",
+        "tolerance": 5.862923434028116e-25,
+        "explanation": "S=k lnW."
+      },
+      {
+        "label": "Row 5 · Multiplicity for nL=5",
+        "type": "numeric",
+        "answer": 56.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "W=C(8,nL)."
+      },
+      {
+        "label": "Row 5 · Entropy for nL=5",
+        "type": "numeric",
+        "answer": 5.554985333214507e-23,
+        "unit": "J/K",
+        "tolerance": 5.5549853332145065e-25,
+        "explanation": "S=k lnW."
+      },
+      {
+        "label": "Row 6 · Multiplicity for nL=6",
+        "type": "numeric",
+        "answer": 28.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "W=C(8,nL)."
+      },
+      {
+        "label": "Row 6 · Entropy for nL=6",
+        "type": "numeric",
+        "answer": 4.5984422240417815e-23,
+        "unit": "J/K",
+        "tolerance": 4.598442224041782e-25,
+        "explanation": "S=k lnW."
+      },
+      {
+        "label": "Row 7 · Multiplicity for nL=7",
+        "type": "numeric",
+        "answer": 8.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "W=C(8,nL)."
+      },
+      {
+        "label": "Row 7 · Entropy for nL=7",
+        "type": "numeric",
+        "answer": 2.8696293275181735e-23,
+        "unit": "J/K",
+        "tolerance": 2.8696293275181735e-25,
+        "explanation": "S=k lnW."
+      },
+      {
+        "label": "Row 8 · Multiplicity for nL=8",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "W=C(8,nL)."
+      },
+      {
+        "label": "Row 8 · Entropy for nL=8",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J/K",
+        "tolerance": 0,
+        "explanation": "S=k lnW."
+      }
+    ],
+    "reasoning": "Verification: Binomial multiplicities sum to256; entropy is symmetric under nL↔8−nL.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ],
+    "scope": "The table is checked row by row; nR is 8−nL, and each entropy is k ln(multiplicity)."
+  },
+  {
+    "id": "physics-chapter-20-problems-46",
+    "parts": [
+      {
+        "label": "a · Central multiplicity for N=50",
+        "type": "numeric",
+        "answer": 126410606437752.0,
+        "unit": "microstates",
+        "tolerance": 1264106064377.52,
+        "explanation": "W=N!/[(N/2)!]²."
+      },
+      {
+        "label": "b · Total microstates for N=50",
+        "type": "numeric",
+        "answer": 1125899906842624.0,
+        "unit": "microstates",
+        "tolerance": 11258999068426.24,
+        "explanation": "Each moleculehas 2 halves, giving 2^N."
+      },
+      {
+        "label": "c · Central time percentage for N=50",
+        "type": "numeric",
+        "answer": 11.227517265921705,
+        "unit": "%",
+        "tolerance": 0.11227517265921705,
+        "explanation": "All microstates areequally likely."
+      },
+      {
+        "label": "d · Central multiplicity for N=100",
+        "type": "numeric",
+        "answer": 1.008913445455642e+29,
+        "unit": "microstates",
+        "tolerance": 1.008913445455642e+27,
+        "explanation": "W=N!/[(N/2)!]²."
+      },
+      {
+        "label": "e · Total microstates for N=100",
+        "type": "numeric",
+        "answer": 1.2676506002282294e+30,
+        "unit": "microstates",
+        "tolerance": 1.2676506002282294e+28,
+        "explanation": "Each moleculehas 2 halves, giving 2^N."
+      },
+      {
+        "label": "f · Central time percentage for N=100",
+        "type": "numeric",
+        "answer": 7.958923738717876,
+        "unit": "%",
+        "tolerance": 0.07958923738717875,
+        "explanation": "All microstates areequally likely."
+      },
+      {
+        "label": "g · Central multiplicity for N=200",
+        "type": "numeric",
+        "answer": 9.054851465610328e+58,
+        "unit": "microstates",
+        "tolerance": 9.054851465610328e+56,
+        "explanation": "W=N!/[(N/2)!]²."
+      },
+      {
+        "label": "h · Total microstates for N=200",
+        "type": "numeric",
+        "answer": 1.6069380442589903e+60,
+        "unit": "microstates",
+        "tolerance": 1.6069380442589903e+58,
+        "explanation": "Each moleculehas 2 halves, giving 2^N."
+      },
+      {
+        "label": "i · Central time percentage for N=200",
+        "type": "numeric",
+        "answer": 5.634847900925642,
+        "unit": "%",
+        "tolerance": 0.05634847900925642,
+        "explanation": "All microstates areequally likely."
+      },
+      {
+        "label": "j · Central-configuration time fraction as N increases",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Increases",
+          "Staysconstant"
+        ],
+        "explanation": "Central binomial probability scales approximately as sqrt(2/(πN))."
+      }
+    ],
+    "reasoning": "Verification: All binomial multiplicities sum to2^N; central fraction decreases with N.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-47",
+    "parts": [
+      {
+        "label": "a · Three-part multiplicity",
+        "type": "choice",
+        "answer": "N!/(n₁! n₂! n₃!)",
+        "options": [
+          "N!/(n₁! n₂! n₃!)",
+          "N!/(n₁+n₂+n₃)!",
+          "3^N for every individual configuration"
+        ],
+        "explanation": "Choose which molecules belong to each third; occupancy factorials remove ordering duplicates."
+      },
+      {
+        "label": "b · Equal-third to equal-half multiplicity ratio",
+        "type": "choice",
+        "answer": "[(N/2)!]²/[(N/3)!]³",
+        "options": [
+          "[(N/2)!]²/[(N/3)!]³",
+          "[(N/3)!]³/[(N/2)!]²",
+          "1 for all N"
+        ],
+        "explanation": "TheN!factorcancels between the two configuration counts."
+      },
+      {
+        "label": "c · Ratio for N=100",
+        "type": "numeric",
+        "answer": 4.155408913558936e+16,
+        "unit": "dimensionless",
+        "tolerance": 415540891355893.6,
+        "explanation": "Use34,33,33molecules in thethirdsand50,50in thehalves."
+      }
+    ],
+    "reasoning": "Verification: The common N! cancels in WA/WB, leaving factorial(N/2)^2 divided by the three occupancy factorials.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-48",
+    "parts": [
+      {
+        "label": "a · Least multiplicity",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "All fourmolecules in one half."
+      },
+      {
+        "label": "b · Greatest multiplicity",
+        "type": "numeric",
+        "answer": 6.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "C(4,2)=6."
+      },
+      {
+        "label": "c · Least entropy",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J/K",
+        "tolerance": 1e-18,
+        "explanation": "k ln1=0."
+      },
+      {
+        "label": "d · Greatest entropy",
+        "type": "numeric",
+        "answer": 2.472628067534716e-23,
+        "unit": "J/K",
+        "tolerance": 2.472628067534716e-25,
+        "explanation": "k ln6."
+      }
+    ],
+    "reasoning": "Verification: For four molecules central multiplicity isC(4,2)=6, extreme multiplicity1.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-49",
+    "parts": [
+      {
+        "label": "Entropy generation rate",
+        "type": "numeric",
+        "answer": 0.1409498560240912,
+        "unit": "W/K",
+        "tolerance": 0.0014094985602409122,
+        "explanation": "Fourierheat power=kAΔT/L withcopperk401, then Sdot=Qdot(1/TC−1/TH)."
+      }
+    ],
+    "reasoning": "Verification: Steady-state rod entropy is constant, but reservoirs generate Qdot(1/Tcold−1/Thot)>0.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-50",
+    "parts": [
+      {
+        "label": "a · Entropy change",
+        "type": "numeric",
+        "answer": 6.339108225092924,
+        "unit": "J/K",
+        "tolerance": 0.06339108225092924,
+        "explanation": "Each listed final volume is four times its initialvolume."
+      },
+      {
+        "label": "b · Entropy change",
+        "type": "numeric",
+        "answer": 6.339108225092924,
+        "unit": "J/K",
+        "tolerance": 0.06339108225092924,
+        "explanation": "Each listed final volume is four times its initialvolume."
+      },
+      {
+        "label": "c · Entropy change",
+        "type": "numeric",
+        "answer": 6.339108225092924,
+        "unit": "J/K",
+        "tolerance": 0.06339108225092924,
+        "explanation": "Each listed final volume is four times its initialvolume."
+      },
+      {
+        "label": "d · Entropy change",
+        "type": "numeric",
+        "answer": 6.339108225092924,
+        "unit": "J/K",
+        "tolerance": 0.06339108225092924,
+        "explanation": "Each listed final volume is four times its initialvolume."
+      }
+    ],
+    "reasoning": "Verification: All four volume ratios are4, so temperatures do not affect isothermal entropy changes.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-51",
+    "parts": [
+      {
+        "label": "a · Initial rms-minus-most-probable speed",
+        "type": "numeric",
+        "answer": 86.59658918768278,
+        "unit": "m/s",
+        "tolerance": 0.8659658918768278,
+        "explanation": "vrms=√(3RT/M), vp=√(2RT/M)."
+      },
+      {
+        "label": "b · Final rms-minus-most-probable speed",
+        "type": "numeric",
+        "answer": 122.46607088447232,
+        "unit": "m/s",
+        "tolerance": 1.2246607088447232,
+        "explanation": "Evaluate the same expression at500K."
+      },
+      {
+        "label": "c · Entropy change",
+        "type": "numeric",
+        "answer": 21.610596221907695,
+        "unit": "J/K",
+        "tolerance": 0.21610596221907696,
+        "explanation": "At fixed V, ΔS=nCV ln2 with rotation-active N₂CV=5R/2."
+      }
+    ],
+    "reasoning": "Verification: Both speed differences scale as sqrt(T); entropy at fixed V uses diatomicCV=5R/2.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-52",
+    "parts": [
+      {
+        "label": "a · Signed net heat entering over cycle",
+        "type": "numeric",
+        "answer": 963.495395505231,
+        "unit": "J",
+        "tolerance": 9.63495395505231,
+        "explanation": "Overacycle ΔU=0, so Qnet=Wnet."
+      },
+      {
+        "label": "a · Total positive heat absorbed",
+        "type": "numeric",
+        "answer": 7198.9953955052315,
+        "unit": "J",
+        "tolerance": 71.98995395505231,
+        "explanation": "Heating and isothermal expansion both absorb heat."
+      },
+      {
+        "label": "b · Net work done",
+        "type": "numeric",
+        "answer": 963.495395505231,
+        "unit": "J",
+        "tolerance": 9.63495395505231,
+        "explanation": "W=nR[TH ln(TH/TL)−(TH−TL)]."
+      },
+      {
+        "label": "c · Cycle efficiency",
+        "type": "numeric",
+        "answer": 13.383747906087,
+        "unit": "%",
+        "tolerance": 0.13383747906087,
+        "explanation": "Efficiencyuses positive heat inputQin, notsignednet heat."
+      }
+    ],
+    "reasoning": "Verification: Net heat and net work agree over the cycle; total positive heat absorbed is separately labeled.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ],
+    "scope": "Signed net heat over a complete cycle equals net work. Total positive heat absorbed is provided separately to distinguish it from net heat."
+  },
+  {
+    "id": "physics-chapter-20-problems-53",
+    "parts": [
+      {
+        "label": "a · Maximum engine efficiency",
+        "type": "numeric",
+        "answer": 78.27423938871547,
+        "unit": "%",
+        "tolerance": 0.7827423938871547,
+        "explanation": "Forpart a use−40°C and800°Creservoirs."
+      },
+      {
+        "label": "b · Melt water rate",
+        "type": "numeric",
+        "answer": 80.94772403982928,
+        "unit": "kg/s",
+        "tolerance": 0.8094772403982928,
+        "explanation": "To produce 0°C water, reject engine heat at 273.15K; QLdot=P·TL/(TH−TL), divided by ice warming plus fusion energy."
+      }
+    ],
+    "reasoning": "Verification: For melting output the engine rejects heat at 0°C, rather than−40°C.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-54",
+    "parts": [
+      {
+        "label": "Entropy increase",
+        "type": "numeric",
+        "answer": 4.466330665535686,
+        "unit": "J/K",
+        "tolerance": 0.044663306655356866,
+        "explanation": "ΔS=nCV ln(Tf/Ti) at fixed V."
+      }
+    ],
+    "reasoning": "Verification: At constant V useCV=3R/2 rather thanCP.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-55",
+    "parts": [
+      {
+        "label": "a · Equilibrium temperature",
+        "type": "numeric",
+        "answer": 40.88588302533822,
+        "unit": "°C",
+        "tolerance": 0.40885883025338216,
+        "explanation": "Heat-capacity-weighted average."
+      },
+      {
+        "label": "b · Copper entropy change",
+        "type": "numeric",
+        "answer": -27.186514067682825,
+        "unit": "J/K",
+        "tolerance": 0.27186514067682827,
+        "explanation": "mc ln(Tf/Tc)."
+      },
+      {
+        "label": "c · Water entropy change",
+        "type": "numeric",
+        "answer": 30.365485082419166,
+        "unit": "J/K",
+        "tolerance": 0.3036548508241917,
+        "explanation": "mc ln(Tf/Tw)."
+      },
+      {
+        "label": "d · Total entropy change",
+        "type": "numeric",
+        "answer": 3.178971014736341,
+        "unit": "J/K",
+        "tolerance": 0.03178971014736341,
+        "explanation": "Sumcopperandwater."
+      }
+    ],
+    "reasoning": "Verification: Energy balance determines Tf before evaluating logarithmic entropy integrals.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-56",
+    "parts": [
+      {
+        "label": "Entropy change per additional stretch length",
+        "type": "numeric",
+        "answer": -0.002647906336803302,
+        "unit": "J/(K m)",
+        "tolerance": 2.647906336803302e-05,
+        "explanation": "Graph linear forceF=Fs x/xs; rubber entropyrelationdS/dx=−F/T."
+      }
+    ],
+    "reasoning": "Verification: The rubber entropy decreases on stretching; dS/dx=−F/T for negligible stretch-energy change.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the chapter rubber-band model: reversible isothermalstretchingwith negligibleinternal-energy change."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-57",
+    "parts": [
+      {
+        "label": "Entropy change",
+        "type": "numeric",
+        "answer": 3.587683125546159,
+        "unit": "J/K",
+        "tolerance": 0.03587683125546159,
+        "explanation": "One-mole monatomic constant-volume heating."
+      }
+    ],
+    "reasoning": "Verification: Constant-volume entropy integral usesCV.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-58",
+    "parts": [
+      {
+        "label": "Entropy change",
+        "type": "numeric",
+        "answer": 5.9794718759102645,
+        "unit": "J/K",
+        "tolerance": 0.059794718759102646,
+        "explanation": "One-mole monatomic constant-pressure heating."
+      }
+    ],
+    "reasoning": "Verification: Constant-pressure entropy integral usesCP, making the result5/3 ofP57.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-59",
+    "parts": [
+      {
+        "label": "Sample entropy increase",
+        "type": "numeric",
+        "answer": 1176.316329708842,
+        "unit": "J/K",
+        "tolerance": 11.76316329708842,
+        "explanation": "Sumice warming, meltingandliquid warming."
+      }
+    ],
+    "reasoning": "Verification: The three positive entropy contributions cover warming ice, fusion and warming liquid.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-60",
+    "parts": [
+      {
+        "label": "Cycle efficiency",
+        "type": "numeric",
+        "answer": 13.08992861255688,
+        "unit": "%",
+        "tolerance": 0.1308992861255688,
+        "explanation": "W=nR[500 ln2.5−300]; Qin=nR[2.5×300+500 ln2.5]."
+      }
+    ],
+    "reasoning": "Verification: Total cycle ΔU=0, giving netQ=W; heat input includes both heating and isothermal expansion.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-61",
+    "parts": [
+      {
+        "label": "Combined-unit net effect if invented efficiency exceeded Carnot",
+        "type": "choice",
+        "answer": "Heat moves from cold to hot with zero net work input",
+        "options": [
+          "Heat moves from cold to hot with zero net work input",
+          "Heat moves from hot to cold with positive net work",
+          "No heat moves between reservoirs"
+        ],
+        "explanation": "Atthesame workW, QHengine=W/etaX<W/etaCarnot=QHfridge. Net heat thereforemoves uphill; all work cancels."
+      }
+    ],
+    "reasoning": "Verification: Same work with higher engine efficiency requires less hot-side heat than the reverse Carnot engine returns.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-62",
+    "parts": [
+      {
+        "label": "a · Heat 1→2",
+        "type": "numeric",
+        "answer": 700.0,
+        "unit": "J",
+        "tolerance": 7.0,
+        "explanation": "IsothermalT350K, ΔS2J/K."
+      },
+      {
+        "label": "b · Heat 2→3",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J",
+        "tolerance": 1e-18,
+        "explanation": "Vertical T-S line has constant entropy, reversible Q=0."
+      },
+      {
+        "label": "c · Cycle net heat",
+        "type": "numeric",
+        "answer": 50.0,
+        "unit": "J",
+        "tolerance": 0.5,
+        "explanation": "Q31 is the line integral T dS=−650J, so Qnet=50 J."
+      },
+      {
+        "label": "d · Isothermal work",
+        "type": "numeric",
+        "answer": 700.0,
+        "unit": "J",
+        "tolerance": 7.0,
+        "explanation": "ΔU12=0so W12=Q12."
+      },
+      {
+        "label": "e · Volume at state 2",
+        "type": "numeric",
+        "answer": 0.22556230410694267,
+        "unit": "m³",
+        "tolerance": 0.002255623041069427,
+        "explanation": "ΔS12=nR ln(V2/V1)."
+      },
+      {
+        "label": "f · Volume at state 3",
+        "type": "numeric",
+        "answer": 0.2842409897157666,
+        "unit": "m³",
+        "tolerance": 0.002842409897157666,
+        "explanation": "Adiabatic TV^(2/3)=constant for inactive-rotation gas."
+      },
+      {
+        "label": "g · ΔU1→2",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J",
+        "tolerance": 1e-18,
+        "explanation": "Temperature constant."
+      },
+      {
+        "label": "h · ΔU2→3",
+        "type": "numeric",
+        "answer": -1247.1,
+        "unit": "J",
+        "tolerance": 12.471,
+        "explanation": "ΔU=nCV(300−350)."
+      },
+      {
+        "label": "i · Cycle ΔU",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J",
+        "tolerance": 1e-18,
+        "explanation": "State function returns to its initial value."
+      },
+      {
+        "label": "j · Adiabatic work 2→3",
+        "type": "numeric",
+        "answer": 1247.1,
+        "unit": "J",
+        "tolerance": 12.471,
+        "explanation": "Q=0 implies W=−ΔU."
+      }
+    ],
+    "reasoning": "Verification: The T-S triangle has area50J; state 3 is300K and S2=S3.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-63",
+    "parts": [
+      {
+        "label": "a · Cycle entropy change",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J/K",
+        "tolerance": 1e-18,
+        "explanation": "Entropy is a state function."
+      },
+      {
+        "label": "b · Adiabatic entropy change",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "J/K",
+        "tolerance": 1e-18,
+        "explanation": "The adiabatic step is reversible."
+      },
+      {
+        "label": "c · Isothermal compression entropy change",
+        "type": "numeric",
+        "answer": -23.05130263670154,
+        "unit": "J/K",
+        "tolerance": 0.2305130263670154,
+        "explanation": "ΔS=nR ln(V1/(2V1))."
+      },
+      {
+        "label": "d · Isochoric entropy change",
+        "type": "numeric",
+        "answer": 23.05130263670154,
+        "unit": "J/K",
+        "tolerance": 0.2305130263670154,
+        "explanation": "Otherchangesmust cancelovercycle."
+      }
+    ],
+    "reasoning": "Verification: Closed-cycle ΔS=0; reversible adiabatic step contributes zero regardless of heat capacity.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-64",
+    "parts": [
+      {
+        "label": "a · Engine work",
+        "type": "numeric",
+        "answer": 93.75,
+        "unit": "J",
+        "tolerance": 0.9375,
+        "explanation": "Carnot eta=1−260/320."
+      },
+      {
+        "label": "b · Refrigerator work",
+        "type": "numeric",
+        "answer": 230.76923076923077,
+        "unit": "J",
+        "tolerance": 2.307692307692308,
+        "explanation": "W=QL(TH−TL)/TL."
+      }
+    ],
+    "reasoning": "Verification: The forward and reversed machine share reservoir temperatures but different heat quantities.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-65",
+    "parts": [
+      {
+        "label": "a · Total positive heat transferred to gas",
+        "type": "numeric",
+        "answer": 25518.383055263188,
+        "unit": "J",
+        "tolerance": 255.1838305526319,
+        "explanation": "Qin=nCV(800−300)+nR800 ln(8/3)."
+      },
+      {
+        "label": "a · Signed net heat over cycle",
+        "type": "numeric",
+        "answer": 4733.383055263187,
+        "unit": "J",
+        "tolerance": 47.33383055263187,
+        "explanation": "Qnet=Wnet becausecycle ΔU=0."
+      },
+      {
+        "label": "b · Net work done",
+        "type": "numeric",
+        "answer": 4733.383055263187,
+        "unit": "J",
+        "tolerance": 47.33383055263187,
+        "explanation": "W=nR[800 ln(8/3)−500]."
+      },
+      {
+        "label": "c · Cycle efficiency",
+        "type": "numeric",
+        "answer": 18.548914502194226,
+        "unit": "%",
+        "tolerance": 0.18548914502194225,
+        "explanation": "Efficiency=net work/positive heat input."
+      }
+    ],
+    "reasoning": "Verification: The stipulated inactive rotations giveCV=3R/2 despite the gas being diatomic.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ],
+    "scope": "Part(a) distinguishes total positive heat absorbed from signed net heat over the full cycle; these are different quantities.",
+    "reviewNotice": "The source wording says net heat, while its printed part(a) answer is total positive heat absorbed. Both quantities are labeled explicitly here."
+  },
+  {
+    "id": "physics-chapter-20-problems-66",
+    "parts": [
+      {
+        "label": "a · Refrigerator COP",
+        "type": "numeric",
+        "answer": 3.7333333333333334,
+        "unit": "dimensionless",
+        "tolerance": 0.037333333333333336,
+        "explanation": "K=QL/W."
+      },
+      {
+        "label": "b · Heat exhausted to kitchen",
+        "type": "numeric",
+        "answer": 710.0,
+        "unit": "J",
+        "tolerance": 7.1000000000000005,
+        "explanation": "QH=QL+W."
+      }
+    ],
+    "reasoning": "Verification: Energy balance requires QH=QL+W.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-67",
+    "parts": [
+      {
+        "label": "a · Reservoir entropy change",
+        "type": "numeric",
+        "answer": 1.95,
+        "unit": "J/K",
+        "tolerance": 0.0195,
+        "explanation": "ΔStotal=Q(1/Tcold−1/Thot)."
+      },
+      {
+        "label": "b · Reservoir entropy change",
+        "type": "numeric",
+        "answer": 0.65,
+        "unit": "J/K",
+        "tolerance": 0.006500000000000001,
+        "explanation": "ΔStotal=Q(1/Tcold−1/Thot)."
+      },
+      {
+        "label": "c · Reservoir entropy change",
+        "type": "numeric",
+        "answer": 0.2166666666666667,
+        "unit": "J/K",
+        "tolerance": 0.002166666666666667,
+        "explanation": "ΔStotal=Q(1/Tcold−1/Thot)."
+      },
+      {
+        "label": "d · Reservoir entropy change",
+        "type": "numeric",
+        "answer": 0.07222222222222224,
+        "unit": "J/K",
+        "tolerance": 0.0007222222222222224,
+        "explanation": "ΔStotal=Q(1/Tcold−1/Thot)."
+      },
+      {
+        "label": "e · Trend as reservoir temperatures approach",
+        "type": "choice",
+        "answer": "Decreases toward zero",
+        "options": [
+          "Decreases toward zero",
+          "Increases without bound",
+          "Remains constant"
+        ],
+        "explanation": "Finite heat exchange becomes reversible in the limit of equal temperatures."
+      }
+    ],
+    "reasoning": "Verification: All total entropy changes are positive and approach zero as reservoir temperatures approach each other.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-68",
+    "parts": [
+      {
+        "label": "Minimum Qto/Qfrom",
+        "type": "numeric",
+        "answer": 75.0,
+        "unit": "dimensionless",
+        "tolerance": 0.75,
+        "explanation": "Idealreversible heat transferrequiresQH/QL=TH/TL."
+      }
+    ],
+    "reasoning": "Verification: The ideal minimum equalsTH/TL=75.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-69",
+    "parts": [
+      {
+        "label": "a · Total entropy increase",
+        "type": "numeric",
+        "answer": 4.4507320766847664,
+        "unit": "J/K",
+        "tolerance": 0.044507320766847665,
+        "explanation": "Hot reservoirloses5030/TH; cold reservoirgains5030/TC."
+      },
+      {
+        "label": "b · Rod entropy change",
+        "type": "choice",
+        "answer": "Zero in steady state",
+        "options": [
+          "Zero in steady state",
+          "Positive andequaltoreservoirincrease",
+          "Negative"
+        ],
+        "explanation": "The steady temperature profile of the rod does not change."
+      }
+    ],
+    "reasoning": "Verification: Steady-state rod entropy change vanishes; finite reservoir entropy generation is positive.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "The rod is in steady thermal conduction between the fixed-temperature reservoirs."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-70",
+    "parts": [
+      {
+        "label": "a · Equilibrium temperature",
+        "type": "numeric",
+        "answer": -44.1827326068734,
+        "unit": "°C",
+        "tolerance": 0.44182732606873404,
+        "explanation": "Use heat capacities.045×134and.025×236J/K."
+      },
+      {
+        "label": "b · Tungsten entropy change",
+        "type": "numeric",
+        "answer": -1.6923115182572759,
+        "unit": "J/K",
+        "tolerance": 0.016923115182572758,
+        "explanation": "mW cW ln(Tf/TW)."
+      },
+      {
+        "label": "c · Silver entropy change",
+        "type": "numeric",
+        "answer": 2.3727512151751884,
+        "unit": "J/K",
+        "tolerance": 0.023727512151751885,
+        "explanation": "mAg cAg ln(Tf/TAg)."
+      },
+      {
+        "label": "d · Total entropy change",
+        "type": "numeric",
+        "answer": 0.6804396969179125,
+        "unit": "J/K",
+        "tolerance": 0.006804396969179125,
+        "explanation": "Sumthe two-blockchanges."
+      }
+    ],
+    "reasoning": "Verification: Silver specific heat236 and tungsten134 J/(kgK) come from Table18-3.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-71",
+    "parts": [
+      {
+        "label": "a · WA for N=50",
+        "type": "numeric",
+        "answer": 126410606437752.0,
+        "unit": "microstates",
+        "tolerance": 1264106064377.52,
+        "explanation": "WA=C(N,N/2)."
+      },
+      {
+        "label": "b · WB for N=50",
+        "type": "numeric",
+        "answer": 47129212243960.0,
+        "unit": "microstates",
+        "tolerance": 471292122439.60004,
+        "explanation": "WB=C(N,.6N)."
+      },
+      {
+        "label": "c · Time ratio fB/A for N=50",
+        "type": "numeric",
+        "answer": 0.37282640730916594,
+        "unit": "dimensionless",
+        "tolerance": 0.0037282640730916597,
+        "explanation": "Equal microstate probabilities give time fraction ratio WB/WA."
+      },
+      {
+        "label": "d · WA for N=100",
+        "type": "numeric",
+        "answer": 1.008913445455642e+29,
+        "unit": "microstates",
+        "tolerance": 1.008913445455642e+27,
+        "explanation": "WA=C(N,N/2)."
+      },
+      {
+        "label": "e · WB for N=100",
+        "type": "numeric",
+        "answer": 1.374623414580281e+28,
+        "unit": "microstates",
+        "tolerance": 1.374623414580281e+26,
+        "explanation": "WB=C(N,.6N)."
+      },
+      {
+        "label": "f · Time ratio fB/A for N=100",
+        "type": "numeric",
+        "answer": 0.13624790320437039,
+        "unit": "dimensionless",
+        "tolerance": 0.0013624790320437038,
+        "explanation": "Equal microstate probabilities give time fraction ratio WB/WA."
+      },
+      {
+        "label": "g · WA for N=200",
+        "type": "numeric",
+        "answer": 9.054851465610328e+58,
+        "unit": "microstates",
+        "tolerance": 9.054851465610328e+56,
+        "explanation": "WA=C(N,N/2)."
+      },
+      {
+        "label": "h · WB for N=200",
+        "type": "numeric",
+        "answer": 1.6472786524517626e+57,
+        "unit": "microstates",
+        "tolerance": 1.6472786524517625e+55,
+        "explanation": "WB=C(N,.6N)."
+      },
+      {
+        "label": "i · Time ratio fB/A for N=200",
+        "type": "numeric",
+        "answer": 0.01819222169141049,
+        "unit": "dimensionless",
+        "tolerance": 0.0001819222169141049,
+        "explanation": "Equal microstate probabilities give time fraction ratio WB/WA."
+      },
+      {
+        "label": "j · Time-ratio trend with N",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Increases",
+          "Remains constant"
+        ],
+        "explanation": "A 60:40 imbalance becomes progressively less likely relative to 50:50 as N increases."
+      }
+    ],
+    "reasoning": "Verification: Probability ratios equal multiplicity ratios; factorial arithmetic avoids catastrophic overflow.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-72",
+    "parts": [
+      {
+        "label": "Power plant efficiency",
+        "type": "numeric",
+        "answer": 25.375939849624057,
+        "unit": "%",
+        "tolerance": 0.2537593984962406,
+        "explanation": "Fuel heat input rate=(380000kg/3600s)(28MJ/kg); eta=Pout/Qindot."
+      }
+    ],
+    "reasoning": "Verification: Metric tons mean1000kg and hour-to-second conversion is required.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-73",
+    "parts": [
+      {
+        "label": "a · Heat rejected to room",
+        "type": "numeric",
+        "answer": 42.608695652173914,
+        "unit": "kJ",
+        "tolerance": 0.42608695652173917,
+        "explanation": "QH=QL+W."
+      },
+      {
+        "label": "b · Work supplied",
+        "type": "numeric",
+        "answer": 7.608695652173914,
+        "unit": "kJ",
+        "tolerance": 0.07608695652173914,
+        "explanation": "W=QL/K."
+      }
+    ],
+    "reasoning": "Verification: QH=QL+QL/K.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-74",
+    "parts": [
+      {
+        "label": "Signed cold-reservoir temperature change",
+        "type": "numeric",
+        "answer": -40.0,
+        "unit": "K",
+        "tolerance": 0.4,
+        "explanation": "TL=TH(1−eta), with hot temperaturefixed."
+      }
+    ],
+    "reasoning": "Verification: WithTH fixed, loweringTL by40K raises efficiency by.10.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-75",
+    "parts": [
+      {
+        "label": "a · Least multiplicity A",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "All threeparticles in one half."
+      },
+      {
+        "label": "b · Least multiplicity B",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "All fiveparticles in one half."
+      },
+      {
+        "label": "c · Greatest multiplicity A",
+        "type": "numeric",
+        "answer": 3.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "The1:2or2:1configurationhasC(3,1)."
+      },
+      {
+        "label": "d · Greatest multiplicity B",
+        "type": "numeric",
+        "answer": 10.0,
+        "unit": "microstates",
+        "tolerance": 0,
+        "explanation": "The2:3or3:2configurationhasC(5,2)."
+      },
+      {
+        "label": "e · Greatest entropy A",
+        "type": "numeric",
+        "answer": 1.5160849583619915e-23,
+        "unit": "J/K",
+        "tolerance": 1.5160849583619916e-25,
+        "explanation": "Smax=k ln3."
+      },
+      {
+        "label": "f · Greatest entropy B",
+        "type": "numeric",
+        "answer": 3.1775674283317835e-23,
+        "unit": "J/K",
+        "tolerance": 3.1775674283317834e-25,
+        "explanation": "Smax=k ln10."
+      }
+    ],
+    "reasoning": "Verification: For oddN two central configurations tie for the largest multiplicity.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-76",
+    "parts": [
+      {
+        "label": "a · Net heat per cycle",
+        "type": "numeric",
+        "answer": 75.0,
+        "unit": "J",
+        "tolerance": 0.75,
+        "explanation": "ClockwiseT-Srectanglearea=(400−250)(.60−.10)."
+      },
+      {
+        "label": "b · Net work done",
+        "type": "numeric",
+        "answer": 75.0,
+        "unit": "J",
+        "tolerance": 0.75,
+        "explanation": "Full cycle ΔU=0so Wnet=Qnet."
+      }
+    ],
+    "reasoning": "Verification: The plotted entropy span is.60−.10=.50J/K, not.60J/K.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-77",
+    "parts": [
+      {
+        "label": "Efficiency–refrigerator COP relation",
+        "type": "choice",
+        "answer": "K=(1−η)/η",
+        "options": [
+          "K=(1−η)/η",
+          "K=η/(1−η)",
+          "K=1/η"
+        ],
+        "explanation": "eta=1−TL/TH andK=TL/(TH−TL); eliminationgives theresult."
+      }
+    ],
+    "reasoning": "Verification: Carnot K=TL/(TH−TL)=1/eta−1.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-78",
+    "parts": [
+      {
+        "label": "a · Heat input rate",
+        "type": "numeric",
+        "answer": 4664.374999999999,
+        "unit": "W",
+        "tolerance": 46.64374999999999,
+        "explanation": "QHdot=P/eta, eta=1−TC/TH."
+      },
+      {
+        "label": "b · Exhaust heat rate",
+        "type": "numeric",
+        "answer": 4164.374999999999,
+        "unit": "W",
+        "tolerance": 41.64374999999999,
+        "explanation": "QLdot=QHdot−P."
+      }
+    ],
+    "reasoning": "Verification: The two heat rates differ by500W.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-problems-79",
+    "parts": [
+      {
+        "label": "Theoretical refrigerator COP",
+        "type": "numeric",
+        "answer": 6.67051282051282,
+        "unit": "dimensionless",
+        "tolerance": 0.0667051282051282,
+        "explanation": "Kmax=TL/(TH−TL), with −13°C converted to 260.15 K."
+      }
+    ],
+    "reasoning": "Verification: Kelvin temperatures giveK=260.15/39.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-questions-1",
+    "parts": [
+      {
+        "label": "Entropy-change ranking",
+        "type": "choice",
+        "answer": "b > a > c > d",
+        "options": [
+          "b > a > c > d",
+          "a > b > d > c",
+          "b = a > c = d"
+        ],
+        "explanation": "At equal final temperatures, the larger final volume gives larger entropy; a,b share T+ΔT and c,d share T−ΔT."
+      }
+    ],
+    "reasoning": "Use ΔS=nCV ln(Tf/Ti)+nR ln(Vf/Vi); the source isotherms establish both pairwise temperature groups.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-questions-2",
+    "parts": [
+      {
+        "label": "Partner for A=8 J/K",
+        "type": "choice",
+        "answer": "B=−5 J/K",
+        "options": [
+          "B=−5 J/K",
+          "B=−8 J/K",
+          "B=−2 J/K"
+        ],
+        "explanation": "Strict positive total entropy rules out an8−8 pairing."
+      },
+      {
+        "label": "Partner for A=5 J/K",
+        "type": "choice",
+        "answer": "B=−3 J/K",
+        "options": [
+          "B=−3 J/K",
+          "B=−5 J/K",
+          "B=−8 J/K"
+        ],
+        "explanation": "After assigning −8to 9 and−5to 8, −3 must pair with 5."
+      },
+      {
+        "label": "Partner for A=3 J/K",
+        "type": "choice",
+        "answer": "B=−2 J/K",
+        "options": [
+          "B=−2 J/K",
+          "B=−3 J/K",
+          "B=−5 J/K"
+        ],
+        "explanation": "Only−2 makes positive total entropy with 3."
+      },
+      {
+        "label": "Partner for A=9 J/K",
+        "type": "choice",
+        "answer": "B=−8 J/K",
+        "options": [
+          "B=−8 J/K",
+          "B=−2 J/K",
+          "B=−3 J/K"
+        ],
+        "explanation": "Only9 can pair with −8 and leave positive total entropy."
+      }
+    ],
+    "reasoning": "Irreversible equilibration of unequal-temperature isolated blocks gives strictly positive entropy generation; assigning the most restrictive negative values first makes the match unique.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-questions-3",
+    "parts": [
+      {
+        "label": "Entropy change under the stated adiabatic compression",
+        "type": "choice",
+        "answer": "Zero if reversible; positive if irreversible",
+        "options": [
+          "Zero if reversible; positive if irreversible",
+          "Always zero solely because no heat enters",
+          "Always negative because volume decreases"
+        ],
+        "explanation": "Adiabatic meansQ=0, while ΔS=entropy generated; generation vanishes only for reversible compression."
+      }
+    ],
+    "reasoning": "Insulation does not establish reversibility. If the usual quasistatic reversible compression is intended, ΔS=0; a dissipative compression generates entropy.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ],
+    "scope": "The question does not explicitly state reversibility. The check distinguishes reversible adiabatic compression from irreversible insulated compression."
+  },
+  {
+    "id": "physics-chapter-20-questions-4",
+    "parts": [
+      {
+        "label": "a · Isothermal expansion",
+        "type": "choice",
+        "answer": "A→E",
+        "options": [
+          "A→E",
+          "A→B",
+          "A→F"
+        ],
+        "explanation": "The horizontal T-V line keeps temperatureT₀."
+      },
+      {
+        "label": "b · Isobaric expansion",
+        "type": "choice",
+        "answer": "A→C",
+        "options": [
+          "A→C",
+          "A→D",
+          "A→E"
+        ],
+        "explanation": "For ideal gas at fixed p, T/V stays constant; doublingV doublesT."
+      },
+      {
+        "label": "c · Adiabatic expansion",
+        "type": "choice",
+        "answer": "A→F",
+        "options": [
+          "A→F",
+          "A→B",
+          "A→D"
+        ],
+        "explanation": "Monatomicγ=5/3 givesTf/T₀=2^(−2/3)≈.630."
+      },
+      {
+        "label": "d · Processes with decreasing gas entropy",
+        "type": "choice",
+        "answer": "None; A→F is isentropic and the other four increase entropy",
+        "options": [
+          "None; A→F is isentropic and the other four increase entropy",
+          "A→E and A→F",
+          "Only A→F"
+        ],
+        "explanation": "ΔS=nR[1.5 ln(Tf/T₀)+ln2]; this is zero forF andpositive forE,D,C,B."
+      }
+    ],
+    "reasoning": "The endpoint of each reversible path determines entropy regardless of its detailed curve.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-questions-5",
+    "parts": [
+      {
+        "label": "Entropy-change ranking",
+        "type": "choice",
+        "answer": "a = b = c = d",
+        "options": [
+          "a = b = c = d",
+          "a > b > c > d",
+          "d > c > b > a"
+        ],
+        "explanation": "Each experiment has the same mole amount and the same initial/final volumes; ΔS=nR ln(Vf/Vi) is temperature independent."
+      }
+    ],
+    "reasoning": "The distinct isotherms changeQ and T in the same ratio, so Qrev/T is equal.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-questions-6",
+    "parts": [
+      {
+        "label": "Time needed to count central-configuration microstates",
+        "type": "choice",
+        "answer": "Much more than a year",
+        "options": [
+          "Much more than a year",
+          "About one day",
+          "About one year"
+        ],
+        "explanation": "C(100,50)≈1.01×10²⁹; at10¹¹/s this takes≈3.2×10¹⁰ years."
+      }
+    ],
+    "reasoning": "The count is combinatorial, not merely100 atomic positions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-questions-7",
+    "parts": [
+      {
+        "label": "a · Carnot total entropy per cycle",
+        "type": "choice",
+        "answer": "Unchanged",
+        "options": [
+          "Unchanged",
+          "Increases",
+          "Decreases"
+        ],
+        "explanation": "The reversible cycle generateszero total entropy."
+      },
+      {
+        "label": "b · Real-device total entropy per cycle",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Unchanged",
+          "Decreases"
+        ],
+        "explanation": "Irreversibilities generatepositive entropy."
+      },
+      {
+        "label": "c · Hypothetical perfect-device total entropy per cycle",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Unchanged",
+          "Increases"
+        ],
+        "explanation": "The impossible device would violate the second law by reducing total entropy."
+      }
+    ],
+    "reasoning": "For a cyclic engine, the working fluid itself returns to its initial entropy. The question compares total entropy of the device plus reservoirs.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ],
+    "scope": "The comparison concerns working fluid plus reservoirs. The working-fluid entropy alone is unchanged after every complete cycle."
+  },
+  {
+    "id": "physics-chapter-20-questions-8",
+    "parts": [
+      {
+        "label": "Work-magnitude ranking",
+        "type": "choice",
+        "answer": "c > a > b",
+        "options": [
+          "c > a > b",
+          "c > b > a",
+          "a > b > c"
+        ],
+        "explanation": "Efficiencies are1−400/600=1/3,1−400/500=.20,1−500/600=1/6; heat input is equal."
+      }
+    ],
+    "reasoning": "Equal QH makes work proportional toCarnot efficiency.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-questions-9",
+    "parts": [
+      {
+        "label": "Engine A law violations",
+        "type": "choice",
+        "answer": "First law only",
+        "options": [
+          "First law only",
+          "Second law only",
+          "Both laws"
+        ],
+        "explanation": "QH+QL=25J differs fromW40J; reservoirentropy175/300−200/400 is positive."
+      },
+      {
+        "label": "Engine B law violations",
+        "type": "choice",
+        "answer": "Both laws",
+        "options": [
+          "Both laws",
+          "First law only",
+          "Neither law"
+        ],
+        "explanation": "Net heat 300J differs fromW400J; reservoirentropy200/300−500/400 is negative."
+      },
+      {
+        "label": "Engine C law violations",
+        "type": "choice",
+        "answer": "Second law only",
+        "options": [
+          "Second law only",
+          "First law only",
+          "Neither law"
+        ],
+        "explanation": "Heat600−200 equalswork400J, but efficiency2/3 exceedsCarnot1/4."
+      },
+      {
+        "label": "Engine D law violations",
+        "type": "choice",
+        "answer": "Neither law",
+        "options": [
+          "Neither law",
+          "Both laws",
+          "Second law only"
+        ],
+        "explanation": "100−90=10J andentropy90/300−100/400=.05J/K>0."
+      }
+    ],
+    "reasoning": "Check energy conservation and reservoir entropy separately rather than using only claimed efficiency when energy accounting already fails.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ]
+  },
+  {
+    "id": "physics-chapter-20-questions-10",
+    "parts": [
+      {
+        "label": "a · Carnot total entropy per cycle",
+        "type": "choice",
+        "answer": "Unchanged",
+        "options": [
+          "Unchanged",
+          "Increases",
+          "Decreases"
+        ],
+        "explanation": "The reversible cycle generateszero total entropy."
+      },
+      {
+        "label": "b · Real-device total entropy per cycle",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Unchanged",
+          "Decreases"
+        ],
+        "explanation": "Irreversibilities generatepositive entropy."
+      },
+      {
+        "label": "c · Hypothetical perfect-device total entropy per cycle",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Unchanged",
+          "Increases"
+        ],
+        "explanation": "The impossible device would violate the second law by reducing total entropy."
+      }
+    ],
+    "reasoning": "For a cyclic refrigerator, the working fluid itself returns to its initial entropy. The question compares total entropy of the device plus reservoirs.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Temperatures in entropy logarithms and Carnot ratios are absolute kelvin; use R=8.314 J/(mol K).",
+      "Use reversible ideal-gas/Carnot relations only where the source specifies them; heat into gas and work done by gas are positive."
+    ],
+    "scope": "The comparison concerns working fluid plus reservoirs. The working-fluid entropy alone is unchanged after every complete cycle."
+  }
+]
