@@ -1,6 +1,6 @@
 # Glasshouse accounts — deployment checkpoint
 
-Status: implementation tested locally; **live accounts and email delivery are not enabled**. `site/account-config.js` remains disabled. No Supabase project URL, publishable key, owner notification address or email delivery credentials have been supplied. Installing the connector exposed its skill, but no project-management tools in this session.
+Status: Glasshouse project `fkafhtggxrfxpadkmuwf` created; accounts migration applied and notification function deployed. Browser integration enabled after the owner confirmed custom SMTP and both email-code templates were saved. Live user signup/restore still needs an end-to-end check. Owner notification delivery remains pending Edge Function secrets and scheduling. The notification queue intentionally has no client RLS policies (deny all); its informational advisor notice is expected.
 
 ## Activate
 
