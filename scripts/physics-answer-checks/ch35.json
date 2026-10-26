@@ -1,0 +1,3245 @@
+[
+  {
+    "id": "physics-chapter-35-problems-1",
+    "parts": [
+      {
+        "label": "a · Least mirror separation",
+        "type": "numeric",
+        "answer": 1.55e-07,
+        "unit": "m",
+        "tolerance": 1.24e-09,
+        "explanation": "The extra round trip is2L; destructive interference requires2L=λ/2."
+      },
+      {
+        "label": "b · Further mirror displacement",
+        "type": "numeric",
+        "answer": 3.1e-07,
+        "unit": "m",
+        "tolerance": 2.48e-09,
+        "explanation": "Adjacent destructive states differ by one full extra wavelength,2ΔL=λ."
+      }
+    ],
+    "reasoning": "The paths have reflection counts of the same parity, so only the2L geometric difference changes their relative phase. Verification: The extra round trip is2L; destructive interference requires2L=λ/2.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-2",
+    "parts": [
+      {
+        "label": "a · First L/λ",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "dimensionless",
+        "tolerance": 0.002,
+        "explanation": "Initialπ phase plus4πL/λ must equal an integer2π."
+      },
+      {
+        "label": "b · Second L/λ",
+        "type": "numeric",
+        "answer": 0.75,
+        "unit": "dimensionless",
+        "tolerance": 0.006,
+        "explanation": "Odd half-wavelength extra round trips recur in stepsΔL=λ/2."
+      },
+      {
+        "label": "c · Third L/λ",
+        "type": "numeric",
+        "answer": 1.25,
+        "unit": "dimensionless",
+        "tolerance": 0.01,
+        "explanation": "L/λ=(2m+1)/4."
+      }
+    ],
+    "reasoning": "Solve the complete initial-plus-propagation phase condition. Verification: Initialπ phase plus4πL/λ must equal an integer2π.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-3",
+    "parts": [
+      {
+        "label": "a · Layer thickness",
+        "type": "numeric",
+        "answer": 3.5969017138768345e-06,
+        "unit": "m",
+        "tolerance": 2.8775213711014676e-08,
+        "explanation": "Δφ=2π(n₁−n₂)L/λ."
+      },
+      {
+        "label": "b · Interference",
+        "type": "choice",
+        "answer": "Intermediate, closer to constructive",
+        "options": [
+          "Intermediate, closer to constructive",
+          "Fully constructive",
+          "Fully destructive"
+        ],
+        "explanation": "I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information."
+      }
+    ],
+    "reasoning": "The optical-path difference isΔnL, not the fullnL. Verification: Δφ=2π(n₁−n₂)L/λ.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-4",
+    "parts": [
+      {
+        "label": "Speed in material1",
+        "type": "numeric",
+        "answer": 200000000.0,
+        "unit": "m/s",
+        "tolerance": 1600000.0,
+        "explanation": "The graph passesθ₂=30° atn₂≈1.50; Snell givesn₁sin30°=n₂sin30°."
+      }
+    ],
+    "reasoning": "Use the original graph crossing rather than an endpoint interpolation. Verification: The graph passesθ₂=30° atn₂≈1.50; Snell givesn₁sin30°=n₂sin30°.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ],
+    "scope": "Graph reading: n₁≈1.50; modest reading precision is accepted."
+  },
+  {
+    "id": "physics-chapter-35-problems-5",
+    "parts": [
+      {
+        "label": "Speed advantage of sapphire",
+        "type": "numeric",
+        "answer": 45524583.27496849,
+        "unit": "m/s",
+        "tolerance": 364196.66619974794,
+        "explanation": "Use Table33-1:n_sapphire=1.77,n_diamond=2.42; Δv=c/n_s−c/n_d."
+      }
+    ],
+    "reasoning": "Frequency does not change at an interface. Verification: Use Table33-1:n_sapphire=1.77,n_diamond=2.42; Δv=c/n_s−c/n_d.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Table33-1 indices1.77 and2.42 for the listed materials."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-6",
+    "parts": [
+      {
+        "label": "a · Frequency",
+        "type": "numeric",
+        "answer": 509337860780984.75,
+        "unit": "Hz",
+        "tolerance": 4074702886247.878,
+        "explanation": "f=c/λ_air."
+      },
+      {
+        "label": "b · Wavelength in glass",
+        "type": "numeric",
+        "answer": 3.875e-07,
+        "unit": "m",
+        "tolerance": 3.1e-09,
+        "explanation": "λ_glass=λ_air/n."
+      },
+      {
+        "label": "c · Speed in glass",
+        "type": "numeric",
+        "answer": 197368421.0526316,
+        "unit": "m/s",
+        "tolerance": 1578947.3684210528,
+        "explanation": "v=fλ_glass=c/n."
+      }
+    ],
+    "reasoning": "The frequency is the same inside and outside the glass. Verification: f=c/λ_air.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-7",
+    "parts": [
+      {
+        "label": "Index of refraction",
+        "type": "numeric",
+        "answer": 1.5625,
+        "unit": "dimensionless",
+        "tolerance": 0.0125,
+        "explanation": "n=c/v."
+      }
+    ],
+    "reasoning": "Index is a dimensionless ratio of speeds. Verification: n=c/v.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-8",
+    "parts": [
+      {
+        "label": "a · Earlier pulse",
+        "type": "choice",
+        "answer": "Pulse2",
+        "options": [
+          "Pulse2",
+          "Pulse1",
+          "They arrive together"
+        ],
+        "explanation": "Optical lengths are6.30L for pulse2 and6.33L for pulse1."
+      },
+      {
+        "label": "b · Time difference in L/c",
+        "type": "numeric",
+        "answer": 0.03,
+        "unit": "dimensionless",
+        "tolerance": 0.00024,
+        "explanation": "(2n₅+n₆+n₇)−(n₁+n₂+n₃+n₄)=.03."
+      }
+    ],
+    "reasoning": "Use the2L thickness of material5 in the lower path. Verification: Optical lengths are6.30L for pulse2 and6.33L for pulse1.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-9",
+    "parts": [
+      {
+        "label": "a · Least thickness",
+        "type": "numeric",
+        "answer": 1.55e-06,
+        "unit": "m",
+        "tolerance": 1.24e-08,
+        "explanation": "Initial half-cycle is cancelled by ΔnL/λ=1/2."
+      },
+      {
+        "label": "b · Second thickness",
+        "type": "numeric",
+        "answer": 4.6499999999999995e-06,
+        "unit": "m",
+        "tolerance": 3.7199999999999996e-08,
+        "explanation": "The next allowed optical-path difference is3λ/2."
+      }
+    ],
+    "reasoning": "Initially out-of-phase waves become in phase for an odd half-cycle propagation difference. Verification: Initial half-cycle is cancelled by ΔnL/λ=1/2.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-10",
+    "parts": [
+      {
+        "label": "a · Exit angle",
+        "type": "numeric",
+        "answer": 50,
+        "unit": "degrees",
+        "tolerance": 0.4,
+        "explanation": "For parallel interfaces,n sinθ is conserved; final air equals initial air."
+      },
+      {
+        "label": "b · Time through layer3",
+        "type": "numeric",
+        "answer": 1.423152972521133e-13,
+        "unit": "s",
+        "tolerance": 1.1385223780169064e-15,
+        "explanation": "Physical path in layer3 isL₃/cosθ₃; θ₃=arcsin(sin50°/1.45)."
+      }
+    ],
+    "reasoning": "The source thickness is25μm, not25mm; account for oblique travel. Verification: For parallel interfaces,n sinθ is conserved; final air equals initial air.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-11",
+    "parts": [
+      {
+        "label": "a · Phase difference in wavelength units",
+        "type": "numeric",
+        "answer": 1.7,
+        "unit": "cycles",
+        "tolerance": 0.0136,
+        "explanation": "ΔnL/λ=.10×8.50μm/.500μm."
+      },
+      {
+        "label": "b · Phase difference in wavelength units",
+        "type": "numeric",
+        "answer": 1.7,
+        "unit": "cycles",
+        "tolerance": 0.0136,
+        "explanation": "Only the index difference matters, again.10."
+      },
+      {
+        "label": "c · Phase difference in wavelength units",
+        "type": "numeric",
+        "answer": 1.3,
+        "unit": "cycles",
+        "tolerance": 0.010400000000000001,
+        "explanation": ".20×3.25μm/.500μm=1.30."
+      },
+      {
+        "label": "d · Brightness ranking",
+        "type": "choice",
+        "answer": "a = b = c",
+        "options": [
+          "a = b = c",
+          "a = b > c",
+          "c > a = b"
+        ],
+        "explanation": "cos²(1.7π)=cos²(1.3π); both are symmetric around1.5cycles."
+      }
+    ],
+    "reasoning": "The shared wavelength and equal amplitude make all three reduced-phase intensities equal. Verification: ΔnL/λ=.10×8.50μm/.500μm.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-12",
+    "parts": [
+      {
+        "label": "a · Least L",
+        "type": "numeric",
+        "answer": 5.25e-08,
+        "unit": "m",
+        "tolerance": 4.2e-10,
+        "explanation": "Trace the original folded paths: ray1 has4L additional travel, so4L=λ/2."
+      },
+      {
+        "label": "b · Second least L",
+        "type": "numeric",
+        "answer": 1.575e-07,
+        "unit": "m",
+        "tolerance": 1.26e-09,
+        "explanation": "The next destructive path difference is3λ/2."
+      }
+    ],
+    "reasoning": "Both paths have even relative reflection parity; the extra geometric length is4L. Verification: Trace the original folded paths: ray1 has4L additional travel, so4L=λ/2.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-13",
+    "parts": [
+      {
+        "label": "a · Phase difference in wavelength units",
+        "type": "numeric",
+        "answer": 0.8333333333333346,
+        "unit": "cycles",
+        "tolerance": 0.006666666666666677,
+        "explanation": "Compare equal total air-path baselines: ΔOPL=(n₂−1)L₂−(n₁−1)L₁."
+      },
+      {
+        "label": "b · Interference",
+        "type": "choice",
+        "answer": "Intermediate, closer to constructive",
+        "options": [
+          "Intermediate, closer to constructive",
+          "Fully constructive",
+          "Fully destructive"
+        ],
+        "explanation": "I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information."
+      }
+    ],
+    "reasoning": "The unequal material lengths require subtracting the displaced air paths. Verification: Compare equal total air-path baselines: ΔOPL=(n₂−1)L₂−(n₁−1)L₁.",
+    "sourcePages": [
+      28,
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-14",
+    "parts": [
+      {
+        "label": "a · Angular separation",
+        "type": "numeric",
+        "answer": 0.010000166674167114,
+        "unit": "rad",
+        "tolerance": 8.000133339333691e-05,
+        "explanation": "sinθ=λ/d=.01."
+      },
+      {
+        "label": "b · Screen separation",
+        "type": "numeric",
+        "answer": 0.005000250018751563,
+        "unit": "m",
+        "tolerance": 4.0002000150012504e-05,
+        "explanation": "y=Dtanθ withD=.500m."
+      }
+    ],
+    "reasoning": "The exact trigonometric result differs negligibly from the small-angle approximation. Verification: sinθ=λ/d=.01.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-15",
+    "parts": [
+      {
+        "label": "Wavelength",
+        "type": "numeric",
+        "answer": 6.479000000000001e-07,
+        "unit": "m",
+        "tolerance": 5.183200000000001e-09,
+        "explanation": "Near the center, angular fringe separation is proportional to wavelength."
+      }
+    ],
+    "reasoning": "The slit separation is unchanged. Verification: Near the center, angular fringe separation is proportional to wavelength.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-16",
+    "parts": [
+      {
+        "label": "Angular separation in water",
+        "type": "numeric",
+        "answer": 0.15037593984962405,
+        "unit": "degrees",
+        "tolerance": 0.0012030075187969924,
+        "explanation": "The wavelength, hence fringe angle, is divided byn=1.33."
+      }
+    ],
+    "reasoning": "Frequency remains unchanged on immersion. Verification: The wavelength, hence fringe angle, is divided byn=1.33.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-17",
+    "parts": [
+      {
+        "label": "Maxima on full circle",
+        "type": "numeric",
+        "answer": 16,
+        "unit": "points",
+        "tolerance": 0,
+        "explanation": "Path differences mλ withm=−4..4: each interior value occurs twice and two endpoint values once."
+      }
+    ],
+    "reasoning": "The two axial maxima must not be double-counted. Verification: Path differences mλ withm=−4..4: each interior value occurs twice and two endpoint values once.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-18",
+    "parts": [
+      {
+        "label": "a · Path difference in wavelengths",
+        "type": "numeric",
+        "answer": 2.900330815401671,
+        "unit": "cycles",
+        "tolerance": 0.02320264652321337,
+        "explanation": "Δr=d sinθ; source separation4.24μm."
+      },
+      {
+        "label": "b · Phase difference",
+        "type": "numeric",
+        "answer": 18.223315965291967,
+        "unit": "rad",
+        "tolerance": 0.14578652772233575,
+        "explanation": "Δφ=2πΔr/λ."
+      },
+      {
+        "label": "c · Position in interference pattern",
+        "type": "choice",
+        "answer": "Between third minimum and third maximum",
+        "options": [
+          "Between third minimum and third maximum",
+          "At third maximum",
+          "Between second maximum and third minimum"
+        ],
+        "explanation": "Δr/λ≈2.900 lies between2.5 and3.0."
+      }
+    ],
+    "reasoning": "Keep the full fringe order rather than reducing phase before identifying neighboring fringes. Verification: Δr=d sinθ; source separation4.24μm.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-19",
+    "parts": [
+      {
+        "label": "Bright fringe separation",
+        "type": "numeric",
+        "answer": 0.0022500000000000003,
+        "unit": "m",
+        "tolerance": 1.8000000000000004e-05,
+        "explanation": "Δy=λD/d for small angles."
+      }
+    ],
+    "reasoning": "The slit separation is1.20mm. Verification: Δy=λD/d for small angles.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-20",
+    "parts": [
+      {
+        "label": "a · Third-order angle",
+        "type": "numeric",
+        "answer": 0.21596049868495623,
+        "unit": "rad",
+        "tolerance": 0.00172768398947965,
+        "explanation": "sinθ=3λ/d with d=7.70μm."
+      },
+      {
+        "label": "b · Third-order angle",
+        "type": "numeric",
+        "answer": 12.373625116188558,
+        "unit": "degrees",
+        "tolerance": 0.09898900092950846,
+        "explanation": "Convert the same angle to degrees."
+      }
+    ],
+    "reasoning": "The source uses micrometres, not millimetres. Verification: sinθ=3λ/d with d=7.70μm.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-21",
+    "parts": [
+      {
+        "label": "Separation of third maxima",
+        "type": "numeric",
+        "answer": 7.2e-05,
+        "unit": "m",
+        "tolerance": 5.760000000000001e-07,
+        "explanation": "Δy=mD(λ₂−λ₁)/d; D=1m."
+      }
+    ],
+    "reasoning": "Each wavelength has its own fringe spacing. Verification: Δy=mD(λ₂−λ₁)/d; D=1m.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-22",
+    "parts": [
+      {
+        "label": "Source separation d/λ",
+        "type": "numeric",
+        "answer": 7.5,
+        "unit": "dimensionless",
+        "tolerance": 0.06,
+        "explanation": "For half-integerd/λ=k+1/2, the full-circle zero count is4k+2;30givesk=7."
+      }
+    ],
+    "reasoning": "Axial minima occur once each; off-axis equal-path-difference points occur in pairs. Verification: For half-integerd/λ=k+1/2, the full-circle zero count is4k+2;30givesk=7.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-23",
+    "parts": [
+      {
+        "label": "Detector phase difference",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "rad",
+        "tolerance": 0,
+        "explanation": "SourceA leads byπ/2 but its extra100m path isλ/4, cancelling that lead."
+      }
+    ],
+    "reasoning": "Source phase and propagation delay have opposite signs. Verification: SourceA leads byπ/2 but its extra100m path isλ/4, cancelling that lead.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-24",
+    "parts": [
+      {
+        "label": "a · xP/λ for least phase",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "The perpendicular bisector has equal source distances."
+      },
+      {
+        "label": "b · Least phase difference in wavelengths",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "cycles",
+        "tolerance": 0,
+        "explanation": "Equal distances and initially in-phase sources give zero."
+      },
+      {
+        "label": "c · Position of greatest phase difference",
+        "type": "choice",
+        "answer": "As xP tends to positive infinity",
+        "options": [
+          "As xP tends to positive infinity",
+          "At xP=0",
+          "At xP=3λ"
+        ],
+        "explanation": "The distance difference tends to the full source separation6λ."
+      },
+      {
+        "label": "d · Greatest phase difference in wavelengths",
+        "type": "numeric",
+        "answer": 6,
+        "unit": "cycles",
+        "tolerance": 0,
+        "explanation": "The limiting path difference is2d=6λ."
+      },
+      {
+        "label": "e · Phase difference at xP=6λ",
+        "type": "numeric",
+        "answer": 1.7079637833046242,
+        "unit": "cycles",
+        "tolerance": 0.013663710266436993,
+        "explanation": "Δr/λ=√(20²+9²)−√(20²+3²)."
+      },
+      {
+        "label": "f · Interference at xP=6λ",
+        "type": "choice",
+        "answer": "Intermediate, closer to destructive",
+        "options": [
+          "Intermediate, closer to destructive",
+          "Fully constructive",
+          "Fully destructive"
+        ],
+        "explanation": "I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information."
+      }
+    ],
+    "reasoning": "The maximum distance difference is approached only asymptotically. Verification: The perpendicular bisector has equal source distances.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ],
+    "scope": "Part(c) is an asymptotic maximum; no finite xP attains the full6λ path difference."
+  },
+  {
+    "id": "physics-chapter-35-problems-25",
+    "parts": [
+      {
+        "label": "Greatest xP for a minimum",
+        "type": "numeric",
+        "answer": 7.875e-06,
+        "unit": "m",
+        "tolerance": 6.3e-08,
+        "explanation": "Solve√(x²+d²)−x=λ/2; the smallest positive destructive path difference gives the farthest point."
+      }
+    ],
+    "reasoning": "The original source separation is2.70μm, not2.70mm. Verification: Solve√(x²+d²)−x=λ/2; the smallest positive destructive path difference gives the farthest point.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-26",
+    "parts": [
+      {
+        "label": "a · Missing visible interval lower boundary",
+        "type": "numeric",
+        "answer": 6e-07,
+        "unit": "m",
+        "tolerance": 4.8e-09,
+        "explanation": "d=4×450nm=1800nm; third-order light requiresλ≤d/3=600nm."
+      },
+      {
+        "label": "a · Missing visible interval upper boundary",
+        "type": "numeric",
+        "answer": 7e-07,
+        "unit": "m",
+        "tolerance": 5.6e-09,
+        "explanation": "The stated visible band ends at700nm."
+      },
+      {
+        "label": "b · Change slit separation",
+        "type": "choice",
+        "answer": "Decrease it",
+        "options": [
+          "Decrease it",
+          "Increase it",
+          "Keep it unchanged"
+        ],
+        "explanation": "To remove every fourth-order visible maximum require d<4×400nm."
+      },
+      {
+        "label": "c · Reduction threshold",
+        "type": "numeric",
+        "answer": 2e-07,
+        "unit": "m",
+        "tolerance": 1.6e-09,
+        "explanation": "1800nm−4×400nm=200nm; reduction must exceed this threshold to exclude the400nm grazing maximum."
+      }
+    ],
+    "reasoning": "Visible wavelengths in(600,700]nm cannot reach a third-order maximum. Verification: d=4×450nm=1800nm; third-order light requiresλ≤d/3=600nm.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ],
+    "scope": "The missing interval is600nm<λ≤700nm. Part(c) checks the200nm threshold; a strict reduction greater than200nm removes even the400nm grazing fourth-order maximum."
+  },
+  {
+    "id": "physics-chapter-35-problems-27",
+    "parts": [
+      {
+        "label": "Mica thickness",
+        "type": "numeric",
+        "answer": 6.63793103448276e-06,
+        "unit": "m",
+        "tolerance": 5.310344827586208e-08,
+        "explanation": "The inserted plate contributes(n−1)t=7λ."
+      }
+    ],
+    "reasoning": "Subtract the air path replaced by mica. Verification: The inserted plate contributes(n−1)t=7λ.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-28",
+    "parts": [
+      {
+        "label": "Farthest destructive x",
+        "type": "numeric",
+        "answer": 3.5e-06,
+        "unit": "m",
+        "tolerance": 2.8e-08,
+        "explanation": "Graphφ(0)=6π means source separation3λ; solve√(x²+d²)−x=λ/2."
+      }
+    ],
+    "reasoning": "The graph fixes separation before extrapolating beyond its plotted range. Verification: Graphφ(0)=6π means source separation3λ; solve√(x²+d²)−x=λ/2.",
+    "sourcePages": [
+      29,
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-29",
+    "parts": [
+      {
+        "label": "Resultant amplitude",
+        "type": "numeric",
+        "answer": 2.6457513110645907,
+        "unit": "same amplitude units",
+        "tolerance": 0.021166010488516726,
+        "explanation": "A²=A₁²+A₂²+2A₁A₂cosφ."
+      }
+    ],
+    "reasoning": "Use vector addition rather than adding amplitudes as scalars. Verification: A²=A₁²+A₂²+2A₁A₂cosφ.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-30",
+    "parts": [
+      {
+        "label": "Resultant amplitude",
+        "type": "numeric",
+        "answer": 17.394368761340843,
+        "unit": "same displacement units",
+        "tolerance": 0.13915495009072676,
+        "explanation": "Sum in-phase coefficients10+8cos30° and quadrature coefficient8sin30°."
+      },
+      {
+        "label": "Phase relative to sinωt",
+        "type": "numeric",
+        "answer": 13.294686193990028,
+        "unit": "degrees",
+        "tolerance": 0.10635748955192023,
+        "explanation": "tanφ=quadrature/in-phase coefficient; y=A sin(ωt+φ)."
+      }
+    ],
+    "reasoning": "The positive quadrature coefficient gives a phase lead. Verification: Sum in-phase coefficients10+8cos30° and quadrature coefficient8sin30°.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-31",
+    "parts": [
+      {
+        "label": "Resultant amplitude",
+        "type": "numeric",
+        "answer": 26.820536087471563,
+        "unit": "same displacement units",
+        "tolerance": 0.2145642886997725,
+        "explanation": "Add phasor Cartesian components for all three waves."
+      },
+      {
+        "label": "Resultant phase",
+        "type": "numeric",
+        "answer": 8.500299048259013,
+        "unit": "degrees",
+        "tolerance": 0.0680023923860721,
+        "explanation": "Use atan2 of summed quadrature and in-phase components in y=A sin(ωt+φ)."
+      }
+    ],
+    "reasoning": "The−45° contribution has a negative quadrature component. Verification: Add phasor Cartesian components for all three waves.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-32",
+    "parts": [
+      {
+        "label": "a · Resultant electric amplitude",
+        "type": "numeric",
+        "answer": 2.3252872472577424e-06,
+        "unit": "V/m",
+        "tolerance": 1.860229797806194e-08,
+        "explanation": "Two equal2.00μV/m fields give2E₀|cos(φ/2)|."
+      },
+      {
+        "label": "b · Intensity ratio",
+        "type": "numeric",
+        "answer": 0.3379350488912181,
+        "unit": "dimensionless",
+        "tolerance": 0.0027034803911297448,
+        "explanation": "IP/Icen=cos²(φ/2)."
+      },
+      {
+        "label": "c · Pattern position",
+        "type": "choice",
+        "answer": "Between sixth bright fringe and seventh dark fringe",
+        "options": [
+          "Between sixth bright fringe and seventh dark fringe",
+          "At sixth bright fringe",
+          "At seventh dark fringe"
+        ],
+        "explanation": "φ/(2π) lies between6 and6.5cycles."
+      },
+      {
+        "label": "d · Phasor angular speed",
+        "type": "numeric",
+        "answer": 1260000000000000.0,
+        "unit": "rad/s",
+        "tolerance": 10080000000000.0,
+        "explanation": "Both phasors rotate at their common angular frequency."
+      },
+      {
+        "label": "e · Principal angle between phasors",
+        "type": "numeric",
+        "answer": 1.900888156922484,
+        "unit": "rad",
+        "tolerance": 0.015207105255379872,
+        "explanation": "Subtract6full2πturns from39.6rad."
+      }
+    ],
+    "reasoning": "The source amplitudes are microvolts per meter, not millivolts. Verification: Two equal2.00μV/m fields give2E₀|cos(φ/2)|.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-33",
+    "parts": [
+      {
+        "label": "Resultant electric amplitude",
+        "type": "numeric",
+        "answer": 1.7071067811865474e-05,
+        "unit": "V/m",
+        "tolerance": 1.365685424949238e-07,
+        "explanation": "The±45° quadrature components cancel, leaving10+2×5cos45°μV/m."
+      },
+      {
+        "label": "Resultant phase",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "rad",
+        "tolerance": 0,
+        "explanation": "The remaining component is positive and in phase with the first sine."
+      }
+    ],
+    "reasoning": "The resultant remains sinusoidal at2.0×10¹⁴rad/s. Verification: The±45° quadrature components cancel, leaving10+2×5cos45°μV/m.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-34",
+    "parts": [
+      {
+        "label": "a · Pattern position",
+        "type": "choice",
+        "answer": "Between central maximum and first minimum",
+        "options": [
+          "Between central maximum and first minimum",
+          "At central maximum",
+          "Between first minimum and first side maximum"
+        ],
+        "explanation": "Δr/λ≈.397 is between0 and.5."
+      },
+      {
+        "label": "b · Intensity ratio",
+        "type": "numeric",
+        "answer": 0.10089804237518739,
+        "unit": "dimensionless",
+        "tolerance": 0.0008071843390014991,
+        "explanation": "Use sinθ=y/√(D²+y²), thenI/Icen=cos²(πd sinθ/λ)."
+      }
+    ],
+    "reasoning": "The slit separation is4.50μm. Verification: Δr/λ≈.397 is between0 and.5.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-35",
+    "parts": [
+      {
+        "label": "Minimum coating thickness",
+        "type": "numeric",
+        "answer": 1.2e-07,
+        "unit": "m",
+        "tolerance": 9.6e-10,
+        "explanation": "Both reflected waves flip phase, so quarter-wave optical thickness gives cancellation."
+      }
+    ],
+    "reasoning": "With two equal reflection flips, the propagation difference must beλ/2. Verification: Both reflected waves flip phase, so quarter-wave optical thickness gives cancellation.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-36",
+    "parts": [
+      {
+        "label": "a · Constructive wavelength count",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "wavelengths",
+        "tolerance": 0,
+        "explanation": "2nL=1680nm; λ=1680/(m+.5)nm gives672,480,373.33,305.45nm."
+      },
+      {
+        "label": "b · Destructive wavelength count",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "wavelengths",
+        "tolerance": 0,
+        "explanation": "λ=1680/m nm gives560,420,336nm within300–700nm."
+      }
+    ],
+    "reasoning": "One reflection phase flip reverses the integer versus half-integer conditions. Verification: 2nL=1680nm; λ=1680/(m+.5)nm gives672,480,373.33,305.45nm.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-37",
+    "parts": [
+      {
+        "label": "Minimum coating thickness",
+        "type": "numeric",
+        "answer": 7e-08,
+        "unit": "m",
+        "tolerance": 5.6e-10,
+        "explanation": "Air→coating flips, coating→glass does not; constructive reflection needs quarter-wave film thickness."
+      }
+    ],
+    "reasoning": "Only one of the two interface reflections flips phase. Verification: Air→coating flips, coating→glass does not; constructive reflection needs quarter-wave film thickness.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-38",
+    "parts": [
+      {
+        "label": "a · Longer reflected wavelength",
+        "type": "numeric",
+        "answer": 5.666666666666667e-07,
+        "unit": "m",
+        "tolerance": 4.533333333333333e-09,
+        "explanation": "Both reflections are from higher to lower index; brightδ=mλ withδ=2nL=1700nm."
+      },
+      {
+        "label": "b · Shorter reflected wavelength",
+        "type": "numeric",
+        "answer": 4.25e-07,
+        "unit": "m",
+        "tolerance": 3.4000000000000003e-09,
+        "explanation": "The two visible integer orders arem=3and4."
+      },
+      {
+        "label": "c · Shift on thermal expansion",
+        "type": "choice",
+        "answer": "Toward longer wavelengths",
+        "options": [
+          "Toward longer wavelengths",
+          "Toward shorter wavelengths",
+          "No wavelength change"
+        ],
+        "explanation": "At fixed interference order,λ is proportional to film thickness."
+      }
+    ],
+    "reasoning": "No relative reflection phase reversal occurs at these descending-index interfaces. Verification: Both reflections are from higher to lower index; brightδ=mλ withδ=2nL=1700nm.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-39",
+    "parts": [
+      {
+        "label": "a · Least film thickness",
+        "type": "numeric",
+        "answer": 1.1729323308270676e-07,
+        "unit": "m",
+        "tolerance": 9.38345864661654e-10,
+        "explanation": "One reflection flip:2nL=λ/2."
+      },
+      {
+        "label": "b · Second least thickness",
+        "type": "numeric",
+        "answer": 3.5187969924812027e-07,
+        "unit": "m",
+        "tolerance": 2.815037593984962e-09,
+        "explanation": "Next bright reflected order is3λ/2 optical path."
+      }
+    ],
+    "reasoning": "The two smallest positive half-integer optical thicknesses are used. Verification: One reflection flip:2nL=λ/2.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-40",
+    "parts": [
+      {
+        "label": "Least consistent film thickness",
+        "type": "numeric",
+        "answer": 8.4e-07,
+        "unit": "m",
+        "tolerance": 6.72e-09,
+        "explanation": "Two reflection flips:δ=(m+.5)600nm=k700nm; least solutionδ=2100nm andL=δ/(2n)."
+      },
+      {
+        "label": "All positive thickness solutions",
+        "type": "choice",
+        "answer": "L=(840+1680m)nm, m=0,1,2,…",
+        "options": [
+          "L=(840+1680m)nm, m=0,1,2,…",
+          "L=840m nm, m=1,2,3,…",
+          "L=(420+840m)nm, m=0,1,2,…"
+        ],
+        "explanation": "Solving7k=6m+3 givesk=3+6j; divideδ=700k nm by2.5."
+      }
+    ],
+    "reasoning": "The two wavelengths alone admit a discrete family; the conventional numeric answer is the least positive member. Verification: Two reflection flips:δ=(m+.5)600nm=k700nm; least solutionδ=2100nm andL=δ/(2n).",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ],
+    "scope": "The numeric field is the least positive thickness. Larger members of the displayed family satisfy the two stated wavelength conditions too."
+  },
+  {
+    "id": "physics-chapter-35-problems-41",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 1.6132075471698112e-07,
+        "unit": "m",
+        "tolerance": 1.290566037735849e-09,
+        "explanation": "2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.68,1.59,1.5) give 0 reflection phase reversals; reflected min requires half-integer optical-path orders. Verification: 2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-42",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 6.08e-07,
+        "unit": "m",
+        "tolerance": 4.8640000000000006e-09,
+        "explanation": "2n₂L=912nm; select the sole wavelength in400–700nm from the half-integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.55,1.6,1.33) give 1 reflection phase reversals; reflected max requires half-integer optical-path orders. Verification: 2n₂L=912nm; select the sole wavelength in400–700nm from the half-integer order family.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-43",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 5.6e-07,
+        "unit": "m",
+        "tolerance": 4.48e-09,
+        "explanation": "2n₂L=560nm; select the sole wavelength in400–700nm from the integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.6,1.4,1.8) give 1 reflection phase reversals; reflected min requires integer optical-path orders. Verification: 2n₂L=560nm; select the sole wavelength in400–700nm from the integer order family.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-44",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 3.28544776119403e-07,
+        "unit": "m",
+        "tolerance": 2.628358208955224e-09,
+        "explanation": "2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.5,1.34,1.42) give 1 reflection phase reversals; reflected max requires half-integer optical-path orders. Verification: 2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-45",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 4.78125e-07,
+        "unit": "m",
+        "tolerance": 3.8249999999999995e-09,
+        "explanation": "2n₂L=2.5λ, using the requested 3rd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.55,1.6,1.33) give 1 reflection phase reversals; reflected max requires half-integer optical-path orders. Verification: 2n₂L=2.5λ, using the requested 3rd least positive half-integer thickness.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-46",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 5.2788e-07,
+        "unit": "m",
+        "tolerance": 4.22304e-09,
+        "explanation": "2n₂L=1319.7nm; select the sole wavelength in400–700nm from the half-integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.68,1.59,1.5) give 0 reflection phase reversals; reflected min requires half-integer optical-path orders. Verification: 2n₂L=1319.7nm; select the sole wavelength in400–700nm from the half-integer order family.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-47",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 5.092e-07,
+        "unit": "m",
+        "tolerance": 4.0736000000000005e-09,
+        "explanation": "2n₂L=1018.4nm; select the sole wavelength in400–700nm from the integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.5,1.34,1.42) give 1 reflection phase reversals; reflected min requires integer optical-path orders. Verification: 2n₂L=1018.4nm; select the sole wavelength in400–700nm from the integer order family.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-48",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 3.3857142857142863e-07,
+        "unit": "m",
+        "tolerance": 2.708571428571429e-09,
+        "explanation": "2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.6,1.4,1.8) give 1 reflection phase reversals; reflected max requires half-integer optical-path orders. Verification: 2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-49",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 2.7285714285714285e-07,
+        "unit": "m",
+        "tolerance": 2.1828571428571428e-09,
+        "explanation": "2n₂L=2.5λ, using the requested 3rd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.32,1.75,1.39) give 1 reflection phase reversals; reflected max requires half-integer optical-path orders. Verification: 2n₂L=2.5λ, using the requested 3rd least positive half-integer thickness.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-50",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 2.476027397260274e-07,
+        "unit": "m",
+        "tolerance": 1.980821917808219e-09,
+        "explanation": "2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.4,1.46,1.75) give 2 reflection phase reversals; reflected min requires half-integer optical-path orders. Verification: 2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-51",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 4.0879999999999995e-07,
+        "unit": "m",
+        "tolerance": 3.2703999999999998e-09,
+        "explanation": "2n₂L=613.2nm; select the sole wavelength in400–700nm from the half-integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.4,1.46,1.75) give 2 reflection phase reversals; reflected min requires half-integer optical-path orders. Verification: 2n₂L=613.2nm; select the sole wavelength in400–700nm from the half-integer order family.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-52",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 4.5500000000000004e-07,
+        "unit": "m",
+        "tolerance": 3.6400000000000003e-09,
+        "explanation": "2n₂L=1137.5nm; select the sole wavelength in400–700nm from the half-integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.32,1.75,1.39) give 1 reflection phase reversals; reflected max requires half-integer optical-path orders. Verification: 2n₂L=1137.5nm; select the sole wavelength in400–700nm from the half-integer order family.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-53",
+    "parts": [
+      {
+        "label": "Film thickness",
+        "type": "numeric",
+        "answer": 3.383458646616541e-07,
+        "unit": "m",
+        "tolerance": 2.706766917293233e-09,
+        "explanation": "Adjacent reflected bright600nm and dark450nm orders haveδ=1.5×600=2×450=900nm."
+      }
+    ],
+    "reasoning": "The absence of an intervening minimum fixes the order, excluding higher common multiples. Verification: Adjacent reflected bright600nm and dark450nm orders haveδ=1.5×600=2×450=900nm.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-54",
+    "parts": [
+      {
+        "label": "Oil thickness",
+        "type": "numeric",
+        "answer": 6.730769230769231e-07,
+        "unit": "m",
+        "tolerance": 5.384615384615385e-09,
+        "explanation": "Both reflection flips cancel; consecutive dark conditionsδ=3.5×500nm=2.5×700nm."
+      }
+    ],
+    "reasoning": "The no-intermediate-minimum condition fixes consecutive half-integer orders. Verification: Both reflection flips cancel; consecutive dark conditionsδ=3.5×500nm=2.5×700nm.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-55",
+    "parts": [
+      {
+        "label": "a · Bright reflected wavelength",
+        "type": "numeric",
+        "answer": 5.52e-07,
+        "unit": "m",
+        "tolerance": 4.416e-09,
+        "explanation": "Both interface reflections flip; bright reflectionδ=mλ withm=2 in the visible band."
+      },
+      {
+        "label": "b · Bright transmitted wavelength",
+        "type": "numeric",
+        "answer": 4.416e-07,
+        "unit": "m",
+        "tolerance": 3.5328e-09,
+        "explanation": "Transmission maximum complements reflection minimum:δ=(m+.5)λ; visible order2.5."
+      }
+    ],
+    "reasoning": "Reflection and transmission interference extrema are complementary in the lossless film. Verification: Both interface reflections flip; bright reflectionδ=mλ withm=2 in the visible band.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-56",
+    "parts": [
+      {
+        "label": "Destructive reflected wavelength",
+        "type": "numeric",
+        "answer": 4.5e-07,
+        "unit": "m",
+        "tolerance": 3.6e-09,
+        "explanation": "For a reasonable film index near1.65,600nm is theδ=1.5λ reflected maximum;δ=900nm, so next integer order gives450nm."
+      }
+    ],
+    "reasoning": "The minimum plausible ordinary-film index selects the intended optical order. Verification: For a reasonable film index near1.65,600nm is theδ=1.5λ reflected maximum;δ=900nm, so next integer order gives450nm.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Assume an ordinary transparent film with index between1and2, givingn≈1.65; without an index bound, higher-order high-index solutions also exist."
+    ],
+    "scope": "The450nm answer uses the stated reasonable-index assumption1<n<2, rather than silently treating the index as known."
+  },
+  {
+    "id": "physics-chapter-35-problems-57",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 6.08e-07,
+        "unit": "m",
+        "tolerance": 4.8640000000000006e-09,
+        "explanation": "2n₂L=912nm; select the sole wavelength in400–700nm from the half-integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.55,1.6,1.33) give 0 reflection phase reversals; transmitted min requires half-integer optical-path orders. Verification: 2n₂L=912nm; select the sole wavelength in400–700nm from the half-integer order family.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-58",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 2.7285714285714285e-07,
+        "unit": "m",
+        "tolerance": 2.1828571428571428e-09,
+        "explanation": "2n₂L=2.5λ, using the requested 3rd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.32,1.75,1.39) give 0 reflection phase reversals; transmitted min requires half-integer optical-path orders. Verification: 2n₂L=2.5λ, using the requested 3rd least positive half-integer thickness.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-59",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 5.2788e-07,
+        "unit": "m",
+        "tolerance": 4.22304e-09,
+        "explanation": "2n₂L=1319.7nm; select the sole wavelength in400–700nm from the half-integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.68,1.59,1.5) give 1 reflection phase reversals; transmitted max requires half-integer optical-path orders. Verification: 2n₂L=1319.7nm; select the sole wavelength in400–700nm from the half-integer order family.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-60",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 5.092e-07,
+        "unit": "m",
+        "tolerance": 4.0736000000000005e-09,
+        "explanation": "2n₂L=1018.4nm; select the sole wavelength in400–700nm from the integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.5,1.34,1.42) give 2 reflection phase reversals; transmitted max requires integer optical-path orders. Verification: 2n₂L=1018.4nm; select the sole wavelength in400–700nm from the integer order family.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-61",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 4.5500000000000004e-07,
+        "unit": "m",
+        "tolerance": 3.6400000000000003e-09,
+        "explanation": "2n₂L=1137.5nm; select the sole wavelength in400–700nm from the half-integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.32,1.75,1.39) give 0 reflection phase reversals; transmitted min requires half-integer optical-path orders. Verification: 2n₂L=1137.5nm; select the sole wavelength in400–700nm from the half-integer order family.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-62",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 1.6132075471698112e-07,
+        "unit": "m",
+        "tolerance": 1.290566037735849e-09,
+        "explanation": "2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.68,1.59,1.5) give 1 reflection phase reversals; transmitted max requires half-integer optical-path orders. Verification: 2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-63",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 2.476027397260274e-07,
+        "unit": "m",
+        "tolerance": 1.980821917808219e-09,
+        "explanation": "2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.4,1.46,1.75) give 1 reflection phase reversals; transmitted max requires half-integer optical-path orders. Verification: 2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-64",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 4.0879999999999995e-07,
+        "unit": "m",
+        "tolerance": 3.2703999999999998e-09,
+        "explanation": "2n₂L=613.2nm; select the sole wavelength in400–700nm from the half-integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.4,1.46,1.75) give 1 reflection phase reversals; transmitted max requires half-integer optical-path orders. Verification: 2n₂L=613.2nm; select the sole wavelength in400–700nm from the half-integer order family.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-65",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 3.3857142857142863e-07,
+        "unit": "m",
+        "tolerance": 2.708571428571429e-09,
+        "explanation": "2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.6,1.4,1.8) give 2 reflection phase reversals; transmitted min requires half-integer optical-path orders. Verification: 2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-66",
+    "parts": [
+      {
+        "label": "Visible wavelength",
+        "type": "numeric",
+        "answer": 5.6e-07,
+        "unit": "m",
+        "tolerance": 4.48e-09,
+        "explanation": "2n₂L=560nm; select the sole wavelength in400–700nm from the integer order family."
+      }
+    ],
+    "reasoning": "Indices(1.6,1.4,1.8) give 2 reflection phase reversals; transmitted max requires integer optical-path orders. Verification: 2n₂L=560nm; select the sole wavelength in400–700nm from the integer order family.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-67",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 3.28544776119403e-07,
+        "unit": "m",
+        "tolerance": 2.628358208955224e-09,
+        "explanation": "2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.5,1.34,1.42) give 2 reflection phase reversals; transmitted min requires half-integer optical-path orders. Verification: 2n₂L=1.5λ, using the requested 2nd least positive half-integer thickness.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-68",
+    "parts": [
+      {
+        "label": "Required film thickness",
+        "type": "numeric",
+        "answer": 4.78125e-07,
+        "unit": "m",
+        "tolerance": 3.8249999999999995e-09,
+        "explanation": "2n₂L=2.5λ, using the requested 3rd least positive half-integer thickness."
+      }
+    ],
+    "reasoning": "Indices(1.55,1.6,1.33) give 0 reflection phase reversals; transmitted min requires half-integer optical-path orders. Verification: 2n₂L=2.5λ, using the requested 3rd least positive half-integer thickness.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-69",
+    "parts": [
+      {
+        "label": "Film-thickness change",
+        "type": "numeric",
+        "answer": 1.89e-06,
+        "unit": "m",
+        "tolerance": 1.512e-08,
+        "explanation": "Ten bright fringes span nine bright-to-bright intervals, eachΔL=λ/(2n)."
+      }
+    ],
+    "reasoning": "Count intervals between extrema, not the number of bright bands. Verification: Ten bright fringes span nine bright-to-bright intervals, eachΔL=λ/(2n).",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-70",
+    "parts": [
+      {
+        "label": "a · Rate of spacing decrease",
+        "type": "numeric",
+        "answer": 1.0333333333333333e-08,
+        "unit": "m/s",
+        "tolerance": 8.266666666666667e-11,
+        "explanation": "Bright to dark changes the air gap byλ/4 every15s."
+      },
+      {
+        "label": "b · Total spacing decrease",
+        "type": "numeric",
+        "answer": 1.085e-06,
+        "unit": "m",
+        "tolerance": 8.68e-09,
+        "explanation": "Initial right-edge bright order9.5 changes to dark order6; ΔL=(9.5−6)λ/2."
+      }
+    ],
+    "reasoning": "The contact dark fringe is order0; five interior dark fringes mean final edge order6. Verification: Bright to dark changes the air gap byλ/4 every15s.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-71",
+    "parts": [
+      {
+        "label": "Wedge angle",
+        "type": "numeric",
+        "answer": 0.00020833333333333335,
+        "unit": "rad",
+        "tolerance": 1.6666666666666669e-06,
+        "explanation": "Consecutive dark fringes differ by gapλ/2, soα=(λ/2)/Δx."
+      }
+    ],
+    "reasoning": "Use the small wedge-angle approximation. Verification: Consecutive dark fringes differ by gapλ/2, soα=(λ/2)/Δx.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-72",
+    "parts": [
+      {
+        "label": "Air index to six significant figures",
+        "type": "numeric",
+        "answer": 1.00025,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Including the contact minimum, air has4000intervals and vacuum3999; n=4000/3999=1.0002500625.",
+        "acceptedValues": [
+          1.000250062515629
+        ]
+      }
+    ],
+    "reasoning": "Fringe counts include the common zero-order contact band, which must be subtracted before forming the ratio. Verification: Including the contact minimum, air has4000intervals and vacuum3999; n=4000/3999=1.0002500625.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-73",
+    "parts": [
+      {
+        "label": "Bright-fringe count",
+        "type": "numeric",
+        "answer": 141,
+        "unit": "fringes",
+        "tolerance": 0,
+        "explanation": "Positive bright orders satisfy(m+.5)≤2L/λ=140.556; m=0..140. The final center is47.98075μm from contact, only19.25nm inside the nominal edge.",
+        "acceptedValues": [
+          140
+        ]
+      }
+    ],
+    "reasoning": "The source right gap is48.0μm and its length120mm is not needed for the total order count. Verification: Positive bright orders satisfy(m+.5)≤2L/λ=140.556; m=0..140. The final center is47.98075μm from contact, only19.25nm inside the nominal edge.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ],
+    "scope": "Nominal48.0μm gives141 bright-fringe centers. The printed approximation140 is also accepted: the last center lies only19.25nm inside the edge, less than the±50nm rounding uncertainty of the stated gap.",
+    "reviewNotice": "The nominal gap gives141 bright centers; the printed approximate count140 differs by the last fringe near the boundary. Both discrete counts are accepted because the gap is rounded more coarsely than that fringe-edge separation."
+  },
+  {
+    "id": "physics-chapter-35-problems-74",
+    "parts": [
+      {
+        "label": "Final dark-fringe count",
+        "type": "numeric",
+        "answer": 11,
+        "unit": "fringes",
+        "tolerance": 0,
+        "explanation": "Increasing the gap by600nm adds2ΔL/λ=2 full dark-order intervals to the original9."
+      }
+    ],
+    "reasoning": "Count the contact dark band both before and after. Verification: Increasing the gap by600nm adds2ΔL/λ=2 full dark-order intervals to the original9.",
+    "sourcePages": [
+      31,
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-75",
+    "parts": [
+      {
+        "label": "Bright-ring radii",
+        "type": "choice",
+        "answer": "r=√((m+1/2)λR), m=0,1,2,…",
+        "options": [
+          "r=√((m+1/2)λR), m=0,1,2,…",
+          "r=√(mλR), m=0,1,2,…",
+          "r=(m+1/2)λR"
+        ],
+        "explanation": "For r≪R, gapd=r²/(2R); reflected bright condition2d=(m+.5)λ."
+      }
+    ],
+    "reasoning": "The air-gap reflection phase reversal makes the center dark. Verification: For r≪R, gapd=r²/(2R); reflected bright condition2d=(m+.5)λ.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-76",
+    "parts": [
+      {
+        "label": "a · Bright rings in air",
+        "type": "numeric",
+        "answer": 34,
+        "unit": "rings",
+        "tolerance": 0,
+        "explanation": "Count(m+.5)λR≤r_edge² with diameter20mm."
+      },
+      {
+        "label": "b · Bright rings in water",
+        "type": "numeric",
+        "answer": 45,
+        "unit": "rings",
+        "tolerance": 0,
+        "explanation": "Replacing air by water shortens the gap wavelength by1.33."
+      }
+    ],
+    "reasoning": "The aperture radius, not diameter, limits the rings. Verification: Count(m+.5)λR≤r_edge² with diameter20mm.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-77",
+    "parts": [
+      {
+        "label": "Lens radius of curvature",
+        "type": "numeric",
+        "answer": 0.9998168498168499,
+        "unit": "m",
+        "tolerance": 0.007998534798534799,
+        "explanation": "Subtract r_(n+20)²−r_n²=20λR; the half-order offset cancels."
+      }
+    ],
+    "reasoning": "The source ring radii are0.162cm and0.368cm. Verification: Subtract r_(n+20)²−r_n²=20λR; the half-order offset cancels.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-78",
+    "parts": [
+      {
+        "label": "Volume-loss rate",
+        "type": "numeric",
+        "answer": 1.6661661037788728e-11,
+        "unit": "m³/s",
+        "tolerance": 1.3329328830230982e-13,
+        "explanation": "Graph minima at0,12,24,36s: one period removesλ/(2n) of thickness; multiply byπr²."
+      }
+    ],
+    "reasoning": "The20s marker is not the period; six small graph intervals span12s. Verification: Graph minima at0,12,24,36s: one period removesλ/(2n) of thickness; multiply byπr².",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ],
+    "scope": "Positive volume-loss magnitude is checked; dV/dt is its negative."
+  },
+  {
+    "id": "physics-chapter-35-problems-79",
+    "parts": [
+      {
+        "label": "Wavelength",
+        "type": "numeric",
+        "answer": 5.883838383838384e-07,
+        "unit": "m",
+        "tolerance": 4.7070707070707066e-09,
+        "explanation": "A moving Michelson mirror changes its round-trip path by2Δx."
+      }
+    ],
+    "reasoning": "Fringe count792 refers to full cycles. Verification: A moving Michelson mirror changes its round-trip path by2Δx.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-80",
+    "parts": [
+      {
+        "label": "Film thickness",
+        "type": "numeric",
+        "answer": 5.1537499999999996e-06,
+        "unit": "m",
+        "tolerance": 4.123e-08,
+        "explanation": "Round-trip excess optical length2(n−1)L=7λ."
+      }
+    ],
+    "reasoning": "Subtract the displaced air path in each pass. Verification: Round-trip excess optical length2(n−1)L=7λ.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-81",
+    "parts": [
+      {
+        "label": "Air index to six significant figures",
+        "type": "numeric",
+        "answer": 1.0003,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "n−1=Nλ/(2d)=60×500nm/(.10m)=.000300.",
+        "acceptedValues": [
+          1.0003
+        ]
+      }
+    ],
+    "reasoning": "Evacuation removes the double-pass air optical excess; chamber windows have negligible thickness. Verification: n−1=Nλ/(2d)=60×500nm/(.10m)=.000300.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-82",
+    "parts": [
+      {
+        "label": "Mirror displacement",
+        "type": "numeric",
+        "answer": 0.0002906486237344983,
+        "unit": "m",
+        "tolerance": 2.3251889898759866e-06,
+        "explanation": "Fringe difference2Δx(1/λ₁−1/λ₂)=1."
+      }
+    ],
+    "reasoning": "Use the difference of reciprocal wavelengths rather than their direct difference as a fringe rate. Verification: Fringe difference2Δx(1/λ₁−1/λ₂)=1.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-83",
+    "parts": [
+      {
+        "label": "a · Least d in air",
+        "type": "numeric",
+        "answer": 5e-08,
+        "unit": "m",
+        "tolerance": 4e-10,
+        "explanation": "Trace original paths: ray1 travels7d between reference planes, ray2travels2d;5d=λ/2."
+      },
+      {
+        "label": "b · Least d in protein solution",
+        "type": "numeric",
+        "answer": 3.6231884057971014e-08,
+        "unit": "m",
+        "tolerance": 2.8985507246376814e-10,
+        "explanation": "All optical paths scale withn, so5nd=λ/2."
+      }
+    ],
+    "reasoning": "Mirror phase shifts are explicitly excluded by the problem. Verification: Trace original paths: ray1 travels7d between reference planes, ray2travels2d;5d=λ/2.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-84",
+    "parts": [
+      {
+        "label": "a · Position of least phase difference",
+        "type": "choice",
+        "answer": "As yP tends to positive infinity",
+        "options": [
+          "As yP tends to positive infinity",
+          "At yP=0",
+          "At yP=6λ"
+        ],
+        "explanation": "Far above the source axis, the two path lengths become equal."
+      },
+      {
+        "label": "b · Least phase difference",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "cycles",
+        "tolerance": 0,
+        "explanation": "The asymptotic distance difference is zero."
+      },
+      {
+        "label": "c · yP/λ for greatest phase difference",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "On the source axis, path difference equals the source separation."
+      },
+      {
+        "label": "d · Greatest phase difference",
+        "type": "numeric",
+        "answer": 6,
+        "unit": "cycles",
+        "tolerance": 0,
+        "explanation": "d=6λ is the source separation."
+      },
+      {
+        "label": "e · Phase difference at yP=d",
+        "type": "numeric",
+        "answer": 5.802715110431567,
+        "unit": "cycles",
+        "tolerance": 0.04642172088345254,
+        "explanation": "Δr/λ=√(26²+6²)−√(20²+6²)."
+      },
+      {
+        "label": "f · Interference at yP=d",
+        "type": "choice",
+        "answer": "Intermediate, closer to constructive",
+        "options": [
+          "Intermediate, closer to constructive",
+          "Fully constructive",
+          "Fully destructive"
+        ],
+        "explanation": "I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information."
+      }
+    ],
+    "reasoning": "The minimum is an asymptotic limit, while the maximum is attained on axis. Verification: Far above the source axis, the two path lengths become equal.",
+    "sourcePages": [
+      32,
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-85",
+    "parts": [
+      {
+        "label": "Angular fringe separation in water",
+        "type": "numeric",
+        "answer": 0.22556390977443608,
+        "unit": "degrees",
+        "tolerance": 0.0018045112781954887,
+        "explanation": "The internal wavelength and fringe angle are smaller byn."
+      }
+    ],
+    "reasoning": "The screen geometry is unchanged. Verification: The internal wavelength and fringe angle are smaller byn.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-86",
+    "parts": [
+      {
+        "label": "a · Index giving maximum",
+        "type": "numeric",
+        "answer": 1.8,
+        "unit": "dimensionless",
+        "tolerance": 0.014400000000000001,
+        "explanation": "Graph first minimum is atn=1.4, so successive maxima are separated byΔn=.8; next maximum is1.8."
+      },
+      {
+        "label": "b · Index giving zero intensity",
+        "type": "numeric",
+        "answer": 2.2,
+        "unit": "dimensionless",
+        "tolerance": 0.0176,
+        "explanation": "Following the1.4minimum, the next minimum is2.2."
+      },
+      {
+        "label": "c · Phase difference at n=2",
+        "type": "numeric",
+        "answer": 1.25,
+        "unit": "cycles",
+        "tolerance": 0.01,
+        "explanation": "A half-cycle takesΔn=.4; n−1=1 gives1.25cycles."
+      }
+    ],
+    "reasoning": "Only indices greater than1.4 and within the allowed range up to2.5 are included. Verification: Graph first minimum is atn=1.4, so successive maxima are separated byΔn=.8; next maximum is1.8.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-87",
+    "parts": [
+      {
+        "label": "a · Thickness giving maximum",
+        "type": "numeric",
+        "answer": 1.5e-06,
+        "unit": "m",
+        "tolerance": 1.2e-08,
+        "explanation": "The graph first minimum is at750nm, so maxima repeat every1500nm."
+      },
+      {
+        "label": "b · Thickness giving zero intensity",
+        "type": "numeric",
+        "answer": 2.25e-06,
+        "unit": "m",
+        "tolerance": 1.8000000000000002e-08,
+        "explanation": "The next minimum above900nm is2250nm."
+      },
+      {
+        "label": "c · Phase difference at L=1200nm",
+        "type": "numeric",
+        "answer": 0.8,
+        "unit": "cycles",
+        "tolerance": 0.0064,
+        "explanation": "ΔOPL/λ=L/(1500nm)=.8."
+      }
+    ],
+    "reasoning": "The900nm graph endpoint is not its minimum; read the preceding vertical gridline. Verification: The graph first minimum is at750nm, so maxima repeat every1500nm.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-88",
+    "parts": [
+      {
+        "label": "a · Full added phase shift",
+        "type": "numeric",
+        "answer": 411.4285714285714,
+        "unit": "degrees",
+        "tolerance": 3.2914285714285714,
+        "explanation": "Added optical length(n−1)L gives360(n−1)L/λ."
+      },
+      {
+        "label": "b · Equivalent shift below360°",
+        "type": "numeric",
+        "answer": 51.42857142857139,
+        "unit": "degrees",
+        "tolerance": 0.4114285714285711,
+        "explanation": "Reduce the full shift modulo360°."
+      }
+    ],
+    "reasoning": "The question asks the additional shift produced by replacing air, not the total phase through the medium. Verification: Added optical length(n−1)L gives360(n−1)L/λ.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-89",
+    "parts": [
+      {
+        "label": "Receiver heights for maxima",
+        "type": "choice",
+        "answer": "x=(2m+1)λD/(4a), m=0,1,2,…",
+        "options": [
+          "x=(2m+1)λD/(4a), m=0,1,2,…",
+          "x=mλD/(2a), m=0,1,2,…",
+          "x=(2m+1)λD/(2a), m=0,1,2,…"
+        ],
+        "explanation": "Reflection addsπ; path difference≈2ax/D must be an odd half-wavelength for maxima."
+      }
+    ],
+    "reasoning": "Treat the reflected ray as coming from the transmitter image below the water plane. Verification: Reflection addsπ; path difference≈2ax/D must be an odd half-wavelength for maxima.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-90",
+    "parts": [
+      {
+        "label": "a · Full phase-difference magnitude",
+        "type": "numeric",
+        "answer": 2.9,
+        "unit": "cycles",
+        "tolerance": 0.0232,
+        "explanation": "AtP1 equal distances imply source2leads.3cycle; atP2 its extra1280nm=3.2cycles gives a2.9cycle lag."
+      },
+      {
+        "label": "b · Interference",
+        "type": "choice",
+        "answer": "Intermediate, closer to constructive",
+        "options": [
+          "Intermediate, closer to constructive",
+          "Fully constructive",
+          "Fully destructive"
+        ],
+        "explanation": "I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information."
+      }
+    ],
+    "reasoning": "The initial source phase is determined by the equal-distance pointP1. Verification: AtP1 equal distances imply source2leads.3cycle; atP2 its extra1280nm=3.2cycles gives a2.9cycle lag.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-91",
+    "parts": [
+      {
+        "label": "a · Angle near beach",
+        "type": "numeric",
+        "answer": 22.024312837042164,
+        "unit": "degrees",
+        "tolerance": 0.17619450269633732,
+        "explanation": "sinθ₂/v₂=sinθ₁/v₁."
+      },
+      {
+        "label": "b · Why waves approach normal",
+        "type": "choice",
+        "answer": "Slower shallow-water propagation bends wave motion toward the normal",
+        "options": [
+          "Slower shallow-water propagation bends wave motion toward the normal",
+          "Shallow water bends wave motion away from the normal",
+          "Only waves initially normal can reach the shore"
+        ],
+        "explanation": "Successive reductions in speed reduce sinθ at refraction."
+      }
+    ],
+    "reasoning": "The frequency remains constant across the depth step. Verification: sinθ₂/v₂=sinθ₁/v₁.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-92",
+    "parts": [
+      {
+        "label": "a · Plastic index",
+        "type": "numeric",
+        "answer": 1.6,
+        "unit": "dimensionless",
+        "tolerance": 0.0128,
+        "explanation": "At zero liquid, graph60λ=(nplastic−1)×40μm; λ=.4μm."
+      },
+      {
+        "label": "b · Liquid index",
+        "type": "numeric",
+        "answer": 1.4,
+        "unit": "dimensionless",
+        "tolerance": 0.0112,
+        "explanation": "At40μm liquid, graph20λ=(nplastic−nliquid)×40μm."
+      }
+    ],
+    "reasoning": "Account for air replacing the evaporated liquid; graph phase units are wavelengths. Verification: At zero liquid, graph60λ=(nplastic−1)×40μm; λ=.4μm.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-93",
+    "parts": [
+      {
+        "label": "Wavelength",
+        "type": "numeric",
+        "answer": 6e-07,
+        "unit": "m",
+        "tolerance": 4.8e-09,
+        "explanation": "First to tenth minima span nine fringe intervals;λ=Δy d/D."
+      }
+    ],
+    "reasoning": "Do not divide the18mm interval by ten. Verification: First to tenth minima span nine fringe intervals;λ=Δy d/D.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-94",
+    "parts": [
+      {
+        "label": "Pulse spreading time",
+        "type": "numeric",
+        "answer": 5.163398692810474e-08,
+        "unit": "s",
+        "tolerance": 4.130718954248379e-10,
+        "explanation": "Axial time=n₁L/c; atcriticalincidence cosθ_axis=n₂/n₁, so slanted time=n₁²L/(cn₂)."
+      }
+    ],
+    "reasoning": "The longest guided ray repeatedly reflects at the critical angle. Verification: Axial time=n₁L/c; atcriticalincidence cosθ_axis=n₂/n₁, so slanted time=n₁²L/(cn₂).",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-95",
+    "parts": [
+      {
+        "label": "a · Fourth-dark path difference",
+        "type": "numeric",
+        "answer": 1.75e-06,
+        "unit": "m",
+        "tolerance": 1.4e-08,
+        "explanation": "The fourth dark band is order3.5λ."
+      },
+      {
+        "label": "b · First-bright screen distance",
+        "type": "numeric",
+        "answer": 0.0048,
+        "unit": "m",
+        "tolerance": 3.84e-05,
+        "explanation": "In the small-angle limit,y scales with path difference; first bright is1λ."
+      }
+    ],
+    "reasoning": "Count dark bands from the central bright fringe. Verification: The fourth dark band is order3.5λ.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-96",
+    "parts": [
+      {
+        "label": "Minimum thickness divided byλ",
+        "type": "numeric",
+        "answer": 0.2,
+        "unit": "dimensionless",
+        "tolerance": 0.0016,
+        "explanation": "Both interface reflections flip; cancellation requires2nL=λ/2 withn=1.25."
+      }
+    ],
+    "reasoning": "The lens index greater than1.30 guarantees the second upward-index reflection. Verification: Both interface reflections flip; cancellation requires2nL=λ/2 withn=1.25.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-97",
+    "parts": [
+      {
+        "label": "Observed intensity",
+        "type": "choice",
+        "answer": "I=I_m cos²(2πx/λ)",
+        "options": [
+          "I=I_m cos²(2πx/λ)",
+          "I=I_m cos²(πx/λ)",
+          "I=I_m sin²(2πx/λ)"
+        ],
+        "explanation": "The mirror displacementx changes arm round trip by2x; intensity iscos² of half the resulting phase."
+      }
+    ],
+    "reasoning": "Atx=0 equal arms give the maximum intensity. Verification: The mirror displacementx changes arm round trip by2x; intensity iscos² of half the resulting phase.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-98",
+    "parts": [
+      {
+        "label": "Least L",
+        "type": "numeric",
+        "answer": 3.1e-07,
+        "unit": "m",
+        "tolerance": 2.48e-09,
+        "explanation": "The folded-path difference is4L. Least solution4L=2×620nm=2.5×496nm is1240nm."
+      }
+    ],
+    "reasoning": "The two wavelength conditions are imposed simultaneously, not minimized separately. Verification: The folded-path difference is4L. Least solution4L=2×620nm=2.5×496nm is1240nm.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-99",
+    "parts": [
+      {
+        "label": "a · Travel time for pistol1",
+        "type": "numeric",
+        "answer": 4.2e-11,
+        "unit": "s",
+        "tolerance": 3.36e-13,
+        "explanation": "Add index times physical thickness along the original nested-layer route, then divide byc."
+      },
+      {
+        "label": "b · Travel time for pistol2",
+        "type": "numeric",
+        "answer": 4.233333333333333e-11,
+        "unit": "s",
+        "tolerance": 3.386666666666666e-13,
+        "explanation": "Add index times physical thickness along the original nested-layer route, then divide byc."
+      },
+      {
+        "label": "c · Travel time for pistol3",
+        "type": "numeric",
+        "answer": 4.3200000000000003e-11,
+        "unit": "s",
+        "tolerance": 3.456e-13,
+        "explanation": "Add index times physical thickness along the original nested-layer route, then divide byc."
+      },
+      {
+        "label": "d · Travel time for pistol4",
+        "type": "numeric",
+        "answer": 4.18e-11,
+        "unit": "s",
+        "tolerance": 3.344e-13,
+        "explanation": "Add index times physical thickness along the original nested-layer route, then divide byc."
+      },
+      {
+        "label": "e · First target hit",
+        "type": "choice",
+        "answer": "Pistol4",
+        "options": [
+          "Pistol4",
+          "Pistol1",
+          "Pistol2"
+        ],
+        "explanation": "Optical path sums in2mm units are6.30,6.35,6.48,6.27 respectively."
+      }
+    ],
+    "reasoning": "Trace the source rectangles: All four paths span8mm; path4 crosses2mm ofn₉,4mm ofn₆,and2mm ofn₅. Verification: Add index times physical thickness along the original nested-layer route, then divide byc.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-100",
+    "parts": [
+      {
+        "label": "Bright visible wavelength",
+        "type": "numeric",
+        "answer": 4.92e-07,
+        "unit": "m",
+        "tolerance": 3.9360000000000005e-09,
+        "explanation": "Single reflection flip:2nL=(m+.5)λ; onlym=2 lies in400–700nm."
+      }
+    ],
+    "reasoning": "The source film thickness is0.410μm, not0.410mm. Verification: Single reflection flip:2nL=(m+.5)λ; onlym=2 lies in400–700nm.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-101",
+    "parts": [
+      {
+        "label": "Slit separation",
+        "type": "numeric",
+        "answer": 3.2723989289017105e-05,
+        "unit": "m",
+        "tolerance": 2.6179191431213685e-07,
+        "explanation": "For the first adjacent maximum,d sinθ=λ; small-angleλ/.018 is equivalent at this precision."
+      }
+    ],
+    "reasoning": "The angular separation is near the pattern center. Verification: For the first adjacent maximum,d sinθ=λ; small-angleλ/.018 is equivalent at this precision.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-102",
+    "parts": [
+      {
+        "label": "Wavelength",
+        "type": "numeric",
+        "answer": 4.5000000000000003e-07,
+        "unit": "m",
+        "tolerance": 3.6000000000000004e-09,
+        "explanation": "A60°turn is one sixth of a period, soT=6Δt andλ=cT."
+      }
+    ],
+    "reasoning": "Phasor angular velocity equals the wave angular frequency. Verification: A60°turn is one sixth of a period, soT=6Δt andλ=cT.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-103",
+    "parts": [
+      {
+        "label": "a · Outer rim",
+        "type": "choice",
+        "answer": "Bright",
+        "options": [
+          "Bright",
+          "Dark",
+          "Only blue"
+        ],
+        "explanation": "Both reflections undergoπ shifts, leaving zero relative shift as the film thickness tends to zero."
+      },
+      {
+        "label": "b · Third blue-band thickness",
+        "type": "numeric",
+        "answer": 5.9375e-07,
+        "unit": "m",
+        "tolerance": 4.75e-09,
+        "explanation": "The third nonzero blue maximum has2nL=3λ_blue."
+      },
+      {
+        "label": "c · Why colors disappear",
+        "type": "choice",
+        "answer": "Many closely spaced visible interference orders overlap and average toward white",
+        "options": [
+          "Many closely spaced visible interference orders overlap and average toward white",
+          "The oil index necessarily becomes1",
+          "Blue light ceases to reflect from any thick film"
+        ],
+        "explanation": "As optical thickness grows, many wavelength orders fall within the visible band and spectral averaging reduces color contrast."
+      }
+    ],
+    "reasoning": "The near-zero contact region is broadband bright and is not counted as a blue-only band. Verification: Both reflections undergoπ shifts, leaving zero relative shift as the film thickness tends to zero.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-104",
+    "parts": [
+      {
+        "label": "a · Zero-path-difference fringe",
+        "type": "choice",
+        "answer": "Dark",
+        "options": [
+          "Dark",
+          "Bright",
+          "Indeterminate for coherent rays"
+        ],
+        "explanation": "The single mirror reflection contributesπ even when geometric path difference iszero."
+      },
+      {
+        "label": "b · Bright-fringe condition",
+        "type": "choice",
+        "answer": "2h sinθ=(m+1/2)λ",
+        "options": [
+          "2h sinθ=(m+1/2)λ",
+          "2h sinθ=mλ",
+          "h sinθ=(m+1/2)λ"
+        ],
+        "explanation": "Use source and mirror image separated by2h, with an added half-cycle reflection shift."
+      },
+      {
+        "label": "c · Dark-fringe condition",
+        "type": "choice",
+        "answer": "2h sinθ=mλ",
+        "options": [
+          "2h sinθ=mλ",
+          "2h sinθ=(m+1/2)λ",
+          "h sinθ=mλ"
+        ],
+        "explanation": "Integer geometric path differences retain the destructive reflection phase."
+      }
+    ],
+    "reasoning": "The mirror-image construction changes both effective source separation and phase parity. Verification: The single mirror reflection contributesπ even when geometric path difference iszero.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-problems-105",
+    "parts": [
+      {
+        "label": "Constant-phase curves",
+        "type": "choice",
+        "answer": "Hyperbolas with the two sources as foci",
+        "options": [
+          "Hyperbolas with the two sources as foci",
+          "Ellipses with the two sources as foci",
+          "Circles centered on either source"
+        ],
+        "explanation": "Fixed phase means fixed signed distance difference r₁−r₂=constant."
+      },
+      {
+        "label": "Equation for nondegenerate branches",
+        "type": "choice",
+        "answer": "x²/a²−y²/b²=1, with 2a=|r₁−r₂| and b²=(d/2)²−a²",
+        "options": [
+          "x²/a²−y²/b²=1, with 2a=|r₁−r₂| and b²=(d/2)²−a²",
+          "x²/a²+y²/b²=1, with 2a=|r₁−r₂|",
+          "x²+y²=d²"
+        ],
+        "explanation": "The standard two-focus hyperbola has focal distancec=d/2 andc²=a²+b²."
+      }
+    ],
+    "reasoning": "A zero distance difference is the perpendicular bisector, the degenerate limiting case. Verification: Fixed phase means fixed signed distance difference r₁−r₂=constant.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ],
+    "scope": "The hyperbola statement concerns0<|r₁−r₂|<d; equal-path points form the degenerate perpendicular-bisector line."
+  },
+  {
+    "id": "physics-chapter-35-questions-1",
+    "parts": [
+      {
+        "label": "a · Increase slit separation",
+        "type": "choice",
+        "answer": "Fringe spacing decreases",
+        "options": [
+          "Fringe spacing decreases",
+          "Fringe spacing increases",
+          "Unchanged"
+        ],
+        "explanation": "Δy=λD/d."
+      },
+      {
+        "label": "b · Switch red to blue",
+        "type": "choice",
+        "answer": "Fringe spacing decreases",
+        "options": [
+          "Fringe spacing decreases",
+          "Fringe spacing increases",
+          "Unchanged"
+        ],
+        "explanation": "Blue has shorter wavelength."
+      },
+      {
+        "label": "c · Immerse apparatus",
+        "type": "choice",
+        "answer": "Fringe spacing decreases",
+        "options": [
+          "Fringe spacing decreases",
+          "Fringe spacing increases",
+          "Unchanged"
+        ],
+        "explanation": "Internal wavelength isλ/n."
+      },
+      {
+        "label": "d · Side maximum closer to center",
+        "type": "choice",
+        "answer": "Blue",
+        "options": [
+          "Blue",
+          "Red",
+          "Both at same position"
+        ],
+        "explanation": "At fixed nonzero order,y∝λ."
+      }
+    ],
+    "reasoning": "Use the same fringe-spacing law in each change. Verification: Δy=λD/d.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-2",
+    "parts": [
+      {
+        "label": "b · Path-difference direction",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "Farther-out neighboring maxima have ordersm andm+1."
+      },
+      {
+        "label": "c · Path difference increment",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "wavelength",
+        "tolerance": 0,
+        "explanation": "Adjacent bright orders differ by oneλ."
+      }
+    ],
+    "reasoning": "An outward move between neighboring bright fringes increments the order byone. Verification: Farther-out neighboring maxima have ordersm andm+1.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-3",
+    "parts": [
+      {
+        "label": "a · Geometric path difference",
+        "type": "choice",
+        "answer": "2d",
+        "options": [
+          "2d",
+          "4d",
+          "d"
+        ],
+        "explanation": "Both arrangements contain the same extra vertical backtracking; only the two horizontal lengths d remain different."
+      },
+      {
+        "label": "b · Out-of-phase condition",
+        "type": "choice",
+        "answer": "Δr=(m+1/2)λ",
+        "options": [
+          "Δr=(m+1/2)λ",
+          "Δr=mλ",
+          "Δr=2mλ"
+        ],
+        "explanation": "Even relative reflection parity leaves an odd half-cycle geometric condition."
+      },
+      {
+        "label": "c · Least d/λ",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "dimensionless",
+        "tolerance": 0.002,
+        "explanation": "2d=λ/2."
+      }
+    ],
+    "reasoning": "Trace the whole folded route rather than comparing the vertical extent only. Verification: Both arrangements contain the same extra vertical backtracking; only the two horizontal lengths d remain different.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-4",
+    "parts": [
+      {
+        "label": "Travel-time ranking",
+        "type": "choice",
+        "answer": "a > c > b",
+        "options": [
+          "a > c > b",
+          "a > b > c",
+          "a = b = c"
+        ],
+        "explanation": "All slabs have equal width, and time=nL/c with1.60>1.55>1.50."
+      }
+    ],
+    "reasoning": "The original figure gives equal layer thicknesses. Verification: All slabs have equal width, and time=nL/c with1.60>1.55>1.50.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-5",
+    "parts": [
+      {
+        "label": "a · Interference",
+        "type": "choice",
+        "answer": "Intermediate, closer to constructive",
+        "options": [
+          "Intermediate, closer to constructive",
+          "Fully constructive",
+          "Fully destructive"
+        ],
+        "explanation": "I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information."
+      },
+      {
+        "label": "a · Associated order m",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "The nearby maximum has integer m; for the exact3.5λminimum use(m+.5)λ withm=3."
+      },
+      {
+        "label": "b · Interference",
+        "type": "choice",
+        "answer": "Fully destructive",
+        "options": [
+          "Fully destructive",
+          "Fully constructive",
+          "Intermediate, closer to constructive"
+        ],
+        "explanation": "I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information."
+      },
+      {
+        "label": "b · Associated order m",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "The nearby maximum has integer m; for the exact3.5λminimum use(m+.5)λ withm=3."
+      },
+      {
+        "label": "c · Interference",
+        "type": "choice",
+        "answer": "Intermediate, closer to constructive",
+        "options": [
+          "Intermediate, closer to constructive",
+          "Fully constructive",
+          "Fully destructive"
+        ],
+        "explanation": "I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information."
+      },
+      {
+        "label": "c · Associated order m",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "The nearby maximum has integer m; for the exact3.5λminimum use(m+.5)λ withm=3."
+      },
+      {
+        "label": "d · Interference",
+        "type": "choice",
+        "answer": "Fully constructive",
+        "options": [
+          "Fully constructive",
+          "Fully destructive",
+          "Intermediate, closer to constructive"
+        ],
+        "explanation": "I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information."
+      },
+      {
+        "label": "d · Associated order m",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "The nearby maximum has integer m; for the exact3.5λminimum use(m+.5)λ withm=3."
+      }
+    ],
+    "reasoning": "Reduce path difference only for brightness classification; retain full order for m. Verification: I/Imax=cos²(πΔr/λ); classify the reduced phase without discarding full path information.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-6",
+    "parts": [
+      {
+        "label": "b · Opposing phasors",
+        "type": "choice",
+        "answer": "Point3 or point5",
+        "options": [
+          "Point3 or point5",
+          "Point1 or point4",
+          "Point2"
+        ],
+        "explanation": "Opposite equal phasors cancel; both numbered minima3and5 have this intensity."
+      },
+      {
+        "label": "c · Parallel phasors",
+        "type": "choice",
+        "answer": "Point1 or point4",
+        "options": [
+          "Point1 or point4",
+          "Point3 or point5",
+          "Point2"
+        ],
+        "explanation": "Parallel phasors give a maximum; points1and4 are the numbered maxima."
+      },
+      {
+        "label": "d · Perpendicular phasors",
+        "type": "choice",
+        "answer": "Point2",
+        "options": [
+          "Point2",
+          "Point3 or point5",
+          "Point1 or point4"
+        ],
+        "explanation": "A90°relative phase gives half the maximum intensity; only numberedpoint2 lies at halfheight."
+      }
+    ],
+    "reasoning": "Relative phasor angle fixes intensity, but does not distinguish symmetric equal-intensity points without wave labels. Verification: Opposite equal phasors cancel; both numbered minima3and5 have this intensity.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ],
+    "scope": "Where the source shows multiple numbered points with identical relative phase/intensity, both are included rather than imposing an unsupported side assignment."
+  },
+  {
+    "id": "physics-chapter-35-questions-7",
+    "parts": [
+      {
+        "label": "a · Path1",
+        "type": "choice",
+        "answer": "Maximum all along path",
+        "options": [
+          "Maximum all along path",
+          "Minimum all along path",
+          "Alternating maxima and minima"
+        ],
+        "explanation": "The perpendicular bisector has zero path difference."
+      },
+      {
+        "label": "b · Path2",
+        "type": "choice",
+        "answer": "Minimum all along path",
+        "options": [
+          "Minimum all along path",
+          "Maximum all along path",
+          "Alternating maxima and minima"
+        ],
+        "explanation": "Outside both sources on their axis, path difference stays1.5λ."
+      },
+      {
+        "label": "c · Path3",
+        "type": "choice",
+        "answer": "Alternating maxima and minima",
+        "options": [
+          "Alternating maxima and minima",
+          "Maximum all along path",
+          "Minimum all along path"
+        ],
+        "explanation": "The off-axis path difference varies continuously from1.5λtowardzero."
+      }
+    ],
+    "reasoning": "The sources start in phase and their separation is1.5λ. Verification: The perpendicular bisector has zero path difference.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-8",
+    "parts": [
+      {
+        "label": "a · Path length difference",
+        "type": "numeric",
+        "answer": 3e-07,
+        "unit": "m",
+        "tolerance": 2.4e-09,
+        "explanation": "The more distant reflector adds a round-trip2×150nm."
+      },
+      {
+        "label": "b · Final phase relation",
+        "type": "choice",
+        "answer": "Exactly out of phase",
+        "options": [
+          "Exactly out of phase",
+          "Exactly in phase",
+          "Intermediate"
+        ],
+        "explanation": "300nm is half the600nm wavelength; both rays have one identical reflection."
+      }
+    ],
+    "reasoning": "Count the outward and return segments to the displaced surface. Verification: The more distant reflector adds a round-trip2×150nm.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-9",
+    "parts": [
+      {
+        "label": "a · Other end atλ500nm",
+        "type": "choice",
+        "answer": "Peak",
+        "options": [
+          "Peak",
+          "Valley",
+          "Neither"
+        ],
+        "explanation": "1500nm is three full wavelengths."
+      },
+      {
+        "label": "b · Other end atλ1000nm",
+        "type": "choice",
+        "answer": "Valley",
+        "options": [
+          "Valley",
+          "Peak",
+          "Neither"
+        ],
+        "explanation": "1500nm is1.5wavelengths."
+      }
+    ],
+    "reasoning": "A half-integer wavelength separation reverses peak and valley. Verification: 1500nm is three full wavelengths.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-10",
+    "parts": [
+      {
+        "label": "a · Thickness difference a to b",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "internal wavelengths",
+        "tolerance": 0.004,
+        "explanation": "Adjacent bright-film orders differ by2ΔL=λ_film."
+      },
+      {
+        "label": "b · Thickness difference b to d",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "internal wavelengths",
+        "tolerance": 0.008,
+        "explanation": "bto d spans two adjacent bright intervals."
+      }
+    ],
+    "reasoning": "The question uses the wavelength inside the film, not the air wavelength. Verification: Adjacent bright-film orders differ by2ΔL=λ_film.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-11",
+    "parts": [
+      {
+        "label": "Cases described by bright half-integer condition",
+        "type": "choice",
+        "answer": "c and d",
+        "options": [
+          "c and d",
+          "a and b",
+          "All four"
+        ],
+        "explanation": "Equation35-36requires one relative reflection phase reversal; onlyc andd have one."
+      }
+    ],
+    "reasoning": "Count reflection flips at both interfaces using the incidence-side index. Verification: Equation35-36requires one relative reflection phase reversal; onlyc andd have one.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-12",
+    "parts": [
+      {
+        "label": "a · Reflection phase shift for r3",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes, half a wavelength",
+          "Yes, one quarter wavelength"
+        ],
+        "explanation": "Rayr3 has no internal reflections."
+      },
+      {
+        "label": "b · Reflection phase shift of r4",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "wavelengths",
+        "tolerance": 0,
+        "explanation": "Both internal reflections go from film toair, so neither flips phase."
+      },
+      {
+        "label": "c · Geometric path difference",
+        "type": "choice",
+        "answer": "2L",
+        "options": [
+          "2L",
+          "L",
+          "4L"
+        ],
+        "explanation": "The twice-reflected transmitted ray traverses two additional film thicknesses."
+      }
+    ],
+    "reasoning": "Transmission itself contributes no interface reflection shift. Verification: Rayr3 has no internal reflections.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-35-questions-13",
+    "parts": [
+      {
+        "label": "Most likely in phase",
+        "type": "choice",
+        "answer": "Situation c",
+        "options": [
+          "Situation c",
+          "Situation a",
+          "Situation b"
+        ],
+        "explanation": "Exact backscatter paths are reciprocal and have matching optical lengths through the same scatterers."
+      }
+    ],
+    "reasoning": "At opposition the observer intercepts reciprocal backscattered paths. Verification: Exact backscatter paths are reciprocal and have matching optical lengths through the same scatterers.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air wavelengths unless stated; c=3.00×10⁸m/s; coherent waves and the chapter thin-film and small-angle approximations where specified."
+    ]
+  }
+]

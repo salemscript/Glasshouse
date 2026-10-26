@@ -1,0 +1,50 @@
+{
+  "chapter": 33,
+  "records": 122,
+  "fields": 263,
+  "sourcePagesVisuallyReviewed": [
+    3,
+    18,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "originalDerivationScript": "ch33-author.py",
+  "numericLegacyComparisons": 66,
+  "comparisonResult": "All comparable numeric values agree after conversion and printed rounding, apart from explicitly documented P77 literal-source index versus answer-key width. P55/P85/P91/P101 draft graph/unit/reference-angle mistakes were corrected before delivery. Independent conceptual cross-review also corrected Q11 to only c before publication.",
+  "sourceTraps": {
+    "6": "0.253microhenry, notmillihenry",
+    "15": "10microwatts/m\u00b2, notmilliwatts/m\u00b2",
+    "18": "rs^-2=8 is penultimate tick; line reachesIs200at10, sourcepower80piW",
+    "25": "Pressure=(1+reflectance)I/c. Equality with incident-only density fails forreflectors; equality with combinedincident+reflecteddensity holds.",
+    "55": "55degrees is fromhorizontal; airnormalincidence35degrees",
+    "72": "Epositivequarter anddecreasing impliesnearestnegative-xzeroatsmallphaseasin(.25)",
+    "77": "OriginalPDF explicitlyblue1.333,red1.331; computedwidth0.291733824degree. Key1.7degree correspondsapproximatelyblue1.343 instead.",
+    "78": "Same sourceindices asP77; retaincontinuous totalturningdeviationfromgivenformula andexplicitlystateit.",
+    "85": "Sphere radius2micrometres; acceleration1.501e-9m/s\u00b2",
+    "91": "0.17mrad isfullcone angle; usehalfangle forbeamradius",
+    "101": "Thirdangle40degreefromnegativehorizontal=>axis50degreefrompositivevertical",
+    "105": "Fieldamplitude4microtesla",
+    "106": "NormalsatAandBareperpendicular; correctedcomplementary-anglebranches.",
+    "Q11": "Independent high-resolution cross-review corrected the final answer to only c. The black line is the interface; b rays cross its normal and bend toward it while moving1.5\u21921.3; a red bends wrongly into1.5. In c both rays bend away from the normal correctly and blue lies closer to it than red."
+  },
+  "graphTolerance": "P3,P18,P46,P48,P50,P52 accept finite source-graph reading precision.",
+  "assumptionsVisible": [
+    "P16 literal entire-Earth-surface intensity",
+    "P24 solarconstants",
+    "P25 incident-versus-localenergy density",
+    "P71 signedADyearconvention",
+    "P77/78 sourceindexconflict",
+    "P91 fullcone uniformbeam",
+    "P92 historicalfitmethod",
+    "Q5 canonicalnonuniqueparameterization"
+  ],
+  "numericAndChoiceValidation": "Uniquecomplete122IDs; allnumericvaluesfinite andtolerancesnonnegativeandsmallerthannonzeroanswers; choicesdistinct andcontaincorrectanswer; allslash-containingchoicesrenderstackedfractionsusingactualSolutionMath+Linkedom."
+}

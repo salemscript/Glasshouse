@@ -1,0 +1,3163 @@
+[
+  {
+    "id": "physics-chapter-32-problems-1",
+    "parts": [
+      {
+        "label": "Flux through face 6",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "Wb",
+        "tolerance": 0.024,
+        "explanation": "The other signed fluxes sum−1+2−3+4−5=−3Wb."
+      }
+    ],
+    "reasoning": "The magnetic flux through a closed surface is zero. Verification: The magnetic flux through a closed surface is zero.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-2",
+    "parts": [
+      {
+        "label": "a · Curved-surface flux magnitude",
+        "type": "numeric",
+        "answer": 0.0010769911184307752,
+        "unit": "Wb",
+        "tolerance": 8.615928947446201e-06,
+        "explanation": "Add the two outward end-cap fluxes."
+      },
+      {
+        "label": "b · Curved-surface flux direction",
+        "type": "choice",
+        "answer": "Inward",
+        "options": [
+          "Inward",
+          "Outward",
+          "Zero"
+        ],
+        "explanation": "It must cancel the total outward flux through the flat faces."
+      }
+    ],
+    "reasoning": "Gauss law fixes the signed curved flux without requiring its detailed field distribution. Verification: Gauss law fixes the signed curved flux without requiring its detailed field distribution.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-3",
+    "parts": [
+      {
+        "label": "a · Curved-surface flux magnitude",
+        "type": "numeric",
+        "answer": 4.738229473870884e-05,
+        "unit": "Wb",
+        "tolerance": 3.790583579096707e-07,
+        "explanation": "End-cap net outward flux is Bπr²−25μWb."
+      },
+      {
+        "label": "b · Curved-surface direction",
+        "type": "choice",
+        "answer": "Inward",
+        "options": [
+          "Inward",
+          "Outward",
+          "Zero"
+        ],
+        "explanation": "The outward end flux exceeds the inward25μWb, so the curved part is inward."
+      }
+    ],
+    "reasoning": "The printed initial flux is25.0μWb, not25mWb. Verification: The printed initial flux is25.0μWb, not25mWb.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-4",
+    "parts": [
+      {
+        "label": "Upper-half cylindrical flux",
+        "type": "choice",
+        "answer": "Φ=μ₀iL ln3/π",
+        "options": [
+          "Φ=μ₀iL ln3/π",
+          "Φ=0",
+          "Φ=μ₀iL ln2/(2π)"
+        ],
+        "explanation": "The closing xz rectangle has inward flux −μ₀iL ln3/π; curved flux is opposite."
+      },
+      {
+        "label": "Flux direction",
+        "type": "choice",
+        "answer": "Outward",
+        "options": [
+          "Outward",
+          "Inward",
+          "Zero"
+        ],
+        "explanation": "Between the wires their y components add upward."
+      }
+    ],
+    "reasoning": "Integrate μ₀i[1/(x+2r)+1/(2r−x)]/(2π) fromx=−r tor; the two logarithms each give ln3. Verification: Integrate μ₀i[1/(x+2r)+1/(2r−x)]/(2π) fromx=−r tor; the two logarithms each give ln3.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-5",
+    "parts": [
+      {
+        "label": "Electric-field change rate",
+        "type": "numeric",
+        "answer": 23967313167968.58,
+        "unit": "V/(m·s)",
+        "tolerance": 191738505343.74863,
+        "explanation": "Outside the plates, B=μ₀ε₀R²(dE/dt)/(2r)."
+      }
+    ],
+    "reasoning": "Use the plate radius3mm, not the observation radius6mm, in the flux area. Verification: Use the plate radius3mm, not the observation radius6mm, in the flux area.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-6",
+    "parts": [
+      {
+        "label": "Circulation magnitude",
+        "type": "numeric",
+        "answer": 5.235987755982989e-08,
+        "unit": "T·m",
+        "tolerance": 4.188790204786391e-10,
+        "explanation": "The rectangle encloses displacement-current fraction WH/L²."
+      }
+    ],
+    "reasoning": "Ampere–Maxwell circulation depends on enclosed area even for a non symmetric rectangular path. Verification: Ampere–Maxwell circulation depends on enclosed area even for a non symmetric rectangular path.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-7",
+    "parts": [
+      {
+        "label": "a · Field at 2cm",
+        "type": "numeric",
+        "answer": 1.1805333333333335e-19,
+        "unit": "T",
+        "tolerance": 9.44426666666667e-22,
+        "explanation": "Uniform flux fraction is(r/R)²."
+      },
+      {
+        "label": "b · Field at 5cm",
+        "type": "numeric",
+        "answer": 1.06248e-19,
+        "unit": "T",
+        "tolerance": 8.49984e-22,
+        "explanation": "Outside, the loop encloses the entire changing flux."
+      }
+    ],
+    "reasoning": "The original total-flux coefficient is3.00mV·m/s, or.003V·m/s. Verification: The original total-flux coefficient is3.00mV·m/s, or.003V·m/s.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-8",
+    "parts": [
+      {
+        "label": "a · Field at 2cm",
+        "type": "numeric",
+        "answer": 3.5416e-17,
+        "unit": "T",
+        "tolerance": 2.8332799999999997e-19,
+        "explanation": "Enclosed flux derivative scales linearly withr, canceling the circulation radius."
+      },
+      {
+        "label": "b · Field at 5cm",
+        "type": "numeric",
+        "answer": 2.1249599999999998e-17,
+        "unit": "T",
+        "tolerance": 1.699968e-19,
+        "explanation": "OutsideR, the total derivative saturates at.600V·m/s."
+      }
+    ],
+    "reasoning": "This is an enclosed-flux law, not a uniform local electric-field law. Verification: This is an enclosed-flux law, not a uniform local electric-field law.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-9",
+    "parts": [
+      {
+        "label": "a · Field at 2cm",
+        "type": "numeric",
+        "answer": 5.006819043879125e-22,
+        "unit": "T",
+        "tolerance": 4.0054552351033e-24,
+        "explanation": "For a uniform changing E, interior B=μ₀ε₀r E′/2."
+      },
+      {
+        "label": "b · Field at 5cm",
+        "type": "numeric",
+        "answer": 4.506137139491212e-22,
+        "unit": "T",
+        "tolerance": 3.604909711592969e-24,
+        "explanation": "Exterior B=μ₀ε₀R²E′/(2r)."
+      }
+    ],
+    "reasoning": "The source gives E′=4.50×10⁻³V/(m·s). Verification: The source gives E′=4.50×10⁻³V/(m·s).",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-10",
+    "parts": [
+      {
+        "label": "a · Field at 2cm",
+        "type": "numeric",
+        "answer": 3.0906290394315586e-20,
+        "unit": "T",
+        "tolerance": 2.472503231545247e-22,
+        "explanation": "Integrate2πr′(1−r′/R)E′₀dr′ before dividing circulation by2πr."
+      },
+      {
+        "label": "b · Field at 5cm",
+        "type": "numeric",
+        "answer": 1.6689396812930413e-20,
+        "unit": "T",
+        "tolerance": 1.335151745034433e-22,
+        "explanation": "The total flux derivative isπR²E′₀/3."
+      }
+    ],
+    "reasoning": "The nonuniform profile reduces total flux derivative to one third of the central-value uniform model. Verification: The nonuniform profile reduces total flux derivative to one third of the central-value uniform model.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-11",
+    "parts": [
+      {
+        "label": "a · Maximum edge field",
+        "type": "numeric",
+        "answer": 1.8875263111324956e-12,
+        "unit": "T",
+        "tolerance": 1.5100210489059967e-14,
+        "explanation": "Emax=Vmax/d, and|max dE/dt|=ωVmax/d."
+      },
+      {
+        "label": "b · Plot shape",
+        "type": "choice",
+        "answer": "B grows linearly to R, then decreases as1/r",
+        "options": [
+          "B grows linearly to R, then decreases as1/r",
+          "B is constant for allr",
+          "B decreases inside and increases outside"
+        ],
+        "explanation": "The enclosed displacement current grows asr² inside and is constant outside."
+      },
+      {
+        "label": "b · Maximum field at 0cm",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-50,
+        "explanation": "Evaluate the interior/exterior Ampere–Maxwell expressions."
+      },
+      {
+        "label": "b · Maximum field at 1cm",
+        "type": "numeric",
+        "answer": 6.291754370441653e-13,
+        "unit": "T",
+        "tolerance": 5.033403496353322e-15,
+        "explanation": "Evaluate the interior/exterior Ampere–Maxwell expressions."
+      },
+      {
+        "label": "b · Maximum field at 3cm",
+        "type": "numeric",
+        "answer": 1.8875263111324956e-12,
+        "unit": "T",
+        "tolerance": 1.5100210489059967e-14,
+        "explanation": "Evaluate the interior/exterior Ampere–Maxwell expressions."
+      },
+      {
+        "label": "b · Maximum field at 5cm",
+        "type": "numeric",
+        "answer": 1.1325157866794973e-12,
+        "unit": "T",
+        "tolerance": 9.060126293435979e-15,
+        "explanation": "Evaluate the interior/exterior Ampere–Maxwell expressions."
+      },
+      {
+        "label": "b · Maximum field at 10cm",
+        "type": "numeric",
+        "answer": 5.662578933397487e-13,
+        "unit": "T",
+        "tolerance": 4.5300631467179895e-15,
+        "explanation": "Evaluate the interior/exterior Ampere–Maxwell expressions."
+      }
+    ],
+    "reasoning": "The two field formulas agree at the plate edge. Verification: The two field formulas agree at the plate edge.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ],
+    "scope": "The plot is checked by its shape, edge maximum and five numerical points; freehand drawing is not automatically assessed."
+  },
+  {
+    "id": "physics-chapter-32-problems-12",
+    "parts": [
+      {
+        "label": "a · Interior radius",
+        "type": "numeric",
+        "answer": 0.03,
+        "unit": "m",
+        "tolerance": 0.00024,
+        "explanation": "InsideB/Bmax=r/R."
+      },
+      {
+        "label": "b · Exterior radius",
+        "type": "numeric",
+        "answer": 0.05333333333333334,
+        "unit": "m",
+        "tolerance": 0.0004266666666666667,
+        "explanation": "Outside B/Bmax=R/r."
+      },
+      {
+        "label": "c · Maximum field",
+        "type": "numeric",
+        "answer": 2.9999999999999997e-05,
+        "unit": "T",
+        "tolerance": 2.4e-07,
+        "explanation": "The maximum occurs at the plate edge."
+      }
+    ],
+    "reasoning": "The prescribed75% level has one radius on each side of the edge. Verification: The prescribed75% level has one radius on each side of the edge.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-13",
+    "parts": [
+      {
+        "label": "Required voltage-change rate",
+        "type": "numeric",
+        "answer": 750000.0,
+        "unit": "V/s",
+        "tolerance": 6000.0,
+        "explanation": "id=C dV/dt; the capacitance is2.0μF."
+      }
+    ],
+    "reasoning": "Capacitance already contains the plate geometry and permittivity. Verification: Capacitance already contains the plate geometry and permittivity.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-14",
+    "parts": [
+      {
+        "label": "Displacement-current density",
+        "type": "choice",
+        "answer": "Jd=ε₀ dE/dt",
+        "options": [
+          "Jd=ε₀ dE/dt",
+          "Jd=ε₀ E",
+          "Jd=μ₀ dE/dt"
+        ],
+        "explanation": "For uniform E, id=ε₀A dE/dt; divide byA."
+      }
+    ],
+    "reasoning": "Displacement current density has unitsA/m². Verification: Displacement current density has unitsA/m².",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-15",
+    "parts": [
+      {
+        "label": "Displacement current in terms of voltage",
+        "type": "choice",
+        "answer": "id=C dV/dt",
+        "options": [
+          "id=C dV/dt",
+          "id=V/C",
+          "id=C/V"
+        ],
+        "explanation": "UseE=V/d andC=ε₀A/d inid=ε₀A E′."
+      }
+    ],
+    "reasoning": "Differentiate chargeq=CV for a fixed geometry to verify the same relation. Verification: Differentiate chargeq=CV for a fixed geometry to verify the same relation.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-16",
+    "parts": [
+      {
+        "label": "Electric-field change-rate magnitude",
+        "type": "numeric",
+        "answer": 7190193950390.573,
+        "unit": "V/(m·s)",
+        "tolerance": 57521551603.12459,
+        "explanation": "The larger loop encloses all current; the electric-field area is the plate areaπ(.10m)²."
+      }
+    ],
+    "reasoning": "The loop radius.20m does not enlarge the region containing electric flux. Verification: The loop radius.20m does not enlarge the region containing electric flux.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-17",
+    "parts": [
+      {
+        "label": "a · Wire electric field",
+        "type": "numeric",
+        "answer": 0.32399999999999995,
+        "unit": "V/m",
+        "tolerance": 0.0025919999999999997,
+        "explanation": "E=ρJ=ρI/A."
+      },
+      {
+        "label": "b · Displacement current",
+        "type": "numeric",
+        "answer": 2.868696e-16,
+        "unit": "A",
+        "tolerance": 2.2949568e-18,
+        "explanation": "id=ε₀A dE/dt=ε₀ρ di/dt."
+      },
+      {
+        "label": "c · Displacement-to-conduction magnetic-field ratio",
+        "type": "numeric",
+        "answer": 2.868696e-18,
+        "unit": "dimensionless",
+        "tolerance": 2.2949568e-20,
+        "explanation": "At a common observation radius the common Ampere factor cancels."
+      }
+    ],
+    "reasoning": "The microscopic displacement current is many orders of magnitude smaller than the conduction current. Verification: The microscopic displacement current is many orders of magnitude smaller than the conduction current.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-18",
+    "parts": [
+      {
+        "label": "Magnetic field at 250μs and 3cm",
+        "type": "numeric",
+        "answer": 8.397748719144889e-13,
+        "unit": "T",
+        "tolerance": 6.7181989753159116e-15,
+        "explanation": "The charging current is(12V/20MΩ)exp[−t/(RC)], thenB=μ₀ir/(2πRplate²)."
+      }
+    ],
+    "reasoning": "The original time is250μs, not250ms. Verification: The original time is250μs, not250ms.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-19",
+    "parts": [
+      {
+        "label": "a · Field at 2cm",
+        "type": "numeric",
+        "answer": 7.539822368615504e-08,
+        "unit": "T",
+        "tolerance": 6.031857894892403e-10,
+        "explanation": "Interior circulation encloses Jdπr²."
+      },
+      {
+        "label": "b · Field at 5cm",
+        "type": "numeric",
+        "answer": 6.785840131753953e-08,
+        "unit": "T",
+        "tolerance": 5.428672105403162e-10,
+        "explanation": "Outside, allJdπR² is enclosed."
+      }
+    ],
+    "reasoning": "The uniform displacement-current density acts like a uniform cylindrical current distribution. Verification: The uniform displacement-current density acts like a uniform cylindrical current distribution.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-20",
+    "parts": [
+      {
+        "label": "a · Field at 2cm",
+        "type": "numeric",
+        "answer": 2.2222222222222225e-06,
+        "unit": "T",
+        "tolerance": 1.777777777777778e-08,
+        "explanation": "Use the enclosed-current fraction r²/R²."
+      },
+      {
+        "label": "b · Field at 5cm",
+        "type": "numeric",
+        "answer": 2.0000000000000003e-06,
+        "unit": "T",
+        "tolerance": 1.6000000000000004e-08,
+        "explanation": "Enclose the total.500A."
+      }
+    ],
+    "reasoning": "The source supplies total current, unlike the density inP19. Verification: The source supplies total current, unlike the density inP19.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-21",
+    "parts": [
+      {
+        "label": "a · Field at 2cm",
+        "type": "numeric",
+        "answer": 2.7925268031909273e-08,
+        "unit": "T",
+        "tolerance": 2.234021442552742e-10,
+        "explanation": "Integrate Jd=4(1−r/R) over concentric rings."
+      },
+      {
+        "label": "b · Field at 5cm",
+        "type": "numeric",
+        "answer": 1.5079644737231003e-08,
+        "unit": "T",
+        "tolerance": 1.2063715789784804e-10,
+        "explanation": "The integrated total current isπJ₀R²/3."
+      }
+    ],
+    "reasoning": "A varying density cannot be multiplied by the full area using only its edge value. Verification: A varying density cannot be multiplied by the full area using only its edge value.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-22",
+    "parts": [
+      {
+        "label": "a · Field at 2cm",
+        "type": "numeric",
+        "answer": 2e-05,
+        "unit": "T",
+        "tolerance": 1.6e-07,
+        "explanation": "id,enc=3r/R cancels the circulation radius."
+      },
+      {
+        "label": "b · Field at 5cm",
+        "type": "numeric",
+        "answer": 1.2e-05,
+        "unit": "T",
+        "tolerance": 9.6e-08,
+        "explanation": "OutsideR, enclosed current remains3A."
+      }
+    ],
+    "reasoning": "The stated id(r) is already the enclosed current, not a local current density. Verification: The stated id(r) is already the enclosed current, not a local current density.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-23",
+    "parts": [
+      {
+        "label": "a · Total displacement current",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "A",
+        "tolerance": 0.016,
+        "explanation": "Charge continuity makesid=i."
+      },
+      {
+        "label": "b · Electric-field change rate",
+        "type": "numeric",
+        "answer": 225886604924.328,
+        "unit": "V/(m·s)",
+        "tolerance": 1807092839.394624,
+        "explanation": "A=1m², soE′=i/(ε₀A)."
+      },
+      {
+        "label": "c · Current in dashed square",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "A",
+        "tolerance": 0.004,
+        "explanation": "The square hasone-quarter of the plate area."
+      },
+      {
+        "label": "d · Circulation magnitude",
+        "type": "numeric",
+        "answer": 6.283185307179586e-07,
+        "unit": "T·m",
+        "tolerance": 5.026548245743669e-09,
+        "explanation": "Ampere–Maxwell givesμ₀id,enc."
+      }
+    ],
+    "reasoning": "The electric-field change is uniform across the plate area. Verification: The electric-field change is uniform across the plate area.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-24",
+    "parts": [
+      {
+        "label": "a · Displacement-current magnitude",
+        "type": "numeric",
+        "answer": 2.12496e-08,
+        "unit": "A",
+        "tolerance": 1.699968e-10,
+        "explanation": "Use |id|=ε₀A|E′|."
+      },
+      {
+        "label": "b · Current direction",
+        "type": "choice",
+        "answer": "Downward",
+        "options": [
+          "Downward",
+          "Upward",
+          "Zero"
+        ],
+        "explanation": "The upward electric field decreases, so its signed derivative is downward."
+      },
+      {
+        "label": "c · Magnetic-field sense viewed from above",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "Zero"
+        ],
+        "explanation": "Right-hand rule about a downward current gives clockwise circulation."
+      }
+    ],
+    "reasoning": "The derivative remains downward even after the electric field passes through zero. Verification: The derivative remains downward even after the electric field passes through zero.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-25",
+    "parts": [
+      {
+        "label": "a · Magnetic field at 50mm",
+        "type": "numeric",
+        "answer": 6.283185307179588e-07,
+        "unit": "T",
+        "tolerance": 5.02654824574367e-09,
+        "explanation": "The point is inside the.10m plate radius; B=μ₀Jdr/2."
+      },
+      {
+        "label": "b · Electric-field change rate",
+        "type": "numeric",
+        "answer": 2258866049243.2803,
+        "unit": "V/(m·s)",
+        "tolerance": 18070928393.946243,
+        "explanation": "Jd=ε₀E′."
+      }
+    ],
+    "reasoning": "The given20cm is the diameter, not the radius. Verification: The given20cm is the diameter, not the radius.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-26",
+    "parts": [
+      {
+        "label": "a · Encircled current atR/3",
+        "type": "numeric",
+        "answer": 1.3333333333333333,
+        "unit": "A",
+        "tolerance": 0.010666666666666666,
+        "explanation": "Uniform current density makes enclosed current proportional tor²."
+      },
+      {
+        "label": "b · Interior radius for the stated field ratio",
+        "type": "numeric",
+        "answer": 0.003,
+        "unit": "m",
+        "tolerance": 2.4e-05,
+        "explanation": "The separately given3mT/12mT ratio isr/R=.25."
+      },
+      {
+        "label": "c · Exterior radius for the stated field ratio",
+        "type": "numeric",
+        "answer": 0.048,
+        "unit": "m",
+        "tolerance": 0.000384,
+        "explanation": "Outside, the stated ratio isR/r=.25."
+      }
+    ],
+    "reasoning": "Use the stated current forpart(a), and the separately specified field ratio for parts(b,c). Verification: Use the stated current forpart(a), and the separately specified field ratio for parts(b,c).",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ],
+    "scope": "Part(a) uses12A. Parts(b,c) check the stated normalized field ratio; the absolute field values in that sentence cannot simultaneously follow from the earlier current and radius.",
+    "reviewNotice": "The source gives inconsistent absolute field data:12.0A andR=1.20cm imply a maximum field of0.200mT, whereas the later sentence states12.0mT. Parts(b,c) use the explicitly supplied3.00mT/12.0mT ratio."
+  },
+  {
+    "id": "physics-chapter-32-problems-27",
+    "parts": [
+      {
+        "label": "Interval a current",
+        "type": "numeric",
+        "answer": 0.7083200000000001,
+        "unit": "A",
+        "tolerance": 0.00566656,
+        "explanation": "Graph falls from6×10⁵ to4×10⁵N/C in4μs."
+      },
+      {
+        "label": "Interval b current",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A",
+        "tolerance": 1e-20,
+        "explanation": "The middle field plateau is constant."
+      },
+      {
+        "label": "Interval c current",
+        "type": "numeric",
+        "answer": 2.8332800000000002,
+        "unit": "A",
+        "tolerance": 0.02266624,
+        "explanation": "The final fall from4×10⁵ tozero takes2μs."
+      }
+    ],
+    "reasoning": "Read the change and duration of each segment separately, not only its endpoint field. Verification: Read the change and duration of each segment separately, not only its endpoint field.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-28",
+    "parts": [
+      {
+        "label": "a · Conduction field at 0.02s",
+        "type": "numeric",
+        "answer": 8.88888888888889e-05,
+        "unit": "T",
+        "tolerance": 7.111111111111113e-07,
+        "explanation": "Current rises10A in50ms and then stays constant."
+      },
+      {
+        "label": "b · Conduction field at 0.04s",
+        "type": "numeric",
+        "answer": 0.0001777777777777778,
+        "unit": "T",
+        "tolerance": 1.4222222222222225e-06,
+        "explanation": "Current rises10A in50ms and then stays constant."
+      },
+      {
+        "label": "c · Conduction field at 0.06s",
+        "type": "numeric",
+        "answer": 0.00022222222222222226,
+        "unit": "T",
+        "tolerance": 1.7777777777777782e-06,
+        "explanation": "Current rises10A in50ms and then stays constant."
+      },
+      {
+        "label": "d · Displacement field at 0.02s",
+        "type": "numeric",
+        "answer": 6.37488e-22,
+        "unit": "T",
+        "tolerance": 5.099904000000001e-24,
+        "explanation": "id=ε₀ρ di/dt; slope is200A/s during the ramp."
+      },
+      {
+        "label": "e · Displacement field at 0.04s",
+        "type": "numeric",
+        "answer": 6.37488e-22,
+        "unit": "T",
+        "tolerance": 5.099904000000001e-24,
+        "explanation": "id=ε₀ρ di/dt; slope is200A/s during the ramp."
+      },
+      {
+        "label": "f · Displacement field at 0.06s",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-50,
+        "explanation": "id=ε₀ρ di/dt; slope is200A/s during the ramp."
+      },
+      {
+        "label": "g · Conduction-field direction at 20ms",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero"
+        ],
+        "explanation": "Rightward current and point above the wire giveB out ofpage."
+      },
+      {
+        "label": "h · Displacement-field direction at 20ms",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero"
+        ],
+        "explanation": "The increasing rightward current has rightward displacement current."
+      }
+    ],
+    "reasoning": "The two ramp times share the same displacement current despite different conduction currents. Verification: The two ramp times share the same displacement current despite different conduction currents.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ],
+    "scope": "The text ends with20s while the requested earlier times and graph use milliseconds. Direction fields refer to20ms as intended by the graph; at literal20s the steady conduction field is outward and the displacement field iszero."
+  },
+  {
+    "id": "physics-chapter-32-problems-29",
+    "parts": [
+      {
+        "label": "a · Circuit-current amplitude",
+        "type": "numeric",
+        "answer": 7.6e-06,
+        "unit": "A",
+        "tolerance": 6.08e-08,
+        "explanation": "Conduction and displacement currents have equal total amplitudes."
+      },
+      {
+        "label": "b · Maximum electric-flux change rate",
+        "type": "numeric",
+        "answer": 858369.0987124464,
+        "unit": "V·m/s",
+        "tolerance": 6866.952789699571,
+        "explanation": "id=ε₀ dΦE/dt."
+      },
+      {
+        "label": "c · Plate separation",
+        "type": "numeric",
+        "answer": 0.003391461110248649,
+        "unit": "m",
+        "tolerance": 2.713168888198919e-05,
+        "explanation": "id,max=ε₀Aωεm/d."
+      },
+      {
+        "label": "d · Maximum field at 11cm",
+        "type": "numeric",
+        "answer": 5.1604938271604945e-12,
+        "unit": "T",
+        "tolerance": 4.128395061728396e-14,
+        "explanation": "The point lies inside the plate edge."
+      }
+    ],
+    "reasoning": "The printed displacement-current amplitude is7.60μA, not7.60mA. Verification: The printed displacement-current amplitude is7.60μA, not7.60mA.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-30",
+    "parts": [
+      {
+        "label": "a · Flux through rest ofEarth",
+        "type": "numeric",
+        "answer": 12685000.0,
+        "unit": "Wb",
+        "tolerance": 101480.0,
+        "explanation": "Arizona flux magnitude is43μT times2.95×10¹¹m²."
+      },
+      {
+        "label": "b · Direction through rest ofEarth",
+        "type": "choice",
+        "answer": "Outward",
+        "options": [
+          "Outward",
+          "Inward",
+          "Zero"
+        ],
+        "explanation": "Arizona receives inward flux; the rest must supply equal outward flux."
+      }
+    ],
+    "reasoning": "The net closed-surface magnetic flux vanishes. Verification: The net closed-surface magnetic flux vanishes.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-31",
+    "parts": [
+      {
+        "label": "Earth field magnitude",
+        "type": "numeric",
+        "answer": 5.472485791733229e-05,
+        "unit": "T",
+        "tolerance": 4.377988633386583e-07,
+        "explanation": "Bh=Bcos(inclination)."
+      }
+    ],
+    "reasoning": "The original horizontal component is16μT. Verification: The original horizontal component is16μT.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-32",
+    "parts": [
+      {
+        "label": "a · Allowed orbital quantum number forE 1",
+        "type": "choice",
+        "answer": "0",
+        "options": [
+          "0",
+          "−1 and+1",
+          "−1,0,+1"
+        ],
+        "explanation": "The unsplit level haszero orbital angular momentum."
+      },
+      {
+        "label": "b · Allowed orbital quantum numbers forE 2",
+        "type": "choice",
+        "answer": "−1,0,+1",
+        "options": [
+          "−1,0,+1",
+          "0 only",
+          "−2,−1,0,+1,+2"
+        ],
+        "explanation": "A triplet comprises three allowed projections."
+      },
+      {
+        "label": "c · Adjacent splitting energy",
+        "type": "numeric",
+        "answer": 4.635e-24,
+        "unit": "J",
+        "tolerance": 3.708e-26,
+        "explanation": "Energy shift ismlμBB, so adjacent ml differ byμBB."
+      }
+    ],
+    "reasoning": "Spin splitting is explicitly neglected inthis question. Verification: Spin splitting is explicitly neglected inthis question.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-33",
+    "parts": [
+      {
+        "label": "a · Orbital angular momentum for ml 0",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "J·s",
+        "tolerance": 1e-40,
+        "explanation": "Lz=mlħ."
+      },
+      {
+        "label": "b · Orbital moment for ml 0",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "J/T",
+        "tolerance": 1e-40,
+        "explanation": "μorb,z=−mlμB."
+      },
+      {
+        "label": "c · Orbital energy for ml 0",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "J",
+        "tolerance": 1e-40,
+        "explanation": "Uorb=mlμBB."
+      },
+      {
+        "label": "d · Possible spin energy for ml 0",
+        "type": "choice",
+        "answer": "Either +μBB or−μBB",
+        "options": [
+          "Either +μBB or−μBB",
+          "Only zero",
+          "Only−3μBB"
+        ],
+        "explanation": "The orbital quantum number doesnot specify the spin projection."
+      },
+      {
+        "label": "e · Orbital angular momentum for ml−3",
+        "type": "numeric",
+        "answer": -3.165591818097798e-34,
+        "unit": "J·s",
+        "tolerance": 2.5324734544782387e-36,
+        "explanation": "Lz=−3ħ."
+      },
+      {
+        "label": "f · Orbital moment for ml−3",
+        "type": "numeric",
+        "answer": 2.781e-23,
+        "unit": "J/T",
+        "tolerance": 2.2248e-25,
+        "explanation": "The electron moment opposes its orbital angular momentum."
+      },
+      {
+        "label": "g · Orbital energy for ml−3",
+        "type": "numeric",
+        "answer": -9.7335e-25,
+        "unit": "J",
+        "tolerance": 7.786799999999999e-27,
+        "explanation": "Uorb=−μorb,zB."
+      },
+      {
+        "label": "h · Possible spin energy for ml−3",
+        "type": "choice",
+        "answer": "Either +μBB or−μBB",
+        "options": [
+          "Either +μBB or−μBB",
+          "Only zero",
+          "Only+3μBB"
+        ],
+        "explanation": "Spin remains independent of the orbital projection."
+      }
+    ],
+    "reasoning": "Orbital andspin quantum numbers are distinct; the unspecified spin orientation allows both spin energies. Verification: Orbital andspin quantum numbers are distinct; the unspecified spin orientation allows both spin energies.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-34",
+    "parts": [
+      {
+        "label": "Spin reversal energy difference",
+        "type": "numeric",
+        "answer": 4.635e-24,
+        "unit": "J",
+        "tolerance": 3.708e-26,
+        "explanation": "The two spin moment projections have energies±μBB."
+      }
+    ],
+    "reasoning": "Parallel and anti parallel energies differ by2μBB. Verification: Parallel and anti parallel energies differ by2μBB.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-35",
+    "parts": [
+      {
+        "label": "a · Orbital moment for ml 1",
+        "type": "numeric",
+        "answer": -9.27e-24,
+        "unit": "J/T",
+        "tolerance": 7.416e-26,
+        "explanation": "μorb,z=−mlμB."
+      },
+      {
+        "label": "b · Orbital moment for ml−2",
+        "type": "numeric",
+        "answer": 1.854e-23,
+        "unit": "J/T",
+        "tolerance": 1.4832e-25,
+        "explanation": "Negative orbital projection gives positive magnetic projection."
+      }
+    ],
+    "reasoning": "The negative electron charge reverses the orbital moment sign. Verification: The negative electron charge reverses the orbital moment sign.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-36",
+    "parts": [
+      {
+        "label": "External field magnitude",
+        "type": "numeric",
+        "answer": 0.032362459546925564,
+        "unit": "T",
+        "tolerance": 0.0002588996763754045,
+        "explanation": "B=ΔU/(2μB)."
+      }
+    ],
+    "reasoning": "Use the energy difference between both spin states, notthe energy ofone state. Verification: Use the energy difference between both spin states, notthe energy ofone state.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-37",
+    "parts": [
+      {
+        "label": "a · Applied field near loop",
+        "type": "choice",
+        "answer": "Leftward toward the magnet south pole",
+        "options": [
+          "Leftward toward the magnet south pole",
+          "Rightward away from the south pole",
+          "Zero everywhere"
+        ],
+        "explanation": "Outside a magnet, field lines enter its south pole."
+      },
+      {
+        "label": "b · Induced dipole direction",
+        "type": "choice",
+        "answer": "Positive x, away from magnet",
+        "options": [
+          "Positive x, away from magnet",
+          "Negative x, toward magnet",
+          "Zero"
+        ],
+        "explanation": "A diamagnetic dipole opposes the applied field."
+      },
+      {
+        "label": "c · Current viewed from loop right side toward magnet",
+        "type": "choice",
+        "answer": "Counterclockwise",
+        "options": [
+          "Counterclockwise",
+          "Clockwise",
+          "Zero"
+        ],
+        "explanation": "Right-hand rule forμpointing toward viewer."
+      },
+      {
+        "label": "d · Force direction",
+        "type": "choice",
+        "answer": "Positive x, away from magnet",
+        "options": [
+          "Positive x, away from magnet",
+          "Negative x, toward magnet",
+          "Zero"
+        ],
+        "explanation": "Diamagnetism is repelled from the stronger field near the magnet."
+      }
+    ],
+    "reasoning": "The stated viewing convention removes ambiguity from the loop ellipse. Verification: The stated viewing convention removes ambiguity from the loop ellipse.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ],
+    "scope": "The sketch is checked through field direction, moment, current and force; view current from the positive-x side toward the magnet."
+  },
+  {
+    "id": "physics-chapter-32-problems-38",
+    "parts": [
+      {
+        "label": "Induced orbital moment change",
+        "type": "choice",
+        "answer": "Δμ=−e²r²B/(4m)",
+        "options": [
+          "Δμ=−e²r²B/(4m)",
+          "Δμ=+e²r²B/(4m)",
+          "Δμ=−erB/(2m)"
+        ],
+        "explanation": "Induced azimuthal force changes orbital speed byerB/(2m), andμ=evr/2; the induced moment opposes B."
+      }
+    ],
+    "reasoning": "The slow field turn-on and small change approximation gives the L armor diamagnetic result. Verification: The slow field turn-on and small change approximation gives the L armor diamagnetic result.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-39",
+    "parts": [
+      {
+        "label": "Curie-law validity over 10–300K at.50T",
+        "type": "choice",
+        "answer": "Yes, approximately throughout the interval",
+        "options": [
+          "Yes, approximately throughout the interval",
+          "No, the sample is saturated throughout",
+          "Only at the lowest temperature"
+        ],
+        "explanation": "The largest B/T=.05T/K lies well inside the approximately linear graph region below about.5T/K."
+      }
+    ],
+    "reasoning": "Check the largest field-to-temperature ratio, which occurs at10K. Verification: Check the largest field-to-temperature ratio, which occurs at10K.",
+    "sourcePages": [
+      20,
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-40",
+    "parts": [
+      {
+        "label": "a · Field for 50% saturation",
+        "type": "numeric",
+        "answer": 150,
+        "unit": "T",
+        "tolerance": 20,
+        "explanation": "The source graph givesB/T≈.50T/K; multiply by300K."
+      },
+      {
+        "label": "b · Field for 90% saturation",
+        "type": "numeric",
+        "answer": 450,
+        "unit": "T",
+        "tolerance": 60,
+        "explanation": "The graph givesB/T≈1.50T/K; multiply by300K."
+      },
+      {
+        "label": "c · Laboratory-field scale",
+        "type": "choice",
+        "answer": "Far above ordinary steady laboratory fields",
+        "options": [
+          "Far above ordinary steady laboratory fields",
+          "Both are ordinary small laboratory fields",
+          "No applied field is needed"
+        ],
+        "explanation": "Hundreds of teslas arethe source estimate, not sub tesla fields."
+      }
+    ],
+    "reasoning": "Read the measured/quantum magnetization curve rather than extrapolating Curie law to near saturation. Verification: Read the measured/quantum magnetization curve rather than extrapolating Curie law to near saturation.",
+    "sourcePages": [
+      20,
+      29
+    ],
+    "assumptions": [
+      "Graph-derived ratios approximately.50 and1.50T/K; finite plotting precision is reflected in the tolerances."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-41",
+    "parts": [
+      {
+        "label": "Magnetic dipole moment",
+        "type": "numeric",
+        "answer": 0.020813051330032382,
+        "unit": "A·m²",
+        "tolerance": 0.00016650441064025906,
+        "explanation": "Magnetic moment is magnetization times volume."
+      }
+    ],
+    "reasoning": "The given1cm isthe diameter. Verification: The given1cm isthe diameter.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-42",
+    "parts": [
+      {
+        "label": "Equal-energy temperature",
+        "type": "numeric",
+        "answer": 0.4830917874396135,
+        "unit": "K",
+        "tolerance": 0.003864734299516908,
+        "explanation": "Equate3kT/2 to the flip energy2μB."
+      }
+    ],
+    "reasoning": "Flipping end-to-end changes energy by twiceμB. Verification: Flipping end-to-end changes energy by twiceμB.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-43",
+    "parts": [
+      {
+        "label": "a · Electron moment magnitude",
+        "type": "choice",
+        "answer": "μ=Ke/B",
+        "options": [
+          "μ=Ke/B",
+          "μ=2Ke/B",
+          "μ=KeB"
+        ],
+        "explanation": "Circular orbit givesr=mv/(eB), μ=evr/2=mv²/(2B)."
+      },
+      {
+        "label": "a · Electron moment direction",
+        "type": "choice",
+        "answer": "Opposite the external field",
+        "options": [
+          "Opposite the external field",
+          "Along the external field",
+          "Perpendicular to the field"
+        ],
+        "explanation": "The circulating charge current produces a moment opposing the Lorentz-confining field."
+      },
+      {
+        "label": "b · Positive-ion moment magnitude",
+        "type": "choice",
+        "answer": "μ=Ki/B",
+        "options": [
+          "μ=Ki/B",
+          "μ=2Ki/B",
+          "μ=KiB"
+        ],
+        "explanation": "The charge and mass cancel in the same derivation."
+      },
+      {
+        "label": "c · Positive-ion moment direction",
+        "type": "choice",
+        "answer": "Opposite the external field",
+        "options": [
+          "Opposite the external field",
+          "Along the external field",
+          "Perpendicular to the field"
+        ],
+        "explanation": "Positive charge orbit direction reverses relative to an electron but its conventional current moment still opposes B."
+      },
+      {
+        "label": "d · Magnetization magnitude",
+        "type": "numeric",
+        "answer": 307.40000000000003,
+        "unit": "A/m",
+        "tolerance": 2.4592000000000005,
+        "explanation": "Add both number densities timesKe/B andKi/B."
+      },
+      {
+        "label": "d · Magnetization direction",
+        "type": "choice",
+        "answer": "Opposite the field",
+        "options": [
+          "Opposite the field",
+          "Along the field",
+          "Zero"
+        ],
+        "explanation": "Both species contribute moments in the same diamagnetic direction."
+      }
+    ],
+    "reasoning": "The orbital magnetic response is independent of the sign of the particle charge. Verification: The orbital magnetic response is independent of the sign of the particle charge.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-44",
+    "parts": [
+      {
+        "label": "Sample moment divided by maximum",
+        "type": "numeric",
+        "answer": 0.3,
+        "unit": "dimensionless",
+        "tolerance": 0.0024,
+        "explanation": "Curie line slope=.15/.2=.75K/T; B/T=.8/2=.4T/K."
+      }
+    ],
+    "reasoning": "Magnetic moment ratios and magnetization ratios are equal at fixed sample volume. Verification: Magnetic moment ratios and magnetization ratios are equal at fixed sample volume.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-45",
+    "parts": [
+      {
+        "label": "a · Two-state magnetization",
+        "type": "choice",
+        "answer": "M=Nμ tanh(μB/(kT))",
+        "options": [
+          "M=Nμ tanh(μB/(kT))",
+          "M=Nμ sinh(μB/(kT))",
+          "M=Nμ cosh(μB/(kT))"
+        ],
+        "explanation": "Normalize the Bolt z mann populations e^x ande^(−x), then subtract."
+      },
+      {
+        "label": "b · Weak-field limit",
+        "type": "choice",
+        "answer": "M=Nμ²B/(kT)",
+        "options": [
+          "M=Nμ²B/(kT)",
+          "M=NμB",
+          "M=Nμ"
+        ],
+        "explanation": "tanhx≈x for|x|≪1."
+      },
+      {
+        "label": "c · Strong-field limit",
+        "type": "choice",
+        "answer": "M=Nμ",
+        "options": [
+          "M=Nμ",
+          "M=0",
+          "M increases with outbound"
+        ],
+        "explanation": "tanhx→1 forx≫1."
+      },
+      {
+        "label": "d · Qualitative graph behavior",
+        "type": "choice",
+        "answer": "Linear initially and saturating at largeB/T",
+        "options": [
+          "Linear initially and saturating at largeB/T",
+          "Linear for allB/T",
+          "Decreasing with B/T"
+        ],
+        "explanation": "Both limits match the magnetization curve."
+      }
+    ],
+    "reasoning": "The partition function is2cosh(μB/kT), which makes the exact tan h result bounded. Verification: The partition function is2cosh(μB/kT), which makes the exact tan h result bounded.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-46",
+    "parts": [
+      {
+        "label": "Needle rotational inertia",
+        "type": "numeric",
+        "answer": 3.185022414792423e-09,
+        "unit": "kg·m²",
+        "tolerance": 2.5480179318339385e-11,
+        "explanation": "Small-angle dipole oscillation hasω²=μB/I."
+      }
+    ],
+    "reasoning": "Use the horizontal Earth field18μT and the given magnetic moment.680mJ/T. Verification: Use the horizontal Earth field18μT and the given magnetic moment.680mJ/T.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-47",
+    "parts": [
+      {
+        "label": "a · Radius of aligned iron sphere",
+        "type": "numeric",
+        "answer": 181981.36202841275,
+        "unit": "m",
+        "tolerance": 1455.850896227302,
+        "explanation": "Required atoms=μEarth/μatom; convert atom count to iron volume."
+      },
+      {
+        "label": "b · Earth-volume fraction",
+        "type": "numeric",
+        "answer": 2.3316450429114527e-05,
+        "unit": "dimensionless",
+        "tolerance": 1.8653160343291622e-07,
+        "explanation": "Divide by Earth sphere volume."
+      }
+    ],
+    "reasoning": "The fully aligned-iron calculation is only the hypothetical model requested, not the actual geo dynamo. Verification: The fully aligned-iron calculation is only the hypothetical model requested, not the actual geo dynamo.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-48",
+    "parts": [
+      {
+        "label": "a · Bar magnetic moment",
+        "type": "numeric",
+        "answer": 8.941074306177262,
+        "unit": "A·m²",
+        "tolerance": 0.0715285944494181,
+        "explanation": "Number of atoms=ρVNA/Mmol; addall aligned atomic moments."
+      },
+      {
+        "label": "b · Holding torque",
+        "type": "numeric",
+        "answer": 13.411611459265892,
+        "unit": "N·m",
+        "tolerance": 0.10729289167412713,
+        "explanation": "At90°, |τ|=μB."
+      }
+    ],
+    "reasoning": "Cross-sectional area1cm²is1e−4m². Verification: Cross-sectional area1cm²is1e−4m².",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-49",
+    "parts": [
+      {
+        "label": "a · Atomic dipole axial field",
+        "type": "numeric",
+        "answer": 2.9999999999999997e-06,
+        "unit": "T",
+        "tolerance": 2.3999999999999997e-08,
+        "explanation": "Baxis=μ₀μ/(2πr³)."
+      },
+      {
+        "label": "b · Minimum flip energy",
+        "type": "numeric",
+        "answer": 8.999999999999999e-29,
+        "unit": "J",
+        "tolerance": 7.199999999999999e-31,
+        "explanation": "The lowest-energy alignment must gain2μB to reverse."
+      },
+      {
+        "label": "c · Flip energy divided by.040eV",
+        "type": "numeric",
+        "answer": 1.4044943820224716e-08,
+        "unit": "dimensionless",
+        "tolerance": 1.1235955056179773e-10,
+        "explanation": "Convert.040eV to joules."
+      },
+      {
+        "label": "c · Conclusion",
+        "type": "choice",
+        "answer": "Direct dipole coupling isfar too weak to explain ferro magnetism",
+        "options": [
+          "Direct dipole coupling isfar too weak to explain ferro magnetism",
+          "Direct dipole coupling exceeds thermal energy",
+          "The two energies are equal"
+        ],
+        "explanation": "The calculated ratio is many orders below1."
+      }
+    ],
+    "reasoning": "Exchange coupling is not the simple classical dipole-dipole interaction. Verification: Exchange coupling is not the simple classical dipole-dipole interaction.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-50",
+    "parts": [
+      {
+        "label": "a · Torque magnitude",
+        "type": "numeric",
+        "answer": 0.00014864191830731946,
+        "unit": "N·m",
+        "tolerance": 1.1891353464585558e-06,
+        "explanation": "τ=μBsinθ."
+      },
+      {
+        "label": "b · Orientation-energy change",
+        "type": "numeric",
+        "answer": -7.285231741775125e-05,
+        "unit": "J",
+        "tolerance": 5.8281853934201e-07,
+        "explanation": "ΔU=−μB(cosθf−cosθi)."
+      }
+    ],
+    "reasoning": "The dipole moves closer to alignment,so potential energy decreases. Verification: The dipole moves closer to alignment,so potential energy decreases.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-51",
+    "parts": [
+      {
+        "label": "Nickel atomic moment",
+        "type": "numeric",
+        "answer": 5.1501922430848484e-24,
+        "unit": "J/T",
+        "tolerance": 4.120153794467879e-26,
+        "explanation": "Mmax=nμatom, withn=ρNA/Mmol."
+      }
+    ],
+    "reasoning": "Use the molar mass in kg/mol to be consistent with density kg/m³. Verification: Use the molar mass in kg/mol to be consistent with density kg/m³.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-52",
+    "parts": [
+      {
+        "label": "Depth where iron loses ferro magnetism",
+        "type": "numeric",
+        "answer": 25333.333333333332,
+        "unit": "m",
+        "tolerance": 202.66666666666666,
+        "explanation": "Iron Curie temperature about770°C; temperature gradient30°C/km."
+      }
+    ],
+    "reasoning": "The temperature increase is760°C. Verification: The temperature increase is760°C.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Use the chapter iron Curie temperature770°C and supplied linear30°C/km profile."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-53",
+    "parts": [
+      {
+        "label": "a · Toroid current",
+        "type": "numeric",
+        "answer": 0.13749999999999998,
+        "unit": "A",
+        "tolerance": 0.0010999999999999998,
+        "explanation": "B₀≈μ₀Ni/(2πrmean), rmean=.055m."
+      },
+      {
+        "label": "b · Secondary transported charge",
+        "type": "numeric",
+        "answer": 7.863799111016952e-05,
+        "unit": "C",
+        "tolerance": 6.291039288813562e-07,
+        "explanation": "∫i dt=N secondary AΔB/R; total B=B₀+BM=801B₀."
+      }
+    ],
+    "reasoning": "The circular cross section has radius(.06−.05)/2=.005m. Verification: The circular cross section has radius(.06−.05)/2=.005m.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Thin-toroid mean-radius approximation; retaining B₀ alongside BM changes the result by.125%."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-54",
+    "parts": [
+      {
+        "label": "a · Half-field altitude",
+        "type": "numeric",
+        "answer": 1655697.0878303421,
+        "unit": "m",
+        "tolerance": 13245.576702642737,
+        "explanation": "At fixed latitude B∝r⁻³, so r=2^(1/3)RE."
+      },
+      {
+        "label": "b · Maximum field at core-mantle boundary",
+        "type": "numeric",
+        "answer": 0.00038294072774008034,
+        "unit": "T",
+        "tolerance": 3.063525821920643e-06,
+        "explanation": "The maximum dipole field is at the magnetic pole."
+      },
+      {
+        "label": "c · Field at north geographic pole",
+        "type": "numeric",
+        "answer": 6.097192832486672e-05,
+        "unit": "T",
+        "tolerance": 4.877754265989337e-07,
+        "explanation": "The dipole axis is tilted11.5°, so geo magnetic latitude is78.5°."
+      },
+      {
+        "label": "d · Inclination at north geographic pole",
+        "type": "numeric",
+        "answer": 84.19150181580716,
+        "unit": "degrees",
+        "tolerance": 0.5,
+        "explanation": "tan inclination=2tan geo magnetic latitude."
+      },
+      {
+        "label": "e · Why actual measurements differ",
+        "type": "choice",
+        "answer": "Earth field is not an exact centered dipole",
+        "options": [
+          "Earth field is not an exact centered dipole",
+          "Gauss law fails at poles",
+          "The model ignores Earth electric charge"
+        ],
+        "explanation": "Higher multi poles and non central features are excluded from this approximation."
+      }
+    ],
+    "reasoning": "All four quantities use the same Earth dipole model. Verification: All four quantities use the same Earth dipole model.",
+    "sourcePages": [
+      31,
+      30
+    ],
+    "assumptions": [
+      "Earth radius6.37e6m, dipole moment8e22A·m², axis tilt11.5° as given in the chapter."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-55",
+    "parts": [
+      {
+        "label": "a · Equatorial loop current",
+        "type": "numeric",
+        "answer": 627568663.3208367,
+        "unit": "A",
+        "tolerance": 5020549.306566694,
+        "explanation": "μ=IπRE²."
+      },
+      {
+        "label": "b · Cancel at distant points?",
+        "type": "choice",
+        "answer": "Approximately yes with opposite dipole orientation",
+        "options": [
+          "Approximately yes with opposite dipole orientation",
+          "No at any distance",
+          "Only with the same orientation"
+        ],
+        "explanation": "Far from Earth,the loop and Earth are both approximately dipoles."
+      },
+      {
+        "label": "c · Cancel at every point on surface?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only at the equator"
+        ],
+        "explanation": "The field of a surface-sized loop is not the same as the centered dipole field near the surface."
+      }
+    ],
+    "reasoning": "Matching magnetic moment does not match all near-field spatial structure. Verification: Matching magnetic moment does not match all near-field spatial structure.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-56",
+    "parts": [
+      {
+        "label": "a · Rotating-ring moment",
+        "type": "choice",
+        "answer": "μ=qωr²/2",
+        "options": [
+          "μ=qωr²/2",
+          "μ=qωr/2",
+          "μ=qωr²"
+        ],
+        "explanation": "Current=qω/(2π); multiply byπr²."
+      },
+      {
+        "label": "b · Direction for positive charge",
+        "type": "choice",
+        "answer": "Along the angular velocity vector",
+        "options": [
+          "Along the angular velocity vector",
+          "Opposite the angular velocity vector",
+          "In the ring plane"
+        ],
+        "explanation": "Conventional current follows the positive charge."
+      }
+    ],
+    "reasoning": "A negative charge would reverse the current and moment directions. Verification: A negative charge would reverse the current and moment directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-57",
+    "parts": [
+      {
+        "label": "Needle magnetic moment",
+        "type": "numeric",
+        "answer": 843.7500000000001,
+        "unit": "J/T",
+        "tolerance": 6.750000000000001,
+        "explanation": "For uniform rod I=mL²/12 andμ=Iω²/Bh."
+      }
+    ],
+    "reasoning": "The original mass.050kg and horizontal field16μT are used literally. Verification: The original mass.050kg and horizontal field16μT are used literally.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-58",
+    "parts": [
+      {
+        "label": "a · Wire current magnetic field",
+        "type": "numeric",
+        "answer": 0.00022222222222222226,
+        "unit": "T",
+        "tolerance": 1.7777777777777782e-06,
+        "explanation": "Use uniform wire radius1.50mm."
+      },
+      {
+        "label": "b · Wire current magnetic field",
+        "type": "numeric",
+        "answer": 0.0001666666666666667,
+        "unit": "T",
+        "tolerance": 1.3333333333333336e-06,
+        "explanation": "Use uniform wire radius1.50mm."
+      },
+      {
+        "label": "c · Wire current magnetic field",
+        "type": "numeric",
+        "answer": 2.2727272727272733e-05,
+        "unit": "T",
+        "tolerance": 1.8181818181818186e-07,
+        "explanation": "Use uniform wire radius1.50mm."
+      },
+      {
+        "label": "d · Gap displacement magnetic field",
+        "type": "numeric",
+        "answer": 1.2500000000000003e-06,
+        "unit": "T",
+        "tolerance": 1.0000000000000004e-08,
+        "explanation": "Use uniform plate radius2cm."
+      },
+      {
+        "label": "e · Gap displacement magnetic field",
+        "type": "numeric",
+        "answer": 3.7500000000000005e-06,
+        "unit": "T",
+        "tolerance": 3.0000000000000004e-08,
+        "explanation": "Use uniform plate radius2cm."
+      },
+      {
+        "label": "f · Gap displacement magnetic field",
+        "type": "numeric",
+        "answer": 2.2727272727272733e-05,
+        "unit": "T",
+        "tolerance": 1.8181818181818186e-07,
+        "explanation": "Use uniform plate radius2cm."
+      },
+      {
+        "label": "g · Why fields converge outside both regions",
+        "type": "choice",
+        "answer": "Both loops enclose the same2.50A total current",
+        "options": [
+          "Both loops enclose the same2.50A total current",
+          "Wire and plate current densities are equal",
+          "Inside field never depends on radius"
+        ],
+        "explanation": "The wire and plate areas differ,but total conduction and displacement currents agree."
+      }
+    ],
+    "reasoning": "Current density differs between wire and gap; outside both, Ampere circulation depends only on total current. Verification: Current density differs between wire and gap; outside both, Ampere circulation depends only on total current.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-59",
+    "parts": [
+      {
+        "label": "a · Time dependence",
+        "type": "choice",
+        "answer": "B(t)=B₀ exp(−t/τ)",
+        "options": [
+          "B(t)=B₀ exp(−t/τ)",
+          "B(t)=B₀[1−exp(−t/τ)]",
+          "B(t)=B₀t/τ"
+        ],
+        "explanation": "The electric-field derivative has the exponential magnitude V₀exp(−t/τ)/(dτ)."
+      },
+      {
+        "label": "a · B₀coefficient",
+        "type": "numeric",
+        "answer": 1.1868015511417186e-13,
+        "unit": "T",
+        "tolerance": 9.49441240913375e-16,
+        "explanation": "Interior field B=μ₀ε₀r|E′|/2."
+      },
+      {
+        "label": "b · Fieldat 3τ",
+        "type": "numeric",
+        "answer": 5.908736996577972e-15,
+        "unit": "T",
+        "tolerance": 4.726989597262378e-17,
+        "explanation": "Substitute t=3τ."
+      }
+    ],
+    "reasoning": "Magnetic field and discharge current have the same exponential time constant. Verification: Magnetic field and discharge current have the same exponential time constant.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-60",
+    "parts": [
+      {
+        "label": "a · Curved flux magnitude",
+        "type": "numeric",
+        "answer": 0.009216707776372958,
+        "unit": "Wb",
+        "tolerance": 7.373366221098367e-05,
+        "explanation": "Both flat faces supply outward flux;add them before opposing."
+      },
+      {
+        "label": "b · Curved flux direction",
+        "type": "choice",
+        "answer": "Inward",
+        "options": [
+          "Inward",
+          "Outward",
+          "Zero"
+        ],
+        "explanation": "The curved face must cancel the outward end flux."
+      }
+    ],
+    "reasoning": "The top field arrow points outward. Verification: The top field arrow points outward.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-61",
+    "parts": [
+      {
+        "label": "a · Dipole field magnitude",
+        "type": "choice",
+        "answer": "B=μ₀μ√(1+3sin²λ)/(4πr³)",
+        "options": [
+          "B=μ₀μ√(1+3sin²λ)/(4πr³)",
+          "B=μ₀μsinλ/(4πr³)",
+          "B=μ₀μ/(4πr²)"
+        ],
+        "explanation": "Square and add the orthogonal horizontal and vertical components."
+      },
+      {
+        "label": "b · Inclination relation",
+        "type": "choice",
+        "answer": "tanφ=2tanλ",
+        "options": [
+          "tanφ=2tanλ",
+          "tanφ=tanλ/2",
+          "tanφ=2sinλ"
+        ],
+        "explanation": "Divide B v byBh."
+      }
+    ],
+    "reasoning": "The factor of2in the vertical component is essential. Verification: The factor of2in the vertical component is essential.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-62",
+    "parts": [
+      {
+        "label": "a · Field at 0°geo magnetic latitude",
+        "type": "numeric",
+        "answer": 3.0950786535508734e-05,
+        "unit": "T",
+        "tolerance": 2.476062922840699e-07,
+        "explanation": "Use the dipole magnitude formula."
+      },
+      {
+        "label": "b · Inclination at 0°",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "degrees",
+        "tolerance": 0.5,
+        "explanation": "tanφ=2tanλ; use90°at the pole."
+      },
+      {
+        "label": "c · Field at 60°geo magnetic latitude",
+        "type": "numeric",
+        "answer": 5.5797323934858587e-05,
+        "unit": "T",
+        "tolerance": 4.463785914788687e-07,
+        "explanation": "Use the dipole magnitude formula."
+      },
+      {
+        "label": "d · Inclination at 60°",
+        "type": "numeric",
+        "answer": 73.89788624801399,
+        "unit": "degrees",
+        "tolerance": 0.5,
+        "explanation": "tanφ=2tanλ; use90°at the pole."
+      },
+      {
+        "label": "e · Field at 90°geo magnetic latitude",
+        "type": "numeric",
+        "answer": 6.190157307101747e-05,
+        "unit": "T",
+        "tolerance": 4.952125845681398e-07,
+        "explanation": "Use the dipole magnitude formula."
+      },
+      {
+        "label": "f · Inclination at 90°",
+        "type": "numeric",
+        "answer": 90,
+        "unit": "degrees",
+        "tolerance": 0.5,
+        "explanation": "tanφ=2tanλ; use90°at the pole."
+      }
+    ],
+    "reasoning": "Equatorial field has zero inclination and polar field is twice equatorial field. Verification: Equatorial field has zero inclination and polar field is twice equatorial field.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-63",
+    "parts": [
+      {
+        "label": "a · Interior half-maximum radius",
+        "type": "numeric",
+        "answer": 0.0275,
+        "unit": "m",
+        "tolerance": 0.00022,
+        "explanation": "Binside/Bmax=r/R."
+      },
+      {
+        "label": "b · Exterior half-maximum radius",
+        "type": "numeric",
+        "answer": 0.11,
+        "unit": "m",
+        "tolerance": 0.00088,
+        "explanation": "B outside/Bmax=R/r."
+      }
+    ],
+    "reasoning": "The maximum occur satR. Verification: The maximum occur satR.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-64",
+    "parts": [
+      {
+        "label": "a · Temperature for 50% saturation",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "K",
+        "tolerance": 0.4,
+        "explanation": "GraphB/T≈.50T/K, soT=2/.50."
+      },
+      {
+        "label": "b · Temperature for 90% saturation",
+        "type": "numeric",
+        "answer": 1.3333333333333333,
+        "unit": "K",
+        "tolerance": 0.15,
+        "explanation": "GraphB/T≈1.50T/K, soT=2/1.50."
+      }
+    ],
+    "reasoning": "Use the same nonlinear magnetization curve ratios asP40. Verification: Use the same nonlinear magnetization curve ratios asP40.",
+    "sourcePages": [
+      20,
+      31
+    ],
+    "assumptions": [
+      "Graph-derived approximate ratios.50and1.50T/K; tolerances allow the plotted line width."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-65",
+    "parts": [
+      {
+        "label": "Total discharge current",
+        "type": "numeric",
+        "answer": 8,
+        "unit": "A",
+        "tolerance": 0.064,
+        "explanation": "TheR/2loop carries one-quarter of the total current."
+      }
+    ],
+    "reasoning": "Uniform density makes the current area fraction1/4. Verification: Uniform density makes the current area fraction1/4.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-66",
+    "parts": [
+      {
+        "label": "Greatest displacement-current magnitude",
+        "type": "numeric",
+        "answer": 3.5415999999999994e-05,
+        "unit": "A",
+        "tolerance": 2.83328e-07,
+        "explanation": "The largest graph slope magnitude is2N/C perμs from5to6μs."
+      }
+    ],
+    "reasoning": "The graph goes(0,6),(2,6),(5,2),(6,4),(12,0); compare all slopes. Verification: The graph goes(0,6),(2,6),(5,2),(6,4),(12,0); compare all slopes.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-67",
+    "parts": [
+      {
+        "label": "a · Electric-field change-rate magnitude",
+        "type": "numeric",
+        "answer": 8823695504856563.0,
+        "unit": "V/(m·s)",
+        "tolerance": 70589564038852.5,
+        "explanation": "The plate area is L²."
+      },
+      {
+        "label": "b · Circulation magnitude",
+        "type": "numeric",
+        "answer": 5.890486225480863e-07,
+        "unit": "T·m",
+        "tolerance": 4.712388980384691e-09,
+        "explanation": "The dashed rectangles encloses current fraction H W/L²."
+      }
+    ],
+    "reasoning": "All three lengths are in millimeters in the original source. Verification: All three lengths are in millimeters in the original source.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-68",
+    "parts": [
+      {
+        "label": "a · Moment for ml 3",
+        "type": "numeric",
+        "answer": -2.781e-23,
+        "unit": "J/T",
+        "tolerance": 2.2248e-25,
+        "explanation": "μorb,z=−mlμB."
+      },
+      {
+        "label": "b · Moment for ml−4",
+        "type": "numeric",
+        "answer": 3.708e-23,
+        "unit": "J/T",
+        "tolerance": 2.9664e-25,
+        "explanation": "Negative angular momentum projection gives positive electron moment."
+      }
+    ],
+    "reasoning": "The orbital projection formula applies with the electron charge sign. Verification: The orbital projection formula applies with the electron charge sign.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-69",
+    "parts": [
+      {
+        "label": "a · Field lines through the cylinder side",
+        "type": "choice",
+        "answer": "They point generally toward the magnet south pole",
+        "options": [
+          "They point generally toward the magnet south pole",
+          "They point away from the magnet at all points",
+          "They do not enter the region"
+        ],
+        "explanation": "Field lines outside a magnet enter the South pole."
+      },
+      {
+        "label": "b · Sign ofside-surface flux",
+        "type": "choice",
+        "answer": "Negative",
+        "options": [
+          "Negative",
+          "Positive",
+          "Zero"
+        ],
+        "explanation": "Toward the nearby south pole, the field bends toward the cylinder axis and enters the lateral wall."
+      },
+      {
+        "label": "c · Contradicts Gauss law?",
+        "type": "choice",
+        "answer": "No, the paper cylinder side is not a closed surface",
+        "options": [
+          "No, the paper cylinder side is not a closed surface",
+          "Yes, magnetic monopoles are present",
+          "Yes, magnetic flux can never be outward"
+        ],
+        "explanation": "Including the open end disks restores zero net flux."
+      }
+    ],
+    "reasoning": "Distinguish an open paper wall from a complete closed Gaussian surface. Verification: Distinguish an open paper wall from a complete closed Gaussian surface.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-70",
+    "parts": [
+      {
+        "label": "a · Proton electric field",
+        "type": "numeric",
+        "answer": 532483853019.864,
+        "unit": "N/C",
+        "tolerance": 4259870824.158912,
+        "explanation": "E=e/(4πε₀r²)."
+      },
+      {
+        "label": "b · Proton axial magnetic field",
+        "type": "numeric",
+        "answer": 0.01991351843422849,
+        "unit": "T",
+        "tolerance": 0.00015930814747382792,
+        "explanation": "The axial dipole field isμ₀μ/(2πr³)."
+      },
+      {
+        "label": "c · Electron-to-protons pin-moment ratio",
+        "type": "numeric",
+        "answer": 662.1428571428571,
+        "unit": "dimensionless",
+        "tolerance": 5.297142857142857,
+        "explanation": "Divide the given z-projection magnitudes."
+      }
+    ],
+    "reasoning": "The electric and magnetic fields come from different proton properties. Verification: The electric and magnetic fields come from different proton properties.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-71",
+    "parts": [
+      {
+        "label": "a · Applied field near loop",
+        "type": "choice",
+        "answer": "Leftward toward the magnet south pole",
+        "options": [
+          "Leftward toward the magnet south pole",
+          "Rightward away from the south pole",
+          "Zero everywhere"
+        ],
+        "explanation": "External field points into the south pole."
+      },
+      {
+        "label": "b · Paramagnetic moment direction",
+        "type": "choice",
+        "answer": "Negative x, toward magnet",
+        "options": [
+          "Negative x, toward magnet",
+          "Positive x, away from magnet",
+          "Zero"
+        ],
+        "explanation": "Paramagnetic moments align with the field."
+      },
+      {
+        "label": "c · Current viewed from right toward magnet",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "Zero"
+        ],
+        "explanation": "The moment points away from the viewer."
+      },
+      {
+        "label": "d · Force direction",
+        "type": "choice",
+        "answer": "Negative x, toward magnet",
+        "options": [
+          "Negative x, toward magnet",
+          "Positive x, away from magnet",
+          "Zero"
+        ],
+        "explanation": "Para magnetism is attracted to stronger field."
+      }
+    ],
+    "reasoning": "This reverses the induced moment and force of the diamagnetic model in P37. Verification: This reverses the induced moment and force of the diamagnetic model in P37.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ],
+    "scope": "Current direction is viewed from the positive-xside toward the magnet; the freehand field-line sketch is not graded."
+  },
+  {
+    "id": "physics-chapter-32-problems-72",
+    "parts": [
+      {
+        "label": "a · Fieldat 6cm",
+        "type": "numeric",
+        "answer": 1.6666666666666674e-08,
+        "unit": "T",
+        "tolerance": 1.333333333333334e-10,
+        "explanation": "Infer current from the interior2cmfield,then use exterior field law."
+      },
+      {
+        "label": "b · Discharging current",
+        "type": "numeric",
+        "answer": 0.005000000000000001,
+        "unit": "A",
+        "tolerance": 4.000000000000001e-05,
+        "explanation": "InsideI=2πR²B/(μ₀r)."
+      }
+    ],
+    "reasoning": "The outer field encloses all current. Verification: The outer field encloses all current.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-73",
+    "parts": [
+      {
+        "label": "a · Orbital angular-momentum projection count",
+        "type": "numeric",
+        "answer": 7,
+        "unit": "values",
+        "tolerance": 0,
+        "explanation": "ml=−3,−2,−1,0,1,2,3."
+      },
+      {
+        "label": "b · Orbital moment projection count",
+        "type": "numeric",
+        "answer": 7,
+        "unit": "values",
+        "tolerance": 0,
+        "explanation": "The moment is one-to-one with ml."
+      },
+      {
+        "label": "c · Greatest orbital angular momentum projection",
+        "type": "choice",
+        "answer": "3h/(2π)",
+        "options": [
+          "3h/(2π)",
+          "3h/π",
+          "h/(2π)"
+        ],
+        "explanation": "Maximum|ml|is3."
+      },
+      {
+        "label": "d · Greatest orbital moment projection",
+        "type": "choice",
+        "answer": "3eh/(4πm)",
+        "options": [
+          "3eh/(4πm)",
+          "3eh/(2πm)",
+          "eh/(4πm)"
+        ],
+        "explanation": "Multiply3ħby the electron gyromagnetic factor e/(2m)."
+      },
+      {
+        "label": "e · Greatest total angular momentum projection",
+        "type": "choice",
+        "answer": "7h/(4π)",
+        "options": [
+          "7h/(4π)",
+          "3h/(2π)",
+          "4h/π"
+        ],
+        "explanation": "Orbital projection3ħand spin projectionħ/2add."
+      },
+      {
+        "label": "f · Total projection count",
+        "type": "numeric",
+        "answer": 8,
+        "unit": "values",
+        "tolerance": 0,
+        "explanation": "mj=−7/2,−5/2,…,+7/2."
+      }
+    ],
+    "reasoning": "Count distinct sums, not14orbital-spin configurations which includes repeated projections. Verification: Count distinct sums, not14orbital-spin configurations which includes repeated projections.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-74",
+    "parts": [
+      {
+        "label": "Displacement current",
+        "type": "numeric",
+        "answer": 0.3,
+        "unit": "A",
+        "tolerance": 0.0024,
+        "explanation": "The observation loop is outside the plate edge and therefore encloses all current."
+      }
+    ],
+    "reasoning": "The original magnetic field is2.00μT, not2mT. Verification: The original magnetic field is2.00μT, not2mT.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-75",
+    "parts": [
+      {
+        "label": "a · Orbital moment value count",
+        "type": "numeric",
+        "answer": 9,
+        "unit": "values",
+        "tolerance": 0,
+        "explanation": "ml ranges from−4through+4."
+      },
+      {
+        "label": "b · Greatest moment magnitude",
+        "type": "numeric",
+        "answer": 3.708e-23,
+        "unit": "J/T",
+        "tolerance": 2.9664e-25,
+        "explanation": "Max|μorb,z|=4μB."
+      },
+      {
+        "label": "c · Maximum orientation energy",
+        "type": "numeric",
+        "answer": 9.27e-24,
+        "unit": "J",
+        "tolerance": 7.416e-26,
+        "explanation": "The highest energy has moment opposing B."
+      },
+      {
+        "label": "d · Minimum orientation energy",
+        "type": "numeric",
+        "answer": -9.27e-24,
+        "unit": "J",
+        "tolerance": 7.416e-26,
+        "explanation": "The lowest energy has moment parallel B."
+      }
+    ],
+    "reasoning": "The orbital energy is−μzB. Verification: The orbital energy is−μzB.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-problems-76",
+    "parts": [
+      {
+        "label": "a · Moment for ml 3",
+        "type": "numeric",
+        "answer": -2.781e-23,
+        "unit": "J/T",
+        "tolerance": 2.2248e-25,
+        "explanation": "μorb,z=−3μB."
+      },
+      {
+        "label": "b · Moment for ml−4",
+        "type": "numeric",
+        "answer": 3.708e-23,
+        "unit": "J/T",
+        "tolerance": 2.9664e-25,
+        "explanation": "μorb,z=+4μB."
+      }
+    ],
+    "reasoning": "The sign reverses between angular momentum and orbital magnetic moment. Verification: The sign reverses between angular momentum and orbital magnetic moment.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-1",
+    "parts": [
+      {
+        "label": "Point a curve position",
+        "type": "choice",
+        "answer": "1",
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "explanation": "At the same small radius the thin wire produces larger B thanthe broad gap."
+      },
+      {
+        "label": "Point b curve position",
+        "type": "choice",
+        "answer": "2",
+        "options": [
+          "2",
+          "1",
+          "3"
+        ],
+        "explanation": "The gap interior field grows linearly withr."
+      },
+      {
+        "label": "Points c andd curve position",
+        "type": "choice",
+        "answer": "Both3",
+        "options": [
+          "Both3",
+          "c is1 andd is2",
+          "Both1"
+        ],
+        "explanation": "Outside both current regions the full enclosed current is the same."
+      }
+    ],
+    "reasoning": "Compare equal observation radii with different enclosed current fractions. Verification: Compare equal observation radii with different enclosed current fractions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-2",
+    "parts": [
+      {
+        "label": "a · Electric-field direction",
+        "type": "choice",
+        "answer": "Rightward",
+        "options": [
+          "Rightward",
+          "Leftward",
+          "Zero"
+        ],
+        "explanation": "Current leaves the positive left plate while discharging."
+      },
+      {
+        "label": "b · Displacement-current direction",
+        "type": "choice",
+        "answer": "Leftward",
+        "options": [
+          "Leftward",
+          "Rightward",
+          "Zero"
+        ],
+        "explanation": "The rightward E decreases, soE′ is leftward."
+      },
+      {
+        "label": "c · Magnetic-field direction atP",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero"
+        ],
+        "explanation": "A leftward displacement current gives into page B above its axis."
+      }
+    ],
+    "reasoning": "Displacement current follows the signed time derivative of E, notE itself. Verification: Displacement current follows the signed time derivative of E, notE itself.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-3",
+    "parts": [
+      {
+        "label": "Situation a field-magnitude trend",
+        "type": "choice",
+        "answer": "Decreasing",
+        "options": [
+          "Decreasing",
+          "Increasing",
+          "Constant"
+        ],
+        "explanation": "The magnetic circulation corresponds to upward dE/dt while E points downward."
+      },
+      {
+        "label": "Situation b field-magnitude trend",
+        "type": "choice",
+        "answer": "Decreasing",
+        "options": [
+          "Decreasing",
+          "Increasing",
+          "Constant"
+        ],
+        "explanation": "The magnetic circulation corresponds to downward dE/dt while E points upward."
+      }
+    ],
+    "reasoning": "Use the right-hand rule for induced magnetic circulation and compare with the actual E arrow. Verification: Use the right-hand rule for induced magnetic circulation and compare with the actual E arrow.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-4",
+    "parts": [
+      {
+        "label": "Correct energy-versus-field graph",
+        "type": "choice",
+        "answer": "b",
+        "options": [
+          "b",
+          "a",
+          "c"
+        ],
+        "explanation": "Spin moment opposes spin angular momentum; energies±μBB separate linearly from a common zero-field energy."
+      }
+    ],
+    "reasoning": "The two orientations are degenerate atB=0; their energies must diverge rather than converge. Verification: The two orientations are degenerate atB=0; their energies must diverge rather than converge.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-5",
+    "parts": [
+      {
+        "label": "Energy transfer during the stated spin flip",
+        "type": "choice",
+        "answer": "Energy must be supplied",
+        "options": [
+          "Energy must be supplied",
+          "Energy must be lost",
+          "No energy change"
+        ],
+        "explanation": "S anti parallel B meansμparallel B initially, the lower-energy state. Reversing S raises energy by2μBB."
+      }
+    ],
+    "reasoning": "The electron magnetic moment is opposite to its spin angular momentum. Verification: The electron magnetic moment is opposite to its spin angular momentum.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-6",
+    "parts": [
+      {
+        "label": "a · Increasing field magnitude",
+        "type": "choice",
+        "answer": "Force magnitude increases",
+        "options": [
+          "Force magnitude increases",
+          "Force magnitude decreases",
+          "Force remains unchanged"
+        ],
+        "explanation": "At fixed field-line spread, the Lorentz forces and magnetic dipole interaction grow with field strength."
+      },
+      {
+        "label": "b · Increasing field-line spreading",
+        "type": "choice",
+        "answer": "Force magnitude increases",
+        "options": [
+          "Force magnitude increases",
+          "Force magnitude decreases",
+          "Force remains unchanged"
+        ],
+        "explanation": "Greater nonuniform it y gives greater imbalance of the forces around the loop."
+      }
+    ],
+    "reasoning": "Here divergence means field-line spreading/nonuniform it y, not mathematical∇·B, which is always zero. Verification: Here divergence means field-line spreading/nonuniform it y, not mathematical∇·B, which is always zero.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-7",
+    "parts": [
+      {
+        "label": "a · Circulation-magnitude ranking",
+        "type": "choice",
+        "answer": "a = b > c > d",
+        "options": [
+          "a = b > c > d",
+          "a > b > c > d",
+          "a = b = c = d"
+        ],
+        "explanation": "Loops a,b enclose the full square current; c encloses its inscribed circle; d encloses a smaller circle."
+      },
+      {
+        "label": "b · Loop with exactly constant B-to-path angle",
+        "type": "choice",
+        "answer": "No loop is guaranteed by the square symmetry",
+        "options": [
+          "No loop is guaranteed by the square symmetry",
+          "Bothc andd exactly",
+          "Onlya exactly"
+        ],
+        "explanation": "Square plates have fourfold symmetry, not continuous rotation symmetry; B need not follow centered circles."
+      },
+      {
+        "label": "c · Loop with exactly constant field magnitude",
+        "type": "choice",
+        "answer": "No loop is guaranteed by the square symmetry",
+        "options": [
+          "No loop is guaranteed by the square symmetry",
+          "Bothc andd exactly",
+          "Allfour loops"
+        ],
+        "explanation": "A circular path alone does not establish constant B for a square current region."
+      }
+    ],
+    "reasoning": "Ampere–Maxwell determines circulation from enclosed current without providing extra cylindric symmetry. Verification: Ampere–Maxwell determines circulation from enclosed current without providing extra cylindric symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ],
+    "scope": "The exact square-plate model isused. A sufficiently small central circle may be approximately azimuthal, but no exact constant B orangle is guaranteed by the given s."
+  },
+  {
+    "id": "physics-chapter-32-questions-8",
+    "parts": [
+      {
+        "label": "Model 1 · Dipole-moment direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "Electron orbital current opposes electron motion; dia magnets oppose B and para magnets align with B."
+      },
+      {
+        "label": "Model 1 · Force direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero"
+        ],
+        "explanation": "The field grows stronger upward in model1 and downward in model2; uniform model3 has zero net force."
+      },
+      {
+        "label": "Model 2 · Dipole-moment direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "Electron orbital current opposes electron motion; dia magnets oppose B and para magnets align with B."
+      },
+      {
+        "label": "Model 2 · Force direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "The field grows stronger upward in model1 and downward in model2; uniform model3 has zero net force."
+      },
+      {
+        "label": "Model 3 · Dipole-moment direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "Electron orbital current opposes electron motion; dia magnets oppose B and para magnets align with B."
+      },
+      {
+        "label": "Model 3 · Force direction",
+        "type": "choice",
+        "answer": "Zero",
+        "options": [
+          "Zero",
+          "Up",
+          "Down"
+        ],
+        "explanation": "The field grows stronger upward in model1 and downward in model2; uniform model3 has zero net force."
+      }
+    ],
+    "reasoning": "Models1 and2 have downward fields; model1 grows stronger upward while model2 grows stronger downward. Model3 has uniform upward field. Parallel moments seek stronger field, anti parallel moments seek weaker field. Verification: Models1 and2 have downward fields; model1 grows stronger upward while model2 grows stronger downward. Model3 has uniform upward field. Parallel moments seek stronger field, anti parallel moments seek weaker field.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-9",
+    "parts": [
+      {
+        "label": "Model 1 · Dipole-moment direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero"
+        ],
+        "explanation": "Electron orbital current opposes electron motion; dia magnets oppose B and para magnets align with B."
+      },
+      {
+        "label": "Model 1 · Force direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "The field grows stronger upward in model1 and downward in model2; uniform model3 has zero net force."
+      },
+      {
+        "label": "Model 2 · Dipole-moment direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero"
+        ],
+        "explanation": "Electron orbital current opposes electron motion; dia magnets oppose B and para magnets align with B."
+      },
+      {
+        "label": "Model 2 · Force direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero"
+        ],
+        "explanation": "The field grows stronger upward in model1 and downward in model2; uniform model3 has zero net force."
+      },
+      {
+        "label": "Model 3 · Dipole-moment direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "Electron orbital current opposes electron motion; dia magnets oppose B and para magnets align with B."
+      },
+      {
+        "label": "Model 3 · Force direction",
+        "type": "choice",
+        "answer": "Zero",
+        "options": [
+          "Zero",
+          "Up",
+          "Down"
+        ],
+        "explanation": "The field grows stronger upward in model1 and downward in model2; uniform model3 has zero net force."
+      }
+    ],
+    "reasoning": "Models1 and2 have downward fields; model1 grows stronger upward while model2 grows stronger downward. Model3 has uniform upward field. Parallel moments seek stronger field, anti parallel moments seek weaker field. Verification: Models1 and2 have downward fields; model1 grows stronger upward while model2 grows stronger downward. Model3 has uniform upward field. Parallel moments seek stronger field, anti parallel moments seek weaker field.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-10",
+    "parts": [
+      {
+        "label": "Model 1 · Dipole-moment direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "Electron orbital current opposes electron motion; dia magnets oppose B and para magnets align with B."
+      },
+      {
+        "label": "Model 1 · Force direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero"
+        ],
+        "explanation": "The field grows stronger upward in model1 and downward in model2; uniform model3 has zero net force."
+      },
+      {
+        "label": "Model 2 · Dipole-moment direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "Electron orbital current opposes electron motion; dia magnets oppose B and para magnets align with B."
+      },
+      {
+        "label": "Model 2 · Force direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "The field grows stronger upward in model1 and downward in model2; uniform model3 has zero net force."
+      },
+      {
+        "label": "Model 3 · Dipole-moment direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero"
+        ],
+        "explanation": "Electron orbital current opposes electron motion; dia magnets oppose B and para magnets align with B."
+      },
+      {
+        "label": "Model 3 · Force direction",
+        "type": "choice",
+        "answer": "Zero",
+        "options": [
+          "Zero",
+          "Up",
+          "Down"
+        ],
+        "explanation": "The field grows stronger upward in model1 and downward in model2; uniform model3 has zero net force."
+      }
+    ],
+    "reasoning": "Models1 and2 have downward fields; model1 grows stronger upward while model2 grows stronger downward. Model3 has uniform upward field. Parallel moments seek stronger field, anti parallel moments seek weaker field. Verification: Models1 and2 have downward fields; model1 grows stronger upward while model2 grows stronger downward. Model3 has uniform upward field. Parallel moments seek stronger field, anti parallel moments seek weaker field.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-11",
+    "parts": [
+      {
+        "label": "a · Reversed-domain growth ranking",
+        "type": "choice",
+        "answer": "1 > 3 > 2",
+        "options": [
+          "1 > 3 > 2",
+          "1 > 2 > 3",
+          "1 = 2 = 3"
+        ],
+        "explanation": "Impurity line spin boundaries: sample1hasnone, sample3one, sample2many."
+      },
+      {
+        "label": "b · Magnetically hardest sample",
+        "type": "choice",
+        "answer": "2",
+        "options": [
+          "2",
+          "1",
+          "3"
+        ],
+        "explanation": "The densest barriers make domain wall motion most difficult."
+      }
+    ],
+    "reasoning": "Material hardness here refers to hy s tere tic domain wall pinning, not mechanical hardness. Verification: Material hardness here refers to hy s tere tic domain wall pinning, not mechanical hardness.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-32-questions-12",
+    "parts": [
+      {
+        "label": "a · North-pole ends",
+        "type": "choice",
+        "answer": "a,c,f",
+        "options": [
+          "a,c,f",
+          "a,d,e",
+          "a,c,g"
+        ],
+        "explanation": "b isS, so a isN. Repulsion establishes c and f as same pole; attraction with a forces dS, hence c/fN."
+      },
+      {
+        "label": "b · Non magnet bar",
+        "type": "choice",
+        "answer": "g–h",
+        "options": [
+          "g–h",
+          "c–d",
+          "e–f"
+        ],
+        "explanation": "h attracts both theN end a and the Send e, so its bar cannot be a permanent magnet."
+      }
+    ],
+    "reasoning": "Repulsion, unlike attraction, establishes that two bars are both magnets. Verification: Repulsion, unlike attraction, establishes that two bars are both magnets.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect fringing and use the stated ideal uniform-field, small-loop or dipole model unless otherwise specified."
+    ]
+  }
+]

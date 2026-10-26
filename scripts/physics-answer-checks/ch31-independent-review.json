@@ -1,0 +1,572 @@
+{
+  "scope": "All13 conceptual questions independently source-derived and cross-compared with final authored fields; all pass after Q10(b) parallel-phasor correction.",
+  "questions": [
+    {
+      "id": "physics-chapter-31-questions-1",
+      "independentConclusions": [
+        "b>a>c"
+      ],
+      "verification": "Quarter-period discharge time grows as sqrt(LCeq); Ceq=2C,C,C/2.",
+      "sourcePages": [
+        32
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "Time-to-discharge ranking",
+          "type": "choice",
+          "answer": "b > a > c",
+          "options": [
+            "b > a > c",
+            "c > a > b",
+            "a = b = c"
+          ],
+          "explanation": "Quarter-period is proportional to√Ceq; b has2C andc hasC/2."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-2",
+      "independentConclusions": [
+        "L1<L2",
+        "I1>I2"
+      ],
+      "verification": "Circuit1 oscillates faster; sameC andQ imply smallerL and largeromegaQ.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · Inductance of1 comparedwith2",
+          "type": "choice",
+          "answer": "Smaller",
+          "options": [
+            "Smaller",
+            "Greater",
+            "Equal"
+          ],
+          "explanation": "Curve1hasashorterperiod; LproportionalT² atfixedC."
+        },
+        {
+          "label": "b · Maximum current of1 comparedwith2",
+          "type": "choice",
+          "answer": "Greater",
+          "options": [
+            "Greater",
+            "Smaller",
+            "Equal"
+          ],
+          "explanation": "I=ωQ, andthecharge amplitudesareequal."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-3",
+      "independentConclusions": [
+        0.25,
+        0.25,
+        0.5,
+        1,
+        0.5
+      ],
+      "verification": "Startingq=Qcoswt, UB peaksT/4, flux magnitudepeaksT/4; signeddi/dt firstpositivepeakT/2; signedemfpositivepeakrepeatsT; magnitudepeaksT/2. Authoredscope explicitly distinguishes these conventions.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · First magnetic-energy maximum, as fraction of T",
+          "type": "numeric",
+          "answer": 0.25,
+          "unit": "dimensionless",
+          "tolerance": 0.002,
+          "explanation": "Startingwithachargedcapacitor, UB=U sin²ωt."
+        },
+        {
+          "label": "b · First flux-magnitude maximum, as fraction of T",
+          "type": "numeric",
+          "answer": 0.25,
+          "unit": "dimensionless",
+          "tolerance": 0.002,
+          "explanation": "Magneticfluxmagnitudeisproportionalto|i|."
+        },
+        {
+          "label": "c · First positive di/dt maximum, as fraction of T",
+          "type": "numeric",
+          "answer": 0.5,
+          "unit": "dimensionless",
+          "tolerance": 0.004,
+          "explanation": "Forq=Qcosωt andi=dq/dt, di/dt=−ω²Qcosωt."
+        },
+        {
+          "label": "d · First later positive inductor-emf maximum, as fraction of T",
+          "type": "numeric",
+          "answer": 1,
+          "unit": "dimensionless",
+          "tolerance": 0.008,
+          "explanation": "With εL=−Ldi/dt, theinitialpositiveemfmaximumrepeatsafterT."
+        },
+        {
+          "label": "c,d · First later derivative/emf magnitude maximum, as fraction of T",
+          "type": "numeric",
+          "answer": 0.5,
+          "unit": "dimensionless",
+          "tolerance": 0.004,
+          "explanation": "Theirabsolutemagnitudesaremaximalateachhalfintegercycle; exclude t=0."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-4",
+      "independentConclusions": [
+        0,
+        "pi/2",
+        "pi",
+        "3pi/2"
+      ],
+      "verification": "Readstatesa/c/e/g inreferencedFig31-1 PDF2; q cosine phase advancesonequartercycleeach.",
+      "sourcePages": [
+        33,
+        2
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · State(a) phase",
+          "type": "numeric",
+          "answer": 0,
+          "unit": "rad",
+          "tolerance": 1e-25,
+          "explanation": "Usingq=Qcos(ωt+φ), thesuccessivequarter-cyclestateshaveφ=0,π/2,π,3π/2.",
+          "acceptedValues": [
+            -6.283185307179586,
+            6.283185307179586
+          ]
+        },
+        {
+          "label": "b · State(c) phase",
+          "type": "numeric",
+          "answer": 1.5707963267948966,
+          "unit": "rad",
+          "tolerance": 0.012566370614359173,
+          "explanation": "Usingq=Qcos(ωt+φ), thesuccessivequarter-cyclestateshaveφ=0,π/2,π,3π/2.",
+          "acceptedValues": [
+            -4.71238898038469,
+            7.853981633974483
+          ]
+        },
+        {
+          "label": "c · State(e) phase",
+          "type": "numeric",
+          "answer": 3.141592653589793,
+          "unit": "rad",
+          "tolerance": 0.025132741228718346,
+          "explanation": "Usingq=Qcos(ωt+φ), thesuccessivequarter-cyclestateshaveφ=0,π/2,π,3π/2.",
+          "acceptedValues": [
+            -3.141592653589793,
+            9.42477796076938
+          ]
+        },
+        {
+          "label": "d · State(g) phase",
+          "type": "numeric",
+          "answer": 4.71238898038469,
+          "unit": "rad",
+          "tolerance": 0.03769911184307752,
+          "explanation": "Usingq=Qcos(ωt+φ), thesuccessivequarter-cyclestateshaveφ=0,π/2,π,3π/2.",
+          "acceptedValues": [
+            -1.5707963267948966,
+            10.995574287564276
+          ]
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-5",
+      "independentConclusions": [
+        "c>b>a"
+      ],
+      "verification": "RCimpedance approachesR athighfrequency; asymptoticheights give ranking.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "Resistance ranking",
+          "type": "choice",
+          "answer": "c > b > a",
+          "options": [
+            "c > b > a",
+            "a > b > c",
+            "a = b = c"
+          ],
+          "explanation": "ForanRCseriescircuit,ZapproachesR athighfrequency;readthethreeasymptotes."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-6",
+      "independentConclusions": [
+        "3>1>2",
+        "2>1=3"
+      ],
+      "verification": "IamplitudesomegaQ are12,8,4; periods dependonlyomega.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · Current-amplitude ranking",
+          "type": "choice",
+          "answer": "3 > 1 > 2",
+          "options": [
+            "3 > 1 > 2",
+            "2 > 3 > 1",
+            "1 = 3 > 2"
+          ],
+          "explanation": "I=Qω gives12,8,4A for3,1,2."
+        },
+        {
+          "label": "b · Period ranking",
+          "type": "choice",
+          "answer": "2 > 1 = 3",
+          "options": [
+            "2 > 1 = 3",
+            "1 = 3 > 2",
+            "3 > 1 > 2"
+          ],
+          "explanation": "T=2π/ω; circuits1and3haveω4, circuit2ω1."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-7",
+      "independentConclusions": [
+        "a inductive",
+        "b resistive",
+        "c capacitive"
+      ],
+      "verification": "I=E/(omegaL), E/R, omegaCE respectively.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "Plot a",
+          "type": "choice",
+          "answer": "Inductor",
+          "options": [
+            "Inductor",
+            "Capacitor",
+            "Resistor"
+          ],
+          "explanation": "Atfixedεm, IL=εm/(2πfL) fallswithfrequency."
+        },
+        {
+          "label": "Plot b",
+          "type": "choice",
+          "answer": "Resistor",
+          "options": [
+            "Resistor",
+            "Capacitor",
+            "Inductor"
+          ],
+          "explanation": "IR=εm/R isconstant."
+        },
+        {
+          "label": "Plot c",
+          "type": "choice",
+          "answer": "Capacitor",
+          "options": [
+            "Capacitor",
+            "Resistor",
+            "Inductor"
+          ],
+          "explanation": "IC=2πfCεm growslinearly."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-8",
+      "independentConclusions": [
+        "1and4 capacitive",
+        "2and3 currentlags"
+      ],
+      "verification": "Negativephase meanscapacitive, positivephaseinductive.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · Primarily capacitive circuits",
+          "type": "choice",
+          "answer": "1 and4",
+          "options": [
+            "1 and4",
+            "2 and3",
+            "Allfour"
+          ],
+          "explanation": "Negativeφmeanscurrentleadsthe emf."
+        },
+        {
+          "label": "b · Current-lagging circuits",
+          "type": "choice",
+          "answer": "2 and3",
+          "options": [
+            "2 and3",
+            "1 and4",
+            "None"
+          ],
+          "explanation": "Positiveφmeansinductivecurrentlag."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-9",
+      "independentConclusions": [
+        "Positive",
+        "DecreaseL",
+        "DecreaseC"
+      ],
+      "verification": "Currentlags emf; reducepositiveXL-XC towardzero bylowerL orhigherXC.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · Phase-constant sign",
+          "type": "choice",
+          "answer": "Positive",
+          "options": [
+            "Positive",
+            "Negative",
+            "Zero"
+          ],
+          "explanation": "Originalgreen currentpeakislater thanredemfpeak."
+        },
+        {
+          "label": "b · Change L to increase resistor power",
+          "type": "choice",
+          "answer": "Decrease L",
+          "options": [
+            "Decrease L",
+            "Increase L",
+            "Leave L unchanged"
+          ],
+          "explanation": "Thecircuitisinductive; reduceXLtowardXC."
+        },
+        {
+          "label": "c · Change C to increase resistor power",
+          "type": "choice",
+          "answer": "Decrease C",
+          "options": [
+            "Decrease C",
+            "Increase C",
+            "Leave C unchanged"
+          ],
+          "explanation": "DecreasingCraisesXC andcancelsexcessXL."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-10",
+      "independentConclusions": [
+        "Below",
+        "Equal",
+        "Above"
+      ],
+      "verification": "Situation2coloredphasors areparallel,offsettoremainvisible. PDFvectorlongshaftslopes1.43155green and1.42771red agree withinartprecision; intendedzero phase. Othercases clearlead/lag.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · Situation1 drive versus resonance",
+          "type": "choice",
+          "answer": "Lower than resonance",
+          "options": [
+            "Lower than resonance",
+            "Higher than resonance",
+            "Equal to resonance"
+          ],
+          "explanation": "Counterclockwisephasorsshowcurrentaheadofemf."
+        },
+        {
+          "label": "b · Situation2 drive versus resonance",
+          "type": "choice",
+          "answer": "Equal to resonance",
+          "options": [
+            "Equal to resonance",
+            "Higher than resonance",
+            "Lower than resonance"
+          ],
+          "explanation": "The two shafts are parallel; their tiny offset separates the colored arrows for visibility."
+        },
+        {
+          "label": "c · Situation3 drive versus resonance",
+          "type": "choice",
+          "answer": "Higher than resonance",
+          "options": [
+            "Higher than resonance",
+            "Lower than resonance",
+            "Equal to resonance"
+          ],
+          "explanation": "Thecurrentphasortrails the emfwhenrotatingcounterclockwise."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-11",
+      "independentConclusions": [
+        "Right/increase",
+        "Right/increase",
+        "Right/increase"
+      ],
+      "verification": "Initialcircuitcapacitive. RaisingL,C,ordriveomega increasesX=omegaL-1/(omegaC) towardzero, reducingcurrentlead andraisingamplitude.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · Slightly increasing L",
+          "type": "choice",
+          "answer": "Current shifts right and amplitude increases",
+          "options": [
+            "Current shifts right and amplitude increases",
+            "Current shifts left and amplitude decreases",
+            "Current shifts right and amplitude decreases"
+          ],
+          "explanation": "Originalcurrentleadsthe emf; eachsmallchangeincreasesXL−XC towardzero, reducingtheleadandimpedance."
+        },
+        {
+          "label": "b · Slightly increasing C",
+          "type": "choice",
+          "answer": "Current shifts right and amplitude increases",
+          "options": [
+            "Current shifts right and amplitude increases",
+            "Current shifts left and amplitude decreases",
+            "Current shifts right and amplitude decreases"
+          ],
+          "explanation": "Originalcurrentleadsthe emf; eachsmallchangeincreasesXL−XC towardzero, reducingtheleadandimpedance."
+        },
+        {
+          "label": "c · Slightly increasing drive frequency",
+          "type": "choice",
+          "answer": "Current shifts right and amplitude increases",
+          "options": [
+            "Current shifts right and amplitude increases",
+            "Current shifts left and amplitude decreases",
+            "Current shifts right and amplitude decreases"
+          ],
+          "explanation": "Originalcurrentleadsthe emf; eachsmallchangeincreasesXL−XC towardzero, reducingtheleadandimpedance."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-12",
+      "independentConclusions": [
+        "Leads",
+        "Capacitive",
+        "Below"
+      ],
+      "verification": "Green currentwave isleft ofemf andleadimpliesnegativephasebelowresonance.",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · Current relative to emf",
+          "type": "choice",
+          "answer": "Leads",
+          "options": [
+            "Leads",
+            "Lags",
+            "In phase"
+          ],
+          "explanation": "Originalgreen current curvepeaksbefore redemf curve."
+        },
+        {
+          "label": "b · Circuit character",
+          "type": "choice",
+          "answer": "Capacitive",
+          "options": [
+            "Capacitive",
+            "Inductive",
+            "Purelyresistive"
+          ],
+          "explanation": "Currentleadingmeansnegativephase constant."
+        },
+        {
+          "label": "c · Drive frequency versus natural frequency",
+          "type": "choice",
+          "answer": "Lower",
+          "options": [
+            "Lower",
+            "Higher",
+            "Equal"
+          ],
+          "explanation": "XL−XC<0 occursbelowtheLCresonance."
+        }
+      ],
+      "comparison": "Pass"
+    },
+    {
+      "id": "physics-chapter-31-questions-13",
+      "independentConclusions": [
+        "Inductor",
+        "Decreases"
+      ],
+      "verification": "HighresrotationarrowatbottompointstoRIGHT, henceCCW. Voltageleadscurrent90deg, I=V/(omegaL).",
+      "sourcePages": [
+        33
+      ],
+      "sourceVisuallyReviewed": true,
+      "authoredFields": [
+        {
+          "label": "a · Single circuit element",
+          "type": "choice",
+          "answer": "Inductor",
+          "options": [
+            "Inductor",
+            "Capacitor",
+            "Resistor"
+          ],
+          "explanation": "Thecurvedarrowrotatesphasorscounterclockwise; voltageisaheadofcurrentby90°."
+        },
+        {
+          "label": "b · Current-phasor length when angular speed increases",
+          "type": "choice",
+          "answer": "Decreases",
+          "options": [
+            "Decreases",
+            "Increases",
+            "Unchanged"
+          ],
+          "explanation": "Atfixedvoltageamplitude, I=V/(ωL)."
+        }
+      ],
+      "comparison": "Pass"
+    }
+  ]
+}

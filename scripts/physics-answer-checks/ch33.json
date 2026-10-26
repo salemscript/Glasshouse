@@ -1,0 +1,3807 @@
+[
+  {
+    "id": "physics-chapter-33-problems-1",
+    "parts": [
+      {
+        "label": "Frequency width",
+        "type": "numeric",
+        "answer": 7486842336.590051,
+        "unit": "Hz",
+        "tolerance": 67381581.02931045,
+        "explanation": "Differentiate f=c/λ: |Δf|≈cΔλ/λ²."
+      }
+    ],
+    "reasoning": "The fractional bandwidth is small enough for the differential approximation. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-2",
+    "parts": [
+      {
+        "label": "a · Frequency",
+        "type": "numeric",
+        "answer": 0.004706436420722135,
+        "unit": "Hz",
+        "tolerance": 4.2357927786499206e-05,
+        "explanation": "f=c/λ, with λ=10⁴ Earth radii."
+      },
+      {
+        "label": "b · Period",
+        "type": "numeric",
+        "answer": 212.4749833222148,
+        "unit": "s",
+        "tolerance": 1.9122748498999331,
+        "explanation": "T=λ/c."
+      }
+    ],
+    "reasoning": "Frequency and period are reciprocal. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-3",
+    "parts": [
+      {
+        "label": "a · Short half-sensitivity wavelength",
+        "type": "numeric",
+        "answer": 510.0,
+        "unit": "nm",
+        "tolerance": 12,
+        "explanation": "Read the50% crossing on the rising side of Fig33-2."
+      },
+      {
+        "label": "b · Long half-sensitivity wavelength",
+        "type": "numeric",
+        "answer": 610.0,
+        "unit": "nm",
+        "tolerance": 12,
+        "explanation": "Read the50% crossing on the falling side."
+      },
+      {
+        "label": "c · Peak wavelength",
+        "type": "numeric",
+        "answer": 555.0,
+        "unit": "nm",
+        "tolerance": 8,
+        "explanation": "The text and curve peak identify about555nm."
+      },
+      {
+        "label": "d · Peak frequency",
+        "type": "numeric",
+        "answer": 540180180180180.2,
+        "unit": "Hz",
+        "tolerance": 20000000000000.0,
+        "explanation": "f=c/λ."
+      },
+      {
+        "label": "e · Peak period",
+        "type": "numeric",
+        "answer": 1.851234156104069e-15,
+        "unit": "s",
+        "tolerance": 7e-17,
+        "explanation": "T=λ/c."
+      }
+    ],
+    "reasoning": "Graph readings are approximate, not exact grid intersections. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      3,
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ],
+    "scope": "Wavelength checks accept reasonable readings of the original sensitivity graph; derived frequency and period use the same peak range."
+  },
+  {
+    "id": "physics-chapter-33-problems-4",
+    "parts": [
+      {
+        "label": "Hand separation",
+        "type": "numeric",
+        "answer": 0.2998,
+        "unit": "m",
+        "tolerance": 0.0026982,
+        "explanation": "d=cΔt."
+      }
+    ],
+    "reasoning": "One nanosecond corresponds to about30cm. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-5",
+    "parts": [
+      {
+        "label": "Inductance",
+        "type": "numeric",
+        "answer": 5.014798229593051e-21,
+        "unit": "H",
+        "tolerance": 4.5133184066337457e-23,
+        "explanation": "LC=(T/2π)², whereT=λ/c."
+      },
+      {
+        "label": "Physical implication",
+        "type": "choice",
+        "answer": "The required inductance is extraordinarily small; a macroscopic lumped LC circuit is impractical",
+        "options": [
+          "The required inductance is extraordinarily small; a macroscopic lumped LC circuit is impractical",
+          "The inductance is several henries",
+          "The optical wavelength requires zero capacitance"
+        ],
+        "explanation": "The calculated scale is far smaller than ordinary circuit parasitic inductances."
+      }
+    ],
+    "reasoning": "Optical frequencies are not ordinarily generated by this simple lumped-element oscillator. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-6",
+    "parts": [
+      {
+        "label": "Wavelength",
+        "type": "numeric",
+        "answer": 4.737418610420491,
+        "unit": "m",
+        "tolerance": 0.042636767493784415,
+        "explanation": "λ=cT=2πc√(LC)."
+      }
+    ],
+    "reasoning": "The original inductance is0.253μH, not0.253mH. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-7",
+    "parts": [
+      {
+        "label": "Intensity",
+        "type": "numeric",
+        "answer": 1192866.2984737556,
+        "unit": "W/m²",
+        "tolerance": 10735.7966862638,
+        "explanation": "I=cB_m²/(2μ₀)."
+      }
+    ],
+    "reasoning": "Use peak rather than rms magnetic field. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-8",
+    "parts": [
+      {
+        "label": "Intensity at Proxima Centauri",
+        "type": "numeric",
+        "answer": 4.809179110591265e-29,
+        "unit": "W/m²",
+        "tolerance": 1e-30,
+        "explanation": "An isotropic source spreads power over4πr²."
+      }
+    ],
+    "reasoning": "A light-year is a distance. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-9",
+    "parts": [
+      {
+        "label": "Pulse energy",
+        "type": "numeric",
+        "answer": 100000.0,
+        "unit": "J",
+        "tolerance": 899.9999999999999,
+        "explanation": "Energy equals power times pulse duration."
+      }
+    ],
+    "reasoning": "Wavelength is not needed for the pulse energy. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-10",
+    "parts": [
+      {
+        "label": "Magnetic amplitude",
+        "type": "numeric",
+        "answer": 1.0673782521681121e-12,
+        "unit": "T",
+        "tolerance": 9.606404269513008e-15,
+        "explanation": "B_m=E_m/c."
+      }
+    ],
+    "reasoning": "Electric and magnetic amplitudes obey the vacuum wave relation. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-11",
+    "parts": [
+      {
+        "label": "a · Magnetic amplitude",
+        "type": "numeric",
+        "answer": 6.671114076050701e-09,
+        "unit": "T",
+        "tolerance": 6.00400266844563e-11,
+        "explanation": "B_m=E_m/c."
+      },
+      {
+        "label": "b · Magnetic axis",
+        "type": "choice",
+        "answer": "y axis",
+        "options": [
+          "y axis",
+          "x axis",
+          "z axis"
+        ],
+        "explanation": "E andB are perpendicular to propagation and to each other."
+      },
+      {
+        "label": "c · Magnetic direction when E points +z",
+        "type": "choice",
+        "answer": "Negative y",
+        "options": [
+          "Negative y",
+          "Positive y",
+          "Positive x"
+        ],
+        "explanation": "(+z)×(−y)=+x."
+      }
+    ],
+    "reasoning": "The supplied t−x/c dependence travels toward+x. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-12",
+    "parts": [
+      {
+        "label": "a · Magnetic amplitude",
+        "type": "numeric",
+        "answer": 1.6677785190126752e-08,
+        "unit": "T",
+        "tolerance": 1.5010006671114075e-10,
+        "explanation": "B_m=E_m/c."
+      },
+      {
+        "label": "b · Intensity",
+        "type": "numeric",
+        "answer": 0.033179399410418475,
+        "unit": "W/m²",
+        "tolerance": 0.00029861459469376623,
+        "explanation": "I=E_m²/(2μ₀c)."
+      }
+    ],
+    "reasoning": "The intensity is a time average. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-13",
+    "parts": [
+      {
+        "label": "a · Electric amplitude",
+        "type": "numeric",
+        "answer": 1027.0693330305244,
+        "unit": "V/m",
+        "tolerance": 9.24362399727472,
+        "explanation": "E_m=√(2μ₀cI)."
+      },
+      {
+        "label": "b · Magnetic amplitude",
+        "type": "numeric",
+        "answer": 3.4258483423299677e-06,
+        "unit": "T",
+        "tolerance": 3.083263508096971e-08,
+        "explanation": "B_m=E_m/c."
+      }
+    ],
+    "reasoning": "The given intensity is1.40kW/m². Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-14",
+    "parts": [
+      {
+        "label": "Maximum magnetic-field rate",
+        "type": "numeric",
+        "answer": 3440294.98703038,
+        "unit": "T/s",
+        "tolerance": 30962.65488327342,
+        "explanation": "For B=B_m sinωt, max|dB/dt|=ωB_m; I=P/(4πr²)."
+      }
+    ],
+    "reasoning": "The optical frequency sets an extremely fast field oscillation. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-15",
+    "parts": [
+      {
+        "label": "a · Electric amplitude",
+        "type": "numeric",
+        "answer": 0.08680320167119275,
+        "unit": "V/m",
+        "tolerance": 0.0007812288150407347,
+        "explanation": "Use the source10μW/m²."
+      },
+      {
+        "label": "b · Magnetic amplitude",
+        "type": "numeric",
+        "answer": 2.895370302574808e-10,
+        "unit": "T",
+        "tolerance": 2.605833272317327e-12,
+        "explanation": "B_m=E_m/c."
+      },
+      {
+        "label": "c · Transmission power",
+        "type": "numeric",
+        "answer": 6283.185307179587,
+        "unit": "W",
+        "tolerance": 56.548667764616276,
+        "explanation": "P=I(2πr²) for hemispherical emission."
+      }
+    ],
+    "reasoning": "The original intensity is micro-watts per square metre, not milli-watts. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-16",
+    "parts": [
+      {
+        "label": "a · Received antenna power",
+        "type": "numeric",
+        "answer": 1.3862567125630593e-22,
+        "unit": "W",
+        "tolerance": 1.2476310413067534e-24,
+        "explanation": "Multiply surface intensity by the projected collecting disk."
+      },
+      {
+        "label": "b · Source power",
+        "type": "numeric",
+        "answer": 1067453018835840.1,
+        "unit": "W",
+        "tolerance": 9607077169522.56,
+        "explanation": "P=4πr²I."
+      }
+    ],
+    "reasoning": "The stated picowatt is spread over the entire Earth surface. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Interpret the quoted entire-surface power literally as4πR_E² times the wave intensity; collecting antenna area isπD²/4."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-17",
+    "parts": [
+      {
+        "label": "a · Magnetic amplitude",
+        "type": "numeric",
+        "answer": 6.671114076050701e-09,
+        "unit": "T",
+        "tolerance": 6.00400266844563e-11,
+        "explanation": "B_m=E_m/c."
+      },
+      {
+        "label": "b · Intensity",
+        "type": "numeric",
+        "answer": 0.005308703905666956,
+        "unit": "W/m²",
+        "tolerance": 4.77783351510026e-05,
+        "explanation": "Average Poynting flux E_m²/(2μ₀c)."
+      },
+      {
+        "label": "c · Source power",
+        "type": "numeric",
+        "answer": 6.671114076050701,
+        "unit": "W",
+        "tolerance": 0.06004002668445631,
+        "explanation": "P=4πr²I."
+      }
+    ],
+    "reasoning": "Fields fall inversely with radius, intensity inversely with radius squared. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-18",
+    "parts": [
+      {
+        "label": "Source power",
+        "type": "numeric",
+        "answer": 251.32741228718345,
+        "unit": "W",
+        "tolerance": 12,
+        "explanation": "Slope I versus r⁻² isP/(4π); graph has I=200W/m² at r⁻²=10m⁻², while the8mark is one grid line earlier."
+      }
+    ],
+    "reasoning": "Read the original endpoint, not the labeled r_s⁻² tick as the endpoint. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-19",
+    "parts": [
+      {
+        "label": "Pressure",
+        "type": "numeric",
+        "answer": 10006671.11407605,
+        "unit": "Pa",
+        "tolerance": 90060.04002668444,
+        "explanation": "Perfect back-reflection transfers twice the incident momentum."
+      }
+    ],
+    "reasoning": "The laser power is1.5×10³MW and spot area1mm². Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-20",
+    "parts": [
+      {
+        "label": "a · Radiation force",
+        "type": "numeric",
+        "answer": 595285281.2662666,
+        "unit": "N",
+        "tolerance": 5357567.531396399,
+        "explanation": "Absorbing Earth intercepts projected areaπR²."
+      },
+      {
+        "label": "b · Solar gravitational force",
+        "type": "numeric",
+        "answer": 3.5277481777777783e+22,
+        "unit": "N",
+        "tolerance": 3.17497336e+20,
+        "explanation": "F=GM_sM_E/r²."
+      }
+    ],
+    "reasoning": "Use disk area for sunlight interception and center-to-center separation for gravity. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-21",
+    "parts": [
+      {
+        "label": "Radiation pressure",
+        "type": "numeric",
+        "answer": 5.898559895185507e-08,
+        "unit": "Pa",
+        "tolerance": 5.308703905666956e-10,
+        "explanation": "p=I/c=P/(4πr²c) for absorption."
+      }
+    ],
+    "reasoning": "The receiving surface is normal to the rays. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-22",
+    "parts": [
+      {
+        "label": "Radiation pressure",
+        "type": "numeric",
+        "answer": 3.3355570380253504e-08,
+        "unit": "Pa",
+        "tolerance": 3.002001334222815e-10,
+        "explanation": "Pressure=I/c and is independent of illuminated area."
+      }
+    ],
+    "reasoning": "The area would enter force, not pressure. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-23",
+    "parts": [
+      {
+        "label": "a · Required source power",
+        "type": "numeric",
+        "answer": 467659660584.28314,
+        "unit": "W",
+        "tolerance": 4208936945.258548,
+        "explanation": "mg=(P/(4πh²))πr²/c."
+      },
+      {
+        "label": "b · Stability",
+        "type": "choice",
+        "answer": "A sideways displacement gives an outward sideways force, so equilibrium is unstable",
+        "options": [
+          "A sideways displacement gives an outward sideways force, so equilibrium is unstable",
+          "All displacements produce restoring forces",
+          "The sphere is stable because gravity is downward"
+        ],
+        "explanation": "The radial photon force pushes away from the vertical line after a lateral displacement."
+      }
+    ],
+    "reasoning": "At the exact axis vertical disturbances may be restoring, but transverse disturbances are unstable. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-24",
+    "parts": [
+      {
+        "label": "Required reflecting sail area",
+        "type": "numeric",
+        "answer": 961650.0515626341,
+        "unit": "m²",
+        "tolerance": 8654.850464063706,
+        "explanation": "Equate2[P_s/(4πr²)]A/c toGM_sm/r²; r² cancels."
+      }
+    ],
+    "reasoning": "The result does not depend on heliocentric radius. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Solar luminosity3.90×10²⁶W, solar mass1.99×10³⁰kg, ship-plus-sail mass1500kg, ideal reflection."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-25",
+    "parts": [
+      {
+        "label": "General pressure relation",
+        "type": "choice",
+        "answer": "p=(1+R)I/c for reflected fraction R",
+        "options": [
+          "p=(1+R)I/c for reflected fraction R",
+          "p=I/c even when all light is reflected",
+          "p=(1−R)I/c"
+        ],
+        "explanation": "Absorbed fraction transfers I_abs/c; reflected fraction transfers2I_ref/c."
+      },
+      {
+        "label": "Energy-density interpretation",
+        "type": "choice",
+        "answer": "Pressure equals incident plus reflected energy density immediately outside the surface",
+        "options": [
+          "Pressure equals incident plus reflected energy density immediately outside the surface",
+          "Pressure always equals incident-only energy density",
+          "Pressure vanishes for a perfect reflector"
+        ],
+        "explanation": "The local energy density includes both counterpropagating beams."
+      }
+    ],
+    "reasoning": "Momentum balance resolves the statement for arbitrary reflected fraction. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ],
+    "scope": "The incident-only energy density isI/c, so the supplied wording is not correct for a reflecting surface unless the reflected field is included in the local energy density.",
+    "reviewNotice": "For a reflecting surface, radiation pressure equals the combined incident-plus-reflected energy density. It equals the incident-only energy density only for complete absorption."
+  },
+  {
+    "id": "physics-chapter-33-problems-26",
+    "parts": [
+      {
+        "label": "Cylinder height",
+        "type": "numeric",
+        "answer": 4.914872995626131e-07,
+        "unit": "m",
+        "tolerance": 4.423385696063518e-09,
+        "explanation": "Force2I A/c balancesρAHg; cylinder face area cancels."
+      }
+    ],
+    "reasoning": "The cylinder diameter is smaller than beam diameter, so only its own intercepted area is used. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-27",
+    "parts": [
+      {
+        "label": "a · Frequency",
+        "type": "numeric",
+        "answer": 99933333.33333333,
+        "unit": "Hz",
+        "tolerance": 899399.9999999999,
+        "explanation": "f=c/λ."
+      },
+      {
+        "label": "b · Angular frequency",
+        "type": "numeric",
+        "answer": 627899651.69748,
+        "unit": "rad/s",
+        "tolerance": 5651096.865277319,
+        "explanation": "ω=2πf."
+      },
+      {
+        "label": "c · Wave number",
+        "type": "numeric",
+        "answer": 2.0943951023931953,
+        "unit": "rad/m",
+        "tolerance": 0.018849555921538756,
+        "explanation": "k=2π/λ."
+      },
+      {
+        "label": "d · Magnetic amplitude",
+        "type": "numeric",
+        "answer": 1.000667111407605e-06,
+        "unit": "T",
+        "tolerance": 9.006004002668444e-09,
+        "explanation": "B_m=E_m/c."
+      },
+      {
+        "label": "e · Magnetic axis",
+        "type": "choice",
+        "answer": "z axis",
+        "options": [
+          "z axis",
+          "x axis",
+          "y axis"
+        ],
+        "explanation": "Propagation+x and electric+y require magnetic+z."
+      },
+      {
+        "label": "f · Average energy flux",
+        "type": "numeric",
+        "answer": 119.4458378775065,
+        "unit": "W/m²",
+        "tolerance": 1.0750125408975584,
+        "explanation": "I=E_m²/(2μ₀c)."
+      },
+      {
+        "label": "g · Momentum-transfer rate",
+        "type": "numeric",
+        "answer": 7.968368103903036e-07,
+        "unit": "N",
+        "tolerance": 7.171531293512732e-09,
+        "explanation": "dp/dt=IA/c."
+      },
+      {
+        "label": "h · Pressure",
+        "type": "numeric",
+        "answer": 3.984184051951518e-07,
+        "unit": "Pa",
+        "tolerance": 3.585765646756366e-09,
+        "explanation": "p=I/c."
+      }
+    ],
+    "reasoning": "A perfect absorber receives one incident photon momentum per incident energy divided byc. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-28",
+    "parts": [
+      {
+        "label": "a · Pressure",
+        "type": "numeric",
+        "answer": 4.669779853235491e-06,
+        "unit": "Pa",
+        "tolerance": 4.2028018679119415e-08,
+        "explanation": "p=I/c."
+      },
+      {
+        "label": "b · Pressure ratio",
+        "type": "numeric",
+        "answer": 4.669779853235491e-11,
+        "unit": "dimensionless",
+        "tolerance": 4.202801867911941e-13,
+        "explanation": "Divide by the stated atmospheric pressure."
+      }
+    ],
+    "reasoning": "Radiation pressure is tiny compared with atmosphere. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-29",
+    "parts": [
+      {
+        "label": "Recoil speed",
+        "type": "numeric",
+        "answer": 0.0019212808539026017,
+        "unit": "m/s",
+        "tolerance": 1.7291527685123415e-05,
+        "explanation": "Photon momentum Pt/c equals ship momentum mv."
+      }
+    ],
+    "reasoning": "Neglect the tiny fractional change of ship mass. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-30",
+    "parts": [
+      {
+        "label": "a · Intensity",
+        "type": "numeric",
+        "answer": 3972031752.6035237,
+        "unit": "W/m²",
+        "tolerance": 35748285.77343171,
+        "explanation": "Beam cross section matches sphere projected disk."
+      },
+      {
+        "label": "b · Pressure",
+        "type": "numeric",
+        "answer": 13.248938467656851,
+        "unit": "Pa",
+        "tolerance": 0.11924044620891165,
+        "explanation": "Absorbing pressure I/c."
+      },
+      {
+        "label": "c · Force",
+        "type": "numeric",
+        "answer": 1.667778519012675e-11,
+        "unit": "N",
+        "tolerance": 1.5010006671114075e-13,
+        "explanation": "F=P/c."
+      },
+      {
+        "label": "d · Acceleration",
+        "type": "numeric",
+        "answer": 3139.5588785916702,
+        "unit": "m/s²",
+        "tolerance": 28.25602990732503,
+        "explanation": "Divide by sphere massρ4πr³/3."
+      }
+    ],
+    "reasoning": "The small sphere intercepts the entire matched beam. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-31",
+    "parts": [
+      {
+        "label": "a · Straight-path radius",
+        "type": "numeric",
+        "answer": 1.6712346185926253e-07,
+        "unit": "m",
+        "tolerance": 1.5041111567333625e-09,
+        "explanation": "Set solar radiation force and solar gravity equal; solar distance cancels."
+      },
+      {
+        "label": "b · Path for larger radius",
+        "type": "choice",
+        "answer": "Toward the Sun, path3",
+        "options": [
+          "Toward the Sun, path3",
+          "Away from the Sun, path1",
+          "Straight, path2"
+        ],
+        "explanation": "Radiation/gravity scales1/r_particle; larger particles have net inward acceleration."
+      }
+    ],
+    "reasoning": "The direction changes because mass scalesr³ while intercepted power scalesr². Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-32",
+    "parts": [
+      {
+        "label": "Transmission percentage",
+        "type": "numeric",
+        "answer": 0.04546224984590307,
+        "unit": "%",
+        "tolerance": 0.00040916024861312764,
+        "explanation": "The adjacent axis differences are100° and100°, equivalent to80° axes."
+      }
+    ],
+    "reasoning": "The signed orientations in the original diagram matter. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-33",
+    "parts": [
+      {
+        "label": "Transmission percentage",
+        "type": "numeric",
+        "answer": 3.1250000000000027,
+        "unit": "%",
+        "tolerance": 0.02812500000000002,
+        "explanation": "Each adjacent angle is60°; start withI/2."
+      }
+    ],
+    "reasoning": "Two Malus-law factors follow the first-sheet half rule. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-34",
+    "parts": [
+      {
+        "label": "Transmitted intensity",
+        "type": "numeric",
+        "answer": 18.984977763529013,
+        "unit": "W/m²",
+        "tolerance": 0.1708647998717611,
+        "explanation": "Unpolarized light loses half, then the axes differ20°."
+      }
+    ],
+    "reasoning": "Absolute first-sheet orientation does not affect unpolarized transmission. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-35",
+    "parts": [
+      {
+        "label": "Transmitted intensity",
+        "type": "numeric",
+        "answer": 4.441641045040252,
+        "unit": "W/m²",
+        "tolerance": 0.039974769405362265,
+        "explanation": "Initial polarization is y, so include cos²70° before the second factor."
+      }
+    ],
+    "reasoning": "There is no first-sheet half factor for initially polarized light. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-36",
+    "parts": [
+      {
+        "label": "a · Upright transmitted fraction",
+        "type": "numeric",
+        "answer": 0.15898251192368842,
+        "unit": "dimensionless",
+        "tolerance": 0.0014308426073131957,
+        "explanation": "Intensity follows squared field amplitudes."
+      },
+      {
+        "label": "b · Sideways transmitted fraction",
+        "type": "numeric",
+        "answer": 0.8410174880763116,
+        "unit": "dimensionless",
+        "tolerance": 0.007569157392686804,
+        "explanation": "The glasses now pass the originally horizontal component."
+      }
+    ],
+    "reasoning": "Orthogonal incoherent intensity components add. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-37",
+    "parts": [
+      {
+        "label": "a · Minimum nonzero-transmission sheets",
+        "type": "numeric",
+        "answer": 2.0,
+        "unit": "sheets",
+        "tolerance": 0,
+        "explanation": "Two noncrossed intermediate projections can rotate90° with nonzero transmission."
+      },
+      {
+        "label": "b · Minimum sheets for >60%",
+        "type": "numeric",
+        "answer": 5.0,
+        "unit": "sheets",
+        "tolerance": 0,
+        "explanation": "ForN equal angular steps the transmission is cos^(2N)(90°/N); test the adjacent integers."
+      }
+    ],
+    "reasoning": "Equal angle steps maximize the product for a fixed total rotation. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-38",
+    "parts": [
+      {
+        "label": "Transmission percentage at30°",
+        "type": "numeric",
+        "answer": 9.375,
+        "unit": "%",
+        "tolerance": 0.08437499999999999,
+        "explanation": "Zeros at0°,90°,180° show the fixed outer axes are crossed."
+      }
+    ],
+    "reasoning": "The plotted double lobe identifies cos²θ₂sin²θ₂. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-39",
+    "parts": [
+      {
+        "label": "a · Transmitted electric amplitude",
+        "type": "numeric",
+        "answer": 1.9409785960141035,
+        "unit": "V/m",
+        "tolerance": 0.01746880736412693,
+        "explanation": "Half the unpolarized intensity is transmitted."
+      },
+      {
+        "label": "b · Pressure on sheet",
+        "type": "numeric",
+        "answer": 1.667778519012675e-11,
+        "unit": "Pa",
+        "tolerance": 1.5010006671114075e-13,
+        "explanation": "Only the absorbed half transfers net momentum to this ideal nonreflecting polarizer."
+      }
+    ],
+    "reasoning": "The transmitted light continues carrying its incident forward momentum. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-40",
+    "parts": [
+      {
+        "label": "Transmission percentage at90°",
+        "type": "numeric",
+        "answer": 12.123078879911928,
+        "unit": "%",
+        "tolerance": 0.10910770991920735,
+        "explanation": "Graph zeros at50° and140° fix the outer axes at140° and50° modulo180°."
+      }
+    ],
+    "reasoning": "The zero positions rather than peak height determine the axes. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-41",
+    "parts": [
+      {
+        "label": "Possible acute angle",
+        "type": "numeric",
+        "answer": 19.615760241796128,
+        "unit": "degrees",
+        "tolerance": 0.17654184217616514,
+        "explanation": "cos²θsin²θ=.10, hence sin²2θ=.40.",
+        "acceptedValues": [
+          70.38423975820388
+        ]
+      },
+      {
+        "label": "Other acute solution",
+        "type": "choice",
+        "answer": "The complementary angle90°−θ is also valid",
+        "options": [
+          "The complementary angle90°−θ is also valid",
+          "No second angle exists",
+          "Only180°−θ is valid"
+        ],
+        "explanation": "The transmitted fraction is unchanged underθ→90°−θ."
+      }
+    ],
+    "reasoning": "Two acute settings yield the same product. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-42",
+    "parts": [
+      {
+        "label": "Transmission percentage at90°",
+        "type": "numeric",
+        "answer": 44.151111077974456,
+        "unit": "%",
+        "tolerance": 0.39735999970177005,
+        "explanation": "The zero at160° fixes θ₁=70° modulo180°."
+      }
+    ],
+    "reasoning": "Use the graph minimum and then the20° difference to the analyzer. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-43",
+    "parts": [
+      {
+        "label": "Initially polarized fraction",
+        "type": "numeric",
+        "answer": 0.6666666666666666,
+        "unit": "dimensionless",
+        "tolerance": 0.005999999999999999,
+        "explanation": "Imax=P+U/2=5U/2, soP=2U andP/(P+U)=2/3."
+      }
+    ],
+    "reasoning": "Do not confuse transmitted modulation with original beam fraction. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-44",
+    "parts": [
+      {
+        "label": "a · Smaller analyzer angle",
+        "type": "numeric",
+        "answer": 19.615760241796128,
+        "unit": "degrees",
+        "tolerance": 0.17654184217616514,
+        "explanation": "(1/2)cos²θsin²θ=.05."
+      },
+      {
+        "label": "b · Larger analyzer angle",
+        "type": "numeric",
+        "answer": 70.38423975820388,
+        "unit": "degrees",
+        "tolerance": 0.6334581578238349,
+        "explanation": "The two acute solutions are complementary."
+      }
+    ],
+    "reasoning": "The first sheet passes half the initially unpolarized intensity. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-45",
+    "parts": [
+      {
+        "label": "Liquid index",
+        "type": "numeric",
+        "answer": 1.2637671613143493,
+        "unit": "dimensionless",
+        "tolerance": 0.011373904451829142,
+        "explanation": "The emergent ray grazes the surface, n sinθ=1; sinθ=L/√(L²+D²)."
+      }
+    ],
+    "reasoning": "The source ray runs corner-to-corner. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-46",
+    "parts": [
+      {
+        "label": "a · Material1 relative to water",
+        "type": "choice",
+        "answer": "Greater index",
+        "options": [
+          "Greater index",
+          "Smaller index",
+          "Equal index"
+        ],
+        "explanation": "The ray bends away from the normal and reaches critical incidence."
+      },
+      {
+        "label": "b · Material2 relative to water",
+        "type": "choice",
+        "answer": "Greater index",
+        "options": [
+          "Greater index",
+          "Smaller index",
+          "Equal index"
+        ],
+        "explanation": "It also has a critical incidence below90°."
+      },
+      {
+        "label": "c · Index1",
+        "type": "numeric",
+        "answer": 1.8809040379562167,
+        "unit": "dimensionless",
+        "tolerance": 0.05,
+        "explanation": "Critical input angle is45° from the graph."
+      },
+      {
+        "label": "d · Index2",
+        "type": "numeric",
+        "answer": 1.439581626388884,
+        "unit": "dimensionless",
+        "tolerance": 0.05,
+        "explanation": "Critical input angle is67.5°."
+      }
+    ],
+    "reasoning": "The original graph shows the two critical input angles. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-47",
+    "parts": [
+      {
+        "label": "Glass index",
+        "type": "numeric",
+        "answer": 1.4787016107483109,
+        "unit": "dimensionless",
+        "tolerance": 0.013308314496734797,
+        "explanation": "Snell law n=sin32°/sin21°."
+      }
+    ],
+    "reasoning": "The incident medium is vacuum. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-48",
+    "parts": [
+      {
+        "label": "a · Material1 relative to water",
+        "type": "choice",
+        "answer": "Greater index",
+        "options": [
+          "Greater index",
+          "Smaller index",
+          "Equal index"
+        ],
+        "explanation": "Its output angle stays below its input angle."
+      },
+      {
+        "label": "b · Material2 relative to water",
+        "type": "choice",
+        "answer": "Greater index",
+        "options": [
+          "Greater index",
+          "Smaller index",
+          "Equal index"
+        ],
+        "explanation": "The lower graph curve bends more toward the normal."
+      },
+      {
+        "label": "c · Index1",
+        "type": "numeric",
+        "answer": 1.439581626388884,
+        "unit": "dimensionless",
+        "tolerance": 0.05,
+        "explanation": "At90° incidence the output approaches67.5°."
+      },
+      {
+        "label": "d · Index2",
+        "type": "numeric",
+        "answer": 1.8809040379562167,
+        "unit": "dimensionless",
+        "tolerance": 0.05,
+        "explanation": "At90° incidence the output approaches45°."
+      }
+    ],
+    "reasoning": "Read terminal output angles, not critical incidence angles. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-49",
+    "parts": [
+      {
+        "label": "Angle between propagation directions",
+        "type": "numeric",
+        "answer": 180.0,
+        "unit": "degrees",
+        "tolerance": 0,
+        "explanation": "Two perpendicular reflections reverse both in-plane velocity components."
+      }
+    ],
+    "reasoning": "The outgoing ray is antiparallel to the incoming ray. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-50",
+    "parts": [
+      {
+        "label": "a · Index1",
+        "type": "numeric",
+        "answer": 1.5557238268604126,
+        "unit": "dimensionless",
+        "tolerance": 0.06,
+        "explanation": "Graph endpoints satisfy n₃sinθ₃≈1; n₁sin40°=1."
+      },
+      {
+        "label": "b · Index2",
+        "type": "choice",
+        "answer": "Cannot be determined from these parallel-interface data",
+        "options": [
+          "Cannot be determined from these parallel-interface data",
+          "It equals index1",
+          "It must equal1"
+        ],
+        "explanation": "The intermediate index cancels in n₁sinθ₁=n₃sinθ₃."
+      },
+      {
+        "label": "c · New output angle",
+        "type": "numeric",
+        "answer": 37.52632785224233,
+        "unit": "degrees",
+        "tolerance": 1.2,
+        "explanation": "Use n₁sin70°=2.4sinθ₃."
+      }
+    ],
+    "reasoning": "The graph fixes one conserved tangential optical component. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-51",
+    "parts": [
+      {
+        "label": "a · Air exit angle",
+        "type": "numeric",
+        "answer": 56.86245853278879,
+        "unit": "degrees",
+        "tolerance": 0.5117621267950991,
+        "explanation": "Reflection preservesθ₁ and refraction gives sinθ₅=n₁sinθ₁."
+      },
+      {
+        "label": "b · Bottom angle",
+        "type": "numeric",
+        "answer": 35.274206150844016,
+        "unit": "degrees",
+        "tolerance": 0.31746785535759614,
+        "explanation": "All parallel layers conserve n sinθ."
+      }
+    ],
+    "reasoning": "Intermediate layers do not affect the final angle if transmission occurs. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-52",
+    "parts": [
+      {
+        "label": "a · Index1",
+        "type": "numeric",
+        "answer": 1.6712477851850023,
+        "unit": "dimensionless",
+        "tolerance": 0.05,
+        "explanation": "Read left graph point n₂=1.3,θ₂=40° and use n₁sin30°=n₂sinθ₂."
+      },
+      {
+        "label": "b · New output angle",
+        "type": "numeric",
+        "answer": 37.089341006969185,
+        "unit": "degrees",
+        "tolerance": 1,
+        "explanation": "Use the same index with new incidence60°."
+      }
+    ],
+    "reasoning": "The source graph is approximate. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-53",
+    "parts": [
+      {
+        "label": "Prism relation",
+        "type": "choice",
+        "answer": "n=sin((ψ+φ)/2)/sin(φ/2)",
+        "options": [
+          "n=sin((ψ+φ)/2)/sin(φ/2)",
+          "n=sin(ψ/2)/sinφ",
+          "n=sinφ/sinψ"
+        ],
+        "explanation": "Symmetric refraction has internal anglesφ/2 and externalθ=(ψ+φ)/2."
+      }
+    ],
+    "reasoning": "Apply Snell law at either face and add the two equal external deviations. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-54",
+    "parts": [
+      {
+        "label": "a · Internal angular spread",
+        "type": "numeric",
+        "answer": 0.3317178370938798,
+        "unit": "degrees",
+        "tolerance": 0.002985460533844918,
+        "explanation": "Apply Snell law separately to red and blue."
+      },
+      {
+        "label": "b · Emergent angular spread",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "degrees",
+        "tolerance": 0,
+        "explanation": "Parallel faces undo the angular dispersion."
+      }
+    ],
+    "reasoning": "The colors emerge parallel, though their lateral positions can differ. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-55",
+    "parts": [
+      {
+        "label": "Shadow length",
+        "type": "numeric",
+        "answer": 1.0670967030815128,
+        "unit": "m",
+        "tolerance": 0.009603870327733615,
+        "explanation": "Add horizontal runs in air and water using their separate refracted slopes."
+      }
+    ],
+    "reasoning": "The pool depth is2.00−.50=1.50m; the drawn55° is relative to the horizontal, hence incidence35°. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-56",
+    "parts": [
+      {
+        "label": "a · Spread atA",
+        "type": "numeric",
+        "answer": 3.1394786112919775,
+        "unit": "degrees",
+        "tolerance": 0.028255307501627795,
+        "explanation": "At the vertical side, internal incidence is90°−r."
+      },
+      {
+        "label": "b · Spread atB",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "degrees",
+        "tolerance": 0,
+        "explanation": "After side reflection the horizontal bottom reverses entry refraction; output angles both70°."
+      }
+    ],
+    "reasoning": "Use the normals of each successive face; they differ by90°. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-57",
+    "parts": [
+      {
+        "label": "Escape-circle diameter",
+        "type": "numeric",
+        "answer": 1.8246730270412597,
+        "unit": "m",
+        "tolerance": 0.016422057243371337,
+        "explanation": "D=2h tanθc, θc=asin(1/n)."
+      }
+    ],
+    "reasoning": "Only rays within the critical cone emerge. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-58",
+    "parts": [
+      {
+        "label": "Critical angle",
+        "type": "numeric",
+        "answer": 33.74898859588859,
+        "unit": "degrees",
+        "tolerance": 0.3037408973629973,
+        "explanation": "sinθc=n_air/n_benzene."
+      }
+    ],
+    "reasoning": "Angles are measured from the surface normal. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-59",
+    "parts": [
+      {
+        "label": "a · Largest prism angle in air",
+        "type": "numeric",
+        "answer": 48.860489585100844,
+        "unit": "degrees",
+        "tolerance": 0.43974440626590755,
+        "explanation": "Incidence on slope is90°−φ."
+      },
+      {
+        "label": "b · Largest prism angle in water",
+        "type": "numeric",
+        "answer": 28.955024371859842,
+        "unit": "degrees",
+        "tolerance": 0.26059521934673857,
+        "explanation": "At threshold sin(90°−φ)=n_external/1.52."
+      }
+    ],
+    "reasoning": "Water reduces the index contrast and allowable prism angle. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-60",
+    "parts": [
+      {
+        "label": "a · θA",
+        "type": "numeric",
+        "answer": 54.34091230386124,
+        "unit": "degrees",
+        "tolerance": 0.4890682107347511,
+        "explanation": "Parallel interfaces imply n₁sinθA=n₃."
+      },
+      {
+        "label": "b · Refraction after decreasing θA",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only if the layer thickness changes"
+        ],
+        "explanation": "A smaller top-interface incidence is below critical."
+      },
+      {
+        "label": "c · θB",
+        "type": "numeric",
+        "answer": 51.088648894209825,
+        "unit": "degrees",
+        "tolerance": 0.4597978400478884,
+        "explanation": "Perpendicular interface normals give n₁sinθB=n₂cosθc."
+      },
+      {
+        "label": "d · Refraction after decreasing θB",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only for blue light"
+        ],
+        "explanation": "Smaller angle from the horizontal increases incidence from the top normal above critical."
+      }
+    ],
+    "reasoning": "The two entrance normals are perpendicular, which reverses the trend. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-61",
+    "parts": [
+      {
+        "label": "a · Incident angle",
+        "type": "numeric",
+        "answer": 26.788213178834415,
+        "unit": "degrees",
+        "tolerance": 0.2410939186095097,
+        "explanation": "n₁sinθ=n₂cosθc=√(n₂²−n₃²)."
+      },
+      {
+        "label": "b · Refraction if θ increases",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "The critical angle itself increases"
+        ],
+        "explanation": "Increasing the bottom-interface angle decreases the side-interface angle."
+      }
+    ],
+    "reasoning": "Follow the changed ray inside material2. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-62",
+    "parts": [
+      {
+        "label": "a · Visible-circle diameter",
+        "type": "numeric",
+        "answer": 4.561682567603149,
+        "unit": "m",
+        "tolerance": 0.04105514310842834,
+        "explanation": "The outside world occupies the underwater critical cone."
+      },
+      {
+        "label": "b · Diameter as fish descends",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "D=2h tanθc is proportional to depth."
+      }
+    ],
+    "reasoning": "Refraction compresses the visible hemisphere into a finite cone. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-63",
+    "parts": [
+      {
+        "label": "a · Prism index",
+        "type": "choice",
+        "answer": "n=√(1+sin²θ)",
+        "options": [
+          "n=√(1+sin²θ)",
+          "n=1/sinθ",
+          "n=√(1−sin²θ)"
+        ],
+        "explanation": "The internal angles are complementary and the second incidence is critical."
+      },
+      {
+        "label": "b · Maximum index",
+        "type": "numeric",
+        "answer": 1.4142135623730951,
+        "unit": "dimensionless",
+        "tolerance": 0.012727922061357855,
+        "explanation": "sin²θ≤1."
+      },
+      {
+        "label": "c · Emergence if θ increases",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only if n changes"
+        ],
+        "explanation": "First internal angle rises, so the second falls below critical."
+      },
+      {
+        "label": "d · Emergence if θ decreases",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Always the same outgoing angle"
+        ],
+        "explanation": "Second incidence then exceeds critical."
+      }
+    ],
+    "reasoning": "Use sin²r+cos²r=1 with Snell law at both faces. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-64",
+    "parts": [
+      {
+        "label": "a · Minimum entrance angle",
+        "type": "numeric",
+        "answer": 35.56776222985882,
+        "unit": "degrees",
+        "tolerance": 0.3201098600687294,
+        "explanation": "At threshold the second internal angle equals asin(1/n)."
+      },
+      {
+        "label": "b · Symmetric entrance angle",
+        "type": "numeric",
+        "answer": 53.13010235415597,
+        "unit": "degrees",
+        "tolerance": 0.47817092118740373,
+        "explanation": "Each internal angle isφ/2."
+      }
+    ],
+    "reasoning": "The first condition is the limit before total internal reflection blocks exit. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-65",
+    "parts": [
+      {
+        "label": "Maximum entrance angle",
+        "type": "numeric",
+        "answer": 23.224498878953465,
+        "unit": "degrees",
+        "tolerance": 0.20902048991058117,
+        "explanation": "Air-side numerical aperture is√(n_core²−n_sheath²)."
+      }
+    ],
+    "reasoning": "Snell law at the end face combines with the critical side incidence. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-66",
+    "parts": [
+      {
+        "label": "a · First face at40°",
+        "type": "choice",
+        "answer": "Side3",
+        "options": [
+          "Side3",
+          "Side2",
+          "Side4"
+        ],
+        "explanation": "W tanr=1.36cm is less than the2cm rise to the top."
+      },
+      {
+        "label": "b · Second face at40°",
+        "type": "choice",
+        "answer": "Side2",
+        "options": [
+          "Side2",
+          "Side1",
+          "Side4"
+        ],
+        "explanation": "After right-side reflection the ray reaches the top."
+      },
+      {
+        "label": "c · First refraction angle at40°",
+        "type": "numeric",
+        "answer": 40.0,
+        "unit": "degrees",
+        "tolerance": 0.36,
+        "explanation": "Parallel entrance and exit vertical faces give equal external angles."
+      },
+      {
+        "label": "d · Second refraction at40°",
+        "type": "choice",
+        "answer": "None: total internal reflection",
+        "options": [
+          "None: total internal reflection",
+          "40°",
+          "90°"
+        ],
+        "explanation": "Top incidence90°−r exceeds critical."
+      },
+      {
+        "label": "e · First face at70°",
+        "type": "choice",
+        "answer": "Side2",
+        "options": [
+          "Side2",
+          "Side3",
+          "Side4"
+        ],
+        "explanation": "W tanr exceedsH, so the ray reaches the top first."
+      },
+      {
+        "label": "f · Second face at70°",
+        "type": "choice",
+        "answer": "Side3",
+        "options": [
+          "Side3",
+          "Side1",
+          "Side4"
+        ],
+        "explanation": "The reflected ray reaches the right face."
+      },
+      {
+        "label": "g · First refraction at70°",
+        "type": "choice",
+        "answer": "None: total internal reflection",
+        "options": [
+          "None: total internal reflection",
+          "70°",
+          "90°"
+        ],
+        "explanation": "Top incidence exceeds critical."
+      },
+      {
+        "label": "h · Second refraction angle at70°",
+        "type": "numeric",
+        "answer": 70.0,
+        "unit": "degrees",
+        "tolerance": 0.63,
+        "explanation": "The outgoing vertical-face refraction reverses entry refraction."
+      }
+    ],
+    "reasoning": "The labeledH is the rise from the entry point to the upper face, not an arbitrary full-block height. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-67",
+    "parts": [
+      {
+        "label": "a · Index3",
+        "type": "numeric",
+        "answer": 1.3856406460551018,
+        "unit": "dimensionless",
+        "tolerance": 0.012470765814495915,
+        "explanation": "The side-interface incidence isφ=60° and is critical."
+      },
+      {
+        "label": "b · θ",
+        "type": "numeric",
+        "answer": 28.072486935852968,
+        "unit": "degrees",
+        "tolerance": 0.2526523824226767,
+        "explanation": "At the bottom interface n₁sinθ=n₂sin30°."
+      },
+      {
+        "label": "c · Refraction if θ decreases",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only if n₁ increases"
+        ],
+        "explanation": "A smaller bottom refraction angle increases incidence at the vertical interface."
+      }
+    ],
+    "reasoning": "The critical side angle is complementary to the bottom-normal angle. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-68",
+    "parts": [
+      {
+        "label": "a · Brewster angle",
+        "type": "numeric",
+        "answer": 53.06123726771017,
+        "unit": "degrees",
+        "tolerance": 0.4775511354093915,
+        "explanation": "tanθB=n_water/n_air."
+      },
+      {
+        "label": "b · Wavelength dependence",
+        "type": "choice",
+        "answer": "Yes, because water index is dispersive",
+        "options": [
+          "Yes, because water index is dispersive",
+          "No, it is exactly wavelength independent",
+          "Only intensity matters"
+        ],
+        "explanation": "n changes slightly across the visible spectrum, soθB changes too."
+      }
+    ],
+    "reasoning": "A fixed approximate1.33 gives the usual approximate angle. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-69",
+    "parts": [
+      {
+        "label": "Brewster angle",
+        "type": "numeric",
+        "answer": 49.000185760513105,
+        "unit": "degrees",
+        "tolerance": 0.4410016718446179,
+        "explanation": "tanθB=n_glass/n_water."
+      }
+    ],
+    "reasoning": "Use the ratio of the second and first media indices. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-70",
+    "parts": [
+      {
+        "label": "Index3",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "dimensionless",
+        "tolerance": 0.009,
+        "explanation": "At first Brewster incidence tanθ₁=n₂ and internalθ₂=90°−θ₁; second Brewster condition n₃=n₂tanθ₂=1."
+      }
+    ],
+    "reasoning": "Two parallel interfaces both at Brewster incidence require matching outside indices. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-71",
+    "parts": [
+      {
+        "label": "a · Radio travel time",
+        "type": "numeric",
+        "answer": 0.0005003335557038026,
+        "unit": "s",
+        "tolerance": 4.503002001334223e-06,
+        "explanation": "t=d/c."
+      },
+      {
+        "label": "b · Sun-to-Moon-to-eye delay",
+        "type": "numeric",
+        "answer": 501.6010673782522,
+        "unit": "s",
+        "tolerance": 4.51440960640427,
+        "explanation": "Add the approximate Earth–Sun and Earth–Moon distances."
+      },
+      {
+        "label": "c · Saturn round-trip time",
+        "type": "numeric",
+        "answer": 8672.448298865911,
+        "unit": "s",
+        "tolerance": 78.05203468979319,
+        "explanation": "Round-trip path is2d."
+      },
+      {
+        "label": "d · Explosion year, astronomical signed AD",
+        "type": "numeric",
+        "answer": -5446.0,
+        "unit": "year",
+        "tolerance": 20,
+        "explanation": "Subtract light-travel time from the observed year."
+      }
+    ],
+    "reasoning": "A negative signedAD year corresponds approximately to5447BC; the source distance is approximate. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ],
+    "scope": "The year field uses signed AD arithmetic (about−5446), with a broad20year tolerance for the approximate6500light-year distance. In historical no-year-zero notation this is about5447BC."
+  },
+  {
+    "id": "physics-chapter-33-problems-72",
+    "parts": [
+      {
+        "label": "a · First zero in −x direction",
+        "type": "numeric",
+        "answer": 3.014137606487355e-08,
+        "unit": "m",
+        "tolerance": 2.7127238458386194e-10,
+        "explanation": "AtP choose a phase with positiveE and negative time derivative; nearest leftward zero is a phase distance asin(.25)."
+      },
+      {
+        "label": "b · First zero in +x direction",
+        "type": "numeric",
+        "answer": 3.4460862393512643e-07,
+        "unit": "m",
+        "tolerance": 3.1014776154161378e-09,
+        "explanation": "The complementary phase distance to the nextzero isπ−asin(.25)."
+      }
+    ],
+    "reasoning": "Use propagation+x: the spatial profile translates right; field atP decreases withtime. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-73",
+    "parts": [
+      {
+        "label": "a · Magnetic amplitude",
+        "type": "numeric",
+        "answer": 1.6677785190126752e-08,
+        "unit": "T",
+        "tolerance": 1.5010006671114075e-10,
+        "explanation": "B_m=E_m/c."
+      },
+      {
+        "label": "a · Angular frequency",
+        "type": "numeric",
+        "answer": 299800000000000.0,
+        "unit": "rad/s",
+        "tolerance": 2698200000000.0,
+        "explanation": "ω=ck."
+      },
+      {
+        "label": "a · Signed magnetic expression",
+        "type": "choice",
+        "answer": "B_x=(E_m/c)sin(kz+ωt)",
+        "options": [
+          "B_x=(E_m/c)sin(kz+ωt)",
+          "B_x=−(E_m/c)sin(kz+ωt)",
+          "B_z=(E_m/c)sin(kz+ωt)"
+        ],
+        "explanation": "Wave travels−z, and+y×+x=−z."
+      },
+      {
+        "label": "b · Wavelength",
+        "type": "numeric",
+        "answer": 6.283185307179587e-06,
+        "unit": "m",
+        "tolerance": 5.654866776461627e-08,
+        "explanation": "λ=2π/k."
+      },
+      {
+        "label": "c · Period",
+        "type": "numeric",
+        "answer": 2.0957922972580342e-14,
+        "unit": "s",
+        "tolerance": 1.8862130675322306e-16,
+        "explanation": "T=2π/ω."
+      },
+      {
+        "label": "d · Intensity",
+        "type": "numeric",
+        "answer": 0.033179399410418475,
+        "unit": "W/m²",
+        "tolerance": 0.00029861459469376623,
+        "explanation": "Average flux E_m²/(2μ₀c)."
+      },
+      {
+        "label": "e · Magnetic axis",
+        "type": "choice",
+        "answer": "x axis",
+        "options": [
+          "x axis",
+          "y axis",
+          "z axis"
+        ],
+        "explanation": "Both fields are transverse."
+      },
+      {
+        "label": "f · Spectrum",
+        "type": "choice",
+        "answer": "Infrared",
+        "options": [
+          "Infrared",
+          "Visible",
+          "Ultraviolet"
+        ],
+        "explanation": "Wavelength is about6.28μm."
+      }
+    ],
+    "reasoning": "The plus sign on time means negativez propagation. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-74",
+    "parts": [
+      {
+        "label": "a · Blowout condition",
+        "type": "choice",
+        "answer": "r<3P_s/(16πcGM_sρ)",
+        "options": [
+          "r<3P_s/(16πcGM_sρ)",
+          "r>3P_s/(16πcGM_sρ)",
+          "All particle sizes have the same acceleration"
+        ],
+        "explanation": "Radiation-to-gravity force ratio is3P_s/(16πcGM_sρr)."
+      },
+      {
+        "label": "b · Critical radius",
+        "type": "numeric",
+        "answer": 5.849321165074188e-07,
+        "unit": "m",
+        "tolerance": 5.264389048566769e-09,
+        "explanation": "Set that force ratio toone."
+      }
+    ],
+    "reasoning": "Both forces decrease as inverse solar distance squared. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-75",
+    "parts": [
+      {
+        "label": "Minimum glass index",
+        "type": "numeric",
+        "answer": 1.224744871391589,
+        "unit": "dimensionless",
+        "tolerance": 0.0110227038425243,
+        "explanation": "At the vertical face total reflection requires n²>1+sin²45°."
+      }
+    ],
+    "reasoning": "Entry refraction and side critical angle have complementary internal angles. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-76",
+    "parts": [
+      {
+        "label": "Emergent intensity",
+        "type": "numeric",
+        "answer": 0.02587389285777228,
+        "unit": "W/m²",
+        "tolerance": 0.0002328650357199505,
+        "explanation": "Original axes fromy are−40°,70°,−70°,30°; applyhalf then squared cosines."
+      }
+    ],
+    "reasoning": "Convert angles measured fromx as well as fromy before comparing. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-77",
+    "parts": [
+      {
+        "label": "a · Deviation formula",
+        "type": "choice",
+        "answer": "δ=180°+2θ_i−4θ_r",
+        "options": [
+          "δ=180°+2θ_i−4θ_r",
+          "δ=180°−2θ_i+4θ_r",
+          "δ=2θ_i−2θ_r"
+        ],
+        "explanation": "Add two refraction deviations and one internal reflection."
+      },
+      {
+        "label": "b · Graph equation",
+        "type": "choice",
+        "answer": "δ(θ)=180°+2θ−4asin(sinθ/n)",
+        "options": [
+          "δ(θ)=180°+2θ−4asin(sinθ/n)",
+          "δ(θ)=180°+2θ−4asin(n sinθ)",
+          "δ(θ)=4asin(sinθ/n)−2θ"
+        ],
+        "explanation": "Snell law givesθ_r=asin(sinθ_i/n)."
+      },
+      {
+        "label": "c · Red minimum deviation",
+        "type": "numeric",
+        "answer": 137.63015879551125,
+        "unit": "degrees",
+        "tolerance": 1.238671429159601,
+        "explanation": "Solve dδ/dθ_i=0, with cos²θ_i=(n²−1)/3."
+      },
+      {
+        "label": "d · Blue minimum deviation",
+        "type": "numeric",
+        "answer": 137.92189261975645,
+        "unit": "degrees",
+        "tolerance": 1.241297033577808,
+        "explanation": "Repeat the stationary-angle calculation for n=1.333."
+      },
+      {
+        "label": "e · Rainbow width",
+        "type": "numeric",
+        "answer": 0.291733824245199,
+        "unit": "degrees",
+        "tolerance": 0.002625604418206791,
+        "explanation": "Width is the difference of minimum deviations."
+      }
+    ],
+    "reasoning": "An independent minimization of the ray-angle formula confirms the stationary result. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ],
+    "scope": "Checks cover the ray formulas, graph minima and angular width; a freehand graph is not automatically assessed.",
+    "reviewNotice": "The supplied question explicitly gives blue-water index1.333 and red index1.331. These checks use those values. The printed answer-key rainbow width instead corresponds approximately to a blue index1.343, which conflicts with the stated givens.",
+    "referenceAnswer": "Use the literal source indices n_red=1.331 and n_blue=1.333; primary angular width is about0.29173°."
+  },
+  {
+    "id": "physics-chapter-33-problems-78",
+    "parts": [
+      {
+        "label": "a · General deviation",
+        "type": "choice",
+        "answer": "δ=180°k+2θ_i−2(k+1)θ_r",
+        "options": [
+          "δ=180°k+2θ_i−2(k+1)θ_r",
+          "δ=180°k−2θ_i+2(k+1)θ_r",
+          "δ=2kθ_i−2θ_r"
+        ],
+        "explanation": "Each reflection contributes180°−2θ_r, and both refractions together2θ_i−2θ_r."
+      },
+      {
+        "label": "b · Secondary red minimum",
+        "type": "numeric",
+        "answer": 230.36511801705427,
+        "unit": "degrees",
+        "tolerance": 2.073286062153488,
+        "explanation": "Stationarity gives cos²θ_i=(n²−1)/(k(k+2)),k=2."
+      },
+      {
+        "label": "c · Secondary blue minimum",
+        "type": "numeric",
+        "answer": 230.8907577699007,
+        "unit": "degrees",
+        "tolerance": 2.0780168199291063,
+        "explanation": "Use n=1.333,k=2."
+      },
+      {
+        "label": "d · Secondary angular width",
+        "type": "numeric",
+        "answer": 0.5256397528464163,
+        "unit": "degrees",
+        "tolerance": 0.004730757775617747,
+        "explanation": "Subtract the two deviations."
+      },
+      {
+        "label": "e · Tertiary red minimum",
+        "type": "numeric",
+        "answer": 317.52511559138577,
+        "unit": "degrees",
+        "tolerance": 2.8577260403224716,
+        "explanation": "Use k=3."
+      },
+      {
+        "label": "f · Tertiary blue minimum",
+        "type": "numeric",
+        "answer": 318.2626527614721,
+        "unit": "degrees",
+        "tolerance": 2.864363874853249,
+        "explanation": "Use k=3,n=1.333."
+      },
+      {
+        "label": "g · Tertiary angular width",
+        "type": "numeric",
+        "answer": 0.7375371700863411,
+        "unit": "degrees",
+        "tolerance": 0.0066378345307770694,
+        "explanation": "Subtract the two tertiary deviations."
+      }
+    ],
+    "reasoning": "Retain the continuous total-turning angle of the source formula, even above360°, rather than silently folding it. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ],
+    "reviewNotice": "The supplied question explicitly gives blue-water index1.333 and red index1.331. These checks use those values. The printed answer-key rainbow width instead corresponds approximately to a blue index1.343, which conflicts with the stated givens.",
+    "referenceAnswer": "Secondary and tertiary widths follow the literal source indices1.331 and1.333."
+  },
+  {
+    "id": "physics-chapter-33-problems-79",
+    "parts": [
+      {
+        "label": "a · Emergent orientation",
+        "type": "choice",
+        "answer": "Parallel to the incident ray",
+        "options": [
+          "Parallel to the incident ray",
+          "Perpendicular to the incident ray",
+          "At twice the incident angle"
+        ],
+        "explanation": "Parallel faces conserve n sinθ and return the ray to its original external angle."
+      },
+      {
+        "label": "b · Small-angle displacement",
+        "type": "choice",
+        "answer": "x≈tθ(n−1)/n",
+        "options": [
+          "x≈tθ(n−1)/n",
+          "x≈tθn/(n−1)",
+          "x≈tθ/(n−1)"
+        ],
+        "explanation": "Exact x=t sin(θ−r)/cosr; use r≈θ/n for small angles."
+      }
+    ],
+    "reasoning": "Both angles must be expressed in radians in the approximation. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-80",
+    "parts": [
+      {
+        "label": "a · Magnetic magnitude",
+        "type": "numeric",
+        "answer": 3.3355570380253503e-07,
+        "unit": "T",
+        "tolerance": 3.002001334222815e-09,
+        "explanation": "B=E/c for the instantaneous plane-wave fields."
+      },
+      {
+        "label": "b · Magnetic direction",
+        "type": "choice",
+        "answer": "Negative x",
+        "options": [
+          "Negative x",
+          "Positive x",
+          "Positive y"
+        ],
+        "explanation": "+z×−x=−y."
+      }
+    ],
+    "reasoning": "The Poynting vector fixes the sign. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-81",
+    "parts": [
+      {
+        "label": "a · Polarization axis",
+        "type": "choice",
+        "answer": "z axis",
+        "options": [
+          "z axis",
+          "x axis",
+          "y axis"
+        ],
+        "explanation": "E is transverse to B_x and propagation−y."
+      },
+      {
+        "label": "b · Frequency",
+        "type": "numeric",
+        "answer": 749120035441518.5,
+        "unit": "Hz",
+        "tolerance": 6742080318973.666,
+        "explanation": "ω=ck and f=ω/(2π)."
+      },
+      {
+        "label": "c · Intensity",
+        "type": "numeric",
+        "answer": 1908.586077558009,
+        "unit": "W/m²",
+        "tolerance": 17.17727469802208,
+        "explanation": "I=cB_m²/(2μ₀)."
+      }
+    ],
+    "reasoning": "The supplied positive time term means−y propagation. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-82",
+    "parts": [
+      {
+        "label": "Transmitted fraction",
+        "type": "numeric",
+        "answer": 0.031249999999999986,
+        "unit": "dimensionless",
+        "tolerance": 0.00028124999999999987,
+        "explanation": "Middle axis is horizontal; adjacent axis angles are60° and60° modulo180°."
+      }
+    ],
+    "reasoning": "The first and third axes lie on opposite sides ofy. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-83",
+    "parts": [
+      {
+        "label": "a · At42.00°",
+        "type": "choice",
+        "answer": "White light refracts",
+        "options": [
+          "White light refracts",
+          "Only red-dominated light refracts",
+          "No light refracts"
+        ],
+        "explanation": "Both red and blue lie below their critical angles."
+      },
+      {
+        "label": "b · At43.10°",
+        "type": "choice",
+        "answer": "Red-dominated refracted light",
+        "options": [
+          "Red-dominated refracted light",
+          "Blue-dominated refracted light",
+          "No light refracts"
+        ],
+        "explanation": "Blue has the smaller critical angle and is internally reflected first."
+      },
+      {
+        "label": "c · At44.00°",
+        "type": "choice",
+        "answer": "No refracted light",
+        "options": [
+          "No refracted light",
+          "White light refracts",
+          "Blue-dominated light refracts"
+        ],
+        "explanation": "Both visible-end critical angles are exceeded."
+      }
+    ],
+    "reasoning": "Critical angles areasin(1/1.456) andasin(1/1.470). Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-84",
+    "parts": [
+      {
+        "label": "Transmitted fraction",
+        "type": "numeric",
+        "answer": 0.125,
+        "unit": "dimensionless",
+        "tolerance": 0.001125,
+        "explanation": "First-sheet half rule and two45° Malus factors."
+      }
+    ],
+    "reasoning": "An intermediate polarizer allows nonzero transmission between crossed outeraxes. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-85",
+    "parts": [
+      {
+        "label": "Acceleration",
+        "type": "numeric",
+        "answer": 1.5010006671114077e-09,
+        "unit": "m/s²",
+        "tolerance": 1.3509006004002669e-11,
+        "explanation": "ForceIπr²/c divided by mass4πρr³/3."
+      }
+    ],
+    "reasoning": "Original intensity is6.0mW/m² and radius2.0μm, not2mm. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-86",
+    "parts": [
+      {
+        "label": "Transmitted fraction",
+        "type": "numeric",
+        "answer": 0.21093750000000008,
+        "unit": "dimensionless",
+        "tolerance": 0.0018984375000000006,
+        "explanation": "Three adjacent30° projections follow the initial half."
+      }
+    ],
+    "reasoning": "Four sheets create three angle-difference factors. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-87",
+    "parts": [
+      {
+        "label": "a · Intensity at aircraft",
+        "type": "numeric",
+        "answer": 3.53677651315323e-06,
+        "unit": "W/m²",
+        "tolerance": 3.183098861837907e-08,
+        "explanation": "Transmit power spreads over hemisphere2πr²."
+      },
+      {
+        "label": "b · Reflected power",
+        "type": "numeric",
+        "answer": 7.780908328937106e-07,
+        "unit": "W",
+        "tolerance": 7.002817496043395e-09,
+        "explanation": "Multiply incident intensity by effective cross section."
+      },
+      {
+        "label": "c · Return intensity",
+        "type": "numeric",
+        "answer": 1.528851879376839e-17,
+        "unit": "W/m²",
+        "tolerance": 1.375966691439155e-19,
+        "explanation": "The reflected beam again spreads over hemisphere."
+      },
+      {
+        "label": "d · Return electric amplitude",
+        "type": "numeric",
+        "answer": 1.0732933779117926e-07,
+        "unit": "V/m",
+        "tolerance": 9.659640401206133e-10,
+        "explanation": "E_m=√(2μ₀cI)."
+      },
+      {
+        "label": "e · Return magnetic rms",
+        "type": "numeric",
+        "answer": 2.5314643953437104e-16,
+        "unit": "T",
+        "tolerance": 2.278317955809339e-18,
+        "explanation": "B_rms=E_m/(√2c)."
+      }
+    ],
+    "reasoning": "The two spherical spreading factors produce the radar inverse-fourth-power distance dependence. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-88",
+    "parts": [
+      {
+        "label": "a · Frequency",
+        "type": "numeric",
+        "answer": 190858607.7558009,
+        "unit": "Hz",
+        "tolerance": 1717727.469802208,
+        "explanation": "f=ck/(2π)."
+      },
+      {
+        "label": "b · Electric rms",
+        "type": "numeric",
+        "answer": 18.18879459537657,
+        "unit": "V/m",
+        "tolerance": 0.16369915135838914,
+        "explanation": "E_rms=cB_m/√2."
+      },
+      {
+        "label": "c · Intensity",
+        "type": "numeric",
+        "answer": 0.8781452257496338,
+        "unit": "W/m²",
+        "tolerance": 0.007903307031746704,
+        "explanation": "Use the peak magnetic field."
+      }
+    ],
+    "reasoning": "The source85.8nT is an amplitude. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-89",
+    "parts": [
+      {
+        "label": "a · Upper Brewster angle",
+        "type": "numeric",
+        "answer": 55.77363818777618,
+        "unit": "degrees",
+        "tolerance": 0.5019627436899856,
+        "explanation": "Blue fused-quartz index is1.470."
+      },
+      {
+        "label": "b · Lower Brewster angle",
+        "type": "numeric",
+        "answer": 55.518207021828374,
+        "unit": "degrees",
+        "tolerance": 0.49966386319645534,
+        "explanation": "Red fused-quartz index is1.456."
+      }
+    ],
+    "reasoning": "Use the visible-end quartz indices given inP83; source graph corroborates them. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      26,
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-90",
+    "parts": [
+      {
+        "label": "a · Ray a exit in air",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "degrees",
+        "tolerance": 0,
+        "explanation": "Normal incidence remains normal."
+      },
+      {
+        "label": "b · Ray b exit in air",
+        "type": "numeric",
+        "answer": 20.0,
+        "unit": "degrees",
+        "tolerance": 0.18,
+        "explanation": "Equal initial and final indices restore original angle."
+      },
+      {
+        "label": "c · Ray a exit in glass",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "degrees",
+        "tolerance": 0,
+        "explanation": "All interfaces are parallel."
+      },
+      {
+        "label": "d · Ray b exit in glass",
+        "type": "numeric",
+        "answer": 20.0,
+        "unit": "degrees",
+        "tolerance": 0.18,
+        "explanation": "Replacing both exterior media by the same glass leaves the original external angle unchanged."
+      }
+    ],
+    "reasoning": "The intervening thicknesses and indices cancel in Snell-chain equality. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-91",
+    "parts": [
+      {
+        "label": "a · Beam intensity at40m",
+        "type": "numeric",
+        "answer": 82.60637144911715,
+        "unit": "W/m²",
+        "tolerance": 0.7434573430420542,
+        "explanation": "Beam radius≈rθ with radius determined by half of the full divergenceθ=.17mrad."
+      },
+      {
+        "label": "b · Equivalent isotropic power",
+        "type": "numeric",
+        "answer": 1660899.645979239,
+        "unit": "W",
+        "tolerance": 14948.096813813148,
+        "explanation": "P_iso=4πr²I."
+      }
+    ],
+    "reasoning": "The source diagram drawsθ across the full cone. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Uniform beam across its circular cross section and negligible initial radius; divergenceθ=.17mrad is the full cone angle."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-92",
+    "parts": [
+      {
+        "label": "Fitted water index",
+        "type": "numeric",
+        "answer": 1.3132975028956326,
+        "unit": "dimensionless",
+        "tolerance": 0.055,
+        "explanation": "Least-squares fit sinθ₁=n sinθ₂ constrained through the origin.",
+        "acceptedValues": [
+          1.304006909040338
+        ]
+      }
+    ],
+    "reasoning": "Fit the transformed sine data, not the raw angles. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ],
+    "scope": "Historical measurements are imperfect. The through-origin sine-law fit and the mean of individual index ratios are both accepted."
+  },
+  {
+    "id": "physics-chapter-33-problems-93",
+    "parts": [
+      {
+        "label": "Polarizer-axis angle",
+        "type": "numeric",
+        "answer": 35.264389682754654,
+        "unit": "degrees",
+        "tolerance": 0.31737950714479185,
+        "explanation": "(1/2)cos²θ=1/3."
+      }
+    ],
+    "reasoning": "The answer is the acute angle between axes. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-94",
+    "parts": [
+      {
+        "label": "a · Electric field",
+        "type": "numeric",
+        "answer": 0.08333333333333333,
+        "unit": "V/m",
+        "tolerance": 0.0007499999999999999,
+        "explanation": "E=IR/length."
+      },
+      {
+        "label": "b · Magnetic field",
+        "type": "numeric",
+        "answer": 0.004,
+        "unit": "T",
+        "tolerance": 3.6e-05,
+        "explanation": "B=μ₀I/(2πa)."
+      },
+      {
+        "label": "c · Poynting magnitude",
+        "type": "numeric",
+        "answer": 265.25823848649225,
+        "unit": "W/m²",
+        "tolerance": 2.38732414637843,
+        "explanation": "S=EB/μ₀."
+      },
+      {
+        "label": "d · Energy-flow direction",
+        "type": "choice",
+        "answer": "Radially inward, negative y atP",
+        "options": [
+          "Radially inward, negative y atP",
+          "Radially outward, positive y atP",
+          "Along positive x"
+        ],
+        "explanation": "At the top of the wire E is+x andB is+z, soE×B=−y."
+      }
+    ],
+    "reasoning": "Energy enters the resistive wire through its sides. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-95",
+    "parts": [
+      {
+        "label": "a · Poynting direction",
+        "type": "choice",
+        "answer": "Normal inward at every surface point",
+        "options": [
+          "Normal inward at every surface point",
+          "Normal outward at every surface point",
+          "Parallel to the current"
+        ],
+        "explanation": "AxialE crossed with circumferential B points radially inward."
+      },
+      {
+        "label": "b · Integrated inward power",
+        "type": "choice",
+        "answer": "P=i²ρl/(πa²)=i²R",
+        "options": [
+          "P=i²ρl/(πa²)=i²R",
+          "P=iρl/(πa²)",
+          "P=i²R²"
+        ],
+        "explanation": "S=ρi²/(2π²a³); multiply by lateral area2πal."
+      }
+    ],
+    "reasoning": "The inward-flux sign convention gives positive heating power; outward-normal flux would be negative. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-96",
+    "parts": [
+      {
+        "label": "Heating rate",
+        "type": "choice",
+        "answer": "dT/dt=A E_m²/(2μ₀c m c_s)",
+        "options": [
+          "dT/dt=A E_m²/(2μ₀c m c_s)",
+          "dT/dt=A E_m²/(μ₀c m c_s)",
+          "dT/dt=2μ₀c m c_s/(A E_m²)"
+        ],
+        "explanation": "Absorbed powerIA equalsm c_s dT/dt."
+      }
+    ],
+    "reasoning": "Use the time-average intensity rather than peak Poynting flux. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-97",
+    "parts": [
+      {
+        "label": "Angle formula",
+        "type": "choice",
+        "answer": "θ=acos(√(p/50)) for0≤p≤50",
+        "options": [
+          "θ=acos(√(p/50)) for0≤p≤50",
+          "θ=acos(√(p/100))",
+          "θ=acos(p/50)"
+        ],
+        "explanation": "For unpolarized input Iout/Iin=(1/2)cos²θ=p/100."
+      }
+    ],
+    "reasoning": "No ideal two-polarizer arrangement transmits more than50% of initially unpolarized light. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-98",
+    "parts": [
+      {
+        "label": "Angular pressure",
+        "type": "choice",
+        "answer": "p(θ)=p₀cos²θ",
+        "options": [
+          "p(θ)=p₀cos²θ",
+          "p(θ)=p₀cosθ",
+          "p(θ)=p₀/cosθ"
+        ],
+        "explanation": "Intercepted power has onecosθ and reflected normal momentum another cosθ."
+      }
+    ],
+    "reasoning": "For ideal reflection p₀=2I/c. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-99",
+    "parts": [
+      {
+        "label": "Force per unit length",
+        "type": "choice",
+        "answer": "F/L=8IR/(3c)",
+        "options": [
+          "F/L=8IR/(3c)",
+          "F/L=4IR/c",
+          "F/L=2IR/c"
+        ],
+        "explanation": "Integrate local2Icos²θ/c times radial projection cosθ overR dθ; integral cos³θ=4/3."
+      }
+    ],
+    "reasoning": "All transverse force components cancel by symmetry. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-100",
+    "parts": [
+      {
+        "label": "Transmitted fraction",
+        "type": "numeric",
+        "answer": 0.024166200096697576,
+        "unit": "dimensionless",
+        "tolerance": 0.00021749580087027817,
+        "explanation": "Firstaxis is20°abovex=70°fromy; second40°leftofy; third horizontal."
+      }
+    ],
+    "reasoning": "Convert the differently drawn reference angles to one axis. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-101",
+    "parts": [
+      {
+        "label": "Transmitted fraction",
+        "type": "numeric",
+        "answer": 0.0343226891235579,
+        "unit": "dimensionless",
+        "tolerance": 0.0003089042021120211,
+        "explanation": "Axes relative toy are−20°,−60°,+50°; θ₃ is measured from−x, so differences40°and110°."
+      }
+    ],
+    "reasoning": "Axis orientations are equivalent modulo180°, but the squared cosines still need correct differences. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-102",
+    "parts": [
+      {
+        "label": "Radiation force",
+        "type": "numeric",
+        "answer": 9.20175343648939e-06,
+        "unit": "N",
+        "tolerance": 8.28157809284045e-08,
+        "explanation": "Use solar luminosity, square area4m² and perfect reflection."
+      }
+    ],
+    "reasoning": "The surface is normal to sunlight. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-103",
+    "parts": [
+      {
+        "label": "Magnetic amplitude",
+        "type": "numeric",
+        "answer": 9.434380002488961e-10,
+        "unit": "T",
+        "tolerance": 8.490942002240065e-12,
+        "explanation": "Convert E_rms to E_m then divide byc."
+      }
+    ],
+    "reasoning": "The amplitude is√2 times therms field. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-104",
+    "parts": [
+      {
+        "label": "a · Ground-shadow speed",
+        "type": "numeric",
+        "answer": 15.0,
+        "unit": "m/s",
+        "tolerance": 0.13499999999999998,
+        "explanation": "At fixed altitude the ground shadow is a constant horizontal offset."
+      },
+      {
+        "label": "b · Wall-shadow speed",
+        "type": "numeric",
+        "answer": 8.660254037844386,
+        "unit": "m/s",
+        "tolerance": 0.07794228634059946,
+        "explanation": "As horizontal gap closes, wall height changes atv tanθ."
+      },
+      {
+        "label": "c · Later Sun position",
+        "type": "choice",
+        "answer": "Higher in the sky",
+        "options": [
+          "Higher in the sky",
+          "Lower in the sky",
+          "Same elevation"
+        ],
+        "explanation": "Wall-shadow speed rises withtanθ."
+      },
+      {
+        "label": "d · Later solar angle",
+        "type": "numeric",
+        "answer": 71.56505117707799,
+        "unit": "degrees",
+        "tolerance": 0.6440854605937019,
+        "explanation": "tanθ=v_shadow/v_bird=3."
+      }
+    ],
+    "reasoning": "The wall height determines when the shadow transfers, not these speeds. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-105",
+    "parts": [
+      {
+        "label": "a · Propagation",
+        "type": "choice",
+        "answer": "Negative y",
+        "options": [
+          "Negative y",
+          "Positive y",
+          "Positive x"
+        ],
+        "explanation": "ky+ωt travels in−y."
+      },
+      {
+        "label": "b · Polarization axis",
+        "type": "choice",
+        "answer": "z axis",
+        "options": [
+          "z axis",
+          "x axis",
+          "y axis"
+        ],
+        "explanation": "Electric field must be transverse toB_x andy."
+      },
+      {
+        "label": "c · Intensity",
+        "type": "numeric",
+        "answer": 1908.586077558009,
+        "unit": "W/m²",
+        "tolerance": 17.17727469802208,
+        "explanation": "Original sourceB amplitude4.00μT."
+      },
+      {
+        "label": "d · Electric amplitude",
+        "type": "numeric",
+        "answer": 1199.2,
+        "unit": "V/m",
+        "tolerance": 10.7928,
+        "explanation": "E_m=cB_m."
+      },
+      {
+        "label": "d · Wave number",
+        "type": "numeric",
+        "answer": 6671114.076050701,
+        "unit": "rad/m",
+        "tolerance": 60040.0266844563,
+        "explanation": "k=ω/c."
+      },
+      {
+        "label": "d · Signed electric expression",
+        "type": "choice",
+        "answer": "E_z=−cB_m sin(ky+ωt)",
+        "options": [
+          "E_z=−cB_m sin(ky+ωt)",
+          "E_z=cB_m sin(ky+ωt)",
+          "E_x=cB_m sin(ky+ωt)"
+        ],
+        "explanation": "−z×+x=−y."
+      },
+      {
+        "label": "e · Wavelength",
+        "type": "numeric",
+        "answer": 9.418494775462199e-07,
+        "unit": "m",
+        "tolerance": 8.47664529791598e-09,
+        "explanation": "λ=2π/k."
+      },
+      {
+        "label": "f · Spectrum",
+        "type": "choice",
+        "answer": "Infrared",
+        "options": [
+          "Infrared",
+          "Visible",
+          "Ultraviolet"
+        ],
+        "explanation": "Wavelength is about942nm, beyond red visible."
+      }
+    ],
+    "reasoning": "The text-search OCR incorrectly turns the source microtesla unit into millitesla. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-106",
+    "parts": [
+      {
+        "label": "a · Refraction atB",
+        "type": "numeric",
+        "answer": 35.14443594490664,
+        "unit": "degrees",
+        "tolerance": 0.31629992350415975,
+        "explanation": "At A critical, internal angle at B=90°−θc."
+      },
+      {
+        "label": "b · Initial angle",
+        "type": "numeric",
+        "answer": 49.88083310159487,
+        "unit": "degrees",
+        "tolerance": 0.44892749791435377,
+        "explanation": "At A critical the internal angle equalsθc, so n₁sinθ=n₃."
+      },
+      {
+        "label": "c · Refraction atA when B critical",
+        "type": "numeric",
+        "answer": 35.14443594490665,
+        "unit": "degrees",
+        "tolerance": 0.3162999235041598,
+        "explanation": "The A incidence complements the critical angle atB and is below critical."
+      },
+      {
+        "label": "d · Initial angle for B critical",
+        "type": "numeric",
+        "answer": 26.116322714114506,
+        "unit": "degrees",
+        "tolerance": 0.23504690442703055,
+        "explanation": "The initial internal angle complements B incidenceθc."
+      },
+      {
+        "label": "e · Refraction atB for A Brewster",
+        "type": "numeric",
+        "answer": 60.68591503539184,
+        "unit": "degrees",
+        "tolerance": 0.5461732353185265,
+        "explanation": "A Brewster angle atan(n₃/n₂); B incidence is its complement."
+      },
+      {
+        "label": "f · Initial angle for A Brewster",
+        "type": "numeric",
+        "answer": 35.30156291915816,
+        "unit": "degrees",
+        "tolerance": 0.3177140662724234,
+        "explanation": "Initial internal angle complements A Brewster incidence."
+      }
+    ],
+    "reasoning": "The two faces A and B are perpendicular; initial horizontal interface conserves its own tangential component. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-107",
+    "parts": [
+      {
+        "label": "a · Glass index",
+        "type": "numeric",
+        "answer": 1.6003345290410504,
+        "unit": "dimensionless",
+        "tolerance": 0.014403010761369453,
+        "explanation": "Brewster reflected and refracted rays are perpendicular, θB=58°."
+      },
+      {
+        "label": "b · Brewster angle",
+        "type": "numeric",
+        "answer": 58.0,
+        "unit": "degrees",
+        "tolerance": 0.5219999999999999,
+        "explanation": "θB+θr=90°."
+      }
+    ],
+    "reasoning": "The32°given is refraction angle, not incident angle. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-108",
+    "parts": [
+      {
+        "label": "Electric wave equation",
+        "type": "choice",
+        "answer": "∂²E/∂t²=c²∂²E/∂x²",
+        "options": [
+          "∂²E/∂t²=c²∂²E/∂x²",
+          "∂²E/∂t²=−c²∂²E/∂x²",
+          "∂E/∂t=c²∂E/∂x"
+        ],
+        "explanation": "Differentiate Faraday andAmpere-Maxwell equations once and eliminate the other field."
+      },
+      {
+        "label": "Magnetic wave equation",
+        "type": "choice",
+        "answer": "∂²B/∂t²=c²∂²B/∂x²",
+        "options": [
+          "∂²B/∂t²=c²∂²B/∂x²",
+          "∂²B/∂t²=−c²∂²B/∂x²",
+          "∂B/∂t=c²∂B/∂x"
+        ],
+        "explanation": "Use c²=1/(μ₀ε₀)."
+      }
+    ],
+    "reasoning": "The two Maxwell curl relations produce second-order traveling-wave equations. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-109",
+    "parts": [
+      {
+        "label": "a · Sinusoidal substitution",
+        "type": "choice",
+        "answer": "Both second derivatives equal−ω² times the field whenω=ck",
+        "options": [
+          "Both second derivatives equal−ω² times the field whenω=ck",
+          "The time derivative has the opposite sign to the spatial derivative",
+          "Only the electric field satisfies the equation"
+        ],
+        "explanation": "Each second derivative of sine contributes minus its argument coefficient squared."
+      },
+      {
+        "label": "b · Arbitrary profile",
+        "type": "choice",
+        "answer": "Any twice-differentiable f(kx±ωt) works whenω=ck",
+        "options": [
+          "Any twice-differentiable f(kx±ωt) works whenω=ck",
+          "Only sinusoidal profiles work",
+          "Any f works without relation betweenωandk"
+        ],
+        "explanation": "Chain rule gives∂ttf=ω²f″ and∂xxf=k²f″."
+      }
+    ],
+    "reasoning": "Twice differentiability is required for the classical wave equation. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-problems-110",
+    "parts": [
+      {
+        "label": "Radiation force",
+        "type": "numeric",
+        "answer": 1.667778519012675e-13,
+        "unit": "N",
+        "tolerance": 1.5010006671114075e-15,
+        "explanation": "Absorbed force=I projected area/c."
+      }
+    ],
+    "reasoning": "Use sphere projected disk, not its total surface area. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-1",
+    "parts": [
+      {
+        "label": "a · Propagation",
+        "type": "choice",
+        "answer": "Positive z",
+        "options": [
+          "Positive z",
+          "Negative z",
+          "Positive y"
+        ],
+        "explanation": "kz−ωt translates in+z."
+      },
+      {
+        "label": "b · Electric axis",
+        "type": "choice",
+        "answer": "x axis",
+        "options": [
+          "x axis",
+          "y axis",
+          "z axis"
+        ],
+        "explanation": "E×B mustpoint+z whileB oscillates along y."
+      }
+    ],
+    "reasoning": "Use the Poynting vector orientation. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-2",
+    "parts": [
+      {
+        "label": "Intensity curve",
+        "type": "choice",
+        "answer": "Curve c",
+        "options": [
+          "Curve c",
+          "Curve a",
+          "Curve d"
+        ],
+        "explanation": "Fixed crossed outer polarizers give I proportional cos²θsin²θ, zero both ends and maximum45°."
+      }
+    ],
+    "reasoning": "The middle polarizer allows transmission between crossed outer ones. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      18,
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-3",
+    "parts": [
+      {
+        "label": "a · Unpolarized incident light",
+        "type": "choice",
+        "answer": "Remains the same",
+        "options": [
+          "Remains the same",
+          "Increases",
+          "Decreases"
+        ],
+        "explanation": "Anyidealaxispasseshalfunpolarizedintensity."
+      },
+      {
+        "label": "b · Initially x-polarized",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Remains the same"
+        ],
+        "explanation": "Initially blocked by vertical sheet;rotation opens nonzero projection."
+      },
+      {
+        "label": "c · Initially y-polarized",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Increases",
+          "Remains the same"
+        ],
+        "explanation": "Projection falls from one tocos²40°."
+      }
+    ],
+    "reasoning": "UseMaluslawonlyaftertheincidentpolarizationisspecified. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-4",
+    "parts": [
+      {
+        "label": "Propagation direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "To the left"
+        ],
+        "explanation": "DownwardE crossed with leftward B points−z."
+      }
+    ],
+    "reasoning": "E×B fixes direction. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-5",
+    "parts": [
+      {
+        "label": "a · Canonical A",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "dimensionless",
+        "tolerance": 0.009,
+        "explanation": "Initial-to-first andsecond-to-third factors both cos²30°;middle aligned with first."
+      },
+      {
+        "label": "a · Canonical n",
+        "type": "numeric",
+        "answer": 4.0,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "The product iscos⁴30°."
+      },
+      {
+        "label": "a · Canonical θ",
+        "type": "numeric",
+        "answer": 30.0,
+        "unit": "degrees",
+        "tolerance": 0.26999999999999996,
+        "explanation": "Use acute angles between polarization axes."
+      },
+      {
+        "label": "b · Canonical A",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "dimensionless",
+        "tolerance": 0.009,
+        "explanation": "First sheet now aligned with initial x;remaining two factors cos²30°."
+      },
+      {
+        "label": "b · Canonical n",
+        "type": "numeric",
+        "answer": 4.0,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Againcos⁴30°."
+      },
+      {
+        "label": "b · Canonical θ",
+        "type": "numeric",
+        "answer": 30.0,
+        "unit": "degrees",
+        "tolerance": 0.26999999999999996,
+        "explanation": "Both remaining acute axis differences are30°."
+      }
+    ],
+    "reasoning": "The equivalent overall transmission is9/16in either case. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      18,
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ],
+    "scope": "A,n,θ are not a unique mathematical parameterization; the fields use the canonical form1×cos⁴30°. Equivalent regroupings give the same9/16 transmission."
+  },
+  {
+    "id": "physics-chapter-33-questions-6",
+    "parts": [
+      {
+        "label": "First blocking orientation",
+        "type": "numeric",
+        "answer": 20.0,
+        "unit": "degrees",
+        "tolerance": 0.18,
+        "explanation": "Sheet3crosses sheet4when its axis110°−90°=20°."
+      },
+      {
+        "label": "Second blocking orientation",
+        "type": "numeric",
+        "answer": 90.0,
+        "unit": "degrees",
+        "tolerance": 0.8099999999999999,
+        "explanation": "Sheet3crosses sheet2aty90°."
+      }
+    ],
+    "reasoning": "Transmissionvanishesifeitheradjacentprojectioniszero. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-7",
+    "parts": [
+      {
+        "label": "Index ranking",
+        "type": "choice",
+        "answer": "a > b > c",
+        "options": [
+          "a > b > c",
+          "b > a > c",
+          "c > b > a"
+        ],
+        "explanation": "At vertical interface a→b bends away from normal; b→c also away at the horizontal interface."
+      }
+    ],
+    "reasoning": "Compare angles from each local normal. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-8",
+    "parts": [
+      {
+        "label": "b · Reflection angle",
+        "type": "numeric",
+        "answer": 30.0,
+        "unit": "degrees",
+        "tolerance": 0.26999999999999996,
+        "explanation": "Vertical wall preserves angle from horizontal normal."
+      },
+      {
+        "label": "c · Reflection angle",
+        "type": "numeric",
+        "answer": 60.0,
+        "unit": "degrees",
+        "tolerance": 0.5399999999999999,
+        "explanation": "A perpendicular wall interchangesθwith90°−θ."
+      },
+      {
+        "label": "d · Reflection angle",
+        "type": "numeric",
+        "answer": 60.0,
+        "unit": "degrees",
+        "tolerance": 0.5399999999999999,
+        "explanation": "Parallel horizontal walls repeat the same angle."
+      },
+      {
+        "label": "e · Reflection angle",
+        "type": "numeric",
+        "answer": 30.0,
+        "unit": "degrees",
+        "tolerance": 0.26999999999999996,
+        "explanation": "At vertical wall the complement returns."
+      },
+      {
+        "label": "f · Reflection angle",
+        "type": "numeric",
+        "answer": 60.0,
+        "unit": "degrees",
+        "tolerance": 0.5399999999999999,
+        "explanation": "At upper horizontal wall use complement."
+      }
+    ],
+    "reasoning": "Law of reflection preserves incidence angle at each wall. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-9",
+    "parts": [
+      {
+        "label": "Layer that can trap all rays",
+        "type": "choice",
+        "answer": "B",
+        "options": [
+          "B",
+          "A",
+          "C and D"
+        ],
+        "explanation": "OnlyBhasanindexgreaterthanbothadjacentlayers."
+      }
+    ],
+    "reasoning": "Bothupperandlowerinterfacesmustallowtotalinternalreflection. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-10",
+    "parts": [
+      {
+        "label": "Index ranking",
+        "type": "choice",
+        "answer": "n₃ > n₂ > n₁",
+        "options": [
+          "n₃ > n₂ > n₁",
+          "n₁ > n₂ > n₃",
+          "All equal"
+        ],
+        "explanation": "Higher index means smaller critical angle and larger angular region of total reflection."
+      }
+    ],
+    "reasoning": "Comparetheunshadedescapeconesatthetopnormal. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-11",
+    "parts": [
+      {
+        "label": "Physically possible refraction",
+        "type": "choice",
+        "answer": "Only c",
+        "options": [
+          "Only c",
+          "Only a and b",
+          "All three"
+        ],
+        "explanation": "In a the red ray bends the wrong way into the larger index; in b the rays cross the interface normal and bend toward it despite entering the smaller index. Only c has both rays on the correct side, bending away, with blue closer to the normal than red."
+      }
+    ],
+    "reasoning": "Compare each ray with the perpendicular to the black interface, not with the interface itself. The blue-versus-red ordering in c is consistent with the chapter dispersion convention. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  },
+  {
+    "id": "physics-chapter-33-questions-12",
+    "parts": [
+      {
+        "label": "Index ranking",
+        "type": "choice",
+        "answer": "d > c > a > b",
+        "options": [
+          "d > c > a > b",
+          "b > a > c > d",
+          "c > d > b > a"
+        ],
+        "explanation": "Parallel interfaces conserve n sinθ; smalleranglefromhorizontalnormalmeanslargerindex."
+      }
+    ],
+    "reasoning": "The ray is steepest in b and shallowest in d. Verification: independently evaluate the stated relationship with SI units; check limiting cases and original ray/field directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Vacuum speed of light2.998×10⁸m/s; ideal polarizers and geometrical optics. Water index1.33 unless specified."
+    ]
+  }
+]
