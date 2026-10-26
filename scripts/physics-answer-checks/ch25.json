@@ -1,0 +1,3212 @@
+[
+  {
+    "id": "physics-chapter-25-problems-1",
+    "parts": [
+      {
+        "label": "a · Capacitance",
+        "type": "numeric",
+        "answer": 3.5e-12,
+        "unit": "F",
+        "tolerance": 2.8e-14,
+        "explanation": "C=q/V."
+      },
+      {
+        "label": "b · Capacitance after charge change",
+        "type": "numeric",
+        "answer": 3.5e-12,
+        "unit": "F",
+        "tolerance": 2.8e-14,
+        "explanation": "Capacitance depends on geometry, not charge."
+      },
+      {
+        "label": "c · New potential difference",
+        "type": "numeric",
+        "answer": 57.142857142857146,
+        "unit": "V",
+        "tolerance": 0.4571428571428572,
+        "explanation": "V=q/C."
+      }
+    ],
+    "reasoning": "The two given charge magnitudes refer to opposite plates, not twice the capacitor charge. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-2",
+    "parts": [
+      {
+        "label": "Charge through switch",
+        "type": "numeric",
+        "answer": 0.003,
+        "unit": "C",
+        "tolerance": 2.4e-05,
+        "explanation": "q=CV after initially uncharged plates are connected."
+      }
+    ],
+    "reasoning": "The switch supplies one plate charge, not the sum of absolute charges on both plates. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-3",
+    "parts": [
+      {
+        "label": "a · Capacitance",
+        "type": "numeric",
+        "answer": 1.4380616205709946e-10,
+        "unit": "F",
+        "tolerance": 1.1504492964567957e-12,
+        "explanation": "C=ε₀πr²/d."
+      },
+      {
+        "label": "b · Charge magnitude",
+        "type": "numeric",
+        "answer": 1.7256739446851937e-08,
+        "unit": "C",
+        "tolerance": 1.380539155748155e-10,
+        "explanation": "q=CV."
+      }
+    ],
+    "reasoning": "Convert radius8.20cm and spacing1.30mm to meters. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-4",
+    "parts": [
+      {
+        "label": "a · Spherical capacitance",
+        "type": "numeric",
+        "answer": 8.452140875217971e-11,
+        "unit": "F",
+        "tolerance": 6.761712700174378e-13,
+        "explanation": "C=4πε₀ab/(b−a)."
+      },
+      {
+        "label": "b · Equivalent plate area",
+        "type": "numeric",
+        "answer": 0.019100883333825924,
+        "unit": "m²",
+        "tolerance": 0.0001528070666706074,
+        "explanation": "A=Cd/ε₀."
+      }
+    ],
+    "reasoning": "Equal plate separation is2.00mm; equivalent area is4πab. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-5",
+    "parts": [
+      {
+        "label": "Merged-drop capacitance",
+        "type": "numeric",
+        "answer": 2.802376369832634e-13,
+        "unit": "F",
+        "tolerance": 2.2419010958661075e-15,
+        "explanation": "Volume conservation gives Rf=2^(1/3)R; C=4πε₀Rf."
+      }
+    ],
+    "reasoning": "The drop is treated as an isolated conducting sphere. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-6",
+    "parts": [
+      {
+        "label": "a · Plate separation",
+        "type": "numeric",
+        "answer": 8.85e-12,
+        "unit": "m",
+        "tolerance": 7.080000000000001e-14,
+        "explanation": "d=ε₀A/C."
+      },
+      {
+        "label": "b · Physically constructible?",
+        "type": "choice",
+        "answer": "No; the required spacing is far below an atomic diameter",
+        "options": [
+          "No; the required spacing is far below an atomic diameter",
+          "Yes; it is a millimetre-scale gap",
+          "Yes; any plate spacing is feasible"
+        ],
+        "explanation": "The formal separation is8.85pm, outside the macroscopic parallel-plate model."
+      }
+    ],
+    "reasoning": "The calculation exposes the breakdown of the continuum construction assumption. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-7",
+    "parts": [
+      {
+        "label": "Capacitance per plate area",
+        "type": "numeric",
+        "answer": 0.000680049,
+        "unit": "F/m²",
+        "tolerance": 5.440391999999999e-06,
+        "explanation": "q=neAd and C=q/V; graph gives d/V=1pm/20V."
+      }
+    ],
+    "reasoning": "The graph slope counts only electrons needed to supply one plate charge. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-8",
+    "parts": [
+      {
+        "label": "Number of capacitors",
+        "type": "numeric",
+        "answer": 9091,
+        "unit": "capacitors",
+        "tolerance": 0,
+        "explanation": "n=ceil[q/(CV)];9091 units are needed to store at least1C."
+      }
+    ],
+    "reasoning": "The ideal ratio is9090.91, so9091 identical units suffice. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-9",
+    "parts": [
+      {
+        "label": "Charge through meter",
+        "type": "numeric",
+        "answer": 0.315,
+        "unit": "C",
+        "tolerance": 0.00252,
+        "explanation": "The diagram has three capacitors in parallel; qtotal=3CV."
+      }
+    ],
+    "reasoning": "The visual node connectivity, not the horizontal placement, determines parallel connection. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-10",
+    "parts": [
+      {
+        "label": "Equivalent capacitance",
+        "type": "numeric",
+        "answer": 7.333333333333332e-06,
+        "unit": "F",
+        "tolerance": 5.866666666666666e-08,
+        "explanation": "C₁ and C₂ are in series; their branch is parallel with C₃."
+      }
+    ],
+    "reasoning": "Both branches connect the two battery nodes. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-11",
+    "parts": [
+      {
+        "label": "Equivalent capacitance",
+        "type": "numeric",
+        "answer": 3.157894736842105e-06,
+        "unit": "F",
+        "tolerance": 2.5263157894736843e-08,
+        "explanation": "C₁ and C₂ are parallel; their combination is in series with C₃."
+      }
+    ],
+    "reasoning": "The interior wire connects the lower plates of1 and2 to the same node. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-12",
+    "parts": [
+      {
+        "label": "a · Extra battery charge",
+        "type": "numeric",
+        "answer": 6e-05,
+        "unit": "C",
+        "tolerance": 4.800000000000001e-07,
+        "explanation": "One capacitance doubles from6 to12μF; ΔQ=6μF×10V."
+      },
+      {
+        "label": "b · Increase of summed capacitor charges",
+        "type": "numeric",
+        "answer": 6e-05,
+        "unit": "C",
+        "tolerance": 4.800000000000001e-07,
+        "explanation": "For parallel capacitors, battery charge equals the sum of positive-plate charges."
+      }
+    ],
+    "reasoning": "Fixed battery voltage remains10V during squeezing. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-13",
+    "parts": [
+      {
+        "label": "Second capacitance",
+        "type": "numeric",
+        "answer": 4.2857142857142864e-11,
+        "unit": "F",
+        "tolerance": 3.4285714285714293e-13,
+        "explanation": "C₁Vi=(C₁+C₂)Vf."
+      }
+    ],
+    "reasoning": "The disconnected capacitor pair conserves total charge on each connected node. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-14",
+    "parts": [
+      {
+        "label": "a · Charge on1",
+        "type": "numeric",
+        "answer": 0.0001,
+        "unit": "C",
+        "tolerance": 8.000000000000001e-07,
+        "explanation": "C₁ connects directly across the battery."
+      },
+      {
+        "label": "b · Charge on2",
+        "type": "numeric",
+        "answer": 2e-05,
+        "unit": "C",
+        "tolerance": 1.6e-07,
+        "explanation": "The other branch has (C₂ in series with C) parallel C, followed by C; intermediate parallel voltage4V, so series-pair charge20μC."
+      }
+    ],
+    "reasoning": "The right network equivalent is6μF; its10V charge60μC splits into20μC and40μC. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-15",
+    "parts": [
+      {
+        "label": "a · Equivalent capacitance",
+        "type": "numeric",
+        "answer": 3e-06,
+        "unit": "F",
+        "tolerance": 2.4e-08,
+        "explanation": "Upper and lower groups each6μF are in series."
+      },
+      {
+        "label": "b · Equivalent charge",
+        "type": "numeric",
+        "answer": 6e-05,
+        "unit": "C",
+        "tolerance": 4.800000000000001e-07,
+        "explanation": "q=Ceq×20V."
+      },
+      {
+        "label": "c · V₁",
+        "type": "numeric",
+        "answer": 10,
+        "unit": "V",
+        "tolerance": 0.08,
+        "explanation": "Equal group capacitances split voltage equally."
+      },
+      {
+        "label": "d · q₁",
+        "type": "numeric",
+        "answer": 3e-05,
+        "unit": "C",
+        "tolerance": 2.4000000000000003e-07,
+        "explanation": "q₁=3μF×10V."
+      },
+      {
+        "label": "e · V₂",
+        "type": "numeric",
+        "answer": 10,
+        "unit": "V",
+        "tolerance": 0.08,
+        "explanation": "C₂ spans the upper group."
+      },
+      {
+        "label": "f · q₂",
+        "type": "numeric",
+        "answer": 2e-05,
+        "unit": "C",
+        "tolerance": 1.6e-07,
+        "explanation": "q₂=2μF×10V."
+      },
+      {
+        "label": "g · V₃",
+        "type": "numeric",
+        "answer": 5,
+        "unit": "V",
+        "tolerance": 0.04,
+        "explanation": "C₃ and C₅ are equal4μF capacitors in series across10V."
+      },
+      {
+        "label": "h · q₃",
+        "type": "numeric",
+        "answer": 2e-05,
+        "unit": "C",
+        "tolerance": 1.6e-07,
+        "explanation": "q₃=4μF×5V."
+      }
+    ],
+    "reasoning": "Upper group: C₄+C₂+series(C₅,C₃)=2+2+2μF; lower group C₆+C₁=6μF. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-16",
+    "parts": [
+      {
+        "label": "Charge on2",
+        "type": "numeric",
+        "answer": 1.2e-05,
+        "unit": "C",
+        "tolerance": 9.6e-08,
+        "explanation": "Graph slopes give C₁=6μF,C₂=4μF,C₃=2μF. C₁ equals C₂+C₃, so parallel group has3V."
+      }
+    ],
+    "reasoning": "At Vs=2V, source plot charges are12,8,4μC; use q₂=C₂×3V. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-17",
+    "parts": [
+      {
+        "label": "a · Charge increase on1",
+        "type": "numeric",
+        "answer": 0.0007894736842105264,
+        "unit": "C",
+        "tolerance": 6.315789473684211e-06,
+        "explanation": "Before breakdown V₁=100C₃/(C₁+C₂+C₃); afterwards V₁=100V."
+      },
+      {
+        "label": "b · Voltage increase on1",
+        "type": "numeric",
+        "answer": 78.94736842105263,
+        "unit": "V",
+        "tolerance": 0.631578947368421,
+        "explanation": "Breakdown shorts C₃, connecting the parallel group directly to the battery."
+      }
+    ],
+    "reasoning": "Use original C₃=4μF and C₁+C₂=15μF. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-18",
+    "parts": [
+      {
+        "label": "a · C₁",
+        "type": "numeric",
+        "answer": 2e-06,
+        "unit": "F",
+        "tolerance": 1.6e-08,
+        "explanation": "Series charge q=C₃×5V=4μC; C₁=q/2V."
+      },
+      {
+        "label": "b · C₂",
+        "type": "numeric",
+        "answer": 8e-07,
+        "unit": "F",
+        "tolerance": 6.4e-09,
+        "explanation": "C₂=q/5V."
+      }
+    ],
+    "reasoning": "The lower graph gives total12V; upper steps are2V,5V,5V. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-19",
+    "parts": [
+      {
+        "label": "a · C₁",
+        "type": "numeric",
+        "answer": 4e-06,
+        "unit": "F",
+        "tolerance": 3.2e-08,
+        "explanation": "C₄ has8μC/4μF=2V; series C₂ has12μC/3μF=4V; C₁ has remaining3V."
+      },
+      {
+        "label": "b · C₃",
+        "type": "numeric",
+        "answer": 2e-06,
+        "unit": "F",
+        "tolerance": 1.6e-08,
+        "explanation": "Pointa passes12μC, pointb8μC; q₃=4μC at2V."
+      }
+    ],
+    "reasoning": "Charge flowing past a includes both parallel branches. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-20",
+    "parts": [
+      {
+        "label": "Maximum capacitance",
+        "type": "numeric",
+        "answer": 2.277573529411765e-12,
+        "unit": "F",
+        "tolerance": 1.822058823529412e-14,
+        "explanation": "Eight alternating plates make seven active gaps in parallel."
+      }
+    ],
+    "reasoning": "Only adjacent opposite-polarity facing surfaces count as independent gaps. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-21",
+    "parts": [
+      {
+        "label": "a · Potential-difference magnitude",
+        "type": "numeric",
+        "answer": 50,
+        "unit": "V",
+        "tolerance": 0.4,
+        "explanation": "Signed upper-node charge=(1−3)μF×100V=−200μC; the magnitude of Va−Vb is50V."
+      },
+      {
+        "label": "b · Charge magnitude on1",
+        "type": "numeric",
+        "answer": 5e-05,
+        "unit": "C",
+        "tolerance": 4.0000000000000003e-07,
+        "explanation": "|q₁|=C₁|Vab|."
+      },
+      {
+        "label": "c · Charge magnitude on2",
+        "type": "numeric",
+        "answer": 0.00015,
+        "unit": "C",
+        "tolerance": 1.2e-06,
+        "explanation": "|q₂|=C₂|Vab|."
+      }
+    ],
+    "reasoning": "Capacitor1 reverses polarity; upper node remains negatively charged. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-22",
+    "parts": [
+      {
+        "label": "Final charge on1",
+        "type": "numeric",
+        "answer": 2e-05,
+        "unit": "C",
+        "tolerance": 1.6e-07,
+        "explanation": "Initial100μC spreads across C₁+C₂+C₃=50μF, giving2V."
+      }
+    ],
+    "reasoning": "All three capacitors are in parallel after the switch moves right. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-23",
+    "parts": [
+      {
+        "label": "a · Electrons through a",
+        "type": "numeric",
+        "answer": 449438202247191.0,
+        "unit": "electrons",
+        "tolerance": 3595505617977.528,
+        "explanation": "Pointa is before the C₁/C₂ branch and carries the total series charge."
+      },
+      {
+        "label": "b · Electrons through b",
+        "type": "numeric",
+        "answer": 149812734082397.0,
+        "unit": "electrons",
+        "tolerance": 1198501872659.176,
+        "explanation": "The same C₁ plate charge moves at b."
+      },
+      {
+        "label": "c · Electrons through c",
+        "type": "numeric",
+        "answer": 299625468164794.0,
+        "unit": "electrons",
+        "tolerance": 2397003745318.352,
+        "explanation": "Pointc feeds C₂."
+      },
+      {
+        "label": "d · Electrons through d",
+        "type": "numeric",
+        "answer": 449438202247191.0,
+        "unit": "electrons",
+        "tolerance": 3595505617977.528,
+        "explanation": "Pointd carries total series charge."
+      },
+      {
+        "label": "e · Electron direction at b",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "No electrons pass"
+        ],
+        "explanation": "C₁ lower plate becomes negative, so electrons enter upward from the bottom node."
+      },
+      {
+        "label": "f · Electron direction at c",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "No electrons pass"
+        ],
+        "explanation": "C₂ right plate becomes negative; electrons travel upward along c."
+      }
+    ],
+    "reasoning": "C₁ and C₂ are parallel and their12μF sum is in series with C₃=12μF; each group has6V. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-24",
+    "parts": [
+      {
+        "label": "a · Number of electrons",
+        "type": "numeric",
+        "answer": 19881726.729507193,
+        "unit": "electrons",
+        "tolerance": 159053.81383605755,
+        "explanation": "Inflation lowers C₂ and the series charge; Δq=V(Ceq,i−Ceq,f)."
+      },
+      {
+        "label": "b · Electron direction",
+        "type": "choice",
+        "answer": "Away from the battery",
+        "options": [
+          "Away from the battery",
+          "Toward the battery",
+          "No electron motion"
+        ],
+        "explanation": "AtP the upper positive plate loses positive charge, meaning electrons return from battery toward that plate."
+      }
+    ],
+    "reasoning": "Use cylindrical C=2πε₀L/ln(b/a) for both geometries. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-25",
+    "parts": [
+      {
+        "label": "Total capacitor charge",
+        "type": "numeric",
+        "answer": 3.5842499999999998e-12,
+        "unit": "C",
+        "tolerance": 2.8674e-14,
+        "explanation": "Each plate charge is ε₀AE; add the two parallel capacitor charges."
+      }
+    ],
+    "reasoning": "The field and area specify charge without needing the individual gaps. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-26",
+    "parts": [
+      {
+        "label": "a · Battery voltage",
+        "type": "numeric",
+        "answer": 10,
+        "unit": "V",
+        "tolerance": 0.08,
+        "explanation": "As C₃→∞, the voltage across C₁ approaches battery voltage."
+      },
+      {
+        "label": "b · C₁",
+        "type": "numeric",
+        "answer": 8e-06,
+        "unit": "F",
+        "tolerance": 6.4e-08,
+        "explanation": "V₁(0)=2V gives C₁=4C₂; V₁(6μF)=5V gives C₁=C₂+6μF."
+      },
+      {
+        "label": "c · C₂",
+        "type": "numeric",
+        "answer": 2e-06,
+        "unit": "F",
+        "tolerance": 1.6e-08,
+        "explanation": "Solve the two graph equations."
+      }
+    ],
+    "reasoning": "For the pictured network V₁=V(C₂+C₃)/(C₁+C₂+C₃). Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-27",
+    "parts": [
+      {
+        "label": "a · q₁, S₁ only",
+        "type": "numeric",
+        "answer": 9e-06,
+        "unit": "C",
+        "tolerance": 7.200000000000001e-08,
+        "explanation": "Top pair1μF and3μF are in series."
+      },
+      {
+        "label": "b · q₂, S₁ only",
+        "type": "numeric",
+        "answer": 1.6e-05,
+        "unit": "C",
+        "tolerance": 1.28e-07,
+        "explanation": "Bottom pair2μF and4μF are in series."
+      },
+      {
+        "label": "c · q₃, S₁ only",
+        "type": "numeric",
+        "answer": 9e-06,
+        "unit": "C",
+        "tolerance": 7.200000000000001e-08,
+        "explanation": "Series pair charges match."
+      },
+      {
+        "label": "d · q₄, S₁ only",
+        "type": "numeric",
+        "answer": 1.6e-05,
+        "unit": "C",
+        "tolerance": 1.28e-07,
+        "explanation": "Series pair charges match."
+      },
+      {
+        "label": "e · q₁, both switches",
+        "type": "numeric",
+        "answer": 8.4e-06,
+        "unit": "C",
+        "tolerance": 6.719999999999999e-08,
+        "explanation": "Left pair1+2μF is in series with right pair3+4μF."
+      },
+      {
+        "label": "f · q₂, both switches",
+        "type": "numeric",
+        "answer": 1.68e-05,
+        "unit": "C",
+        "tolerance": 1.3439999999999999e-07,
+        "explanation": "q₂=C₂Vleft."
+      },
+      {
+        "label": "g · q₃, both switches",
+        "type": "numeric",
+        "answer": 1.0799999999999998e-05,
+        "unit": "C",
+        "tolerance": 8.639999999999999e-08,
+        "explanation": "q₃=C₃Vright."
+      },
+      {
+        "label": "h · q₄, both switches",
+        "type": "numeric",
+        "answer": 1.4399999999999998e-05,
+        "unit": "C",
+        "tolerance": 1.1519999999999999e-07,
+        "explanation": "q₄=C₄Vright."
+      }
+    ],
+    "reasoning": "Open center switch leaves two independent series branches; closing it equalizes the middle-node voltages. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-28",
+    "parts": [
+      {
+        "label": "a · Final q₁",
+        "type": "numeric",
+        "answer": 3.2e-05,
+        "unit": "C",
+        "tolerance": 2.56e-07,
+        "explanation": "C₁ is parallel with series(C₂,C₃); conserve initial48μC."
+      },
+      {
+        "label": "b · Final q₂",
+        "type": "numeric",
+        "answer": 1.6e-05,
+        "unit": "C",
+        "tolerance": 1.28e-07,
+        "explanation": "Series pair has common charge."
+      },
+      {
+        "label": "c · Final q₃",
+        "type": "numeric",
+        "answer": 1.6e-05,
+        "unit": "C",
+        "tolerance": 1.28e-07,
+        "explanation": "Series pair has common charge."
+      }
+    ],
+    "reasoning": "Final equivalent capacitance6μF gives8V. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-29",
+    "parts": [
+      {
+        "label": "Required capacitance",
+        "type": "numeric",
+        "answer": 72.0,
+        "unit": "F",
+        "tolerance": 0.5760000000000001,
+        "explanation": "Convert10kWh to36MJ, then C=2U/V²."
+      }
+    ],
+    "reasoning": "Energy units kWh are not kilowatts. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-30",
+    "parts": [
+      {
+        "label": "Stored field energy",
+        "type": "numeric",
+        "answer": 9.95625e-08,
+        "unit": "J",
+        "tolerance": 7.965e-10,
+        "explanation": "U=(ε₀E²/2)×volume."
+      }
+    ],
+    "reasoning": "Uniform fair-weather field fills1.00m³. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-31",
+    "parts": [
+      {
+        "label": "Total stored energy",
+        "type": "numeric",
+        "answer": 0.27,
+        "unit": "J",
+        "tolerance": 0.00216,
+        "explanation": "Parallel capacitances add to6μF."
+      }
+    ],
+    "reasoning": "Use U=CV²/2. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-32",
+    "parts": [
+      {
+        "label": "a · Capacitance",
+        "type": "numeric",
+        "answer": 3.54e-11,
+        "unit": "F",
+        "tolerance": 2.8320000000000005e-13,
+        "explanation": "C=ε₀A/d."
+      },
+      {
+        "label": "b · Plate charge magnitude",
+        "type": "numeric",
+        "answer": 2.124e-08,
+        "unit": "C",
+        "tolerance": 1.6992e-10,
+        "explanation": "q=CV."
+      },
+      {
+        "label": "c · Stored energy",
+        "type": "numeric",
+        "answer": 6.372e-06,
+        "unit": "J",
+        "tolerance": 5.0976e-08,
+        "explanation": "U=CV²/2."
+      },
+      {
+        "label": "d · Electric field",
+        "type": "numeric",
+        "answer": 600000.0,
+        "unit": "V/m",
+        "tolerance": 4800.0,
+        "explanation": "E=V/d."
+      },
+      {
+        "label": "e · Energy density",
+        "type": "numeric",
+        "answer": 1.593,
+        "unit": "J/m³",
+        "tolerance": 0.012744,
+        "explanation": "u=ε₀E²/2."
+      }
+    ],
+    "reasoning": "Convert40cm² to.004m² and1mm to.001m. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-33",
+    "parts": [
+      {
+        "label": "Surface energy density",
+        "type": "numeric",
+        "answer": 0.11328,
+        "unit": "J/m³",
+        "tolerance": 0.0009062400000000001,
+        "explanation": "For an isolated sphere E(R)=V/R."
+      }
+    ],
+    "reasoning": "The source gives diameter10cm, hence radius5cm. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-34",
+    "parts": [
+      {
+        "label": "a · q3",
+        "type": "numeric",
+        "answer": 0.00039999999999999996,
+        "unit": "C",
+        "tolerance": 3.2e-06,
+        "explanation": "Use q=CV for the identified branch."
+      },
+      {
+        "label": "b · V3",
+        "type": "numeric",
+        "answer": 100,
+        "unit": "V",
+        "tolerance": 0.8,
+        "explanation": "Use common voltage for parallel capacitors and common charge for series groups."
+      },
+      {
+        "label": "c · U3",
+        "type": "numeric",
+        "answer": 0.019999999999999997,
+        "unit": "J",
+        "tolerance": 0.00015999999999999999,
+        "explanation": "U=CV²/2."
+      },
+      {
+        "label": "d · q1",
+        "type": "numeric",
+        "answer": 0.0003333333333333333,
+        "unit": "C",
+        "tolerance": 2.666666666666667e-06,
+        "explanation": "Use q=CV for the identified branch."
+      },
+      {
+        "label": "e · V1",
+        "type": "numeric",
+        "answer": 33.33333333333333,
+        "unit": "V",
+        "tolerance": 0.2666666666666666,
+        "explanation": "Use common voltage for parallel capacitors and common charge for series groups."
+      },
+      {
+        "label": "f · U1",
+        "type": "numeric",
+        "answer": 0.005555555555555555,
+        "unit": "J",
+        "tolerance": 4.444444444444444e-05,
+        "explanation": "U=CV²/2."
+      },
+      {
+        "label": "g · q2",
+        "type": "numeric",
+        "answer": 0.0003333333333333333,
+        "unit": "C",
+        "tolerance": 2.666666666666667e-06,
+        "explanation": "Use q=CV for the identified branch."
+      },
+      {
+        "label": "h · V2",
+        "type": "numeric",
+        "answer": 66.66666666666666,
+        "unit": "V",
+        "tolerance": 0.5333333333333332,
+        "explanation": "Use common voltage for parallel capacitors and common charge for series groups."
+      },
+      {
+        "label": "i · U2",
+        "type": "numeric",
+        "answer": 0.01111111111111111,
+        "unit": "J",
+        "tolerance": 8.888888888888888e-05,
+        "explanation": "U=CV²/2."
+      }
+    ],
+    "reasoning": "Network reduction is checked by summing the branch voltages and conserving internal-node charge. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-35",
+    "parts": [
+      {
+        "label": "a · Field energy density",
+        "type": "numeric",
+        "answer": 9.181888805947394e-18,
+        "unit": "J/m³",
+        "tolerance": 7.345511044757915e-20,
+        "explanation": "u=ε₀(ke/r²)²/2."
+      },
+      {
+        "label": "b · Field energy density",
+        "type": "numeric",
+        "answer": 9.181888805947394e-06,
+        "unit": "J/m³",
+        "tolerance": 7.345511044757915e-08,
+        "explanation": "u=ε₀(ke/r²)²/2."
+      },
+      {
+        "label": "c · Field energy density",
+        "type": "numeric",
+        "answer": 9181888.805947391,
+        "unit": "J/m³",
+        "tolerance": 73455.11044757914,
+        "explanation": "u=ε₀(ke/r²)²/2."
+      },
+      {
+        "label": "d · Field energy density",
+        "type": "numeric",
+        "answer": 9.181888805947394e+18,
+        "unit": "J/m³",
+        "tolerance": 7.345511044757915e+16,
+        "explanation": "u=ε₀(ke/r²)²/2."
+      },
+      {
+        "label": "e · Point-charge limit",
+        "type": "choice",
+        "answer": "Diverges to infinity as r approaches zero",
+        "options": [
+          "Diverges to infinity as r approaches zero",
+          "Approaches zero",
+          "Approaches a finite nonzero constant"
+        ],
+        "explanation": "The ideal point-charge energy density varies as r⁻⁴."
+      }
+    ],
+    "reasoning": "Source radii are1mm,1μm,1nm,1pm; the point model has a singularity at the origin. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-36",
+    "parts": [
+      {
+        "label": "a · Induced central negative charge",
+        "type": "numeric",
+        "answer": -5.026548245743669e-07,
+        "unit": "C",
+        "tolerance": 4.021238596594935e-09,
+        "explanation": "Opposite positive surface charge balances σ times wetted side-plus-bottom area."
+      },
+      {
+        "label": "b · Effective stored energy",
+        "type": "numeric",
+        "answer": 0.0036094553238269654,
+        "unit": "J",
+        "tolerance": 2.8875642590615725e-05,
+        "explanation": "U=q²/(2C)."
+      },
+      {
+        "label": "c · Ignition possible in this model?",
+        "type": "choice",
+        "answer": "No; the energy is below10mJ",
+        "options": [
+          "No; the energy is below10mJ",
+          "Yes; the energy exceeds10mJ",
+          "The energy is exactly zero"
+        ],
+        "explanation": "Calculated energy is about3.61mJ, below the stated10mJ ignition threshold."
+      }
+    ],
+    "reasoning": "The liquid is neutral overall; central negative charge balances induced positive charge on its walls. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ],
+    "scope": "This comparison uses the stated ideal capacitance and ignition threshold; it is an exercise model, not an industrial safety assessment."
+  },
+  {
+    "id": "physics-chapter-25-problems-37",
+    "parts": [
+      {
+        "label": "a · Final potential",
+        "type": "numeric",
+        "answer": 15.999999999999996,
+        "unit": "V",
+        "tolerance": 0.12799999999999997,
+        "explanation": "Disconnected charge remains constant; V scales with spacing."
+      },
+      {
+        "label": "b · Initial energy",
+        "type": "numeric",
+        "answer": 4.5134999999999995e-11,
+        "unit": "J",
+        "tolerance": 3.6107999999999996e-13,
+        "explanation": "Ui=CiVi²/2."
+      },
+      {
+        "label": "c · Final energy",
+        "type": "numeric",
+        "answer": 1.2035999999999996e-10,
+        "unit": "J",
+        "tolerance": 9.628799999999996e-13,
+        "explanation": "Uf=q²/(2Cf)."
+      },
+      {
+        "label": "d · Separation work",
+        "type": "numeric",
+        "answer": 7.522499999999997e-11,
+        "unit": "J",
+        "tolerance": 6.017999999999997e-13,
+        "explanation": "External work equals the increase of field energy."
+      }
+    ],
+    "reasoning": "Pulling isolated plates apart lowers capacitance and raises energy. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-38",
+    "parts": [
+      {
+        "label": "a · q3",
+        "type": "numeric",
+        "answer": 0.00075,
+        "unit": "C",
+        "tolerance": 6e-06,
+        "explanation": "Use q=CV for the identified branch."
+      },
+      {
+        "label": "b · V3",
+        "type": "numeric",
+        "answer": 50.0,
+        "unit": "V",
+        "tolerance": 0.4,
+        "explanation": "Use common voltage for parallel capacitors and common charge for series groups."
+      },
+      {
+        "label": "c · U3",
+        "type": "numeric",
+        "answer": 0.01875,
+        "unit": "J",
+        "tolerance": 0.00015,
+        "explanation": "U=CV²/2."
+      },
+      {
+        "label": "d · q1",
+        "type": "numeric",
+        "answer": 0.0005,
+        "unit": "C",
+        "tolerance": 4e-06,
+        "explanation": "Use q=CV for the identified branch."
+      },
+      {
+        "label": "e · V1",
+        "type": "numeric",
+        "answer": 50.0,
+        "unit": "V",
+        "tolerance": 0.4,
+        "explanation": "Use common voltage for parallel capacitors and common charge for series groups."
+      },
+      {
+        "label": "f · U1",
+        "type": "numeric",
+        "answer": 0.0125,
+        "unit": "J",
+        "tolerance": 0.0001,
+        "explanation": "U=CV²/2."
+      },
+      {
+        "label": "g · q2",
+        "type": "numeric",
+        "answer": 0.00025,
+        "unit": "C",
+        "tolerance": 2e-06,
+        "explanation": "Use q=CV for the identified branch."
+      },
+      {
+        "label": "h · V2",
+        "type": "numeric",
+        "answer": 50.0,
+        "unit": "V",
+        "tolerance": 0.4,
+        "explanation": "Use common voltage for parallel capacitors and common charge for series groups."
+      },
+      {
+        "label": "i · U2",
+        "type": "numeric",
+        "answer": 0.00625,
+        "unit": "J",
+        "tolerance": 5e-05,
+        "explanation": "U=CV²/2."
+      }
+    ],
+    "reasoning": "Network reduction is checked by summing the branch voltages and conserving internal-node charge. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-39",
+    "parts": [
+      {
+        "label": "a · Maximum total potential",
+        "type": "numeric",
+        "answer": 190.0,
+        "unit": "V",
+        "tolerance": 1.52,
+        "explanation": "The smallest capacitor reaches100V first because series charge is common."
+      },
+      {
+        "label": "b · Maximum energy",
+        "type": "numeric",
+        "answer": 0.09499999999999999,
+        "unit": "J",
+        "tolerance": 0.0007599999999999999,
+        "explanation": "Sum each capacitor energy at the limiting common charge."
+      }
+    ],
+    "reasoning": "Limiting charge is Cmin×100V=1mC. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-40",
+    "parts": [
+      {
+        "label": "Wax dielectric constant",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "dimensionless",
+        "tolerance": 0.032,
+        "explanation": "Cf=κCi/2 and Cf=2Ci."
+      }
+    ],
+    "reasoning": "Doubling spacing halves the air capacitance before the dielectric factor. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-41",
+    "parts": [
+      {
+        "label": "Capacitance per length",
+        "type": "numeric",
+        "answer": 8.068945436101985e-11,
+        "unit": "F/m",
+        "tolerance": 6.455156348881588e-13,
+        "explanation": "C/L=2πε₀κ/ln(b/a); source polystyreneκ=2.6."
+      }
+    ],
+    "reasoning": "Use inner and outer radii, not diameters. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-42",
+    "parts": [
+      {
+        "label": "a · Plate separation",
+        "type": "numeric",
+        "answer": 0.06195,
+        "unit": "m",
+        "tolerance": 0.0004956,
+        "explanation": "d=ε₀A/C."
+      },
+      {
+        "label": "b · Filled capacitance",
+        "type": "numeric",
+        "answer": 2.8e-10,
+        "unit": "F",
+        "tolerance": 2.24e-12,
+        "explanation": "Cfilled=κCair."
+      }
+    ],
+    "reasoning": "The whole gap is filled. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-43",
+    "parts": [
+      {
+        "label": "Dielectric choice",
+        "type": "choice",
+        "answer": "Pyrex, κ=4.7",
+        "options": [
+          "Pyrex, κ=4.7",
+          "Paper, κ=3.5",
+          "Polystyrene, κ=2.6"
+        ],
+        "explanation": "Required κ=2U/(CairV²)≈4.7; the source energy is7.4μJ."
+      }
+    ],
+    "reasoning": "Use the supplied Table25-1, not an assumed arbitrary dielectric strength. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-44",
+    "parts": [
+      {
+        "label": "a · Capacitance",
+        "type": "numeric",
+        "answer": 7.250671110292897e-10,
+        "unit": "F",
+        "tolerance": 5.800536888234318e-12,
+        "explanation": "Use cylindrical C=2πε₀κL/ln(b/a)."
+      },
+      {
+        "label": "b · Breakdown potential",
+        "type": "numeric",
+        "answer": 27249.879520218998,
+        "unit": "V",
+        "tolerance": 1000,
+        "explanation": "Maximum radial field is at inner radius: Vmax=Emax a ln(b/a)."
+      }
+    ],
+    "reasoning": "Pyrex table values areκ4.7 and dielectric strength14MV/m; thin-wall approximation also gives a nearby28kV. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Neglect foil thickness and end fringing; use tabulated Pyrex properties."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-45",
+    "parts": [
+      {
+        "label": "Maximum stored energy",
+        "type": "numeric",
+        "answer": 6.6198e-05,
+        "unit": "J",
+        "tolerance": 5.295840000000001e-07,
+        "explanation": "Vmax=Emax d, then Umax=CVmax²/2."
+      }
+    ],
+    "reasoning": "The dielectric strength limits the voltage to400V. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-46",
+    "parts": [
+      {
+        "label": "Total stored charge",
+        "type": "numeric",
+        "answer": 1.062e-09,
+        "unit": "C",
+        "tolerance": 8.496000000000001e-12,
+        "explanation": "The dielectric and air capacitors are in parallel; add capacitances."
+      }
+    ],
+    "reasoning": "The circuit connects both plates of each capacitor to the same battery nodes. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-47",
+    "parts": [
+      {
+        "label": "Minimum plate area",
+        "type": "numeric",
+        "answer": 0.627746390458255,
+        "unit": "m²",
+        "tolerance": 0.00502197112366604,
+        "explanation": "Smallest allowed gap isVmax/Ebreak; A=Cd/(κε₀)."
+      }
+    ],
+    "reasoning": "Source capacitance is0.070μF, not0.070mF. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-48",
+    "parts": [
+      {
+        "label": "Capacitance",
+        "type": "numeric",
+        "answer": 8.4075e-12,
+        "unit": "F",
+        "tolerance": 6.726e-14,
+        "explanation": "Side-by-side dielectric halves are capacitors in parallel."
+      }
+    ],
+    "reasoning": "Each material fills areaA/2 and the full gap. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-49",
+    "parts": [
+      {
+        "label": "Capacitance",
+        "type": "numeric",
+        "answer": 1.7348198757763978e-11,
+        "unit": "F",
+        "tolerance": 1.3878559006211183e-13,
+        "explanation": "Stacked dielectric layers are in series across the field."
+      }
+    ],
+    "reasoning": "Both layers have areaA and thicknessd/2. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-50",
+    "parts": [
+      {
+        "label": "Capacitance",
+        "type": "numeric",
+        "answer": 4.549670646067416e-11,
+        "unit": "F",
+        "tolerance": 3.6397365168539327e-13,
+        "explanation": "Left half givesκ₁ε₀A/(4d); right half gives ε₀Aκ₂κ₃/[2d(κ₂+κ₃)]."
+      }
+    ],
+    "reasoning": "The total plate gap is2d=7.12mm; add the parallel left and right contributions. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-51",
+    "parts": [
+      {
+        "label": "a · Dielectric field",
+        "type": "numeric",
+        "answer": 10462.439840970914,
+        "unit": "V/m",
+        "tolerance": 83.69951872776731,
+        "explanation": "E=q/(κε₀A)."
+      },
+      {
+        "label": "b · Free plate charge",
+        "type": "numeric",
+        "answer": 5e-09,
+        "unit": "C",
+        "tolerance": 4.0000000000000004e-11,
+        "explanation": "q=CV."
+      },
+      {
+        "label": "c · Induced surface-charge magnitude",
+        "type": "numeric",
+        "answer": 4.0740740740740745e-09,
+        "unit": "C",
+        "tolerance": 3.2592592592592596e-11,
+        "explanation": "Bound charge magnitude isq(1−1/κ)."
+      }
+    ],
+    "reasoning": "The dielectric fills the gap. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-52",
+    "parts": [
+      {
+        "label": "a · Final capacitance",
+        "type": "numeric",
+        "answer": 1.341173129354741e-11,
+        "unit": "F",
+        "tolerance": 1.0729385034837928e-13,
+        "explanation": "C=ε₀A/(d−b+b/κ)."
+      },
+      {
+        "label": "b · Plate charge",
+        "type": "numeric",
+        "answer": 1.1467030255983036e-09,
+        "unit": "C",
+        "tolerance": 9.17362420478643e-12,
+        "explanation": "Battery holdsV=85.5V, so q=CV."
+      },
+      {
+        "label": "c · Air-gap field",
+        "type": "numeric",
+        "answer": 11267.040290820963,
+        "unit": "V/m",
+        "tolerance": 90.13632232656771,
+        "explanation": "Eg=q/(ε₀A)."
+      },
+      {
+        "label": "d · Slab field",
+        "type": "numeric",
+        "answer": 4316.873674644048,
+        "unit": "V/m",
+        "tolerance": 34.53498939715239,
+        "explanation": "Es=Eg/κ."
+      }
+    ],
+    "reasoning": "Referenced Fig25-17 supplies A115cm²,d1.24cm,b.780cm,κ2.61,V85.5V. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      20,
+      21,
+      27
+    ],
+    "assumptions": [
+      "Battery remains connected, as this exercise explicitly changes the referenced example."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-53",
+    "parts": [
+      {
+        "label": "a · Initial capacitance",
+        "type": "numeric",
+        "answer": 8.849999999999999e-11,
+        "unit": "F",
+        "tolerance": 7.079999999999999e-13,
+        "explanation": "Cair=ε₀A/d."
+      },
+      {
+        "label": "b · Final capacitance",
+        "type": "numeric",
+        "answer": 1.202264150943396e-10,
+        "unit": "F",
+        "tolerance": 9.618113207547167e-13,
+        "explanation": "C=ε₀A/(d−b+b/κ)."
+      },
+      {
+        "label": "c · Initial free charge",
+        "type": "numeric",
+        "answer": 1.0619999999999998e-08,
+        "unit": "C",
+        "tolerance": 8.495999999999998e-11,
+        "explanation": "q=CiVi."
+      },
+      {
+        "label": "d · Final free charge",
+        "type": "numeric",
+        "answer": 1.0619999999999998e-08,
+        "unit": "C",
+        "tolerance": 8.495999999999998e-11,
+        "explanation": "The battery is disconnected."
+      },
+      {
+        "label": "e · Air-gap field",
+        "type": "numeric",
+        "answer": 10000.0,
+        "unit": "V/m",
+        "tolerance": 80.0,
+        "explanation": "Eg=q/(ε₀A)."
+      },
+      {
+        "label": "f · Slab field",
+        "type": "numeric",
+        "answer": 2083.3333333333335,
+        "unit": "V/m",
+        "tolerance": 16.666666666666668,
+        "explanation": "Es=Eg/κ."
+      },
+      {
+        "label": "g · Final potential",
+        "type": "numeric",
+        "answer": 88.33333333333334,
+        "unit": "V",
+        "tolerance": 0.7066666666666668,
+        "explanation": "Vf=q/Cf."
+      },
+      {
+        "label": "h · External insertion work",
+        "type": "numeric",
+        "answer": -1.6814999999999993e-07,
+        "unit": "J",
+        "tolerance": 1.3451999999999994e-09,
+        "explanation": "Quasistatic external work isΔU for fixedq."
+      }
+    ],
+    "reasoning": "The negative external work means the electric field pulls the dielectric into the gap. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-54",
+    "parts": [
+      {
+        "label": "a · Dielectric constant",
+        "type": "numeric",
+        "answer": 7.183212267958031,
+        "unit": "dimensionless",
+        "tolerance": 0.05746569814366425,
+        "explanation": "κ=q/(ε₀AE)."
+      },
+      {
+        "label": "b · Induced surface-charge magnitude",
+        "type": "numeric",
+        "answer": 7.661e-07,
+        "unit": "C",
+        "tolerance": 6.1288e-09,
+        "explanation": "qbound=q−ε₀AE."
+      }
+    ],
+    "reasoning": "Distinguish free plate charge from dielectric bound charge. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-55",
+    "parts": [
+      {
+        "label": "a · Capacitance",
+        "type": "numeric",
+        "answer": 1.0663042988367103e-10,
+        "unit": "F",
+        "tolerance": 8.530434390693682e-13,
+        "explanation": "Spherical capacitor C=4πε₀κab/(b−a)."
+      },
+      {
+        "label": "b · Free inner-shell charge",
+        "type": "numeric",
+        "answer": 7.784021381507986e-09,
+        "unit": "C",
+        "tolerance": 6.227217105206389e-11,
+        "explanation": "q=CV."
+      },
+      {
+        "label": "c · Induced surface-charge magnitude",
+        "type": "numeric",
+        "answer": 7.45278642910339e-09,
+        "unit": "C",
+        "tolerance": 5.962229143282712e-11,
+        "explanation": "Bound charge magnitude is q(1−1/κ); its sign next to the positive inner shell is negative."
+      }
+    ],
+    "reasoning": "The induced surface charge has opposite sign to the inner free charge; its magnitude is also acceptable if explicitly requested. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ],
+    "scope": "Part(c) reports the magnitude of the induced dielectric charge; the inner dielectric surface is negatively charged."
+  },
+  {
+    "id": "physics-chapter-25-problems-56",
+    "parts": [
+      {
+        "label": "a · Charge on1",
+        "type": "numeric",
+        "answer": 0.0001,
+        "unit": "C",
+        "tolerance": 8.000000000000001e-07,
+        "explanation": "Capacitor1 connects directly across10V."
+      },
+      {
+        "label": "b · Charge on2",
+        "type": "numeric",
+        "answer": 2e-05,
+        "unit": "C",
+        "tolerance": 1.6e-07,
+        "explanation": "Bottom branch is C in series with[C parallel series(C,C)]. Its inner group has4V; each equal series capacitor has2V."
+      }
+    ],
+    "reasoning": "Visual nodes show that the upper two-capacitor series branch is parallel with1, not in series with it. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-57",
+    "parts": [
+      {
+        "label": "Charge on4",
+        "type": "numeric",
+        "answer": 4.5e-05,
+        "unit": "C",
+        "tolerance": 3.6000000000000005e-07,
+        "explanation": "C₁,C₂,and(C₃+C₄) are three equal30μF groups in series; each group has3V."
+      }
+    ],
+    "reasoning": "The lower C₂ lies between the battery bottom node and the shared lower plates of C₃,C₄. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-58",
+    "parts": [
+      {
+        "label": "a · Equivalent C between A and B",
+        "type": "numeric",
+        "answer": 4.0740740740740745e-05,
+        "unit": "F",
+        "tolerance": 3.2592592592592596e-07,
+        "explanation": "C in series with[2C parallel series(4C,6C)]."
+      },
+      {
+        "label": "b · Equivalent C between A and D",
+        "type": "numeric",
+        "answer": 4.230769230769231e-05,
+        "unit": "F",
+        "tolerance": 3.3846153846153845e-07,
+        "explanation": "C in series with[4C parallel series(2C,6C)]."
+      }
+    ],
+    "reasoning": "The unused terminal is a floating internal node, not grounded. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-59",
+    "parts": [
+      {
+        "label": "Charge on4",
+        "type": "numeric",
+        "answer": 1.6e-05,
+        "unit": "C",
+        "tolerance": 1.28e-07,
+        "explanation": "Top group C₁+C₂=6μF in series with lower group C₃+C₄=3μF; lower group has8V."
+      }
+    ],
+    "reasoning": "The center horizontal wire shorts the two middle junctions together. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-60",
+    "parts": [
+      {
+        "label": "a · Worker capacitance energy",
+        "type": "numeric",
+        "answer": 0.004900000000000001,
+        "unit": "J",
+        "tolerance": 3.9200000000000004e-05,
+        "explanation": "U=CV²/2."
+      },
+      {
+        "label": "b · Enough energy to ignite the stated cloud?",
+        "type": "choice",
+        "answer": "No;4.9mJ is below150mJ",
+        "options": [
+          "No;4.9mJ is below150mJ",
+          "Yes;4.9mJ exceeds150mJ",
+          "The capacitance stores no energy"
+        ],
+        "explanation": "Use the stated source threshold150mJ."
+      }
+    ],
+    "reasoning": "Capacitance200pF and7kV give4.9mJ. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ],
+    "scope": "Comparison is limited to the stated textbook threshold and effective-capacitance model."
+  },
+  {
+    "id": "physics-chapter-25-problems-61",
+    "parts": [
+      {
+        "label": "a · Extra charge from battery",
+        "type": "numeric",
+        "answer": 7.199999999999996e-06,
+        "unit": "C",
+        "tolerance": 5.759999999999997e-08,
+        "explanation": "ΔQ=12V(Ceq,f−Ceq,i)."
+      },
+      {
+        "label": "b · Charge on4",
+        "type": "numeric",
+        "answer": 1.8e-05,
+        "unit": "C",
+        "tolerance": 1.4400000000000002e-07,
+        "explanation": "C₄ is parallel with C₂ after closure."
+      },
+      {
+        "label": "c · Why do these charges differ?",
+        "type": "choice",
+        "answer": "Some charge on4 comes from redistribution of charge already on2",
+        "options": [
+          "Some charge on4 comes from redistribution of charge already on2",
+          "All charge on4 must cross P",
+          "Charge is created when the switch closes"
+        ],
+        "explanation": "The original C₂ charge decreases while battery charge increases."
+      }
+    ],
+    "reasoning": "C₁,C₂,C₃ are initially in series; closure makes C₂+C₄ the middle group. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-62",
+    "parts": [
+      {
+        "label": "a · Smaller capacitance",
+        "type": "numeric",
+        "answer": 2e-06,
+        "unit": "F",
+        "tolerance": 1.6e-08,
+        "explanation": "Individual energies100μJ and300μJ give C=2U/V²."
+      },
+      {
+        "label": "b · Larger capacitance",
+        "type": "numeric",
+        "answer": 6e-06,
+        "unit": "F",
+        "tolerance": 4.8e-08,
+        "explanation": "The parallel energy400μJ and series energy75μJ verify these values."
+      }
+    ],
+    "reasoning": "The listed μJ energies correspond to2μF and6μF at10V. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-63",
+    "parts": [
+      {
+        "label": "a · Extra battery charge",
+        "type": "numeric",
+        "answer": 1e-05,
+        "unit": "C",
+        "tolerance": 8e-08,
+        "explanation": "Initial Ceq=3μF; finalseries(12,6)=4μF, soΔQ=10μC."
+      },
+      {
+        "label": "b · Increase in summed positive-plate charges",
+        "type": "numeric",
+        "answer": 2e-05,
+        "unit": "C",
+        "tolerance": 1.6e-07,
+        "explanation": "Both series capacitors gain10μC each."
+      }
+    ],
+    "reasoning": "The exercise explicitly defines the total as the sum on both positive plates. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-64",
+    "parts": [
+      {
+        "label": "a · Charge supplied to equivalent arrangement",
+        "type": "numeric",
+        "answer": 3.6e-05,
+        "unit": "C",
+        "tolerance": 2.8800000000000004e-07,
+        "explanation": "Reduce C₁ in series with(C₂+C₃+C₄) and(C₅+C₆)."
+      },
+      {
+        "label": "b · Charge on4",
+        "type": "numeric",
+        "answer": 1.2e-05,
+        "unit": "C",
+        "tolerance": 9.6e-08,
+        "explanation": "C₄ shares the middle parallel-group voltage."
+      }
+    ],
+    "reasoning": "The series groups are6μF,12μF,12μF. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ],
+    "scope": "Net stored charge means the equivalent capacitor charge supplied by the battery, not the sum of every positive plate charge."
+  },
+  {
+    "id": "physics-chapter-25-problems-65",
+    "parts": [
+      {
+        "label": "Stored charge",
+        "type": "numeric",
+        "answer": 1.062e-09,
+        "unit": "C",
+        "tolerance": 8.496000000000001e-12,
+        "explanation": "The two dielectric layers are in series across the field."
+      }
+    ],
+    "reasoning": "Each layer thickness is2mm; total gap is4mm. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-66",
+    "parts": [
+      {
+        "label": "Half-energy radius",
+        "type": "choice",
+        "answer": "r=√(ab)",
+        "options": [
+          "r=√(ab)",
+          "r=(a+b)/2",
+          "r=b/2"
+        ],
+        "explanation": "Energy per radial increment is proportional to1/r, so half energy requires ln(r/a)=ln(b/a)/2."
+      }
+    ],
+    "reasoning": "Integrating ε₀E² over a cylindrical shell gives logarithmic cumulative energy. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-67",
+    "parts": [
+      {
+        "label": "a · Equivalent capacitance",
+        "type": "numeric",
+        "answer": 2.4000000000000003e-06,
+        "unit": "F",
+        "tolerance": 1.9200000000000003e-08,
+        "explanation": "Series reciprocal capacitances add."
+      },
+      {
+        "label": "b · q₁",
+        "type": "numeric",
+        "answer": 0.00048000000000000007,
+        "unit": "C",
+        "tolerance": 3.8400000000000005e-06,
+        "explanation": "Series charges match."
+      },
+      {
+        "label": "c · V₁",
+        "type": "numeric",
+        "answer": 80.00000000000001,
+        "unit": "V",
+        "tolerance": 0.6400000000000001,
+        "explanation": "V₁=q/C₁."
+      },
+      {
+        "label": "d · q₂",
+        "type": "numeric",
+        "answer": 0.00048000000000000007,
+        "unit": "C",
+        "tolerance": 3.8400000000000005e-06,
+        "explanation": "Series charges match."
+      },
+      {
+        "label": "e · V₂",
+        "type": "numeric",
+        "answer": 120.00000000000003,
+        "unit": "V",
+        "tolerance": 0.9600000000000003,
+        "explanation": "V₂=q/C₂."
+      }
+    ],
+    "reasoning": "The voltages sum to200V. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-68",
+    "parts": [
+      {
+        "label": "a · Equivalent capacitance",
+        "type": "numeric",
+        "answer": 9.999999999999999e-06,
+        "unit": "F",
+        "tolerance": 7.999999999999999e-08,
+        "explanation": "Parallel capacitances add."
+      },
+      {
+        "label": "b · q₁",
+        "type": "numeric",
+        "answer": 0.0012000000000000001,
+        "unit": "C",
+        "tolerance": 9.600000000000001e-06,
+        "explanation": "Each capacitor has200V."
+      },
+      {
+        "label": "c · V₁",
+        "type": "numeric",
+        "answer": 200,
+        "unit": "V",
+        "tolerance": 1.6,
+        "explanation": "Parallel voltage is common."
+      },
+      {
+        "label": "d · q₂",
+        "type": "numeric",
+        "answer": 0.0007999999999999999,
+        "unit": "C",
+        "tolerance": 6.4e-06,
+        "explanation": "q₂=C₂V."
+      },
+      {
+        "label": "e · V₂",
+        "type": "numeric",
+        "answer": 200,
+        "unit": "V",
+        "tolerance": 1.6,
+        "explanation": "Parallel voltage is common."
+      }
+    ],
+    "reasoning": "This exercise changes only the wiring from Problem67. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-69",
+    "parts": [
+      {
+        "label": "Potential increase",
+        "type": "numeric",
+        "answer": 4.880884817015163,
+        "unit": "%",
+        "tolerance": 0.039047078536121306,
+        "explanation": "U scales as V², so Vf/Vi=√1.1."
+      }
+    ],
+    "reasoning": "Capacitance remains fixed. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-70",
+    "parts": [
+      {
+        "label": "a · Final capacitance",
+        "type": "numeric",
+        "answer": 7.08e-13,
+        "unit": "F",
+        "tolerance": 5.6640000000000005e-15,
+        "explanation": "No field exists inside the metal slab; active air thickness isd−b."
+      },
+      {
+        "label": "b · Ui/Uf",
+        "type": "numeric",
+        "answer": 1.6666666666666667,
+        "unit": "dimensionless",
+        "tolerance": 0.013333333333333334,
+        "explanation": "At fixed charge U=q²/(2C)."
+      },
+      {
+        "label": "c · Work done on slab by electric force",
+        "type": "numeric",
+        "answer": 5.442561205273069,
+        "unit": "J",
+        "tolerance": 0.04354048964218456,
+        "explanation": "The electric force does positive work equal to the decrease in stored energy."
+      },
+      {
+        "label": "d · Mechanical tendency",
+        "type": "choice",
+        "answer": "The slab is sucked in",
+        "options": [
+          "The slab is sucked in",
+          "The slab must be pushed in",
+          "There is no force on the slab"
+        ],
+        "explanation": "Increasing capacitance lowers fixed-charge electrostatic energy."
+      }
+    ],
+    "reasoning": "For quasistatic insertion the external agent does the opposite, negative work. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ],
+    "scope": "Part(c) reports work by the electric force on the slab; quasistatic external work is its negative."
+  },
+  {
+    "id": "physics-chapter-25-problems-71",
+    "parts": [
+      {
+        "label": "a · Final capacitance",
+        "type": "numeric",
+        "answer": 7.08e-13,
+        "unit": "F",
+        "tolerance": 5.6640000000000005e-15,
+        "explanation": "Capacitance depends only on the final geometry."
+      },
+      {
+        "label": "b · Ui/Uf",
+        "type": "numeric",
+        "answer": 0.6,
+        "unit": "dimensionless",
+        "tolerance": 0.0048,
+        "explanation": "At fixed voltage U=CV²/2."
+      },
+      {
+        "label": "c · Work done on slab by electric force",
+        "type": "numeric",
+        "answer": 1.02306e-09,
+        "unit": "J",
+        "tolerance": 8.18448e-12,
+        "explanation": "Battery supplies V²ΔC; half raises field energy and half is mechanical work."
+      },
+      {
+        "label": "d · Mechanical tendency",
+        "type": "choice",
+        "answer": "The slab is sucked in",
+        "options": [
+          "The slab is sucked in",
+          "The slab must be pushed in",
+          "There is no force on the slab"
+        ],
+        "explanation": "Battery energy must be included at fixed voltage."
+      }
+    ],
+    "reasoning": "The force still pulls the conductor inward even though the capacitor field energy rises. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ],
+    "scope": "Part(c) is work by the electric force. The battery supplies twice this energy and quasistatic external work has the opposite sign."
+  },
+  {
+    "id": "physics-chapter-25-problems-72",
+    "parts": [
+      {
+        "label": "a · Initial q₁",
+        "type": "numeric",
+        "answer": 0.00047999999999999996,
+        "unit": "C",
+        "tolerance": 3.84e-06,
+        "explanation": "Initial series charge is Ceq×300V."
+      },
+      {
+        "label": "b · Initial V₁",
+        "type": "numeric",
+        "answer": 240.0,
+        "unit": "V",
+        "tolerance": 1.92,
+        "explanation": "V₁=q/C₁."
+      },
+      {
+        "label": "c · Initial q₂",
+        "type": "numeric",
+        "answer": 0.00047999999999999996,
+        "unit": "C",
+        "tolerance": 3.84e-06,
+        "explanation": "Initial series charges match."
+      },
+      {
+        "label": "d · Initial V₂",
+        "type": "numeric",
+        "answer": 60.0,
+        "unit": "V",
+        "tolerance": 0.48,
+        "explanation": "V₂=q/C₂."
+      },
+      {
+        "label": "e · Same-sign q₁",
+        "type": "numeric",
+        "answer": 0.00019199999999999995,
+        "unit": "C",
+        "tolerance": 1.5359999999999996e-06,
+        "explanation": "Combined node charge2q is shared at voltagevf=2q/(C₁+C₂)."
+      },
+      {
+        "label": "f · Same-sign V₁",
+        "type": "numeric",
+        "answer": 95.99999999999999,
+        "unit": "V",
+        "tolerance": 0.7679999999999999,
+        "explanation": "Parallel voltage is common."
+      },
+      {
+        "label": "g · Same-sign q₂",
+        "type": "numeric",
+        "answer": 0.0007679999999999998,
+        "unit": "C",
+        "tolerance": 6.143999999999998e-06,
+        "explanation": "q₂=C₂vf."
+      },
+      {
+        "label": "h · Same-sign V₂",
+        "type": "numeric",
+        "answer": 95.99999999999999,
+        "unit": "V",
+        "tolerance": 0.7679999999999999,
+        "explanation": "Parallel voltage is common."
+      },
+      {
+        "label": "i · Opposite-sign q₁",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "C",
+        "tolerance": 1e-32,
+        "explanation": "Equal opposite initial node charges cancel."
+      },
+      {
+        "label": "j · Opposite-sign V₁",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V",
+        "tolerance": 1e-32,
+        "explanation": "No remaining node charge."
+      },
+      {
+        "label": "k · Opposite-sign q₂",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "C",
+        "tolerance": 1e-32,
+        "explanation": "Equal opposite initial charges cancel."
+      },
+      {
+        "label": "l · Opposite-sign V₂",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V",
+        "tolerance": 1e-32,
+        "explanation": "No remaining node charge."
+      }
+    ],
+    "reasoning": "Conserve charge on newly connected nodes for each separate reconnection experiment. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-73",
+    "parts": [
+      {
+        "label": "Magnitude of VA−VB",
+        "type": "numeric",
+        "answer": 5.25,
+        "unit": "V",
+        "tolerance": 0.042,
+        "explanation": "C₁ has3V; C₁+C₂=30μF carries90μC, shared by C₃+C₄=40μF."
+      }
+    ],
+    "reasoning": "The central wire ties the junctions: the left pair is parallel, the right pair is parallel, and those two groups are in series. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-74",
+    "parts": [
+      {
+        "label": "Best sheet",
+        "type": "choice",
+        "answer": "Mica",
+        "options": [
+          "Mica",
+          "Glass",
+          "Paraffin"
+        ],
+        "explanation": "Compare κ/d: mica54000m⁻¹,glass3500m⁻¹,paraffin200m⁻¹."
+      }
+    ],
+    "reasoning": "Equal plate area means maximizingκ/d maximizes capacitance. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-75",
+    "parts": [
+      {
+        "label": "Unknown capacitance",
+        "type": "numeric",
+        "answer": 4e-05,
+        "unit": "F",
+        "tolerance": 3.2e-07,
+        "explanation": "Initial100C equals final40(C+60μF)."
+      }
+    ],
+    "reasoning": "The isolated reconnection conserves charge. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-76",
+    "parts": [
+      {
+        "label": "Number in series",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "capacitors",
+        "tolerance": 0,
+        "explanation": "Ceq=2U/V²=.5μF; n=C/Ceq=4."
+      }
+    ],
+    "reasoning": "Source energy is25μJ and each unit is2μF. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-77",
+    "parts": [
+      {
+        "label": "a · Field in dielectric",
+        "type": "numeric",
+        "answer": 200000.0,
+        "unit": "V/m",
+        "tolerance": 1600.0,
+        "explanation": "Battery fixes the sameV/d in each parallel capacitor."
+      },
+      {
+        "label": "b · Field in air",
+        "type": "numeric",
+        "answer": 200000.0,
+        "unit": "V/m",
+        "tolerance": 1600.0,
+        "explanation": "Eair=V/d."
+      },
+      {
+        "label": "c · Free charge density onA",
+        "type": "numeric",
+        "answer": 1.77e-06,
+        "unit": "C/m²",
+        "tolerance": 1.416e-08,
+        "explanation": "σA=ε₀E."
+      },
+      {
+        "label": "d · Free charge density onB",
+        "type": "numeric",
+        "answer": 4.602000000000001e-06,
+        "unit": "C/m²",
+        "tolerance": 3.681600000000001e-08,
+        "explanation": "σB=κε₀E."
+      },
+      {
+        "label": "e · Bound top-surface charge density",
+        "type": "numeric",
+        "answer": -2.832e-06,
+        "unit": "C/m²",
+        "tolerance": 2.2656e-08,
+        "explanation": "The dielectric surface next to the positive plate is negative."
+      }
+    ],
+    "reasoning": "The dielectric increases free charge at fixed voltage but does not reduce the field relative to the parallel air capacitor. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ],
+    "scope": "Part(e) uses signed bound charge density on the upper dielectric surface; its magnitude is (κ−1)ε₀E."
+  },
+  {
+    "id": "physics-chapter-25-problems-78",
+    "parts": [
+      {
+        "label": "a · 0.40μF at1000V",
+        "type": "choice",
+        "answer": "Five2.0μF capacitors in series",
+        "options": [
+          "Five2.0μF capacitors in series",
+          "Five2.0μF capacitors in parallel",
+          "Two2.0μF capacitors in series"
+        ],
+        "explanation": "Five units divide1000V into200V each and give2/5μF."
+      },
+      {
+        "label": "b · 1.2μF at1000V",
+        "type": "choice",
+        "answer": "Three parallel branches, each with five capacitors in series",
+        "options": [
+          "Three parallel branches, each with five capacitors in series",
+          "Three capacitors in series",
+          "Five parallel branches of three in series"
+        ],
+        "explanation": "Three0.40μF branches add to1.2μF, with200V per unit."
+      }
+    ],
+    "reasoning": "Use matched ideal units so series voltage sharing is equal. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-79",
+    "parts": [
+      {
+        "label": "a · Force magnitude",
+        "type": "choice",
+        "answer": "F=q²/(2ε₀A)",
+        "options": [
+          "F=q²/(2ε₀A)",
+          "F=q²/(ε₀A)",
+          "F=2q²/(ε₀A)"
+        ],
+        "explanation": "Differentiate U=q²x/(2ε₀A) with respect to separation at fixedq."
+      },
+      {
+        "label": "b · Pressure and field energy",
+        "type": "choice",
+        "answer": "F/A=ε₀E²/2=u",
+        "options": [
+          "F/A=ε₀E²/2=u",
+          "F/A=ε₀E²",
+          "F/A=u/2"
+        ],
+        "explanation": "Substitute E=q/(ε₀A) into force per area."
+      }
+    ],
+    "reasoning": "The force is attractive; magnitude equals the positive work needed per separation increase. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-problems-80",
+    "parts": [
+      {
+        "label": "a · Final total field energy",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "J",
+        "tolerance": 0.016,
+        "explanation": "Equal charge division implies equal capacitances; equivalentC doubles while totalQ staysfixed."
+      },
+      {
+        "label": "b · Missing energy goes to",
+        "type": "choice",
+        "answer": "Heat in the connection and electromagnetic radiation",
+        "options": [
+          "Heat in the connection and electromagnetic radiation",
+          "Charge disappears",
+          "The final capacitors retain all4J"
+        ],
+        "explanation": "Charging currents dissipate/radiate energy even when an idealized final-state circuit omits resistance."
+      }
+    ],
+    "reasoning": "Final energy Q²/[2(2C)] is half the initial4J. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-1",
+    "parts": [
+      {
+        "label": "Capacitor-to-plot mapping",
+        "type": "choice",
+        "answer": "1→b,2→a,3→c",
+        "options": [
+          "1→b,2→a,3→c",
+          "1→a,2→b,3→c",
+          "1→c,2→b,3→a"
+        ],
+        "explanation": "Slopeq/V=C=ε₀A/d; relative slopes are1,2,1/2."
+      }
+    ],
+    "reasoning": "Largest area gives the steepest charge-voltage line. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-2",
+    "parts": [
+      {
+        "label": "a · Series equivalent",
+        "type": "choice",
+        "answer": "C/3",
+        "options": [
+          "C/3",
+          "3C",
+          "C"
+        ],
+        "explanation": "Series inverse capacitances add."
+      },
+      {
+        "label": "b · Parallel equivalent",
+        "type": "choice",
+        "answer": "3C",
+        "options": [
+          "3C",
+          "C/3",
+          "C"
+        ],
+        "explanation": "Parallel capacitances add."
+      },
+      {
+        "label": "c · More equivalent charge at fixed voltage",
+        "type": "choice",
+        "answer": "Parallel",
+        "options": [
+          "Parallel",
+          "Series",
+          "Equal"
+        ],
+        "explanation": "Equivalent charge isCeqV."
+      }
+    ],
+    "reasoning": "For the same battery, stored equivalent charge follows equivalent capacitance. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-3",
+    "parts": [
+      {
+        "label": "a · Are1 and3 in series?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only when C₁=C₃"
+        ],
+        "explanation": "Their shared node also branches through capacitor2."
+      },
+      {
+        "label": "b · Are1 and2 in parallel?",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only when C₁=C₂"
+        ],
+        "explanation": "They connect the same two nodes."
+      },
+      {
+        "label": "c · Equivalent-capacitance ranking",
+        "type": "choice",
+        "answer": "a=b=c=d",
+        "options": [
+          "a=b=c=d",
+          "a>b>c>d",
+          "d>c>b>a"
+        ],
+        "explanation": "Each drawing is C₃ in series with the parallel pair C₁+C₂."
+      }
+    ],
+    "reasoning": "Follow wire nodes rather than capacitor placement on the page. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      22,
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-4",
+    "parts": [
+      {
+        "label": "a · Left charge increases in",
+        "type": "choice",
+        "answer": "Circuit2",
+        "options": [
+          "Circuit2",
+          "Circuit1",
+          "Circuit3"
+        ],
+        "explanation": "Final left charge is9q×CL/(CL+CR):6.75q in2."
+      },
+      {
+        "label": "b · Left charge decreases in",
+        "type": "choice",
+        "answer": "Circuit3",
+        "options": [
+          "Circuit3",
+          "Circuit1",
+          "Circuit2"
+        ],
+        "explanation": "Circuit3 shares9q equally, leaving4.5q on the left."
+      },
+      {
+        "label": "c · Left charge unchanged in",
+        "type": "choice",
+        "answer": "Circuit1",
+        "options": [
+          "Circuit1",
+          "Circuit2",
+          "Circuit3"
+        ],
+        "explanation": "Circuit1 final left charge is9q×2/3=6q."
+      }
+    ],
+    "reasoning": "Conserve9q on the connected upper node in each isolated pair. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-5",
+    "parts": [
+      {
+        "label": "a · V₁ after parallel addition",
+        "type": "choice",
+        "answer": "Unchanged",
+        "options": [
+          "Unchanged",
+          "Increases",
+          "Decreases"
+        ],
+        "explanation": "The battery fixesV₁."
+      },
+      {
+        "label": "b · q₁ after parallel addition",
+        "type": "choice",
+        "answer": "Unchanged",
+        "options": [
+          "Unchanged",
+          "Increases",
+          "Decreases"
+        ],
+        "explanation": "q₁=C₁V remains unchanged."
+      },
+      {
+        "label": "c · Equivalent capacitance",
+        "type": "choice",
+        "answer": "Greater than C₁",
+        "options": [
+          "Greater than C₁",
+          "Less than C₁",
+          "Equal to C₁"
+        ],
+        "explanation": "Ceq=C₁+C₂."
+      },
+      {
+        "label": "d · Combined equivalent charge",
+        "type": "choice",
+        "answer": "Greater than the original charge",
+        "options": [
+          "Greater than the original charge",
+          "Less than the original charge",
+          "Equal to the original charge"
+        ],
+        "explanation": "The battery supplies(C₁+C₂)V."
+      }
+    ],
+    "reasoning": "Adding a parallel branch does not change an ideal battery voltage. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-6",
+    "parts": [
+      {
+        "label": "a · V₁ after series addition",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Increases",
+          "Unchanged"
+        ],
+        "explanation": "The battery voltage divides between the two series capacitors."
+      },
+      {
+        "label": "b · q₁ after series addition",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Increases",
+          "Unchanged"
+        ],
+        "explanation": "q=C₁C₂V/(C₁+C₂)<C₁V."
+      },
+      {
+        "label": "c · Equivalent capacitance",
+        "type": "choice",
+        "answer": "Less than C₁",
+        "options": [
+          "Less than C₁",
+          "Greater than C₁",
+          "Equal to C₁"
+        ],
+        "explanation": "Series capacitance is less than either individual capacitance."
+      },
+      {
+        "label": "d · Equivalent pair charge",
+        "type": "choice",
+        "answer": "Less than the original charge",
+        "options": [
+          "Less than the original charge",
+          "Greater than the original charge",
+          "Equal to the original charge"
+        ],
+        "explanation": "The pair charge is the common series chargeCeqV."
+      }
+    ],
+    "reasoning": "Equivalent capacitor charge is counted once, not as the sum of both positive-plate magnitudes. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ],
+    "scope": "These are the textbook comparisons for a newly charged series arrangement. Literal insertion beside an already charged isolated junction requires preserving its initial net charge and can give a different result. For(d), equivalent-pair charge is the common series charge; the sum of positive-plate magnitudes is2CeqV and depends on C₂/C₁."
+  },
+  {
+    "id": "physics-chapter-25-questions-7",
+    "parts": [
+      {
+        "label": "a · Connection",
+        "type": "choice",
+        "answer": "Series",
+        "options": [
+          "Series",
+          "Parallel",
+          "Neither"
+        ],
+        "explanation": "Only one loop; intermediate node has no extra branch."
+      },
+      {
+        "label": "b · Connection",
+        "type": "choice",
+        "answer": "Parallel",
+        "options": [
+          "Parallel",
+          "Series",
+          "Neither"
+        ],
+        "explanation": "The outer wire joins both outer capacitor plates to the left battery terminal; both middle plates join the right battery terminal."
+      },
+      {
+        "label": "c · Connection",
+        "type": "choice",
+        "answer": "Parallel",
+        "options": [
+          "Parallel",
+          "Series",
+          "Neither"
+        ],
+        "explanation": "Each capacitor directly connects the two battery nodes."
+      }
+    ],
+    "reasoning": "Identify each capacitor terminal node without relying on orientation. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-8",
+    "parts": [
+      {
+        "label": "a · Voltage across each",
+        "type": "choice",
+        "answer": "V/3",
+        "options": [
+          "V/3",
+          "V",
+          "3V"
+        ],
+        "explanation": "Three equal series capacitors divide the battery voltage equally."
+      },
+      {
+        "label": "b · Charge on each left plate",
+        "type": "choice",
+        "answer": "+CV/3",
+        "options": [
+          "+CV/3",
+          "−CV/3",
+          "+CV"
+        ],
+        "explanation": "The leftmost terminal is connected to the positive battery terminal; induced charges alternate across floating nodes."
+      },
+      {
+        "label": "c · Charge through meter",
+        "type": "choice",
+        "answer": "CV/3",
+        "options": [
+          "CV/3",
+          "CV",
+          "3CV"
+        ],
+        "explanation": "The battery supplies the common series charge."
+      }
+    ],
+    "reasoning": "The middle plates obtain equal and opposite induced charges while each capacitor has positive left plate. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-9",
+    "parts": [
+      {
+        "label": "a · Capacitance",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "C=ε₀A/d."
+      },
+      {
+        "label": "b · Voltage",
+        "type": "choice",
+        "answer": "Unchanged",
+        "options": [
+          "Unchanged",
+          "Increases",
+          "Decreases"
+        ],
+        "explanation": "The connected battery fixes voltage."
+      },
+      {
+        "label": "c · Charge",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "q=CV."
+      },
+      {
+        "label": "d · Energy",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "U=CV²/2 at fixedV."
+      },
+      {
+        "label": "e · Field magnitude",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "E=V/d."
+      },
+      {
+        "label": "f · Energy density",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "u=ε₀E²/2."
+      }
+    ],
+    "reasoning": "At fixed battery voltage decreasingd increases capacitance and field. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-10",
+    "parts": [
+      {
+        "label": "a · Filled capacitor capacitance",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "C becomesκC."
+      },
+      {
+        "label": "b · Filled capacitor charge",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "Series charge becomesκCV/(κ+1), larger thanCV/2."
+      },
+      {
+        "label": "c · Filled capacitor voltage",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Increases",
+          "Unchanged"
+        ],
+        "explanation": "Its voltage becomesV/(κ+1), belowV/2."
+      },
+      {
+        "label": "d · Filled capacitor energy",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Increases",
+          "Unchanged"
+        ],
+        "explanation": "Relative energy factor4κ/(κ+1)² is below1 forκ>1."
+      },
+      {
+        "label": "e · Other capacitor capacitance",
+        "type": "choice",
+        "answer": "Unchanged",
+        "options": [
+          "Unchanged",
+          "Increases",
+          "Decreases"
+        ],
+        "explanation": "Its geometry and material do not change."
+      },
+      {
+        "label": "e · Other capacitor charge",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "The common series charge increases."
+      },
+      {
+        "label": "e · Other capacitor voltage",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "Its fixedC and largerq give largerV."
+      },
+      {
+        "label": "e · Other capacitor energy",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Unchanged"
+        ],
+        "explanation": "Its fixedC energyq²/(2C) increases."
+      }
+    ],
+    "reasoning": "Battery remains connected to two originally equal capacitors in series. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  },
+  {
+    "id": "physics-chapter-25-questions-11",
+    "parts": [
+      {
+        "label": "Charge ranking",
+        "type": "choice",
+        "answer": "Parallel > C₁ alone > C₂ alone > series",
+        "options": [
+          "Parallel > C₁ alone > C₂ alone > series",
+          "C₁ alone > parallel > C₂ alone > series",
+          "Series > C₁ alone > C₂ alone > parallel"
+        ],
+        "explanation": "At fixed battery voltage equivalent charge follows C, with C₁>C₂."
+      }
+    ],
+    "reasoning": "This ranks charge on each equivalent arrangement, counting common series charge once. Verification: substitute the stated values into the capacitance, conserved-node-charge and energy relations; check SI units and the circuit nodes against the original diagram.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal capacitors, negligible fringing and leakage; ε₀=8.85×10⁻¹² F/m. Source μF and μC are converted to SI."
+    ]
+  }
+]

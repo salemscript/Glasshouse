@@ -1,0 +1,3548 @@
+[
+  {
+    "id": "physics-chapter-30-problems-1",
+    "parts": [
+      {
+        "label": "Induced emf",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V",
+        "tolerance": 1e-30,
+        "explanation": "Flux BAcosθ is constant even while the normal precesses."
+      }
+    ],
+    "reasoning": "Rotation alone is not enough; only changing linked flux creates emf. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-2",
+    "parts": [
+      {
+        "label": "Induced emf magnitude",
+        "type": "numeric",
+        "answer": 0.4523893421169302,
+        "unit": "V",
+        "tolerance": 0.0036191147369354416,
+        "explanation": "|d(πr²B)/dt|=2πBr|dr/dt|."
+      }
+    ],
+    "reasoning": "Convert75cm/s to.75m/s. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-3",
+    "parts": [
+      {
+        "label": "Coil current",
+        "type": "numeric",
+        "answer": 0.03020501179667425,
+        "unit": "A",
+        "tolerance": 0.00024164009437339403,
+        "explanation": "i=Nμ₀nAsole|ΔI/Δt|/R; use solenoid area, not coil area."
+      }
+    ],
+    "reasoning": "Field is confined to the smaller solenoid. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-4",
+    "parts": [
+      {
+        "label": "a · Emf magnitude",
+        "type": "numeric",
+        "answer": 0.011309733552923255,
+        "unit": "V",
+        "tolerance": 9.047786842338604e-05,
+        "explanation": "Field rises.5T in2s."
+      },
+      {
+        "label": "b · Emf magnitude",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V",
+        "tolerance": 1e-30,
+        "explanation": "The field plateau has zero derivative."
+      },
+      {
+        "label": "c · Emf magnitude",
+        "type": "numeric",
+        "answer": 0.011309733552923255,
+        "unit": "V",
+        "tolerance": 9.047786842338604e-05,
+        "explanation": "Field falls.5T in2s."
+      }
+    ],
+    "reasoning": "The two nonzero emfs have opposite senses; the prompt requests their scalar magnitudes. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-5",
+    "parts": [
+      {
+        "label": "Induced loop current",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A",
+        "tolerance": 1e-30,
+        "explanation": "Equal and opposite flux above and below the centered wire cancels for every current."
+      }
+    ],
+    "reasoning": "Reflection symmetry makes total linked flux identically zero. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-6",
+    "parts": [
+      {
+        "label": "Field slope a",
+        "type": "numeric",
+        "answer": 0.008,
+        "unit": "T/s",
+        "tolerance": 6.4e-05,
+        "explanation": "Graph currents1.5mA and.5mA; R=6μV/1.5mA=.004Ω; |emf_ind|=R(1mA)=4μV; a=emf/A."
+      }
+    ],
+    "reasoning": "Original PDF battery is6.00μV, not OCRmV; induced emf opposes battery. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-7",
+    "parts": [
+      {
+        "label": "a · Emf magnitude",
+        "type": "numeric",
+        "answer": 0.031,
+        "unit": "V",
+        "tolerance": 0.000248,
+        "explanation": "dΦ/dt=(12t+7)mWb/s at2s."
+      },
+      {
+        "label": "b · Current through R",
+        "type": "choice",
+        "answer": "Right to left",
+        "options": [
+          "Right to left",
+          "Left to right",
+          "No current"
+        ],
+        "explanation": "Outward flux increases, requiring clockwise circulation."
+      }
+    ],
+    "reasoning": "A clockwise loop travels through the bottom resistor right to left. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-8",
+    "parts": [
+      {
+        "label": "Required field change rate",
+        "type": "numeric",
+        "answer": 1.377135891585552,
+        "unit": "T/s",
+        "tolerance": 0.011017087132684417,
+        "explanation": "Use wire lengthπDloop and wire areaπdwire²/4 in R=ρl/A."
+      }
+    ],
+    "reasoning": "The wire diameter and loop diameter enter different areas. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-9",
+    "parts": [
+      {
+        "label": "Emf amplitude",
+        "type": "numeric",
+        "answer": 0.00019802611987867902,
+        "unit": "V",
+        "tolerance": 1.5842089590294323e-06,
+        "explanation": "Amplitude Aμ₀nI₀ω."
+      }
+    ],
+    "reasoning": "854turns/cm=85400turns/m. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-10",
+    "parts": [
+      {
+        "label": "a · Emf magnitude",
+        "type": "numeric",
+        "answer": 0.05136170137974988,
+        "unit": "V",
+        "tolerance": 0.00041089361103799907,
+        "explanation": "The two half-loop area vectors add to πr²/√2 alongB."
+      },
+      {
+        "label": "b · Viewed along B",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "None"
+        ],
+        "explanation": "Decreasing B induces a field along the original B; viewed in its direction, circulation is clockwise."
+      }
+    ],
+    "reasoning": "Use the vector projected area, not the original flat area. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-11",
+    "parts": [
+      {
+        "label": "a · Generator emf",
+        "type": "choice",
+        "answer": "ε=2πfNabB sin(2πft)",
+        "options": [
+          "ε=2πfNabB sin(2πft)",
+          "ε=NabB cos(2πft)",
+          "ε=2πfNabB cos²(2πft)"
+        ],
+        "explanation": "Differentiate Φ=NabBcos(2πft)."
+      },
+      {
+        "label": "b · Nab",
+        "type": "numeric",
+        "answer": 0.7957747154594768,
+        "unit": "m²",
+        "tolerance": 0.006366197723675814,
+        "explanation": "Nab=ε₀/(2πfB)."
+      }
+    ],
+    "reasoning": "Each turn has areaab, and all turns link the same sinusoidal flux. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-12",
+    "parts": [
+      {
+        "label": "a · Emf for static Bz(y)",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V",
+        "tolerance": 1e-30,
+        "explanation": "The fixed loop sees static flux."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "None",
+        "options": [
+          "None",
+          "Clockwise",
+          "Counterclockwise"
+        ],
+        "explanation": "No linked-flux change."
+      },
+      {
+        "label": "c · Emf for Bz=.06t",
+        "type": "numeric",
+        "answer": 0.006,
+        "unit": "V",
+        "tolerance": 4.8e-05,
+        "explanation": "AreaLW times field time derivative."
+      },
+      {
+        "label": "d · Direction",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "None"
+        ],
+        "explanation": "Increasing outward field is opposed."
+      },
+      {
+        "label": "e · Emf for Bz=.08yt",
+        "type": "numeric",
+        "answer": 0.001,
+        "unit": "V",
+        "tolerance": 8e-06,
+        "explanation": "Integrate y from0 toW."
+      },
+      {
+        "label": "f · Direction",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "None"
+        ],
+        "explanation": "Positive outward flux increases."
+      },
+      {
+        "label": "g · Emf for By=.03xt",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V",
+        "tolerance": 1e-30,
+        "explanation": "In-plane field has zero normal component."
+      },
+      {
+        "label": "h · Direction",
+        "type": "choice",
+        "answer": "None",
+        "options": [
+          "None",
+          "Clockwise",
+          "Counterclockwise"
+        ],
+        "explanation": "Zero linked flux."
+      },
+      {
+        "label": "i · Emf for Bx=.05yt",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V",
+        "tolerance": 1e-30,
+        "explanation": "In-plane field has zero normal component."
+      },
+      {
+        "label": "j · Direction",
+        "type": "choice",
+        "answer": "None",
+        "options": [
+          "None",
+          "Clockwise",
+          "Counterclockwise"
+        ],
+        "explanation": "Zero linked flux."
+      }
+    ],
+    "reasoning": "The loop occupies0<x<L,0<y<W in the original diagram. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-13",
+    "parts": [
+      {
+        "label": "Transferred charge",
+        "type": "numeric",
+        "answer": 0.029538461538461538,
+        "unit": "C",
+        "tolerance": 0.00023630769230769232,
+        "explanation": "q=|NΔΦ|/R; reversal changesB by3.2T."
+      }
+    ],
+    "reasoning": "Time profile cancels on integrating Faraday law. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-14",
+    "parts": [
+      {
+        "label": "Loop resistance",
+        "type": "numeric",
+        "answer": 0.0012,
+        "unit": "Ω",
+        "tolerance": 9.6e-06,
+        "explanation": "q=AΔB/R; graph endpointB9mT,q6mC."
+      }
+    ],
+    "reasoning": "Source charge unit is mC; both linear plots span the same time. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-15",
+    "parts": [
+      {
+        "label": "a · Net emf magnitude",
+        "type": "numeric",
+        "answer": 21.74,
+        "unit": "V",
+        "tolerance": 0.17392,
+        "explanation": "The changing field covers half the4m² square, giving1.74 V aiding the20 V battery."
+      },
+      {
+        "label": "b · Net direction",
+        "type": "choice",
+        "answer": "Counterclockwise",
+        "options": [
+          "Counterclockwise",
+          "Clockwise",
+          "None"
+        ],
+        "explanation": "The battery and induced emf both drive counterclockwise circulation."
+      }
+    ],
+    "reasoning": "The long positive battery plate is toward the right vertex; it drives counterclockwise current. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-16",
+    "parts": [
+      {
+        "label": "a · Induced current magnitude",
+        "type": "numeric",
+        "answer": 8e-06,
+        "unit": "A",
+        "tolerance": 6.4e-08,
+        "explanation": "Equal regions have slopes(1+.5−2.5)Bs/ts=−Bs/ts."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Counterclockwise",
+        "options": [
+          "Counterclockwise",
+          "Clockwise",
+          "None"
+        ],
+        "explanation": "Net outward flux decreases, so induced field is outward."
+      }
+    ],
+    "reasoning": "Original axis Bs=4.0μT and resistance5.0mΩ; read B₂ endpoint .5Bs. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-17",
+    "parts": [
+      {
+        "label": "a · Field magnitude at0",
+        "type": "numeric",
+        "answer": 0.00012566370614359174,
+        "unit": "T",
+        "tolerance": 1.005309649148734e-06,
+        "explanation": "B=μ₀I/(2R)."
+      },
+      {
+        "label": "b · Field magnitude at.5s",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Current crosses zero."
+      },
+      {
+        "label": "c · Field magnitude at1s",
+        "type": "numeric",
+        "answer": 0.00012566370614359174,
+        "unit": "T",
+        "tolerance": 1.005309649148734e-06,
+        "explanation": "Current has equal reversed magnitude."
+      },
+      {
+        "label": "d · Does B reverse?",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only its magnitude changes"
+        ],
+        "explanation": "The source current reverses."
+      },
+      {
+        "label": "e · Emf at.5s",
+        "type": "numeric",
+        "answer": 5.02654824574367e-08,
+        "unit": "V",
+        "tolerance": 4.0212385965949356e-10,
+        "explanation": "A|dB/dt| remains nonzero whenB=0."
+      }
+    ],
+    "reasoning": "Emf depends on derivative, not instantaneous field magnitude. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-18",
+    "parts": [
+      {
+        "label": "a · Flux at3s",
+        "type": "numeric",
+        "answer": 85.17600000000002,
+        "unit": "Wb",
+        "tolerance": 0.6814080000000001,
+        "explanation": "For90° rails, triangle area=(vt)²."
+      },
+      {
+        "label": "b · Emf at3s",
+        "type": "numeric",
+        "answer": 56.784000000000006,
+        "unit": "V",
+        "tolerance": 0.45427200000000006,
+        "explanation": "Differentiate Bv²t²."
+      },
+      {
+        "label": "c · Exponent n",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "Emf is proportional tot."
+      }
+    ],
+    "reasoning": "The bar moves along the angle bisector, so triangle base is2vt. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-19",
+    "parts": [
+      {
+        "label": "Maximum emf",
+        "type": "numeric",
+        "answer": 5497.787143782138,
+        "unit": "V",
+        "tolerance": 43.982297150257104,
+        "explanation": "ε₀=NABω."
+      }
+    ],
+    "reasoning": "Convert rev/min to radians per second. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-20",
+    "parts": [
+      {
+        "label": "Charge through meter",
+        "type": "numeric",
+        "answer": 1.5482289298801723e-05,
+        "unit": "C",
+        "tolerance": 1.238583143904138e-07,
+        "explanation": "Flux flips sign; use verticalB=Bsin70° and total225Ω."
+      }
+    ],
+    "reasoning": "The charge is independent of the flip speed. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-21",
+    "parts": [
+      {
+        "label": "a · Frequency",
+        "type": "numeric",
+        "answer": 40,
+        "unit": "Hz",
+        "tolerance": 0.32,
+        "explanation": "One sinusoidal cycle per revolution."
+      },
+      {
+        "label": "b · Emf amplitude",
+        "type": "numeric",
+        "answer": 0.003158273408348595,
+        "unit": "V",
+        "tolerance": 2.526618726678876e-05,
+        "explanation": "Only a semicircle rotates, areaπa²/2."
+      }
+    ],
+    "reasoning": "The stationary resistor closes the loop. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-22",
+    "parts": [
+      {
+        "label": "Induced emf magnitude",
+        "type": "numeric",
+        "answer": 0.018,
+        "unit": "V",
+        "tolerance": 0.000144,
+        "explanation": "|AB sinθ dθ/dt| atθ=π/2."
+      }
+    ],
+    "reasoning": "Angular speed is already in radians per second. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-23",
+    "parts": [
+      {
+        "label": "a · Flux as function of x",
+        "type": "choice",
+        "answer": "Φ=μ₀iπr²R²/[2(R²+x²)^(3/2)]",
+        "options": [
+          "Φ=μ₀iπr²R²/[2(R²+x²)^(3/2)]",
+          "Φ=μ₀iπr²/(2x)",
+          "Φ=μ₀iπR²/(2r)"
+        ],
+        "explanation": "Use the axial field of the large loop times the small area."
+      },
+      {
+        "label": "b · Emf magnitude",
+        "type": "choice",
+        "answer": "ε=3μ₀iπr²R²xv/[2(R²+x²)^(5/2)]",
+        "options": [
+          "ε=3μ₀iπr²R²xv/[2(R²+x²)^(5/2)]",
+          "ε=μ₀iπr²v/(2x)",
+          "ε=0"
+        ],
+        "explanation": "Differentiate the axial-field factor withdx/dt=v."
+      },
+      {
+        "label": "c · Small-loop sense viewed from above",
+        "type": "choice",
+        "answer": "Counterclockwise",
+        "options": [
+          "Counterclockwise",
+          "Clockwise",
+          "None"
+        ],
+        "explanation": "The outward axial flux decreases as the loops separate."
+      }
+    ],
+    "reasoning": "Assume r small enough for uniform field over its area; source x≫R permits the corresponding far-field approximation. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-24",
+    "parts": [
+      {
+        "label": "a · Emf magnitude",
+        "type": "numeric",
+        "answer": 2.356194490192345e-05,
+        "unit": "V",
+        "tolerance": 1.884955592153876e-07,
+        "explanation": "Only the yz projected quadrant linksBx."
+      },
+      {
+        "label": "b · Current in bc",
+        "type": "choice",
+        "answer": "From c to b",
+        "options": [
+          "From c to b",
+          "From b to c",
+          "No current"
+        ],
+        "explanation": "Increasing+x field induces a−x loop normal."
+      }
+    ],
+    "reasoning": "Projection onto the plane normal toB determines linked area. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-25",
+    "parts": [
+      {
+        "label": "a · Flux per length for opposite currents",
+        "type": "numeric",
+        "answer": 1.3090354888959127e-05,
+        "unit": "Wb/m",
+        "tolerance": 1.0472283911167301e-07,
+        "explanation": "Integrate internal linearB and external1/r fields of both wires."
+      },
+      {
+        "label": "b · Flux percentage inside wires",
+        "type": "numeric",
+        "answer": 17.250518444346326,
+        "unit": "%",
+        "tolerance": 0.1380041475547706,
+        "explanation": "Include both self-field and other-wire field inside each half-wire region."
+      },
+      {
+        "label": "c · Net flux per length for parallel currents",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "Wb/m",
+        "tolerance": 1e-30,
+        "explanation": "Fields oppose and their signed integrals cancel by midpoint symmetry."
+      }
+    ],
+    "reasoning": "Uniform current density within each wire; flux means the oriented net flux between central axes. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-26",
+    "parts": [
+      {
+        "label": "a · Emf magnitude",
+        "type": "numeric",
+        "answer": 1.5649904741376886e-07,
+        "unit": "V",
+        "tolerance": 1.251992379310151e-09,
+        "explanation": "Top and bottom signed flux give bμ₀i ln(b/a)/(2π); di/dt=9t−10=17A/s."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Counterclockwise",
+        "options": [
+          "Counterclockwise",
+          "Clockwise",
+          "None"
+        ],
+        "explanation": "Net into-page flux grows."
+      }
+    ],
+    "reasoning": "The wire crosses the loop; do not add both area fluxes with the same sign. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-27",
+    "parts": [
+      {
+        "label": "a · Emf magnitude",
+        "type": "numeric",
+        "answer": 0.00024,
+        "unit": "V",
+        "tolerance": 1.9200000000000003e-06,
+        "explanation": "Integrate y over.02to.04m; |dΦ/dt|=8tAymid."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "None"
+        ],
+        "explanation": "Outward flux increases."
+      }
+    ],
+    "reasoning": "The square is above the x axis, not centered at the origin. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-28",
+    "parts": [
+      {
+        "label": "a · Flux magnitude",
+        "type": "numeric",
+        "answer": 1.4334283693979671e-08,
+        "unit": "Wb",
+        "tolerance": 1.1467426955183737e-10,
+        "explanation": "Integrate μ₀i/(2πy) fromr−b/2tor+b/2."
+      },
+      {
+        "label": "b · Induced current magnitude",
+        "type": "numeric",
+        "answer": 1.0340000000000001e-05,
+        "unit": "A",
+        "tolerance": 8.272000000000002e-08,
+        "explanation": "Differentiate flux as the loop translates; divide by.40mΩ."
+      }
+    ],
+    "reasoning": "The loop center, not its near edge, is at1.5b. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      34
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-29",
+    "parts": [
+      {
+        "label": "a · Emf",
+        "type": "numeric",
+        "answer": 0.048125,
+        "unit": "V",
+        "tolerance": 0.00038500000000000003,
+        "explanation": "ε=BLv."
+      },
+      {
+        "label": "b · Current",
+        "type": "numeric",
+        "answer": 0.002673611111111111,
+        "unit": "A",
+        "tolerance": 2.138888888888889e-05,
+        "explanation": "i=ε/R."
+      },
+      {
+        "label": "c · Thermal power",
+        "type": "numeric",
+        "answer": 0.0001286675347222222,
+        "unit": "W",
+        "tolerance": 1.0293402777777778e-06,
+        "explanation": "P=ε²/R."
+      }
+    ],
+    "reasoning": "Mechanical power supplies Joule heating. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-30",
+    "parts": [
+      {
+        "label": "Loop resistance",
+        "type": "numeric",
+        "answer": 0.0006383802190004384,
+        "unit": "Ω",
+        "tolerance": 5.107041752003507e-06,
+        "explanation": "Graph gives di/dt=.8A/2s and energy slope80nJ/2s; R=ε²/P."
+      }
+    ],
+    "reasoning": "Both graph endpoint values lie one grid interval below the scale-label maxima. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-31",
+    "parts": [
+      {
+        "label": "Thermal power",
+        "type": "numeric",
+        "answer": 3.678692286702463e-06,
+        "unit": "W",
+        "tolerance": 2.9429538293619704e-08,
+        "explanation": "P=(A dB/dt)²/R; R from copper resistivity and wire dimensions."
+      }
+    ],
+    "reasoning": "Use standard copperρ=1.69×10⁻⁸Ωm. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Copper resistivity1.69×10⁻⁸Ωm at approximately20°C."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-32",
+    "parts": [
+      {
+        "label": "Thermal energy",
+        "type": "numeric",
+        "answer": 7.495979664885617e-10,
+        "unit": "J",
+        "tolerance": 5.996783731908494e-12,
+        "explanation": "E=(AΔB)²/(RΔt)."
+      }
+    ],
+    "reasoning": "Source units are17μT and5.21μΩ, not OCRmT/mΩ. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-33",
+    "parts": [
+      {
+        "label": "a · Emf magnitude",
+        "type": "numeric",
+        "answer": 0.0002397895272798371,
+        "unit": "V",
+        "tolerance": 1.918316218238697e-06,
+        "explanation": "Integrate vB along rod froma toa+L."
+      },
+      {
+        "label": "b · Current",
+        "type": "numeric",
+        "answer": 0.0005994738181995927,
+        "unit": "A",
+        "tolerance": 4.795790545596742e-06,
+        "explanation": "i=ε/R."
+      },
+      {
+        "label": "c · Thermal power",
+        "type": "numeric",
+        "answer": 1.4374754348271935e-07,
+        "unit": "W",
+        "tolerance": 1.1499803478617548e-09,
+        "explanation": "i²R."
+      },
+      {
+        "label": "d · Applied force magnitude",
+        "type": "numeric",
+        "answer": 2.874950869654387e-08,
+        "unit": "N",
+        "tolerance": 2.2999606957235096e-10,
+        "explanation": "Use Fv=εi."
+      },
+      {
+        "label": "e · Mechanical power",
+        "type": "numeric",
+        "answer": 1.4374754348271935e-07,
+        "unit": "W",
+        "tolerance": 1.1499803478617548e-09,
+        "explanation": "Equals Joule heat."
+      }
+    ],
+    "reasoning": "The field is nonuniform, so using one endpointB across the rod is incorrect. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-34",
+    "parts": [
+      {
+        "label": "Terminal speed",
+        "type": "choice",
+        "answer": "vₜ=mgR/(B²L²)",
+        "options": [
+          "vₜ=mgR/(B²L²)",
+          "vₜ=mg/(BL)",
+          "vₜ=B²L²/(mgR)"
+        ],
+        "explanation": "At terminal speed mg=iLB andi=BLv/R."
+      }
+    ],
+    "reasoning": "Only the horizontal segment still in the field contributes the net vertical magnetic force. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-35",
+    "parts": [
+      {
+        "label": "a · Emf magnitude",
+        "type": "numeric",
+        "answer": 0.6,
+        "unit": "V",
+        "tolerance": 0.0048,
+        "explanation": "BLv=.12×5."
+      },
+      {
+        "label": "b · Emf direction",
+        "type": "choice",
+        "answer": "Up the rod",
+        "options": [
+          "Up the rod",
+          "Down the rod",
+          "No emf"
+        ],
+        "explanation": "Leftward v crossed with outwardB points upward."
+      },
+      {
+        "label": "c · Current",
+        "type": "numeric",
+        "answer": 1.5,
+        "unit": "A",
+        "tolerance": 0.012,
+        "explanation": "ε/R."
+      },
+      {
+        "label": "d · Loop current",
+        "type": "choice",
+        "answer": "Clockwise",
+        "options": [
+          "Clockwise",
+          "Counterclockwise",
+          "None"
+        ],
+        "explanation": "Current climbs the left moving rod."
+      },
+      {
+        "label": "e · Thermal power",
+        "type": "numeric",
+        "answer": 0.9,
+        "unit": "W",
+        "tolerance": 0.007200000000000001,
+        "explanation": "i²R."
+      },
+      {
+        "label": "f · Applied force magnitude",
+        "type": "numeric",
+        "answer": 0.18,
+        "unit": "N",
+        "tolerance": 0.0014399999999999999,
+        "explanation": "iLB, directed left to oppose magnetic drag."
+      },
+      {
+        "label": "g · Work rate",
+        "type": "numeric",
+        "answer": 0.9,
+        "unit": "W",
+        "tolerance": 0.007200000000000001,
+        "explanation": "Fv equals Joule heat."
+      }
+    ],
+    "reasoning": "Faraday law, Lorentz force, and energy conservation give consistent results. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-36",
+    "parts": [
+      {
+        "label": "a · Oriented integral path1",
+        "type": "numeric",
+        "answer": -0.0010681415022205298,
+        "unit": "V",
+        "tolerance": 8.545132017764239e-06,
+        "explanation": "CCW path1 encloses into-page field whose signedB increases."
+      },
+      {
+        "label": "b · Oriented integral path2",
+        "type": "numeric",
+        "answer": -0.002403318379996192,
+        "unit": "V",
+        "tolerance": 1.9226547039969535e-05,
+        "explanation": "Clockwise path2 surrounds decreasing outwardB."
+      },
+      {
+        "label": "c · Oriented integral path3",
+        "type": "numeric",
+        "answer": 0.0013351768777756618,
+        "unit": "V",
+        "tolerance": 1.0681415022205294e-05,
+        "explanation": "CCW path3 encloses both signed flux changes."
+      }
+    ],
+    "reasoning": "Use the arrows shown on each path; the initial field magnitudes do not set dΦ/dt. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-37",
+    "parts": [
+      {
+        "label": "a · Electric field inside",
+        "type": "numeric",
+        "answer": 7.149999999999999e-05,
+        "unit": "N/C",
+        "tolerance": 5.719999999999999e-07,
+        "explanation": "E=r|dB/dt|/2."
+      },
+      {
+        "label": "b · Electric field outside",
+        "type": "numeric",
+        "answer": 0.0001426829268292683,
+        "unit": "N/C",
+        "tolerance": 1.1414634146341463e-06,
+        "explanation": "E=R²|dB/dt|/(2r)."
+      }
+    ],
+    "reasoning": "Outside the solenoid the enclosed flux saturates atπR²B. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-38",
+    "parts": [
+      {
+        "label": "Field slope a",
+        "type": "numeric",
+        "answer": 0.029999999999999995,
+        "unit": "T/s",
+        "tolerance": 0.00023999999999999998,
+        "explanation": "PeakE=300μN/C atR=.020m; E=aR/2."
+      }
+    ],
+    "reasoning": "Read the graph radius at the maximum, half ofrs=4cm. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-39",
+    "parts": [
+      {
+        "label": "Electric field amplitude",
+        "type": "numeric",
+        "answer": 0.15079644737231007,
+        "unit": "N/C",
+        "tolerance": 0.0012063715789784805,
+        "explanation": "Field sinusoidal amplitude is(30.0−29.6)/2=.2T."
+      }
+    ],
+    "reasoning": "Use the amplitude, not the full peak-to-peak variation. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      35
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-40",
+    "parts": [
+      {
+        "label": "Flux per turn",
+        "type": "numeric",
+        "answer": 1.0000000000000001e-07,
+        "unit": "Wb",
+        "tolerance": 8.000000000000001e-10,
+        "explanation": "Φ=LI/N."
+      }
+    ],
+    "reasoning": "Distinguish flux per turn from total flux linkage. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-41",
+    "parts": [
+      {
+        "label": "a · External flux per turn",
+        "type": "numeric",
+        "answer": 8.168140899333462e-05,
+        "unit": "Wb",
+        "tolerance": 6.53451271946677e-07,
+        "explanation": "BA for each turn."
+      },
+      {
+        "label": "b · Inductance",
+        "type": "numeric",
+        "answer": 0.000644853228894747,
+        "unit": "H",
+        "tolerance": 5.1588258311579766e-06,
+        "explanation": "Self flux must cancel external flux:LI=NΦext."
+      }
+    ],
+    "reasoning": "Uniform external field penetrates all 30 turns. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-42",
+    "parts": [
+      {
+        "label": "a · Interior field",
+        "type": "numeric",
+        "answer": 2.7488935718910693e-07,
+        "unit": "T",
+        "tolerance": 2.1991148575128553e-09,
+        "explanation": "A one-turn solenoid has n=1/W."
+      },
+      {
+        "label": "b · Inductance",
+        "type": "numeric",
+        "answer": 7.994379564882379e-09,
+        "unit": "H",
+        "tolerance": 6.395503651905904e-11,
+        "explanation": "L=μ₀A/W."
+      }
+    ],
+    "reasoning": "The uniform sheet current approximates an ideal one-turn solenoid. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-43",
+    "parts": [
+      {
+        "label": "Inductance per length",
+        "type": "numeric",
+        "answer": 1.80789048297539e-06,
+        "unit": "H/m",
+        "tolerance": 1.446312386380312e-08,
+        "explanation": "Integrate fields between inner wire surfaces, excluding internal flux."
+      }
+    ],
+    "reasoning": "The stated approximation neglects flux inside the wire metal. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-44",
+    "parts": [
+      {
+        "label": "Current-change rate magnitude",
+        "type": "numeric",
+        "answer": 5,
+        "unit": "A/s",
+        "tolerance": 0.04,
+        "explanation": "|di/dt|=ε/L=60/12."
+      }
+    ],
+    "reasoning": "Either sign can produce the requested emf magnitude; source asks rate magnitude. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-45",
+    "parts": [
+      {
+        "label": "a · Current behavior",
+        "type": "choice",
+        "answer": "Decreasing",
+        "options": [
+          "Decreasing",
+          "Increasing",
+          "Constant"
+        ],
+        "explanation": "Self-induced emf points with the rightward current, opposing its decrease."
+      },
+      {
+        "label": "b · Inductance",
+        "type": "numeric",
+        "answer": 0.00068,
+        "unit": "H",
+        "tolerance": 5.4400000000000004e-06,
+        "explanation": "L=ε/|di/dt|."
+      }
+    ],
+    "reasoning": "The diagram gives emf and current in the same direction. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-46",
+    "parts": [
+      {
+        "label": "a · Emf magnitude",
+        "type": "numeric",
+        "answer": 16099.999999999998,
+        "unit": "V",
+        "tolerance": 128.79999999999998,
+        "explanation": "Graph rises0to7A in2ms."
+      },
+      {
+        "label": "b · Emf magnitude",
+        "type": "numeric",
+        "answer": 3066.6666666666665,
+        "unit": "V",
+        "tolerance": 24.53333333333333,
+        "explanation": "Graph drops7to5A in3ms."
+      },
+      {
+        "label": "c · Emf magnitude",
+        "type": "numeric",
+        "answer": 23000.0,
+        "unit": "V",
+        "tolerance": 184.0,
+        "explanation": "Graph drops5to0A in1ms."
+      }
+    ],
+    "reasoning": "The8A axis label is above the actual7A peak; winding resistance does not alter Ldi/dt for the supplied current. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-47",
+    "parts": [
+      {
+        "label": "a · Equivalent inductance",
+        "type": "choice",
+        "answer": "L=L₁+L₂",
+        "options": [
+          "L=L₁+L₂",
+          "1/L=1/L₁+1/L₂",
+          "L=L₁−L₂"
+        ],
+        "explanation": "Same current derivative passes through both and emfs add."
+      },
+      {
+        "label": "b · N-inductor generalization",
+        "type": "choice",
+        "answer": "L=ΣLₙ",
+        "options": [
+          "L=ΣLₙ",
+          "1/L=Σ(1/Lₙ)",
+          "L=ΠLₙ"
+        ],
+        "explanation": "Add all series self-induced voltage drops."
+      }
+    ],
+    "reasoning": "Mutual inductance is negligible by the stated separation. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-48",
+    "parts": [
+      {
+        "label": "a · Equivalent inductance",
+        "type": "choice",
+        "answer": "1/L=1/L₁+1/L₂",
+        "options": [
+          "1/L=1/L₁+1/L₂",
+          "L=L₁+L₂",
+          "L=L₁−L₂"
+        ],
+        "explanation": "Parallel branches have equal emf and their current derivatives add."
+      },
+      {
+        "label": "b · N-inductor generalization",
+        "type": "choice",
+        "answer": "1/L=Σ(1/Lₙ)",
+        "options": [
+          "1/L=Σ(1/Lₙ)",
+          "L=ΣLₙ",
+          "L=ΠLₙ"
+        ],
+        "explanation": "Sum branch derivative currents at a shared induced voltage."
+      }
+    ],
+    "reasoning": "No mutual coupling, as stated. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-49",
+    "parts": [
+      {
+        "label": "Equivalent inductance",
+        "type": "numeric",
+        "answer": 0.05928571428571428,
+        "unit": "H",
+        "tolerance": 0.00047428571428571425,
+        "explanation": "L₁ andL₄ are in series with parallelL₂,L₃."
+      }
+    ],
+    "reasoning": "The two right branches share both junctions. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-50",
+    "parts": [
+      {
+        "label": "Time constant",
+        "type": "numeric",
+        "answer": 12.331517311882157,
+        "unit": "s",
+        "tolerance": 0.09865213849505726,
+        "explanation": "1−exp(−5/τ)=1/3."
+      }
+    ],
+    "reasoning": "Solve the exponential buildup, not a linear ramp. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-51",
+    "parts": [
+      {
+        "label": "Resistance",
+        "type": "numeric",
+        "answer": 46.05170185988092,
+        "unit": "Ω",
+        "tolerance": 0.3684136148790474,
+        "explanation": "I/I₀=e^(−Rt/L)=.01."
+      }
+    ],
+    "reasoning": "10mA=.010A. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-52",
+    "parts": [
+      {
+        "label": "a · Emf magnitude ratio",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "dimensionless",
+        "tolerance": 0.008,
+        "explanation": "At closing all battery voltage is acrossL."
+      },
+      {
+        "label": "b · Ratio at2τ",
+        "type": "numeric",
+        "answer": 0.1353352832366127,
+        "unit": "dimensionless",
+        "tolerance": 0.0010826822658929016,
+        "explanation": "εL/ε=e^(−t/τ) in magnitude."
+      },
+      {
+        "label": "c · Time in τ units",
+        "type": "numeric",
+        "answer": 0.6931471805599453,
+        "unit": "dimensionless",
+        "tolerance": 0.005545177444479563,
+        "explanation": "e^(−t/τ)=.5."
+      }
+    ],
+    "reasoning": "Ratios refer to emf magnitudes, not opposite signed loop-rule voltage. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-53",
+    "parts": [
+      {
+        "label": "a · Time to 80%",
+        "type": "numeric",
+        "answer": 8.449549040279027e-09,
+        "unit": "s",
+        "tolerance": 6.759639232223222e-11,
+        "explanation": "t=−(L/R)ln(.2)."
+      },
+      {
+        "label": "b · Current atτ",
+        "type": "numeric",
+        "answer": 0.00737473985299984,
+        "unit": "A",
+        "tolerance": 5.899791882399872e-05,
+        "explanation": "I=(ε/R)(1−e⁻¹)."
+      }
+    ],
+    "reasoning": "Original PDF inductance is6.30μH. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-54",
+    "parts": [
+      {
+        "label": "a · i₁ immediately closed",
+        "type": "numeric",
+        "answer": 3.3333333333333335,
+        "unit": "A",
+        "tolerance": 0.02666666666666667,
+        "explanation": "Inductor branch initially open; R₁+R₂=30Ω."
+      },
+      {
+        "label": "b · i₂ immediately closed",
+        "type": "numeric",
+        "answer": 3.3333333333333335,
+        "unit": "A",
+        "tolerance": 0.02666666666666667,
+        "explanation": "Same series path."
+      },
+      {
+        "label": "c · i₁ steady closed",
+        "type": "numeric",
+        "answer": 4.545454545454546,
+        "unit": "A",
+        "tolerance": 0.03636363636363637,
+        "explanation": "R₂ andR₃ parallel at steady state."
+      },
+      {
+        "label": "d · i₂ steady closed",
+        "type": "numeric",
+        "answer": 2.7272727272727275,
+        "unit": "A",
+        "tolerance": 0.02181818181818182,
+        "explanation": "Junction voltage divided byR₂."
+      },
+      {
+        "label": "e · i₁ immediately reopened",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A",
+        "tolerance": 1e-30,
+        "explanation": "The open switch isolatesR₁."
+      },
+      {
+        "label": "f · i₂ immediately reopened",
+        "type": "numeric",
+        "answer": -1.8181818181818181,
+        "unit": "A",
+        "tolerance": 0.014545454545454545,
+        "explanation": "Inductor current remains continuous and returns upward throughR₂."
+      },
+      {
+        "label": "g · i₁ long after reopening",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A",
+        "tolerance": 1e-30,
+        "explanation": "No source loop."
+      },
+      {
+        "label": "h · i₂ long after reopening",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A",
+        "tolerance": 1e-30,
+        "explanation": "Stored energy has decayed."
+      }
+    ],
+    "reasoning": "Track the inductor current through the switching event and retain the indicated signs. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-55",
+    "parts": [
+      {
+        "label": "Time in τ units",
+        "type": "numeric",
+        "answer": 6.907755278982137,
+        "unit": "dimensionless",
+        "tolerance": 0.05526204223185709,
+        "explanation": "Remaining deficit.001=e^(−t/τ)."
+      }
+    ],
+    "reasoning": "0.100% less means99.900% of final current. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-56",
+    "parts": [
+      {
+        "label": "Current slope at 1.5τ",
+        "type": "numeric",
+        "answer": 714.0165124749755,
+        "unit": "A/s",
+        "tolerance": 5.7121320997998035,
+        "explanation": "L=NΔΦ/Δi=.005H; di/dt=(ε/L)e^(−t/τ)."
+      }
+    ],
+    "reasoning": "The graph is flux per turn, so multiply its slope by25. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      36
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-57",
+    "parts": [
+      {
+        "label": "a · Fuse time",
+        "type": "numeric",
+        "answer": 1.5,
+        "unit": "s",
+        "tolerance": 0.012,
+        "explanation": "The ideal fuse shortsR before blowing, so iL=εt/L."
+      },
+      {
+        "label": "b · Current graph",
+        "type": "choice",
+        "answer": "Linear rise to3A at1.5s, then exponential fall toward2/3A",
+        "options": [
+          "Linear rise to3A at1.5s, then exponential fall toward2/3A",
+          "Exponential rise from0 toward2/3A at all times",
+          "Instantaneous jump from3A tozero at1.5s"
+        ],
+        "explanation": "After the fuse opens, iL is continuous and relaxes withτ=L/R."
+      }
+    ],
+    "reasoning": "The fuse branch initially bypasses the resistor; the standard series buildup equation does not apply before opening. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-58",
+    "parts": [
+      {
+        "label": "Battery emf as function of t",
+        "type": "choice",
+        "answer": "ε(t)=42+20t V",
+        "options": [
+          "ε(t)=42+20t V",
+          "ε(t)=12+20t V",
+          "ε(t)=30 V"
+        ],
+        "explanation": "ε=Ri+Ldi/dt=4(3+5t)+6(5)."
+      }
+    ],
+    "reasoning": "Both resistive and inductive voltage drops are required. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-59",
+    "parts": [
+      {
+        "label": "a · Inductor current",
+        "type": "choice",
+        "answer": "iL=i[1−exp(−Rt/L)]",
+        "options": [
+          "iL=i[1−exp(−Rt/L)]",
+          "iL=i exp(−Rt/L)",
+          "iL=itR/L for all times"
+        ],
+        "explanation": "Current-source constraint givesiR=i−iL andLdiL/dt=RiR."
+      },
+      {
+        "label": "b · Equal branch-current time",
+        "type": "choice",
+        "answer": "t=(L/R)ln2",
+        "options": [
+          "t=(L/R)ln2",
+          "t=L/R",
+          "t=2L/R"
+        ],
+        "explanation": "Both branches then carryi/2."
+      }
+    ],
+    "reasoning": "The external source holds total current fixed rather than voltage. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-60",
+    "parts": [
+      {
+        "label": "a · Inductance",
+        "type": "numeric",
+        "answer": 0.00028791066229553244,
+        "unit": "H",
+        "tolerance": 2.3032852983642596e-06,
+        "explanation": "Single-layer turn count is2πrinner/dwire; toroidalL=μ₀N²h ln(b/a)/(2π)."
+      },
+      {
+        "label": "b · Time constant",
+        "type": "numeric",
+        "answer": 0.000286390031707471,
+        "unit": "s",
+        "tolerance": 2.291120253659768e-06,
+        "explanation": "Each turn length is approximately4×2cm=.08m; R=.020Ω/m times total wire length."
+      }
+    ],
+    "reasoning": "Neglect insulation and wire thickness as instructed; inner circumference sets the closest-packed turn count. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-61",
+    "parts": [
+      {
+        "label": "a · Inductance",
+        "type": "numeric",
+        "answer": 97.88075944856088,
+        "unit": "H",
+        "tolerance": 0.783046075588487,
+        "explanation": "2mA/5mA=1−e^(−.005R/L)."
+      },
+      {
+        "label": "b · Stored energy",
+        "type": "numeric",
+        "answer": 0.00019576151889712175,
+        "unit": "J",
+        "tolerance": 1.566092151176974e-06,
+        "explanation": "U=LI²/2 at the stated current."
+      }
+    ],
+    "reasoning": "Assume negligible coil resistance beyond the stated series resistor. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-62",
+    "parts": [
+      {
+        "label": "a · Magnetic-energy rate",
+        "type": "numeric",
+        "answer": 238.6512185411911,
+        "unit": "W",
+        "tolerance": 1.9092097483295287,
+        "explanation": "dU/dt=LI di/dt."
+      },
+      {
+        "label": "b · Thermal power",
+        "type": "numeric",
+        "answer": 154.81812174617548,
+        "unit": "W",
+        "tolerance": 1.2385449739694039,
+        "explanation": "I²R."
+      },
+      {
+        "label": "c · Battery power",
+        "type": "numeric",
+        "answer": 393.46934028736655,
+        "unit": "W",
+        "tolerance": 3.1477547222989326,
+        "explanation": "εI equals magnetic plus thermal power."
+      }
+    ],
+    "reasoning": "Useτ=.2s; evaluate at.1s. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-63",
+    "parts": [
+      {
+        "label": "Time",
+        "type": "numeric",
+        "answer": 0.025646445680717975,
+        "unit": "s",
+        "tolerance": 0.0002051715654457438,
+        "explanation": "RI²=LI di/dt requiresI=I∞/2."
+      }
+    ],
+    "reasoning": "The power rates, not energies, become equal atτln2. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-64",
+    "parts": [
+      {
+        "label": "Time in τ units",
+        "type": "numeric",
+        "answer": 1.2279471772995154,
+        "unit": "dimensionless",
+        "tolerance": 0.009823577418396123,
+        "explanation": "Stored energy fraction is(1−e^(−t/τ))²."
+      }
+    ],
+    "reasoning": "Half the final energy means1/√2 of final current. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-65",
+    "parts": [
+      {
+        "label": "a · Battery energy",
+        "type": "numeric",
+        "answer": 18.670374411675073,
+        "unit": "J",
+        "tolerance": 0.14936299529340058,
+        "explanation": "Integrate εI(t) from0to2s."
+      },
+      {
+        "label": "b · Magnetic energy",
+        "type": "numeric",
+        "answer": 5.10116553643889,
+        "unit": "J",
+        "tolerance": 0.04080932429151112,
+        "explanation": "LI(2)²/2."
+      },
+      {
+        "label": "c · Dissipated energy",
+        "type": "numeric",
+        "answer": 13.569208875236184,
+        "unit": "J",
+        "tolerance": 0.10855367100188947,
+        "explanation": "Battery input minus stored field energy."
+      }
+    ],
+    "reasoning": "The first-law balance exactly partitions the delivered energy. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-66",
+    "parts": [
+      {
+        "label": "a · Center field",
+        "type": "numeric",
+        "answer": 0.0012566370614359172,
+        "unit": "T",
+        "tolerance": 1.0053096491487338e-05,
+        "explanation": "B=μ₀I/(2r)."
+      },
+      {
+        "label": "b · Energy density",
+        "type": "numeric",
+        "answer": 0.6283185307179585,
+        "unit": "J/m³",
+        "tolerance": 0.005026548245743668,
+        "explanation": "u=B²/(2μ₀)."
+      }
+    ],
+    "reasoning": "50mm=.050m. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-67",
+    "parts": [
+      {
+        "label": "a · Energy density",
+        "type": "numeric",
+        "answer": 34.18826791178137,
+        "unit": "J/m³",
+        "tolerance": 0.27350614329425094,
+        "explanation": "Use n=N/l inB=μ₀nI."
+      },
+      {
+        "label": "b · Total field energy",
+        "type": "numeric",
+        "answer": 0.04940204713252407,
+        "unit": "J",
+        "tolerance": 0.0003952163770601926,
+        "explanation": "Multiply by interiorvolumeAl."
+      }
+    ],
+    "reasoning": "Neglect solenoid end effects as stated. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-68",
+    "parts": [
+      {
+        "label": "Current",
+        "type": "numeric",
+        "answer": 5.577733510227171,
+        "unit": "A",
+        "tolerance": 0.04462186808181737,
+        "explanation": "LI²/2=uV."
+      }
+    ],
+    "reasoning": "Magnetic volume and average density determine total energy. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-69",
+    "parts": [
+      {
+        "label": "Electric field magnitude",
+        "type": "numeric",
+        "answer": 149897818.84660813,
+        "unit": "N/C",
+        "tolerance": 1199182.550772865,
+        "explanation": "Set ε₀E²/2=B²/(2μ₀)."
+      }
+    ],
+    "reasoning": "This is E=cB for equal field energy densities. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-70",
+    "parts": [
+      {
+        "label": "a · Wire1 current",
+        "type": "numeric",
+        "answer": 0.023395197229889333,
+        "unit": "A",
+        "tolerance": 0.00018716157783911467,
+        "explanation": "Graph cancellation atx=.20m andi₂=3i₁ puts wire1at−.0667m; asymptote setsB₁."
+      },
+      {
+        "label": "b · Wire2 current",
+        "type": "numeric",
+        "answer": 0.070185591689668,
+        "unit": "A",
+        "tolerance": 0.000561484733517344,
+        "explanation": "Use stated current ratio1/3."
+      }
+    ],
+    "reasoning": "The asymptotic energy density determines the fixed-wire field, and the zero determines its distance. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-71",
+    "parts": [
+      {
+        "label": "a · Magnetic energy density",
+        "type": "numeric",
+        "answer": 1.01859163578813,
+        "unit": "J/m³",
+        "tolerance": 0.00814873308630504,
+        "explanation": "SurfaceB=μ₀I/(2πr)."
+      },
+      {
+        "label": "b · Electric energy density",
+        "type": "numeric",
+        "answer": 4.8210029999999995e-15,
+        "unit": "J/m³",
+        "tolerance": 3.8568023999999994e-17,
+        "explanation": "AxialE=I(R/length)."
+      }
+    ],
+    "reasoning": "Convert3.3Ω/km to.0033Ω/m. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-72",
+    "parts": [
+      {
+        "label": "a · Self flux per turn in1",
+        "type": "numeric",
+        "answer": 1.5e-06,
+        "unit": "Wb",
+        "tolerance": 1.2e-08,
+        "explanation": "Φ₁₁=L₁I₁/N₁."
+      },
+      {
+        "label": "b · Self-emf magnitude in1",
+        "type": "numeric",
+        "answer": 0.1,
+        "unit": "V",
+        "tolerance": 0.0008,
+        "explanation": "L₁|di₁/dt|."
+      },
+      {
+        "label": "c · Mutual flux per turn in2",
+        "type": "numeric",
+        "answer": 9e-08,
+        "unit": "Wb",
+        "tolerance": 7.2e-10,
+        "explanation": "Φ₂₁=MI₁/N₂."
+      },
+      {
+        "label": "d · Mutual-emf magnitude in2",
+        "type": "numeric",
+        "answer": 0.012,
+        "unit": "V",
+        "tolerance": 9.6e-05,
+        "explanation": "M|di₁/dt|."
+      }
+    ],
+    "reasoning": "Flux per turn differs from flux linkage by the receiving turn count. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-73",
+    "parts": [
+      {
+        "label": "a · Mutual inductance",
+        "type": "numeric",
+        "answer": 0.0016666666666666668,
+        "unit": "H",
+        "tolerance": 1.3333333333333335e-05,
+        "explanation": "M=|ε₁|/|di₂/dt|."
+      },
+      {
+        "label": "b · Flux linkage in2",
+        "type": "numeric",
+        "answer": 0.006,
+        "unit": "Wb",
+        "tolerance": 4.8e-05,
+        "explanation": "N₂Φ₂=MI₁; mutual inductance is reciprocal."
+      }
+    ],
+    "reasoning": "Partb explicitly requests linkage rather than flux per turn. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-74",
+    "parts": [
+      {
+        "label": "Mutual inductance",
+        "type": "numeric",
+        "answer": 12.5,
+        "unit": "H",
+        "tolerance": 0.1,
+        "explanation": "M=ε/|ΔI/Δt|."
+      }
+    ],
+    "reasoning": "The rapid primary-current collapse produces the large secondary voltage. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      37
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-75",
+    "parts": [
+      {
+        "label": "Mutual inductance",
+        "type": "numeric",
+        "answer": 1.318334746401732e-05,
+        "unit": "H",
+        "tolerance": 1.0546677971213856e-07,
+        "explanation": "M=Nμ₀l ln((a+b)/a)/(2π)."
+      }
+    ],
+    "reasoning": "Integrate the nonuniform straight-wire field over rectangular turns. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-76",
+    "parts": [
+      {
+        "label": "a · Mutual inductance",
+        "type": "choice",
+        "answer": "M=μ₀πR²nN",
+        "options": [
+          "M=μ₀πR²nN",
+          "M=μ₀πR²n/N",
+          "M=μ₀nNR"
+        ],
+        "explanation": "Each receiving turn links the solenoid fluxμ₀niπR²."
+      },
+      {
+        "label": "b · Independence of receiving-coil geometry",
+        "type": "choice",
+        "answer": "Every turn encloses all the confined solenoid flux",
+        "options": [
+          "Every turn encloses all the confined solenoid flux",
+          "The field outside the solenoid grows to compensate",
+          "Mutual inductance never depends on coil geometry"
+        ],
+        "explanation": "The ideal-solenoid field vanishes outside and the entire interior is enclosed."
+      }
+    ],
+    "reasoning": "AllNturns encircle the ideal long solenoid. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-77",
+    "parts": [
+      {
+        "label": "a · Aiding equivalent inductance",
+        "type": "choice",
+        "answer": "L=L₁+L₂+2M",
+        "options": [
+          "L=L₁+L₂+2M",
+          "L=L₁+L₂",
+          "L=L₁+L₂−2M"
+        ],
+        "explanation": "Both self and reciprocal mutual emfs add."
+      },
+      {
+        "label": "b · How to obtain opposing connection",
+        "type": "choice",
+        "answer": "Reverse the leads of one coil",
+        "options": [
+          "Reverse the leads of one coil",
+          "Reverse both coils together",
+          "Increase separation without changing leads"
+        ],
+        "explanation": "Reversing one current direction changes both mutual cross terms to−M."
+      }
+    ],
+    "reasoning": "The source drawing shows series-aiding magnetic fields. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-78",
+    "parts": [
+      {
+        "label": "Coil resistance",
+        "type": "numeric",
+        "answer": 95.43131014966652,
+        "unit": "Ω",
+        "tolerance": 0.7634504811973322,
+        "explanation": "di/dt=(ε/L)e^(−Rt/L)."
+      }
+    ],
+    "reasoning": "The measured derivative directly determines the exponential decay factor. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-79",
+    "parts": [
+      {
+        "label": "a · Initial i₁",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "A",
+        "tolerance": 0.016,
+        "explanation": "OnlyR₁ conducts initially."
+      },
+      {
+        "label": "b · Initial i₂",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A",
+        "tolerance": 1e-30,
+        "explanation": "Inductor current cannot jump."
+      },
+      {
+        "label": "c · Initial switch current",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "A",
+        "tolerance": 0.016,
+        "explanation": "Sum branch currents."
+      },
+      {
+        "label": "d · Initial V₂",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V",
+        "tolerance": 1e-30,
+        "explanation": "No current inR₂."
+      },
+      {
+        "label": "e · Initial VL magnitude",
+        "type": "numeric",
+        "answer": 10,
+        "unit": "V",
+        "tolerance": 0.08,
+        "explanation": "Full battery voltage initially acrossL."
+      },
+      {
+        "label": "f · Initial di₂/dt",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "A/s",
+        "tolerance": 0.016,
+        "explanation": "ε/L."
+      },
+      {
+        "label": "g · Steady i₁",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "A",
+        "tolerance": 0.016,
+        "explanation": "R₁ remains directly across battery."
+      },
+      {
+        "label": "h · Steady i₂",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "A",
+        "tolerance": 0.008,
+        "explanation": "Inductor shorts; branch resistanceR₂."
+      },
+      {
+        "label": "i · Steady switch current",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "A",
+        "tolerance": 0.024,
+        "explanation": "2+1."
+      },
+      {
+        "label": "j · Steady V₂",
+        "type": "numeric",
+        "answer": 10,
+        "unit": "V",
+        "tolerance": 0.08,
+        "explanation": "R₂ spans battery."
+      },
+      {
+        "label": "k · Steady VL",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V",
+        "tolerance": 1e-30,
+        "explanation": "Constant current."
+      },
+      {
+        "label": "l · Steady di₂/dt",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A/s",
+        "tolerance": 1e-30,
+        "explanation": "No continuing buildup."
+      }
+    ],
+    "reasoning": "R₁ is parallel with the seriesL–R₂ branch. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-80",
+    "parts": [
+      {
+        "label": "Time to 2mA",
+        "type": "numeric",
+        "answer": 1.0216512475319814e-09,
+        "unit": "s",
+        "tolerance": 8.17320998025585e-12,
+        "explanation": "I∞=5mA,τ=L/R."
+      }
+    ],
+    "reasoning": "Original inductance8.0μH gives a nanosecond-scale time. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-81",
+    "parts": [
+      {
+        "label": "a · Field 1 magnitude",
+        "type": "numeric",
+        "answer": 1e-05,
+        "unit": "T",
+        "tolerance": 8e-08,
+        "explanation": "Entering-loopi=BHv/R."
+      },
+      {
+        "label": "b · Field 1 direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Parallel to the page"
+        ],
+        "explanation": "Clockwise inducedcurrent opposes increasing outward flux."
+      },
+      {
+        "label": "c · Field 2 magnitude",
+        "type": "numeric",
+        "answer": 3.3333333333333333e-06,
+        "unit": "T",
+        "tolerance": 2.6666666666666667e-08,
+        "explanation": "At the boundary i=(B₂−B₁)Hv/R=−2μA; hence B₂=B₁/3."
+      },
+      {
+        "label": "d · Field 2 direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Parallel to the page"
+        ],
+        "explanation": "At the shared boundary the outward field drops from B₁ to B₁/3, giving counterclockwise current."
+      }
+    ],
+    "reasoning": "The graph scale is3.0μA. The negative pulse is crossing the boundary between the adjacent regions, not entering an initially field-free second region. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-82",
+    "parts": [
+      {
+        "label": "Emf magnitude versus time",
+        "type": "choice",
+        "answer": "ε=(πr²B₀/τ)exp(−t/τ)",
+        "options": [
+          "ε=(πr²B₀/τ)exp(−t/τ)",
+          "ε=πr²B₀exp(−t/τ)",
+          "ε=(πr²B₀τ)exp(−t/τ)"
+        ],
+        "explanation": "Differentiate the decaying normal flux."
+      }
+    ],
+    "reasoning": "The circulation sense depends on the unspecified field orientation; the magnitude is unique. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-83",
+    "parts": [
+      {
+        "label": "Equal-voltage time",
+        "type": "numeric",
+        "answer": 0.000519860385419959,
+        "unit": "s",
+        "tolerance": 4.158883083359672e-06,
+        "explanation": "εe^(−t/τ)=ε(1−e^(−t/τ))."
+      }
+    ],
+    "reasoning": "τ=.75ms. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-84",
+    "parts": [
+      {
+        "label": "a · dB₁/dt",
+        "type": "numeric",
+        "answer": 2.5464790894703257e-05,
+        "unit": "T/s",
+        "tolerance": 2.0371832715762605e-07,
+        "explanation": "Inner slope8nV percm² divided byπ."
+      },
+      {
+        "label": "b · dB₂/dt",
+        "type": "numeric",
+        "answer": 1.2732395447351628e-05,
+        "unit": "T/s",
+        "tolerance": 1.0185916357881302e-07,
+        "explanation": "Outer slope(20−8)/(4−1)=4nV percm² divided byπ."
+      },
+      {
+        "label": "c · Field 2 magnitude",
+        "type": "choice",
+        "answer": "Increasing",
+        "options": [
+          "Increasing",
+          "Decreasing",
+          "Constant"
+        ],
+        "explanation": "The outer-annulus slope has the same sign as the increasing outward inner field."
+      }
+    ],
+    "reasoning": "The horizontal variable is radius squared; divide the emf slope byπ, not by the radius. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-85",
+    "parts": [
+      {
+        "label": "a · x acceleration at a",
+        "type": "numeric",
+        "answer": 43962678.37541164,
+        "unit": "m/s²",
+        "tolerance": 351701.4270032931,
+        "explanation": "At the bottom a clockwise induced electric field points left, so the negative electron accelerates right."
+      },
+      {
+        "label": "a · y acceleration at a",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "m/s²",
+        "tolerance": 1e-30,
+        "explanation": "Tangential field is horizontal."
+      },
+      {
+        "label": "b · x acceleration at center",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "m/s²",
+        "tolerance": 1e-30,
+        "explanation": "InducedE vanishes ataxis."
+      },
+      {
+        "label": "b · y acceleration at center",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "m/s²",
+        "tolerance": 1e-30,
+        "explanation": "Same symmetry."
+      },
+      {
+        "label": "c · x acceleration at c",
+        "type": "numeric",
+        "answer": -43962678.37541164,
+        "unit": "m/s²",
+        "tolerance": 351701.4270032931,
+        "explanation": "At the top clockwise electric field points right, so the negative electron accelerates left."
+      },
+      {
+        "label": "c · y acceleration at c",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "m/s²",
+        "tolerance": 1e-30,
+        "explanation": "Tangential direction is horizontal."
+      }
+    ],
+    "reasoning": "Initially v=0, so magnetic force vanishes; acceleration isqE/m. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-86",
+    "parts": [
+      {
+        "label": "Equal-flux time",
+        "type": "numeric",
+        "answer": 8.109302162163287e-05,
+        "unit": "s",
+        "tolerance": 6.48744172973063e-07,
+        "explanation": "Φ₂/Φ₁=1.5exp[−(R₂/L₂−R₁/L₁)t]."
+      }
+    ],
+    "reasoning": "Fluxes per turn decay with their respectiveRLtime constants. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      38
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-87",
+    "parts": [
+      {
+        "label": "a · Average emf",
+        "type": "numeric",
+        "answer": 0.4000000000000001,
+        "unit": "V",
+        "tolerance": 0.0032000000000000006,
+        "explanation": "Average|ε|=BΔA/Δt."
+      },
+      {
+        "label": "b · Average current",
+        "type": "numeric",
+        "answer": 20.000000000000004,
+        "unit": "A",
+        "tolerance": 0.16000000000000003,
+        "explanation": "AverageI=averageε/R."
+      }
+    ],
+    "reasoning": "No detailed pull trajectory is needed for the integrated flux change. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-88",
+    "parts": [
+      {
+        "label": "a · Inductance at 2mA",
+        "type": "numeric",
+        "answer": 0.0037499999999999994,
+        "unit": "H",
+        "tolerance": 2.9999999999999997e-05,
+        "explanation": "L=NΦ/I."
+      },
+      {
+        "label": "b · Inductance at 4mA",
+        "type": "numeric",
+        "answer": 0.0037499999999999994,
+        "unit": "H",
+        "tolerance": 2.9999999999999997e-05,
+        "explanation": "Linear coil inductance is independent of current."
+      },
+      {
+        "label": "c · Flux per turn at 4mA",
+        "type": "numeric",
+        "answer": 1e-07,
+        "unit": "Wb",
+        "tolerance": 8e-10,
+        "explanation": "Flux doubles with current."
+      },
+      {
+        "label": "d · Maximum emf",
+        "type": "numeric",
+        "answer": 0.004241249999999999,
+        "unit": "V",
+        "tolerance": 3.3929999999999995e-05,
+        "explanation": "LωI₀."
+      }
+    ],
+    "reasoning": "The coil is assumed linear with no changing magnetic material properties. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-89",
+    "parts": [
+      {
+        "label": "a · Equilibrium current",
+        "type": "numeric",
+        "answer": 10,
+        "unit": "A",
+        "tolerance": 0.08,
+        "explanation": "ε/R."
+      },
+      {
+        "label": "b · Stored energy",
+        "type": "numeric",
+        "answer": 100,
+        "unit": "J",
+        "tolerance": 0.8,
+        "explanation": "LI²/2."
+      }
+    ],
+    "reasoning": "At equilibrium the ideal inductance has no voltage drop. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-90",
+    "parts": [
+      {
+        "label": "Decay time",
+        "type": "numeric",
+        "answer": 1.5350567286626973,
+        "unit": "s",
+        "tolerance": 0.012280453829301579,
+        "explanation": "VR(t)/VR(0)=e^(−Rt/L)."
+      }
+    ],
+    "reasoning": "Voltage and current share the same decay time constant. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-91",
+    "parts": [
+      {
+        "label": "a · Initial battery current",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A",
+        "tolerance": 1e-30,
+        "explanation": "Inductor initially blocks its series path."
+      },
+      {
+        "label": "b · Initial slope",
+        "type": "numeric",
+        "answer": 800,
+        "unit": "A/s",
+        "tolerance": 6.4,
+        "explanation": "ε/L."
+      },
+      {
+        "label": "c · Battery current at 3ms",
+        "type": "numeric",
+        "answer": 1.3982858881836102,
+        "unit": "A",
+        "tolerance": 0.011186287105468882,
+        "explanation": "Use R₁∥R₂ behind the series inductor."
+      },
+      {
+        "label": "d · Slope at 3ms",
+        "type": "numeric",
+        "answer": 241.24440032622982,
+        "unit": "A/s",
+        "tolerance": 1.9299552026098385,
+        "explanation": "Differentiate the exponential."
+      },
+      {
+        "label": "e · Steady current",
+        "type": "numeric",
+        "answer": 2.0020000000000002,
+        "unit": "A",
+        "tolerance": 0.016016000000000002,
+        "explanation": "ε/(R₁∥R₂)."
+      },
+      {
+        "label": "f · Steady slope",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A/s",
+        "tolerance": 1e-30,
+        "explanation": "Current is constant."
+      }
+    ],
+    "reasoning": "The top inductor is in series with both parallel resistors. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ],
+    "reviewNotice": "The printed answer key conflicts with the supplied values R₁=20 kΩ, R₂=20 Ω and L=50 mH. These checks use the stated parallel-resistor circuit, giving a final battery current of 2.002 A.",
+    "referenceAnswer": "(a)0 A; (b)800 A/s; (c)1.39829 A; (d)241.244 A/s; (e)2.002 A; (f)0 A/s."
+  },
+  {
+    "id": "physics-chapter-30-problems-92",
+    "parts": [
+      {
+        "label": "a · Inductance",
+        "type": "numeric",
+        "answer": 0.004727272727272727,
+        "unit": "H",
+        "tolerance": 3.781818181818182e-05,
+        "explanation": "L=fluxlinkage/I."
+      },
+      {
+        "label": "b · Time to 2.5A",
+        "type": "numeric",
+        "answer": 0.002361704166176164,
+        "unit": "s",
+        "tolerance": 1.8893633329409312e-05,
+        "explanation": "I∞=8A andτ=L/R."
+      }
+    ],
+    "reasoning": "Flux linkage already includes turn count. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-93",
+    "parts": [
+      {
+        "label": "Magnetic-energy transfer rate",
+        "type": "numeric",
+        "answer": 1.1515144018643324,
+        "unit": "W",
+        "tolerance": 0.009212115214914659,
+        "explanation": "LI di/dt=(ε²/R)e^(−t/τ)(1−e^(−t/τ))."
+      }
+    ],
+    "reasoning": "The rate is independent ofLwhen time is specified inτunits. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-94",
+    "parts": [
+      {
+        "label": "a · Inductance per length",
+        "type": "numeric",
+        "answer": 0.10106474906715501,
+        "unit": "H/m",
+        "tolerance": 0.0008085179925372401,
+        "explanation": "L/l=μ₀n²A."
+      },
+      {
+        "label": "b · Induced emf per length",
+        "type": "numeric",
+        "answer": 1.3138417378730152,
+        "unit": "V/m",
+        "tolerance": 0.010510733902984121,
+        "explanation": "(L/l)|di/dt|."
+      }
+    ],
+    "reasoning": "100turns/cm=10000turns/m. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-95",
+    "parts": [
+      {
+        "label": "a · Initial slope inL₁",
+        "type": "numeric",
+        "answer": 20.0,
+        "unit": "A/s",
+        "tolerance": 0.16,
+        "explanation": "InitialL₂branch blocks; zero initialcurrent giveszeroresistordrops, all6VacrossL₁."
+      },
+      {
+        "label": "b · Steady current inL₁",
+        "type": "numeric",
+        "answer": 0.75,
+        "unit": "A",
+        "tolerance": 0.006,
+        "explanation": "L₂shortsR₂ atsteady state; onlyR₁ remains."
+      }
+    ],
+    "reasoning": "Apply inductor continuity separately to both inductors. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-96",
+    "parts": [
+      {
+        "label": "Induced emf magnitude",
+        "type": "numeric",
+        "answer": 0.00288,
+        "unit": "V",
+        "tolerance": 2.3040000000000003e-05,
+        "explanation": "|dΦ/dt|=2Bl|dl/dt|."
+      }
+    ],
+    "reasoning": "Both side dimensions shrink, so the factor2isrequired. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-97",
+    "parts": [
+      {
+        "label": "Current slope at 1.2ms",
+        "type": "numeric",
+        "answer": 11.969895188199402,
+        "unit": "A/s",
+        "tolerance": 0.09575916150559521,
+        "explanation": "di/dt=(ε/L)e^(−Rt/L)."
+      }
+    ],
+    "reasoning": "UseL50mH=.050H. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-98",
+    "parts": [
+      {
+        "label": "a · Inductance",
+        "type": "numeric",
+        "answer": 0.0006000000000000001,
+        "unit": "H",
+        "tolerance": 4.800000000000001e-06,
+        "explanation": "L=ε/|di/dt|."
+      },
+      {
+        "label": "b · Number of turns",
+        "type": "numeric",
+        "answer": 120.0,
+        "unit": "turns",
+        "tolerance": 0,
+        "explanation": "N=LI/Φperturn."
+      }
+    ],
+    "reasoning": "Original flux unit is40.0μWb. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-99",
+    "parts": [
+      {
+        "label": "Stored magnetic energy",
+        "type": "numeric",
+        "answer": 3.36847671448043e+36,
+        "unit": "J",
+        "tolerance": 2.694781371584344e+34,
+        "explanation": "u=B²/(2μ₀), volume=(10lightyears)³.",
+        "acceptedValues": [
+          3e+36
+        ]
+      }
+    ],
+    "reasoning": "Use1lightyear=9.46×10¹⁵m. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Uniform stated field throughout cube; lightyear9.46×10¹⁵m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-100",
+    "parts": [
+      {
+        "label": "a · Resistance as function of θ",
+        "type": "choice",
+        "answer": "R=.0034(2+θ) Ω",
+        "options": [
+          "R=.0034(2+θ) Ω",
+          "R=.0034θ Ω",
+          "R=.0034(1+θ²) Ω"
+        ],
+        "explanation": "Two radial wires add2r and the arc addsrθ."
+      },
+      {
+        "label": "b · Flux as function of θ",
+        "type": "choice",
+        "answer": "Φ=.00432θ Wb",
+        "options": [
+          "Φ=.00432θ Wb",
+          "Φ=.00864θ Wb",
+          "Φ=.00432θ² Wb"
+        ],
+        "explanation": "Sector area r²θ/2."
+      },
+      {
+        "label": "c · Maximizing angle",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "rad",
+        "tolerance": 0.016,
+        "explanation": "I∝√θ/(2+θ); derivativezeroatθ=2."
+      },
+      {
+        "label": "d · Maximum current",
+        "type": "numeric",
+        "answer": 2.2007233790286906,
+        "unit": "A",
+        "tolerance": 0.017605787032229526,
+        "explanation": "Useω²=2αθ andε=Br²ω/2."
+      }
+    ],
+    "reasoning": "Both changing resistance and changing angular speed enter the optimization. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-problems-101",
+    "parts": [
+      {
+        "label": "Flux through toroid cross section",
+        "type": "numeric",
+        "answer": 1.1507282898071242e-06,
+        "unit": "Wb",
+        "tolerance": 9.205826318456994e-09,
+        "explanation": "Integrate μ₀NIh/(2πr) frominner toouter radius."
+      }
+    ],
+    "reasoning": "Field is not uniform across the finite toroidal width. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      39
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-1",
+    "parts": [
+      {
+        "label": "Magnetic field direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Parallel to the page"
+        ],
+        "explanation": "Expansion increases outward flux; clockwise current creates an opposing inward field."
+      }
+    ],
+    "reasoning": "Lenz law fixes the external field sign. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-2",
+    "parts": [
+      {
+        "label": "Clockwise-first emf ranking",
+        "type": "choice",
+        "answer": "1 = 3 > 2 = 5 > 4 = 6",
+        "options": [
+          "1 = 3 > 2 = 5 > 4 = 6",
+          "4 = 6 > 2 = 5 > 1 = 3",
+          "1 > 2 > 3 > 4 > 5 > 6"
+        ],
+        "explanation": "Signed emf follows dBz/dt, notBz itself."
+      }
+    ],
+    "reasoning": "Positive Bz slopes induce clockwise circulation. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-3",
+    "parts": [
+      {
+        "label": "a · Constant source current",
+        "type": "choice",
+        "answer": "1 = 2 = 3, all zero",
+        "options": [
+          "1 = 2 = 3, all zero",
+          "2 > 1 = 3",
+          "1 > 2 > 3"
+        ],
+        "explanation": "Static current means static flux."
+      },
+      {
+        "label": "b · Increasing source current",
+        "type": "choice",
+        "answer": "2 > 1 = 3",
+        "options": [
+          "2 > 1 = 3",
+          "1 = 2 = 3",
+          "1 > 3 > 2"
+        ],
+        "explanation": "Symmetric loops 1 and 3 have canceling flux; off-center loop 2 does not."
+      }
+    ],
+    "reasoning": "Net oriented flux determines induction, not local field magnitude. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-4",
+    "parts": [
+      {
+        "label": "a · Field direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Along the bar"
+        ],
+        "explanation": "The fixed U base is below the moving bar: upward motion increases area. Counterclockwise induced field points outward, opposing increasing inward external flux."
+      },
+      {
+        "label": "b · Circuit 2 current",
+        "type": "choice",
+        "answer": "Counterclockwise",
+        "options": [
+          "Counterclockwise",
+          "Clockwise",
+          "None"
+        ],
+        "explanation": "The fixed U base is on the left: rightward motion also increases area in the inward field, so induced current is counterclockwise."
+      },
+      {
+        "label": "c · Circuit 1 emf versus 2",
+        "type": "choice",
+        "answer": "Larger, by a factor2",
+        "options": [
+          "Larger, by a factor2",
+          "The same",
+          "Smaller, by a factor2"
+        ],
+        "explanation": "ε=Blv and bar 1 has double length."
+      }
+    ],
+    "reasoning": "Both moving bars increase enclosed area; increasing inward flux is opposed by counterclockwise current. The doubled bar length in circuit1 doubles emf. Verification: inspected the fixed U bases in the high-resolution source, not merely the velocity arrows.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-5",
+    "parts": [
+      {
+        "label": "Integral-magnitude ranking",
+        "type": "choice",
+        "answer": "c = d > b > a",
+        "options": [
+          "c = d > b > a",
+          "d > c > a > b",
+          "a = b = c = d"
+        ],
+        "explanation": "Only changing enclosed flux matters; outer paths c and d enclose all the field."
+      }
+    ],
+    "reasoning": "Leader a ends on the innermost circle; b ends on the next larger circle. Both lie inside the field region, whereas c and d enclose its entire changing flux. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-6",
+    "parts": [
+      {
+        "label": "a · Work per charge ranking",
+        "type": "choice",
+        "answer": "2 > 1 > 3",
+        "options": [
+          "2 > 1 > 3",
+          "1 > 2 > 3",
+          "3 > 1 > 2"
+        ],
+        "explanation": "Projected areas are r²,πr²/4,r²/2 for changing x, z and y components."
+      },
+      {
+        "label": "b · Current ranking",
+        "type": "choice",
+        "answer": "2 > 1 > 3",
+        "options": [
+          "2 > 1 > 3",
+          "1 > 2 > 3",
+          "All equal"
+        ],
+        "explanation": "Same wire resistance for every field choice."
+      },
+      {
+        "label": "c1 · Choice 1 current",
+        "type": "choice",
+        "answer": "a → b → c → a",
+        "options": [
+          "a → b → c → a",
+          "a → c → b → a",
+          "None"
+        ],
+        "explanation": "Decreasing +z field requires a +z induced normal."
+      },
+      {
+        "label": "c2 · Choice 2 current",
+        "type": "choice",
+        "answer": "a → c → b → a",
+        "options": [
+          "a → c → b → a",
+          "a → b → c → a",
+          "None"
+        ],
+        "explanation": "Increasing +x field requires a −x induced normal."
+      },
+      {
+        "label": "c3 · Choice 3 current",
+        "type": "choice",
+        "answer": "a → b → c → a",
+        "options": [
+          "a → b → c → a",
+          "a → c → b → a",
+          "None"
+        ],
+        "explanation": "Decreasing +y field requires a +y induced normal."
+      }
+    ],
+    "reasoning": "Use the three projected enclosed areas of the nonplanar loop. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-7",
+    "parts": [
+      {
+        "label": "a · Central resistor current just closed",
+        "type": "choice",
+        "answer": "Greater",
+        "options": [
+          "Greater",
+          "Less",
+          "The same"
+        ],
+        "explanation": "Inductor branch is initially open."
+      },
+      {
+        "label": "b · Long after closing",
+        "type": "choice",
+        "answer": "The same",
+        "options": [
+          "The same",
+          "Greater",
+          "Less"
+        ],
+        "explanation": "Ideal inductor shorts; identical resistors span the battery."
+      },
+      {
+        "label": "c · Just reopened",
+        "type": "choice",
+        "answer": "The same",
+        "options": [
+          "The same",
+          "Greater",
+          "Less"
+        ],
+        "explanation": "Remaining resistors are in series with the inductor."
+      },
+      {
+        "label": "d · Long after reopening",
+        "type": "choice",
+        "answer": "The same, both zero",
+        "options": [
+          "The same, both zero",
+          "Central is greater",
+          "Central is less"
+        ],
+        "explanation": "Stored energy fully decays."
+      }
+    ],
+    "reasoning": "Inductor current is continuous at switching, and the decay loop has only one series current. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-8",
+    "parts": [
+      {
+        "label": "Set 1 curve",
+        "type": "choice",
+        "answer": "c",
+        "options": [
+          "c",
+          "a",
+          "d"
+        ],
+        "explanation": "High initial current and τ=L₀/R₀."
+      },
+      {
+        "label": "Set 2 curve",
+        "type": "choice",
+        "answer": "a",
+        "options": [
+          "a",
+          "b",
+          "c"
+        ],
+        "explanation": "Half the initial current and half the time constant."
+      },
+      {
+        "label": "Set 3 curve",
+        "type": "choice",
+        "answer": "d",
+        "options": [
+          "d",
+          "a",
+          "b"
+        ],
+        "explanation": "High initial current and doubletime constant."
+      },
+      {
+        "label": "Set 4 curve",
+        "type": "choice",
+        "answer": "b",
+        "options": [
+          "b",
+          "c",
+          "d"
+        ],
+        "explanation": "Half the initial current and original time constant."
+      }
+    ],
+    "reasoning": "Initial current is set by ε/R; decay time is L/R. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-9",
+    "parts": [
+      {
+        "label": "a · Steady closed ranking",
+        "type": "choice",
+        "answer": "1 = 2 = 3, all zero",
+        "options": [
+          "1 = 2 = 3, all zero",
+          "1 = 2 > 3",
+          "3 > 1 = 2"
+        ],
+        "explanation": "Inductors short the parallel resistor branches."
+      },
+      {
+        "label": "b · Immediately reopened ranking",
+        "type": "choice",
+        "answer": "1 = 2 > 3",
+        "options": [
+          "1 = 2 > 3",
+          "1 = 2 = 3",
+          "3 > 1 = 2"
+        ],
+        "explanation": "The same inductor current returns through one resistor in 1 and 2, but splits between parallel resistors in 3."
+      },
+      {
+        "label": "c · Long after reopening",
+        "type": "choice",
+        "answer": "1 = 2 = 3, all zero",
+        "options": [
+          "1 = 2 = 3, all zero",
+          "1 > 2 > 3",
+          "3 > 2 > 1"
+        ],
+        "explanation": "All currents decay to zero."
+      }
+    ],
+    "reasoning": "The series battery resistor sets identical initial inductor currents. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-10",
+    "parts": [
+      {
+        "label": "Inductance ranking",
+        "type": "choice",
+        "answer": "c > b > a",
+        "options": [
+          "c > b > a",
+          "a > b > c",
+          "All equal"
+        ],
+        "explanation": "Slower resistor-voltage buildup means larger τ=L/R."
+      }
+    ],
+    "reasoning": "Same resistance and battery voltage, different inductance. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-11",
+    "parts": [
+      {
+        "label": "Induced and battery emfs agree",
+        "type": "choice",
+        "answer": "Only b",
+        "options": [
+          "Only b",
+          "Only a and b",
+          "All three"
+        ],
+        "explanation": "Use battery polarity and Lenz direction in each shaded field region."
+      }
+    ],
+    "reasoning": "Increasingoutward flux inducesCW; decreasingoutwardCCW; decreasinginwardCW. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal wires, inductors and stated field approximations; μ₀=4π×10⁻⁷ H/m."
+    ]
+  },
+  {
+    "id": "physics-chapter-30-questions-12",
+    "parts": [
+      {
+        "label": "a · Required-force ranking",
+        "type": "choice",
+        "answer": "1 > 2 > 4 > 3",
+        "options": [
+          "1 > 2 > 4 > 3",
+          "1 = 2 > 3 = 4",
+          "2 > 1 > 3 > 4"
+        ],
+        "explanation": "F=B²h²v/R; identical wire gauge gives resistance proportional to perimeter."
+      },
+      {
+        "label": "b · Mechanical-power ranking",
+        "type": "choice",
+        "answer": "1 > 2 > 4 > 3",
+        "options": [
+          "1 > 2 > 4 > 3",
+          "1 = 2 > 3 = 4",
+          "4 > 3 > 2 > 1"
+        ],
+        "explanation": "P=Fv andthe same speed for all."
+      }
+    ],
+    "reasoning": "Loop heights are 2L, 2L, L, L and perimeters are 6L, 8L, 6L, 4L respectively. Verification: independently differentiate the source flux or solve Kirchhoff equations; check SI dimensions and the energy balance where applicable.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "All loops are made from the same wire material and cross section, as implied by the comparative diagram."
+    ]
+  }
+]

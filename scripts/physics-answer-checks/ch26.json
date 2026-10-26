@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "physics-chapter-26-problems-1",
+    "parts": [
+      {
+        "label": "a · Charge",
+        "type": "numeric",
+        "answer": 1200,
+        "unit": "C",
+        "tolerance": 9.6,
+        "explanation": "Q=It; convert4min to240s."
+      },
+      {
+        "label": "b · Electrons",
+        "type": "numeric",
+        "answer": 7.490636704119851e+21,
+        "unit": "electrons",
+        "tolerance": 5.992509363295881e+19,
+        "explanation": "N=Q/e."
+      }
+    ],
+    "reasoning": "Current measures charge per second. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-2",
+    "parts": [
+      {
+        "label": "Charging time",
+        "type": "numeric",
+        "answer": 0.005563132270976806,
+        "unit": "s",
+        "tolerance": 4.450505816781445e-05,
+        "explanation": "ΔQ=4πε₀RΔV; net current is2.0μA."
+      }
+    ],
+    "reasoning": "Subtract the two currents before using the isolated-sphere capacitance. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-3",
+    "parts": [
+      {
+        "label": "Surface charge density",
+        "type": "numeric",
+        "answer": 6.666666666666667e-06,
+        "unit": "C/m²",
+        "tolerance": 5.3333333333333334e-08,
+        "explanation": "Current equals surface density times swept belt area per second, σwv."
+      }
+    ],
+    "reasoning": "The source says100μA, not100mA. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-4",
+    "parts": [
+      {
+        "label": "Gauge 4 · Safe current density",
+        "type": "numeric",
+        "answer": 3319558.9892661227,
+        "unit": "A/m²",
+        "tolerance": 26556.471914128982,
+        "explanation": "J=I/(πd²/4), with1mil=25.4μm."
+      },
+      {
+        "label": "Gauge 6 · Safe current density",
+        "type": "numeric",
+        "answer": 3759955.1161979595,
+        "unit": "A/m²",
+        "tolerance": 30079.64092958368,
+        "explanation": "J=I/(πd²/4), with1mil=25.4μm."
+      },
+      {
+        "label": "Gauge 8 · Safe current density",
+        "type": "numeric",
+        "answer": 4150795.2315755947,
+        "unit": "A/m²",
+        "tolerance": 33206.36185260476,
+        "explanation": "J=I/(πd²/4), with1mil=25.4μm."
+      },
+      {
+        "label": "Gauge 10 · Safe current density",
+        "type": "numeric",
+        "answer": 4742227.127523032,
+        "unit": "A/m²",
+        "tolerance": 37937.81702018426,
+        "explanation": "J=I/(πd²/4), with1mil=25.4μm."
+      },
+      {
+        "label": "Gauge 12 · Safe current density",
+        "type": "numeric",
+        "answer": 6015928.185916736,
+        "unit": "A/m²",
+        "tolerance": 48127.42548733389,
+        "explanation": "J=I/(πd²/4), with1mil=25.4μm."
+      },
+      {
+        "label": "Gauge 14 · Safe current density",
+        "type": "numeric",
+        "answer": 7227265.288293403,
+        "unit": "A/m²",
+        "tolerance": 57818.12230634722,
+        "explanation": "J=I/(πd²/4), with1mil=25.4μm."
+      },
+      {
+        "label": "Gauge 16 · Safe current density",
+        "type": "numeric",
+        "answer": 4552538.042422111,
+        "unit": "A/m²",
+        "tolerance": 36420.30433937689,
+        "explanation": "J=I/(πd²/4), with1mil=25.4μm."
+      },
+      {
+        "label": "Gauge 18 · Safe current density",
+        "type": "numeric",
+        "answer": 3700359.827606222,
+        "unit": "A/m²",
+        "tolerance": 29602.878620849777,
+        "explanation": "J=I/(πd²/4), with1mil=25.4μm."
+      },
+      {
+        "label": "Gauge with maximum safe current density",
+        "type": "choice",
+        "answer": "Gauge 14",
+        "options": [
+          "Gauge 14",
+          "Gauge 4",
+          "Gauge 18"
+        ],
+        "explanation": "Evaluate all eight areas; gauge14 has the largest current per area."
+      }
+    ],
+    "reasoning": "The requested graph is represented by its eight numerical data points and maximum. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ],
+    "scope": "Checks cover all plotted safe-current-density values and the maximizing gauge; a freehand graph is not automatically assessed."
+  },
+  {
+    "id": "physics-chapter-26-problems-5",
+    "parts": [
+      {
+        "label": "a · Current density",
+        "type": "numeric",
+        "answer": 6.4079999999999995,
+        "unit": "A/m²",
+        "tolerance": 0.051264,
+        "explanation": "Convert ions/cm³ to ions/m³ and use J=nqv."
+      },
+      {
+        "label": "b · Current direction",
+        "type": "choice",
+        "answer": "North",
+        "options": [
+          "North",
+          "South",
+          "No net current"
+        ],
+        "explanation": "Positive ions carry conventional current in their direction of motion."
+      },
+      {
+        "label": "c · Additional quantity required",
+        "type": "choice",
+        "answer": "Beam cross-sectional area perpendicular to motion",
+        "options": [
+          "Beam cross-sectional area perpendicular to motion",
+          "Ion mass",
+          "Potential at the beam center"
+        ],
+        "explanation": "I=JA for a uniform beam."
+      }
+    ],
+    "reasoning": "The charge per ion is2e. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-6",
+    "parts": [
+      {
+        "label": "a · Uniform density?",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No, it rises with radius",
+          "No, it falls with radius"
+        ],
+        "explanation": "I proportional to r² means I=Jπr²."
+      },
+      {
+        "label": "b · Current density",
+        "type": "numeric",
+        "answer": 318.3098861837907,
+        "unit": "A/m²",
+        "tolerance": 2.5464790894703255,
+        "explanation": "J=(di/d(r²))/π; graph endpoint4mA at4mm²."
+      }
+    ],
+    "reasoning": "The graph is linear in radius squared, not radius. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21,
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-7",
+    "parts": [
+      {
+        "label": "Fuse diameter",
+        "type": "numeric",
+        "answer": 0.00038037653963109115,
+        "unit": "m",
+        "tolerance": 3.0430123170487294e-06,
+        "explanation": "A=I/J and d=√(4A/π);440A/cm²=4.40×10⁶A/m²."
+      }
+    ],
+    "reasoning": "A smaller area reaches the melting density at a smaller current. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-8",
+    "parts": [
+      {
+        "label": "a · Current density",
+        "type": "numeric",
+        "answer": 2.444619925891512e-05,
+        "unit": "A/m²",
+        "tolerance": 1.9556959407132095e-07,
+        "explanation": "J=I/A."
+      },
+      {
+        "label": "b · Electron drift speed",
+        "type": "numeric",
+        "answer": 1.7973851339326376e-15,
+        "unit": "m/s",
+        "tolerance": 1.43790810714611e-17,
+        "explanation": "v_d=J/(ne)."
+      }
+    ],
+    "reasoning": "The extremely small current gives a correspondingly tiny drift speed. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-9",
+    "parts": [
+      {
+        "label": "Ring current",
+        "type": "numeric",
+        "answer": 1.8095573684677205e-05,
+        "unit": "A",
+        "tolerance": 1.4476458947741766e-07,
+        "explanation": "dI=J(r)2πrdr=2πBr²dr for the thin ring."
+      }
+    ],
+    "reasoning": "Source ring width is10.0μm; treating10mm would exceed the wire diameter. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Thin-ring approximation with r=1.20mm and width10.0μm; exact centered-ring integration differs by less than0.001%."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-10",
+    "parts": [
+      {
+        "label": "Outer-annulus current",
+        "type": "numeric",
+        "answer": 0.0025929449125668713,
+        "unit": "A",
+        "tolerance": 2.074355930053497e-05,
+        "explanation": "Integrate JdA=2πar³dr from.9R toR."
+      }
+    ],
+    "reasoning": "Only the specified outer annulus contributes. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-11",
+    "parts": [
+      {
+        "label": "a · Current for J₀r/R",
+        "type": "numeric",
+        "answer": 1.3316164061015936,
+        "unit": "A",
+        "tolerance": 0.010652931248812749,
+        "explanation": "Integrate2πJ₀r²/R."
+      },
+      {
+        "label": "b · Current for J₀(1−r/R)",
+        "type": "numeric",
+        "answer": 0.6658082030507968,
+        "unit": "A",
+        "tolerance": 0.0053264656244063745,
+        "explanation": "Integrate2πJ₀(r−r²/R)."
+      },
+      {
+        "label": "c · Larger surface current density",
+        "type": "choice",
+        "answer": "J_a=J₀r/R",
+        "options": [
+          "J_a=J₀r/R",
+          "J_b=J₀(1−r/R)",
+          "Both equal"
+        ],
+        "explanation": "At r=R, J_a=J₀ while J_b=0."
+      }
+    ],
+    "reasoning": "Area weighting makes the outward-increasing profile carry twice the total current. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-12",
+    "parts": [
+      {
+        "label": "a · Proton current density",
+        "type": "numeric",
+        "answer": 6.550578e-07,
+        "unit": "A/m²",
+        "tolerance": 5.2404624e-09,
+        "explanation": "J=nev."
+      },
+      {
+        "label": "b · Current intercepted by Earth",
+        "type": "numeric",
+        "answer": 83504207.68732488,
+        "unit": "A",
+        "tolerance": 668033.6614985991,
+        "explanation": "A parallel solar-wind beam intercepts Earth projected disk πR²."
+      }
+    ],
+    "reasoning": "Use projected area rather than the entire sphere surface. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "No magnetic deflection; parallel uniform proton beam; Earth radius6.37×10⁶m."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-13",
+    "parts": [
+      {
+        "label": "Travel time",
+        "type": "numeric",
+        "answer": 809.2583099999998,
+        "unit": "s",
+        "tolerance": 6.4740664799999985,
+        "explanation": "t=L/v_d=LneA/I.",
+        "acceptedValues": [
+          780
+        ]
+      }
+    ],
+    "reasoning": "This is electron drift time, not electromagnetic signal propagation time. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-14",
+    "parts": [
+      {
+        "label": "Potential difference",
+        "type": "numeric",
+        "answer": 100.0,
+        "unit": "V",
+        "tolerance": 0.8,
+        "explanation": "V=IR using the stated current and resistance."
+      }
+    ],
+    "reasoning": "This is the idealized threshold estimate from the stated resistance, not a universal human safety threshold. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-15",
+    "parts": [
+      {
+        "label": "Coil resistance",
+        "type": "numeric",
+        "answer": 2.4000000000000004,
+        "unit": "Ω",
+        "tolerance": 0.019200000000000002,
+        "explanation": "Wire length is250circumferences; R=ρL/A."
+      }
+    ],
+    "reasoning": "Neglect insulation thickness as requested. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-16",
+    "parts": [
+      {
+        "label": "a · Copper current density",
+        "type": "numeric",
+        "answer": 532544.3786982248,
+        "unit": "A/m²",
+        "tolerance": 4260.355029585799,
+        "explanation": "A=ρ/(R/L) with.150Ω/km=.000150Ω/m."
+      },
+      {
+        "label": "b · Copper mass per length",
+        "type": "numeric",
+        "answer": 1.0094933333333334,
+        "unit": "kg/m",
+        "tolerance": 0.008075946666666667,
+        "explanation": "λ=mass density times area."
+      },
+      {
+        "label": "c · Aluminum current density",
+        "type": "numeric",
+        "answer": 327272.72727272724,
+        "unit": "A/m²",
+        "tolerance": 2618.181818181818,
+        "explanation": "Use aluminum resistivity2.75×10⁻⁸Ωm."
+      },
+      {
+        "label": "d · Aluminum mass per length",
+        "type": "numeric",
+        "answer": 0.47666666666666674,
+        "unit": "kg/m",
+        "tolerance": 0.003813333333333334,
+        "explanation": "Use supplied aluminum density2600kg/m³."
+      }
+    ],
+    "reasoning": "Equal resistance per length requires different material cross sections. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-17",
+    "parts": [
+      {
+        "label": "Conductivity",
+        "type": "numeric",
+        "answer": 2000000.0,
+        "unit": "S/m",
+        "tolerance": 16000.0,
+        "explanation": "σ=IL/(AV)."
+      }
+    ],
+    "reasoning": "Conductivity is the reciprocal of resistivity. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-18",
+    "parts": [
+      {
+        "label": "a · Current",
+        "type": "numeric",
+        "answer": 1533.3333333333335,
+        "unit": "A",
+        "tolerance": 12.266666666666667,
+        "explanation": "15mΩ=.015Ω; I=V/R."
+      },
+      {
+        "label": "b · Current density",
+        "type": "numeric",
+        "answer": 54230573.201682866,
+        "unit": "A/m²",
+        "tolerance": 433844.58561346296,
+        "explanation": "Divide by the6mm-diameter area."
+      },
+      {
+        "label": "c · Resistivity",
+        "type": "numeric",
+        "answer": 1.0602875205865551e-07,
+        "unit": "Ω·m",
+        "tolerance": 8.482300164692441e-10,
+        "explanation": "ρ=RA/L."
+      },
+      {
+        "label": "d · Material",
+        "type": "choice",
+        "answer": "Platinum",
+        "options": [
+          "Platinum",
+          "Copper",
+          "Tungsten"
+        ],
+        "explanation": "Calculatedρ≈1.06×10⁻⁷Ωm matches Table26-1 platinum."
+      }
+    ],
+    "reasoning": "All geometrical dimensions are converted to meters. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-19",
+    "parts": [
+      {
+        "label": "Resistivity",
+        "type": "numeric",
+        "answer": 1.963495408493621e-08,
+        "unit": "Ω·m",
+        "tolerance": 1.570796326794897e-10,
+        "explanation": "ρ=RA/L with50mΩ=.050Ω."
+      }
+    ],
+    "reasoning": "A diameter is not a radius. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-20",
+    "parts": [
+      {
+        "label": "Resistance in terms of R",
+        "type": "choice",
+        "answer": "2R",
+        "options": [
+          "2R",
+          "R/2",
+          "R/4"
+        ],
+        "explanation": "Half length and quarter area give R′/R=(1/2)/(1/4)=2."
+      }
+    ],
+    "reasoning": "The material resistivity is unchanged. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-21",
+    "parts": [
+      {
+        "label": "Filament temperature",
+        "type": "numeric",
+        "answer": 1750.6397306397307,
+        "unit": "°C",
+        "tolerance": 14.005117845117846,
+        "explanation": "Use R=R₂₀[1+α(T−20°C)], α_W=.0045K⁻¹."
+      }
+    ],
+    "reasoning": "The operating resistance comes from rated voltage/current; use the chapter linear-temperature approximation. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      22
+    ],
+    "assumptions": [
+      "Tungsten temperature coefficient0.0045K⁻¹; linear resistivity approximation over the stated range."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-22",
+    "parts": [
+      {
+        "label": "Water-layer current",
+        "type": "numeric",
+        "answer": 0.009424777960769381,
+        "unit": "A",
+        "tolerance": 7.539822368615505e-05,
+        "explanation": "Water forms an annulus; I=VA/(ρL)."
+      }
+    ],
+    "reasoning": "Source radii are2.00mm and2.50mm; only water conducts in this model. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-23",
+    "parts": [
+      {
+        "label": "Resistivity",
+        "type": "numeric",
+        "answer": 8.214285714285714e-08,
+        "unit": "Ω·m",
+        "tolerance": 6.571428571428571e-10,
+        "explanation": "ρ=E/J=V/(LJ)."
+      }
+    ],
+    "reasoning": "Wire radius cancels because J is already given. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-24",
+    "parts": [
+      {
+        "label": "a · Section1 radius",
+        "type": "numeric",
+        "answer": 0.0015491933384829668,
+        "unit": "m",
+        "tolerance": 1.2393546707863735e-05,
+        "explanation": "Same current implies E₁r₁²=E₃r₃²; graph E₁:E₂:E₃=2.5:4:1.5."
+      },
+      {
+        "label": "b · Section2 radius",
+        "type": "numeric",
+        "answer": 0.001224744871391589,
+        "unit": "m",
+        "tolerance": 9.797958971132712e-06,
+        "explanation": "r₂=r₃√(E₃/E₂)."
+      }
+    ],
+    "reasoning": "Read the piecewise field levels from the original grid, not the sketch of rod width. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-25",
+    "parts": [
+      {
+        "label": "New resistance",
+        "type": "numeric",
+        "answer": 54,
+        "unit": "Ω",
+        "tolerance": 0.432,
+        "explanation": "Constant volume gives A′=A/3 and R′=9R."
+      }
+    ],
+    "reasoning": "Drawing the wire triples its length while conserving material volume. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-26",
+    "parts": [
+      {
+        "label": "a · Section1 conductivity",
+        "type": "numeric",
+        "answer": 60000000.0,
+        "unit": "S/m",
+        "tolerance": 480000.0,
+        "explanation": "Read slopes E₁=.5,E₂=4,E₃=1 V/mm; σE is common."
+      },
+      {
+        "label": "b · Section2 conductivity",
+        "type": "numeric",
+        "answer": 7500000.0,
+        "unit": "S/m",
+        "tolerance": 60000.0,
+        "explanation": "σ₂=σ₃E₃/E₂."
+      }
+    ],
+    "reasoning": "Graph vertices are(0,9),(4,7),(5,3),(8,0) in mm,V. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      22,
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-27",
+    "parts": [
+      {
+        "label": "Resistance ratio R_A/R_B",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "dimensionless",
+        "tolerance": 0.024,
+        "explanation": "Tube area isπ(2²−1²)/4=3times solid-wire area."
+      }
+    ],
+    "reasoning": "Same length/material makes resistance inversely proportional to conducting area. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-28",
+    "parts": [
+      {
+        "label": "Current",
+        "type": "numeric",
+        "answer": 0.0029742889028069046,
+        "unit": "A",
+        "tolerance": 2.3794311222455237e-05,
+        "explanation": "E=12μV/3m; I=EA/ρ."
+      }
+    ],
+    "reasoning": "Original voltage scale is microvolts. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-29",
+    "parts": [
+      {
+        "label": "Transported charge",
+        "type": "numeric",
+        "answer": 3.3460750156577676e-07,
+        "unit": "C",
+        "tolerance": 2.676860012526214e-09,
+        "explanation": "Q=It=VAt/(ρL)."
+      }
+    ],
+    "reasoning": "Use nanovolts and milliseconds. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-30",
+    "parts": [
+      {
+        "label": "Estimated resistance",
+        "type": "numeric",
+        "answer": 0.4,
+        "unit": "Ω",
+        "tolerance": 0.0032,
+        "explanation": "Twelve gauge steps reduce diameter by4, so resistance per length increases16fold."
+      }
+    ],
+    "reasoning": "Scale the stated1Ω per1000ft by25ft and the area factor16. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-31",
+    "parts": [
+      {
+        "label": "a · Current per strand",
+        "type": "numeric",
+        "answer": 0.006,
+        "unit": "A",
+        "tolerance": 4.8e-05,
+        "explanation": "Equal strand resistances share the current equally."
+      },
+      {
+        "label": "b · Potential difference",
+        "type": "numeric",
+        "answer": 1.59e-08,
+        "unit": "V",
+        "tolerance": 1.272e-10,
+        "explanation": "Each strand resistance is2.65μΩ in the source."
+      },
+      {
+        "label": "c · Cable resistance",
+        "type": "numeric",
+        "answer": 2.12e-08,
+        "unit": "Ω",
+        "tolerance": 1.6960000000000001e-10,
+        "explanation": "125identical parallel strands give R/N."
+      }
+    ],
+    "reasoning": "Original micro-ohm unit is crucial. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-32",
+    "parts": [
+      {
+        "label": "a · Current density",
+        "type": "numeric",
+        "answer": 3.24e-12,
+        "unit": "A/m²",
+        "tolerance": 2.592e-14,
+        "explanation": "J=σE."
+      },
+      {
+        "label": "b · Common ion drift speed",
+        "type": "numeric",
+        "answer": 0.017286084701815037,
+        "unit": "m/s",
+        "tolerance": 0.0001382886776145203,
+        "explanation": "Oppositely signed ions moving oppositely contribute currents in the same direction."
+      }
+    ],
+    "reasoning": "Both ion populations must be included in ne. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-33",
+    "parts": [
+      {
+        "label": "a · Current",
+        "type": "numeric",
+        "answer": 0.03828877005347593,
+        "unit": "A",
+        "tolerance": 0.00030631016042780745,
+        "explanation": "I=V/R."
+      },
+      {
+        "label": "b · Current density",
+        "type": "numeric",
+        "answer": 109.39648586707409,
+        "unit": "A/m²",
+        "tolerance": 0.8751718869365928,
+        "explanation": "J=I/A."
+      },
+      {
+        "label": "c · Electron drift speed",
+        "type": "numeric",
+        "answer": 0.012811903257311345,
+        "unit": "m/s",
+        "tolerance": 0.00010249522605849076,
+        "explanation": "v_d=J/(ne); electron velocity is opposite conventional current."
+      },
+      {
+        "label": "c · Electron drift direction",
+        "type": "choice",
+        "answer": "Toward the higher-potential face",
+        "options": [
+          "Toward the higher-potential face",
+          "Toward the lower-potential face",
+          "No drift"
+        ],
+        "explanation": "Negative carriers drift opposite E."
+      },
+      {
+        "label": "d · Electric field magnitude",
+        "type": "numeric",
+        "answer": 226.58227848101265,
+        "unit": "V/m",
+        "tolerance": 1.8126582278481012,
+        "explanation": "E=V/L."
+      }
+    ],
+    "reasoning": "The source gives area3.50cm²=3.50×10⁻⁴m². Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-34",
+    "parts": [
+      {
+        "label": "Section1 drift speed",
+        "type": "numeric",
+        "answer": 5.438174090500842e-09,
+        "unit": "m/s",
+        "tolerance": 4.350539272400674e-11,
+        "explanation": "Section2 E=10μV/2m; area1 is4times area2, so drift1=drift2/4."
+      }
+    ],
+    "reasoning": "Original source potential change is10.0μV, not10mV. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-35",
+    "parts": [
+      {
+        "label": "Cone resistance",
+        "type": "numeric",
+        "answer": 981321.6999840889,
+        "unit": "Ω",
+        "tolerance": 7850.573599872711,
+        "explanation": "Integratingρdx/[π(a+(b−a)x/L)²] givesρL/(πab)."
+      }
+    ],
+    "reasoning": "Verify the formula reduces toρL/(πa²) when a=b. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-36",
+    "parts": [
+      {
+        "label": "Current through swimmer",
+        "type": "numeric",
+        "answer": 0.053203223833576445,
+        "unit": "A",
+        "tolerance": 0.0015,
+        "explanation": "Use hemispherical J=I/(2πD²), E=ρJ, ΔV≈EΔr, and i=ΔV/R.",
+        "acceptedValues": [
+          0.05428900391181298,
+          0.05216002336625156
+        ]
+      }
+    ],
+    "reasoning": "The thin-width approximation uses Δr/D=.02; exact integration changes the result by about2%. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Uniform hemispherical current spreading and a swimmer width much smaller than D; neglect current redistribution by the swimmer."
+    ],
+    "scope": "The primary check uses the textbook local-field approximation across the0.70m width; exact inverse-radius integrations for either endpoint convention are accepted."
+  },
+  {
+    "id": "physics-chapter-26-problems-37",
+    "parts": [
+      {
+        "label": "Classical temperature dependence",
+        "type": "choice",
+        "answer": "ρ is proportional to √T",
+        "options": [
+          "ρ is proportional to √T",
+          "ρ is proportional to T²",
+          "ρ is independent of T"
+        ],
+        "explanation": "With mean free path fixed, τ=ℓ/v and v proportional to√T, soρ=m/(ne²τ) is proportional to√T."
+      }
+    ],
+    "reasoning": "This is the classical free-electron-model prediction, not the observed approximately linear metal resistivity. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-38",
+    "parts": [
+      {
+        "label": "Battery voltage",
+        "type": "numeric",
+        "answer": 0.1,
+        "unit": "V",
+        "tolerance": 0.0008,
+        "explanation": "The graph reaches2.50mJ at5s; ts=4s is the penultimate vertical line. P=.500mW and V=√(PR)."
+      }
+    ],
+    "reasoning": "Read the full graph endpoint rather than treating ts as its right edge. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-39",
+    "parts": [
+      {
+        "label": "Cooking time",
+        "type": "numeric",
+        "answer": 150.0,
+        "unit": "s",
+        "tolerance": 1.2,
+        "explanation": "Total required energy triples while total power remains1200W."
+      }
+    ],
+    "reasoning": "The problem explicitly holds the power supply rate unchanged. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-40",
+    "parts": [
+      {
+        "label": "Resistance",
+        "type": "numeric",
+        "answer": 11.11111111111111,
+        "unit": "Ω",
+        "tolerance": 0.08888888888888889,
+        "explanation": "R=P/I²."
+      }
+    ],
+    "reasoning": "Power and current specify the resistance directly. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-41",
+    "parts": [
+      {
+        "label": "a · Thermal power",
+        "type": "numeric",
+        "answer": 1028.5714285714287,
+        "unit": "W",
+        "tolerance": 8.22857142857143,
+        "explanation": "P=V²/R."
+      },
+      {
+        "label": "b · Cost for 5 h",
+        "type": "numeric",
+        "answer": 0.2571428571428572,
+        "unit": "USD",
+        "tolerance": 0.002057142857142857,
+        "explanation": "Convert power to kW then multiply by hours and stated rate."
+      }
+    ],
+    "reasoning": "The quoted rate is the hypothetical problem rate, not a current utility tariff. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-42",
+    "parts": [
+      {
+        "label": "a · Electron motion through strip",
+        "type": "choice",
+        "answer": "Upward through the resistor",
+        "options": [
+          "Upward through the resistor",
+          "Downward through the resistor",
+          "No net drift"
+        ],
+        "explanation": "The battery positive terminal is upper; conventional current descends, so electrons rise."
+      },
+      {
+        "label": "b · Electric-field work on electron",
+        "type": "numeric",
+        "answer": 1.9224e-18,
+        "unit": "J",
+        "tolerance": 1.5379199999999998e-20,
+        "explanation": "The electron gains positive work eV while moving toward higher potential."
+      },
+      {
+        "label": "c · Thermal energy delivered",
+        "type": "numeric",
+        "answer": 1.9224e-18,
+        "unit": "J",
+        "tolerance": 1.5379199999999998e-20,
+        "explanation": "Steady drift transfers the same field work to thermal energy through collisions."
+      }
+    ],
+    "reasoning": "Electron charge is negative, but field work in its drift direction is positive. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-43",
+    "parts": [
+      {
+        "label": "New dissipation rate",
+        "type": "numeric",
+        "answer": 0.135,
+        "unit": "W",
+        "tolerance": 0.00108,
+        "explanation": "At fixed R, power scales as voltage squared."
+      }
+    ],
+    "reasoning": "Halving voltage quarters resistor power. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-44",
+    "parts": [
+      {
+        "label": "Transported charge",
+        "type": "numeric",
+        "answer": 14000.0,
+        "unit": "C",
+        "tolerance": 112.0,
+        "explanation": "Q=It=(P/V)t, with5h elapsed."
+      }
+    ],
+    "reasoning": "The interval crosses midnight but lasts5hours. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-45",
+    "parts": [
+      {
+        "label": "a · Current",
+        "type": "numeric",
+        "answer": 10.869565217391305,
+        "unit": "A",
+        "tolerance": 0.08695652173913043,
+        "explanation": "I=P/V."
+      },
+      {
+        "label": "b · Heating-coil resistance",
+        "type": "numeric",
+        "answer": 10.58,
+        "unit": "Ω",
+        "tolerance": 0.08464,
+        "explanation": "R=V²/P."
+      },
+      {
+        "label": "c · Thermal energy in 1 h",
+        "type": "numeric",
+        "answer": 4500000,
+        "unit": "J",
+        "tolerance": 36000.0,
+        "explanation": "Energy=Pt."
+      }
+    ],
+    "reasoning": "All input electrical energy is assumed to become thermal energy. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-46",
+    "parts": [
+      {
+        "label": "a · Electric field",
+        "type": "numeric",
+        "answer": 0.0169,
+        "unit": "V/m",
+        "tolerance": 0.00013519999999999998,
+        "explanation": "E=ρJ=ρI/A."
+      },
+      {
+        "label": "b · Thermal energy",
+        "type": "numeric",
+        "answer": 243.35999999999999,
+        "unit": "J",
+        "tolerance": 1.94688,
+        "explanation": "E_th=I²Rt with t=30min."
+      }
+    ],
+    "reasoning": "Use Table26-1 copper resistivity. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-47",
+    "parts": [
+      {
+        "label": "a · Length at75V",
+        "type": "numeric",
+        "answer": 5.8500000000000005,
+        "unit": "m",
+        "tolerance": 0.04680000000000001,
+        "explanation": "R=V²/P and L=RA/ρ."
+      },
+      {
+        "label": "b · Length at100V",
+        "type": "numeric",
+        "answer": 10.4,
+        "unit": "m",
+        "tolerance": 0.08320000000000001,
+        "explanation": "Same resistivity and area; length scales withV²."
+      }
+    ],
+    "reasoning": "The wire cross-sectional area stays fixed. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-48",
+    "parts": [
+      {
+        "label": "Average current",
+        "type": "numeric",
+        "answer": 13.007690033207279,
+        "unit": "A",
+        "tolerance": 0.10406152026565824,
+        "explanation": "Set I²Rt=mass times latent heat; mass=ρ_waterLA and R=ρ_eL/A."
+      }
+    ],
+    "reasoning": "Heating to boiling is neglected as the source only supplies vaporization energy. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-49",
+    "parts": [
+      {
+        "label": "a · Monthly cost",
+        "type": "numeric",
+        "answer": 4.464,
+        "unit": "USD",
+        "tolerance": 0.035712,
+        "explanation": "Energy=.100kW×744h."
+      },
+      {
+        "label": "b · Bulb resistance",
+        "type": "numeric",
+        "answer": 144.0,
+        "unit": "Ω",
+        "tolerance": 1.1520000000000001,
+        "explanation": "R=V²/P."
+      },
+      {
+        "label": "c · Bulb current",
+        "type": "numeric",
+        "answer": 0.8333333333333334,
+        "unit": "A",
+        "tolerance": 0.006666666666666667,
+        "explanation": "I=P/V."
+      }
+    ],
+    "reasoning": "Use the supplied fictional electricity price. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-50",
+    "parts": [
+      {
+        "label": "Battery power",
+        "type": "numeric",
+        "answer": 0.012,
+        "unit": "W",
+        "tolerance": 9.6e-05,
+        "explanation": "At ts=5s, resistor energies are40mJ and20mJ; add their slopes."
+      }
+    ],
+    "reasoning": "Series resistors dissipate the total battery power together. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-51",
+    "parts": [
+      {
+        "label": "a · Potential drop1to2",
+        "type": "numeric",
+        "answer": 5.09295817894065,
+        "unit": "V",
+        "tolerance": 0.0407436654315252,
+        "explanation": "V_C=IR_C."
+      },
+      {
+        "label": "b · Potential drop2to3",
+        "type": "numeric",
+        "answer": 10.1859163578813,
+        "unit": "V",
+        "tolerance": 0.0814873308630504,
+        "explanation": "V_D=IR_D."
+      },
+      {
+        "label": "c · Power1to2",
+        "type": "numeric",
+        "answer": 10.1859163578813,
+        "unit": "W",
+        "tolerance": 0.0814873308630504,
+        "explanation": "P_C=I²R_C."
+      },
+      {
+        "label": "d · Power2to3",
+        "type": "numeric",
+        "answer": 20.3718327157626,
+        "unit": "W",
+        "tolerance": 0.1629746617261008,
+        "explanation": "P_D=I²R_D."
+      }
+    ],
+    "reasoning": "The two joined wires carry the same current, despite different current densities. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-52",
+    "parts": [
+      {
+        "label": "Thermal energy in 1 h",
+        "type": "numeric",
+        "answer": 755772.9446740967,
+        "unit": "J",
+        "tolerance": 6046.183557392774,
+        "explanation": "I=∫2πar³dr=πaR⁴/2; energy=VIt."
+      }
+    ],
+    "reasoning": "Do not replace varying current density with its edge value over the whole area. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-53",
+    "parts": [
+      {
+        "label": "a · Resistance",
+        "type": "numeric",
+        "answer": 28.8,
+        "unit": "Ω",
+        "tolerance": 0.23040000000000002,
+        "explanation": "R=V²/P."
+      },
+      {
+        "label": "b · Electron crossing rate",
+        "type": "numeric",
+        "answer": 2.600915522263837e+19,
+        "unit": "electrons/s",
+        "tolerance": 2.0807324178110698e+17,
+        "explanation": "Rate=I/e=P/(Ve)."
+      }
+    ],
+    "reasoning": "The rate is a particle count per second, not drift speed. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-54",
+    "parts": [
+      {
+        "label": "Cut position L",
+        "type": "numeric",
+        "answer": 0.22360679774997896,
+        "unit": "m",
+        "tolerance": 0.0017888543819998318,
+        "explanation": "R=∫₀ᴸ5xdx=2.5L² and requiredR=V²/P=.125Ω."
+      }
+    ],
+    "reasoning": "Integrating resistance per length is essential. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-55",
+    "parts": [
+      {
+        "label": "Power at 200°C",
+        "type": "numeric",
+        "answer": 657.8947368421052,
+        "unit": "W",
+        "tolerance": 5.263157894736842,
+        "explanation": "Reference temperature is800°C, so R₂₀₀=.76R₈₀₀ and P rises by1/.76."
+      }
+    ],
+    "reasoning": "Use the coefficient explicitly specified at800°C, not one referenced to20°C. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-56",
+    "parts": [
+      {
+        "label": "a · Current",
+        "type": "numeric",
+        "answer": 1.744447480486275,
+        "unit": "A",
+        "tolerance": 0.013955579843890202,
+        "explanation": "Convert.0400inch diameter to.001016m; I=VA/(ρL)."
+      },
+      {
+        "label": "b · Current density",
+        "type": "numeric",
+        "answer": 2151694.4593867674,
+        "unit": "A/m²",
+        "tolerance": 17213.55567509414,
+        "explanation": "J=I/A."
+      },
+      {
+        "label": "c · Electric field",
+        "type": "numeric",
+        "answer": 0.03636363636363636,
+        "unit": "V/m",
+        "tolerance": 0.0002909090909090909,
+        "explanation": "E=V/L."
+      },
+      {
+        "label": "d · Thermal power",
+        "type": "numeric",
+        "answer": 2.09333697658353,
+        "unit": "W",
+        "tolerance": 0.01674669581266824,
+        "explanation": "P=VI."
+      }
+    ],
+    "reasoning": "All four checks use the same geometry and copper resistivity. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-57",
+    "parts": [
+      {
+        "label": "Transported charge",
+        "type": "numeric",
+        "answer": 28800.0,
+        "unit": "C",
+        "tolerance": 230.4,
+        "explanation": "Q=(P/V)t."
+      }
+    ],
+    "reasoning": "Four hours equals14400seconds. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-58",
+    "parts": [
+      {
+        "label": "a · Aluminum resistance",
+        "type": "numeric",
+        "answer": 0.001322115384615385,
+        "unit": "Ω",
+        "tolerance": 1.057692307692308e-05,
+        "explanation": "R=ρ_AlL/A."
+      },
+      {
+        "label": "b · Copper diameter",
+        "type": "numeric",
+        "answer": 0.004599762500568107,
+        "unit": "m",
+        "tolerance": 3.6798100004544856e-05,
+        "explanation": "Set copperR equal to aluminumR and solve A_Cu=ρ_CuL/R."
+      }
+    ],
+    "reasoning": "Both rods have the same length, but different resistivities. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-59",
+    "parts": [
+      {
+        "label": "a · Material",
+        "type": "choice",
+        "answer": "Silver",
+        "options": [
+          "Silver",
+          "Copper",
+          "Aluminum"
+        ],
+        "explanation": "Calculatedρ≈1.62×10⁻⁸Ωm matches silver."
+      },
+      {
+        "label": "b · Disk resistance",
+        "type": "numeric",
+        "answer": 5.156620156177408e-08,
+        "unit": "Ω",
+        "tolerance": 4.125296124941927e-10,
+        "explanation": "Use silverρ from the table and disk thickness as current path length."
+      }
+    ],
+    "reasoning": "Current flows between round disk faces, not across its diameter. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-60",
+    "parts": [
+      {
+        "label": "a · General current",
+        "type": "choice",
+        "answer": "I = ρvπR²",
+        "options": [
+          "I = ρvπR²",
+          "I = ρv2πR",
+          "I = ρπR²/v"
+        ],
+        "explanation": "Charge in a swept cylinder per second givesρvA."
+      },
+      {
+        "label": "b · Current",
+        "type": "numeric",
+        "answer": 1.7278759594743865e-05,
+        "unit": "A",
+        "tolerance": 1.3823007675795091e-07,
+        "explanation": "Use radius.050m, speed2m/s and density.0011C/m³."
+      },
+      {
+        "label": "c · Radial-field spark transfer during axial flow",
+        "type": "choice",
+        "answer": "No, axial charge motion is perpendicular to the radial field",
+        "options": [
+          "No, axial charge motion is perpendicular to the radial field",
+          "Yes, every radial field accelerates axial flow",
+          "Yes, because a larger pipe always produces a spark"
+        ],
+        "explanation": "The electrical power is force dot velocity; radial E does no work on axial charge motion."
+      },
+      {
+        "label": "d · Minimum exit spark power",
+        "type": "numeric",
+        "answer": 1.3416701176176205,
+        "unit": "W",
+        "tolerance": 0.010733360940940963,
+        "explanation": "Use ΔV=ρR²/(4ε₀) from the referenced uniform cylindrical charge distribution and P=IΔV."
+      },
+      {
+        "label": "e · Spark energy in 0.20 s",
+        "type": "numeric",
+        "answer": 0.2683340235235241,
+        "unit": "J",
+        "tolerance": 0.002146672188188193,
+        "explanation": "Energy=Pt."
+      },
+      {
+        "label": "e · Enough energy for the 150 mJ threshold?",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Exactly equal"
+        ],
+        "explanation": "Compare computed spark energy with.150J."
+      },
+      {
+        "label": "f · Most likely explosion location",
+        "type": "choice",
+        "answer": "At the pipe exit into the silo",
+        "options": [
+          "At the pipe exit into the silo",
+          "Within the straight pipe",
+          "Only in the unloading-bin powder cloud"
+        ],
+        "explanation": "Exit potential change allows energy transfer that radial motion inside does not."
+      }
+    ],
+    "reasoning": "The referenced electrostatic potential difference is reconstructed from Gauss law, not an unavailable answer key. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Long uniformly charged cylinder; minimum exit potential change equals center-to-wall differenceρR²/(4ε₀); neglect fringing details."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-61",
+    "parts": [
+      {
+        "label": "a · Alpha particles striking surface",
+        "type": "numeric",
+        "answer": 2340823970037.453,
+        "unit": "particles",
+        "tolerance": 18726591760.299625,
+        "explanation": "N=It/(2e); source current is.25μA."
+      },
+      {
+        "label": "b · Particles in 20 cm",
+        "type": "numeric",
+        "answer": 5025.320188022316,
+        "unit": "particles",
+        "tolerance": 40.202561504178526,
+        "explanation": "Number per length is rate/speed; nonrelativistic v=√(2K/mα)."
+      },
+      {
+        "label": "c · Accelerating potential",
+        "type": "numeric",
+        "answer": 10000000.0,
+        "unit": "V",
+        "tolerance": 80000.0,
+        "explanation": "qΔV=20MeV with q=2e gives10MV."
+      }
+    ],
+    "reasoning": "Use alpha-particle mass6.645×10⁻²⁷kg; kinetic energy is20MeV. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-62",
+    "parts": [
+      {
+        "label": "Resistance",
+        "type": "numeric",
+        "answer": 13.333333333333334,
+        "unit": "Ω",
+        "tolerance": 0.10666666666666667,
+        "explanation": "R=V²/P."
+      }
+    ],
+    "reasoning": "The quantity is an operating resistance. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-63",
+    "parts": [
+      {
+        "label": "General power ratio",
+        "type": "choice",
+        "answer": "P′/P = (V′/V)² × (L/L′)",
+        "options": [
+          "P′/P = (V′/V)² × (L/L′)",
+          "P′/P = L′/L",
+          "Power never changes when wire is shortened"
+        ],
+        "explanation": "At fixed material and cross section, R is proportional to length and P=V²/R."
+      },
+      {
+        "label": "Power if original rating is at 120V",
+        "type": "numeric",
+        "answer": 2285.714285714286,
+        "unit": "W",
+        "tolerance": 18.28571428571429,
+        "explanation": "With the same voltage before and after, power rises by80/70."
+      }
+    ],
+    "reasoning": "The source does not explicitly specify the original rating voltage; a numerical answer requires it. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "The conditional numeric field assumes the original2.0kW rating is at120V; fixed resistivity/cross section."
+    ],
+    "scope": "The general relationship applies for any original rating voltage. The numeric field assumes the original rating was at120V; other original voltages give different valid results.",
+    "referenceAnswer": "At the same120V before and after shortening: P′=2.0kW×80/70=2.285714kW, approximately2.3kW. In general P′/P=(V′/V)²(L/L′).",
+    "reviewNotice": "The source omits the original rating voltage, and the printed answer key conflicts with the same-voltage calculation. The numeric check explicitly assumes the original2.0kW rating was at120V; the general relationship covers other ratings."
+  },
+  {
+    "id": "physics-chapter-26-problems-64",
+    "parts": [
+      {
+        "label": "a · Current density",
+        "type": "numeric",
+        "answer": 134867.1062689471,
+        "unit": "A/m²",
+        "tolerance": 1078.936850151577,
+        "explanation": "R=ρL/A, I=√(P/R), J=I/A."
+      },
+      {
+        "label": "b · Potential difference",
+        "type": "numeric",
+        "answer": 0.09440697438826295,
+        "unit": "V",
+        "tolerance": 0.0007552557951061036,
+        "explanation": "V=√(PR), P=1W."
+      }
+    ],
+    "reasoning": "Radius5mm means diameter10mm. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-65",
+    "parts": [
+      {
+        "label": "a · New-length ratio",
+        "type": "numeric",
+        "answer": 1.3693063937629153,
+        "unit": "dimensionless",
+        "tolerance": 0.010954451150103323,
+        "explanation": "R′/R=(P′/P)/(I′/I)²=30/16; fixed volume givesR∝L²."
+      },
+      {
+        "label": "b · New-area ratio",
+        "type": "numeric",
+        "answer": 0.7302967433402214,
+        "unit": "dimensionless",
+        "tolerance": 0.005842373946721772,
+        "explanation": "A′/A=L/L′ by volume conservation."
+      }
+    ],
+    "reasoning": "Voltage changes are compatible withV′/V=30/4=7.5. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-66",
+    "parts": [
+      {
+        "label": "Engine mechanical power",
+        "type": "numeric",
+        "answer": 0.20107238605898123,
+        "unit": "hp",
+        "tolerance": 0.0016085790884718498,
+        "explanation": "Mechanical power=electrical output/efficiency;1hp=746W."
+      }
+    ],
+    "reasoning": "The20% loss increases engine power demand, not decreases it. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-67",
+    "parts": [
+      {
+        "label": "a · Heat-output decrease",
+        "type": "numeric",
+        "answer": 8.50661625708884,
+        "unit": "%",
+        "tolerance": 0.06805293005671072,
+        "explanation": "At fixedR, power scales withV²."
+      },
+      {
+        "label": "b · Actual decrease with temperature dependence",
+        "type": "choice",
+        "answer": "Smaller",
+        "options": [
+          "Smaller",
+          "Larger",
+          "Unchanged"
+        ],
+        "explanation": "Lower voltage cools the element, decreasing its resistance and partly offsetting the power drop."
+      }
+    ],
+    "reasoning": "Positive metal temperature coefficient supplies negative thermal feedback. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-68",
+    "parts": [
+      {
+        "label": "Winding temperature",
+        "type": "numeric",
+        "answer": 57.209302325581376,
+        "unit": "°C",
+        "tolerance": 0.457674418604651,
+        "explanation": "R/R₂₀=1+α(T−20)."
+      }
+    ],
+    "reasoning": "Use copperα=.0043K⁻¹. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-69",
+    "parts": [
+      {
+        "label": "Thermal energy",
+        "type": "numeric",
+        "answer": 145800.0,
+        "unit": "J",
+        "tolerance": 1166.4,
+        "explanation": "Energy=(V²/R)t."
+      }
+    ],
+    "reasoning": "Two hours equals7200seconds. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-70",
+    "parts": [
+      {
+        "label": "a · Caterpillar end-to-end potential difference",
+        "type": "numeric",
+        "answer": 0.0003819718634205489,
+        "unit": "V",
+        "tolerance": 3.055774907364391e-06,
+        "explanation": "ΔV=EL=ρJL."
+      },
+      {
+        "label": "b · Tail relative to head",
+        "type": "choice",
+        "answer": "Negative",
+        "options": [
+          "Negative",
+          "Positive",
+          "Same potential"
+        ],
+        "explanation": "Electron drift is toward higher potential; the head points that way, so the tail is lower."
+      },
+      {
+        "label": "c · Time to crawl 1 cm",
+        "type": "numeric",
+        "answer": 240.70522885286883,
+        "unit": "s",
+        "tolerance": 1.9256418308229506,
+        "explanation": "t=distance/v_d with v_d=I/(neA)."
+      }
+    ],
+    "reasoning": "The caterpillar crawls along electron drift, opposite conventional current. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-71",
+    "parts": [
+      {
+        "label": "a · Doubling temperature",
+        "type": "numeric",
+        "answer": 252.5581395348837,
+        "unit": "°C",
+        "tolerance": 2.0204651162790697,
+        "explanation": "Set R/R₂₀=2 in the linear law."
+      },
+      {
+        "label": "b · Same temperature for all copper shapes?",
+        "type": "choice",
+        "answer": "Yes, under the same linear resistivity model",
+        "options": [
+          "Yes, under the same linear resistivity model",
+          "No, longer wires always double first",
+          "No, thicker wires always double first"
+        ],
+        "explanation": "The fractional resistance change is set by materialα, not initial geometry."
+      }
+    ],
+    "reasoning": "The model neglects dimensional changes and variation ofα with temperature. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      25
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-72",
+    "parts": [
+      {
+        "label": "Rail resistance",
+        "type": "numeric",
+        "answer": 0.5357142857142857,
+        "unit": "Ω",
+        "tolerance": 0.004285714285714286,
+        "explanation": "R=ρL/A;56cm²=.0056m²."
+      }
+    ],
+    "reasoning": "Ten kilometers is10000m. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-73",
+    "parts": [
+      {
+        "label": "Latent heat of vaporization",
+        "type": "numeric",
+        "answer": 2971428.571428572,
+        "unit": "J/kg",
+        "tolerance": 23771.428571428576,
+        "explanation": "Electrical power equals mass evaporation rate times latent heat."
+      }
+    ],
+    "reasoning": "Assume all coil power vaporizes the liquid at steady boiling. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-74",
+    "parts": [
+      {
+        "label": "Electron drift time",
+        "type": "numeric",
+        "answer": 34002.45,
+        "unit": "s",
+        "tolerance": 272.01959999999997,
+        "explanation": "v_d=J/(ne) and t=L/v_d."
+      }
+    ],
+    "reasoning": "Thermal random speeds do not determine net drift travel time. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-75",
+    "parts": [
+      {
+        "label": "X-ray tube power",
+        "type": "numeric",
+        "answer": 560.0,
+        "unit": "W",
+        "tolerance": 4.48,
+        "explanation": "P=IV."
+      }
+    ],
+    "reasoning": "Convert7mA and80kV to SI. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-76",
+    "parts": [
+      {
+        "label": "a · Current",
+        "type": "numeric",
+        "answer": 0.67284,
+        "unit": "A",
+        "tolerance": 0.00538272,
+        "explanation": "Electron and proton currents add because opposite charges move oppositely."
+      },
+      {
+        "label": "b · Conventional-current direction",
+        "type": "choice",
+        "answer": "Toward the negative terminal",
+        "options": [
+          "Toward the negative terminal",
+          "Away from the negative terminal",
+          "No net current"
+        ],
+        "explanation": "Positive ions move toward the negative terminal; electron motion gives the same conventional current."
+      }
+    ],
+    "reasoning": "Count both particle fluxes. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-77",
+    "parts": [
+      {
+        "label": "Piston speed",
+        "type": "numeric",
+        "answer": 0.26938775510204077,
+        "unit": "m/s",
+        "tolerance": 0.0021551020408163263,
+        "explanation": "For isothermal ideal gas ΔU=0; coil power equals work rate mgv."
+      }
+    ],
+    "reasoning": "As in the textbook model, neglect external atmospheric pressure or assume it is balanced. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Quasistatic ideal-gas expansion; piston external load is its weight mg, with atmosphere absent or balanced. If an uncompensated atmosphere is included, divide power bymg+p_atmA instead."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-78",
+    "parts": [
+      {
+        "label": "Belt surface charge density",
+        "type": "numeric",
+        "answer": 6.666666666666667e-06,
+        "unit": "C/m²",
+        "tolerance": 5.3333333333333334e-08,
+        "explanation": "I=σwv, with100μA from the source."
+      }
+    ],
+    "reasoning": "This repeats the belt calculation with the same source microampere unit. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-79",
+    "parts": [
+      {
+        "label": "a · Net current density",
+        "type": "numeric",
+        "answer": 101374.56,
+        "unit": "A/m²",
+        "tolerance": 810.99648,
+        "explanation": "Alpha densityn contributes2envα; electron density2n contributes2env_e."
+      },
+      {
+        "label": "b · Current direction",
+        "type": "choice",
+        "answer": "East",
+        "options": [
+          "East",
+          "West",
+          "Zero"
+        ],
+        "explanation": "Both positive-ion eastward motion and electron westward motion carry conventional current east."
+      }
+    ],
+    "reasoning": "Full ionization gives twice as many electrons as alpha particles. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-80",
+    "parts": [
+      {
+        "label": "a · Percentage length increase",
+        "type": "numeric",
+        "answer": 0.0017,
+        "unit": "%",
+        "tolerance": 1.36e-05,
+        "explanation": "ΔL/L=α_linearΔT."
+      },
+      {
+        "label": "b · Percentage area increase",
+        "type": "numeric",
+        "answer": 0.0034,
+        "unit": "%",
+        "tolerance": 2.72e-05,
+        "explanation": "For small expansion ΔA/A≈2α_linearΔT."
+      },
+      {
+        "label": "c · Percentage resistance increase",
+        "type": "numeric",
+        "answer": 0.42829271902378174,
+        "unit": "%",
+        "tolerance": 0.003426341752190254,
+        "explanation": "R′/R=(ρ′/ρ)(L′/L)/(A′/A)≈1+(α_resistivity−α_linear)ΔT."
+      },
+      {
+        "label": "d · Importance of dimensional changes",
+        "type": "choice",
+        "answer": "Much smaller than the resistivity change; usually negligible here",
+        "options": [
+          "Much smaller than the resistivity change; usually negligible here",
+          "Larger than the resistivity change",
+          "Exactly cancel the resistivity change"
+        ],
+        "explanation": "Geometrical correction is.0017%, versus roughly.43% resistivity change."
+      }
+    ],
+    "reasoning": "Exact isotropic scaling and the first-order formula differ negligibly for a1K change. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      10,
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-81",
+    "parts": [
+      {
+        "label": "a · Deuteron arrival rate",
+        "type": "numeric",
+        "answer": 93632958801498.12,
+        "unit": "particles/s",
+        "tolerance": 749063670411.985,
+        "explanation": "Each deuteron has charge+e; source current is15μA."
+      },
+      {
+        "label": "b · Thermal power",
+        "type": "numeric",
+        "answer": 240.0,
+        "unit": "W",
+        "tolerance": 1.92,
+        "explanation": "Every deuteron deposits16MeV; current times equivalent16MV gives power."
+      }
+    ],
+    "reasoning": "Source microampere unit must not be read as mA. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-82",
+    "parts": [
+      {
+        "label": "a · Electrons per pulse",
+        "type": "numeric",
+        "answer": 312109862671.6604,
+        "unit": "electrons",
+        "tolerance": 2496878901.3732834,
+        "explanation": "Q=I_peakΔt, with source pulse duration.10μs."
+      },
+      {
+        "label": "b · Average current",
+        "type": "numeric",
+        "answer": 2.4999999999999998e-05,
+        "unit": "A",
+        "tolerance": 2e-07,
+        "explanation": "I_avg=I_peak times duty fraction."
+      },
+      {
+        "label": "c · Average power",
+        "type": "numeric",
+        "answer": 1250.0,
+        "unit": "W",
+        "tolerance": 10.0,
+        "explanation": "Average power=I_avg×50MV."
+      },
+      {
+        "label": "d · Peak power",
+        "type": "numeric",
+        "answer": 25000000.0,
+        "unit": "W",
+        "tolerance": 200000.0,
+        "explanation": "Peak power=I_peak×50MV."
+      }
+    ],
+    "reasoning": "Duty fraction is5×10⁻⁵, not.05. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-83",
+    "parts": [
+      {
+        "label": "Heating time",
+        "type": "numeric",
+        "answer": 113.17338162064283,
+        "unit": "min",
+        "tolerance": 0.9053870529651427,
+        "explanation": "Fixed energy and resistance imply t∝1/V²."
+      }
+    ],
+    "reasoning": "A6% voltage reduction meansV′=.94V, not.06V. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-84",
+    "parts": [
+      {
+        "label": "a · Time to boiling",
+        "type": "numeric",
+        "answer": 2095.0,
+        "unit": "s",
+        "tolerance": 16.76,
+        "explanation": "Energy=mcΔT; useful power=.8×400W."
+      },
+      {
+        "label": "b · Additional time to evaporate half",
+        "type": "numeric",
+        "answer": 7050.0,
+        "unit": "s",
+        "tolerance": 56.4,
+        "explanation": "One kilogram is vaporized; energy=mL_v."
+      }
+    ],
+    "reasoning": "Assume water density1kg/L, specific heat4190J/(kgK), latent heat2256kJ/kg and80% transfer efficiency for both stages. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-problems-85",
+    "parts": [
+      {
+        "label": "a · Capacitor charge",
+        "type": "numeric",
+        "answer": 0.000225,
+        "unit": "C",
+        "tolerance": 1.8e-06,
+        "explanation": "Q=CV; source capacitance is30μF."
+      },
+      {
+        "label": "b · Current into capacitor",
+        "type": "numeric",
+        "answer": 6e-05,
+        "unit": "A",
+        "tolerance": 4.800000000000001e-07,
+        "explanation": "I=C dV/dt."
+      },
+      {
+        "label": "c · Supply output power",
+        "type": "numeric",
+        "answer": 0.00045,
+        "unit": "W",
+        "tolerance": 3.6e-06,
+        "explanation": "P=VI; both voltage and charging current are positive at.5s."
+      }
+    ],
+    "reasoning": "Differentiate the programmed voltage before evaluating current. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-1",
+    "parts": [
+      {
+        "label": "Resistance ranking",
+        "type": "choice",
+        "answer": "A = B = C > A+B = B+C > A+B+C",
+        "options": [
+          "A = B = C > A+B = B+C > A+B+C",
+          "A > B > C > A+B > B+C > A+B+C",
+          "A+B+C > A+B = B+C > A = B = C"
+        ],
+        "explanation": "Each individual conductor has areaℓ²; combined conducting areas are2ℓ² and3ℓ²."
+      }
+    ],
+    "reasoning": "Subtract the nested square holes before comparing areas. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-2",
+    "parts": [
+      {
+        "label": "Resistance ranking",
+        "type": "choice",
+        "answer": "b > a > c",
+        "options": [
+          "b > a > c",
+          "c > a > b",
+          "a = b = c"
+        ],
+        "explanation": "Areas are10,16,18mm² for b,a,c; resistance is inversely proportional to area."
+      }
+    ],
+    "reasoning": "The wires have equal length and material. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-3",
+    "parts": [
+      {
+        "label": "a · Electric-field ranking",
+        "type": "choice",
+        "answer": "Top–bottom > front–back > left–right",
+        "options": [
+          "Top–bottom > front–back > left–right",
+          "Left–right > front–back > top–bottom",
+          "All equal"
+        ],
+        "explanation": "Field magnitude is V divided by path length L,2L,3L."
+      },
+      {
+        "label": "b · Current-density ranking",
+        "type": "choice",
+        "answer": "Top–bottom > front–back > left–right",
+        "options": [
+          "Top–bottom > front–back > left–right",
+          "Left–right > front–back > top–bottom",
+          "All equal"
+        ],
+        "explanation": "J=σE for the same material."
+      },
+      {
+        "label": "c · Current ranking",
+        "type": "choice",
+        "answer": "Top–bottom > front–back > left–right",
+        "options": [
+          "Top–bottom > front–back > left–right",
+          "Left–right > front–back > top–bottom",
+          "All equal"
+        ],
+        "explanation": "For fixed volume, A=volume/path length, so I∝1/path length²."
+      },
+      {
+        "label": "d · Drift-speed ranking",
+        "type": "choice",
+        "answer": "Top–bottom > front–back > left–right",
+        "options": [
+          "Top–bottom > front–back > left–right",
+          "Left–right > front–back > top–bottom",
+          "All equal"
+        ],
+        "explanation": "Drift speed is J/(ne)."
+      }
+    ],
+    "reasoning": "Read the3D edge labels: left–right3L, top–bottomL, front–back2L. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-4",
+    "parts": [
+      {
+        "label": "Net-charge ranking",
+        "type": "choice",
+        "answer": "a = b = c > d",
+        "options": [
+          "a = b = c > d",
+          "a > b > c > d",
+          "d > a = b = c"
+        ],
+        "explanation": "The signed areas under the four current plots are equal positive areas for a,b,c and zero for d."
+      }
+    ],
+    "reasoning": "Net charge is the signed integral of current, not its peak. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-5",
+    "parts": [
+      {
+        "label": "Effective-current magnitude ranking",
+        "type": "choice",
+        "answer": "a = b = c > d",
+        "options": [
+          "a = b = c > d",
+          "d > c > b > a",
+          "a > b > c > d"
+        ],
+        "explanation": "Conventional currents are7,7,7,5C/s to the left; negative rightward motion contributes leftward current."
+      }
+    ],
+    "reasoning": "Add signed charge fluxes before comparing magnitudes. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-6",
+    "parts": [
+      {
+        "label": "a · Current ranking",
+        "type": "choice",
+        "answer": "A = B = C",
+        "options": [
+          "A = B = C",
+          "B > C > A",
+          "A > C > B"
+        ],
+        "explanation": "Steady current is conserved."
+      },
+      {
+        "label": "b · Current-density ranking",
+        "type": "choice",
+        "answer": "B > C > A",
+        "options": [
+          "B > C > A",
+          "A > C > B",
+          "A = B = C"
+        ],
+        "explanation": "J=I/(πr²)."
+      },
+      {
+        "label": "c · Field-magnitude ranking",
+        "type": "choice",
+        "answer": "B > C > A",
+        "options": [
+          "B > C > A",
+          "A > C > B",
+          "A = B = C"
+        ],
+        "explanation": "The same material has E=ρJ."
+      }
+    ],
+    "reasoning": "Narrower section requires larger current density and field. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-7",
+    "parts": [
+      {
+        "label": "a · Field-magnitude ranking",
+        "type": "choice",
+        "answer": "B > A > C",
+        "options": [
+          "B > A > C",
+          "A > B > C",
+          "C > A > B"
+        ],
+        "explanation": "Electric field magnitude is absolute slope of V(x)."
+      },
+      {
+        "label": "b · Current-density ranking",
+        "type": "choice",
+        "answer": "B > A > C",
+        "options": [
+          "B > A > C",
+          "A > B > C",
+          "C > A > B"
+        ],
+        "explanation": "J=σE for copper."
+      }
+    ],
+    "reasoning": "The steepest potential slope is in sectionB. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-8",
+    "parts": [
+      {
+        "label": "a · Field-magnitude ranking",
+        "type": "choice",
+        "answer": "1 = 2 > 3",
+        "options": [
+          "1 = 2 > 3",
+          "3 > 2 > 1",
+          "1 > 2 > 3"
+        ],
+        "explanation": "Ratios V/L are1,1,2/3."
+      },
+      {
+        "label": "b · Current-density ranking",
+        "type": "choice",
+        "answer": "1 = 2 > 3",
+        "options": [
+          "1 = 2 > 3",
+          "3 > 2 > 1",
+          "1 > 2 > 3"
+        ],
+        "explanation": "Same material conductivity makes J proportional toE."
+      },
+      {
+        "label": "c · Drift-speed ranking",
+        "type": "choice",
+        "answer": "1 = 2 > 3",
+        "options": [
+          "1 = 2 > 3",
+          "3 > 2 > 1",
+          "1 > 2 > 3"
+        ],
+        "explanation": "Same carrier density makes drift speed proportional toJ."
+      }
+    ],
+    "reasoning": "Diameter does not change field or current density when the voltage and length are specified. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-9",
+    "parts": [
+      {
+        "label": "a · Radius ranking",
+        "type": "choice",
+        "answer": "C > B > A",
+        "options": [
+          "C > B > A",
+          "A > B > C",
+          "A = B = C"
+        ],
+        "explanation": "At fixed current and carrier density, drift speed is inversely proportional to area."
+      },
+      {
+        "label": "b · Carrier-density ranking",
+        "type": "choice",
+        "answer": "A = B = C",
+        "options": [
+          "A = B = C",
+          "A > B > C",
+          "C > B > A"
+        ],
+        "explanation": "All sections are the same copper material."
+      },
+      {
+        "label": "c · Field-magnitude ranking",
+        "type": "choice",
+        "answer": "A > B > C",
+        "options": [
+          "A > B > C",
+          "C > B > A",
+          "A = B = C"
+        ],
+        "explanation": "E=ρnev_d."
+      },
+      {
+        "label": "d · Conductivity ranking",
+        "type": "choice",
+        "answer": "A = B = C",
+        "options": [
+          "A = B = C",
+          "A > B > C",
+          "C > B > A"
+        ],
+        "explanation": "Conductivity is a material property under the stated conditions."
+      }
+    ],
+    "reasoning": "The plotted drift speed decreases AtoBtoC. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-10",
+    "parts": [
+      {
+        "label": "Thermal-power ranking",
+        "type": "choice",
+        "answer": "C > A > B",
+        "options": [
+          "C > A > B",
+          "B > A > C",
+          "A = B = C"
+        ],
+        "explanation": "At fixed voltage P=V²A/(ρL); resistance ratios are.9,1,1.44 for C,A,B."
+      }
+    ],
+    "reasoning": "Current and power depend on the productρL. Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-26-questions-11",
+    "parts": [
+      {
+        "label": "a · Field at center",
+        "type": "choice",
+        "answer": "a = c > b",
+        "options": [
+          "a = c > b",
+          "a > b > c",
+          "a = b > c"
+        ],
+        "explanation": "At r=0, curves a and c start at the same current density, while b starts at zero."
+      },
+      {
+        "label": "b · Field halfway to surface",
+        "type": "choice",
+        "answer": "a > b > c",
+        "options": [
+          "a > b > c",
+          "a > c > b",
+          "a = b > c"
+        ],
+        "explanation": "Read the curves atR/2; rising b lies above falling c."
+      },
+      {
+        "label": "c · Field at surface",
+        "type": "choice",
+        "answer": "a = b > c",
+        "options": [
+          "a = b > c",
+          "a > b > c",
+          "c > a = b"
+        ],
+        "explanation": "Curves a,b reach the same edge value while c tends tozero."
+      }
+    ],
+    "reasoning": "For the same material, local field magnitude follows localJ(r). Verification: independently substitute the source givens into charge conservation, current-density integrals, Ohm law and energy balance; check SI dimensions.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use copper resistivity1.69×10⁻⁸Ω·m and temperature coefficient0.0043K⁻¹ from Table26-1 when needed. Uniform current density unless otherwise stated."
+    ]
+  }
+]

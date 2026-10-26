@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "id": "physics-chapter-29-problems-44",
+      "sourcePages": [
+        25
+      ],
+      "verification": "Independent original-diagram review: path1 front arrow points right, normal upward, threading downward i1 and upward i2, so integral=mu0(i2-i1)=-2mu0. Path2 reverses winding between the two left-coil legs and the right-coil leg, giving mu0(2i1-i2)=7mu0."
+    },
+    {
+      "id": "physics-chapter-29-problems-46",
+      "sourcePages": [
+        25
+      ],
+      "verification": "Independently extracted original closed orange cubic-Bezier path using PyMuPDF page24 drawing135 and sampled each cubic at30steps. atan2 winding sums around wire centers, with source-arrow orientation, give +1 for wires1,3,6,7 and0 for2,4,5,8. Thus enclosed signed current=(1+3-6+7)*4.50mA=22.5mA; integral=mu0*0.0225=2.827433388e-8 T m."
+    },
+    {
+      "id": "physics-chapter-30-problems-100",
+      "verification": "Independent differentiation: resistance=rho*r*(2+theta)/A=.0034*(2+theta)ohm; flux=Br^2*theta/2=.00432theta Wb; angular speed=sqrt(2alpha theta). Current proportional sqrt(theta)/(2+theta), stationary maximum at theta=2rad, giving about2.2007A."
+    },
+    {
+      "id": "physics-chapter-27-problems-74",
+      "sourcePages": [
+        30
+      ],
+      "verification": "Independent original-diagram tracing of ideal-battery route: with top-left reference0V, bottom-left branch endpoint0V, bottom full rail0V, central cross-node -10V, adjacent horizontal-battery node -20V, upper cross-node -30V, target resistor top -40V. Target branch resistance4+(4||4)+4=10ohm, so4A flows upward."
+    },
+    {
+      "id": "physics-chapter-29-problems-26",
+      "sourcePages": [
+        23
+      ],
+      "verification": "Independent graph review: intercept1e-10T^2 and value11e-10T^2 at squaredcurrent2A^2 give slope5e-10T^2/A^2. Arc angle=2sqrt(intercept/slope)/0.50A=1.788854rad=102.4938degrees."
+    }
+  ]
+}

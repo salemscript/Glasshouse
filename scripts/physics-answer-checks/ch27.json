@@ -1,0 +1,4199 @@
+[
+  {
+    "id": "physics-chapter-27-problems-1",
+    "parts": [
+      {
+        "label": "a · Current magnitude",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "A",
+        "tolerance": 0.004,
+        "explanation": "Opposing emfs give i=(12−6)/(4+8)."
+      },
+      {
+        "label": "b · Power in resistor 1",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "W",
+        "tolerance": 0.008,
+        "explanation": "i²R₁."
+      },
+      {
+        "label": "c · Power in resistor 2",
+        "type": "numeric",
+        "answer": 2.0,
+        "unit": "W",
+        "tolerance": 0.016,
+        "explanation": "i²R₂."
+      },
+      {
+        "label": "d · Battery1 energy-transfer rate",
+        "type": "numeric",
+        "answer": 6.0,
+        "unit": "W",
+        "tolerance": 0.048,
+        "explanation": "iε₁."
+      },
+      {
+        "label": "e · Battery2 energy-transfer rate",
+        "type": "numeric",
+        "answer": 3.0,
+        "unit": "W",
+        "tolerance": 0.024,
+        "explanation": "iε₂."
+      },
+      {
+        "label": "f · Battery1",
+        "type": "choice",
+        "answer": "Supplies energy",
+        "options": [
+          "Supplies energy",
+          "Absorbs energy",
+          "Transfers no energy"
+        ],
+        "explanation": "Current leaves its positive terminal."
+      },
+      {
+        "label": "g · Battery2",
+        "type": "choice",
+        "answer": "Absorbs energy",
+        "options": [
+          "Absorbs energy",
+          "Supplies energy",
+          "Transfers no energy"
+        ],
+        "explanation": "Current enters its positive terminal."
+      }
+    ],
+    "reasoning": "The 12 V source drives counterclockwise against the 6 V source. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-2",
+    "parts": [
+      {
+        "label": "Potential at Q",
+        "type": "numeric",
+        "answer": 10.0,
+        "unit": "V",
+        "tolerance": 0.08,
+        "explanation": "Net emf100 V drives20 A; P→Q via right battery and upper resistor gives100−50−20×3."
+      }
+    ],
+    "reasoning": "Apply KVL around the loop and then one path from known potentialP. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-3",
+    "parts": [
+      {
+        "label": "a · Charging terminal voltage",
+        "type": "numeric",
+        "answer": 14.0,
+        "unit": "V",
+        "tolerance": 0.112,
+        "explanation": "ε+ir."
+      },
+      {
+        "label": "b · Internal heating while charging",
+        "type": "numeric",
+        "answer": 100.0,
+        "unit": "W",
+        "tolerance": 0.8,
+        "explanation": "i²r."
+      },
+      {
+        "label": "c · Chemical charging rate",
+        "type": "numeric",
+        "answer": 600.0,
+        "unit": "W",
+        "tolerance": 4.8,
+        "explanation": "iε."
+      },
+      {
+        "label": "d · Discharging terminal voltage",
+        "type": "numeric",
+        "answer": 10.0,
+        "unit": "V",
+        "tolerance": 0.08,
+        "explanation": "ε−ir."
+      },
+      {
+        "label": "e · Internal heating while discharging",
+        "type": "numeric",
+        "answer": 100.0,
+        "unit": "W",
+        "tolerance": 0.8,
+        "explanation": "i²r, independent of current sign."
+      }
+    ],
+    "reasoning": "Charging raises terminal voltage while discharging lowers it. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-4",
+    "parts": [
+      {
+        "label": "a · R₁",
+        "type": "numeric",
+        "answer": 80.0,
+        "unit": "Ω",
+        "tolerance": 0.64,
+        "explanation": "The remaining drop onR₃ is 12−2−5=5 V, so I=.025 A and R₁=2/I."
+      },
+      {
+        "label": "b · R₂",
+        "type": "numeric",
+        "answer": 200.0,
+        "unit": "Ω",
+        "tolerance": 1.6,
+        "explanation": "R₂=5/.025."
+      }
+    ],
+    "reasoning": "Read voltage drops, not graph segment lengths. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-5",
+    "parts": [
+      {
+        "label": "Chemical energy decrease",
+        "type": "numeric",
+        "answer": 10800.0,
+        "unit": "J",
+        "tolerance": 86.4,
+        "explanation": "Energy=iεt with 6min=360 s."
+      }
+    ],
+    "reasoning": "The chemical source supplies energy during discharge. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-6",
+    "parts": [
+      {
+        "label": "a · Battery operating cost",
+        "type": "numeric",
+        "answer": 320.0,
+        "unit": "USD",
+        "tolerance": 2.56,
+        "explanation": "800Wh requires400 batteries, each$0.80."
+      },
+      {
+        "label": "b · Utility operating cost",
+        "type": "numeric",
+        "answer": 0.048,
+        "unit": "USD",
+        "tolerance": 0.000384,
+        "explanation": "0.800kWh×$0.06/kWh."
+      }
+    ],
+    "reasoning": "Convert watt-hours consistently; a watt is not an energy. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-7",
+    "parts": [
+      {
+        "label": "a · Chemical energy",
+        "type": "numeric",
+        "answer": 80.0,
+        "unit": "J",
+        "tolerance": 0.64,
+        "explanation": "εit."
+      },
+      {
+        "label": "b · Wire heating",
+        "type": "numeric",
+        "answer": 66.66666666666667,
+        "unit": "J",
+        "tolerance": 0.5333333333333334,
+        "explanation": "i²Rt."
+      },
+      {
+        "label": "c · Internal heating",
+        "type": "numeric",
+        "answer": 13.333333333333332,
+        "unit": "J",
+        "tolerance": 0.10666666666666666,
+        "explanation": "i²rt."
+      }
+    ],
+    "reasoning": "The three energies obey chemical energy=external+internal heating. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-8",
+    "parts": [
+      {
+        "label": "Operating time",
+        "type": "numeric",
+        "answer": 14.4,
+        "unit": "h",
+        "tolerance": 0.11520000000000001,
+        "explanation": "Battery energy is 12 V×120Ah=1440Wh."
+      }
+    ],
+    "reasoning": "Assume the stated constant terminal voltage and full usable charge. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-9",
+    "parts": [
+      {
+        "label": "a · Work per electron",
+        "type": "numeric",
+        "answer": 12.0,
+        "unit": "eV",
+        "tolerance": 0.096,
+        "explanation": "The electron moves toward lower potential; qΔV gives positive battery work12eV."
+      },
+      {
+        "label": "b · Battery power",
+        "type": "numeric",
+        "answer": 6.536159999999999,
+        "unit": "W",
+        "tolerance": 0.052289279999999994,
+        "explanation": "Electron rate times energy per electron."
+      }
+    ],
+    "reasoning": "The positive battery work is 12eV per electron. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-10",
+    "parts": [
+      {
+        "label": "a · External R",
+        "type": "numeric",
+        "answer": 994.0,
+        "unit": "Ω",
+        "tolerance": 7.952,
+        "explanation": "Opposing emfs leave1 V; total resistance 1000 Ω minus6 Ω internal."
+      },
+      {
+        "label": "b · Heating in R",
+        "type": "numeric",
+        "answer": 0.0009939999999999999,
+        "unit": "W",
+        "tolerance": 7.952e-06,
+        "explanation": "i²R."
+      }
+    ],
+    "reasoning": "The 3 V battery drives against2 V. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-11",
+    "parts": [
+      {
+        "label": "a · VA−VB",
+        "type": "numeric",
+        "answer": 50.0,
+        "unit": "V",
+        "tolerance": 0.4,
+        "explanation": "The section absorbs50 W at 1 A, so VA−VB=P/i."
+      },
+      {
+        "label": "b · Device emf",
+        "type": "numeric",
+        "answer": 48.0,
+        "unit": "V",
+        "tolerance": 0.384,
+        "explanation": "The resistor drops2 V, leaving48 V across the absorbing device."
+      },
+      {
+        "label": "c · Terminal at B",
+        "type": "choice",
+        "answer": "Negative terminal",
+        "options": [
+          "Negative terminal",
+          "Positive terminal",
+          "Both terminals at equal potential"
+        ],
+        "explanation": "Current enters the positive terminal on the left of the absorbing source."
+      }
+    ],
+    "reasoning": "Include resistor heating in the section power balance. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-12",
+    "parts": [
+      {
+        "label": "a · Resistor voltage",
+        "type": "numeric",
+        "answer": 11.9956979931638,
+        "unit": "V",
+        "tolerance": 0.0959655839453104,
+        "explanation": "Use both small copper-wire resistances in series."
+      },
+      {
+        "label": "b · Voltage per wire",
+        "type": "numeric",
+        "answer": 0.0021510034180998237,
+        "unit": "V",
+        "tolerance": 1.720802734479859e-05,
+        "explanation": "Vwire=iρL/A."
+      },
+      {
+        "label": "c · Resistor heating",
+        "type": "numeric",
+        "answer": 23.982795057199006,
+        "unit": "W",
+        "tolerance": 0.19186236045759206,
+        "explanation": "i²R."
+      },
+      {
+        "label": "d · Heating per wire",
+        "type": "numeric",
+        "answer": 0.004300464564298089,
+        "unit": "W",
+        "tolerance": 3.440371651438471e-05,
+        "explanation": "i²rwire."
+      }
+    ],
+    "reasoning": "Use copperρ=1.69×10⁻⁸Ωm; the wire drops are small compared with 12 V. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Copper resistivity1.69×10⁻⁸Ωm at 20°C; stated cylindrical dimensions."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-13",
+    "parts": [
+      {
+        "label": "a · Distance from west",
+        "type": "numeric",
+        "answer": 6.923076923076923,
+        "unit": "km",
+        "tolerance": 0.055384615384615386,
+        "explanation": "Subtract200=26x+R and 100=26(10−x)+R."
+      },
+      {
+        "label": "b · Short-path resistance",
+        "type": "numeric",
+        "answer": 20.0,
+        "unit": "Ω",
+        "tolerance": 0.16,
+        "explanation": "Add the two measured loop resistances and subtract260 Ω wire resistance."
+      }
+    ],
+    "reasoning": "Each measurement includes outgoing and return wire lengths. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-14",
+    "parts": [
+      {
+        "label": "a · Battery1 internal resistance",
+        "type": "numeric",
+        "answer": 0.2,
+        "unit": "Ω",
+        "tolerance": 0.0016,
+        "explanation": "AtR=0, V₁=.24,V₂=−.24; at R=.10,V₂=0, so I=1.2/r₂ andr₁/r₂=2/3."
+      },
+      {
+        "label": "b · Battery2 internal resistance",
+        "type": "numeric",
+        "answer": 0.3,
+        "unit": "Ω",
+        "tolerance": 0.0024,
+        "explanation": "Zero terminal voltage of battery 2 occurs at R=r₂−r₁=.10 Ω."
+      }
+    ],
+    "reasoning": "Use zero-crossingR=.10 Ω and the R=0 intercepts±.24 V from the graph. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-15",
+    "parts": [
+      {
+        "label": "Original resistance",
+        "type": "numeric",
+        "answer": 8.0,
+        "unit": "Ω",
+        "tolerance": 0.064,
+        "explanation": "5R=4(R+2)."
+      }
+    ],
+    "reasoning": "The ideal emf remains the same in the two trials. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-16",
+    "parts": [
+      {
+        "label": "a · Internal resistance",
+        "type": "numeric",
+        "answer": 1000.0,
+        "unit": "Ω",
+        "tolerance": 8.0,
+        "explanation": "Currents are.10/500 and.15/1000; equateε=V+ir."
+      },
+      {
+        "label": "b · Emf",
+        "type": "numeric",
+        "answer": 0.3,
+        "unit": "V",
+        "tolerance": 0.0024,
+        "explanation": "ε=.10+.0002×1000."
+      },
+      {
+        "label": "c · Efficiency",
+        "type": "numeric",
+        "answer": 0.225,
+        "unit": "percent",
+        "tolerance": 0.0018000000000000002,
+        "explanation": "Output.15²/1000=22.5μW, input10mW."
+      }
+    ],
+    "reasoning": "The requested efficiency concerns the 1000 Ω external resistor. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-17",
+    "parts": [
+      {
+        "label": "a · External resistance",
+        "type": "numeric",
+        "answer": 0.004,
+        "unit": "Ω",
+        "tolerance": 3.2e-05,
+        "explanation": "Zero terminalV₁ requiresi=12/.016=750 A; R=24/i−.028."
+      },
+      {
+        "label": "b · Zero-voltage battery",
+        "type": "choice",
+        "answer": "Battery1",
+        "options": [
+          "Battery1",
+          "Battery2",
+          "Both batteries"
+        ],
+        "explanation": "The larger internal resistance produces the larger internal drop."
+      }
+    ],
+    "reasoning": "Identical emfs add, internal resistances add. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-18",
+    "parts": [
+      {
+        "label": "Vd−Vc",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "V",
+        "tolerance": 0.002,
+        "explanation": "LetVd=0; Vb=−1.25 from(Vb+4)/10+(Vb+1)/10+Vb/5=0, givingVc=−.25."
+      }
+    ],
+    "reasoning": "Use the source Figure27-9 battery polarities. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      11,
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-19",
+    "parts": [
+      {
+        "label": "a · Unknown resistance",
+        "type": "numeric",
+        "answer": 4.0,
+        "unit": "Ω",
+        "tolerance": 0.032,
+        "explanation": "1/3=1/12+1/R."
+      },
+      {
+        "label": "b · Connection",
+        "type": "choice",
+        "answer": "Parallel",
+        "options": [
+          "Parallel",
+          "Series",
+          "Either connection"
+        ],
+        "explanation": "Equivalent resistance is below either branch resistance."
+      }
+    ],
+    "reasoning": "A positive series resistor cannot reduce12 Ω to 3 Ω. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-20",
+    "parts": [
+      {
+        "label": "a · Smaller resistance",
+        "type": "numeric",
+        "answer": 4.0,
+        "unit": "Ω",
+        "tolerance": 0.032,
+        "explanation": "Sum16, product3×16=48; solve quadratic."
+      },
+      {
+        "label": "b · Larger resistance",
+        "type": "numeric",
+        "answer": 12.0,
+        "unit": "Ω",
+        "tolerance": 0.096,
+        "explanation": "The other root of R²−16R+48=0."
+      }
+    ],
+    "reasoning": "Series fixes the sum and parallel fixes the product. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-21",
+    "parts": [
+      {
+        "label": "Battery current",
+        "type": "numeric",
+        "answer": 5.555555555555555,
+        "unit": "A",
+        "tolerance": 0.044444444444444446,
+        "explanation": "Four equal parallel resistors giveReq=18/4."
+      }
+    ],
+    "reasoning": "Branch currents add. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-22",
+    "parts": [
+      {
+        "label": "a · RFH",
+        "type": "numeric",
+        "answer": 2.5,
+        "unit": "Ω",
+        "tolerance": 0.02,
+        "explanation": "Three parallel paths have resistances10,5,10 Ω."
+      },
+      {
+        "label": "b · RFG",
+        "type": "numeric",
+        "answer": 3.125,
+        "unit": "Ω",
+        "tolerance": 0.025,
+        "explanation": "BetweenF,H the top10 Ω and middle5 Ω combine10/3 Ω; add5 Ω to G, parallel with direct5 Ω."
+      }
+    ],
+    "reasoning": "Retain the middle crossbar when changing the measurement terminals. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-23",
+    "parts": [
+      {
+        "label": "a · Resistor1 current",
+        "type": "numeric",
+        "answer": 0.05,
+        "unit": "A",
+        "tolerance": 0.0004,
+        "explanation": "The middle ideal5 V source fixesVa−Vcentral=5 V across100 Ω."
+      },
+      {
+        "label": "b · Resistor2 current",
+        "type": "numeric",
+        "answer": 0.06,
+        "unit": "A",
+        "tolerance": 0.00048,
+        "explanation": "Va−Vb=5+4=9 V; subtract6 V upper source, leaving3 V across50 Ω."
+      },
+      {
+        "label": "c · Va−Vb",
+        "type": "numeric",
+        "answer": 9.0,
+        "unit": "V",
+        "tolerance": 0.07200000000000001,
+        "explanation": "Add the two series ideal-source potential steps."
+      }
+    ],
+    "reasoning": "Ideal middle sources fix node potentials independently of resistor currents. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-24",
+    "parts": [
+      {
+        "label": "Equivalent resistance",
+        "type": "numeric",
+        "answer": 4.5,
+        "unit": "Ω",
+        "tolerance": 0.036000000000000004,
+        "explanation": "(4||4)+2.5."
+      }
+    ],
+    "reasoning": "The first two resistors share both nodes. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-25",
+    "parts": [
+      {
+        "label": "Diameter relation",
+        "type": "choice",
+        "answer": "D=3d",
+        "options": [
+          "D=3d",
+          "D=9d",
+          "D=d/3"
+        ],
+        "explanation": "Nine parallel equal wires have nine times the area of one wire, so D²=9d²."
+      }
+    ],
+    "reasoning": "Resistivity and length cancel. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ],
+    "referenceAnswer": "D=3d"
+  },
+  {
+    "id": "physics-chapter-27-problems-26",
+    "parts": [
+      {
+        "label": "Power as a function of x",
+        "type": "choice",
+        "answer": "P=ε²a²R/[R(a+b)+ab]², with a=R₀x/L and b=R₀−a",
+        "options": [
+          "P=ε²a²R/[R(a+b)+ab]², with a=R₀x/L and b=R₀−a",
+          "P=ε²/R for every x",
+          "P=ε²x/(RL)"
+        ],
+        "explanation": "The loadR shunts only the left segmenta; calculate its loaded divider voltage."
+      },
+      {
+        "label": "Power at x=0cm",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "W",
+        "tolerance": 1e-25,
+        "explanation": "The sliding contact shorts the load voltage."
+      },
+      {
+        "label": "Power at x=5cm",
+        "type": "numeric",
+        "answer": 0.30483158055174514,
+        "unit": "W",
+        "tolerance": 0.0024386526444139613,
+        "explanation": "Apply the loaded-divider expression."
+      },
+      {
+        "label": "Power at x=10cm",
+        "type": "numeric",
+        "answer": 1.25,
+        "unit": "W",
+        "tolerance": 0.01,
+        "explanation": "At the right endpointR is across the full50 V."
+      },
+      {
+        "label": "Graph shape",
+        "type": "choice",
+        "answer": "Increases monotonically from 0 to 1.25 W",
+        "options": [
+          "Increases monotonically from 0 to 1.25 W",
+          "Decreases monotonically from 1.25 W",
+          "Has a maximum at 5cm"
+        ],
+        "explanation": "The load voltage increases as the contact moves right."
+      }
+    ],
+    "reasoning": "The resistor loads the potentiometer; an unloaded-divider approximation is unnecessary. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ],
+    "scope": "Checks cover the derived power law, endpoint/midpoint values and graph behavior; freehand plotting is not automatically assessed."
+  },
+  {
+    "id": "physics-chapter-27-problems-27",
+    "parts": [
+      {
+        "label": "Current through person",
+        "type": "numeric",
+        "answer": 3571.4285714285716,
+        "unit": "A",
+        "tolerance": 28.571428571428573,
+        "explanation": "Air resistance scales with length, so Iperson/Itree=h/d=2.5."
+      }
+    ],
+    "reasoning": "Parallel current division uses air-path resistances; body resistance is neglected as specified. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-28",
+    "parts": [
+      {
+        "label": "Current in resistor 2",
+        "type": "numeric",
+        "answer": 0.0008181818181818183,
+        "unit": "A",
+        "tolerance": 6.545454545454547e-06,
+        "explanation": "From graph slopesR₁=6 kΩ,R₂=4 kΩ,R₃=2 kΩ; R₃ is series with R₁||R₂."
+      }
+    ],
+    "reasoning": "Read graph endpoint values18,12,6 V at 3mA. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-29",
+    "parts": [
+      {
+        "label": "a · Current i₁ magnitude",
+        "type": "numeric",
+        "answer": 0.3333333333333333,
+        "unit": "A",
+        "tolerance": 0.0026666666666666666,
+        "explanation": "The middle18 Ω resistor carries1/3 A after node reduction; its voltage is 6 V."
+      },
+      {
+        "label": "b · Direction i₁",
+        "type": "choice",
+        "answer": "Right",
+        "options": [
+          "Right",
+          "Left",
+          "Zero current"
+        ],
+        "explanation": "Trace the source positive terminal through the middle18 Ω branch."
+      },
+      {
+        "label": "c · Total heat in 1min",
+        "type": "numeric",
+        "answer": 720.0,
+        "unit": "J",
+        "tolerance": 5.76,
+        "explanation": "The wires leave one18 Ω path in parallel with a36 Ω path, so Req12 Ω and P=12 W."
+      }
+    ],
+    "reasoning": "Redraw the crossing wires as node connections before reducing the resistors. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-30",
+    "parts": [
+      {
+        "label": "a · Current in R₂",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "A",
+        "tolerance": 1e-25,
+        "explanation": "Solve3VA=10+5 so VA=5 V."
+      },
+      {
+        "label": "b · Current in R₃",
+        "type": "numeric",
+        "answer": 1.25,
+        "unit": "A",
+        "tolerance": 0.01,
+        "explanation": "VA/4 to ground."
+      }
+    ],
+    "reasoning": "The right source top is 5 V and equals the middle node potential. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-31",
+    "parts": [
+      {
+        "label": "a · V₁",
+        "type": "numeric",
+        "answer": -11.0,
+        "unit": "V",
+        "tolerance": 0.088,
+        "explanation": "The two right-hand2 Ω resistors are parallel, giving1 Ω. Loop current=(12−5)/7=1 A; the node above battery 2 is+1 V, henceV₁=1−12."
+      },
+      {
+        "label": "b · V₂",
+        "type": "numeric",
+        "answer": -9.0,
+        "unit": "V",
+        "tolerance": 0.07200000000000001,
+        "explanation": "The bottom2 Ω resistor raises potential by 2 V moving left, so V₂=−11+2."
+      }
+    ],
+    "reasoning": "Count both parallel right resistors; grounding fixes the absolute potentials. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-32",
+    "parts": [
+      {
+        "label": "a · Fixed emf ε₁",
+        "type": "numeric",
+        "answer": 6.0,
+        "unit": "V",
+        "tolerance": 0.048,
+        "explanation": "The descending current crosses zero at ε₂=6 V, so ε₁=6 V."
+      },
+      {
+        "label": "b · R₁",
+        "type": "numeric",
+        "answer": 20.0,
+        "unit": "Ω",
+        "tolerance": 0.16,
+        "explanation": "Descending slope−.050 A/V equals−1/R₁."
+      },
+      {
+        "label": "c · R₂",
+        "type": "numeric",
+        "answer": 40.0,
+        "unit": "Ω",
+        "tolerance": 0.32,
+        "explanation": "Ascending slope.075 A/V=1/R₁+1/R₂."
+      }
+    ],
+    "reasoning": "Identify battery 1 current as the descending line, since increasingε₂ opposes its emf. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-33",
+    "parts": [
+      {
+        "label": "Battery emf",
+        "type": "numeric",
+        "answer": 48.3,
+        "unit": "V",
+        "tolerance": 0.38639999999999997,
+        "explanation": "Work backward:i₆=1.4 givesVB=16.8 V,i₄=1.05 A,i₂=2.45 A,VA=21.7 V,i₃=10.85 A,i₁=13.30 A."
+      }
+    ],
+    "reasoning": "The calculated currents satisfy each ladder junction separately. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-34",
+    "parts": [
+      {
+        "label": "a · Change in V₁",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "V",
+        "tolerance": 1e-25,
+        "explanation": "R₁ stays directly across the ideal12 V battery."
+      },
+      {
+        "label": "b · Change in V₁",
+        "type": "numeric",
+        "answer": -2.0,
+        "unit": "V",
+        "tolerance": 0.016,
+        "explanation": "Initially12×6/(6+6)=6 V; after closure6 Ω||(6 Ω)=3 Ω follows6 Ω, giving4 V."
+      }
+    ],
+    "reasoning": "The added branch only changes an existing voltage when source-series resistance is present. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-35",
+    "parts": [
+      {
+        "label": "a · VA−VB",
+        "type": "numeric",
+        "answer": 5.249999999999999,
+        "unit": "V",
+        "tolerance": 0.041999999999999996,
+        "explanation": "Battery fixesVA−VD=12 V; KCL solvesVC and VB."
+      },
+      {
+        "label": "b · VB−VC",
+        "type": "numeric",
+        "answer": 1.5000000000000009,
+        "unit": "V",
+        "tolerance": 0.012000000000000007,
+        "explanation": "Subtract the solved midpoint potentials."
+      },
+      {
+        "label": "c · VC−VD",
+        "type": "numeric",
+        "answer": 5.25,
+        "unit": "V",
+        "tolerance": 0.042,
+        "explanation": "UseVD=0 as reference."
+      },
+      {
+        "label": "d · VA−VC",
+        "type": "numeric",
+        "answer": 6.75,
+        "unit": "V",
+        "tolerance": 0.054,
+        "explanation": "The other upper branch drop is 12−VC."
+      }
+    ],
+    "reasoning": "Battery fixesA at 12 V and D at 0 V; midpoint equations determineB,C. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-36",
+    "parts": [
+      {
+        "label": "a · R₁ current magnitude",
+        "type": "numeric",
+        "answer": 0.038181818181818185,
+        "unit": "A",
+        "tolerance": 0.0003054545454545455,
+        "explanation": "The middle node voltage follows KCL."
+      },
+      {
+        "label": "b · R₁ direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero current"
+        ],
+        "explanation": "VA is above ground."
+      },
+      {
+        "label": "c · R₂ current magnitude",
+        "type": "numeric",
+        "answer": 0.010909090909090908,
+        "unit": "A",
+        "tolerance": 8.727272727272727e-05,
+        "explanation": "Current is(6−VA)/200."
+      },
+      {
+        "label": "d · R₂ direction",
+        "type": "choice",
+        "answer": "Right",
+        "options": [
+          "Right",
+          "Left",
+          "Zero current"
+        ],
+        "explanation": "The left6 V terminal is aboveVA."
+      },
+      {
+        "label": "e · R₃ current magnitude",
+        "type": "numeric",
+        "answer": 0.02727272727272727,
+        "unit": "A",
+        "tolerance": 0.00021818181818181818,
+        "explanation": "Current is(12−VA)/300."
+      },
+      {
+        "label": "f · R₃ direction",
+        "type": "choice",
+        "answer": "Left",
+        "options": [
+          "Left",
+          "Right",
+          "Zero current"
+        ],
+        "explanation": "The right12 V terminal is aboveVA."
+      },
+      {
+        "label": "g · VA",
+        "type": "numeric",
+        "answer": 3.8181818181818183,
+        "unit": "V",
+        "tolerance": 0.030545454545454546,
+        "explanation": "Set(6−VA)/200+(12−VA)/300=VA/100."
+      }
+    ],
+    "reasoning": "The grounded bottom wire is 0 V. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-37",
+    "parts": [
+      {
+        "label": "Power-maximizing R₃",
+        "type": "numeric",
+        "answer": 1.4285714285714286,
+        "unit": "Ω",
+        "tolerance": 0.011428571428571429,
+        "explanation": "The Thévenin resistance seen by R₃ is R₁||R₂."
+      }
+    ],
+    "reasoning": "Maximum load power occurs when load resistance equals source Thévenin resistance. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-38",
+    "parts": [
+      {
+        "label": "a · Box energy transfer",
+        "type": "choice",
+        "answer": "Provides energy",
+        "options": [
+          "Provides energy",
+          "Absorbs energy",
+          "Transfers no energy"
+        ],
+        "explanation": "Its right terminal is 24 V above its left while current flows left-to-right."
+      },
+      {
+        "label": "b · Box power magnitude",
+        "type": "numeric",
+        "answer": 360.0,
+        "unit": "W",
+        "tolerance": 2.88,
+        "explanation": "Vjunction=6×6=36 V; totalI=(78−36)/2=21 A; upperI=15 A, box rise24 V, P=360 W."
+      }
+    ],
+    "reasoning": "The upper resistor dissipates15²×4=900 W, exceeding upper branch input540 W by 360 W supplied by the box. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-39",
+    "parts": [
+      {
+        "label": "a · Maximizing external R",
+        "type": "numeric",
+        "answer": 0.15,
+        "unit": "Ω",
+        "tolerance": 0.0012,
+        "explanation": "Two identical parallel batteries have internal resistance.300/2 Ω."
+      },
+      {
+        "label": "b · Maximum load power",
+        "type": "numeric",
+        "answer": 240.0,
+        "unit": "W",
+        "tolerance": 1.92,
+        "explanation": "Pmax=ε²/(4rth)."
+      }
+    ],
+    "reasoning": "Parallel identical sources retain the same emf. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-40",
+    "parts": [
+      {
+        "label": "a · Parallel current, R=2r",
+        "type": "numeric",
+        "answer": 24.0,
+        "unit": "A",
+        "tolerance": 0.192,
+        "explanation": "12/(.4+.1)."
+      },
+      {
+        "label": "b · Series current, R=2r",
+        "type": "numeric",
+        "answer": 30.0,
+        "unit": "A",
+        "tolerance": 0.24,
+        "explanation": "24/(.4+.4)."
+      },
+      {
+        "label": "c · Greater current at R=2r",
+        "type": "choice",
+        "answer": "Series",
+        "options": [
+          "Series",
+          "Parallel",
+          "Equal"
+        ],
+        "explanation": "30 A exceeds24 A."
+      },
+      {
+        "label": "d · Parallel current, R=r/2",
+        "type": "numeric",
+        "answer": 60.0,
+        "unit": "A",
+        "tolerance": 0.48,
+        "explanation": "12/(.1+.1)."
+      },
+      {
+        "label": "e · Series current, R=r/2",
+        "type": "numeric",
+        "answer": 48.0,
+        "unit": "A",
+        "tolerance": 0.384,
+        "explanation": "24/(.1+.4)."
+      },
+      {
+        "label": "f · Greater current at R=r/2",
+        "type": "choice",
+        "answer": "Parallel",
+        "options": [
+          "Parallel",
+          "Series",
+          "Equal"
+        ],
+        "explanation": "60 A exceeds48 A."
+      }
+    ],
+    "reasoning": "Internal resistance must be included in each arrangement. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-41",
+    "parts": [
+      {
+        "label": "a · Heating R₁",
+        "type": "numeric",
+        "answer": 0.709141274238227,
+        "unit": "W",
+        "tolerance": 0.005673130193905816,
+        "explanation": "i₁²R₁."
+      },
+      {
+        "label": "b · Heating R₂",
+        "type": "numeric",
+        "answer": 0.04986149584487538,
+        "unit": "W",
+        "tolerance": 0.000398891966759003,
+        "explanation": "i₂²R₂, even ifi₂ is negative."
+      },
+      {
+        "label": "c · Heating R₃",
+        "type": "numeric",
+        "answer": 0.34626038781163443,
+        "unit": "W",
+        "tolerance": 0.0027700831024930757,
+        "explanation": "i₃²R₃."
+      },
+      {
+        "label": "d · Power supplied by battery 1",
+        "type": "numeric",
+        "answer": 1.263157894736842,
+        "unit": "W",
+        "tolerance": 0.010105263157894737,
+        "explanation": "Positive because current leaves its positive terminal."
+      },
+      {
+        "label": "e · Signed power supplied by battery 2",
+        "type": "numeric",
+        "answer": -0.1578947368421053,
+        "unit": "W",
+        "tolerance": 0.0012631578947368426,
+        "explanation": "Negative means battery 2 absorbs energy."
+      }
+    ],
+    "reasoning": "Source power sum equals total resistor heating. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-42",
+    "parts": [
+      {
+        "label": "Original parallel resistor count",
+        "type": "numeric",
+        "answer": 8.0,
+        "unit": "resistors",
+        "tolerance": 0,
+        "explanation": "I(n+1)/I(n)=1+1/[n(n+2)]=1.0125, givingn=8."
+      }
+    ],
+    "reasoning": "Both the seriesR and the parallel array affect total current. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-43",
+    "parts": [
+      {
+        "label": "Minimum resistor count",
+        "type": "numeric",
+        "answer": 9.0,
+        "unit": "resistors",
+        "tolerance": 0,
+        "explanation": "Three series resistors per branch, three branches in parallel give10 Ω and 9 W capacity."
+      }
+    ],
+    "reasoning": "A dynamic enumeration of every series/parallel equivalent through 9 identical resistors confirms no network of fewer than9 with Req=R can dissipate5 times one resistor rating. The 3-by-3 construction dissipates9 W. Verification: normalized worst-resistor powers at 1 V forcounts4,6,7,8,9 are1/4,4/9,1/4,9/25,1/9.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-44",
+    "parts": [
+      {
+        "label": "a · Equivalent resistance",
+        "type": "numeric",
+        "answer": 118.75,
+        "unit": "Ω",
+        "tolerance": 0.9500000000000001,
+        "explanation": "100+(50||50||75)."
+      },
+      {
+        "label": "b · R₁ current",
+        "type": "numeric",
+        "answer": 0.05052631578947368,
+        "unit": "A",
+        "tolerance": 0.00040421052631578946,
+        "explanation": "6/Req."
+      },
+      {
+        "label": "c · R₂ current",
+        "type": "numeric",
+        "answer": 0.018947368421052636,
+        "unit": "A",
+        "tolerance": 0.0001515789473684211,
+        "explanation": "All parallel branches share the remaining voltage."
+      },
+      {
+        "label": "d · R₃ current",
+        "type": "numeric",
+        "answer": 0.018947368421052636,
+        "unit": "A",
+        "tolerance": 0.0001515789473684211,
+        "explanation": "Equal50 Ω branches have equal currents."
+      },
+      {
+        "label": "e · R₄ current",
+        "type": "numeric",
+        "answer": 0.012631578947368424,
+        "unit": "A",
+        "tolerance": 0.00010105263157894739,
+        "explanation": "Parallel voltage divided by 75 Ω."
+      }
+    ],
+    "reasoning": "The diagonal resistor has the same two nodes asR₂ and R₃. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-45",
+    "parts": [
+      {
+        "label": "a · Battery1 current magnitude",
+        "type": "numeric",
+        "answer": 0.6666666666666666,
+        "unit": "A",
+        "tolerance": 0.005333333333333333,
+        "explanation": "VA−VB=10/3 V; left branch resistance 2 Ω."
+      },
+      {
+        "label": "b · Battery1 current direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero"
+        ],
+        "explanation": "The 2 V source is charged by the stronger sources."
+      },
+      {
+        "label": "c · Battery2 current magnitude",
+        "type": "numeric",
+        "answer": 0.3333333333333333,
+        "unit": "A",
+        "tolerance": 0.0026666666666666666,
+        "explanation": "(4−10/3)/2."
+      },
+      {
+        "label": "d · Battery2 current direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero"
+        ],
+        "explanation": "Current leaves its positive terminal."
+      },
+      {
+        "label": "e · Battery3 current magnitude",
+        "type": "numeric",
+        "answer": 0.3333333333333333,
+        "unit": "A",
+        "tolerance": 0.0026666666666666666,
+        "explanation": "The right branch has the same4 V emf and 2 Ω resistance."
+      },
+      {
+        "label": "f · Battery3 current direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero"
+        ],
+        "explanation": "It supplies the charging current."
+      },
+      {
+        "label": "g · Va−Vb",
+        "type": "numeric",
+        "answer": 3.3333333333333335,
+        "unit": "V",
+        "tolerance": 0.02666666666666667,
+        "explanation": "Apply KCL to the three source-resistor branches."
+      }
+    ],
+    "reasoning": "All branch resistances include both outer1 Ω resistors where present. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-46",
+    "parts": [
+      {
+        "label": "a · R₁",
+        "type": "numeric",
+        "answer": 2000.0,
+        "unit": "Ω",
+        "tolerance": 16.0,
+        "explanation": "AtR₃=0 the 6mA current flows only through R₁, so R₁=12/.006."
+      },
+      {
+        "label": "b · R₂",
+        "type": "numeric",
+        "answer": 4000.0,
+        "unit": "Ω",
+        "tolerance": 32.0,
+        "explanation": "The 2mA asymptote givesR₁+R₂=6000 Ω."
+      }
+    ],
+    "reasoning": "Use both limiting resistances from the current graph. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-47",
+    "parts": [
+      {
+        "label": "a · Copper current",
+        "type": "numeric",
+        "answer": 1.1078488878002875,
+        "unit": "A",
+        "tolerance": 0.0088627911024023,
+        "explanation": "Parallel conductances areA/ρL."
+      },
+      {
+        "label": "b · Aluminum current",
+        "type": "numeric",
+        "answer": 0.8921511121997125,
+        "unit": "A",
+        "tolerance": 0.007137208897597701,
+        "explanation": "The annular aluminum area is π(b²−a²)."
+      },
+      {
+        "label": "c · Wire length",
+        "type": "numeric",
+        "answer": 125.847300885865,
+        "unit": "m",
+        "tolerance": 1.00677840708692,
+        "explanation": "EquivalentR=L/(Ac/ρc+Aa/ρa)=12/2 Ω."
+      }
+    ],
+    "reasoning": "Use table resistivitiesρCu=1.69×10⁻⁸ and ρAl=2.75×10⁻⁸Ωm. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Source table20°C resistivities; uniform composition along the wire."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-48",
+    "parts": [
+      {
+        "label": "a · R₄ for60 W",
+        "type": "numeric",
+        "answer": 19.5,
+        "unit": "Ω",
+        "tolerance": 0.156,
+        "explanation": "RequiredReq=24²/60=9.6 Ω; parallel portion2.6 Ω."
+      },
+      {
+        "label": "b · R₄ for maximum power",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "Ω",
+        "tolerance": 1e-25,
+        "explanation": "A short maximizes total battery current."
+      },
+      {
+        "label": "c · R₄ for minimum power",
+        "type": "choice",
+        "answer": "Infinite resistance (open branch)",
+        "options": [
+          "Infinite resistance (open branch)",
+          "Zero resistance",
+          "R₄=R₁"
+        ],
+        "explanation": "RemovingR₄ gives the largest possible equivalent resistance."
+      },
+      {
+        "label": "d · Maximum power",
+        "type": "numeric",
+        "answer": 82.28571428571429,
+        "unit": "W",
+        "tolerance": 0.6582857142857144,
+        "explanation": "OnlyR₁ remains when the shunt is shorted."
+      },
+      {
+        "label": "e · Minimum power",
+        "type": "numeric",
+        "answer": 57.6,
+        "unit": "W",
+        "tolerance": 0.46080000000000004,
+        "explanation": "The remaining shunt is 12||4=3 Ω."
+      }
+    ],
+    "reasoning": "Battery-supplied powerε²/Req decreases with equivalent resistance. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-49",
+    "parts": [
+      {
+        "label": "a · Ammeter current",
+        "type": "numeric",
+        "answer": 0.4545454545454546,
+        "unit": "A",
+        "tolerance": 0.003636363636363637,
+        "explanation": "The 6 Ω branch current follows the voltage across4||6."
+      },
+      {
+        "label": "b · After swapping source and meter",
+        "type": "choice",
+        "answer": "The ammeter reads the same current",
+        "options": [
+          "The ammeter reads the same current",
+          "The current doubles",
+          "The current becomes zero"
+        ],
+        "explanation": "Direct nodal calculation or reciprocity givesI=εR₂/[R₁R₂+R₁R₃+R₂R₃] in both cases."
+      }
+    ],
+    "reasoning": "The ideal ammeter is a short; the ideal battery is not a resistor. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-50",
+    "parts": [
+      {
+        "label": "Multiple of ε/R",
+        "type": "numeric",
+        "answer": 0.14285714285714285,
+        "unit": "dimensionless",
+        "tolerance": 0.0011428571428571427,
+        "explanation": "The shorted bridge midpoint is 3ε/7; mismatch between upper currents is(3−2)ε/(7R)."
+      }
+    ],
+    "reasoning": "Zero ammeter voltage does not imply zero ammeter current. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-51",
+    "parts": [
+      {
+        "label": "a · Ammeter current",
+        "type": "numeric",
+        "answer": 0.05521472392638036,
+        "unit": "A",
+        "tolerance": 0.00044171779141104293,
+        "explanation": "The 85 Ω resistor and 3 Ω ammeter form one88 Ω branch."
+      },
+      {
+        "label": "b · Voltmeter voltage",
+        "type": "numeric",
+        "answer": 4.858895705521472,
+        "unit": "V",
+        "tolerance": 0.03887116564417178,
+        "explanation": "The meter measures both resistor and ammeter drops."
+      },
+      {
+        "label": "c · Apparent resistance",
+        "type": "numeric",
+        "answer": 88.0,
+        "unit": "Ω",
+        "tolerance": 0.704,
+        "explanation": "V′/i=R+RA."
+      },
+      {
+        "label": "d · Effect of decreasing RA",
+        "type": "choice",
+        "answer": "The apparent-resistance error decreases",
+        "options": [
+          "The apparent-resistance error decreases",
+          "The error increases",
+          "The error is unchanged"
+        ],
+        "explanation": "R′−R=RA exactly."
+      }
+    ],
+    "reasoning": "The voltmeter is in parallel with the entire resistor-plus-ammeter branch. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-52",
+    "parts": [
+      {
+        "label": "a · External resistance at 10%",
+        "type": "numeric",
+        "answer": 13500.0,
+        "unit": "Ω",
+        "tolerance": 108.0,
+        "explanation": "Total internal meter circuit resistance 1.5/.001=1500 Ω; at.1mA total15000 Ω."
+      },
+      {
+        "label": "b · External resistance at 50%",
+        "type": "numeric",
+        "answer": 1500.0,
+        "unit": "Ω",
+        "tolerance": 12.0,
+        "explanation": "Total3000 Ω minus1500 Ω."
+      },
+      {
+        "label": "c · External resistance at 90%",
+        "type": "numeric",
+        "answer": 166.66666666666666,
+        "unit": "Ω",
+        "tolerance": 1.3333333333333333,
+        "explanation": "Total1500/.9 minus1500 Ω."
+      },
+      {
+        "label": "d · Series adjustment R",
+        "type": "numeric",
+        "answer": 1480.0,
+        "unit": "Ω",
+        "tolerance": 11.84,
+        "explanation": "Subtract20 Ω ammeter resistance from 1500 Ω total."
+      }
+    ],
+    "reasoning": "The scale is nonlinear in resistance becauseI=ε/(Rinternal+Rexternal). Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-53",
+    "parts": [
+      {
+        "label": "Signed voltage measurement error",
+        "type": "numeric",
+        "answer": -2.9850746268656523,
+        "unit": "percent",
+        "tolerance": 0.023880597014925217,
+        "explanation": "The voltmeter shuntsR₁, reducing its measured voltage relative to the uninstrumented circuit."
+      }
+    ],
+    "reasoning": "KeepR₂ and internalr in series with R₁||RV. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      18,
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-54",
+    "parts": [
+      {
+        "label": "a · Battery emf",
+        "type": "numeric",
+        "answer": 12.5,
+        "unit": "V",
+        "tolerance": 0.1,
+        "explanation": "Initialε=12+10×.05."
+      },
+      {
+        "label": "b · Starting-motor current",
+        "type": "numeric",
+        "answer": 50.0,
+        "unit": "A",
+        "tolerance": 0.4,
+        "explanation": "LightR=12/10=1.2 Ω; newV=8×1.2=9.6 V; totalI=(12.5−9.6)/.05=58 A, minus8 A lights."
+      }
+    ],
+    "reasoning": "The measured light current diagnoses the loaded terminal voltage. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-55",
+    "parts": [
+      {
+        "label": "Bridge balance relation",
+        "type": "choice",
+        "answer": "Rx=Rs R₂/R₁",
+        "options": [
+          "Rx=Rs R₂/R₁",
+          "Rx=Rs R₁/R₂",
+          "Rx=R₁+R₂−Rs"
+        ],
+        "explanation": "Zero bridge current equates the divider ratiosR₁/R₂=Rs/Rx."
+      }
+    ],
+    "reasoning": "Both paths share the same applied source voltage, so the source emf cancels. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-56",
+    "parts": [
+      {
+        "label": "a · Ammeter reading",
+        "type": "numeric",
+        "answer": 0.07090783516230527,
+        "unit": "A",
+        "tolerance": 0.0005672626812984422,
+        "explanation": "It measures the sum of resistor and voltmeter currents."
+      },
+      {
+        "label": "b · Voltmeter reading",
+        "type": "numeric",
+        "answer": 4.696492978282556,
+        "unit": "V",
+        "tolerance": 0.03757194382626045,
+        "explanation": "Voltage across85||300."
+      },
+      {
+        "label": "c · Apparent resistance",
+        "type": "numeric",
+        "answer": 66.23376623376623,
+        "unit": "Ω",
+        "tolerance": 0.5298701298701298,
+        "explanation": "V/i′=R||RV."
+      },
+      {
+        "label": "d · Effect of increasing RV",
+        "type": "choice",
+        "answer": "The difference between apparent and true resistance decreases",
+        "options": [
+          "The difference between apparent and true resistance decreases",
+          "The difference increases",
+          "The difference is unchanged"
+        ],
+        "explanation": "R||RV tends towardR asRV increases."
+      }
+    ],
+    "reasoning": "The ammeter is outside the parallelR/RV combination. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-57",
+    "parts": [
+      {
+        "label": "Time for equal voltages",
+        "type": "numeric",
+        "answer": 0.0002079441541679836,
+        "unit": "s",
+        "tolerance": 1.6635532333438688e-06,
+        "explanation": "VC=ε(1−e⁻ᵗ/ᴿᶜ),VR=εe⁻ᵗ/ᴿᶜ; equality givesln2."
+      }
+    ],
+    "reasoning": "The battery voltage cancels from the equality. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-58",
+    "parts": [
+      {
+        "label": "a · Time constant",
+        "type": "numeric",
+        "answer": 2.52,
+        "unit": "s",
+        "tolerance": 0.02016,
+        "explanation": "RC."
+      },
+      {
+        "label": "b · Final charge",
+        "type": "numeric",
+        "answer": 2.16e-05,
+        "unit": "C",
+        "tolerance": 1.728e-07,
+        "explanation": "Cε."
+      },
+      {
+        "label": "c · Time to 16 μC",
+        "type": "numeric",
+        "answer": 3.4018153267115196,
+        "unit": "s",
+        "tolerance": 0.027214522613692158,
+        "explanation": "Solveq/q∞=1−e⁻ᵗ/τ."
+      }
+    ],
+    "reasoning": "Source capacitor is 1.80μF, notmF. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-59",
+    "parts": [
+      {
+        "label": "Multiple t/τ",
+        "type": "numeric",
+        "answer": 4.605170185988092,
+        "unit": "dimensionless",
+        "tolerance": 0.036841361487904734,
+        "explanation": "1−q/q∞=.01=e⁻ᵗ/τ."
+      }
+    ],
+    "reasoning": "Charging99% leaves1% of the initial charging current. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-60",
+    "parts": [
+      {
+        "label": "a · First one-third loss t/τ",
+        "type": "numeric",
+        "answer": 0.4054651081081644,
+        "unit": "dimensionless",
+        "tolerance": 0.003243720864865315,
+        "explanation": "Remaining charge2/3."
+      },
+      {
+        "label": "b · Two-thirds loss t/τ",
+        "type": "numeric",
+        "answer": 1.0986122886681098,
+        "unit": "dimensionless",
+        "tolerance": 0.008788898309344878,
+        "explanation": "Remaining charge1/3."
+      }
+    ],
+    "reasoning": "Use remaining charge, not charge lost, in the exponential. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-61",
+    "parts": [
+      {
+        "label": "a · Time constant",
+        "type": "numeric",
+        "answer": 2.4118894987868004e-06,
+        "unit": "s",
+        "tolerance": 1.9295115990294404e-08,
+        "explanation": "Solve5/12=1−e⁻¹·³⁰µˢ/τ."
+      },
+      {
+        "label": "b · Capacitance",
+        "type": "numeric",
+        "answer": 1.6079263325245336e-10,
+        "unit": "F",
+        "tolerance": 1.286341066019627e-12,
+        "explanation": "C=τ/R."
+      }
+    ],
+    "reasoning": "High-resolution original source states1.30 μs; OCRmistranscribes it asms. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ],
+    "referenceAnswer": "(a) τ=2.41189 μs; (b) C=160.793 pF",
+    "reviewNotice": "An imported micro-unit transcription error is corrected here. The answer fields and reference use the units in the original textbook statement."
+  },
+  {
+    "id": "physics-chapter-27-problems-62",
+    "parts": [
+      {
+        "label": "Required resistance",
+        "type": "numeric",
+        "answer": 2350094.505881849,
+        "unit": "Ω",
+        "tolerance": 18800.756047054794,
+        "explanation": "Flashing period.5 s equals−RC ln(1−VL/ε)."
+      }
+    ],
+    "reasoning": "The lamp instantaneously discharges the capacitor once it reaches72 V. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-63",
+    "parts": [
+      {
+        "label": "a · i₁ at 0",
+        "type": "numeric",
+        "answer": 0.001095890410958904,
+        "unit": "A",
+        "tolerance": 8.767123287671233e-06,
+        "explanation": "InitiallyC is a short;R₂||R₃ followsR₁."
+      },
+      {
+        "label": "b · i₂ at 0",
+        "type": "numeric",
+        "answer": 0.000547945205479452,
+        "unit": "A",
+        "tolerance": 4.383561643835616e-06,
+        "explanation": "Equal branch resistors split current equally."
+      },
+      {
+        "label": "c · i₃ at 0",
+        "type": "numeric",
+        "answer": 0.000547945205479452,
+        "unit": "A",
+        "tolerance": 4.383561643835616e-06,
+        "explanation": "Equal initial branch currents."
+      },
+      {
+        "label": "d · i₁ at∞",
+        "type": "numeric",
+        "answer": 0.0008219178082191781,
+        "unit": "A",
+        "tolerance": 6.575342465753425e-06,
+        "explanation": "At steady stateR₃ branch is open."
+      },
+      {
+        "label": "e · i₂ at∞",
+        "type": "numeric",
+        "answer": 0.0008219178082191781,
+        "unit": "A",
+        "tolerance": 6.575342465753425e-06,
+        "explanation": "R₁ and R₂ carry the same series current."
+      },
+      {
+        "label": "f · i₃ at∞",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "A",
+        "tolerance": 1e-25,
+        "explanation": "No steady current entersC."
+      },
+      {
+        "label": "g · V₂ at 0",
+        "type": "numeric",
+        "answer": 400.0,
+        "unit": "V",
+        "tolerance": 3.2,
+        "explanation": "Voltage divisionR₁ with R₂||R₃."
+      },
+      {
+        "label": "h · V₂ at∞",
+        "type": "numeric",
+        "answer": 600.0,
+        "unit": "V",
+        "tolerance": 4.8,
+        "explanation": "EqualR₁,R₂ divide1200 V."
+      },
+      {
+        "label": "i · V₂ graph",
+        "type": "choice",
+        "answer": "Rises exponentially from 400 V to 600 V",
+        "options": [
+          "Rises exponentially from 400 V to 600 V",
+          "Falls exponentially from 600 V to 400 V",
+          "Rises linearly forever"
+        ],
+        "explanation": "V₂=600−200exp(−t/7.1175 s)."
+      }
+    ],
+    "reasoning": "The charging Thévenin resistance is R₃+(R₁||R₂), givingτ=7.1175 s. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-64",
+    "parts": [
+      {
+        "label": "a · Time constant",
+        "type": "numeric",
+        "answer": 2.1714724095162588,
+        "unit": "s",
+        "tolerance": 0.01737177927613007,
+        "explanation": "1/100=e⁻¹⁰/τ."
+      },
+      {
+        "label": "b · Voltage at 17 s",
+        "type": "numeric",
+        "answer": 0.03981071705534968,
+        "unit": "V",
+        "tolerance": 0.00031848573644279745,
+        "explanation": "Use the same exponential witht=17 s."
+      }
+    ],
+    "reasoning": "A capacitor voltage decays with τ, not the energy-decay constantτ/2. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-65",
+    "parts": [
+      {
+        "label": "R₂ current magnitude at 4 ms",
+        "type": "numeric",
+        "answer": 0.00041073369522607364,
+        "unit": "A",
+        "tolerance": 3.2858695618085893e-06,
+        "explanation": "InitialVC=20×15/25=12 V. After opening, discharge runs through R₂ alone, so I=(12/15000)e⁻⁰·⁰⁰⁴/⁰·⁰⁰⁶."
+      }
+    ],
+    "reasoning": "R₁ supplies the initial divider but is disconnected from the discharge loop when the switch opens. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ],
+    "referenceAnswer": "I₂(4.00 ms)=410.734 μA",
+    "reviewNotice": "An imported micro-unit transcription error is corrected here. The answer fields and reference use the units in the original textbook statement."
+  },
+  {
+    "id": "physics-chapter-27-problems-66",
+    "parts": [
+      {
+        "label": "Time for equal charges",
+        "type": "numeric",
+        "answer": 0.00016218604324326564,
+        "unit": "s",
+        "tolerance": 1.297488345946125e-06,
+        "explanation": "Setq₀₁e⁻ᵗ/τ¹=1.5q₀₁e⁻ᵗ/τ²."
+      }
+    ],
+    "reasoning": "The initially larger second charge decays faster because its80 μs constant is smaller. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-67",
+    "parts": [
+      {
+        "label": "Equivalent leakage resistance",
+        "type": "numeric",
+        "answer": 721347.5204444818,
+        "unit": "Ω",
+        "tolerance": 5770.780163555854,
+        "explanation": "V/V₀=1/4=e⁻²/ᴿᶜ."
+      }
+    ],
+    "reasoning": "Represent leakage as a parallel resistance across the capacitor. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-68",
+    "parts": [
+      {
+        "label": "a · Initial charge",
+        "type": "numeric",
+        "answer": 0.001,
+        "unit": "C",
+        "tolerance": 8e-06,
+        "explanation": "U=q²/(2 C)."
+      },
+      {
+        "label": "b · Initial current magnitude",
+        "type": "numeric",
+        "answer": 0.001,
+        "unit": "A",
+        "tolerance": 8e-06,
+        "explanation": "V₀=1000 V and R=1 MΩ."
+      },
+      {
+        "label": "c · Capacitor voltage",
+        "type": "choice",
+        "answer": "VC=1000exp(−t/1 s) V",
+        "options": [
+          "VC=1000exp(−t/1 s) V",
+          "VC=1000exp(−2t/1 s) V",
+          "VC=1000[1−exp(−t/1 s)] V"
+        ],
+        "explanation": "RC=1 s and capacitor starts at 1000 V."
+      },
+      {
+        "label": "d · Resistor voltage-drop magnitude",
+        "type": "choice",
+        "answer": "VR=1000exp(−t/1 s) V",
+        "options": [
+          "VR=1000exp(−t/1 s) V",
+          "VR=500exp(−t/1 s) V",
+          "VR=0 at all times"
+        ],
+        "explanation": "The passive voltage drop along discharge current equalsVC."
+      },
+      {
+        "label": "e · Heating rate",
+        "type": "choice",
+        "answer": "P=1.00exp(−2t/1 s) W",
+        "options": [
+          "P=1.00exp(−2t/1 s) W",
+          "P=1.00exp(−t/1 s) W",
+          "P=0.50exp(−2t/1 s) W"
+        ],
+        "explanation": "P=V²/R; integrate to recover.50 J."
+      }
+    ],
+    "reasoning": "Voltage and charge decay with τ, while power and stored energy decay twice as fast. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-69",
+    "parts": [
+      {
+        "label": "a · Charge-increase rate",
+        "type": "numeric",
+        "answer": 9.553750807650525e-07,
+        "unit": "C/s",
+        "tolerance": 7.643000646120419e-09,
+        "explanation": "dq/dt=(ε/R)e⁻ᵗ/ᴿᶜ."
+      },
+      {
+        "label": "b · Capacitor energy storage rate",
+        "type": "numeric",
+        "answer": 1.0832756882197186e-06,
+        "unit": "W",
+        "tolerance": 8.666205505757748e-09,
+        "explanation": "dUC/dt=iVC."
+      },
+      {
+        "label": "c · Resistor heating rate",
+        "type": "numeric",
+        "answer": 2.7382246348404914e-06,
+        "unit": "W",
+        "tolerance": 2.1905797078723933e-08,
+        "explanation": "i²R."
+      },
+      {
+        "label": "d · Battery delivery rate",
+        "type": "numeric",
+        "answer": 3.82150032306021e-06,
+        "unit": "W",
+        "tolerance": 3.0572002584481676e-08,
+        "explanation": "εi."
+      }
+    ],
+    "reasoning": "The source rate equals capacitor storage plus resistor heating. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ],
+    "referenceAnswer": "(a) 0.955375 μC/s; (b) 1.08328 μW; (c) 2.73822 μW; (d) 3.82150 μW",
+    "reviewNotice": "An imported micro-unit transcription error is corrected here. The answer fields and reference use the units in the original textbook statement."
+  },
+  {
+    "id": "physics-chapter-27-problems-70",
+    "parts": [
+      {
+        "label": "a · External current",
+        "type": "numeric",
+        "answer": 6.0,
+        "unit": "A",
+        "tolerance": 0.048,
+        "explanation": "Each3-battery branch is 60 V with 12 Ω internal resistance; parallel equivalent60 V,6 Ω drives4 Ω."
+      },
+      {
+        "label": "b · Terminal voltage per battery",
+        "type": "numeric",
+        "answer": 8.0,
+        "unit": "V",
+        "tolerance": 0.064,
+        "explanation": "Each branch carries3 A, so 20−3×4."
+      },
+      {
+        "label": "c · Terminal output power per battery",
+        "type": "numeric",
+        "answer": 24.0,
+        "unit": "W",
+        "tolerance": 0.192,
+        "explanation": "iV=3×8."
+      },
+      {
+        "label": "d · Internal heating per battery",
+        "type": "numeric",
+        "answer": 36.0,
+        "unit": "W",
+        "tolerance": 0.28800000000000003,
+        "explanation": "i²r=3²×4."
+      }
+    ],
+    "reasoning": "Each chemical source supplies60 W, partitioned into24 W terminal output and 36 W internal heat. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-71",
+    "parts": [
+      {
+        "label": "a · Current with S₁ only",
+        "type": "numeric",
+        "answer": 3.0,
+        "unit": "A",
+        "tolerance": 0.024,
+        "explanation": "120/(20+20)."
+      },
+      {
+        "label": "b · Current with S₁,S₂",
+        "type": "numeric",
+        "answer": 3.75,
+        "unit": "A",
+        "tolerance": 0.03,
+        "explanation": "120/[20+(20||30)]."
+      },
+      {
+        "label": "c · Current withall switches",
+        "type": "numeric",
+        "answer": 3.9375,
+        "unit": "A",
+        "tolerance": 0.0315,
+        "explanation": "120/[20+{20||(10+20||(10+20))}]; reduce the ladder from the right."
+      }
+    ],
+    "reasoning": "The bottom ladder resistors are not all in series with every branch. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-72",
+    "parts": [
+      {
+        "label": "a · i₂ magnitude",
+        "type": "numeric",
+        "answer": 3.0,
+        "unit": "A",
+        "tolerance": 0.024,
+        "explanation": "Two20 Ω left branches each carry1.5 A."
+      },
+      {
+        "label": "b · i₄ magnitude",
+        "type": "numeric",
+        "answer": 10.0,
+        "unit": "A",
+        "tolerance": 0.08,
+        "explanation": "Right pathR₇+(R₅||R₆)=3 Ω."
+      },
+      {
+        "label": "c · i₁ magnitude",
+        "type": "numeric",
+        "answer": 13.0,
+        "unit": "A",
+        "tolerance": 0.10400000000000001,
+        "explanation": "Battery supplies both left and right paths."
+      },
+      {
+        "label": "d · i₃ magnitude",
+        "type": "numeric",
+        "answer": 1.5,
+        "unit": "A",
+        "tolerance": 0.012,
+        "explanation": "Current returning from R₃ equals its seriesR₁ current."
+      },
+      {
+        "label": "e · i₅ magnitude",
+        "type": "numeric",
+        "answer": 7.5,
+        "unit": "A",
+        "tolerance": 0.06,
+        "explanation": "Right parallel voltage 15 V givesR₆current15/2."
+      }
+    ],
+    "reasoning": "Use the arrows shown: i₂ left,i₄ right,i₁ up,i₃ right,i₅ right. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-73",
+    "parts": [
+      {
+        "label": "a · J in A",
+        "type": "numeric",
+        "answer": 13202035.870035006,
+        "unit": "A/m²",
+        "tolerance": 105616.28696028005,
+        "explanation": "The series current is 60/(RA+RB)."
+      },
+      {
+        "label": "b · Voltage on A",
+        "type": "numeric",
+        "answer": 8.901869158878505,
+        "unit": "V",
+        "tolerance": 0.07121495327102804,
+        "explanation": "iRA."
+      },
+      {
+        "label": "c · Material A",
+        "type": "choice",
+        "answer": "Copper",
+        "options": [
+          "Copper",
+          "Iron",
+          "Nichrome"
+        ],
+        "explanation": "ρ=RA A/L≈1.69×10⁻⁸Ωm."
+      },
+      {
+        "label": "d · J in B",
+        "type": "numeric",
+        "answer": 13202035.870035006,
+        "unit": "A/m²",
+        "tolerance": 105616.28696028005,
+        "explanation": "Same current and cross-sectional area."
+      },
+      {
+        "label": "e · Voltage on B",
+        "type": "numeric",
+        "answer": 51.09813084112149,
+        "unit": "V",
+        "tolerance": 0.4087850467289719,
+        "explanation": "iRB."
+      },
+      {
+        "label": "f · Material B",
+        "type": "choice",
+        "answer": "Iron",
+        "options": [
+          "Iron",
+          "Copper",
+          "Silicon"
+        ],
+        "explanation": "ρ=RB A/L≈9.68×10⁻⁸Ωm."
+      }
+    ],
+    "reasoning": "Geometrical equality makes current densities equal despite different electric fields. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-74",
+    "parts": [
+      {
+        "label": "a · Current magnitude",
+        "type": "numeric",
+        "answer": 4.0,
+        "unit": "A",
+        "tolerance": 0.032,
+        "explanation": "The target branch is 4+(4||4)+4=10 Ω. Following only ideal batteries fixes its upper node 40 V below its lower node."
+      },
+      {
+        "label": "b · Current direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero current"
+        ],
+        "explanation": "The bottom end of the target branch is 40 V higher."
+      }
+    ],
+    "reasoning": "An ideal-source-only path establishes the branch voltage without solving the remaining maze. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-75",
+    "parts": [
+      {
+        "label": "a · Body potential after rising",
+        "type": "numeric",
+        "answer": 3000.0,
+        "unit": "V",
+        "tolerance": 24.0,
+        "explanation": "Charge stays150 pF×200 V=30nC; V=Q/10 pF."
+      },
+      {
+        "label": "b · Safe waiting time",
+        "type": "numeric",
+        "answer": 10.203592144986466,
+        "unit": "s",
+        "tolerance": 0.08162873715989173,
+        "explanation": "Discharge from 3000 V to 100 V with τ=3 s."
+      },
+      {
+        "label": "c · Wrist-strap resistance",
+        "type": "numeric",
+        "answer": 11367695450.698536,
+        "unit": "Ω",
+        "tolerance": 90941563.60558829,
+        "explanation": "Solve100=1400e⁻⁰·³/ᴿᶜ."
+      }
+    ],
+    "reasoning": "Conserved charge raises potential when capacitance falls; the grounding path then discharges it. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-76",
+    "parts": [
+      {
+        "label": "a · i₁ magnitude",
+        "type": "numeric",
+        "answer": 5.0,
+        "unit": "A",
+        "tolerance": 0.04,
+        "explanation": "The lower return path has2+(2||2)=3 Ω across15 V."
+      },
+      {
+        "label": "b · i₁ direction",
+        "type": "choice",
+        "answer": "Left",
+        "options": [
+          "Left",
+          "Right",
+          "Zero current"
+        ],
+        "explanation": "The right lower node is 15 V above the left lower node."
+      },
+      {
+        "label": "c · Battery1",
+        "type": "choice",
+        "answer": "Supplies energy",
+        "options": [
+          "Supplies energy",
+          "Absorbs energy",
+          "Transfers no energy"
+        ],
+        "explanation": "Current5 A crosses the 20 V source in the emf direction."
+      },
+      {
+        "label": "d · Battery1 power",
+        "type": "numeric",
+        "answer": 100.0,
+        "unit": "W",
+        "tolerance": 0.8,
+        "explanation": "20×5."
+      },
+      {
+        "label": "e · Battery2",
+        "type": "choice",
+        "answer": "Supplies energy",
+        "options": [
+          "Supplies energy",
+          "Absorbs energy",
+          "Transfers no energy"
+        ],
+        "explanation": "It supplies5 A against a10 V emf."
+      },
+      {
+        "label": "f · Battery2 power",
+        "type": "numeric",
+        "answer": 50.0,
+        "unit": "W",
+        "tolerance": 0.4,
+        "explanation": "10×5."
+      },
+      {
+        "label": "g · Battery3",
+        "type": "choice",
+        "answer": "Supplies energy",
+        "options": [
+          "Supplies energy",
+          "Absorbs energy",
+          "Transfers no energy"
+        ],
+        "explanation": "It drives8.75 A upward."
+      },
+      {
+        "label": "h · Battery3 power",
+        "type": "numeric",
+        "answer": 43.75,
+        "unit": "W",
+        "tolerance": 0.35000000000000003,
+        "explanation": "5×8.75; internal parallel resistors account for the extra current."
+      }
+    ],
+    "reasoning": "Assign right-bottom0 V: right-top10 V,left-top−10 V,left-bottom−15 V. Sum all branch currents. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-77",
+    "parts": [
+      {
+        "label": "a · Silicon resistance",
+        "type": "numeric",
+        "answer": 84.96732026143789,
+        "unit": "Ω",
+        "tolerance": 0.6797385620915032,
+        "explanation": "Set αSi RSi+αFe RFe=0 and RSi+RFe=1000."
+      },
+      {
+        "label": "b · Iron resistance",
+        "type": "numeric",
+        "answer": 915.0326797385621,
+        "unit": "Ω",
+        "tolerance": 7.320261437908497,
+        "explanation": "The positive temperature coefficient cancels silicon’s negative coefficient."
+      }
+    ],
+    "reasoning": "Use source-tableαSi=−.070/K, αFe=.0065/K. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-78",
+    "parts": [
+      {
+        "label": "Signed current error",
+        "type": "numeric",
+        "answer": -0.9009009009009028,
+        "unit": "percent",
+        "tolerance": 0.007207207207207223,
+        "explanation": "Ideal total resistance 2+5+4=11 Ω; meter adds.10 Ω."
+      }
+    ],
+    "reasoning": "The ammeter lowers current by loading the series circuit. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      18,
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-79",
+    "parts": [
+      {
+        "label": "a · Stored-energy fraction",
+        "type": "choice",
+        "answer": "U_C/E=1/2",
+        "options": [
+          "U_C/E=1/2",
+          "U_C/E=1",
+          "U_C/E=0"
+        ],
+        "explanation": "Source suppliesε∫i dt=ε(Cε)=Cε²; finalUC=Cε²/2."
+      },
+      {
+        "label": "b · Heat fraction",
+        "type": "choice",
+        "answer": "Q/E=1/2",
+        "options": [
+          "Q/E=1/2",
+          "Q/E=0",
+          "Q/E=2"
+        ],
+        "explanation": "IntegrateR(ε/R)²e⁻²ᵗ/ᴿᶜ over0..∞ to obtainCε²/2."
+      }
+    ],
+    "reasoning": "The two energy fractions sum to one independent of R. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-80",
+    "parts": [
+      {
+        "label": "Total stored capacitor energy",
+        "type": "numeric",
+        "answer": 0.0030000000000000005,
+        "unit": "J",
+        "tolerance": 2.4000000000000004e-05,
+        "explanation": "In steady state both resistor drops along capacitor branches are zero; each capacitor has20 V."
+      }
+    ],
+    "reasoning": "No steady current flows through either capacitor, so both see the battery emf. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-81",
+    "parts": [
+      {
+        "label": "Voltage across R₂",
+        "type": "numeric",
+        "answer": 4.0,
+        "unit": "V",
+        "tolerance": 0.032,
+        "explanation": "Series current 12/(3+4+5)=1 A, so V₂=4 V."
+      }
+    ],
+    "reasoning": "Use referencedFigure27-5a’s three series resistors. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      6,
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-82",
+    "parts": [
+      {
+        "label": "Va−Vc",
+        "type": "numeric",
+        "answer": 2.53125,
+        "unit": "V",
+        "tolerance": 0.02025,
+        "explanation": "Viaa→battery 1→r₁→R: Va−Vc=ε₁−i(r₁+R); the alternate route givesε₂+ir₂."
+      }
+    ],
+    "reasoning": "The two independent potential paths agree. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      10,
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-83",
+    "parts": [
+      {
+        "label": "a · Lowest resistance",
+        "type": "numeric",
+        "answer": 24.80356063493844,
+        "unit": "Ω",
+        "tolerance": 0.19842848507950753,
+        "explanation": "Shortest10.0 μs decay usesR=t/[C ln(V₀/V)]."
+      },
+      {
+        "label": "b · Highest resistance",
+        "type": "numeric",
+        "answer": 14882.136380963064,
+        "unit": "Ω",
+        "tolerance": 119.05709104770452,
+        "explanation": "Longest6.00 ms uses the same formula."
+      }
+    ],
+    "reasoning": "The original source mixes microseconds and milliseconds; converting both avoids a factor1000 error. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-84",
+    "parts": [
+      {
+        "label": "a · Current empty",
+        "type": "numeric",
+        "answer": 0.08,
+        "unit": "A",
+        "tolerance": 0.00064,
+        "explanation": "Tank140 Ω plus indicator10 Ω."
+      },
+      {
+        "label": "b · Current half-full",
+        "type": "numeric",
+        "answer": 0.13333333333333333,
+        "unit": "A",
+        "tolerance": 0.0010666666666666667,
+        "explanation": "Linear tank resistance is 80 Ω."
+      },
+      {
+        "label": "c · Current full",
+        "type": "numeric",
+        "answer": 0.4,
+        "unit": "A",
+        "tolerance": 0.0032,
+        "explanation": "Tank20 Ω plus indicator10 Ω."
+      }
+    ],
+    "reasoning": "Tank resistance decreases linearly with fuel volume. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-85",
+    "parts": [
+      {
+        "label": "Defective part",
+        "type": "choice",
+        "answer": "The cable",
+        "options": [
+          "The cable",
+          "The battery",
+          "The motor"
+        ],
+        "explanation": "CableR=3/50=.060 Ω exceeds.040 Ω; batteryr=(12−11.4)/50=.012 Ω andmotorR=(11.4−3)/50=.168 Ω meet limits."
+      }
+    ],
+    "reasoning": "Evaluate each measured component separately. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-86",
+    "parts": [
+      {
+        "label": "a · Smaller R₂",
+        "type": "numeric",
+        "answer": 38.19660112501051,
+        "unit": "Ω",
+        "tolerance": 0.3055728090000841,
+        "explanation": "(R₁+R₂)²/(R₁R₂)=5."
+      },
+      {
+        "label": "b · Larger R₂",
+        "type": "numeric",
+        "answer": 261.8033988749895,
+        "unit": "Ω",
+        "tolerance": 2.094427190999916,
+        "explanation": "The second root of R₂²−3R₁R₂+R₁²=0."
+      }
+    ],
+    "reasoning": "Constant source voltage makes power inversely proportional to equivalent resistance. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-87",
+    "parts": [
+      {
+        "label": "Change in charge magnitude",
+        "type": "numeric",
+        "answer": -1.3333333333333333e-05,
+        "unit": "C",
+        "tolerance": 1.0666666666666667e-07,
+        "explanation": "Initially|VC|=3 V. Finally the opposing divider yields|VC|=(1/.2+3/.4)/(1/.2+1/.4)=5/3 V."
+      }
+    ],
+    "reasoning": "The capacitor’s charge magnitude decreases; signed charge on its top plate instead increases by 13.333 μC. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ],
+    "scope": "Enter final minus initial charge MAGNITUDE; the top-plate signed-charge change has the opposite sign.",
+    "referenceAnswer": "Final minus initial charge magnitude = −13.3333 μC",
+    "reviewNotice": "An imported micro-unit transcription error is corrected here. The answer fields and reference use the units in the original textbook statement."
+  },
+  {
+    "id": "physics-chapter-27-problems-88",
+    "parts": [
+      {
+        "label": "Required R₃",
+        "type": "numeric",
+        "answer": 13.333333333333334,
+        "unit": "Ω",
+        "tolerance": 0.10666666666666667,
+        "explanation": "Zero current in battery 1 makesmiddleV=20 V; the 50 V source supplies(50−20)/20=1.5 A."
+      }
+    ],
+    "reasoning": "All that current must flow through R₃. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-89",
+    "parts": [
+      {
+        "label": "Equivalent resistance",
+        "type": "numeric",
+        "answer": 20.0,
+        "unit": "Ω",
+        "tolerance": 0.16,
+        "explanation": "BetweenA,B:6R in parallel with[(6R||3R)+R]=3R, giving2R."
+      }
+    ],
+    "reasoning": "Node redrawing exposes two parallel paths. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-90",
+    "parts": [
+      {
+        "label": "a · Maximizing resistance",
+        "type": "choice",
+        "answer": "R=r",
+        "options": [
+          "R=r",
+          "R=2r",
+          "R=0"
+        ],
+        "explanation": "Differentiateε²R/(R+r)²; derivative changes sign at R=r."
+      },
+      {
+        "label": "b · Maximum power",
+        "type": "choice",
+        "answer": "Pmax=ε²/(4r)",
+        "options": [
+          "Pmax=ε²/(4r)",
+          "Pmax=ε²/r",
+          "Pmax=ε²/(2r)"
+        ],
+        "explanation": "SubstituteR=r into the exact power function."
+      }
+    ],
+    "reasoning": "Check power tends tozero asR→0 and R→∞. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-91",
+    "parts": [
+      {
+        "label": "a · i₁ magnitude",
+        "type": "numeric",
+        "answer": 3.0,
+        "unit": "A",
+        "tolerance": 0.024,
+        "explanation": "The ideal12 V source is directly across4 Ω."
+      },
+      {
+        "label": "b · i₁ direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero current"
+        ],
+        "explanation": "The upper end is 12 V aboveground."
+      },
+      {
+        "label": "c · i₂ magnitude",
+        "type": "numeric",
+        "answer": 1.6,
+        "unit": "A",
+        "tolerance": 0.0128,
+        "explanation": "Between12 V and−4 V the resistors are4+(4||4)+4=10 Ω."
+      },
+      {
+        "label": "d · i₂ direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero current"
+        ],
+        "explanation": "The effective16 V drives down the right branch."
+      },
+      {
+        "label": "e · Battery1",
+        "type": "choice",
+        "answer": "Supplies energy",
+        "options": [
+          "Supplies energy",
+          "Absorbs energy",
+          "Transfers no energy"
+        ],
+        "explanation": "Its total current is 3+1.6=4.6 A."
+      },
+      {
+        "label": "f · Battery1 power",
+        "type": "numeric",
+        "answer": 55.2,
+        "unit": "W",
+        "tolerance": 0.44160000000000005,
+        "explanation": "12×4.6."
+      },
+      {
+        "label": "g · Battery2",
+        "type": "choice",
+        "answer": "Supplies energy",
+        "options": [
+          "Supplies energy",
+          "Absorbs energy",
+          "Transfers no energy"
+        ],
+        "explanation": "The current exits its lower positive terminal."
+      },
+      {
+        "label": "h · Battery2 power",
+        "type": "numeric",
+        "answer": 6.4,
+        "unit": "W",
+        "tolerance": 0.0512,
+        "explanation": "4×1.6."
+      }
+    ],
+    "reasoning": "Identify the two upper-right resistors as parallel, not both connected to the battery 1 midpoint. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-92",
+    "parts": [
+      {
+        "label": "Current i₁",
+        "type": "numeric",
+        "answer": 2.0,
+        "unit": "A",
+        "tolerance": 0.016,
+        "explanation": "Three branches each 4 Ω: R₁=4,R₂=4,R₃+R₄=2+2."
+      }
+    ],
+    "reasoning": "Equal branch resistances divide6 A equally. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-93",
+    "parts": [
+      {
+        "label": "a · Resistor voltage",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "V",
+        "tolerance": 0.008,
+        "explanation": "V=√(PR)=√(10×.10)."
+      },
+      {
+        "label": "b · Battery internal resistance",
+        "type": "numeric",
+        "answer": 0.05,
+        "unit": "Ω",
+        "tolerance": 0.0004,
+        "explanation": "Current10 A; r=(1.5−1)/10."
+      }
+    ],
+    "reasoning": "The external resistor receives10 W while internal resistance dissipates5 W. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-94",
+    "parts": [
+      {
+        "label": "a · RAB",
+        "type": "numeric",
+        "answer": 6.666666666666667,
+        "unit": "Ω",
+        "tolerance": 0.05333333333333334,
+        "explanation": "The top and bottom wires place all three20 Ω resistors betweenA and B."
+      },
+      {
+        "label": "b · RAC",
+        "type": "numeric",
+        "answer": 6.666666666666667,
+        "unit": "Ω",
+        "tolerance": 0.05333333333333334,
+        "explanation": "C is wired directly to B."
+      },
+      {
+        "label": "c · RBC",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "Ω",
+        "tolerance": 1e-25,
+        "explanation": "B and C are the same ideal-wire node."
+      }
+    ],
+    "reasoning": "Redraw wires before treating the resistors as series. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-95",
+    "parts": [
+      {
+        "label": "Maximum lamp count",
+        "type": "numeric",
+        "answer": 3.0,
+        "unit": "lamps",
+        "tolerance": 0,
+        "explanation": "Each draws500/120 A; floor(15×120/500)=3."
+      }
+    ],
+    "reasoning": "Four lamps would draw16.67 A and exceed15 A. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-96",
+    "parts": [
+      {
+        "label": "Instantaneous current",
+        "type": "numeric",
+        "answer": 2.5,
+        "unit": "A",
+        "tolerance": 0.02,
+        "explanation": "VR=12−q/C=12−8 μC/4μF=10 V, thenI=10/4."
+      }
+    ],
+    "reasoning": "The capacitor voltage opposes the source during charging. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-97",
+    "parts": [
+      {
+        "label": "Equality condition",
+        "type": "choice",
+        "answer": "Both currents equal Nε/[(N+1)r] whenR=r",
+        "options": [
+          "Both currents equal Nε/[(N+1)r] whenR=r",
+          "Series current is N times parallel current",
+          "Parallel current is N times series current"
+        ],
+        "explanation": "SeriesI=Nε/(R+Nr); parallelI=ε/(R+r/N); substituteR=r."
+      }
+    ],
+    "reasoning": "Internal resistances combine differently, but at R=r the two expressions agree. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-98",
+    "parts": [
+      {
+        "label": "a · Maximizing R₃",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "Ω",
+        "tolerance": 1e-25,
+        "explanation": "Battery powerε²/[R₁+(R₂||R₃)] is largest whenR₃shorts the parallel section."
+      },
+      {
+        "label": "b · Maximum source power",
+        "type": "numeric",
+        "answer": 14.4,
+        "unit": "W",
+        "tolerance": 0.11520000000000001,
+        "explanation": "12²/10."
+      }
+    ],
+    "reasoning": "Maximizing SOURCE power differs from maximizing power in the variable resistor. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-99",
+    "parts": [
+      {
+        "label": "a · R₁ current at 0",
+        "type": "numeric",
+        "answer": 0.0015,
+        "unit": "A",
+        "tolerance": 1.2e-05,
+        "explanation": "InitiallyC shortsR₂; current 30/20 kΩ."
+      },
+      {
+        "label": "b · R₂ current at 0",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "A",
+        "tolerance": 1e-25,
+        "explanation": "Its initial voltage iszero."
+      },
+      {
+        "label": "c · R₂ current at∞",
+        "type": "numeric",
+        "answer": 0.001,
+        "unit": "A",
+        "tolerance": 8e-06,
+        "explanation": "At equilibriumC isopen and R₁+R₂=30 kΩ."
+      }
+    ],
+    "reasoning": "The initial and final capacitor models reverse which branch carriescurrent. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-100",
+    "parts": [
+      {
+        "label": "a · i₁ magnitude",
+        "type": "numeric",
+        "answer": 6.25,
+        "unit": "A",
+        "tolerance": 0.05,
+        "explanation": "The lower two-resistor branch has25 V across4 Ω."
+      },
+      {
+        "label": "b · i₁ direction",
+        "type": "choice",
+        "answer": "Left",
+        "options": [
+          "Left",
+          "Right",
+          "Zero current"
+        ],
+        "explanation": "Right-hand node is 25 V above left bottom."
+      },
+      {
+        "label": "c · i₂ magnitude",
+        "type": "numeric",
+        "answer": 12.5,
+        "unit": "A",
+        "tolerance": 0.1,
+        "explanation": "Two equal lower branches carry6.25 A each."
+      },
+      {
+        "label": "d · i₂ direction",
+        "type": "choice",
+        "answer": "Left",
+        "options": [
+          "Left",
+          "Right",
+          "Zero current"
+        ],
+        "explanation": "It is their combined return current."
+      },
+      {
+        "label": "e · Battery4 power",
+        "type": "numeric",
+        "answer": 62.5,
+        "unit": "W",
+        "tolerance": 0.5,
+        "explanation": "Its5 V source carries12.5 A."
+      },
+      {
+        "label": "f · Battery4",
+        "type": "choice",
+        "answer": "Supplies energy",
+        "options": [
+          "Supplies energy",
+          "Absorbs energy",
+          "Transfers no energy"
+        ],
+        "explanation": "Current crosses the 5 V source in its emf direction."
+      }
+    ],
+    "reasoning": "Ideal sources fix right node25 V,left top5 V,left bottom0 V before resistor currents arecalculated. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-101",
+    "parts": [
+      {
+        "label": "Voltage across R₅",
+        "type": "numeric",
+        "answer": 7.5,
+        "unit": "V",
+        "tolerance": 0.06,
+        "explanation": "The lower branchR₄+R₅=8 Ω is across12 V; I=1.5 A and V₅=7.5 V."
+      }
+    ],
+    "reasoning": "The upper resistor network is a separate parallel branch and does not change the ideal battery voltage. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-102",
+    "parts": [
+      {
+        "label": "a · Terminal-voltage equation",
+        "type": "choice",
+        "answer": "VT=ε−ir",
+        "options": [
+          "VT=ε−ir",
+          "VT=ε+ir",
+          "VT=ir−ε"
+        ],
+        "explanation": "Discharge current creates an internal dropir."
+      },
+      {
+        "label": "b · Regression emf",
+        "type": "numeric",
+        "answer": 13.610714285714291,
+        "unit": "V",
+        "tolerance": 0.10888571428571434,
+        "explanation": "The intercept of a least-squares straight lineVT versusI is ε."
+      },
+      {
+        "label": "c · Regression internal resistance",
+        "type": "numeric",
+        "answer": 0.059857142857142887,
+        "unit": "Ω",
+        "tolerance": 0.0004788571428571431,
+        "explanation": "The negative slope isr."
+      }
+    ],
+    "reasoning": "Regression uses all seven data pairs, not only the endpoints. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-103",
+    "parts": [
+      {
+        "label": "a · R₁ current magnitude",
+        "type": "numeric",
+        "answer": 0.06,
+        "unit": "A",
+        "tolerance": 0.00048,
+        "explanation": "The 12 V battery fixes12 V across200 Ω."
+      },
+      {
+        "label": "b · R₁ direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero current"
+        ],
+        "explanation": "The upper node ispositive."
+      },
+      {
+        "label": "c · R₂ current magnitude",
+        "type": "numeric",
+        "answer": 0.18,
+        "unit": "A",
+        "tolerance": 0.0014399999999999999,
+        "explanation": "Its endpoints are12 V and−6 V, giving18/100."
+      },
+      {
+        "label": "d · R₂ direction",
+        "type": "choice",
+        "answer": "Left",
+        "options": [
+          "Left",
+          "Right",
+          "Zero current"
+        ],
+        "explanation": "Current goes from 12 V toward−6 V."
+      },
+      {
+        "label": "e · Battery2 current magnitude",
+        "type": "numeric",
+        "answer": 0.24,
+        "unit": "A",
+        "tolerance": 0.00192,
+        "explanation": "Sum.060+.180 at its positive terminal."
+      },
+      {
+        "label": "f · Battery2 direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero current"
+        ],
+        "explanation": "It supplies both resistor currents."
+      }
+    ],
+    "reasoning": "The left battery positive terminal is at the grounded bottom, so its upper node is−6 V. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-104",
+    "parts": [
+      {
+        "label": "a · Switch wiring",
+        "type": "choice",
+        "answer": "Low:100 W filament; middle:200 W filament; high:both inparallel",
+        "options": [
+          "Low:100 W filament; middle:200 W filament; high:both inparallel",
+          "Low:both inseries; middle:100 W; high:200 W",
+          "All positions useboth filaments inseries"
+        ],
+        "explanation": "The 200 W filament burned out, leaving the same100 W output in low andhigh positions."
+      },
+      {
+        "label": "b · Smaller filament resistance",
+        "type": "numeric",
+        "answer": 72.0,
+        "unit": "Ω",
+        "tolerance": 0.5760000000000001,
+        "explanation": "120²/200."
+      },
+      {
+        "label": "c · Larger filament resistance",
+        "type": "numeric",
+        "answer": 144.0,
+        "unit": "Ω",
+        "tolerance": 1.1520000000000001,
+        "explanation": "120²/100."
+      }
+    ],
+    "reasoning": "The filaments are rated at the same120 V, so the higher-power filament has smaller resistance. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-problems-105",
+    "parts": [
+      {
+        "label": "a · i₁ magnitude",
+        "type": "numeric",
+        "answer": 4.0,
+        "unit": "A",
+        "tolerance": 0.032,
+        "explanation": "16 V drives2 A left and 2 A right; battery 1supplies4 A."
+      },
+      {
+        "label": "b · i₁ direction",
+        "type": "choice",
+        "answer": "Up",
+        "options": [
+          "Up",
+          "Down",
+          "Zero current"
+        ],
+        "explanation": "The 16 V source delivers current to the upper node."
+      },
+      {
+        "label": "c · i₂ magnitude",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "A",
+        "tolerance": 0.004,
+        "explanation": "Leftside equivalent4 Ω afterR₃ givesVM=8 V; the 8 Ω longleftpath carries1 A, split betweenR₇,R₈."
+      },
+      {
+        "label": "d · i₂ direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero current"
+        ],
+        "explanation": "The leftmidpoint is 4 V abovebottom."
+      },
+      {
+        "label": "e · Battery1 power",
+        "type": "numeric",
+        "answer": 64.0,
+        "unit": "W",
+        "tolerance": 0.512,
+        "explanation": "16×4."
+      },
+      {
+        "label": "f · Battery2 power",
+        "type": "numeric",
+        "answer": 16.0,
+        "unit": "W",
+        "tolerance": 0.128,
+        "explanation": "The rightbranch current is(16−8)/(3+1)=2 A."
+      },
+      {
+        "label": "g · Battery1",
+        "type": "choice",
+        "answer": "Supplies energy",
+        "options": [
+          "Supplies energy",
+          "Absorbs energy",
+          "Transfers no energy"
+        ],
+        "explanation": "Current exits its positive terminal."
+      },
+      {
+        "label": "h · Battery2",
+        "type": "choice",
+        "answer": "Absorbs energy",
+        "options": [
+          "Absorbs energy",
+          "Supplies energy",
+          "Transfers no energy"
+        ],
+        "explanation": "2 A enters its positive8 V terminal."
+      }
+    ],
+    "reasoning": "All resistor powers sum to 48 W; source net power64−16=48 W. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-1",
+    "parts": [
+      {
+        "label": "a · Voltage across R₂ compared with R₁",
+        "type": "choice",
+        "answer": "Equal",
+        "options": [
+          "Equal",
+          "Greater",
+          "Less"
+        ],
+        "explanation": "R₁ and R₂ are connected to the same two nodes."
+      },
+      {
+        "label": "b · Current through R₂ compared with R₁",
+        "type": "choice",
+        "answer": "Greater",
+        "options": [
+          "Greater",
+          "Equal",
+          "Less"
+        ],
+        "explanation": "The same voltage divided by the smallerR₂ gives more current."
+      }
+    ],
+    "reasoning": "Parallel voltages are equal; currents are inversely proportional to resistance. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-2",
+    "parts": [
+      {
+        "label": "a · Are R₁ and R₃ in series?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only ifR₁=R₃"
+        ],
+        "explanation": "Their shared node also connectsR₂, so their currents need not be equal."
+      },
+      {
+        "label": "b · Are R₁ and R₂ in parallel?",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only if their resistances are equal"
+        ],
+        "explanation": "Both endpoints are the same nodes."
+      },
+      {
+        "label": "c · Equivalent-resistance ranking",
+        "type": "choice",
+        "answer": "a=b=c=d",
+        "options": [
+          "a=b=c=d",
+          "a>b>c>d",
+          "d>c>b>a"
+        ],
+        "explanation": "Each circuit is R₃+(R₁||R₂) as seen by its battery."
+      }
+    ],
+    "reasoning": "Changing the drawing layout or source position does not change the resistor-network topology. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-3",
+    "parts": [
+      {
+        "label": "Current ranking",
+        "type": "choice",
+        "answer": "Parallel > R₂ alone > R₁ alone > series",
+        "options": [
+          "Parallel > R₂ alone > R₁ alone > series",
+          "Series > R₁ alone > R₂ alone > parallel",
+          "Parallel > R₁ alone > R₂ alone > series"
+        ],
+        "explanation": "SinceR₁>R₂, equivalent resistances rank in the reverse order."
+      }
+    ],
+    "reasoning": "UseI=ε/Req for the same ideal battery. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-4",
+    "parts": [
+      {
+        "label": "a · Field-magnitude ranking with equal resistors",
+        "type": "choice",
+        "answer": "b=d>a=c=e",
+        "options": [
+          "b=d>a=c=e",
+          "a=c=e>b=d",
+          "a=b=c=d=e"
+        ],
+        "explanation": "The two resistor segments have equal voltage drops; ideal wire segments havezero."
+      },
+      {
+        "label": "b · Field ranking with R₁>R₂",
+        "type": "choice",
+        "answer": "b>d>a=c=e",
+        "options": [
+          "b>d>a=c=e",
+          "d>b>a=c=e",
+          "a=b=c=d=e"
+        ],
+        "explanation": "The common current gives a larger drop per equal length in R₁."
+      },
+      {
+        "label": "c · Direction of field along x",
+        "type": "choice",
+        "answer": "Positive x (right)",
+        "options": [
+          "Positive x (right)",
+          "Negative x (left)",
+          "Alternates at each resistor"
+        ],
+        "explanation": "The original diagram marks the positive terminal on the left; current along the lower resistor branch goes rightward."
+      }
+    ],
+    "reasoning": "For equal segment lengths, average electric-field magnitude is voltage-drop magnitude divided bylength. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-5",
+    "parts": [
+      {
+        "label": "a · Connection",
+        "type": "choice",
+        "answer": "Series",
+        "options": [
+          "Series",
+          "Parallel",
+          "Neither"
+        ],
+        "explanation": "The only current route traverses both resistors."
+      },
+      {
+        "label": "b · Connection",
+        "type": "choice",
+        "answer": "Parallel",
+        "options": [
+          "Parallel",
+          "Series",
+          "Neither"
+        ],
+        "explanation": "The outer wire joins both outside endpoints, so each resistor spans the battery nodes."
+      },
+      {
+        "label": "c · Connection",
+        "type": "choice",
+        "answer": "Parallel",
+        "options": [
+          "Parallel",
+          "Series",
+          "Neither"
+        ],
+        "explanation": "Each resistor connects the same source-positive and source-negative nodes."
+      }
+    ],
+    "reasoning": "Connection type depends on nodes and current branching, not apparent side-by-side placement. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-6",
+    "parts": [
+      {
+        "label": "Current through R",
+        "type": "numeric",
+        "answer": 2.0,
+        "unit": "A",
+        "tolerance": 0.016,
+        "explanation": "Set lower rail/R bottom0 V. The left lower battery fixes left row3=4 V; the middleleft battery sets left row2=8 V; top rail12 V and upperright battery setsR top8 V. ThusI=8/4=2 A."
+      },
+      {
+        "label": "Direction",
+        "type": "choice",
+        "answer": "Down",
+        "options": [
+          "Down",
+          "Up",
+          "Zero current"
+        ],
+        "explanation": "R top is 8 V aboveR bottom."
+      }
+    ],
+    "reasoning": "An ideal-battery-only path fixes the voltage acrossR. The resistor between left row3 and rightrow3 means those rows cannot be treated as one node. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-7",
+    "parts": [
+      {
+        "label": "a · Voltage across R₁ after series addition",
+        "type": "choice",
+        "answer": "Less",
+        "options": [
+          "Less",
+          "Equal",
+          "Greater"
+        ],
+        "explanation": "Total current decreases and VR₁=iR₁."
+      },
+      {
+        "label": "b · Current through R₁",
+        "type": "choice",
+        "answer": "Less",
+        "options": [
+          "Less",
+          "Equal",
+          "Greater"
+        ],
+        "explanation": "Total resistance increases."
+      },
+      {
+        "label": "c · Equivalent resistance compared with R₁",
+        "type": "choice",
+        "answer": "Greater",
+        "options": [
+          "Greater",
+          "Equal",
+          "Less"
+        ],
+        "explanation": "R₁+R₂ exceedsR₁."
+      }
+    ],
+    "reasoning": "An ideal battery holds total branch voltage fixed. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-8",
+    "parts": [
+      {
+        "label": "a · Series equivalent",
+        "type": "choice",
+        "answer": "Req=3R",
+        "options": [
+          "Req=3R",
+          "Req=R/3",
+          "Req=R"
+        ],
+        "explanation": "Series resistances add."
+      },
+      {
+        "label": "b · Parallel equivalent",
+        "type": "choice",
+        "answer": "Req=R/3",
+        "options": [
+          "Req=R/3",
+          "Req=3R",
+          "Req=R"
+        ],
+        "explanation": "Three equal conductances add."
+      },
+      {
+        "label": "c · Voltage across series versus parallel",
+        "type": "choice",
+        "answer": "Equal",
+        "options": [
+          "Equal",
+          "Greater in series",
+          "Greater in parallel"
+        ],
+        "explanation": "Each entire arrangement is connected to the same ideal battery."
+      }
+    ],
+    "reasoning": "The arrangement changes source current, not its ideal terminal voltage. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-9",
+    "parts": [
+      {
+        "label": "a · Equal resistor and equivalent voltages",
+        "type": "choice",
+        "answer": "Parallel",
+        "options": [
+          "Parallel",
+          "Series",
+          "Neither"
+        ],
+        "explanation": "Every branch spans the same two nodes."
+      },
+      {
+        "label": "b · Equal resistor and equivalent currents",
+        "type": "choice",
+        "answer": "Series",
+        "options": [
+          "Series",
+          "Parallel",
+          "Neither"
+        ],
+        "explanation": "The one current path traverses all series elements."
+      }
+    ],
+    "reasoning": "Use the defining voltage/current properties of each topology. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-10",
+    "parts": [
+      {
+        "label": "Charge magnitude on C",
+        "type": "numeric",
+        "answer": 6e-05,
+        "unit": "C",
+        "tolerance": 4.800000000000001e-07,
+        "explanation": "A wire path identifies the capacitor right plate with the central upper node. The left-middle10 V battery sets that node 10 V above the capacitor left plate, so Q=6μF×10 V."
+      }
+    ],
+    "reasoning": "Only one battery and connecting wires are required to fixVC; other maze capacitors do not change that ideal source constraint. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-11",
+    "parts": [
+      {
+        "label": "a · Voltage across R₁",
+        "type": "choice",
+        "answer": "Same",
+        "options": [
+          "Same",
+          "Greater",
+          "Less"
+        ],
+        "explanation": "The ideal battery fixes its branchvoltage."
+      },
+      {
+        "label": "b · Current through R₁",
+        "type": "choice",
+        "answer": "Same",
+        "options": [
+          "Same",
+          "Greater",
+          "Less"
+        ],
+        "explanation": "I₁=ε/R₁ does not depend onR₂."
+      },
+      {
+        "label": "c · Equivalent resistance compared with R₁",
+        "type": "choice",
+        "answer": "Less",
+        "options": [
+          "Less",
+          "Same",
+          "Greater"
+        ],
+        "explanation": "Parallel conductance increases."
+      },
+      {
+        "label": "d · Total current compared with old current",
+        "type": "choice",
+        "answer": "Greater",
+        "options": [
+          "Greater",
+          "Same",
+          "Less"
+        ],
+        "explanation": "The added branch draws extra current."
+      }
+    ],
+    "reasoning": "Adding a parallel branch does not steal current from the original branch when the source is ideal. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-12",
+    "parts": [
+      {
+        "label": "Set 1: R₀,C₀",
+        "type": "choice",
+        "answer": "Curve c",
+        "options": [
+          "Curve c",
+          "Curve a",
+          "Curve d"
+        ],
+        "explanation": "Largest initial current, smallest time constant."
+      },
+      {
+        "label": "Set 2: 2R₀,C₀",
+        "type": "choice",
+        "answer": "Curve a",
+        "options": [
+          "Curve a",
+          "Curve b",
+          "Curve c"
+        ],
+        "explanation": "Half the initial current; time constant2R₀C₀."
+      },
+      {
+        "label": "Set 3: R₀,2C₀",
+        "type": "choice",
+        "answer": "Curve d",
+        "options": [
+          "Curve d",
+          "Curve c",
+          "Curve b"
+        ],
+        "explanation": "Largest initial current; twice the set1 time constant."
+      },
+      {
+        "label": "Set 4: 2R₀,2C₀",
+        "type": "choice",
+        "answer": "Curve b",
+        "options": [
+          "Curve b",
+          "Curve a",
+          "Curve d"
+        ],
+        "explanation": "Half initial current and largest time constant4R₀C₀."
+      }
+    ],
+    "reasoning": "Initial charging current depends only onR; decay time depends onRC. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  },
+  {
+    "id": "physics-chapter-27-questions-13",
+    "parts": [
+      {
+        "label": "a · Final capacitor-charge ranking",
+        "type": "choice",
+        "answer": "1=2=3",
+        "options": [
+          "1=2=3",
+          "1>3>2",
+          "2>3>1"
+        ],
+        "explanation": "No final capacitor current means no drop in its series resistor, so each hasQ∞=Cε."
+      },
+      {
+        "label": "b · Time to 50% ranking",
+        "type": "choice",
+        "answer": "1>3>2",
+        "options": [
+          "1>3>2",
+          "1=2=3",
+          "2>3>1"
+        ],
+        "explanation": "The capacitor sees2R,R/2,R respectively; t50=RC ln2."
+      }
+    ],
+    "reasoning": "The extra parallel resistor in circuit3 draws source current without changing the charging resistance seen by the capacitor. Verification: substitute the calculated currents into junction and loop equations; check electrical power or the stated RC initial/final limits.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Ideal batteries and wires except for explicitly stated internal or meter resistance."
+    ]
+  }
+]

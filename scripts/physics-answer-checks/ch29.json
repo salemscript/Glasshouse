@@ -1,0 +1,3096 @@
+[
+  {
+    "id": "physics-chapter-29-problems-1",
+    "parts": [
+      {
+        "label": "a · Power-line field",
+        "type": "numeric",
+        "answer": 3.2786885245901638e-06,
+        "unit": "T",
+        "tolerance": 2.950819672131147e-08,
+        "explanation": "B=μ₀I/(2πr)."
+      },
+      {
+        "label": "b · Serious compass interference?",
+        "type": "choice",
+        "answer": "Yes; a transverse wire field can deflect the compass by about9°",
+        "options": [
+          "Yes; a transverse wire field can deflect the compass by about9°",
+          "Yes; it is hundreds of times larger",
+          "No; the wire field is exactly zero"
+        ],
+        "explanation": "Bwire/(20μT)≈0.164, giving a maximum transverse deflection arctan(0.164)≈9.3°, significant for surveying."
+      }
+    ],
+    "reasoning": "The source Earth field is20μT, not20mT. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-2",
+    "parts": [
+      {
+        "label": "Whole-wire field",
+        "type": "numeric",
+        "answer": 3e-09,
+        "unit": "T",
+        "tolerance": 2.6999999999999997e-11,
+        "explanation": "Peak dB=μ₀I ds/(4πr²); eliminate I to obtain B=2r dBmax/ds."
+      }
+    ],
+    "reasoning": "The plotted maximum is60pT atπ/2; whole-wire field is3nT. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-3",
+    "parts": [
+      {
+        "label": "a · Wire current",
+        "type": "numeric",
+        "answer": 15.600000000000001,
+        "unit": "A",
+        "tolerance": 0.1404,
+        "explanation": "Cancel Earth’s39μT field at8cm."
+      },
+      {
+        "label": "b · Current direction",
+        "type": "choice",
+        "answer": "East",
+        "options": [
+          "East",
+          "West",
+          "North"
+        ],
+        "explanation": "An eastward current produces a southward field above the wire."
+      }
+    ],
+    "reasoning": "The net field is zero only if the wire opposes Earth’s northward field. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-4",
+    "parts": [
+      {
+        "label": "Field magnitude at C",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 0,
+        "explanation": "Equal currents split into opposite circulation semicircles, whose fields cancel."
+      }
+    ],
+    "reasoning": "Straight radial pieces contribute zero; equal branch resistance gives equal branch currents. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-5",
+    "parts": [
+      {
+        "label": "a · Field at a",
+        "type": "numeric",
+        "answer": 0.0010283185307179586,
+        "unit": "T",
+        "tolerance": 9.254866776461627e-06,
+        "explanation": "Semicircle adds to two semi-infinite tangent legs."
+      },
+      {
+        "label": "b · Direction at a",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero field"
+        ],
+        "explanation": "The current rounds the left end counterclockwise."
+      },
+      {
+        "label": "c · Field at b",
+        "type": "numeric",
+        "answer": 0.0007999999999999999,
+        "unit": "T",
+        "tolerance": 7.199999999999999e-06,
+        "explanation": "Far from the bend both legs act as infinite wires."
+      },
+      {
+        "label": "d · Direction at b",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero field"
+        ],
+        "explanation": "Both straight-wire fields point out between the opposite currents."
+      }
+    ],
+    "reasoning": "Use different straight-wire limits at the end and far along the hairpin. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-6",
+    "parts": [
+      {
+        "label": "a · s of maximum contribution",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "m",
+        "tolerance": 0,
+        "explanation": "dB/ds is maximal at the perpendicular foot."
+      },
+      {
+        "label": "b · |s| for10% contribution",
+        "type": "numeric",
+        "answer": 0.03816589489904713,
+        "unit": "m",
+        "tolerance": 0.0003434930540914241,
+        "explanation": "dB(s)/dB(0)=[R²/(R²+s²)]^(3/2)=0.1."
+      }
+    ],
+    "reasoning": "There are two equal-distance elements, at±s. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-7",
+    "parts": [
+      {
+        "label": "a · Net field",
+        "type": "numeric",
+        "answer": 1.0289431833605787e-07,
+        "unit": "T",
+        "tolerance": 9.260488650245208e-10,
+        "explanation": "Opposite arcs subtract; the smaller radius dominates."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero field"
+        ],
+        "explanation": "The smaller arc is counterclockwise."
+      }
+    ],
+    "reasoning": "Radial pieces give zero Biot–Savart cross product. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-8",
+    "parts": [
+      {
+        "label": "a · Net field",
+        "type": "numeric",
+        "answer": 1.6707212213321546e-06,
+        "unit": "T",
+        "tolerance": 1.5036490991989392e-08,
+        "explanation": "Opposite semicircles subtract."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "The smaller arc runs clockwise."
+      }
+    ],
+    "reasoning": "The inner semicircle determines the net direction. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-9",
+    "parts": [
+      {
+        "label": "a · Current directions",
+        "type": "choice",
+        "answer": "Opposite directions",
+        "options": [
+          "Opposite directions",
+          "Same direction",
+          "Either direction gives the same field"
+        ],
+        "explanation": "At the midpoint equal same-direction currents cancel."
+      },
+      {
+        "label": "b · Current in each wire",
+        "type": "numeric",
+        "answer": 29.999999999999996,
+        "unit": "A",
+        "tolerance": 0.26999999999999996,
+        "explanation": "B=2[μ₀I/(2πr)] withr=.040m."
+      }
+    ],
+    "reasoning": "The source target field is300μT. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-10",
+    "parts": [
+      {
+        "label": "a · Field at C",
+        "type": "numeric",
+        "answer": 1.1806417315866609e-07,
+        "unit": "T",
+        "tolerance": 1.0625775584279947e-09,
+        "explanation": "Only the semicircle contributes."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "The semicircle current is clockwise."
+      }
+    ],
+    "reasoning": "The radial segments have dl parallel to displacement from C. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-11",
+    "parts": [
+      {
+        "label": "a · Wire 2 current",
+        "type": "numeric",
+        "answer": 4.333333333333334,
+        "unit": "A",
+        "tolerance": 0.039,
+        "explanation": "Equal fields require I₂/d₂=I₁/(d₁+d₂)."
+      },
+      {
+        "label": "b · Wire 2 direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero field"
+        ],
+        "explanation": "Opposite current directions cancel below both wires."
+      }
+    ],
+    "reasoning": "Use the full wire 1-to-P distance2.25cm. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-12",
+    "parts": [
+      {
+        "label": "a · x of zero field",
+        "type": "numeric",
+        "answer": 0.04,
+        "unit": "m",
+        "tolerance": 0.00035999999999999997,
+        "explanation": "Between like currents I₁/x=3I₁/(d−x)."
+      },
+      {
+        "label": "b · Position when both currents double",
+        "type": "choice",
+        "answer": "Unchanged",
+        "options": [
+          "Unchanged",
+          "Closer to wire 1",
+          "Closer to wire 2"
+        ],
+        "explanation": "The field equation is homogeneous in both currents."
+      }
+    ],
+    "reasoning": "The zero lies closer to the weaker wire. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-13",
+    "parts": [
+      {
+        "label": "Finite-wire field",
+        "type": "numeric",
+        "answer": 5.031516771667121e-08,
+        "unit": "T",
+        "tolerance": 4.528365094500409e-10,
+        "explanation": "B=μ₀I sinθ/(2πR), tanθ=(L/2)/R."
+      }
+    ],
+    "reasoning": "Both finite end contributions are equal. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-14",
+    "parts": [
+      {
+        "label": "Minimum L/R",
+        "type": "numeric",
+        "answer": 14.106912317171965,
+        "unit": "dimensionless",
+        "tolerance": 0.12696221085454767,
+        "explanation": "B∞/Bfinite=√[1+(2R/L)²]; set this ratio1.01."
+      }
+    ],
+    "reasoning": "The source defines error relative to actual finite-wire field, not the infinite approximation. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-15",
+    "parts": [
+      {
+        "label": "a · Original field magnitude",
+        "type": "numeric",
+        "answer": 1.6755160819145564e-06,
+        "unit": "T",
+        "tolerance": 1.5079644737231007e-08,
+        "explanation": "The upper clockwise field is larger than the lower counterclockwise field."
+      },
+      {
+        "label": "b · Original direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "Upper clockwise contribution dominates."
+      },
+      {
+        "label": "c · Field after reversing i₁",
+        "type": "numeric",
+        "answer": 6.702064327658225e-06,
+        "unit": "T",
+        "tolerance": 6.031857894892401e-08,
+        "explanation": "Reversal makes both fields point into the page."
+      },
+      {
+        "label": "d · Reversed direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "The lower arc now reinforces the upper arc."
+      }
+    ],
+    "reasoning": "Radial legs contribute zero. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-16",
+    "parts": [
+      {
+        "label": "Rotation angle",
+        "type": "numeric",
+        "answer": 143.86818755516748,
+        "unit": "degrees",
+        "tolerance": 1.2948136879965073,
+        "explanation": "B²=B₁²+B₂²+2B₁B₂cosθ.",
+        "acceptedValues": [
+          -216.13181244483252,
+          503.8681875551675
+        ]
+      }
+    ],
+    "reasoning": "Rotate the field vector of loop 2 about the common diameter; magnitudes stay fixed. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-17",
+    "parts": [
+      {
+        "label": "Finite-wire field",
+        "type": "numeric",
+        "answer": 1.315308450742605e-07,
+        "unit": "T",
+        "tolerance": 1.1837776056683444e-09,
+        "explanation": "At an end, B=μ₀I sinθ/(4πR), tanθ=L/R."
+      }
+    ],
+    "reasoning": "Only one endpoint subtends a nonzero angle. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-18",
+    "parts": [
+      {
+        "label": "Smaller semicircle radius",
+        "type": "numeric",
+        "answer": 0.02,
+        "unit": "m",
+        "tolerance": 0.00017999999999999998,
+        "explanation": "Initial sum47.25μT and reversed difference15.75μT give Bsmall/Blarge=2; radius ratio is1/2."
+      }
+    ],
+    "reasoning": "Flipping the semicircle reverses its normal, not its current magnitude. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-19",
+    "parts": [
+      {
+        "label": "Resultant field",
+        "type": "numeric",
+        "answer": 4.9999999999999996e-06,
+        "unit": "T",
+        "tolerance": 4.499999999999999e-08,
+        "explanation": "Wire along+x gives+z field; wire along+z at y4 gives+x field."
+      }
+    ],
+    "reasoning": "The two fields are perpendicular, so add in quadrature. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-20",
+    "parts": [
+      {
+        "label": "a · Original field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Original field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Original field · z component",
+        "type": "numeric",
+        "answer": 2.533164607169207e-07,
+        "unit": "T",
+        "tolerance": 2.279848146452286e-09,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Rotated field · x component",
+        "type": "numeric",
+        "answer": 1.9215243955289953e-07,
+        "unit": "T",
+        "tolerance": 1.7293719559760956e-09,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Rotated field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Rotated field · z component",
+        "type": "numeric",
+        "answer": 6.116402116402116e-08,
+        "unit": "T",
+        "tolerance": 5.504761904761903e-10,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "Original loop current is counterclockwise; the straight tangent wire gives+z. A90° counterclockwise rotation about+y sends loop normal+z to+x. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Counterclockwise rotation is viewed from the positive y end of the indicated rotation axis, as drawn."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-21",
+    "parts": [
+      {
+        "label": "Net field magnitude",
+        "type": "numeric",
+        "answer": 2.56e-07,
+        "unit": "T",
+        "tolerance": 2.304e-09,
+        "explanation": "Each wire is5m from P; the y components add and x components cancel."
+      }
+    ],
+    "reasoning": "Distances form a3–4–5 triangle. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-22",
+    "parts": [
+      {
+        "label": "a · x of maximum",
+        "type": "numeric",
+        "answer": 0.3,
+        "unit": "m",
+        "tolerance": 0.0026999999999999997,
+        "explanation": "Graph zero is0.10m=L/3; derivative zero of4/(x+L)−1/x occurs atx=L."
+      },
+      {
+        "label": "b · Maximum By",
+        "type": "numeric",
+        "answer": 2e-09,
+        "unit": "T",
+        "tolerance": 1.8e-11,
+        "explanation": "Atx=L, By=(μ₀I₂/2π)(2/L−1/L)."
+      },
+      {
+        "label": "c · i₁ direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero field"
+        ],
+        "explanation": "Positive far-right By is due to larger out-of-page current."
+      },
+      {
+        "label": "d · i₂ direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "Near-wire 2 field is negative."
+      }
+    ],
+    "reasoning": "The graph x axis is measured from wire 2, notwire1. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-23",
+    "parts": [
+      {
+        "label": "Magnetic force · x component",
+        "type": "numeric",
+        "answer": -7.760553633217992e-23,
+        "unit": "N",
+        "tolerance": 6.984498269896192e-25,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Magnetic force · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Magnetic force · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "At the proton, B points+z and velocity points−y; qv×B is−x. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-24",
+    "parts": [
+      {
+        "label": "a · Wire 1 x",
+        "type": "numeric",
+        "answer": -0.0696152422706632,
+        "unit": "m",
+        "tolerance": 0.0006265371804359687,
+        "explanation": "By/Bx=[d/|x₁|−1]/2=tan30°."
+      },
+      {
+        "label": "b · Wire 3 x",
+        "type": "numeric",
+        "answer": 0.0696152422706632,
+        "unit": "m",
+        "tolerance": 0.0006265371804359687,
+        "explanation": "Equal same-sign currents at±x cancel the y components."
+      }
+    ],
+    "reasoning": "The two vertical wires maintain the same+x field while the horizontal pair changes By. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-25",
+    "parts": [
+      {
+        "label": "Arc angle θ",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "rad",
+        "tolerance": 0.018,
+        "explanation": "Two tangent semi-infinite fields totalμ₀I/(2πR), cancellingμ₀Iθ/(4πR)."
+      }
+    ],
+    "reasoning": "The arc field opposes the combined straight-leg field. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-26",
+    "parts": [
+      {
+        "label": "Arc angle",
+        "type": "numeric",
+        "answer": 102.49380625207351,
+        "unit": "degrees",
+        "tolerance": 0.9224442562686616,
+        "explanation": "The B² intercept is1×10⁻¹⁰T² and slope5×10⁻¹⁰T²/A²; θ=2B_arc/(I₁√slope).",
+        "acceptedValues": [
+          -257.5061937479265,
+          462.4938062520735
+        ]
+      }
+    ],
+    "reasoning": "The perpendicular wire field is in-plane, so its square adds without a cross term. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-27",
+    "parts": [
+      {
+        "label": "New current i₁",
+        "type": "numeric",
+        "answer": 0.0612894650979657,
+        "unit": "A",
+        "tolerance": 0.0005516051858816913,
+        "explanation": "Initial field angle isatan(I₂/I₁); clockwise rotation reduces it20°."
+      }
+    ],
+    "reasoning": "Wire 1 above origin gives+x; wire 2 left gives+y. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-28",
+    "parts": [
+      {
+        "label": "Arc angle",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "rad",
+        "tolerance": 0.009,
+        "explanation": "The net field vanishes atI₂=.50A; I₁θ=4I₂."
+      }
+    ],
+    "reasoning": "Straight-wire distance isR/2; radial legs give zero. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-29",
+    "parts": [
+      {
+        "label": "Center field · x component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Center field · y component",
+        "type": "numeric",
+        "answer": 7.999999999999998e-05,
+        "unit": "T",
+        "tolerance": 7.199999999999998e-07,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Center field · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "Opposite x components cancel and all y components reinforce upward. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-30",
+    "parts": [
+      {
+        "label": "a · Wire 2 location/current pair",
+        "type": "choice",
+        "answer": "θ₂=90° with current out of the page, or270° with current into the page",
+        "options": [
+          "θ₂=90° with current out of the page, or270° with current into the page",
+          "θ₂=0° with current out of the page",
+          "θ₂=180° with current into the page"
+        ],
+        "explanation": "The fixed wire supplies+2μT in+x and zero By; reversing both position and current is indistinguishable."
+      },
+      {
+        "label": "b · Wire 1 current",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "A",
+        "tolerance": 0.036,
+        "explanation": "Its sinusoidal component has amplitude4μT atR=.20m."
+      },
+      {
+        "label": "c · Wire 1 direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero field"
+        ],
+        "explanation": "By varies from−4μT to+4μT asθ₁ goes0to180°."
+      },
+      {
+        "label": "d · Wire 2 current magnitude",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "A",
+        "tolerance": 0.018,
+        "explanation": "Its fixed+x field is2μT."
+      },
+      {
+        "label": "e · Wire 2 direction",
+        "type": "choice",
+        "answer": "Out of page at90°, or into page at270°",
+        "options": [
+          "Out of page at90°, or into page at270°",
+          "Into page at90°, or out of page at270°",
+          "Into page at0°, or out of page at180°"
+        ],
+        "explanation": "The graphs determine the signed field vector, not a unique position/current pair."
+      }
+    ],
+    "reasoning": "Read Bx(0)=2μT, Bx(90°)=6μT, and By endpoints±4μT. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ],
+    "scope": "The graphs allow the two explicitly paired wire 2 configurations; choosing the upper-half-plane location gives90° and out-of-page current."
+  },
+  {
+    "id": "physics-chapter-29-problems-31",
+    "parts": [
+      {
+        "label": "a · Field magnitude",
+        "type": "numeric",
+        "answer": 1.955827267111727e-05,
+        "unit": "T",
+        "tolerance": 1.7602445404005541e-07,
+        "explanation": "Integrate each finite straight segment; the segments collinear withP contribute zero."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "The two nearby inward-corner legs dominate the opposite distant-leg contributions."
+      }
+    ],
+    "reasoning": "The full closed stepped loop gives B=μ₀I/(4πa√2). Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-32",
+    "parts": [
+      {
+        "label": "Smaller radius",
+        "type": "numeric",
+        "answer": 0.023182324357785018,
+        "unit": "m",
+        "tolerance": 0.00020864091922006515,
+        "explanation": "A+B=12μT andA²+B²=(10μT)², so the smaller radius isR A/B."
+      }
+    ],
+    "reasoning": "Atθ0 the semicircle fields add; atπ/2 they are perpendicular. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-33",
+    "parts": [
+      {
+        "label": "Ribbon field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Ribbon field · y component",
+        "type": "numeric",
+        "answer": 2.226606073466069e-08,
+        "unit": "T",
+        "tolerance": 2.003945466119462e-10,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Ribbon field · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "Integrate dB=(μ₀/2π)(I/w)dx/x over distancesd to d+w. Into-page wires produce+y at a point to their left. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-34",
+    "parts": [
+      {
+        "label": "Positive angle θ₂",
+        "type": "numeric",
+        "answer": 104.47751218592994,
+        "unit": "degrees",
+        "tolerance": 0.9402976096733694,
+        "explanation": "B²=B₁²+B₂²−2B₁B₂cosθ₂ with B₁60nT,B₂40nT.",
+        "acceptedValues": [
+          -255.52248781407008,
+          464.4775121859299
+        ]
+      }
+    ],
+    "reasoning": "Wire 1 at180° gives+y; wire 2’s field rotates with its position. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-35",
+    "parts": [
+      {
+        "label": "x force per length",
+        "type": "numeric",
+        "answer": 8.84265279583875e-11,
+        "unit": "N/m",
+        "tolerance": 7.958387516254874e-13,
+        "explanation": "Opposite currents repel; Fx/L=μ₀I₁I₂Δx/(2πr²)."
+      }
+    ],
+    "reasoning": "The separation includes the vertical2.40cm offset. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-36",
+    "parts": [
+      {
+        "label": "a · Wire 1 y force",
+        "type": "numeric",
+        "answer": 0.00046875,
+        "unit": "N",
+        "tolerance": 4.218749999999999e-06,
+        "explanation": "Parallel same-direction wires attract; sum signed reciprocal separations."
+      },
+      {
+        "label": "b · Wire 2 y force",
+        "type": "numeric",
+        "answer": 0.0001875,
+        "unit": "N",
+        "tolerance": 1.6875e-06,
+        "explanation": "Parallel same-direction wires attract; sum signed reciprocal separations."
+      },
+      {
+        "label": "c · Wire 3 y force",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Parallel same-direction wires attract; sum signed reciprocal separations."
+      },
+      {
+        "label": "d · Wire 4 y force",
+        "type": "numeric",
+        "answer": -0.0001875,
+        "unit": "N",
+        "tolerance": 1.6875e-06,
+        "explanation": "Parallel same-direction wires attract; sum signed reciprocal separations."
+      },
+      {
+        "label": "e · Wire 5 y force",
+        "type": "numeric",
+        "answer": -0.00046875,
+        "unit": "N",
+        "tolerance": 4.218749999999999e-06,
+        "explanation": "Parallel same-direction wires attract; sum signed reciprocal separations."
+      }
+    ],
+    "reasoning": "The central wire is force-free by reflection symmetry; end forces are equal/opposite. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-37",
+    "parts": [
+      {
+        "label": "Force per length · x component",
+        "type": "numeric",
+        "answer": -0.000125,
+        "unit": "N/m",
+        "tolerance": 1.125e-06,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Force per length · y component",
+        "type": "numeric",
+        "answer": 4.166666666666667e-05,
+        "unit": "N/m",
+        "tolerance": 3.75e-07,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Force per length · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N/m",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "Use signed current products: same directions attract and opposite directions repel. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-38",
+    "parts": [
+      {
+        "label": "a · Wire 2 current",
+        "type": "numeric",
+        "answer": 0.5015999999999999,
+        "unit": "A",
+        "tolerance": 0.004514399999999999,
+        "explanation": "Graph zero atx=.040m givesd=3x=.120m; asymptotic force=−μ₀I₁I₂/(2πd)."
+      },
+      {
+        "label": "b · Wire 2 direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero field"
+        ],
+        "explanation": "Wire 3 attracts wire 2 toward+x near it, so they have the same sign."
+      }
+    ],
+    "reasoning": "Graph horizontal coordinate is distance from wire 2. Asymptote is−.627μN/m, notmillinewtons. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-39",
+    "parts": [
+      {
+        "label": "Force per length magnitude",
+        "type": "numeric",
+        "answer": 8e-07,
+        "unit": "N/m",
+        "tolerance": 7.199999999999999e-09,
+        "explanation": "Signed forces on wire 3 sum to the right."
+      }
+    ],
+    "reasoning": "The two far equal currents cancel; unlike currents on the left repel while like currents on the right attract. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-40",
+    "parts": [
+      {
+        "label": "Force per length · x component",
+        "type": "numeric",
+        "answer": 0.0007941176470588234,
+        "unit": "N/m",
+        "tolerance": 7.14705882352941e-06,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Force per length · y component",
+        "type": "numeric",
+        "answer": -0.0007941176470588234,
+        "unit": "N/m",
+        "tolerance": 7.14705882352941e-06,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Force per length · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N/m",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "All currents attract; side and diagonal forces yield Fx=−Fy. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-41",
+    "parts": [
+      {
+        "label": "Net force · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Net force · y component",
+        "type": "numeric",
+        "answer": 0.0032,
+        "unit": "N",
+        "tolerance": 2.88e-05,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Net force · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "The nearer horizontal segment is attracted upward more strongly than the far segment is repelled; vertical-side forces cancel. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-42",
+    "parts": [
+      {
+        "label": "Signed circulation",
+        "type": "numeric",
+        "answer": 4.523893421169303e-06,
+        "unit": "T·m",
+        "tolerance": 4.0715040790523724e-08,
+        "explanation": "The counterclockwise triangular path encloses area6d² and positive-z current."
+      }
+    ],
+    "reasoning": "Ampere’s integral depends on enclosed current, not detailed B distribution. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-43",
+    "parts": [
+      {
+        "label": "a · B at r=0m",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Inside a uniform wire Ienc=I(r/a)²; outside use the full current."
+      },
+      {
+        "label": "b · B at r=0.01m",
+        "type": "numeric",
+        "answer": 0.00085,
+        "unit": "T",
+        "tolerance": 7.65e-06,
+        "explanation": "Inside a uniform wire Ienc=I(r/a)²; outside use the full current."
+      },
+      {
+        "label": "c · B at r=0.02m",
+        "type": "numeric",
+        "answer": 0.0017,
+        "unit": "T",
+        "tolerance": 1.53e-05,
+        "explanation": "Inside a uniform wire Ienc=I(r/a)²; outside use the full current."
+      },
+      {
+        "label": "d · B at r=0.04m",
+        "type": "numeric",
+        "answer": 0.00085,
+        "unit": "T",
+        "tolerance": 7.65e-06,
+        "explanation": "Inside a uniform wire Ienc=I(r/a)²; outside use the full current."
+      }
+    ],
+    "reasoning": "The field rises linearly to its maximum at the surface and then falls as1/r. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-44",
+    "parts": [
+      {
+        "label": "a · Path1 circulation",
+        "type": "numeric",
+        "answer": -2.5132741228718346e-06,
+        "unit": "T·m",
+        "tolerance": 2.261946710584651e-08,
+        "explanation": "Path1 upward normal links−i₁+i₂."
+      },
+      {
+        "label": "b · Path2 circulation",
+        "type": "numeric",
+        "answer": 8.796459430051422e-06,
+        "unit": "T·m",
+        "tolerance": 7.916813487046279e-08,
+        "explanation": "Path2 has two positive linkings with the left current loop and one negative linking with the right."
+      }
+    ],
+    "reasoning": "Count algebraic linking numbers, including winding direction, rather than geometric proximity. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-45",
+    "parts": [
+      {
+        "label": "a · Path1 circulation",
+        "type": "numeric",
+        "answer": 2.5132741228718346e-06,
+        "unit": "T·m",
+        "tolerance": 2.261946710584651e-08,
+        "explanation": "Clockwise orientation counts net one inward current positively."
+      },
+      {
+        "label": "b · Path2 circulation",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T·m",
+        "tolerance": 0,
+        "explanation": "Equal inward/outward currents cancel algebraically."
+      }
+    ],
+    "reasoning": "Only currents inside each path contribute. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-46",
+    "parts": [
+      {
+        "label": "Signed circulation",
+        "type": "numeric",
+        "answer": 2.8274333882308136e-08,
+        "unit": "T·m",
+        "tolerance": 2.544690049407732e-10,
+        "explanation": "Trace the winding contour; enclosed signed currents are1,3,7 outward and6 inward."
+      }
+    ],
+    "reasoning": "Currents2,4,5,8 lie in excluded bays of the contour. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-47",
+    "parts": [
+      {
+        "label": "a · Center field",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 0,
+        "explanation": "Ienc vanishes faster thanr at the center."
+      },
+      {
+        "label": "b · Field at a/2",
+        "type": "numeric",
+        "answer": 1.0063568466999305e-07,
+        "unit": "T",
+        "tolerance": 9.057211620299374e-10,
+        "explanation": "Integrate J₀r/a: B=μ₀J₀r²/(3a)."
+      },
+      {
+        "label": "c · Surface field",
+        "type": "numeric",
+        "answer": 4.025427386799722e-07,
+        "unit": "T",
+        "tolerance": 3.6228846481197494e-09,
+        "explanation": "Evaluate the same expression atr=a."
+      }
+    ],
+    "reasoning": "The nonuniform current density must be integrated over concentric annuli. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-48",
+    "parts": [
+      {
+        "label": "a · Wire current",
+        "type": "numeric",
+        "answer": 0.003,
+        "unit": "A",
+        "tolerance": 2.7e-05,
+        "explanation": "AtP, opposing signed contributions satisfy.008/(2R)−I/R=I/(3R)."
+      },
+      {
+        "label": "b · Wire direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "This makes the wire field leftward at both points, opposing the pipe field at P."
+      }
+    ],
+    "reasoning": "At the pipe center the pipe itself produces zero field. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-49",
+    "parts": [
+      {
+        "label": "a · Inner-radius field",
+        "type": "numeric",
+        "answer": 0.0005333333333333334,
+        "unit": "T",
+        "tolerance": 4.8e-06,
+        "explanation": "ToroidalB=μ₀NI/(2πr)."
+      },
+      {
+        "label": "b · Outer-radius field",
+        "type": "numeric",
+        "answer": 0.0004000000000000001,
+        "unit": "T",
+        "tolerance": 3.6000000000000003e-06,
+        "explanation": "Outer radius=.15+.05=.20m."
+      }
+    ],
+    "reasoning": "Field is not uniform across the finite toroid cross-section. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-50",
+    "parts": [
+      {
+        "label": "Interior field",
+        "type": "numeric",
+        "answer": 0.005714391689898066,
+        "unit": "T",
+        "tolerance": 5.142952520908259e-05,
+        "explanation": "B=μ₀NI/length."
+      }
+    ],
+    "reasoning": "Use the ideal long-solenoid approximation. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-51",
+    "parts": [
+      {
+        "label": "Interior field",
+        "type": "numeric",
+        "answer": 0.0002915397982531328,
+        "unit": "T",
+        "tolerance": 2.623858184278195e-06,
+        "explanation": "B=μ₀NI/length."
+      }
+    ],
+    "reasoning": "Solenoid diameter does not enter the ideal interior field. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-52",
+    "parts": [
+      {
+        "label": "Wire length",
+        "type": "numeric",
+        "answer": 107.97222222222223,
+        "unit": "m",
+        "tolerance": 0.97175,
+        "explanation": "First obtainN=Bℓ/(μ₀I), then multiply byturn circumferenceπd."
+      }
+    ],
+    "reasoning": "Neglect small helical pitch correction to each turn length. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-53",
+    "parts": [
+      {
+        "label": "Solenoid current",
+        "type": "numeric",
+        "answer": 0.2713361293157531,
+        "unit": "A",
+        "tolerance": 0.002442025163841778,
+        "explanation": "Electronorbit requiresB=mv/(er), thenB=μ₀nI with100turns/cm=10000/m."
+      }
+    ],
+    "reasoning": "The speed.046c is safely nonrelativistic at this precision. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-54",
+    "parts": [
+      {
+        "label": "Revolutions",
+        "type": "numeric",
+        "answer": 1624439.3084378142,
+        "unit": "turns",
+        "tolerance": 14619.953775940327,
+        "explanation": "Nrev=(eB/2πm)[ℓ/(vcos30°)]; Bℓ=μ₀NI."
+      }
+    ],
+    "reasoning": "The unknown solenoid length cancels; assume uniform field through both ends. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-55",
+    "parts": [
+      {
+        "label": "a · Radius for45°",
+        "type": "numeric",
+        "answer": 0.0477464829275686,
+        "unit": "m",
+        "tolerance": 0.00042971834634811734,
+        "explanation": "At45° the azimuthal wire field equals the axial solenoid field."
+      },
+      {
+        "label": "b · Total field",
+        "type": "numeric",
+        "answer": 3.554306350526693e-05,
+        "unit": "T",
+        "tolerance": 3.1988757154740237e-07,
+        "explanation": "Perpendicular equal components add in quadrature."
+      }
+    ],
+    "reasoning": "The resulting radius lies within the7cm solenoid. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-56",
+    "parts": [
+      {
+        "label": "Midpoint field",
+        "type": "numeric",
+        "answer": 8.775960547194557e-06,
+        "unit": "T",
+        "tolerance": 7.8983644924751e-08,
+        "explanation": "Add both200-turn coil fields at axialdistanceR/2."
+      }
+    ],
+    "reasoning": "Helmholtz spacing equals coil radius. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-57",
+    "parts": [
+      {
+        "label": "a · Magnetic moment",
+        "type": "numeric",
+        "answer": 2.3561944901923453,
+        "unit": "A·m²",
+        "tolerance": 0.021205750411731106,
+        "explanation": "μ=NIπr²."
+      },
+      {
+        "label": "b · Axial distance",
+        "type": "numeric",
+        "answer": 0.45439554493609524,
+        "unit": "m",
+        "tolerance": 0.004089559904424857,
+        "explanation": "Use the coil axial field; dipolelimit givesnearlythe same distance.",
+        "acceptedValues": [
+          0.45508275209874843,
+          0.46
+        ]
+      }
+    ],
+    "reasoning": "The target is5μT; at z≫d the dipole formula is accurate. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ],
+    "scope": "The coil is short; finite-radius correction is included and the far-axis dipole approximation is also accepted."
+  },
+  {
+    "id": "physics-chapter-29-problems-58",
+    "parts": [
+      {
+        "label": "a · B₂/B₁",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "dimensionless",
+        "tolerance": 0.036,
+        "explanation": "B∝N/r; two turns at half radius give4timesB."
+      },
+      {
+        "label": "b · μ₂/μ₁",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "dimensionless",
+        "tolerance": 0.0045,
+        "explanation": "μ∝Nr²; two turns at half radius givehalf the moment."
+      }
+    ],
+    "reasoning": "Total wire length is fixed. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-59",
+    "parts": [
+      {
+        "label": "Magnetic moment",
+        "type": "numeric",
+        "answer": 0.45553093477052004,
+        "unit": "A·m²",
+        "tolerance": 0.00409977841293468,
+        "explanation": "Use Problem 51’s200turns,0.29A, radius5cm."
+      }
+    ],
+    "reasoning": "The source reference imports the full solenoid dimensions from Problem 51. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ],
+    "reviewNotice": "The imported0.47A·m² reference conflicts with the supplied Problem 51 givens, which give0.456A·m² (0.46 to two significant figures). The0.47 value corresponds to rounding the current to0.30A first.",
+    "referenceAnswer": "Magnetic moment=0.45553A·m², approximately0.46A·m²."
+  },
+  {
+    "id": "physics-chapter-29-problems-60",
+    "parts": [
+      {
+        "label": "a · Current 1 magnitude",
+        "type": "numeric",
+        "answer": 0.8952465548919113,
+        "unit": "A",
+        "tolerance": 0.0080572189940272,
+        "explanation": "At y→∞ only loop 1 remains; B₁(0)=7.20μT at axialdistance3cm."
+      },
+      {
+        "label": "b · Current 2 magnitude",
+        "type": "numeric",
+        "answer": 2.750197416627952,
+        "unit": "A",
+        "tolerance": 0.024751776749651566,
+        "explanation": "At y=0 netBy=−36μT, so loop 2 contributes−43.2μT."
+      }
+    ],
+    "reasoning": "Loop currents have opposite magnetic moment directions; read the graph’s initial value−36μT. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-61",
+    "parts": [
+      {
+        "label": "a · Loop-center field",
+        "type": "numeric",
+        "answer": 7.853981633974483e-05,
+        "unit": "T",
+        "tolerance": 7.068583470577034e-07,
+        "explanation": "SingleloopB=μ₀I/(2R)."
+      },
+      {
+        "label": "b · Coil torque",
+        "type": "numeric",
+        "answer": 1.0784023248850288e-06,
+        "unit": "N·m",
+        "tolerance": 9.705620923965258e-09,
+        "explanation": "The planes are perpendicular, hence μ andB are perpendicular andτ=μB."
+      }
+    ],
+    "reasoning": "Treat the large-loop field as uniform across the small coil. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-62",
+    "parts": [
+      {
+        "label": "a · Center field",
+        "type": "numeric",
+        "answer": 4.972967858217409e-07,
+        "unit": "T",
+        "tolerance": 4.475671072395668e-09,
+        "explanation": "Both semicircle currents circulate clockwise aroundP."
+      },
+      {
+        "label": "b · Field direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "Apply the right-hand rule to both arcs."
+      },
+      {
+        "label": "c · Magnetic moment",
+        "type": "numeric",
+        "answer": 0.0010622405859074388,
+        "unit": "A·m²",
+        "tolerance": 9.560165273166948e-06,
+        "explanation": "The loop encloses the sum of the two half-disk areas."
+      },
+      {
+        "label": "d · Moment direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "The complete planar loop is clockwise."
+      }
+    ],
+    "reasoning": "This is not an annular half-loop: the two semicircles lie on opposite sides of the diameter. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-63",
+    "parts": [
+      {
+        "label": "a · Magnetic moment · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A·m²",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Magnetic moment · y component",
+        "type": "numeric",
+        "answer": 0.06000000000000001,
+        "unit": "A·m²",
+        "tolerance": 0.0005400000000000001,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Magnetic moment · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A·m²",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Far-field magnitude",
+        "type": "numeric",
+        "answer": 9.600000000000003e-11,
+        "unit": "T",
+        "tolerance": 8.640000000000003e-13,
+        "explanation": "Three oriented square moments cancel inx,z and sum to+y; point(0,5,0) is axial."
+      }
+    ],
+    "reasoning": "The cube path’s area-vector sum is one square in+y; use the dipole approximation at5m≫0.1m. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-64",
+    "parts": [
+      {
+        "label": "a · Center field",
+        "type": "numeric",
+        "answer": 2.748893571891069e-08,
+        "unit": "T",
+        "tolerance": 2.474004214701962e-10,
+        "explanation": "Opposite major arcs subtend2π−θ, notθ."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Zero field"
+        ],
+        "explanation": "The inner major arc dominates and is counterclockwise."
+      }
+    ],
+    "reasoning": "The missing wedge isπ/4, so the conducting arcs cover7π/4. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-65",
+    "parts": [
+      {
+        "label": "Interior radius",
+        "type": "numeric",
+        "answer": 0.00128,
+        "unit": "m",
+        "tolerance": 1.152e-05,
+        "explanation": "Inside uniform wireB=μ₀Ir/(2πa²)."
+      }
+    ],
+    "reasoning": "The result is less than the8mm outer radius. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-66",
+    "parts": [
+      {
+        "label": "a · Origin field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Origin field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Origin field · z component",
+        "type": "numeric",
+        "answer": -5.2e-05,
+        "unit": "T",
+        "tolerance": 4.6799999999999996e-07,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Zero-field y",
+        "type": "numeric",
+        "answer": 0.08125,
+        "unit": "m",
+        "tolerance": 0.00073125,
+        "explanation": "6/(y−.10)+10/(y−.05)=0."
+      },
+      {
+        "label": "c · Zero-field y withI₁ reversed",
+        "type": "numeric",
+        "answer": 0.175,
+        "unit": "m",
+        "tolerance": 0.0015749999999999998,
+        "explanation": "−6/(y−.10)+10/(y−.05)=0."
+      }
+    ],
+    "reasoning": "Fields from+x currents point−z below each wire; the signed field equation determines both roots. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-67",
+    "parts": [
+      {
+        "label": "Center-field comparison",
+        "type": "choice",
+        "answer": "B_square/B_circle=8√2/π²>1",
+        "options": [
+          "B_square/B_circle=8√2/π²>1",
+          "B_square/B_circle=π²/(8√2)<1",
+          "Both are equal for fixed wire length"
+        ],
+        "explanation": "Square sideL/4 gives8√2μ₀I/(πL), while circle radiusL/(2π) givesπμ₀I/L."
+      }
+    ],
+    "reasoning": "Integrate all four finite square sides; do not approximate them as infinite wires. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-68",
+    "parts": [
+      {
+        "label": "a · Radially moving electron force",
+        "type": "numeric",
+        "answer": 3.204e-16,
+        "unit": "N",
+        "tolerance": 2.8836e-18,
+        "explanation": "Radial velocity is perpendicular to azimuthalB."
+      },
+      {
+        "label": "b · Axially moving electron force",
+        "type": "numeric",
+        "answer": 3.204e-16,
+        "unit": "N",
+        "tolerance": 2.8836e-18,
+        "explanation": "Axial velocity is also perpendicular toB."
+      },
+      {
+        "label": "c · Azimuthally moving electron force",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 0,
+        "explanation": "This velocity is parallel or antiparallel toB."
+      }
+    ],
+    "reasoning": "Use magnitude|q|vBsinθ; charge sign affects direction, not magnitude. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-69",
+    "parts": [
+      {
+        "label": "a · Wireb current",
+        "type": "numeric",
+        "answer": 15,
+        "unit": "A",
+        "tolerance": 0.13499999999999998,
+        "explanation": "Each base wire pulls topa downward byFcos30°; wireb atheight√3L/2 balances both."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Negative z",
+        "options": [
+          "Negative z",
+          "Positive z",
+          "Zero current"
+        ],
+        "explanation": "Wireb must repel the upper wire to balance downward attraction."
+      }
+    ],
+    "reasoning": "The shorter top-to-midpoint distance changes the required current to3I/2. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-70",
+    "parts": [
+      {
+        "label": "Center field magnitude",
+        "type": "numeric",
+        "answer": 1.5707963267948966e-07,
+        "unit": "T",
+        "tolerance": 1.4137166941154069e-09,
+        "explanation": "The two equal-radius quarter-circle fields oppose and cancel, leaving the4m half-circle."
+      }
+    ],
+    "reasoning": "All radial connecting segments contribute zero. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-71",
+    "parts": [
+      {
+        "label": "Surface field",
+        "type": "numeric",
+        "answer": 0.007692307692307692,
+        "unit": "T",
+        "tolerance": 6.923076923076922e-05,
+        "explanation": "The source diameter is2.6mm; radius is1.3mm."
+      }
+    ],
+    "reasoning": "A factor-of-two error results from using diameter asradius. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-72",
+    "parts": [
+      {
+        "label": "a · Wire-current magnitudes",
+        "type": "choice",
+        "answer": "5.0mA or55mA",
+        "options": [
+          "5.0mA or55mA",
+          "25mA only",
+          "30mA or50mA"
+        ],
+        "explanation": "The external field fixes |Iwire+30mA|=25mA; either signed total is possible."
+      },
+      {
+        "label": "b · Direction",
+        "type": "choice",
+        "answer": "Downward for either permitted magnitude",
+        "options": [
+          "Downward for either permitted magnitude",
+          "Upward for either permitted magnitude",
+          "Upward for5mA and downward for55mA"
+        ],
+        "explanation": "Iwire=−5mA or−55mA when upward shell current is+30mA."
+      }
+    ],
+    "reasoning": "Only the field magnitude is supplied; its direction is not, so there are two admissible wire currents. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ],
+    "scope": "Both downward currents satisfy the supplied field magnitude; an extra field-direction specification would select one."
+  },
+  {
+    "id": "physics-chapter-29-problems-73",
+    "parts": [
+      {
+        "label": "a · Hole-center field",
+        "type": "numeric",
+        "answer": 1.5272727272727273e-05,
+        "unit": "T",
+        "tolerance": 1.3745454545454543e-07,
+        "explanation": "Superpose a uniformly filled positive cylinder with a negative-current cylinder at the hole."
+      },
+      {
+        "label": "b · Special-case behavior",
+        "type": "choice",
+        "answer": "d=0 gives zero field in the hole; b→0 retains the solid-cylinder local field at its former center",
+        "options": [
+          "d=0 gives zero field in the hole; b→0 retains the solid-cylinder local field at its former center",
+          "Both b=0 andd=0 give zero at anylocation",
+          "The field diverges whenb→0"
+        ],
+        "explanation": "Inside the cavity B=μ₀Jd/2, uniform and independent of the cavity coordinates."
+      }
+    ],
+    "reasoning": "The actual current density isI/[π(a²−b²)], notI/(πa²). Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-74",
+    "parts": [
+      {
+        "label": "Wire current",
+        "type": "numeric",
+        "answer": 32.120000000000005,
+        "unit": "A",
+        "tolerance": 0.28908,
+        "explanation": "Invert the long-wire fieldB=μ₀I/(2πr)."
+      }
+    ],
+    "reasoning": "The source field is7.30μT, notmT. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-75",
+    "parts": [
+      {
+        "label": "a · Field at point · x component",
+        "type": "numeric",
+        "answer": 2.4e-10,
+        "unit": "T",
+        "tolerance": 2.1599999999999997e-12,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Field at point · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Field at point · z component",
+        "type": "numeric",
+        "answer": -0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Field at point · x component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Field at point · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Field at point · z component",
+        "type": "numeric",
+        "answer": -0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "c · Field at point · x component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "c · Field at point · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "c · Field at point · z component",
+        "type": "numeric",
+        "answer": -4.329225190938045e-11,
+        "unit": "T",
+        "tolerance": 3.8963026718442405e-13,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "d · Field at point · x component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "d · Field at point · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "d · Field at point · z component",
+        "type": "numeric",
+        "answer": 1.4399999999999997e-10,
+        "unit": "T",
+        "tolerance": 1.2959999999999995e-12,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "Use iΔs×r/r³ withΔs along+y. Far from the3cm segment the current-element approximation is valid. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-76",
+    "parts": [
+      {
+        "label": "a · Same-direction currents · x component",
+        "type": "numeric",
+        "answer": -0.0003999999999999999,
+        "unit": "T",
+        "tolerance": 3.599999999999999e-06,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Same-direction currents · y component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "a · Same-direction currents · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Opposite currents · x component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Opposite currents · y component",
+        "type": "numeric",
+        "answer": 0.0003999999999999999,
+        "unit": "T",
+        "tolerance": 3.599999999999999e-06,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "b · Opposite currents · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "The right angle at P and midpoint symmetry make each wire-P distance d/√2. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-77",
+    "parts": [
+      {
+        "label": "Equivalent magnetic field",
+        "type": "choice",
+        "answer": "B=μ₀I/(2πR), out of the page",
+        "options": [
+          "B=μ₀I/(2πR), out of the page",
+          "B=μ₀I/(4R), into the page",
+          "B=0 because the currents cancel"
+        ],
+        "explanation": "The twoquarter-arc fields cancel; the remaining two tangent semi-infinite fields add to the infinite-wire field."
+      }
+    ],
+    "reasoning": "Use signed contributions from both bent wires, including the finite arc normals. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-78",
+    "parts": [
+      {
+        "label": "Zero-field distance",
+        "type": "numeric",
+        "answer": 0.003999999999999999,
+        "unit": "m",
+        "tolerance": 3.599999999999999e-05,
+        "explanation": "Setμ₀I/(2πr)=Buniform."
+      }
+    ],
+    "reasoning": "There is one cancelling side of the wire; the opposite side reinforces. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-79",
+    "parts": [
+      {
+        "label": "a · Field at r=0.001m",
+        "type": "numeric",
+        "answer": 0.0048,
+        "unit": "T",
+        "tolerance": 4.319999999999999e-05,
+        "explanation": "Enclosed central current and opposite annular current subtract algebraically."
+      },
+      {
+        "label": "b · Field at r=0.003m",
+        "type": "numeric",
+        "answer": 0.0009333333333333331,
+        "unit": "T",
+        "tolerance": 8.399999999999998e-06,
+        "explanation": "Enclosed central current and opposite annular current subtract algebraically."
+      },
+      {
+        "label": "c · Field at r=0.005m",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Enclosed central current and opposite annular current subtract algebraically."
+      }
+    ],
+    "reasoning": "Outside both conductors, equal/opposite total currents give zero field. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-80",
+    "parts": [
+      {
+        "label": "Wire radius",
+        "type": "numeric",
+        "answer": 0.005345224838248488,
+        "unit": "m",
+        "tolerance": 4.810702354423639e-05,
+        "explanation": "At4mm field is interior; at10mm it must be exterior. Divide B₄/B₁₀=4mm×10mm/a²."
+      }
+    ],
+    "reasoning": "If both points were inside, the field would increase withr, contradicting the data. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-81",
+    "parts": [
+      {
+        "label": "a · Field direction",
+        "type": "choice",
+        "answer": "Left above the sheet; right below the sheet",
+        "options": [
+          "Left above the sheet; right below the sheet",
+          "Right above; left below",
+          "Perpendicular to the sheet on both sides"
+        ],
+        "explanation": "Pairs of equally spaced current filaments cancel normal components and reinforce tangential components."
+      },
+      {
+        "label": "b · Magnitude",
+        "type": "choice",
+        "answer": "B=μ₀λ/2, independent of distance",
+        "options": [
+          "B=μ₀λ/2, independent of distance",
+          "B=μ₀λ/r",
+          "B=0 outside the sheet"
+        ],
+        "explanation": "A rectangular Amperian loop has2Bℓ=μ₀λℓ."
+      }
+    ],
+    "reasoning": "An infinite ideal sheet has translational symmetry; both Biot–Savart integration and Ampere’s law give the same result. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-82",
+    "parts": [
+      {
+        "label": "Net field · x component",
+        "type": "numeric",
+        "answer": 1.2527047359747797e-06,
+        "unit": "T",
+        "tolerance": 1.1274342623773016e-08,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Net field · y component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Net field · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "The y components cancel and the x components reinforce to the right. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-83",
+    "parts": [
+      {
+        "label": "Finite-square field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Finite-square field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      },
+      {
+        "label": "Finite-square field · z component",
+        "type": "numeric",
+        "answer": -0.00019969015949715228,
+        "unit": "T",
+        "tolerance": 1.7972114354743704e-06,
+        "explanation": "Sum signed Cartesian components in the source axes."
+      }
+    ],
+    "reasoning": "Sum the exact four finite-side fields at P, whose distances from the top and left sides area/4. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-84",
+    "parts": [
+      {
+        "label": "a · Outer-wire force, center current+x",
+        "type": "numeric",
+        "answer": 0.000171,
+        "unit": "N",
+        "tolerance": 1.539e-06,
+        "explanation": "The adjacent center wire and far outer wire both attract."
+      },
+      {
+        "label": "b · Outer-wire force, center current−x",
+        "type": "numeric",
+        "answer": 2.1000000000000002e-05,
+        "unit": "N",
+        "tolerance": 1.89e-07,
+        "explanation": "The nearer opposite current repels while the far outer wire attracts."
+      }
+    ],
+    "reasoning": "The requested magnitude is the same for either outer wire by symmetry. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-85",
+    "parts": [
+      {
+        "label": "a · Annular-conductor interior field",
+        "type": "choice",
+        "answer": "B(r)=μ₀I(r²−b²)/(2πr(a²−b²))",
+        "options": [
+          "B(r)=μ₀I(r²−b²)/(2πr(a²−b²))",
+          "B(r)=μ₀I/(2πr) throughout the hollow region",
+          "B(r)=μ₀Ir/(2πa²) for everyb"
+        ],
+        "explanation": "Ienc=I(r²−b²)/(a²−b²)."
+      },
+      {
+        "label": "b · Boundary limits",
+        "type": "choice",
+        "answer": "B(b)=0; B(a)=μ₀I/(2πa); b=0 gives μ₀Ir/(2πa²)",
+        "options": [
+          "B(b)=0; B(a)=μ₀I/(2πa); b=0 gives μ₀Ir/(2πa²)",
+          "B(b)=B(a); b=0 gives zero",
+          "The field diverges at both boundaries"
+        ],
+        "explanation": "Apply the same enclosed-current expression before taking limits."
+      },
+      {
+        "label": "c · Surface peak for plotted example",
+        "type": "numeric",
+        "answer": 0.0009999999999999998,
+        "unit": "T",
+        "tolerance": 8.999999999999997e-06,
+        "explanation": "Peak occurs ata=.020m; insideholezero, annularrise, outside1/r."
+      },
+      {
+        "label": "c · Plot shape",
+        "type": "choice",
+        "answer": "Zero to1.8cm, then rises to1mT at2.0cm, then decays as1/r",
+        "options": [
+          "Zero to1.8cm, then rises to1mT at2.0cm, then decays as1/r",
+          "Constant1mT throughout0–6cm",
+          "Diverges at1.8cm andvanishes outside2cm"
+        ],
+        "explanation": "Use the three radial regions witha2cm,b1.8cm,I100A."
+      }
+    ],
+    "reasoning": "The symbolic formula covers onlyb<r<a; attach zero and exterior branches for the requested plot. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ],
+    "scope": "The checks assess the piecewise relation, boundary limits and plot features; they do not automatically evaluate a freehand drawing."
+  },
+  {
+    "id": "physics-chapter-29-problems-86",
+    "parts": [
+      {
+        "label": "Rectangular-loop field",
+        "type": "choice",
+        "answer": "B=2μ₀I√(L²+W²)/(πLW)",
+        "options": [
+          "B=2μ₀I√(L²+W²)/(πLW)",
+          "B=μ₀I/(2π√(LW))",
+          "B=μ₀I(L+W)/(πLW)"
+        ],
+        "explanation": "Integrate each finite side at perpendicular distanceW/2 orL/2, then sum four same-normal fields."
+      }
+    ],
+    "reasoning": "The square limit reproduces the four-side result in Problem 67. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-problems-87",
+    "parts": [
+      {
+        "label": "a · r<c",
+        "type": "choice",
+        "answer": "B=μ₀Ir/(2πc²)",
+        "options": [
+          "B=μ₀Ir/(2πc²)",
+          "B=0",
+          "B=μ₀I/(2πr)"
+        ],
+        "explanation": "Inner conductor encloses thefractionr²/c²."
+      },
+      {
+        "label": "b · c<r<b",
+        "type": "choice",
+        "answer": "B=μ₀I/(2πr)",
+        "options": [
+          "B=μ₀I/(2πr)",
+          "B=μ₀Ir/(2πb²)",
+          "B=0"
+        ],
+        "explanation": "Full inner current is enclosed; none of the return current is enclosed."
+      },
+      {
+        "label": "c · b<r<a",
+        "type": "choice",
+        "answer": "B=μ₀I(a²−r²)/(2πr(a²−b²))",
+        "options": [
+          "B=μ₀I(a²−r²)/(2πr(a²−b²))",
+          "B=μ₀I(r²−b²)/(2πr(a²−b²))",
+          "B=μ₀I/(2πr)"
+        ],
+        "explanation": "Subtract the enclosed return-current fraction fromI."
+      },
+      {
+        "label": "d · Exterior field",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 0,
+        "explanation": "Total enclosed current iszero."
+      },
+      {
+        "label": "e · Continuity tests",
+        "type": "choice",
+        "answer": "B(0)=0; fields agree atc,b; B(a)=0",
+        "options": [
+          "B(0)=0; fields agree atc,b; B(a)=0",
+          "B diverges atc andb",
+          "B jumps atallthreeinterfaces"
+        ],
+        "explanation": "Finite uniform volume currents have continuousB across each interface."
+      },
+      {
+        "label": "f · Peak field of example",
+        "type": "numeric",
+        "answer": 0.006,
+        "unit": "T",
+        "tolerance": 5.4e-05,
+        "explanation": "Peak atc=.004m is6mT."
+      },
+      {
+        "label": "f · Plot behavior",
+        "type": "choice",
+        "answer": "Linear rise to6mT at0.40cm, inverse-r fall to1.8cm, return-current fall tozero at2cm",
+        "options": [
+          "Linear rise to6mT at0.40cm, inverse-r fall to1.8cm, return-current fall tozero at2cm",
+          "Zero below0.40cm andconstant above",
+          "Inverse-square decrease everywhere"
+        ],
+        "explanation": "Usea2cm,b1.8cm,c.40cm,I120A."
+      }
+    ],
+    "reasoning": "The four pieces follow enclosed current and join continuously. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ],
+    "scope": "The checks cover all radial pieces, limiting values and graph features, not automatic assessment of a freehand plot."
+  },
+  {
+    "id": "physics-chapter-29-problems-88",
+    "parts": [
+      {
+        "label": "a · Rail-gun force",
+        "type": "choice",
+        "answer": "F=μ₀I² ln((w+R)/R)/(2π), directed right",
+        "options": [
+          "F=μ₀I² ln((w+R)/R)/(2π), directed right",
+          "F=μ₀I²/(2πw), directed left",
+          "F=0 because the rails carry opposite currents"
+        ],
+        "explanation": "Integrate I dℓ×B across the projectile; the two rail contributions reinforce rightward."
+      },
+      {
+        "label": "b · Exit speed",
+        "type": "numeric",
+        "answer": 2310.426270553595,
+        "unit": "m/s",
+        "tolerance": 20.793836434982353,
+        "explanation": "Constant-current workFL=(1/2)mv² withw=.012m,R=.067m."
+      }
+    ],
+    "reasoning": "Use the printedgap12mm andrailradius6.7cm; both enter only through their ratio. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-1",
+    "parts": [
+      {
+        "label": "Field-magnitude ranking",
+        "type": "choice",
+        "answer": "c > a > b",
+        "options": [
+          "c > a > b",
+          "a > b > c",
+          "a = b = c"
+        ],
+        "explanation": "The small andlarge arcs reinforce in(c), and the larger fraction of small-radius circumference makes(c)largest. In(b), inner andouter arc fields subtract."
+      }
+    ],
+    "reasoning": "UseB=μ₀Iφ/(4πr) with signed arc circulation; radial legs givezero. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-2",
+    "parts": [
+      {
+        "label": "Force-magnitude ranking",
+        "type": "choice",
+        "answer": "1 > 3 = 4 > 2",
+        "options": [
+          "1 > 3 = 4 > 2",
+          "1 = 2 > 3 = 4",
+          "2 > 1 > 3 > 4"
+        ],
+        "explanation": "Electron2 moves parallel to the localB and feelszero; electrons3and4 areequidistant andperpendicular toB."
+      }
+    ],
+    "reasoning": "Below the rightward wire current, B points into the page; force magnitude is|q|vBsinθ. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-3",
+    "parts": [
+      {
+        "label": "Center-field ranking",
+        "type": "choice",
+        "answer": "c > d > a = b",
+        "options": [
+          "c > d > a = b",
+          "a > b > c > d",
+          "a = b = c = d"
+        ],
+        "explanation": "All-out arrangement(a) and diagonal alternating(b) cancel; two adjacent inward currents(c) reinforce most."
+      }
+    ],
+    "reasoning": "Add the equal-radius wire fields as Cartesian vectors at the squarecenter. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-4",
+    "parts": [
+      {
+        "label": "a · Current 2 direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Zero field"
+        ],
+        "explanation": "P lies to the left of bothwires, so cancellation requires opposite current signs."
+      },
+      {
+        "label": "b · Current 2 compared with current 1",
+        "type": "choice",
+        "answer": "Greater",
+        "options": [
+          "Greater",
+          "Less",
+          "Equal"
+        ],
+        "explanation": "Wire 2 is farther from P; equalB requires largerI."
+      }
+    ],
+    "reasoning": "SetI₁/r₁=I₂/r₂ usingr₂>r₁. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-5",
+    "parts": [
+      {
+        "label": "Center-field ranking",
+        "type": "choice",
+        "answer": "a > c > b",
+        "options": [
+          "a > c > b",
+          "a > b > c",
+          "c > b > a"
+        ],
+        "explanation": "In unitsμ₀I/(4r), fields area4/3,c13/12,b2/3; arc signs andradii must allbe retained."
+      }
+    ],
+    "reasoning": "The three radii arer,2r,3r; outerhalf-circle contributes1/3, innerbottomsemicircle contributes1, while(c)addsquarters1/2and1/4. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-6",
+    "parts": [
+      {
+        "label": "a · Radius ranking",
+        "type": "choice",
+        "answer": "c > a > d > b",
+        "options": [
+          "c > a > d > b",
+          "a > b > c > d",
+          "a = c > b = d"
+        ],
+        "explanation": "The peak of eachcurve occurs at its wire radius."
+      },
+      {
+        "label": "b · Surface-field ranking",
+        "type": "choice",
+        "answer": "a > c > b > d",
+        "options": [
+          "a > c > b > d",
+          "c > a > d > b",
+          "a = c > b = d"
+        ],
+        "explanation": "Read eachpeakheight, not the exterioroverlap."
+      },
+      {
+        "label": "c · Current ranking",
+        "type": "choice",
+        "answer": "a = c > b = d",
+        "options": [
+          "a = c > b = d",
+          "a > c > b > d",
+          "c > a > d > b"
+        ],
+        "explanation": "ExteriorB∝I/r, so overlappingexteriorbranches indicate equalcurrents."
+      },
+      {
+        "label": "d · Density inacomparedwithc",
+        "type": "choice",
+        "answer": "Greater",
+        "options": [
+          "Greater",
+          "Less",
+          "Equal"
+        ],
+        "explanation": "InteriorB=μ₀Jr/2; wirea has the greaterinitial slope."
+      }
+    ],
+    "reasoning": "Use thelinearinterior andinverse-radius exteriorlaws independently. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-7",
+    "parts": [
+      {
+        "label": "Circulation-magnitude ranking",
+        "type": "choice",
+        "answer": "c = d > b > a",
+        "options": [
+          "c = d > b > a",
+          "d > c > b > a",
+          "a = b = c = d"
+        ],
+        "explanation": "c,d enclose allthe current; b encloses morecross sectionthana."
+      }
+    ],
+    "reasoning": "Ampere’s integral tracks enclosedcurrent, notlocalfieldmagnitude. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-8",
+    "parts": [
+      {
+        "label": "Central-force magnitude ranking",
+        "type": "choice",
+        "answer": "b > d > c > a",
+        "options": [
+          "b > d > c > a",
+          "a > b > c > d",
+          "b = d > a = c"
+        ],
+        "explanation": "In commonunitsμ₀I²/(2πd), netmagnitudes are3,2,1,0 forb,d,c,a."
+      }
+    ],
+    "reasoning": "Pairwise wire forces fall as1/separation; signed attraction/repulsion gives the fourvalues. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-9",
+    "parts": [
+      {
+        "label": "Circulation-magnitude ranking",
+        "type": "choice",
+        "answer": "b > a > d > c",
+        "options": [
+          "b > a > d > c",
+          "a > b > c > d",
+          "d > c > b > a"
+        ],
+        "explanation": "Enclosed signed currents are4,−5,0,−3A forloops a,b,c,d."
+      }
+    ],
+    "reasoning": "Take theabsolutevalue of the algebraic enclosedcurrent. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      20
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-10",
+    "parts": [
+      {
+        "label": "Signed-circulation ranking",
+        "type": "choice",
+        "answer": "d > a = e > b > c",
+        "options": [
+          "d > a = e > b > c",
+          "a > b > c > d > e",
+          "a = b = c = d = e"
+        ],
+        "explanation": "In unitsμ₀i the signed linkings are a2,b0,c−2,d4,e2; twistedlobes reverse the encirclement orientation."
+      }
+    ],
+    "reasoning": "Follow the arrows andassign apositive ornegative linking sign ateachwire. Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  },
+  {
+    "id": "physics-chapter-29-questions-11",
+    "parts": [
+      {
+        "label": "a · Force-magnitude ranking",
+        "type": "choice",
+        "answer": "1 > 3 > 2",
+        "options": [
+          "1 > 3 > 2",
+          "1 > 2 > 3",
+          "3 > 1 = 2"
+        ],
+        "explanation": "The magnitudes areu+v,√(u²+v²),u−v, withu>v>0."
+      },
+      {
+        "label": "b · Angle from dashedvertical",
+        "type": "choice",
+        "answer": "Less than45°",
+        "options": [
+          "Less than45°",
+          "Equal to45°",
+          "Greater than45°"
+        ],
+        "explanation": "In(3), the nearerwire produces the largerupward component; tanθ=d/D<1."
+      }
+    ],
+    "reasoning": "UseF/L∝1/distance and the perpendicular force vectors in(3). Verification: independently sum the signed Biot–Savart contributions or apply Ampere’s law to the stated source geometry; check SI dimensions and symmetry.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Vacuum/air permeability μ₀=4π×10⁻⁷ T·m/A; ideal thin wires and long-wire/solenoid limits where stated."
+    ]
+  }
+]

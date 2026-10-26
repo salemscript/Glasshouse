@@ -1,0 +1,3555 @@
+[
+  {
+    "id": "physics-chapter-28-problems-1",
+    "parts": [
+      {
+        "label": "a · Proton speed",
+        "type": "numeric",
+        "answer": 399392.1138026611,
+        "unit": "m/s",
+        "tolerance": 3195.1369104212886,
+        "explanation": "F=qvBsinθ."
+      },
+      {
+        "label": "b · Kinetic energy",
+        "type": "numeric",
+        "answer": 832.9183000307702,
+        "unit": "eV",
+        "tolerance": 6.663346400246161,
+        "explanation": "K=mv²/2, then divide by e joules per electron-volt."
+      }
+    ],
+    "reasoning": "The speed is inferred from the perpendicular velocity component, not from qvB alone. Verification: The speed is inferred from the perpendicular velocity component, not from qvB alone.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-2",
+    "parts": [
+      {
+        "label": "Magnetic field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "The magnetic force must be upward: +x velocity crossed with −z field points +y only for negative Bz; solve qv(−Bz)=mg."
+      },
+      {
+        "label": "Magnetic field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "The magnetic force must be upward: +x velocity crossed with −z field points +y only for negative Bz; solve qv(−Bz)=mg."
+      },
+      {
+        "label": "Magnetic field · z component",
+        "type": "numeric",
+        "answer": -0.06125,
+        "unit": "T",
+        "tolerance": 0.00049,
+        "explanation": "The magnetic force must be upward: +x velocity crossed with −z field points +y only for negative Bz; solve qv(−Bz)=mg."
+      }
+    ],
+    "reasoning": "Balance gravity against magnetic force; positive charge requires B along negative z. Verification: Balance gravity against magnetic force; positive charge requires B along negative z.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-3",
+    "parts": [
+      {
+        "label": "a · Electron force · x component",
+        "type": "numeric",
+        "answer": -0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Evaluate q(v×B), including the electron sign."
+      },
+      {
+        "label": "a · Electron force · y component",
+        "type": "numeric",
+        "answer": -0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Evaluate q(v×B), including the electron sign."
+      },
+      {
+        "label": "a · Electron force · z component",
+        "type": "numeric",
+        "answer": 6.2478e-14,
+        "unit": "N",
+        "tolerance": 4.99824e-16,
+        "explanation": "Evaluate q(v×B), including the electron sign."
+      },
+      {
+        "label": "b · Proton force · x component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "The same velocity and field give the opposite force for +e."
+      },
+      {
+        "label": "b · Proton force · y component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "The same velocity and field give the opposite force for +e."
+      },
+      {
+        "label": "b · Proton force · z component",
+        "type": "numeric",
+        "answer": -6.2478e-14,
+        "unit": "N",
+        "tolerance": 4.99824e-16,
+        "explanation": "The same velocity and field give the opposite force for +e."
+      }
+    ],
+    "reasoning": "The cross product has only a z component; the two charges reverse its sign. Verification: The cross product has only a z component; the two charges reverse its sign.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-4",
+    "parts": [
+      {
+        "label": "a · Force magnitude",
+        "type": "numeric",
+        "answer": 6.241045168565238e-18,
+        "unit": "N",
+        "tolerance": 4.9928361348521906e-20,
+        "explanation": "F=qvBsin52°."
+      },
+      {
+        "label": "b · Acceleration magnitude",
+        "type": "numeric",
+        "answer": 945612904.3280663,
+        "unit": "m/s²",
+        "tolerance": 7564903.234624531,
+        "explanation": "a=F/m."
+      },
+      {
+        "label": "c · Speed change",
+        "type": "choice",
+        "answer": "Remains constant",
+        "options": [
+          "Remains constant",
+          "Increases",
+          "Decreases"
+        ],
+        "explanation": "The magnetic force is perpendicular to instantaneous velocity and does no work."
+      }
+    ],
+    "reasoning": "A magnetic field changes velocity direction without changing kinetic energy. Verification: A magnetic field changes velocity direction without changing kinetic energy.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-5",
+    "parts": [
+      {
+        "label": "Bₓ",
+        "type": "numeric",
+        "answer": -2,
+        "unit": "T",
+        "tolerance": 0.016,
+        "explanation": "Fz=q(2·3Bx−4Bx)=−2eBx=6.4×10⁻¹⁹N."
+      }
+    ],
+    "reasoning": "Use the negative electron charge in the cross product. Verification: Use the negative electron charge in the cross product.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-6",
+    "parts": [
+      {
+        "label": "a · vₓ",
+        "type": "numeric",
+        "answer": -3494.798168955473,
+        "unit": "m/s",
+        "tolerance": 27.958385351643784,
+        "explanation": "Fy=q(vzBx−vxBz), with B in teslas."
+      },
+      {
+        "label": "b · vᵧ",
+        "type": "numeric",
+        "answer": 6989.596337910946,
+        "unit": "m/s",
+        "tolerance": 55.91677070328757,
+        "explanation": "Fx=q(vyBz−vzBy)."
+      }
+    ],
+    "reasoning": "Solve the two independent force-component equations; Fz then vanishes. Verification: Solve the two independent force-component equations; Fz then vanishes.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-7",
+    "parts": [
+      {
+        "label": "Electric field · x component",
+        "type": "numeric",
+        "answer": -11.373283395755307,
+        "unit": "V/m",
+        "tolerance": 0.09098626716604245,
+        "explanation": "E=ma/q−v×B with B=400μT, not400mT."
+      },
+      {
+        "label": "Electric field · y component",
+        "type": "numeric",
+        "answer": -6.0,
+        "unit": "V/m",
+        "tolerance": 0.048,
+        "explanation": "E=ma/q−v×B with B=400μT, not400mT."
+      },
+      {
+        "label": "Electric field · z component",
+        "type": "numeric",
+        "answer": 4.8,
+        "unit": "V/m",
+        "tolerance": 0.0384,
+        "explanation": "E=ma/q−v×B with B=400μT, not400mT."
+      }
+    ],
+    "reasoning": "Original source microtesla unit controls the magnetic term. Verification: Original source microtesla unit controls the magnetic term.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-8",
+    "parts": [
+      {
+        "label": "Electron speed",
+        "type": "numeric",
+        "answer": 3750.0,
+        "unit": "m/s",
+        "tolerance": 30.0,
+        "explanation": "For crossed opposing forces, v=E/B."
+      }
+    ],
+    "reasoning": "Charge magnitude cancels in the velocity-selector condition. Verification: Charge magnitude cancels in the velocity-selector condition.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-9",
+    "parts": [
+      {
+        "label": "Magnetic field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "The electric field is downward; electron electric force is upward, so its magnetic force must be downward."
+      },
+      {
+        "label": "Magnetic field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "The electric field is downward; electron electric force is upward, so its magnetic force must be downward."
+      },
+      {
+        "label": "Magnetic field · z component",
+        "type": "numeric",
+        "answer": -0.0002666139929251101,
+        "unit": "T",
+        "tolerance": 2.132911943400881e-06,
+        "explanation": "The electric field is downward; electron electric force is upward, so its magnetic force must be downward."
+      }
+    ],
+    "reasoning": "For a right-moving electron, a field into the page supplies the balancing downward force. Verification: For a right-moving electron, a field into the page supplies the balancing downward force.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-10",
+    "parts": [
+      {
+        "label": "a · x component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Add electric and magnetic forces as vectors before multiplying by q."
+      },
+      {
+        "label": "a · y component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Add electric and magnetic forces as vectors before multiplying by q."
+      },
+      {
+        "label": "a · z component",
+        "type": "numeric",
+        "answer": 1.4418e-18,
+        "unit": "N",
+        "tolerance": 1.1534399999999999e-20,
+        "explanation": "Add electric and magnetic forces as vectors before multiplying by q."
+      },
+      {
+        "label": "b · x component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Add electric and magnetic forces as vectors before multiplying by q."
+      },
+      {
+        "label": "b · y component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Add electric and magnetic forces as vectors before multiplying by q."
+      },
+      {
+        "label": "b · z component",
+        "type": "numeric",
+        "answer": 1.602e-19,
+        "unit": "N",
+        "tolerance": 1.2816e-21,
+        "explanation": "Add electric and magnetic forces as vectors before multiplying by q."
+      },
+      {
+        "label": "c · x component",
+        "type": "numeric",
+        "answer": 6.408e-19,
+        "unit": "N",
+        "tolerance": 5.1264e-21,
+        "explanation": "Add electric and magnetic forces as vectors before multiplying by q."
+      },
+      {
+        "label": "c · y component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Add electric and magnetic forces as vectors before multiplying by q."
+      },
+      {
+        "label": "c · z component",
+        "type": "numeric",
+        "answer": 8.01e-19,
+        "unit": "N",
+        "tolerance": 6.408e-21,
+        "explanation": "Add electric and magnetic forces as vectors before multiplying by q."
+      }
+    ],
+    "reasoning": "v×B=+5k V/m, so the electric field may reinforce or oppose it. Verification: v×B=+5k V/m, so the electric field may reinforce or oppose it.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-11",
+    "parts": [
+      {
+        "label": "Smallest electric field",
+        "type": "numeric",
+        "answer": 679586.5197587705,
+        "unit": "V/m",
+        "tolerance": 5436.692158070164,
+        "explanation": "Use qΔV=mv²/2, then E=vB."
+      }
+    ],
+    "reasoning": "The electric field must be perpendicular to velocity and opposite v×B to minimize its magnitude. Verification: The electric field must be perpendicular to velocity and opposite v×B to minimize its magnitude.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-12",
+    "parts": [
+      {
+        "label": "a · Electric-field magnitude",
+        "type": "numeric",
+        "answer": 1.2484394506866416,
+        "unit": "V/m",
+        "tolerance": 0.009987515605493134,
+        "explanation": "The zero-speed force intercept is−2×10⁻¹⁹N=qEy."
+      },
+      {
+        "label": "b · Magnetic field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "dFy/dv=−qBz=4×10⁻²¹ N·s/m; Bx=0 and Fx=Fz=0 imply By=0."
+      },
+      {
+        "label": "b · Magnetic field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "dFy/dv=−qBz=4×10⁻²¹ N·s/m; Bx=0 and Fx=Fz=0 imply By=0."
+      },
+      {
+        "label": "b · Magnetic field · z component",
+        "type": "numeric",
+        "answer": 0.024968789013732832,
+        "unit": "T",
+        "tolerance": 0.00019975031210986267,
+        "explanation": "dFy/dv=−qBz=4×10⁻²¹ N·s/m; Bx=0 and Fx=Fz=0 imply By=0."
+      }
+    ],
+    "reasoning": "Read graph endpoints(0,−2) and(100,+2), not just the zero crossing. Verification: Read graph endpoints(0,−2) and(100,+2), not just the zero crossing.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-13",
+    "parts": [
+      {
+        "label": "Hall potential",
+        "type": "numeric",
+        "answer": 7.345206528046162e-06,
+        "unit": "V",
+        "tolerance": 5.8761652224369295e-08,
+        "explanation": "VH=iB/(net), with thickness150μm."
+      }
+    ],
+    "reasoning": "The current-carrying cross section uses thickness times width; the width cancels from VH. Verification: The current-carrying cross section uses thickness times width; the width cancels from VH.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-14",
+    "parts": [
+      {
+        "label": "Strip speed",
+        "type": "numeric",
+        "answer": 0.38235294117647056,
+        "unit": "m/s",
+        "tolerance": 0.0030588235294117644,
+        "explanation": "VH=Bvw using the0.850cm width and3.90μV source value."
+      }
+    ],
+    "reasoning": "Use the voltage across x and y, not along the strip length. Verification: Use the voltage across x and y, not along the strip length.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-15",
+    "parts": [
+      {
+        "label": "a · Internal electric field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V/m",
+        "tolerance": 1e-30,
+        "explanation": "E=−v×B."
+      },
+      {
+        "label": "a · Internal electric field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V/m",
+        "tolerance": 1e-30,
+        "explanation": "E=−v×B."
+      },
+      {
+        "label": "a · Internal electric field · z component",
+        "type": "numeric",
+        "answer": -0.6,
+        "unit": "V/m",
+        "tolerance": 0.0048,
+        "explanation": "E=−v×B."
+      },
+      {
+        "label": "b · Potential difference magnitude",
+        "type": "numeric",
+        "answer": 1.2,
+        "unit": "V",
+        "tolerance": 0.0096,
+        "explanation": "ΔV=|Ez|dz=.6×2."
+      }
+    ],
+    "reasoning": "The equilibrium electric field balances magnetic deflection of mobile charges. Verification: The equilibrium electric field balances magnetic deflection of mobile charges.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-16",
+    "parts": [
+      {
+        "label": "a · dₓ",
+        "type": "numeric",
+        "answer": 0.25,
+        "unit": "m",
+        "tolerance": 0.002,
+        "explanation": "Motion alongx gives no voltage, so B is alongx; dx is the remaining given25cm edge."
+      },
+      {
+        "label": "b · dᵧ",
+        "type": "numeric",
+        "answer": 0.3,
+        "unit": "m",
+        "tolerance": 0.0024,
+        "explanation": "Motion alongz produces Ey and V=Bvdy."
+      },
+      {
+        "label": "c · d_z",
+        "type": "numeric",
+        "answer": 0.2,
+        "unit": "m",
+        "tolerance": 0.0016,
+        "explanation": "Motion alongy produces Ez and V=Bvdz."
+      }
+    ],
+    "reasoning": "The zero-voltage direction identifies the magnetic-field axis. Verification: The zero-voltage direction identifies the magnetic-field axis.",
+    "sourcePages": [
+      27
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-17",
+    "parts": [
+      {
+        "label": "a · Speed",
+        "type": "numeric",
+        "answer": 2604093.919325707,
+        "unit": "m/s",
+        "tolerance": 20832.751354605658,
+        "explanation": "r=mv/(qB)."
+      },
+      {
+        "label": "b · Period",
+        "type": "numeric",
+        "answer": 1.085764751896098e-07,
+        "unit": "s",
+        "tolerance": 8.686118015168784e-10,
+        "explanation": "T=2πm/(qB)."
+      },
+      {
+        "label": "c · Kinetic energy",
+        "type": "numeric",
+        "answer": 2.2527495677302827e-14,
+        "unit": "J",
+        "tolerance": 1.8021996541842263e-16,
+        "explanation": "K=mv²/2."
+      },
+      {
+        "label": "d · Accelerating potential",
+        "type": "numeric",
+        "answer": 70310.5358217941,
+        "unit": "V",
+        "tolerance": 562.4842865743527,
+        "explanation": "qΔV=K."
+      }
+    ],
+    "reasoning": "The alpha charge is2e and its mass is4u. Verification: The alpha charge is2e and its mass is4u.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-18",
+    "parts": [
+      {
+        "label": "Particle identity",
+        "type": "choice",
+        "answer": "Electron",
+        "options": [
+          "Electron",
+          "Proton",
+          "Cannot be identified"
+        ],
+        "explanation": "Outward B and counterclockwise motion require negative charge."
+      },
+      {
+        "label": "a · Speed",
+        "type": "numeric",
+        "answer": 4993757.802746567,
+        "unit": "m/s",
+        "tolerance": 39950.062421972536,
+        "explanation": "F=qvB."
+      },
+      {
+        "label": "b · Radius",
+        "type": "numeric",
+        "answer": 0.007099427837550129,
+        "unit": "m",
+        "tolerance": 5.6795422700401036e-05,
+        "explanation": "r=mv/(qB)."
+      },
+      {
+        "label": "c · Period",
+        "type": "numeric",
+        "answer": 8.932555890824911e-09,
+        "unit": "s",
+        "tolerance": 7.146044712659929e-11,
+        "explanation": "T=2πm/(qB)."
+      }
+    ],
+    "reasoning": "The arrow at the lower left points downward along the counterclockwise orbit in an outward field. Verification: The arrow at the lower left points downward along the counterclockwise orbit in an outward field.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-19",
+    "parts": [
+      {
+        "label": "Mass-to-charge ratio",
+        "type": "numeric",
+        "answer": 1.193662073189215e-09,
+        "unit": "kg/C",
+        "tolerance": 9.54929658551372e-12,
+        "explanation": "Read T≈37.5ns at 1/B=5T⁻¹; the slope equals2πm/|q|."
+      }
+    ],
+    "reasoning": "Graph line extrapolates through the origin; use its full axis scales. Verification: Graph line extrapolates through the origin; use its full axis scales.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-20",
+    "parts": [
+      {
+        "label": "Magnetic field",
+        "type": "numeric",
+        "answer": 0.06744859789722928,
+        "unit": "T",
+        "tolerance": 0.0005395887831778342,
+        "explanation": "r=(√(2m/e)/B)√V; at√V=40, r=2.0mm."
+      }
+    ],
+    "reasoning": "Read the graph ordinate at the labeled horizontal tick, not the upper-right endpoint. Verification: Read the graph ordinate at the labeled horizontal tick, not the upper-right endpoint.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-21",
+    "parts": [
+      {
+        "label": "a · Speed",
+        "type": "numeric",
+        "answer": 20543653.823114127,
+        "unit": "m/s",
+        "tolerance": 164349.23058491302,
+        "explanation": "K=mv²/2."
+      },
+      {
+        "label": "b · Field magnitude",
+        "type": "numeric",
+        "answer": 0.00046729759382913786,
+        "unit": "T",
+        "tolerance": 3.738380750633103e-06,
+        "explanation": "B=mv/(er)."
+      },
+      {
+        "label": "c · Circling frequency",
+        "type": "numeric",
+        "answer": 13078496.220469309,
+        "unit": "Hz",
+        "tolerance": 104627.96976375447,
+        "explanation": "f=eB/(2πm)."
+      },
+      {
+        "label": "d · Period",
+        "type": "numeric",
+        "answer": 7.646138999030242e-08,
+        "unit": "s",
+        "tolerance": 6.116911199224194e-10,
+        "explanation": "T=1/f."
+      }
+    ],
+    "reasoning": "The frequency and period are reciprocal and the centripetal force equals evB. Verification: The frequency and period are reciprocal and the centripetal force equals evB.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-22",
+    "parts": [
+      {
+        "label": "a · Alpha energy",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "MeV",
+        "tolerance": 0.008,
+        "explanation": "At fixedBr, K=q²B²r²/(2m); relative factor4/4=1."
+      },
+      {
+        "label": "b · Deuteron energy",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "MeV",
+        "tolerance": 0.004,
+        "explanation": "Relative factor1/2=.5."
+      }
+    ],
+    "reasoning": "Equal magnetic rigidity fixes momentum per charge, not equal kinetic energy. Verification: Equal magnetic rigidity fixes momentum per charge, not equal kinetic energy.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-23",
+    "parts": [
+      {
+        "label": "Field magnitude",
+        "type": "numeric",
+        "answer": 2.112181202068843e-05,
+        "unit": "T",
+        "tolerance": 1.6897449616550742e-07,
+        "explanation": "B=mv/(er)."
+      }
+    ],
+    "reasoning": "The magnetic field is perpendicular to the beam. Verification: The magnetic field is perpendicular to the beam.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-24",
+    "parts": [
+      {
+        "label": "a · Speed",
+        "type": "numeric",
+        "answer": 11094841.118788162,
+        "unit": "m/s",
+        "tolerance": 88758.7289503053,
+        "explanation": "K=eΔV=mv²/2."
+      },
+      {
+        "label": "b · Orbit radius",
+        "type": "numeric",
+        "answer": 0.00031546193068714156,
+        "unit": "m",
+        "tolerance": 2.5236954454971325e-06,
+        "explanation": "r=mv/(eB)."
+      }
+    ],
+    "reasoning": "The supplied200mT is.200T. Verification: The supplied200mT is.200T.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-25",
+    "parts": [
+      {
+        "label": "a · Revolution frequency",
+        "type": "numeric",
+        "answer": 979562.860500831,
+        "unit": "Hz",
+        "tolerance": 7836.502884006649,
+        "explanation": "f=eB/(2πm), B=35.0μT."
+      },
+      {
+        "label": "b · Path radius",
+        "type": "numeric",
+        "answer": 0.9635513985318469,
+        "unit": "m",
+        "tolerance": 0.0077084111882547756,
+        "explanation": "r=mv/(eB)."
+      }
+    ],
+    "reasoning": "The original PDF says microteslas, a frequent OCR trap. Verification: The original PDF says microteslas, a frequent OCR trap.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-26",
+    "parts": [
+      {
+        "label": "Particle identity",
+        "type": "choice",
+        "answer": "Proton",
+        "options": [
+          "Proton",
+          "Electron",
+          "Cannot be identified"
+        ],
+        "explanation": "A downward entrant in outward B bends right, requiring positive q."
+      },
+      {
+        "label": "a · Field magnitude",
+        "type": "numeric",
+        "answer": 0.252371291148359,
+        "unit": "T",
+        "tolerance": 0.002018970329186872,
+        "explanation": "Half-circle time isπm/(qB)."
+      },
+      {
+        "label": "b · Time at twice the energy",
+        "type": "numeric",
+        "answer": 1.3e-07,
+        "unit": "s",
+        "tolerance": 1.04e-09,
+        "explanation": "The nonrelativistic period is independent of speed."
+      }
+    ],
+    "reasoning": "Doubling energy enlarges radius by√2 but leaves half-circle traversal time unchanged. Verification: Doubling energy enlarges radius by√2 but leaves half-circle traversal time unchanged.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-27",
+    "parts": [
+      {
+        "label": "a · Separator field",
+        "type": "numeric",
+        "answer": 0.4949747468305833,
+        "unit": "T",
+        "tolerance": 0.003959797974644666,
+        "explanation": "B=mv/(qr), r=1m."
+      },
+      {
+        "label": "b · Desired ion current",
+        "type": "numeric",
+        "answer": 0.022675736961451247,
+        "unit": "A",
+        "tolerance": 0.00018140589569160998,
+        "explanation": "I=(mass flow/mion)q."
+      },
+      {
+        "label": "c · Thermal energy in one hour",
+        "type": "numeric",
+        "answer": 8163265.306122449,
+        "unit": "J",
+        "tolerance": 65306.12244897959,
+        "explanation": "Every collected ion deposits qΔV of kinetic energy."
+      }
+    ],
+    "reasoning": "The slit dimensions do not alter the requested current for a specified collected mass rate. Verification: The slit dimensions do not alter the requested current for a specified collected mass rate.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-28",
+    "parts": [
+      {
+        "label": "Kinetic energy",
+        "type": "numeric",
+        "answer": 2.0880000000000003e-22,
+        "unit": "J",
+        "tolerance": 1.6704000000000004e-24,
+        "explanation": "Fr=mv²=2K."
+      }
+    ],
+    "reasoning": "Eliminate the unknown charge and mass with the centripetal-force identity. Verification: Eliminate the unknown charge and mass with the centripetal-force identity.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-29",
+    "parts": [
+      {
+        "label": "Electron speed",
+        "type": "numeric",
+        "answer": 65342.73740871521,
+        "unit": "m/s",
+        "tolerance": 522.7418992697217,
+        "explanation": "Combine vperp=F/(eB) with vparallel=pitch/T."
+      }
+    ],
+    "reasoning": "Magnetic force constrains only the perpendicular component. Verification: Magnetic force constrains only the perpendicular component.",
+    "sourcePages": [
+      28
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-30",
+    "parts": [
+      {
+        "label": "Exit time",
+        "type": "numeric",
+        "answer": 8.671779522362666e-09,
+        "unit": "s",
+        "tolerance": 6.937423617890133e-11,
+        "explanation": "Add both half-circle times and the gap time2d/(v1+v2)."
+      }
+    ],
+    "reasoning": "The electron gains2keV in the gap while its speed increases uniformly. Verification: The electron gains2keV in the gap while its speed increases uniformly.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-31",
+    "parts": [
+      {
+        "label": "Collision time",
+        "type": "numeric",
+        "answer": 5.0609381817704886e-09,
+        "unit": "s",
+        "tolerance": 4.048750545416391e-11,
+        "explanation": "Opposite charges with equal momenta traverse opposite semicircles and meet after half a period."
+      }
+    ],
+    "reasoning": "Conservation of momentum gives equal and opposite speeds and equal radii. Verification: Conservation of momentum gives equal and opposite speeds and equal radii.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-32",
+    "parts": [
+      {
+        "label": "Next field-line crossing distance",
+        "type": "numeric",
+        "answer": 0.5278110177299545,
+        "unit": "m",
+        "tolerance": 0.004222488141839636,
+        "explanation": "A full gyration returns the electron to its original field line, after advancing vparallelT."
+      }
+    ],
+    "reasoning": "This distance is the helical pitch, not the orbit diameter. Verification: This distance is the helical pitch, not the orbit diameter.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-33",
+    "parts": [
+      {
+        "label": "a · Period",
+        "type": "numeric",
+        "answer": 3.573022356329965e-10,
+        "unit": "s",
+        "tolerance": 2.858417885063972e-12,
+        "explanation": "T=2πm/(eB)."
+      },
+      {
+        "label": "b · Pitch",
+        "type": "numeric",
+        "answer": 0.00016538385659856417,
+        "unit": "m",
+        "tolerance": 1.3230708527885134e-06,
+        "explanation": "p=vparallelT."
+      },
+      {
+        "label": "c · Radius",
+        "type": "numeric",
+        "answer": 0.0015079667932206516,
+        "unit": "m",
+        "tolerance": 1.2063734345765213e-05,
+        "explanation": "r=mvperp/(eB)."
+      }
+    ],
+    "reasoning": "Resolve the velocity parallel and perpendicular to B. Verification: Resolve the velocity parallel and perpendicular to B.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-34",
+    "parts": [
+      {
+        "label": "a · Angle",
+        "type": "numeric",
+        "answer": 83.9576715809459,
+        "unit": "degrees",
+        "tolerance": 0.6716613726475672,
+        "explanation": "cosφ=(v·B)/(|v||B|).",
+        "acceptedValues": [
+          -276.0423284190541,
+          443.9576715809459
+        ]
+      },
+      {
+        "label": "b · Does speed change?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes, it increases",
+          "Yes, it decreases"
+        ],
+        "explanation": "Magnetic force does no work."
+      },
+      {
+        "label": "c · Does the angle change?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "It continually increases",
+          "It continually decreases"
+        ],
+        "explanation": "Both vparallel and |vperp| stay constant."
+      },
+      {
+        "label": "d · Helix radius",
+        "type": "numeric",
+        "answer": 5.655048999548811e-09,
+        "unit": "m",
+        "tolerance": 4.524039199639049e-11,
+        "explanation": "Use only vperp in mvperp/(eB)."
+      }
+    ],
+    "reasoning": "The dot product is positive400, so the initial angle is acute. Verification: The dot product is positive400, so the initial angle is acute.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-35",
+    "parts": [
+      {
+        "label": "a · Energy gain per passage",
+        "type": "numeric",
+        "answer": 200,
+        "unit": "eV",
+        "tolerance": 1.6,
+        "explanation": "A chargee gains eΔV."
+      },
+      {
+        "label": "b · Energy after100 passages",
+        "type": "numeric",
+        "answer": 20000,
+        "unit": "eV",
+        "tolerance": 160.0,
+        "explanation": "Energy gains add."
+      },
+      {
+        "label": "c · Radius percentage increase",
+        "type": "numeric",
+        "answer": 0.498756211208895,
+        "unit": "%",
+        "tolerance": 0.00399004968967116,
+        "explanation": "r∝√K, notK."
+      }
+    ],
+    "reasoning": "One gap crossing is one energy increment; distinguish passages from full revolutions. Verification: One gap crossing is one energy increment; distinguish passages from full revolutions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-36",
+    "parts": [
+      {
+        "label": "a · Resonant field",
+        "type": "numeric",
+        "answer": 0.7873984283828801,
+        "unit": "T",
+        "tolerance": 0.006299187427063041,
+        "explanation": "f=qB/(2πm)."
+      },
+      {
+        "label": "b · Emerging energy",
+        "type": "numeric",
+        "answer": 8338297.795942509,
+        "unit": "eV",
+        "tolerance": 66706.38236754006,
+        "explanation": "v=2πfR."
+      },
+      {
+        "label": "c · New oscillator frequency",
+        "type": "numeric",
+        "answer": 23926895.61076806,
+        "unit": "Hz",
+        "tolerance": 191415.16488614448,
+        "explanation": "Use the new field in the cyclotron frequency."
+      },
+      {
+        "label": "d · New emerging energy",
+        "type": "numeric",
+        "answer": 33150311.91930664,
+        "unit": "eV",
+        "tolerance": 265202.4953544531,
+        "explanation": "K=(qBR)²/(2m)."
+      }
+    ],
+    "reasoning": "Resonance means the electric oscillator matches the orbital frequency. Verification: Resonance means the electric oscillator matches the orbital frequency.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-37",
+    "parts": [
+      {
+        "label": "General path estimate",
+        "type": "choice",
+        "answer": "Sum semicircle lengths with radius proportional to the square root of passage number",
+        "options": [
+          "Sum semicircle lengths with radius proportional to the square root of passage number",
+          "Multiply the final circumference by every passage",
+          "Use only the final orbit circumference"
+        ],
+        "explanation": "Each gap crossing adds equal energy, so successive semicircle radii grow as√n."
+      },
+      {
+        "label": "Total path length, continuous-turn estimate",
+        "type": "numeric",
+        "answer": 229.7341643141905,
+        "unit": "m",
+        "tolerance": 20,
+        "explanation": "Integrating πR√(n/N) from 0 to N gives2πRN/3."
+      }
+    ],
+    "reasoning": "The final energy sets the number of half-turns; integrate their growing radii. Verification: The final energy sets the number of half-turns; integrate their growing radii.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ],
+    "scope": "This is an estimate using negligible injection energy and a continuous sum of semicircles; a discrete-turn estimate is also valid within the stated precision."
+  },
+  {
+    "id": "physics-chapter-28-problems-38",
+    "parts": [
+      {
+        "label": "a · Oscillator frequency",
+        "type": "numeric",
+        "answer": 18288073.078294057,
+        "unit": "Hz",
+        "tolerance": 146304.58462635247,
+        "explanation": "f=qB/(2πm)."
+      },
+      {
+        "label": "b · Proton kinetic energy",
+        "type": "numeric",
+        "answer": 17236102.809324563,
+        "unit": "eV",
+        "tolerance": 137888.8224745965,
+        "explanation": "K=(qBr)²/(2m)."
+      }
+    ],
+    "reasoning": "Use the perpendicular orbit radius0.500m. Verification: Use the perpendicular orbit radius0.500m.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-39",
+    "parts": [
+      {
+        "label": "a · Force magnitude",
+        "type": "numeric",
+        "answer": 28.19077862357725,
+        "unit": "N",
+        "tolerance": 0.225526228988618,
+        "explanation": "Only the downward field component is perpendicular to the northward current."
+      },
+      {
+        "label": "b · Force direction",
+        "type": "choice",
+        "answer": "West",
+        "options": [
+          "West",
+          "East",
+          "Vertically upward"
+        ],
+        "explanation": "North crossed with downward points west."
+      }
+    ],
+    "reasoning": "Original Earth field is60.0μT, not60mT. Verification: Original Earth field is60.0μT, not60mT.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-40",
+    "parts": [
+      {
+        "label": "Wire force",
+        "type": "numeric",
+        "answer": 20.13253291592172,
+        "unit": "N",
+        "tolerance": 0.16106026332737375,
+        "explanation": "F=iLBsinθ."
+      }
+    ],
+    "reasoning": "The angle is between the wire/current and field. Verification: The angle is between the wire/current and field.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-41",
+    "parts": [
+      {
+        "label": "a · Current magnitude",
+        "type": "numeric",
+        "answer": 0.46700879765395903,
+        "unit": "A",
+        "tolerance": 0.0037360703812316723,
+        "explanation": "Set iLB=mg."
+      },
+      {
+        "label": "b · Current direction",
+        "type": "choice",
+        "answer": "Right",
+        "options": [
+          "Right",
+          "Left",
+          "Either direction"
+        ],
+        "explanation": "Rightward current crossed with inward B gives upward magnetic force."
+      }
+    ],
+    "reasoning": "The current must support the wire weight without lead tension. Verification: The current must support the wire weight without lead tension.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-42",
+    "parts": [
+      {
+        "label": "a · Force · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Endpoint displacement is2m along+x; F=iΔr×B."
+      },
+      {
+        "label": "a · Force · y component",
+        "type": "numeric",
+        "answer": -16,
+        "unit": "N",
+        "tolerance": 0.128,
+        "explanation": "Endpoint displacement is2m along+x; F=iΔr×B."
+      },
+      {
+        "label": "a · Force · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Endpoint displacement is2m along+x; F=iΔr×B."
+      },
+      {
+        "label": "b · Force · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "The endpoint displacement is parallel to Bx."
+      },
+      {
+        "label": "b · Force · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "The endpoint displacement is parallel to Bx."
+      },
+      {
+        "label": "b · Force · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "The endpoint displacement is parallel to Bx."
+      }
+    ],
+    "reasoning": "For uniform B, integrate i dl×B over the bent wire to obtain iΔr×B. Verification: For uniform B, integrate i dl×B over the bent wire to obtain iΔr×B.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-43",
+    "parts": [
+      {
+        "label": "a · Force on130cm side",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Current and B are parallel."
+      },
+      {
+        "label": "b · Force on50cm side",
+        "type": "numeric",
+        "answer": 0.13846153846153844,
+        "unit": "N",
+        "tolerance": 0.0011076923076923076,
+        "explanation": "The perpendicular component of this side is(.5)(1.2/1.3)."
+      },
+      {
+        "label": "c · Force on120cm side",
+        "type": "numeric",
+        "answer": 0.13846153846153844,
+        "unit": "N",
+        "tolerance": 0.0011076923076923076,
+        "explanation": "The equal opposite side force closes the force triangle."
+      },
+      {
+        "label": "d · Net loop force",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "A closed loop in uniform B has zero total force."
+      }
+    ],
+    "reasoning": "Forces on the two perpendicular legs have equal magnitudes and opposite directions. Verification: Forces on the two perpendicular legs have equal magnitudes and opposite directions.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-44",
+    "parts": [
+      {
+        "label": "Ring force magnitude",
+        "type": "numeric",
+        "answer": 6.049797064326643e-07,
+        "unit": "N",
+        "tolerance": 4.839837651461315e-09,
+        "explanation": "Azimuthal current crossed with the radial field component adds axially around the ring."
+      }
+    ],
+    "reasoning": "Axial B produces canceling radial forces; radial B yields the net axial force. Verification: Axial B produces canceling radial forces; radial B yields the net axial force.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-45",
+    "parts": [
+      {
+        "label": "Wire force · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "F=iL×B=.25 i×(.003 j+.010 k)."
+      },
+      {
+        "label": "Wire force · y component",
+        "type": "numeric",
+        "answer": -0.0025,
+        "unit": "N",
+        "tolerance": 2e-05,
+        "explanation": "F=iL×B=.25 i×(.003 j+.010 k)."
+      },
+      {
+        "label": "Wire force · z component",
+        "type": "numeric",
+        "answer": 0.00075,
+        "unit": "N",
+        "tolerance": 6e-06,
+        "explanation": "F=iL×B=.25 i×(.003 j+.010 k)."
+      }
+    ],
+    "reasoning": "Use the right-hand rule for both perpendicular components. Verification: Use the right-hand rule for both perpendicular components.",
+    "sourcePages": [
+      29
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-46",
+    "parts": [
+      {
+        "label": "a · Wire speed",
+        "type": "numeric",
+        "answer": 0.033361326101244815,
+        "unit": "m/s",
+        "tolerance": 0.00026689060880995854,
+        "explanation": "a=iLB/m and v=at."
+      },
+      {
+        "label": "b · Motion direction",
+        "type": "choice",
+        "answer": "Right",
+        "options": [
+          "Right",
+          "Left",
+          "No motion"
+        ],
+        "explanation": "The indicated current across the rod and upward B give a rightward rail force."
+      }
+    ],
+    "reasoning": "The generator maintains constant current, hence acceleration is constant. Verification: The generator maintains constant current, hence acceleration is constant.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-47",
+    "parts": [
+      {
+        "label": "a · Minimum field",
+        "type": "numeric",
+        "answer": 0.10084116806379521,
+        "unit": "T",
+        "tolerance": 0.0008067293445103617,
+        "explanation": "Minimize B subject to iLBcosθ=μ(mg−iLBsinθ)."
+      },
+      {
+        "label": "b · Angle from vertical",
+        "type": "numeric",
+        "answer": 30.96375653207352,
+        "unit": "degrees",
+        "tolerance": 0.24771005225658818,
+        "explanation": "The optimum satisfies tanθ=μ."
+      }
+    ],
+    "reasoning": "An upward component of magnetic force reduces the normal force and required friction. Verification: An upward component of magnetic force reduces the normal force and required friction.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-48",
+    "parts": [
+      {
+        "label": "Force · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Integrate −i dx i×(8x²mT j); the parallel Bx term contributes no force."
+      },
+      {
+        "label": "Force · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Integrate −i dx i×(8x²mT j); the parallel Bx term contributes no force."
+      },
+      {
+        "label": "Force · z component",
+        "type": "numeric",
+        "answer": -0.3466666666666667,
+        "unit": "N",
+        "tolerance": 0.0027733333333333334,
+        "explanation": "Integrate −i dx i×(8x²mT j); the parallel Bx term contributes no force."
+      }
+    ],
+    "reasoning": "The field varies along the2m segment, so use the integral rather than its midpoint value. Verification: The field varies along the2m segment, so use the integral rather than its midpoint value.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-49",
+    "parts": [
+      {
+        "label": "Torque · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N·m",
+        "tolerance": 1e-30,
+        "explanation": "The clockwise-looking loop has μ along−z and Bx=Bcos30°, giving torque−y."
+      },
+      {
+        "label": "Torque · y component",
+        "type": "numeric",
+        "answer": -0.004330127018922194,
+        "unit": "N·m",
+        "tolerance": 3.4641016151377554e-05,
+        "explanation": "The clockwise-looking loop has μ along−z and Bx=Bcos30°, giving torque−y."
+      },
+      {
+        "label": "Torque · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N·m",
+        "tolerance": 1e-30,
+        "explanation": "The clockwise-looking loop has μ along−z and Bx=Bcos30°, giving torque−y."
+      }
+    ],
+    "reasoning": "The stated angle is between B and the coil plane, so the normal-field angle is60°. Verification: The stated angle is between B and the coil plane, so the normal-field angle is60°.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-50",
+    "parts": [
+      {
+        "label": "Maximum torque",
+        "type": "numeric",
+        "answer": 6.588562221000001e-26,
+        "unit": "N·m",
+        "tolerance": 5.270849776800001e-28,
+        "explanation": "I=e/T and μ=Iπr²=evr/2; τmax=μB."
+      }
+    ],
+    "reasoning": "Use the magnitude of electron charge for current magnitude. Verification: Use the magnitude of electron charge for current magnitude.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-51",
+    "parts": [
+      {
+        "label": "Minimum current",
+        "type": "numeric",
+        "answer": 2.45,
+        "unit": "A",
+        "tolerance": 0.019600000000000003,
+        "explanation": "Balance mgrsinθ against Ni(2rL)Bsinθ; the radius and incline factor cancel."
+      }
+    ],
+    "reasoning": "The wrapped area is2rL, notπr²; no cylinder radius is needed. Verification: The wrapped area is2rL, notπr²; no cylinder radius is needed.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-52",
+    "parts": [
+      {
+        "label": "Loop current",
+        "type": "numeric",
+        "answer": 0.0029999999999999996,
+        "unit": "A",
+        "tolerance": 2.3999999999999997e-05,
+        "explanation": "Fixed perimeter8cm gives maximum area(.020m)² at a square."
+      }
+    ],
+    "reasoning": "The loop plane contains B, so torque is iAB with sinθ=1. Verification: The loop plane contains B, so torque is iAB with sinθ=1.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-53",
+    "parts": [
+      {
+        "label": "Arbitrary-loop torque relation",
+        "type": "choice",
+        "answer": "τ = NiAB sinθ for a planar closed loop",
+        "options": [
+          "τ = NiAB sinθ for a planar closed loop",
+          "τ = NiPB sinθ where P is perimeter",
+          "τ = NiAB cosθ for every orientation"
+        ],
+        "explanation": "Partitioning the area into narrow rectangles cancels currents on shared internal boundaries; their vector moments sum to NiA."
+      }
+    ],
+    "reasoning": "The internal fictitious currents cancel pairwise, leaving the physical boundary current. Verification: The internal fictitious currents cancel pairwise, leaving the physical boundary current.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-54",
+    "parts": [
+      {
+        "label": "a · Initial angle",
+        "type": "numeric",
+        "answer": 76.65763620291177,
+        "unit": "degrees",
+        "tolerance": 0.6132610896232942,
+        "explanation": "K=μB(1−cosθinitial)."
+      },
+      {
+        "label": "b · Next-rest angle magnitude",
+        "type": "numeric",
+        "answer": 76.65763620291177,
+        "unit": "degrees",
+        "tolerance": 0.6132610896232942,
+        "explanation": "Energy conservation gives equal turning angles on opposite sides of the field."
+      }
+    ],
+    "reasoning": "With no dissipation the dipole oscillates symmetrically through the aligned position. Verification: With no dissipation the dipole oscillates symmetrically through the aligned position.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-55",
+    "parts": [
+      {
+        "label": "a · Net moment magnitude",
+        "type": "numeric",
+        "answer": 2.858849314766712,
+        "unit": "A·m²",
+        "tolerance": 0.022870794518133696,
+        "explanation": "Same current senses make moments add."
+      },
+      {
+        "label": "b · Reversed inner-loop moment",
+        "type": "numeric",
+        "answer": 1.0995574287564274,
+        "unit": "A·m²",
+        "tolerance": 0.00879645943005142,
+        "explanation": "Opposite senses make moments subtract."
+      }
+    ],
+    "reasoning": "Concentric loops have the same normal axis. Verification: Concentric loops have the same normal axis.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-56",
+    "parts": [
+      {
+        "label": "a · Magnetic moment",
+        "type": "numeric",
+        "answer": 0.1837831702350029,
+        "unit": "A·m²",
+        "tolerance": 0.0014702653618800232,
+        "explanation": "μ=iA."
+      },
+      {
+        "label": "b · Torque magnitude",
+        "type": "numeric",
+        "answer": 1.4468712985100773,
+        "unit": "N·m",
+        "tolerance": 0.011574970388080618,
+        "explanation": "τ=μBsin41°."
+      }
+    ],
+    "reasoning": "The stated angle is between the field and loop normal. Verification: The stated angle is between the field and loop normal.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-57",
+    "parts": [
+      {
+        "label": "a · Current",
+        "type": "numeric",
+        "answer": 12.675082032941802,
+        "unit": "A",
+        "tolerance": 0.10140065626353442,
+        "explanation": "μ=Niπr²."
+      },
+      {
+        "label": "b · Maximum torque",
+        "type": "numeric",
+        "answer": 0.0805,
+        "unit": "N·m",
+        "tolerance": 0.000644,
+        "explanation": "Maximum sinθ=1."
+      }
+    ],
+    "reasoning": "Use the160turn factor only once. Verification: Use the160turn factor only once.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-58",
+    "parts": [
+      {
+        "label": "Core current",
+        "type": "numeric",
+        "answer": 2078758440.383939,
+        "unit": "A",
+        "tolerance": 16630067.523071513,
+        "explanation": "μ=IπR² with R=3500km."
+      }
+    ],
+    "reasoning": "This is an equivalent current-loop model of Earth’s dipole moment. Verification: This is an equivalent current-loop model of Earth’s dipole moment.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-59",
+    "parts": [
+      {
+        "label": "a · Dipole moment",
+        "type": "numeric",
+        "answer": 0.30000000000000004,
+        "unit": "A·m²",
+        "tolerance": 0.0024000000000000002,
+        "explanation": "The right-triangle area isab/2."
+      },
+      {
+        "label": "b · Torque magnitude",
+        "type": "numeric",
+        "answer": 0.024000000000000004,
+        "unit": "N·m",
+        "tolerance": 0.00019200000000000003,
+        "explanation": "B lies in the loop plane, perpendicular to μ."
+      }
+    ],
+    "reasoning": "The triangle shape changes area, not the dipole-torque formula. Verification: The triangle shape changes area, not the dipole-torque formula.",
+    "sourcePages": [
+      30
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-60",
+    "parts": [
+      {
+        "label": "Magnetic moment · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A·m²",
+        "tolerance": 1e-30,
+        "explanation": "Split along AD: xy rectangle has−z normal andxz rectangle has+y normal."
+      },
+      {
+        "label": "Magnetic moment · y component",
+        "type": "numeric",
+        "answer": 0.15,
+        "unit": "A·m²",
+        "tolerance": 0.0012,
+        "explanation": "Split along AD: xy rectangle has−z normal andxz rectangle has+y normal."
+      },
+      {
+        "label": "Magnetic moment · z component",
+        "type": "numeric",
+        "answer": -0.3,
+        "unit": "A·m²",
+        "tolerance": 0.0024,
+        "explanation": "Split along AD: xy rectangle has−z normal andxz rectangle has+y normal."
+      }
+    ],
+    "reasoning": "Area-vector sum is(.030j−.060k)m²; multiply by5A. Verification: Area-vector sum is(.030j−.060k)m²; multiply by5A.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-61",
+    "parts": [
+      {
+        "label": "a · Orientation energy",
+        "type": "numeric",
+        "answer": -7.2e-05,
+        "unit": "J",
+        "tolerance": 5.760000000000001e-07,
+        "explanation": "U=−μ·B with μ=−NiA j."
+      },
+      {
+        "label": "b · Torque · x component",
+        "type": "numeric",
+        "answer": 9.6e-05,
+        "unit": "N·m",
+        "tolerance": 7.68e-07,
+        "explanation": "τ=μ×B."
+      },
+      {
+        "label": "b · Torque · y component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N·m",
+        "tolerance": 1e-30,
+        "explanation": "τ=μ×B."
+      },
+      {
+        "label": "b · Torque · z component",
+        "type": "numeric",
+        "answer": 4.8e-05,
+        "unit": "N·m",
+        "tolerance": 3.84e-07,
+        "explanation": "τ=μ×B."
+      }
+    ],
+    "reasoning": "The indicated current at the near edge fixes the moment along−y. Verification: The indicated current at the near edge fixes the moment along−y.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-62",
+    "parts": [
+      {
+        "label": "Net moment after reversal",
+        "type": "numeric",
+        "answer": 4.8e-05,
+        "unit": "A·m²",
+        "tolerance": 3.84e-07,
+        "explanation": "Graph interceptμ1=2×10⁻⁵ andslope−.004m²; reversing addsμ2=2.8×10⁻⁵."
+      }
+    ],
+    "reasoning": "Use the signed graph before reversing the current, then add the magnitudes. Verification: Use the signed graph before reversing the current, then add the magnitudes.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-63",
+    "parts": [
+      {
+        "label": "a · Torque · x component",
+        "type": "numeric",
+        "answer": -0.0009650972631827846,
+        "unit": "N·m",
+        "tolerance": 7.720778105462277e-06,
+        "explanation": "Multiply the unit normal by iA, then cross with B."
+      },
+      {
+        "label": "a · Torque · y component",
+        "type": "numeric",
+        "answer": -0.0007238229473870884,
+        "unit": "N·m",
+        "tolerance": 5.790583579096707e-06,
+        "explanation": "Multiply the unit normal by iA, then cross with B."
+      },
+      {
+        "label": "a · Torque · z component",
+        "type": "numeric",
+        "answer": 0.0008042477193189872,
+        "unit": "N·m",
+        "tolerance": 6.433981754551898e-06,
+        "explanation": "Multiply the unit normal by iA, then cross with B."
+      },
+      {
+        "label": "b · Orientation energy",
+        "type": "numeric",
+        "answer": -0.0006031857894892404,
+        "unit": "J",
+        "tolerance": 4.825486315913923e-06,
+        "explanation": "U=−μ·B."
+      }
+    ],
+    "reasoning": "The unit vector gives direction only; its magnitude must be scaled by iA. Verification: The unit vector gives direction only; its magnitude must be scaled by iA.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-64",
+    "parts": [
+      {
+        "label": "Maximum angle",
+        "type": "numeric",
+        "answer": 109.87687407007884,
+        "unit": "degrees",
+        "tolerance": 0.8790149925606308,
+        "explanation": "Graph minimum is−5×10⁻⁴J; set Uturn=−5×10⁻⁴+6.7×10⁻⁴=1.7×10⁻⁴J."
+      }
+    ],
+    "reasoning": "The graph amplitude is2.5Us=5×10⁻⁴J, notUs itself. Verification: The graph amplitude is2.5Us=5×10⁻⁴J, notUs itself.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-65",
+    "parts": [
+      {
+        "label": "a · Field-moment angle",
+        "type": "numeric",
+        "answer": 90,
+        "unit": "degrees",
+        "tolerance": 0.72,
+        "explanation": "Maximum torque requires sinθ=1."
+      },
+      {
+        "label": "b · Optimal turn count",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "turns",
+        "tolerance": 0,
+        "explanation": "For fixed wire lengthL, NiA=iL²/(4πN), largest atN=1."
+      },
+      {
+        "label": "c · Maximum torque",
+        "type": "numeric",
+        "answer": 1.2808043781239993e-07,
+        "unit": "N·m",
+        "tolerance": 1.0246435024991994e-09,
+        "explanation": "Use the one-turn circular areaL²/(4π)."
+      }
+    ],
+    "reasoning": "Extra turns reduce the area enough to reduce the total magnetic moment. Verification: Extra turns reduce the area enough to reduce the total magnetic moment.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-66",
+    "parts": [
+      {
+        "label": "Velocity at time t",
+        "type": "choice",
+        "answer": "v₀ₓ i + v₀ᵧ cos(ωt) j − v₀ᵧ sin(ωt) k, with ω=eB/m",
+        "options": [
+          "v₀ₓ i + v₀ᵧ cos(ωt) j − v₀ᵧ sin(ωt) k, with ω=eB/m",
+          "v₀ₓ cos(ωt) i + v₀ᵧ j + v₀ₓ sin(ωt) k",
+          "v₀ₓ i + v₀ᵧ cos(ωt) j + v₀ᵧ sin(ωt) k"
+        ],
+        "explanation": "The Lorentz equations are dvy/dt=ωvz anddvz/dt=−ωvy; vx is constant."
+      }
+    ],
+    "reasoning": "Differentiate the proposed solution and check both the Lorentz force and initial velocity. Verification: Differentiate the proposed solution and check both the Lorentz force and initial velocity.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-67",
+    "parts": [
+      {
+        "label": "a · Minutes after 1PM",
+        "type": "numeric",
+        "answer": 20,
+        "unit": "min",
+        "tolerance": 0.16,
+        "explanation": "Clockwise moment points into the face; crossed with B at 1oclock gives torque toward 4 o’clock."
+      },
+      {
+        "label": "b · Torque magnitude",
+        "type": "numeric",
+        "answer": 0.0593761011528471,
+        "unit": "N·m",
+        "tolerance": 0.0004750088092227768,
+        "explanation": "B lies in the clock plane, so τ=NiAB."
+      }
+    ],
+    "reasoning": "The given field is70mT; it lies in the clock face plane. Verification: The given field is70mT; it lies in the clock face plane.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-68",
+    "parts": [
+      {
+        "label": "Wire force · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "For current along−y, dl×Bx points+z; integrate y from 0 to .250m."
+      },
+      {
+        "label": "Wire force · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "For current along−y, dl×Bx points+z; integrate y from 0 to .250m."
+      },
+      {
+        "label": "Wire force · z component",
+        "type": "numeric",
+        "answer": 1.875e-05,
+        "unit": "N",
+        "tolerance": 1.5e-07,
+        "explanation": "For current along−y, dl×Bx points+z; integrate y from 0 to .250m."
+      }
+    ],
+    "reasoning": "The By term is parallel to current and gives no force. Verification: The By term is parallel to current and gives no force.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-69",
+    "parts": [
+      {
+        "label": "Detector separation",
+        "type": "numeric",
+        "answer": 0.00820314955235052,
+        "unit": "m",
+        "tolerance": 6.562519641880415e-05,
+        "explanation": "Each ion turns180°, so the detector displacement is a diameter; use2Δr."
+      }
+    ],
+    "reasoning": "Both ions have charge+e and gain the same kinetic energy. Verification: Both ions have charge+e and gain the same kinetic energy.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-70",
+    "parts": [
+      {
+        "label": "Minimum magnetic field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "E+v×B=0 requires B into the page for rightward velocity and downward E."
+      },
+      {
+        "label": "Minimum magnetic field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "E+v×B=0 requires B into the page for rightward velocity and downward E."
+      },
+      {
+        "label": "Minimum magnetic field · z component",
+        "type": "numeric",
+        "answer": -0.0003372429894861464,
+        "unit": "T",
+        "tolerance": 2.6979439158891713e-06,
+        "explanation": "E+v×B=0 requires B into the page for rightward velocity and downward E."
+      }
+    ],
+    "reasoning": "Any parallel-to-velocity B would increase magnitude without affecting cancellation. Verification: Any parallel-to-velocity B would increase magnitude without affecting cancellation.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-71",
+    "parts": [
+      {
+        "label": "Iodine ion mass",
+        "type": "numeric",
+        "answer": 127.29671457184317,
+        "unit": "u",
+        "tolerance": 1.0183737165747453,
+        "explanation": "Invert T=2πm/(eB), with T=total time/7."
+      }
+    ],
+    "reasoning": "Time is1.29ms, not one orbit; charge is singly ionized+e. Verification: Time is1.29ms, not one orbit; charge is singly ionized+e.",
+    "sourcePages": [
+      31
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-72",
+    "parts": [
+      {
+        "label": "a · Minimum-field condition",
+        "type": "choice",
+        "answer": "B ≥ √(2mK)/(ed)",
+        "options": [
+          "B ≥ √(2mK)/(ed)",
+          "B ≥ √(2mK)/(2ed)",
+          "B ≥ 2mK/(ed)"
+        ],
+        "explanation": "Preventing contact requires orbital radiusr≤d; useK=mv²/2 andr=mv/(eB)."
+      },
+      {
+        "label": "b · Field orientation",
+        "type": "choice",
+        "answer": "Perpendicular to the emerging beam",
+        "options": [
+          "Perpendicular to the emerging beam",
+          "Parallel to the emerging beam",
+          "Any orientation gives the same minimum"
+        ],
+        "explanation": "Only the perpendicular field bends the beam; a parallel component wastes field strength."
+      }
+    ],
+    "reasoning": "At equality the orbit is tangent to the plate, so a strict margin avoids even grazing contact. Verification: At equality the orbit is tangent to the plate, so a strict margin avoids even grazing contact.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-73",
+    "parts": [
+      {
+        "label": "a · Acceleration magnitude",
+        "type": "numeric",
+        "answer": 628325249716749.8,
+        "unit": "m/s²",
+        "tolerance": 5026601997733.998,
+        "explanation": "Only the vertical component initially acts on the horizontal beam."
+      },
+      {
+        "label": "b · Distance from x axis at x=.20m",
+        "type": "numeric",
+        "answer": 0.0029782107231204336,
+        "unit": "m",
+        "tolerance": 2.3825685784963467e-05,
+        "explanation": "Circle geometry gives y=r−√(r²−x²)."
+      }
+    ],
+    "reasoning": "The stated horizontal magnetic component is unspecified. The textbook estimate neglects its later helical influence and uses the vertical-field circular arc. Verification: The stated horizontal magnetic component is unspecified. The textbook estimate neglects its later helical influence and uses the vertical-field circular arc.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Use the given vertical Earth field55.0μT. For the textbook part(b) estimate neglect the unspecified horizontal field."
+    ],
+    "scope": "Part(b) uses the textbook vertical-field approximation. An exact trajectory including an unspecified horizontal field is not uniquely numerical; part(a) is exact at launch."
+  },
+  {
+    "id": "physics-chapter-28-problems-74",
+    "parts": [
+      {
+        "label": "Magnetic field · x component",
+        "type": "numeric",
+        "answer": -3,
+        "unit": "T",
+        "tolerance": 0.024,
+        "explanation": "With Bx=By=b, Fz/q=2b−4b=6 implies b=−3; Fx/q=4Bz−6b=2 gives Bz=−4."
+      },
+      {
+        "label": "Magnetic field · y component",
+        "type": "numeric",
+        "answer": -3,
+        "unit": "T",
+        "tolerance": 0.024,
+        "explanation": "With Bx=By=b, Fz/q=2b−4b=6 implies b=−3; Fx/q=4Bz−6b=2 gives Bz=−4."
+      },
+      {
+        "label": "Magnetic field · z component",
+        "type": "numeric",
+        "answer": -4,
+        "unit": "T",
+        "tolerance": 0.032,
+        "explanation": "With Bx=By=b, Fz/q=2b−4b=6 implies b=−3; Fx/q=4Bz−6b=2 gives Bz=−4."
+      }
+    ],
+    "reasoning": "Solve all three Lorentz-force component equations with Bx=By and verify F·v=0. Verification: Solve all three Lorentz-force component equations with Bx=By and verify F·v=0.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-75",
+    "parts": [
+      {
+        "label": "a · Deuteron/proton radius ratio",
+        "type": "numeric",
+        "answer": 1.4142135623730951,
+        "unit": "dimensionless",
+        "tolerance": 0.011313708498984762,
+        "explanation": "At equalK, r∝√m/q."
+      },
+      {
+        "label": "b · Alpha/proton radius ratio",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "dimensionless",
+        "tolerance": 0.008,
+        "explanation": "√4/2=1."
+      }
+    ],
+    "reasoning": "Compare equal energies, not equal accelerating voltages. Verification: Compare equal energies, not equal accelerating voltages.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-76",
+    "parts": [
+      {
+        "label": "Charge-to-mass relation",
+        "type": "choice",
+        "answer": "q/m = E/(rBB′)",
+        "options": [
+          "q/m = E/(rBB′)",
+          "q/m = rBB′/E",
+          "q/m = EB/(rB′)"
+        ],
+        "explanation": "Velocity selector givesv=E/B; the analyzer givesq/m=v/(rB′)."
+      }
+    ],
+    "reasoning": "Eliminate the common selected speed between the crossed-field and orbit equations. Verification: Eliminate the common selected speed between the crossed-field and orbit equations.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-77",
+    "parts": [
+      {
+        "label": "Electric field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V/m",
+        "tolerance": 1e-30,
+        "explanation": "Undeflected beam requires E=−v×B; +x crossed with−z is+y."
+      },
+      {
+        "label": "Electric field · y component",
+        "type": "numeric",
+        "answer": -500,
+        "unit": "V/m",
+        "tolerance": 4.0,
+        "explanation": "Undeflected beam requires E=−v×B; +x crossed with−z is+y."
+      },
+      {
+        "label": "Electric field · z component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "V/m",
+        "tolerance": 1e-30,
+        "explanation": "Undeflected beam requires E=−v×B; +x crossed with−z is+y."
+      }
+    ],
+    "reasoning": "The electron charge cancels in the zero-force condition. Verification: The electron charge cancels in the zero-force condition.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-78",
+    "parts": [
+      {
+        "label": "a · Hall-to-longitudinal field ratio",
+        "type": "choice",
+        "answer": "E/Ec = B/(neρ)",
+        "options": [
+          "E/Ec = B/(neρ)",
+          "E/Ec = neρ/B",
+          "E/Ec = Bneρ"
+        ],
+        "explanation": "HallE=vdB, current densityJ=nevd andlongitudinalEc=ρJ."
+      },
+      {
+        "label": "b · Ratio for copper",
+        "type": "numeric",
+        "answer": 0.002834527860064122,
+        "unit": "dimensionless",
+        "tolerance": 2.2676222880512977e-05,
+        "explanation": "Substitute copper resistivity1.69×10⁻⁸Ωm fromTable26-1."
+      }
+    ],
+    "reasoning": "Both fields scale with current density, so their ratio is independent of current. Verification: Both fields scale with current density, so their ratio is independent of current.",
+    "sourcePages": [
+      27,
+      32
+    ],
+    "assumptions": [
+      "Copper resistivity1.69×10⁻⁸Ω·m at the table reference temperature."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-79",
+    "parts": [
+      {
+        "label": "a · Proton/alpha energy ratio",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "dimensionless",
+        "tolerance": 0.004,
+        "explanation": "Equal voltage givesK=qV."
+      },
+      {
+        "label": "b · Deuteron/alpha energy ratio",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "dimensionless",
+        "tolerance": 0.004,
+        "explanation": "Both singly charged species gain half the alpha energy."
+      },
+      {
+        "label": "c · Deuteron radius",
+        "type": "numeric",
+        "answer": 0.14142135623730953,
+        "unit": "m",
+        "tolerance": 0.0011313708498984763,
+        "explanation": "r∝√(m/q) at fixed voltage."
+      },
+      {
+        "label": "d · Alpha radius",
+        "type": "numeric",
+        "answer": 0.14142135623730953,
+        "unit": "m",
+        "tolerance": 0.0011313708498984763,
+        "explanation": "Alpha m/q=2timesproton m/q."
+      }
+    ],
+    "reasoning": "Equal accelerating voltage differs from equal kinetic energy inP75. Verification: Equal accelerating voltage differs from equal kinetic energy inP75.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-80",
+    "parts": [
+      {
+        "label": "a · Maximum force",
+        "type": "numeric",
+        "answer": 9.573552e-14,
+        "unit": "N",
+        "tolerance": 7.658841600000001e-16,
+        "explanation": "Maximumsinθ=1."
+      },
+      {
+        "label": "b · Minimum force",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Parallelmotiongiveszero."
+      },
+      {
+        "label": "c · Acute angle",
+        "type": "numeric",
+        "answer": 0.26715638766074246,
+        "unit": "degrees",
+        "tolerance": 0.00213725110128594,
+        "explanation": "sinθ=ma/(evB)."
+      },
+      {
+        "label": "c · Supplementary angle",
+        "type": "numeric",
+        "answer": 179.73284361233925,
+        "unit": "degrees",
+        "tolerance": 1.4378627488987141,
+        "explanation": "Sinehasthe samevalueatθand180°−θ."
+      }
+    ],
+    "reasoning": "Accelerationmagnitudealone permits two velocity-fieldangles. Verification: Accelerationmagnitudealone permits two velocity-fieldangles.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-81",
+    "parts": [
+      {
+        "label": "Net electromagnetic force · x component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "F=q(E+v×B), using5.0μC from the originalsource."
+      },
+      {
+        "label": "Net electromagnetic force · y component",
+        "type": "numeric",
+        "answer": 0.0008,
+        "unit": "N",
+        "tolerance": 6.4000000000000006e-06,
+        "explanation": "F=q(E+v×B), using5.0μC from the originalsource."
+      },
+      {
+        "label": "Net electromagnetic force · z component",
+        "type": "numeric",
+        "answer": -0.0011,
+        "unit": "N",
+        "tolerance": 8.8e-06,
+        "explanation": "F=q(E+v×B), using5.0μC from the originalsource."
+      }
+    ],
+    "reasoning": "Evaluateelectricandmagneticcomponentsbeforeadding. Verification: Evaluateelectricandmagneticcomponentsbeforeadding.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-82",
+    "parts": [
+      {
+        "label": "a · Drift speed",
+        "type": "numeric",
+        "answer": 0.0006666666666666668,
+        "unit": "m/s",
+        "tolerance": 5.3333333333333345e-06,
+        "explanation": "VH=Bvdw, with 10μV across 1cm."
+      },
+      {
+        "label": "b · Carrier number density",
+        "type": "numeric",
+        "answer": 2.8089887640449432e+29,
+        "unit": "m⁻³",
+        "tolerance": 2.2471910112359545e+27,
+        "explanation": "I=nevdwt, using thickness t=10μm."
+      },
+      {
+        "label": "c · Hall polarity for current +x and B +z",
+        "type": "choice",
+        "answer": "The −y edge is at lower potential for electron carriers",
+        "options": [
+          "The −y edge is at lower potential for electron carriers",
+          "The +y edge is at lower potential for electron carriers",
+          "Both edges have equal potential"
+        ],
+        "explanation": "Electrons drift −x; v×B=+y, so their negative charge gives force −y and negative charge accumulates at −y."
+      }
+    ],
+    "reasoning": "Coordinate choices are stated explicitly for the polarity check. Charge accumulation creates the balancing Hall field. Verification: Coordinate choices are stated explicitly for the polarity check. Charge accumulation creates the balancing Hall field.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-83",
+    "parts": [
+      {
+        "label": "Particle charge",
+        "type": "numeric",
+        "answer": -0.03987936338693959,
+        "unit": "C",
+        "tolerance": 0.00031903490709551675,
+        "explanation": "Fz=−qvyBx, so q=−Fz/(vyBx) with vy=v sin37°."
+      }
+    ],
+    "reasoning": "Thepositivezforcewithpositive vyandpositiveBxrequires negative charge. Verification: Thepositivezforcewithpositive vyandpositiveBxrequires negative charge.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-84",
+    "parts": [
+      {
+        "label": "Wire force · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Integrate i dx i×(−.600x² j), from 0 to 1m."
+      },
+      {
+        "label": "Wire force · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Integrate i dx i×(−.600x² j), from 0 to 1m."
+      },
+      {
+        "label": "Wire force · z component",
+        "type": "numeric",
+        "answer": -0.6,
+        "unit": "N",
+        "tolerance": 0.0048,
+        "explanation": "Integrate i dx i×(−.600x² j), from 0 to 1m."
+      }
+    ],
+    "reasoning": "The x-directed field component contributes no transverse force. Verification: The x-directed field component contributes no transverse force.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-85",
+    "parts": [
+      {
+        "label": "a · Force · x component",
+        "type": "numeric",
+        "answer": 1.2816e-21,
+        "unit": "N",
+        "tolerance": 1.02528e-23,
+        "explanation": "Compute e(v×B)."
+      },
+      {
+        "label": "a · Force · y component",
+        "type": "numeric",
+        "answer": 6.408e-22,
+        "unit": "N",
+        "tolerance": 5.1264e-24,
+        "explanation": "Compute e(v×B)."
+      },
+      {
+        "label": "a · Force · z component",
+        "type": "numeric",
+        "answer": 0.0,
+        "unit": "N",
+        "tolerance": 1e-30,
+        "explanation": "Compute e(v×B)."
+      },
+      {
+        "label": "b · Velocity-force angle",
+        "type": "numeric",
+        "answer": 90,
+        "unit": "degrees",
+        "tolerance": 0.72,
+        "explanation": "A cross productis perpendicularto both inputs."
+      },
+      {
+        "label": "c · Velocity-field angle",
+        "type": "numeric",
+        "answer": 172.5067070469096,
+        "unit": "degrees",
+        "tolerance": 1.380053656375277,
+        "explanation": "Use the full vector dot product."
+      }
+    ],
+    "reasoning": "Verify F·v=0 numerically as the zero-work condition. Verification: Verify F·v=0 numerically as the zero-work condition.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-86",
+    "parts": [
+      {
+        "label": "a · Radius",
+        "type": "numeric",
+        "answer": 0.0037910944652517686,
+        "unit": "m",
+        "tolerance": 3.032875572201415e-05,
+        "explanation": "Use the transverse40km/s and B=60μT."
+      },
+      {
+        "label": "b · Pitch",
+        "type": "numeric",
+        "answer": 0.01905611923375981,
+        "unit": "m",
+        "tolerance": 0.00015244895387007848,
+        "explanation": "Pitch=vparallelT."
+      },
+      {
+        "label": "c · Apparent spiral sense looking alongB",
+        "type": "choice",
+        "answer": "Counterclockwise",
+        "options": [
+          "Counterclockwise",
+          "Clockwise",
+          "No spiral"
+        ],
+        "explanation": "For negative charge looking along+B, an initially upward transverse velocity curves left."
+      }
+    ],
+    "reasoning": "Use the originalmicroteslaunit; +xvelocityadvances alongthe field. Verification: Use the originalmicroteslaunit; +xvelocityadvances alongthe field.",
+    "sourcePages": [
+      32
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-87",
+    "parts": [
+      {
+        "label": "a · Electron magnetic force in the figure",
+        "type": "choice",
+        "answer": "Up along the indicated conducting path",
+        "options": [
+          "Up along the indicated conducting path",
+          "Down along the indicated conducting path",
+          "Zero everywhere"
+        ],
+        "explanation": "The right-hand rule for the indicated rotation and negativeelectroncharge pointsupward."
+      },
+      {
+        "label": "b · Stronger force location",
+        "type": "choice",
+        "answer": "At the rim",
+        "options": [
+          "At the rim",
+          "Near the center",
+          "Same at both locations"
+        ],
+        "explanation": "v=ωr increaseswith radius."
+      },
+      {
+        "label": "c · Work per unit charge along the conducting path, magnitude",
+        "type": "numeric",
+        "answer": 47.12388980384689,
+        "unit": "J/C",
+        "tolerance": 0.37699111843077515,
+        "explanation": "Integrate vBdr=ωB∫rdr."
+      },
+      {
+        "label": "d · Device emf",
+        "type": "numeric",
+        "answer": 47.12388980384689,
+        "unit": "V",
+        "tolerance": 0.37699111843077515,
+        "explanation": "Emf isenergytransferredperunitcharge."
+      },
+      {
+        "label": "e · Electric output power",
+        "type": "numeric",
+        "answer": 2356.194490192345,
+        "unit": "W",
+        "tolerance": 18.84955592153876,
+        "explanation": "P=Iε."
+      }
+    ],
+    "reasoning": "The motor supplies electrical output energy; the ideal homopolar emf isBωR²/2. Verification: The motor supplies electrical output energy; the ideal homopolar emf isBωR²/2.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ],
+    "scope": "Part(c) is the motional emf/work-per-charge along the conducting path. The magnetic force does no net work on a freely moving charge; the driven rotor transfers mechanical energy through the constrained conducting path."
+  },
+  {
+    "id": "physics-chapter-28-problems-88",
+    "parts": [
+      {
+        "label": "Charge in the current pulse",
+        "type": "numeric",
+        "answer": 3.8340579025361623,
+        "unit": "C",
+        "tolerance": 0.030672463220289298,
+        "explanation": "ImpulseBL∫idt=mv0, with v0=√(2gh)."
+      }
+    ],
+    "reasoning": "The pulseisshort, so neglect weight impulse during it and use ballistic rise afterward. Verification: The pulseisshort, so neglect weight impulse during it and use ballistic rise afterward.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-89",
+    "parts": [
+      {
+        "label": "Minimum-field condition",
+        "type": "choice",
+        "answer": "B ≥ √(2mV/e)/d",
+        "options": [
+          "B ≥ √(2mV/e)/d",
+          "B ≥ √(mV/(2e))/d",
+          "B ≥ √(2mV/e)·d"
+        ],
+        "explanation": "Crossed-fieldmotionfrom resthasmaximumtransversedisplacement2mE/(eB²); requirethis≤d with E=V/d."
+      }
+    ],
+    "reasoning": "Solve cycloidal motion under crossed electric and magnetic fields; a strictmargin avoids grazingcontact. Verification: Solve cycloidal motion under crossed electric and magnetic fields; a strictmargin avoids grazingcontact.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-90",
+    "parts": [
+      {
+        "label": "Maximum loop torque",
+        "type": "choice",
+        "answer": "τmax = |q|vrB/2",
+        "options": [
+          "τmax = |q|vrB/2",
+          "τmax = |q|vrB",
+          "τmax = 2|q|vrB"
+        ],
+        "explanation": "I=|q|v/(2πr), areaπr² andτmax=IAB."
+      }
+    ],
+    "reasoning": "Eliminate the period from the equivalent-current-loop model. Verification: Eliminate the period from the equivalent-current-loop model.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-91",
+    "parts": [
+      {
+        "label": "Carrier density",
+        "type": "choice",
+        "answer": "n = iB/(eVℓ)",
+        "options": [
+          "n = iB/(eVℓ)",
+          "n = eVℓ/(iB)",
+          "n = iBℓ/(eV)"
+        ],
+        "explanation": "Hall voltage spans widthw: V=Bvdw andi=nevdwℓ; eliminatevdandw."
+      }
+    ],
+    "reasoning": "The current thickness dimension isℓ; the other two rectangular dimensions cancel. Verification: The current thickness dimension isℓ; the other two rectangular dimensions cancel.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-problems-92",
+    "parts": [
+      {
+        "label": "Magnetic field · x component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "UseFx=qvyBz andFy=−qvxBz; Fz=0 with Bx=0 requiresBy=0."
+      },
+      {
+        "label": "Magnetic field · y component",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "T",
+        "tolerance": 1e-30,
+        "explanation": "UseFx=qvyBz andFy=−qvxBz; Fz=0 with Bx=0 requiresBy=0."
+      },
+      {
+        "label": "Magnetic field · z component",
+        "type": "numeric",
+        "answer": 749063.6704119851,
+        "unit": "T",
+        "tolerance": 5992.5093632958815,
+        "explanation": "UseFx=qvyBz andFy=−qvxBz; Fz=0 with Bx=0 requiresBy=0."
+      }
+    ],
+    "reasoning": "The two measuredforcecomponentsyieldthe samepositiveBz. Verification: The two measuredforcecomponentsyieldthe samepositiveBz.",
+    "sourcePages": [
+      33
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-1",
+    "parts": [
+      {
+        "label": "a · Physically reasonable?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only for a slower particle"
+        ],
+        "explanation": "The proposed force is not perpendicular to velocity."
+      },
+      {
+        "label": "b · Physically reasonable?",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only for negative charge"
+        ],
+        "explanation": "For positive charge, northwest velocity crossed with leftwardB pointsout of the page."
+      },
+      {
+        "label": "c · Physically reasonable?",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only for a stronger field"
+        ],
+        "explanation": "Velocity and B areparallel, so the magnetic forcevanishes."
+      }
+    ],
+    "reasoning": "Apply both perpendicularity and the right-hand rule. Verification: Apply both perpendicularity and the right-hand rule.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-2",
+    "parts": [
+      {
+        "label": "a · Hall-voltage magnitude ranking",
+        "type": "choice",
+        "answer": "3 = 4 > 1 = 2",
+        "options": [
+          "3 = 4 > 1 = 2",
+          "1 = 2 > 3 = 4",
+          "1 = 2 = 3 = 4"
+        ],
+        "explanation": "Only perpendicular fields 3 and 4 deflect carriers."
+      },
+      {
+        "label": "b · Top at higher potential",
+        "type": "choice",
+        "answer": "4",
+        "options": [
+          "4",
+          "3",
+          "1 and2"
+        ],
+        "explanation": "Electron drift isleftward; anoutward field pushesnegativecarriersdownward."
+      }
+    ],
+    "reasoning": "Account for negative mobile charges and their drift opposite conventional current. Verification: Account for negative mobile charges and their drift opposite conventional current.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-3",
+    "parts": [
+      {
+        "label": "a · Voltage-magnitude ranking",
+        "type": "choice",
+        "answer": "±z > ±y > ±x",
+        "options": [
+          "±z > ±y > ±x",
+          "±y > ±z > ±x",
+          "All six are equal"
+        ],
+        "explanation": "B isalongx; motionalfieldsalongyspan2d, whilealongzspand."
+      },
+      {
+        "label": "b · Front face at lower potential",
+        "type": "choice",
+        "answer": "Motion along +y",
+        "options": [
+          "Motion along +y",
+          "Motion along −y",
+          "Motion along +x"
+        ],
+        "explanation": "Forv=+y and B=+x, E=−v×B=+z; potentialdecreases toward the front(+z)."
+      }
+    ],
+    "reasoning": "The frontface is the positive z face shownin the perspective diagram. Verification: The frontface is the positive z face shownin the perspective diagram.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-4",
+    "parts": [
+      {
+        "label": "a · Field direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Parallel to the page"
+        ],
+        "explanation": "The electron curves according to negativeq timesv×B in this segment."
+      },
+      {
+        "label": "b · Field direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Parallel to the page"
+        ],
+        "explanation": "The electron curves according to negativeq timesv×B in this segment."
+      },
+      {
+        "label": "c · Field direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Parallel to the page"
+        ],
+        "explanation": "The electron curves according to negativeq timesv×B in this segment."
+      },
+      {
+        "label": "d · Field direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Parallel to the page"
+        ],
+        "explanation": "The electron curves according to negativeq timesv×B in this segment."
+      },
+      {
+        "label": "e · Field direction",
+        "type": "choice",
+        "answer": "Into the page",
+        "options": [
+          "Into the page",
+          "Out of the page",
+          "Parallel to the page"
+        ],
+        "explanation": "The electron curves according to negativeq timesv×B in this segment."
+      },
+      {
+        "label": "f · Field direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Parallel to the page"
+        ],
+        "explanation": "The electron curves according to negativeq timesv×B in this segment."
+      }
+    ],
+    "reasoning": "Deflection toward thehigher-potential plate identifies a negative particle; use each local curvature. Verification: Deflection toward thehigher-potential plate identifies a negative particle; use each local curvature.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-5",
+    "parts": [
+      {
+        "label": "a · Speed below E/B",
+        "type": "choice",
+        "answer": "Electric force dominates",
+        "options": [
+          "Electric force dominates",
+          "Magnetic force dominates",
+          "The forces remain equal"
+        ],
+        "explanation": "qE exceeds|q|vB."
+      },
+      {
+        "label": "b · Speed above E/B",
+        "type": "choice",
+        "answer": "Magnetic force dominates",
+        "options": [
+          "Magnetic force dominates",
+          "Electric force dominates",
+          "The forces remain equal"
+        ],
+        "explanation": "|q|vB exceeds|q|E."
+      }
+    ],
+    "reasoning": "Compare magnitudes without changing the opposing directions. Verification: Compare magnitudes without changing the opposing directions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-6",
+    "parts": [
+      {
+        "label": "Particles accelerating out of the page",
+        "type": "choice",
+        "answer": "2, 5, 6, 9, and 10",
+        "options": [
+          "2, 5, 6, 9, and 10",
+          "1, 2, 7, and 8",
+          "3, 4, 5, and 6"
+        ],
+        "explanation": "B pointsleft and E into thepage. Applyeach charge sign toE+v×B; only 2 overcomes E through speed."
+      }
+    ],
+    "reasoning": "Parallel-to-B velocities have no magnetic force; negative charges9and10 respond outward to E. Verification: Parallel-to-B velocities have no magnetic force; negative charges9and10 respond outward to E.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-7",
+    "parts": [
+      {
+        "label": "a · Stronger field",
+        "type": "choice",
+        "answer": "B₁",
+        "options": [
+          "B₁",
+          "B₂",
+          "Equal fields"
+        ],
+        "explanation": "Smaller radius requires stronger B at fixed momentum."
+      },
+      {
+        "label": "b · Field directions",
+        "type": "choice",
+        "answer": "B₁ into the page; B₂ out of the page",
+        "options": [
+          "B₁ into the page; B₂ out of the page",
+          "B₁ out of the page; B₂ into the page",
+          "Both into the page"
+        ],
+        "explanation": "Follow the electron arrow and local centripetal force."
+      },
+      {
+        "label": "c · Time in B₁ relative to B₂",
+        "type": "choice",
+        "answer": "Less",
+        "options": [
+          "Less",
+          "Greater",
+          "Equal"
+        ],
+        "explanation": "Half-circle time πm/(eB) decreaseswith B."
+      }
+    ],
+    "reasoning": "The particle speed is unchanged by both magnetic regions. Verification: The particle speed is unchanged by both magnetic regions.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-8",
+    "parts": [
+      {
+        "label": "a · Higher-potential top-pair plate",
+        "type": "choice",
+        "answer": "Upper plate",
+        "options": [
+          "Upper plate",
+          "Lower plate",
+          "Equal potentials"
+        ],
+        "explanation": "At the top, electron moves left; magnetic force is down, so electric force must point up and Edown."
+      },
+      {
+        "label": "b · Higher-potential bottom-pair plate",
+        "type": "choice",
+        "answer": "Lower plate",
+        "options": [
+          "Lower plate",
+          "Upper plate",
+          "Equal potentials"
+        ],
+        "explanation": "At bottom electron moves right, reversing the required E."
+      },
+      {
+        "label": "c · Magnetic-field direction",
+        "type": "choice",
+        "answer": "Out of the page",
+        "options": [
+          "Out of the page",
+          "Into the page",
+          "Parallel to the straight sections"
+        ],
+        "explanation": "Leftward electroncurvingdown requires outward B."
+      }
+    ],
+    "reasoning": "InferBfrom the curved sections, then balanceforcesin the straight sections. Verification: InferBfrom the curved sections, then balanceforcesin the straight sections.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-9",
+    "parts": [
+      {
+        "label": "a · Agent work for 2→1",
+        "type": "choice",
+        "answer": "Positive",
+        "options": [
+          "Positive",
+          "Negative",
+          "Zero"
+        ],
+        "explanation": "U=−μBcosθ rises when changingfrom acute to obtuse alignment."
+      },
+      {
+        "label": "b · Agent-work ranking",
+        "type": "choice",
+        "answer": "2→1 = 2→4 > 2→3",
+        "options": [
+          "2→1 = 2→4 > 2→3",
+          "2→3 > 2→1 = 2→4",
+          "2→1 > 2→4 > 2→3"
+        ],
+        "explanation": "Orientations 1 and 4have same cosine;2 and 3have equal energy."
+      }
+    ],
+    "reasoning": "Use the referenced Checkpoint 5 orientations rather than only the chapter-end figure. Verification: Use the referenced Checkpoint 5 orientations rather than only the chapter-end figure.",
+    "sourcePages": [
+      24,
+      26
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-10",
+    "parts": [
+      {
+        "label": "Particle 1 · Path",
+        "type": "choice",
+        "answer": "i",
+        "options": [
+          "i",
+          "b",
+          "a"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 2 · Path",
+        "type": "choice",
+        "answer": "e",
+        "options": [
+          "e",
+          "b",
+          "a"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 3 · Path",
+        "type": "choice",
+        "answer": "c",
+        "options": [
+          "c",
+          "b",
+          "a"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 4 · Path",
+        "type": "choice",
+        "answer": "a",
+        "options": [
+          "a",
+          "b",
+          "g"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 5 · Path",
+        "type": "choice",
+        "answer": "g",
+        "options": [
+          "g",
+          "b",
+          "a"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 6 · Path",
+        "type": "choice",
+        "answer": "j",
+        "options": [
+          "j",
+          "b",
+          "a"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 7 · Path",
+        "type": "choice",
+        "answer": "d",
+        "options": [
+          "d",
+          "b",
+          "a"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 8 · Path",
+        "type": "choice",
+        "answer": "b",
+        "options": [
+          "b",
+          "c",
+          "g"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 9 · Path",
+        "type": "choice",
+        "answer": "h",
+        "options": [
+          "h",
+          "b",
+          "a"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 10 · Path",
+        "type": "choice",
+        "answer": "f",
+        "options": [
+          "f",
+          "b",
+          "a"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      },
+      {
+        "label": "Particle 11 · Path",
+        "type": "choice",
+        "answer": "k",
+        "options": [
+          "k",
+          "b",
+          "a"
+        ],
+        "explanation": "Match r=mv/(|q|B), charge sign, and incoming velocity; the neutral particle takesk."
+      }
+    ],
+    "reasoning": "The tiny-radius negative particle 7 takesd, identifying B into thepage; radius ratios then map all remaining paths. Verification: The tiny-radius negative particle 7 takesd, identifying B into thepage; radius ratios then map all remaining paths.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-11",
+    "parts": [
+      {
+        "label": "a · Charge sign",
+        "type": "choice",
+        "answer": "Negative",
+        "options": [
+          "Negative",
+          "Positive",
+          "Zero"
+        ],
+        "explanation": "Leftward entry bends downwardinoutward B; apositive chargewouldbendup."
+      },
+      {
+        "label": "b · Final speed",
+        "type": "choice",
+        "answer": "Equal to v₀",
+        "options": [
+          "Equal to v₀",
+          "Greater than v₀",
+          "Less than v₀"
+        ],
+        "explanation": "Magnetic force does no work."
+      },
+      {
+        "label": "c · Time at half the entry speed",
+        "type": "choice",
+        "answer": "Equal to T₀",
+        "options": [
+          "Equal to T₀",
+          "Greater than T₀",
+          "Less than T₀"
+        ],
+        "explanation": "Half-circle time is independent ofspeed."
+      },
+      {
+        "label": "d · Fraction of circle at half speed",
+        "type": "choice",
+        "answer": "A half-circle",
+        "options": [
+          "A half-circle",
+          "More than a half-circle",
+          "Less than a half-circle"
+        ],
+        "explanation": "The new smaller circle still intersects the straight boundary after180°."
+      }
+    ],
+    "reasoning": "The radius changes with speed while the angular frequency remains fixed. Verification: The radius changes with speed while the angular frequency remains fixed.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  },
+  {
+    "id": "physics-chapter-28-questions-12",
+    "parts": [
+      {
+        "label": "a · Period ranking",
+        "type": "choice",
+        "answer": "1 = 2 = 3",
+        "options": [
+          "1 = 2 = 3",
+          "3 > 2 > 1",
+          "1 > 2 > 3"
+        ],
+        "explanation": "T=2πm/(qB), independent ofpitchangle."
+      },
+      {
+        "label": "b · Frequency ranking",
+        "type": "choice",
+        "answer": "1 = 2 = 3",
+        "options": [
+          "1 = 2 = 3",
+          "3 > 2 > 1",
+          "1 > 2 > 3"
+        ],
+        "explanation": "Frequencyistheinverseof the sameperiod."
+      },
+      {
+        "label": "c · Pitch ranking",
+        "type": "choice",
+        "answer": "3 > 2 > 1",
+        "options": [
+          "3 > 2 > 1",
+          "1 > 2 > 3",
+          "1 = 2 = 3"
+        ],
+        "explanation": "Pitch=vparallelT; parallel velocity is largest in 3 and zero in 1."
+      }
+    ],
+    "reasoning": "All particleshavethe same charge,mass,speedand field; only thevelocity orientationdiffers. Verification: All particleshavethe same charge,mass,speedand field; only thevelocity orientationdiffers.",
+    "sourcePages": [
+      26
+    ],
+    "assumptions": [
+      "Classical nonrelativistic motion and uniform fields where stated; e=1.602×10⁻¹⁹ C, mₑ=9.11×10⁻³¹ kg, mₚ=1.673×10⁻²⁷ kg."
+    ]
+  }
+]
