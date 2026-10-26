@@ -41,3 +41,11 @@ References reviewed: https://ciechanow.ski/bicycle/ and https://phet.colorado.ed
 The shared 268-model physics apparatus renderer now offers guided/free exploration, scene-side transport, precise numeric controls, and individual quantity resets. Coulomb separation has a pointer/keyboard handle with fixed geometry mapping. The dedicated electric-flux lab has a draggable true-angle normal; its angle controls the projected surface, cosine graph, and signed flux. Pointer capture, bounded values and keyboard alternatives are implemented. Existing specialized models remain separate; this is not a claim that every model has object dragging or 3D scenes.
 
 Validation: shared mount harness exercises every registered model and control, exact inputs, per-quantity resets, mode switching, scene handle mapping, comparison and playback teardown. Browser checks cover Coulomb's inverse-square response, keyboard handles, and actual pointer dragging of the dedicated flux surface. Neither the reference sites' physics models nor their assets are embedded.
+
+## Plain-language learning pass
+
+Use familiar words before formal terminology. Controls name the physical quantity, not an implementation detail; retain symbols and units so students can connect the control to the equation. Explain necessary terms rather than removing their meaning.
+
+Physics 2.2 now controls acceleration a directly: x = ut + ½at² and v = u + at. The a range/default is twice the former b range/default, preserving the same motion. Regression checks explicitly cover x=5.6 m, v=3.6 m/s and next-half-second average=3.8 m/s at u=2 m/s, a=0.8 m/s², t=2 s.
+
+A dedicated reviewer simplified 194 learner-facing labels/buttons/titles across nine physics modules and 19 visual-guide passages. It compared 1,780 model states with the preceding version: numerical outputs, targets and explanation equations stayed unchanged. The broader pass simplifies shared UI, calculus series and solids, gas-law instructions, statics, dynamics, and general subject-lab text. Source textbook statements and answer-bank data are preserved. This is a broad interface and lab-language pass, not a claim that every textbook sentence has been rewritten.

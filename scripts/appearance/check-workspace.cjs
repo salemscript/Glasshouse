@@ -12,6 +12,7 @@ for(const f of scripts)vm.runInContext(fs.readFileSync(site+'/'+f,'utf8'),c,{fil
 const main=document.querySelector('main'),lab=c.PhysicsApparatusLab,click=el=>{assert(el,'missing UI control');el.dispatchEvent(new Event('click',{bubbles:true}))},change=(el,value)=>{assert(el);el.value=String(value);el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}))};
 let mounted=0,controls=0;
 for(const [section,d] of Object.entries(c.GlassPhysicsRegistry)){
+ if(section==='2.2'){const f=lab.describe(section,{u:2,a:.8,time:2,window:.5});assert(Math.abs(f.model.v-3.6)<1e-12);assert(Math.abs(f.model.x-5.6)<1e-12);assert(Math.abs(f.model.average-3.8)<1e-12);assert.equal(f.definition.controls.find(c=>c.key==='a').label,'Acceleration a');assert(lab.grade(section,f.state,3.6).correct);}
  const initial=lab.describe(section);assert(lab.grade(section,{},initial.target.answer).correct,section+' correct answer');
  main.innerHTML=lab.html({q:{subject:'physics'},section,chapter:Number(section.split('.')[0])});assert(lab.mount(main),section+' mount');mounted++;
  const root=main.querySelector('[data-gp-lab]');assert(root.querySelector('[data-gp-scene] svg'),section+' scene');

@@ -109,7 +109,7 @@ window.CalculusSeriesLab = (() => {
   const text=(x,y,value,cls='',anchor='start')=>`<text x="${x}" y="${y}" class="${cls}" text-anchor="${anchor}">${esc(value)}</text>`;
   const line=(x1,y1,x2,y2,cls='cs-grid')=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" class="${cls}"/>`;
   const dot=(x,y,cls='cs-dot',r=4)=>`<circle cx="${x}" cy="${y}" r="${r}" class="${cls}"/>`;
-  function plot({x=62,y=54,w=590,h=220,xmin=0,xmax=60,ymin=-1.3,ymax=1.3,label='value',xlabel=xmin<0?'x · input':'n · integer index',id='main'}){
+  function plot({x=62,y=54,w=590,h=220,xmin=0,xmax=60,ymin=-1.3,ymax=1.3,label='value',xlabel=xmin<0?'x · input':'n · term number',id='main'}){
     const X=v=>x+(v-xmin)/(xmax-xmin)*w,Y=v=>y+h-(v-ymin)/(ymax-ymin)*h;
     let svg=`<defs><clipPath id="cs-${id}"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8"/></clipPath></defs><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" class="cs-plot-paper"/>`;
     for(let k=0;k<=4;k++){const py=y+k*h/4,v=ymax-k*(ymax-ymin)/4;svg+=line(x,py,x+w,py)+text(x-10,py+4,fmt(v),'cs-tick','end');}
@@ -132,7 +132,7 @@ window.CalculusSeriesLab = (() => {
       body+=p.clip(m.terms.map(([n,a])=>line(p.X(n),p.Y(0),p.X(n),p.Y(a),'cs-stem')).join('')+points(m.terms,p));body+=q.clip(points(m.sums.map(([n,a])=>[n+1,a]),q,'cs-aqua-dot')+(m.limit===null?'':line(q.X(0),q.Y(m.limit),q.X(60),q.Y(m.limit),'cs-dashed')));
       caption='Fixed windows: terms −2 to 2; totals −3 to 12. Values outside the windows are clipped, not rescaled.';
     }else if(section==='11.3'){
-      const p=plot({xmin:1,xmax:13,ymin:0,ymax:1.05,label:'f(x) = x⁻ᵖ · unit-width rectangles',xlabel:'x · integration coordinate'});body=p.svg;
+      const p=plot({xmin:1,xmax:13,ymin:0,ymax:1.05,label:'f(x) = x⁻ᵖ · unit-width rectangles',xlabel:'x · position'});body=p.svg;
       const start=m.N,rects=Array.from({length:12},(_,j)=>{const n=j+1;return`<rect x="${p.X(n)}" y="${p.Y(1/(n+1)**m.p)}" width="${p.X(n+1)-p.X(n)}" height="${p.Y(0)-p.Y(1/(n+1)**m.p)}" class="${n>=start?'cs-tail-rect':'cs-rect'}"/>`;}).join('');
       body+=p.clip(rects+curve(x=>x**(-m.p),p,1,13,'cs-function')+(m.N<=13?line(p.X(m.N),54,p.X(m.N),274,'cs-marker'):''));body+=line(62,324,652,324,'cs-axis')+dot(62+(m.N-1)/59*590,324,'cs-dot',5)+text(62,346,'N = 1','cs-tick')+text(652,346,'N = 60 · selected '+m.N,'cs-tick','end');caption='A rectangle over [n, n + 1] has height f(n + 1). Only x = 1…13 is drawn; tail bounds extend to infinity. The lower rail locates N on its full fixed scale.'+(m.N>12?' The selected tail begins beyond the curve window.':' Coral rectangles belong to the omitted tail.');
     }else if(section==='11.4'){
@@ -168,11 +168,11 @@ window.CalculusSeriesLab = (() => {
     if(section==='11.1'){select('sequence','Sequence',[['decay','Approach from above · 1/nᵖ'],['alternating','Approach from both sides · (−1)ⁿ/nᵖ'],['oscillating','Never settle · (−1)ⁿ']]);range('N','Terms shown N',1,60,1);if(s.sequence!=='oscillating')range('p','Decay power p',.5,3,.1);range('epsilon','Tolerance ε',.02,.5,.01);}
     if(section==='11.2'){range('r','Common ratio r',-1.2,1.2,.05);range('N','Number of terms N',1,60,1);}
     if(['11.3','11.4','11.5'].includes(section)){range('p','Power p',.5,3,.1);range('N','Terms included N',1,60,1);}
-    if(section==='11.6'){select('family','Series family',[['factorial','|r|ⁿ / n!'],['geometric','|r|ⁿ'],['power','1/nᵖ']]);select('test','Test to inspect',[['ratio','Ratio test'],['root','Root test']]);range(s.family==='power'?'p':'r',s.family==='power'?'Power p':'Exponential factor r',s.family==='power'?.5:0,s.family==='power'?3:1.2,.05);range('N','Test values shown',1,60,1);}
+    if(section==='11.6'){select('family','Type of series',[['factorial','|r|ⁿ / n!'],['geometric','|r|ⁿ'],['power','1/nᵖ']]);select('test','Test to inspect',[['ratio','Ratio test'],['root','Root test']]);range(s.family==='power'?'p':'r',s.family==='power'?'Power p':'Multiplier r',s.family==='power'?.5:0,s.family==='power'?3:1.2,.05);range('N','Test values shown',1,60,1);}
     if(section==='11.7')select('case','Series to investigate',strategies.map((q,j)=>[j,q.formula]));
-    if(section==='11.8'){range('center','Center c',-1,1,.25);range('radius','Radius R',.5,2,.25);range('x','Probe x',-4,4,.25);range('N','Terms included N',1,60,1);}
-    if(section==='11.9'){select('operation','Operation',[['sum','Original geometric series'],['derivative','Differentiate each term'],['integral','Integrate from 0 to x']]);range('N','Last original index N',1,30,1);range('x','Probe x',-.9,.9,.05);}
-    if(['11.10','11.11'].includes(section)){select('fn','Function',section==='11.10'?[['exp','Exponential · eˣ'],['sin','Sine · radians'],['cos','Cosine · radians']]:[['sin','Sine · radians'],['exp','Exponential · eˣ']]);range('N','Polynomial degree N',0,14,1);if(section==='11.10')range('center','Expansion center c',-1,1,.25);range('x','Evaluate at x',section==='11.10'?-4:-1.5,section==='11.10'?4:1.5,.05);if(section==='11.11')range('digits','Error tolerance · 10⁻ᵈ',2,8,1);}
+    if(section==='11.8'){range('center','Center c',-1,1,.25);range('radius','Radius R',.5,2,.25);range('x','Choose x',-4,4,.25);range('N','Terms included N',1,60,1);}
+    if(section==='11.9'){select('operation','Operation',[['sum','Original geometric series'],['derivative','Differentiate each term'],['integral','Integrate from 0 to x']]);range('N','Last term number N',1,30,1);range('x','Choose x',-.9,.9,.05);}
+    if(['11.10','11.11'].includes(section)){select('fn','Function',section==='11.10'?[['exp','Exponential · eˣ'],['sin','Sine · radians'],['cos','Cosine · radians']]:[['sin','Sine · radians'],['exp','Exponential · eˣ']]);range('N','Polynomial degree N',0,14,1);if(section==='11.10')range('center','Starting point c for the approximation',-1,1,.25);range('x','Evaluate at x',section==='11.10'?-4:-1.5,section==='11.10'?4:1.5,.05);if(section==='11.11')range('digits','Allowed error · 10⁻ᵈ',2,8,1);}
     return list;
   }
   const choices=['Converges absolutely','Converges conditionally','Diverges'];
@@ -180,13 +180,13 @@ window.CalculusSeriesLab = (() => {
     const m=describe(section,raw);let prompt='',answer=0,options=null,reason='';
     if(section==='11.1'){prompt=`What is the selected term a${m.N}?`;answer=m.term;reason='Substitute the selected integer N into the sequence rule.';}
     else if(section==='11.2'){prompt=`What is S${m.N}, including indices 0 through ${m.N-1}?`;answer=m.sum;reason=m.r===1?'At r = 1, every term is 1, so Sₙ = N.':'Use Sₙ = (1 − rᴺ)/(1 − r). This is a finite sum even if the infinite series diverges.';}
-    else if(section==='11.3'){if(m.p>1){prompt='What is the integral-test upper bound on the omitted tail Rₙ?';answer=m.upper;reason='Integrate x⁻ᵖ from N to infinity: N^(1 − p)/(p − 1).';}else{prompt='Does this p-series have a finite infinite sum?';options=['Yes','No'];answer=1;reason='The positive integral diverges for p ≤ 1, so the series diverges.';}}
+    else if(section==='11.3'){if(m.p>1){prompt='Using the integral test, what is the largest possible remaining sum Rₙ after the first N terms?';answer=m.upper;reason='Integrate x⁻ᵖ from N to infinity: N^(1 − p)/(p − 1).';}else{prompt='Does this p-series have a finite infinite sum?';options=['Yes','No'];answer=1;reason='The positive integral diverges for p ≤ 1, so the series diverges.';}}
     else if(section==='11.4'){prompt='What is lim aₙ/bₙ as n → ∞?';answer=1;reason='Divide nᵖ/(nᵖ + 1) by nᵖ: 1/(1 + n⁻ᵖ) → 1.';}
     else if(section==='11.5'){prompt='What upper bound does the alternating-series theorem give for |S − Sₙ|?';answer=m.errorBound;reason='Use the magnitude of the first omitted term: 1/(N + 1)ᵖ.';}
     else if(section==='11.6'){prompt='What does the selected ratio/root test itself prove?';options=['Absolute convergence','Divergence','Inconclusive / not applicable'];answer=m.zeroRatio?2:m.L<1?0:m.L>1?1:2;reason=m.conclusion;}
     else if(section==='11.7'){prompt='Which is a justified first test for this series?';const shift=(m.case+1)%3;options=[...m.strategy.options.slice(shift),...m.strategy.options.slice(0,shift)];answer=(3-shift)%3;reason=m.strategy.why;}
     else if(section==='11.8'){prompt='How does the infinite series behave at this x?';options=choices;answer=m.position==='absolute'?0:m.position==='conditional'?1:2;reason=m.conclusion;}
-    else{prompt=section==='11.11'?'What is the guaranteed Taylor remainder bound at this x?':'What value does the finite polynomial give at this x?';answer=section==='11.11'?m.bound:m.estimate;reason=section==='11.11'?'Use M|x − c|^(N + 1)/(N + 1)! with the derivative bound shown in the explanation.':'Evaluate the displayed finite polynomial, rather than substituting the exact function value.';}
+    else{prompt=section==='11.11'?'What is the largest possible error in this Taylor approximation at the chosen x?':'What value does the finite polynomial give at this x?';answer=section==='11.11'?m.bound:m.estimate;reason=section==='11.11'?'Use M|x − c|^(N + 1)/(N + 1)! with the derivative bound shown in the explanation.':'Evaluate the displayed finite polynomial, rather than substituting the exact function value.';}
     return{prompt,answer,options,reason};
   }
   function grade(section,raw,value){const q=target(section,raw);if(String(value).trim()==='')return{correct:false,message:'Choose an answer or enter a number first.'};const n=Number(value),tolerance=q.answer===0?1e-12:Math.abs(q.answer)*.0001,ok=Number.isFinite(n)&&(q.options?n===q.answer:Math.abs(n-q.answer)<=tolerance);return{correct:ok,message:ok?'Correct. '+q.reason:'Try again. '+q.reason};}
