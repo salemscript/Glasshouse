@@ -156,7 +156,7 @@ def desc(q):
 
 candidates={};report=[];manifest=dict(curated)
 for c in range(1,45):
- items=[q for q in qs if q['chapter']==c and q['kind']=='Problems'];target=len(items)//2+1
+ items=[q for q in qs if q['chapter']==c and q['kind']=='Problems'];all_count=sum(q['chapter']==c for q in qs);target=all_count//2+1
  chosen=[]
  for q in items:
   d=desc(q)
@@ -166,10 +166,10 @@ for c in range(1,45):
  chosen=sorted([x for x in chosen if x[0]['id'] not in curated],key=lambda x:(-x[1]['score'],int(x[0]['number']) if x[0]['number'].isdigit() else 9999))[:needed]
  for q,d in chosen:manifest[q['id']]={k:v for k,v in d.items() if k not in ('score','evidence') and (k in ('kind','mode') or v is True or (k in ('count','quantumN') and v!=1))}
  count=sum(q['id'] in manifest for q in items)
- report.append({'chapter':c,'problems':len(items),'target':target,'illustrated':count,'candidateCount':sum(q['id'] in candidates for q in items)})
+ report.append({'chapter':c,'problems':len(items),'allQuestions':all_count,'target':target,'illustrated':count,'candidateCount':sum(q['id'] in candidates for q in items)})
 print('\n'.join(f"{r['chapter']:2} {r['illustrated']:3}/{r['target']:3}  candidates {r['candidateCount']:3}/{r['problems']:3}" for r in report))
 (ROOT/'site/physics-loop-map.js').write_text('window.PhysicsLoopMap='+json.dumps(manifest,separators=(',',':'))+';\n')
-(ROOT/'scripts/answer-data/physics-loop-coverage.json').write_text(json.dumps({'scope':'More than half of Problems per chapter. Every assignment requires explicit object/process text or an individually authored mapping; no chapter fallback. Illustrative views, not numerical solutions.','chapters':report,'totalIllustrated':len(manifest)},indent=2)+'\n')
+(ROOT/'scripts/answer-data/physics-loop-coverage.json').write_text(json.dumps({'scope':'More than half of all listed questions per chapter, supplied through illustrated Problems. Every assignment requires explicit object/process text or an individually authored mapping; no chapter fallback. Illustrative views, not numerical solutions.','chapters':report,'totalIllustrated':len(manifest)},indent=2)+'\n')
 audit=[{'questionId':q['id'],'chapter':q['chapter'],'promptSha256':hashlib.sha256(q['prompt'].encode()).hexdigest(),'excerpt':q['prompt'][:100],'sceneKind':manifest[q['id']] if isinstance(manifest[q['id']],str) else manifest[q['id']]['kind'],'matchedEvidence':candidates.get(q['id'],{}).get('evidence','individually authored'),'reviewType':'object-match' if isinstance(manifest[q['id']],dict) else 'individual'} for q in qs if q['id'] in manifest]
 (ROOT/'scripts/answer-data/physics-illustration-audit.json').write_text(json.dumps(audit,separators=(',',':'),ensure_ascii=False)+'\n')
 # Missing chapter candidates are printed separately for follow-up, not given a fallback.

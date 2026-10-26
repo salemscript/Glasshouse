@@ -1,6 +1,6 @@
 # Physics problem animation coverage
 
-The full batch contains **2,117 illustrations across 4,170 Problems in 44 chapters**. Every chapter has floor(problem count / 2) + 1 illustrated problems. Conceptual Questions are not part of this Problems denominator.
+The full batch contains **2,383 illustrations across 4,695 listed questions (4,170 numbered Problems) in 44 chapters**. Every chapter has floor(all listed questions / 2) + 1 illustrated problems. Conceptual Questions are included in the coverage denominator, so the majority requirement holds for the whole chapter menu.
 
 ## Scope and review
 
