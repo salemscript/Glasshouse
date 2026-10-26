@@ -1,9 +1,11 @@
-# Physics problem loops
+# Problem-specific physics illustrations
 
-Replaces the eight interactive inline illustrations with silent, theme-aware decorative loops. 2,097 of 4,170 Problems records across all 44 chapters receive a loop (alternating entries, rounded upward per chapter). Coverage is generated in scripts/answer-data/physics-loop-coverage.json.
+Correction: chapter-based decorative assignments were removed because they did not reliably correspond to the actual problem. No generic fallback is allowed.
 
-These are conceptual decorations, NOT reviewed exact simulations of each problem or evidence of per-exercise lab readiness. No numerical givens, answer readouts, visible labels or controls. The accessibility description explicitly states their illustrative scope. Chapters select a relevant visual family; mechanics prompts additionally select springs, collisions and wheels by keywords. All physics problem inline interactive panels are replaced by this treatment; full interactive labs and guided help remain available.
+Eight explicit bank-ID mappings are retained: Earth circumference (1.1), rocket kinetic energy (7.2), compressed spring (8.1), syringe pressure (14.3), electron between plates (24.4), circular capacitor plates (25.3), current through a wire (26.1), light speed in liquid (35.7).
 
-Colors derive from theme variables. CSS animation pauses offscreen; reduced-motion mode renders still images. No passive animation marks a question assisted or awards XP.
+Each comes from the specific question's reviewed prompt and original schematic. Labels and controls are hidden; autoplay is purely illustrative, not a calibrated numerical simulation or solution. Plate gap and rocket distances are schematic. Field arrows do not imply an invented electron trajectory. Current markers indicate conventional current, not individual electrons. Motion respects reduced-motion preference; themes supply colors.
 
-Reference: https://ciechanow.ski/bicycle/ — sparse geometric imagery and clear motion inspired original SVGs. No copied artwork or code. Exact numerical simulation coverage remains unchanged.
+The requested half-per-chapter target remains unmet. Other problems must receive individually reviewed drawings before they are mapped. Coverage records explicitly track this gap.
+
+Inspiration: https://ciechanow.ski/bicycle/ — original geometric drawings, no copied art or code.
