@@ -1,0 +1,3279 @@
+{
+  "chapter": 13,
+  "reviewed": "2026-10-26",
+  "sourceReview": "All71 source questions and diagrams reviewed; approximate spectra use explicit assumptions; source discrepancies flagged.",
+  "questions": {
+    "organic-13-1": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 7.461884773110716e-05,
+          "label": "¹⁹F",
+          "selectionPrompt": "Find the ¹⁹F spin-flip energy per mole.",
+          "unit": "kJ/mol",
+          "tolerance": 2e-07,
+          "fieldIndex": 0,
+          "explanation": "Use E = hν for one nucleus and multiply by Avogadro’s constant for one mole. Convert MHz to Hz and J to kJ: E(molar) = (6.62607015×10⁻³⁴)(ν×10⁶)(6.02214076×10²³)/1000."
+        },
+        {
+          "type": "numeric",
+          "answer": 7.980625425786863e-05,
+          "label": "¹H",
+          "selectionPrompt": "Find the ¹H spin-flip energy per mole.",
+          "unit": "kJ/mol",
+          "tolerance": 2e-07,
+          "fieldIndex": 1,
+          "explanation": "Use E = hν for one nucleus and multiply by Avogadro’s constant for one mole. Convert MHz to Hz and J to kJ: E(molar) = (6.62607015×10⁻³⁴)(ν×10⁶)(6.02214076×10²³)/1000."
+        },
+        {
+          "type": "choice",
+          "answer": "Less",
+          "options": [
+            "Greater",
+            "Less",
+            "Equal"
+          ],
+          "label": "comparison",
+          "selectionPrompt": "How does ¹⁹F energy compare with ¹H at this field?",
+          "explanation": "E is proportional to resonance frequency.",
+          "fieldIndex": 2
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-1-nuclear-magnetic-resonance-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-2": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 0.00011970938138680293,
+          "label": "energy",
+          "selectionPrompt": "Find the spin-flip energy at 300 MHz.",
+          "unit": "kJ/mol",
+          "tolerance": 3e-07,
+          "fieldIndex": 0,
+          "explanation": "Use E = hν for one nucleus and multiply by Avogadro’s constant for one mole. Convert MHz to Hz and J to kJ: E(molar) = (6.62607015×10⁻³⁴)(ν×10⁶)(6.02214076×10²³)/1000."
+        },
+        {
+          "type": "choice",
+          "answer": "Increases",
+          "options": [
+            "Decreases",
+            "Increases",
+            "Remains equal"
+          ],
+          "label": "frequency effect",
+          "selectionPrompt": "What happens when frequency rises from 200 to 300 MHz?",
+          "explanation": "E = hν, so the required energy rises by 300/200 = 1.5.",
+          "fieldIndex": 1
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-1-nuclear-magnetic-resonance-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-3": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "The methyl protons are equivalent, but the two terminal vinylic H atoms differ: one is cis to Cl and the other trans to Cl.",
+          "options": [
+            "The three methyl hydrogens are all permanently different.",
+            "The methyl protons are equivalent, but the two terminal vinylic H atoms differ: one is cis to Cl and the other trans to Cl.",
+            "Both vinylic H atoms are equivalent by free rotation around C=C.",
+            "Chlorine itself gives the third proton resonance."
+          ],
+          "label": "Answer",
+          "selectionPrompt": "Why does CH₂=C(Cl)CH₃ give three proton environments?",
+          "explanation": "The rotating methyl group provides the third environment.",
+          "fieldIndex": 0
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-4": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 7.27,
+          "label": "a",
+          "selectionPrompt": "Convert 1454 Hz at 200 MHz to ppm.",
+          "unit": "ppm",
+          "tolerance": 0.01,
+          "fieldIndex": 0,
+          "explanation": "The ppm shift is the offset in Hz divided by the instrument frequency in MHz; here divide by 200. The units account for the factor of one million."
+        },
+        {
+          "type": "numeric",
+          "answer": 3.05,
+          "label": "b",
+          "selectionPrompt": "Convert 610 Hz at 200 MHz to ppm.",
+          "unit": "ppm",
+          "tolerance": 0.01,
+          "fieldIndex": 1,
+          "explanation": "The ppm shift is the offset in Hz divided by the instrument frequency in MHz; here divide by 200. The units account for the factor of one million."
+        },
+        {
+          "type": "numeric",
+          "answer": 3.465,
+          "label": "c",
+          "selectionPrompt": "Convert 693 Hz at 200 MHz to ppm.",
+          "unit": "ppm",
+          "tolerance": 0.01,
+          "fieldIndex": 2,
+          "explanation": "The ppm shift is the offset in Hz divided by the instrument frequency in MHz; here divide by 200. The units account for the factor of one million."
+        },
+        {
+          "type": "numeric",
+          "answer": 5.3,
+          "label": "d",
+          "selectionPrompt": "Convert 1060 Hz at 200 MHz to ppm.",
+          "unit": "ppm",
+          "tolerance": 0.01,
+          "fieldIndex": 3,
+          "explanation": "The ppm shift is the offset in Hz divided by the instrument frequency in MHz; here divide by 200. The units account for the factor of one million."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-3-chemical-shifts"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-5": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 420,
+          "unit": "Hz",
+          "tolerance": 0.01,
+          "label": "a",
+          "selectionPrompt": "a",
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        },
+        {
+          "type": "numeric",
+          "answer": 2.1,
+          "unit": "ppm",
+          "tolerance": 0.001,
+          "label": "b",
+          "selectionPrompt": "b",
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        },
+        {
+          "type": "numeric",
+          "answer": 1050,
+          "unit": "Hz",
+          "tolerance": 0.01,
+          "label": "c",
+          "selectionPrompt": "c",
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-3-chemical-shifts"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-8": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "Two singlets: equivalent CH₃ groups integrate to 6 H near 2.3 ppm; equivalent aromatic H integrate to 4 H near 7 ppm; area ratio 3: 2.",
+          "options": [
+            "Three signals with area ratio 1: 1: 1.",
+            "Two singlets: equivalent CH₃ groups integrate to 6 H near 2.3 ppm; equivalent aromatic H integrate to 4 H near 7 ppm; area ratio 3: 2.",
+            "A methyl triplet and aromatic quartet with 3: 2 integration.",
+            "One resonance for all ten hydrogens."
+          ],
+          "label": "Answer",
+          "selectionPrompt": "Choose the complete qualitative p-xylene spectrum.",
+          "explanation": "Equivalent protons do not split one another; the simple expected spectrum has two singlets in alkyl-benzylic and aromatic regions.",
+          "fieldIndex": 0
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-10": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "CH₃–O–CH₃",
+          "options": [
+            "CH₃CH₂OH",
+            "CH₃–O–CH₃",
+            "CH₃CHO"
+          ],
+          "label": "a",
+          "selectionPrompt": "Choose C₂H₆O giving one singlet.",
+          "explanation": "Dimethyl ether has two equivalent methyl groups and no neighboring proton-bearing carbon across the usual coupling path, giving one 6-H singlet.",
+          "fieldIndex": 0
+        },
+        {
+          "type": "choice",
+          "answer": "(CH₃)₂CHCl",
+          "options": [
+            "CH₃CH₂CH₂Cl",
+            "(CH₃)₂CHCl",
+            "CH₂=CHCH₂Cl"
+          ],
+          "label": "b",
+          "selectionPrompt": "Choose C₃H₇Cl giving a doublet and septet.",
+          "explanation": "Two equivalent methyl groups couple to the central CH, giving a 6-H doublet; that CH couples to six methyl H, giving a septet.",
+          "fieldIndex": 1
+        },
+        {
+          "type": "choice",
+          "answer": "ClCH₂CH₂–O–CH₂CH₂Cl",
+          "options": [
+            "CH₃OCH₂CHCl₂",
+            "ClCH₂CH₂–O–CH₂CH₂Cl",
+            "ClCH₂CH₂CH₂CH₂OH"
+          ],
+          "label": "c",
+          "selectionPrompt": "Choose C₄H₈Cl₂O giving two triplets.",
+          "explanation": "The two arms of bis(2-chloroethyl) ether are symmetry-equivalent. Each CH₂ environment couples to the two H on the adjacent CH₂, giving two triplets.",
+          "fieldIndex": 2
+        },
+        {
+          "type": "choice",
+          "answer": "CH₃CH₂CO₂CH₃ and CH₃CO₂CH₂CH₃",
+          "options": [
+            "CH₃COCH₂CH₂OH and CH₃CH₂CH₂CO₂H",
+            "CH₃CH₂CO₂CH₃ and CH₃CO₂CH₂CH₃",
+            "Only dimethyl carbonate."
+          ],
+          "label": "d",
+          "selectionPrompt": "Choose both C₄H₈O₂ ester possibilities giving singlet/triplet/quartet.",
+          "explanation": "Both ester connectivities have one ethyl group (triplet plus quartet) and one isolated methyl group (singlet).",
+          "fieldIndex": 3
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-11": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "CH₃CH₂–O–CH₂CH₃ (diethyl ether).",
+          "options": [
+            "CH₃CH₂CH₂CH₂OH",
+            "CH₃CH₂–O–CH₂CH₃ (diethyl ether).",
+            "(CH₃)₃COH",
+            "CH₃OCH₂CH₂CH₃"
+          ],
+          "label": "Answer",
+          "selectionPrompt": "Which C₄H₁₀O structure gives the displayed 6-H triplet and 4-H quartet?",
+          "explanation": "A symmetric diethyl ether connectivity satisfies the formula and both signals.",
+          "fieldIndex": 0
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-13": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 2,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "a",
+          "selectionPrompt": "Part a: how many proton environments?",
+          "explanation": "CH₃ and CH₂ are distinct environments."
+        },
+        {
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "b",
+          "selectionPrompt": "Part b: how many proton environments?",
+          "explanation": "OCH₃, OCH₂, CH, and the two equivalent branched methyl groups give four environments."
+        },
+        {
+          "type": "numeric",
+          "answer": 3,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "c",
+          "selectionPrompt": "Part c: how many proton environments?",
+          "explanation": "The terminal CH₃ and the two chemically different CH₂ groups give three environments."
+        },
+        {
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "d",
+          "selectionPrompt": "Part d: how many proton environments?",
+          "explanation": "Toluene has one methyl environment and three aromatic environments: ortho, meta, and para. Overlap can hide their distinctness."
+        },
+        {
+          "type": "numeric",
+          "answer": 5,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "e",
+          "selectionPrompt": "Part e: how many proton environments?",
+          "explanation": "The terminal vinyl H atoms are cis and trans to different groups, so they are different. Add the alkene methyl, ethyl CH₂, and terminal CH₃: five environments."
+        },
+        {
+          "type": "numeric",
+          "answer": 3,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "f",
+          "selectionPrompt": "Part f: how many proton environments?",
+          "explanation": "End-for-end symmetry gives equivalent methyls, equivalent CH₂ groups, and equivalent vinylic H: three environments."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-14": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "Answer",
+          "selectionPrompt": "How many proton environments does the malate ion shown have?",
+          "explanation": "Count the CH proton, the OH proton, and the two diastereotopic CH₂ protons. The two carboxylate groups shown have no O–H protons. Exchange can broaden or remove the OH signal."
+        },
+        {
+          "label": "Reason",
+          "selectionPrompt": "Why do the CH₂ protons give different environments?",
+          "type": "choice",
+          "answer": "The existing stereocenter makes the CH₂ protons diastereotopic.",
+          "options": [
+            "The existing stereocenter makes the CH₂ protons diastereotopic.",
+            "Every CH₂ group always gives two different shifts.",
+            "The two protons belong to different elements."
+          ],
+          "explanation": "Replacing one CH₂ H or the other produces diastereomers, not enantiomers."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-17": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "a",
+          "selectionPrompt": "Part a: number of ¹³C signals",
+          "explanation": "One methyl plus ring C1, C2/C5, and C3/C4 gives four."
+        },
+        {
+          "type": "numeric",
+          "answer": 7,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "b",
+          "selectionPrompt": "Part b: number of ¹³C signals",
+          "explanation": "The methyl substituent removes the alkene-ring symmetry, leaving all seven carbons different."
+        },
+        {
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "c",
+          "selectionPrompt": "Part c: number of ¹³C signals",
+          "explanation": "The two methyl carbons are equivalent; the aromatic ring has three pairs of equivalent carbons."
+        },
+        {
+          "type": "numeric",
+          "answer": 5,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "d",
+          "selectionPrompt": "Part d: number of ¹³C signals",
+          "explanation": "The two methyls attached to one alkene carbon are not equivalent: one is cis and one trans to the opposite methyl. All five carbons differ."
+        },
+        {
+          "type": "numeric",
+          "answer": 5,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "e",
+          "selectionPrompt": "Part e: number of ¹³C signals",
+          "explanation": "The two isopropyl methyls are equivalent; add the methine, carbonyl, CH₂, and ethyl CH₃."
+        },
+        {
+          "type": "numeric",
+          "answer": 7,
+          "unit": "",
+          "tolerance": 1e-09,
+          "label": "f",
+          "selectionPrompt": "Part f: number of ¹³C signals",
+          "explanation": "The two methyls on one alkene carbon are cis/trans to different groups and are not equivalent. All seven carbons differ."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-29": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 2.18,
+          "label": "a",
+          "selectionPrompt": "Convert 436 Hz downfield of TMS on a 200 MHz instrument into δ.",
+          "unit": "ppm",
+          "tolerance": 0.005,
+          "fieldIndex": 0,
+          "explanation": "The ppm shift is the offset in Hz divided by the instrument frequency in MHz; here divide by 200. The units account for the factor of one million."
+        },
+        {
+          "type": "numeric",
+          "answer": 4.78,
+          "label": "b",
+          "selectionPrompt": "Convert 956 Hz downfield of TMS on a 200 MHz instrument into δ.",
+          "unit": "ppm",
+          "tolerance": 0.005,
+          "fieldIndex": 1,
+          "explanation": "The ppm shift is the offset in Hz divided by the instrument frequency in MHz; here divide by 200. The units account for the factor of one million."
+        },
+        {
+          "type": "numeric",
+          "answer": 7.52,
+          "label": "c",
+          "selectionPrompt": "Convert 1504 Hz downfield of TMS on a 200 MHz instrument into δ.",
+          "unit": "ppm",
+          "tolerance": 0.005,
+          "fieldIndex": 2,
+          "explanation": "The ppm shift is the offset in Hz divided by the instrument frequency in MHz; here divide by 200. The units account for the factor of one million."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-3-chemical-shifts"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-30": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 630,
+          "label": "a",
+          "selectionPrompt": "Convert 2.1 δ into Hz downfield of TMS on a 300 MHz instrument.",
+          "unit": "Hz",
+          "tolerance": 0.5,
+          "fieldIndex": 0,
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        },
+        {
+          "type": "numeric",
+          "answer": 1035,
+          "label": "b",
+          "selectionPrompt": "Convert 3.45 δ into Hz downfield of TMS on a 300 MHz instrument.",
+          "unit": "Hz",
+          "tolerance": 0.5,
+          "fieldIndex": 1,
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        },
+        {
+          "type": "numeric",
+          "answer": 1890,
+          "label": "c",
+          "selectionPrompt": "Convert 6.3 δ into Hz downfield of TMS on a 300 MHz instrument.",
+          "unit": "Hz",
+          "tolerance": 0.5,
+          "fieldIndex": 2,
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        },
+        {
+          "type": "numeric",
+          "answer": 2310,
+          "label": "d",
+          "selectionPrompt": "Convert 7.7 δ into Hz downfield of TMS on a 300 MHz instrument.",
+          "unit": "Hz",
+          "tolerance": 0.5,
+          "fieldIndex": 3,
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-3-chemical-shifts"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-31": {
+      "fields": [
+        {
+          "type": "numeric",
+          "answer": 7.3,
+          "label": "a",
+          "selectionPrompt": "How many ppm downfield from TMS is the CHCl₃ resonance?",
+          "unit": "ppm",
+          "tolerance": 0.05,
+          "fieldIndex": 0,
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        },
+        {
+          "type": "numeric",
+          "answer": 2628,
+          "label": "b",
+          "selectionPrompt": "At 360 MHz, how many Hz downfield from TMS is it?",
+          "unit": "Hz",
+          "tolerance": 1,
+          "fieldIndex": 1,
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        },
+        {
+          "type": "numeric",
+          "answer": 7.3,
+          "label": "c",
+          "selectionPrompt": "What is the chemical shift at 360 MHz?",
+          "unit": "ppm",
+          "tolerance": 0.05,
+          "fieldIndex": 2,
+          "explanation": "Frequency offset (Hz) = chemical shift (ppm) × instrument frequency (MHz). The ppm value stays constant when the instrument field changes; the Hz offset scales with instrument frequency."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-3-chemical-shifts"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-32": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "Most proton shifts occupy about 0–10 ppm, whereas carbon shifts span roughly 1–220 ppm; proton signals are crowded into a narrower interval.",
+          "options": [
+            "Proton shifts span a much wider ppm interval than carbon shifts.",
+            "Most proton shifts occupy about 0–10 ppm, whereas carbon shifts span roughly 1–220 ppm; proton signals are crowded into a narrower interval.",
+            "Every pair of proton signals is chemically equivalent.",
+            "Carbon spectra cannot contain accidentally coincident resonances."
+          ],
+          "label": "Answer",
+          "selectionPrompt": "Why is accidental overlap more common in ¹H than in ¹³C NMR?",
+          "explanation": "Overlap does not prove equivalence; higher field can enlarge a fixed ppm separation in Hz.",
+          "fieldIndex": 0
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-33": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "The nucleus at 6.50 δ is less shielded.",
+          "options": [
+            "The nucleus at 6.50 δ is more shielded.",
+            "The nucleus at 6.50 δ is less shielded.",
+            "The two nuclei must have identical shielding."
+          ],
+          "label": "shielding",
+          "selectionPrompt": "Compare shielding at 6.50 δ and 3.20 δ.",
+          "explanation": "A larger positive δ means a greater downfield displacement from TMS and less electronic shielding.",
+          "fieldIndex": 0
+        },
+        {
+          "type": "choice",
+          "answer": "A weaker applied field than the 3.20 δ nucleus.",
+          "options": [
+            "A stronger applied field than the 3.20 δ nucleus.",
+            "A weaker applied field than the 3.20 δ nucleus.",
+            "Zero applied magnetic field."
+          ],
+          "label": "applied field",
+          "selectionPrompt": "At fixed irradiation frequency, which applied field does the 6.50 δ nucleus require?",
+          "explanation": "For fixed resonance frequency, less shielding means less external field is needed to obtain the same effective field at the nucleus.",
+          "fieldIndex": 1
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-35": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "CH₄ < cyclohexane < CH₃COCH₃ < CH₂Cl₂ ≲ CH₂=CH₂ < benzene.",
+          "options": [
+            "Benzene < CH₂=CH₂ < CH₂Cl₂ < CH₃COCH₃ < cyclohexane < CH₄.",
+            "CH₄ < cyclohexane < CH₃COCH₃ < CH₂Cl₂ ≲ CH₂=CH₂ < benzene.",
+            "CH₄ < benzene < cyclohexane < CH₂Cl₂ < CH₃COCH₃ < CH₂=CH₂.",
+            "CH₃COCH₃ < CH₄ < CH₂Cl₂ < benzene < cyclohexane < CH₂=CH₂."
+          ],
+          "label": "Answer",
+          "selectionPrompt": "Choose the expected order of increasing ¹H chemical shift.",
+          "explanation": "CH₂Cl₂ and ethylene are nearly coincident around 5.3 ppm; their tiny ordering is an expected textbook comparison, not a solvent-independent universal law.",
+          "fieldIndex": 0
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-37": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "2,2-Dimethylpropane (neopentane), C(CH₃)₄.",
+          "options": [
+            "Pentane, CH₃CH₂CH₂CH₂CH₃.",
+            "2,2-Dimethylpropane (neopentane), C(CH₃)₄.",
+            "2-Methylbutane, CH₃CH(CH₃)CH₂CH₃."
+          ],
+          "label": "a",
+          "selectionPrompt": "Choose a C₅H₁₂ structure with only one ¹H NMR peak.",
+          "explanation": "Four symmetry-equivalent methyl groups account for all twelve H atoms.",
+          "fieldIndex": 0
+        },
+        {
+          "type": "choice",
+          "answer": "Cyclopentane, a ring of five CH₂ groups.",
+          "options": [
+            "Pent-1-ene, CH₂=CHCH₂CH₂CH₃.",
+            "Cyclopentane, a ring of five CH₂ groups.",
+            "Methylcyclobutane."
+          ],
+          "label": "b",
+          "selectionPrompt": "Choose a C₅H₁₀ structure with only one ¹H NMR peak.",
+          "explanation": "Rapid conformational averaging and ring symmetry make the ten cyclopentane hydrogens equivalent on the usual NMR timescale.",
+          "fieldIndex": 1
+        },
+        {
+          "type": "choice",
+          "answer": "1,4-Dioxane: cyclic O–CH₂–CH₂–O–CH₂–CH₂.",
+          "options": [
+            "Ethyl acetate, CH₃CO₂CH₂CH₃.",
+            "1,4-Dioxane: cyclic O–CH₂–CH₂–O–CH₂–CH₂.",
+            "Methyl propanoate, CH₃CH₂CO₂CH₃."
+          ],
+          "label": "c",
+          "selectionPrompt": "Choose a C₄H₈O₂ structure with only one ¹H NMR peak.",
+          "explanation": "Symmetry and rapid chair interconversion make the four CH₂ groups and all eight H equivalent under ordinary conditions.",
+          "fieldIndex": 2
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-38": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "Doublet (2 lines).",
+          "options": [
+            "Singlet (1 line).",
+            "Doublet (2 lines).",
+            "Triplet (3 lines)."
+          ],
+          "label": "a · methyl",
+          "selectionPrompt": "Predict the first-order pattern for the 9 methyl H in (CH₃)₃CH.",
+          "explanation": "Each methyl H has one adjacent methine H: n+1 = 2.",
+          "fieldIndex": 0
+        },
+        {
+          "type": "choice",
+          "answer": "Decet (10 lines).",
+          "options": [
+            "Quartet (4 lines).",
+            "Decet (10 lines).",
+            "Septet (7 lines)."
+          ],
+          "label": "a · methine",
+          "selectionPrompt": "Predict the first-order pattern for the methine H in (CH₃)₃CH.",
+          "explanation": "The central H couples to nine equivalent neighboring methyl H: n+1 = 10.",
+          "fieldIndex": 1
+        },
+        {
+          "type": "choice",
+          "answer": "Triplet (3 lines).",
+          "options": [
+            "Singlet (1 line).",
+            "Triplet (3 lines).",
+            "Doublet (2 lines)."
+          ],
+          "label": "b · terminal methyl",
+          "selectionPrompt": "Predict the pattern for CH₃CH₂– in methyl propanoate.",
+          "explanation": "The terminal methyl has two adjacent methylene H: n+1 = 3.",
+          "fieldIndex": 2
+        },
+        {
+          "type": "choice",
+          "answer": "Quartet (4 lines).",
+          "options": [
+            "Triplet (3 lines).",
+            "Quartet (4 lines).",
+            "Septet (7 lines)."
+          ],
+          "label": "b · methylene",
+          "selectionPrompt": "Predict the pattern for –CH₂CO₂– in methyl propanoate.",
+          "explanation": "The methylene couples to three neighboring methyl H: n+1 = 4.",
+          "fieldIndex": 3
+        },
+        {
+          "type": "choice",
+          "answer": "Singlet (1 line).",
+          "options": [
+            "Triplet (3 lines).",
+            "Singlet (1 line).",
+            "Quartet (4 lines)."
+          ],
+          "label": "b · methoxy",
+          "selectionPrompt": "Predict the pattern for –OCH₃ in methyl propanoate.",
+          "explanation": "No adjacent carbon-bound proton group is connected through the usual vicinal coupling path; long-range coupling through the ester is neglected.",
+          "fieldIndex": 4
+        },
+        {
+          "type": "choice",
+          "answer": "Doublet (2 lines).",
+          "options": [
+            "Singlet (1 line).",
+            "Doublet (2 lines).",
+            "Quartet (4 lines)."
+          ],
+          "label": "c · methyl",
+          "selectionPrompt": "Predict the textbook first-order pattern for the methyl H of trans-2-butene.",
+          "explanation": "Each methyl couples primarily to its one adjacent vinylic H.",
+          "fieldIndex": 5
+        },
+        {
+          "type": "choice",
+          "answer": "Quartet (4 lines), in the introductory local-neighbor approximation.",
+          "options": [
+            "Singlet (1 line).",
+            "Quartet (4 lines), in the introductory local-neighbor approximation.",
+            "Triplet (3 lines)."
+          ],
+          "label": "c · vinylic",
+          "selectionPrompt": "Predict the textbook first-order pattern for the vinylic H of trans-2-butene.",
+          "explanation": "Each vinylic H is split by the three H of its neighboring methyl in the textbook’s simple model; a full spin system can give additional structure.",
+          "fieldIndex": 6
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-39": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "Triplet (3 lines), integration 3 H.",
+          "options": [
+            "Doublet (2 lines), integration 3 H.",
+            "Triplet (3 lines), integration 3 H.",
+            "Singlet (1 line), integration 6 H."
+          ],
+          "label": "propanoate methyl",
+          "selectionPrompt": "Predict the first-order pattern for CH₃CH₂CO₂–.",
+          "explanation": "The propanoate terminal methyl has two neighboring CH₂ H.",
+          "fieldIndex": 0
+        },
+        {
+          "type": "choice",
+          "answer": "Quartet (4 lines), integration 2 H.",
+          "options": [
+            "Triplet (3 lines), integration 2 H.",
+            "Quartet (4 lines), integration 2 H.",
+            "Septet (7 lines), integration 1 H."
+          ],
+          "label": "propanoate methylene",
+          "selectionPrompt": "Predict the first-order pattern for –CH₂CO₂–.",
+          "explanation": "The propanoate CH₂ has three neighboring methyl H.",
+          "fieldIndex": 1
+        },
+        {
+          "type": "choice",
+          "answer": "Septet (7 lines), integration 1 H.",
+          "options": [
+            "Decet (10 lines), integration 1 H.",
+            "Septet (7 lines), integration 1 H.",
+            "Doublet (2 lines), integration 6 H."
+          ],
+          "label": "isopropyl methine",
+          "selectionPrompt": "Predict the first-order pattern for –OCH(CH₃)₂.",
+          "explanation": "The O-bearing methine couples to six equivalent methyl H.",
+          "fieldIndex": 2
+        },
+        {
+          "type": "choice",
+          "answer": "Doublet (2 lines), combined integration 6 H.",
+          "options": [
+            "Triplet (3 lines), combined integration 6 H.",
+            "Doublet (2 lines), combined integration 6 H.",
+            "Quartet (4 lines), combined integration 2 H."
+          ],
+          "label": "isopropyl methyls",
+          "selectionPrompt": "Predict the first-order pattern for the two methyl groups in –OCH(CH₃)₂.",
+          "explanation": "The equivalent methyl groups each couple to one methine H.",
+          "fieldIndex": 3
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-42": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "Two exocyclic =CH₂ H, integrating to 2 H.",
+          "options": [
+            "One endocyclic =CH H, integrating to 1 H.",
+            "Two exocyclic =CH₂ H, integrating to 2 H.",
+            "No vinylic H at all."
+          ],
+          "label": "methylenecyclohexane",
+          "selectionPrompt": "Which diagnostic vinylic integration identifies methylenecyclohexane?",
+          "explanation": "The exocyclic terminal double-bond carbon is CH₂, so its vinylic signal accounts for two H.",
+          "fieldIndex": 0
+        },
+        {
+          "type": "choice",
+          "answer": "One endocyclic =CH H, integrating to 1 H, plus an alkene-bound CH₃ group.",
+          "options": [
+            "Two exocyclic =CH₂ H and no methyl group.",
+            "One endocyclic =CH H, integrating to 1 H, plus an alkene-bound CH₃ group.",
+            "Six aromatic H between 7 and 8 ppm."
+          ],
+          "label": "1-methylcyclohexene",
+          "selectionPrompt": "Which diagnostic vinylic integration identifies 1-methylcyclohexene?",
+          "explanation": "C1 bears methyl and no H; C2 bears the single vinylic H.",
+          "fieldIndex": 1
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-67": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "Methyl propanoate, CH₃CH₂C(=O)OCH₃.",
+          "options": [
+            "Ethyl acetate, CH₃C(=O)OCH₂CH₃.",
+            "Methyl propanoate, CH₃CH₂C(=O)OCH₃.",
+            "Butanoic acid, CH₃CH₂CH₂CO₂H.",
+            "Butan-2-one, CH₃C(=O)CH₂CH₃."
+          ],
+          "label": "Answer",
+          "selectionPrompt": "Choose the product consistent with every supplied spectrum.",
+          "explanation": "All four carbon environments and all eight H agree with CH₃CH₂C(=O)OCH₃. Ethyl acetate would instead have an OCH₂ quartet, contradicting the methoxy singlet.",
+          "fieldIndex": 0
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-68": {
+      "fields": [
+        {
+          "type": "choice",
+          "answer": "3-Methylbutan-2-one, CH₃C(=O)CH(CH₃)₂.",
+          "options": [
+            "Pentan-2-one, CH₃C(=O)CH₂CH₂CH₃.",
+            "3-Methylbutan-2-one, CH₃C(=O)CH(CH₃)₂.",
+            "2-Methylbutanal, CH₃CH₂CH(CH₃)CHO.",
+            "3-Methylbutan-2-ol, CH₃CH(OH)CH(CH₃)₂."
+          ],
+          "label": "Answer",
+          "selectionPrompt": "Choose the nitrile/Grignard product consistent with every supplied spectrum.",
+          "explanation": "Five carbons produce only four carbon resonances because the two isopropyl methyl groups are equivalent; all data fit 3-methylbutan-2-one.",
+          "fieldIndex": 0
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Part a: choose the approximate proton-shift region.",
+          "type": "choice",
+          "answer": "About 1–2 ppm",
+          "options": [
+            "About 1–2 ppm",
+            "About 7–8 ppm",
+            "About 9–10 ppm"
+          ],
+          "explanation": "Cyclohexane has ordinary saturated C–H bonds; rapid chair flipping averages axial and equatorial positions."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Part b: choose the approximate proton-shift region.",
+          "type": "choice",
+          "answer": "About 2–2.5 ppm",
+          "options": [
+            "About 2–2.5 ppm",
+            "About 0 ppm",
+            "About 9–10 ppm"
+          ],
+          "explanation": "The acetone methyls are alpha to a carbonyl, which shifts them downfield from simple alkane methyls."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Part c: choose the approximate proton-shift region.",
+          "type": "choice",
+          "answer": "About 7–8 ppm",
+          "options": [
+            "About 7–8 ppm",
+            "About 1–2 ppm",
+            "About 3–4 ppm"
+          ],
+          "explanation": "Aromatic ring-current deshielding places benzene H in the aromatic region."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Part d: choose the approximate proton-shift region.",
+          "type": "choice",
+          "answer": "About 5–6 ppm",
+          "options": [
+            "About 5–6 ppm",
+            "About 0–1 ppm",
+            "About 9–10 ppm"
+          ],
+          "explanation": "Two electronegative chlorines strongly deshield the methylene H."
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Part e: choose the approximate proton-shift region.",
+          "type": "choice",
+          "answer": "About 9–10 ppm",
+          "options": [
+            "About 9–10 ppm",
+            "About 1–2 ppm",
+            "About 5–6 ppm"
+          ],
+          "explanation": "Both glyoxal protons are aldehydic and strongly deshielded by carbonyl groups."
+        },
+        {
+          "label": "f",
+          "selectionPrompt": "Part f: choose the approximate proton-shift region.",
+          "type": "choice",
+          "answer": "About 2–3 ppm",
+          "options": [
+            "About 2–3 ppm",
+            "About 7–8 ppm",
+            "About 9–10 ppm"
+          ],
+          "explanation": "Methyl groups bonded to nitrogen absorb downfield of alkane methyls, but not in the aromatic or aldehyde region."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-7": {
+      "fields": [
+        {
+          "label": "Aromatic H",
+          "selectionPrompt": "Which aromatic proton environments and region are expected?",
+          "type": "choice",
+          "answer": "Two sets, each 2 H, roughly 6.5–8 ppm",
+          "options": [
+            "Two sets, each 2 H, roughly 6.5–8 ppm",
+            "One set of 4 H at 0–1 ppm",
+            "Four sets of 1 H at 9–10 ppm"
+          ],
+          "explanation": "The unlike para substituents give two symmetry-related pairs of aromatic H."
+        },
+        {
+          "label": "Vinylic H",
+          "selectionPrompt": "How do the two alkene H appear chemically?",
+          "type": "choice",
+          "answer": "Two different 1-H environments, roughly 5–7 ppm",
+          "options": [
+            "Two different 1-H environments, roughly 5–7 ppm",
+            "One alkane 2-H environment near 1 ppm",
+            "Two aldehyde H near 10 ppm"
+          ],
+          "explanation": "The two ends of the trans double bond carry different substituents, so their H are not equivalent."
+        },
+        {
+          "label": "Methoxy H",
+          "selectionPrompt": "Where do the methoxy protons occur?",
+          "type": "choice",
+          "answer": "One 3-H environment, roughly 3.5–4 ppm",
+          "options": [
+            "One 3-H environment, roughly 3.5–4 ppm",
+            "One 3-H environment near 9.5 ppm",
+            "Three separate 1-H environments near 1 ppm"
+          ],
+          "explanation": "The O-bound methyl is deshielded by oxygen; rotation averages its three H."
+        },
+        {
+          "label": "Ethyl H",
+          "selectionPrompt": "Which assignments fit the ethyl end?",
+          "type": "choice",
+          "answer": "Allylic CH₂: about 2–2.5 ppm; terminal CH₃: about 1 ppm",
+          "options": [
+            "Allylic CH₂: about 2–2.5 ppm; terminal CH₃: about 1 ppm",
+            "CH₂: about 10 ppm; CH₃: about 7 ppm",
+            "Both groups: one 5-H peak near 4 ppm"
+          ],
+          "explanation": "The CH₂ is next to the C=C bond; the terminal methyl is an ordinary alkyl methyl."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Part (a): patterns for CHBr₂ and CH₃",
+          "type": "choice",
+          "answer": "CHBr₂ quartet; CH₃ doublet",
+          "options": [
+            "CHBr₂ quartet; CH₃ doublet",
+            "CHBr₂ triplet; CH₃ singlet",
+            "Both singlets"
+          ],
+          "explanation": "The CH couples to three adjacent methyl H; the methyl couples to one CH."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Part (b): patterns from left to right",
+          "type": "choice",
+          "answer": "OCH₃ singlet; OCH₂ triplet; CH₂Br triplet",
+          "options": [
+            "OCH₃ singlet; OCH₂ triplet; CH₂Br triplet",
+            "OCH₃ triplet; OCH₂ quartet; CH₂Br singlet",
+            "All singlets"
+          ],
+          "explanation": "The methoxy group has no ordinary vicinal H coupling through oxygen; the two CH₂ groups split each other."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Part (c): terminal and central CH₂ patterns",
+          "type": "choice",
+          "answer": "Terminal CH₂Cl triplet; central CH₂ quintet",
+          "options": [
+            "Terminal CH₂Cl triplet; central CH₂ quintet",
+            "Terminal doublet; central triplet",
+            "All three CH₂ groups are singlets"
+          ],
+          "explanation": "The central CH₂ couples to four equivalent terminal H; each terminal group couples to two central H."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Part (d): ethyl isobutyrate patterns",
+          "type": "choice",
+          "answer": "Isopropyl CH₃ doublet, CH septet; OCH₂ quartet, ethyl CH₃ triplet",
+          "options": [
+            "Isopropyl CH₃ doublet, CH septet; OCH₂ quartet, ethyl CH₃ triplet",
+            "All methyls singlets; both CH groups triplets",
+            "Isopropyl CH₃ triplet, CH quartet; OCH₂ doublet"
+          ],
+          "explanation": "Count six neighbors for the isopropyl CH and one for its methyls; the ethoxy group supplies the familiar quartet/triplet."
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Part (e): isopropyl propanoate patterns",
+          "type": "choice",
+          "answer": "Propanoate CH₃ triplet, CH₂ quartet; OCH septet, isopropyl CH₃ doublet",
+          "options": [
+            "Propanoate CH₃ triplet, CH₂ quartet; OCH septet, isopropyl CH₃ doublet",
+            "Propanoate CH₃ doublet, CH₂ singlet; OCH triplet",
+            "All four environments are singlets"
+          ],
+          "explanation": "The ester separates an ethyl group from an isopropyl group, so apply n+1 independently on each side."
+        },
+        {
+          "label": "f",
+          "selectionPrompt": "Part (f): choose the introductory pattern assignment.",
+          "type": "choice",
+          "answer": "Benzylic CH₂ doublets, vinylic H triplet-like, aromatic H complex multiplets",
+          "options": [
+            "Benzylic CH₂ doublets, vinylic H triplet-like, aromatic H complex multiplets",
+            "All H give one singlet",
+            "Benzylic CH₂ septets, vinylic H singlets, aromatic H triplets only"
+          ],
+          "explanation": "Ignoring small long-range couplings, each benzylic CH₂ is adjacent to one vinyl H and each vinyl H to two CH₂ H. The aromatic and symmetry-related spin systems can show higher-order structure; exact line counts need coupling data."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "Splitting predictions use the introductory first-order approximation. Part (f) can show additional higher-order and long-range splitting.",
+      "sourceImageReviewed": true
+    },
+    "organic-13-12": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Part (a): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Enantiotopic",
+          "options": [
+            "Enantiotopic",
+            "Unrelated",
+            "Homotopic",
+            "Diastereotopic"
+          ],
+          "explanation": "Replacing either CH₂ H creates the opposite configuration at a single new stereocenter in an otherwise achiral molecule."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Part (b): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Diastereotopic",
+          "options": [
+            "Diastereotopic",
+            "Unrelated",
+            "Homotopic",
+            "Enantiotopic"
+          ],
+          "explanation": "The two H at this ring position are cis versus trans to OH; replacement produces diastereomers."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Part (c): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Diastereotopic",
+          "options": [
+            "Diastereotopic",
+            "Unrelated",
+            "Homotopic",
+            "Enantiotopic"
+          ],
+          "explanation": "Replacing a proton in one methyl or the other distinguishes the cis and trans sides of the alkene and gives different E/Z products."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Part (d): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Diastereotopic",
+          "options": [
+            "Diastereotopic",
+            "Unrelated",
+            "Homotopic",
+            "Enantiotopic"
+          ],
+          "explanation": "The pre-existing CHBr stereocenter makes the ethoxy CH₂ H diastereotopic."
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Part (e): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Diastereotopic",
+          "options": [
+            "Diastereotopic",
+            "Unrelated",
+            "Homotopic",
+            "Enantiotopic"
+          ],
+          "explanation": "The substituted ring carbon is a stereocenter, so the two isopropyl methyl groups are diastereotopic."
+        },
+        {
+          "label": "f",
+          "selectionPrompt": "Part (f): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Homotopic",
+          "options": [
+            "Homotopic",
+            "Unrelated",
+            "Enantiotopic",
+            "Diastereotopic"
+          ],
+          "explanation": "A proper rotation exchanges the two bridgehead H in this symmetric cis-fused framework; replacement gives the same product."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-15": {
+      "fields": [
+        {
+          "label": "Tree",
+          "selectionPrompt": "Which successive splitting tree is correct?",
+          "type": "choice",
+          "answer": "Doublet with J = 16 Hz, each branch split into a triplet with J = 8 Hz",
+          "options": [
+            "Doublet with J = 16 Hz, each branch split into a triplet with J = 8 Hz",
+            "Triplet with J = 16 Hz, each branch a quartet",
+            "One quintet from four equivalent neighboring H"
+          ],
+          "explanation": "One vinyl neighbor gives the 16-Hz doublet; two methylene neighbors give the 8-Hz triplets."
+        },
+        {
+          "label": "Five lines",
+          "selectionPrompt": "Why are only five distinct lines visible?",
+          "type": "choice",
+          "answer": "Two central lines overlap; the five intensities are 1: 2: 2: 2: 1",
+          "options": [
+            "Two central lines overlap; the five intensities are 1: 2: 2: 2: 1",
+            "The molecule has five equivalent neighboring H",
+            "One of the six lines is forbidden"
+          ],
+          "explanation": "Centers at ±8 Hz split by ±8 and 0 Hz, producing positions −16, −8, 0, 0, 8, 16 Hz. The two central contributions add."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-16": {
+      "fields": [
+        {
+          "label": "Regiochemistry",
+          "selectionPrompt": "Which observation identifies the Markovnikov product?",
+          "type": "choice",
+          "answer": "1-Chloro-1-methylcyclohexane has a methyl singlet and no CH–Cl proton.",
+          "options": [
+            "1-Chloro-1-methylcyclohexane has a methyl singlet and no CH–Cl proton.",
+            "It has a methyl doublet and a CH–Cl proton.",
+            "Both products must have identical proton spectra."
+          ],
+          "explanation": "The Markovnikov carbon bears both Cl and CH₃ and has no H. The alternative 1-chloro-2-methyl isomer has a methyl adjacent to CH (doublet) and a separate deshielded CH–Cl signal."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-18": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose an example with seven different carbon environments.",
+          "type": "choice",
+          "answer": "Hept-1-ene",
+          "options": [
+            "Hept-1-ene",
+            "Heptane",
+            "Cycloheptane"
+          ],
+          "explanation": "The terminal double bond removes end-for-end symmetry: every carbon of hept-1-ene is distinct."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose a six-carbon example with five carbon signals.",
+          "type": "choice",
+          "answer": "2-Methylpentane",
+          "options": [
+            "2-Methylpentane",
+            "Hexane",
+            "2,2-Dimethylbutane"
+          ],
+          "explanation": "The two methyl groups attached to C2 are equivalent; the other four carbons are distinct."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Choose a four-carbon example with three carbon signals.",
+          "type": "choice",
+          "answer": "2-Methylpropan-1-ol",
+          "options": [
+            "2-Methylpropan-1-ol",
+            "Butan-1-ol",
+            "2-Methylpropan-2-ol"
+          ],
+          "explanation": "The two methyl groups are equivalent, while CH and CH₂OH give two more signals."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-19": {
+      "fields": [
+        {
+          "label": "Assignments",
+          "selectionPrompt": "Match the four ¹³C signals to methyl propanoate.",
+          "type": "choice",
+          "answer": "≈175: C=O; ≈52: OCH₃; ≈28: CH₂; ≈9: terminal CH₃",
+          "options": [
+            "≈175: C=O; ≈52: OCH₃; ≈28: CH₂; ≈9: terminal CH₃",
+            "≈175: OCH₃; ≈52: C=O; ≈28: terminal CH₃; ≈9: CH₂",
+            "All four are saturated alkyl carbons below 50 ppm"
+          ],
+          "explanation": "The ester carbonyl is far downfield, OCH₃ is deshielded by oxygen, and the carbonyl-adjacent CH₂ lies downfield of the terminal methyl."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-20": {
+      "fields": [
+        {
+          "label": "C2 and C5",
+          "selectionPrompt": "Assign the two CH carbons using DEPT-90.",
+          "type": "choice",
+          "answer": "C2–OH ≈68 ppm; vinylic C5 ≈124 ppm",
+          "options": [
+            "C2–OH ≈68 ppm; vinylic C5 ≈124 ppm",
+            "C2–OH ≈124 ppm; vinylic C5 ≈68 ppm",
+            "Both are methyl carbons near 20 ppm"
+          ],
+          "explanation": "Only these two carbons bear one H. Oxygen-bearing sp³ carbon appears near 68 ppm, while the alkene CH is near 124 ppm."
+        },
+        {
+          "label": "C6",
+          "selectionPrompt": "Which signal belongs to C6?",
+          "type": "choice",
+          "answer": "The alkene carbon near 132 ppm that disappears from both DEPT spectra",
+          "options": [
+            "The alkene carbon near 132 ppm that disappears from both DEPT spectra",
+            "The peak near 68 ppm retained in DEPT-90",
+            "The negative DEPT peak near 40 ppm"
+          ],
+          "explanation": "C6 bears no H, so it appears only in the ordinary carbon spectrum."
+        },
+        {
+          "label": "C3 and C4",
+          "selectionPrompt": "Assign the two CH₂ carbons.",
+          "type": "choice",
+          "answer": "C3 ≈40 ppm; C4 ≈25 ppm",
+          "options": [
+            "C3 ≈40 ppm; C4 ≈25 ppm",
+            "C3 ≈132 ppm; C4 ≈124 ppm",
+            "C3 ≈18 ppm; C4 ≈68 ppm"
+          ],
+          "explanation": "Both are negative in DEPT-135. C3 is closer to the alcohol-bearing carbon; C4 is allylic."
+        },
+        {
+          "label": "Methyl carbons",
+          "selectionPrompt": "Which methyl assignments fit the spectrum?",
+          "type": "choice",
+          "answer": "C1 ≈23 ppm; the two methyls attached to C6 are near 18 and 26 ppm",
+          "options": [
+            "C1 ≈23 ppm; the two methyls attached to C6 are near 18 and 26 ppm",
+            "All three methyls give one signal near 23 ppm",
+            "C1 ≈68 ppm; both C6 methyls ≈132 ppm"
+          ],
+          "explanation": "All three are positive in DEPT-135 but absent from DEPT-90. The alkene methyls differ because they lie cis and trans to the unlike substituents at C5; this basic DEPT spectrum alone does not uniquely label those two methyls."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "Use approximate shifts from Figure 13.21. The two alkene-methyl signals are identified as a pair; their individual stereospecific assignment requires additional information.",
+      "extraSourceFigureParts": [
+        {
+          "file": "practice/organic-body/457.svg.gz",
+          "page": 457,
+          "printed": "439",
+          "crops": [
+            [
+              69,
+              112,
+              480,
+              493
+            ]
+          ],
+          "role": "figure",
+          "contextLabel": "Figure 13.21"
+        }
+      ],
+      "sourceImageReviewed": true
+    },
+    "organic-13-21": {
+      "fields": [
+        {
+          "label": "Shift estimates",
+          "selectionPrompt": "Choose sensible approximate regions for CH₃C(OCH₃)=CHC(=O)CH₂CH₃.",
+          "type": "choice",
+          "answer": "C=O ≈190–205; C–O alkene ≈155–180; alkene CH ≈90–115; OCH₃ ≈50–65; COCH₂ ≈30–45; the two other CH₃ ≈5–25 ppm",
+          "options": [
+            "C=O ≈190–205; C–O alkene ≈155–180; alkene CH ≈90–115; OCH₃ ≈50–65; COCH₂ ≈30–45; the two other CH₃ ≈5–25 ppm",
+            "All seven carbons fall below 50 ppm",
+            "C=O ≈60; OCH₃ ≈200; all alkene carbons ≈10 ppm"
+          ],
+          "explanation": "The ketone and oxygen-substituted alkene are strongly polarized; rough environment ranges are appropriate without measured shifts."
+        },
+        {
+          "label": "DEPT-90",
+          "selectionPrompt": "Which carbon remains in DEPT-90?",
+          "type": "choice",
+          "answer": "Only the vinylic CH between C–O and C=O",
+          "options": [
+            "Only the vinylic CH between C–O and C=O",
+            "All three methyl carbons",
+            "The carbonyl carbon"
+          ],
+          "explanation": "DEPT-90 shows CH carbons only."
+        },
+        {
+          "label": "DEPT-135 positive",
+          "selectionPrompt": "Which carbons give positive peaks?",
+          "type": "choice",
+          "answer": "The vinylic CH and all three CH₃ carbons",
+          "options": [
+            "The vinylic CH and all three CH₃ carbons",
+            "Only CH₂",
+            "The carbonyl and the alkene C–O carbon"
+          ],
+          "explanation": "CH and CH₃ are positive; methyls include OCH₃ and the two chain-end methyls."
+        },
+        {
+          "label": "DEPT-135 negative/absent",
+          "selectionPrompt": "Which carbons are negative or absent?",
+          "type": "choice",
+          "answer": "COCH₂ is negative; C=O and alkene C–O are absent",
+          "options": [
+            "COCH₂ is negative; C=O and alkene C–O are absent",
+            "C=O is negative; CH₂ is absent",
+            "All alkene carbons are negative"
+          ],
+          "explanation": "The only CH₂ is negative. Both carbons with no attached H disappear."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-22": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Choose the hydrocarbon consistent with all DEPT data.",
+          "type": "choice",
+          "answer": "Neopentylbenzene, C₆H₅CH₂C(CH₃)₃",
+          "options": [
+            "Neopentylbenzene, C₆H₅CH₂C(CH₃)₃",
+            "tert-Butylbenzene, C₆H₅C(CH₃)₃",
+            "Pentylbenzene, C₆H₅(CH₂)₄CH₃"
+          ],
+          "explanation": "The aromatic ring contributes four distinct carbons, three bearing H. A benzylic CH₂ gives the negative peak at 50.2; three equivalent methyls give 29.5; the remaining saturated carbon at 31.8 has no H. This totals eleven carbons."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-23": {
+      "fields": [
+        {
+          "label": "Product identification",
+          "selectionPrompt": "Which ¹³C/DEPT result distinguishes the Markovnikov product?",
+          "type": "choice",
+          "answer": "2-Bromohex-1-ene has one vinyl CH₂ (negative DEPT-135) and one proton-free vinyl carbon (absent in DEPT).",
+          "options": [
+            "2-Bromohex-1-ene has one vinyl CH₂ (negative DEPT-135) and one proton-free vinyl carbon (absent in DEPT).",
+            "Both alkene carbons are CH and appear in DEPT-90.",
+            "No alkene carbons remain after one equivalent of HBr."
+          ],
+          "explanation": "Markovnikov addition gives CH₂=C(Br)CH₂CH₂CH₂CH₃. The alternative 1-bromohex-1-ene has two vinyl CH carbons. Both regioisomers can have six ordinary carbon signals, so carbon count alone is insufficient."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-24": {
+      "fields": [
+        {
+          "label": "a · methyl",
+          "selectionPrompt": "Part (a): indicated methyl H",
+          "type": "choice",
+          "answer": "Doublet",
+          "options": [
+            "Doublet",
+            "Singlet",
+            "Quartet"
+          ],
+          "explanation": "The methyl is adjacent to one methine H."
+        },
+        {
+          "label": "a · methine",
+          "selectionPrompt": "Part (a): indicated CH",
+          "type": "choice",
+          "answer": "Septet",
+          "options": [
+            "Septet",
+            "Triplet",
+            "Doublet"
+          ],
+          "explanation": "This CH couples to six equivalent methyl H in the isopropyl group."
+        },
+        {
+          "label": "a · CH₂Cl",
+          "selectionPrompt": "Part (a): indicated CH₂Cl H",
+          "type": "choice",
+          "answer": "Singlet",
+          "options": [
+            "Singlet",
+            "Triplet",
+            "Septet"
+          ],
+          "explanation": "The carbonyl on one side has no H; coupling across C=O is neglected."
+        },
+        {
+          "label": "b · methyl",
+          "selectionPrompt": "Part (b): ring-attached CH₃",
+          "type": "choice",
+          "answer": "Singlet",
+          "options": [
+            "Singlet",
+            "Triplet",
+            "Quartet"
+          ],
+          "explanation": "The adjacent aromatic carbon bears no H."
+        },
+        {
+          "label": "b · aromatic",
+          "selectionPrompt": "Part (b): the two indicated aromatic positions",
+          "type": "choice",
+          "answer": "Each belongs to an approximately doublet-like 2-H aromatic set",
+          "options": [
+            "Each belongs to an approximately doublet-like 2-H aromatic set",
+            "Each is a methyl-like quartet",
+            "All four aromatic H are equivalent and form one singlet"
+          ],
+          "explanation": "The unlike para substituents give two pairs of aromatic H with dominant ortho coupling; the exact pattern can be higher order."
+        },
+        {
+          "label": "b · CH₂",
+          "selectionPrompt": "Part (b): the benzylic CH₂ next to CHO",
+          "type": "choice",
+          "answer": "Doublet",
+          "options": [
+            "Doublet",
+            "Triplet",
+            "Singlet"
+          ],
+          "explanation": "The CH₂ couples to one aldehyde H."
+        },
+        {
+          "label": "b · CHO",
+          "selectionPrompt": "Part (b): aldehyde H",
+          "type": "choice",
+          "answer": "Triplet",
+          "options": [
+            "Triplet",
+            "Singlet",
+            "Septet"
+          ],
+          "explanation": "The aldehyde H couples to two equivalent adjacent CH₂ H."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "Uses the chapter’s local-neighbor approximation; weak long-range couplings and higher-order aromatic details are not assigned exact line counts.",
+      "sourceImageReviewed": true
+    },
+    "organic-13-25": {
+      "fields": [
+        {
+          "label": "¹H",
+          "selectionPrompt": "How many proton environments?",
+          "type": "numeric",
+          "answer": 5,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "The methyl, the vinylic H, and three distinct ring CH₂ groups give five environments under rapid conformational averaging."
+        },
+        {
+          "label": "¹³C",
+          "selectionPrompt": "How many carbon environments?",
+          "type": "numeric",
+          "answer": 7,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "There is no symmetry that interchanges distinct carbon positions in 3-methylcyclohex-2-en-1-one; all seven carbons differ."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-26": {
+      "fields": [
+        {
+          "label": "¹H positions and integrals",
+          "selectionPrompt": "Which proton assignments fit ethyl 2-chloropropanoate?",
+          "type": "choice",
+          "answer": "CH₃CHCl: 3 H near 1.5–2; CHCl: 1 H near 4–4.5; OCH₂: 2 H near 4–4.5; ethyl CH₃: 3 H near 1–1.5 ppm",
+          "options": [
+            "CH₃CHCl: 3 H near 1.5–2; CHCl: 1 H near 4–4.5; OCH₂: 2 H near 4–4.5; ethyl CH₃: 3 H near 1–1.5 ppm",
+            "All ten H appear as one singlet near 1 ppm",
+            "An aldehyde1-H peak near 10 ppm and an aromatic5-H peak near 7 ppm"
+          ],
+          "explanation": "Chlorine and oxygen deshield their directly attached proton-bearing carbons. The two methyl groups remain upfield."
+        },
+        {
+          "label": "¹H splitting",
+          "selectionPrompt": "Which splitting description respects the stereocenter?",
+          "type": "choice",
+          "answer": "CHCl quartet; its CH₃ doublet; ethyl CH₃ triplet; OCH₂ is an AB-type multiplet, often approximated as a quartet",
+          "options": [
+            "CHCl quartet; its CH₃ doublet; ethyl CH₃ triplet; OCH₂ is an AB-type multiplet, often approximated as a quartet",
+            "Both methyls are singlets and CHCl is a septet",
+            "Every signal is a triplet"
+          ],
+          "explanation": "The CHCl center makes the two OCH₂ H diastereotopic. They may give two overlapping1-H resonances with geminal and methyl coupling; a simple quartet is only an approximation."
+        },
+        {
+          "label": "¹³C spectrum",
+          "selectionPrompt": "Which carbon spectrum is expected?",
+          "type": "choice",
+          "answer": "Five signals: C=O≈170; OCH₂≈60; CHCl≈55; CH₃CHCl≈20; ethyl CH₃≈14 ppm",
+          "options": [
+            "Five signals: C=O≈170; OCH₂≈60; CHCl≈55; CH₃CHCl≈20; ethyl CH₃≈14 ppm",
+            "Two carbon signals at 20 and 170 ppm",
+            "Five signals all between120 and 150 ppm"
+          ],
+          "explanation": "Each of the five carbons has a distinct environment. The approximate shifts follow ester, oxygen-bound, chlorine-bound, and alkyl environments."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "The OCH₂ protons are diastereotopic because of the CHCl stereocenter. A textbook-style quartet is an approximation; no freehand spectrum is graded.",
+      "sourceImageReviewed": true
+    },
+    "organic-13-27": {
+      "fields": [
+        {
+          "label": "¹H",
+          "selectionPrompt": "How many proton environments after rapid ring flipping?",
+          "type": "numeric",
+          "answer": 6,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "For cis-1,2-dimethylcyclohexane, symmetry and chair exchange pair the methyls and the two methine H. Each of the two kinds of CH₂ positions still has cis-versus-trans H environments: 1+1+2+2=6."
+        },
+        {
+          "label": "¹³C",
+          "selectionPrompt": "How many carbon environments after rapid ring flipping?",
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "The two methyl carbons pair; ring carbons C1/C2, C3/C6, and C4/C5 form three pairs. Total4."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-28": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Part (a): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Diastereotopic",
+          "options": [
+            "Diastereotopic",
+            "Unrelated",
+            "Homotopic",
+            "Enantiotopic"
+          ],
+          "explanation": "Cysteine already has a stereocenter, so replacing one sulfur-adjacent CH₂ H versus the other creates diastereomers."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Part (b): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Enantiotopic",
+          "options": [
+            "Enantiotopic",
+            "Unrelated",
+            "Homotopic",
+            "Diastereotopic"
+          ],
+          "explanation": "A mirror operation exchanges the indicated same-face H on C3 and C4 of achiral cyclopentanol; substitution gives enantiomers."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-34": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Part (a): number of proton environments",
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Rapid chair flipping and symmetry give equivalent methyls and three types of ring CH₂ positions."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Part (b): number of proton environments",
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Methoxy CH₃, OCH₂, middle CH₂, and terminal CH₃ are different."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Part (c): number of proton environments",
+          "type": "numeric",
+          "answer": 2,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Naphthalene symmetry gives two sets: the four alpha H and the four beta H."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Part (d): number of proton environments",
+          "type": "numeric",
+          "answer": 6,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Styrene has three aromatic environments and three different vinyl H environments; the terminal vinyl H are cis/trans nonequivalent."
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Part (e): number of proton environments",
+          "type": "numeric",
+          "answer": 5,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Three different vinyl H plus the ethoxy CH₂ and CH₃ give five environments."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-36": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Part (a): choose (¹H environments, ¹³C environments).",
+          "type": "choice",
+          "answer": "1 proton; 2 carbon",
+          "options": [
+            "1 proton; 2 carbon",
+            "2 proton; 2 carbon",
+            "1 proton; 3 carbon"
+          ],
+          "explanation": "All four methyls in tetramethylethylene are equivalent; the two alkene carbons form the other carbon set."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Part (b): choose (¹H environments, ¹³C environments).",
+          "type": "choice",
+          "answer": "3 proton; 5 carbon",
+          "options": [
+            "3 proton; 5 carbon",
+            "4 proton; 5 carbon",
+            "3 proton; 6 carbon"
+          ],
+          "explanation": "In4,4-dimethylcyclohexanone the methyls are equivalent and two ring CH₂ pairs remain. Carbon also includes the substituted quaternary carbon and the carbonyl."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Part (c): choose (¹H environments, ¹³C environments).",
+          "type": "choice",
+          "answer": "1 proton; 2 carbon",
+          "options": [
+            "1 proton; 2 carbon",
+            "2 proton; 2 carbon",
+            "1 proton; 3 carbon"
+          ],
+          "explanation": "Acetone has equivalent methyls and one carbonyl."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Part (d): choose (¹H environments, ¹³C environments).",
+          "type": "choice",
+          "answer": "2 proton; 4 carbon",
+          "options": [
+            "2 proton; 4 carbon",
+            "3 proton; 4 carbon",
+            "2 proton; 5 carbon"
+          ],
+          "explanation": "Methyl pivalate has a tert-butyl methyl set and an OCH₃ set; carbon adds the quaternary C and carbonyl."
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Part (e): choose (¹H environments, ¹³C environments).",
+          "type": "choice",
+          "answer": "2 proton; 3 carbon",
+          "options": [
+            "2 proton; 3 carbon",
+            "3 proton; 3 carbon",
+            "2 proton; 4 carbon"
+          ],
+          "explanation": "p-Xylene has equivalent methyls and all four aromatic H equivalent. Carbons group into methyl, ring CH, and substituted ring C."
+        },
+        {
+          "label": "f",
+          "selectionPrompt": "Part (f): choose (¹H environments, ¹³C environments).",
+          "type": "choice",
+          "answer": "2 proton; 3 carbon",
+          "options": [
+            "2 proton; 3 carbon",
+            "3 proton; 3 carbon",
+            "2 proton; 4 carbon"
+          ],
+          "explanation": "1,1-Dimethylcyclopropane has equivalent methyls and equivalent ring H; carbons are methyl, CH₂, and substituted ring C."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-40": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Part (a): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Enantiotopic",
+          "options": [
+            "Enantiotopic",
+            "Unrelated",
+            "Homotopic",
+            "Diastereotopic"
+          ],
+          "explanation": "Replacing either indicated CH₂ H in 3-pentanone creates opposite configurations at the sole new stereocenter."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Part (b): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Diastereotopic",
+          "options": [
+            "Diastereotopic",
+            "Unrelated",
+            "Homotopic",
+            "Enantiotopic"
+          ],
+          "explanation": "The alcohol-bearing carbon becomes a stereocenter upon isotopic replacement on one side; the two H on that one CH₂ lead to different relative configurations. Their replacement gives diastereomers."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Part (c): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Enantiotopic",
+          "options": [
+            "Enantiotopic",
+            "Unrelated",
+            "Homotopic",
+            "Diastereotopic"
+          ],
+          "explanation": "The indicated H on opposite sides of 3-chloropentane are related by a mirror operation; replacement gives enantiomers."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-41": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Part (a): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Homotopic",
+          "options": [
+            "Homotopic",
+            "Unrelated",
+            "Enantiotopic",
+            "Diastereotopic"
+          ],
+          "explanation": "The trans-decalin bridgehead H are exchanged by a proper twofold rotation."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Part (b): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Homotopic",
+          "options": [
+            "Homotopic",
+            "Unrelated",
+            "Enantiotopic",
+            "Diastereotopic"
+          ],
+          "explanation": "Even though the fused rings differ in size, a twofold rotation swaps the top and bottom bridgehead H while preserving the rings."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Part (c): relationship of the indicated H atoms",
+          "type": "choice",
+          "answer": "Diastereotopic",
+          "options": [
+            "Diastereotopic",
+            "Unrelated",
+            "Homotopic",
+            "Enantiotopic"
+          ],
+          "explanation": "The rigid unsymmetrical bicyclic framework is chiral. Replacing a proton in one methyl versus the other gives diastereomers."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-43": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "How can pent-2-ene and ethylcyclopropane be distinguished?",
+          "type": "choice",
+          "answer": "Only pent-2-ene has vinylic H near 5–6 ppm",
+          "options": [
+            "Only pent-2-ene has vinylic H near 5–6 ppm",
+            "Both have identical vinyl peaks",
+            "Only ethylcyclopropane has an aldehyde peak"
+          ],
+          "explanation": "The ring is saturated; its hydrogens are alkyl/cyclopropyl rather than vinylic."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "How can diethyl ether and methyl propyl ether be distinguished?",
+          "type": "choice",
+          "answer": "Diethyl ether: 2 environments; methyl propyl ether: 4 including an OCH₃ singlet",
+          "options": [
+            "Diethyl ether: 2 environments; methyl propyl ether: 4 including an OCH₃ singlet",
+            "Both have one proton environment",
+            "Diethyl ether has an OCH₃ singlet but methyl propyl ether does not"
+          ],
+          "explanation": "Diethyl ether is symmetric; methyl propyl ether has different groups on either side of oxygen."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "How can ethyl acetate and butan-2-one be distinguished?",
+          "type": "choice",
+          "answer": "Ethyl acetate has OCH₂ near 4 ppm; butan-2-one has COCH₂ near 2–3 ppm",
+          "options": [
+            "Ethyl acetate has OCH₂ near 4 ppm; butan-2-one has COCH₂ near 2–3 ppm",
+            "Only butan-2-one has an OCH₂ resonance near 4 ppm",
+            "Both CH₂ groups must absorb at the same shift"
+          ],
+          "explanation": "Both can show singlet/triplet/quartet patterns, but oxygen directly bonded to CH₂ gives a larger shift."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "How can the two enones be distinguished?",
+          "type": "choice",
+          "answer": "CH₂=C(CH₃)COCH₃ has two terminal-vinyl H and two methyl singlets; CH₃CH=CHCOCH₃ has two coupled vinyl CH and a vinyl-adjacent methyl doublet",
+          "options": [
+            "CH₂=C(CH₃)COCH₃ has two terminal-vinyl H and two methyl singlets; CH₃CH=CHCOCH₃ has two coupled vinyl CH and a vinyl-adjacent methyl doublet",
+            "Both have only one 6-H methyl singlet",
+            "Only the first has aromatic H"
+          ],
+          "explanation": "Connectivity determines the nearest proton neighbors. Small long-range coupling can add fine structure."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-44": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the C₅H₁₀O structure.",
+          "type": "choice",
+          "answer": "CH₃C(=O)CH(CH₃)₂",
+          "options": [
+            "CH₃C(=O)CH(CH₃)₂",
+            "CH₃C(=O)CH₂CH₂CH₃",
+            "CH₃CH₂CH₂CH₂CHO"
+          ],
+          "explanation": "A 6-H doublet and 1-H multiplet identify an isopropyl group. The 3-H singlet identifies an acetyl methyl; one carbonyl accounts for the unsaturation."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Using corrected vinylic integrations of 1 H each, choose the C₃H₅Br structure.",
+          "type": "choice",
+          "answer": "CH₂=C(Br)CH₃",
+          "options": [
+            "CH₂=C(Br)CH₃",
+            "CH₂=CHCH₂Br",
+            "BrCH₂CH₂CH₃"
+          ],
+          "explanation": "A methyl singlet indicates no vicinal proton on its adjacent alkene carbon. The two nonequivalent terminal vinyl H give separate resonances. The printed2-H integrations would sum to 7 H and contradict C₃H₅Br."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "Source correction for (b): the formula is C₃H₅Br, but the printed integrations total 7 H. The two vinylic entries must each be1 H for the coherent structure checked here; the original statement is retained.",
+      "sourceImageReviewed": true
+    },
+    "organic-13-45": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Which C₄H₉Br structure matches spectrum (a)?",
+          "type": "choice",
+          "answer": "(CH₃)₂CHCH₂Br",
+          "options": [
+            "(CH₃)₂CHCH₂Br",
+            "CH₃CH₂CH₂CH₂Br",
+            "(CH₃)₃CBr"
+          ],
+          "explanation": "The 6-H doublet identifies equivalent methyls coupled to CH; the 2-H doublet near 3.31 identifies CH₂Br coupled to that CH."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Which C₄H₈Cl₂ structure matches spectrum (b)?",
+          "type": "choice",
+          "answer": "CH₃CHClCH₂CH₂Cl",
+          "options": [
+            "CH₃CHClCH₂CH₂Cl",
+            "ClCH₂CH₂CH₂CH₂Cl",
+            "CH₃CCl₂CH₂CH₃"
+          ],
+          "explanation": "The 3-H doublet pairs with a CHCl proton. A terminal CH₂Cl gives 2 H downfield and the remaining internal CH₂ contributes 2 H; this matches all four integrations."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-46": {
+      "fields": [
+        {
+          "label": "cis",
+          "selectionPrompt": "Number of carbon environments in cis-1,3-dimethylcyclohexane",
+          "type": "numeric",
+          "answer": 5,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Symmetry pairs C1/C3, C4/C6, and the methyl carbons; C2 and C5 remain separate: 5 signals."
+        },
+        {
+          "label": "trans",
+          "selectionPrompt": "Number of carbon environments in trans-1,3-dimethylcyclohexane with rapid ring flipping",
+          "type": "numeric",
+          "answer": 5,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "A chair flip exchanges the axial/equatorial roles and averages the pairs. The same five carbon sets remain."
+        },
+        {
+          "label": "Reason",
+          "selectionPrompt": "Why can both isomers give the same number of carbon signals?",
+          "type": "choice",
+          "answer": "Symmetry and rapid chair flipping give the same number of equivalent carbon sets, even though their shifts can differ.",
+          "options": [
+            "Symmetry and rapid chair flipping give the same number of equivalent carbon sets, even though their shifts can differ.",
+            "They are the same molecule.",
+            "All axial and equatorial carbons are always identical without ring flipping."
+          ],
+          "explanation": "Signal count reports the number of distinct environments; equal counts do not imply identical stereochemistry or identical shifts."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-47": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Part (a): number of carbon signals",
+          "type": "numeric",
+          "answer": 5,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Two equivalent methyls, one substituted ring carbon, and three ring CH₂ positions give 5."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Part (b): number of carbon signals",
+          "type": "numeric",
+          "answer": 3,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Both sides of the ether differ:CH₃CH₂O and OCH₃ give 3 carbons."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Part (c): number of carbon signals",
+          "type": "numeric",
+          "answer": 6,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "The monosubstituted ring has 4 carbon sets; tert-butyl adds one quaternary C and one methyl set."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Part (d): number of carbon signals",
+          "type": "numeric",
+          "answer": 6,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "The unsymmetrical terminal alkyne has 6 distinct carbon positions."
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Part (e): number of carbon signals",
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Chair exchange and symmetry pair the methyls, C1/C2, C3/C6, and C4/C5."
+        },
+        {
+          "label": "f",
+          "selectionPrompt": "Part (f): number of carbon signals",
+          "type": "numeric",
+          "answer": 4,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "Cyclohexanone has the carbonyl plus alpha, beta, and gamma CH₂ sets."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-48": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "DEPT-135 for 1,1-dimethylcyclohexane",
+          "type": "choice",
+          "answer": "Positive:methyls; negative:all ring CH₂; absent:substituted ring carbon",
+          "options": [
+            "Positive:methyls; negative:all ring CH₂; absent:substituted ring carbon",
+            "Positive:all ring carbons; negative:methyls",
+            "Every carbon is positive"
+          ],
+          "explanation": "CH₃ is positive, CH₂ negative, and the carbon with no H absent."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "DEPT-135 for CH₃CH₂OCH₃",
+          "type": "choice",
+          "answer": "Positive:both CH₃ carbons; negative:CH₂",
+          "options": [
+            "Positive:both CH₃ carbons; negative:CH₂",
+            "Positive:CH₂; negative:both CH₃",
+            "Only the oxygen appears"
+          ],
+          "explanation": "The ether oxygen does not change the DEPT sign rule."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "DEPT-135 for tert-butylcyclohexane",
+          "type": "choice",
+          "answer": "Positive:tert-butyl methyls and ring CH; negative:ring CH₂; absent:tert-butyl central C",
+          "options": [
+            "Positive:tert-butyl methyls and ring CH; negative:ring CH₂; absent:tert-butyl central C",
+            "Positive:only CH₂; negative:CH",
+            "All eight carbons are negative"
+          ],
+          "explanation": "The ring attachment carbon bears one H, while the tert-butyl center bears none."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "DEPT-135 for 3-methylpent-1-yne",
+          "type": "choice",
+          "answer": "Positive:terminal alkyne CH, C3 CH, and both CH₃; negative:C4 CH₂; absent:internal alkyne C",
+          "options": [
+            "Positive:terminal alkyne CH, C3 CH, and both CH₃; negative:C4 CH₂; absent:internal alkyne C",
+            "Both alkyne carbons are absent",
+            "All carbons are positive"
+          ],
+          "explanation": "DEPT classifies attached H even at sp carbons; the terminal alkyne carbon is CH."
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "DEPT-135 for cis-1,2-dimethylcyclohexane",
+          "type": "choice",
+          "answer": "Positive:methyls and C1/C2 CH; negative:C3–C6 CH₂",
+          "options": [
+            "Positive:methyls and C1/C2 CH; negative:C3–C6 CH₂",
+            "Positive:all ring CH₂; negative:methyls",
+            "Only one carbon is visible"
+          ],
+          "explanation": "Equivalent positions overlap, but their signs still follow the number of attached H."
+        },
+        {
+          "label": "f",
+          "selectionPrompt": "DEPT-135 for cyclohexanone",
+          "type": "choice",
+          "answer": "Negative:all CH₂; absent:C=O; no positive signals",
+          "options": [
+            "Negative:all CH₂; absent:C=O; no positive signals",
+            "C=O is positive and all CH₂ absent",
+            "All carbons are positive"
+          ],
+          "explanation": "Cyclohexanone has only CH₂ carbons and a proton-free carbonyl."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceRelatedQuestionIds": [
+        "organic-13-47"
+      ],
+      "sourceImageReviewed": true
+    },
+    "organic-13-49": {
+      "fields": [
+        {
+          "label": "Cyclobutane",
+          "selectionPrompt": "Choose its characteristic spectra.",
+          "type": "choice",
+          "answer": "One averaged ¹H environment and one saturated ¹³C environment; no alkene peaks",
+          "options": [
+            "One averaged ¹H environment and one saturated ¹³C environment; no alkene peaks",
+            "Three vinylic H and four carbon signals",
+            "Two methyl groups and three carbon signals"
+          ],
+          "explanation": "Symmetry and rapid conformational averaging make the ring positions equivalent."
+        },
+        {
+          "label": "But-1-ene",
+          "selectionPrompt": "Choose its characteristic spectra.",
+          "type": "choice",
+          "answer": "Five proton environments and four carbon signals, including a terminal vinyl CH₂",
+          "options": [
+            "Five proton environments and four carbon signals, including a terminal vinyl CH₂",
+            "One proton and one carbon environment",
+            "No alkene carbon or proton signals"
+          ],
+          "explanation": "The two terminal vinyl H are nonequivalent; add vinyl CH, allylic CH₂, and methyl."
+        },
+        {
+          "label": "But-2-ene",
+          "selectionPrompt": "Choose its characteristic spectra.",
+          "type": "choice",
+          "answer": "Two proton environments and two carbon environments; two vinylic H total",
+          "options": [
+            "Two proton environments and two carbon environments; two vinylic H total",
+            "Five proton environments and four carbon environments",
+            "No methyl H"
+          ],
+          "explanation": "The two ends are symmetry equivalent in either cis or trans isomer."
+        },
+        {
+          "label": "2-Methylpropene",
+          "selectionPrompt": "Choose its characteristic spectra.",
+          "type": "choice",
+          "answer": "Two proton environments and three carbon environments; terminal =CH₂ plus two equivalent methyls",
+          "options": [
+            "Two proton environments and three carbon environments; terminal =CH₂ plus two equivalent methyls",
+            "Four proton and four carbon environments",
+            "A single8-H aromatic peak"
+          ],
+          "explanation": "Equivalent methyls give one carbon/H set; vinyl CH₂ and proton-free vinyl C give two other carbon sets."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-50": {
+      "fields": [
+        {
+          "label": "¹H",
+          "selectionPrompt": "Which difference distinguishes the structures?",
+          "type": "choice",
+          "answer": "The cyclohexenone has 1 vinylic H; the cyclopentenyl ketone has 2.",
+          "options": [
+            "The cyclohexenone has 1 vinylic H; the cyclopentenyl ketone has 2.",
+            "Both have zero vinylic H",
+            "Only the cyclopentenyl ketone has a 9–10 ppm aldehyde H"
+          ],
+          "explanation": "The methyl substituent occupies one alkene carbon in the cyclohexenone; both alkene carbons in the cyclopentene bear H."
+        },
+        {
+          "label": "¹³C",
+          "selectionPrompt": "How do carbon signal counts differ?",
+          "type": "choice",
+          "answer": "Cyclohexenone: 7; cyclopentenyl ketone: 5",
+          "options": [
+            "Cyclohexenone: 7; cyclopentenyl ketone: 5",
+            "Cyclohexenone: 5; cyclopentenyl ketone: 7",
+            "Both give one carbon signal"
+          ],
+          "explanation": "The first structure has no carbon equivalences; the second has equivalent pairs of ring CH₂ and alkene CH carbons."
+        },
+        {
+          "label": "IR",
+          "selectionPrompt": "Which carbonyl trend is expected?",
+          "type": "choice",
+          "answer": "Conjugated cyclohexenone absorbs lower, roughly1680 cm⁻¹; the isolated ketone is near 1715 cm⁻¹.",
+          "options": [
+            "Conjugated cyclohexenone absorbs lower, roughly1680 cm⁻¹; the isolated ketone is near 1715 cm⁻¹.",
+            "Conjugation raises the carbonyl band above1900 cm⁻¹",
+            "Both compounds must lack carbonyl absorptions"
+          ],
+          "explanation": "Conjugation delocalizes the C=O bond and lowers its stretching frequency."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-51": {
+      "fields": [
+        {
+          "label": "Carbonyl and ethyl",
+          "selectionPrompt": "Assign the three nonaromatic carbon signals.",
+          "type": "choice",
+          "answer": "≈166:C=O; ≈61:OCH₂; ≈14:CH₃",
+          "options": [
+            "≈166:C=O; ≈61:OCH₂; ≈14:CH₃",
+            "≈166:CH₃; ≈61:C=O; ≈14:OCH₂",
+            "All three are aromatic CH carbons"
+          ],
+          "explanation": "An ester carbonyl, oxygen-bound CH₂, and ordinary methyl occupy these distinct regions."
+        },
+        {
+          "label": "Aromatic carbons",
+          "selectionPrompt": "What can be assigned from the simple aromatic carbon spectrum?",
+          "type": "choice",
+          "answer": "Four aromatic environments near 128–133 ppm; two pairs of ring CH plus para CH and the ipso carbon.",
+          "options": [
+            "Four aromatic environments near 128–133 ppm; two pairs of ring CH plus para CH and the ipso carbon.",
+            "All six ring carbons are equivalent",
+            "Six signals near 10–20 ppm"
+          ],
+          "explanation": "A monosubstituted benzene has equivalent ortho and meta pairs. Exact assignment of closely spaced ring peaks is not unique from a broadband trace alone; DEPT or correlation data would distinguish them."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-52": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Degree of unsaturation",
+          "type": "numeric",
+          "answer": 1,
+          "unit": "",
+          "tolerance": 0,
+          "explanation": "DBE=(2×3+2−6)/2=1. Oxygen does not affect this calculation."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Which set gives the nine conventional constitutional possibilities (not separating E/Z)?",
+          "type": "choice",
+          "answer": "Propanal; acetone; prop-1-en-1-ol; prop-1-en-2-ol; prop-2-en-1-ol; methoxyethene; cyclopropanol; oxetane; methyloxirane",
+          "options": [
+            "Propanal; acetone; prop-1-en-1-ol; prop-1-en-2-ol; prop-2-en-1-ol; methoxyethene; cyclopropanol; oxetane; methyloxirane",
+            "Propanol; propanoic acid; acetone only",
+            "Only acetone and propanal; rings and enols cannot fit"
+          ],
+          "explanation": "One degree of unsaturation can be a carbonyl, C=C, or ring. The list includes2 carbonyls,3 alkenols,1 enol ether, and 3 ring structures, all C₃H₆O."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "What does1715 cm⁻¹ indicate?",
+          "type": "choice",
+          "answer": "A carbonyl group, consistent with a ketone",
+          "options": [
+            "A carbonyl group, consistent with a ketone",
+            "An alcohol O–H group",
+            "A nitrile C≡N group"
+          ],
+          "explanation": "A strong band near 1715 cm⁻¹ is characteristic of a saturated ketone C=O stretch."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Which structure gives one¹H peak at 2.1 ppm?",
+          "type": "choice",
+          "answer": "Acetone, CH₃C(=O)CH₃",
+          "options": [
+            "Acetone, CH₃C(=O)CH₃",
+            "Propanal, CH₃CH₂CHO",
+            "Oxetane"
+          ],
+          "explanation": "Acetone has two equivalent methyls next to C=O, giving a 6-H singlet."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-53": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Which C₃H₆Br₂ structure matches the spectrum?",
+          "type": "choice",
+          "answer": "BrCH₂CH₂CH₂Br",
+          "options": [
+            "BrCH₂CH₂CH₂Br",
+            "CH₃CHBrCH₂Br",
+            "CH₃CH₂CHBr₂"
+          ],
+          "explanation": "A 4-H triplet at 3.56 ppm represents equivalent CH₂Br ends; the middle2 H form a quintet near 2.33 ppm by coupling to four neighboring H."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-54": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Which structure fits C₄H₇O₂Cl and the spectrum?",
+          "type": "choice",
+          "answer": "ClCH₂C(=O)OCH₂CH₃",
+          "options": [
+            "ClCH₂C(=O)OCH₂CH₃",
+            "CH₃CHClC(=O)OCH₃",
+            "CH₃C(=O)OCH₂CH₂Cl"
+          ],
+          "explanation": "An ethyl triplet/quartet accounts for 3 H and 2 H. The remaining2-H singlet near 4.08 ppm is CH₂Cl next to a carbonyl; IR1740 cm⁻¹ supports an ester."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-55": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the C₄H₆Cl₂ structure.",
+          "type": "choice",
+          "answer": "CH₃C(Cl)=CHCH₂Cl",
+          "options": [
+            "CH₃C(Cl)=CHCH₂Cl",
+            "ClCH₂CH=CHCH₂Cl",
+            "CH₃CH=CHCHCl₂"
+          ],
+          "explanation": "The methyl is a singlet because the adjacent alkene carbon has no H; vinyl CH and CH₂Cl split each other as triplet and doublet."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose the C₁₀H₁₄ structure.",
+          "type": "choice",
+          "answer": "tert-Butylbenzene, C₆H₅C(CH₃)₃",
+          "options": [
+            "tert-Butylbenzene, C₆H₅C(CH₃)₃",
+            "Butylbenzene, C₆H₅CH₂CH₂CH₂CH₃",
+            "1,4-Diethylbenzene"
+          ],
+          "explanation": "A 9-H singlet requires three equivalent methyls attached to a proton-free center; five aromatic H identify monosubstituted benzene."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Part(c): if the formula is corrected to C₄H₇BrO₂, which structure fits the reported shifts?",
+          "type": "choice",
+          "answer": "CH₃C(=O)OCH₂CH₂Br",
+          "options": [
+            "CH₃C(=O)OCH₂CH₂Br",
+            "BrCH₂C(=O)OCH₂CH₃",
+            "CH₃CHBrC(=O)OCH₃"
+          ],
+          "explanation": "The reported2.11-ppm3-H singlet is an acetate methyl. Two coupled CH₂ triplets at 3.52 and 4.40 ppm fit CH₂Br and OCH₂. This requires two oxygens, C₄H₇BrO₂, rather than the printed C₄H₇BrO; the conditional correction is explicit."
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Choose the C₉H₁₁Br structure.",
+          "type": "choice",
+          "answer": "C₆H₅CH₂CH₂CH₂Br",
+          "options": [
+            "C₆H₅CH₂CH₂CH₂Br",
+            "C₆H₅CHBrCH₂CH₃",
+            "BrC₆H₄CH₂CH₂CH₃"
+          ],
+          "explanation": "Five aromatic H require monosubstitution; two terminal CH₂ triplets and an approximately quintet central CH₂ identify the three-carbon chain."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks requested structure recognition, with part(c) conditional on an explicit source-formula correction. Freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "For(a), the data identify connectivity but not E/Z geometry. For(c), the printed one-oxygen formula conflicts with the reported shifts: the check explicitly uses C₄H₇BrO₂, the two-oxygen interpretation consistent with an acetate OCH₂ signal. No structure is asserted to satisfy every uncorrected datum.",
+      "sourceImageReviewed": true
+    },
+    "organic-13-56": {
+      "fields": [
+        {
+          "label": "Hₐ",
+          "selectionPrompt": "Choose the Hₐ splitting tree.",
+          "type": "choice",
+          "answer": "Doublet of doublets:J=3 and 1 Hz; relative positions−2,−1,+1,+2 Hz",
+          "options": [
+            "Doublet of doublets:J=3 and 1 Hz; relative positions−2,−1,+1,+2 Hz",
+            "Triplet:J=2 Hz",
+            "Doublet of doublets:J=7 and 3 Hz"
+          ],
+          "explanation": "Couplings to Hᵦ and H꜀ split successively by 3 and 1 Hz. Each transition has equal first-order intensity."
+        },
+        {
+          "label": "Hᵦ",
+          "selectionPrompt": "Choose the Hᵦ splitting tree.",
+          "type": "choice",
+          "answer": "Doublet of doublets:J=7 and 3 Hz; relative positions−5,−2,+2,+5 Hz",
+          "options": [
+            "Doublet of doublets:J=7 and 3 Hz; relative positions−5,−2,+2,+5 Hz",
+            "Quartet:J=3 Hz",
+            "Doublet of doublets:J=3 and 1 Hz"
+          ],
+          "explanation": "Hᵦ couples7 Hz to H꜀ and 3 Hz to Hₐ; add the half-splittings ±3.5±1.5."
+        },
+        {
+          "label": "H꜀",
+          "selectionPrompt": "Choose the H꜀ splitting tree.",
+          "type": "choice",
+          "answer": "Doublet of doublets:J=7 and 1 Hz; relative positions−4,−3,+3,+4 Hz",
+          "options": [
+            "Doublet of doublets:J=7 and 1 Hz; relative positions−4,−3,+3,+4 Hz",
+            "Triplet:J=4 Hz",
+            "Doublet of doublets:J=7 and 3 Hz"
+          ],
+          "explanation": "H꜀ couples7 Hz to Hᵦ and 1 Hz to Hₐ; add±3.5±0.5. Each tree has four lines in the first-order model."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-57": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Choose compound A.",
+          "type": "choice",
+          "answer": "1-Bromo-4-ethylbenzene",
+          "options": [
+            "1-Bromo-4-ethylbenzene",
+            "1-Bromo-2-ethylbenzene",
+            "(2-Bromoethyl)benzene"
+          ],
+          "explanation": "The ethyl triplet/quartet accounts for 5 H, and two 2-H aromatic sets indicate unlike para substituents."
+        },
+        {
+          "label": "¹H assignment",
+          "selectionPrompt": "Match the proton signals.",
+          "type": "choice",
+          "answer": "1.20:CH₃;2.58:benzylic CH₂;7.07:ring H ortho to ethyl;7.39:ring H ortho to Br",
+          "options": [
+            "1.20:CH₃;2.58:benzylic CH₂;7.07:ring H ortho to ethyl;7.39:ring H ortho to Br",
+            "1.20:CH₂Br;2.58:aldehyde H;7.07:methyl",
+            "Both7-ppm signals are ethyl protons"
+          ],
+          "explanation": "The ethyl group has 3: 2 integration; bromine deshields the nearer aromatic pair more strongly."
+        },
+        {
+          "label": "¹³C assignment",
+          "selectionPrompt": "Match the carbon signals approximately.",
+          "type": "choice",
+          "answer": "≈15:ethyl CH₃;≈28:CH₂;≈120:C–Br;≈130/132:aromatic CH pairs;≈142:C–ethyl",
+          "options": [
+            "≈15:ethyl CH₃;≈28:CH₂;≈120:C–Br;≈130/132:aromatic CH pairs;≈142:C–ethyl",
+            "≈142:ethyl CH₃;≈15:C–Br; all others carbonyls",
+            "All eight carbons give separate signals near 30 ppm"
+          ],
+          "explanation": "Para symmetry reduces the six ring carbons to four environments. The two aliphatic resonances complete six carbon signals."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-58": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the C₅H₁₀O structure for spectrum(a).",
+          "type": "choice",
+          "answer": "Pentan-2-one, CH₃COCH₂CH₂CH₃",
+          "options": [
+            "Pentan-2-one, CH₃COCH₂CH₂CH₃",
+            "Pentan-3-one, CH₃CH₂COCH₂CH₃",
+            "3-Methylbutan-2-one"
+          ],
+          "explanation": "A methyl singlet near 2.17 identifies CH₃CO; the propyl side gives terminal triplet, middle multiplet, and carbonyl-adjacent triplet."
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose the C₇H₇Br structure for spectrum(b).",
+          "type": "choice",
+          "answer": "4-Bromotoluene",
+          "options": [
+            "4-Bromotoluene",
+            "Benzyl bromide",
+            "2-Bromotoluene"
+          ],
+          "explanation": "The 3-H singlet and two aromatic2-H sets identify a para-disubstituted ring."
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Choose the C₈H₉Br structure for spectrum(c).",
+          "type": "choice",
+          "answer": "C₆H₅CH₂CH₂Br",
+          "options": [
+            "C₆H₅CH₂CH₂Br",
+            "C₆H₅CHBrCH₃",
+            "1-Bromo-4-ethylbenzene"
+          ],
+          "explanation": "Two2-H triplets near 3.16 and 3.56 indicate CH₂CH₂Br attached to phenyl; five aromatic H identify a monosubstituted ring."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-59": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Choose a hydrocarbon connectivity consistent with the data.",
+          "type": "choice",
+          "answer": "Hex-3-ene, CH₃CH₂CH=CHCH₂CH₃",
+          "options": [
+            "Hex-3-ene, CH₃CH₂CH=CHCH₂CH₃",
+            "Hexane",
+            "Hex-1-ene"
+          ],
+          "explanation": "Molecular ion84 gives C₆H₁₂. Three carbon environments include one alkene signal and two saturated signals, matching equivalent ethyl groups around the C=C."
+        },
+        {
+          "label": "Mass and NMR reasoning",
+          "selectionPrompt": "Which interpretation explains the key signals?",
+          "type": "choice",
+          "answer": "M⁺84; base peak m/z55 is consistent with loss of an ethyl radical; carbon signals are alkene CH, allylic CH₂, and CH₃.",
+          "options": [
+            "M⁺84; base peak m/z55 is consistent with loss of an ethyl radical; carbon signals are alkene CH, allylic CH₂, and CH₃.",
+            "M⁺55 means four carbons and no double bond",
+            "The 132-ppm signal is a carbonyl"
+          ],
+          "explanation": "84−29=55; removing an ethyl radical can leave a resonance-stabilized C₄H₇⁺ fragment. Symmetry accounts for the three carbon signals."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "The check establishes the hex-3-ene connectivity. Geometry should not be claimed from signal count alone; an E/Z assignment needs additional diagnostic comparison or coupling information.",
+      "sourceImageReviewed": true
+    },
+    "organic-13-60": {
+      "fields": [
+        {
+          "label": "A",
+          "selectionPrompt": "Choose compound A.",
+          "type": "choice",
+          "answer": "Methylenecyclohexane",
+          "options": [
+            "Methylenecyclohexane",
+            "Cycloheptene",
+            "1-Methylcyclohexene"
+          ],
+          "explanation": "M⁺96 implies C₇H₁₂. A has no CH or CH₃: one terminal alkene CH₂, one proton-free alkene C, and three distinct ring CH₂ sets."
+        },
+        {
+          "label": "B",
+          "selectionPrompt": "Choose the hydroboration–oxidation product.",
+          "type": "choice",
+          "answer": "Cyclohexylmethanol, C₆H₁₁CH₂OH",
+          "options": [
+            "Cyclohexylmethanol, C₆H₁₁CH₂OH",
+            "1-Methylcyclohexan-1-ol",
+            "Cycloheptanol"
+          ],
+          "explanation": "Anti-Markovnikov hydration places OH at the exocyclic CH₂. The ring attachment carbon becomes CH at 40.5; CH₂OH appears at 68.2."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-61": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Choose compound C.",
+          "type": "choice",
+          "answer": "Pent-4-en-1-ol, HOCH₂CH₂CH₂CH=CH₂",
+          "options": [
+            "Pent-4-en-1-ol, HOCH₂CH₂CH₂CH=CH₂",
+            "Pent-1-en-3-ol, CH₂=CHCH(OH)CH₂CH₃",
+            "Cyclopentanol"
+          ],
+          "explanation": "M⁺86 and O–H IR fit C₅H₁₀O. The spectrum contains four CH₂ and one vinyl CH, with no methyl; the oxygen-bound CH₂ is61.8 ppm."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-62": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Choose compound D, the isomer of C in 13-61.",
+          "type": "choice",
+          "answer": "Pent-1-en-3-ol, CH₂=CHCH(OH)CH₂CH₃",
+          "options": [
+            "Pent-1-en-3-ol, CH₂=CHCH(OH)CH₂CH₃",
+            "Pent-4-en-1-ol, HOCH₂CH₂CH₂CH=CH₂",
+            "3-Methylbut-3-en-1-ol"
+          ],
+          "explanation": "D has one CH₃, two CH₂, and two CH. The 74.4-ppm CH bears OH;114.4/141.4 give a terminal alkene. The remaining ethyl group completes the formula."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceRelatedQuestionIds": [
+        "organic-13-61"
+      ],
+      "sourceImageReviewed": true
+    },
+    "organic-13-63": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Choose compound E.",
+          "type": "choice",
+          "answer": "Isobutyl acrylate, CH₂=CHC(=O)OCH₂CH(CH₃)₂",
+          "options": [
+            "Isobutyl acrylate, CH₂=CHC(=O)OCH₂CH(CH₃)₂",
+            "Isopropyl methacrylate, CH₂=C(CH₃)C(=O)OCH(CH₃)₂",
+            "Butyl acrylate, CH₂=CHC(=O)OCH₂CH₂CH₂CH₃"
+          ],
+          "explanation": "The terminal alkene supplies CH₂ and CH; the ester carbonyl has no H. OCH₂70.5, CH28.0, and two equivalent CH₃19.1 complete an isobutyl group."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-64": {
+      "fields": [
+        {
+          "label": "F",
+          "selectionPrompt": "Choose the starting hydrocarbon.",
+          "type": "choice",
+          "answer": "Cycloheptene",
+          "options": [
+            "Cycloheptene",
+            "Methylenecyclohexane",
+            "1-Methylcyclohexene"
+          ],
+          "explanation": "C₇H₁₂ with one alkene CH environment and three saturated CH₂ environments fits a symmetric seven-membered ring."
+        },
+        {
+          "label": "G",
+          "selectionPrompt": "Choose its HBr addition product.",
+          "type": "choice",
+          "answer": "Bromocycloheptane",
+          "options": [
+            "Bromocycloheptane",
+            "1-Bromo-1-methylcyclohexane",
+            "1-Bromoheptane"
+          ],
+          "explanation": "Addition across the ring alkene creates one CHBr at 56.0 ppm; the remaining six CH₂ carbons form three equivalent pairs."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-65": {
+      "fields": [
+        {
+          "label": "Methyl nonequivalence",
+          "selectionPrompt": "Why do the two methyl groups attached to C3 differ?",
+          "type": "choice",
+          "answer": "The OH-bearing stereocenter makes those methyl groups diastereotopic.",
+          "options": [
+            "The OH-bearing stereocenter makes those methyl groups diastereotopic.",
+            "Methyl rotation is completely frozen at room temperature.",
+            "Each methyl carbon has a different isotope."
+          ],
+          "explanation": "Replacing one methyl with a labeled group versus the other creates different relative configurations at C3 while retaining the C2 stereocenter. They therefore need not have equal shifts."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-66": {
+      "fields": [
+        {
+          "label": "Five carbon signals",
+          "selectionPrompt": "What explains five observed peaks in commercial2,4-pentanediol?",
+          "type": "choice",
+          "answer": "A mixture of meso and racemic stereoisomers: each gives three carbon environments, with an accidental overlap.",
+          "options": [
+            "A mixture of meso and racemic stereoisomers: each gives three carbon environments, with an accidental overlap.",
+            "A pure symmetrical stereoisomer necessarily has five unrelated carbon positions.",
+            "There are five different carbon isotopes."
+          ],
+          "explanation": "Each stereoisomer has equivalent terminal methyls and equivalent alcohol-bearing CH carbons, plus the central CH₂. Meso and racemic forms have different shifts: two methyl peaks and two CH–OH peaks are resolved, while the central CH₂ peaks overlap near46.5 ppm, producing five visible lines rather than six."
+        }
+      ],
+      "complete": true,
+      "scope": "Checks every requested numerical result or explanatory choice.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-69": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Choose the structure consistent with IR, ¹H, and DEPT.",
+          "type": "choice",
+          "answer": "Ethyl2-nitropropanoate, CH₃CH(NO₂)C(=O)OCH₂CH₃",
+          "options": [
+            "Ethyl2-nitropropanoate, CH₃CH(NO₂)C(=O)OCH₂CH₃",
+            "Ethyl3-nitropropanoate, NO₂CH₂CH₂C(=O)OCH₂CH₃",
+            "Methyl3-nitrobutanoate, CH₃CH(NO₂)CH₂C(=O)OCH₃"
+          ],
+          "explanation": "The ester carbonyl is165 ppm, OCH₂ is63, and the CH at 83 bears NO₂. Its1-H quartet near 5.2 and neighboring3-H doublet identify CH₃CH(NO₂); the ethyl triplet/quartet completes the formula."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-70": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Choose the structure consistent with all spectra.",
+          "type": "choice",
+          "answer": "3-Methylbut-3-en-1-ol, HOCH₂CH₂C(CH₃)=CH₂",
+          "options": [
+            "3-Methylbut-3-en-1-ol, HOCH₂CH₂C(CH₃)=CH₂",
+            "Pent-4-en-1-ol, HOCH₂CH₂CH₂CH=CH₂",
+            "Pent-1-en-3-ol, CH₂=CHCH(OH)CH₂CH₃"
+          ],
+          "explanation": "No carbon appears in DEPT-90, so there is no CH. The terminal alkene has CH₂112.5 and proton-free C142.3; CH₂OH 60.2, allylic CH₂40.9, and methyl22.2 complete the molecule."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    },
+    "organic-13-71": {
+      "fields": [
+        {
+          "label": "Structure",
+          "selectionPrompt": "Choose the structure consistent with all spectra.",
+          "type": "choice",
+          "answer": "3-Methylbut-2-en-1-yl acetate, CH₃C(=O)OCH₂CH=C(CH₃)₂",
+          "options": [
+            "3-Methylbut-2-en-1-yl acetate, CH₃C(=O)OCH₂CH=C(CH₃)₂",
+            "Ethyl3-methylbut-2-enoate, (CH₃)₂C=CHC(=O)OCH₂CH₃",
+            "3-Methylbut-3-en-1-yl acetate, CH₃C(=O)OCH₂CH₂C(CH₃)=CH₂"
+          ],
+          "explanation": "The 2-H OCH₂ at≈4.55 ppm couples to one vinyl CH≈5.3. An acetate methyl near 2.05 and two alkene methyls near 1.7 give the remaining9 H. Carbon 171 is the ester C=O;119/139 are the alkene carbons."
+        }
+      ],
+      "complete": false,
+      "scope": "Checks the requested structures, spectrum features, or splitting trees through multiple-choice recognition; freehand drawing is not automatically assessed.",
+      "references": [
+        "https://openstax.org/books/organic-chemistry/pages/13-7-1h-nmr-spectroscopy-and-proton-equivalence",
+        "https://openstax.org/books/organic-chemistry/pages/13-8-more-complex-spin-spin-splitting-patterns",
+        "https://openstax.org/books/organic-chemistry/pages/13-12-dept-13c-nmr-spectroscopy"
+      ],
+      "reviewNotice": "",
+      "sourceImageReviewed": true
+    }
+  }
+}
