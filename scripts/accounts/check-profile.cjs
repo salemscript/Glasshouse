@@ -8,7 +8,7 @@ const document={activeElement:null,createElement(tag){return tag==='dialog'?dial
 const window={GlasshouseAccountConfig:{enabled:true,supabaseUrl:'https://example.supabase.co',publishableKey:'sb_publishable_test'},GlasshouseStorage:store,supabase:{createClient:()=>({auth})},GlasshouseAccountSync:()=>({setUser(){},async sync(){},conflicts:()=>[]}),addEventListener(){}};
 vm.runInNewContext(fs.readFileSync('site/accounts.js','utf8'),{window,document,MutationObserver:class{observe(){}},setTimeout:f=>timers.push(f),clearTimeout(){},setInterval(){},location:{reload(){throw Error('unexpected reload')}}});
 await new Promise(r=>setImmediate(r));
-const form=(elements,profile=false)=>({elements,reportValidity:()=>true,hasAttribute:()=>profile});
+const form=(elements,profile=false)=>({elements,reportValidity:()=>true,hasAttribute:key=>profile&&key==='data-profile-form'});
 const submit=(target,value)=>listeners.submit({preventDefault(){},target,submitter:{value}});
 await submit(form({email:{value:'test@example.invalid'}}),'signup');assert.match(dialog.innerHTML,/Your name/);
 await submit(form({email:{value:'test@example.invalid'},displayName:{value:'   '}}),'signup');assert.equal(calls.length,0);

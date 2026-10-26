@@ -15,7 +15,7 @@ window.GlasshouseStorage = (() => {
   function acknowledge(id,key,sent,version){const current=row(id,key);if(!current)return;localStorage.setItem(address(id,key),JSON.stringify({...current,revision:version,dirty:current.edit!==sent.edit}));}
   function receive(id,key,value,version){if(!allowed(key))return false;const current=row(id,key);if(current?.dirty)return false;localStorage.setItem(address(id,key),JSON.stringify({value,revision:version,dirty:false,edit:current?.edit||0}));return current?.value!==value;}
   function importGuest(){if(!user)throw Error('Sign in before importing guest work');let added=0;for(const k of keys(null)){if(!row(user,k)){setItem(k,localStorage.getItem(k));added++;}}return added;}
-  return {allowed,keys,row,setItem,removeItem,setScope,acknowledge,receive,importGuest,
+  return {purgeAccount(id){for(const k of keys(id))localStorage.removeItem(address(id,k));},allowed,keys,row,setItem,removeItem,setScope,acknowledge,receive,importGuest,
     getItem:key=>user?(row(user,key)?.value??null):localStorage.getItem(key),
     scope:()=>user,onChange:fn=>{listeners.add(fn);return()=>listeners.delete(fn)},
     resolve(id,key,remote,keepLocal){const current=row(id,key);if(keepLocal&&current)localStorage.setItem(address(id,key),JSON.stringify({...current,revision:remote.version,dirty:true}));else localStorage.setItem(address(id,key),JSON.stringify({value:remote.value,revision:remote.version,dirty:false,edit:crypto.randomUUID()}));}
