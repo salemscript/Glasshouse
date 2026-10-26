@@ -84,7 +84,7 @@ window.TextbookPractice=(()=>{
    const outcome=AnswerChecker.check(rule.checkable?rule:null,raw),el=document.querySelector('#question-result-'+k);
    if(!rule.checkable)outcome.message='A verified numeric or multiple-choice check for this part is not available yet.';
    if((chapterStudy(q)||(q.book==='physics'&&q.answerAudit?.objectiveChecksVerified))&&rule.type==='numeric'){if(outcome.status==='correct'&&rule.explanation)outcome.message='Correct. '+rule.explanation;else if(outcome.status==='incorrect'&&rule.hint)outcome.message+=' '+rule.hint;}
-   el.innerHTML=window.SolutionMath?SolutionMath.inline(outcome.message):esc(outcome.message);el.className='question-part-result '+outcome.status;
+   el.innerHTML=rule.displayFormat==='chemical-text'?esc(outcome.message):window.SolutionMath?SolutionMath.inline(outcome.message):esc(outcome.message);el.className='question-part-result '+outcome.status;
    if(['correct','incorrect'].includes(outcome.status))ExerciseFeedback.answer(rule.type==='choice'?'#question-choice-group-'+k:'#question-answer-'+k,outcome.status==='correct');return outcome;
   });
   save();const checked=result.filter((v,i)=>r[i].checkable),allCorrect=checked.length>0&&checked.every(v=>v.status==='correct'),unverified=result.some(v=>v.status==='unverified'),revise=checked.some(v=>['incorrect','invalid'].includes(v.status));
