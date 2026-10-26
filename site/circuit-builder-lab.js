@@ -10,7 +10,7 @@ window.CircuitBuilderLab=(()=>{
  const names={wire:'Wire',resistor:'Resistor',voltage:'Voltage source',current:'Current source'};
  const POS=n=>({x:80+(n%C.COLS)*100,y:75+Math.floor(n/C.COLS)*90});
  const clone=s=>JSON.parse(JSON.stringify(s));let active=null;
- function restore(){try{const s=JSON.parse(localStorage.getItem(KEY));if(s?.version===1&&C.validate(s).valid&&C.validNode(s.positive)&&C.validNode(s.negative))return s;}catch{}return C.preset('divider');}
+ function restore(){try{const s=JSON.parse(window.GlasshouseStorage.getItem(KEY));if(s?.version===1&&C.validate(s).valid&&C.validNode(s.positive)&&C.validNode(s.negative))return s;}catch{}return C.preset('divider');}
  function icon(kind){const lines={select:'M7 4L19 12L13 13L10 19Z',wire:'M3 17V7H21',resistor:'M2 12H5L7 6L10 18L13 6L16 18L19 12H22',voltage:'M12 2V6M12 18V22M6 9H18M9 15H15',current:'M12 3V21M7 11L12 5L17 11',positive:'M12 4V20M4 12H20',negative:'M4 12H20',ground:'M12 3V11M3 11H21M6 16H18M9 21H15',erase:'M4 14L12 4L21 12L14 20H10Z'};return`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${lines[kind]}"/></svg>`;}
  function guided(options){if(window.RCCircuitLab?.applies(options.q,'base'))return{module:window.RCCircuitLab,label:'Guided RC charging & discharging',html:window.RCCircuitLab.html(options)};if(window.PhysicsApparatusLab?.applies(options.q,'base'))return{module:window.PhysicsApparatusLab,label:'Guided experiment for section '+options.section,html:window.PhysicsApparatusLab.html(options)};return null;}
  function html(options={}){
@@ -103,7 +103,7 @@ window.CircuitBuilderLab=(()=>{
   const root=container.matches?.('[data-circuit-builder]')?container:container.querySelector('[data-circuit-builder]');if(!root)return false;unmount();
   const circuit=restore(),a={root,circuit,result:C.solve(circuit),selected:circuit.elements.find(e=>e.type==='voltage')?.id||null,tool:'select',pending:null,hover:null,moving:null,message:'',motion:!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches,voltages:true,undo:[],redo:[],editKey:null,listeners:[],frame:null,guided:null};active=a;
   const find=s=>root.querySelector(s);
-  function save(){try{localStorage.setItem(KEY,JSON.stringify(a.circuit));find('[data-cb-save]').textContent='Circuit saved on this device';}catch{find('[data-cb-save]').textContent='This browser could not save the circuit. Keep this page open to retain your work.';}}
+  function save(){try{window.GlasshouseStorage.setItem(KEY,JSON.stringify(a.circuit));find('[data-cb-save]').textContent='Circuit saved on this device';}catch{find('[data-cb-save]').textContent='This browser could not save the circuit. Keep this page open to retain your work.';}}
   function paintInspector(){find('[data-cb-inspector]').innerHTML=inspector(a);}
   function paint(rebuildInspector=false){
    if(active!==a)return;const focused=document.activeElement?.getAttribute?.('data-cb-node');

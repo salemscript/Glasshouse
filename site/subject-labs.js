@@ -355,9 +355,9 @@ window.SubjectLabs = (() => {
     // Save only original Fundamentals drafts and inspection controls. A restored
     // answer must be checked again; storage never grants correctness/completion.
     const storageKey='calx-fundamentals-lab-drafts-v1';let drafts={},savedSelected=null,initializing=true;
-    if(subject==='fundamentals')try{const saved=JSON.parse(localStorage.getItem(storageKey)||'null');if(saved?.version===1&&saved.labs&&typeof saved.labs==='object'&&!Array.isArray(saved.labs)){drafts=saved.labs;savedSelected=list.includes(saved.selected)?saved.selected:null;}}catch{}
+    if(subject==='fundamentals')try{const saved=JSON.parse(window.GlasshouseStorage.getItem(storageKey)||'null');if(saved?.version===1&&saved.labs&&typeof saved.labs==='object'&&!Array.isArray(saved.labs)){drafts=saved.labs;savedSelected=list.includes(saved.selected)?saved.selected:null;}}catch{}
     const draftFields=['[data-sl-example-answer]','[data-sl-prefix-answer]',...QTASKS.map(d=>`[data-sl-quantity-answer="${d.id}"]`)];
-    function persist(){if(subject!=='fundamentals'||initializing)return;const answers={};for(const s of draftFields){const field=q(s);if(field)answers[s]=String(field.value).slice(0,100);}drafts[a.id]={values:{...a.values},exampleKey:a.exampleKey,prefixKey:a.prefixKey,prefixValues:a.prefixValues,quantityValues:a.quantityValues,answers};try{localStorage.setItem(storageKey,JSON.stringify({version:1,selected:a.id,labs:drafts}));}catch{}}
+    function persist(){if(subject!=='fundamentals'||initializing)return;const answers={};for(const s of draftFields){const field=q(s);if(field)answers[s]=String(field.value).slice(0,100);}drafts[a.id]={values:{...a.values},exampleKey:a.exampleKey,prefixKey:a.prefixKey,prefixValues:a.prefixValues,quantityValues:a.quantityValues,answers};try{window.GlasshouseStorage.setItem(storageKey,JSON.stringify({version:1,selected:a.id,labs:drafts}));}catch{}}
     a.persist=persist;
     function restore(){if(subject!=='fundamentals')return;
       // A retained DOM may still contain feedback/reveals from its old mount.
