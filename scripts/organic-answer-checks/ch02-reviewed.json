@@ -1,0 +1,962 @@
+{
+  "organic-2-18": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "a · acidic hydrogen",
+        "selectionPrompt": "Which hydrogen is most acidic in the displayed imidazole?",
+        "answer": "The hydrogen attached to nitrogen.",
+        "options": [
+          "The hydrogen attached to nitrogen.",
+          "The hydrogen on the carbon between the two nitrogens.",
+          "Any carbon-bound hydrogen; all are equally acidic."
+        ],
+        "explanation": "Removing the N–H proton leaves an anion whose charge can be shared by the two nitrogens without moving the ring atoms."
+      },
+      {
+        "type": "choice",
+        "label": "a · basic nitrogen",
+        "selectionPrompt": "Which nitrogen most readily accepts a proton?",
+        "answer": "The nitrogen that has no hydrogen in the neutral structure.",
+        "options": [
+          "The nitrogen that has no hydrogen in the neutral structure.",
+          "The nitrogen already bonded to H.",
+          "Both nitrogens have identical lone-pair availability."
+        ],
+        "explanation": "The imine-like nitrogen has an in-plane lone pair available for bonding to H+. The N–H nitrogen contributes its lone pair to the aromatic ring."
+      },
+      {
+        "type": "choice",
+        "label": "b · protonated resonance forms",
+        "selectionPrompt": "After protonating that nitrogen, which pair of structures describes the principal cation contributors?",
+        "answer": "Both nitrogens bear H; the positive charge and the double bond to the carbon between them alternate between the two nitrogens.",
+        "options": [
+          "Both nitrogens bear H; the positive charge and the double bond to the carbon between them alternate between the two nitrogens.",
+          "One nitrogen loses H while the other gains H in each resonance step.",
+          "The added H attaches to carbon and the ring gains a negative charge."
+        ],
+        "explanation": "Protonation changes the net charge to +1. Resonance then moves electrons, not either N-bound proton; moving the shared C=N bond transfers the formal positive charge."
+      },
+      {
+        "type": "choice",
+        "label": "b · deprotonated resonance forms",
+        "selectionPrompt": "After removing the original N–H proton, which pair describes the principal anion contributors?",
+        "answer": "Neither nitrogen bears H; the negative charge alternates between the two nitrogens as the double bond to their shared carbon switches.",
+        "options": [
+          "Neither nitrogen bears H; the negative charge alternates between the two nitrogens as the double bond to their shared carbon switches.",
+          "The negative charge remains only on the carbon that gains the removed hydrogen.",
+          "Both nitrogens gain positive charges with no compensating negative charge."
+        ],
+        "explanation": "Deprotonation leaves the N–H bonding pair on nitrogen. Donation of that pair into the adjacent C–N bond and movement of the other C=N pair gives the second -1 contributor."
+      }
+    ],
+    "complete": false,
+    "scope": "Checks every displayed objective response. Original freehand drawing production is not automatically assessed.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-20": {
+    "fields": [
+      {
+        "type": "numeric",
+        "label": "Double bonds",
+        "selectionPrompt": "How many C=C bonds occur in each neutral Kekulé drawing of naphthalene?",
+        "answer": 5,
+        "tolerance": 0,
+        "explanation": "Ten sp² carbons must each participate in one π bond, so five double bonds pair the ten p centers."
+      },
+      {
+        "type": "numeric",
+        "label": "Kekulé structures",
+        "selectionPrompt": "How many distinct neutral Kekulé bond arrangements exist on the fixed fused-ring skeleton?",
+        "answer": 3,
+        "tolerance": 0,
+        "explanation": "With the shared fusion bond double, each outer four-carbon path has one alternating matching. With the fusion bond single, the two remaining perfect matchings give two further arrangements."
+      },
+      {
+        "type": "choice",
+        "label": "Bond placement",
+        "selectionPrompt": "Which description accounts for all three neutral Kekulé drawings?",
+        "answer": "One drawing has a double fusion bond; two have a single fusion bond. Every carbon belongs to exactly one double bond.",
+        "options": [
+          "One drawing has a double fusion bond; two have a single fusion bond. Every carbon belongs to exactly one double bond.",
+          "All three have a double fusion bond and two adjacent double bonds at a fusion carbon.",
+          "All three have six C=C bonds, one for every outer edge pair."
+        ],
+        "explanation": "Keep the same C10H8 sigma skeleton. Each neutral carbon has total bond order four; putting two double bonds on a fusion carbon would exceed its allowed valence."
+      }
+    ],
+    "complete": false,
+    "scope": "Checks every displayed objective response. Original freehand drawing production is not automatically assessed.",
+    "reviewNotice": "The count is for the three neutral Kekulé contributors, not every possible charge-separated resonance drawing.",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-23": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "a · adenine bond pattern",
+        "selectionPrompt": "For adenine in the shown orientation, which complete neutral bond pattern is valid?",
+        "answer": "Double bonds: top amino-bearing C to upper-right N; lower-right CH to bottom N; the two fused carbons to each other; leftmost CH to upper-left N. All other ring bonds are single.",
+        "options": [
+          "Double bonds: top amino-bearing C to upper-right N; lower-right CH to bottom N; the two fused carbons to each other; leftmost CH to upper-left N. All other ring bonds are single.",
+          "The N–H ring nitrogen has two double bonds plus its N–H bond.",
+          "Every nitrogen forms four single bonds and has no formal charge."
+        ],
+        "explanation": "The stated pattern gives each carbon four bonds and each neutral nitrogen three bond orders. The N–H nitrogen and the external NH2 group remain singly bonded to their neighbors."
+      },
+      {
+        "type": "choice",
+        "label": "a · adenine lone pairs",
+        "selectionPrompt": "What is the lone-pair inventory of the neutral adenine drawing?",
+        "answer": "One lone pair on each of its five nitrogens; none on carbon or hydrogen.",
+        "options": [
+          "One lone pair on each of its five nitrogens; none on carbon or hydrogen.",
+          "Two lone pairs on every nitrogen.",
+          "No lone pairs anywhere because the rings are aromatic."
+        ],
+        "explanation": "A neutral nitrogen with three bond orders retains two nonbonding electrons. Aromatic participation does not erase the pair from an electron-dot count."
+      },
+      {
+        "type": "choice",
+        "label": "b · cytosine bond pattern",
+        "selectionPrompt": "For cytosine in the shown orientation, which multiple bonds complete the neutral structure?",
+        "answer": "C=O at the lower right; top amino-bearing C=upper-right N; a C=C bond between the two left-side CH groups.",
+        "options": [
+          "C=O at the lower right; top amino-bearing C=upper-right N; a C=C bond between the two left-side CH groups.",
+          "Three ring C=N double bonds and a single C–O bond with no charges.",
+          "Only the carbonyl double bond; all ring bonds single with the displayed H count unchanged."
+        ],
+        "explanation": "The two ring π bonds plus the carbonyl give each carbon the required valence without adding atoms or formal charges."
+      },
+      {
+        "type": "choice",
+        "label": "b · cytosine lone pairs",
+        "selectionPrompt": "What is the lone-pair inventory of neutral cytosine?",
+        "answer": "One pair on each of three nitrogens and two pairs on oxygen.",
+        "options": [
+          "One pair on each of three nitrogens and two pairs on oxygen.",
+          "Two pairs on each nitrogen and one on oxygen.",
+          "One pair total shared equally by all heteroatoms."
+        ],
+        "explanation": "Each N has three bond orders and one lone pair. The carbonyl O has a double bond and two lone pairs, completing its octet."
+      }
+    ],
+    "complete": false,
+    "scope": "Checks every displayed objective response. Original freehand drawing production is not automatically assessed.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-26": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "a",
+        "selectionPrompt": "Choose the complete two-arrow electron shift for the displayed amino-substituted allylic cation.",
+        "answer": "Move the N lone pair into the adjacent C–N bond, and move the neighboring C=C π pair into the bond toward the carbocation.",
+        "options": [
+          "Move the N lone pair into the adjacent C–N bond, and move the neighboring C=C π pair into the bond toward the carbocation.",
+          "Move the carbocation itself to nitrogen without moving electrons.",
+          "Break a C–C sigma bond and move an N–H proton."
+        ],
+        "explanation": "Both arrows start at electron pairs. The adjacent π bond supplies the empty carbon orbital while nitrogen forms a C=N bond and becomes positively charged."
+      },
+      {
+        "type": "choice",
+        "label": "b",
+        "selectionPrompt": "Choose the two arrows converting the displayed oxygen anion into the carbon-anion contributor.",
+        "answer": "Move an O lone pair into C–O to form C=O; move the adjacent C=C π pair onto its terminal carbon.",
+        "options": [
+          "Move an O lone pair into C–O to form C=O; move the adjacent C=C π pair onto its terminal carbon.",
+          "Move the terminal-carbon lone pair onto oxygen; form another C=C without changing C–O.",
+          "Move the oxygen nucleus to the terminal carbon."
+        ],
+        "explanation": "The oxygen loses its formal negative charge upon forming the π bond. The displaced C=C pair becomes the terminal-carbon lone pair, preserving total charge -1."
+      },
+      {
+        "type": "choice",
+        "label": "c",
+        "selectionPrompt": "How do the two ring π bonds move to give the displayed second cation contributor?",
+        "answer": "Move each π pair one ring bond toward the original positive carbon; the positive charge ends at the other end of the conjugated path.",
+        "options": [
+          "Move each π pair one ring bond toward the original positive carbon; the positive charge ends at the other end of the conjugated path.",
+          "Move the methyl group to the opposite side of the ring.",
+          "Move the positive charge through the saturated methyl-bearing carbon without shifting π bonds."
+        ],
+        "explanation": "Two adjacent π-pair shifts fill the original empty p orbital and leave a new empty orbital at the far end; all sigma bonds and nuclei stay fixed."
+      }
+    ],
+    "complete": false,
+    "scope": "Checks every displayed objective response. Original freehand drawing production is not automatically assessed.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-30": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "a",
+        "selectionPrompt": "In the chapter’s bond-dipole model, what is the net polarity of phenol?",
+        "answer": "Polar; the dipole points toward the OH side.",
+        "options": [
+          "Polar; the dipole points toward the OH side.",
+          "Nonpolar; a benzene ring cancels every substituent dipole.",
+          "Polar; the dipole points away from OH."
+        ],
+        "explanation": "There is one polar substituent, so no equal opposing group cancels its contribution."
+      },
+      {
+        "type": "choice",
+        "label": "b",
+        "selectionPrompt": "For the adjacent two-OH arrangement, how do the group dipoles combine?",
+        "answer": "They add to a nonzero vector toward the region between the OH groups.",
+        "options": [
+          "They add to a nonzero vector toward the region between the OH groups.",
+          "They cancel because there are two OH groups.",
+          "They add toward the opposite side of the ring."
+        ],
+        "explanation": "Equivalent vectors separated by about 60° have a nonzero sum along their bisector."
+      },
+      {
+        "type": "choice",
+        "label": "c",
+        "selectionPrompt": "For the meta two-OH arrangement, how do the group dipoles combine?",
+        "answer": "They give a nonzero vector along the bisector toward the OH-bearing side.",
+        "options": [
+          "They give a nonzero vector along the bisector toward the OH-bearing side.",
+          "They cancel exactly because the OH groups are not adjacent.",
+          "The result points entirely toward only one of the equivalent OH groups."
+        ],
+        "explanation": "The two equivalent substituent contributions are separated by about 120°, not 180°, so they do not cancel."
+      },
+      {
+        "type": "choice",
+        "label": "d",
+        "selectionPrompt": "For the symmetric para arrangement, what does the equal-group-dipole model predict?",
+        "answer": "Zero net dipole: the opposite equal contributions cancel.",
+        "options": [
+          "Zero net dipole: the opposite equal contributions cancel.",
+          "Twice the phenol dipole in one direction.",
+          "A permanent vector toward either arbitrarily chosen OH group."
+        ],
+        "explanation": "Equal opposite vectors sum to zero in the symmetric model; individual O–H conformations can affect a more detailed molecular treatment."
+      }
+    ],
+    "complete": true,
+    "scope": "Checks all requested final answers and displayed reasoning choices.",
+    "reviewNotice": "Dipole directions use the introductory equal-substituent model shown in the question. They do not claim that every possible O–H rotamer has identical polarity.",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-35": {
+    "fields": [
+      {
+        "type": "numeric",
+        "label": "a · oxygen",
+        "selectionPrompt": "Formal charge on oxygen in structure (a), in units of the elementary charge:",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "a · boron",
+        "selectionPrompt": "Formal charge on boron in structure (a), in units of the elementary charge:",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "b · carbon",
+        "selectionPrompt": "Formal charge on carbon in structure (b), in units of the elementary charge:",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "b · middle nitrogen",
+        "selectionPrompt": "Formal charge on middle nitrogen in structure (b), in units of the elementary charge:",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "b · terminal nitrogen",
+        "selectionPrompt": "Formal charge on terminal nitrogen in structure (b), in units of the elementary charge:",
+        "answer": 0,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "c · carbon",
+        "selectionPrompt": "Formal charge on carbon in structure (c), in units of the elementary charge:",
+        "answer": 0,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "c · middle nitrogen",
+        "selectionPrompt": "Formal charge on middle nitrogen in structure (c), in units of the elementary charge:",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "c · terminal nitrogen",
+        "selectionPrompt": "Formal charge on terminal nitrogen in structure (c), in units of the elementary charge:",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "d · left oxygen",
+        "selectionPrompt": "Formal charge on left oxygen in structure (d), in units of the elementary charge:",
+        "answer": 0,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "d · middle oxygen",
+        "selectionPrompt": "Formal charge on middle oxygen in structure (d), in units of the elementary charge:",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "d · right oxygen",
+        "selectionPrompt": "Formal charge on right oxygen in structure (d), in units of the elementary charge:",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "e · methylene carbon",
+        "selectionPrompt": "Formal charge on methylene carbon in structure (e), in units of the elementary charge:",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "e · phosphorus",
+        "selectionPrompt": "Formal charge on phosphorus in structure (e), in units of the elementary charge:",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "f · nitrogen",
+        "selectionPrompt": "Formal charge on nitrogen in structure (f), in units of the elementary charge:",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      },
+      {
+        "type": "numeric",
+        "label": "f · oxygen",
+        "selectionPrompt": "Formal charge on oxygen in structure (f), in units of the elementary charge:",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "Use formal charge = valence electrons − nonbonding electrons − sum of bond orders. Carbon contributes 4 valence electrons, N/P 5, O 6, and B 3. Count the actual lone pairs and bonds shown."
+      }
+    ],
+    "complete": true,
+    "scope": "Checks all requested final answers and displayed reasoning choices.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-36": {
+    "fields": [
+      {
+        "type": "numeric",
+        "label": "a · nitrogen",
+        "selectionPrompt": "Formal charge of nitrogen in (a):",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "For nitrogen, subtract its nonbonding electrons and bond-order sum from 5. For oxygen, subtract from 6. Every methyl carbon and hydrogen has formal charge zero."
+      },
+      {
+        "type": "numeric",
+        "label": "a · oxygen",
+        "selectionPrompt": "Formal charge of oxygen in (a):",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "For nitrogen, subtract its nonbonding electrons and bond-order sum from 5. For oxygen, subtract from 6. Every methyl carbon and hydrogen has formal charge zero."
+      },
+      {
+        "type": "numeric",
+        "label": "b · N nearest CH3",
+        "selectionPrompt": "Formal charge of N nearest CH3 in (b):",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "For nitrogen, subtract its nonbonding electrons and bond-order sum from 5. For oxygen, subtract from 6. Every methyl carbon and hydrogen has formal charge zero."
+      },
+      {
+        "type": "numeric",
+        "label": "b · middle N",
+        "selectionPrompt": "Formal charge of middle N in (b):",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "For nitrogen, subtract its nonbonding electrons and bond-order sum from 5. For oxygen, subtract from 6. Every methyl carbon and hydrogen has formal charge zero."
+      },
+      {
+        "type": "numeric",
+        "label": "b · terminal N",
+        "selectionPrompt": "Formal charge of terminal N in (b):",
+        "answer": 0,
+        "tolerance": 0,
+        "explanation": "For nitrogen, subtract its nonbonding electrons and bond-order sum from 5. For oxygen, subtract from 6. Every methyl carbon and hydrogen has formal charge zero."
+      },
+      {
+        "type": "numeric",
+        "label": "c · N nearest CH3",
+        "selectionPrompt": "Formal charge of N nearest CH3 in (c):",
+        "answer": 0,
+        "tolerance": 0,
+        "explanation": "For nitrogen, subtract its nonbonding electrons and bond-order sum from 5. For oxygen, subtract from 6. Every methyl carbon and hydrogen has formal charge zero."
+      },
+      {
+        "type": "numeric",
+        "label": "c · middle N",
+        "selectionPrompt": "Formal charge of middle N in (c):",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "For nitrogen, subtract its nonbonding electrons and bond-order sum from 5. For oxygen, subtract from 6. Every methyl carbon and hydrogen has formal charge zero."
+      },
+      {
+        "type": "numeric",
+        "label": "c · terminal N",
+        "selectionPrompt": "Formal charge of terminal N in (c):",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "For nitrogen, subtract its nonbonding electrons and bond-order sum from 5. For oxygen, subtract from 6. Every methyl carbon and hydrogen has formal charge zero."
+      }
+    ],
+    "complete": true,
+    "scope": "Checks all requested final answers and displayed reasoning choices.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-37": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "a",
+        "selectionPrompt": "Do the two structures in (a) represent resonance forms?",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes"
+        ],
+        "explanation": "The carbon sigma skeleton changes: closing or opening the additional ring is not merely shifting π electrons."
+      },
+      {
+        "type": "choice",
+        "label": "b",
+        "selectionPrompt": "Do the two structures in (b) represent resonance forms?",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "explanation": "The enolate moves a lone pair between oxygen and the adjacent carbon while retaining the sigma skeleton."
+      },
+      {
+        "type": "choice",
+        "label": "c",
+        "selectionPrompt": "Do the two structures in (c) represent resonance forms?",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "explanation": "An oxygen pair enters the aromatic π system and places negative charge on an ortho carbon without moving atoms."
+      },
+      {
+        "type": "choice",
+        "label": "d",
+        "selectionPrompt": "Do the two structures in (d) represent resonance forms?",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "explanation": "Successive π-pair shifts can place the phenoxide negative charge at the para carbon while preserving every sigma bond."
+      }
+    ],
+    "complete": true,
+    "scope": "Checks all requested final answers and displayed reasoning choices.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-38": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "a",
+        "selectionPrompt": "Which pair contains the principal octet contributors of the displayed enolate?",
+        "answer": "CH3–C(=O)–CH2⁻ and CH3–C(–O⁻)=CH2.",
+        "options": [
+          "CH3–C(=O)–CH2⁻ and CH3–C(–O⁻)=CH2.",
+          "CH3–C(=O)–CH2⁺ and CH3–CH(OH)–CH3.",
+          "CH3–C(=O)–CH2⁻ and CH3–O–CH=CH⁻."
+        ],
+        "explanation": "The carbon lone pair forms C=C while the carbonyl π pair moves to O. Both have the same atoms, sigma bonds, and net -1 charge."
+      },
+      {
+        "type": "choice",
+        "label": "b",
+        "selectionPrompt": "Number the ring clockwise from the negatively charged carbon as C1 (the adjacent CH2 is C2). Which full set of principal contributors is correct?",
+        "answer": "Negative C1 with C3=C4 and C5=C6; negative C5 with C3=C4 and C6=C1; negative C3 with C4=C5 and C6=C1.",
+        "options": [
+          "Negative C1 with C3=C4 and C5=C6; negative C5 with C3=C4 and C6=C1; negative C3 with C4=C5 and C6=C1.",
+          "Negative charge can occupy all six carbons while both double bonds stay fixed.",
+          "The negative charge moves to C2 only, making the CH2 carbon five-bonded."
+        ],
+        "explanation": "The saturated C2 breaks conjugation. The five-carbon p-orbital path supports charge at alternating sites C1, C5, and C3."
+      },
+      {
+        "type": "choice",
+        "label": "c",
+        "selectionPrompt": "Which set includes the principal guanidinium contributors and the simple carbon-sextet minor contributor?",
+        "answer": "Three forms with C=N⁺ to one NH2 at a time, plus a minor C⁺ bonded singly to all three neutral NH2 groups.",
+        "options": [
+          "Three forms with C=N⁺ to one NH2 at a time, plus a minor C⁺ bonded singly to all three neutral NH2 groups.",
+          "Three forms with a negative nitrogen and no positive charge anywhere.",
+          "Only one form; amino lone pairs cannot overlap with the central carbon."
+        ],
+        "explanation": "Each N can donate its lone pair to the central carbon. Three equivalent octet forms result; moving the C=N pair fully onto N leaves an electron-deficient C⁺ minor form."
+      },
+      {
+        "type": "choice",
+        "label": "d",
+        "selectionPrompt": "Which second contributor accompanies CH3–S–CH2⁺?",
+        "answer": "CH3–S⁺=CH2, with one lone pair left on sulfur.",
+        "options": [
+          "CH3–S⁺=CH2, with one lone pair left on sulfur.",
+          "CH3–S⁻=CH2, with three lone pairs on sulfur.",
+          "CH2=CH–SH, formed by moving a hydrogen."
+        ],
+        "explanation": "A sulfur lone pair supplies the new π bond, reducing the lone-pair count from two to one and moving the +1 formal charge onto S."
+      },
+      {
+        "type": "choice",
+        "label": "e",
+        "selectionPrompt": "For the six-carbon chain numbered from its terminal CH2, which set gives the three principal cation contributors?",
+        "answer": "C1=C2 and C3=C4 with C5⁺; C1=C2 and C4=C5 with C3⁺; C2=C3 and C4=C5 with C1⁺.",
+        "options": [
+          "C1=C2 and C3=C4 with C5⁺; C1=C2 and C4=C5 with C3⁺; C2=C3 and C4=C5 with C1⁺.",
+          "Positive charge on C2, C4, or C6 with both original π bonds unchanged.",
+          "Move the terminal methyl carbon to each positive position."
+        ],
+        "explanation": "The conjugated path contains C1 through C5. Shifting its two π pairs moves the empty p orbital among alternating carbons 5, 3, and 1."
+      }
+    ],
+    "complete": false,
+    "scope": "Checks every displayed objective response. Original freehand drawing production is not automatically assessed.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-42": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "a",
+        "selectionPrompt": "Which electron-dot description and Lewis classification fit AlBr3?",
+        "answer": "Three single Al–Br bonds; three lone pairs on each Br and none on Al; Lewis acid.",
+        "options": [
+          "Three single Al–Br bonds; three lone pairs on each Br and none on Al; Lewis acid.",
+          "Four Al–Br bonds with no lone pairs; Lewis base.",
+          "Three lone pairs on Al and none on Br; Lewis base."
+        ],
+        "explanation": "Al has only six electrons around it in the monomer and can accept a pair. Each singly bonded Br needs six nonbonding electrons for its octet."
+      },
+      {
+        "type": "choice",
+        "label": "b",
+        "selectionPrompt": "Which description fits CH3CH2NH2?",
+        "answer": "All single bonds; one lone pair on N; Lewis base.",
+        "options": [
+          "All single bonds; one lone pair on N; Lewis base.",
+          "A C=N double bond, no N lone pair; Lewis acid.",
+          "Two N lone pairs with three neutral N bonds; Lewis acid."
+        ],
+        "explanation": "Nitrogen forms three single bonds and retains a pair it can donate."
+      },
+      {
+        "type": "choice",
+        "label": "c",
+        "selectionPrompt": "Which description fits BH3?",
+        "answer": "Three B–H single bonds, no lone pairs on B or H; Lewis acid.",
+        "options": [
+          "Three B–H single bonds, no lone pairs on B or H; Lewis acid.",
+          "Three B–H bonds and a full lone pair on B; neutral Lewis base.",
+          "One B≡H bond and two free H atoms; Lewis base."
+        ],
+        "explanation": "B supplies three electrons to three bonds and has an empty orbital; hydrogen never exceeds its duet."
+      },
+      {
+        "type": "choice",
+        "label": "d",
+        "selectionPrompt": "Which description fits HF in its usual acid reaction with an electron-pair donor?",
+        "answer": "One H–F bond and three F lone pairs; the H accepts the base’s pair as the H–F bond breaks.",
+        "options": [
+          "One H–F bond and three F lone pairs; the H accepts the base’s pair as the H–F bond breaks.",
+          "A double H=F bond; F accepts two more bonds without charge.",
+          "No F lone pairs; HF can only be a Lewis base in any context."
+        ],
+        "explanation": "The base bonds to the proton while the original H–F pair goes to F. Lone pairs on F do not prevent HF from acting as the acid in this reaction."
+      },
+      {
+        "type": "choice",
+        "label": "e",
+        "selectionPrompt": "Which description fits CH3SCH3?",
+        "answer": "Two C–S single bonds and two lone pairs on S; Lewis base.",
+        "options": [
+          "Two C–S single bonds and two lone pairs on S; Lewis base.",
+          "Two C=S double bonds and no S lone pairs; Lewis acid.",
+          "Three methyl groups on S and three lone pairs; neutral Lewis base."
+        ],
+        "explanation": "Sulfur has six valence electrons; two bonds leave four nonbonding electrons available for donation."
+      },
+      {
+        "type": "choice",
+        "label": "f",
+        "selectionPrompt": "Which description fits TiCl4?",
+        "answer": "Four Ti–Cl single bonds; three lone pairs on each Cl; Ti can accept a donor pair, so it is a Lewis acid.",
+        "options": [
+          "Four Ti–Cl single bonds; three lone pairs on each Cl; Ti can accept a donor pair, so it is a Lewis acid.",
+          "Four Ti=Cl double bonds, no Cl lone pairs; Lewis base only.",
+          "Three Ti–Cl bonds and one Cl–Cl bond; Lewis base."
+        ],
+        "explanation": "The usual covalent Lewis sketch retains four chlorides at Ti. Its accessible coordination orbitals allow binding an electron-pair donor."
+      }
+    ],
+    "complete": false,
+    "scope": "Checks every displayed objective response. Original freehand drawing production is not automatically assessed.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-49": {
+    "fields": [
+      {
+        "type": "numeric",
+        "label": "a",
+        "selectionPrompt": "Kₐ for acetone, pKₐ = 19.3:",
+        "answer": 5.011872336272715e-20,
+        "tolerance": 2e-21,
+        "explanation": "Kₐ = 10^(−pKₐ) = 10^(−19.3) ≈ 5.0 × 10⁻²⁰."
+      },
+      {
+        "type": "numeric",
+        "label": "b",
+        "selectionPrompt": "Kₐ for formic acid, pKₐ = 3.75:",
+        "answer": 0.00017782794100389227,
+        "tolerance": 4e-06,
+        "explanation": "Kₐ = 10^(−3.75) ≈ 1.8 × 10⁻⁴."
+      }
+    ],
+    "complete": true,
+    "scope": "Checks all requested final answers and displayed reasoning choices.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-50": {
+    "fields": [
+      {
+        "type": "numeric",
+        "label": "a",
+        "selectionPrompt": "pKₐ for nitromethane, Kₐ = 5.0 × 10⁻¹¹:",
+        "answer": 10.301029995663981,
+        "tolerance": 0.005,
+        "explanation": "Take −log10 of 5.0 × 10⁻¹¹ to obtain 10.30."
+      },
+      {
+        "type": "numeric",
+        "label": "b",
+        "selectionPrompt": "pKₐ for acrylic acid, Kₐ = 5.6 × 10⁻⁵:",
+        "answer": 4.251811972993799,
+        "tolerance": 0.005,
+        "explanation": "Take −log10 of 5.6 × 10⁻⁵ to obtain 4.25."
+      }
+    ],
+    "complete": true,
+    "scope": "Checks all requested final answers and displayed reasoning choices.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-57": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "a",
+        "selectionPrompt": "Which pair gives the two main octet resonance contributors of nitromethane?",
+        "answer": "CH3–N⁺(=O)–O⁻, with the single and double N–O bonds exchanged in the second form.",
+        "options": [
+          "CH3–N⁺(=O)–O⁻, with the single and double N–O bonds exchanged in the second form.",
+          "CH3–N(=O)=O with no formal charges and ten electrons on N.",
+          "CH3–O–N=O and CH3–N–O–O with different sigma connectivity."
+        ],
+        "explanation": "Nitrogen has four bond orders and charge +1; the singly bonded O has three lone pairs and charge -1. Exchanging O roles preserves the octet."
+      },
+      {
+        "type": "choice",
+        "label": "b",
+        "selectionPrompt": "Which pair gives the main octet resonance contributors of ozone?",
+        "answer": "O=O⁺–O⁻ and ⁻O–O⁺=O.",
+        "options": [
+          "O=O⁺–O⁻ and ⁻O–O⁺=O.",
+          "O=O=O with a neutral central oxygen and no lone pair.",
+          "O⁺=O⁻–O⁺ with total charge +1."
+        ],
+        "explanation": "The central oxygen has one lone pair and three bond orders: 6−2−3=+1. The single-bonded end has -1; the double-bonded end is neutral."
+      },
+      {
+        "type": "choice",
+        "label": "c",
+        "selectionPrompt": "Which pair gives the principal octet contributors of diazomethane?",
+        "answer": "H2C=N⁺=N⁻ and H2C⁻–N⁺≡N.",
+        "options": [
+          "H2C=N⁺=N⁻ and H2C⁻–N⁺≡N.",
+          "H2C=N=N with all atoms neutral.",
+          "H3C–N=N and H2C–N–NH with migrating H atoms."
+        ],
+        "explanation": "Both neutral-total-charge forms have central N +1. The compensating -1 is on terminal N in the double/double form and on C in the single/triple form."
+      }
+    ],
+    "complete": false,
+    "scope": "Checks every displayed objective response. Original freehand drawing production is not automatically assessed.",
+    "reviewNotice": "The checks identify the principal octet contributors. They do not require an exhaustive list of very minor electron-deficient drawings.",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-60": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "Azide charges",
+        "selectionPrompt": "From the phenyl end outward, what are the three N formal charges in the displayed single/triple N–N arrangement?",
+        "answer": "−1, +1, 0",
+        "options": [
+          "−1, +1, 0",
+          "0, 0, 0",
+          "+1, −1, 0"
+        ],
+        "explanation": "The first N has two bonds and two lone pairs; the middle N has four bond orders and no pairs; the last N has three bond orders and one pair."
+      },
+      {
+        "type": "choice",
+        "label": "Second azide pattern",
+        "selectionPrompt": "What are the N–N bond orders and charges in the other principal octet arrangement?",
+        "answer": "Both N–N bonds double; charges from phenyl outward are 0, +1, −1.",
+        "options": [
+          "Both N–N bonds double; charges from phenyl outward are 0, +1, −1.",
+          "Both N–N bonds triple; all N atoms neutral.",
+          "Both N–N bonds single; all N atoms neutral."
+        ],
+        "explanation": "The first N donates a pair to its neighboring N–N bond while a terminal N≡N π pair moves onto terminal N. Bond-order sums are 3,4,2."
+      },
+      {
+        "type": "numeric",
+        "label": "Four drawings",
+        "selectionPrompt": "Combining the two principal azide patterns with the two alternating benzene Kekulé patterns gives how many drawings?",
+        "answer": 4,
+        "tolerance": 0,
+        "explanation": "There are two independent choices for the azide π pattern and two for the benzene π pattern: 2 × 2 = 4."
+      },
+      {
+        "type": "choice",
+        "label": "Complete set",
+        "selectionPrompt": "Which description supplies the requested four conventional drawings?",
+        "answer": "Draw each of the two azide arrangements with each of the two alternating benzene bond patterns; all ring atoms remain formally neutral.",
+        "options": [
+          "Draw each of the two azide arrangements with each of the two alternating benzene bond patterns; all ring atoms remain formally neutral.",
+          "Use the same benzene drawing four times and rotate the page.",
+          "Move nitrogen atoms onto different ring carbons to produce four positional isomers."
+        ],
+        "explanation": "Changing the alternating ring π bonds is a resonance change. Rotating a drawing is not a new electronic contributor, and moving substituents changes connectivity."
+      }
+    ],
+    "complete": false,
+    "scope": "Checks every displayed objective response. Original freehand drawing production is not automatically assessed.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-62": {
+    "fields": [
+      {
+        "type": "numeric",
+        "label": "Reactant · ring N",
+        "selectionPrompt": "Formal charge of the substituted nitrogen in the five-membered TPP ring:",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "That nitrogen has four bond orders and no lone pair: 5−0−4=+1."
+      },
+      {
+        "type": "numeric",
+        "label": "Reactant · terminal O",
+        "selectionPrompt": "Formal charge of each of the three singly bonded, nonbridging phosphate oxygens without H:",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "A terminal single-bonded O without H has three lone pairs: 6−6−1=−1."
+      },
+      {
+        "type": "numeric",
+        "label": "Reactant · overall",
+        "selectionPrompt": "Total charge on TPP as drawn:",
+        "answer": -2,
+        "tolerance": 0,
+        "explanation": "Three O⁻ centers and one N⁺ give −3+1=−2."
+      },
+      {
+        "type": "numeric",
+        "label": "Product · C2",
+        "selectionPrompt": "Formal charge on the carbon that loses H and gains a lone pair:",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "It retains three bond orders and gains a nonbonding pair: 4−2−3=−1."
+      },
+      {
+        "type": "numeric",
+        "label": "Product · ring N",
+        "selectionPrompt": "Formal charge on the five-membered-ring N after deprotonation:",
+        "answer": 1,
+        "tolerance": 0,
+        "explanation": "The depicted N bonding is unchanged; its +1 formal charge remains."
+      },
+      {
+        "type": "numeric",
+        "label": "Product · terminal O",
+        "selectionPrompt": "Formal charge of each of the same three terminal phosphate oxygens after deprotonation:",
+        "answer": -1,
+        "tolerance": 0,
+        "explanation": "The base removes the ring C–H proton, not a phosphate oxygen or its electrons."
+      },
+      {
+        "type": "numeric",
+        "label": "Product · overall",
+        "selectionPrompt": "Total charge on the deprotonated structure:",
+        "answer": -3,
+        "tolerance": 0,
+        "explanation": "Removing H+ lowers the total charge by one: −2−1=−3."
+      },
+      {
+        "type": "choice",
+        "label": "All remaining atoms",
+        "selectionPrompt": "What are the formal charges of the remaining atoms in these displayed Lewis structures?",
+        "answer": "Zero.",
+        "options": [
+          "Zero.",
+          "Each phosphorus has +1.",
+          "Every bridging oxygen has −1."
+        ],
+        "explanation": "Each P is drawn with five bond orders and no lone pair; bridging O has two single bonds and two pairs. The remaining atoms have their usual neutral valences."
+      }
+    ],
+    "complete": true,
+    "scope": "Checks all requested final answers and displayed reasoning choices.",
+    "reviewNotice": "",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  },
+  "organic-2-63": {
+    "fields": [
+      {
+        "type": "choice",
+        "label": "a",
+        "selectionPrompt": "At the central-carbon reference, does ideal trigonal-planar carbonate have a net bond dipole?",
+        "answer": "No; its three equivalent C–O contributions cancel.",
+        "options": [
+          "No; its three equivalent C–O contributions cancel.",
+          "Yes; it points permanently toward whichever O is double-bonded in one drawing.",
+          "Yes; negative total charge alone fixes a dipole direction."
+        ],
+        "explanation": "The actual resonance hybrid has three equivalent oxygen environments, separated by 120°."
+      },
+      {
+        "type": "choice",
+        "label": "b",
+        "selectionPrompt": "Does the bent ether structure have a dipole moment?",
+        "answer": "Yes, along the C–O–C bisector toward oxygen and the lone-pair side.",
+        "options": [
+          "Yes, along the C–O–C bisector toward oxygen and the lone-pair side.",
+          "No, because its two C–O bonds always point 180° apart.",
+          "Yes, pointing away from oxygen toward only one methyl group."
+        ],
+        "explanation": "The oxygen geometry makes the two C–O contributions nonopposing; their transverse components cancel but their bisector components add."
+      },
+      {
+        "type": "choice",
+        "label": "c",
+        "selectionPrompt": "At the central-carbon reference, does the ideal symmetric tert-butyl cation have a net substituent dipole?",
+        "answer": "No; its three equivalent substituents are trigonal planar.",
+        "options": [
+          "No; its three equivalent substituents are trigonal planar.",
+          "Yes, it must point toward one of the three equivalent methyl groups.",
+          "Yes, because every cation has a unique dipole direction."
+        ],
+        "explanation": "The empty p orbital does not select an in-plane direction; the three equivalent contributions cancel."
+      }
+    ],
+    "complete": true,
+    "scope": "Checks all requested final answers and displayed reasoning choices.",
+    "reviewNotice": "For the charged species, the introductory symmetry comparison uses an origin at the central carbon. A charged system’s numerical dipole depends on the chosen origin.",
+    "references": [
+      "https://openstax.org/books/organic-chemistry/pages/2-3-formal-charges",
+      "https://openstax.org/books/organic-chemistry/pages/2-5-rules-for-resonance-forms"
+    ]
+  }
+}
