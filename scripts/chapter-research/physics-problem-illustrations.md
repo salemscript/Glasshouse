@@ -1,18 +1,9 @@
-# Compact physics illustrations
+# Physics problem loops
 
-Eight original schematic scenes mapped only to exact bank IDs: halliday10-001, 007, 008, 011, 016, 018, 019, 022. Corresponding full questions: chapters 1 problem 1; 7 problem 2; 8 problem 1; 14 problem 3; 24 problem 4; 25 problem 3; 26 problem 1; 35 problem 7.
+Replaces the eight interactive inline illustrations with silent, theme-aware decorative loops. 2,097 of 4,170 Problems records across all 44 chapters receive a loop (alternating entries, rounded upward per chapter). Coverage is generated in scripts/answer-data/physics-loop-coverage.json.
 
-Givens reviewed against physics-bank.js and question mapping in questions/physics.json.gz. These are illustrative views, not complete simulations of all subparts. Original problem figures and answer fields stay available. No new numerical answer readouts.
+These are conceptual decorations, NOT reviewed exact simulations of each problem or evidence of per-exercise lab readiness. No numerical givens, answer readouts, visible labels or controls. The accessibility description explicitly states their illustrative scope. Chapters select a relevant visual family; mechanics prompts additionally select springs, collisions and wheels by keywords. All physics problem inline interactive panels are replaced by this treatment; full interactive labs and guided help remain available.
 
-- Earth: fixed radius, geometric equator trace, not time simulation.
-- Rocket: fixed stated speed, no invented acceleration/thrust; schematic distance scale.
-- Spring: stated compression endpoint; slow construction, not oscillation or an assumed spring constant.
-- Syringe: static piston, distributed force depiction; no invented fluid flow.
-- Electron: fixed plates and electron; field from positive to negative, electron force opposite. Orientation is a chosen reference, no invented trajectory.
-- Capacitor: circular plates, exaggerated gap explicitly labeled; no fringing.
-- Wire: conventional current markers, not individual electron drift or a calibrated particle count.
-- Light: shared fixed distance scale and elapsed time; ratio liquid/vacuum speed = 1.92e8/299792458.
+Colors derive from theme variables. CSS animation pauses offscreen; reduced-motion mode renders still images. No passive animation marks a question assisted or awards XP.
 
-Inspiration reviewed: https://ciechanow.ski/bicycle/ — use direct manipulation, sparse labels, and observable directions; retain a stationary object when forces balance instead of inventing movement. Original code/art only.
-
-Coverage: selected simple scenarios only; no blanket chapter simulation coverage claimed. Complex or unreviewed exercises remain without new illustrations.
+Reference: https://ciechanow.ski/bicycle/ — sparse geometric imagery and clear motion inspired original SVGs. No copied artwork or code. Exact numerical simulation coverage remains unchanged.
