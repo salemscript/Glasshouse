@@ -1,29 +1,19 @@
-# Problem-specific physics illustrations
+# Physics problem animation coverage
 
-Correction: chapter-based decorative assignments were removed because they did not reliably correspond to the actual problem. No generic fallback is allowed.
+The full batch contains **2,117 illustrations across 4,170 Problems in 44 chapters**. Every chapter has floor(problem count / 2) + 1 illustrated problems. Conceptual Questions are not part of this Problems denominator.
 
-The original eight explicit bank-ID mappings are retained: Earth circumference (1.1), rocket kinetic energy (7.2), compressed spring (8.1), syringe pressure (14.3), electron between plates (24.4), circular capacitor plates (25.3), current through a wire (26.1), light speed in liquid (35.7).
+## Scope and review
 
-Each comes from the specific question's reviewed prompt and original schematic. Labels and controls are hidden; autoplay is purely illustrative, not a calibrated numerical simulation or solution. Plate gap and rocket distances are schematic. Field arrows do not imply an invented electron trajectory. Current markers indicate conventional current, not individual electrons. Motion respects reduced-motion preference; themes supply colors.
+28 individually authored scenes are retained. The remaining mappings select a named object or process from the actual question text, using bounded chapter scopes only to disambiguate meanings. There is no chapter-only fallback. Shared renderers are deliberately simple visual companions, not solutions, replicas of missing figures, or numerically exact simulations. Complex arrangements may show one component, without fabricating the entire apparatus. Object-based records have not each received an independent manual physics simulation audit; the per-question audit records this distinction honestly.
 
-The requested half-per-chapter target remains unmet. Other problems must receive individually reviewed drawings before they are mapped. Coverage records explicitly track this gap.
+Prompt extraction removes module headings, examines the setup before the first question mark, and limits the matching window to avoid neighboring-question OCR contamination. Explicit static constraints suppress mechanical motion. Stationary apparatus uses an animated outline or highlight. Quantum illustrations use probability density, energy bands, or nuclei rather than classical electron orbits.
 
-Inspiration: https://ciechanow.ski/bicycle/ — original geometric drawings, no copied art or code.
+## Experience
 
-## Additional individually matched scenes
+Silent looping SVG illustrations appear to the right of each selected problem, below it on narrower screens, with no labels or playback controls. They inherit theme colors. Animation pauses offscreen and in hidden tabs, respects reduced motion, and renders at approximately 30 frames per second. They do not alter answer checking, assistance, or progress.
 
-20 new scenes bring total to 28. Full prompts and exact IDs are recorded in physics-illustration-audit.json. Source text was read before drawing. No chapter fallback is used.
+## Verification
 
-- 2.1: constant-speed car; 2.3: equal-distance road halves, 2:1 travel-time ratio; 2.4: hill round trip, 3:2 travel-time ratio.
-- 3.5: ship travels northwest from storm displacement toward northward destination.
-- 4.4: clockwise clock hand starting at quarter past; schematic cycle, not all requested interval solutions.
-- 6.1: flatcar decelerates, crates fixed relative to floor. 6.2: broom pushes book from rest. 6.3: bureau drawers removed; bureau does not move.
-- 7.3: meteor passes above curved atmosphere, depicts described skim rather than inventing impact.
-- 8.3: book free-falls toward outstretched hands; quadratic vertical motion.
-- 10.1: baseball spin/travel ratio approx 14.44 turns over 60 ft at 85 mi/h. 10.5: diver makes 2.5 turns with quadratic vertical displacement.
-- 13.2: Moon moves from far side to overhead; orbit geometry schematic, not scale.
-- 15.1: simple harmonic oscillator; 15.3: vertically oscillating platform; 15.4: car body on suspension; 15.5: shaver blade reciprocates. All playback greatly slowed.
-- 16.2: stadium spectators stand and sit as a wave travels, no net spectator translation.
-- 26.3: charged belt transports markers toward sphere. 27.3: battery receiving charge, conceptual chemical storage depiction only.
+`python scripts/build-physics-illustrations.py` rebuilds the manifest, per-question audit, and chapter coverage. `node scripts/check-physics-loops.cjs` verifies strict majority for all 44 chapters, renderer availability, animation frame changes, valid numeric output, no labels or controls, and source question hashes. Visual review covers representative renderers, different phases, theme color changes, and actual problem layouts. It is representative UI review, not a claim of manually watching every question.
 
-Target: more than half in EACH chapter (2,117 minimum across the present chapter counts). Target is unfinished; current per-chapter counts and target are in physics-loop-coverage.json.
+See `scripts/answer-data/physics-loop-coverage.json` for exact chapter totals and `scripts/answer-data/physics-illustration-audit.json` for source hashes and matching evidence. Future changes to source questions should rebuild and re-review their mappings.
