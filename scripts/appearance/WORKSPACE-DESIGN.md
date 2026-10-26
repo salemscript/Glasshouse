@@ -33,3 +33,11 @@ All 4,695 Physics exercises remain answer-checkable through the real practice pi
 11,211 choices and 16,703 fractions checked; no unformatted mathematical slashes; 56 prose slash exceptions preserved.
 
 Browser review in Chromium: live derivative control (h=0.05 gives secant slope 2.05), elevator comparison (648 N to 588 N when acceleration is set to zero; gravity remains 588 N), Coulomb interaction (doubling separation changes signed force from −53.925 nN to −13.481 nN and moves the graph marker), story controls, expanded view, phone and tablet layouts, theme/mode, specialized calculus series, and answer checks. Phone frames at 320/390 CSS px contain diagram overflow within the diagram rather than the document. Chromium review is not a claim of exhaustive browser or assistive-technology certification.
+
+## Exploration workbench update
+
+References reviewed: https://ciechanow.ski/bicycle/ and https://phet.colorado.edu/en/about (2026-10-26). Original implementation follows their emphasis on manipulating quantities, immediate visual feedback, and making invisible relationships visible. No copied artwork or explanatory text.
+
+The shared 268-model physics apparatus renderer now offers guided/free exploration, scene-side transport, precise numeric controls, and individual quantity resets. Coulomb separation has a pointer/keyboard handle with fixed geometry mapping. The dedicated electric-flux lab has a draggable true-angle normal; its angle controls the projected surface, cosine graph, and signed flux. Pointer capture, bounded values and keyboard alternatives are implemented. Existing specialized models remain separate; this is not a claim that every model has object dragging or 3D scenes.
+
+Validation: shared mount harness exercises every registered model and control, exact inputs, per-quantity resets, mode switching, scene handle mapping, comparison and playback teardown. Browser checks cover Coulomb's inverse-square response, keyboard handles, and actual pointer dragging of the dedicated flux surface. Neither the reference sites' physics models nor their assets are embedded.

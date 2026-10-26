@@ -16,6 +16,18 @@ for(const [section,d] of Object.entries(c.GlassPhysicsRegistry)){
  main.innerHTML=lab.html({q:{subject:'physics'},section,chapter:Number(section.split('.')[0])});assert(lab.mount(main),section+' mount');mounted++;
  const root=main.querySelector('[data-gp-lab]');assert(root.querySelector('[data-gp-scene] svg'),section+' scene');
  assert(root.querySelector('[data-gp-observation]').textContent.length,section+' observation');
+ assert(root.querySelector('.gp-experiment-dock [data-gp-time]'),section+' scene-side transport');
+ click(root.querySelector('[data-gp-action="explore"]'));assert.equal(root.getAttribute('data-gp-mode'),'explore');
+ click(root.querySelector('[data-gp-action="learn"]'));assert.equal(root.getAttribute('data-gp-mode'),'learn');
+ for(const p of d.controls.filter(p=>!p.options)){change(root.querySelector(`[data-gp-number="${p.key}"]`),p.min);assert.equal(lab.state()[p.key],p.min,section+' exact input');click(root.querySelector(`[data-gp-default="${p.key}"]`));assert.equal(lab.state()[p.key],p.value,section+' individual reset');}
+ if(['21.1','23.1'].includes(section)){
+  const svg=root.querySelector('[data-gp-scene] svg');svg.getScreenCTM=()=>({inverse:()=>({})});svg.createSVGPoint=()=>({matrixTransform(){return {x:this.x,y:this.y}}});
+  const dispatch=(type,target,x,y)=>{const e=new Event(type,{bubbles:true});Object.assign(e,{button:0,pointerId:1,clientX:x,clientY:y});target.dispatchEvent(e);};
+  dispatch('pointerdown',root.querySelector('[data-gp-drag]'),section==='21.1'?550:440,section==='21.1'?270:160);dispatch('pointerup',root,0,0);
+  assert.equal(lab.state()[section==='21.1'?'distance':'angle'],section==='21.1'?2:90,section+' physical drag mapping');
+  click(root.querySelector('[data-gp-action="reset"]'));
+ }
+
  click(root.querySelector('[data-gp-action="next-story"]'));assert.equal(lab.state().stage,1,section+' next stage');
  click(root.querySelector('[data-gp-action="previous-story"]'));assert.equal(lab.state().stage,0);
  click(root.querySelector('[data-gp-action="compare"]'));assert(!root.querySelector('[data-gp-comparison]').hidden,section+' pinned');
@@ -30,3 +42,12 @@ for(const [section,d] of Object.entries(c.GlassPhysicsRegistry)){
  lab.unmount();assert.equal(queue.size,0,section+' clean animation teardown');
 }
 console.log('PASS: '+mounted+' apparatus mounts, '+controls+' controls, story steps, numeric grading, comparison/reset, retained SVG, reduced motion, animation lifecycle.');
+vm.runInContext(fs.readFileSync(site+'/electric-flux-lab.js','utf8'),c);
+const flux=c.ElectricFluxLab;main.innerHTML=flux.html();flux.mount(main);
+const ef=main.querySelector('[data-electric-flux-lab]'),efSvg=ef.querySelector('.ef-svg');
+efSvg.getScreenCTM=()=>({inverse:()=>({})});efSvg.createSVGPoint=()=>({matrixTransform(){return {x:this.x,y:this.y}}});
+const pd=new Event('pointerdown',{bubbles:true});Object.assign(pd,{button:0,pointerId:7,clientX:730,clientY:285});ef.querySelector('[data-ef-drag]').dispatchEvent(pd);assert.equal(flux.state().angle,90);assert.equal(flux.state().flux,0);
+const pu=new Event('pointerup',{bubbles:true});Object.assign(pu,{pointerId:7});ef.dispatchEvent(pu);
+const end=new Event('keydown',{bubbles:true});end.key='End';ef.querySelector('[data-ef-drag]').dispatchEvent(end);assert.equal(flux.state().flux,-600);
+assert.strictEqual(efSvg,ef.querySelector('.ef-svg'));flux.unmount();assert.equal(queue.size,0);
+console.log('PASS: dedicated flux drag, zero crossing, keyboard reversal, retained SVG and cleanup.');

@@ -107,3 +107,28 @@ html[data-theme] .cb-lab{--cb-paper:var(--studio-paper);--cb-surface:var(--studi
 [data-gp-lab]>*{min-width:0}
 .gp-comparison[hidden]{display:none!important}
 @media(max-width:560px){.studio-hero-copy h1{font-size:clamp(49px,16vw,65px)}.studio-demo-readings{flex-wrap:wrap;row-gap:7px}.gp-readouts>div{overflow-wrap:anywhere}}
+/* Exploration workbench: the apparatus, clock and measurements stay together. */
+[data-gp-cinematic=true]>.gp-experiment-dock{grid-column:1;background:var(--gp-paper);border:1px solid var(--gp-line);border-top:0;padding:18px 22px}
+[data-gp-cinematic=true] .gp-experiment-dock .gp-clock{padding:0;border:0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 20px}
+.gp-experiment-dock .gp-clock>label:first-child{grid-column:1 / -1;display:grid;grid-template-columns:1fr auto;gap:8px;font-size:12px;color:var(--gp-muted)}
+.gp-experiment-dock [data-gp-time]{grid-column:1 / -1;width:100%;accent-color:var(--gp-coral);min-height:30px}
+.gp-experiment-dock [data-gp-time-output]{color:var(--gp-ink);font-variant-numeric:tabular-nums}
+.gp-experiment-dock .gp-note,.gp-experiment-dock .gp-status,.gp-experiment-dock .gp-pace-note{grid-column:1 / -1;margin:0}
+[data-gp-cinematic=true] .gp-experiment-dock .gp-note{font-size:12px;line-height:1.65}
+.gp-experiment-dock .gp-pace-note{display:none}
+.gp-experiment-dock .gp-pace{margin:0;align-self:center;font-size:11px}.gp-experiment-dock select{background:var(--gp-paper);color:var(--gp-ink);border:1px solid var(--gp-line);border-radius:6px;padding:8px}
+.gp-lab-modes{display:flex;gap:6px;margin-top:22px;flex-wrap:wrap}.gp-lab-modes button{padding:10px 16px;min-height:44px;border-radius:24px;border:1px solid var(--gp-line);background:var(--gp-paper);color:var(--gp-muted);font:inherit;font-size:12px}.gp-lab-modes button[aria-pressed=true]{background:var(--gp-ink);color:var(--gp-paper);border-color:var(--gp-ink)}
+[data-gp-mode=explore] .gp-reasoning,[data-gp-mode=explore]>.gp-observation,[data-gp-mode=explore]>.gp-visual-guide{display:none}
+[data-gp-cinematic=true] .gp-svg{min-width:0;width:100%;height:auto;display:block}
+[data-gp-cinematic=true][data-gp-expanded=true] .gp-svg{min-width:650px}
+.gp-precision{display:flex;align-items:center;gap:8px;margin-top:6px;color:var(--gp-muted)}
+.gp-precision input{width:100%;min-width:0;max-width:120px;border:1px solid var(--gp-line);border-radius:7px;background:var(--gp-paper);color:var(--gp-ink);padding:9px;font:inherit;font-size:13px;font-variant-numeric:tabular-nums}
+.gp-precision button{margin-left:auto;min-width:40px;min-height:40px;border:1px solid var(--gp-line);border-radius:50%;background:var(--gp-paper);color:var(--gp-muted);font-size:20px}
+.gp-drag-hint{grid-column:1;background:var(--gp-paper);color:var(--gp-muted);font-size:11px;margin:0;padding:12px 18px;border:1px solid var(--gp-line);border-bottom:0}
+.gp-drag-handle{cursor:grab;touch-action:none;outline:none}.gp-drag-handle:active{cursor:grabbing}.gp-drag-handle:focus-visible circle,.gp-drag-handle:hover circle{stroke-width:4;stroke-dasharray:none;fill:color-mix(in srgb,var(--gp-coral) 8%,transparent)}
+@media(max-width:560px){[data-gp-cinematic=true] .gp-experiment-dock .gp-clock{grid-template-columns:1fr}.gp-experiment-dock .gp-pace{justify-content:flex-start}[data-gp-cinematic=true]>.gp-experiment-dock{padding:16px}.gp-lab-modes button{flex:1}.gp-precision input{max-width:none}}
+.electric-flux-lab{--ef-bg:var(--studio-paper);--ef-text:var(--studio-text);--ef-line:var(--studio-border);--ef-coral:var(--calx-coral);--ef-aqua:var(--aqua)}
+.ef-drag-hint{font-size:12px;color:var(--studio-muted);line-height:1.7;padding:14px 18px;background:var(--studio-soft);border-radius:9px}
+[data-ef-drag]{cursor:grab;touch-action:none;outline:none}[data-ef-drag]:active{cursor:grabbing}[data-ef-drag]:focus-visible circle,[data-ef-drag]:hover circle{stroke-width:4;stroke-dasharray:none}
+/* Preserve readable diagram labels on phones; only the scene pans horizontally. */
+@media(max-width:560px){[data-gp-cinematic=true] .gp-svg{min-width:650px}[data-gp-cinematic=true]>.gp-scene{overflow-x:auto;overscroll-behavior-x:contain}}
