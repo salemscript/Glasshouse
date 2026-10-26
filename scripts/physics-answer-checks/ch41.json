@@ -1,0 +1,2009 @@
+[
+  {
+    "id": "physics-chapter-41-problems-1",
+    "parts": [
+      {
+        "label": "a · Fermi-energy relation",
+        "type": "choice",
+        "answer": "E_F = A n^(2/3)",
+        "options": [
+          "E_F = A n^(2/3)",
+          "E_F = A n^(1/3)",
+          "E_F = A n²"
+        ],
+        "explanation": "Integrating N(E) to the occupied cutoff gives n=(2/3)C E_F^(3/2)."
+      },
+      {
+        "label": "b · Constant A",
+        "type": "numeric",
+        "answer": 3.6464500640042633e-19,
+        "unit": "m²·eV",
+        "tolerance": 2.9171600512034106e-21,
+        "explanation": "A=[h²/(8m_e)](3/π)^(2/3), converted from joules to electron-volts."
+      }
+    ],
+    "reasoning": "Solve the zero-temperature electron-count integral for its upper cutoff. Verification: Integrating N(E) to the occupied cutoff gives n=(2/3)C E_F^(3/2).",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-2",
+    "parts": [
+      {
+        "label": "Density of states at 8.0 eV",
+        "type": "numeric",
+        "answer": 1.9267743081966947e+28,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 1.5414194465573558e+26,
+        "explanation": "N(E)=C√E with C=8π√2 m_e^(3/2)e^(3/2)/h³."
+      },
+      {
+        "label": "Graph comparison",
+        "type": "choice",
+        "answer": "About 1.9×10²⁸ states per cubic metre per eV",
+        "options": [
+          "About 1.9×10²⁸ states per cubic metre per eV",
+          "About 1.9×10²⁶ states per cubic metre per eV",
+          "About 1.9×10³⁰ states per cubic metre per eV"
+        ],
+        "explanation": "At 8eV the source graph lies just below2×10²⁸."
+      }
+    ],
+    "reasoning": "Count available states independently of occupancy. Verification: N(E)=C√E with C=8π√2 m_e^(3/2)e^(3/2)/h³.",
+    "sourcePages": [
+      6,
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-3",
+    "parts": [
+      {
+        "label": "Conduction-electron number density",
+        "type": "numeric",
+        "answer": 8.49203355517784e+28,
+        "unit": "m⁻³",
+        "tolerance": 6.793626844142273e+26,
+        "explanation": "n=ρN_A/M=(8960/.06354)N_A for one electron per atom."
+      }
+    ],
+    "reasoning": "Monovalent copper contributes one conduction electron per atom. Verification: n=ρN_A/M=(8960/.06354)N_A for one electron per atom.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-4",
+    "parts": [
+      {
+        "label": "Probability 63 meV below Fermi energy",
+        "type": "numeric",
+        "answer": 0.91,
+        "unit": "dimensionless",
+        "tolerance": 0.00728,
+        "explanation": "Fermi symmetry f(E_F−Δ)=1−f(E_F+Δ)=1−.090."
+      }
+    ],
+    "reasoning": "The paired levels have equal and opposite energy offsets about E_F. Verification: Fermi symmetry f(E_F−Δ)=1−f(E_F+Δ)=1−.090.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-5",
+    "parts": [
+      {
+        "label": "a · Density-of-states form",
+        "type": "choice",
+        "answer": "N(E)=C√E",
+        "options": [
+          "N(E)=C√E",
+          "N(E)=CE",
+          "N(E)=C/E"
+        ],
+        "explanation": "The free-electron three-dimensional state count is proportional to E^(3/2), so its derivative is proportional to√E."
+      },
+      {
+        "label": "b · Constant C",
+        "type": "numeric",
+        "answer": 6.812175895709508e+27,
+        "unit": "m⁻³·eV⁻³ᐟ²",
+        "tolerance": 5.449740716567606e+25,
+        "explanation": "Multiply the joule-based coefficient by e^(3/2) to use E in eV."
+      },
+      {
+        "label": "c · N at 5.00 eV",
+        "type": "numeric",
+        "answer": 1.5232488377491978e+28,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 1.2185990701993582e+26,
+        "explanation": "N(5eV)=C√5."
+      }
+    ],
+    "reasoning": "The derivative of the integrated state count is the density of states. Verification: The free-electron three-dimensional state count is proportional to E^(3/2), so its derivative is proportional to√E.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-6",
+    "parts": [
+      {
+        "label": "Copper Fermi energy",
+        "type": "numeric",
+        "answer": 7.044952537433452,
+        "unit": "eV",
+        "tolerance": 0.05635962029946762,
+        "explanation": "E_F=A(ρN_A/M)^(2/3) with copper ρ8960kg/m³,M.06354kg/mol."
+      }
+    ],
+    "reasoning": "Fill all available states from zero to E_F at zero temperature. Verification: E_F=A(ρN_A/M)^(2/3) with copper ρ8960kg/m³,M.06354kg/mol.",
+    "sourcePages": [
+      6,
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-7",
+    "parts": [
+      {
+        "label": "a · Occupancy at zero kelvin",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "At T=0 no state above E_F is occupied."
+      },
+      {
+        "label": "b · Occupancy at 320 K",
+        "type": "numeric",
+        "answer": 0.09548969291410195,
+        "unit": "dimensionless",
+        "tolerance": 0.0007639175433128156,
+        "explanation": "f=1/[exp(.062/(k_B320))+1]."
+      }
+    ],
+    "reasoning": "Distinguish the sharp zero-temperature cutoff from the finite-temperature tail. Verification: At T=0 no state above E_F is occupied.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-8",
+    "parts": [
+      {
+        "label": "Gold conduction-electron density",
+        "type": "numeric",
+        "answer": 5.899863790253807e+28,
+        "unit": "m⁻³",
+        "tolerance": 4.719891032203046e+26,
+        "explanation": "Monovalent gold: n=(19300/.197)N_A."
+      }
+    ],
+    "reasoning": "Use ρ19.3g/cm³ and M197g/mol from the supplied material data. Verification: Monovalent gold: n=(19300/.197)N_A.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Gold density19.3g/cm³, molar mass197g/mol, one conduction electron per atom."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-9",
+    "parts": [
+      {
+        "label": "a · Electron number density",
+        "type": "numeric",
+        "answer": 5.856332304848429e+28,
+        "unit": "m⁻³",
+        "tolerance": 4.685065843878743e+26,
+        "explanation": "Silver is monovalent; use ρ10490kg/m³ and M.10787kg/mol."
+      },
+      {
+        "label": "b · Fermi energy",
+        "type": "numeric",
+        "answer": 5.49904674900619,
+        "unit": "eV",
+        "tolerance": 0.04399237399204952,
+        "explanation": "E_F=A n^(2/3)."
+      },
+      {
+        "label": "c · Fermi speed",
+        "type": "numeric",
+        "answer": 1390815.118002655,
+        "unit": "m/s",
+        "tolerance": 11126.52094402124,
+        "explanation": "m_e v_F²/2=E_F."
+      },
+      {
+        "label": "d · de Broglie wavelength",
+        "type": "numeric",
+        "answer": 5.229951133763721e-10,
+        "unit": "m",
+        "tolerance": 4.183960907010977e-12,
+        "explanation": "λ=h/(m_e v_F)."
+      }
+    ],
+    "reasoning": "Calculate number density before converting its Fermi energy into speed and wavelength. Verification: Silver is monovalent; use ρ10490kg/m³ and M.10787kg/mol.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Silverρ10.49g/cm³,M107.87g/mol; monovalent free-electron model."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-10",
+    "parts": [
+      {
+        "label": "Unoccupied-state probability",
+        "type": "choice",
+        "answer": "P_empty=1/[exp(−ΔE/(kT))+1]",
+        "options": [
+          "P_empty=1/[exp(−ΔE/(kT))+1]",
+          "P_empty=1/[exp(ΔE/(kT))+1]",
+          "P_empty=exp(ΔE/(kT))"
+        ],
+        "explanation": "Subtract the Fermi occupancy from 1 and multiply numerator and denominator by exp(−ΔE/kT)."
+      }
+    ],
+    "reasoning": "An available state is either occupied or empty, so the two probabilities sum to one. Verification: Subtract the Fermi occupancy from 1 and multiply numerator and denominator by exp(−ΔE/kT).",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-11",
+    "parts": [
+      {
+        "label": "a · Occupied density at 4 eV",
+        "type": "numeric",
+        "answer": 1.3624351791419007e+28,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 1.0899481433135205e+26,
+        "explanation": "N_o(E)=C√E/[exp((E−7)/(k_B1000))+1]."
+      },
+      {
+        "label": "b · Occupied density at 6.75 eV",
+        "type": "numeric",
+        "answer": 1.6776497315968496e+28,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 1.3421197852774796e+26,
+        "explanation": "N_o(E)=C√E/[exp((E−7)/(k_B1000))+1]."
+      },
+      {
+        "label": "c · Occupied density at 7 eV",
+        "type": "numeric",
+        "answer": 9.011661653638016e+27,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 7.209329322910413e+25,
+        "explanation": "N_o(E)=C√E/[exp((E−7)/(k_B1000))+1]."
+      },
+      {
+        "label": "d · Occupied density at 7.25 eV",
+        "type": "numeric",
+        "answer": 9.555949857740408e+26,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 7.644759886192326e+24,
+        "explanation": "N_o(E)=C√E/[exp((E−7)/(k_B1000))+1]."
+      },
+      {
+        "label": "e · Occupied density at 9 eV",
+        "type": "numeric",
+        "answer": 1.7015735938285115e+18,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 1.3612588750628092e+16,
+        "explanation": "N_o(E)=C√E/[exp((E−7)/(k_B1000))+1]."
+      }
+    ],
+    "reasoning": "Multiply the available-state density by occupancy at each requested energy; at E_F the factor is exactly 1/2. Verification: N_o(E)=C√E/[exp((E−7)/(k_B1000))+1].",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-12",
+    "parts": [
+      {
+        "label": "Probability of at least one gap excitation",
+        "type": "numeric",
+        "answer": 1.2033967668131841e-42,
+        "unit": "dimensionless",
+        "tolerance": 9.627174134505473e-45,
+        "explanation": "For N=M_Earth N_A/M_C independent rare activation attempts, P_any≈N exp(−E_g/kT)."
+      },
+      {
+        "label": "Per-electron thermal activation probability",
+        "type": "numeric",
+        "answer": 4.018524330848581e-93,
+        "unit": "dimensionless",
+        "tolerance": 3.2148194646788644e-95,
+        "explanation": "Crossing the full5.5eV gap has Boltzmann factor exp(−5.5/(k_B300))."
+      }
+    ],
+    "reasoning": "The Earth-sized mass is relevant only to the probability that at least one electron crosses; the per-electron probability does not depend on sample mass. Verification: For N=M_Earth N_A/M_C independent rare activation attempts, P_any≈N exp(−E_g/kT).",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Mass of Earth5.9722×10²⁴kg; carbon molar mass12.01g/mol; the source explicitly assigns one active valence electron per atom. Thermal jump across the full gap is modeled as a rare activation probability exp(−E_g/kT)."
+    ],
+    "scope": "The first field is the chance of at least one electron making the jump in the source thermal-activation model; the second distinguishes the much smaller per-electron probability. No time-dependent attempt rate is specified."
+  },
+  {
+    "id": "physics-chapter-41-problems-13",
+    "parts": [
+      {
+        "label": "a · Energy level",
+        "type": "numeric",
+        "answer": 6.810657835653177,
+        "unit": "eV",
+        "tolerance": 0.05448526268522542,
+        "explanation": "Invert f=.900: E=E_F+kT ln(1/f−1)."
+      },
+      {
+        "label": "b · Available density",
+        "type": "numeric",
+        "answer": 1.777789694274024e+28,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 1.4222317554192193e+26,
+        "explanation": "N(E)=C√E."
+      },
+      {
+        "label": "c · Occupied density",
+        "type": "numeric",
+        "answer": 1.6000107248466218e+28,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 1.2800085798772974e+26,
+        "explanation": "N_o=.900N(E)."
+      }
+    ],
+    "reasoning": "Solve the occupancy equation before evaluating the energy-dependent state density. Verification: Invert f=.900: E=E_F+kT ln(1/f−1).",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-14",
+    "parts": [
+      {
+        "label": "a · Sodium volume percent",
+        "type": "numeric",
+        "answer": 89.97673684508,
+        "unit": "%",
+        "tolerance": 0.71981389476064,
+        "explanation": "Ion volume fraction=n_atom(4πr_ion³/3); subtract from 1."
+      },
+      {
+        "label": "b · Copper volume percent",
+        "type": "numeric",
+        "answer": 12.426017201230854,
+        "unit": "%",
+        "tolerance": 0.09940813760984683,
+        "explanation": "Use copper ρ8960kg/m³,M.0635kg/mol and ionic radius135pm."
+      },
+      {
+        "label": "c · Better free-electron-gas approximation",
+        "type": "choice",
+        "answer": "Sodium",
+        "options": [
+          "Sodium",
+          "Copper",
+          "They are equally well approximated"
+        ],
+        "explanation": "Sodium leaves a larger fraction of the sample volume outside the ionic cores."
+      }
+    ],
+    "reasoning": "Apply the stipulated disjoint ion/electron-volume model; this is a geometric heuristic, not a literal boundary around quantum electrons. Verification: Ion volume fraction=n_atom(4πr_ion³/3); subtract from 1.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-15",
+    "parts": [
+      {
+        "label": "a · Temperature for 1 percent difference",
+        "type": "numeric",
+        "answer": 2525.400533613979,
+        "unit": "K",
+        "tolerance": 20.203204268911833,
+        "explanation": "Relative to the classical result, (P_B−P_F)/P_B=1/[exp(ΔE/kT)+1]=.01.",
+        "acceptedValues": [
+          2519.8890926677445
+        ]
+      },
+      {
+        "label": "b · Temperature for 10 percent difference",
+        "type": "numeric",
+        "answer": 5281.443800168432,
+        "unit": "K",
+        "tolerance": 42.25155040134746,
+        "explanation": "Set1/[exp(1/(kT))+1]=.10.",
+        "acceptedValues": [
+          5039.778185335489
+        ]
+      }
+    ],
+    "reasoning": "The primary convention measures the difference relative to the classical Boltzmann probability; dividing instead by the exact Fermi probability gives a slightly different result. Verification: Relative to the classical result, (P_B−P_F)/P_B=1/[exp(ΔE/kT)+1]=.01.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "scope": "Primary values use relative difference against the classical result (approximately 2525K and 5282K), matching the printed reference convention. Explicit alternatives2520K and 5040K use the exact Fermi probability as denominator."
+  },
+  {
+    "id": "physics-chapter-41-problems-16",
+    "parts": [
+      {
+        "label": "a · Oxygen molecular density",
+        "type": "numeric",
+        "answer": 2.686780111798444e+25,
+        "unit": "m⁻³",
+        "tolerance": 2.1494240894387553e+23,
+        "explanation": "Ideal gas n = p/(k_BT)."
+      },
+      {
+        "label": "b · Copper electron density",
+        "type": "numeric",
+        "answer": 8.49203355517784e+28,
+        "unit": "m⁻³",
+        "tolerance": 6.793626844142273e+26,
+        "explanation": "n=ρN_A/M for monovalent copper."
+      },
+      {
+        "label": "c · Electron to molecule density ratio",
+        "type": "numeric",
+        "answer": 3160.6730740215085,
+        "unit": "dimensionless",
+        "tolerance": 25.28538459217207,
+        "explanation": "Divide the two number densities."
+      },
+      {
+        "label": "d · Oxygen mean spacing",
+        "type": "numeric",
+        "answer": 3.3387914424558227e-09,
+        "unit": "m",
+        "tolerance": 2.6710331539646584e-11,
+        "explanation": "The stipulated cubic volume per particle has edge n^(−1/3)."
+      },
+      {
+        "label": "e · Copper electron mean spacing",
+        "type": "numeric",
+        "answer": 2.2750769975853723e-10,
+        "unit": "m",
+        "tolerance": 1.8200615980682977e-12,
+        "explanation": "Use the same volume-per-particle definition for the electron gas."
+      }
+    ],
+    "reasoning": "The question defines spacing geometrically; do not confuse it with a transport mean free path. Verification: Ideal gas n = p/(k_BT).",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-17",
+    "parts": [
+      {
+        "label": "Conduction electrons per aluminum atom",
+        "type": "numeric",
+        "answer": 2.9794127755104816,
+        "unit": "dimensionless",
+        "tolerance": 0.04,
+        "explanation": "Invert E_F=A n^(2/3), then divide byρN_A/M."
+      }
+    ],
+    "reasoning": "The result is close to the integer valence 3. Verification: Invert E_F=A n^(2/3), then divide byρN_A/M.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "referenceAnswer": "Approximately3 conduction electrons per atom."
+  },
+  {
+    "id": "physics-chapter-41-problems-18",
+    "parts": [
+      {
+        "label": "Conduction electrons in sample",
+        "type": "numeric",
+        "answer": 7.226568912000001e+24,
+        "unit": "electrons",
+        "tolerance": 5.781255129600001e+22,
+        "explanation": "N=zρVN_A/M with z2, V4×10⁻⁵m³."
+      }
+    ],
+    "reasoning": "Bivalent means two conduction electrons per atom. Verification: N=zρVN_A/M with z2, V4×10⁻⁵m³.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-19",
+    "parts": [
+      {
+        "label": "a · Occupancy at 4.4 eV",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "dimensionless",
+        "tolerance": 0.008,
+        "explanation": "Use f=1/[exp((E−5.5)/(k_B273.15))+1]."
+      },
+      {
+        "label": "b · Occupancy at 5.4 eV",
+        "type": "numeric",
+        "answer": 0.985914239098443,
+        "unit": "dimensionless",
+        "tolerance": 0.007887313912787543,
+        "explanation": "Use f=1/[exp((E−5.5)/(k_B273.15))+1]."
+      },
+      {
+        "label": "c · Occupancy at 5.5 eV",
+        "type": "numeric",
+        "answer": 0.5,
+        "unit": "dimensionless",
+        "tolerance": 0.004,
+        "explanation": "Use f=1/[exp((E−5.5)/(k_B273.15))+1]."
+      },
+      {
+        "label": "d · Occupancy at 5.6 eV",
+        "type": "numeric",
+        "answer": 0.014085760901556986,
+        "unit": "dimensionless",
+        "tolerance": 0.0001126860872124559,
+        "explanation": "Use f=1/[exp((E−5.5)/(k_B273.15))+1]."
+      },
+      {
+        "label": "e · Occupancy at 6.4 eV",
+        "type": "numeric",
+        "answer": 2.4801078046255387e-17,
+        "unit": "dimensionless",
+        "tolerance": 1.9840862437004311e-19,
+        "explanation": "Use f=1/[exp((E−5.5)/(k_B273.15))+1].",
+        "acceptedValues": [
+          2.4e-17,
+          2.4285477208042234e-17
+        ]
+      },
+      {
+        "label": "f · Temperature for occupancy .16",
+        "type": "numeric",
+        "answer": 699.8143551711564,
+        "unit": "K",
+        "tolerance": 5.598514841369251,
+        "explanation": "Invert f=.16 for E−E_F=.10eV."
+      }
+    ],
+    "reasoning": "At E_F the occupancy is 1/2 at every nonzero temperature; above it occupancy falls exponentially. Verification: Use f=1/[exp((E−5.5)/(k_B273.15))+1].",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "scope": "Primary values use 0°C=273.15K. The tiny high-energy tail also explicitly accepts the printed2.4×10⁻¹⁷ from using273K and rounded constants; exponential tails amplify early temperature rounding."
+  },
+  {
+    "id": "physics-chapter-41-problems-20",
+    "parts": [
+      {
+        "label": "Occupied-state count",
+        "type": "numeric",
+        "answer": 5082966120661686.0,
+        "unit": "states",
+        "tolerance": 40663728965293.49,
+        "explanation": "For the narrow .0300eV interval, N_states≈VΔE N(E_center)f(E_center)."
+      }
+    ],
+    "reasoning": "The center approximation is justified by the window being small relative to both E and kT; using exact integration changes this value only slightly. Verification: For the narrow .0300eV interval, N_states≈VΔE N(E_center)f(E_center).",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-21",
+    "parts": [
+      {
+        "label": "a · Approximate fraction at 300 K",
+        "type": "numeric",
+        "answer": 0.005539714239950471,
+        "unit": "dimensionless",
+        "tolerance": 4.431771391960377e-05,
+        "explanation": "Use the stated approximation3kT/(2E_F)."
+      },
+      {
+        "label": "b · Approximate fraction at 1000 K",
+        "type": "numeric",
+        "answer": 0.01846571413316824,
+        "unit": "dimensionless",
+        "tolerance": 0.00014772571306534595,
+        "explanation": "Use the same approximation withT1000K."
+      },
+      {
+        "label": "c · Integrated fraction at 300 K",
+        "type": "numeric",
+        "answer": 0.003848169030233925,
+        "unit": "dimensionless",
+        "tolerance": 3.0785352241871404e-05,
+        "explanation": "Numerically integrate C√E f(E) above E_F and divide by its integral over all E."
+      },
+      {
+        "label": "c · Integrated fraction at 1000 K",
+        "type": "numeric",
+        "answer": 0.012889910866586644,
+        "unit": "dimensionless",
+        "tolerance": 0.00010311928693269315,
+        "explanation": "The exact Fermi tail gives a fraction about ln2 times the elementary approximation at lowT."
+      }
+    ],
+    "reasoning": "The approximation is intentionally crude. Numerical integration uses the actual smooth Fermi tail, not a sharp strip of height 1. Verification: Use the stated approximation3kT/(2E_F).",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "scope": "Parts(a,b) use the supplied approximation. Part(c) separately checks the numerical-integral values; the two methods need not return identical fractions."
+  },
+  {
+    "id": "physics-chapter-41-problems-22",
+    "parts": [
+      {
+        "label": "Temperature for 1.30 percent above E_F",
+        "type": "numeric",
+        "answer": 472.69070481780665,
+        "unit": "K",
+        "tolerance": 3.7815256385424534,
+        "explanation": "Solve.013=3kT/(2E_F), using Problem 21’s specified approximation."
+      }
+    ],
+    "reasoning": "The request explicitly refers to Problem 21; this field uses that approximation, not a self-consistent chemical-potential calculation. Verification: Solve.013=3kT/(2E_F), using Problem 21’s specified approximation.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-23",
+    "parts": [
+      {
+        "label": "Mean energy at zero temperature",
+        "type": "choice",
+        "answer": "E_avg=3E_F/5",
+        "options": [
+          "E_avg=3E_F/5",
+          "E_avg=E_F/2",
+          "E_avg=2E_F/3"
+        ],
+        "explanation": "The ratio of integrals ∫E^(3/2)dE to ∫E^(1/2)dE is (2/5)/(2/3) times E_F."
+      }
+    ],
+    "reasoning": "Fill the free-electron states through the Fermi cutoff and take the density-weighted mean. Verification: The ratio of integrals ∫E^(3/2)dE to ∫E^(1/2)dE is (2/5)/(2/3) times E_F.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-24",
+    "parts": [
+      {
+        "label": "Material density",
+        "type": "numeric",
+        "answer": 0.8431380680365662,
+        "unit": "g/cm³",
+        "tolerance": 0.0067451045442925295,
+        "explanation": "n=zρN_A/M, so ρ=nM/(zN_A), then kg/m³→g/cm³."
+      }
+    ],
+    "reasoning": "Infer number density from E_F before using the stated divalent atomic density. Verification: n=zρN_A/M, so ρ=nM/(zN_A), then kg/m³→g/cm³.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-25",
+    "parts": [
+      {
+        "label": "a · Released energy",
+        "type": "numeric",
+        "answer": 19770.837649441237,
+        "unit": "J",
+        "tolerance": 158.1667011955299,
+        "explanation": "At T0, each electron has average energy3E_F/5; if all could occupy E0 this energy would be released."
+      },
+      {
+        "label": "b · 100 W lighting time",
+        "type": "numeric",
+        "answer": 197.70837649441236,
+        "unit": "s",
+        "tolerance": 1.581667011955299,
+        "explanation": "t=U/P."
+      }
+    ],
+    "reasoning": "This hypothetical removes the Pauli occupation constraint; it is not a feasible energy source. Verification: At T0, each electron has average energy3E_F/5; if all could occupy E0 this energy would be released.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-26",
+    "parts": [
+      {
+        "label": "Energy above E_F",
+        "type": "numeric",
+        "answer": 0.05680264930404686,
+        "unit": "eV",
+        "tolerance": 0.0004544211944323749,
+        "explanation": "For f=.10, exp(ΔE/kT)=9."
+      }
+    ],
+    "reasoning": "Invert the Fermi distribution directly. Verification: For f=.10, exp(ΔE/kT)=9.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-27",
+    "parts": [
+      {
+        "label": "a · Electron number density",
+        "type": "numeric",
+        "answer": 1.3134861920709697e+29,
+        "unit": "m⁻³",
+        "tolerance": 1.0507889536567758e+27,
+        "explanation": "Bivalent zinc: n=2ρN_A/M."
+      },
+      {
+        "label": "b · Fermi energy",
+        "type": "numeric",
+        "answer": 9.42223528619633,
+        "unit": "eV",
+        "tolerance": 0.07537788228957064,
+        "explanation": "E_F=A n^(2/3)."
+      },
+      {
+        "label": "c · Fermi speed",
+        "type": "numeric",
+        "answer": 1820550.2447098615,
+        "unit": "m/s",
+        "tolerance": 14564.401957678892,
+        "explanation": "v_F=√(2E_F/m_e)."
+      },
+      {
+        "label": "d · de Broglie wavelength",
+        "type": "numeric",
+        "answer": 3.9954377114227567e-10,
+        "unit": "m",
+        "tolerance": 3.1963501691382055e-12,
+        "explanation": "λ=h/(m_e v_F)."
+      }
+    ],
+    "reasoning": "Use zinc ρ7.13g/cm³ and M65.38g/mol; the second valence electron doubles n. Verification: Bivalent zinc: n=2ρN_A/M.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Zinc density7.13g/cm³ and molar mass65.38g/mol; bivalent free-electron model."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-28",
+    "parts": [
+      {
+        "label": "Gold Fermi energy",
+        "type": "numeric",
+        "answer": 5.526263565841653,
+        "unit": "eV",
+        "tolerance": 0.044210108526733224,
+        "explanation": "E_F=A(ρN_A/M)^(2/3)."
+      }
+    ],
+    "reasoning": "Gold is monovalent with the stated density and molar mass. Verification: E_F=A(ρN_A/M)^(2/3).",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-29",
+    "parts": [
+      {
+        "label": "Total electron kinetic energy",
+        "type": "numeric",
+        "answer": 57144.09849644951,
+        "unit": "J",
+        "tolerance": 457.15278797159607,
+        "explanation": "U=nV(3E_F/5), with V1.00cm³=10⁻⁶m³."
+      }
+    ],
+    "reasoning": "The zero-temperature distribution still carries substantial kinetic energy because of Pauli filling. Verification: U=nV(3E_F/5), with V1.00cm³=10⁻⁶m³.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-30",
+    "parts": [
+      {
+        "label": "Occupied-state count in the energy interval",
+        "type": "numeric",
+        "answer": 1.2972804017388354e+21,
+        "unit": "states",
+        "tolerance": 1.0378243213910684e+19,
+        "explanation": "First E_F=A n^(2/3); integrate V C√E f(E) from E_center−ΔE/2 to E_center+ΔE/2.",
+        "acceptedValues": [
+          8.842566437535446e+19
+        ]
+      }
+    ],
+    "reasoning": "Evaluate the exponential with the unrounded Fermi energy. The window is not narrow compared with kT, so exact integration and a center-only estimate differ. Verification: First E_F=A n^(2/3); integrate V C√E f(E) from E_center−ΔE/2 to E_center+ΔE/2.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "scope": "The primary value integrates across the stated finite interval. The chapter’s center-only approximation VΔE N(E_center)f(E_center) is also explicitly accepted; it assumes occupancy is approximately constant across the interval. Keep full precision in E_F.",
+    "referenceAnswer": "Finite-window integral≈1.29728e+21 states; center-only approximation≈8.84257e+19 states."
+  },
+  {
+    "id": "physics-chapter-41-problems-31",
+    "parts": [
+      {
+        "label": "a · Maximum excitation wavelength",
+        "type": "numeric",
+        "answer": 2.254258153330914e-07,
+        "unit": "m",
+        "tolerance": 1.8034065226647312e-09,
+        "explanation": "A photon must supply at least E_g: λ_max=hc/E_g."
+      },
+      {
+        "label": "b · Spectrum region",
+        "type": "choice",
+        "answer": "Ultraviolet",
+        "options": [
+          "Ultraviolet",
+          "Visible",
+          "Infrared"
+        ],
+        "explanation": "The threshold is near 225nm, shorter than visible wavelengths."
+      }
+    ],
+    "reasoning": "Photons of shorter wavelength have sufficient gap energy. Verification: A photon must supply at least E_g: λ_max=hc/E_g.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-32",
+    "parts": [
+      {
+        "label": "a · Gallium ionic core charge",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "e",
+        "tolerance": 0,
+        "explanation": "Gallium contributes three outer valence electrons, leaving a+3e core."
+      },
+      {
+        "label": "b · Arsenic ionic core charge",
+        "type": "numeric",
+        "answer": 5,
+        "unit": "e",
+        "tolerance": 0,
+        "explanation": "Arsenic contributes five outer valence electrons, leaving a+5e core."
+      },
+      {
+        "label": "c · Electrons per covalent bond",
+        "type": "numeric",
+        "answer": 2,
+        "unit": "electrons",
+        "tolerance": 0,
+        "explanation": "Each shared covalent bond holds an electron pair."
+      },
+      {
+        "label": "Lattice-sketch condition",
+        "type": "choice",
+        "answer": "Alternating Ga and As sites with four nearest-neighbor bonds each",
+        "options": [
+          "Alternating Ga and As sites with four nearest-neighbor bonds each",
+          "Separate pure Ga and pure As layers with no shared bonds",
+          "Eight nearest-neighbor bonds per atom"
+        ],
+        "explanation": "The diamond-like tetrahedral network alternates the two atom species."
+      }
+    ],
+    "reasoning": "A Ga-As pair supplies eight valence electrons for four covalent bonds; core charge is not the net effective ionic charge of a complete atom. Verification: Gallium contributes three outer valence electrons, leaving a+3e core.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "scope": "The numerical core charges and bonding pattern check the requested lattice construction; freehand artwork is not automatically graded."
+  },
+  {
+    "id": "physics-chapter-41-problems-33",
+    "parts": [
+      {
+        "label": "a · Conduction-edge occupancy",
+        "type": "numeric",
+        "answer": 1.5072545864848575e-06,
+        "unit": "dimensionless",
+        "tolerance": 1.205803669187886e-08,
+        "explanation": "The conduction edge lies E_g/2=.335eV above the intrinsic Fermi level ."
+      },
+      {
+        "label": "b · Valence-edge vacancy probability",
+        "type": "numeric",
+        "answer": 1.5072545864848575e-06,
+        "unit": "dimensionless",
+        "tolerance": 1.205803669187886e-08,
+        "explanation": "Fermi symmetry makes the vacancy probability at E_F−.335 equal to occupancy at E_F+.335."
+      }
+    ],
+    "reasoning": "Use the intrinsic Fermi level centered in the gap. Verification: The conduction edge lies E_g/2=.335eV above the intrinsic Fermi level .",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-34",
+    "parts": [
+      {
+        "label": "a · Carrier balance",
+        "type": "choice",
+        "answer": "N_c/[exp((E_c−E_F)/(kT))+1]=N_v/[exp((E_F−E_v)/(kT))+1]",
+        "options": [
+          "N_c/[exp((E_c−E_F)/(kT))+1]=N_v/[exp((E_F−E_v)/(kT))+1]",
+          "N_c exp((E_c−E_F)/(kT))=N_v exp((E_F−E_v)/(kT))",
+          "N_c+N_v=0"
+        ],
+        "explanation": "Electron count in the conduction band equals vacancy count in the valence band."
+      },
+      {
+        "label": "b · Fermi energy",
+        "type": "choice",
+        "answer": "E_F=(E_c+E_v)/2+(kT/2)ln(N_v/N_c)",
+        "options": [
+          "E_F=(E_c+E_v)/2+(kT/2)ln(N_v/N_c)",
+          "E_F=(E_c+E_v)/2+(kT/2)ln(N_c/N_v)",
+          "E_F=E_c+E_v"
+        ],
+        "explanation": "Neglect the 1 terms in both large-exponent denominators and solve the resulting exponential balance."
+      },
+      {
+        "label": "b · Nearly equal band-state counts",
+        "type": "choice",
+        "answer": "The Fermi level is near the middle of the gap",
+        "options": [
+          "The Fermi level is near the middle of the gap",
+          "The Fermi level must lie above the conduction band",
+          "The Fermi level is always exactly at the valence edge"
+        ],
+        "explanation": "IfN_v≈N_c, the logarithmic correction is small."
+      }
+    ],
+    "reasoning": "State both the exact population balance and its nondegenerate-limit consequence; the gap midpoint need not itself be an allowed state. Verification: Electron count in the conduction band equals vacancy count in the valence band.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-35",
+    "parts": [
+      {
+        "label": "Phosphorus mass",
+        "type": "numeric",
+        "answer": 2.2074287734713222e-10,
+        "unit": "kg",
+        "tolerance": 1.7659430187770578e-12,
+        "explanation": "Required added electrons=(10⁶−1)10¹⁶V; one donor supplies one electron and M_P=.03097kg/mol."
+      }
+    ],
+    "reasoning": "Use the actual volume of 1.0g silicon, not one cubic metre. Verification: Required added electrons=(10⁶−1)10¹⁶V; one donor supplies one electron and M_P=.03097kg/mol.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Silicon density2330kg/m³, phosphorus molar mass30.9738g/mol, all donors ionized and one conduction electron per donor."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-36",
+    "parts": [
+      {
+        "label": "a · Fermi level relative to valence edge",
+        "type": "choice",
+        "answer": "Above the valence-band top",
+        "options": [
+          "Above the valence-band top",
+          "Below the valence-band top",
+          "Exactly at the valence-band top"
+        ],
+        "explanation": "Invert donor-state occupancy and use E_d=1.000eV above the valence edge."
+      },
+      {
+        "label": "b · Height above valence edge",
+        "type": "numeric",
+        "answer": 0.7439763345391744,
+        "unit": "eV",
+        "tolerance": 0.005951810676313396,
+        "explanation": "E_F=E_d−kT ln(1/f_d−1)."
+      },
+      {
+        "label": "c · Conduction-edge occupancy",
+        "type": "numeric",
+        "answer": 7.096966307291099e-07,
+        "unit": "dimensionless",
+        "tolerance": 5.677573045832879e-09,
+        "explanation": "Evaluate the same Fermi function at E_c=1.11eV."
+      }
+    ],
+    "reasoning": "The donor level and conduction edge are different energies; preserve their .110eV separation. Verification: Invert donor-state occupancy and use E_d=1.000eV above the valence edge.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-37",
+    "parts": [
+      {
+        "label": "a · Pure-silicon conduction-edge occupancy",
+        "type": "numeric",
+        "answer": 4.746902996183479e-10,
+        "unit": "dimensionless",
+        "tolerance": 3.797522396946783e-12,
+        "explanation": "Intrinsic Fermi level is at the 1.11eV gap midpoint."
+      },
+      {
+        "label": "b · Doped conduction-edge occupancy",
+        "type": "numeric",
+        "answer": 0.013994604311237132,
+        "unit": "dimensionless",
+        "tolerance": 0.00011195683448989706,
+        "explanation": "Conduction edge is .11eV above the doped Fermi level ."
+      },
+      {
+        "label": "c · Doped donor occupancy",
+        "type": "numeric",
+        "answer": 0.8245189525145745,
+        "unit": "dimensionless",
+        "tolerance": 0.006596151620116597,
+        "explanation": "Donor lies.15eV below conduction edge and therefore.04eV below E_F."
+      }
+    ],
+    "reasoning": "Apply the energy offsets directly rather than confusing donor and Fermi levels. Verification: Intrinsic Fermi level is at the 1.11eV gap midpoint.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-38",
+    "parts": [
+      {
+        "label": "a · Semiconductor type",
+        "type": "choice",
+        "answer": "n-type",
+        "options": [
+          "n-type",
+          "p-type",
+          "Undoped intrinsic"
+        ],
+        "explanation": "Phosphorus has one extra valence electron and acts as a donor."
+      },
+      {
+        "label": "b · Added carrier number density",
+        "type": "numeric",
+        "answer": 4.996025696818643e+21,
+        "unit": "m⁻³",
+        "tolerance": 3.996820557454914e+19,
+        "explanation": "One donor electron for each 10⁷silicon atoms: n_add=n_Si/10⁷."
+      },
+      {
+        "label": "c · Total-carrier density ratio",
+        "type": "numeric",
+        "answer": 499603.5696818643,
+        "unit": "dimensionless",
+        "tolerance": 3996.8285574549145,
+        "explanation": "Intrinsic total electron-plus-hole density is 2×5×10¹⁵m⁻³; added donors dominate the doped total."
+      }
+    ],
+    "reasoning": "Compare total mobile-carrier counts consistently, not only one intrinsic carrier species. Verification: Phosphorus has one extra valence electron and acts as a donor.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Silicon density2330kg/m³, molar mass28.0855g/mol; donors ionized. Minority carriers are negligible after doping; retaining the tiny intrinsic baseline does not affect printed precision."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-39",
+    "parts": [
+      {
+        "label": "Electron-hole pairs",
+        "type": "numeric",
+        "answer": 601818.1818181818,
+        "unit": "pairs",
+        "tolerance": 4814.545454545454,
+        "explanation": "N=E_gamma/E_g=662000eV/1.1eV."
+      }
+    ],
+    "reasoning": "The problem explicitly assigns all photon energy to minimum-gap pair creation; real detectors have a larger mean energy cost per pair. Verification: N=E_gamma/E_g=662000eV/1.1eV.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-40",
+    "parts": [
+      {
+        "label": "a · Current at −.12 V",
+        "type": "numeric",
+        "answer": -4.951798702354682e-09,
+        "unit": "A",
+        "tolerance": 3.9614389618837455e-11,
+        "explanation": "I=I₀[exp(eV/kT)−1]."
+      },
+      {
+        "label": "a · Current at zero bias",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "A",
+        "tolerance": 0,
+        "explanation": "AtV0 the two terms cancel exactly ."
+      },
+      {
+        "label": "a · Current at +.12 V",
+        "type": "numeric",
+        "answer": 5.136582358001743e-07,
+        "unit": "A",
+        "tolerance": 4.109265886401395e-09,
+        "explanation": "Use I₀5nA,T300K."
+      },
+      {
+        "label": "a · Plot behavior",
+        "type": "choice",
+        "answer": "Reverse current approaches −I₀; forward current grows exponentially",
+        "options": [
+          "Reverse current approaches −I₀; forward current grows exponentially",
+          "Current is linear and odd in voltage",
+          "Both bias directions saturate at +I₀"
+        ],
+        "explanation": "The reverse branch has a finite negative limit, while the positive exponential grows."
+      },
+      {
+        "label": "b · Forward to reverse current ratio, signed",
+        "type": "numeric",
+        "answer": -250974910.99799103,
+        "unit": "dimensionless",
+        "tolerance": 2007799.2879839283,
+        "explanation": "I(+V)/I(−V)=−exp(eV/kT).",
+        "acceptedValues": [
+          250974910.99799103
+        ]
+      }
+    ],
+    "reasoning": "Use the ideal diode equation over the requested range. The customary ratio of magnitudes is positive; the literal signed-current ratio is negative. Verification: I=I₀[exp(eV/kT)−1].",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "scope": "The final ratio field accepts both the signed ratio and the explicitly conventional ratio of magnitudes. The requested plot is checked through endpoint values, zero crossing and its shape."
+  },
+  {
+    "id": "physics-chapter-41-problems-41",
+    "parts": [
+      {
+        "label": "Band gap",
+        "type": "numeric",
+        "answer": 4.202854184176281,
+        "unit": "eV",
+        "tolerance": 0.033622833473410246,
+        "explanation": "Photon threshold satisfies E_g=hc/λ_threshold."
+      }
+    ],
+    "reasoning": "Longer wavelengths have insufficient energy to cross the gap. Verification: Photon threshold satisfies E_g=hc/λ_threshold.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-42",
+    "parts": [
+      {
+        "label": "Photon energy",
+        "type": "numeric",
+        "answer": 8.856014173800018,
+        "unit": "eV",
+        "tolerance": 0.07084811339040015,
+        "explanation": "E_photon=hc/140nm≈8.86eV."
+      },
+      {
+        "label": "Optical response",
+        "type": "choice",
+        "answer": "Opaque",
+        "options": [
+          "Opaque",
+          "Transparent",
+          "Exactly at the absorption edge"
+        ],
+        "explanation": "The photon energy exceeds the 7.6eV gap, so absorption can excite an electron across it."
+      }
+    ],
+    "reasoning": "Compare photon energy, not wavelength alone, with the gap. Verification: E_photon=hc/140nm≈8.86eV.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-43",
+    "parts": [
+      {
+        "label": "Maximum transistor side",
+        "type": "numeric",
+        "answer": 1.2692855133049122e-05,
+        "unit": "m",
+        "tolerance": 1.0154284106439297e-07,
+        "explanation": "Maximum area per square transistor is total chip area divided by 3.5million."
+      }
+    ],
+    "reasoning": "This is an upper bound because interconnections and other components also need area. Verification: Maximum area per square transistor is total chip area divided by 3.5million.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "scope": "Assume square transistors and assign all chip area to them only to compute a maximum side length."
+  },
+  {
+    "id": "physics-chapter-41-problems-44",
+    "parts": [
+      {
+        "label": "a · Gate-substrate capacitance",
+        "type": "numeric",
+        "answer": 4.9804806447000003e-17,
+        "unit": "F",
+        "tolerance": 3.9843845157600003e-19,
+        "explanation": "Parallel-plate C=κε₀A/d with side.50μm and oxide thickness.20μm."
+      },
+      {
+        "label": "b · Elementary gate charges",
+        "type": "numeric",
+        "answer": 310.85715139071243,
+        "unit": "charges",
+        "tolerance": 2.4868572111256997,
+        "explanation": "N=CV/e atV1.0V."
+      }
+    ],
+    "reasoning": "Original PDF units are micrometres, not millimetres; neglect fringe fields in the stated approximation. Verification: Parallel-plate C=κε₀A/d with side.50μm and oxide thickness.20μm.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-45",
+    "parts": [
+      {
+        "label": "a · Slope at the Fermi level",
+        "type": "choice",
+        "answer": "dP/dE=−1/(4kT)",
+        "options": [
+          "dP/dE=−1/(4kT)",
+          "dP/dE=+1/(4kT)",
+          "dP/dE=−1/(kT)"
+        ],
+        "explanation": "Differentiate f and set exp((E−E_F)/kT)=1."
+      },
+      {
+        "label": "b · Tangent intercept",
+        "type": "choice",
+        "answer": "E=E_F+2kT",
+        "options": [
+          "E=E_F+2kT",
+          "E=E_F−2kT",
+          "E=E_F+kT"
+        ],
+        "explanation": "The tangent starts atf=.5 and has slope−1/(4kT); setting its value tozero givesΔE2kT."
+      }
+    ],
+    "reasoning": "This is the horizontal-axis intercept of the tangent, not an exact zero of the positive Fermi function. Verification: Differentiate f and set exp((E−E_F)/kT)=1.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-46",
+    "parts": [
+      {
+        "label": "a · Copper resistivity derivative",
+        "type": "numeric",
+        "answer": 8.000000000000001e-11,
+        "unit": "Ω·m/K",
+        "tolerance": 6.400000000000001e-13,
+        "explanation": "dρ/dT=αρ; Table 41-1 gives ρ2×10⁻⁸Ωm and α+4×10⁻³K⁻¹."
+      },
+      {
+        "label": "b · Silicon resistivity derivative",
+        "type": "numeric",
+        "answer": -210.00000000000003,
+        "unit": "Ω·m/K",
+        "tolerance": 1.6800000000000002,
+        "explanation": "Table 41-1 gives ρ3×10³Ωm and α−70×10⁻³K⁻¹."
+      }
+    ],
+    "reasoning": "The signs differ because metal scattering and semiconductor carrier activation respond differently to temperature. Verification: dρ/dT=αρ; Table 41-1 gives ρ2×10⁻⁸Ωm and α+4×10⁻³K⁻¹.",
+    "sourcePages": [
+      2,
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-47",
+    "parts": [
+      {
+        "label": "a · Tetrahedral bond angle",
+        "type": "numeric",
+        "answer": 109.47122063449069,
+        "unit": "degrees",
+        "tolerance": 0.8757697650759255,
+        "explanation": "Tetrahedral vertex vectors from the center have normalized dot product−1/3."
+      },
+      {
+        "label": "b · Nearest-neighbor bond length",
+        "type": "numeric",
+        "answer": 2.3760050504996824e-10,
+        "unit": "m",
+        "tolerance": 1.900804040399746e-12,
+        "explanation": "A regular tetrahedron of edgea has circumradius a√6/4."
+      }
+    ],
+    "reasoning": "Each central atom is at the tetrahedron center, so its bond length is the circumradius. Verification: Tetrahedral vertex vectors from the center have normalized dot product−1/3.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-48",
+    "parts": [
+      {
+        "label": "Symmetric occupancy sum",
+        "type": "choice",
+        "answer": "P(E_F+ΔE)+P(E_F−ΔE)=1",
+        "options": [
+          "P(E_F+ΔE)+P(E_F−ΔE)=1",
+          "P(E_F+ΔE)=P(E_F−ΔE)",
+          "P(E_F+ΔE)+P(E_F−ΔE)=0"
+        ],
+        "explanation": "Let x=exp(ΔE/kT); the two probabilities are 1/(1+x) andx/(1+x)."
+      }
+    ],
+    "reasoning": "The symmetry exchanges occupied and empty probabilities about E_F. Verification: Let x=exp(ΔE/kT); the two probabilities are 1/(1+x) andx/(1+x).",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-49",
+    "parts": [
+      {
+        "label": "a · Density at the Fermi level",
+        "type": "choice",
+        "answer": "N(E_F)=3n/(2E_F)",
+        "options": [
+          "N(E_F)=3n/(2E_F)",
+          "N(E_F)=n/E_F",
+          "N(E_F)=2n/(3E_F)"
+        ],
+        "explanation": "Integrate N(E)=C√E to obtain n=(2/3)N(E_F)E_F."
+      },
+      {
+        "label": "a · Coefficient multiplying n^(1/3)",
+        "type": "numeric",
+        "answer": 4.1135898577281224e+18,
+        "unit": "m⁻²·eV⁻¹",
+        "tolerance": 3.290871886182498e+16,
+        "explanation": "Substitute E_F=A n^(2/3) into 3n/(2E_F)."
+      },
+      {
+        "label": "b · Copper Fermi density of states",
+        "type": "numeric",
+        "answer": 1.8081101703784247e+28,
+        "unit": "m⁻³·eV⁻¹",
+        "tolerance": 1.4464881363027398e+26,
+        "explanation": "Use n=ρN_A/M with the stated copper values."
+      },
+      {
+        "label": "c · Graph comparison",
+        "type": "choice",
+        "answer": "Near 1.8×10²⁸ at about 7 eV",
+        "options": [
+          "Near 1.8×10²⁸ at about 7 eV",
+          "Near 1.8×10²⁶ at about 7 eV",
+          "Near 1.8×10³⁰ at about 7 eV"
+        ],
+        "explanation": "The available density, not half-occupied density, is read from Fig 41-6."
+      }
+    ],
+    "reasoning": "This checks both the analytic density relation and the graph scale. Verification: Integrate N(E)=C√E to obtain n=(2/3)N(E_F)E_F.",
+    "sourcePages": [
+      6,
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-50",
+    "parts": [
+      {
+        "label": "Fraction above E_F at melting",
+        "type": "numeric",
+        "answer": 0.029004768669481287,
+        "unit": "dimensionless",
+        "tolerance": 0.0002320381493558503,
+        "explanation": "Use Problem 21’s approximation and convert 961°C to 1234.15K."
+      }
+    ],
+    "reasoning": "The fraction formula requires absolute temperature, not Celsius. Verification: Use Problem 21’s approximation and convert 961°C to 1234.15K.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-51",
+    "parts": [
+      {
+        "label": "Copper Fermi speed",
+        "type": "numeric",
+        "answer": 1569187.0554784182,
+        "unit": "m/s",
+        "tolerance": 12553.496443827346,
+        "explanation": "m_e v_F²/2=7.00eV; convert energy to joules."
+      }
+    ],
+    "reasoning": "The resulting 1.57×10⁶m/s verifies the textbook rounded 1600km/s. Verification: m_e v_F²/2=7.00eV; convert energy to joules.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "referenceAnswer": "Approximately1.6×10⁶m/s (1600km/s)."
+  },
+  {
+    "id": "physics-chapter-41-problems-52",
+    "parts": [
+      {
+        "label": "Coefficient of h² n^(2/3)/m_e",
+        "type": "numeric",
+        "answer": 0.12121534475549661,
+        "unit": "dimensionless",
+        "tolerance": 0.0009697227580439729,
+        "explanation": "Rewrite E_F=[h²/(8m_e)](3n/π)^(2/3)."
+      }
+    ],
+    "reasoning": "Evaluate the pure numerical coefficient; it rounds to .121. Verification: Rewrite E_F=[h²/(8m_e)](3n/π)^(2/3).",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-problems-53",
+    "parts": [
+      {
+        "label": "Ideal-gas pressure",
+        "type": "numeric",
+        "answer": 3471.3597737743094,
+        "unit": "atm",
+        "tolerance": 27.770878190194477,
+        "explanation": "Set gas molecular density to n_Cu and use p=nk_BT, then divide by 101325Pa/atm."
+      }
+    ],
+    "reasoning": "Both systems have the same number density and temperature but radically different occupancy physics. Verification: Set gas molecular density to n_Cu and use p=nk_BT, then divide by 101325Pa/atm.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-1",
+    "parts": [
+      {
+        "label": "a · Material composition dependence",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only at zero temperature"
+        ],
+        "explanation": "In the chapter free-electron model, g(E) has universal coefficient for the electron mass; composition does not enter at a fixed band energy."
+      },
+      {
+        "label": "b · Sample-size dependence",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only at zero temperature"
+        ],
+        "explanation": "Total levels per energy are Vg(E), so spacing scales as 1/V."
+      },
+      {
+        "label": "c · Position within band dependence",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only at zero temperature"
+        ],
+        "explanation": "g(E) grows as√E; adjacent levels are closer higher in the band."
+      },
+      {
+        "label": "d · Temperature dependence",
+        "type": "choice",
+        "answer": "Yes",
+        "options": [
+          "Yes",
+          "No",
+          "Only at zero temperature"
+        ],
+        "explanation": "In a freely expanding sample, temperature changes volume V through thermal expansion, so adjacent spacing 1/[Vg(E)] changes. At fixed volume, temperature has no direct effect on g(E); it changes occupancy instead."
+      },
+      {
+        "label": "e · Fermi-energy dependence at fixed E",
+        "type": "choice",
+        "answer": "No",
+        "options": [
+          "No",
+          "Yes",
+          "Only at zero temperature"
+        ],
+        "explanation": "The cutoff determines filling; the state-count function at an independently specified E does not contain E_F."
+      }
+    ],
+    "reasoning": "Use level spacing≈1/[Vg(E)] and distinguish state availability from occupancy. Verification: In the chapter free-electron model, g(E) has universal coefficient for the electron mass; composition does not enter at a fixed band energy.",
+    "sourcePages": [
+      6,
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ],
+    "scope": "Use the chapter free-electron model at fixed specified energy E. Part (d) allows the ordinary thermal expansion of the physical sample, since its volume is not constrained. At fixed volume the spacing would have no direct temperature dependence. Ignore band-structure/effective-mass corrections."
+  },
+  {
+    "id": "physics-chapter-41-questions-2",
+    "parts": [
+      {
+        "label": "Copper atoms per unit cell",
+        "type": "numeric",
+        "answer": 4,
+        "unit": "atoms",
+        "tolerance": 0,
+        "explanation": "Eight corners each contribute 1/8 and six faces each 1/2:1+3=4."
+      }
+    ],
+    "reasoning": "Count shared atoms fractionally rather than adding all 14 displayed spheres. Verification: Eight corners each contribute 1/8 and six faces each 1/2:1+3=4.",
+    "sourcePages": [
+      2,
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-3",
+    "parts": [
+      {
+        "label": "Silicon atoms per unit cell",
+        "type": "numeric",
+        "answer": 8,
+        "unit": "atoms",
+        "tolerance": 0,
+        "explanation": "The corner/face contributions total4, plus four wholly internal atoms."
+      }
+    ],
+    "reasoning": "The diamond lattice adds four internal atoms to the face-centered-cubic count. Verification: The corner/face contributions total4, plus four wholly internal atoms.",
+    "sourcePages": [
+      2,
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-4",
+    "parts": [
+      {
+        "label": "a · Occupancy ranking at zero kelvin",
+        "type": "choice",
+        "answer": "3 > 1 = 2",
+        "options": [
+          "3 > 1 = 2",
+          "1 > 2 > 3",
+          "1 = 2 = 3"
+        ],
+        "explanation": "Levels 1 and 2 are above E_F, level 3 below it; the zero-temperature probabilities are 0,0,1."
+      },
+      {
+        "label": "b · Occupancy ranking at 1000 K",
+        "type": "choice",
+        "answer": "3 > 2 > 1",
+        "options": [
+          "3 > 2 > 1",
+          "1 > 2 > 3",
+          "3 > 1 = 2"
+        ],
+        "explanation": "f(E) decreases monotonically with energy at any positive temperature."
+      },
+      {
+        "label": "c · Available-state density ranking",
+        "type": "choice",
+        "answer": "1 > 2 > 3",
+        "options": [
+          "1 > 2 > 3",
+          "3 > 2 > 1",
+          "1 = 2 = 3"
+        ],
+        "explanation": "N(E) increases as√E; thermal occupancy is a separate factor."
+      }
+    ],
+    "reasoning": "Read the source diagram’s level energies, not their vertical distances from the Fermi line alone. Verification: Levels 1 and 2 are above E_F, level 3 below it; the zero-temperature probabilities are 0,0,1.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-5",
+    "parts": [
+      {
+        "label": "Energy relative to the Fermi energy",
+        "type": "choice",
+        "answer": "Below E_F",
+        "options": [
+          "Below E_F",
+          "Above E_F",
+          "Exactly E_F"
+        ],
+        "explanation": "At E_F, f=.5; occupancy.60 therefore requires a lower energy."
+      }
+    ],
+    "reasoning": "Invert the monotonic Fermi function conceptually. Verification: At E_F, f=.5; occupancy.60 therefore requires a lower energy.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-6",
+    "parts": [
+      {
+        "label": "Electrons forming the germanium valence band",
+        "type": "choice",
+        "answer": "The 4s² and 4p² electrons",
+        "options": [
+          "The 4s² and 4p² electrons",
+          "Only the 3d¹⁰ electrons",
+          "The 1s² and 2s² electrons"
+        ],
+        "explanation": "The four outer-shell electrons provide the covalent bonding and valence-band states."
+      }
+    ],
+    "reasoning": "Core shells remain bound near their own atomic cores. Verification: The four outer-shell electrons provide the covalent bonding and valence-band states.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-7",
+    "parts": [
+      {
+        "label": "Change of occupation probability above E_F",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Remains unchanged"
+        ],
+        "explanation": "For positive E−E_F, increasingT decreases the exponent and increases f."
+      }
+    ],
+    "reasoning": "The thermal tail above the Fermi level broadens with temperature. Verification: For positive E−E_F, increasingT decreases the exponent and increases f.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-8",
+    "parts": [
+      {
+        "label": "a · Electric-field direction in depletion zone",
+        "type": "choice",
+        "answer": "Right to left",
+        "options": [
+          "Right to left",
+          "Left to right",
+          "Zero everywhere"
+        ],
+        "explanation": "The n-side has fixed positive donor ions and the p-side negative acceptor ions, so E points n→p."
+      },
+      {
+        "label": "b · Larger field magnitude",
+        "type": "choice",
+        "answer": "Back bias",
+        "options": [
+          "Back bias",
+          "Forward bias",
+          "The magnitudes are identical"
+        ],
+        "explanation": "Back bias raises the depletion barrier and widens the space-charge zone."
+      }
+    ],
+    "reasoning": "Use fixed-ion charge signs in Fig 41-15; the applied forward bias opposes the internal junction field. Verification: The n-side has fixed positive donor ions and the p-side negative acceptor ions, so E points n→p.",
+    "sourcePages": [
+      17,
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-9",
+    "parts": [
+      {
+        "label": "Drift speed compared with Fermi speed",
+        "type": "choice",
+        "answer": "Much less than the Fermi speed",
+        "options": [
+          "Much less than the Fermi speed",
+          "About equal to the Fermi speed",
+          "Much greater than the Fermi speed"
+        ],
+        "explanation": "A small net drift is superposed on the large occupied Fermi-velocity distribution."
+      }
+    ],
+    "reasoning": "Random quantum velocities do not all contribute to the directed current. Verification: A small net drift is superposed on the large occupied Fermi-velocity distribution.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-10",
+    "parts": [
+      {
+        "label": "a · Where to find a conduction electron",
+        "type": "choice",
+        "answer": "Delocalized throughout the crystal",
+        "options": [
+          "Delocalized throughout the crystal",
+          "Only inside one ionic core",
+          "Fixed halfway along one specific bond"
+        ],
+        "explanation": "Conduction-band states extend over many unit cells."
+      },
+      {
+        "label": "b · Where to find a valence electron",
+        "type": "choice",
+        "answer": "In shared covalent-bond states between neighboring atoms",
+        "options": [
+          "In shared covalent-bond states between neighboring atoms",
+          "Only in an isolated 1s orbital",
+          "Outside the crystal only"
+        ],
+        "explanation": "Silicon valence states provide the bonding network."
+      },
+      {
+        "label": "c · Where to find a 2p electron",
+        "type": "choice",
+        "answer": "Near its own ionic core",
+        "options": [
+          "Near its own ionic core",
+          "Delocalized as a conduction electron",
+          "Only in the vacuum outside the sample"
+        ],
+        "explanation": "The closed2p core shell remains tightly bound to its silicon ion."
+      }
+    ],
+    "reasoning": "Distinguish extended conduction states, bonding valence states and localized core states. Verification: Conduction-band states extend over many unit cells.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Chapter free-electron density-of-states model; energies measured from the bottom of the band. Use SI constants and electron-volts consistently."
+    ]
+  },
+  {
+    "id": "physics-chapter-41-questions-11",
+    "parts": [
+      {
+        "label": "a · Same intrinsic carrier density",
+        "type": "choice",
+        "answer": "False",
+        "options": [
+          "False",
+          "True",
+          "Only for germanium"
+        ],
+        "explanation": "Different gaps strongly affect thermal carrier generation."
+      },
+      {
+        "label": "b · Germanium has greater room-temperature carrier density",
+        "type": "choice",
+        "answer": "True",
+        "options": [
+          "True",
+          "False",
+          "Only at zero kelvin"
+        ],
+        "explanation": "The smaller Ge gap makes thermal excitation easier."
+      },
+      {
+        "label": "c · More conduction electrons than holes",
+        "type": "choice",
+        "answer": "False",
+        "options": [
+          "False",
+          "True",
+          "Only for silicon"
+        ],
+        "explanation": "Each intrinsic excitation creates one electron and one hole."
+      },
+      {
+        "label": "d · Equal electron and hole densities in each pure material",
+        "type": "choice",
+        "answer": "True",
+        "options": [
+          "True",
+          "False",
+          "Only for germanium"
+        ],
+        "explanation": "Intrinsic charge neutrality givesn = p for each undoped semiconductor."
+      }
+    ],
+    "reasoning": "The comparison assumes pure intrinsic materials, as in the chapter discussion. Verification: Different gaps strongly affect thermal carrier generation.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Pure intrinsic silicon and germanium at room temperature; no donor or acceptor imbalance."
+    ]
+  }
+]

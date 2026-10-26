@@ -1,0 +1,126 @@
+{
+  "chapter": 41,
+  "reviewer": "p40 independent source review",
+  "status": "PASS: all11 conceptual questions and all requested subparts match independent derivations after thermal-expansion correction to Q1(d).",
+  "source": "site/books/physics/chapter-41.pdf",
+  "sourcePages": [
+    2,
+    17,
+    21
+  ],
+  "visualInspection": "Original pages2,17,21 rendered and inspected, including unit-cell atom locations, depletion charge signs and energy-level ordering.",
+  "questions": [
+    {
+      "id": "physics-chapter-41-questions-1",
+      "independentAnswer": "b, c, d; no for a and e within the chapter free-electron model.",
+      "derivation": "N(E)=8\u221a2\u03c0m^(3/2)\u221aE/h\u00b3 is states per volume per energy, so adjacent mean spacing is 1/[VN(E)]. It depends on volume and position E; temperature changes sample dimensions by thermal expansion. The free-electron mass is fixed, and the Fermi energy determines filling rather than the levels themselves.",
+      "sourcePages": [
+        21
+      ],
+      "authorComparison": "PASS after Q1(d) correction"
+    },
+    {
+      "id": "physics-chapter-41-questions-2",
+      "independentAnswer": "4 atoms per copper unit cell.",
+      "derivation": "Figure41-1a has eight corners each shared by8cells and six face atoms each shared by2cells: 8/8+6/2=4.",
+      "sourcePages": [
+        21,
+        2
+      ],
+      "authorComparison": "PASS"
+    },
+    {
+      "id": "physics-chapter-41-questions-3",
+      "independentAnswer": "8 atoms per silicon unit cell.",
+      "derivation": "Figure41-1b has the same corner and face contribution4 plus4 wholly internal atoms: 8/8+6/2+4=8.",
+      "sourcePages": [
+        21,
+        2
+      ],
+      "authorComparison": "PASS"
+    },
+    {
+      "id": "physics-chapter-41-questions-4",
+      "independentAnswer": "(a)3>1=2; (b)3>2>1; (c)1>2>3.",
+      "derivation": "Original Figure41-21 puts1 above2 above EF above3. At0K the below-Fermi state3 has probability1 while1 and2 have0. Fermi-Dirac probability strictly decreases with E at positive T; free-electron DOS increases as \u221aE.",
+      "sourcePages": [
+        21
+      ],
+      "authorComparison": "PASS"
+    },
+    {
+      "id": "physics-chapter-41-questions-5",
+      "independentAnswer": "Below the Fermi energy.",
+      "derivation": "For f(E)=1/[exp((E\u2212EF)/(kT))+1], f=.60>.50 requires exp<1 and E\u2212EF<0.",
+      "sourcePages": [
+        21
+      ],
+      "authorComparison": "PASS"
+    },
+    {
+      "id": "physics-chapter-41-questions-6",
+      "independentAnswer": "The four outer electrons 4s\u00b24p\u00b2.",
+      "derivation": "The four outer electrons participate in diamond-structure covalent bonds and constitute the filled valence band; the inner28 are core electrons.",
+      "sourcePages": [
+        21
+      ],
+      "authorComparison": "PASS"
+    },
+    {
+      "id": "physics-chapter-41-questions-7",
+      "independentAnswer": "Increase.",
+      "derivation": "At fixed positive offset .1eV, increasing T lowers positive exponent \u0394E/(kT), reducing the denominator and raising f toward1/2.",
+      "sourcePages": [
+        21
+      ],
+      "authorComparison": "PASS"
+    },
+    {
+      "id": "physics-chapter-41-questions-8",
+      "independentAnswer": "(a)Right to left, from n to p; (b)greater for back/reverse bias.",
+      "derivation": "Figure41-15 explicitly has p onleft, negative acceptor charge atleft depletion edge, n onright and positive donors atright edge. E points from positive donors to negative acceptors. Reverse bias increases depletion charge and barrier; under depletion approximation Emax\u221ddepletion width, so widening does not imply a smaller field.",
+      "sourcePages": [
+        21,
+        17
+      ],
+      "authorComparison": "PASS"
+    },
+    {
+      "id": "physics-chapter-41-questions-9",
+      "independentAnswer": "Drift speed is much less than Fermi speed.",
+      "derivation": "A few amperes displace the Fermi distribution by a tiny drift velocity; vF=\u221a(2EF/m) is order10^6m/s while ordinary-wire drift speeds are order10^\u22124m/s.",
+      "sourcePages": [
+        21
+      ],
+      "authorComparison": "PASS"
+    },
+    {
+      "id": "physics-chapter-41-questions-10",
+      "independentAnswer": "(a)Anywhere through the crystal; (b)in covalent bonds between nearest neighbors; (c)near a silicon nucleus.",
+      "derivation": "Conduction-band states are delocalized, valence electrons occupy bonding states, and2p electrons remain localized core electrons around atomic sites.",
+      "sourcePages": [
+        21
+      ],
+      "authorComparison": "PASS"
+    },
+    {
+      "id": "physics-chapter-41-questions-11",
+      "independentAnswer": "(a)false;(b)true;(c)false;(d)true for intrinsic material.",
+      "derivation": "Intrinsic thermal excitation creates one electron and one hole each time, so n=p. Germanium has the smaller gap and greater thermal carrier concentration at common room temperature; this comparison assumes the undoped semiconductors described by the question.",
+      "sourcePages": [
+        21
+      ],
+      "authorComparison": "PASS"
+    }
+  ],
+  "corrections": [
+    {
+      "question": 1,
+      "part": "d",
+      "original": "No",
+      "corrected": "Yes",
+      "reason": "Temperature changes spacing through thermal expansion in a physical sample; at artificially fixed volume there is no direct T dependence.",
+      "confirmedInAuthorOutput": true
+    }
+  ]
+}

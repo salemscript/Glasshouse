@@ -1,0 +1,1965 @@
+{
+  "chapter": 42,
+  "coverage": {
+    "problems": 97,
+    "questions": 15,
+    "exercises": 112,
+    "answerParts": 275
+  },
+  "source": "site/books/physics/chapter-42.pdf",
+  "visualPages": [
+    5,
+    6,
+    23,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "method": "Original conservation, mass-defect, exponential-decay, coordinate and dose calculations; source diagrams reviewed visually. Author script preserves all formulas.",
+  "notices": [
+    {
+      "id": "physics-chapter-42-problems-6",
+      "notice": "Figure 42-5 gives approximate daughter neutron counts; Y-89 and I-127 give 19 excess neutrons."
+    },
+    {
+      "id": "physics-chapter-42-problems-15",
+      "notice": "The pair-count statement suppresses the separate radius dependence; includingR∝A^(1/3) gives Coulomb energy scalingZ(Z−1)/A^(1/3)."
+    },
+    {
+      "id": "physics-chapter-42-problems-17",
+      "notice": "The chapter treats the initially nearly stationary capture with negligible final recoil; that approximation is used."
+    },
+    {
+      "id": "physics-chapter-42-problems-19",
+      "notice": "These are mass percentages, as the problem specifies; atom percentages are a different convention."
+    },
+    {
+      "id": "physics-chapter-42-problems-33",
+      "notice": "An estimation exercise: the numeric example uses the stated breathing assumptions. Other justified capacities or breathing rates give different valid estimates; the general relation is checked separately."
+    },
+    {
+      "id": "physics-chapter-42-problems-38",
+      "notice": "The source activity is 8.60μCi, not 8.60 mCi; the check follows the original printed micro-unit."
+    },
+    {
+      "id": "physics-chapter-42-problems-41",
+      "notice": "The source abundance is rounded; converting an atomic fraction with natural Sm mean molar mass changes the estimate by about 2%."
+    },
+    {
+      "id": "physics-chapter-42-problems-44",
+      "notice": "Graph-read half-life≈2 s; the activity is an approximate graph extrapolation."
+    },
+    {
+      "id": "physics-chapter-42-problems-55",
+      "notice": "The original source unit is micro-u, not milli-u."
+    },
+    {
+      "id": "physics-chapter-42-problems-64",
+      "notice": "Interpret the supplied 1.26 billion-year value as the total K-40 half-life. Equal partial half-lives would contradict the stated unequal branching ratio."
+    },
+    {
+      "id": "physics-chapter-42-problems-71",
+      "notice": "Uses ΔEΔt≈ħ, the chapter convention; factors of order unity depend on linewidth definition."
+    },
+    {
+      "id": "physics-chapter-42-problems-76",
+      "notice": "The original PDF has a micro-sievert prefix, not milli-sievert."
+    },
+    {
+      "id": "physics-chapter-42-problems-79",
+      "notice": "The textbook threshold is not a present-day health recommendation."
+    },
+    {
+      "id": "physics-chapter-42-problems-80",
+      "notice": "Conditional numerical estimate uses projected area 1 m²; present year 2026 and year-only 1996 origin give 30 years, not a precisely dated elapsed time."
+    },
+    {
+      "id": "physics-chapter-42-problems-82",
+      "notice": "The checks assess the defining curve, endpoint and extraction method; a freehand plot is not directly autograded."
+    },
+    {
+      "id": "physics-chapter-42-problems-83",
+      "notice": "Do not confuse h/r with ħ/r or ħ/(2 r); these give different prefactors, not contradictory exact measurements."
+    },
+    {
+      "id": "physics-chapter-42-problems-87",
+      "notice": "The graph is specified by its equation, two checked points and monotonic shape."
+    },
+    {
+      "id": "physics-chapter-42-problems-90",
+      "notice": "Official NNDC NuDat 3 output.json snapshot reviewed 2026-10-25; observed means discovery status DISCOVERED, including entries with unmeasured half-life. STABLE is the dataset classification, not a claim that every theoretically allowed decay is impossible."
+    },
+    {
+      "id": "physics-chapter-42-problems-94",
+      "notice": "The phrase stability zone is a broad chart trend here. Ac-227 and Pu-239 are radioactive and should not be labeled stable."
+    },
+    {
+      "id": "physics-chapter-42-problems-96",
+      "notice": "Pb-210 half-life is 22.6 years; the diagram prefix is a source typo, not a 22.6-thousand-year decay."
+    },
+    {
+      "id": "physics-chapter-42-questions-10",
+      "notice": "The smooth binding curve supports the intended average-binding ranking 2>3>1. Exact neutron or proton removal energies require adjacent masses."
+    }
+  ],
+  "presentationChecks": {
+    "choiceOptionsRendered": 210,
+    "slashOptionsWithoutFraction": 0,
+    "method": "SolutionMath.render + Linkedom parse for every choice option"
+  },
+  "legacyReview": {
+    "baseline": "git HEAD:site/questions/answer-library-physics.json.gz",
+    "P19": "Legacy9.303%/11.71% applies an arithmetic atom-fraction mean to fractions explicitly given by mass. Correct mass fractions7.342856%/13.667144% satisfy reciprocal mean24.312u and sum100%.",
+    "P33": "Legacy1e13 is an estimate using other unstated breathing assumptions. General relationship is checked plus an explicitly conditional0.50L,12/min numerical example.",
+    "P50": "Independent signed mass-defect calculations show only channel b (He-4) has positive Q.",
+    "P83": "Legacy30MeV is an approximate h/r result; preserve30 as the one-significant-figure estimate and disclose the strict Heisenberg bound separately."
+  },
+  "primaryChartEvidence": {
+    "url": "https://www.nndc.bnl.gov/nudat3/data/output.json",
+    "officialLoader": "https://www.nndc.bnl.gov/nudat3/mainjs/main.js",
+    "primaryDiscoveryPaper": "https://doi.org/10.1103/PhysRevC.109.044313",
+    "primaryDiscoveryDate": "2024-04-08",
+    "reviewDate": "2026-10-25",
+    "snapshotSerializedJsonSha256": "4cb584653b8ab0ee790b95c1edebea3b438131a70c0cb318ee7b4aeedc13f603",
+    "filter": "Retain every discovery-status DISCOVERED record, including unmeasured half-lives. Stable means literal STABLE in the ground-state record. All N60 discovered nuclides outside the four stable isotones are radioactive. Preserve absent discovery records but exclude them from observed sets.",
+    "recordCount": 81,
+    "records": [
+      {
+        "name": "60Ca",
+        "z": 20,
+        "n": 40,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2018",
+          "method": "PF",
+          "country": "Japan",
+          "lab": "RIKEN"
+        },
+        "groundState": null
+      },
+      {
+        "name": "60Sc",
+        "z": 21,
+        "n": 39,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2009",
+          "method": "PF",
+          "country": "USA",
+          "lab": "Michigan State"
+        },
+        "groundState": null
+      },
+      {
+        "name": "60Ti",
+        "z": 22,
+        "n": 38,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1997",
+          "method": "PF",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": {
+          "value": 22.2,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 1.6
+          },
+          "inSeconds": {
+            "value": 0.0222,
+            "uncertainty": 0.0016
+          }
+        }
+      },
+      {
+        "name": "60V",
+        "z": 23,
+        "n": 37,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1985",
+          "method": "PF",
+          "country": "France",
+          "lab": "GANIL"
+        },
+        "groundState": {
+          "value": 122,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 18
+          },
+          "inSeconds": {
+            "value": 0.122,
+            "uncertainty": 0.018000000000000002
+          }
+        }
+      },
+      {
+        "name": "60Cr",
+        "z": 24,
+        "n": 36,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1980",
+          "method": "DI",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 490,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 10
+          },
+          "inSeconds": {
+            "value": 0.49,
+            "uncertainty": 0.01
+          }
+        }
+      },
+      {
+        "name": "60Mn",
+        "z": 25,
+        "n": 35,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1978",
+          "method": "FE",
+          "country": "USA",
+          "lab": "Argonne"
+        },
+        "groundState": {
+          "value": 0.28,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.02
+          },
+          "inSeconds": {
+            "value": 0.28,
+            "uncertainty": 0.02
+          }
+        }
+      },
+      {
+        "name": "60Fe",
+        "z": 26,
+        "n": 34,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1957",
+          "method": "SP",
+          "country": "USA",
+          "lab": "Pittsburgh"
+        },
+        "groundState": {
+          "value": 2609479,
+          "unit": "y",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 37604
+          },
+          "inSeconds": {
+            "value": 82348894490400.0,
+            "uncertainty": 1186691990400.0
+          }
+        }
+      },
+      {
+        "name": "60Co",
+        "z": 27,
+        "n": 33,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1941",
+          "method": "LP",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 5.271,
+          "unit": "y",
+          "uncertainty": {
+            "type": "asymmetric",
+            "upperLimit": 0.001,
+            "lowerLimit": 0.001
+          },
+          "inSeconds": {
+            "value": 166340109.6,
+            "uncertainty": 31557.600000000002
+          }
+        }
+      },
+      {
+        "name": "60Ni",
+        "z": 28,
+        "n": 32,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1921",
+          "method": "MS",
+          "country": "United Kingdom",
+          "lab": "Cambridge"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "60Cu",
+        "z": 29,
+        "n": 31,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1947",
+          "method": "LP",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 23.74,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.35
+          },
+          "inSeconds": {
+            "value": 1424.3999999999999,
+            "uncertainty": 21.0
+          }
+        }
+      },
+      {
+        "name": "60Zn",
+        "z": 30,
+        "n": 30,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1955",
+          "method": "LP",
+          "country": "Netherlands",
+          "lab": "Amsterdam"
+        },
+        "groundState": {
+          "value": 2.41,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.03
+          },
+          "inSeconds": {
+            "value": 144.60000000000002,
+            "uncertainty": 1.7999999999999998
+          }
+        }
+      },
+      {
+        "name": "60Ga",
+        "z": 31,
+        "n": 29,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1995",
+          "method": "PF",
+          "country": "France",
+          "lab": "GANIL"
+        },
+        "groundState": {
+          "value": 69.4,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.3
+          },
+          "inSeconds": {
+            "value": 0.0694,
+            "uncertainty": 0.0003
+          }
+        }
+      },
+      {
+        "name": "60Ge",
+        "z": 32,
+        "n": 28,
+        "a": 60,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2005",
+          "method": "PF",
+          "country": "USA",
+          "lab": "Michigan State"
+        },
+        "groundState": {
+          "value": 25,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.3
+          },
+          "inSeconds": {
+            "value": 0.025,
+            "uncertainty": 0.0003
+          }
+        }
+      },
+      {
+        "name": "92Ge",
+        "z": 32,
+        "n": 60,
+        "a": 92,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2024",
+          "method": "PF",
+          "country": "Japan",
+          "lab": "RIKEN"
+        },
+        "groundState": null
+      },
+      {
+        "name": "60As",
+        "z": 33,
+        "n": 27,
+        "a": 60,
+        "discovery": null,
+        "groundState": null
+      },
+      {
+        "name": "93As",
+        "z": 33,
+        "n": 60,
+        "a": 93,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2024",
+          "method": "PF",
+          "country": "Japan",
+          "lab": "RIKEN"
+        },
+        "groundState": null
+      },
+      {
+        "name": "94Se",
+        "z": 34,
+        "n": 60,
+        "a": 94,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1997",
+          "method": "PF",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": null
+      },
+      {
+        "name": "95Br",
+        "z": 35,
+        "n": 60,
+        "a": 95,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1997",
+          "method": "PF",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": null
+      },
+      {
+        "name": "96Kr",
+        "z": 36,
+        "n": 60,
+        "a": 96,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1994",
+          "method": "PF",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": {
+          "value": 80,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 6
+          },
+          "inSeconds": {
+            "value": 0.08,
+            "uncertainty": 0.006
+          }
+        }
+      },
+      {
+        "name": "97Rb",
+        "z": 37,
+        "n": 60,
+        "a": 97,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1969",
+          "method": "CPF",
+          "country": "France",
+          "lab": "Orsay"
+        },
+        "groundState": {
+          "value": 169.1,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.6
+          },
+          "inSeconds": {
+            "value": 0.1691,
+            "uncertainty": 0.0006
+          }
+        }
+      },
+      {
+        "name": "98Sr",
+        "z": 38,
+        "n": 60,
+        "a": 98,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1971",
+          "method": "CPF",
+          "country": "France",
+          "lab": "Grenoble"
+        },
+        "groundState": {
+          "value": 653,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 2
+          },
+          "inSeconds": {
+            "value": 0.653,
+            "uncertainty": 0.002
+          }
+        }
+      },
+      {
+        "name": "99Y",
+        "z": 39,
+        "n": 60,
+        "a": 99,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1975",
+          "method": "NF",
+          "country": "France",
+          "lab": "Grenoble"
+        },
+        "groundState": {
+          "value": 1.483,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.006
+          },
+          "inSeconds": {
+            "value": 1.483,
+            "uncertainty": 0.006
+          }
+        }
+      },
+      {
+        "name": "100Zr",
+        "z": 40,
+        "n": 60,
+        "a": 100,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1970",
+          "method": "SF",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 7.1,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.4
+          },
+          "inSeconds": {
+            "value": 7.1,
+            "uncertainty": 0.4
+          }
+        }
+      },
+      {
+        "name": "101Nb",
+        "z": 41,
+        "n": 60,
+        "a": 101,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1970",
+          "method": "NF",
+          "country": "Germany",
+          "lab": "Juelich"
+        },
+        "groundState": {
+          "value": 7.2,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.2
+          },
+          "inSeconds": {
+            "value": 7.2,
+            "uncertainty": 0.2
+          }
+        }
+      },
+      {
+        "name": "102Mo",
+        "z": 42,
+        "n": 60,
+        "a": 102,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1954",
+          "method": "NF",
+          "country": "USA",
+          "lab": "MIT"
+        },
+        "groundState": {
+          "value": 11.3,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.2
+          },
+          "inSeconds": {
+            "value": 678.0,
+            "uncertainty": 12.0
+          }
+        }
+      },
+      {
+        "name": "103Tc",
+        "z": 43,
+        "n": 60,
+        "a": 103,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1957",
+          "method": "NR",
+          "country": "Argentina",
+          "lab": "Buenos Aires"
+        },
+        "groundState": {
+          "value": 54.2,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.8
+          },
+          "inSeconds": {
+            "value": 54.2,
+            "uncertainty": 0.8
+          }
+        }
+      },
+      {
+        "name": "104Ru",
+        "z": 44,
+        "n": 60,
+        "a": 104,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1931",
+          "method": "MS",
+          "country": "United Kingdom",
+          "lab": "Cambridge"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "105Rh",
+        "z": 45,
+        "n": 60,
+        "a": 105,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1946",
+          "method": "NR",
+          "country": "Sweden",
+          "lab": "Stockholm"
+        },
+        "groundState": {
+          "value": 35.341,
+          "unit": "h",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.022
+          },
+          "inSeconds": {
+            "value": 127227.6,
+            "uncertainty": 79.19999999999999
+          }
+        }
+      },
+      {
+        "name": "106Pd",
+        "z": 46,
+        "n": 60,
+        "a": 106,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1935",
+          "method": "MS",
+          "country": "USA",
+          "lab": "Chicago"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "107Ag",
+        "z": 47,
+        "n": 60,
+        "a": 107,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1923",
+          "method": "MS",
+          "country": "United Kingdom",
+          "lab": "Cambridge"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "108Cd",
+        "z": 48,
+        "n": 60,
+        "a": 108,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1934",
+          "method": "MS",
+          "country": "United Kingdom",
+          "lab": "Cambridge"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "109In",
+        "z": 49,
+        "n": 60,
+        "a": 109,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1948",
+          "method": "LP",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 4.159,
+          "unit": "h",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.01
+          },
+          "inSeconds": {
+            "value": 14972.4,
+            "uncertainty": 36.0
+          }
+        }
+      },
+      {
+        "name": "110Sn",
+        "z": 50,
+        "n": 60,
+        "a": 110,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1965",
+          "method": "LP",
+          "country": "USA",
+          "lab": "Minnesota"
+        },
+        "groundState": {
+          "value": 4.154,
+          "unit": "h",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.004
+          },
+          "inSeconds": {
+            "value": 14954.4,
+            "uncertainty": 14.4
+          }
+        }
+      },
+      {
+        "name": "111Sb",
+        "z": 51,
+        "n": 60,
+        "a": 111,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1972",
+          "method": "LP",
+          "country": "USA",
+          "lab": "UCLA"
+        },
+        "groundState": {
+          "value": 74.9,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.7
+          },
+          "inSeconds": {
+            "value": 74.9,
+            "uncertainty": 0.7
+          }
+        }
+      },
+      {
+        "name": "112Te",
+        "z": 52,
+        "n": 60,
+        "a": 112,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1976",
+          "method": "LP",
+          "country": "Netherlands",
+          "lab": "Amsterdam"
+        },
+        "groundState": {
+          "value": 2,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.2
+          },
+          "inSeconds": {
+            "value": 120.0,
+            "uncertainty": 12.0
+          }
+        }
+      },
+      {
+        "name": "113I",
+        "z": 53,
+        "n": 60,
+        "a": 113,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1977",
+          "method": "FE",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": {
+          "value": 5.9,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.5
+          },
+          "inSeconds": {
+            "value": 5.9,
+            "uncertainty": 0.5
+          }
+        }
+      },
+      {
+        "name": "114Xe",
+        "z": 54,
+        "n": 60,
+        "a": 114,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1977",
+          "method": "FE",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": {
+          "value": 10,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.4
+          },
+          "inSeconds": {
+            "value": 10.0,
+            "uncertainty": 0.4
+          }
+        }
+      },
+      {
+        "name": "115Cs",
+        "z": 55,
+        "n": 60,
+        "a": 115,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1978",
+          "method": "SP",
+          "country": "Switzerland",
+          "lab": "CERN"
+        },
+        "groundState": {
+          "value": 1.03,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.1
+          },
+          "inSeconds": {
+            "value": 1.03,
+            "uncertainty": 0.1
+          }
+        }
+      },
+      {
+        "name": "116Ba",
+        "z": 56,
+        "n": 60,
+        "a": 116,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1997",
+          "method": "FE",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": {
+          "value": 1.3,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.2
+          },
+          "inSeconds": {
+            "value": 1.3,
+            "uncertainty": 0.2
+          }
+        }
+      },
+      {
+        "name": "117La",
+        "z": 57,
+        "n": 60,
+        "a": 117,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2001",
+          "method": "FE",
+          "country": "Italy",
+          "lab": "Legnaro"
+        },
+        "groundState": {
+          "value": 21.7,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 1.8
+          },
+          "inSeconds": {
+            "value": 0.0217,
+            "uncertainty": 0.0018000000000000002
+          }
+        }
+      },
+      {
+        "name": "123Nd",
+        "z": 60,
+        "n": 63,
+        "a": 123,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2025",
+          "method": "PF",
+          "country": "Japan",
+          "lab": "RIKEN"
+        },
+        "groundState": null
+      },
+      {
+        "name": "124Nd",
+        "z": 60,
+        "n": 64,
+        "a": 124,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2025",
+          "method": "PF",
+          "country": "Japan",
+          "lab": "RIKEN"
+        },
+        "groundState": null
+      },
+      {
+        "name": "125Nd",
+        "z": 60,
+        "n": 65,
+        "a": 125,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1999",
+          "method": "FE",
+          "country": "China",
+          "lab": "Lanzhou"
+        },
+        "groundState": {
+          "value": 0.65,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.15
+          },
+          "inSeconds": {
+            "value": 0.65,
+            "uncertainty": 0.15
+          }
+        }
+      },
+      {
+        "name": "126Nd",
+        "z": 60,
+        "n": 66,
+        "a": 126,
+        "discovery": null,
+        "groundState": null
+      },
+      {
+        "name": "127Nd",
+        "z": 60,
+        "n": 67,
+        "a": 127,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1983",
+          "method": "FE",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 1.8,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.4
+          },
+          "inSeconds": {
+            "value": 1.8,
+            "uncertainty": 0.4
+          }
+        }
+      },
+      {
+        "name": "128Nd",
+        "z": 60,
+        "n": 68,
+        "a": 128,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1985",
+          "method": "FE",
+          "country": "United Kingdom",
+          "lab": "Daresbury"
+        },
+        "groundState": {
+          "value": 4,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 2
+          },
+          "inSeconds": {
+            "value": 4.0,
+            "uncertainty": 2.0
+          }
+        }
+      },
+      {
+        "name": "129Nd",
+        "z": 60,
+        "n": 69,
+        "a": 129,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1977",
+          "method": "FE",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 6.7,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.4
+          },
+          "inSeconds": {
+            "value": 6.7,
+            "uncertainty": 0.4
+          }
+        }
+      },
+      {
+        "name": "130Nd",
+        "z": 60,
+        "n": 70,
+        "a": 130,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1977",
+          "method": "FE",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 21,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 3
+          },
+          "inSeconds": {
+            "value": 21.0,
+            "uncertainty": 3.0
+          }
+        }
+      },
+      {
+        "name": "131Nd",
+        "z": 60,
+        "n": 71,
+        "a": 131,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1977",
+          "method": "FE",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 25.4,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.9
+          },
+          "inSeconds": {
+            "value": 25.4,
+            "uncertainty": 0.9
+          }
+        }
+      },
+      {
+        "name": "132Nd",
+        "z": 60,
+        "n": 72,
+        "a": 132,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1977",
+          "method": "FE",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 94,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 8
+          },
+          "inSeconds": {
+            "value": 94.0,
+            "uncertainty": 8.0
+          }
+        }
+      },
+      {
+        "name": "133Nd",
+        "z": 60,
+        "n": 73,
+        "a": 133,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1977",
+          "method": "FE",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 70,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 10
+          },
+          "inSeconds": {
+            "value": 70.0,
+            "uncertainty": 10.0
+          }
+        }
+      },
+      {
+        "name": "134Nd",
+        "z": 60,
+        "n": 74,
+        "a": 134,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1971",
+          "method": "SP",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 8.5,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 1.5
+          },
+          "inSeconds": {
+            "value": 510.0,
+            "uncertainty": 90.0
+          }
+        }
+      },
+      {
+        "name": "135Nd",
+        "z": 60,
+        "n": 75,
+        "a": 135,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1971",
+          "method": "SP",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 12.4,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.6
+          },
+          "inSeconds": {
+            "value": 744.0,
+            "uncertainty": 36.0
+          }
+        }
+      },
+      {
+        "name": "136Nd",
+        "z": 60,
+        "n": 76,
+        "a": 136,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1969",
+          "method": "SP",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 50.65,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.33
+          },
+          "inSeconds": {
+            "value": 3039.0,
+            "uncertainty": 19.8
+          }
+        }
+      },
+      {
+        "name": "137Nd",
+        "z": 60,
+        "n": 77,
+        "a": 137,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1970",
+          "method": "FE",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 38.5,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 1.5
+          },
+          "inSeconds": {
+            "value": 2310.0,
+            "uncertainty": 90.0
+          }
+        }
+      },
+      {
+        "name": "138Nd",
+        "z": 60,
+        "n": 78,
+        "a": 138,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1965",
+          "method": "SP",
+          "country": "Russia",
+          "lab": "Dubna"
+        },
+        "groundState": {
+          "value": 5.11,
+          "unit": "h",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.08
+          },
+          "inSeconds": {
+            "value": 18396.0,
+            "uncertainty": 288.0
+          }
+        }
+      },
+      {
+        "name": "139Nd",
+        "z": 60,
+        "n": 79,
+        "a": 139,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1951",
+          "method": "LP",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 29.7,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.5
+          },
+          "inSeconds": {
+            "value": 1782.0,
+            "uncertainty": 30.0
+          }
+        }
+      },
+      {
+        "name": "140Nd",
+        "z": 60,
+        "n": 80,
+        "a": 140,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1949",
+          "method": "LP",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 3.37,
+          "unit": "d",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.02
+          },
+          "inSeconds": {
+            "value": 291168.0,
+            "uncertainty": 1728.0
+          }
+        }
+      },
+      {
+        "name": "141Nd",
+        "z": 60,
+        "n": 81,
+        "a": 141,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1949",
+          "method": "LP",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 2.49,
+          "unit": "h",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.03
+          },
+          "inSeconds": {
+            "value": 8964.0,
+            "uncertainty": 108.0
+          }
+        }
+      },
+      {
+        "name": "142Nd",
+        "z": 60,
+        "n": 82,
+        "a": 142,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1924",
+          "method": "MS",
+          "country": "United Kingdom",
+          "lab": "Cambridge"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "143Nd",
+        "z": 60,
+        "n": 83,
+        "a": 143,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1933",
+          "method": "MS",
+          "country": "United Kingdom",
+          "lab": "Cambridge"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "144Nd",
+        "z": 60,
+        "n": 84,
+        "a": 144,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1924",
+          "method": "MS",
+          "country": "United Kingdom",
+          "lab": "Cambridge"
+        },
+        "groundState": {
+          "value": 2287500000000000,
+          "unit": "y",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 158607219255619
+          },
+          "inSeconds": {
+            "value": 7.218801e+22,
+            "uncertainty": 5.005263182381122e+21
+          }
+        }
+      },
+      {
+        "name": "145Nd",
+        "z": 60,
+        "n": 85,
+        "a": 145,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1933",
+          "method": "MS",
+          "country": "United Kingdom",
+          "lab": "Cambridge"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "146Nd",
+        "z": 60,
+        "n": 86,
+        "a": 146,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1924",
+          "method": "MS",
+          "country": "United Kingdom",
+          "lab": "Cambridge"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "147Nd",
+        "z": 60,
+        "n": 87,
+        "a": 147,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1947",
+          "method": "NF",
+          "country": "USA",
+          "lab": "Oak Ridge"
+        },
+        "groundState": {
+          "value": 11.12,
+          "unit": "d",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.07
+          },
+          "inSeconds": {
+            "value": 960767.9999999999,
+            "uncertainty": 6048.000000000001
+          }
+        }
+      },
+      {
+        "name": "148Nd",
+        "z": 60,
+        "n": 88,
+        "a": 148,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1937",
+          "method": "MS",
+          "country": "USA",
+          "lab": "Chicago"
+        },
+        "groundState": {
+          "value": "STABLE"
+        }
+      },
+      {
+        "name": "149Nd",
+        "z": 60,
+        "n": 89,
+        "a": 149,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1938",
+          "method": "NR",
+          "country": "USA",
+          "lab": "Michigan"
+        },
+        "groundState": {
+          "value": 1.728,
+          "unit": "h",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.002
+          },
+          "inSeconds": {
+            "value": 6220.8,
+            "uncertainty": 7.2
+          }
+        }
+      },
+      {
+        "name": "150Nd",
+        "z": 60,
+        "n": 90,
+        "a": 150,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1937",
+          "method": "MS",
+          "country": "USA",
+          "lab": "Chicago"
+        },
+        "groundState": {
+          "value": 9300000000000000000,
+          "unit": "y",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 700000000000000000
+          },
+          "inSeconds": {
+            "value": 2.9348568e+26,
+            "uncertainty": 2.209032e+25
+          }
+        }
+      },
+      {
+        "name": "151Nd",
+        "z": 60,
+        "n": 91,
+        "a": 151,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1938",
+          "method": "NR",
+          "country": "USA",
+          "lab": "Michigan"
+        },
+        "groundState": {
+          "value": 12.44,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.07
+          },
+          "inSeconds": {
+            "value": 746.4,
+            "uncertainty": 4.2
+          }
+        }
+      },
+      {
+        "name": "152Nd",
+        "z": 60,
+        "n": 92,
+        "a": 152,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1969",
+          "method": "NF",
+          "country": "USA",
+          "lab": "Michigan"
+        },
+        "groundState": {
+          "value": 11.4,
+          "unit": "m",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.2
+          },
+          "inSeconds": {
+            "value": 684.0,
+            "uncertainty": 12.0
+          }
+        }
+      },
+      {
+        "name": "153Nd",
+        "z": 60,
+        "n": 93,
+        "a": 153,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1987",
+          "method": "SF",
+          "country": "USA",
+          "lab": "Idaho Falls"
+        },
+        "groundState": {
+          "value": 31.6,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 1.0
+          },
+          "inSeconds": {
+            "value": 31.6,
+            "uncertainty": 1.0
+          }
+        }
+      },
+      {
+        "name": "154Nd",
+        "z": 60,
+        "n": 94,
+        "a": 154,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1970",
+          "method": "SF",
+          "country": "USA",
+          "lab": "Berkeley"
+        },
+        "groundState": {
+          "value": 25.9,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.2
+          },
+          "inSeconds": {
+            "value": 25.9,
+            "uncertainty": 0.2
+          }
+        }
+      },
+      {
+        "name": "155Nd",
+        "z": 60,
+        "n": 95,
+        "a": 155,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1986",
+          "method": "NF",
+          "country": "Japan",
+          "lab": "Kyoto"
+        },
+        "groundState": {
+          "value": 8.9,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.2
+          },
+          "inSeconds": {
+            "value": 8.9,
+            "uncertainty": 0.2
+          }
+        }
+      },
+      {
+        "name": "156Nd",
+        "z": 60,
+        "n": 96,
+        "a": 156,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "1987",
+          "method": "SF",
+          "country": "USA",
+          "lab": "Idaho Falls"
+        },
+        "groundState": {
+          "value": 5.27,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.23
+          },
+          "inSeconds": {
+            "value": 5.27,
+            "uncertainty": 0.23
+          }
+        }
+      },
+      {
+        "name": "157Nd",
+        "z": 60,
+        "n": 97,
+        "a": 157,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2012",
+          "method": "SF",
+          "country": "USA",
+          "lab": "Argonne"
+        },
+        "groundState": {
+          "value": 1.16,
+          "unit": "s",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 0.02
+          },
+          "inSeconds": {
+            "value": 1.16,
+            "uncertainty": 0.02
+          }
+        }
+      },
+      {
+        "name": "158Nd",
+        "z": 60,
+        "n": 98,
+        "a": 158,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2012",
+          "method": "PF",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": {
+          "value": 820,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "asymmetric",
+            "upperLimit": 15,
+            "lowerLimit": 36
+          },
+          "inSeconds": {
+            "value": 0.8200000000000001,
+            "uncertainty": 0.025500000000000002
+          }
+        }
+      },
+      {
+        "name": "159Nd",
+        "z": 60,
+        "n": 99,
+        "a": 159,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2012",
+          "method": "PF",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": {
+          "value": 485,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "asymmetric",
+            "upperLimit": 39,
+            "lowerLimit": 20
+          },
+          "inSeconds": {
+            "value": 0.485,
+            "uncertainty": 0.029500000000000002
+          }
+        }
+      },
+      {
+        "name": "160Nd",
+        "z": 60,
+        "n": 100,
+        "a": 160,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2012",
+          "method": "PF",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": {
+          "value": 439,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 37
+          },
+          "inSeconds": {
+            "value": 0.439,
+            "uncertainty": 0.037
+          }
+        }
+      },
+      {
+        "name": "161Nd",
+        "z": 60,
+        "n": 101,
+        "a": 161,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2012",
+          "method": "PF",
+          "country": "Germany",
+          "lab": "Darmstadt"
+        },
+        "groundState": {
+          "value": 215,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 76
+          },
+          "inSeconds": {
+            "value": 0.215,
+            "uncertainty": 0.076
+          }
+        }
+      },
+      {
+        "name": "162Nd",
+        "z": 60,
+        "n": 102,
+        "a": 162,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2017",
+          "method": "PF",
+          "country": "Japan",
+          "lab": "RIKEN"
+        },
+        "groundState": {
+          "value": 310,
+          "unit": "ms",
+          "uncertainty": {
+            "type": "symmetric",
+            "value": 20
+          },
+          "inSeconds": {
+            "value": 0.31,
+            "uncertainty": 0.02
+          }
+        }
+      },
+      {
+        "name": "163Nd",
+        "z": 60,
+        "n": 103,
+        "a": 163,
+        "discovery": {
+          "status": "DISCOVERED",
+          "year": "2018",
+          "method": "PF",
+          "country": "Japan",
+          "lab": "RIKEN"
+        },
+        "groundState": null
+      }
+    ],
+    "sets": {
+      "stableZ60": "Nd-142, Nd-143, Nd-145, Nd-146, Nd-148",
+      "radioactiveN60": "Ge-92, As-93, Se-94, Br-95, Kr-96, Rb-97, Sr-98, Y-99, Zr-100, Nb-101, Mo-102, Tc-103, Rh-105, In-109, Sn-110, Sb-111, Te-112, I-113, Xe-114, Cs-115, Ba-116, La-117",
+      "observedA60": "Ca-60, Sc-60, Ti-60, V-60, Cr-60, Mn-60, Fe-60, Co-60, Ni-60, Cu-60, Zn-60, Ga-60, Ge-60"
+    }
+  },
+  "independentConceptReview": {
+    "file": "ch42-independent-review.json",
+    "reviewer": "p41",
+    "questions": 15,
+    "fields": 21,
+    "result": "pass"
+  },
+  "independentNumericalInvariants": {
+    "P19massFractionsSum": 1.0,
+    "P19meanMassReconstructed": 24.312,
+    "P48alphaBindingFromDifferenceMeV": 28.298788114939658,
+    "P48alphaBindingDirectMeV": 28.29878811494007,
+    "P50energeticallyAllowedChannels": [
+      "b"
+    ],
+    "P90setCounts": {
+      "stableZ60": 5,
+      "radioactiveN60": 22,
+      "observedA60": 13
+    }
+  }
+}

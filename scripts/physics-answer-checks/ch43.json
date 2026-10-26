@@ -1,0 +1,2000 @@
+[
+  {
+    "id": "physics-chapter-43-problems-1",
+    "parts": [
+      {
+        "label": "a · Spontaneous fission rate",
+        "type": "numeric",
+        "answer": 0.00018762179187233025,
+        "unit": "s⁻¹",
+        "tolerance": 2.251461502467963e-06,
+        "explanation": "N=(1g)/(235g/mol)N_A and rate=ln2 N/(3.0×10¹⁷years)."
+      },
+      {
+        "label": "b · Alpha events per spontaneous fission",
+        "type": "numeric",
+        "answer": 428571428.5714286,
+        "unit": "dimensionless",
+        "tolerance": 5142857.142857144,
+        "explanation": "The same atom count cancels; rate ratio equals the inverse half-life ratio."
+      }
+    ],
+    "reasoning": "Treat the two branches as independent competing decay constants. Verification: The ratio of partial rates isλ_alpha/λ_fission=4.2857×10⁸; the branching half-life, not the total half-life, determines the rare fission rate.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-2",
+    "parts": [
+      {
+        "label": "Thermal-neutron fission possible?",
+        "type": "choice",
+        "answer": "Yes; capture supplies5.0 MeV, exceeding the4.2 MeV barrier",
+        "options": [
+          "Yes; capture supplies5.0 MeV, exceeding the4.2 MeV barrier",
+          "No; the neutron must already carry4.2 MeV",
+          "No; capture removes excitation energy"
+        ],
+        "explanation": "The neutron separation energy is released as excitation when the neutron is captured."
+      }
+    ],
+    "reasoning": "Reverse neutron removal to evaluate capture excitation. Verification: Excitation exceeds the barrier by0.8 MeV even when incident neutron kinetic energy is negligible.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-3",
+    "parts": [
+      {
+        "label": "Nuclear excitation energy",
+        "type": "numeric",
+        "answer": 4.805608500018948,
+        "unit": "MeV",
+        "tolerance": 0.057667302000227384,
+        "explanation": "Mass defect is m(²³⁸U)+m_n−m(²³⁹U); electrons cancel between the uranium atoms."
+      }
+    ],
+    "reasoning": "Absorption creates the compound239U nucleus in an excited state. Verification: The mass sum exceeds the ground-state239U mass by0.005159u, giving4.80561 MeV.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-4",
+    "parts": [
+      {
+        "label": "Total energy released",
+        "type": "numeric",
+        "answer": 4.53550350125523e+26,
+        "unit": "MeV",
+        "tolerance": 5.442604201506276e+24,
+        "explanation": "1 kg gives1000N_A/239 atoms; each fission releases180 MeV."
+      }
+    ],
+    "reasoning": "Multiply nuclei by the stated per-event energy. Verification: The amount is4.1841 mol; the result is about4.54×10²⁶MeV.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-5",
+    "parts": [
+      {
+        "label": "Total material mass in the stated idealized energy balance",
+        "type": "numeric",
+        "answer": 1289.8237204272855,
+        "unit": "kg",
+        "tolerance": 15.477884645127427,
+        "explanation": "Convert the specified energy to event count at200 MeV per fission, then divide the fissioned mass by the supplied0.080 fraction."
+      }
+    ],
+    "reasoning": "This check is the textbook scalar mass-energy bookkeeping using its supplied fission fraction. Verification: The event count times200 MeV reproduces the given energy; fissioned mass is0.080 times the reported total.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Idealized energy bookkeeping only, with the fission fraction supplied in the question; no reaction-rate, geometry or assembly model is inferred."
+  },
+  {
+    "id": "physics-chapter-43-problems-6",
+    "parts": [
+      {
+        "label": "a · Complementary nuclide",
+        "type": "choice",
+        "answer": "⁹⁵Sr",
+        "options": [
+          "⁹⁵Sr",
+          "⁹⁴Sr",
+          "⁹⁶Sr"
+        ],
+        "explanation": "236=140+95+1 and92=54+38."
+      },
+      {
+        "label": "b · Complementary nuclide",
+        "type": "choice",
+        "answer": "⁹⁵Y",
+        "options": [
+          "⁹⁵Y",
+          "⁹⁵Sr",
+          "⁹⁷Y"
+        ],
+        "explanation": "236=139+95+2 and92=53+39."
+      },
+      {
+        "label": "c · Complementary nuclide",
+        "type": "choice",
+        "answer": "¹³⁴Te",
+        "options": [
+          "¹³⁴Te",
+          "¹³⁶Te",
+          "¹³⁴Xe"
+        ],
+        "explanation": "236=134+100+2 and92=52+40."
+      },
+      {
+        "label": "d · Emitted neutron count",
+        "type": "numeric",
+        "answer": 3,
+        "unit": "neutrons",
+        "tolerance": 0,
+        "explanation": "236−141−92=3; charges55+37=92."
+      }
+    ],
+    "reasoning": "Conserve nucleon number and electric charge independently in every table row. Verification: Every row has total mass number236 and atomic number92.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-7",
+    "parts": [
+      {
+        "label": "Required fission rate",
+        "type": "numeric",
+        "answer": 31207545372.30381,
+        "unit": "s⁻¹",
+        "tolerance": 374490544.4676457,
+        "explanation": "A watt is one joule each second; divide by200 MeV converted to joules."
+      }
+    ],
+    "reasoning": "Power equals event rate times energy per event. Verification: Multiplying3.12075×10¹⁰s⁻¹ by3.20435×10⁻¹¹J gives1W.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-8",
+    "parts": [
+      {
+        "label": "a · Disintegration energy",
+        "type": "numeric",
+        "answer": 5.002154999999263,
+        "unit": "MeV",
+        "tolerance": 0.06002585999999115,
+        "explanation": "Atomic electrons cancel: Z_Mo=42 equals2Z_Sc."
+      },
+      {
+        "label": "b · Why not spontaneous?",
+        "type": "choice",
+        "answer": "A positive Q does not remove the fission activation barrier",
+        "options": [
+          "A positive Q does not remove the fission activation barrier",
+          "Positive Q forbids energy conservation",
+          "The products have more total nucleons"
+        ],
+        "explanation": "The Coulomb and surface-energy barrier can suppress a process even when the final rest energy is smaller."
+      }
+    ],
+    "reasoning": "Compare rest energies, then distinguish thermodynamic energy release from reaction probability. Verification: The positive mass defect is0.00537u, while a nonzero barrier still blocks ordinary spontaneous splitting.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-9",
+    "parts": [
+      {
+        "label": "a · Atom count",
+        "type": "numeric",
+        "answer": 2.5626130893617024e+24,
+        "unit": "atoms",
+        "tolerance": 3.075135707234043e+22,
+        "explanation": "N=(1 kg)/(0.235 kg/mol)N_A."
+      },
+      {
+        "label": "b · Released energy",
+        "type": "numeric",
+        "answer": 82115176275157.47,
+        "unit": "J",
+        "tolerance": 985382115301.8896,
+        "explanation": "Multiply the atom count by200 MeV in joules."
+      },
+      {
+        "label": "c · Time for100W lamp",
+        "type": "numeric",
+        "answer": 26020.729166716566,
+        "unit": "years",
+        "tolerance": 312.2487500005988,
+        "explanation": "t=energy/power, then convert seconds to years."
+      }
+    ],
+    "reasoning": "Use a common atom count consistently across all three parts. Verification: Energy/time returns100W; the time is about2.60×10⁴years.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-10",
+    "parts": [
+      {
+        "label": "Fission Q",
+        "type": "numeric",
+        "answer": 180.76688999999206,
+        "unit": "MeV",
+        "tolerance": 2.1692026799999047,
+        "explanation": "Subtract all final atomic and neutron masses from the initial atom-plus-neutron mass."
+      }
+    ],
+    "reasoning": "Nucleon and electron counts balance before applying mass-energy equivalence. Verification: Both sides have236 nucleons and92 electrons; mass defect0.19406u produces180.767 MeV.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-11",
+    "parts": [
+      {
+        "label": "Disintegration Q",
+        "type": "numeric",
+        "answer": -22.980104999993767,
+        "unit": "MeV",
+        "tolerance": 0.27576125999992523,
+        "explanation": "Q=[m(⁵²Cr)−2m(²⁶Mg)]c²; electron numbers24=2×12."
+      }
+    ],
+    "reasoning": "Equal splitting of this relatively light nucleus is endothermic. Verification: The mass defect is−0.02467u and the negative sign means energy must be supplied.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-12",
+    "parts": [
+      {
+        "label": "a · Total beta-minus decay count",
+        "type": "numeric",
+        "answer": 10,
+        "unit": "decays",
+        "tolerance": 0,
+        "explanation": "Final charges58+44=102 exceed initial92 by10; each beta-minus step raises nuclear Z by1."
+      },
+      {
+        "label": "b · Total Q",
+        "type": "numeric",
+        "answer": 231.0865200000015,
+        "unit": "MeV",
+        "tolerance": 2.773038240000018,
+        "explanation": "Using neutral atomic masses automatically accounts for beta electrons when total charge bookkeeping is included."
+      }
+    ],
+    "reasoning": "The initial compound system has239 nucleons; final masses140+99 conserve that count. Verification: A10-step rise in combined nuclear charge is consistent with neutron-rich primary fragments approaching stable nuclei.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-13",
+    "parts": [
+      {
+        "label": "a · Electrostatic potential energy",
+        "type": "numeric",
+        "answer": 252.82430775892183,
+        "unit": "MeV",
+        "tolerance": 3.033891693107062,
+        "explanation": "Use center separation r₀(A₁^(1/3)+A₂^(1/3)) and charges54e,38e."
+      },
+      {
+        "label": "b · Ratio to a200 MeV event",
+        "type": "numeric",
+        "answer": 1.2641215387946092,
+        "unit": "dimensionless",
+        "tolerance": 0.01516945846553531,
+        "explanation": "Compare the contact-sphere Coulomb estimate to the chapter typical fission Q."
+      }
+    ],
+    "reasoning": "The two fragment radii add; do not use either radius alone as their separation. Verification: The computed separation is about11.69 fm; deformation and the approximate touching-sphere model explain why this contact energy exceeds a typical200 MeV final energy.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Part(b) compares with the chapter typical200 MeV event; the touching-sphere Coulomb estimate is an idealization."
+  },
+  {
+    "id": "physics-chapter-43-problems-14",
+    "parts": [
+      {
+        "label": "a · Surface-area percentage change",
+        "type": "numeric",
+        "answer": 25.50103345782915,
+        "unit": "%",
+        "tolerance": 0.3060124014939498,
+        "explanation": "Area scales asA^(2/3); compare the sum of fragment areas to the original."
+      },
+      {
+        "label": "b · Volume percentage change",
+        "type": "numeric",
+        "answer": 0,
+        "unit": "%",
+        "tolerance": 0,
+        "explanation": "Volume scales asA and140+96=236."
+      },
+      {
+        "label": "c · Electrostatic self-energy percentage change",
+        "type": "numeric",
+        "answer": -35.972569280171854,
+        "unit": "%",
+        "tolerance": 0.43167083136206225,
+        "explanation": "For uniform spheres U∝Z²/A^(1/3); add the separate self-energies of the fragments."
+      }
+    ],
+    "reasoning": "Use the same nuclear radius coefficient in numerator and denominator, so it cancels. Verification: Nucleon conservation makes volume unchanged while larger total surface area competes with reduced charge self-energy.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Part(c) is the change in separate sphere self-energies, following the supplied formula; mutual fragment interaction is not included in that requested comparison."
+  },
+  {
+    "id": "physics-chapter-43-problems-15",
+    "parts": [
+      {
+        "label": "a · Total mass in the stated energy balance",
+        "type": "numeric",
+        "answer": 83.70362302856567,
+        "unit": "kg",
+        "tolerance": 1.004443476342788,
+        "explanation": "Convert the specified energy to event count with200 MeV per fission; divide fissioned mass by the supplied0.040 fraction."
+      },
+      {
+        "label": "b · Primary fragment count",
+        "type": "numeric",
+        "answer": 1.716e+25,
+        "unit": "fragments",
+        "tolerance": 2.0592e+23,
+        "explanation": "The idealized model produces two primary fragments per fission."
+      },
+      {
+        "label": "c · Generated neutrons not needed to propagate the chain",
+        "type": "numeric",
+        "answer": 1.287e+25,
+        "unit": "neutrons",
+        "tolerance": 1.5444e+23,
+        "explanation": "Of the stated2.5 neutrons per event, approximately one per event sustains the next generation, leaving1.5 per event."
+      }
+    ],
+    "reasoning": "Apply only the supplied idealized event-energy and count bookkeeping. Verification: The fragment count is exactly twice the fission count; neutron accounting is2.5N=N+1.5N, neglecting the initial initiating neutron.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Idealized textbook event counts. Part(c) follows the chapter chain bookkeeping and neglects capture losses, other than the one neutron per event needed for continuation."
+  },
+  {
+    "id": "physics-chapter-43-problems-16",
+    "parts": [
+      {
+        "label": "a · Energy rating in tons of TNT",
+        "type": "numeric",
+        "answer": 43610.61058899259,
+        "unit": "tons TNT equivalent",
+        "tolerance": 523.327327067911,
+        "explanation": "Use only the2.5 kg stated to fission,180 MeV per event, and the supplied energy-conversion definition."
+      },
+      {
+        "label": "b · Why total fuel can exceed reacted fuel",
+        "type": "choice",
+        "answer": "The reaction can stop before all initially present nuclei have fissioned",
+        "options": [
+          "The reaction can stop before all initially present nuclei have fissioned",
+          "All initially present nuclei must fission",
+          "Unreacted nuclei have no mass"
+        ],
+        "explanation": "The given fraction is not a claim that all material reacts; finite reaction duration leaves unreacted material."
+      }
+    ],
+    "reasoning": "Separate supplied reacted mass from supplied total mass in the scalar energy balance. Verification: Only reacted nuclei contribute to the calculated release; this is not a model for choosing geometry or making a reaction self-sustaining.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "This checks the supplied idealized energy-equivalent calculation and qualitative incomplete reaction, not a device design or criticality calculation."
+  },
+  {
+    "id": "physics-chapter-43-problems-17",
+    "parts": [
+      {
+        "label": "a · Other fragment",
+        "type": "choice",
+        "answer": "¹⁵³Nd",
+        "options": [
+          "¹⁵³Nd",
+          "¹⁵³Sm",
+          "¹⁵¹Nd"
+        ],
+        "explanation": "Mass number236−83=153 and charge92−32=60."
+      },
+      {
+        "label": "b · Germanium kinetic energy",
+        "type": "numeric",
+        "answer": 110.21186440677967,
+        "unit": "MeV",
+        "tolerance": 1.3225423728813561,
+        "explanation": "Equal recoil momenta give K_Ge/K_Nd=m_Nd/m_Ge=153/83."
+      },
+      {
+        "label": "c · Other fragment kinetic energy",
+        "type": "numeric",
+        "answer": 59.78813559322034,
+        "unit": "MeV",
+        "tolerance": 0.7174576271186441,
+        "explanation": "The two kinetic energies sum to170 MeV."
+      },
+      {
+        "label": "d · Germanium speed",
+        "type": "numeric",
+        "answer": 16007399.151260117,
+        "unit": "m/s",
+        "tolerance": 192088.78981512142,
+        "explanation": "Use K=p²/(2m) in the nonrelativistic recoil approximation."
+      },
+      {
+        "label": "e · Other fragment speed",
+        "type": "numeric",
+        "answer": 8683752.480748951,
+        "unit": "m/s",
+        "tolerance": 104205.02976898741,
+        "explanation": "Use the corresponding mass153u and recoil energy."
+      }
+    ],
+    "reasoning": "Charge and mass conservation identify the isotope; momentum conservation partitions kinetic energy. Verification: 83u times the first speed equals153u times the second speed, and both kinetic energies sum to Q.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-18",
+    "parts": [
+      {
+        "label": "Initial235U mass",
+        "type": "numeric",
+        "answer": 461.17078130728737,
+        "unit": "kg",
+        "tolerance": 5.534049375687449,
+        "explanation": "The total consumed mass is(Pt/Q)(0.235/N_A); this is half the original mass."
+      }
+    ],
+    "reasoning": "The supplied reactor output is taken as the fission energy-generation rate. Verification: Half of the reported initial mass releases the integrated energy200 MW×3 years.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Use the chapter200 MeV per fission and the stated assumption that consumption occurs only through fission."
+  },
+  {
+    "id": "physics-chapter-43-problems-19",
+    "parts": [
+      {
+        "label": "Power law",
+        "type": "choice",
+        "answer": "P(t)=P₀ k^(t/τ)",
+        "options": [
+          "P(t)=P₀ k^(t/τ)",
+          "P(t)=P₀ exp(kt/τ)",
+          "P(t)=P₀(1+kt/τ)"
+        ],
+        "explanation": "There are t/τ generations and each generation multiplies the active population by k."
+      },
+      {
+        "label": "Constant-power multiplication factor",
+        "type": "numeric",
+        "answer": 1,
+        "unit": "dimensionless",
+        "tolerance": 0,
+        "explanation": "A constant nonzero population requires k=1."
+      }
+    ],
+    "reasoning": "Iterate the per-generation population relation. Verification: P(t+τ)/P(t)=k and the units of t/τ are dimensionless.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-20",
+    "parts": [
+      {
+        "label": "Final reactor power",
+        "type": "numeric",
+        "answer": 8030.600908559948,
+        "unit": "MW",
+        "tolerance": 96.36721090271938,
+        "explanation": "There are300s/.030s=10000 generations."
+      }
+    ],
+    "reasoning": "Use the discrete-generation factor with the actual30.0 ms source time. Verification: The exact factor1.0003^10000≈20.08 agrees with exp(3) to the expected small-logarithm approximation.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-21",
+    "parts": [
+      {
+        "label": "Thermal power",
+        "type": "numeric",
+        "answer": 558.4302413809348,
+        "unit": "W",
+        "tolerance": 6.701162896571218,
+        "explanation": "Decay activity λN times5.50 MeV per alpha event."
+      }
+    ],
+    "reasoning": "The plutonium half-life is87.7 years and the sample mass is1.00 kg. Verification: Specific power P/(1000g) is about0.558W/g; activity times Q reconstructs the total.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-22",
+    "parts": [
+      {
+        "label": "Effective chain-supporting neutron population",
+        "type": "numeric",
+        "answer": 1.5603772686151906e+16,
+        "unit": "neutrons",
+        "tolerance": 187245272233822.88,
+        "explanation": "At steady state one continuing fission per active chain neutron each generation gives N≈Pτ/Q."
+      },
+      {
+        "label": "Population relation",
+        "type": "choice",
+        "answer": "N≈Pτ/Q",
+        "options": [
+          "N≈Pτ/Q",
+          "N≈PQ/τ",
+          "N≈P/(Qτ)"
+        ],
+        "explanation": "Rate=P/Q and inventory=rate×average generation duration."
+      }
+    ],
+    "reasoning": "Relate steady event rate to the specified generation time. Verification: N/τ times200 MeV gives500 MW.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Generation-law estimate of the chain-supporting neutron inventory; rapidly lost leakage/capture neutrons are outside this simple single-time-scale model."
+  },
+  {
+    "id": "physics-chapter-43-problems-23",
+    "parts": [
+      {
+        "label": "Required multiplication factor",
+        "type": "numeric",
+        "answer": 0.999384117892645,
+        "unit": "dimensionless",
+        "tolerance": 2e-07,
+        "explanation": "Invert P_f/P_i=k^(t/τ), using τ=1.3 ms andt=2.6000s."
+      }
+    ],
+    "reasoning": "Use the logarithm of the desired power ratio rather than a linear fractional drop. Verification: Raising the reported factor to2000 generations reproduces350/1200; k is slightly below1.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-24",
+    "parts": [
+      {
+        "label": "a · Effective decay-chain energy",
+        "type": "numeric",
+        "answer": 1.1453564498480928,
+        "unit": "MeV",
+        "tolerance": 0.013744277398177114,
+        "explanation": "Thermal power per atom equals λQ_eff; use90g/mol and0.93W/g."
+      },
+      {
+        "label": "b · Required90 Sr mass",
+        "type": "numeric",
+        "answer": 3.225806451612903,
+        "unit": "kg",
+        "tolerance": 0.03870967741935484,
+        "explanation": "Thermal output must be150W/.050; divide by0.93W/g."
+      }
+    ],
+    "reasoning": "The quoted effective Q includes daughter-chain heat, not escaping neutrino energy. Verification: Reported mass times0.93W/g times5% returns150 Welectric.",
+    "sourcePages": [
+      23
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-25",
+    "parts": [
+      {
+        "label": "a · Fractional elastic kinetic-energy loss",
+        "type": "choice",
+        "answer": "4 mM/(m+M)^2",
+        "options": [
+          "4 mM/(m+M)^2",
+          "(m−M)^2/(m+M)^2",
+          "m/(m+M)"
+        ],
+        "explanation": "Equal-and-opposite elastic impulse gives final neutron speed (m−M)/(m+M) times its initial speed."
+      },
+      {
+        "label": "b · Loss fraction for hydrogen",
+        "type": "numeric",
+        "answer": 1.0,
+        "unit": "dimensionless",
+        "tolerance": 0.012,
+        "explanation": "Use target mass approximately A times the neutron mass."
+      },
+      {
+        "label": "c · Loss fraction for deuterium",
+        "type": "numeric",
+        "answer": 0.8888888888888888,
+        "unit": "dimensionless",
+        "tolerance": 0.010666666666666666,
+        "explanation": "Use target mass approximately A times the neutron mass."
+      },
+      {
+        "label": "d · Loss fraction for carbon",
+        "type": "numeric",
+        "answer": 0.28402366863905326,
+        "unit": "dimensionless",
+        "tolerance": 0.0034082840236686392,
+        "explanation": "Use target mass approximately A times the neutron mass."
+      },
+      {
+        "label": "e · Loss fraction for lead",
+        "type": "numeric",
+        "answer": 0.019138313609467456,
+        "unit": "dimensionless",
+        "tolerance": 0.00022965976331360948,
+        "explanation": "Use target mass approximately A times the neutron mass."
+      },
+      {
+        "label": "f · Minimum head-on deuterium collisions",
+        "type": "numeric",
+        "answer": 8,
+        "unit": "collisions",
+        "tolerance": 0,
+        "explanation": "Each ideal head-on collision retains1/9 of neutron energy; solve (1/9)^n≤.025/10⁶."
+      }
+    ],
+    "reasoning": "Conserve momentum and kinetic energy in a one-dimensional elastic collision. Verification: Loss is maximal for equal masses; eight deuterium collisions reduce1 MeV below0.025 eV.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Head-on stationary-target idealization and integer target/neutron mass ratios, as specified; real moderator scattering is not all head-on."
+  },
+  {
+    "id": "physics-chapter-43-problems-26",
+    "parts": [
+      {
+        "label": "Time in the past",
+        "type": "numeric",
+        "answer": 3622828930.064155,
+        "unit": "years",
+        "tolerance": 43473947.160769865,
+        "explanation": "R_past=R_now exp[(λ235−λ238)t]; use today0.72% uranium235."
+      }
+    ],
+    "reasoning": "The shorter-lived235U was more abundant in the past. Verification: Substituting the time multiplies the present isotope ratio by .15/R_now.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Today235U abundance0.72% of235U+238U; half-lives7.0×10⁸ and4.5×10⁹years."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-27",
+    "parts": [
+      {
+        "label": "a · Average natural-reactor power",
+        "type": "numeric",
+        "answer": 75000.0,
+        "unit": "W",
+        "tolerance": 900.0,
+        "explanation": "Integrated15 gigawatt-years divided by200000 years."
+      },
+      {
+        "label": "b ·235U consumed",
+        "type": "numeric",
+        "answer": 5764.6347663410925,
+        "unit": "kg",
+        "tolerance": 69.17561719609311,
+        "explanation": "Divide total energy by200 MeV and convert nuclei to kilograms."
+      }
+    ],
+    "reasoning": "Energy integrated over the reactor lifetime is not its instantaneous rated power. Verification: Power times200000 years reconstructs15 GW·year.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-28",
+    "parts": [
+      {
+        "label": "Reaction path producing extra235U",
+        "type": "choice",
+        "answer": "²³⁸U+n → ²³⁹U → ²³⁹Np → ²³⁹Pu → ²³⁵U",
+        "options": [
+          "²³⁸U+n → ²³⁹U → ²³⁹Np → ²³⁹Pu → ²³⁵U",
+          "²³⁸U+n → ²³⁷U → ²³⁵U",
+          "²³⁸U → ²³⁵U by a single beta decay"
+        ],
+        "explanation": "Capture raises A by1, two beta-minus decays raise Z from92 to94, and subsequent alpha decay reduces A by4 and Z by2."
+      }
+    ],
+    "reasoning": "Follow the known capture, beta-minus and alpha changes of A and Z. Verification: The net final isotope has A235,Z92; no proton/neutron count is silently discarded.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-29",
+    "parts": [
+      {
+        "label": "Time in the past",
+        "type": "numeric",
+        "answer": 1698072746.144368,
+        "unit": "years",
+        "tolerance": 20376872.953732416,
+        "explanation": "Solve the same two-isotope exponential ratio forR=.030."
+      }
+    ],
+    "reasoning": "The historical natural isotope ratio grows exponentially backward in time. Verification: The two relevant decay constants enter as their difference, not their sum.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated half-lives and present0.72%235U abundance; only these two uranium isotopes are retained in the ratio model."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-30",
+    "parts": [
+      {
+        "label": "100W lamp operating time",
+        "type": "numeric",
+        "answer": 24994.536660204176,
+        "unit": "years",
+        "tolerance": 299.9344399224501,
+        "explanation": "Each fusion event consumes two deuterons; N_events=(1/.002)N_A/2."
+      }
+    ],
+    "reasoning": "Count reactions, not individual deuterons, before multiplying by Q. Verification: The result is approximately2.5×10⁴years, as asserted in the question.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-31",
+    "parts": [
+      {
+        "label": "Minimum kinetic energy per deuteron",
+        "type": "numeric",
+        "answer": 0.1714243509343795,
+        "unit": "MeV",
+        "tolerance": 0.002057092211212554,
+        "explanation": "The contact potential U=e²/(4πε₀·4.2 fm) equals the sum2K of the equal incident kinetic energies."
+      }
+    ],
+    "reasoning": "Both deuterons carry charge+e. Verification: The contact separation is4.2 fm and the barrier is about0.343 MeV.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-32",
+    "parts": [
+      {
+        "label": "a · Voltage per deuteron beam",
+        "type": "numeric",
+        "answer": 171424.3509343795,
+        "unit": "V",
+        "tolerance": 2057.092211212554,
+        "explanation": "Equal beams each supply half the two-body barrier, with kinetic energy eV."
+      },
+      {
+        "label": "b · Main practical limitation",
+        "type": "choice",
+        "answer": "Most accelerated ions do not fuse, so maintaining the beams costs more energy than recovered",
+        "options": [
+          "Most accelerated ions do not fuse, so maintaining the beams costs more energy than recovered",
+          "Equal positive charges attract and prevent fusion",
+          "Accelerating a charged ion requires no input energy"
+        ],
+        "explanation": "The barrier energy alone does not provide a sufficiently probable fusion reaction or an energy-efficient power source."
+      }
+    ],
+    "reasoning": "The two equal kinetic energies add in the center-of-mass frame. Verification: Twice eV equals the barrier from Problem31.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Idealized energy threshold for two equal opposing beams, not a calculation of reaction yield or a workable power plant."
+  },
+  {
+    "id": "physics-chapter-43-problems-33",
+    "parts": [
+      {
+        "label": "Minimum initial kinetic energy K of each lithium nucleus",
+        "type": "numeric",
+        "answer": 1.4114117389751026,
+        "unit": "MeV",
+        "tolerance": 0.01693694086770123,
+        "explanation": "Use R=r₀7^(1/3), charge+3e and2K=9 ke²/(2R)."
+      }
+    ],
+    "reasoning": "The barrier scales as Z₁Z₂ divided by the sum of nuclear radii. Verification: Lithium has nine times the deuteron charge product, and its larger contact radius is included.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-34",
+    "parts": [
+      {
+        "label": "Number-density ratio",
+        "type": "numeric",
+        "answer": 0.1504767446821969,
+        "unit": "dimensionless",
+        "tolerance": 0.0018057209361863628,
+        "explanation": "In n(K), the common constants cancel, leaving√(K₂/K₁) exp[−(K₂−K₁)/kT]."
+      }
+    ],
+    "reasoning": "Convert kT to the same keV units as both kinetic energies. Verification: kT≈1.293 keV; the exponential suppression dominates the square-root increase.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-35",
+    "parts": [
+      {
+        "label": "Least head-on separation",
+        "type": "numeric",
+        "answer": 8.355047344950463e-13,
+        "unit": "m",
+        "tolerance": 1.0026056813940557e-14,
+        "explanation": "Two equal head-on protons each with energy kT can convert total2 kT to repulsive potential energy."
+      },
+      {
+        "label": "Energy balance",
+        "type": "choice",
+        "answer": "2 kT=e²/(4πε₀r)",
+        "options": [
+          "2 kT=e²/(4πε₀r)",
+          "kT=e²/(8πε₀r)",
+          "4 kT=e²/(4πε₀r)"
+        ],
+        "explanation": "Use total kinetic energy in the center-of-mass frame for the closest possible approach."
+      }
+    ],
+    "reasoning": "The least separation is for a head-on collision with opposite velocities. Verification: The returned distance gives Coulomb potential2 kT, not just one proton kinetic energy.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Classical head-on closest approach; quantum tunneling is a separate effect."
+  },
+  {
+    "id": "physics-chapter-43-problems-36",
+    "parts": [
+      {
+        "label": "Fusion Q",
+        "type": "numeric",
+        "answer": 5.493986999999755,
+        "unit": "MeV",
+        "tolerance": 0.06592784399999706,
+        "explanation": "Atomic electrons balance: oneD atom plus oneH atom has the same electrons as oneHe3 atom."
+      }
+    ],
+    "reasoning": "Compute the mass defect from the supplied atomic masses. Verification: Mass defect0.005898u gives5.49399 MeV.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-37",
+    "parts": [
+      {
+        "label": "a · Signed solar mass-change rate",
+        "type": "numeric",
+        "answer": -4339335218.609112,
+        "unit": "kg/s",
+        "tolerance": 52072022.623309344,
+        "explanation": "Radiated energy reduces mass at dM/dt=−P/c²."
+      },
+      {
+        "label": "b · Fraction of initial mass radiated",
+        "type": "numeric",
+        "answer": 0.0003080178572306812,
+        "unit": "dimensionless",
+        "tolerance": 3.6962142867681744e-06,
+        "explanation": "With a constant luminosity estimate, initialmass≈currentmass+Pt/c²."
+      }
+    ],
+    "reasoning": "Apply the mass-energy equivalence to the full radiated power. Verification: The lost fraction is only about3.08×10⁻⁴, so using present mass instead changes the fraction by less than0.04%.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Assume the present luminosity was constant during4.5 billionyears; the supplied2.0×10³⁰kg is treated as the present solar mass."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-38",
+    "parts": [
+      {
+        "label": "Full cycle energy bookkeeping",
+        "type": "choice",
+        "answer": "Q=2(0.42+1.02+5.49)+12.86 MeV",
+        "options": [
+          "Q=2(0.42+1.02+5.49)+12.86 MeV",
+          "Q=0.42+1.02+5.49+12.86 MeV",
+          "Q=2(0.42+5.49)−12.86 MeV"
+        ],
+        "explanation": "Two copies of each initial branch occur, each positron annihilation adds1.02 MeV, and the He3+He3 step occurs once."
+      },
+      {
+        "label": "Total cycle Q",
+        "type": "numeric",
+        "answer": 26.72,
+        "unit": "MeV",
+        "tolerance": 0.32064,
+        "explanation": "Add every displayed reaction with its actual multiplicity."
+      }
+    ],
+    "reasoning": "Trace both branches of Fig.43-11 rather than summing each distinct reaction only once. Verification: The total is26.72 MeV, which rounds to the stated26.7 MeV.",
+    "sourcePages": [
+      16,
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-39",
+    "parts": [
+      {
+        "label": "Triple-alpha Q",
+        "type": "numeric",
+        "answer": 7.2656999999996135,
+        "unit": "MeV",
+        "tolerance": 0.08718839999999536,
+        "explanation": "The three neutralhelium atoms and one neutralcarbon atom each contain six electrons in total."
+      }
+    ],
+    "reasoning": "Carbon12 has exactly12u on the atomic-mass scale. Verification: The0.0078u mass defect gives7.2657 MeV≈7.27 MeV.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-40",
+    "parts": [
+      {
+        "label": "a · Fusion energy from1 kg hydrogen",
+        "type": "numeric",
+        "answer": 638928166590371.4,
+        "unit": "J",
+        "tolerance": 7667137999084.457,
+        "explanation": "There is one26.7 MeV cycle per four hydrogen atoms."
+      },
+      {
+        "label": "b · Fission energy from1 kg235U",
+        "type": "numeric",
+        "answer": 82115176275157.47,
+        "unit": "J",
+        "tolerance": 985382115301.8896,
+        "explanation": "There is one200 MeV event per uranium235 atom."
+      },
+      {
+        "label": "Fusion-to-fission energy ratio",
+        "type": "numeric",
+        "answer": 7.780877976190475,
+        "unit": "dimensionless",
+        "tolerance": 0.0933705357142857,
+        "explanation": "Divide the two per-kilogram energies, including their different atom counts."
+      }
+    ],
+    "reasoning": "Energy per event alone is insufficient for a per-kilogram comparison. Verification: Fusion yields roughly7.8 times more energy per unit initial fuel mass under these stated reactions.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-41",
+    "parts": [
+      {
+        "label": "Helium-burning time",
+        "type": "numeric",
+        "answer": 160765352.1203635,
+        "unit": "years",
+        "tolerance": 1929184.225444362,
+        "explanation": "Each triple-alpha reaction consumes three4u nuclei and releases7.27 MeV."
+      }
+    ],
+    "reasoning": "Divide the total available reaction energy by the supplied constant luminosity. Verification: The atom count includes three helium nuclei per reaction; integrating the output for this time gives the total energy inventory.",
+    "sourcePages": [
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-42",
+    "parts": [
+      {
+        "label": "First proton-proton reaction Q",
+        "type": "numeric",
+        "answer": 0.41992020000009767,
+        "unit": "MeV",
+        "tolerance": 0.0050390424000011725,
+        "explanation": "With atomic masses subtract two electron masses to account for the emitted positron and the excess atomic electron."
+      },
+      {
+        "label": "Deuterium-proton reaction Q",
+        "type": "numeric",
+        "answer": 5.493986999999755,
+        "unit": "MeV",
+        "tolerance": 0.06592784399999706,
+        "explanation": "Atomic electron counts balance in D+H→He3."
+      },
+      {
+        "label": "Helium3-helium3 reaction Q",
+        "type": "numeric",
+        "answer": 12.859357500000476,
+        "unit": "MeV",
+        "tolerance": 0.1543122900000057,
+        "explanation": "Electron counts balance in2 He3→He4+2H."
+      }
+    ],
+    "reasoning": "Distinguish nuclear and atomic masses in the positron-emitting step. Verification: The three results round to0.42,5.49,12.86 MeV; including two annihilations gives26.7 MeV per full cycle.",
+    "sourcePages": [
+      16,
+      24
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-43",
+    "parts": [
+      {
+        "label": "a · Reaction Q",
+        "type": "numeric",
+        "answer": 24.892474499999636,
+        "unit": "MeV",
+        "tolerance": 0.29870969399999564,
+        "explanation": "Q=[5m(D)−m(He3)−m(He4)−m(H)−2m_n]c²; neutral atomic electron counts balance."
+      },
+      {
+        "label": "b · Stated energy-equivalent rating",
+        "type": "numeric",
+        "answer": 8.587869163587644,
+        "unit": "megatons TNT equivalent",
+        "tolerance": 0.10305442996305174,
+        "explanation": "Use the supplied reacted mass fraction and five deuterium atoms per stated reaction, then the supplied energy-conversion definition."
+      }
+    ],
+    "reasoning": "This is the supplied idealized reaction mass-energy accounting. Verification: The reaction conserves ten nucleons and five protons; the Q value and event count reproduce the scalar energy total.",
+    "sourcePages": [
+      24,
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Checks cover only the textbook reaction-energy bookkeeping and its supplied reacted fraction; no physical reaction-rate or assembly design is inferred."
+  },
+  {
+    "id": "physics-chapter-43-problems-44",
+    "parts": [
+      {
+        "label": "Time until core hydrogen is consumed",
+        "type": "numeric",
+        "answer": 4472109167.302473,
+        "unit": "years",
+        "tolerance": 53665310.00762968,
+        "explanation": "Available fuel is one-eighth the solar mass times0.35; divide by the given consumption rate."
+      }
+    ],
+    "reasoning": "Only hydrogen in the stated core is included. Verification: Multiplying the time by6.2×10¹¹kg/s recovers8.75×10²⁸kg.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-45",
+    "parts": [
+      {
+        "label": "a · Neutrino generation rate",
+        "type": "numeric",
+        "answer": 1.8233622015278632e+38,
+        "unit": "s⁻¹",
+        "tolerance": 3.6467244030557264e+36,
+        "explanation": "Two neutrinos are produced in each26.7 MeV proton-proton cycle.",
+        "acceptedValues": [
+          1.858159190106639e+38
+        ]
+      },
+      {
+        "label": "b · Neutrino flux at Earth",
+        "type": "numeric",
+        "answer": 648335640630094.0,
+        "unit": "m⁻² s⁻¹",
+        "tolerance": 12966712812601.88,
+        "explanation": "Divide an isotropic rate by4πr² at1 AU.",
+        "acceptedValues": [
+          660708458199370.6
+        ]
+      }
+    ],
+    "reasoning": "Use the full solar luminosity and one proton-proton reaction chain per Q. Verification: The surface integral of the Earth-distance flux equals the generation rate.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Use the chapter26.7 MeV full-cycle value; using26.2 MeV effective electromagnetic heat changes the inferred count by about2% and is also accepted."
+  },
+  {
+    "id": "physics-chapter-43-problems-46",
+    "parts": [
+      {
+        "label": "a · Net nuclear cycle",
+        "type": "choice",
+        "answer": "4p → ⁴He+2e⁺+2ν",
+        "options": [
+          "4p → ⁴He+2e⁺+2ν",
+          "3p → ³He+ν",
+          "4p → ⁴He without leptons"
+        ],
+        "explanation": "Cancel the intermediate carbon, nitrogen and oxygen nuclei on both sides of the six listed reactions."
+      },
+      {
+        "label": "b · Total Q including annihilation",
+        "type": "numeric",
+        "answer": 26.733999999999998,
+        "unit": "MeV",
+        "tolerance": 0.320808,
+        "explanation": "Sum the listed reaction Q values and add2 positron-electron annihilations of1.022 MeV each."
+      }
+    ],
+    "reasoning": "The catalyst carbon12 is regenerated, while four protons are converted to one alpha particle. Verification: The listed nuclear reactions sum24.69 MeV; two annihilations add2.044 MeV, giving26.734 MeV≈26.7 MeV.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-47",
+    "parts": [
+      {
+        "label": "a · Combustion energy per carbon atom",
+        "type": "numeric",
+        "answer": 4.10425078246148,
+        "unit": "eV",
+        "tolerance": 0.04925100938953776,
+        "explanation": "Multiply the energy per kilogram of carbon by12u per atom."
+      },
+      {
+        "label": "b · Energy per kilogram of all reactants",
+        "type": "numeric",
+        "answer": 9000000.0,
+        "unit": "J/kg",
+        "tolerance": 108000.0,
+        "explanation": "Carbon is12/(12+32) of the initial C+O₂ mass."
+      },
+      {
+        "label": "c · Hypothetical combustion lifetime",
+        "type": "numeric",
+        "answer": 1462.5271298782593,
+        "unit": "years",
+        "tolerance": 17.55032555853911,
+        "explanation": "Total chemical inventory divided by the solar luminosity."
+      }
+    ],
+    "reasoning": "The mass basis changes between parts(a) and(b); oxygen must be included in the latter. Verification: The lifetime is only about1.46×10³years, showing why chemical burning cannot power the Sun for geological times.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-48",
+    "parts": [
+      {
+        "label": "Eq43-13 Q",
+        "type": "numeric",
+        "answer": 3.269564999999702,
+        "unit": "MeV",
+        "tolerance": 0.03923477999999642,
+        "explanation": "D+D→He3+n atomic electron counts balance."
+      },
+      {
+        "label": "Eq43-14 Q",
+        "type": "numeric",
+        "answer": 4.033394999999535,
+        "unit": "MeV",
+        "tolerance": 0.04840073999999442,
+        "explanation": "D+D→T+H."
+      },
+      {
+        "label": "Eq43-15 Q",
+        "type": "numeric",
+        "answer": 17.589514500000398,
+        "unit": "MeV",
+        "tolerance": 0.21107417400000478,
+        "explanation": "D+T→He4+n."
+      }
+    ],
+    "reasoning": "Evaluate three independent atomic-mass defects. Verification: The values round to3.27,4.03 and17.59 MeV as quoted.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-49",
+    "parts": [
+      {
+        "label": "Average fusion power",
+        "type": "numeric",
+        "answer": 14414.612392325647,
+        "unit": "W",
+        "tolerance": 172.97534870790778,
+        "explanation": "The mass0.0150% of1 kg is HDO; each19g/mol HDO molecule supplies one deuteron, and each reaction consumes two."
+      }
+    ],
+    "reasoning": "The specified heavy water is singly deuterated HDO, not pure D₂O. Verification: Molecule count, deuteron count and reaction count differ; the resulting average power is about14.4 kW.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-50",
+    "parts": [
+      {
+        "label": "a · Effective energy per hydrogen mass",
+        "type": "numeric",
+        "answer": 626963219650476.8,
+        "unit": "J/kg",
+        "tolerance": 7523558635805.721,
+        "explanation": "Divide26.2 MeV by the mass of four hydrogen atoms."
+      },
+      {
+        "label": "b · Hydrogen consumption rate",
+        "type": "numeric",
+        "answer": 622046059125.1582,
+        "unit": "kg/s",
+        "tolerance": 7464552709.501899,
+        "explanation": "Fuel consumption=electromagnetic luminosity/effective energy per kilogram."
+      },
+      {
+        "label": "c · Solar mass-loss rate magnitude",
+        "type": "numeric",
+        "answer": 4339335218.609112,
+        "unit": "kg/s",
+        "tolerance": 52072022.623309344,
+        "explanation": "Actual rest mass converted to radiated energy isP/c²."
+      },
+      {
+        "label": "d · Why the two rates differ",
+        "type": "choice",
+        "answer": "Most consumed hydrogen mass remains in helium; only the mass defect is radiated",
+        "options": [
+          "Most consumed hydrogen mass remains in helium; only the mass defect is radiated",
+          "All hydrogen mass disappears as radiation",
+          "Mass is not conserved in any energy accounting"
+        ],
+        "explanation": "Hydrogen consumption is a composition change, while mass loss counts only converted rest energy."
+      },
+      {
+        "label": "e · Time to lose0.10% of solar mass",
+        "type": "numeric",
+        "answer": 14605042578.01311,
+        "unit": "years",
+        "tolerance": 175260510.93615732,
+        "explanation": "Use the radiative mass-loss rate, not the much larger hydrogen-consumption rate."
+      }
+    ],
+    "reasoning": "Separate total fuel processed from the smaller relativistic mass defect. Verification: The ratio of the two rates equals the inverse converted mass fraction; the requested loss time is about1.46×10¹⁰years.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-51",
+    "parts": [
+      {
+        "label": "Reaction chain",
+        "type": "choice",
+        "answer": "²³⁸U+n → ²³⁹U → ²³⁹Np → ²³⁹Pu",
+        "options": [
+          "²³⁸U+n → ²³⁹U → ²³⁹Np → ²³⁹Pu",
+          "²³⁸U+n → ²³⁹Pu in one alpha decay",
+          "²³⁸U → ²³⁹Pu without any capture"
+        ],
+        "explanation": "Neutron capture increases A by1; two beta-minus decays then raise Z from92 to94 at fixed A."
+      }
+    ],
+    "reasoning": "Track A and Z in the stated neutron-capture and beta-decay sequence. Verification: The final isotope has239 nucleons and94 protons.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-52",
+    "parts": [
+      {
+        "label": "a · Alpha kinetic energy",
+        "type": "numeric",
+        "answer": 3.518,
+        "unit": "MeV",
+        "tolerance": 0.042216,
+        "explanation": "Equal recoil momenta partition kinetic energy inversely with masses approximately4u and1u."
+      },
+      {
+        "label": "b · Neutron kinetic energy",
+        "type": "numeric",
+        "answer": 14.072,
+        "unit": "MeV",
+        "tolerance": 0.168864,
+        "explanation": "The lighter neutron carries four times the alpha kinetic energy."
+      }
+    ],
+    "reasoning": "The initial center-of-mass kinetic energy is neglected as requested. Verification: Both values sum17.59 MeV and satisfy m_alpha K_alpha=m_neutron K_neutron.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the chapter mass-number approximation m_alpha≈4u,m_neutron≈1u; initial kinetic energies negligible."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-53",
+    "parts": [
+      {
+        "label": "Mean thermal neutron energy",
+        "type": "numeric",
+        "answer": 0.038777999679653306,
+        "unit": "eV",
+        "tolerance": 0.00046533599615583966,
+        "explanation": "Classical translational mean kinetic energy is3 kT/2."
+      }
+    ],
+    "reasoning": "Room-temperature thermal equilibrium determines the energy scale. Verification: The result0.03878 eV rounds to the stated0.04 eV.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-54",
+    "parts": [
+      {
+        "label": "100W operating time",
+        "type": "numeric",
+        "answer": 688.1037268531713,
+        "unit": "years",
+        "tolerance": 8.257244722238056,
+        "explanation": "In1 kg UO₂, uranium mass is238/270 kg; only3.0% of that uranium is235U."
+      }
+    ],
+    "reasoning": "Account for both oxygen mass and the specified enrichment fraction. Verification: The calculated time is about688 years, consistent with the chapter690 year estimate.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-55",
+    "parts": [
+      {
+        "label": "a · Free-proton number density",
+        "type": "numeric",
+        "answer": 3.138784638442311e+31,
+        "unit": "m⁻³",
+        "tolerance": 3.766541566130773e+29,
+        "explanation": "Hydrogen mass density divided by one proton mass."
+      },
+      {
+        "label": "b · Density ratio to STP ideal gas",
+        "type": "numeric",
+        "answer": 1171991.9595183004,
+        "unit": "dimensionless",
+        "tolerance": 14063.903514219604,
+        "explanation": "The comparison gas number density is p/(kT)."
+      }
+    ],
+    "reasoning": "Hydrogen nuclei supply the free protons; helium nuclei are separate plasma species. Verification: The two densities are about3.14×10³¹ and2.68×10²⁵m⁻³.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "The question counts free protons (hydrogen nuclei), not protons bound inside alpha particles."
+  },
+  {
+    "id": "physics-chapter-43-problems-56",
+    "parts": [
+      {
+        "label": "a · Most probable kinetic energy",
+        "type": "choice",
+        "answer": "K_p=kT/2",
+        "options": [
+          "K_p=kT/2",
+          "K_p=3 kT/2",
+          "K_p=kT"
+        ],
+        "explanation": "Differentiate ln[n(K)]=(1/2)lnK−K/kT+constant."
+      },
+      {
+        "label": "a · Peak energy on the graph",
+        "type": "numeric",
+        "answer": 0.6462999946608884,
+        "unit": "keV",
+        "tolerance": 0.00775559993593066,
+        "explanation": "Set1/(2K)−1/kT=0."
+      },
+      {
+        "label": "b · Most probable speed",
+        "type": "choice",
+        "answer": "v_p=√(2 kT/m)",
+        "options": [
+          "v_p=√(2 kT/m)",
+          "v_p=√(3 kT/m)",
+          "v_p=√(kT/m)"
+        ],
+        "explanation": "Differentiate the speed density v²exp[−mv²/(2 kT)]."
+      },
+      {
+        "label": "b · Proton most probable speed",
+        "type": "numeric",
+        "answer": 497626.3585279185,
+        "unit": "m/s",
+        "tolerance": 5971.516302335022,
+        "explanation": "Use proton mass and the stated temperature."
+      },
+      {
+        "label": "c · Energy at most probable speed",
+        "type": "choice",
+        "answer": "K(v_p)=kT",
+        "options": [
+          "K(v_p)=kT",
+          "K(v_p)=kT/2",
+          "K(v_p)=3 kT/2"
+        ],
+        "explanation": "Substitute v_p²=2 kT/m into mv²/2."
+      },
+      {
+        "label": "c · Energy location on graph",
+        "type": "numeric",
+        "answer": 1.2925999893217768,
+        "unit": "keV",
+        "tolerance": 0.01551119987186132,
+        "explanation": "This is twice the peak location of the energy-density graph."
+      }
+    ],
+    "reasoning": "A mode is not invariant under the nonlinear variable change between speed and energy. Verification: The energy density includes a Jacobian; its peak is at kT/2 while the speed-mode energy is kT.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-problems-57",
+    "parts": [
+      {
+        "label": "a · Energy per pellet",
+        "type": "numeric",
+        "answer": 227.49178752268094,
+        "unit": "J",
+        "tolerance": 2.7299014502721715,
+        "explanation": "Uncompressed pellet mass=ρ4πr³/3; equal D and T atom counts give one pair per5g/mol, with10% pairs reacting."
+      },
+      {
+        "label": "b · TNT energy-equivalent mass",
+        "type": "numeric",
+        "answer": 4.945473641797412e-05,
+        "unit": "kg",
+        "tolerance": 5.934568370156894e-07,
+        "explanation": "Divide by the specified4.6 MJ/kg energy equivalent."
+      },
+      {
+        "label": "c · Gross fusion power",
+        "type": "numeric",
+        "answer": 22749.178752268093,
+        "unit": "W",
+        "tolerance": 272.9901450272171,
+        "explanation": "Multiply per-pellet energy by100 events/s."
+      }
+    ],
+    "reasoning": "The original source radius is20μm, not20 mm; compression does not change pellet mass. Verification: The uncompressed mass is6.70×10⁻¹²kg; pair and reacted-pair counts reconstruct the energy.",
+    "sourcePages": [
+      20,
+      21,
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "Gross idealized reaction energy before subtracting energy used to drive the lasers; use the referenced200 kg/m³ uncompressed density."
+  },
+  {
+    "id": "physics-chapter-43-problems-58",
+    "parts": [
+      {
+        "label": "a · Most probable deuteron speed",
+        "type": "numeric",
+        "answer": 911836.7518929329,
+        "unit": "m/s",
+        "tolerance": 10942.041022715195,
+        "explanation": "Maxwell speed mode is√(2 kT/m) with mass approximately2u."
+      },
+      {
+        "label": "b · Travel distance in confinement time",
+        "type": "numeric",
+        "answer": 9.118367518929329e-07,
+        "unit": "m",
+        "tolerance": 1.0942041022715195e-08,
+        "explanation": "Distance=mode speed times10⁻¹²s."
+      }
+    ],
+    "reasoning": "Use the speed mode rather than the rms or mean speed. Verification: The distance is about0.912μm; speed and time units multiply to meters.",
+    "sourcePages": [
+      25
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-1",
+    "parts": [
+      {
+        "label": "a · Missing mass number",
+        "type": "numeric",
+        "answer": 101,
+        "unit": "nucleons",
+        "tolerance": 0,
+        "explanation": "236=132+A+3."
+      },
+      {
+        "label": "b · Missing atomic number",
+        "type": "numeric",
+        "answer": 42,
+        "unit": "protons",
+        "tolerance": 0,
+        "explanation": "92=50+Z."
+      }
+    ],
+    "reasoning": "Conserve mass number and electric charge independently. Verification: The missing nucleus is101 Mo;132+101+3=236 and50+42=92.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-2",
+    "parts": [
+      {
+        "label": "Average binding energy per nucleon",
+        "type": "choice",
+        "answer": "Decreases",
+        "options": [
+          "Decreases",
+          "Increases",
+          "Stays the same"
+        ],
+        "explanation": "An energy-absorbing fusion has a higher final rest mass at the same total nucleon count."
+      }
+    ],
+    "reasoning": "Q is the increase in total binding energy for fixed nucleon count. Verification: NegativeQ means reduced binding, hence reduced average binding per nucleon.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-3",
+    "parts": [
+      {
+        "label": "Remaining nuclide",
+        "type": "choice",
+        "answer": "²³⁹Np",
+        "options": [
+          "²³⁹Np",
+          "²³⁹Pu",
+          "²³⁸Pa"
+        ],
+        "explanation": "Capture first creates239U; beta-minus raises Z92→93 without changing A."
+      }
+    ],
+    "reasoning": "Apply capture and beta-minus in their stated order. Verification: The mass number239 and atomic number93 identify neptunium239.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-4",
+    "parts": [
+      {
+        "label": "Initial fragment composition",
+        "type": "choice",
+        "answer": "More neutrons than protons",
+        "options": [
+          "More neutrons than protons",
+          "More protons than neutrons",
+          "Exactly equal numbers"
+        ],
+        "explanation": "Fragments inherit the neutron richness of uranium, before later beta decays."
+      }
+    ],
+    "reasoning": "Immediately formed products are not yet the final stable isotopes. Verification: Their subsequent beta-minus decays convert excess neutrons to protons.",
+    "sourcePages": [
+      21
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-5",
+    "parts": [
+      {
+        "label": "Fission-yield ranking",
+        "type": "choice",
+        "answer": "¹⁴⁰I > ¹⁰⁵Mo > ¹⁵²Nd > ¹²⁸In > ¹¹⁵Pd",
+        "options": [
+          "¹⁴⁰I > ¹⁰⁵Mo > ¹⁵²Nd > ¹²⁸In > ¹¹⁵Pd",
+          "¹¹⁵Pd > ¹²⁸In > ¹⁵²Nd > ¹⁰⁵Mo > ¹⁴⁰I",
+          "¹⁴⁰I > ¹²⁸In > ¹⁰⁵Mo > ¹⁵²Nd > ¹¹⁵Pd"
+        ],
+        "explanation": "Read the original logarithmic mass-yield curve:140 lies near a peak,115 near the deep valley."
+      }
+    ],
+    "reasoning": "Ranking is by fragment mass-yield probability, not chemical identity or distance to uranium. Verification: The plotted curve places105 above152,152 above128, and128 above115.",
+    "sourcePages": [
+      3,
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-6",
+    "parts": [
+      {
+        "label": "Product mass",
+        "type": "choice",
+        "answer": "Greater than the sum of initial masses",
+        "options": [
+          "Greater than the sum of initial masses",
+          "Less than the sum of initial masses",
+          "Exactly the same"
+        ],
+        "explanation": "Fusion beyond the binding-energy peak is endothermic and requires supplied kinetic energy."
+      }
+    ],
+    "reasoning": "Very heavy element synthesis does not have the same Q sign as light-nucleus stellar fusion. Verification: In the large-A region, reduced average binding makes the product rest mass larger.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-7",
+    "parts": [
+      {
+        "label": "Average binding energy per nucleon",
+        "type": "choice",
+        "answer": "Increases",
+        "options": [
+          "Increases",
+          "Decreases",
+          "Stays the same"
+        ],
+        "explanation": "Positive releasedQ corresponds to increased total binding at fixed nucleon count."
+      }
+    ],
+    "reasoning": "Energy release and binding-energy increase are two descriptions of the same mass defect. Verification: The products have lower total rest mass and higher binding energy.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-8",
+    "parts": [
+      {
+        "label": "Element not produced by ordinary stellar-core fusion",
+        "type": "choice",
+        "answer": "Bromine",
+        "options": [
+          "Bromine",
+          "Carbon",
+          "Chromium"
+        ],
+        "explanation": "Steady exothermic fusion builds mainly toward the iron-group binding-energy peak, not heavier bromine."
+      }
+    ],
+    "reasoning": "The question concerns thermonuclear stellar-interior burning, not all nucleosynthesis mechanisms. Verification: Carbon,silicon and chromium are below the iron-group region; bromine is beyond it.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-9",
+    "parts": [
+      {
+        "label": "Required Lawson density-time product for d-d",
+        "type": "choice",
+        "answer": "Larger",
+        "options": [
+          "Larger",
+          "Smaller",
+          "The same"
+        ],
+        "explanation": "The d-d reaction is less favorable at the relevant fusion conditions than d-t."
+      }
+    ],
+    "reasoning": "A lower reaction probability requires more interacting particles or longer interaction time. Verification: At comparable conditions an increased density-time product is needed to compensate.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-10",
+    "parts": [
+      {
+        "label": "Neutrino-carried versus electromagnetic energy",
+        "type": "choice",
+        "answer": "Less",
+        "options": [
+          "Less",
+          "Equal",
+          "Greater"
+        ],
+        "explanation": "About2% leaves as neutrinos and approximately98% is available as electromagnetic radiation."
+      }
+    ],
+    "reasoning": "Compare energy fractions of the same solar production total. Verification: The ratio is roughly.02/.98, far below unity.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  },
+  {
+    "id": "physics-chapter-43-questions-11",
+    "parts": [
+      {
+        "label": "Multiplication factor at the new steady power",
+        "type": "choice",
+        "answer": "Still equal to1",
+        "options": [
+          "Still equal to1",
+          "Substantially below1",
+          "Permanently slightly below1"
+        ],
+        "explanation": "Any steady nonzero power requires one continuing generation per preceding generation."
+      }
+    ],
+    "reasoning": "A reduction transient uses k<1; after stabilization the new lower power still has k=1. Verification: If k stayed below1, power would continue decreasing instead of remaining at25%.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ],
+    "scope": "The answer refers to the final stabilized25% power; during the transition k is temporarily below1."
+  },
+  {
+    "id": "physics-chapter-43-questions-12",
+    "parts": [
+      {
+        "label": "a · More likely initial fragment",
+        "type": "choice",
+        "answer": "⁹³Sr",
+        "options": [
+          "⁹³Sr",
+          "⁹³Ru",
+          "Equally likely"
+        ],
+        "explanation": "At fixed A93,strontiumZ38 has more neutrons than rutheniumZ44."
+      },
+      {
+        "label": "b · More likely initial fragment",
+        "type": "choice",
+        "answer": "¹⁴⁰I",
+        "options": [
+          "¹⁴⁰I",
+          "¹⁴⁰Gd",
+          "Equally likely"
+        ],
+        "explanation": "At fixed A140,iodineZ53 is more neutron-rich than gadoliniumZ64."
+      },
+      {
+        "label": "c · More likely initial fragment",
+        "type": "choice",
+        "answer": "¹⁵⁵Nd",
+        "options": [
+          "¹⁵⁵Nd",
+          "¹⁵⁵Lu",
+          "Equally likely"
+        ],
+        "explanation": "At fixed A155,neodymiumZ60 is more neutron-rich than lutetiumZ71."
+      }
+    ],
+    "reasoning": "Primary fission fragments are neutron-rich before their beta-decay chains. Verification: Each selected isotope has lower proton number and higher neutron number at the same A.",
+    "sourcePages": [
+      22
+    ],
+    "assumptions": [
+      "Use the stated idealized nuclear processes, chapter Q values and atomic masses;1u c²=931.5 MeV,1 year=365.25 days."
+    ]
+  }
+]

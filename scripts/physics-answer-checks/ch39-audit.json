@@ -1,0 +1,607 @@
+{
+  "chapter": 39,
+  "exercises": 88,
+  "fields": 212,
+  "visuallyReviewedPdfPages": [
+    3,
+    11,
+    25,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "verification": [
+    "All 73 Problems and 15 Questions match the source ID set exactly; all requested subparts were derived.",
+    "Enumerated rectangle and cube quantum states independently; distinct transition-gap counts are 8 and 7.",
+    "Hydrogen radial normalization follows factorial integrals: ground 4*2!/2^3=1; 2s (4*2!-4*3!+4!)/8=1; 2p 4!/24=1.",
+    "Ground radial cumulative probability uses exact tail exp(-2x)*(1+2x+2x^2), with tail(0)=1.",
+    "Original PDF diagrams reviewed for node counts, axis assignments, finite-well energies, and Q14 printed 19 eV level.",
+    "All numeric fields finite; nonzero tolerances strictly smaller than answer magnitude; all choice options unique.",
+    "Actual SolutionMath rendering with Linkedom found no remaining slash in any fraction-containing choice option."
+  ],
+  "sourceIssues": [
+    {
+      "problem": 7,
+      "issue": "Formal nuclear-size confinement is relativistic; quantitative nonrelativistic-model limitation explicitly checked."
+    },
+    {
+      "problem": 45,
+      "issue": "Angle-integrated radial density distinguished from directional 4πr² volume-density convention; separate angular shapes supplied."
+    },
+    {
+      "problem": 54,
+      "issue": "At 4a the 2s volume density has a secondary local maximum; the central value at r=0 is globally larger."
+    },
+    {
+      "problem": 60,
+      "issue": "Formal high-n energy is beyond nonrelativistic validity; limitations explicit."
+    },
+    {
+      "problem": 73,
+      "issue": "Original width is 0.25 micrometers, confirmed visually."
+    },
+    {
+      "question": 14,
+      "issue": "B top level is printed 19 eV, not 18 eV. Matching uses displayed energies and finds no B ground-state absorption."
+    }
+  ],
+  "legacyComparison": {
+    "baseline": "git HEAD:site/questions/answer-library-physics.json.gz",
+    "count": 55,
+    "comparisons": [
+      {
+        "id": "physics-chapter-39-problems-1",
+        "part": "",
+        "old": 1.41,
+        "oldUnit": "",
+        "derived": 1.4142135623730951,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0029794385269681155,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-2",
+        "part": "a",
+        "old": 9.42407467755214,
+        "oldUnit": "eV",
+        "derived": 9.400754065418438,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.002474578452699547,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-2",
+        "part": "b",
+        "old": 0.005140917383982035,
+        "oldUnit": "eV",
+        "derived": 0.005119810678818053,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.004105630102079765,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-3",
+        "part": "",
+        "old": 0.65,
+        "oldUnit": "eV",
+        "derived": 0.65,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-4",
+        "part": "",
+        "old": 90.47111690450055,
+        "oldUnit": "eV",
+        "derived": 90.24723902801699,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.002474578452699735,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-5",
+        "part": "",
+        "old": 0.85,
+        "oldUnit": "nm",
+        "derived": 8.485621710884025e-10,
+        "derivedUnit": "m",
+        "relativeDifference": 0.0016915634254089519,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-6",
+        "part": "",
+        "old": 0.02056366953592814,
+        "oldUnit": "eV",
+        "derived": 0.02047924271527221,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.004105630102079765,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-7",
+        "part": "",
+        "old": 1.9,
+        "oldUnit": "GeV",
+        "derived": 1.918521237840497,
+        "derivedUnit": "GeV",
+        "relativeDifference": 0.009653913376192109,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-9",
+        "part": "a",
+        "old": 72.2,
+        "oldUnit": "eV",
+        "derived": 72.19779122241358,
+        "derivedUnit": "eV",
+        "relativeDifference": 3.059248734650844e-05,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-9",
+        "part": "b",
+        "old": 13.7,
+        "oldUnit": "nm",
+        "derived": 1.3738281610444584e-08,
+        "derivedUnit": "m",
+        "relativeDifference": 0.002786491901249113,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-9",
+        "part": "c",
+        "old": 17.2,
+        "oldUnit": "nm",
+        "derived": 1.7172852013055733e-08,
+        "derivedUnit": "m",
+        "relativeDifference": 0.0015783713339691445,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-9",
+        "part": "d",
+        "old": 68.7,
+        "oldUnit": "nm",
+        "derived": 6.869140805222293e-08,
+        "derivedUnit": "m",
+        "relativeDifference": 0.0001250647420244959,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-9",
+        "part": "e",
+        "old": 41.2,
+        "oldUnit": "nm",
+        "derived": 4.121484483133376e-08,
+        "derivedUnit": "m",
+        "relativeDifference": 0.00036018166256611943,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-9",
+        "part": "g",
+        "old": 68.7,
+        "oldUnit": "nm",
+        "derived": 6.869140805222293e-08,
+        "derivedUnit": "m",
+        "relativeDifference": 0.0001250647420244959,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-9",
+        "part": "h",
+        "old": 25.8,
+        "oldUnit": "nm",
+        "derived": 2.57592780195836e-08,
+        "derivedUnit": "m",
+        "relativeDifference": 0.0015783713339691445,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-11",
+        "part": "a",
+        "old": 13.0,
+        "oldUnit": "",
+        "derived": 13.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-11",
+        "part": "b",
+        "old": 12.0,
+        "oldUnit": "",
+        "derived": 12.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-13",
+        "part": "a",
+        "old": 0.02,
+        "oldUnit": "",
+        "derived": 0.02,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-13",
+        "part": "b",
+        "old": 20.0,
+        "oldUnit": "",
+        "derived": 20.0,
+        "derivedUnit": "detections",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-15",
+        "part": "a",
+        "old": 0.05,
+        "oldUnit": "",
+        "derived": 0.04999999999999999,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 2.7755575615628914e-16,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-15",
+        "part": "b",
+        "old": 0.1,
+        "oldUnit": "",
+        "derived": 0.1,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-15",
+        "part": "c",
+        "old": 0.0095,
+        "oldUnit": "",
+        "derived": 0.009549150281252635,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.005147084275040636,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-17",
+        "part": "",
+        "old": 56.0,
+        "oldUnit": "eV",
+        "derived": 56.0,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-19",
+        "part": "",
+        "old": 109.0,
+        "oldUnit": "eV",
+        "derived": 109.0450999273551,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.0004135896742278328,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-23",
+        "part": "",
+        "old": 3.21,
+        "oldUnit": "eV",
+        "derived": 3.206690075836407,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.0010311290229261657,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-25",
+        "part": "",
+        "old": 0.0014,
+        "oldUnit": "",
+        "derived": 0.0013888888888888885,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.007936507936508198,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-27",
+        "part": "a",
+        "old": 8.0,
+        "oldUnit": "",
+        "derived": 8.0,
+        "derivedUnit": "frequencies",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-27",
+        "part": "b",
+        "old": 0.75,
+        "oldUnit": "",
+        "derived": 0.75,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-27",
+        "part": "c",
+        "old": 1.0,
+        "oldUnit": "",
+        "derived": 1.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-27",
+        "part": "d",
+        "old": 1.25,
+        "oldUnit": "",
+        "derived": 1.25,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-27",
+        "part": "e",
+        "old": 3.75,
+        "oldUnit": "",
+        "derived": 3.75,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-27",
+        "part": "f",
+        "old": 3.0,
+        "oldUnit": "",
+        "derived": 3.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-27",
+        "part": "g",
+        "old": 2.25,
+        "oldUnit": "",
+        "derived": 2.25,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-29",
+        "part": "a",
+        "old": 7.0,
+        "oldUnit": "",
+        "derived": 7.0,
+        "derivedUnit": "frequencies",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-29",
+        "part": "b",
+        "old": 1.0,
+        "oldUnit": "",
+        "derived": 1.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-29",
+        "part": "c",
+        "old": 2.0,
+        "oldUnit": "",
+        "derived": 2.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-29",
+        "part": "d",
+        "old": 3.0,
+        "oldUnit": "",
+        "derived": 3.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-29",
+        "part": "e",
+        "old": 9.0,
+        "oldUnit": "",
+        "derived": 9.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-29",
+        "part": "f",
+        "old": 8.0,
+        "oldUnit": "",
+        "derived": 8.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-29",
+        "part": "g",
+        "old": 6.0,
+        "oldUnit": "",
+        "derived": 6.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-31",
+        "part": "",
+        "old": 4.0,
+        "oldUnit": "",
+        "derived": 4.0,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-33",
+        "part": "a",
+        "old": 12.1,
+        "oldUnit": "eV",
+        "derived": 12.088888888888889,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.0009182736455463696,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-33",
+        "part": "c",
+        "old": 102.0,
+        "oldUnit": "nm",
+        "derived": 1.0256045826275757e-07,
+        "derivedUnit": "m",
+        "relativeDifference": 0.005464662231926524,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-41",
+        "part": "a",
+        "old": 0.0037,
+        "oldUnit": "",
+        "derived": 0.0036787944117144234,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0057312400771829105,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-41",
+        "part": "b",
+        "old": 0.0054,
+        "oldUnit": "",
+        "derived": 0.0054134113294645085,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0024774266443623265,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-43",
+        "part": "a",
+        "old": 13.6,
+        "oldUnit": "eV",
+        "derived": 13.6,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-43",
+        "part": "b",
+        "old": -27.2,
+        "oldUnit": "eV",
+        "derived": -27.2,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-47",
+        "part": "",
+        "old": 4300.0,
+        "oldUnit": "",
+        "derived": 4347.098025839503,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.01083436020065535,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-49",
+        "part": "a",
+        "old": 13.6,
+        "oldUnit": "eV",
+        "derived": 13.6,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-49",
+        "part": "b",
+        "old": 3.4,
+        "oldUnit": "eV",
+        "derived": 3.4,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-51",
+        "part": "",
+        "old": 0.68,
+        "oldUnit": "",
+        "derived": 0.6766764161830635,
+        "derivedUnit": "dimensionless",
+        "relativeDifference": 0.0048876232602007895,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-67",
+        "part": "a",
+        "old": 3.9e-22,
+        "oldUnit": "eV",
+        "derived": 3.877492337250463e-22,
+        "derivedUnit": "eV",
+        "relativeDifference": 0.005771195576804383,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-problems-67",
+        "part": "c",
+        "old": 3.0000000000000002e-18,
+        "oldUnit": "K",
+        "derived": 2.999762006252972e-18,
+        "derivedUnit": "K",
+        "relativeDifference": 7.933124900943496e-05,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-questions-3",
+        "part": "a",
+        "old": 18.0,
+        "oldUnit": "",
+        "derived": 18.0,
+        "derivedUnit": "points",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      },
+      {
+        "id": "physics-chapter-39-questions-3",
+        "part": "b",
+        "old": 17.0,
+        "oldUnit": "",
+        "derived": 17.0,
+        "derivedUnit": "points",
+        "relativeDifference": 0.0,
+        "compatibleUnits": true
+      }
+    ]
+  }
+}

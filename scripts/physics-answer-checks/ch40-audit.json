@@ -1,0 +1,69 @@
+{
+  "chapter": 40,
+  "exercises": 93,
+  "fields": 226,
+  "visuallyReviewedPdfPages": [
+    19,
+    20,
+    25,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "verification": [
+    "Every source exercise ID covered and requested subparts derived.",
+    "Exact many-fermion occupation enumeration independently checks rectangle/line/cube low-energy totals.",
+    "64 uniquely mapped legacy numeric fields agree after SI conversions and printed rounding; P57 explicitly distinguishes expectation from essentially zero whole-atom count.",
+    "All slash-containing choice options tested through actual SolutionMath with Linkedom; no mathematical slash remains.",
+    "All nonzero numeric tolerances strictly smaller than their answer magnitudes."
+  ],
+  "sourceIssues": [
+    {
+      "problem": 7,
+      "issue": "m_l=+4 only constrains l>=4; legacy l4 is a minimum, not unique."
+    },
+    {
+      "problem": 72,
+      "issue": "Literal63-electron n-then-l filling gives5s2 5p1, not sodium-like.61wouldend5s1. Original statement preserved with notice/corrected checks."
+    },
+    {
+      "problem": 54,
+      "issue": "Room temperature unspecified; numeric example explicitly300K, general Boltzmann relation checked."
+    },
+    {
+      "problem": 57,
+      "issue": "Boltzmann expectation belowoneatom; acceptedzero is finite-sample interpretation, not a broad numerical tolerance."
+    },
+    {
+      "problem": 61,
+      "issue": "Mode/nodecount approximate because supplied dimensions cannot identifyexactinteger; includesrubyindex1.75 andvacuumwavelength."
+    },
+    {
+      "problem": 69,
+      "issue": "Ideal far-field diffraction model only; allpowerassigneduniformlytocentraldiskasstipulated approximation."
+    }
+  ],
+  "manyElectronLevels": {
+    "rectangle7": [
+      17.25,
+      18,
+      18.25,
+      19
+    ],
+    "oneDimensional7": [
+      44,
+      51,
+      53,
+      56
+    ],
+    "cube8": [
+      42,
+      45,
+      47,
+      48
+    ]
+  }
+}
