@@ -1,0 +1,2266 @@
+{
+  "chapter": 2,
+  "questions": {
+    "anton-section-2-1-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}29 & 21 & 27\\\\-11 & 13 & -5\\\\-19 & -19 & 19\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}29 & 21 & 27\\\\-11 & 13 & -5\\\\-19 & -19 & 19\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}30 & 22 & 28\\\\-10 & 14 & -4\\\\-18 & -18 & 20\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-29 & -21 & -27\\\\11 & -13 & 5\\\\19 & 19 & -19\\end{bmatrix}\\)"
+          ],
+          "explanation": "Delete row i and column j and take the remaining 2 by 2 determinant. The matrix of minors is \\(\\begin{bmatrix}29 & 21 & 27\\\\-11 & 13 & -5\\\\-19 & -19 & 19\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Delete row i and column j and take the remaining 2 by 2 determinant.",
+            "The matrix of minors is \\(\\begin{bmatrix}29 & 21 & 27\\\\-11 & 13 & -5\\\\-19 & -19 & 19\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}29 & -21 & 27\\\\11 & 13 & 5\\\\-19 & 19 & 19\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}29 & -21 & 27\\\\11 & 13 & 5\\\\-19 & 19 & 19\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}30 & -20 & 28\\\\12 & 14 & 6\\\\-18 & 20 & 20\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-29 & 21 & -27\\\\-11 & -13 & -5\\\\19 & -19 & -19\\end{bmatrix}\\)"
+          ],
+          "explanation": "Multiply each minor by \\((-1)^{i+j}\\). The cofactor matrix is \\(\\begin{bmatrix}29 & -21 & 27\\\\11 & 13 & 5\\\\-19 & 19 & 19\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Multiply each minor by \\((-1)^{i+j}\\).",
+            "The cofactor matrix is \\(\\begin{bmatrix}29 & -21 & 27\\\\11 & 13 & 5\\\\-19 & 19 & 19\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/124.svg.gz",
+          "pdfPage": 138,
+          "role": "instructions",
+          "crops": [
+            [
+              37,
+              558.54,
+              255,
+              13
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/124.svg.gz",
+          "pdfPage": 138,
+          "role": "problem",
+          "crops": [
+            [
+              34,
+              572,
+              127.91,
+              41
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-1-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 22.0,
+          "tolerance": 1e-08,
+          "explanation": "Compute \\(3(4)-5(-2)=22\\).",
+          "workedSteps": [
+            "Compute \\(3(4)-5(-2)=22\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{2}{11} & - \\frac{5}{22}\\\\\\frac{1}{11} & \\frac{3}{22}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{2}{11} & - \\frac{5}{22}\\\\\\frac{1}{11} & \\frac{3}{22}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{13}{11} & \\frac{17}{22}\\\\\\frac{12}{11} & \\frac{25}{22}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{2}{11} & \\frac{5}{22}\\\\- \\frac{1}{11} & - \\frac{3}{22}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Swap diagonal entries, negate off-diagonal entries, and divide by 22. The inverse is \\(\\begin{bmatrix}\\frac{2}{11} & - \\frac{5}{22}\\\\\\frac{1}{11} & \\frac{3}{22}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Swap diagonal entries, negate off-diagonal entries, and divide by 22.",
+            "The inverse is \\(\\begin{bmatrix}\\frac{2}{11} & - \\frac{5}{22}\\\\\\frac{1}{11} & \\frac{3}{22}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-1-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 0.0,
+          "tolerance": 1e-08,
+          "explanation": "The determinant is \\(4(2)-1(8)=0\\).",
+          "workedSteps": [
+            "The determinant is \\(4(2)-1(8)=0\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Not invertible",
+          "options": [
+            "Not invertible",
+            "Invertible"
+          ],
+          "explanation": "A zero determinant means no inverse exists.",
+          "workedSteps": [
+            "A zero determinant means no inverse exists."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-1-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(a^{2} - 5 a + 21\\)",
+          "options": [
+            "\\(a^{2} - 5 a + 21\\)",
+            "\\(a^{2} - 5 a - 9\\)",
+            "\\(a^{2} + a + 21\\)"
+          ],
+          "explanation": "\\(\\det A=(a-3)(a-2)-5(-3)\\). Expand to obtain \\(a^{2} - 5 a + 21\\).",
+          "workedSteps": [
+            "\\(\\det A=(a-3)(a-2)-5(-3)\\).",
+            "Expand to obtain \\(a^{2} - 5 a + 21\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-1-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\lambda=-3,1\\)",
+          "options": [
+            "\\(\\lambda=-3,1\\)",
+            "\\(\\lambda=3,-1\\)",
+            "\\(\\lambda=-2,4\\)"
+          ],
+          "explanation": "\\(\\det A=(\\lambda-2)(\\lambda+4)+5=\\lambda^2+2\\lambda-3\\). Factor as \\((\\lambda+3)(\\lambda-1)\\); either factor must be zero.",
+          "workedSteps": [
+            "\\(\\det A=(\\lambda-2)(\\lambda+4)+5=\\lambda^2+2\\lambda-3\\).",
+            "Factor as \\((\\lambda+3)(\\lambda-1)\\); either factor must be zero."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-1-21": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -40.0,
+          "tolerance": 1e-08,
+          "explanation": "Expand along the first row of \\(\\begin{bmatrix}-3 & 0 & 7\\\\2 & 5 & 1\\\\-1 & 0 & 5\\end{bmatrix}\\). The signed cofactor contributions are \\(-75\\), \\(0\\), \\(35\\). Their sum is \\(-40\\).",
+          "workedSteps": [
+            "Expand along the first row of \\(\\begin{bmatrix}-3 & 0 & 7\\\\2 & 5 & 1\\\\-1 & 0 & 5\\end{bmatrix}\\).",
+            "The signed cofactor contributions are \\(-75\\), \\(0\\), \\(35\\).",
+            "Their sum is \\(-40\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/125.svg.gz",
+          "pdfPage": 139,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              487.42,
+              255,
+              23
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/125.svg.gz",
+          "pdfPage": 139,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              516,
+              127.99,
+              40
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-1-27": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -1.0,
+          "tolerance": 1e-08,
+          "explanation": "For a diagonal matrix, multiply the diagonal entries: \\(1\\), \\(-1\\), \\(1\\). The product is \\(-1\\).",
+          "workedSteps": [
+            "For a diagonal matrix, multiply the diagonal entries: \\(1\\), \\(-1\\), \\(1\\).",
+            "The product is \\(-1\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/125.svg.gz",
+          "pdfPage": 139,
+          "role": "instructions",
+          "crops": [
+            [
+              328,
+              50.77,
+              255,
+              23
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/125.svg.gz",
+          "pdfPage": 139,
+          "role": "problem",
+          "crops": [
+            [
+              325,
+              74,
+              126.5,
+              40
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-1-36": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\frac{1}{2}[(a+d)^2-(a^2+2bc+d^2)]=ad-bc\\)",
+          "options": [
+            "\\(\\frac{1}{2}[(a+d)^2-(a^2+2bc+d^2)]=ad-bc\\)",
+            "\\(\\frac{1}{2}[(a+d)^2+(a^2+2bc+d^2)]=ad+bc\\)",
+            "\\(\\frac{1}{2}(a+d)=ad-bc\\)"
+          ],
+          "explanation": "Write \\(A=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\). Then \\(\\operatorname{tr}(A)=a+d\\) and \\(\\operatorname{tr}(A^2)=a^2+2bc+d^2\\). Expanding the displayed 2 by 2 determinant gives the selected expression, equal to the determinant of A.",
+          "workedSteps": [
+            "Write \\(A=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\). Then \\(\\operatorname{tr}(A)=a+d\\) and \\(\\operatorname{tr}(A^2)=a^2+2bc+d^2\\).",
+            "Expanding the displayed 2 by 2 determinant gives the selected expression, equal to the determinant of A."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-1-38": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 6.0,
+          "tolerance": 1e-08,
+          "explanation": "Every row must contain a nonzero entry, so at least three entries are nonzero. The identity matrix has six zeros and determinant 1, attaining the bound.",
+          "workedSteps": [
+            "Every row must contain a nonzero entry, so at least three entries are nonzero.",
+            "The identity matrix has six zeros and determinant 1, attaining the bound."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-1-41": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\((b_1-b_2)x+(a_2-a_1)y+a_1b_2-a_2b_1=0\\)",
+          "options": [
+            "\\((b_1-b_2)x+(a_2-a_1)y+a_1b_2-a_2b_1=0\\)",
+            "\\((b_1+b_2)x+(a_1+a_2)y=0\\)",
+            "\\((a_1-a_2)x+(b_1-b_2)y=1\\)"
+          ],
+          "explanation": "Expand the determinant along the first row. Substitution of either given point makes two rows equal, so both points satisfy the equation. Since the points are distinct, the coefficients of x and y are not both zero; this is their unique line.",
+          "workedSteps": [
+            "Expand the determinant along the first row.",
+            "Substitution of either given point makes two rows equal, so both points satisfy the equation.",
+            "Since the points are distinct, the coefficients of x and y are not both zero; this is their unique line."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-2-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -11.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(\\det A=(-2)4-3(1)=-11\\). \\(\\det A^T=(-2)4-1(3)=-11\\), verifying equality.",
+          "workedSteps": [
+            "\\(\\det A=(-2)4-3(1)=-11\\).",
+            "\\(\\det A^T=(-2)4-1(3)=-11\\), verifying equality."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/131.svg.gz",
+          "pdfPage": 145,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              340.08,
+              255,
+              12.91
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/131.svg.gz",
+          "pdfPage": 145,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              354.69,
+              127.99,
+              28
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-2-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -5.0,
+          "tolerance": 1e-08,
+          "explanation": "For a diagonal matrix, multiply the diagonal entries: \\(1\\), \\(1\\), \\(-5\\), \\(1\\). The product is \\(-5\\).",
+          "workedSteps": [
+            "For a diagonal matrix, multiply the diagonal entries: \\(1\\), \\(1\\), \\(-5\\), \\(1\\).",
+            "The product is \\(-5\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-2-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -0.3333333333333333,
+          "tolerance": 1e-08,
+          "explanation": "For a diagonal matrix, multiply the diagonal entries: \\(1\\), \\(- \\frac{1}{3}\\), \\(1\\), \\(1\\). The product is \\(- \\frac{1}{3}\\).",
+          "workedSteps": [
+            "For a diagonal matrix, multiply the diagonal entries: \\(1\\), \\(- \\frac{1}{3}\\), \\(1\\), \\(1\\).",
+            "The product is \\(- \\frac{1}{3}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-2-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 33.0,
+          "tolerance": 1e-08,
+          "explanation": "Subtract \\(- \\frac{2}{3}\\) times row 1 from row 2. Subtract \\(\\frac{1}{3}\\) times row 2 from row 3. These row additions preserve the determinant and produce \\(\\begin{bmatrix}3 & -6 & 9\\\\0 & 3 & 4\\\\0 & 0 & \\frac{11}{3}\\end{bmatrix}\\). Multiply the diagonal entries to obtain \\(33\\).",
+          "workedSteps": [
+            "Subtract \\(- \\frac{2}{3}\\) times row 1 from row 2.",
+            "Subtract \\(\\frac{1}{3}\\) times row 2 from row 3.",
+            "These row additions preserve the determinant and produce \\(\\begin{bmatrix}3 & -6 & 9\\\\0 & 3 & 4\\\\0 & 0 & \\frac{11}{3}\\end{bmatrix}\\).",
+            "Multiply the diagonal entries to obtain \\(33\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/131.svg.gz",
+          "pdfPage": 145,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              594.67,
+              255,
+              34
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/131.svg.gz",
+          "pdfPage": 145,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              636,
+              127.99,
+              40
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-2-12": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -17.0,
+          "tolerance": 1e-08,
+          "explanation": "Subtract \\(-2\\) times row 1 from row 2. Subtract \\(5\\) times row 1 from row 3. Subtract \\(- \\frac{13}{2}\\) times row 2 from row 3. These row additions preserve the determinant and produce \\(\\begin{bmatrix}1 & -3 & 0\\\\0 & -2 & 1\\\\0 & 0 & \\frac{17}{2}\\end{bmatrix}\\). Multiply the diagonal entries to obtain \\(-17\\).",
+          "workedSteps": [
+            "Subtract \\(-2\\) times row 1 from row 2.",
+            "Subtract \\(5\\) times row 1 from row 3.",
+            "Subtract \\(- \\frac{13}{2}\\) times row 2 from row 3.",
+            "These row additions preserve the determinant and produce \\(\\begin{bmatrix}1 & -3 & 0\\\\0 & -2 & 1\\\\0 & 0 & \\frac{17}{2}\\end{bmatrix}\\).",
+            "Multiply the diagonal entries to obtain \\(-17\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/131.svg.gz",
+          "pdfPage": 145,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              594.67,
+              255,
+              34
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/131.svg.gz",
+          "pdfPage": 145,
+          "role": "problem",
+          "crops": [
+            [
+              186.99,
+              693,
+              130.01,
+              39
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-2-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -6.0,
+          "tolerance": 1e-08,
+          "explanation": "The cyclic permutation of three rows consists of two row swaps. Two sign changes cancel, leaving the original determinant -6.",
+          "workedSteps": [
+            "The cyclic permutation of three rows consists of two row swaps.",
+            "Two sign changes cancel, leaving the original determinant -6."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-2-16": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 6.0,
+          "tolerance": 1e-08,
+          "explanation": "Interchange the first and third rows of the given matrix. One row swap negates the determinant: -(-6)=6.",
+          "workedSteps": [
+            "Interchange the first and third rows of the given matrix.",
+            "One row swap negates the determinant: -(-6)=6."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-2-25": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(C_3\\leftarrow C_3-C_1-C_2\\)",
+          "options": [
+            "\\(C_3\\leftarrow C_3-C_1-C_2\\)",
+            "\\(C_3\\leftarrow 2C_3\\)",
+            "\\(C_1\\leftrightarrow C_3\\)"
+          ],
+          "explanation": "Subtracting multiples of other columns leaves the determinant unchanged. The third column becomes c, proving the equality.",
+          "workedSteps": [
+            "Subtracting multiples of other columns leaves the determinant unchanged.",
+            "The third column becomes c, proving the equality."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-2-28": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(C_3\\leftarrow C_3-rC_2+(rt-s)C_1;\\ C_2\\leftarrow C_2-tC_1\\), then transpose",
+          "options": [
+            "\\(C_3\\leftarrow C_3-rC_2+(rt-s)C_1;\\ C_2\\leftarrow C_2-tC_1\\), then transpose",
+            "Scale the determinant by \\(rst\\).",
+            "Interchange the first two columns only."
+          ],
+          "explanation": "The first operation removes both the b and a terms from the third column. The second operation leaves columns a,b,c. Neither operation changes the determinant. Transposing produces the displayed right-hand matrix, without changing its determinant.",
+          "workedSteps": [
+            "The first operation removes both the b and a terms from the third column.",
+            "The second operation leaves columns a,b,c. Neither operation changes the determinant.",
+            "Transposing produces the displayed right-hand matrix, without changing its determinant."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-2-29": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(R_3=R_1+R_2\\)",
+          "options": [
+            "\\(R_3=R_1+R_2\\)",
+            "\\(R_4=R_1+R_2\\)",
+            "\\(R_2=2R_1\\)"
+          ],
+          "explanation": "The sum of the first two rows is (1,10,6,5), exactly the third row. Subtracting those rows gives a zero row, so the determinant is zero.",
+          "workedSteps": [
+            "The sum of the first two rows is (1,10,6,5), exactly the third row.",
+            "Subtracting those rows gives a zero row, so the determinant is zero."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-3-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -40.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(\\det A=-4-6=-10\\). \\(\\det(2A)=(-2)(8)-(4)(6)=-40=2^2\\det A\\).",
+          "workedSteps": [
+            "\\(\\det A=-4-6=-10\\).",
+            "\\(\\det(2A)=(-2)(8)-(4)(6)=-40=2^2\\det A\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/142.svg.gz",
+          "pdfPage": 156,
+          "role": "instructions",
+          "crops": [
+            [
+              37,
+              566.15,
+              255,
+              15.55
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/142.svg.gz",
+          "pdfPage": 156,
+          "role": "problem",
+          "crops": [
+            [
+              34,
+              583.4,
+              127.91,
+              28
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-3-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -170.0,
+          "tolerance": 1e-08,
+          "explanation": "Multiplication gives \\(\\begin{bmatrix}9 & -1 & 8\\\\31 & 1 & 17\\\\10 & 0 & 2\\end{bmatrix}\\). Its determinant, and that of BA, are both \\(-170\\).",
+          "workedSteps": [
+            "Multiplication gives \\(\\begin{bmatrix}9 & -1 & 8\\\\31 & 1 & 17\\\\10 & 0 & 2\\end{bmatrix}\\).",
+            "Its determinant, and that of BA, are both \\(-170\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "No: det(A+B)=-30, whereas det(A)+det(B)=-7",
+          "options": [
+            "No: det(A+B)=-30, whereas det(A)+det(B)=-7",
+            "Yes, both are equal.",
+            "No: det(A+B)=0."
+          ],
+          "explanation": "Compute the two individual determinants: \\(10\\) and \\(-17\\). Their sum differs from \\(-30\\), the determinant of the sum.",
+          "workedSteps": [
+            "Compute the two individual determinants: \\(10\\) and \\(-17\\).",
+            "Their sum differs from \\(-30\\), the determinant of the sum."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/142.svg.gz",
+          "pdfPage": 156,
+          "role": "instructions",
+          "crops": [
+            [
+              37,
+              717.38,
+              255,
+              22.92
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/142.svg.gz",
+          "pdfPage": 156,
+          "role": "problem",
+          "crops": [
+            [
+              300,
+              570,
+              258,
+              41
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-3-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -1.0,
+          "tolerance": 1e-08,
+          "explanation": "Cofactor expansion gives determinant \\(-1\\).",
+          "workedSteps": [
+            "Cofactor expansion gives determinant \\(-1\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Invertible",
+          "options": [
+            "Invertible",
+            "Not invertible"
+          ],
+          "explanation": "The determinant is nonzero.",
+          "workedSteps": [
+            "The determinant is nonzero."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/142.svg.gz",
+          "pdfPage": 156,
+          "role": "instructions",
+          "crops": [
+            [
+              303,
+              671.54,
+              255,
+              23
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/142.svg.gz",
+          "pdfPage": 156,
+          "role": "problem",
+          "crops": [
+            [
+              300,
+              699,
+              126.42,
+              40
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-3-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -1.0,
+          "tolerance": 1e-08,
+          "explanation": "Cofactor expansion gives determinant \\(-1\\).",
+          "workedSteps": [
+            "Cofactor expansion gives determinant \\(-1\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Invertible",
+          "options": [
+            "Invertible",
+            "Not invertible"
+          ],
+          "explanation": "The determinant is nonzero.",
+          "workedSteps": [
+            "The determinant is nonzero."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}3 & -5 & -5\\\\-3 & 4 & 5\\\\2 & -2 & -3\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}3 & -5 & -5\\\\-3 & 4 & 5\\\\2 & -2 & -3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}4 & -4 & -4\\\\-2 & 5 & 6\\\\3 & -1 & -2\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-3 & 5 & 5\\\\3 & -4 & -5\\\\-2 & 2 & 3\\end{bmatrix}\\)"
+          ],
+          "explanation": "The adjugate is \\(\\begin{bmatrix}-3 & 5 & 5\\\\3 & -4 & -5\\\\-2 & 2 & 3\\end{bmatrix}\\). Divide by the determinant to get \\(\\begin{bmatrix}3 & -5 & -5\\\\-3 & 4 & 5\\\\2 & -2 & -3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The adjugate is \\(\\begin{bmatrix}-3 & 5 & 5\\\\3 & -4 & -5\\\\-2 & 2 & 3\\end{bmatrix}\\).",
+            "Divide by the determinant to get \\(\\begin{bmatrix}3 & -5 & -5\\\\-3 & 4 & 5\\\\2 & -2 & -3\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/143.svg.gz",
+          "pdfPage": 157,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              301.8,
+              255,
+              23
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/143.svg.gz",
+          "pdfPage": 157,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              327,
+              127.99,
+              39
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-3-14": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Not invertible; determinant 0",
+          "options": [
+            "Not invertible; determinant 0",
+            "Invertible; determinant 1",
+            "Invertible; determinant -1"
+          ],
+          "explanation": "The third column is zero, so cofactor expansion along it gives determinant zero.",
+          "workedSteps": [
+            "The third column is zero, so cofactor expansion along it gives determinant zero."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/142.svg.gz",
+          "pdfPage": 156,
+          "role": "instructions",
+          "crops": [
+            [
+              303,
+              671.54,
+              255,
+              23
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/143.svg.gz",
+          "pdfPage": 157,
+          "role": "problem",
+          "crops": [
+            [
+              186.99,
+              136.91,
+              130.01,
+              50.22
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-3-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(k\\ne\\frac{5+\\sqrt{17}}2,\\frac{5-\\sqrt{17}}2\\)",
+          "options": [
+            "\\(k\\ne\\frac{5+\\sqrt{17}}2,\\frac{5-\\sqrt{17}}2\\)",
+            "\\(k\\ne 2,3\\)",
+            "\\(k=2,3\\)"
+          ],
+          "explanation": "\\(\\det A=(k-3)(k-2)-4=k^2-5k+2\\). The quadratic formula gives the two roots; exclude exactly those values.",
+          "workedSteps": [
+            "\\(\\det A=(k-3)(k-2)-4=k^2-5k+2\\).",
+            "The quadratic formula gives the two roots; exclude exactly those values."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/143.svg.gz",
+          "pdfPage": 157,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              197.66,
+              255,
+              22.93
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/143.svg.gz",
+          "pdfPage": 157,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              221.48,
+              127.99,
+              27
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source crop repaired against the chapter PDF: matrix rows stay together, and neighboring exercise fragments are excluded."
+    },
+    "anton-section-2-3-24": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1\\\\2\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1\\\\2\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2\\\\3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1\\\\-2\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(D=13,\\ D_1=13,\\ D_2=26\\). Cramer\u2019s rule gives \\(x_1=\\frac{D_1}{D}=1,\\ x_2=\\frac{D_2}{D}=2\\).",
+          "workedSteps": [
+            "\\(D=13,\\ D_1=13,\\ D_2=26\\).",
+            "Cramer\u2019s rule gives \\(x_1=\\frac{D_1}{D}=1,\\ x_2=\\frac{D_2}{D}=2\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-3-29": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Cramer\u2019s rule does not apply; \\((x_1,x_2,x_3)=(\\frac{29-5t}{20},\\frac{7+5t}{20},t)\\), \\(t\\in\\mathbb R\\)",
+          "options": [
+            "Cramer\u2019s rule does not apply; \\((x_1,x_2,x_3)=(\\frac{29-5t}{20},\\frac{7+5t}{20},t)\\), \\(t\\in\\mathbb R\\)",
+            "No solutions.",
+            "Unique solution \\((1,1,2)\\)."
+          ],
+          "explanation": "The third coefficient row is the sum of the first two, and 5=4+1, so the determinant is zero and the equations are dependent. Set \\(x_3=t\\); solving the first two equations gives \\(20x_1=29-5t\\) and \\(20x_2=7+5t\\).",
+          "workedSteps": [
+            "The third coefficient row is the sum of the first two, and 5=4+1, so the determinant is zero and the equations are dependent.",
+            "Set \\(x_3=t\\); solving the first two equations gives \\(20x_1=29-5t\\) and \\(20x_2=7+5t\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-3-33": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -189.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(\\det(3A)=3^3(-7)=-189\\).",
+          "workedSteps": [
+            "\\(\\det(3A)=3^3(-7)=-189\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -0.14285714285714285,
+          "tolerance": 1e-08,
+          "explanation": "\\(\\det(A^{-1})=\\frac{1}{-7}=-\\frac{1}{7}\\).",
+          "workedSteps": [
+            "\\(\\det(A^{-1})=\\frac{1}{-7}=-\\frac{1}{7}\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -1.1428571428571428,
+          "tolerance": 1e-08,
+          "explanation": "\\(\\det(2A^{-1})=2^3(-\\frac{1}{7})=-\\frac{8}{7}\\).",
+          "workedSteps": [
+            "\\(\\det(2A^{-1})=2^3(-\\frac{1}{7})=-\\frac{8}{7}\\)."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -0.017857142857142856,
+          "tolerance": 1e-08,
+          "explanation": "\\(\\det((2A)^{-1})=\\frac{1}{2^3(-7)}=-\\frac{1}{56}\\).",
+          "workedSteps": [
+            "\\(\\det((2A)^{-1})=\\frac{1}{2^3(-7)}=-\\frac{1}{56}\\)."
+          ]
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 7.0,
+          "tolerance": 1e-08,
+          "explanation": "Transpose A and swap its second and third columns; transposition preserves and one swap reverses the determinant.",
+          "workedSteps": [
+            "Transpose A and swap its second and third columns; transposition preserves and one swap reverses the determinant."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-2-3-36": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\det(A^TA)=\\det(A^T)\\det(A)=(\\det A)^2\\)",
+          "options": [
+            "\\(\\det(A^TA)=\\det(A^T)\\det(A)=(\\det A)^2\\)",
+            "\\(\\det(A^TA)=2\\det A\\)",
+            "\\(\\det(A^TA)=0\\) for every A"
+          ],
+          "explanation": "Apply the product rule and equality of a determinant with that of its transpose. A square is nonzero exactly when its base is nonzero. Thus A and its Gram matrix are invertible under exactly the same condition.",
+          "workedSteps": [
+            "Apply the product rule and equality of a determinant with that of its transpose.",
+            "A square is nonzero exactly when its base is nonzero. Thus A and its Gram matrix are invertible under exactly the same condition."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -18.0,
+          "tolerance": 1e-08,
+          "explanation": "Expand along the first row. The signed contributions are \\(-12\\), \\(-6\\). Their sum is \\(-18\\).",
+          "workedSteps": [
+            "Expand along the first row. The signed contributions are \\(-12\\), \\(-6\\).",
+            "Their sum is \\(-18\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -18.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(R_2\\leftarrow R_2-(- \\frac{3}{4})R_1\\). The triangular matrix is \\(\\begin{bmatrix}-4 & 2\\\\0 & \\frac{9}{2}\\end{bmatrix}\\). Multiply its diagonal entries and account for row swaps to obtain \\(-18\\).",
+          "workedSteps": [
+            "\\(R_2\\leftarrow R_2-(- \\frac{3}{4})R_1\\).",
+            "The triangular matrix is \\(\\begin{bmatrix}-4 & 2\\\\0 & \\frac{9}{2}\\end{bmatrix}\\).",
+            "Multiply its diagonal entries and account for row swaps to obtain \\(-18\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-2": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -44.0,
+          "tolerance": 1e-08,
+          "explanation": "Expand along the first row. The signed contributions are \\(-42\\), \\(-2\\). Their sum is \\(-44\\).",
+          "workedSteps": [
+            "Expand along the first row. The signed contributions are \\(-42\\), \\(-2\\).",
+            "Their sum is \\(-44\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -44.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(R_2\\leftarrow R_2-(- \\frac{2}{7})R_1\\). The triangular matrix is \\(\\begin{bmatrix}7 & -1\\\\0 & - \\frac{44}{7}\\end{bmatrix}\\). Multiply its diagonal entries and account for row swaps to obtain \\(-44\\).",
+          "workedSteps": [
+            "\\(R_2\\leftarrow R_2-(- \\frac{2}{7})R_1\\).",
+            "The triangular matrix is \\(\\begin{bmatrix}7 & -1\\\\0 & - \\frac{44}{7}\\end{bmatrix}\\).",
+            "Multiply its diagonal entries and account for row swaps to obtain \\(-44\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 24.0,
+          "tolerance": 1e-08,
+          "explanation": "Expand along the first row. The signed contributions are \\(-3\\), \\(15\\), \\(12\\). Their sum is \\(24\\).",
+          "workedSteps": [
+            "Expand along the first row. The signed contributions are \\(-3\\), \\(15\\), \\(12\\).",
+            "Their sum is \\(24\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 24.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(R_3\\leftarrow R_3-(3)R_1\\). \\(R_3\\leftarrow R_3-(-7)R_2\\). The triangular matrix is \\(\\begin{bmatrix}-1 & 5 & 2\\\\0 & 2 & -1\\\\0 & 0 & -12\\end{bmatrix}\\). Multiply its diagonal entries and account for row swaps to obtain \\(24\\).",
+          "workedSteps": [
+            "\\(R_3\\leftarrow R_3-(3)R_1\\).",
+            "\\(R_3\\leftarrow R_3-(-7)R_2\\).",
+            "The triangular matrix is \\(\\begin{bmatrix}-1 & 5 & 2\\\\0 & 2 & -1\\\\0 & 0 & -12\\end{bmatrix}\\).",
+            "Multiply its diagonal entries and account for row swaps to obtain \\(24\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 0.0,
+          "tolerance": 1e-08,
+          "explanation": "Expand along the first row. The signed contributions are \\(3\\), \\(-12\\), \\(9\\). Their sum is \\(0\\).",
+          "workedSteps": [
+            "Expand along the first row. The signed contributions are \\(3\\), \\(-12\\), \\(9\\).",
+            "Their sum is \\(0\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 0.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(R_2\\leftarrow R_2-(4)R_1\\). \\(R_3\\leftarrow R_3-(7)R_1\\). \\(R_3\\leftarrow R_3-(2)R_2\\). The triangular matrix is \\(\\begin{bmatrix}-1 & -2 & -3\\\\0 & 3 & 6\\\\0 & 0 & 0\\end{bmatrix}\\). Multiply its diagonal entries and account for row swaps to obtain \\(0\\).",
+          "workedSteps": [
+            "\\(R_2\\leftarrow R_2-(4)R_1\\).",
+            "\\(R_3\\leftarrow R_3-(7)R_1\\).",
+            "\\(R_3\\leftarrow R_3-(2)R_2\\).",
+            "The triangular matrix is \\(\\begin{bmatrix}-1 & -2 & -3\\\\0 & 3 & 6\\\\0 & 0 & 0\\end{bmatrix}\\).",
+            "Multiply its diagonal entries and account for row swaps to obtain \\(0\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -10.0,
+          "tolerance": 1e-08,
+          "explanation": "Expand along the first row. The signed contributions are \\(-6\\), \\(0\\), \\(-4\\). Their sum is \\(-10\\).",
+          "workedSteps": [
+            "Expand along the first row. The signed contributions are \\(-6\\), \\(0\\), \\(-4\\).",
+            "Their sum is \\(-10\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -10.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(R_2\\leftarrow R_2-(\\frac{1}{3})R_1\\). \\(R_3\\leftarrow R_3-(4)R_2\\). The triangular matrix is \\(\\begin{bmatrix}3 & 0 & -1\\\\0 & 1 & \\frac{4}{3}\\\\0 & 0 & - \\frac{10}{3}\\end{bmatrix}\\). Multiply its diagonal entries and account for row swaps to obtain \\(-10\\).",
+          "workedSteps": [
+            "\\(R_2\\leftarrow R_2-(\\frac{1}{3})R_1\\).",
+            "\\(R_3\\leftarrow R_3-(4)R_2\\).",
+            "The triangular matrix is \\(\\begin{bmatrix}3 & 0 & -1\\\\0 & 1 & \\frac{4}{3}\\\\0 & 0 & - \\frac{10}{3}\\end{bmatrix}\\).",
+            "Multiply its diagonal entries and account for row swaps to obtain \\(-10\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -48.0,
+          "tolerance": 1e-08,
+          "explanation": "Expand along the first row. The signed contributions are \\(-20\\), \\(-4\\), \\(-24\\). Their sum is \\(-48\\).",
+          "workedSteps": [
+            "Expand along the first row. The signed contributions are \\(-20\\), \\(-4\\), \\(-24\\).",
+            "Their sum is \\(-48\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -48.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(R_2\\leftarrow R_2-(- \\frac{3}{5})R_1\\). \\(R_3\\leftarrow R_3-(- \\frac{1}{5})R_1\\). \\(R_3\\leftarrow R_3-(-3)R_2\\). The triangular matrix is \\(\\begin{bmatrix}-5 & 1 & 4\\\\0 & \\frac{3}{5} & \\frac{22}{5}\\\\0 & 0 & 16\\end{bmatrix}\\). Multiply its diagonal entries and account for row swaps to obtain \\(-48\\).",
+          "workedSteps": [
+            "\\(R_2\\leftarrow R_2-(- \\frac{3}{5})R_1\\).",
+            "\\(R_3\\leftarrow R_3-(- \\frac{1}{5})R_1\\).",
+            "\\(R_3\\leftarrow R_3-(-3)R_2\\).",
+            "The triangular matrix is \\(\\begin{bmatrix}-5 & 1 & 4\\\\0 & \\frac{3}{5} & \\frac{22}{5}\\\\0 & 0 & 16\\end{bmatrix}\\).",
+            "Multiply its diagonal entries and account for row swaps to obtain \\(-48\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 329.0,
+          "tolerance": 1e-08,
+          "explanation": "Expand along the first row. The signed contributions are \\(30\\), \\(330\\), \\(0\\), \\(-31\\). Their sum is \\(329\\).",
+          "workedSteps": [
+            "Expand along the first row. The signed contributions are \\(30\\), \\(330\\), \\(0\\), \\(-31\\).",
+            "Their sum is \\(329\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 329.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(R_2\\leftarrow R_2-(- \\frac{2}{3})R_1\\). \\(R_3\\leftarrow R_3-(\\frac{1}{3})R_1\\). \\(R_4\\leftarrow R_4-(-3)R_1\\). \\(R_3\\leftarrow R_3-(- \\frac{2}{7})R_2\\). \\(R_4\\leftarrow R_4-(\\frac{20}{7})R_2\\). \\(R_4\\leftarrow R_4-(\\frac{34}{5})R_3\\). The triangular matrix is \\(\\begin{bmatrix}3 & 6 & 0 & 1\\\\0 & 7 & 1 & \\frac{14}{3}\\\\0 & 0 & - \\frac{5}{7} & 2\\\\0 & 0 & 0 & - \\frac{329}{15}\\end{bmatrix}\\). Multiply its diagonal entries and account for row swaps to obtain \\(329\\).",
+          "workedSteps": [
+            "\\(R_2\\leftarrow R_2-(- \\frac{2}{3})R_1\\).",
+            "\\(R_3\\leftarrow R_3-(\\frac{1}{3})R_1\\).",
+            "\\(R_4\\leftarrow R_4-(-3)R_1\\).",
+            "\\(R_3\\leftarrow R_3-(- \\frac{2}{7})R_2\\).",
+            "\\(R_4\\leftarrow R_4-(\\frac{20}{7})R_2\\).",
+            "\\(R_4\\leftarrow R_4-(\\frac{34}{5})R_3\\).",
+            "The triangular matrix is \\(\\begin{bmatrix}3 & 6 & 0 & 1\\\\0 & 7 & 1 & \\frac{14}{3}\\\\0 & 0 & - \\frac{5}{7} & 2\\\\0 & 0 & 0 & - \\frac{329}{15}\\end{bmatrix}\\).",
+            "Multiply its diagonal entries and account for row swaps to obtain \\(329\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 0.0,
+          "tolerance": 1e-08,
+          "explanation": "Expand along the first row. The signed contributions are \\(0\\), \\(0\\), \\(0\\), \\(0\\). Their sum is \\(0\\).",
+          "workedSteps": [
+            "Expand along the first row. The signed contributions are \\(0\\), \\(0\\), \\(0\\), \\(0\\).",
+            "Their sum is \\(0\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 0.0,
+          "tolerance": 1e-08,
+          "explanation": "\\(R_2\\leftarrow R_2-(-4)R_1\\). \\(R_3\\leftarrow R_3-(-1)R_1\\). \\(R_4\\leftarrow R_4-(4)R_1\\). \\(R_4\\leftarrow R_4-(-1)R_2\\). The triangular matrix is \\(\\begin{bmatrix}-1 & -2 & -3 & -4\\\\0 & -5 & -10 & -15\\\\0 & 0 & 0 & 0\\\\0 & 0 & 0 & 0\\end{bmatrix}\\). Multiply its diagonal entries and account for row swaps to obtain \\(0\\).",
+          "workedSteps": [
+            "\\(R_2\\leftarrow R_2-(-4)R_1\\).",
+            "\\(R_3\\leftarrow R_3-(-1)R_1\\).",
+            "\\(R_4\\leftarrow R_4-(4)R_1\\).",
+            "\\(R_4\\leftarrow R_4-(-1)R_2\\).",
+            "The triangular matrix is \\(\\begin{bmatrix}-1 & -2 & -3 & -4\\\\0 & -5 & -10 & -15\\\\0 & 0 & 0 & 0\\\\0 & 0 & 0 & 0\\end{bmatrix}\\).",
+            "Multiply its diagonal entries and account for row swaps to obtain \\(0\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 24.0,
+          "tolerance": 1e-08,
+          "explanation": "For Exercise 3, add the three downward diagonal products and subtract the three upward products. The result is \\(24\\).",
+          "workedSteps": [
+            "For Exercise 3, add the three downward diagonal products and subtract the three upward products.",
+            "The result is \\(24\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 0.0,
+          "tolerance": 1e-08,
+          "explanation": "For Exercise 4, add the three downward diagonal products and subtract the three upward products. The result is \\(0\\).",
+          "workedSteps": [
+            "For Exercise 4, add the three downward diagonal products and subtract the three upward products.",
+            "The result is \\(0\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -10.0,
+          "tolerance": 1e-08,
+          "explanation": "For Exercise 5, add the three downward diagonal products and subtract the three upward products. The result is \\(-10\\).",
+          "workedSteps": [
+            "For Exercise 5, add the three downward diagonal products and subtract the three upward products.",
+            "The result is \\(-10\\)."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -48.0,
+          "tolerance": 1e-08,
+          "explanation": "For Exercise 6, add the three downward diagonal products and subtract the three upward products. The result is \\(-48\\).",
+          "workedSteps": [
+            "For Exercise 6, add the three downward diagonal products and subtract the three upward products.",
+            "The result is \\(-48\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-3",
+        "anton-chapter-02-supplementary-4",
+        "anton-chapter-02-supplementary-5",
+        "anton-chapter-02-supplementary-6"
+      ]
+    },
+    "anton-chapter-02-supplementary-10": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1&0&0&0\\\\2&3&5&7\\\\4&6&1&2\\\\3&8&4&5\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1&0&0&0\\\\2&3&5&7\\\\4&6&1&2\\\\3&8&4&5\\end{bmatrix}\\)",
+            "A dense 4 by 4 matrix with no zeros.",
+            "A 3 by 3 identity matrix."
+          ],
+          "explanation": "One valid example is selected; many others are possible. Expanding the first row immediately reduces to one 3 by 3 determinant, while elimination requires several row operations.",
+          "workedSteps": [
+            "One valid example is selected; many others are possible.",
+            "Expanding the first row immediately reduces to one 3 by 3 determinant, while elimination requires several row operations."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1&2&3&4\\\\1&3&3&4\\\\1&2&4&4\\\\1&2&3&5\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1&2&3&4\\\\1&3&3&4\\\\1&2&4&4\\\\1&2&3&5\\end{bmatrix}\\)",
+            "A 4 by 4 diagonal matrix.",
+            "A 2 by 2 matrix of ones."
+          ],
+          "explanation": "Subtract the first row from each other row. The result is upper triangular with diagonal 1,1,1,1. The original matrix has no zero entries, so straightforward cofactor expansion has more terms. Other valid examples are possible.",
+          "workedSteps": [
+            "Subtract the first row from each other row. The result is upper triangular with diagonal 1,1,1,1.",
+            "The original matrix has no zero entries, so straightforward cofactor expansion has more terms. Other valid examples are possible."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Invertible",
+          "options": [
+            "Invertible",
+            "Not invertible"
+          ],
+          "explanation": "Exercise 1 has determinant \\(-18\\). A matrix is invertible exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "Exercise 1 has determinant \\(-18\\).",
+            "A matrix is invertible exactly when its determinant is nonzero."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Invertible",
+          "options": [
+            "Invertible",
+            "Not invertible"
+          ],
+          "explanation": "Exercise 2 has determinant \\(-44\\). A matrix is invertible exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "Exercise 2 has determinant \\(-44\\).",
+            "A matrix is invertible exactly when its determinant is nonzero."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Invertible",
+          "options": [
+            "Invertible",
+            "Not invertible"
+          ],
+          "explanation": "Exercise 3 has determinant \\(24\\). A matrix is invertible exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "Exercise 3 has determinant \\(24\\).",
+            "A matrix is invertible exactly when its determinant is nonzero."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Not invertible",
+          "options": [
+            "Not invertible",
+            "Invertible"
+          ],
+          "explanation": "Exercise 4 has determinant \\(0\\). A matrix is invertible exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "Exercise 4 has determinant \\(0\\).",
+            "A matrix is invertible exactly when its determinant is nonzero."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-1",
+        "anton-chapter-02-supplementary-2",
+        "anton-chapter-02-supplementary-3",
+        "anton-chapter-02-supplementary-4"
+      ]
+    },
+    "anton-chapter-02-supplementary-12": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Invertible",
+          "options": [
+            "Invertible",
+            "Not invertible"
+          ],
+          "explanation": "Exercise 5 has determinant \\(-10\\). A matrix is invertible exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "Exercise 5 has determinant \\(-10\\).",
+            "A matrix is invertible exactly when its determinant is nonzero."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Invertible",
+          "options": [
+            "Invertible",
+            "Not invertible"
+          ],
+          "explanation": "Exercise 6 has determinant \\(-48\\). A matrix is invertible exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "Exercise 6 has determinant \\(-48\\).",
+            "A matrix is invertible exactly when its determinant is nonzero."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Invertible",
+          "options": [
+            "Invertible",
+            "Not invertible"
+          ],
+          "explanation": "Exercise 7 has determinant \\(329\\). A matrix is invertible exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "Exercise 7 has determinant \\(329\\).",
+            "A matrix is invertible exactly when its determinant is nonzero."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Not invertible",
+          "options": [
+            "Not invertible",
+            "Invertible"
+          ],
+          "explanation": "Exercise 8 has determinant \\(0\\). A matrix is invertible exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "Exercise 8 has determinant \\(0\\).",
+            "A matrix is invertible exactly when its determinant is nonzero."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-5",
+        "anton-chapter-02-supplementary-6",
+        "anton-chapter-02-supplementary-7",
+        "anton-chapter-02-supplementary-8"
+      ]
+    },
+    "anton-chapter-02-supplementary-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(- b^{2} + 5 b - 21\\)",
+          "options": [
+            "\\(- b^{2} + 5 b - 21\\)",
+            "\\(- b^{2} + 5 b - 20\\)",
+            "\\(b^{2} - 5 b + 21\\)"
+          ],
+          "explanation": "Expand the determinant using signed products of entries and minors. Collecting terms gives \\(- b^{2} + 5 b - 21\\).",
+          "workedSteps": [
+            "Expand the determinant using signed products of entries and minors.",
+            "Collecting terms gives \\(- b^{2} + 5 b - 21\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-14": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(a^{4} - a^{3} + 16 a^{2} - 8 a + 2\\)",
+          "options": [
+            "\\(a^{4} - a^{3} + 16 a^{2} - 8 a + 2\\)",
+            "\\(a^{4} - a^{3} + 16 a^{2} - 8 a + 3\\)",
+            "\\(- a^{4} + a^{3} - 16 a^{2} + 8 a - 2\\)"
+          ],
+          "explanation": "Expand the determinant using signed products of entries and minors. Collecting terms gives \\(a^{4} - a^{3} + 16 a^{2} - 8 a + 2\\).",
+          "workedSteps": [
+            "Expand the determinant using signed products of entries and minors.",
+            "Collecting terms gives \\(a^{4} - a^{3} + 16 a^{2} - 8 a + 2\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": -120.0,
+          "tolerance": 1e-08,
+          "explanation": "Reverse the five columns, requiring 10 swaps and hence no net sign change. Multiply the resulting diagonal entries: \\((-3)(-4)(-1)(2)(5)=-120\\).",
+          "workedSteps": [
+            "Reverse the five columns, requiring 10 swaps and hence no net sign change.",
+            "Multiply the resulting diagonal entries: \\((-3)(-4)(-1)(2)(5)=-120\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-16": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(x=\\frac{3\\pm\\sqrt{33}}4\\)",
+          "options": [
+            "\\(x=\\frac{3\\pm\\sqrt{33}}4\\)",
+            "\\(x=1,-\\frac{3}{2}\\)",
+            "\\(x=0,2\\)"
+          ],
+          "explanation": "The left determinant is \\(x-x^2+3\\). Subtract twice row 1 from row 2 and row 1 from row 3 on the right, obtaining determinant \\(x(x-2)\\). Equate the determinants and rearrange: \\(2x^2-3x-3=0\\). Apply the quadratic formula.",
+          "workedSteps": [
+            "The left determinant is \\(x-x^2+3\\). Subtract twice row 1 from row 2 and row 1 from row 3 on the right, obtaining determinant \\(x(x-2)\\).",
+            "Equate the determinants and rearrange: \\(2x^2-3x-3=0\\). Apply the quadratic formula."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-17": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}- \\frac{1}{6} & \\frac{1}{9}\\\\\\frac{1}{6} & \\frac{2}{9}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}- \\frac{1}{6} & \\frac{1}{9}\\\\\\frac{1}{6} & \\frac{2}{9}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{5}{6} & \\frac{10}{9}\\\\\\frac{7}{6} & \\frac{11}{9}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{1}{6} & - \\frac{1}{9}\\\\- \\frac{1}{6} & - \\frac{2}{9}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The determinant is \\(-18\\). Transpose the cofactor matrix to get \\(\\begin{bmatrix}3 & -2\\\\-3 & -4\\end{bmatrix}\\). Divide by the determinant: \\(\\begin{bmatrix}- \\frac{1}{6} & \\frac{1}{9}\\\\\\frac{1}{6} & \\frac{2}{9}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The determinant is \\(-18\\).",
+            "Transpose the cofactor matrix to get \\(\\begin{bmatrix}3 & -2\\\\-3 & -4\\end{bmatrix}\\).",
+            "Divide by the determinant: \\(\\begin{bmatrix}- \\frac{1}{6} & \\frac{1}{9}\\\\\\frac{1}{6} & \\frac{2}{9}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-1"
+      ]
+    },
+    "anton-chapter-02-supplementary-18": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{3}{22} & - \\frac{1}{44}\\\\- \\frac{1}{22} & - \\frac{7}{44}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{3}{22} & - \\frac{1}{44}\\\\- \\frac{1}{22} & - \\frac{7}{44}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{25}{22} & \\frac{43}{44}\\\\\\frac{21}{22} & \\frac{37}{44}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{3}{22} & \\frac{1}{44}\\\\\\frac{1}{22} & \\frac{7}{44}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The determinant is \\(-44\\). Transpose the cofactor matrix to get \\(\\begin{bmatrix}-6 & 1\\\\2 & 7\\end{bmatrix}\\). Divide by the determinant: \\(\\begin{bmatrix}\\frac{3}{22} & - \\frac{1}{44}\\\\- \\frac{1}{22} & - \\frac{7}{44}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The determinant is \\(-44\\).",
+            "Transpose the cofactor matrix to get \\(\\begin{bmatrix}-6 & 1\\\\2 & 7\\end{bmatrix}\\).",
+            "Divide by the determinant: \\(\\begin{bmatrix}\\frac{3}{22} & - \\frac{1}{44}\\\\- \\frac{1}{22} & - \\frac{7}{44}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-2"
+      ]
+    },
+    "anton-chapter-02-supplementary-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{1}{8} & - \\frac{1}{8} & - \\frac{3}{8}\\\\\\frac{1}{8} & \\frac{5}{24} & - \\frac{1}{24}\\\\\\frac{1}{4} & - \\frac{7}{12} & - \\frac{1}{12}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{1}{8} & - \\frac{1}{8} & - \\frac{3}{8}\\\\\\frac{1}{8} & \\frac{5}{24} & - \\frac{1}{24}\\\\\\frac{1}{4} & - \\frac{7}{12} & - \\frac{1}{12}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{9}{8} & \\frac{7}{8} & \\frac{5}{8}\\\\\\frac{9}{8} & \\frac{29}{24} & \\frac{23}{24}\\\\\\frac{5}{4} & \\frac{5}{12} & \\frac{11}{12}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{1}{8} & \\frac{1}{8} & \\frac{3}{8}\\\\- \\frac{1}{8} & - \\frac{5}{24} & \\frac{1}{24}\\\\- \\frac{1}{4} & \\frac{7}{12} & \\frac{1}{12}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The determinant is \\(24\\). Transpose the cofactor matrix to get \\(\\begin{bmatrix}3 & -3 & -9\\\\3 & 5 & -1\\\\6 & -14 & -2\\end{bmatrix}\\). Divide by the determinant: \\(\\begin{bmatrix}\\frac{1}{8} & - \\frac{1}{8} & - \\frac{3}{8}\\\\\\frac{1}{8} & \\frac{5}{24} & - \\frac{1}{24}\\\\\\frac{1}{4} & - \\frac{7}{12} & - \\frac{1}{12}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The determinant is \\(24\\).",
+            "Transpose the cofactor matrix to get \\(\\begin{bmatrix}3 & -3 & -9\\\\3 & 5 & -1\\\\6 & -14 & -2\\end{bmatrix}\\).",
+            "Divide by the determinant: \\(\\begin{bmatrix}\\frac{1}{8} & - \\frac{1}{8} & - \\frac{3}{8}\\\\\\frac{1}{8} & \\frac{5}{24} & - \\frac{1}{24}\\\\\\frac{1}{4} & - \\frac{7}{12} & - \\frac{1}{12}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-3"
+      ]
+    },
+    "anton-chapter-02-supplementary-20": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "No inverse exists",
+          "options": [
+            "No inverse exists",
+            "The inverse is the identity.",
+            "The inverse is the zero matrix."
+          ],
+          "explanation": "The matrix has determinant 0. The adjugate formula cannot be divided by zero, and the matrix is singular.",
+          "workedSteps": [
+            "The matrix has determinant 0. The adjugate formula cannot be divided by zero, and the matrix is singular."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-4"
+      ]
+    },
+    "anton-chapter-02-supplementary-21": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{1}{5} & \\frac{2}{5} & - \\frac{1}{10}\\\\\\frac{1}{5} & - \\frac{3}{5} & \\frac{2}{5}\\\\- \\frac{2}{5} & \\frac{6}{5} & - \\frac{3}{10}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{1}{5} & \\frac{2}{5} & - \\frac{1}{10}\\\\\\frac{1}{5} & - \\frac{3}{5} & \\frac{2}{5}\\\\- \\frac{2}{5} & \\frac{6}{5} & - \\frac{3}{10}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{6}{5} & \\frac{7}{5} & \\frac{9}{10}\\\\\\frac{6}{5} & \\frac{2}{5} & \\frac{7}{5}\\\\\\frac{3}{5} & \\frac{11}{5} & \\frac{7}{10}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{1}{5} & - \\frac{2}{5} & \\frac{1}{10}\\\\- \\frac{1}{5} & \\frac{3}{5} & - \\frac{2}{5}\\\\\\frac{2}{5} & - \\frac{6}{5} & \\frac{3}{10}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The determinant is \\(-10\\). Transpose the cofactor matrix to get \\(\\begin{bmatrix}-2 & -4 & 1\\\\-2 & 6 & -4\\\\4 & -12 & 3\\end{bmatrix}\\). Divide by the determinant: \\(\\begin{bmatrix}\\frac{1}{5} & \\frac{2}{5} & - \\frac{1}{10}\\\\\\frac{1}{5} & - \\frac{3}{5} & \\frac{2}{5}\\\\- \\frac{2}{5} & \\frac{6}{5} & - \\frac{3}{10}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The determinant is \\(-10\\).",
+            "Transpose the cofactor matrix to get \\(\\begin{bmatrix}-2 & -4 & 1\\\\-2 & 6 & -4\\\\4 & -12 & 3\\end{bmatrix}\\).",
+            "Divide by the determinant: \\(\\begin{bmatrix}\\frac{1}{5} & \\frac{2}{5} & - \\frac{1}{10}\\\\\\frac{1}{5} & - \\frac{3}{5} & \\frac{2}{5}\\\\- \\frac{2}{5} & \\frac{6}{5} & - \\frac{3}{10}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-5"
+      ]
+    },
+    "anton-chapter-02-supplementary-22": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}- \\frac{1}{12} & \\frac{5}{24} & - \\frac{1}{24}\\\\\\frac{1}{12} & \\frac{7}{24} & - \\frac{11}{24}\\\\\\frac{1}{8} & \\frac{3}{16} & \\frac{1}{16}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}- \\frac{1}{12} & \\frac{5}{24} & - \\frac{1}{24}\\\\\\frac{1}{12} & \\frac{7}{24} & - \\frac{11}{24}\\\\\\frac{1}{8} & \\frac{3}{16} & \\frac{1}{16}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{11}{12} & \\frac{29}{24} & \\frac{23}{24}\\\\\\frac{13}{12} & \\frac{31}{24} & \\frac{13}{24}\\\\\\frac{9}{8} & \\frac{19}{16} & \\frac{17}{16}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{1}{12} & - \\frac{5}{24} & \\frac{1}{24}\\\\- \\frac{1}{12} & - \\frac{7}{24} & \\frac{11}{24}\\\\- \\frac{1}{8} & - \\frac{3}{16} & - \\frac{1}{16}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The determinant is \\(-48\\). Transpose the cofactor matrix to get \\(\\begin{bmatrix}4 & -10 & 2\\\\-4 & -14 & 22\\\\-6 & -9 & -3\\end{bmatrix}\\). Divide by the determinant: \\(\\begin{bmatrix}- \\frac{1}{12} & \\frac{5}{24} & - \\frac{1}{24}\\\\\\frac{1}{12} & \\frac{7}{24} & - \\frac{11}{24}\\\\\\frac{1}{8} & \\frac{3}{16} & \\frac{1}{16}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The determinant is \\(-48\\).",
+            "Transpose the cofactor matrix to get \\(\\begin{bmatrix}4 & -10 & 2\\\\-4 & -14 & 22\\\\-6 & -9 & -3\\end{bmatrix}\\).",
+            "Divide by the determinant: \\(\\begin{bmatrix}- \\frac{1}{12} & \\frac{5}{24} & - \\frac{1}{24}\\\\\\frac{1}{12} & \\frac{7}{24} & - \\frac{11}{24}\\\\\\frac{1}{8} & \\frac{3}{16} & \\frac{1}{16}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-6"
+      ]
+    },
+    "anton-chapter-02-supplementary-23": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{10}{329} & - \\frac{2}{329} & \\frac{52}{329} & - \\frac{27}{329}\\\\\\frac{55}{329} & - \\frac{11}{329} & - \\frac{43}{329} & \\frac{16}{329}\\\\- \\frac{3}{47} & \\frac{10}{47} & - \\frac{25}{47} & - \\frac{6}{47}\\\\- \\frac{31}{329} & \\frac{72}{329} & \\frac{102}{329} & - \\frac{15}{329}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{10}{329} & - \\frac{2}{329} & \\frac{52}{329} & - \\frac{27}{329}\\\\\\frac{55}{329} & - \\frac{11}{329} & - \\frac{43}{329} & \\frac{16}{329}\\\\- \\frac{3}{47} & \\frac{10}{47} & - \\frac{25}{47} & - \\frac{6}{47}\\\\- \\frac{31}{329} & \\frac{72}{329} & \\frac{102}{329} & - \\frac{15}{329}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{339}{329} & \\frac{327}{329} & \\frac{381}{329} & \\frac{302}{329}\\\\\\frac{384}{329} & \\frac{318}{329} & \\frac{286}{329} & \\frac{345}{329}\\\\\\frac{44}{47} & \\frac{57}{47} & \\frac{22}{47} & \\frac{41}{47}\\\\\\frac{298}{329} & \\frac{401}{329} & \\frac{431}{329} & \\frac{314}{329}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{10}{329} & \\frac{2}{329} & - \\frac{52}{329} & \\frac{27}{329}\\\\- \\frac{55}{329} & \\frac{11}{329} & \\frac{43}{329} & - \\frac{16}{329}\\\\\\frac{3}{47} & - \\frac{10}{47} & \\frac{25}{47} & \\frac{6}{47}\\\\\\frac{31}{329} & - \\frac{72}{329} & - \\frac{102}{329} & \\frac{15}{329}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The determinant is \\(329\\). Transpose the cofactor matrix to get \\(\\begin{bmatrix}10 & -2 & 52 & -27\\\\55 & -11 & -43 & 16\\\\-21 & 70 & -175 & -42\\\\-31 & 72 & 102 & -15\\end{bmatrix}\\). Divide by the determinant: \\(\\begin{bmatrix}\\frac{10}{329} & - \\frac{2}{329} & \\frac{52}{329} & - \\frac{27}{329}\\\\\\frac{55}{329} & - \\frac{11}{329} & - \\frac{43}{329} & \\frac{16}{329}\\\\- \\frac{3}{47} & \\frac{10}{47} & - \\frac{25}{47} & - \\frac{6}{47}\\\\- \\frac{31}{329} & \\frac{72}{329} & \\frac{102}{329} & - \\frac{15}{329}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The determinant is \\(329\\).",
+            "Transpose the cofactor matrix to get \\(\\begin{bmatrix}10 & -2 & 52 & -27\\\\55 & -11 & -43 & 16\\\\-21 & 70 & -175 & -42\\\\-31 & 72 & 102 & -15\\end{bmatrix}\\).",
+            "Divide by the determinant: \\(\\begin{bmatrix}\\frac{10}{329} & - \\frac{2}{329} & \\frac{52}{329} & - \\frac{27}{329}\\\\\\frac{55}{329} & - \\frac{11}{329} & - \\frac{43}{329} & \\frac{16}{329}\\\\- \\frac{3}{47} & \\frac{10}{47} & - \\frac{25}{47} & - \\frac{6}{47}\\\\- \\frac{31}{329} & \\frac{72}{329} & \\frac{102}{329} & - \\frac{15}{329}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-7"
+      ]
+    },
+    "anton-chapter-02-supplementary-24": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "No inverse exists",
+          "options": [
+            "No inverse exists",
+            "The inverse is the identity.",
+            "The inverse is the zero matrix."
+          ],
+          "explanation": "The matrix has determinant 0. The adjugate formula cannot be divided by zero, and the matrix is singular.",
+          "workedSteps": [
+            "The matrix has determinant 0. The adjugate formula cannot be divided by zero, and the matrix is singular."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-02-supplementary-8"
+      ]
+    },
+    "anton-chapter-02-supplementary-25": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(x\\prime=\\frac{3x+4y}{5},\\quad y\\prime=\\frac{-4x+3y}{5}\\)",
+          "options": [
+            "\\(x\\prime=\\frac{3x+4y}{5},\\quad y\\prime=\\frac{-4x+3y}{5}\\)",
+            "\\(x\\prime=\\frac{3x-4y}{5},\\ y\\prime=\\frac{4x+3y}{5}\\)",
+            "\\(x\\prime=x,\\ y\\prime=y\\)"
+          ],
+          "explanation": "The coefficient determinant is \\(\\frac{9}{25}+\\frac{16}{25}=1\\). Replacing column 1 gives \\(\\frac{3x+4y}{5}\\); replacing column 2 gives \\(\\frac{3y-4x}{5}\\). Divide each by 1.",
+          "workedSteps": [
+            "The coefficient determinant is \\(\\frac{9}{25}+\\frac{16}{25}=1\\).",
+            "Replacing column 1 gives \\(\\frac{3x+4y}{5}\\); replacing column 2 gives \\(\\frac{3y-4x}{5}\\). Divide each by 1."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-26": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(x\\prime=x\\cos\\theta+y\\sin\\theta,\\quad y\\prime=-x\\sin\\theta+y\\cos\\theta\\)",
+          "options": [
+            "\\(x\\prime=x\\cos\\theta+y\\sin\\theta,\\quad y\\prime=-x\\sin\\theta+y\\cos\\theta\\)",
+            "\\(x\\prime=x\\cos\\theta-y\\sin\\theta,\\ y\\prime=x\\sin\\theta+y\\cos\\theta\\)",
+            "\\(x\\prime=x,\\ y\\prime=y\\)"
+          ],
+          "explanation": "The coefficient determinant is \\(\\cos^2\\theta+\\sin^2\\theta=1\\). Cramer\u2019s replaced-column determinants give the two expressions in the selected answer.",
+          "workedSteps": [
+            "The coefficient determinant is \\(\\cos^2\\theta+\\sin^2\\theta=1\\).",
+            "Cramer\u2019s replaced-column determinants give the two expressions in the selected answer."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-27": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\det A=-(\\alpha-\\beta)^2=0\\iff\\alpha=\\beta\\)",
+          "options": [
+            "\\(\\det A=-(\\alpha-\\beta)^2=0\\iff\\alpha=\\beta\\)",
+            "\\(\\det A=\\alpha+\\beta=0\\iff\\alpha=-\\beta\\)",
+            "\\(\\det A=1\\), so never."
+          ],
+          "explanation": "Subtract row 1 from row 2, then expand along row 2 to obtain the negative squared difference. A square homogeneous system has a nonzero solution exactly when its coefficient determinant vanishes.",
+          "workedSteps": [
+            "Subtract row 1 from row 2, then expand along row 2 to obtain the negative squared difference.",
+            "A square homogeneous system has a nonzero solution exactly when its coefficient determinant vanishes."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-28": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 2.0,
+          "tolerance": 1e-08,
+          "explanation": "The six-term determinant formula has three positive and three negative terms, each 0 or 1. A value 3 would require all three positive products to equal 1, forcing all nine entries to be 1; the negative products would then also equal 1. Thus the determinant is at most 2. The matrix \\(\\begin{bmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{bmatrix}\\) has determinant 2, attaining the bound.",
+          "workedSteps": [
+            "The six-term determinant formula has three positive and three negative terms, each 0 or 1.",
+            "A value 3 would require all three positive products to equal 1, forcing all nine entries to be 1; the negative products would then also equal 1. Thus the determinant is at most 2.",
+            "The matrix \\(\\begin{bmatrix}1&1&0\\\\0&1&1\\\\1&0&1\\end{bmatrix}\\) has determinant 2, attaining the bound."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-29": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(b\\cos\\gamma+c\\cos\\beta=a,\\ c\\cos\\alpha+a\\cos\\gamma=b,\\ a\\cos\\beta+b\\cos\\alpha=c\\)",
+          "options": [
+            "\\(b\\cos\\gamma+c\\cos\\beta=a,\\ c\\cos\\alpha+a\\cos\\gamma=b,\\ a\\cos\\beta+b\\cos\\alpha=c\\)",
+            "All three left sides are zero.",
+            "Replace each cosine by sine in the equations."
+          ],
+          "explanation": "Project the two sides adjacent to each chosen side onto that side. Their signed projections add to its full length, giving the three identities.",
+          "workedSteps": [
+            "Project the two sides adjacent to each chosen side onto that side. Their signed projections add to its full length, giving the three identities."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\cos\\alpha=\\frac{b^2+c^2-a^2}{2bc},\\quad\\cos\\beta=\\frac{a^2+c^2-b^2}{2ac},\\quad\\cos\\gamma=\\frac{a^2+b^2-c^2}{2ab}\\)",
+          "options": [
+            "\\(\\cos\\alpha=\\frac{b^2+c^2-a^2}{2bc},\\quad\\cos\\beta=\\frac{a^2+c^2-b^2}{2ac},\\quad\\cos\\gamma=\\frac{a^2+b^2-c^2}{2ab}\\)",
+            "\\(\\cos\\alpha=\\cos\\beta=\\cos\\gamma=1\\)",
+            "\\(\\cos\\alpha=\\frac{a^2-b^2-c^2}{2bc}\\), with cyclic analogues."
+          ],
+          "explanation": "For unknowns \\((\\cos\\alpha,\\cos\\beta,\\cos\\gamma)\\), the coefficient matrix is \\(\\begin{bmatrix}0&c&b\\\\c&0&a\\\\b&a&0\\end{bmatrix}\\), whose determinant is \\(2abc\\). The replaced-column determinants are \\(a(b^2+c^2-a^2)\\), \\(b(a^2+c^2-b^2)\\), and \\(c(a^2+b^2-c^2)\\). Divide each by \\(2abc\\).",
+          "workedSteps": [
+            "For unknowns \\((\\cos\\alpha,\\cos\\beta,\\cos\\gamma)\\), the coefficient matrix is \\(\\begin{bmatrix}0&c&b\\\\c&0&a\\\\b&a&0\\end{bmatrix}\\), whose determinant is \\(2abc\\).",
+            "The replaced-column determinants are \\(a(b^2+c^2-a^2)\\), \\(b(a^2+c^2-b^2)\\), and \\(c(a^2+b^2-c^2)\\). Divide each by \\(2abc\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-30": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\det\\begin{bmatrix}1-\\lambda&-2\\\\1&-1-\\lambda\\end{bmatrix}=\\lambda^2+1>0\\)",
+          "options": [
+            "\\(\\det\\begin{bmatrix}1-\\lambda&-2\\\\1&-1-\\lambda\\end{bmatrix}=\\lambda^2+1>0\\)",
+            "The determinant is \\(\\lambda^2-1\\).",
+            "The determinant is zero for all real \\(\\lambda\\)."
+          ],
+          "explanation": "Move the right-hand terms to the left to form a homogeneous system. The determinant is \\((1-\\lambda)(-1-\\lambda)+2=\\lambda^2+1\\), always positive for real lambda. Hence its only solution is x=y=0.",
+          "workedSteps": [
+            "Move the right-hand terms to the left to form a homogeneous system.",
+            "The determinant is \\((1-\\lambda)(-1-\\lambda)+2=\\lambda^2+1\\), always positive for real lambda. Hence its only solution is x=y=0."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-31": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\([\\operatorname{adj}(A)]^{-1}=\\frac{A}{\\det A}=\\operatorname{adj}(A^{-1})\\)",
+          "options": [
+            "\\([\\operatorname{adj}(A)]^{-1}=\\frac{A}{\\det A}=\\operatorname{adj}(A^{-1})\\)",
+            "\\([\\operatorname{adj}(A)]^{-1}=A\\det A\\)",
+            "\\([\\operatorname{adj}(A)]^{-1}=A^{-1}\\) always"
+          ],
+          "explanation": "Use \\(\\operatorname{adj}(A)=\\det(A)A^{-1}\\). Since both factors are invertible, its inverse is \\(\\frac{A}{\\det A}\\). Also \\(\\operatorname{adj}(A^{-1})=\\det(A^{-1})(A^{-1})^{-1}=\\frac{A}{\\det A}\\).",
+          "workedSteps": [
+            "Use \\(\\operatorname{adj}(A)=\\det(A)A^{-1}\\). Since both factors are invertible, its inverse is \\(\\frac{A}{\\det A}\\).",
+            "Also \\(\\operatorname{adj}(A^{-1})=\\det(A^{-1})(A^{-1})^{-1}=\\frac{A}{\\det A}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-32": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\det(\\operatorname{adj}A)=(\\det A)^{n-1}\\)",
+          "options": [
+            "\\(\\det(\\operatorname{adj}A)=(\\det A)^{n-1}\\)",
+            "\\(\\det(\\operatorname{adj}A)=(\\det A)^n\\)",
+            "\\(\\det(\\operatorname{adj}A)=n\\det A\\)"
+          ],
+          "explanation": "For invertible A, take determinants of \\(\\operatorname{adj}A=(\\det A)A^{-1}\\), yielding \\(\\frac{(\\det A)^n}{\\det A}\\). For singular A, apply the identity to A+tI for values t with nonzero determinant, then let t tend to zero. Determinants and cofactors are polynomials, so continuity preserves equality. For n=1 both sides equal 1.",
+          "workedSteps": [
+            "For invertible A, take determinants of \\(\\operatorname{adj}A=(\\det A)A^{-1}\\), yielding \\(\\frac{(\\det A)^n}{\\det A}\\).",
+            "For singular A, apply the identity to A+tI for values t with nonzero determinant, then let t tend to zero. Determinants and cofactors are polynomials, so continuity preserves equality. For n=1 both sides equal 1."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-33": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(A\\begin{bmatrix}1\\\\\\vdots\\\\1\\end{bmatrix}=0\\), so A is singular and \\(\\det A=0\\).",
+          "options": [
+            "\\(A\\begin{bmatrix}1\\\\\\vdots\\\\1\\end{bmatrix}=0\\), so A is singular and \\(\\det A=0\\).",
+            "The row sums imply A is the zero matrix.",
+            "The row sums imply \\(\\det A=1\\)."
+          ],
+          "explanation": "Each entry of the product is the corresponding row sum, hence zero. The all-ones vector is nonzero, giving a nontrivial null vector. A square matrix with such a vector is singular.",
+          "workedSteps": [
+            "Each entry of the product is the corresponding row sum, hence zero.",
+            "The all-ones vector is nonzero, giving a nontrivial null vector. A square matrix with such a vector is singular."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-34": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(\\frac{1}{2}[(x_3-x_1)(y_1+y_3)+(x_2-x_3)(y_3+y_2)-(x_2-x_1)(y_1+y_2)]\\)",
+          "options": [
+            "\\(\\frac{1}{2}[(x_3-x_1)(y_1+y_3)+(x_2-x_3)(y_3+y_2)-(x_2-x_1)(y_1+y_2)]\\)",
+            "Add the areas of all three trapezoids.",
+            "Subtract all three trapezoid areas from zero."
+          ],
+          "explanation": "Apply one-half times width times the sum of the vertical sides to each trapezoid. Expanding cancels the matching terms and leaves one-half of \\(x_1y_2+x_2y_3+x_3y_1-x_1y_3-x_2y_1-x_3y_2\\), the displayed determinant.",
+          "workedSteps": [
+            "Apply one-half times width times the sum of the vertical sides to each trapezoid.",
+            "Expanding cancels the matching terms and leaves one-half of \\(x_1y_2+x_2y_3+x_3y_1-x_1y_3-x_2y_1-x_3y_2\\), the displayed determinant."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the value.",
+          "type": "numeric",
+          "answer": 9.5,
+          "tolerance": 1e-08,
+          "explanation": "Insert the vertices into \\(\\begin{bmatrix}3&3&1\\\\4&0&1\\\\-2&-1&1\\end{bmatrix}\\). The determinant is -19; take one-half its absolute value, giving 19/2 square units.",
+          "workedSteps": [
+            "Insert the vertices into \\(\\begin{bmatrix}3&3&1\\\\4&0&1\\\\-2&-1&1\\end{bmatrix}\\).",
+            "The determinant is -19; take one-half its absolute value, giving 19/2 square units."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-35": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(C_5\\leftarrow10000C_1+1000C_2+100C_3+10C_4+C_5\\)",
+          "options": [
+            "\\(C_5\\leftarrow10000C_1+1000C_2+100C_3+10C_4+C_5\\)",
+            "Swap the first and fifth columns.",
+            "Divide every column by 19."
+          ],
+          "explanation": "Adding multiples of other columns to column 5 preserves the determinant. The new last column contains exactly the five given multiples of 19. Factor 19 from that column; the remaining determinant is an integer.",
+          "workedSteps": [
+            "Adding multiples of other columns to column 5 preserves the determinant.",
+            "The new last column contains exactly the five given multiples of 19. Factor 19 from that column; the remaining determinant is an integer."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-36": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "\\(C_3=(\\cos\\delta)C_1+(\\sin\\delta)C_2\\)",
+          "options": [
+            "\\(C_3=(\\cos\\delta)C_1+(\\sin\\delta)C_2\\)",
+            "\\(C_3=C_1+C_2\\) for every delta.",
+            "\\(C_3=C_1-C_2\\) for every delta."
+          ],
+          "explanation": "The sine addition identity gives the stated linear combination in every row. Subtract this combination from column 3 to create a zero column, proving the determinant is zero.",
+          "workedSteps": [
+            "The sine addition identity gives the stated linear combination in every row.",
+            "Subtract this combination from column 3 to create a zero column, proving the determinant is zero."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-02-supplementary-37": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the complete correct result.",
+          "type": "choice",
+          "answer": "Not linear",
+          "options": [
+            "Not linear",
+            "Linear"
+          ],
+          "explanation": "Interpreting the input as \\(\\mathbb R^4\\), let v=(1,0,0,1), corresponding to the identity matrix. Then \\(T(v)=1\\) but \\(T(2v)=4\\ne2T(v)\\). The required scalar multiplication property fails.",
+          "workedSteps": [
+            "Interpreting the input as \\(\\mathbb R^4\\), let v=(1,0,0,1), corresponding to the identity matrix. Then \\(T(v)=1\\) but \\(T(2v)=4\\ne2T(v)\\).",
+            "The required scalar multiplication property fails."
+          ]
+        }
+      ],
+      "scope": "All requested parts",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The source prints a domain of R\u00b2 but gives four input coordinates; the intended domain is R\u2074 (or the space of 2 by 2 matrices)."
+    }
+  }
+}

@@ -1,0 +1,3619 @@
+{
+  "chapter": 8,
+  "questions": {
+    "anton-section-8-1-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Is the squaring map linear?",
+          "type": "choice",
+          "answer": "Not linear",
+          "options": [
+            "Not linear",
+            "Linear, with zero kernel",
+            "Linear, with all matrices in its kernel"
+          ],
+          "explanation": "For the identity matrix, \\(T(2I)=4I\\), whereas \\(2T(I)=2I\\). Homogeneity fails.",
+          "workedSteps": [
+            "For the identity matrix, \\(T(2I)=4I\\), whereas \\(2T(I)=2I\\). Homogeneity fails."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose the linearity and kernel description for the trace map.",
+          "type": "choice",
+          "answer": "\\(\\text{Linear};\\ \\ker T=\\{\\begin{bmatrix}a&b\\\\c&-a\\end{bmatrix}:a,b,c\\in\\mathbb R\\}\\)",
+          "options": [
+            "\\(\\text{Linear};\\ \\ker T=\\{\\begin{bmatrix}a&b\\\\c&-a\\end{bmatrix}:a,b,c\\in\\mathbb R\\}\\)",
+            "\\(\\text{Linear};\\ \\ker T=\\{0\\}\\)",
+            "\\(\\text{Not linear}\\)"
+          ],
+          "explanation": "Trace adds diagonal entries, so \\(\\operatorname{tr}(\\alpha A+\\beta B)=\\alpha\\operatorname{tr}A+\\beta\\operatorname{tr}B\\). The zero-output equation is \\(a+d=0\\); the off-diagonal entries are free.",
+          "workedSteps": [
+            "Trace adds diagonal entries, so \\(\\operatorname{tr}(\\alpha A+\\beta B)=\\alpha\\operatorname{tr}A+\\beta\\operatorname{tr}B\\).",
+            "The zero-output equation is \\(a+d=0\\); the off-diagonal entries are free."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Choose the linearity and kernel description for the symmetrization map.",
+          "type": "choice",
+          "answer": "\\(\\text{Linear};\\ \\ker T=\\{\\begin{bmatrix}0&b\\\\-b&0\\end{bmatrix}:b\\in\\mathbb R\\}\\)",
+          "options": [
+            "\\(\\text{Linear};\\ \\ker T=\\{\\begin{bmatrix}0&b\\\\-b&0\\end{bmatrix}:b\\in\\mathbb R\\}\\)",
+            "\\(\\text{Linear};\\ \\ker T=\\{\\begin{bmatrix}a&b\\\\b&d\\end{bmatrix}\\}\\)",
+            "\\(\\text{Not linear}\\)"
+          ],
+          "explanation": "Transpose respects linear combinations, so \\(A\\mapsto A+A^T\\) is linear. \\(A+A^T=0\\) gives \\(a=d=0\\) and \\(c=-b\\).",
+          "workedSteps": [
+            "Transpose respects linear combinations, so \\(A\\mapsto A+A^T\\) is linear.",
+            "\\(A+A^T=0\\) gives \\(a=d=0\\) and \\(c=-b\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-1-3": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Is the norm map linear?",
+          "type": "choice",
+          "answer": "No: homogeneity fails for negative scalars",
+          "options": [
+            "No: homogeneity fails for negative scalars",
+            "Yes, with kernel {0}",
+            "Yes, because norms are nonnegative"
+          ],
+          "explanation": "For nonzero \\(u\\), \\(T(-u)=\\|u\\|\\), but \\(-T(u)=-\\|u\\|\\). These differ, so the map is not a linear transformation.",
+          "workedSteps": [
+            "For nonzero \\(u\\), \\(T(-u)=\\|u\\|\\), but \\(-T(u)=-\\|u\\|\\).",
+            "These differ, so the map is not a linear transformation."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-1-5": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Choose the complete linearity and kernel statement.",
+          "type": "choice",
+          "answer": "\\(\\text{Linear};\\ \\ker T=\\{A: \\text{each transposed row of }A\\text{ lies in }\\ker(B^T)\\}\\)",
+          "options": [
+            "\\(\\text{Linear};\\ \\ker T=\\{A: \\text{each transposed row of }A\\text{ lies in }\\ker(B^T)\\}\\)",
+            "\\(\\text{Linear};\\ \\ker T=\\{0\\}\\text{ for every }B\\)",
+            "\\(\\text{Not linear}\\)"
+          ],
+          "explanation": "\\((\\alpha A+\\beta C)B=\\alpha AB+\\beta CB\\). If the rows of \\(A\\) are \\(r_1,r_2\\), then \\(AB=0\\) exactly when \\(r_1B=r_2B=0\\), equivalently \\(B^Tr_i^T=0\\). Thus both rows can be chosen independently from the left null space of \\(B\\); if \\(B\\) has rank 2 the kernel is zero, and if \\(B=0\\) it is all of \\(M_{22}\\).",
+          "workedSteps": [
+            "\\((\\alpha A+\\beta C)B=\\alpha AB+\\beta CB\\).",
+            "If the rows of \\(A\\) are \\(r_1,r_2\\), then \\(AB=0\\) exactly when \\(r_1B=r_2B=0\\), equivalently \\(B^Tr_i^T=0\\).",
+            "Thus both rows can be chosen independently from the left null space of \\(B\\); if \\(B\\) has rank 2 the kernel is zero, and if \\(B=0\\) it is all of \\(M_{22}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-1-9": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Choose the linearity and kernel statement.",
+          "type": "choice",
+          "answer": "\\(\\text{Linear};\\ \\ker T=\\{(0,0,\\ldots)\\}\\)",
+          "options": [
+            "\\(\\text{Linear};\\ \\ker T=\\{(0,0,\\ldots)\\}\\)",
+            "\\(\\text{Linear};\\ \\ker T=\\operatorname{span}\\{(1,0,0,\\ldots)\\}\\)",
+            "\\(\\text{Not linear}\\)"
+          ],
+          "explanation": "Shifting each coordinate and inserting a zero respects addition and scalar multiplication. The output is zero exactly when every original coordinate is zero.",
+          "workedSteps": [
+            "Shifting each coordinate and inserting a zero respects addition and scalar multiplication.",
+            "The output is zero exactly when every original coordinate is zero."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-1-14": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Rank in part (a)",
+          "type": "numeric",
+          "answer": 5,
+          "tolerance": 1e-08,
+          "explanation": "Rank–nullity gives \\(7-2=5\\).",
+          "workedSteps": [
+            "Rank–nullity gives \\(7-2=5\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "What follows from the data in part (b)?",
+          "type": "choice",
+          "answer": "No such transformation exists (formal rank–nullity value 3 exceeds codomain dimension 1)",
+          "options": [
+            "No such transformation exists (formal rank–nullity value 3 exceeds codomain dimension 1)",
+            "Such a transformation exists with rank 3",
+            "Such a transformation exists with rank 1"
+          ],
+          "explanation": "\\(\\dim P_3=4\\), so the claimed nullity 1 would require rank \\(4-1=3\\). But a map into \\(\\mathbb R\\) has rank at most 1. The printed data are inconsistent.",
+          "workedSteps": [
+            "\\(\\dim P_3=4\\), so the claimed nullity 1 would require rank \\(4-1=3\\).",
+            "But a map into \\(\\mathbb R\\) has rank at most 1. The printed data are inconsistent."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Rank in part (c)",
+          "type": "numeric",
+          "answer": 0,
+          "tolerance": 1e-08,
+          "explanation": "The kernel is the entire six-dimensional domain, so \\(\\operatorname{rank}T=6-6=0\\).",
+          "workedSteps": [
+            "The kernel is the entire six-dimensional domain, so \\(\\operatorname{rank}T=6-6=0\\)."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Rank in part (d)",
+          "type": "choice",
+          "answer": "\\(n-2\\)",
+          "options": [
+            "\\(n-2\\)",
+            "\\(n-3\\)",
+            "\\(n+1\\)"
+          ],
+          "explanation": "\\(\\dim P_n=n+1\\). Subtracting nullity 3 gives \\(n-2\\), for values of the parameters for which the given map exists.",
+          "workedSteps": [
+            "\\(\\dim P_n=n+1\\). Subtracting nullity 3 gives \\(n-2\\), for values of the parameters for which the given map exists."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "Part (b) has inconsistent data: nullity 1 on P3 would force rank 3, impossible for codomain R. The answer check explicitly identifies this issue."
+    },
+    "anton-section-8-1-18": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Evaluation vector",
+          "type": "choice",
+          "answer": "\\((2,0,2)\\)",
+          "options": [
+            "\\((2,0,2)\\)",
+            "\\((1,1,1)\\)",
+            "\\((2,2,2)\\)"
+          ],
+          "explanation": "At \\(0,\\pi,2\\pi\\), sine is zero and cosine is \\(1,-1,1\\). Thus the values are \\(2,0,2\\).",
+          "workedSteps": [
+            "At \\(0,\\pi,2\\pi\\), sine is zero and cosine is \\(1,-1,1\\). Thus the values are \\(2,0,2\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Kernel",
+          "type": "choice",
+          "answer": "\\(\\operatorname{span}\\{\\sin x\\}\\)",
+          "options": [
+            "\\(\\operatorname{span}\\{\\sin x\\}\\)",
+            "\\(\\operatorname{span}\\{\\cos x\\}\\)",
+            "\\(\\operatorname{span}\\{1,\\sin x\\}\\)"
+          ],
+          "explanation": "For \\(f=a+b\\sin x+c\\cos x\\), \\(T(f)=(a+c,a-c,a+c)\\). All entries vanish exactly when \\(a=c=0\\), leaving \\(b\\) arbitrary.",
+          "workedSteps": [
+            "For \\(f=a+b\\sin x+c\\cos x\\), \\(T(f)=(a+c,a-c,a+c)\\).",
+            "All entries vanish exactly when \\(a=c=0\\), leaving \\(b\\) arbitrary."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Range",
+          "type": "choice",
+          "answer": "\\(\\{(u,v,u):u,v\\in\\mathbb R\\}\\)",
+          "options": [
+            "\\(\\{(u,v,u):u,v\\in\\mathbb R\\}\\)",
+            "\\(\\mathbb R^3\\)",
+            "\\(\\{(u,u,u):u\\in\\mathbb R\\}\\)"
+          ],
+          "explanation": "The third evaluation always equals the first. Every \\((u,v,u)\\) occurs by taking \\(a=\\frac{u+v}{2}\\), \\(c=\\frac{u-v}{2}\\), so this is exactly the range.",
+          "workedSteps": [
+            "The third evaluation always equals the first.",
+            "Every \\((u,v,u)\\) occurs by taking \\(a=\\frac{u+v}{2}\\), \\(c=\\frac{u-v}{2}\\), so this is exactly the range."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-1-22": {
+      "fields": [
+        {
+          "label": "formula",
+          "selectionPrompt": "Choose A in the formula T(x)=Ax.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}-41 & 9 & 24\\\\14 & -3 & -8\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}-41 & 9 & 24\\\\14 & -3 & -8\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-40 & 9 & 24\\\\14 & -3 & -8\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}41 & -9 & -24\\\\-14 & 3 & 8\\end{bmatrix}\\)"
+          ],
+          "explanation": "Place the given basis vectors in columns of \\(P\\) and their images in columns of \\(Y\\). Then \\(AP=Y\\), hence \\(A=YP^{-1}\\). The resulting matrix is \\(\\begin{bmatrix}-41 & 9 & 24\\\\14 & -3 & -8\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Place the given basis vectors in columns of \\(P\\) and their images in columns of \\(Y\\).",
+            "Then \\(AP=Y\\), hence \\(A=YP^{-1}\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}-41 & 9 & 24\\\\14 & -3 & -8\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "value",
+          "selectionPrompt": "Choose T(7,13,7).",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}-2\\\\3\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}-2\\\\3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1\\\\3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2\\\\-3\\end{bmatrix}\\)"
+          ],
+          "explanation": "Substitute the vector into the formula found above. The resulting matrix is \\(\\begin{bmatrix}-2\\\\3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Substitute the vector into the formula found above.",
+            "The resulting matrix is \\(\\begin{bmatrix}-2\\\\3\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-1-23": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose a basis for the range.",
+          "type": "choice",
+          "answer": "\\(\\{\\begin{bmatrix}1\\\\5\\\\7\\end{bmatrix},\\begin{bmatrix}-1\\\\6\\\\4\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\{\\begin{bmatrix}1\\\\5\\\\7\\end{bmatrix},\\begin{bmatrix}-1\\\\6\\\\4\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1\\\\1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\varnothing\\)"
+          ],
+          "explanation": "Row reduction gives \\(\\begin{bmatrix}1 & 0 & \\frac{14}{11}\\\\0 & 1 & - \\frac{19}{11}\\\\0 & 0 & 0\\end{bmatrix}\\). Use the corresponding pivot columns of the original matrix. They are independent and span its column space.",
+          "workedSteps": [
+            "Row reduction gives \\(\\begin{bmatrix}1 & 0 & \\frac{14}{11}\\\\0 & 1 & - \\frac{19}{11}\\\\0 & 0 & 0\\end{bmatrix}\\).",
+            "Use the corresponding pivot columns of the original matrix. They are independent and span its column space."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose a basis for the kernel.",
+          "type": "choice",
+          "answer": "\\(\\{\\begin{bmatrix}- \\frac{14}{11}\\\\\\frac{19}{11}\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\{\\begin{bmatrix}- \\frac{14}{11}\\\\\\frac{19}{11}\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1\\\\1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1\\\\0\\\\0\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "Solve \\(Ax=0\\) using the reduced matrix above; assign one free variable 1 at a time and all others 0. The resulting vectors are independent (their free coordinates are standard unit vectors) and span every solution.",
+          "workedSteps": [
+            "Solve \\(Ax=0\\) using the reduced matrix above; assign one free variable 1 at a time and all others 0.",
+            "The resulting vectors are independent (their free coordinates are standard unit vectors) and span every solution."
+          ]
+        },
+        {
+          "label": "rank",
+          "selectionPrompt": "Rank of T",
+          "type": "numeric",
+          "answer": 2,
+          "tolerance": 1e-08,
+          "explanation": "Count the pivot columns.",
+          "workedSteps": [
+            "Count the pivot columns."
+          ]
+        },
+        {
+          "label": "nullity",
+          "selectionPrompt": "Nullity of T",
+          "type": "numeric",
+          "answer": 1,
+          "tolerance": 1e-08,
+          "explanation": "Subtract the rank from the domain dimension.",
+          "workedSteps": [
+            "Subtract the rank from the domain dimension."
+          ]
+        },
+        {
+          "label": "d-rank",
+          "selectionPrompt": "Rank of A",
+          "type": "numeric",
+          "answer": 2,
+          "tolerance": 1e-08,
+          "explanation": "The range of the matrix map is the column space, so its rank equals the matrix rank.",
+          "workedSteps": [
+            "The range of the matrix map is the column space, so its rank equals the matrix rank."
+          ]
+        },
+        {
+          "label": "d-nullity",
+          "selectionPrompt": "Nullity of A",
+          "type": "numeric",
+          "answer": 1,
+          "tolerance": 1e-08,
+          "explanation": "The matrix null space is the transformation kernel.",
+          "workedSteps": [
+            "The matrix null space is the transformation kernel."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/457.svg.gz",
+          "pdfPage": 471,
+          "role": "instructions",
+          "crops": [
+            [
+              325,
+              324,
+              258,
+              80
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/457.svg.gz",
+          "pdfPage": 471,
+          "role": "problem",
+          "crops": [
+            [
+              325,
+              406,
+              126.5,
+              42
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-8-1-25": {
+      "fields": [
+        {
+          "label": "kernel",
+          "selectionPrompt": "Choose a basis for the kernel.",
+          "type": "choice",
+          "answer": "\\(\\{\\begin{bmatrix}\\frac{10}{7}\\\\\\frac{2}{7}\\\\0\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\{\\begin{bmatrix}\\frac{10}{7}\\\\\\frac{2}{7}\\\\0\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1\\\\1\\\\1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1\\\\0\\\\0\\\\0\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "Solve \\(Ax=0\\) using the reduced matrix above; assign one free variable 1 at a time and all others 0. The resulting vectors are independent (their free coordinates are standard unit vectors) and span every solution.",
+          "workedSteps": [
+            "Solve \\(Ax=0\\) using the reduced matrix above; assign one free variable 1 at a time and all others 0.",
+            "The resulting vectors are independent (their free coordinates are standard unit vectors) and span every solution."
+          ]
+        },
+        {
+          "label": "range",
+          "selectionPrompt": "Choose a basis for the range.",
+          "type": "choice",
+          "answer": "\\(\\{\\begin{bmatrix}1\\\\-3\\\\-3\\end{bmatrix},\\begin{bmatrix}2\\\\1\\\\8\\end{bmatrix},\\begin{bmatrix}-1\\\\3\\\\4\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\{\\begin{bmatrix}1\\\\-3\\\\-3\\end{bmatrix},\\begin{bmatrix}2\\\\1\\\\8\\end{bmatrix},\\begin{bmatrix}-1\\\\3\\\\4\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1\\\\1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\varnothing\\)"
+          ],
+          "explanation": "Row reduction gives \\(\\begin{bmatrix}1 & 0 & 0 & - \\frac{10}{7}\\\\0 & 1 & 0 & - \\frac{2}{7}\\\\0 & 0 & 1 & 0\\end{bmatrix}\\). Use the corresponding pivot columns of the original matrix. They are independent and span its column space.",
+          "workedSteps": [
+            "Row reduction gives \\(\\begin{bmatrix}1 & 0 & 0 & - \\frac{10}{7}\\\\0 & 1 & 0 & - \\frac{2}{7}\\\\0 & 0 & 1 & 0\\end{bmatrix}\\).",
+            "Use the corresponding pivot columns of the original matrix. They are independent and span its column space."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/457.svg.gz",
+          "pdfPage": 471,
+          "role": "instructions",
+          "crops": [
+            [
+              325,
+              451,
+              258,
+              38
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/457.svg.gz",
+          "pdfPage": 471,
+          "role": "problem",
+          "crops": [
+            [
+              325,
+              490,
+              258,
+              39
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-8-1-37": {
+      "fields": [
+        {
+          "label": "proof",
+          "selectionPrompt": "Choose the identity that proves T is the identity operator.",
+          "type": "choice",
+          "answer": "\\(T(\\sum_i c_iv_i)=\\sum_i c_iT(v_i)=\\sum_i c_iv_i\\)",
+          "options": [
+            "\\(T(\\sum_i c_iv_i)=\\sum_i c_iT(v_i)=\\sum_i c_iv_i\\)",
+            "\\(T(\\sum_i c_iv_i)=\\sum_i T(c_i)v_i\\)",
+            "\\(T(\\sum_i c_iv_i)=\\sum_i v_i\\)"
+          ],
+          "explanation": "Every vector has a basis expansion \\(x=\\sum_i c_iv_i\\). Linearity and the assumption \\(T(v_i)=v_i\\) give \\(T(x)=\\sum_i c_iT(v_i)=\\sum_i c_iv_i=x\\). This holds for every vector.",
+          "workedSteps": [
+            "Every vector has a basis expansion \\(x=\\sum_i c_iv_i\\).",
+            "Linearity and the assumption \\(T(v_i)=v_i\\) give \\(T(x)=\\sum_i c_iT(v_i)=\\sum_i c_iv_i=x\\). This holds for every vector."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-2-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Is projection onto the x-axis one-to-one?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "\\(T(0,1)=T(0,0)=(0,0)\\), so distinct inputs share an output.",
+          "workedSteps": [
+            "\\(T(0,1)=T(0,0)=(0,0)\\), so distinct inputs share an output."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Is reflection about the y-axis one-to-one?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "\\(T(x,y)=(-x,y)\\) has kernel \\(\\{0\\}\\).",
+          "workedSteps": [
+            "\\(T(x,y)=(-x,y)\\) has kernel \\(\\{0\\}\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Is reflection about y=x one-to-one?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "\\(T(x,y)=(y,x)\\) has kernel \\(\\{0\\}\\).",
+          "workedSteps": [
+            "\\(T(x,y)=(y,x)\\) has kernel \\(\\{0\\}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-2-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Kernel and injectivity",
+          "type": "choice",
+          "answer": "\\(\\ker T=\\{0\\};\\ \\text{one-to-one}\\)",
+          "options": [
+            "\\(\\ker T=\\{0\\};\\ \\text{one-to-one}\\)",
+            "\\(\\ker T=\\operatorname{span}\\{(1,1)\\};\\ \\text{not one-to-one}\\)",
+            "\\(\\ker T=\\mathbb R^2;\\ \\text{not one-to-one}\\)"
+          ],
+          "explanation": "\\((y,x)=(0,0)\\) forces both input coordinates to vanish.",
+          "workedSteps": [
+            "\\((y,x)=(0,0)\\) forces both input coordinates to vanish."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Kernel and injectivity",
+          "type": "choice",
+          "answer": "\\(\\ker T=\\{0\\};\\ \\text{one-to-one}\\)",
+          "options": [
+            "\\(\\ker T=\\{0\\};\\ \\text{one-to-one}\\)",
+            "\\(\\ker T=\\operatorname{span}\\{(1,-1)\\};\\ \\text{not one-to-one}\\)",
+            "\\(\\ker T=\\mathbb R^2;\\ \\text{not one-to-one}\\)"
+          ],
+          "explanation": "The first two output coordinates are \\(x,y\\). A zero output therefore forces a zero input.",
+          "workedSteps": [
+            "The first two output coordinates are \\(x,y\\). A zero output therefore forces a zero input."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Kernel and injectivity",
+          "type": "choice",
+          "answer": "\\(\\ker T=\\operatorname{span}\\{(0,1,-1)\\};\\ \\text{not one-to-one}\\)",
+          "options": [
+            "\\(\\ker T=\\operatorname{span}\\{(0,1,-1)\\};\\ \\text{not one-to-one}\\)",
+            "\\(\\ker T=\\{0\\};\\ \\text{one-to-one}\\)",
+            "\\(\\ker T=\\operatorname{span}\\{(1,-1,0)\\};\\ \\text{not one-to-one}\\)"
+          ],
+          "explanation": "Adding the zero-output equations gives \\(2x=0\\); then \\(y+z=0\\). Thus inputs are \\((0,t,-t)\\), a nontrivial kernel.",
+          "workedSteps": [
+            "Adding the zero-output equations gives \\(2x=0\\); then \\(y+z=0\\).",
+            "Thus inputs are \\((0,t,-t)\\), a nontrivial kernel."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-2-5": {
+      "fields": [
+        {
+          "label": "a-nullity",
+          "selectionPrompt": "Nullity in part a",
+          "type": "numeric",
+          "answer": 1,
+          "tolerance": 1e-08,
+          "explanation": "Row reduction gives \\(\\begin{bmatrix}1 & -2\\\\0 & 0\\\\0 & 0\\end{bmatrix}\\). There are 1 pivot columns and 1 free variables.",
+          "workedSteps": [
+            "Row reduction gives \\(\\begin{bmatrix}1 & -2\\\\0 & 0\\\\0 & 0\\end{bmatrix}\\).",
+            "There are 1 pivot columns and 1 free variables."
+          ]
+        },
+        {
+          "label": "a-injective",
+          "selectionPrompt": "Is the map in part a one-to-one?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "A linear map is one-to-one exactly when its nullity is zero.",
+          "workedSteps": [
+            "A linear map is one-to-one exactly when its nullity is zero."
+          ]
+        },
+        {
+          "label": "b-nullity",
+          "selectionPrompt": "Nullity in part b",
+          "type": "numeric",
+          "answer": 1,
+          "tolerance": 1e-08,
+          "explanation": "Row reduction gives \\(\\begin{bmatrix}1 & 0 & 0 & 30\\\\0 & 1 & 0 & -10\\\\0 & 0 & 1 & 7\\end{bmatrix}\\). There are 3 pivot columns and 1 free variables.",
+          "workedSteps": [
+            "Row reduction gives \\(\\begin{bmatrix}1 & 0 & 0 & 30\\\\0 & 1 & 0 & -10\\\\0 & 0 & 1 & 7\\end{bmatrix}\\).",
+            "There are 3 pivot columns and 1 free variables."
+          ]
+        },
+        {
+          "label": "b-injective",
+          "selectionPrompt": "Is the map in part b one-to-one?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "A linear map is one-to-one exactly when its nullity is zero.",
+          "workedSteps": [
+            "A linear map is one-to-one exactly when its nullity is zero."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/468.svg.gz",
+          "pdfPage": 482,
+          "role": "instructions",
+          "crops": [
+            [
+              300,
+              560,
+              258,
+              24
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/468.svg.gz",
+          "pdfPage": 482,
+          "role": "problem",
+          "crops": [
+            [
+              300,
+              584,
+              258,
+              82
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-8-2-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Classify multiplication by A in part a.",
+          "type": "choice",
+          "answer": "One-to-one only",
+          "options": [
+            "One-to-one only",
+            "Both",
+            "Onto only",
+            "Neither"
+          ],
+          "explanation": "The reduced matrix is \\(\\begin{bmatrix}1 & 0\\\\0 & 1\\\\0 & 0\\end{bmatrix}\\). Rank is 2; one-to-one requires rank 2, while onto requires rank 3.",
+          "workedSteps": [
+            "The reduced matrix is \\(\\begin{bmatrix}1 & 0\\\\0 & 1\\\\0 & 0\\end{bmatrix}\\).",
+            "Rank is 2; one-to-one requires rank 2, while onto requires rank 3."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Classify multiplication by A in part b.",
+          "type": "choice",
+          "answer": "Onto only",
+          "options": [
+            "Onto only",
+            "Both",
+            "One-to-one only",
+            "Neither"
+          ],
+          "explanation": "The reduced matrix is \\(\\begin{bmatrix}1 & 0 & 4 & 0\\\\0 & 1 & -1 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\). Rank is 3; one-to-one requires rank 4, while onto requires rank 3.",
+          "workedSteps": [
+            "The reduced matrix is \\(\\begin{bmatrix}1 & 0 & 4 & 0\\\\0 & 1 & -1 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\).",
+            "Rank is 3; one-to-one requires rank 4, while onto requires rank 3."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Classify multiplication by A in part c.",
+          "type": "choice",
+          "answer": "Both",
+          "options": [
+            "Both",
+            "One-to-one only",
+            "Onto only",
+            "Neither"
+          ],
+          "explanation": "The reduced matrix is \\(\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\). Rank is 2; one-to-one requires rank 2, while onto requires rank 2.",
+          "workedSteps": [
+            "The reduced matrix is \\(\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\).",
+            "Rank is 2; one-to-one requires rank 2, while onto requires rank 2."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Classify multiplication by A in part d.",
+          "type": "choice",
+          "answer": "Neither",
+          "options": [
+            "Neither",
+            "Both",
+            "One-to-one only",
+            "Onto only"
+          ],
+          "explanation": "The reduced matrix is \\(\\begin{bmatrix}1 & - \\frac{1}{2} & 0\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\). Rank is 2; one-to-one requires rank 3, while onto requires rank 3.",
+          "workedSteps": [
+            "The reduced matrix is \\(\\begin{bmatrix}1 & - \\frac{1}{2} & 0\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\).",
+            "Rank is 2; one-to-one requires rank 3, while onto requires rank 3."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/469.svg.gz",
+          "pdfPage": 483,
+          "role": "instructions",
+          "crops": [
+            [
+              59,
+              375,
+              258,
+              25
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/469.svg.gz",
+          "pdfPage": 483,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              401,
+              258,
+              75
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-8-2-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Describe the inverse.",
+          "type": "choice",
+          "answer": "Reflection about the x-axis",
+          "options": [
+            "Reflection about the x-axis",
+            "Reflection about the y-axis",
+            "Projection onto the x-axis"
+          ],
+          "explanation": "Applying \\((x,y)\\mapsto(x,-y)\\) twice returns \\((x,y)\\).",
+          "workedSteps": [
+            "Applying \\((x,y)\\mapsto(x,-y)\\) twice returns \\((x,y)\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Describe the inverse.",
+          "type": "choice",
+          "answer": "Rotation by −π/4 about the origin",
+          "options": [
+            "Rotation by −π/4 about the origin",
+            "Rotation by π/4 about the origin",
+            "Rotation by 3π/4 about the origin"
+          ],
+          "explanation": "Rotation angles add under composition. Undo \\(\\frac{\\pi}{4}\\) by rotating through \\(-\\frac{\\pi}{4}\\).",
+          "workedSteps": [
+            "Rotation angles add under composition. Undo \\(\\frac{\\pi}{4}\\) by rotating through \\(-\\frac{\\pi}{4}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-2-17": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Inverse matrix for reflection about y=x",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & 1\\\\1 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & 1\\\\1 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & 1\\\\1 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & -1\\\\-1 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "The reflection matrix is \\(S=\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}\\). Direct multiplication gives \\(S^2=I\\), so \\(S^{-1}=S\\). The resulting matrix is \\(\\begin{bmatrix}0 & 1\\\\1 & 0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The reflection matrix is \\(S=\\begin{bmatrix}0&1\\\\1&0\\end{bmatrix}\\). Direct multiplication gives \\(S^2=I\\), so \\(S^{-1}=S\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & 1\\\\1 & 0\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Inverse matrix for a rotation by θ",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\cos\\theta&\\sin\\theta\\\\-\\sin\\theta&\\cos\\theta\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\cos\\theta&\\sin\\theta\\\\-\\sin\\theta&\\cos\\theta\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-\\cos\\theta&\\sin\\theta\\\\-\\sin\\theta&-\\cos\\theta\\end{bmatrix}\\)"
+          ],
+          "explanation": "The determinant of the rotation matrix is \\(\\cos^2\\theta+\\sin^2\\theta=1\\). The inverse formula interchanges the diagonal entries and negates the off-diagonal entries. The result is the rotation matrix for \\(-\\theta\\).",
+          "workedSteps": [
+            "The determinant of the rotation matrix is \\(\\cos^2\\theta+\\sin^2\\theta=1\\).",
+            "The inverse formula interchanges the diagonal entries and negates the off-diagonal entries. The result is the rotation matrix for \\(-\\theta\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-2-23": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Composite transformation",
+          "type": "choice",
+          "answer": "\\((2x-3y,2x+3y)\\)",
+          "options": [
+            "\\((2x-3y,2x+3y)\\)",
+            "\\((2x-2y,3x+3y)\\)",
+            "\\((2x+3y,2x-3y)\\)"
+          ],
+          "explanation": "Apply \\(T_1\\) first to obtain \\((2x,3y)\\). In \\(T_2(u,v)=(u-v,u+v)\\), substitute \\(u=2x,v=3y\\).",
+          "workedSteps": [
+            "Apply \\(T_1\\) first to obtain \\((2x,3y)\\).",
+            "In \\(T_2(u,v)=(u-v,u+v)\\), substitute \\(u=2x,v=3y\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-2-25": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Composite polynomial",
+          "type": "choice",
+          "answer": "\\((a_0+a_1+a_2)x+(a_1+2a_2)x^2+a_2x^3\\)",
+          "options": [
+            "\\((a_0+a_1+a_2)x+(a_1+2a_2)x^2+a_2x^3\\)",
+            "\\(a_0+(a_1+a_2)x+a_2x^2\\)",
+            "\\(a_0x+a_1x^2+a_2x^3\\)"
+          ],
+          "explanation": "First expand \\(p(x+1)=a_0+a_1+a_2+(a_1+2a_2)x+a_2x^2\\). Then multiply the whole result by \\(x\\).",
+          "workedSteps": [
+            "First expand \\(p(x+1)=a_0+a_1+a_2+(a_1+2a_2)x+a_2x^2\\).",
+            "Then multiply the whole result by \\(x\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-2-27": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Value of the defined composition",
+          "type": "choice",
+          "answer": "\\(a+d\\)",
+          "options": [
+            "\\(a+d\\)",
+            "\\(a+b+c+d\\)",
+            "\\(ad-bc\\)"
+          ],
+          "explanation": "Transpose preserves diagonal entries; taking the trace after transposing gives \\(a+d\\).",
+          "workedSteps": [
+            "Transpose preserves diagonal entries; taking the trace after transposing gives \\(a+d\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Is the reverse composition defined?",
+          "type": "choice",
+          "answer": "No: T1 outputs a scalar but T2 requires a 2×2 matrix",
+          "options": [
+            "No: T1 outputs a scalar but T2 requires a 2×2 matrix",
+            "Yes: its output is a+d",
+            "Yes: its output is the transpose of A"
+          ],
+          "explanation": "The codomain of \\(T_1\\) is \\(\\mathbb R\\), not the domain \\(M_{22}\\) of \\(T_2\\). Thus the stated maps cannot be composed in this order.",
+          "workedSteps": [
+            "The codomain of \\(T_1\\) is \\(\\mathbb R\\), not the domain \\(M_{22}\\) of \\(T_2\\). Thus the stated maps cannot be composed in this order."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-2-35": {
+      "fields": [
+        {
+          "label": "proof",
+          "selectionPrompt": "Which computation establishes idempotence?",
+          "type": "choice",
+          "answer": "\\(T(T(x,y,z))=T(x,y,0)=(x,y,0)=T(x,y,z)\\)",
+          "options": [
+            "\\(T(T(x,y,z))=T(x,y,0)=(x,y,0)=T(x,y,z)\\)",
+            "\\(T(T(x,y,z))=(x,y,z)\\)",
+            "\\(T(T(x,y,z))=(0,0,z)\\)"
+          ],
+          "explanation": "Orthogonal projection onto the xy-plane removes the z-coordinate. A second application leaves the already-zero z-coordinate unchanged, proving \\(T\\circ T=T\\) on every input.",
+          "workedSteps": [
+            "Orthogonal projection onto the xy-plane removes the z-coordinate.",
+            "A second application leaves the already-zero z-coordinate unchanged, proving \\(T\\circ T=T\\) on every input."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-1": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Is this map an isomorphism?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "The coefficient matrix \\(\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}\\) is linear and has determinant 1. An explicit inverse sends \\((u,v)\\) to \\((u+v)+vx\\).",
+          "workedSteps": [
+            "The coefficient matrix \\(\\begin{bmatrix}1&-1\\\\0&1\\end{bmatrix}\\) is linear and has determinant 1.",
+            "An explicit inverse sends \\((u,v)\\) to \\((u+v)+vx\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-4": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Is the determinant map an isomorphism?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "It is not linear: \\(\\det(2I)=4\\), whereas \\(2\\det I=2\\). Also the domain has dimension 4 and the codomain dimension 1.",
+          "workedSteps": [
+            "It is not linear: \\(\\det(2I)=4\\), whereas \\(2\\det I=2\\).",
+            "Also the domain has dimension 4 and the codomain dimension 1."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-7": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Is this map an isomorphism?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "The functions sine and cosine are independent: evaluating a zero combination at 0 and \\(\\frac{\\pi}{2}\\) forces both coefficients to vanish. The map takes unique basis coefficients to \\(\\mathbb R^2\\), with inverse \\((c_1,c_2)\\mapsto c_1\\sin x+c_2\\cos x\\).",
+          "workedSteps": [
+            "The functions sine and cosine are independent: evaluating a zero combination at 0 and \\(\\frac{\\pi}{2}\\) forces both coefficients to vanish.",
+            "The map takes unique basis coefficients to \\(\\mathbb R^2\\), with inverse \\((c_1,c_2)\\mapsto c_1\\sin x+c_2\\cos x\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose an isomorphism for symmetric 3×3 matrices.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}a&b&c\\\\b&d&e\\\\c&e&f\\end{bmatrix}\\mapsto(a,b,c,d,e,f)\\)",
+          "options": [
+            "\\(\\begin{bmatrix}a&b&c\\\\b&d&e\\\\c&e&f\\end{bmatrix}\\mapsto(a,b,c,d,e,f)\\)",
+            "\\(\\begin{bmatrix}a&b&c\\\\b&d&e\\\\c&e&f\\end{bmatrix}\\mapsto(a,b,c,a,b,c)\\)",
+            "\\(\\begin{bmatrix}a&b&c\\\\b&d&e\\\\c&e&f\\end{bmatrix}\\mapsto(a^2,b,c,d,e,f)\\)"
+          ],
+          "explanation": "A symmetric matrix has six freely chosen upper-triangular entries. Reading them is linear, and placing them back and reflecting across the diagonal is its inverse.",
+          "workedSteps": [
+            "A symmetric matrix has six freely chosen upper-triangular entries. Reading them is linear, and placing them back and reflecting across the diagonal is its inverse."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose two different isomorphisms from M22 to R4.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\mapsto(a,b,c,d)\\quad\\text{and}\\quad\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\mapsto(a,c,b,d)\\)",
+          "options": [
+            "\\(\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\mapsto(a,b,c,d)\\quad\\text{and}\\quad\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\mapsto(a,c,b,d)\\)",
+            "\\(\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\mapsto(a,b,c,d)\\quad\\text{and}\\quad\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\mapsto(a,b,c,0)\\)",
+            "\\(\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\mapsto(a^2,b,c,d)\\quad\\text{and}\\quad\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\mapsto(a,c,b,d)\\)"
+          ],
+          "explanation": "Row-order and column-order listings are distinct linear maps. Each records all four entries exactly once, so both have an inverse obtained by placing entries back in their specified positions.",
+          "workedSteps": [
+            "Row-order and column-order listings are distinct linear maps.",
+            "Each records all four entries exactly once, so both have an inverse obtained by placing entries back in their specified positions."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-11": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Is multiplication by A an isomorphism?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "The determinant is \\(-3\\). A square matrix transformation is an isomorphism exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "The determinant is \\(-3\\).",
+            "A square matrix transformation is an isomorphism exactly when its determinant is nonzero."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-12": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Is multiplication by A an isomorphism?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "The determinant is \\(0\\). A square matrix transformation is an isomorphism exactly when its determinant is nonzero.",
+          "workedSteps": [
+            "The determinant is \\(0\\).",
+            "A square matrix transformation is an isomorphism exactly when its determinant is nonzero."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-13": {
+      "fields": [
+        {
+          "label": "dimension",
+          "selectionPrompt": "Dimension of W",
+          "type": "numeric",
+          "answer": 3,
+          "tolerance": 1e-08,
+          "explanation": "All three equations are multiples of \\(x_1+x_2+x_3+x_4=0\\), so the rank is 1 and nullity \\(4-1=3\\).",
+          "workedSteps": [
+            "All three equations are multiples of \\(x_1+x_2+x_3+x_4=0\\), so the rank is 1 and nullity \\(4-1=3\\)."
+          ]
+        },
+        {
+          "label": "isomorphism",
+          "selectionPrompt": "Choose an isomorphism W → R³.",
+          "type": "choice",
+          "answer": "\\((-u-v-w,u,v,w)\\mapsto(u,v,w)\\)",
+          "options": [
+            "\\((-u-v-w,u,v,w)\\mapsto(u,v,w)\\)",
+            "\\((-u-v-w,u,v,w)\\mapsto(u+v+w,0,0)\\)",
+            "\\((-u-v-w,u,v,w)\\mapsto(u^2,v,w)\\)"
+          ],
+          "explanation": "Every vector in the kernel is uniquely \\((-u-v-w,u,v,w)\\). Reading its last three coordinates is linear and invertible, with inverse \\((u,v,w)\\mapsto(-u-v-w,u,v,w)\\).",
+          "workedSteps": [
+            "Every vector in the kernel is uniquely \\((-u-v-w,u,v,w)\\).",
+            "Reading its last three coordinates is linear and invertible, with inverse \\((u,v,w)\\mapsto(-u-v-w,u,v,w)\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-15": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Is the cumulative-sum map an isomorphism?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "Each output coordinate is linear in the entries. If the output is \\((u,v,w,z)\\), recover \\(a=u,b=v-u,c=w-v,d=z-w\\). This provides a unique preimage for every output.",
+          "workedSteps": [
+            "Each output coordinate is linear in the entries.",
+            "If the output is \\((u,v,w,z)\\), recover \\(a=u,b=v-u,c=w-v,d=z-w\\). This provides a unique preimage for every output."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-23": {
+      "fields": [
+        {
+          "label": "proof",
+          "selectionPrompt": "Which construction proves transitivity of isomorphism?",
+          "type": "choice",
+          "answer": "Compose the two isomorphisms; the inverse is the composition of their inverses in reverse order",
+          "options": [
+            "Compose the two isomorphisms; the inverse is the composition of their inverses in reverse order",
+            "Add the two isomorphisms",
+            "Compose only their inverses in the original order"
+          ],
+          "explanation": "Let \\(S:U\\to V\\) and \\(T:V\\to W\\) be the given linear bijections. \\(TS\\) is linear, and \\((TS)^{-1}=S^{-1}T^{-1}\\), as both compositions with this candidate give the appropriate identity. Thus \\(U\\cong W\\).",
+          "workedSteps": [
+            "Let \\(S:U\\to V\\) and \\(T:V\\to W\\) be the given linear bijections.",
+            "\\(TS\\) is linear, and \\((TS)^{-1}=S^{-1}T^{-1}\\), as both compositions with this candidate give the appropriate identity. Thus \\(U\\cong W\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-3-25": {
+      "fields": [
+        {
+          "label": "angles",
+          "selectionPrompt": "Choose the angle-preservation identity (nonzero vectors).",
+          "type": "choice",
+          "answer": "\\(\\frac{\\langle Tu,Tv\\rangle}{\\|Tu\\|\\|Tv\\|}=\\frac{\\langle u,v\\rangle}{\\|u\\|\\|v\\|}\\)",
+          "options": [
+            "\\(\\frac{\\langle Tu,Tv\\rangle}{\\|Tu\\|\\|Tv\\|}=\\frac{\\langle u,v\\rangle}{\\|u\\|\\|v\\|}\\)",
+            "\\(\\langle Tu,Tv\\rangle=\\|u\\|+\\|v\\|\\)",
+            "\\(\\|Tu\\|\\|Tv\\|=\\langle u,v\\rangle\\)"
+          ],
+          "explanation": "An inner product space isomorphism preserves inner products, hence \\(\\|Tu\\|^2=\\langle Tu,Tu\\rangle=\\|u\\|^2\\). The cosine formula therefore has the same numerator and denominator before and after transformation, proving equality of angles.",
+          "workedSteps": [
+            "An inner product space isomorphism preserves inner products, hence \\(\\|Tu\\|^2=\\langle Tu,Tu\\rangle=\\|u\\|^2\\).",
+            "The cosine formula therefore has the same numerator and denominator before and after transformation, proving equality of angles."
+          ]
+        },
+        {
+          "label": "distances",
+          "selectionPrompt": "Choose the distance-preservation identity.",
+          "type": "choice",
+          "answer": "\\(\\|Tu-Tv\\|=\\|T(u-v)\\|=\\|u-v\\|\\)",
+          "options": [
+            "\\(\\|Tu-Tv\\|=\\|T(u-v)\\|=\\|u-v\\|\\)",
+            "\\(\\|Tu-Tv\\|=\\|u\\|+\\|v\\|\\)",
+            "\\(\\|Tu-Tv\\|=\\|u+v\\|\\)"
+          ],
+          "explanation": "Linearity turns the difference of images into the image of the difference. The norm-preservation result applied to \\(u-v\\) proves the desired distance equality.",
+          "workedSteps": [
+            "Linearity turns the difference of images into the image of the difference.",
+            "The norm-preservation result applied to \\(u-v\\) proves the desired distance equality."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-4-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Matrix relative to the stated standard bases",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & 0 & 0\\\\1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & 0 & 0\\\\1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & 0 & 0\\\\1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & 0 & 0\\\\-1 & 0 & 0\\\\0 & -1 & 0\\\\0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The images of \\(1,x,x^2\\) are \\(x,x^2,x^3\\); their coefficient vectors form the columns. The resulting matrix is \\(\\begin{bmatrix}0 & 0 & 0\\\\1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The images of \\(1,x,x^2\\) are \\(x,x^2,x^3\\); their coefficient vectors form the columns.",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & 0 & 0\\\\1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Verify the coordinate identity.",
+          "type": "choice",
+          "answer": "\\([T(p)]_{B\\prime}=A[p]_B=(0,c_0,c_1,c_2)^T\\)",
+          "options": [
+            "\\([T(p)]_{B\\prime}=A[p]_B=(0,c_0,c_1,c_2)^T\\)",
+            "\\([T(p)]_{B\\prime}=(c_0,c_1,c_2,0)^T\\)",
+            "\\([T(p)]_{B\\prime}=(0,c_2,c_1,c_0)^T\\)"
+          ],
+          "explanation": "Write \\([p]_B=(c_0,c_1,c_2)^T\\). Multiplication by the matrix shifts these coefficients down one position. This is exactly the standard coordinate vector of \\(xp=c_0x+c_1x^2+c_2x^3\\), proving the identity for every polynomial.",
+          "workedSteps": [
+            "Write \\([p]_B=(c_0,c_1,c_2)^T\\). Multiplication by the matrix shifts these coefficients down one position.",
+            "This is exactly the standard coordinate vector of \\(xp=c_0x+c_1x^2+c_2x^3\\), proving the identity for every polynomial."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-4-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Matrix of the shift operator",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & -1 & 1\\\\0 & 1 & -2\\\\0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & -1 & 1\\\\0 & 1 & -2\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & -1 & 1\\\\0 & 1 & -2\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 1 & -1\\\\0 & -1 & 2\\\\0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The images \\(1,x-1,(x-1)^2\\) have coefficient columns \\((1,0,0),( -1,1,0),(1,-2,1)\\). The resulting matrix is \\(\\begin{bmatrix}1 & -1 & 1\\\\0 & 1 & -2\\\\0 & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The images \\(1,x-1,(x-1)^2\\) have coefficient columns \\((1,0,0),( -1,1,0),(1,-2,1)\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & -1 & 1\\\\0 & 1 & -2\\\\0 & 0 & 1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose the coordinate verification.",
+          "type": "choice",
+          "answer": "\\([T(p)]_B=A[p]_B=(a_0-a_1+a_2,a_1-2a_2,a_2)^T\\)",
+          "options": [
+            "\\([T(p)]_B=A[p]_B=(a_0-a_1+a_2,a_1-2a_2,a_2)^T\\)",
+            "\\([T(p)]_B=(a_0+a_1+a_2,a_1+2a_2,a_2)^T\\)",
+            "\\([T(p)]_B=(a_0,a_1,a_2)^T\\)"
+          ],
+          "explanation": "Expand \\(a_0+a_1(x-1)+a_2(x^2-2x+1)\\). The coefficients are precisely those produced by multiplying the matrix by \\((a_0,a_1,a_2)^T\\).",
+          "workedSteps": [
+            "Expand \\(a_0+a_1(x-1)+a_2(x^2-2x+1)\\).",
+            "The coefficients are precisely those produced by multiplying the matrix by \\((a_0,a_1,a_2)^T\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-4-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Matrix in basis B",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & - \\frac{3}{2} & \\frac{1}{2}\\\\-1 & \\frac{1}{2} & \\frac{1}{2}\\\\0 & \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & - \\frac{3}{2} & \\frac{1}{2}\\\\-1 & \\frac{1}{2} & \\frac{1}{2}\\\\0 & \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & - \\frac{3}{2} & \\frac{1}{2}\\\\-1 & \\frac{1}{2} & \\frac{1}{2}\\\\0 & \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & \\frac{3}{2} & - \\frac{1}{2}\\\\1 & - \\frac{1}{2} & - \\frac{1}{2}\\\\0 & - \\frac{1}{2} & \\frac{1}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The basis matrix is \\(\\begin{bmatrix}1 & 0 & 1\\\\0 & 1 & 1\\\\1 & 1 & 0\\end{bmatrix}\\). Convert basis coordinates to standard coordinates with \\(S\\), apply \\(A\\), and convert back with \\(S^{-1}\\); thus \\([T]_B=S^{-1}AS\\). The resulting matrix is \\(\\begin{bmatrix}1 & - \\frac{3}{2} & \\frac{1}{2}\\\\-1 & \\frac{1}{2} & \\frac{1}{2}\\\\0 & \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The basis matrix is \\(\\begin{bmatrix}1 & 0 & 1\\\\0 & 1 & 1\\\\1 & 1 & 0\\end{bmatrix}\\).",
+            "Convert basis coordinates to standard coordinates with \\(S\\), apply \\(A\\), and convert back with \\(S^{-1}\\); thus \\([T]_B=S^{-1}AS\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & - \\frac{3}{2} & \\frac{1}{2}\\\\-1 & \\frac{1}{2} & \\frac{1}{2}\\\\0 & \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Which identity verifies the formula for every vector?",
+          "type": "choice",
+          "answer": "\\([T(x)]_B=S^{-1}Ax=(S^{-1}AS)(S^{-1}x)=[T]_B[x]_B\\)",
+          "options": [
+            "\\([T(x)]_B=S^{-1}Ax=(S^{-1}AS)(S^{-1}x)=[T]_B[x]_B\\)",
+            "\\([T(x)]_B=SAS^{-1}x\\)",
+            "\\([T(x)]_B=ASx\\)"
+          ],
+          "explanation": "Insert \\(SS^{-1}=I\\) between \\(A\\) and \\(x\\). This yields the required coordinate identity for arbitrary \\(x\\).",
+          "workedSteps": [
+            "Insert \\(SS^{-1}=I\\) between \\(A\\) and \\(x\\).",
+            "This yields the required coordinate identity for arbitrary \\(x\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Is T one-to-one, and does its inverse exist?",
+          "type": "choice",
+          "answer": "Not one-to-one; no inverse exists",
+          "options": [
+            "Not one-to-one; no inverse exists",
+            "One-to-one; the inverse matrix is the transpose",
+            "One-to-one; the inverse matrix equals the same matrix"
+          ],
+          "explanation": "\\(T(x)=0\\) forces \\(x_1=x_2=x_3\\), so \\(\\ker T=\\operatorname{span}\\{(1,1,1)\\}\\). The nonzero kernel prevents an inverse.",
+          "workedSteps": [
+            "\\(T(x)=0\\) forces \\(x_1=x_2=x_3\\), so \\(\\ker T=\\operatorname{span}\\{(1,1,1)\\}\\).",
+            "The nonzero kernel prevents an inverse."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-4-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Coordinate matrix",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & 0 & 0\\\\1 & -3 & 9\\\\0 & 1 & -6\\\\0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & 0 & 0\\\\1 & -3 & 9\\\\0 & 1 & -6\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & 0 & 0\\\\1 & -3 & 9\\\\0 & 1 & -6\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & 0 & 0\\\\-1 & 3 & -9\\\\0 & -1 & 6\\\\0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Apply the map to \\(1,x,x^2\\): the images are \\(x,x^2-3x,x^3-6x^2+9x\\). Use their coefficients as columns. The resulting matrix is \\(\\begin{bmatrix}0 & 0 & 0\\\\1 & -3 & 9\\\\0 & 1 & -6\\\\0 & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Apply the map to \\(1,x,x^2\\): the images are \\(x,x^2-3x,x^3-6x^2+9x\\).",
+            "Use their coefficients as columns.",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & 0 & 0\\\\1 & -3 & 9\\\\0 & 1 & -6\\\\0 & 0 & 1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Polynomial computed by the coordinate procedure",
+          "type": "choice",
+          "answer": "\\(-11x+7x^2-x^3\\)",
+          "options": [
+            "\\(-11x+7x^2-x^3\\)",
+            "\\(11x-7x^2+x^3\\)",
+            "\\(x+x^2-x^3\\)"
+          ],
+          "explanation": "Encode \\(1+x-x^2\\) as \\((1,1,-1)^T\\). Multiplication gives \\((0,-11,7,-1)^T\\), which decodes as \\(-11x+7x^2-x^3\\).",
+          "workedSteps": [
+            "Encode \\(1+x-x^2\\) as \\((1,1,-1)^T\\).",
+            "Multiplication gives \\((0,-11,7,-1)^T\\), which decodes as \\(-11x+7x^2-x^3\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Which direct expansion verifies the result?",
+          "type": "choice",
+          "answer": "\\(x[1+(x-3)-(x-3)^2]=-11x+7x^2-x^3\\)",
+          "options": [
+            "\\(x[1+(x-3)-(x-3)^2]=-11x+7x^2-x^3\\)",
+            "\\(x[1+(x+3)-(x+3)^2]=-11x+7x^2-x^3\\)",
+            "\\(x[1+x-x^2]=-11x+7x^2-x^3\\)"
+          ],
+          "explanation": "Expand \\((x-3)^2=x^2-6x+9\\). Collect the terms inside the bracket to obtain \\(-11+7x-x^2\\), then multiply by \\(x\\).",
+          "workedSteps": [
+            "Expand \\((x-3)^2=x^2-6x+9\\).",
+            "Collect the terms inside the bracket to obtain \\(-11+7x-x^2\\), then multiply by \\(x\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-4-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the matrix whose columns are [T(v1)]B, [T(v2)]B, [T(v3)]B.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 3 & -1\\\\2 & 0 & 5\\\\6 & -2 & 4\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 3 & -1\\\\2 & 0 & 5\\\\6 & -2 & 4\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 3 & -1\\\\2 & 0 & 5\\\\6 & -2 & 4\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & -3 & 1\\\\-2 & 0 & -5\\\\-6 & 2 & -4\\end{bmatrix}\\)"
+          ],
+          "explanation": "By definition, the columns of the given operator matrix are the coordinates of the three basis-vector images. The resulting matrix is \\(\\begin{bmatrix}1 & 3 & -1\\\\2 & 0 & 5\\\\6 & -2 & 4\\end{bmatrix}\\).",
+          "workedSteps": [
+            "By definition, the columns of the given operator matrix are the coordinates of the three basis-vector images.",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 3 & -1\\\\2 & 0 & 5\\\\6 & -2 & 4\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b1",
+          "selectionPrompt": "Choose T(v1).",
+          "type": "choice",
+          "answer": "\\(19 x^{2} + 51 x + 16\\)",
+          "options": [
+            "\\(19 x^{2} + 51 x + 16\\)",
+            "\\(19 x^{2} + 51 x + 17\\)",
+            "\\(- 19 x^{2} - 51 x - 16\\)"
+          ],
+          "explanation": "Decode column 1 as a linear combination of \\(v_1,v_2,v_3\\). The standard coefficients are \\(\\begin{bmatrix}16\\\\51\\\\19\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Decode column 1 as a linear combination of \\(v_1,v_2,v_3\\).",
+            "The standard coefficients are \\(\\begin{bmatrix}16\\\\51\\\\19\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b2",
+          "selectionPrompt": "Choose T(v2).",
+          "type": "choice",
+          "answer": "\\(5 x^{2} - 5 x - 6\\)",
+          "options": [
+            "\\(5 x^{2} - 5 x - 6\\)",
+            "\\(5 x^{2} - 5 x - 5\\)",
+            "\\(- 5 x^{2} + 5 x + 6\\)"
+          ],
+          "explanation": "Decode column 2 as a linear combination of \\(v_1,v_2,v_3\\). The standard coefficients are \\(\\begin{bmatrix}-6\\\\-5\\\\5\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Decode column 2 as a linear combination of \\(v_1,v_2,v_3\\).",
+            "The standard coefficients are \\(\\begin{bmatrix}-6\\\\-5\\\\5\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b3",
+          "selectionPrompt": "Choose T(v3).",
+          "type": "choice",
+          "answer": "\\(15 x^{2} + 40 x + 7\\)",
+          "options": [
+            "\\(15 x^{2} + 40 x + 7\\)",
+            "\\(15 x^{2} + 40 x + 8\\)",
+            "\\(- 15 x^{2} - 40 x - 7\\)"
+          ],
+          "explanation": "Decode column 3 as a linear combination of \\(v_1,v_2,v_3\\). The standard coefficients are \\(\\begin{bmatrix}7\\\\40\\\\15\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Decode column 3 as a linear combination of \\(v_1,v_2,v_3\\).",
+            "The standard coefficients are \\(\\begin{bmatrix}7\\\\40\\\\15\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Choose T(a0+a1x+a2x²).",
+          "type": "choice",
+          "answer": "\\(\\frac{61 a_{0} x^{2}}{12} + \\frac{201 a_{0} x}{8} + \\frac{239 a_{0}}{24} - \\frac{31 a_{1} x^{2}}{12} - \\frac{111 a_{1} x}{8} - \\frac{161 a_{1}}{24} + \\frac{107 a_{2} x^{2}}{12} + \\frac{247 a_{2} x}{8} + \\frac{289 a_{2}}{24}\\)",
+          "options": [
+            "\\(\\frac{61 a_{0} x^{2}}{12} + \\frac{201 a_{0} x}{8} + \\frac{239 a_{0}}{24} - \\frac{31 a_{1} x^{2}}{12} - \\frac{111 a_{1} x}{8} - \\frac{161 a_{1}}{24} + \\frac{107 a_{2} x^{2}}{12} + \\frac{247 a_{2} x}{8} + \\frac{289 a_{2}}{24}\\)",
+            "\\(\\frac{61 a_{0} x^{2}}{12} + \\frac{201 a_{0} x}{8} + \\frac{263 a_{0}}{24} - \\frac{31 a_{1} x^{2}}{12} - \\frac{111 a_{1} x}{8} - \\frac{161 a_{1}}{24} + \\frac{107 a_{2} x^{2}}{12} + \\frac{247 a_{2} x}{8} + \\frac{289 a_{2}}{24}\\)",
+            "\\(- \\frac{61 a_{0} x^{2}}{12} - \\frac{201 a_{0} x}{8} - \\frac{239 a_{0}}{24} + \\frac{31 a_{1} x^{2}}{12} + \\frac{111 a_{1} x}{8} + \\frac{161 a_{1}}{24} - \\frac{107 a_{2} x^{2}}{12} - \\frac{247 a_{2} x}{8} - \\frac{289 a_{2}}{24}\\)"
+          ],
+          "explanation": "The basis coefficient matrix is \\(\\begin{bmatrix}0 & -1 & 3\\\\3 & 3 & 7\\\\3 & 2 & 2\\end{bmatrix}\\). The standard coefficient matrix is \\(SAS^{-1}=\\)\\(\\begin{bmatrix}\\frac{239}{24} & - \\frac{161}{24} & \\frac{289}{24}\\\\\\frac{201}{8} & - \\frac{111}{8} & \\frac{247}{8}\\\\\\frac{61}{12} & - \\frac{31}{12} & \\frac{107}{12}\\end{bmatrix}\\). Apply it to \\((a_0,a_1,a_2)^T\\), then read the polynomial.",
+          "workedSteps": [
+            "The basis coefficient matrix is \\(\\begin{bmatrix}0 & -1 & 3\\\\3 & 3 & 7\\\\3 & 2 & 2\\end{bmatrix}\\).",
+            "The standard coefficient matrix is \\(SAS^{-1}=\\)\\(\\begin{bmatrix}\\frac{239}{24} & - \\frac{161}{24} & \\frac{289}{24}\\\\\\frac{201}{8} & - \\frac{111}{8} & \\frac{247}{8}\\\\\\frac{61}{12} & - \\frac{31}{12} & \\frac{107}{12}\\end{bmatrix}\\). Apply it to \\((a_0,a_1,a_2)^T\\), then read the polynomial."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Choose T(1+x²).",
+          "type": "choice",
+          "answer": "\\(14 x^{2} + 56 x + 22\\)",
+          "options": [
+            "\\(14 x^{2} + 56 x + 22\\)",
+            "\\(14 x^{2} + 56 x + 23\\)",
+            "\\(- 14 x^{2} - 56 x - 22\\)"
+          ],
+          "explanation": "In the formula from part (c), substitute \\(a_0=1,a_1=0,a_2=1\\).",
+          "workedSteps": [
+            "In the formula from part (c), substitute \\(a_0=1,a_1=0,a_2=1\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The exercise crop omits the first matrix row. The full chapter PDF gives A=[[1,3,-1],[2,0,5],[6,-2,4]], used here.",
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/485.svg.gz",
+          "pdfPage": 499,
+          "role": "problem",
+          "crops": [
+            [
+              325,
+              105,
+              258,
+              126.15
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-8-4-13": {
+      "fields": [
+        {
+          "label": "a-composite",
+          "selectionPrompt": "Matrix of T2 ∘ T1",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & 0\\\\-6 & 0\\\\0 & 9\\\\0 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "The composite sends \\(c_0+c_1x\\) to \\(6c_0x-9c_1x^2\\). The resulting matrix is \\(\\begin{bmatrix}0 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The composite sends \\(c_0+c_1x\\) to \\(6c_0x-9c_1x^2\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "a-T2",
+          "selectionPrompt": "Matrix of T2",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & 0 & 0\\\\3 & 0 & 0\\\\0 & 3 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & 0 & 0\\\\3 & 0 & 0\\\\0 & 3 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & 0 & 0\\\\3 & 0 & 0\\\\0 & 3 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & 0 & 0\\\\-3 & 0 & 0\\\\0 & -3 & 0\\\\0 & 0 & -3\\end{bmatrix}\\)"
+          ],
+          "explanation": "The map multiplies each basis monomial by \\(3x\\). The resulting matrix is \\(\\begin{bmatrix}0 & 0 & 0\\\\3 & 0 & 0\\\\0 & 3 & 0\\\\0 & 0 & 3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The map multiplies each basis monomial by \\(3x\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & 0 & 0\\\\3 & 0 & 0\\\\0 & 3 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "a-T1",
+          "selectionPrompt": "Matrix of T1",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}2 & 0\\\\0 & -3\\\\0 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}2 & 0\\\\0 & -3\\\\0 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}3 & 0\\\\0 & -3\\\\0 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-2 & 0\\\\0 & 3\\\\0 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "The images of \\(1,x\\) are \\(2,-3x\\). The resulting matrix is \\(\\begin{bmatrix}2 & 0\\\\0 & -3\\\\0 & 0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The images of \\(1,x\\) are \\(2,-3x\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}2 & 0\\\\0 & -3\\\\0 & 0\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose the composition rule.",
+          "type": "choice",
+          "answer": "\\([T_2\\circ T_1]_{B\\prime,B}=[T_2]_{B\\prime,B\\prime\\prime}[T_1]_{B\\prime\\prime,B}\\)",
+          "options": [
+            "\\([T_2\\circ T_1]_{B\\prime,B}=[T_2]_{B\\prime,B\\prime\\prime}[T_1]_{B\\prime\\prime,B}\\)",
+            "\\([T_2\\circ T_1]=[T_1][T_2]\\)",
+            "\\([T_2\\circ T_1]=[T_2]+[T_1]\\)"
+          ],
+          "explanation": "The rightmost matrix first converts input coordinates to intermediate coordinates; the left matrix then produces output coordinates.",
+          "workedSteps": [
+            "The rightmost matrix first converts input coordinates to intermediate coordinates; the left matrix then produces output coordinates."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Choose the product [T2][T1] that verifies the rule.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & 0\\\\-6 & 0\\\\0 & 9\\\\0 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "Direct multiplication of the displayed \\(4\\times3\\) and \\(3\\times2\\) matrices gives the composite matrix. The resulting matrix is \\(\\begin{bmatrix}0 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Direct multiplication of the displayed \\(4\\times3\\) and \\(3\\times2\\) matrices gives the composite matrix.",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & 0\\\\6 & 0\\\\0 & -9\\\\0 & 0\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-4-16": {
+      "fields": [
+        {
+          "label": "a-standard",
+          "selectionPrompt": "Matrix with standard output coordinates",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 1 & 1 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 1 & 1 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 1 & 1 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & -1 & -1 & 0\\\\0 & 0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The images of \\(E_{11},E_{12},E_{21},E_{22}\\) are \\((1,0),(1,0),(1,0),(0,1)\\). The resulting matrix is \\(\\begin{bmatrix}1 & 1 & 1 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The images of \\(E_{11},E_{12},E_{21},E_{22}\\) are \\((1,0),(1,0),(1,0),(0,1)\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 1 & 1 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "a-Bdoubleprime",
+          "selectionPrompt": "Matrix with B″ output coordinates",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & 0 & 0 & 1\\\\-1 & -1 & -1 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & 0 & 0 & 1\\\\-1 & -1 & -1 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & 0 & 0 & 1\\\\-1 & -1 & -1 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & 0 & 0 & -1\\\\1 & 1 & 1 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "With output basis matrix \\(\\begin{bmatrix}1 & -1\\\\1 & 0\\end{bmatrix}\\), convert by \\(S^{-1}\\), so the new matrix is \\(S^{-1}A\\). The resulting matrix is \\(\\begin{bmatrix}0 & 0 & 0 & 1\\\\-1 & -1 & -1 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "With output basis matrix \\(\\begin{bmatrix}1 & -1\\\\1 & 0\\end{bmatrix}\\), convert by \\(S^{-1}\\), so the new matrix is \\(S^{-1}A\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & 0 & 0 & 1\\\\-1 & -1 & -1 & 1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose both coordinate computations and their decoded output.",
+          "type": "choice",
+          "answer": "\\(A(1,2,3,4)^T=(6,4)^T;\\quad B(1,2,3,4)^T=(4,-2)^T;\\quad T(X)=(6,4)\\)",
+          "options": [
+            "\\(A(1,2,3,4)^T=(6,4)^T;\\quad B(1,2,3,4)^T=(4,-2)^T;\\quad T(X)=(6,4)\\)",
+            "\\(A(1,2,3,4)^T=(6,4)^T;\\quad B(1,2,3,4)^T=(6,4)^T;\\quad T(X)=(6,4)\\)",
+            "\\(A(1,2,3,4)^T=(4,6)^T;\\quad B(1,2,3,4)^T=(6,2)^T;\\quad T(X)=(4,6)\\)"
+          ],
+          "explanation": "Encode the matrix by its row-order entries \\((1,2,3,4)^T\\). The standard-coordinate product is \\((6,4)^T\\). The other product is \\((4,-2)^T\\), which decodes as \\(4(1,1)-2(-1,0)=(6,4)\\).",
+          "workedSteps": [
+            "Encode the matrix by its row-order entries \\((1,2,3,4)^T\\).",
+            "The standard-coordinate product is \\((6,4)^T\\). The other product is \\((4,-2)^T\\), which decodes as \\(4(1,1)-2(-1,0)=(6,4)\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Direct result",
+          "type": "choice",
+          "answer": "\\((6,4)\\)",
+          "options": [
+            "\\((6,4)\\)",
+            "\\((4,6)\\)",
+            "\\((3,7)\\)"
+          ],
+          "explanation": "The defining formula gives \\((1+2+3,4)=(6,4)\\), agreeing with both coordinate routes.",
+          "workedSteps": [
+            "The defining formula gives \\((1+2+3,4)=(6,4)\\), agreeing with both coordinate routes."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-4-18": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Differentiation matrix in basis B",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & - \\frac{3}{2} & \\frac{23}{6}\\\\0 & 0 & - \\frac{16}{3}\\\\0 & 0 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & - \\frac{3}{2} & \\frac{23}{6}\\\\0 & 0 & - \\frac{16}{3}\\\\0 & 0 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & - \\frac{3}{2} & \\frac{23}{6}\\\\0 & 0 & - \\frac{16}{3}\\\\0 & 0 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & \\frac{3}{2} & - \\frac{23}{6}\\\\0 & 0 & \\frac{16}{3}\\\\0 & 0 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "The standard coefficient matrix of the basis is \\(\\begin{bmatrix}2 & 2 & 2\\\\0 & -3 & -3\\\\0 & 0 & 8\\end{bmatrix}\\). Use \\([D]_B=S^{-1}\\begin{bmatrix}0&1&0\\\\0&0&2\\\\0&0&0\\end{bmatrix}S\\). The resulting matrix is \\(\\begin{bmatrix}0 & - \\frac{3}{2} & \\frac{23}{6}\\\\0 & 0 & - \\frac{16}{3}\\\\0 & 0 & 0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The standard coefficient matrix of the basis is \\(\\begin{bmatrix}2 & 2 & 2\\\\0 & -3 & -3\\\\0 & 0 & 8\\end{bmatrix}\\).",
+            "Use \\([D]_B=S^{-1}\\begin{bmatrix}0&1&0\\\\0&0&2\\\\0&0&0\\end{bmatrix}S\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & - \\frac{3}{2} & \\frac{23}{6}\\\\0 & 0 & - \\frac{16}{3}\\\\0 & 0 & 0\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Derivative computed via the matrix",
+          "type": "choice",
+          "answer": "\\(-6+48x\\)",
+          "options": [
+            "\\(-6+48x\\)",
+            "\\(6-48x\\)",
+            "\\(-6+24x\\)"
+          ],
+          "explanation": "The input has basis coordinates \\(\\begin{bmatrix}1\\\\-1\\\\3\\end{bmatrix}\\). Multiplication gives basis coordinates \\(\\begin{bmatrix}13\\\\-16\\\\0\\end{bmatrix}\\); decoding with \\(S\\) gives \\(\\begin{bmatrix}-6\\\\48\\\\0\\end{bmatrix}\\), hence \\(-6+48x\\).",
+          "workedSteps": [
+            "The input has basis coordinates \\(\\begin{bmatrix}1\\\\-1\\\\3\\end{bmatrix}\\).",
+            "Multiplication gives basis coordinates \\(\\begin{bmatrix}13\\\\-16\\\\0\\end{bmatrix}\\); decoding with \\(S\\) gives \\(\\begin{bmatrix}-6\\\\48\\\\0\\end{bmatrix}\\), hence \\(-6+48x\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-4-21": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Missing pair of basis subscripts",
+          "type": "choice",
+          "answer": "\\(B\\prime,B\\prime\\prime\\)",
+          "options": [
+            "\\(B\\prime,B\\prime\\prime\\)",
+            "\\(B\\prime\\prime,B\\prime\\)",
+            "\\(B,B\\prime\\)"
+          ],
+          "explanation": "The output basis of \\(T_1\\) is the input basis of \\(T_2\\), namely \\(B^{\\prime\\prime}\\), and the final output basis is \\(B^\\prime\\).",
+          "workedSteps": [
+            "The output basis of \\(T_1\\) is the input basis of \\(T_2\\), namely \\(B^{\\prime\\prime}\\), and the final output basis is \\(B^\\prime\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Missing pair of basis subscripts",
+          "type": "choice",
+          "answer": "\\(B\\prime,B\\prime\\prime\\prime\\)",
+          "options": [
+            "\\(B\\prime,B\\prime\\prime\\prime\\)",
+            "\\(B\\prime\\prime\\prime,B\\prime\\)",
+            "\\(B\\prime\\prime,B\\)"
+          ],
+          "explanation": "The output coordinates of \\(T_2\\) use \\(B^{\\prime\\prime\\prime}\\); \\(T_3\\) must accept these and produce \\(B^\\prime\\) coordinates.",
+          "workedSteps": [
+            "The output coordinates of \\(T_2\\) use \\(B^{\\prime\\prime\\prime}\\); \\(T_3\\) must accept these and produce \\(B^\\prime\\) coordinates."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-4-23": {
+      "fields": [
+        {
+          "label": "proof",
+          "selectionPrompt": "Which column identity proves the claim?",
+          "type": "choice",
+          "answer": "\\([T]_{B\\prime,B}=\\begin{bmatrix}T(e_1)&\\cdots&T(e_n)\\end{bmatrix}\\)",
+          "options": [
+            "\\([T]_{B\\prime,B}=\\begin{bmatrix}T(e_1)&\\cdots&T(e_n)\\end{bmatrix}\\)",
+            "\\([T]_{B\\prime,B}=\\begin{bmatrix}e_1&\\cdots&e_n\\end{bmatrix}\\)",
+            "\\([T]_{B\\prime,B}=\\sum_j T(e_j)\\)"
+          ],
+          "explanation": "Column \\(j\\) of a relative matrix is \\([T(e_j)]_{B^\\prime}\\). In the standard basis this coordinate vector equals \\(T(e_j)\\) itself. These are exactly the columns of the standard matrix.",
+          "workedSteps": [
+            "Column \\(j\\) of a relative matrix is \\([T(e_j)]_{B^\\prime}\\).",
+            "In the standard basis this coordinate vector equals \\(T(e_j)\\) itself. These are exactly the columns of the standard matrix."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Which invariant proves these matrices are not similar?",
+          "type": "choice",
+          "answer": "Their determinants are −2 and −1",
+          "options": [
+            "Their determinants are −2 and −1",
+            "Their traces are 2 and 3",
+            "Their determinants are both −2"
+          ],
+          "explanation": "\\(\\det A=1-3=-2\\), while \\(\\det B=1-2=-1\\). Similar matrices have equal determinants.",
+          "workedSteps": [
+            "\\(\\det A=1-3=-2\\), while \\(\\det B=1-2=-1\\). Similar matrices have equal determinants."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Which invariant proves these matrices are not similar?",
+          "type": "choice",
+          "answer": "Their traces are 3 and −2",
+          "options": [
+            "Their traces are 3 and −2",
+            "Their determinants are 1 and −1",
+            "Their ranks are 1 and 2"
+          ],
+          "explanation": "\\(\\operatorname{tr}A=1+2=3\\) and \\(\\operatorname{tr}B=-1-1=-2\\). Similar matrices have equal traces.",
+          "workedSteps": [
+            "\\(\\operatorname{tr}A=1+2=3\\) and \\(\\operatorname{tr}B=-1-1=-2\\). Similar matrices have equal traces."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-4": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Matrix relative to B′",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}- \\frac{1}{9} & - \\frac{17}{9}\\\\\\frac{26}{9} & \\frac{37}{9}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}- \\frac{1}{9} & - \\frac{17}{9}\\\\\\frac{26}{9} & \\frac{37}{9}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{8}{9} & - \\frac{17}{9}\\\\\\frac{26}{9} & \\frac{37}{9}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{1}{9} & \\frac{17}{9}\\\\- \\frac{26}{9} & - \\frac{37}{9}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The transition matrix converts new coordinates to old ones. Therefore \\([T]_{B^\\prime}=P^{-1}[T]_BP\\). The resulting matrix is \\(\\begin{bmatrix}- \\frac{1}{9} & - \\frac{17}{9}\\\\\\frac{26}{9} & \\frac{37}{9}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The transition matrix converts new coordinates to old ones.",
+            "Therefore \\([T]_{B^\\prime}=P^{-1}[T]_BP\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}- \\frac{1}{9} & - \\frac{17}{9}\\\\\\frac{26}{9} & \\frac{37}{9}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-7": {
+      "fields": [
+        {
+          "label": "B",
+          "selectionPrompt": "Matrix in basis B",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & -2\\\\0 & -1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & -2\\\\0 & -1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & -2\\\\0 & -1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 2\\\\0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Place the basis vectors (or polynomial coefficient vectors) in the columns of \\(S\\). The standard operator matrix is \\(\\begin{bmatrix}1 & -2\\\\0 & -1\\end{bmatrix}\\), so \\([T]_B=S^{-1}AS\\). The resulting matrix is \\(\\begin{bmatrix}1 & -2\\\\0 & -1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Place the basis vectors (or polynomial coefficient vectors) in the columns of \\(S\\).",
+            "The standard operator matrix is \\(\\begin{bmatrix}1 & -2\\\\0 & -1\\end{bmatrix}\\), so \\([T]_B=S^{-1}AS\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & -2\\\\0 & -1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "Bprime",
+          "selectionPrompt": "Matrix in basis B′",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}11 & 20\\\\-6 & -11\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}11 & 20\\\\-6 & -11\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}12 & 20\\\\-6 & -11\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-11 & -20\\\\6 & 11\\end{bmatrix}\\)"
+          ],
+          "explanation": "The transition matrix from \\(B^\\prime\\) to \\(B\\) is \\(\\begin{bmatrix}4 & 7\\\\1 & 2\\end{bmatrix}\\). Apply the similarity rule \\([T]_{B^\\prime}=R^{-1}[T]_BR\\). The resulting matrix is \\(\\begin{bmatrix}11 & 20\\\\-6 & -11\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The transition matrix from \\(B^\\prime\\) to \\(B\\) is \\(\\begin{bmatrix}4 & 7\\\\1 & 2\\end{bmatrix}\\).",
+            "Apply the similarity rule \\([T]_{B^\\prime}=R^{-1}[T]_BR\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}11 & 20\\\\-6 & -11\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-8": {
+      "fields": [
+        {
+          "label": "B",
+          "selectionPrompt": "Matrix in basis B",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{4}{5} & \\frac{61}{10}\\\\\\frac{18}{5} & - \\frac{19}{5}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{4}{5} & \\frac{61}{10}\\\\\\frac{18}{5} & - \\frac{19}{5}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{9}{5} & \\frac{61}{10}\\\\\\frac{18}{5} & - \\frac{19}{5}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{4}{5} & - \\frac{61}{10}\\\\- \\frac{18}{5} & \\frac{19}{5}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Place the basis vectors (or polynomial coefficient vectors) in the columns of \\(S\\). The standard operator matrix is \\(\\begin{bmatrix}1 & 7\\\\3 & -4\\end{bmatrix}\\), so \\([T]_B=S^{-1}AS\\). The resulting matrix is \\(\\begin{bmatrix}\\frac{4}{5} & \\frac{61}{10}\\\\\\frac{18}{5} & - \\frac{19}{5}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Place the basis vectors (or polynomial coefficient vectors) in the columns of \\(S\\).",
+            "The standard operator matrix is \\(\\begin{bmatrix}1 & 7\\\\3 & -4\\end{bmatrix}\\), so \\([T]_B=S^{-1}AS\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}\\frac{4}{5} & \\frac{61}{10}\\\\\\frac{18}{5} & - \\frac{19}{5}\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "Bprime",
+          "selectionPrompt": "Matrix in basis B′",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}15 & \\frac{25}{2}\\\\- \\frac{98}{5} & -18\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}15 & \\frac{25}{2}\\\\- \\frac{98}{5} & -18\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}16 & \\frac{25}{2}\\\\- \\frac{98}{5} & -18\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-15 & - \\frac{25}{2}\\\\\\frac{98}{5} & 18\\end{bmatrix}\\)"
+          ],
+          "explanation": "The transition matrix from \\(B^\\prime\\) to \\(B\\) is \\(\\begin{bmatrix}5 & 3\\\\2 & 1\\end{bmatrix}\\). Apply the similarity rule \\([T]_{B^\\prime}=R^{-1}[T]_BR\\). The resulting matrix is \\(\\begin{bmatrix}15 & \\frac{25}{2}\\\\- \\frac{98}{5} & -18\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The transition matrix from \\(B^\\prime\\) to \\(B\\) is \\(\\begin{bmatrix}5 & 3\\\\2 & 1\\end{bmatrix}\\).",
+            "Apply the similarity rule \\([T]_{B^\\prime}=R^{-1}[T]_BR\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}15 & \\frac{25}{2}\\\\- \\frac{98}{5} & -18\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-11": {
+      "fields": [
+        {
+          "label": "B",
+          "selectionPrompt": "Matrix in basis B",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} + 1 & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Place the basis vectors (or polynomial coefficient vectors) in the columns of \\(S\\). The standard operator matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\), so \\([T]_B=S^{-1}AS\\). The resulting matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Place the basis vectors (or polynomial coefficient vectors) in the columns of \\(S\\).",
+            "The standard operator matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\), so \\([T]_B=S^{-1}AS\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "Bprime",
+          "selectionPrompt": "Matrix in basis B′",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} + 1 & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The transition matrix from \\(B^\\prime\\) to \\(B\\) is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\). Apply the similarity rule \\([T]_{B^\\prime}=R^{-1}[T]_BR\\). The resulting matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The transition matrix from \\(B^\\prime\\) to \\(B\\) is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\).",
+            "Apply the similarity rule \\([T]_{B^\\prime}=R^{-1}[T]_BR\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-14": {
+      "fields": [
+        {
+          "label": "B",
+          "selectionPrompt": "Matrix in basis B",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{2}{3} & - \\frac{2}{9}\\\\\\frac{1}{2} & \\frac{4}{3}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{2}{3} & - \\frac{2}{9}\\\\\\frac{1}{2} & \\frac{4}{3}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{5}{3} & - \\frac{2}{9}\\\\\\frac{1}{2} & \\frac{4}{3}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{2}{3} & \\frac{2}{9}\\\\- \\frac{1}{2} & - \\frac{4}{3}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Place the basis vectors (or polynomial coefficient vectors) in the columns of \\(S\\). The standard operator matrix is \\(\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\), so \\([T]_B=S^{-1}AS\\). The resulting matrix is \\(\\begin{bmatrix}\\frac{2}{3} & - \\frac{2}{9}\\\\\\frac{1}{2} & \\frac{4}{3}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Place the basis vectors (or polynomial coefficient vectors) in the columns of \\(S\\).",
+            "The standard operator matrix is \\(\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\), so \\([T]_B=S^{-1}AS\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}\\frac{2}{3} & - \\frac{2}{9}\\\\\\frac{1}{2} & \\frac{4}{3}\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "Bprime",
+          "selectionPrompt": "Matrix in basis B′",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 1\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & -1\\\\0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The transition matrix from \\(B^\\prime\\) to \\(B\\) is \\(\\begin{bmatrix}- \\frac{2}{9} & \\frac{7}{9}\\\\\\frac{1}{3} & - \\frac{1}{6}\\end{bmatrix}\\). Apply the similarity rule \\([T]_{B^\\prime}=R^{-1}[T]_BR\\). The resulting matrix is \\(\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The transition matrix from \\(B^\\prime\\) to \\(B\\) is \\(\\begin{bmatrix}- \\frac{2}{9} & \\frac{7}{9}\\\\\\frac{1}{3} & - \\frac{1}{6}\\end{bmatrix}\\).",
+            "Apply the similarity rule \\([T]_{B^\\prime}=R^{-1}[T]_BR\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-19": {
+      "fields": [
+        {
+          "label": "determinant",
+          "selectionPrompt": "Determinant of T",
+          "type": "numeric",
+          "answer": 17,
+          "tolerance": 1e-08,
+          "explanation": "The standard matrix is \\(\\begin{bmatrix}3&-4\\\\-1&7\\end{bmatrix}\\), whose determinant is \\(21-4=17\\).",
+          "workedSteps": [
+            "The standard matrix is \\(\\begin{bmatrix}3&-4\\\\-1&7\\end{bmatrix}\\), whose determinant is \\(21-4=17\\)."
+          ]
+        },
+        {
+          "label": "eigenvalues",
+          "selectionPrompt": "Eigenvalues of T",
+          "type": "choice",
+          "answer": "\\(5-2\\sqrt2,\\ 5+2\\sqrt2\\)",
+          "options": [
+            "\\(5-2\\sqrt2,\\ 5+2\\sqrt2\\)",
+            "\\(3,\\ 7\\)",
+            "\\(5-\\sqrt2,\\ 5+\\sqrt2\\)"
+          ],
+          "explanation": "The characteristic polynomial is \\(\\lambda^2-10\\lambda+17\\). The quadratic formula gives \\(\\frac{10\\pm\\sqrt{32}}2=5\\pm2\\sqrt2\\).",
+          "workedSteps": [
+            "The characteristic polynomial is \\(\\lambda^2-10\\lambda+17\\).",
+            "The quadratic formula gives \\(\\frac{10\\pm\\sqrt{32}}2=5\\pm2\\sqrt2\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-25": {
+      "fields": [
+        {
+          "label": "proof",
+          "selectionPrompt": "Which trace identity proves similarity invariance?",
+          "type": "choice",
+          "answer": "\\(\\operatorname{tr}(P^{-1}AP)=\\operatorname{tr}(APP^{-1})=\\operatorname{tr}A\\)",
+          "options": [
+            "\\(\\operatorname{tr}(P^{-1}AP)=\\operatorname{tr}(APP^{-1})=\\operatorname{tr}A\\)",
+            "\\(\\operatorname{tr}(P^{-1}AP)=\\operatorname{tr}(P^{-1})+\\operatorname{tr}A+\\operatorname{tr}P\\)",
+            "\\(\\operatorname{tr}(P^{-1}AP)=\\det A\\)"
+          ],
+          "explanation": "For square matrices \\(X,Y\\), \\(\\operatorname{tr}(XY)=\\sum_{i,j}x_{ij}y_{ji}=\\operatorname{tr}(YX)\\). Apply this to \\(X=P^{-1}\\), \\(Y=AP\\); since \\(PP^{-1}=I\\), similarity preserves trace.",
+          "workedSteps": [
+            "For square matrices \\(X,Y\\), \\(\\operatorname{tr}(XY)=\\sum_{i,j}x_{ij}y_{ji}=\\operatorname{tr}(YX)\\).",
+            "Apply this to \\(X=P^{-1}\\), \\(Y=AP\\); since \\(PP^{-1}=I\\), similarity preserves trace."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-30": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the calculation proving the squares are similar.",
+          "type": "choice",
+          "answer": "\\(B=P^{-1}AP\\ \\Rightarrow\\ B^2=P^{-1}A(PP^{-1})AP=P^{-1}A^2P\\)",
+          "options": [
+            "\\(B=P^{-1}AP\\ \\Rightarrow\\ B^2=P^{-1}A(PP^{-1})AP=P^{-1}A^2P\\)",
+            "\\(B=P^{-1}AP\\ \\Rightarrow\\ B^2=P^{-2}A^2P^2\\)",
+            "\\(B=P^{-1}AP\\ \\Rightarrow\\ B^2=A^2\\)"
+          ],
+          "explanation": "Multiply the two copies of \\(P^{-1}AP\\); the adjacent \\(PP^{-1}\\) cancels. The same invertible matrix \\(P\\) therefore witnesses similarity of the squares.",
+          "workedSteps": [
+            "Multiply the two copies of \\(P^{-1}AP\\); the adjacent \\(PP^{-1}\\) cancels.",
+            "The same invertible matrix \\(P\\) therefore witnesses similarity of the squares."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Does similarity of squares imply similarity of the original matrices?",
+          "type": "choice",
+          "answer": "No: I and −I have equal squares but unequal traces in positive dimension",
+          "options": [
+            "No: I and −I have equal squares but unequal traces in positive dimension",
+            "Yes: take square roots of the similarity equation",
+            "No: equal squares imply unequal determinants"
+          ],
+          "explanation": "For \\(A=I_n,B=-I_n\\), both squares equal \\(I_n\\). But their traces are \\(n,-n\\), unequal for positive \\(n\\); therefore the originals are not similar.",
+          "workedSteps": [
+            "For \\(A=I_n,B=-I_n\\), both squares equal \\(I_n\\).",
+            "But their traces are \\(n,-n\\), unequal for positive \\(n\\); therefore the originals are not similar."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-5-31": {
+      "fields": [
+        {
+          "label": "proof",
+          "selectionPrompt": "Which substitutions prove C=D?",
+          "type": "choice",
+          "answer": "Substitute each basis vector vj, so [vj]B=ej and the jth columns coincide",
+          "options": [
+            "Substitute each basis vector vj, so [vj]B=ej and the jth columns coincide",
+            "Substitute only the zero vector",
+            "Substitute the sum of all basis vectors only"
+          ],
+          "explanation": "The hypothesis applies to \\(x=v_j\\) for every \\(j\\). Since \\([v_j]_B=e_j\\), it gives \\(Ce_j=De_j\\); these are the respective jth columns. Equality of every column proves \\(C=D\\).",
+          "workedSteps": [
+            "The hypothesis applies to \\(x=v_j\\) for every \\(j\\).",
+            "Since \\([v_j]_B=e_j\\), it gives \\(Ce_j=De_j\\); these are the respective jth columns. Equality of every column proves \\(C=D\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-1": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Equation for the image line",
+          "type": "choice",
+          "answer": "\\(y=\\frac6{13}x\\)",
+          "options": [
+            "\\(y=\\frac6{13}x\\)",
+            "\\(y=\\frac{13}6x\\)",
+            "\\(y=4x\\)"
+          ],
+          "explanation": "Parametrize the original line as \\((t,4t)\\). Multiplication gives \\((13t,6t)\\). Eliminate \\(t\\) to obtain the image line.",
+          "workedSteps": [
+            "Parametrize the original line as \\((t,4t)\\).",
+            "Multiplication gives \\((13t,6t)\\). Eliminate \\(t\\) to obtain the image line."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-3": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Equation for the image line",
+          "type": "choice",
+          "answer": "\\(y=\\frac27x\\)",
+          "options": [
+            "\\(y=\\frac27x\\)",
+            "\\(y=7x\\)",
+            "\\(y=5x\\)"
+          ],
+          "explanation": "The shear sends \\((x,y)\\) to \\((x+3y,y)\\). For \\((t,2t)\\) on the original line, the output is \\((7t,2t)\\), so the image slope is \\(\\frac27\\).",
+          "workedSteps": [
+            "The shear sends \\((x,y)\\) to \\((x+3y,y)\\).",
+            "For \\((t,2t)\\) on the original line, the output is \\((7t,2t)\\), so the image slope is \\(\\frac27\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-5": {
+      "fields": [
+        {
+          "label": "sketch",
+          "selectionPrompt": "Choose the ordered image vertices and edge correspondence, starting with the original order (0,0),(1,0),(1,1),(0,1).",
+          "type": "choice",
+          "answer": "(0,0), (3,1), (2,−1), (−1,−2); join consecutive vertices and close the parallelogram",
+          "options": [
+            "(0,0), (3,1), (2,−1), (−1,−2); join consecutive vertices and close the parallelogram",
+            "(0,0), (3,−1), (4,−3), (1,−2); join consecutively",
+            "(0,0), (3,1), (−1,−2), (2,−1); join consecutively"
+          ],
+          "explanation": "The columns give the images of \\(e_1,e_2\\): \\((3,1)\\) and \\((-1,-2)\\). Their sum gives the image of \\((1,1)\\), namely \\((2,-1)\\). Number the original bottom, right, top, left edges 1,2,3,4. Their images are respectively the segments from \\((0,0)\\) to \\((3,1)\\), to \\((2,-1)\\), to \\((-1,-2)\\), and back to \\((0,0)\\).",
+          "workedSteps": [
+            "The columns give the images of \\(e_1,e_2\\): \\((3,1)\\) and \\((-1,-2)\\). Their sum gives the image of \\((1,1)\\), namely \\((2,-1)\\).",
+            "Number the original bottom, right, top, left edges 1,2,3,4. Their images are respectively the segments from \\((0,0)\\) to \\((3,1)\\), to \\((2,-1)\\), to \\((-1,-2)\\), and back to \\((0,0)\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Single matrix for part (a)",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{1}{2} & 0\\\\0 & 5\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{1}{2} & 0\\\\0 & 5\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{3}{2} & 0\\\\0 & 5\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{1}{2} & 0\\\\0 & -5\\end{bmatrix}\\)"
+          ],
+          "explanation": "First multiply by \\(\\operatorname{diag}(\\frac12,1)\\), then by \\(\\operatorname{diag}(1,5)\\). The composite product has the later operation on the left. The resulting matrix is \\(\\begin{bmatrix}\\frac{1}{2} & 0\\\\0 & 5\\end{bmatrix}\\).",
+          "workedSteps": [
+            "First multiply by \\(\\operatorname{diag}(\\frac12,1)\\), then by \\(\\operatorname{diag}(1,5)\\). The composite product has the later operation on the left.",
+            "The resulting matrix is \\(\\begin{bmatrix}\\frac{1}{2} & 0\\\\0 & 5\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Single matrix for part (b)",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 0\\\\2 & 5\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 0\\\\2 & 5\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 0\\\\2 & 5\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 0\\\\-2 & -5\\end{bmatrix}\\)"
+          ],
+          "explanation": "The product is \\(\\begin{bmatrix}1&0\\\\2&1\\end{bmatrix}\\begin{bmatrix}1&0\\\\0&5\\end{bmatrix}\\). The resulting matrix is \\(\\begin{bmatrix}1 & 0\\\\2 & 5\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The product is \\(\\begin{bmatrix}1&0\\\\2&1\\end{bmatrix}\\begin{bmatrix}1&0\\\\0&5\\end{bmatrix}\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 0\\\\2 & 5\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Single matrix for part (c)",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & -1\\\\-1 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & -1\\\\-1 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & -1\\\\-1 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & 1\\\\1 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "Reflection interchanges coordinates; the 180-degree rotation then negates both. Thus \\((x,y)\\mapsto(-y,-x)\\). The resulting matrix is \\(\\begin{bmatrix}0 & -1\\\\-1 & 0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Reflection interchanges coordinates; the 180-degree rotation then negates both. Thus \\((x,y)\\mapsto(-y,-x)\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & -1\\\\-1 & 0\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Single matrix for part (a)",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & 1\\\\-5 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & 1\\\\-5 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & 1\\\\-5 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & -1\\\\5 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "Follow a general vector: \\((x,y)\\mapsto(-x,y)\\mapsto(-5x,y)\\mapsto(y,-5x)\\). The resulting matrix is \\(\\begin{bmatrix}0 & 1\\\\-5 & 0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Follow a general vector: \\((x,y)\\mapsto(-x,y)\\mapsto(-5x,y)\\mapsto(y,-5x)\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}0 & 1\\\\-5 & 0\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Single matrix for part (b)",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2}\\\\\\frac{3}{2} - 3 \\sqrt{3} & \\frac{3 \\sqrt{3}}{2} + 3\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2}\\\\\\frac{3}{2} - 3 \\sqrt{3} & \\frac{3 \\sqrt{3}}{2} + 3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} + 1 & - \\frac{1}{2}\\\\\\frac{3}{2} - 3 \\sqrt{3} & \\frac{3 \\sqrt{3}}{2} + 3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{\\sqrt{3}}{2} & \\frac{1}{2}\\\\- \\frac{3}{2} + 3 \\sqrt{3} & -3 - \\frac{3 \\sqrt{3}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The rotation matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & \\frac{\\sqrt{3}}{2}\\end{bmatrix}\\). Multiply it on the left first by \\(\\begin{bmatrix}1&0\\\\-2&1\\end{bmatrix}\\), then by \\(\\operatorname{diag}(1,3)\\). The resulting matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2}\\\\\\frac{3}{2} - 3 \\sqrt{3} & \\frac{3 \\sqrt{3}}{2} + 3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The rotation matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & \\frac{\\sqrt{3}}{2}\\end{bmatrix}\\).",
+            "Multiply it on the left first by \\(\\begin{bmatrix}1&0\\\\-2&1\\end{bmatrix}\\), then by \\(\\operatorname{diag}(1,3)\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2}\\\\\\frac{3}{2} - 3 \\sqrt{3} & \\frac{3 \\sqrt{3}}{2} + 3\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Do these operators commute?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "Both matrices are diagonal: \\(\\operatorname{diag}(1,-1)\\) and \\(\\operatorname{diag}(\\frac13,1)\\). Both products equal \\(\\operatorname{diag}(\\frac13,-1)\\).",
+          "workedSteps": [
+            "Both matrices are diagonal: \\(\\operatorname{diag}(1,-1)\\) and \\(\\operatorname{diag}(\\frac13,1)\\).",
+            "Both products equal \\(\\operatorname{diag}(\\frac13,-1)\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Do these operators commute?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "Reflection then expansion sends \\((x,y)\\) to \\((2y,x)\\). Expansion then reflection sends it to \\((y,2x)\\). For example, \\((1,0)\\) has different images.",
+          "workedSteps": [
+            "Reflection then expansion sends \\((x,y)\\) to \\((2y,x)\\).",
+            "Expansion then reflection sends it to \\((y,2x)\\). For example, \\((1,0)\\) has different images."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-11": {
+      "fields": [
+        {
+          "label": "factorization",
+          "selectionPrompt": "Choose a product of elementary matrices equal to A.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1&0\\\\0&-1\\end{bmatrix}\\begin{bmatrix}1&0\\\\0&2\\end{bmatrix}\\begin{bmatrix}4&0\\\\0&1\\end{bmatrix}\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1&0\\\\0&-1\\end{bmatrix}\\begin{bmatrix}1&0\\\\0&2\\end{bmatrix}\\begin{bmatrix}4&0\\\\0&1\\end{bmatrix}\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1&1\\\\0&1\\end{bmatrix}\\begin{bmatrix}4&0\\\\0&1\\end{bmatrix}\\begin{bmatrix}1&0\\\\0&2\\end{bmatrix}\\begin{bmatrix}1&0\\\\0&-1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}4&0\\\\0&1\\end{bmatrix}\\begin{bmatrix}1&0\\\\1&1\\end{bmatrix}\\begin{bmatrix}1&0\\\\0&-2\\end{bmatrix}\\)"
+          ],
+          "explanation": "First shear in the x-direction by 1: \\((x,y)\\mapsto(x+y,y)\\). Expand x by 4, expand y by 2, then reflect across the x-axis. The result is \\((4x+4y,-2y)\\), as required.",
+          "workedSteps": [
+            "First shear in the x-direction by 1: \\((x,y)\\mapsto(x+y,y)\\).",
+            "Expand x by 4, expand y by 2, then reflect across the x-axis. The result is \\((4x+4y,-2y)\\), as required."
+          ]
+        },
+        {
+          "label": "effect",
+          "selectionPrompt": "Choose the operations in their application order.",
+          "type": "choice",
+          "answer": "x-shear by 1; x-expansion by 4; y-expansion by 2; reflection about x-axis",
+          "options": [
+            "x-shear by 1; x-expansion by 4; y-expansion by 2; reflection about x-axis",
+            "x-expansion by 4; x-shear by 1; reflection about y-axis",
+            "y-shear by 1; y-expansion by 4; reflection about x-axis"
+          ],
+          "explanation": "The rightmost factor acts first. Each factor is an elementary shear, positive scaling, or reflection, and their product is the given matrix.",
+          "workedSteps": [
+            "The rightmost factor acts first. Each factor is an elementary shear, positive scaling, or reflection, and their product is the given matrix."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Effect on the unit square",
+          "type": "choice",
+          "answer": "Expansion by factor 3 in the x-direction; vertices (0,0),(3,0),(3,1),(0,1)",
+          "options": [
+            "Expansion by factor 3 in the x-direction; vertices (0,0),(3,0),(3,1),(0,1)",
+            "Expansion by factor 3 in the y-direction",
+            "Uniform expansion by factor 3"
+          ],
+          "explanation": "\\((x,y)\\mapsto(3x,y)\\): horizontal lengths triple while vertical lengths stay the same.",
+          "workedSteps": [
+            "\\((x,y)\\mapsto(3x,y)\\): horizontal lengths triple while vertical lengths stay the same."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Effect on the unit square",
+          "type": "choice",
+          "answer": "Expansion by factor 5 in the y-direction and reflection about the x-axis; vertices (0,0),(1,0),(1,−5),(0,−5)",
+          "options": [
+            "Expansion by factor 5 in the y-direction and reflection about the x-axis; vertices (0,0),(1,0),(1,−5),(0,−5)",
+            "Expansion by factor 5 in the x-direction and reflection about the y-axis",
+            "Compression by factor 1/5 in the y-direction"
+          ],
+          "explanation": "\\((x,y)\\mapsto(x,-5y)\\): vertical lengths multiply by 5 and the sign reversal puts the image below the x-axis.",
+          "workedSteps": [
+            "\\((x,y)\\mapsto(x,-5y)\\): vertical lengths multiply by 5 and the sign reversal puts the image below the x-axis."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-26": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Matrix for xy shear",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 0 & k\\\\0 & 1 & k\\\\0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 0 & k\\\\0 & 1 & k\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 0 & k\\\\0 & 1 & k\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 0 & - k\\\\0 & -1 & - k\\\\0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Read the coefficients in \\((x+kz,y+kz,z)\\) row by row. The resulting matrix is \\(\\begin{bmatrix}1 & 0 & k\\\\0 & 1 & k\\\\0 & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Read the coefficients in \\((x+kz,y+kz,z)\\) row by row.",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 0 & k\\\\0 & 1 & k\\\\0 & 0 & 1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b-xz-map",
+          "selectionPrompt": "Define the analogous xz shear.",
+          "type": "choice",
+          "answer": "\\((x,y,z)\\mapsto(x+ky,y,z+ky)\\)",
+          "options": [
+            "\\((x,y,z)\\mapsto(x+ky,y,z+ky)\\)",
+            "\\((x,y,z)\\mapsto(x+kz,y+kz,z)\\)",
+            "\\((x,y,z)\\mapsto(x,y+kx,z+kx)\\)"
+          ],
+          "explanation": "Motion parallel to the xz-plane preserves y. Add \\(ky\\) to both x and z.",
+          "workedSteps": [
+            "Motion parallel to the xz-plane preserves y. Add \\(ky\\) to both x and z."
+          ]
+        },
+        {
+          "label": "b-xz-matrix",
+          "selectionPrompt": "Matrix for xz shear",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & k & 0\\\\0 & 1 & 0\\\\0 & k & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & k & 0\\\\0 & 1 & 0\\\\0 & k & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & k & 0\\\\0 & 1 & 0\\\\0 & k & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & - k & 0\\\\0 & -1 & 0\\\\0 & - k & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The coefficient rows encode \\(x+ky,y,z+ky\\). The resulting matrix is \\(\\begin{bmatrix}1 & k & 0\\\\0 & 1 & 0\\\\0 & k & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The coefficient rows encode \\(x+ky,y,z+ky\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & k & 0\\\\0 & 1 & 0\\\\0 & k & 1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b-yz-map",
+          "selectionPrompt": "Define the analogous yz shear.",
+          "type": "choice",
+          "answer": "\\((x,y,z)\\mapsto(x,y+kx,z+kx)\\)",
+          "options": [
+            "\\((x,y,z)\\mapsto(x,y+kx,z+kx)\\)",
+            "\\((x,y,z)\\mapsto(x+ky,y,z+ky)\\)",
+            "\\((x,y,z)\\mapsto(x+kz,y+kz,z)\\)"
+          ],
+          "explanation": "Motion parallel to the yz-plane preserves x. Add \\(kx\\) to both y and z.",
+          "workedSteps": [
+            "Motion parallel to the yz-plane preserves x. Add \\(kx\\) to both y and z."
+          ]
+        },
+        {
+          "label": "b-yz-matrix",
+          "selectionPrompt": "Matrix for yz shear",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 0 & 0\\\\k & 1 & 0\\\\k & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 0 & 0\\\\k & 1 & 0\\\\k & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 0 & 0\\\\k & 1 & 0\\\\k & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 0 & 0\\\\- k & -1 & 0\\\\- k & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The coefficient rows encode \\(x,y+kx,z+kx\\). The resulting matrix is \\(\\begin{bmatrix}1 & 0 & 0\\\\k & 1 & 0\\\\k & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The coefficient rows encode \\(x,y+kx,z+kx\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 0 & 0\\\\k & 1 & 0\\\\k & 0 & 1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-8-6-27": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Counterclockwise 30° rotation about z",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2} & 0\\\\\\frac{1}{2} & \\frac{\\sqrt{3}}{2} & 0\\\\0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2} & 0\\\\\\frac{1}{2} & \\frac{\\sqrt{3}}{2} & 0\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} + 1 & - \\frac{1}{2} & 0\\\\\\frac{1}{2} & \\frac{\\sqrt{3}}{2} & 0\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{\\sqrt{3}}{2} & \\frac{1}{2} & 0\\\\- \\frac{1}{2} & - \\frac{\\sqrt{3}}{2} & 0\\\\0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The z-coordinate stays fixed. Use the usual positive 30-degree rotation block on x,y. The resulting matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2} & 0\\\\\\frac{1}{2} & \\frac{\\sqrt{3}}{2} & 0\\\\0 & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The z-coordinate stays fixed. Use the usual positive 30-degree rotation block on x,y.",
+            "The resulting matrix is \\(\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{1}{2} & 0\\\\\\frac{1}{2} & \\frac{\\sqrt{3}}{2} & 0\\\\0 & 0 & 1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Clockwise 45° rotation about x",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 0 & 0\\\\0 & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\0 & - \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 0 & 0\\\\0 & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\0 & - \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 0 & 0\\\\0 & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\0 & - \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 0 & 0\\\\0 & - \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\0 & \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The x-coordinate stays fixed. Use angle \\(-45^\\circ\\) in the rotation block acting on y,z. The resulting matrix is \\(\\begin{bmatrix}1 & 0 & 0\\\\0 & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\0 & - \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The x-coordinate stays fixed. Use angle \\(-45^\\circ\\) in the rotation block acting on y,z.",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 0 & 0\\\\0 & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\0 & - \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-1": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Is T a linear operator?",
+          "type": "choice",
+          "answer": "No, because T(0)=B is nonzero",
+          "options": [
+            "No, because T(0)=B is nonzero",
+            "Yes, because A is square",
+            "Yes, because B is fixed"
+          ],
+          "explanation": "Every linear map sends the zero vector to zero. Here \\(T(0)=A0+B=B\\ne0\\), so the necessary condition fails.",
+          "workedSteps": [
+            "Every linear map sends the zero vector to zero.",
+            "Here \\(T(0)=A0+B=B\\ne0\\), so the necessary condition fails."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-2": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the powers A² and A³.",
+          "type": "choice",
+          "answer": "\\(A^2=\\begin{bmatrix}\\cos2\\theta&-\\sin2\\theta\\\\\\sin2\\theta&\\cos2\\theta\\end{bmatrix},\\quad A^3=\\begin{bmatrix}\\cos3\\theta&-\\sin3\\theta\\\\\\sin3\\theta&\\cos3\\theta\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^2=\\begin{bmatrix}\\cos2\\theta&-\\sin2\\theta\\\\\\sin2\\theta&\\cos2\\theta\\end{bmatrix},\\quad A^3=\\begin{bmatrix}\\cos3\\theta&-\\sin3\\theta\\\\\\sin3\\theta&\\cos3\\theta\\end{bmatrix}\\)",
+            "\\(A^2=2A,\\quad A^3=3A\\)",
+            "\\(A^2=I,\\quad A^3=A\\)"
+          ],
+          "explanation": "Multiplying two rotation matrices and using the sine and cosine addition formulas gives \\(R(\\alpha)R(\\beta)=R(\\alpha+\\beta)\\). Apply this with angles \\((\\theta,\\theta)\\), then \\((2\\theta,\\theta)\\), to obtain the two displayed powers.",
+          "workedSteps": [
+            "Multiplying two rotation matrices and using the sine and cosine addition formulas gives \\(R(\\alpha)R(\\beta)=R(\\alpha+\\beta)\\).",
+            "Apply this with angles \\((\\theta,\\theta)\\), then \\((2\\theta,\\theta)\\), to obtain the two displayed powers."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "General formula for Aⁿ",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\cos(n\\theta)&-\\sin(n\\theta)\\\\\\sin(n\\theta)&\\cos(n\\theta)\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\cos(n\\theta)&-\\sin(n\\theta)\\\\\\sin(n\\theta)&\\cos(n\\theta)\\end{bmatrix}\\)",
+            "\\(n\\begin{bmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\cos^n\\theta&-\\sin^n\\theta\\\\\\sin^n\\theta&\\cos^n\\theta\\end{bmatrix}\\)"
+          ],
+          "explanation": "Each additional multiplication adds another angle \\(\\theta\\), suggesting and inductively proving \\(A^n=R(n\\theta)\\).",
+          "workedSteps": [
+            "Each additional multiplication adds another angle \\(\\theta\\), suggesting and inductively proving \\(A^n=R(n\\theta)\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Geometric justification",
+          "type": "choice",
+          "answer": "Applying a rotation by θ n times rotates every vector by nθ",
+          "options": [
+            "Applying a rotation by θ n times rotates every vector by nθ",
+            "Each application multiplies vector lengths by θ",
+            "Each application squares the angle"
+          ],
+          "explanation": "The matrix fixes the origin, preserves lengths, and rotates every vector counterclockwise by \\(\\theta\\). After n successive applications the accumulated angle is \\(n\\theta\\), giving the same matrix as in part (b).",
+          "workedSteps": [
+            "The matrix fixes the origin, preserves lengths, and rotates every vector counterclockwise by \\(\\theta\\).",
+            "After n successive applications the accumulated angle is \\(n\\theta\\), giving the same matrix as in part (b)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-3": {
+      "fields": [
+        {
+          "label": "method",
+          "selectionPrompt": "Choose a method that guarantees non-similarity.",
+          "type": "choice",
+          "answer": "Choose two matrices with different traces",
+          "options": [
+            "Choose two matrices with different traces",
+            "Choose two matrices with different entries",
+            "Choose two matrices with the same determinant"
+          ],
+          "explanation": "Trace is unchanged under similarity because \\(\\operatorname{tr}(P^{-1}AP)=\\operatorname{tr}(APP^{-1})=\\operatorname{tr}A\\). Therefore unequal traces provide a conclusive obstruction.",
+          "workedSteps": [
+            "Trace is unchanged under similarity because \\(\\operatorname{tr}(P^{-1}AP)=\\operatorname{tr}(APP^{-1})=\\operatorname{tr}A\\).",
+            "Therefore unequal traces provide a conclusive obstruction."
+          ]
+        },
+        {
+          "label": "example",
+          "selectionPrompt": "Choose a valid 3×3 example.",
+          "type": "choice",
+          "answer": "\\(A=I_3,\\quad B=2I_3\\)",
+          "options": [
+            "\\(A=I_3,\\quad B=2I_3\\)",
+            "\\(A=I_3,\\quad B=I_3\\)",
+            "\\(A=\\operatorname{diag}(1,2,3),\\quad B=\\operatorname{diag}(3,2,1)\\)"
+          ],
+          "explanation": "For any positive n, \\(I_n\\) and \\(2I_n\\) have traces n and 2n and cannot be similar. At n=3 their traces are 3 and 6, providing the requested explicit example.",
+          "workedSteps": [
+            "For any positive n, \\(I_n\\) and \\(2I_n\\) have traces n and 2n and cannot be similar.",
+            "At n=3 their traces are 3 and 6, providing the requested explicit example."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the identity proving linearity.",
+          "type": "choice",
+          "answer": "\\(T(\\alpha x+\\beta y)=\\alpha T(x)+\\beta T(y)\\)",
+          "options": [
+            "\\(T(\\alpha x+\\beta y)=\\alpha T(x)+\\beta T(y)\\)",
+            "\\(T(\\alpha x+\\beta y)=\\alpha\\beta T(x+y)\\)",
+            "\\(T(x+y)=T(x)T(y)\\)"
+          ],
+          "explanation": "For each coordinate i, \\((\\alpha x+\\beta y)\\cdot v_i=\\alpha(x\\cdot v_i)+\\beta(y\\cdot v_i)\\). Collect these coordinate identities into the displayed vector equality.",
+          "workedSteps": [
+            "For each coordinate i, \\((\\alpha x+\\beta y)\\cdot v_i=\\alpha(x\\cdot v_i)+\\beta(y\\cdot v_i)\\).",
+            "Collect these coordinate identities into the displayed vector equality."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose the standard matrix.",
+          "type": "choice",
+          "answer": "\\(A=\\begin{bmatrix}v_1^T\\\\v_2^T\\\\\\vdots\\\\v_m^T\\end{bmatrix}\\quad(v_i\\text{ viewed as columns})\\)",
+          "options": [
+            "\\(A=\\begin{bmatrix}v_1^T\\\\v_2^T\\\\\\vdots\\\\v_m^T\\end{bmatrix}\\quad(v_i\\text{ viewed as columns})\\)",
+            "\\(A=\\begin{bmatrix}v_1&v_2&\\cdots&v_m\\end{bmatrix}\\)",
+            "\\(A=\\sum_i v_i\\)"
+          ],
+          "explanation": "The ith row of \\(A\\) is the row representation of \\(v_i\\). The ith entry of \\(Ax\\) is then \\(v_i^Tx=x\\cdot v_i\\), so \\(Ax=T(x)\\) for every input.",
+          "workedSteps": [
+            "The ith row of \\(A\\) is the row representation of \\(v_i\\).",
+            "The ith entry of \\(Ax\\) is then \\(v_i^Tx=x\\cdot v_i\\), so \\(Ax=T(x)\\) for every input."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose a basis for the range.",
+          "type": "choice",
+          "answer": "\\(\\{\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix},\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix},\\begin{bmatrix}1\\\\3\\\\0\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\{\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix},\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix},\\begin{bmatrix}1\\\\3\\\\0\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1\\\\1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\varnothing\\)"
+          ],
+          "explanation": "Row reduction gives \\(\\begin{bmatrix}1 & 0 & 0 & 1\\\\0 & 1 & 0 & -1\\\\0 & 0 & 1 & 0\\end{bmatrix}\\). Use the corresponding pivot columns of the original matrix. They are independent and span its column space.",
+          "workedSteps": [
+            "Row reduction gives \\(\\begin{bmatrix}1 & 0 & 0 & 1\\\\0 & 1 & 0 & -1\\\\0 & 0 & 1 & 0\\end{bmatrix}\\).",
+            "Use the corresponding pivot columns of the original matrix. They are independent and span its column space."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose a basis for the kernel.",
+          "type": "choice",
+          "answer": "\\(\\{\\begin{bmatrix}-1\\\\1\\\\0\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\{\\begin{bmatrix}-1\\\\1\\\\0\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1\\\\1\\\\1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1\\\\0\\\\0\\\\0\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "Solve \\(Ax=0\\) using the reduced matrix above; assign one free variable 1 at a time and all others 0. The resulting vectors are independent (their free coordinates are standard unit vectors) and span every solution.",
+          "workedSteps": [
+            "Solve \\(Ax=0\\) using the reduced matrix above; assign one free variable 1 at a time and all others 0.",
+            "The resulting vectors are independent (their free coordinates are standard unit vectors) and span every solution."
+          ]
+        },
+        {
+          "label": "rank",
+          "selectionPrompt": "Rank of T",
+          "type": "numeric",
+          "answer": 3,
+          "tolerance": 1e-08,
+          "explanation": "Count the pivot columns.",
+          "workedSteps": [
+            "Count the pivot columns."
+          ]
+        },
+        {
+          "label": "nullity",
+          "selectionPrompt": "Nullity of T",
+          "type": "numeric",
+          "answer": 1,
+          "tolerance": 1e-08,
+          "explanation": "Subtract the rank from the domain dimension.",
+          "workedSteps": [
+            "Subtract the rank from the domain dimension."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose a basis for the kernel in the source row-vector space.",
+          "type": "choice",
+          "answer": "\\(\\{\\begin{bmatrix}-1 & -1 & 1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\{\\begin{bmatrix}-1 & -1 & 1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1 & 1 & 1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1 & 0 & 0\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "Transposing the zero-output equation \\(xA=0\\) gives \\(A^Tx^T=0\\). Row reduction of \\(A^T\\) gives \\(\\begin{bmatrix}1 & 0 & 1\\\\0 & 1 & 1\\\\0 & 0 & 0\\end{bmatrix}\\). Solving for its null vectors and transposing back gives the row basis \\(\\{\\begin{bmatrix}-1 & -1 & 1\\end{bmatrix}\\}\\). The displayed nonzero row spans every row solution, so it is a basis.",
+          "workedSteps": [
+            "Transposing the zero-output equation \\(xA=0\\) gives \\(A^Tx^T=0\\).",
+            "Row reduction of \\(A^T\\) gives \\(\\begin{bmatrix}1 & 0 & 1\\\\0 & 1 & 1\\\\0 & 0 & 0\\end{bmatrix}\\). Solving for its null vectors and transposing back gives the row basis \\(\\{\\begin{bmatrix}-1 & -1 & 1\\end{bmatrix}\\}\\).",
+            "The displayed nonzero row spans every row solution, so it is a basis."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose a basis for the range in the source row-vector space.",
+          "type": "choice",
+          "answer": "\\(\\{\\begin{bmatrix}-1 & 2 & 4\\end{bmatrix},\\begin{bmatrix}3 & 0 & 1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\{\\begin{bmatrix}-1 & 2 & 4\\end{bmatrix},\\begin{bmatrix}3 & 0 & 1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1 & 1 & 1\\end{bmatrix}\\}\\)",
+            "\\(\\{\\begin{bmatrix}1 & 0 & 0\\end{bmatrix},\\begin{bmatrix}0 & 1 & 0\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "Every output \\(xA\\) is a linear combination of the rows of A, so the range is its row space. The first two rows are independent and the third row is their sum. Thus \\(\\{\\begin{bmatrix}-1 & 2 & 4\\end{bmatrix},\\begin{bmatrix}3 & 0 & 1\\end{bmatrix}\\}\\) is an independent spanning set for the range.",
+          "workedSteps": [
+            "Every output \\(xA\\) is a linear combination of the rows of A, so the range is its row space.",
+            "The first two rows are independent and the third row is their sum. Thus \\(\\{\\begin{bmatrix}-1 & 2 & 4\\end{bmatrix},\\begin{bmatrix}3 & 0 & 1\\end{bmatrix}\\}\\) is an independent spanning set for the range."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-7": {
+      "fields": [
+        {
+          "label": "a-rank",
+          "selectionPrompt": "Rank of T",
+          "type": "numeric",
+          "answer": 2,
+          "tolerance": 1e-08,
+          "explanation": "The coordinate columns are the coefficients of the four given images. Row reduction gives \\(\\begin{bmatrix}1 & 0 & -1 & 2\\\\0 & 1 & 3 & -4\\\\0 & 0 & 0 & 0\\\\0 & 0 & 0 & 0\\end{bmatrix}\\), with two pivots.",
+          "workedSteps": [
+            "The coordinate columns are the coefficients of the four given images.",
+            "Row reduction gives \\(\\begin{bmatrix}1 & 0 & -1 & 2\\\\0 & 1 & 3 & -4\\\\0 & 0 & 0 & 0\\\\0 & 0 & 0 & 0\\end{bmatrix}\\), with two pivots."
+          ]
+        },
+        {
+          "label": "a-nullity",
+          "selectionPrompt": "Nullity of T",
+          "type": "numeric",
+          "answer": 2,
+          "tolerance": 1e-08,
+          "explanation": "The domain dimension is 4; rank–nullity gives \\(4-2=2\\).",
+          "workedSteps": [
+            "The domain dimension is 4; rank–nullity gives \\(4-2=2\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Is T one-to-one?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "The nullity is positive, so the kernel contains nonzero vectors and T is not one-to-one.",
+          "workedSteps": [
+            "The nullity is positive, so the kernel contains nonzero vectors and T is not one-to-one."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-8": {
+      "fields": [
+        {
+          "label": "a-sum",
+          "selectionPrompt": "Choose the identity proving the sum is linear.",
+          "type": "choice",
+          "answer": "\\((T_1+T_2)(\\alpha x+\\beta y)=\\alpha(T_1+T_2)(x)+\\beta(T_1+T_2)(y)\\)",
+          "options": [
+            "\\((T_1+T_2)(\\alpha x+\\beta y)=\\alpha(T_1+T_2)(x)+\\beta(T_1+T_2)(y)\\)",
+            "\\((T_1+T_2)(x+y)=T_1(x)+T_2(y)\\)",
+            "\\((T_1+T_2)(\\alpha x)=T_1(x)+\\alpha T_2(x)\\)"
+          ],
+          "explanation": "Expand the definition into \\(T_1(\\alpha x+\\beta y)+T_2(\\alpha x+\\beta y)\\). Apply linearity of each map, then regroup the terms by coefficients \\(\\alpha,\\beta\\).",
+          "workedSteps": [
+            "Expand the definition into \\(T_1(\\alpha x+\\beta y)+T_2(\\alpha x+\\beta y)\\).",
+            "Apply linearity of each map, then regroup the terms by coefficients \\(\\alpha,\\beta\\)."
+          ]
+        },
+        {
+          "label": "a-scalar",
+          "selectionPrompt": "Choose the identity proving scalar multiplication is linear.",
+          "type": "choice",
+          "answer": "\\((kT)(\\alpha x+\\beta y)=\\alpha(kT)(x)+\\beta(kT)(y)\\)",
+          "options": [
+            "\\((kT)(\\alpha x+\\beta y)=\\alpha(kT)(x)+\\beta(kT)(y)\\)",
+            "\\((kT)(\\alpha x+\\beta y)=k\\alpha T(x)+\\beta T(y)\\)",
+            "\\((kT)(x+y)=kT(x)+T(y)\\)"
+          ],
+          "explanation": "\\(kT(\\alpha x+\\beta y)=k\\alpha T(x)+k\\beta T(y)\\). Commute the scalars to obtain the displayed linearity identity.",
+          "workedSteps": [
+            "\\(kT(\\alpha x+\\beta y)=k\\alpha T(x)+k\\beta T(y)\\).",
+            "Commute the scalars to obtain the displayed linearity identity."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Why do all linear maps V → W form a vector space?",
+          "type": "choice",
+          "answer": "Closure follows from (a); the zero map and pointwise negatives are linear, and all vector-space axioms hold pointwise in W",
+          "options": [
+            "Closure follows from (a); the zero map and pointwise negatives are linear, and all vector-space axioms hold pointwise in W",
+            "Every linear map is invertible",
+            "All transformations have the same kernel"
+          ],
+          "explanation": "Closure under addition and scalar multiplication was proved in part (a). The zero transformation is the additive identity and \\((-T)(x)=-T(x)\\) supplies additive inverses. For each input x, commutativity and associativity of map addition reduce to the corresponding laws in W. Both distributive laws, scalar associativity, and \\(1T=T\\) likewise follow by evaluating at x. Equality at every input is equality of maps, so all vector-space axioms hold.",
+          "workedSteps": [
+            "Closure under addition and scalar multiplication was proved in part (a). The zero transformation is the additive identity and \\((-T)(x)=-T(x)\\) supplies additive inverses.",
+            "For each input x, commutativity and associativity of map addition reduce to the corresponding laws in W. Both distributive laws, scalar associativity, and \\(1T=T\\) likewise follow by evaluating at x.",
+            "Equality at every input is equality of maps, so all vector-space axioms hold."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the transpose similarity identity when B=P⁻¹AP.",
+          "type": "choice",
+          "answer": "\\(B^T=P^TA^T(P^T)^{-1}\\)",
+          "options": [
+            "\\(B^T=P^TA^T(P^T)^{-1}\\)",
+            "\\(B^T=P^{-1}A^TP\\)",
+            "\\(B^T=PA^TP^{-1}\\)"
+          ],
+          "explanation": "Transpose reverses the product: \\(B^T=P^TA^T(P^{-1})^T\\). Since \\((P^{-1})^T=(P^T)^{-1}\\), this is a similarity relation with change matrix \\((P^T)^{-1}\\).",
+          "workedSteps": [
+            "Transpose reverses the product: \\(B^T=P^TA^T(P^{-1})^T\\).",
+            "Since \\((P^{-1})^T=(P^T)^{-1}\\), this is a similarity relation with change matrix \\((P^T)^{-1}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose the inverse similarity identity.",
+          "type": "choice",
+          "answer": "\\(B^{-1}=P^{-1}A^{-1}P\\)",
+          "options": [
+            "\\(B^{-1}=P^{-1}A^{-1}P\\)",
+            "\\(B^{-1}=PA^{-1}P^{-1}\\)",
+            "\\(B^{-1}=P^{-1}AP\\)"
+          ],
+          "explanation": "Invert the product \\(P^{-1}AP\\) by reversing the order and inverting each factor. The result \\(P^{-1}A^{-1}P\\) proves that the inverses are similar.",
+          "workedSteps": [
+            "Invert the product \\(P^{-1}AP\\) by reversing the order and inverting each factor.",
+            "The result \\(P^{-1}A^{-1}P\\) proves that the inverses are similar."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-10": {
+      "fields": [
+        {
+          "label": "proof",
+          "selectionPrompt": "Which rank–nullity dichotomy proves exactly one statement holds?",
+          "type": "choice",
+          "answer": "Onto is equivalent to rank n, hence to nullity 0; its negation is nullity > 0",
+          "options": [
+            "Onto is equivalent to rank n, hence to nullity 0; its negation is nullity > 0",
+            "Onto is equivalent to positive nullity",
+            "Rank and nullity are always both positive"
+          ],
+          "explanation": "Statement (i) says that the range is all of the n-dimensional space, equivalently rank n. Rank–nullity gives \\(\\operatorname{rank}T+\\operatorname{nullity}T=n\\), so (i) holds exactly when nullity is zero. Nullity is a nonnegative integer: it is either zero or positive, never both. This proves exhaustiveness and mutual exclusivity.",
+          "workedSteps": [
+            "Statement (i) says that the range is all of the n-dimensional space, equivalently rank n.",
+            "Rank–nullity gives \\(\\operatorname{rank}T+\\operatorname{nullity}T=n\\), so (i) holds exactly when nullity is zero.",
+            "Nullity is a nonnegative integer: it is either zero or positive, never both. This proves exhaustiveness and mutual exclusivity."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-11": {
+      "fields": [
+        {
+          "label": "rank",
+          "selectionPrompt": "Rank of T",
+          "type": "numeric",
+          "answer": 3,
+          "tolerance": 1e-08,
+          "explanation": "For \\(X=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\), expansion gives \\(T(X)=\\begin{bmatrix}a+b+c&2b+d\\\\d&d\\end{bmatrix}\\). The output matrices are exactly \\(\\begin{bmatrix}u&v\\\\w&w\\end{bmatrix}\\): for arbitrary u,v,w take \\(d=w,b=\\frac{v-w}2,c=0,a=u-b\\). This space has dimension 3.",
+          "workedSteps": [
+            "For \\(X=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\), expansion gives \\(T(X)=\\begin{bmatrix}a+b+c&2b+d\\\\d&d\\end{bmatrix}\\).",
+            "The output matrices are exactly \\(\\begin{bmatrix}u&v\\\\w&w\\end{bmatrix}\\): for arbitrary u,v,w take \\(d=w,b=\\frac{v-w}2,c=0,a=u-b\\). This space has dimension 3."
+          ]
+        },
+        {
+          "label": "nullity",
+          "selectionPrompt": "Nullity of T",
+          "type": "numeric",
+          "answer": 1,
+          "tolerance": 1e-08,
+          "explanation": "Zero output requires \\(d=0\\), then \\(b=0\\), then \\(c=-a\\). The kernel is \\(\\operatorname{span}\\{\\begin{bmatrix}1&0\\\\-1&0\\end{bmatrix}\\}\\), so its dimension is 1, agreeing with \\(4-3\\).",
+          "workedSteps": [
+            "Zero output requires \\(d=0\\), then \\(b=0\\), then \\(c=-a\\).",
+            "The kernel is \\(\\operatorname{span}\\{\\begin{bmatrix}1&0\\\\-1&0\\end{bmatrix}\\}\\), so its dimension is 1, agreeing with \\(4-3\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-12": {
+      "fields": [
+        {
+          "label": "proof",
+          "selectionPrompt": "Choose the substitution proving transitivity.",
+          "type": "choice",
+          "answer": "\\(B=P^{-1}AP,\\ C=Q^{-1}BQ\\ \\Rightarrow\\ C=(PQ)^{-1}A(PQ)\\)",
+          "options": [
+            "\\(B=P^{-1}AP,\\ C=Q^{-1}BQ\\ \\Rightarrow\\ C=(PQ)^{-1}A(PQ)\\)",
+            "\\(B=P^{-1}AP,\\ C=Q^{-1}BQ\\ \\Rightarrow\\ C=(QP)^{-1}A(QP)\\)",
+            "\\(B=P^{-1}AP,\\ C=Q^{-1}BQ\\ \\Rightarrow\\ C=A\\)"
+          ],
+          "explanation": "Substitute the expression for B to get \\(C=Q^{-1}P^{-1}APQ\\). The product \\(PQ\\) is invertible and \\((PQ)^{-1}=Q^{-1}P^{-1}\\), yielding the required similarity.",
+          "workedSteps": [
+            "Substitute the expression for B to get \\(C=Q^{-1}P^{-1}APQ\\).",
+            "The product \\(PQ\\) is invertible and \\((PQ)^{-1}=Q^{-1}P^{-1}\\), yielding the required similarity."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-13": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Transpose-operator matrix in the standard matrix basis",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 0 & 0 & 0\\\\0 & 0 & 1 & 0\\\\0 & 1 & 0 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 0 & 0 & 0\\\\0 & 0 & 1 & 0\\\\0 & 1 & 0 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 0 & 0 & 0\\\\0 & 0 & 1 & 0\\\\0 & 1 & 0 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 0 & 0 & 0\\\\0 & 0 & -1 & 0\\\\0 & -1 & 0 & 0\\\\0 & 0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Use the ordered basis \\(E_{11},E_{12},E_{21},E_{22}\\). Transpose fixes the first and fourth vectors and swaps the second and third, so the columns are \\(e_1,e_3,e_2,e_4\\). The resulting matrix is \\(\\begin{bmatrix}1 & 0 & 0 & 0\\\\0 & 0 & 1 & 0\\\\0 & 1 & 0 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Use the ordered basis \\(E_{11},E_{12},E_{21},E_{22}\\).",
+            "Transpose fixes the first and fourth vectors and swaps the second and third, so the columns are \\(e_1,e_3,e_2,e_4\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 0 & 0 & 0\\\\0 & 0 & 1 & 0\\\\0 & 1 & 0 & 0\\\\0 & 0 & 0 & 1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-14": {
+      "fields": [
+        {
+          "label": "a1",
+          "selectionPrompt": "Express v1 as a combination of the u vectors.",
+          "type": "choice",
+          "answer": "\\(2 u_{1} + u_{2}\\)",
+          "options": [
+            "\\(2 u_{1} + u_{2}\\)",
+            "\\(3 u_{1} + u_{2}\\)",
+            "\\(- 2 u_{1} - u_{2}\\)"
+          ],
+          "explanation": "The coordinate conversion \\([x]_B=P[x]_{B^\\prime}\\) means the required coefficients are column 1. The matrix used is \\(\\begin{bmatrix}2 & -1 & 3\\\\1 & 1 & 4\\\\0 & 1 & 2\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}2\\\\1\\\\0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The coordinate conversion \\([x]_B=P[x]_{B^\\prime}\\) means the required coefficients are column 1.",
+            "The matrix used is \\(\\begin{bmatrix}2 & -1 & 3\\\\1 & 1 & 4\\\\0 & 1 & 2\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}2\\\\1\\\\0\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "a2",
+          "selectionPrompt": "Express v2 as a combination of the u vectors.",
+          "type": "choice",
+          "answer": "\\(- u_{1} + u_{2} + u_{3}\\)",
+          "options": [
+            "\\(- u_{1} + u_{2} + u_{3}\\)",
+            "\\(u_{2} + u_{3}\\)",
+            "\\(u_{1} - u_{2} - u_{3}\\)"
+          ],
+          "explanation": "The coordinate conversion \\([x]_B=P[x]_{B^\\prime}\\) means the required coefficients are column 2. The matrix used is \\(\\begin{bmatrix}2 & -1 & 3\\\\1 & 1 & 4\\\\0 & 1 & 2\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}-1\\\\1\\\\1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The coordinate conversion \\([x]_B=P[x]_{B^\\prime}\\) means the required coefficients are column 2.",
+            "The matrix used is \\(\\begin{bmatrix}2 & -1 & 3\\\\1 & 1 & 4\\\\0 & 1 & 2\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}-1\\\\1\\\\1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "a3",
+          "selectionPrompt": "Express v3 as a combination of the u vectors.",
+          "type": "choice",
+          "answer": "\\(3 u_{1} + 4 u_{2} + 2 u_{3}\\)",
+          "options": [
+            "\\(3 u_{1} + 4 u_{2} + 2 u_{3}\\)",
+            "\\(4 u_{1} + 4 u_{2} + 2 u_{3}\\)",
+            "\\(- 3 u_{1} - 4 u_{2} - 2 u_{3}\\)"
+          ],
+          "explanation": "The coordinate conversion \\([x]_B=P[x]_{B^\\prime}\\) means the required coefficients are column 3. The matrix used is \\(\\begin{bmatrix}2 & -1 & 3\\\\1 & 1 & 4\\\\0 & 1 & 2\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}3\\\\4\\\\2\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The coordinate conversion \\([x]_B=P[x]_{B^\\prime}\\) means the required coefficients are column 3.",
+            "The matrix used is \\(\\begin{bmatrix}2 & -1 & 3\\\\1 & 1 & 4\\\\0 & 1 & 2\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}3\\\\4\\\\2\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b1",
+          "selectionPrompt": "Express u1 as a combination of the v vectors.",
+          "type": "choice",
+          "answer": "\\(- 2 v_{1} - 2 v_{2} + v_{3}\\)",
+          "options": [
+            "\\(- 2 v_{1} - 2 v_{2} + v_{3}\\)",
+            "\\(- v_{1} - 2 v_{2} + v_{3}\\)",
+            "\\(2 v_{1} + 2 v_{2} - v_{3}\\)"
+          ],
+          "explanation": "The coordinate conversion \\([x]_{B^\\prime}=P^{-1}[x]_B\\) means the required coefficients are column 1. The matrix used is \\(\\begin{bmatrix}-2 & 5 & -7\\\\-2 & 4 & -5\\\\1 & -2 & 3\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}-2\\\\-2\\\\1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The coordinate conversion \\([x]_{B^\\prime}=P^{-1}[x]_B\\) means the required coefficients are column 1.",
+            "The matrix used is \\(\\begin{bmatrix}-2 & 5 & -7\\\\-2 & 4 & -5\\\\1 & -2 & 3\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}-2\\\\-2\\\\1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b2",
+          "selectionPrompt": "Express u2 as a combination of the v vectors.",
+          "type": "choice",
+          "answer": "\\(5 v_{1} + 4 v_{2} - 2 v_{3}\\)",
+          "options": [
+            "\\(5 v_{1} + 4 v_{2} - 2 v_{3}\\)",
+            "\\(6 v_{1} + 4 v_{2} - 2 v_{3}\\)",
+            "\\(- 5 v_{1} - 4 v_{2} + 2 v_{3}\\)"
+          ],
+          "explanation": "The coordinate conversion \\([x]_{B^\\prime}=P^{-1}[x]_B\\) means the required coefficients are column 2. The matrix used is \\(\\begin{bmatrix}-2 & 5 & -7\\\\-2 & 4 & -5\\\\1 & -2 & 3\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}5\\\\4\\\\-2\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The coordinate conversion \\([x]_{B^\\prime}=P^{-1}[x]_B\\) means the required coefficients are column 2.",
+            "The matrix used is \\(\\begin{bmatrix}-2 & 5 & -7\\\\-2 & 4 & -5\\\\1 & -2 & 3\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}5\\\\4\\\\-2\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b3",
+          "selectionPrompt": "Express u3 as a combination of the v vectors.",
+          "type": "choice",
+          "answer": "\\(- 7 v_{1} - 5 v_{2} + 3 v_{3}\\)",
+          "options": [
+            "\\(- 7 v_{1} - 5 v_{2} + 3 v_{3}\\)",
+            "\\(- 6 v_{1} - 5 v_{2} + 3 v_{3}\\)",
+            "\\(7 v_{1} + 5 v_{2} - 3 v_{3}\\)"
+          ],
+          "explanation": "The coordinate conversion \\([x]_{B^\\prime}=P^{-1}[x]_B\\) means the required coefficients are column 3. The matrix used is \\(\\begin{bmatrix}-2 & 5 & -7\\\\-2 & 4 & -5\\\\1 & -2 & 3\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}-7\\\\-5\\\\3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The coordinate conversion \\([x]_{B^\\prime}=P^{-1}[x]_B\\) means the required coefficients are column 3.",
+            "The matrix used is \\(\\begin{bmatrix}-2 & 5 & -7\\\\-2 & 4 & -5\\\\1 & -2 & 3\\end{bmatrix}\\); its selected column is \\(\\begin{bmatrix}-7\\\\-5\\\\3\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-15": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Matrix relative to B′",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}-4 & 0 & 9\\\\1 & 0 & -2\\\\0 & 1 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}-4 & 0 & 9\\\\1 & 0 & -2\\\\0 & 1 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-3 & 0 & 9\\\\1 & 0 & -2\\\\0 & 1 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}4 & 0 & -9\\\\-1 & 0 & 2\\\\0 & -1 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The new basis vectors have old-coordinate columns \\((1,0,0),(1,1,0),(1,1,1)\\). Thus \\(\\begin{bmatrix}1 & 1 & 1\\\\0 & 1 & 1\\\\0 & 0 & 1\\end{bmatrix}\\) is the transition matrix. Compute \\([T]_{B^\\prime}=P^{-1}[T]_BP\\). The resulting matrix is \\(\\begin{bmatrix}-4 & 0 & 9\\\\1 & 0 & -2\\\\0 & 1 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The new basis vectors have old-coordinate columns \\((1,0,0),(1,1,0),(1,1,1)\\). Thus \\(\\begin{bmatrix}1 & 1 & 1\\\\0 & 1 & 1\\\\0 & 0 & 1\\end{bmatrix}\\) is the transition matrix.",
+            "Compute \\([T]_{B^\\prime}=P^{-1}[T]_BP\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}-4 & 0 & 9\\\\1 & 0 & -2\\\\0 & 1 & 1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-16": {
+      "fields": [
+        {
+          "label": "similar",
+          "selectionPrompt": "Choose an invertible P satisfying B=P⁻¹AP for the first pair.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}2 & -1\\\\1 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}2 & -1\\\\1 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}3 & -1\\\\1 & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 1\\\\1 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "Solve \\(AP=PB\\) for the four entries of P. One solution is the displayed matrix. Its determinant is 1, and direct multiplication gives \\(AP=PB=\\begin{bmatrix}3&-1\\\\2&1\\end{bmatrix}\\); therefore the matrices are similar.",
+          "workedSteps": [
+            "Solve \\(AP=PB\\) for the four entries of P. One solution is the displayed matrix.",
+            "Its determinant is 1, and direct multiplication gives \\(AP=PB=\\begin{bmatrix}3&-1\\\\2&1\\end{bmatrix}\\); therefore the matrices are similar."
+          ]
+        },
+        {
+          "label": "not-similar",
+          "selectionPrompt": "Which invariant separates the second pair?",
+          "type": "choice",
+          "answer": "Their traces are 1 and −1 (their determinants are also 0 and −2)",
+          "options": [
+            "Their traces are 1 and −1 (their determinants are also 0 and −2)",
+            "Their traces are equal but their sizes differ",
+            "Their determinants are both zero"
+          ],
+          "explanation": "The traces are \\(3-2=1\\) and \\(-1+0=-1\\). Unequal traces rule out similarity. Independently, the determinants are \\(-6+6=0\\) and \\(0-2=-2\\), another obstruction.",
+          "workedSteps": [
+            "The traces are \\(3-2=1\\) and \\(-1+0=-1\\). Unequal traces rule out similarity.",
+            "Independently, the determinants are \\(-6+6=0\\) and \\(0-2=-2\\), another obstruction."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-17": {
+      "fields": [
+        {
+          "label": "answer",
+          "selectionPrompt": "Matrix [T]B",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & -1 & 1\\\\0 & 1 & 0\\\\1 & 0 & -1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & -1 & 1\\\\0 & 1 & 0\\\\1 & 0 & -1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & -1 & 1\\\\0 & 1 & 0\\\\1 & 0 & -1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 1 & -1\\\\0 & -1 & 0\\\\-1 & 0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Read the coefficients of \\(x_1,x_2,x_3\\) in each output coordinate as a row. This gives rows \\((1,-1,1),(0,1,0),(1,0,-1)\\). The resulting matrix is \\(\\begin{bmatrix}1 & -1 & 1\\\\0 & 1 & 0\\\\1 & 0 & -1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Read the coefficients of \\(x_1,x_2,x_3\\) in each output coordinate as a row.",
+            "This gives rows \\((1,-1,1),(0,1,0),(1,0,-1)\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & -1 & 1\\\\0 & 1 & 0\\\\1 & 0 & -1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-18": {
+      "fields": [
+        {
+          "label": "proof",
+          "selectionPrompt": "Choose the equivalence proving the assertion.",
+          "type": "choice",
+          "answer": "T injective ⇔ its coordinate matrix has zero nullity ⇔ the square matrix is invertible ⇔ det(T) ≠ 0",
+          "options": [
+            "T injective ⇔ its coordinate matrix has zero nullity ⇔ the square matrix is invertible ⇔ det(T) ≠ 0",
+            "T injective ⇔ its coordinate matrix has determinant 0",
+            "T injective ⇔ every matrix entry is nonzero"
+          ],
+          "explanation": "Choose a basis in the finite-dimensional space used to define \\(\\det T\\); let \\(A=[T]_B\\). The coordinate isomorphism identifies \\(\\ker T\\) with \\(\\ker A\\), so T is one-to-one exactly when \\(Ax=0\\) has only the zero solution. For square A, this is equivalent to invertibility and hence to \\(\\det A\\ne0\\). The operator determinant equals \\(\\det A\\), independently of basis.",
+          "workedSteps": [
+            "Choose a basis in the finite-dimensional space used to define \\(\\det T\\); let \\(A=[T]_B\\).",
+            "The coordinate isomorphism identifies \\(\\ker T\\) with \\(\\ker A\\), so T is one-to-one exactly when \\(Ax=0\\) has only the zero solution.",
+            "For square A, this is equivalent to invertibility and hence to \\(\\det A\\ne0\\). The operator determinant equals \\(\\det A\\), independently of basis."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Identity proving second differentiation is linear",
+          "type": "choice",
+          "answer": "\\(D(\\alpha f+\\beta g)=\\alpha f\\prime\\prime+\\beta g\\prime\\prime=\\alpha Df+\\beta Dg\\)",
+          "options": [
+            "\\(D(\\alpha f+\\beta g)=\\alpha f\\prime\\prime+\\beta g\\prime\\prime=\\alpha Df+\\beta Dg\\)",
+            "\\(D(\\alpha f+\\beta g)=\\alpha\\beta(f\\prime\\prime+g\\prime\\prime)\\)",
+            "\\(D(fg)=D(f)D(g)\\)"
+          ],
+          "explanation": "Differentiate a linear combination twice; constant factors pass through each derivative. The resulting equality proves additivity and homogeneity.",
+          "workedSteps": [
+            "Differentiate a linear combination twice; constant factors pass through each derivative.",
+            "The resulting equality proves additivity and homogeneity."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Basis for the kernel of D",
+          "type": "choice",
+          "answer": "\\(\\{1,x\\}\\)",
+          "options": [
+            "\\(\\{1,x\\}\\)",
+            "\\(\\{e^x,e^{-x}\\}\\)",
+            "\\(\\{x,x^2\\}\\)"
+          ],
+          "explanation": "\\(f\\prime\\prime=0\\) implies \\(f\\prime=b\\) and \\(f=a+bx\\). The functions 1 and x are independent and span all such functions, giving the kernel basis.",
+          "workedSteps": [
+            "\\(f\\prime\\prime=0\\) implies \\(f\\prime=b\\) and \\(f=a+bx\\).",
+            "The functions 1 and x are independent and span all such functions, giving the kernel basis."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Basis and dimension of the solution space D(f)=f",
+          "type": "choice",
+          "answer": "\\(\\{e^x,e^{-x}\\};\\quad\\dim=2\\)",
+          "options": [
+            "\\(\\{e^x,e^{-x}\\};\\quad\\dim=2\\)",
+            "\\(\\{\\sin x,\\cos x\\};\\quad\\dim=2\\)",
+            "\\(\\{1,x\\};\\quad\\dim=2\\)"
+          ],
+          "explanation": "The equation is \\(f\\prime\\prime-f=0\\), with characteristic roots \\(1,-1\\), so every solution is \\(ae^x+be^{-x}\\). The solution set is \\(\\ker(D-I)\\), hence a subspace. The two functions are independent: evaluating a zero combination and its derivative at 0 gives \\(a+b=a-b=0\\). Thus they form a basis and the dimension is 2.",
+          "workedSteps": [
+            "The equation is \\(f\\prime\\prime-f=0\\), with characteristic roots \\(1,-1\\), so every solution is \\(ae^x+be^{-x}\\).",
+            "The solution set is \\(\\ker(D-I)\\), hence a subspace. The two functions are independent: evaluating a zero combination and its derivative at 0 gives \\(a+b=a-b=0\\).",
+            "Thus they form a basis and the dimension is 2."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-20": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Evaluate the polynomial at the three nodes.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}2\\\\6\\\\12\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}2\\\\6\\\\12\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}3\\\\6\\\\12\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-2\\\\-6\\\\-12\\end{bmatrix}\\)"
+          ],
+          "explanation": "At \\(-1,0,1\\), \\(x^2+5x+6\\) gives \\(2,6,12\\), respectively. The resulting matrix is \\(\\begin{bmatrix}2\\\\6\\\\12\\end{bmatrix}\\).",
+          "workedSteps": [
+            "At \\(-1,0,1\\), \\(x^2+5x+6\\) gives \\(2,6,12\\), respectively.",
+            "The resulting matrix is \\(\\begin{bmatrix}2\\\\6\\\\12\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose the linearity argument.",
+          "type": "choice",
+          "answer": "Evaluation at each fixed node preserves every linear combination",
+          "options": [
+            "Evaluation at each fixed node preserves every linear combination",
+            "Evaluation preserves multiplication, therefore every evaluation map is nonlinear",
+            "All quadratic polynomials have the same evaluations"
+          ],
+          "explanation": "At each node t, \\((\\alpha p+\\beta q)(t)=\\alpha p(t)+\\beta q(t)\\). Collecting the three evaluations gives \\(T(\\alpha p+\\beta q)=\\alpha T(p)+\\beta T(q)\\).",
+          "workedSteps": [
+            "At each node t, \\((\\alpha p+\\beta q)(t)=\\alpha p(t)+\\beta q(t)\\).",
+            "Collecting the three evaluations gives \\(T(\\alpha p+\\beta q)=\\alpha T(p)+\\beta T(q)\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Choose the argument that T is one-to-one.",
+          "type": "choice",
+          "answer": "A polynomial of degree at most 2 vanishing at −1,0,1 must be the zero polynomial",
+          "options": [
+            "A polynomial of degree at most 2 vanishing at −1,0,1 must be the zero polynomial",
+            "Every quadratic has three distinct roots",
+            "The domain has more dimensions than the codomain"
+          ],
+          "explanation": "If \\(T(p)=0\\), p vanishes at the three distinct evaluation nodes. A nonzero polynomial of degree at most 2 cannot have three distinct roots. Thus the kernel is zero.",
+          "workedSteps": [
+            "If \\(T(p)=0\\), p vanishes at the three distinct evaluation nodes.",
+            "A nonzero polynomial of degree at most 2 cannot have three distinct roots. Thus the kernel is zero."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Inverse image of (0,3,0)",
+          "type": "choice",
+          "answer": "\\(3-3x^2\\)",
+          "options": [
+            "\\(3-3x^2\\)",
+            "\\(3x^2-3\\)",
+            "\\(3x\\)"
+          ],
+          "explanation": "Let \\(p=a+bx+cx^2\\). From \\(p(0)=3\\) obtain \\(a=3\\). The equations \\(3-b+c=0\\) and \\(3+b+c=0\\) give \\(b=0,c=-3\\).",
+          "workedSteps": [
+            "Let \\(p=a+bx+cx^2\\). From \\(p(0)=3\\) obtain \\(a=3\\).",
+            "The equations \\(3-b+c=0\\) and \\(3+b+c=0\\) give \\(b=0,c=-3\\)."
+          ]
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Choose the graph description.",
+          "type": "choice",
+          "answer": "Downward-opening parabola with vertex (0,3), roots (−1,0) and (1,0), symmetric about the y-axis",
+          "options": [
+            "Downward-opening parabola with vertex (0,3), roots (−1,0) and (1,0), symmetric about the y-axis",
+            "Upward-opening parabola with vertex (0,−3)",
+            "Line through (−1,0) and (1,0)"
+          ],
+          "explanation": "The formula \\(y=3-3x^2\\) has negative leading coefficient and vertex \\((0,3)\\). Solve \\(3-3x^2=0\\) to get roots \\(x=\\pm1\\). Plot these three points and draw the symmetric downward parabola.",
+          "workedSteps": [
+            "The formula \\(y=3-3x^2\\) has negative leading coefficient and vertex \\((0,3)\\).",
+            "Solve \\(3-3x^2=0\\) to get roots \\(x=\\pm1\\). Plot these three points and draw the symmetric downward parabola."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-21": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the linearity proof.",
+          "type": "choice",
+          "answer": "At every node xi, (αp+βq)(xi)=αp(xi)+βq(xi)",
+          "options": [
+            "At every node xi, (αp+βq)(xi)=αp(xi)+βq(xi)",
+            "At every node, p(xi)q(xi)=p(xi)+q(xi)",
+            "Linearity holds only for equally spaced nodes"
+          ],
+          "explanation": "Evaluation at each fixed point respects sums and scalar multiples. Putting the three scalar identities into one vector identity proves T is linear.",
+          "workedSteps": [
+            "Evaluation at each fixed point respects sums and scalar multiples.",
+            "Putting the three scalar identities into one vector identity proves T is linear."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Choose the injectivity proof.",
+          "type": "choice",
+          "answer": "The zero-output polynomial has three distinct roots but degree at most 2, so it is identically zero",
+          "options": [
+            "The zero-output polynomial has three distinct roots but degree at most 2, so it is identically zero",
+            "Every polynomial of degree at most 2 has three roots",
+            "Distinct nodes force every polynomial to be constant"
+          ],
+          "explanation": "The strict inequalities ensure three distinct nodes. If all three values vanish, the root bound forces the polynomial to be zero; hence the kernel is trivial.",
+          "workedSteps": [
+            "The strict inequalities ensure three distinct nodes.",
+            "If all three values vanish, the root bound forces the polynomial to be zero; hence the kernel is trivial."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Which evaluation identity verifies the proposed inverse?",
+          "type": "choice",
+          "answer": "\\(P_i(x_j)=\\delta_{ij}\\quad\\Rightarrow\\quad T(\\sum_{i=1}^3a_iP_i)=(a_1,a_2,a_3)\\)",
+          "options": [
+            "\\(P_i(x_j)=\\delta_{ij}\\quad\\Rightarrow\\quad T(\\sum_{i=1}^3a_iP_i)=(a_1,a_2,a_3)\\)",
+            "\\(P_i(x_j)=1\\text{ for every }i,j\\)",
+            "\\(P_i(x_j)=0\\text{ for every }i,j\\)"
+          ],
+          "explanation": "The denominators in each \\(P_i\\) are nonzero because the nodes are distinct. At its own node, numerator and denominator agree, giving 1. At another node a numerator factor vanishes, giving 0. Thus \\(T(a_1P_1+a_2P_2+a_3P_3)=(a_1,a_2,a_3)\\). The sum has degree at most 2, and injectivity makes it the unique inverse image.",
+          "workedSteps": [
+            "The denominators in each \\(P_i\\) are nonzero because the nodes are distinct.",
+            "At its own node, numerator and denominator agree, giving 1. At another node a numerator factor vanishes, giving 0.",
+            "Thus \\(T(a_1P_1+a_2P_2+a_3P_3)=(a_1,a_2,a_3)\\). The sum has degree at most 2, and injectivity makes it the unique inverse image."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "How does the graph relate to the three points?",
+          "type": "choice",
+          "answer": "It passes through all three points (x1,a1),(x2,a2),(x3,a3)",
+          "options": [
+            "It passes through all three points (x1,a1),(x2,a2),(x3,a3)",
+            "It passes through their midpoint only",
+            "The points are always its x-intercepts"
+          ],
+          "explanation": "At \\(x=x_j\\), all terms except \\(a_jP_j(x_j)\\) vanish, leaving \\(a_j\\). Therefore the graph is the unique polynomial interpolant of degree at most 2 through the three specified points; it may be a line or constant in special cases.",
+          "workedSteps": [
+            "At \\(x=x_j\\), all terms except \\(a_jP_j(x_j)\\) vanish, leaving \\(a_j\\).",
+            "Therefore the graph is the unique polynomial interpolant of degree at most 2 through the three specified points; it may be a line or constant in special cases."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-22": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Choose the mathematically valid statement about L as printed.",
+          "type": "choice",
+          "answer": "The formula is linear into the space of all functions, but it need not map the stated V into V",
+          "options": [
+            "The formula is linear into the space of all functions, but it need not map the stated V into V",
+            "It is always a linear operator V → V with the printed hypotheses",
+            "It fails additivity even as a map into all functions"
+          ],
+          "explanation": "Expanding derivatives gives \\(L(\\alpha y+\\beta z)=\\alpha(y\\prime\\prime+py\\prime+qy)+\\beta(z\\prime\\prime+pz\\prime+qz)=\\alpha Ly+\\beta Lz\\). However, the printed codomain V consists of twice differentiable functions. With \\(p=q=0\\) and \\(y=|x|^3\\), the input is twice differentiable but \\(Ly=6|x|\\) is not differentiable at zero. Thus the correct linearity claim uses a function-space codomain large enough to contain the outputs, for example all real functions on the line; the stated operator V → V is not generally well-defined.",
+          "workedSteps": [
+            "Expanding derivatives gives \\(L(\\alpha y+\\beta z)=\\alpha(y\\prime\\prime+py\\prime+qy)+\\beta(z\\prime\\prime+pz\\prime+qz)=\\alpha Ly+\\beta Lz\\).",
+            "However, the printed codomain V consists of twice differentiable functions. With \\(p=q=0\\) and \\(y=|x|^3\\), the input is twice differentiable but \\(Ly=6|x|\\) is not differentiable at zero.",
+            "Thus the correct linearity claim uses a function-space codomain large enough to contain the outputs, for example all real functions on the line; the stated operator V → V is not generally well-defined."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Verify the claimed kernel elements in the special case.",
+          "type": "choice",
+          "answer": "\\(L(c_1\\sin x+c_2\\cos x)=(-c_1\\sin x-c_2\\cos x)+(c_1\\sin x+c_2\\cos x)=0\\)",
+          "options": [
+            "\\(L(c_1\\sin x+c_2\\cos x)=(-c_1\\sin x-c_2\\cos x)+(c_1\\sin x+c_2\\cos x)=0\\)",
+            "\\(L(c_1\\sin x+c_2\\cos x)=2c_1\\sin x+2c_2\\cos x\\)",
+            "\\(L(c_1\\sin x+c_2\\cos x)=c_1\\cos x-c_2\\sin x\\)"
+          ],
+          "explanation": "For \\(p=0,q=1\\), the formula becomes \\(L\\phi=\\phi\\prime\\prime+\\phi\\). Both sine and cosine have second derivative equal to their negative. The terms cancel for every pair of real coefficients, so all stated functions are in the kernel of the corrected map.",
+          "workedSteps": [
+            "For \\(p=0,q=1\\), the formula becomes \\(L\\phi=\\phi\\prime\\prime+\\phi\\).",
+            "Both sine and cosine have second derivative equal to their negative. The terms cancel for every pair of real coefficients, so all stated functions are in the kernel of the corrected map."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The full source prints L:V→V with V consisting of twice differentiable functions. Its formula need not produce a twice differentiable output. Part (a) explicitly identifies this codomain defect and proves linearity into a valid larger function space; part (b) is unchanged."
+    },
+    "anton-chapter-08-supplementary-23": {
+      "fields": [
+        {
+          "label": "matrix",
+          "selectionPrompt": "Choose the full entry rule for the differentiation matrix (indices 0 through n).",
+          "type": "choice",
+          "answer": "\\(A_{ij}=\\begin{cases}j&i=j-1,\\ 1\\le j\\le n\\\\0&\\text{otherwise}\\end{cases};\\quad A\\in\\mathbb R^{(n+1)\\times(n+1)}\\)",
+          "options": [
+            "\\(A_{ij}=\\begin{cases}j&i=j-1,\\ 1\\le j\\le n\\\\0&\\text{otherwise}\\end{cases};\\quad A\\in\\mathbb R^{(n+1)\\times(n+1)}\\)",
+            "\\(A_{ij}=\\begin{cases}j&i=j+1\\\\0&\\text{otherwise}\\end{cases}\\)",
+            "\\(A=\\operatorname{diag}(0,1,\\ldots,n)\\)"
+          ],
+          "explanation": "The first basis vector is 1 and has derivative zero, so the first column is zero. For \\(j\\ge1\\), \\(D(x^j)=jx^{j-1}\\). Column j therefore has j in row \\(j-1\\) and zeros elsewhere (using zero-based indices). This gives the displayed upper-shift matrix, with entries \\(1,2,\\ldots,n\\) on the first superdiagonal and zero elsewhere, exactly as claimed. In matrix form, the stated pattern is \\(\\begin{bmatrix}0&1&0&\\cdots&0\\\\0&0&2&\\cdots&0\\\\\\vdots&\\vdots&\\ddots&\\ddots&\\vdots\\\\0&0&\\cdots&0&n\\\\0&0&\\cdots&0&0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The first basis vector is 1 and has derivative zero, so the first column is zero.",
+            "For \\(j\\ge1\\), \\(D(x^j)=jx^{j-1}\\). Column j therefore has j in row \\(j-1\\) and zeros elsewhere (using zero-based indices).",
+            "This gives the displayed upper-shift matrix, with entries \\(1,2,\\ldots,n\\) on the first superdiagonal and zero elsewhere, exactly as claimed.",
+            "In matrix form, the stated pattern is \\(\\begin{bmatrix}0&1&0&\\cdots&0\\\\0&0&2&\\cdots&0\\\\\\vdots&\\vdots&\\ddots&\\ddots&\\vdots\\\\0&0&\\cdots&0&n\\\\0&0&\\cdots&0&0\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-24": {
+      "fields": [
+        {
+          "label": "matrix",
+          "selectionPrompt": "Choose the differentiation matrix in the shifted factorial basis.",
+          "type": "choice",
+          "answer": "\\(A_{ij}=\\begin{cases}1&i=j-1,\\ 1\\le j\\le n\\\\0&\\text{otherwise}\\end{cases};\\quad A\\in\\mathbb R^{(n+1)\\times(n+1)}\\)",
+          "options": [
+            "\\(A_{ij}=\\begin{cases}1&i=j-1,\\ 1\\le j\\le n\\\\0&\\text{otherwise}\\end{cases};\\quad A\\in\\mathbb R^{(n+1)\\times(n+1)}\\)",
+            "\\(A_{ij}=\\begin{cases}j&i=j-1\\\\0&\\text{otherwise}\\end{cases}\\)",
+            "\\(A_{ij}=\\begin{cases}1&i=j+1\\\\0&\\text{otherwise}\\end{cases}\\)"
+          ],
+          "explanation": "Write \\(b_j=\\frac{(x-c)^j}{j!}\\), with \\(b_0=1\\). For \\(j\\ge1\\), \\(D(b_j)=\\frac{j(x-c)^{j-1}}{j!}=\\frac{(x-c)^{j-1}}{(j-1)!}=b_{j-1}\\), while \\(D(b_0)=0\\). Thus each nonzero column is the preceding unit vector: all superdiagonal entries are 1 and every other entry is 0. The matrix does not depend on c. In matrix form, the stated pattern is \\(\\begin{bmatrix}0&1&0&\\cdots&0\\\\0&0&1&\\cdots&0\\\\\\vdots&\\vdots&\\ddots&\\ddots&\\vdots\\\\0&0&\\cdots&0&1\\\\0&0&\\cdots&0&0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Write \\(b_j=\\frac{(x-c)^j}{j!}\\), with \\(b_0=1\\).",
+            "For \\(j\\ge1\\), \\(D(b_j)=\\frac{j(x-c)^{j-1}}{j!}=\\frac{(x-c)^{j-1}}{(j-1)!}=b_{j-1}\\), while \\(D(b_0)=0\\).",
+            "Thus each nonzero column is the preceding unit vector: all superdiagonal entries are 1 and every other entry is 0. The matrix does not depend on c.",
+            "In matrix form, the stated pattern is \\(\\begin{bmatrix}0&1&0&\\cdots&0\\\\0&0&1&\\cdots&0\\\\\\vdots&\\vdots&\\ddots&\\ddots&\\vdots\\\\0&0&\\cdots&0&1\\\\0&0&\\cdots&0&0\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "relatedSourceQuestionIds": [
+        "anton-chapter-08-supplementary-23"
+      ]
+    },
+    "anton-chapter-08-supplementary-25": {
+      "fields": [
+        {
+          "label": "matrix",
+          "selectionPrompt": "Choose the integration matrix entry rule (rows 0 through n+1; columns 0 through n).",
+          "type": "choice",
+          "answer": "\\(A_{ij}=\\begin{cases}\\frac1{j+1}&i=j+1\\\\0&\\text{otherwise}\\end{cases};\\quad A\\in\\mathbb R^{(n+2)\\times(n+1)}\\)",
+          "options": [
+            "\\(A_{ij}=\\begin{cases}\\frac1{j+1}&i=j+1\\\\0&\\text{otherwise}\\end{cases};\\quad A\\in\\mathbb R^{(n+2)\\times(n+1)}\\)",
+            "\\(A_{ij}=\\begin{cases}j+1&i=j+1\\\\0&\\text{otherwise}\\end{cases}\\)",
+            "\\(A_{ij}=\\begin{cases}\\frac1{j+1}&i=j\\\\0&\\text{otherwise}\\end{cases}\\)"
+          ],
+          "explanation": "For each input basis monomial, \\(J(x^j)=\\int_0^xt^j\\,dt=\\frac{x^{j+1}}{j+1}\\). Its output coordinate column has \\(\\frac1{j+1}\\) in row \\(j+1\\) and zeros elsewhere. The top row is entirely zero because the integral has zero constant term. This determines all entries of the rectangular matrix: \\(1,\\frac12,\\ldots,\\frac1{n+1}\\) lie immediately below the main diagonal. In matrix form, the stated pattern is \\(\\begin{bmatrix}0&0&\\cdots&0\\\\1&0&\\cdots&0\\\\0&\\frac12&\\cdots&0\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\0&0&\\cdots&\\frac1{n+1}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "For each input basis monomial, \\(J(x^j)=\\int_0^xt^j\\,dt=\\frac{x^{j+1}}{j+1}\\).",
+            "Its output coordinate column has \\(\\frac1{j+1}\\) in row \\(j+1\\) and zeros elsewhere. The top row is entirely zero because the integral has zero constant term.",
+            "This determines all entries of the rectangular matrix: \\(1,\\frac12,\\ldots,\\frac1{n+1}\\) lie immediately below the main diagonal.",
+            "In matrix form, the stated pattern is \\(\\begin{bmatrix}0&0&\\cdots&0\\\\1&0&\\cdots&0\\\\0&\\frac12&\\cdots&0\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\0&0&\\cdots&\\frac1{n+1}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-08-supplementary-26": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Homogeneous-coordinate translation matrix",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 0 & x_{0}\\\\0 & 1 & y_{0}\\\\0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 0 & x_{0}\\\\0 & 1 & y_{0}\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 0 & x_{0}\\\\0 & 1 & y_{0}\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 0 & - x_{0}\\\\0 & -1 & - y_{0}\\\\0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The first two output equations are \\(x+x_0\\cdot1\\) and \\(y+y_0\\cdot1\\); the final coordinate stays 1. Read these coefficients as the three rows. Multiplication then sends \\((x,y,1)^T\\) to \\((x+x_0,y+y_0,1)^T\\). The resulting matrix is \\(\\begin{bmatrix}1 & 0 & x_{0}\\\\0 & 1 & y_{0}\\\\0 & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The first two output equations are \\(x+x_0\\cdot1\\) and \\(y+y_0\\cdot1\\); the final coordinate stays 1.",
+            "Read these coefficients as the three rows. Multiplication then sends \\((x,y,1)^T\\) to \\((x+x_0,y+y_0,1)^T\\).",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 0 & x_{0}\\\\0 & 1 & y_{0}\\\\0 & 0 & 1\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Matrix translating (2,1) to (3,4)",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 0 & 1\\\\0 & 1 & 3\\\\0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 0 & 1\\\\0 & 1 & 3\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 0 & 1\\\\0 & 1 & 3\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & 0 & -1\\\\0 & -1 & -3\\\\0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displacement is \\((3-2,4-1)=(1,3)\\). Substitute \\(x_0=1,y_0=3\\) into part (a). Checking on \\((2,1,1)^T\\) gives \\((3,4,1)^T\\), as required. The resulting matrix is \\(\\begin{bmatrix}1 & 0 & 1\\\\0 & 1 & 3\\\\0 & 0 & 1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The displacement is \\((3-2,4-1)=(1,3)\\). Substitute \\(x_0=1,y_0=3\\) into part (a).",
+            "Checking on \\((2,1,1)^T\\) gives \\((3,4,1)^T\\), as required.",
+            "The resulting matrix is \\(\\begin{bmatrix}1 & 0 & 1\\\\0 & 1 & 3\\\\0 & 0 & 1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts; proof and sketch tasks are assessed by specific mathematical choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    }
+  }
+}

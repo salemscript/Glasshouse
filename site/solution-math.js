@@ -94,6 +94,7 @@
  const proseWords=new Set('is in as at of to or by on an if be it no so we do up'.split(' '));
  const trigger=/[\/√^²³⁴⁵⁶⁷⁸⁹₀-₉=<>≤≥≈≠∫∮Σ∑]|\b(?:sqrt|sin|cos|tan|exp|ln|log)\b/;
  function inline(value){
+  if(root.LinearMath?.hasMath(value))return root.LinearMath.render(value);
   const source=String(value??'').replace(/(Always|Sphere|Ellipse|ellipses|and|as)(?=(?:mv|x²|b\/|W\/))/g,'$1 ').replace(/minimae(?=\^)/g,'minima e').replace(/atarcsin/g,'at arcsin');if(!source.trim()||source.length>6000)return esc(source);
   // Leave URLs and filenames intact. Partition prose at word boundaries, never
   // infer the extent of a numerator from surrounding natural-language words.
@@ -143,6 +144,7 @@
   chunk(source.length);return pieces.join('');
  }
  function render(value){
+  if(root.LinearMath?.hasMath(value))return root.LinearMath.render(value);
   const source=String(value??'');if(!source.trim()||source.length>6000)return esc(source);
   if(source.endsWith('.')){try{return mathHTML(source.slice(0,-1),parse(source.slice(0,-1)))+'.';}catch(_){}}
   if(/(?:^|\s)(?:is|in|as|at|of|to|or|by|on|an|if|be|it|no|so|we|do|up)(?=\s|$)/i.test(source))return inline(source);

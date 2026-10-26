@@ -1,0 +1,2672 @@
+{
+  "chapter": 5,
+  "questions": {
+    "anton-section-5-1-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the eigenvalue corresponding to the supplied vector.",
+          "type": "numeric",
+          "answer": -1.0,
+          "tolerance": 1e-08,
+          "explanation": "The result is −1 times the original nonzero vector.",
+          "workedSteps": [
+            "\\(A\\begin{bmatrix}1\\\\-1\\end{bmatrix}=\\begin{bmatrix}-1\\\\1\\end{bmatrix}\\).",
+            "The result is −1 times the original nonzero vector."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/299.svg.gz",
+          "pdfPage": 313,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              91.61,
+              255,
+              22.93
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/299.svg.gz",
+          "pdfPage": 313,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              116.24,
+              127.45,
+              27
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-5-1-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the characteristic equation, eigenvalues, and eigenspace bases.",
+          "type": "choice",
+          "answer": "\\(\\left(\\lambda - 5\\right) \\left(\\lambda + 1\\right)=0;\\quad E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\left(\\lambda - 5\\right) \\left(\\lambda + 1\\right)=0;\\quad E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 6\\right) \\left(\\lambda + 1\\right)=0;\\quad E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 4\\right) \\left(\\lambda + 1\\right)=0;\\quad E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "The resulting bases are \\(E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+          "workedSteps": [
+            "Form \\(\\lambda I-A\\) and compute its determinant: \\(\\left(\\lambda - 5\\right) \\left(\\lambda + 1\\right)\\).",
+            "Set each factor to zero. For each eigenvalue, solve \\((A-\\lambda I)v=0\\).",
+            "The resulting bases are \\(E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the characteristic equation and eigenvalue conclusion; complex eigenspaces are supplied as an extension.",
+          "type": "choice",
+          "answer": "No real eigenvalues or real eigenspaces; over the complex numbers: \\(\\lambda^{2} + 3=0;\\quad E_{- \\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 - \\sqrt{3} i\\\\1\\end{bmatrix}\\};\\quad E_{\\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 + \\sqrt{3} i\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "No real eigenvalues or real eigenspaces; over the complex numbers: \\(\\lambda^{2} + 3=0;\\quad E_{- \\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 - \\sqrt{3} i\\\\1\\end{bmatrix}\\};\\quad E_{\\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 + \\sqrt{3} i\\\\1\\end{bmatrix}\\}\\)",
+            "No real eigenvalues or real eigenspaces; over the complex numbers: \\(\\lambda^{3} + 3=0;\\quad E_{- \\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 - \\sqrt{3} i\\\\1\\end{bmatrix}\\};\\quad E_{\\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 + \\sqrt{3} i\\\\1\\end{bmatrix}\\}\\)",
+            "No real eigenvalues or real eigenspaces; over the complex numbers: \\(\\lambda^{1} + 3=0;\\quad E_{- \\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 - \\sqrt{3} i\\\\1\\end{bmatrix}\\};\\quad E_{\\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 + \\sqrt{3} i\\\\1\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "The resulting bases are \\(E_{- \\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 - \\sqrt{3} i\\\\1\\end{bmatrix}\\};\\quad E_{\\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 + \\sqrt{3} i\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+          "workedSteps": [
+            "Form \\(\\lambda I-A\\) and compute its determinant: \\(\\lambda^{2} + 3\\).",
+            "Set each factor to zero. For each eigenvalue, solve \\((A-\\lambda I)v=0\\).",
+            "The resulting bases are \\(E_{- \\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 - \\sqrt{3} i\\\\1\\end{bmatrix}\\};\\quad E_{\\sqrt{3} i}=\\operatorname{span}\\{\\begin{bmatrix}-2 + \\sqrt{3} i\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+            "The characteristic polynomial is lambda squared plus 3, so it has no real roots. Thus there are no real eigenvalues or real eigenvectors; the displayed complex eigenpairs extend the answer to the complex field."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the characteristic equation, eigenvalues, and eigenspace bases.",
+          "type": "choice",
+          "answer": "\\(\\left(\\lambda - 1\\right)^{2}=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix},\\begin{bmatrix}0\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\left(\\lambda - 1\\right)^{2}=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix},\\begin{bmatrix}0\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 2\\right)^{2}=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix},\\begin{bmatrix}0\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 0\\right)^{2}=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix},\\begin{bmatrix}0\\\\1\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "The resulting bases are \\(E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix},\\begin{bmatrix}0\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+          "workedSteps": [
+            "Form \\(\\lambda I-A\\) and compute its determinant: \\(\\left(\\lambda - 1\\right)^{2}\\).",
+            "Set each factor to zero. For each eigenvalue, solve \\((A-\\lambda I)v=0\\).",
+            "The resulting bases are \\(E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix},\\begin{bmatrix}0\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\)."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Select the characteristic equation, eigenvalues, and eigenspace bases.",
+          "type": "choice",
+          "answer": "\\(\\left(\\lambda - 1\\right)^{2}=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\left(\\lambda - 1\\right)^{2}=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 2\\right)^{2}=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 0\\right)^{2}=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "The resulting bases are \\(E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+          "workedSteps": [
+            "Form \\(\\lambda I-A\\) and compute its determinant: \\(\\left(\\lambda - 1\\right)^{2}\\).",
+            "Set each factor to zero. For each eigenvalue, solve \\((A-\\lambda I)v=0\\).",
+            "The resulting bases are \\(E_{1}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-1-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the characteristic equation, eigenvalues, and eigenspace bases.",
+          "type": "choice",
+          "answer": "\\(\\left(\\lambda - 3\\right) \\left(\\lambda - 2\\right) \\left(\\lambda - 1\\right)=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix}\\};\\quad E_{2}=\\operatorname{span}\\{\\begin{bmatrix}- \\frac{1}{2}\\\\1\\\\1\\end{bmatrix}\\};\\quad E_{3}=\\operatorname{span}\\{\\begin{bmatrix}-1\\\\1\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\left(\\lambda - 3\\right) \\left(\\lambda - 2\\right) \\left(\\lambda - 1\\right)=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix}\\};\\quad E_{2}=\\operatorname{span}\\{\\begin{bmatrix}- \\frac{1}{2}\\\\1\\\\1\\end{bmatrix}\\};\\quad E_{3}=\\operatorname{span}\\{\\begin{bmatrix}-1\\\\1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 4\\right) \\left(\\lambda - 2\\right) \\left(\\lambda - 1\\right)=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix}\\};\\quad E_{2}=\\operatorname{span}\\{\\begin{bmatrix}- \\frac{1}{2}\\\\1\\\\1\\end{bmatrix}\\};\\quad E_{3}=\\operatorname{span}\\{\\begin{bmatrix}-1\\\\1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 2\\right) \\left(\\lambda - 2\\right) \\left(\\lambda - 1\\right)=0;\\quad E_{1}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix}\\};\\quad E_{2}=\\operatorname{span}\\{\\begin{bmatrix}- \\frac{1}{2}\\\\1\\\\1\\end{bmatrix}\\};\\quad E_{3}=\\operatorname{span}\\{\\begin{bmatrix}-1\\\\1\\\\1\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "The resulting bases are \\(E_{1}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix}\\};\\quad E_{2}=\\operatorname{span}\\{\\begin{bmatrix}- \\frac{1}{2}\\\\1\\\\1\\end{bmatrix}\\};\\quad E_{3}=\\operatorname{span}\\{\\begin{bmatrix}-1\\\\1\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+          "workedSteps": [
+            "Form \\(\\lambda I-A\\) and compute its determinant: \\(\\left(\\lambda - 3\\right) \\left(\\lambda - 2\\right) \\left(\\lambda - 1\\right)\\).",
+            "Set each factor to zero. For each eigenvalue, solve \\((A-\\lambda I)v=0\\).",
+            "The resulting bases are \\(E_{1}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix}\\};\\quad E_{2}=\\operatorname{span}\\{\\begin{bmatrix}- \\frac{1}{2}\\\\1\\\\1\\end{bmatrix}\\};\\quad E_{3}=\\operatorname{span}\\{\\begin{bmatrix}-1\\\\1\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The source crop was repaired against the complete chapter page to restore the first matrix row and exclude neighboring exercise fragments.",
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/299.svg.gz",
+          "pdfPage": 313,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              370.81,
+              255,
+              23
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/299.svg.gz",
+          "pdfPage": 313,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              394,
+              127.45,
+              38
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-5-1-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the characteristic equation, eigenvalues, and eigenspace bases.",
+          "type": "choice",
+          "answer": "\\(\\left(\\lambda - 5\\right) \\left(\\lambda + 2\\right)^{2}=0;\\quad E_{-2}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}8\\\\0\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\left(\\lambda - 5\\right) \\left(\\lambda + 2\\right)^{2}=0;\\quad E_{-2}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}8\\\\0\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 6\\right) \\left(\\lambda + 2\\right)^{2}=0;\\quad E_{-2}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}8\\\\0\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 4\\right) \\left(\\lambda + 2\\right)^{2}=0;\\quad E_{-2}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}8\\\\0\\\\1\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "The resulting bases are \\(E_{-2}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}8\\\\0\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+          "workedSteps": [
+            "Form \\(\\lambda I-A\\) and compute its determinant: \\(\\left(\\lambda - 5\\right) \\left(\\lambda + 2\\right)^{2}\\).",
+            "Set each factor to zero. For each eigenvalue, solve \\((A-\\lambda I)v=0\\).",
+            "The resulting bases are \\(E_{-2}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}8\\\\0\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The source crop was repaired against the complete chapter page to restore the first matrix row and exclude neighboring exercise fragments.",
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/299.svg.gz",
+          "pdfPage": 313,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              370.81,
+              255,
+              23
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/299.svg.gz",
+          "pdfPage": 313,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              432,
+              127.45,
+              38
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-5-1-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the characteristic equation, eigenvalues, and eigenspace bases.",
+          "type": "choice",
+          "answer": "\\(\\left(\\lambda - 5\\right) \\left(\\lambda + 1\\right)=0;\\quad E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\left(\\lambda - 5\\right) \\left(\\lambda + 1\\right)=0;\\quad E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 6\\right) \\left(\\lambda + 1\\right)=0;\\quad E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\left(\\lambda - 4\\right) \\left(\\lambda + 1\\right)=0;\\quad E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "The resulting bases are \\(E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+          "workedSteps": [
+            "Form \\(\\lambda I-A\\) and compute its determinant: \\(\\left(\\lambda - 5\\right) \\left(\\lambda + 1\\right)\\).",
+            "Set each factor to zero. For each eigenvalue, solve \\((A-\\lambda I)v=0\\).",
+            "The resulting bases are \\(E_{-1}=\\operatorname{span}\\{\\begin{bmatrix}-2\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the characteristic equation, eigenvalues, and eigenspace bases.",
+          "type": "choice",
+          "answer": "\\(\\lambda^{2} - 4 \\lambda + 5=0;\\quad E_{2 - i}=\\operatorname{span}\\{\\begin{bmatrix}2 - i\\\\1\\end{bmatrix}\\};\\quad E_{2 + i}=\\operatorname{span}\\{\\begin{bmatrix}2 + i\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(\\lambda^{2} - 4 \\lambda + 5=0;\\quad E_{2 - i}=\\operatorname{span}\\{\\begin{bmatrix}2 - i\\\\1\\end{bmatrix}\\};\\quad E_{2 + i}=\\operatorname{span}\\{\\begin{bmatrix}2 + i\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\lambda^{3} - 4 \\lambda + 5=0;\\quad E_{2 - i}=\\operatorname{span}\\{\\begin{bmatrix}2 - i\\\\1\\end{bmatrix}\\};\\quad E_{2 + i}=\\operatorname{span}\\{\\begin{bmatrix}2 + i\\\\1\\end{bmatrix}\\}\\)",
+            "\\(\\lambda^{1} - 4 \\lambda + 5=0;\\quad E_{2 - i}=\\operatorname{span}\\{\\begin{bmatrix}2 - i\\\\1\\end{bmatrix}\\};\\quad E_{2 + i}=\\operatorname{span}\\{\\begin{bmatrix}2 + i\\\\1\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "The resulting bases are \\(E_{2 - i}=\\operatorname{span}\\{\\begin{bmatrix}2 - i\\\\1\\end{bmatrix}\\};\\quad E_{2 + i}=\\operatorname{span}\\{\\begin{bmatrix}2 + i\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+          "workedSteps": [
+            "Form \\(\\lambda I-A\\) and compute its determinant: \\(\\lambda^{2} - 4 \\lambda + 5\\).",
+            "Set each factor to zero. For each eigenvalue, solve \\((A-\\lambda I)v=0\\).",
+            "The resulting bases are \\(E_{2 - i}=\\operatorname{span}\\{\\begin{bmatrix}2 - i\\\\1\\end{bmatrix}\\};\\quad E_{2 + i}=\\operatorname{span}\\{\\begin{bmatrix}2 + i\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-1-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the characteristic equation.",
+          "type": "choice",
+          "answer": "\\((\\lambda-3)(\\lambda-7)(\\lambda-1)=0\\)",
+          "options": [
+            "\\((\\lambda-3)(\\lambda-7)(\\lambda-1)=0\\)",
+            "\\((\\lambda-4)(\\lambda-7)(\\lambda-1)=0\\)",
+            "\\((\\lambda-2)(\\lambda-7)(\\lambda-1)=0\\)"
+          ],
+          "explanation": "The determinant of \\(\\lambda I-A\\) is the product of diagonal entries \\((\\lambda-3),(\\lambda-7),(\\lambda-1)\\).",
+          "workedSteps": [
+            "This matrix is triangular.",
+            "The determinant of \\(\\lambda I-A\\) is the product of diagonal entries \\((\\lambda-3),(\\lambda-7),(\\lambda-1)\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-1-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select all real eigenvalues and their eigenspaces.",
+          "type": "choice",
+          "answer": "\\(E_1=\\operatorname{span}\\{(1,1)\\}, E_{-1}=\\operatorname{span}\\{(1,-1)\\}\\)",
+          "options": [
+            "\\(E_1=\\operatorname{span}\\{(1,1)\\}, E_{-1}=\\operatorname{span}\\{(1,-1)\\}\\)",
+            "\\(E_2=\\operatorname{span}\\{(1,1)\\}, E_{-1}=\\operatorname{span}\\{(1,-1)\\}\\)",
+            "\\(E_0=\\operatorname{span}\\{(1,1)\\}, E_{-1}=\\operatorname{span}\\{(1,-1)\\}\\)"
+          ],
+          "explanation": "Hence \\(E_1=\\operatorname{span}\\{(1,1)\\}, E_{-1}=\\operatorname{span}\\{(1,-1)\\}\\).",
+          "workedSteps": [
+            "Reflection fixes its mirror line and reverses the perpendicular line.",
+            "Hence \\(E_1=\\operatorname{span}\\{(1,1)\\}, E_{-1}=\\operatorname{span}\\{(1,-1)\\}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select all real eigenvalues and their eigenspaces.",
+          "type": "choice",
+          "answer": "\\(E_1=\\operatorname{span}\\{(1,0)\\}, E_0=\\operatorname{span}\\{(0,1)\\}\\)",
+          "options": [
+            "\\(E_1=\\operatorname{span}\\{(1,0)\\}, E_0=\\operatorname{span}\\{(0,1)\\}\\)",
+            "\\(E_2=\\operatorname{span}\\{(1,0)\\}, E_0=\\operatorname{span}\\{(0,1)\\}\\)",
+            "\\(E_0=\\operatorname{span}\\{(1,0)\\}, E_0=\\operatorname{span}\\{(0,1)\\}\\)"
+          ],
+          "explanation": "Hence \\(E_1=\\operatorname{span}\\{(1,0)\\}, E_0=\\operatorname{span}\\{(0,1)\\}\\).",
+          "workedSteps": [
+            "Projection fixes the x-axis and kills the y-axis.",
+            "Hence \\(E_1=\\operatorname{span}\\{(1,0)\\}, E_0=\\operatorname{span}\\{(0,1)\\}\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select all real eigenvalues and their eigenspaces.",
+          "type": "choice",
+          "answer": "\\(\\text{No real eigenvalues or real eigenvectors}\\)",
+          "options": [
+            "\\(\\text{No real eigenvalues or real eigenvectors}\\)",
+            "Every nonzero vector satisfies the opposite conclusion.",
+            "The conclusion fails because similarity does not preserve eigenvalues."
+          ],
+          "explanation": "Hence \\(\\text{No real eigenvalues or real eigenvectors}\\).",
+          "workedSteps": [
+            "A quarter-turn sends every nonzero vector to a perpendicular direction.",
+            "Hence \\(\\text{No real eigenvalues or real eigenvectors}\\)."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Select all real eigenvalues and their eigenspaces.",
+          "type": "choice",
+          "answer": "\\(E_k=\\mathbb R^2\\)",
+          "options": [
+            "\\(E_k=\\mathbb R^2\\)",
+            "\\(E_k=\\mathbb R^3\\)",
+            "\\(E_k=\\mathbb R^1\\)"
+          ],
+          "explanation": "Hence \\(E_k=\\mathbb R^2\\).",
+          "workedSteps": [
+            "Every vector is multiplied by k.",
+            "Hence \\(E_k=\\mathbb R^2\\)."
+          ]
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Select all real eigenvalues and their eigenspaces.",
+          "type": "choice",
+          "answer": "\\(E_1=\\operatorname{span}\\{(1,0)\\}\\)",
+          "options": [
+            "\\(E_1=\\operatorname{span}\\{(1,0)\\}\\)",
+            "\\(E_2=\\operatorname{span}\\{(1,0)\\}\\)",
+            "\\(E_0=\\operatorname{span}\\{(1,0)\\}\\)"
+          ],
+          "explanation": "Hence \\(E_1=\\operatorname{span}\\{(1,0)\\}\\).",
+          "workedSteps": [
+            "A nonzero horizontal shear fixes precisely the x-axis; any vector with nonzero y-coordinate changes direction.",
+            "Hence \\(E_1=\\operatorname{span}\\{(1,0)\\}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-1-21": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select all real eigenvalues and their eigenspaces.",
+          "type": "choice",
+          "answer": "\\(E_1=\\operatorname{span}\\{(1,0,0),(0,1,0)\\}, E_{-1}=\\operatorname{span}\\{(0,0,1)\\}\\)",
+          "options": [
+            "\\(E_1=\\operatorname{span}\\{(1,0,0),(0,1,0)\\}, E_{-1}=\\operatorname{span}\\{(0,0,1)\\}\\)",
+            "\\(E_2=\\operatorname{span}\\{(1,0,0),(0,1,0)\\}, E_{-1}=\\operatorname{span}\\{(0,0,1)\\}\\)",
+            "\\(E_0=\\operatorname{span}\\{(1,0,0),(0,1,0)\\}, E_{-1}=\\operatorname{span}\\{(0,0,1)\\}\\)"
+          ],
+          "explanation": "Hence \\(E_1=\\operatorname{span}\\{(1,0,0),(0,1,0)\\}, E_{-1}=\\operatorname{span}\\{(0,0,1)\\}\\).",
+          "workedSteps": [
+            "The xy-plane is fixed and the normal is reversed.",
+            "Hence \\(E_1=\\operatorname{span}\\{(1,0,0),(0,1,0)\\}, E_{-1}=\\operatorname{span}\\{(0,0,1)\\}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select all real eigenvalues and their eigenspaces.",
+          "type": "choice",
+          "answer": "\\(E_1=\\operatorname{span}\\{(1,0,0),(0,0,1)\\}, E_0=\\operatorname{span}\\{(0,1,0)\\}\\)",
+          "options": [
+            "\\(E_1=\\operatorname{span}\\{(1,0,0),(0,0,1)\\}, E_0=\\operatorname{span}\\{(0,1,0)\\}\\)",
+            "\\(E_2=\\operatorname{span}\\{(1,0,0),(0,0,1)\\}, E_0=\\operatorname{span}\\{(0,1,0)\\}\\)",
+            "\\(E_0=\\operatorname{span}\\{(1,0,0),(0,0,1)\\}, E_0=\\operatorname{span}\\{(0,1,0)\\}\\)"
+          ],
+          "explanation": "Hence \\(E_1=\\operatorname{span}\\{(1,0,0),(0,0,1)\\}, E_0=\\operatorname{span}\\{(0,1,0)\\}\\).",
+          "workedSteps": [
+            "The xz-plane is fixed and the y direction is killed.",
+            "Hence \\(E_1=\\operatorname{span}\\{(1,0,0),(0,0,1)\\}, E_0=\\operatorname{span}\\{(0,1,0)\\}\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select all real eigenvalues and their eigenspaces.",
+          "type": "choice",
+          "answer": "\\(E_1=\\operatorname{span}\\{(1,0,0)\\}\\)",
+          "options": [
+            "\\(E_1=\\operatorname{span}\\{(1,0,0)\\}\\)",
+            "\\(E_2=\\operatorname{span}\\{(1,0,0)\\}\\)",
+            "\\(E_0=\\operatorname{span}\\{(1,0,0)\\}\\)"
+          ],
+          "explanation": "Hence \\(E_1=\\operatorname{span}\\{(1,0,0)\\}\\).",
+          "workedSteps": [
+            "Only the rotation axis gives real eigenvectors; perpendicular vectors rotate through a quarter-turn.",
+            "Hence \\(E_1=\\operatorname{span}\\{(1,0,0)\\}\\)."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Select all real eigenvalues and their eigenspaces.",
+          "type": "choice",
+          "answer": "\\(E_k=\\mathbb R^3\\)",
+          "options": [
+            "\\(E_k=\\mathbb R^3\\)",
+            "\\(E_k=\\mathbb R^4\\)",
+            "\\(E_k=\\mathbb R^2\\)"
+          ],
+          "explanation": "Hence \\(E_k=\\mathbb R^3\\).",
+          "workedSteps": [
+            "Contraction scales every vector by k.",
+            "Hence \\(E_k=\\mathbb R^3\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-1-25": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the matrix order n for its n by n size.",
+          "type": "numeric",
+          "answer": 6.0,
+          "tolerance": 1e-08,
+          "explanation": "Therefore A is 6 by 6.",
+          "workedSteps": [
+            "The characteristic polynomial has degree \\(1+2+3=6\\).",
+            "Therefore A is 6 by 6."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Is A invertible?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "Therefore zero is not an eigenvalue and A is invertible.",
+          "workedSteps": [
+            "Zero is not a root of the characteristic polynomial.",
+            "Therefore zero is not an eigenvalue and A is invertible."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter the number of distinct eigenspaces.",
+          "type": "numeric",
+          "answer": 3.0,
+          "tolerance": 1e-08,
+          "explanation": "There is one eigenspace for each, giving 3.",
+          "workedSteps": [
+            "The distinct eigenvalues are 1,3,4.",
+            "There is one eigenspace for each, giving 3."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-1-34": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the calculation proving the shifted eigenpair.",
+          "type": "choice",
+          "answer": "\\((A-sI)x=Ax-sx=\\lambda x-sx=(\\lambda-s)x\\)",
+          "options": [
+            "\\((A-sI)x=Ax-sx=\\lambda x-sx=(\\lambda-s)x\\)",
+            "\\((A-sI)x\\ne Ax-sx=\\lambda x-sx=(\\lambda-s)x\\)",
+            "\\((A-sI)x=-Ax-sx=\\lambda x-sx=(\\lambda-s)x\\)"
+          ],
+          "explanation": "Subtract sx from both sides. The same nonzero x is an eigenvector with eigenvalue \\(\\lambda-s\\).",
+          "workedSteps": [
+            "Begin with the nonzero eigenvector satisfying \\(Ax=\\lambda x\\).",
+            "Subtract sx from both sides. The same nonzero x is an eigenvector with eigenvalue \\(\\lambda-s\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-2-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a similarity invariant proving A and B are not similar.",
+          "type": "choice",
+          "answer": "\\(\\operatorname{tr}(A)=3\\ne-1=\\operatorname{tr}(B)\\)",
+          "options": [
+            "\\(\\operatorname{tr}(A)=3\\ne-1=\\operatorname{tr}(B)\\)",
+            "They are similar because their lower-left entries agree.",
+            "They are similar because they have the same size."
+          ],
+          "explanation": "Similarity preserves trace, so unequal traces rule it out.",
+          "workedSteps": [
+            "Compute the sums of diagonal entries: \\(1+2=3\\) and \\(1-2=-1\\).",
+            "Similarity preserves trace, so unequal traces rule it out."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-2-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a diagonalizing matrix and the resulting diagonal matrix.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}0 & 1\\\\1 & 3\\end{bmatrix},\\quad P^{-1}AP=\\begin{bmatrix}-1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}0 & 1\\\\1 & 3\\end{bmatrix},\\quad P^{-1}AP=\\begin{bmatrix}-1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}1 & 1\\\\1 & 3\\end{bmatrix},\\quad P^{-1}AP=\\begin{bmatrix}-1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}-1 & 1\\\\1 & 3\\end{bmatrix},\\quad P^{-1}AP=\\begin{bmatrix}-1 & 0\\\\0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(AP=PD\\) verifies the displayed diagonalization.",
+          "workedSteps": [
+            "Use eigenvectors as columns of P, in the same order as eigenvalues in D.",
+            "The columns are independent: \\(\\det P=-1\\).",
+            "\\(AP=PD\\) verifies the displayed diagonalization."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/309.svg.gz",
+          "pdfPage": 323,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              566.89,
+              255,
+              22.93
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/309.svg.gz",
+          "pdfPage": 323,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              592.48,
+              127.45,
+              28
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-5-2-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select all eigenvalues and eigenspace bases.",
+          "type": "choice",
+          "answer": "\\(E_{3}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix},\\begin{bmatrix}-1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}\\}\\)",
+          "options": [
+            "\\(E_{3}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix},\\begin{bmatrix}-1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}\\}\\)",
+            "\\(E_{4}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix},\\begin{bmatrix}-1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}\\}\\)",
+            "\\(E_{2}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix},\\begin{bmatrix}-1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}\\}\\)"
+          ],
+          "explanation": "The resulting bases are \\(E_{3}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix},\\begin{bmatrix}-1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\).",
+          "workedSteps": [
+            "Form \\(\\lambda I-A\\) and compute its determinant: \\(\\left(\\lambda - 5\\right) \\left(\\lambda - 3\\right)^{2}\\).",
+            "Set each factor to zero. For each eigenvalue, solve \\((A-\\lambda I)v=0\\).",
+            "The resulting bases are \\(E_{3}=\\operatorname{span}\\{\\begin{bmatrix}0\\\\1\\\\0\\end{bmatrix},\\begin{bmatrix}-1\\\\0\\\\1\\end{bmatrix}\\};\\quad E_{5}=\\operatorname{span}\\{\\begin{bmatrix}1\\\\2\\\\1\\end{bmatrix}\\}\\). Each displayed vector satisfies \\(Av=\\lambda v\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the rank of lambda I minus A for each eigenvalue.",
+          "type": "choice",
+          "answer": "\\(\\lambda=3:\\operatorname{rank}=1; \\lambda=5:\\operatorname{rank}=2\\)",
+          "options": [
+            "\\(\\lambda=3:\\operatorname{rank}=1; \\lambda=5:\\operatorname{rank}=2\\)",
+            "\\(\\lambda=4:\\operatorname{rank}=1; \\lambda=5:\\operatorname{rank}=2\\)",
+            "\\(\\lambda=2:\\operatorname{rank}=1; \\lambda=5:\\operatorname{rank}=2\\)"
+          ],
+          "explanation": "Rank equals 3 minus nullity, giving \\(3:1; 5:2\\).",
+          "workedSteps": [
+            "Compute nullities from the bases in part (a).",
+            "Rank equals 3 minus nullity, giving \\(3:1; 5:2\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Is A diagonalizable?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "They sum to 3, so an eigenvector basis exists.",
+          "workedSteps": [
+            "Its eigenspace dimensions are [2, 1].",
+            "They sum to 3, so an eigenvector basis exists."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-2-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select algebraic and geometric multiplicities for each eigenvalue.",
+          "type": "choice",
+          "answer": "\\(\\lambda=1: (m_a,m_g)=(1,1); \\lambda=2: (m_a,m_g)=(1,1); \\lambda=3: (m_a,m_g)=(1,1)\\)",
+          "options": [
+            "\\(\\lambda=1: (m_a,m_g)=(1,1); \\lambda=2: (m_a,m_g)=(1,1); \\lambda=3: (m_a,m_g)=(1,1)\\)",
+            "\\(\\lambda=2: (m_a,m_g)=(1,1); \\lambda=2: (m_a,m_g)=(1,1); \\lambda=3: (m_a,m_g)=(1,1)\\)",
+            "\\(\\lambda=0: (m_a,m_g)=(1,1); \\lambda=2: (m_a,m_g)=(1,1); \\lambda=3: (m_a,m_g)=(1,1)\\)"
+          ],
+          "explanation": "Solve the corresponding null spaces; dimensions give geometric multiplicities.",
+          "workedSteps": [
+            "Factor \\(p(\\lambda)=\\left(\\lambda - 3\\right) \\left(\\lambda - 2\\right) \\left(\\lambda - 1\\right)\\).",
+            "Solve the corresponding null spaces; dimensions give geometric multiplicities."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select a diagonalizing matrix and the resulting diagonal matrix.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}1 & 2 & 1\\\\1 & 3 & 3\\\\1 & 3 & 4\\end{bmatrix},\\quad P^{-1}AP=\\begin{bmatrix}1 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}1 & 2 & 1\\\\1 & 3 & 3\\\\1 & 3 & 4\\end{bmatrix},\\quad P^{-1}AP=\\begin{bmatrix}1 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}2 & 2 & 1\\\\1 & 3 & 3\\\\1 & 3 & 4\\end{bmatrix},\\quad P^{-1}AP=\\begin{bmatrix}1 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}0 & 2 & 1\\\\1 & 3 & 3\\\\1 & 3 & 4\\end{bmatrix},\\quad P^{-1}AP=\\begin{bmatrix}1 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(AP=PD\\) verifies the displayed diagonalization.",
+          "workedSteps": [
+            "Use eigenvectors as columns of P, in the same order as eigenvalues in D.",
+            "The columns are independent: \\(\\det P=1\\).",
+            "\\(AP=PD\\) verifies the displayed diagonalization."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/309.svg.gz",
+          "pdfPage": 323,
+          "role": "instructions",
+          "crops": [
+            [
+              328,
+              468.55,
+              255,
+              45
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/309.svg.gz",
+          "pdfPage": 323,
+          "role": "problem",
+          "crops": [
+            [
+              325,
+              513,
+              125.96,
+              39
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-5-2-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select matrix size and possible eigenspace dimensions.",
+          "type": "choice",
+          "answer": "\\(3\\times3;\\quad\\dim E_1=\\dim E_{-3}=\\dim E_5=1\\)",
+          "options": [
+            "\\(3\\times3;\\quad\\dim E_1=\\dim E_{-3}=\\dim E_5=1\\)",
+            "\\(4\\times3;\\quad\\dim E_1=\\dim E_{-3}=\\dim E_5=1\\)",
+            "\\(2\\times3;\\quad\\dim E_1=\\dim E_{-3}=\\dim E_5=1\\)"
+          ],
+          "explanation": "Each simple eigenvalue has geometric multiplicity 1.",
+          "workedSteps": [
+            "The polynomial has degree 3.",
+            "Each simple eigenvalue has geometric multiplicity 1."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select matrix size and possible eigenspace dimensions.",
+          "type": "choice",
+          "answer": "\\(6\\times6;\\quad\\dim E_0\\in\\{1,2\\},\\dim E_1=1,\\dim E_2\\in\\{1,2,3\\}\\)",
+          "options": [
+            "\\(6\\times6;\\quad\\dim E_0\\in\\{1,2\\},\\dim E_1=1,\\dim E_2\\in\\{1,2,3\\}\\)",
+            "\\(7\\times6;\\quad\\dim E_0\\in\\{1,2\\},\\dim E_1=1,\\dim E_2\\in\\{1,2,3\\}\\)",
+            "\\(5\\times6;\\quad\\dim E_0\\in\\{1,2\\},\\dim E_1=1,\\dim E_2\\in\\{1,2,3\\}\\)"
+          ],
+          "explanation": "Geometric multiplicity is at least 1 and at most the corresponding algebraic multiplicity.",
+          "workedSteps": [
+            "The degrees sum to \\(2+1+3=6\\).",
+            "Geometric multiplicity is at least 1 and at most the corresponding algebraic multiplicity."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-2-17": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select A to the tenth power.",
+          "type": "choice",
+          "answer": "\\(A^{10}=\\begin{bmatrix}24234 & -34815\\\\-23210 & 35839\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^{10}=\\begin{bmatrix}24234 & -34815\\\\-23210 & 35839\\end{bmatrix}\\)",
+            "\\(A^{11}=\\begin{bmatrix}24234 & -34815\\\\-23210 & 35839\\end{bmatrix}\\)",
+            "\\(A^{9}=\\begin{bmatrix}24234 & -34815\\\\-23210 & 35839\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(A^{10}=\\begin{bmatrix}24234 & -34815\\\\-23210 & 35839\\end{bmatrix}\\)",
+          "workedSteps": [
+            "\\(P=\\begin{bmatrix}-1 & 3\\\\1 & 2\\end{bmatrix},D=\\begin{bmatrix}-3 & 0\\\\0 & 2\\end{bmatrix}\\) gives \\(A=PDP^{-1}\\).",
+            "\\(A^{10}=PD^{10}P^{-1}\\).",
+            "\\(A^{10}=\\begin{bmatrix}24234 & -34815\\\\-23210 & 35839\\end{bmatrix}\\)"
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-2-26": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Can a matrix be similar to itself?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "\\(I^{-1}AI=A\\) proves this for every square A.",
+          "workedSteps": [
+            "\\(I^{-1}AI=A\\) proves this for every square A."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the only matrix similar to the zero matrix.",
+          "type": "choice",
+          "answer": "\\(0_{n\\times n}\\)",
+          "options": [
+            "\\(0_{n\\times n}\\)",
+            "\\(1_{n\\times n}\\)",
+            "\\(-1_{n\\times n}\\)"
+          ],
+          "explanation": "Therefore the similar matrix must itself be zero.",
+          "workedSteps": [
+            "\\(P^{-1}0P=0\\) for every invertible P.",
+            "Therefore the similar matrix must itself be zero."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Can a nonsingular matrix be similar to a singular one?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "Zero and nonzero determinants cannot agree.",
+          "workedSteps": [
+            "Similarity preserves determinant: \\(\\det(P^{-1}AP)=\\det A\\).",
+            "Zero and nonzero determinants cannot agree."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-2-27": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select all allowed eigenspace dimensions.",
+          "type": "choice",
+          "answer": "\\(\\dim E_1=1;\\quad1\\le\\dim E_3\\le2;\\quad1\\le\\dim E_4\\le3\\)",
+          "options": [
+            "\\(\\dim E_1=1;\\quad1\\le\\dim E_3\\le2;\\quad1\\le\\dim E_4\\le3\\)",
+            "\\(\\dim E_2=1;\\quad1\\le\\dim E_3\\le2;\\quad1\\le\\dim E_4\\le3\\)",
+            "\\(\\dim E_0=1;\\quad1\\le\\dim E_3\\le2;\\quad1\\le\\dim E_4\\le3\\)"
+          ],
+          "explanation": "Apply this to multiplicities 1,2,3.",
+          "workedSteps": [
+            "Geometric multiplicity lies between 1 and algebraic multiplicity.",
+            "Apply this to multiplicities 1,2,3."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select dimensions if A is diagonalizable.",
+          "type": "choice",
+          "answer": "\\(\\dim E_1=1,\\dim E_3=2,\\dim E_4=3\\)",
+          "options": [
+            "\\(\\dim E_1=1,\\dim E_3=2,\\dim E_4=3\\)",
+            "\\(\\dim E_2=1,\\dim E_3=2,\\dim E_4=3\\)",
+            "\\(\\dim E_0=1,\\dim E_3=2,\\dim E_4=3\\)"
+          ],
+          "explanation": "The eigenspace dimensions must sum to 6.",
+          "workedSteps": [
+            "Diagonalizability requires equality of geometric and algebraic multiplicities.",
+            "The eigenspace dimensions must sum to 6."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter the eigenvalue shared by three independent eigenvectors.",
+          "type": "numeric",
+          "answer": 4.0,
+          "tolerance": 1e-08,
+          "explanation": "Only eigenvalue 4 has algebraic multiplicity at least 3.",
+          "workedSteps": [
+            "Three independent vectors require geometric multiplicity at least 3.",
+            "Only eigenvalue 4 has algebraic multiplicity at least 3."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-2-30": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the standard matrix and real diagonalizability conclusion.",
+          "type": "choice",
+          "answer": "\\(A=\\begin{bmatrix}2&-1\\\\1&1\\end{bmatrix};\\quad\\text{not diagonalizable over }\\mathbb R\\)",
+          "options": [
+            "\\(A=\\begin{bmatrix}2&-1\\\\1&1\\end{bmatrix};\\quad\\text{not diagonalizable over }\\mathbb R\\)",
+            "\\(A=\\begin{bmatrix}3&-1\\\\1&1\\end{bmatrix};\\quad\\text{not diagonalizable over }\\mathbb R\\)",
+            "\\(A=\\begin{bmatrix}1&-1\\\\1&1\\end{bmatrix};\\quad\\text{not diagonalizable over }\\mathbb R\\)"
+          ],
+          "explanation": "There are no real eigenvalues, hence no real eigenvector basis. Over the complex numbers the two roots are distinct.",
+          "workedSteps": [
+            "Use the images of the coordinate vectors as columns.",
+            "The characteristic polynomial is \\(\\lambda^2-3\\lambda+3\\) with discriminant −3.",
+            "There are no real eigenvalues, hence no real eigenvector basis. Over the complex numbers the two roots are distinct."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-2-37": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the proof for positive integer powers.",
+          "type": "choice",
+          "answer": "\\(A=PDP^{-1}\\Longrightarrow A^k=PD^kP^{-1}\\)",
+          "options": [
+            "\\(A=PDP^{-1}\\Longrightarrow A^k=PD^kP^{-1}\\)",
+            "\\(A=PDP^{0}\\Longrightarrow A^k=PD^kP^{-1}\\)",
+            "\\(A=PDP^{-2}\\Longrightarrow A^k=PD^kP^{-1}\\)"
+          ],
+          "explanation": "Since \\(D^k\\) remains diagonal, the same invertible P diagonalizes \\(A^k\\).",
+          "workedSteps": [
+            "Adjacent factors \\(P^{-1}P\\) cancel when multiplying k copies of A.",
+            "Since \\(D^k\\) remains diagonal, the same invertible P diagonalizes \\(A^k\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the conjugate, real part, imaginary part, and norm.",
+          "type": "choice",
+          "answer": "\\(\\bar u=\\begin{bmatrix}2 + i\\\\- 4 i\\\\1 - i\\end{bmatrix},\\operatorname{Re}u=\\begin{bmatrix}2\\\\0\\\\1\\end{bmatrix},\\operatorname{Im}u=\\begin{bmatrix}-1\\\\4\\\\1\\end{bmatrix},\\|u\\|=\\sqrt{23}\\)",
+          "options": [
+            "\\(\\bar u=\\begin{bmatrix}2 + i\\\\- 4 i\\\\1 - i\\end{bmatrix},\\operatorname{Re}u=\\begin{bmatrix}2\\\\0\\\\1\\end{bmatrix},\\operatorname{Im}u=\\begin{bmatrix}-1\\\\4\\\\1\\end{bmatrix},\\|u\\|=\\sqrt{23}\\)",
+            "\\(\\bar u=\\begin{bmatrix}3 + i\\\\- 4 i\\\\1 - i\\end{bmatrix},\\operatorname{Re}u=\\begin{bmatrix}2\\\\0\\\\1\\end{bmatrix},\\operatorname{Im}u=\\begin{bmatrix}-1\\\\4\\\\1\\end{bmatrix},\\|u\\|=\\sqrt{23}\\)",
+            "\\(\\bar u=\\begin{bmatrix}1 + i\\\\- 4 i\\\\1 - i\\end{bmatrix},\\operatorname{Re}u=\\begin{bmatrix}2\\\\0\\\\1\\end{bmatrix},\\operatorname{Im}u=\\begin{bmatrix}-1\\\\4\\\\1\\end{bmatrix},\\|u\\|=\\sqrt{23}\\)"
+          ],
+          "explanation": "Thus the norm is \\(\\sqrt{23}\\).",
+          "workedSteps": [
+            "Conjugation reverses each imaginary part.",
+            "The norm squared is \\(5+16+2=23\\).",
+            "Thus the norm is \\(\\sqrt{23}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the common value verifying the conjugation identity.",
+          "type": "choice",
+          "answer": "\\(\\overline{\\bar u}=\\begin{bmatrix}3 - 4 i\\\\2 + i\\\\- 6 i\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\overline{\\bar u}=\\begin{bmatrix}3 - 4 i\\\\2 + i\\\\- 6 i\\end{bmatrix}\\)",
+            "\\(\\overline{\\bar u}=\\begin{bmatrix}4 - 4 i\\\\2 + i\\\\- 6 i\\end{bmatrix}\\)",
+            "\\(\\overline{\\bar u}=\\begin{bmatrix}2 - 4 i\\\\2 + i\\\\- 6 i\\end{bmatrix}\\)"
+          ],
+          "explanation": "Both sides of \\(\\overline{\\bar u}\\) evaluate to \\(\\begin{bmatrix}3 - 4 i\\\\2 + i\\\\- 6 i\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Conjugate each coordinate by replacing i with −i.",
+            "Both sides of \\(\\overline{\\bar u}\\) evaluate to \\(\\begin{bmatrix}3 - 4 i\\\\2 + i\\\\- 6 i\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the common value verifying the conjugation identity.",
+          "type": "choice",
+          "answer": "\\(\\overline{ku}=\\bar k\\bar u=\\begin{bmatrix}4 - 3 i\\\\i \\left(-2 + i\\right)\\\\6\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\overline{ku}=\\bar k\\bar u=\\begin{bmatrix}4 - 3 i\\\\i \\left(-2 + i\\right)\\\\6\\end{bmatrix}\\)",
+            "\\(\\overline{ku}=\\bar k\\bar u=\\begin{bmatrix}5 - 3 i\\\\i \\left(-2 + i\\right)\\\\6\\end{bmatrix}\\)",
+            "\\(\\overline{ku}=\\bar k\\bar u=\\begin{bmatrix}3 - 3 i\\\\i \\left(-2 + i\\right)\\\\6\\end{bmatrix}\\)"
+          ],
+          "explanation": "Both sides of \\(\\overline{ku}=\\bar k\\bar u\\) evaluate to \\(\\begin{bmatrix}4 - 3 i\\\\i \\left(-2 + i\\right)\\\\6\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Conjugate each coordinate by replacing i with −i.",
+            "Both sides of \\(\\overline{ku}=\\bar k\\bar u\\) evaluate to \\(\\begin{bmatrix}4 - 3 i\\\\i \\left(-2 + i\\right)\\\\6\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the common value verifying the conjugation identity.",
+          "type": "choice",
+          "answer": "\\(\\overline{u+v}=\\bar u+\\bar v=\\begin{bmatrix}4 + 3 i\\\\4\\\\4 + 6 i\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\overline{u+v}=\\bar u+\\bar v=\\begin{bmatrix}4 + 3 i\\\\4\\\\4 + 6 i\\end{bmatrix}\\)",
+            "\\(\\overline{u+v}=\\bar u+\\bar v=\\begin{bmatrix}5 + 3 i\\\\4\\\\4 + 6 i\\end{bmatrix}\\)",
+            "\\(\\overline{u+v}=\\bar u+\\bar v=\\begin{bmatrix}3 + 3 i\\\\4\\\\4 + 6 i\\end{bmatrix}\\)"
+          ],
+          "explanation": "Both sides of \\(\\overline{u+v}=\\bar u+\\bar v\\) evaluate to \\(\\begin{bmatrix}4 + 3 i\\\\4\\\\4 + 6 i\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Conjugate each coordinate by replacing i with −i.",
+            "Both sides of \\(\\overline{u+v}=\\bar u+\\bar v\\) evaluate to \\(\\begin{bmatrix}4 + 3 i\\\\4\\\\4 + 6 i\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Select the common value verifying the conjugation identity.",
+          "type": "choice",
+          "answer": "\\(\\overline{u-v}=\\bar u-\\bar v=\\begin{bmatrix}2 + 5 i\\\\- 2 i\\\\-4 + 6 i\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\overline{u-v}=\\bar u-\\bar v=\\begin{bmatrix}2 + 5 i\\\\- 2 i\\\\-4 + 6 i\\end{bmatrix}\\)",
+            "\\(\\overline{u-v}=\\bar u-\\bar v=\\begin{bmatrix}3 + 5 i\\\\- 2 i\\\\-4 + 6 i\\end{bmatrix}\\)",
+            "\\(\\overline{u-v}=\\bar u-\\bar v=\\begin{bmatrix}1 + 5 i\\\\- 2 i\\\\-4 + 6 i\\end{bmatrix}\\)"
+          ],
+          "explanation": "Both sides of \\(\\overline{u-v}=\\bar u-\\bar v\\) evaluate to \\(\\begin{bmatrix}2 + 5 i\\\\- 2 i\\\\-4 + 6 i\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Conjugate each coordinate by replacing i with −i.",
+            "Both sides of \\(\\overline{u-v}=\\bar u-\\bar v\\) evaluate to \\(\\begin{bmatrix}2 + 5 i\\\\- 2 i\\\\-4 + 6 i\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select x solving i x minus 3v equals conjugate u.",
+          "type": "choice",
+          "answer": "\\(x=\\begin{bmatrix}7 - 6 i\\\\4 i \\left(-2 + i\\right)\\\\6 - 12 i\\end{bmatrix}\\)",
+          "options": [
+            "\\(x=\\begin{bmatrix}7 - 6 i\\\\4 i \\left(-2 + i\\right)\\\\6 - 12 i\\end{bmatrix}\\)",
+            "\\(x=\\begin{bmatrix}8 - 6 i\\\\4 i \\left(-2 + i\\right)\\\\6 - 12 i\\end{bmatrix}\\)",
+            "\\(x=\\begin{bmatrix}6 - 6 i\\\\4 i \\left(-2 + i\\right)\\\\6 - 12 i\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(x=\\begin{bmatrix}7 - 6 i\\\\4 i \\left(-2 + i\\right)\\\\6 - 12 i\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Move 3v to the right: \\(ix=\\bar u+3v\\).",
+            "Divide by i, equivalently multiply by −i.",
+            "\\(x=\\begin{bmatrix}7 - 6 i\\\\4 i \\left(-2 + i\\right)\\\\6 - 12 i\\end{bmatrix}\\)"
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select all five requested quantities.",
+          "type": "choice",
+          "answer": "\\(\\bar A=\\begin{bmatrix}5 i & 4\\\\2 + i & 1 - 5 i\\end{bmatrix},\\operatorname{Re}A=\\begin{bmatrix}0 & 4\\\\2 & 1\\end{bmatrix},\\operatorname{Im}A=\\begin{bmatrix}-5 & 0\\\\-1 & 5\\end{bmatrix},\\det A=17 - i,\\operatorname{tr}A=1\\)",
+          "options": [
+            "\\(\\bar A=\\begin{bmatrix}5 i & 4\\\\2 + i & 1 - 5 i\\end{bmatrix},\\operatorname{Re}A=\\begin{bmatrix}0 & 4\\\\2 & 1\\end{bmatrix},\\operatorname{Im}A=\\begin{bmatrix}-5 & 0\\\\-1 & 5\\end{bmatrix},\\det A=17 - i,\\operatorname{tr}A=1\\)",
+            "\\(\\bar A=\\begin{bmatrix}6 i & 4\\\\2 + i & 1 - 5 i\\end{bmatrix},\\operatorname{Re}A=\\begin{bmatrix}0 & 4\\\\2 & 1\\end{bmatrix},\\operatorname{Im}A=\\begin{bmatrix}-5 & 0\\\\-1 & 5\\end{bmatrix},\\det A=17 - i,\\operatorname{tr}A=1\\)",
+            "\\(\\bar A=\\begin{bmatrix}4 i & 4\\\\2 + i & 1 - 5 i\\end{bmatrix},\\operatorname{Re}A=\\begin{bmatrix}0 & 4\\\\2 & 1\\end{bmatrix},\\operatorname{Im}A=\\begin{bmatrix}-5 & 0\\\\-1 & 5\\end{bmatrix},\\det A=17 - i,\\operatorname{tr}A=1\\)"
+          ],
+          "explanation": "This gives \\(\\det A=17-i,\\operatorname{tr}A=1\\).",
+          "workedSteps": [
+            "Conjugate and take real/imaginary parts entrywise.",
+            "Use \\(\\det A=a_{11}a_{22}-a_{12}a_{21}\\) and add diagonal entries for trace.",
+            "This gives \\(\\det A=17-i,\\operatorname{tr}A=1\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the common value of double conjugation.",
+          "type": "choice",
+          "answer": "\\(\\overline{\\bar A}=\\begin{bmatrix}- 5 i & 4\\\\2 - i & 1 + 5 i\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\overline{\\bar A}=\\begin{bmatrix}- 5 i & 4\\\\2 - i & 1 + 5 i\\end{bmatrix}\\)",
+            "\\(\\overline{\\bar A}=\\begin{bmatrix}- 6 i & 4\\\\2 - i & 1 + 5 i\\end{bmatrix}\\)",
+            "\\(\\overline{\\bar A}=\\begin{bmatrix}- 4 i & 4\\\\2 - i & 1 + 5 i\\end{bmatrix}\\)"
+          ],
+          "explanation": "Therefore double conjugation returns A.",
+          "workedSteps": [
+            "Each imaginary sign is reversed twice.",
+            "Therefore double conjugation returns A."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the common value of transpose-conjugation.",
+          "type": "choice",
+          "answer": "\\(\\overline{A^T}=\\bar A^T=\\begin{bmatrix}5 i & 2 + i\\\\4 & 1 - 5 i\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\overline{A^T}=\\bar A^T=\\begin{bmatrix}5 i & 2 + i\\\\4 & 1 - 5 i\\end{bmatrix}\\)",
+            "\\(\\overline{A^T}=\\bar A^T=\\begin{bmatrix}6 i & 2 + i\\\\4 & 1 - 5 i\\end{bmatrix}\\)",
+            "\\(\\overline{A^T}=\\bar A^T=\\begin{bmatrix}4 i & 2 + i\\\\4 & 1 - 5 i\\end{bmatrix}\\)"
+          ],
+          "explanation": "The two entrywise operations commute.",
+          "workedSteps": [
+            "Transpose exchanges indices; conjugation changes each scalar.",
+            "The two entrywise operations commute."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the common value of product-conjugation.",
+          "type": "choice",
+          "answer": "\\(\\overline{AB}=\\bar A\\bar B=\\begin{bmatrix}i \\left(-3 + 5 i\\right)\\\\-9 + i\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\overline{AB}=\\bar A\\bar B=\\begin{bmatrix}i \\left(-3 + 5 i\\right)\\\\-9 + i\\end{bmatrix}\\)",
+            "\\(\\overline{AB}=\\bar A\\bar B=\\begin{bmatrix}i \\left(-2 + 5 i\\right)\\\\-9 + i\\end{bmatrix}\\)",
+            "\\(\\overline{AB}=\\bar A\\bar B=\\begin{bmatrix}i \\left(-4 + 5 i\\right)\\\\-9 + i\\end{bmatrix}\\)"
+          ],
+          "explanation": "Distributivity and conjugation of scalar products give the same value as multiplying the conjugated factors.",
+          "workedSteps": [
+            "Multiply A and B first, then conjugate.",
+            "Distributivity and conjugation of scalar products give the same value as multiplying the conjugated factors."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the three pairwise inner products.",
+          "type": "choice",
+          "answer": "\\(u\\cdot v=-1 + i,u\\cdot w=18 - 7 i,v\\cdot w=12 + 6 i\\)",
+          "options": [
+            "\\(u\\cdot v=-1 + i,u\\cdot w=18 - 7 i,v\\cdot w=12 + 6 i\\)",
+            "\\(u\\cdot v=0 + i,u\\cdot w=18 - 7 i,v\\cdot w=12 + 6 i\\)",
+            "\\(u\\cdot v=-2 + i,u\\cdot w=18 - 7 i,v\\cdot w=12 + 6 i\\)"
+          ],
+          "explanation": "\\(u\\cdot v=u^T\\bar v=\\bar v^Tu\\); the same coordinate calculation verifies Formula (5) for the other pairs.",
+          "workedSteps": [
+            "Conjugate the entries of the second vector before multiplying.",
+            "\\(u\\cdot v=u^T\\bar v=\\bar v^Tu\\); the same coordinate calculation verifies Formula (5) for the other pairs."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the common values verifying antisymmetry, distributivity, and homogeneity.",
+          "type": "choice",
+          "answer": "\\(u\\cdot v=\\overline{v\\cdot u}=-1 + i;\\quad u\\cdot(v+w)=17 - 6 i;\\quad(ku)\\cdot v=k(u\\cdot v)=-2 - 2 i\\)",
+          "options": [
+            "\\(u\\cdot v=\\overline{v\\cdot u}=-1 + i;\\quad u\\cdot(v+w)=17 - 6 i;\\quad(ku)\\cdot v=k(u\\cdot v)=-2 - 2 i\\)",
+            "\\(u\\cdot v=\\overline{v\\cdot u}=0 + i;\\quad u\\cdot(v+w)=17 - 6 i;\\quad(ku)\\cdot v=k(u\\cdot v)=-2 - 2 i\\)",
+            "\\(u\\cdot v=\\overline{v\\cdot u}=-2 + i;\\quad u\\cdot(v+w)=17 - 6 i;\\quad(ku)\\cdot v=k(u\\cdot v)=-2 - 2 i\\)"
+          ],
+          "explanation": "Multiplying the first vector by 2i multiplies the product by 2i, yielding \\(-2 - 2 i\\).",
+          "workedSteps": [
+            "Reversing the inner product conjugates \\(-1 + i\\).",
+            "Add \\(-1 + i\\) and \\(18 - 7 i\\) to obtain \\(17 - 6 i\\).",
+            "Multiplying the first vector by 2i multiplies the product by 2i, yielding \\(-2 - 2 i\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the scale factor and rotation angle.",
+          "type": "choice",
+          "answer": "\\(|\\lambda|=\\sqrt2,\\quad\\phi=\\pi/4\\)",
+          "options": [
+            "\\(|\\lambda|=\\sqrt2,\\quad\\phi=\\pi/4\\)",
+            "\\(|\\lambda|=\\sqrt2,\\quad\\phi=\\pi/5\\)",
+            "\\(|\\lambda|=\\sqrt2,\\quad\\phi=\\pi/3\\)"
+          ],
+          "explanation": "Factoring out that length leaves the standard rotation matrix.",
+          "workedSteps": [
+            "The first column (1,1) has length \\(\\sqrt2\\) and angle \\(\\pi/4\\).",
+            "Factoring out that length leaves the standard rotation matrix."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-23": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select an invertible P and real rotation-scaling block C.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}-1 & - \\frac{1}{2}\\\\1 & 0\\end{bmatrix},\\quad C=\\begin{bmatrix}3 & -2\\\\2 & 3\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}-1 & - \\frac{1}{2}\\\\1 & 0\\end{bmatrix},\\quad C=\\begin{bmatrix}3 & -2\\\\2 & 3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}0 & - \\frac{1}{2}\\\\1 & 0\\end{bmatrix},\\quad C=\\begin{bmatrix}3 & -2\\\\2 & 3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}-2 & - \\frac{1}{2}\\\\1 & 0\\end{bmatrix},\\quad C=\\begin{bmatrix}3 & -2\\\\2 & 3\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(PCP^{-1}=A\\) verifies the result.",
+          "workedSteps": [
+            "The eigenvalues are \\(3\\pm2i\\).",
+            "Use the real and negative imaginary parts of an eigenvector for \\(3+2i\\) as columns of P.",
+            "\\(PCP^{-1}=A\\) verifies the result."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-3-33": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the expansion that proves the polarization identity.",
+          "type": "choice",
+          "answer": "\\(\\|u+v\\|^2-\\|u-v\\|^2=4\\operatorname{Re}(u\\cdot v),\\quad\\|u+iv\\|^2-\\|u-iv\\|^2=4\\operatorname{Im}(u\\cdot v)\\)",
+          "options": [
+            "\\(\\|u+v\\|^2-\\|u-v\\|^2=4\\operatorname{Re}(u\\cdot v),\\quad\\|u+iv\\|^2-\\|u-iv\\|^2=4\\operatorname{Im}(u\\cdot v)\\)",
+            "\\(\\|u+v\\|^3-\\|u-v\\|^2=4\\operatorname{Re}(u\\cdot v),\\quad\\|u+iv\\|^2-\\|u-iv\\|^2=4\\operatorname{Im}(u\\cdot v)\\)",
+            "\\(\\|u+v\\|^1-\\|u-v\\|^2=4\\operatorname{Re}(u\\cdot v),\\quad\\|u+iv\\|^2-\\|u-iv\\|^2=4\\operatorname{Im}(u\\cdot v)\\)"
+          ],
+          "explanation": "Divide the first difference by 4 and add i times the second divided by 4 to recover \\(u\\cdot v\\).",
+          "workedSteps": [
+            "Expand each squared norm using the inner product, conjugating scalars in its second slot.",
+            "The diagonal terms cancel in each difference. The first difference isolates four times the real part; the second isolates four times the imaginary part.",
+            "Divide the first difference by 4 and add i times the second divided by 4 to recover \\(u\\cdot v\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the general solution (arbitrary constants C).",
+          "type": "choice",
+          "answer": "\\(y(t)=\\begin{bmatrix}\\left(- 2 C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\\\\\left(C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\end{bmatrix}\\)",
+          "options": [
+            "\\(y(t)=\\begin{bmatrix}\\left(- 2 C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\\\\\left(C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{t}\\begin{bmatrix}\\left(- 2 C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\\\\\left(C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{-t}\\begin{bmatrix}\\left(- 2 C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\\\\\left(C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Integrating gives \\(z_i=C_i e^{\\lambda_i t}\\) and \\(y=\\begin{bmatrix}\\left(- 2 C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\\\\\left(C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The eigenvector matrix and diagonal matrix are \\(P=\\begin{bmatrix}-2 & 1\\\\1 & 1\\end{bmatrix},D=\\begin{bmatrix}-1 & 0\\\\0 & 5\\end{bmatrix}\\).",
+            "Put \\(y=Pz\\) to obtain \\(z_i^\\prime=\\lambda_i z_i\\).",
+            "Integrating gives \\(z_i=C_i e^{\\lambda_i t}\\) and \\(y=\\begin{bmatrix}\\left(- 2 C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\\\\\left(C_{1} + C_{2} e^{6 t}\\right) e^{- t}\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the solution satisfying the initial conditions.",
+          "type": "choice",
+          "answer": "\\(y(t)=\\begin{bmatrix}0\\\\0\\end{bmatrix}\\)",
+          "options": [
+            "\\(y(t)=\\begin{bmatrix}0\\\\0\\end{bmatrix}\\)",
+            "\\(y(t)=\\begin{bmatrix}1\\\\0\\end{bmatrix}\\)",
+            "\\(y(t)=\\begin{bmatrix}0\\\\1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Substitute into the general solution: \\(y(t)=\\begin{bmatrix}0\\\\0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "At t=0 solve \\(Pc=y(0)\\).",
+            "This gives \\(c=\\begin{bmatrix}0\\\\0\\end{bmatrix}\\).",
+            "Substitute into the general solution: \\(y(t)=\\begin{bmatrix}0\\\\0\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the general solution (arbitrary constants C).",
+          "type": "choice",
+          "answer": "\\(y(t)=\\begin{bmatrix}\\left(- C_{2} - C_{3} e^{t}\\right) e^{2 t}\\\\\\left(C_{1} + 2 C_{2} e^{t} + C_{3} e^{2 t}\\right) e^{t}\\\\\\left(2 C_{2} + C_{3} e^{t}\\right) e^{2 t}\\end{bmatrix}\\)",
+          "options": [
+            "\\(y(t)=\\begin{bmatrix}\\left(- C_{2} - C_{3} e^{t}\\right) e^{2 t}\\\\\\left(C_{1} + 2 C_{2} e^{t} + C_{3} e^{2 t}\\right) e^{t}\\\\\\left(2 C_{2} + C_{3} e^{t}\\right) e^{2 t}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{t}\\begin{bmatrix}\\left(- C_{2} - C_{3} e^{t}\\right) e^{2 t}\\\\\\left(C_{1} + 2 C_{2} e^{t} + C_{3} e^{2 t}\\right) e^{t}\\\\\\left(2 C_{2} + C_{3} e^{t}\\right) e^{2 t}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{-t}\\begin{bmatrix}\\left(- C_{2} - C_{3} e^{t}\\right) e^{2 t}\\\\\\left(C_{1} + 2 C_{2} e^{t} + C_{3} e^{2 t}\\right) e^{t}\\\\\\left(2 C_{2} + C_{3} e^{t}\\right) e^{2 t}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Integrating gives \\(z_i=C_i e^{\\lambda_i t}\\) and \\(y=\\begin{bmatrix}\\left(- C_{2} - C_{3} e^{t}\\right) e^{2 t}\\\\\\left(C_{1} + 2 C_{2} e^{t} + C_{3} e^{2 t}\\right) e^{t}\\\\\\left(2 C_{2} + C_{3} e^{t}\\right) e^{2 t}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The eigenvector matrix and diagonal matrix are \\(P=\\begin{bmatrix}0 & -1 & -1\\\\1 & 2 & 1\\\\0 & 2 & 1\\end{bmatrix},D=\\begin{bmatrix}1 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 3\\end{bmatrix}\\).",
+            "Put \\(y=Pz\\) to obtain \\(z_i^\\prime=\\lambda_i z_i\\).",
+            "Integrating gives \\(z_i=C_i e^{\\lambda_i t}\\) and \\(y=\\begin{bmatrix}\\left(- C_{2} - C_{3} e^{t}\\right) e^{2 t}\\\\\\left(C_{1} + 2 C_{2} e^{t} + C_{3} e^{2 t}\\right) e^{t}\\\\\\left(2 C_{2} + C_{3} e^{t}\\right) e^{2 t}\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the solution satisfying the initial conditions.",
+          "type": "choice",
+          "answer": "\\(y(t)=\\begin{bmatrix}\\left(1 - 2 e^{t}\\right) e^{2 t}\\\\\\left(2 e^{2 t} - 2 e^{t} + 1\\right) e^{t}\\\\2 \\left(e^{t} - 1\\right) e^{2 t}\\end{bmatrix}\\)",
+          "options": [
+            "\\(y(t)=\\begin{bmatrix}\\left(1 - 2 e^{t}\\right) e^{2 t}\\\\\\left(2 e^{2 t} - 2 e^{t} + 1\\right) e^{t}\\\\2 \\left(e^{t} - 1\\right) e^{2 t}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{t}\\begin{bmatrix}\\left(1 - 2 e^{t}\\right) e^{2 t}\\\\\\left(2 e^{2 t} - 2 e^{t} + 1\\right) e^{t}\\\\2 \\left(e^{t} - 1\\right) e^{2 t}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{-t}\\begin{bmatrix}\\left(1 - 2 e^{t}\\right) e^{2 t}\\\\\\left(2 e^{2 t} - 2 e^{t} + 1\\right) e^{t}\\\\2 \\left(e^{t} - 1\\right) e^{2 t}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Substitute into the general solution: \\(y(t)=\\begin{bmatrix}\\left(1 - 2 e^{t}\\right) e^{2 t}\\\\\\left(2 e^{2 t} - 2 e^{t} + 1\\right) e^{t}\\\\2 \\left(e^{t} - 1\\right) e^{2 t}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "At t=0 solve \\(Pc=y(0)\\).",
+            "This gives \\(c=\\begin{bmatrix}1\\\\-1\\\\2\\end{bmatrix}\\).",
+            "Substitute into the general solution: \\(y(t)=\\begin{bmatrix}\\left(1 - 2 e^{t}\\right) e^{2 t}\\\\\\left(2 e^{2 t} - 2 e^{t} + 1\\right) e^{t}\\\\2 \\left(e^{t} - 1\\right) e^{2 t}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the general solution (arbitrary constants C).",
+          "type": "choice",
+          "answer": "\\(y(t)=\\begin{bmatrix}\\left(- C_{1} - C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{1} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\end{bmatrix}\\)",
+          "options": [
+            "\\(y(t)=\\begin{bmatrix}\\left(- C_{1} - C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{1} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{t}\\begin{bmatrix}\\left(- C_{1} - C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{1} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{-t}\\begin{bmatrix}\\left(- C_{1} - C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{1} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Integrating gives \\(z_i=C_i e^{\\lambda_i t}\\) and \\(y=\\begin{bmatrix}\\left(- C_{1} - C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{1} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The eigenvector matrix and diagonal matrix are \\(P=\\begin{bmatrix}-1 & -1 & 1\\\\1 & 0 & 1\\\\0 & 1 & 1\\end{bmatrix},D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 8\\end{bmatrix}\\).",
+            "Put \\(y=Pz\\) to obtain \\(z_i^\\prime=\\lambda_i z_i\\).",
+            "Integrating gives \\(z_i=C_i e^{\\lambda_i t}\\) and \\(y=\\begin{bmatrix}\\left(- C_{1} - C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{1} + C_{3} e^{6 t}\\right) e^{2 t}\\\\\\left(C_{2} + C_{3} e^{6 t}\\right) e^{2 t}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-18": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the general solution (arbitrary constants C).",
+          "type": "choice",
+          "answer": "\\(y(t)=\\begin{bmatrix}- \\frac{C_{1} \\left(3 + \\sqrt{33}\\right) e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}}}{4} - \\frac{C_{2} \\left(3 - \\sqrt{33}\\right) e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}}{4}\\\\C_{1} e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}} + C_{2} e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}\\end{bmatrix}\\)",
+          "options": [
+            "\\(y(t)=\\begin{bmatrix}- \\frac{C_{1} \\left(3 + \\sqrt{33}\\right) e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}}}{4} - \\frac{C_{2} \\left(3 - \\sqrt{33}\\right) e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}}{4}\\\\C_{1} e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}} + C_{2} e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{t}\\begin{bmatrix}- \\frac{C_{1} \\left(3 + \\sqrt{33}\\right) e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}}}{4} - \\frac{C_{2} \\left(3 - \\sqrt{33}\\right) e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}}{4}\\\\C_{1} e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}} + C_{2} e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{-t}\\begin{bmatrix}- \\frac{C_{1} \\left(3 + \\sqrt{33}\\right) e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}}}{4} - \\frac{C_{2} \\left(3 - \\sqrt{33}\\right) e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}}{4}\\\\C_{1} e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}} + C_{2} e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Integrating gives \\(z_i=C_i e^{\\lambda_i t}\\) and \\(y=\\begin{bmatrix}- \\frac{C_{1} \\left(3 + \\sqrt{33}\\right) e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}}}{4} - \\frac{C_{2} \\left(3 - \\sqrt{33}\\right) e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}}{4}\\\\C_{1} e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}} + C_{2} e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The eigenvector matrix and diagonal matrix are \\(P=\\begin{bmatrix}- \\frac{\\sqrt{33}}{4} - \\frac{3}{4} & - \\frac{3}{4} + \\frac{\\sqrt{33}}{4}\\\\1 & 1\\end{bmatrix},D=\\begin{bmatrix}\\frac{5}{2} - \\frac{\\sqrt{33}}{2} & 0\\\\0 & \\frac{5}{2} + \\frac{\\sqrt{33}}{2}\\end{bmatrix}\\).",
+            "Put \\(y=Pz\\) to obtain \\(z_i^\\prime=\\lambda_i z_i\\).",
+            "Integrating gives \\(z_i=C_i e^{\\lambda_i t}\\) and \\(y=\\begin{bmatrix}- \\frac{C_{1} \\left(3 + \\sqrt{33}\\right) e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}}}{4} - \\frac{C_{2} \\left(3 - \\sqrt{33}\\right) e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}}{4}\\\\C_{1} e^{\\frac{t \\left(5 - \\sqrt{33}\\right)}{2}} + C_{2} e^{\\frac{t \\left(5 + \\sqrt{33}\\right)}{2}}\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the solution satisfying the initial conditions.",
+          "type": "choice",
+          "answer": "\\(y(t)=\\begin{bmatrix}\\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{2} - \\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{2}\\\\3 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}} + \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{33} - \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{33} + 3 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}\\end{bmatrix}\\)",
+          "options": [
+            "\\(y(t)=\\begin{bmatrix}\\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{2} - \\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{2}\\\\3 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}} + \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{33} - \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{33} + 3 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{t}\\begin{bmatrix}\\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{2} - \\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{2}\\\\3 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}} + \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{33} - \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{33} + 3 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}\\end{bmatrix}\\)",
+            "\\(y(t)=e^{-t}\\begin{bmatrix}\\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{2} - \\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{2}\\\\3 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}} + \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{33} - \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{33} + 3 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Substitute into the general solution: \\(y(t)=\\begin{bmatrix}\\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{2} - \\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{2}\\\\3 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}} + \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{33} - \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{33} + 3 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "At t=0 solve \\(Pc=y(0)\\).",
+            "This gives \\(c=\\begin{bmatrix}\\frac{5 \\left(- 2 \\sqrt{33} - 6\\right)}{3 \\sqrt{33} + 33} + \\frac{18}{\\frac{3 \\sqrt{33}}{4} + \\frac{33}{4}}\\\\3 + \\frac{19 \\sqrt{33}}{33}\\end{bmatrix}\\).",
+            "Substitute into the general solution: \\(y(t)=\\begin{bmatrix}\\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{2} - \\frac{7 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{22} + \\frac{5 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{2}\\\\3 e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}} + \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{\\frac{\\sqrt{33} t}{2}}}{33} - \\frac{19 \\sqrt{33} e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}}{33} + 3 e^{\\frac{5 t}{2}} e^{- \\frac{\\sqrt{33} t}{2}}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the component formula proving the claim.",
+          "type": "choice",
+          "answer": "\\(y_i(t)=\\sum_{j=1}^n p_{ij}C_j e^{\\lambda_jt}\\)",
+          "options": [
+            "\\(y_i(t)=\\sum_{j=1}^n p_{ij}C_j e^{\\lambda_jt}\\)",
+            "\\(y_i(t)=\\sum_{j=2}^n p_{ij}C_j e^{\\lambda_jt}\\)",
+            "\\(y_i(t)=\\sum_{j=0}^n p_{ij}C_j e^{\\lambda_jt}\\)"
+          ],
+          "explanation": "Multiplying by P gives the stated component formula.",
+          "workedSteps": [
+            "Write \\(A=PDP^{-1}\\) and \\(z=P^{-1}y\\).",
+            "Then \\(z^\\prime=Dz\\) so \\(z_j=C_j e^{\\lambda_jt}\\).",
+            "Multiplying by P gives the stated component formula."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the first-order system and full solution, including the original y.",
+          "type": "choice",
+          "answer": "\\(Y^\\prime=\\begin{bmatrix}0 & 1\\\\6 & 1\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{- 2 t} + C_{2} e^{3 t}\\\\- 2 C_{1} e^{- 2 t} + 3 C_{2} e^{3 t}\\end{bmatrix}\\)",
+          "options": [
+            "\\(Y^\\prime=\\begin{bmatrix}0 & 1\\\\6 & 1\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{- 2 t} + C_{2} e^{3 t}\\\\- 2 C_{1} e^{- 2 t} + 3 C_{2} e^{3 t}\\end{bmatrix}\\)",
+            "\\(Y^\\prime=\\begin{bmatrix}1 & 1\\\\6 & 1\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{- 2 t} + C_{2} e^{3 t}\\\\- 2 C_{1} e^{- 2 t} + 3 C_{2} e^{3 t}\\end{bmatrix}\\)",
+            "\\(Y^\\prime=\\begin{bmatrix}-1 & 1\\\\6 & 1\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{- 2 t} + C_{2} e^{3 t}\\\\- 2 C_{1} e^{- 2 t} + 3 C_{2} e^{3 t}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Each root contributes an exponential; the first component gives \\(y=C_{1} e^{- 2 t} + C_{2} e^{3 t}\\).",
+          "workedSteps": [
+            "Set \\(Y=(y,y^\\prime)^T\\).",
+            "The companion matrix has characteristic roots \\(-2,3\\).",
+            "Each root contributes an exponential; the first component gives \\(y=C_{1} e^{- 2 t} + C_{2} e^{3 t}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the first-order system and full solution, including the original y.",
+          "type": "choice",
+          "answer": "\\(Y^\\prime=\\begin{bmatrix}0 & 1\\\\12 & -1\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{- 4 t} + C_{2} e^{3 t}\\\\- 4 C_{1} e^{- 4 t} + 3 C_{2} e^{3 t}\\end{bmatrix}\\)",
+          "options": [
+            "\\(Y^\\prime=\\begin{bmatrix}0 & 1\\\\12 & -1\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{- 4 t} + C_{2} e^{3 t}\\\\- 4 C_{1} e^{- 4 t} + 3 C_{2} e^{3 t}\\end{bmatrix}\\)",
+            "\\(Y^\\prime=\\begin{bmatrix}1 & 1\\\\12 & -1\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{- 4 t} + C_{2} e^{3 t}\\\\- 4 C_{1} e^{- 4 t} + 3 C_{2} e^{3 t}\\end{bmatrix}\\)",
+            "\\(Y^\\prime=\\begin{bmatrix}-1 & 1\\\\12 & -1\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{- 4 t} + C_{2} e^{3 t}\\\\- 4 C_{1} e^{- 4 t} + 3 C_{2} e^{3 t}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Each root contributes an exponential; the first component gives \\(y=C_{1} e^{- 4 t} + C_{2} e^{3 t}\\).",
+          "workedSteps": [
+            "Set \\(Y=(y,y^\\prime)^T\\).",
+            "The companion matrix has characteristic roots \\(-4,3\\).",
+            "Each root contributes an exponential; the first component gives \\(y=C_{1} e^{- 4 t} + C_{2} e^{3 t}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the first-order system and full solution, including the original y.",
+          "type": "choice",
+          "answer": "\\(Y^\\prime=\\begin{bmatrix}0 & 1 & 0\\\\0 & 0 & 1\\\\6 & -11 & 6\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{t} + C_{2} e^{2 t} + C_{3} e^{3 t}\\\\C_{1} e^{t} + 2 C_{2} e^{2 t} + 3 C_{3} e^{3 t}\\\\\\left(C_{1} + 4 C_{2} e^{t} + 9 C_{3} e^{2 t}\\right) e^{t}\\end{bmatrix}\\)",
+          "options": [
+            "\\(Y^\\prime=\\begin{bmatrix}0 & 1 & 0\\\\0 & 0 & 1\\\\6 & -11 & 6\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{t} + C_{2} e^{2 t} + C_{3} e^{3 t}\\\\C_{1} e^{t} + 2 C_{2} e^{2 t} + 3 C_{3} e^{3 t}\\\\\\left(C_{1} + 4 C_{2} e^{t} + 9 C_{3} e^{2 t}\\right) e^{t}\\end{bmatrix}\\)",
+            "\\(Y^\\prime=\\begin{bmatrix}1 & 1 & 0\\\\0 & 0 & 1\\\\6 & -11 & 6\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{t} + C_{2} e^{2 t} + C_{3} e^{3 t}\\\\C_{1} e^{t} + 2 C_{2} e^{2 t} + 3 C_{3} e^{3 t}\\\\\\left(C_{1} + 4 C_{2} e^{t} + 9 C_{3} e^{2 t}\\right) e^{t}\\end{bmatrix}\\)",
+            "\\(Y^\\prime=\\begin{bmatrix}-1 & 1 & 0\\\\0 & 0 & 1\\\\6 & -11 & 6\\end{bmatrix}Y,\\quad Y=\\begin{bmatrix}C_{1} e^{t} + C_{2} e^{2 t} + C_{3} e^{3 t}\\\\C_{1} e^{t} + 2 C_{2} e^{2 t} + 3 C_{3} e^{3 t}\\\\\\left(C_{1} + 4 C_{2} e^{t} + 9 C_{3} e^{2 t}\\right) e^{t}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Each root contributes an exponential; the first component gives \\(y=C_{1} e^{t} + C_{2} e^{2 t} + C_{3} e^{3 t}\\).",
+          "workedSteps": [
+            "Set \\(Y=(y,y^\\prime,y^{\\prime\\prime})^T\\).",
+            "The companion matrix has characteristic roots \\(1,2,3\\).",
+            "Each root contributes an exponential; the first component gives \\(y=C_{1} e^{t} + C_{2} e^{2 t} + C_{3} e^{3 t}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the necessary and sufficient conditions for every solution to tend to zero.",
+          "type": "choice",
+          "answer": "\\(a_{11}+a_{22}<0,\\quad a_{11}a_{22}-a_{12}a_{21}>0\\)",
+          "options": [
+            "\\(a_{11}+a_{22}<0,\\quad a_{11}a_{22}-a_{12}a_{21}>0\\)",
+            "\\(a_{12}+a_{22}<0,\\quad a_{11}a_{22}-a_{12}a_{21}>0\\)",
+            "\\(a_{10}+a_{22}<0,\\quad a_{11}a_{22}-a_{12}a_{21}>0\\)"
+          ],
+          "explanation": "Thus \\(\\operatorname{tr}A<0,\\det A>0\\) exactly characterize asymptotic decay of every solution.",
+          "workedSteps": [
+            "All eigenvalues must have negative real parts.",
+            "For real eigenvalues, a positive product and negative sum make both negative. For a conjugate pair the real part is half the trace, and the determinant is positive.",
+            "Thus \\(\\operatorname{tr}A<0,\\det A>0\\) exactly characterize asymptotic decay of every solution."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the general current-voltage solution.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}i_L(t)\\\\v_C(t)\\end{bmatrix}=\\begin{bmatrix}\\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\\\\\left(- C_{1} \\sin{\\left(t \\right)} + C_{2} \\cos{\\left(t \\right)}\\right) e^{- t} - \\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}i_L(t)\\\\v_C(t)\\end{bmatrix}=\\begin{bmatrix}\\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\\\\\left(- C_{1} \\sin{\\left(t \\right)} + C_{2} \\cos{\\left(t \\right)}\\right) e^{- t} - \\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}i_L(t)\\\\v_C(t)\\end{bmatrix}=e^{t}\\begin{bmatrix}\\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\\\\\left(- C_{1} \\sin{\\left(t \\right)} + C_{2} \\cos{\\left(t \\right)}\\right) e^{- t} - \\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}i_L(t)\\\\v_C(t)\\end{bmatrix}=e^{-t}\\begin{bmatrix}\\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\\\\\left(- C_{1} \\sin{\\left(t \\right)} + C_{2} \\cos{\\left(t \\right)}\\right) e^{- t} - \\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The inductor current is \\(\\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\) and voltage equals its derivative.",
+          "workedSteps": [
+            "Substitute R=1, L=1, C=1/2 to obtain \\(A=\\begin{bmatrix}0 & 1\\\\-2 & -2\\end{bmatrix}\\).",
+            "The characteristic equation \\(\\lambda^2+2\\lambda+2=0\\) gives \\(-1\\pm i\\).",
+            "The inductor current is \\(\\left(C_{1} \\cos{\\left(t \\right)} + C_{2} \\sin{\\left(t \\right)}\\right) e^{- t}\\) and voltage equals its derivative."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the solution for initial current 2 and voltage 1.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}i_L(t)\\\\v_C(t)\\end{bmatrix}=\\begin{bmatrix}\\left(3 \\sin{\\left(t \\right)} + 2 \\cos{\\left(t \\right)}\\right) e^{- t}\\\\\\left(- 5 \\sin{\\left(t \\right)} + \\cos{\\left(t \\right)}\\right) e^{- t}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}i_L(t)\\\\v_C(t)\\end{bmatrix}=\\begin{bmatrix}\\left(3 \\sin{\\left(t \\right)} + 2 \\cos{\\left(t \\right)}\\right) e^{- t}\\\\\\left(- 5 \\sin{\\left(t \\right)} + \\cos{\\left(t \\right)}\\right) e^{- t}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}i_L(t)\\\\v_C(t)\\end{bmatrix}=\\begin{bmatrix}\\left(4 \\sin{\\left(t \\right)} + 2 \\cos{\\left(t \\right)}\\right) e^{- t}\\\\\\left(- 5 \\sin{\\left(t \\right)} + \\cos{\\left(t \\right)}\\right) e^{- t}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}i_L(t)\\\\v_C(t)\\end{bmatrix}=\\begin{bmatrix}\\left(2 \\sin{\\left(t \\right)} + 2 \\cos{\\left(t \\right)}\\right) e^{- t}\\\\\\left(- 5 \\sin{\\left(t \\right)} + \\cos{\\left(t \\right)}\\right) e^{- t}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Initial voltage is \\(-C_1+C_2=1\\), hence \\(C_2=3\\).",
+          "workedSteps": [
+            "Initial current gives \\(C_1=2\\).",
+            "Initial voltage is \\(-C_1+C_2=1\\), hence \\(C_2=3\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the long-term behavior.",
+          "type": "choice",
+          "answer": "Both current and voltage tend to zero.",
+          "options": [
+            "Both current and voltage tend to zero.",
+            "Both oscillate with constant nonzero amplitude.",
+            "Both grow without bound."
+          ],
+          "explanation": "The common factor \\(e^{-t}\\) tends to zero, so both components decay.",
+          "workedSteps": [
+            "Sine and cosine remain bounded.",
+            "The common factor \\(e^{-t}\\) tends to zero, so both components decay."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-4-14": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the linearity identity.",
+          "type": "choice",
+          "answer": "\\(L(af+bg)=aL(f)+bL(g)\\)",
+          "options": [
+            "\\(L(af+bg)=aL(f)+bL(g)\\)",
+            "\\(L(af+bg)\\ne aL(f)+bL(g)\\)",
+            "\\(L(af+bg)=-aL(f)+bL(g)\\)"
+          ],
+          "explanation": "Distribute the constants through \\((af+bg)^{\\prime\\prime}+2(af+bg)^\\prime-3(af+bg)\\) to obtain the identity.",
+          "workedSteps": [
+            "Differentiation is linear in each order.",
+            "Distribute the constants through \\((af+bg)^{\\prime\\prime}+2(af+bg)^\\prime-3(af+bg)\\) to obtain the identity."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the general solution of L(y)=0.",
+          "type": "choice",
+          "answer": "\\(y=C_1e^t+C_2e^{-3t}\\)",
+          "options": [
+            "\\(y=C_1e^t+C_2e^{-3t}\\)",
+            "\\(y=C_1e^t+C_2e^{3t}\\)",
+            "\\(y=C_1e^{-t}+C_2e^{-3t}\\)"
+          ],
+          "explanation": "Its characteristic polynomial \\(r^2+2r-3=(r-1)(r+3)\\) gives rates 1 and −3.",
+          "workedSteps": [
+            "With \\(Y=(y,y^\\prime)^T\\), the matrix is \\(\\begin{bmatrix}0&1\\\\3&-2\\end{bmatrix}\\).",
+            "Its characteristic polynomial \\(r^2+2r-3=(r-1)(r+3)\\) gives rates 1 and −3."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Is matrix (a) stochastic?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "Each column sums to 1.",
+          "workedSteps": [
+            "All entries are nonnegative.",
+            "Each column sums to 1."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select why matrix (b) is not stochastic.",
+          "type": "choice",
+          "answer": "Its column sums are 0.7 and 1.3.",
+          "options": [
+            "Its column sums are 0.7 and 1.3.",
+            "It has a negative entry.",
+            "It is stochastic because its rows sum to 1."
+          ],
+          "explanation": "Column 2 sums to \\(0.6+0.7=1.3\\).",
+          "workedSteps": [
+            "Column 1 sums to \\(0.4+0.3=0.7\\).",
+            "Column 2 sums to \\(0.6+0.7=1.3\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Is matrix (c) stochastic?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "Its column sums are 1, 1/2+1/2=1, and 1/3+1/3+1/3=1.",
+          "workedSteps": [
+            "All fractions are nonnegative.",
+            "Its column sums are 1, 1/2+1/2=1, and 1/3+1/3+1/3=1."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Select why matrix (d) is not stochastic.",
+          "type": "choice",
+          "answer": "It contains the negative entry −1/2.",
+          "options": [
+            "It contains the negative entry −1/2.",
+            "Its first column sums to 2.",
+            "It is stochastic because its columns sum to 1."
+          ],
+          "explanation": "The negative entry violates the nonnegativity requirement.",
+          "workedSteps": [
+            "Each column does sum to 1.",
+            "The negative entry violates the nonnegativity requirement."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the fourth state vector obtained by both methods.",
+          "type": "choice",
+          "answer": "\\(x_4=\\begin{bmatrix}\\frac{10909}{20000}\\\\\\frac{9091}{20000}\\end{bmatrix}\\)",
+          "options": [
+            "\\(x_4=\\begin{bmatrix}\\frac{10909}{20000}\\\\\\frac{9091}{20000}\\end{bmatrix}\\)",
+            "\\(x_4=\\begin{bmatrix}\\frac{10910}{20000}\\\\\\frac{9091}{20000}\\end{bmatrix}\\)",
+            "\\(x_4=\\begin{bmatrix}\\frac{10908}{20000}\\\\\\frac{9091}{20000}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Multiplying \\(P^4x_0\\) gives the same \\(x_4=\\begin{bmatrix}\\frac{10909}{20000}\\\\\\frac{9091}{20000}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Successive multiplication \\(x_{k+1}=Px_k\\) gives \\(x_1=\\begin{bmatrix}\\frac{11}{20}\\\\\\frac{9}{20}\\end{bmatrix};x_2=\\begin{bmatrix}\\frac{109}{200}\\\\\\frac{91}{200}\\end{bmatrix};x_3=\\begin{bmatrix}\\frac{1091}{2000}\\\\\\frac{909}{2000}\\end{bmatrix};x_4=\\begin{bmatrix}\\frac{10909}{20000}\\\\\\frac{9091}{20000}\\end{bmatrix}\\).",
+            "Directly compute \\(P^4=\\begin{bmatrix}\\frac{1091}{2000} & \\frac{2727}{5000}\\\\\\frac{909}{2000} & \\frac{2273}{5000}\\end{bmatrix}\\).",
+            "Multiplying \\(P^4x_0\\) gives the same \\(x_4=\\begin{bmatrix}\\frac{10909}{20000}\\\\\\frac{9091}{20000}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Is matrix (a) regular stochastic?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "The first power itself proves regularity.",
+          "workedSteps": [
+            "Every entry is already positive, and each column sums to 1.",
+            "The first power itself proves regularity."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Is matrix (b) regular stochastic?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes"
+          ],
+          "explanation": "The upper-right entry remains zero in every power, so no power is strictly positive.",
+          "workedSteps": [
+            "The second state is absorbing.",
+            "The upper-right entry remains zero in every power, so no power is strictly positive."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Is matrix (c) regular stochastic?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "Every entry of the second power is positive.",
+          "workedSteps": [
+            "\\(P^2=\\begin{bmatrix}\\frac{21}{25}&\\frac{1}{5}\\\\4/25&\\frac{4}{5}\\end{bmatrix}\\).",
+            "Every entry of the second power is positive."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the regularity verification and steady-state vector.",
+          "type": "choice",
+          "answer": "\\(P^2=\\begin{bmatrix}\\frac{9}{16} & \\frac{7}{18}\\\\\\frac{7}{16} & \\frac{11}{18}\\end{bmatrix},\\quad q=\\begin{bmatrix}\\frac{8}{17}\\\\\\frac{9}{17}\\end{bmatrix}\\)",
+          "options": [
+            "\\(P^2=\\begin{bmatrix}\\frac{9}{16} & \\frac{7}{18}\\\\\\frac{7}{16} & \\frac{11}{18}\\end{bmatrix},\\quad q=\\begin{bmatrix}\\frac{8}{17}\\\\\\frac{9}{17}\\end{bmatrix}\\)",
+            "\\(P^3=\\begin{bmatrix}\\frac{9}{16} & \\frac{7}{18}\\\\\\frac{7}{16} & \\frac{11}{18}\\end{bmatrix},\\quad q=\\begin{bmatrix}\\frac{8}{17}\\\\\\frac{9}{17}\\end{bmatrix}\\)",
+            "\\(P^1=\\begin{bmatrix}\\frac{9}{16} & \\frac{7}{18}\\\\\\frac{7}{16} & \\frac{11}{18}\\end{bmatrix},\\quad q=\\begin{bmatrix}\\frac{8}{17}\\\\\\frac{9}{17}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The unique probability vector is \\(q=\\begin{bmatrix}\\frac{8}{17}\\\\\\frac{9}{17}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The columns sum to 1, entries are nonnegative, and every entry of the displayed second power is positive.",
+            "Solve \\((P-I)q=0\\) together with \\(\\sum q_i=1\\).",
+            "The unique probability vector is \\(q=\\begin{bmatrix}\\frac{8}{17}\\\\\\frac{9}{17}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-10": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the regularity verification and steady-state vector.",
+          "type": "choice",
+          "answer": "\\(P^2=\\begin{bmatrix}\\frac{17}{45} & \\frac{13}{48} & \\frac{47}{150}\\\\\\frac{4}{15} & \\frac{9}{16} & \\frac{19}{50}\\\\\\frac{16}{45} & \\frac{1}{6} & \\frac{23}{75}\\end{bmatrix},\\quad q=\\begin{bmatrix}\\frac{6}{19}\\\\\\frac{8}{19}\\\\\\frac{5}{19}\\end{bmatrix}\\)",
+          "options": [
+            "\\(P^2=\\begin{bmatrix}\\frac{17}{45} & \\frac{13}{48} & \\frac{47}{150}\\\\\\frac{4}{15} & \\frac{9}{16} & \\frac{19}{50}\\\\\\frac{16}{45} & \\frac{1}{6} & \\frac{23}{75}\\end{bmatrix},\\quad q=\\begin{bmatrix}\\frac{6}{19}\\\\\\frac{8}{19}\\\\\\frac{5}{19}\\end{bmatrix}\\)",
+            "\\(P^3=\\begin{bmatrix}\\frac{17}{45} & \\frac{13}{48} & \\frac{47}{150}\\\\\\frac{4}{15} & \\frac{9}{16} & \\frac{19}{50}\\\\\\frac{16}{45} & \\frac{1}{6} & \\frac{23}{75}\\end{bmatrix},\\quad q=\\begin{bmatrix}\\frac{6}{19}\\\\\\frac{8}{19}\\\\\\frac{5}{19}\\end{bmatrix}\\)",
+            "\\(P^1=\\begin{bmatrix}\\frac{17}{45} & \\frac{13}{48} & \\frac{47}{150}\\\\\\frac{4}{15} & \\frac{9}{16} & \\frac{19}{50}\\\\\\frac{16}{45} & \\frac{1}{6} & \\frac{23}{75}\\end{bmatrix},\\quad q=\\begin{bmatrix}\\frac{6}{19}\\\\\\frac{8}{19}\\\\\\frac{5}{19}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The unique probability vector is \\(q=\\begin{bmatrix}\\frac{6}{19}\\\\\\frac{8}{19}\\\\\\frac{5}{19}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The columns sum to 1, entries are nonnegative, and every entry of the displayed second power is positive.",
+            "Solve \\((P-I)q=0\\) together with \\(\\sum q_i=1\\).",
+            "The unique probability vector is \\(q=\\begin{bmatrix}\\frac{6}{19}\\\\\\frac{8}{19}\\\\\\frac{5}{19}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "What does entry 0.2 represent?",
+          "type": "choice",
+          "answer": "The probability of state 1 next, given state 1 now.",
+          "options": [
+            "The probability of state 1 next, given state 1 now.",
+            "The probability of state 2 next, given state 1 now.",
+            "The probability of state 1 next, given state 2 now."
+          ],
+          "explanation": "Entry (1,1) is the probability of remaining in state 1.",
+          "workedSteps": [
+            "Columns are current states; rows are next states.",
+            "Entry (1,1) is the probability of remaining in state 1."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "What does entry 0.1 represent?",
+          "type": "choice",
+          "answer": "The probability of state 1 next, given state 2 now.",
+          "options": [
+            "The probability of state 1 next, given state 2 now.",
+            "The probability of state 2 next, given state 1 now.",
+            "The probability of remaining in state 2."
+          ],
+          "explanation": "Thus the probability of a 2-to-1 transition is 0.1.",
+          "workedSteps": [
+            "Entry (1,2) uses current state 2 and next state 1.",
+            "Thus the probability of a 2-to-1 transition is 0.1."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter the probability of state 2 next from initial state 1.",
+          "type": "numeric",
+          "answer": 0.8,
+          "tolerance": 1e-08,
+          "explanation": "The probability is 0.8.",
+          "workedSteps": [
+            "Read entry (2,1).",
+            "The probability is 0.8."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Enter the probability of state 2 next from a 50–50 initial distribution.",
+          "type": "numeric",
+          "answer": 0.85,
+          "tolerance": 1e-08,
+          "explanation": "The result is 0.85.",
+          "workedSteps": [
+            "Use total probability: \\(0.8(0.5)+0.9(0.5)\\).",
+            "The result is 0.85."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the transition matrix in good,bad order.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}\\frac{19}{20} & \\frac{11}{20}\\\\\\frac{1}{20} & \\frac{9}{20}\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}\\frac{19}{20} & \\frac{11}{20}\\\\\\frac{1}{20} & \\frac{9}{20}\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{20}{20} & \\frac{11}{20}\\\\\\frac{1}{20} & \\frac{9}{20}\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{18}{20} & \\frac{11}{20}\\\\\\frac{1}{20} & \\frac{9}{20}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Place these probabilities in the good row, with complements below.",
+          "workedSteps": [
+            "A good day stays good with probability .95; a bad day becomes good with probability .55.",
+            "Place these probabilities in the good row, with complements below."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter probability of good air two days after a good day.",
+          "type": "numeric",
+          "answer": 0.93,
+          "tolerance": 1e-08,
+          "explanation": "\\(0.95^2+0.55(0.05)=0.93\\)",
+          "workedSteps": [
+            "Use entry (good,good) of \\(P^2\\).",
+            "\\(0.95^2+0.55(0.05)=0.93\\)"
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter probability of bad air three days after a bad day.",
+          "type": "numeric",
+          "answer": 0.142,
+          "tolerance": 1e-08,
+          "explanation": "Matrix multiplication gives \\(\\frac{71}{500}\\).",
+          "workedSteps": [
+            "Use entry (bad,bad) of \\(P^3\\).",
+            "Matrix multiplication gives \\(\\frac{71}{500}\\)."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Enter probability of good air tomorrow.",
+          "type": "numeric",
+          "answer": 0.63,
+          "tolerance": 1e-08,
+          "explanation": "The result is 0.63.",
+          "workedSteps": [
+            "Use \\(0.95(0.2)+0.55(0.8)\\).",
+            "The result is 0.63."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the five-year table (year, city, suburbs).",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & 95750 & 29250\\\\2 & 91840 & 33160\\\\3 & 88243 & 36757\\\\4 & 84933 & 40067\\\\5 & 81889 & 43111\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & 95750 & 29250\\\\2 & 91840 & 33160\\\\3 & 88243 & 36757\\\\4 & 84933 & 40067\\\\5 & 81889 & 43111\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 95750 & 29250\\\\2 & 91840 & 33160\\\\3 & 88243 & 36757\\\\4 & 84933 & 40067\\\\5 & 81889 & 43111\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & 95750 & 29250\\\\2 & 91840 & 33160\\\\3 & 88243 & 36757\\\\4 & 84933 & 40067\\\\5 & 81889 & 43111\\end{bmatrix}\\)"
+          ],
+          "explanation": "The table is \\(\\begin{bmatrix}1 & 95750 & 29250\\\\2 & 91840 & 33160\\\\3 & 88243 & 36757\\\\4 & 84933 & 40067\\\\5 & 81889 & 43111\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Use \\(P=\\begin{bmatrix}\\frac{19}{20} & \\frac{3}{100}\\\\\\frac{1}{20} & \\frac{97}{100}\\end{bmatrix}\\) and initial column \\((100000,25000)^T\\).",
+            "Apply \\(x_k=P^kx_0\\) without intermediate rounding, then round each annual count to the nearest integer.",
+            "The table is \\(\\begin{bmatrix}1 & 95750 & 29250\\\\2 & 91840 & 33160\\\\3 & 88243 & 36757\\\\4 & 84933 & 40067\\\\5 & 81889 & 43111\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the long-term population (city, suburbs).",
+          "type": "choice",
+          "answer": "\\((46875,78125)\\)",
+          "options": [
+            "\\((46875,78125)\\)",
+            "\\((46876,78125)\\)",
+            "\\((46874,78125)\\)"
+          ],
+          "explanation": "Thus populations approach 46875 and 78125.",
+          "workedSteps": [
+            "The equilibrium flow condition is \\(0.05C=0.03S\\).",
+            "Together with \\(C+S=125000\\) this yields city fraction 3/8 and suburb fraction 5/8.",
+            "Thus populations approach 46875 and 78125."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the full sequence and limit.",
+          "type": "choice",
+          "answer": "\\(P^kq=q\\quad\\text{for every }k;\\quad\\lim P^kq=q\\)",
+          "options": [
+            "\\(P^kq=q\\quad\\text{for every }k;\\quad\\lim P^kq=q\\)",
+            "\\(P^kq\\ne q\\quad\\text{for every }k;\\quad\\lim P^kq=q\\)",
+            "\\(P^kq=-q\\quad\\text{for every }k;\\quad\\lim P^kq=q\\)"
+          ],
+          "explanation": "Repeated multiplication preserves q exactly, so the sequence is constant.",
+          "workedSteps": [
+            "A steady-state vector satisfies \\(Pq=q\\).",
+            "Repeated multiplication preserves q exactly, so the sequence is constant."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-5-5-21": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the column-sum calculation proving the product is stochastic.",
+          "type": "choice",
+          "answer": "\\(\\sum_i(AB)_{ij}=\\sum_k(\\sum_i a_{ik})b_{kj}=\\sum_k b_{kj}=1\\)",
+          "options": [
+            "\\(\\sum_i(AB)_{ij}=\\sum_k(\\sum_i a_{ik})b_{kj}=\\sum_k b_{kj}=1\\)",
+            "\\(\\sum_i(AB)_{ij}=\\sum_k(\\sum_i a_{ik})b_{kj}=\\sum_k b_{kj}=2\\)",
+            "\\(\\sum_i(AB)_{ij}=\\sum_k(\\sum_i a_{ik})b_{kj}=\\sum_k b_{kj}=0\\)"
+          ],
+          "explanation": "Thus AB satisfies both requirements for stochasticity.",
+          "workedSteps": [
+            "Every entry of AB is a sum of nonnegative products and is nonnegative.",
+            "Sum a product column, interchange the finite sums, and use each column sum of A, then B, equal to 1.",
+            "Thus AB satisfies both requirements for stochasticity."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the eigenvalues and real-eigenvalue conclusion.",
+          "type": "choice",
+          "answer": "\\(\\lambda=\\cos\\theta\\pm i\\sin\\theta;\\quad\\text{no real eigenvalues}\\)",
+          "options": [
+            "\\(\\lambda=\\cos\\theta\\pm i\\sin\\theta;\\quad\\text{no real eigenvalues}\\)",
+            "\\(\\lambda\\ne \\cos\\theta\\pm i\\sin\\theta;\\quad\\text{no real eigenvalues}\\)",
+            "\\(\\lambda=-\\cos\\theta\\pm i\\sin\\theta;\\quad\\text{no real eigenvalues}\\)"
+          ],
+          "explanation": "Its discriminant is \\(-4\\sin^2\\theta<0\\) for \\(0<\\theta<\\pi\\).",
+          "workedSteps": [
+            "The characteristic polynomial is \\(\\lambda^2-2\\cos\\theta\\lambda+1\\).",
+            "Its discriminant is \\(-4\\sin^2\\theta<0\\) for \\(0<\\theta<\\pi\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the geometric explanation.",
+          "type": "choice",
+          "answer": "The rotation sends no nonzero vector to a parallel vector.",
+          "options": [
+            "The rotation sends no nonzero vector to a parallel vector.",
+            "Every nonzero vector is fixed.",
+            "A rotation always has a zero eigenvalue."
+          ],
+          "explanation": "A rotation through an angle strictly between 0 and π sends every nonzero vector off that line.",
+          "workedSteps": [
+            "A real eigenvector would have to remain on its original line.",
+            "A rotation through an angle strictly between 0 and π sends every nonzero vector off that line."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-2": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select all eigenvalues with algebraic multiplicity.",
+          "type": "choice",
+          "answer": "\\(\\lambda=k\\quad\\text{(multiplicity 3)}\\)",
+          "options": [
+            "\\(\\lambda=k\\quad\\text{(multiplicity 3)}\\)",
+            "\\(\\lambda=k\\quad\\text{(multiplicity 4)}\\)",
+            "\\(\\lambda=k\\quad\\text{(multiplicity 2)}\\)"
+          ],
+          "explanation": "This gives \\((\\lambda-k)^3\\), so all three roots equal k.",
+          "workedSteps": [
+            "Expand \\(\\det(\\lambda I-A)\\).",
+            "This gives \\((\\lambda-k)^3\\), so all three roots equal k."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a square root of nonnegative diagonal D.",
+          "type": "choice",
+          "answer": "\\(S=\\operatorname{diag}(\\sqrt{d_1},\\ldots,\\sqrt{d_n})\\)",
+          "options": [
+            "\\(S=\\operatorname{diag}(\\sqrt{d_1},\\ldots,\\sqrt{d_n})\\)",
+            "\\(S=\\operatorname{diag}(\\sqrt{d_2},\\ldots,\\sqrt{d_n})\\)",
+            "\\(S=\\operatorname{diag}(\\sqrt{d_0},\\ldots,\\sqrt{d_n})\\)"
+          ],
+          "explanation": "All square roots are real because every \\(d_i\\ge0\\).",
+          "workedSteps": [
+            "Squaring a diagonal matrix squares its diagonal entries.",
+            "All square roots are real because every \\(d_i\\ge0\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select a square root of diagonalizable A with nonnegative eigenvalues.",
+          "type": "choice",
+          "answer": "\\(S=P\\operatorname{diag}(\\sqrt{\\lambda_1},\\ldots,\\sqrt{\\lambda_n})P^{-1}\\)",
+          "options": [
+            "\\(S=P\\operatorname{diag}(\\sqrt{\\lambda_1},\\ldots,\\sqrt{\\lambda_n})P^{-1}\\)",
+            "\\(S=P\\operatorname{diag}(\\sqrt{\\lambda_2},\\ldots,\\sqrt{\\lambda_n})P^{-1}\\)",
+            "\\(S=P\\operatorname{diag}(\\sqrt{\\lambda_0},\\ldots,\\sqrt{\\lambda_n})P^{-1}\\)"
+          ],
+          "explanation": "In \\(S^2\\) the middle \\(P^{-1}P\\) cancels, leaving \\(PDP^{-1}=A\\).",
+          "workedSteps": [
+            "Write \\(A=PDP^{-1}\\).",
+            "In \\(S^2\\) the middle \\(P^{-1}P\\) cancels, leaving \\(PDP^{-1}=A\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select one square root of the supplied matrix.",
+          "type": "choice",
+          "answer": "\\(S=\\begin{bmatrix}1 & 1 & 0\\\\0 & 2 & 1\\\\0 & 0 & 3\\end{bmatrix}\\)",
+          "options": [
+            "\\(S=\\begin{bmatrix}1 & 1 & 0\\\\0 & 2 & 1\\\\0 & 0 & 3\\end{bmatrix}\\)",
+            "\\(S=\\begin{bmatrix}2 & 1 & 0\\\\0 & 2 & 1\\\\0 & 0 & 3\\end{bmatrix}\\)",
+            "\\(S=\\begin{bmatrix}0 & 1 & 0\\\\0 & 2 & 1\\\\0 & 0 & 3\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(S^2=\\begin{bmatrix}1 & 3 & 1\\\\0 & 4 & 5\\\\0 & 0 & 9\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Choose diagonal entries 1,2,3.",
+            "The (1,2) and (2,3) entries of the square require \\(3s_{12}=3,5s_{23}=5\\).",
+            "The (1,3) entry requires \\(4s_{13}+s_{12}s_{23}=1\\), hence \\(s_{13}=0\\).",
+            "\\(S^2=\\begin{bmatrix}1 & 3 & 1\\\\0 & 4 & 5\\\\0 & 0 & 9\\end{bmatrix}\\)"
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Are the transposes similar? Select the identity when B=P inverse A P.",
+          "type": "choice",
+          "answer": "\\(B^T=P^TA^T(P^T)^{-1}\\)",
+          "options": [
+            "\\(B^T=P^TA^T(P^T)^{-1}\\)",
+            "\\(B^T=P^TA^T(P^T)^{0}\\)",
+            "\\(B^T=P^TA^T(P^T)^{-2}\\)"
+          ],
+          "explanation": "The displayed expression is a similarity transformation.",
+          "workedSteps": [
+            "Transpose reverses the order of factors.",
+            "The displayed expression is a similarity transformation."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Are the kth powers similar? Select the identity.",
+          "type": "choice",
+          "answer": "\\(B^k=P^{-1}A^kP\\)",
+          "options": [
+            "\\(B^k=P^{-1}A^kP\\)",
+            "\\(B^k=P^{0}A^kP\\)",
+            "\\(B^k=P^{-2}A^kP\\)"
+          ],
+          "explanation": "The same P gives the similarity of powers.",
+          "workedSteps": [
+            "Cancel neighboring \\(PP^{-1}\\) pairs in the product of k copies.",
+            "The same P gives the similarity of powers."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Are the inverses similar when A is invertible? Select the identity.",
+          "type": "choice",
+          "answer": "\\(B^{-1}=P^{-1}A^{-1}P\\)",
+          "options": [
+            "\\(B^{-1}=P^{-1}A^{-1}P\\)",
+            "\\(B^{0}=P^{-1}A^{-1}P\\)",
+            "\\(B^{-2}=P^{-1}A^{-1}P\\)"
+          ],
+          "explanation": "The resulting identity proves similarity.",
+          "workedSteps": [
+            "Invert the product \\(P^{-1}AP\\) in reverse factor order.",
+            "The resulting identity proves similarity."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the coefficient of lambda to n−1 and its determinant argument.",
+          "type": "choice",
+          "answer": "\\(-\\operatorname{tr}(A)=-\\sum_i a_{ii}\\)",
+          "options": [
+            "\\(-\\operatorname{tr}(A)=-\\sum_i a_{ii}\\)",
+            "\\(-\\operatorname{tr}(A)\\ne -\\sum_i a_{ii}\\)",
+            "\\(-\\operatorname{tr}(A)=--\\sum_i a_{ii}\\)"
+          ],
+          "explanation": "Summing these contributions gives minus the trace. Other permutations move at least two indices and have degree at most n−2.",
+          "workedSteps": [
+            "In the determinant expansion, a term with n−1 factors of lambda can only come from the identity permutation.",
+            "Choose one diagonal term \\(-a_{ii}\\) and lambda from the other n−1 diagonal entries.",
+            "Summing these contributions gives minus the trace. Other permutations move at least two indices and have degree at most n−2."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the eigenspace calculation ruling out diagonalization.",
+          "type": "choice",
+          "answer": "\\(p(\\lambda)=(\\lambda-a)^2,\\quad E_a=\\operatorname{span}\\{(1,0)^T\\}\\)",
+          "options": [
+            "\\(p(\\lambda)=(\\lambda-a)^2,\\quad E_a=\\operatorname{span}\\{(1,0)^T\\}\\)",
+            "\\(p(\\lambda)=(\\lambda-a)^3,\\quad E_a=\\operatorname{span}\\{(1,0)^T\\}\\)",
+            "\\(p(\\lambda)=(\\lambda-a)^1,\\quad E_a=\\operatorname{span}\\{(1,0)^T\\}\\)"
+          ],
+          "explanation": "The eigenspace has dimension 1, so there are not two independent eigenvectors.",
+          "workedSteps": [
+            "The only eigenvalue is a with algebraic multiplicity 2.",
+            "The eigenvector equation gives \\(by=0\\). Since b is nonzero, y=0.",
+            "The eigenspace has dimension 1, so there are not two independent eigenvectors."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the verified Cayley–Hamilton identity.",
+          "type": "choice",
+          "answer": "\\(p(\\lambda)=\\lambda^2-5\\lambda;\\quad A^2-5A=0\\)",
+          "options": [
+            "\\(p(\\lambda)=\\lambda^2-5\\lambda;\\quad A^2-5A=0\\)",
+            "\\(p(\\lambda)=\\lambda^3-5\\lambda;\\quad A^2-5A=0\\)",
+            "\\(p(\\lambda)=\\lambda^1-5\\lambda;\\quad A^2-5A=0\\)"
+          ],
+          "explanation": "\\(5A=\\begin{bmatrix}15 & 30\\\\5 & 10\\end{bmatrix}\\) is the same matrix, so subtraction gives zero.",
+          "workedSteps": [
+            "\\(A^2=\\begin{bmatrix}15 & 30\\\\5 & 10\\end{bmatrix}\\).",
+            "\\(5A=\\begin{bmatrix}15 & 30\\\\5 & 10\\end{bmatrix}\\) is the same matrix, so subtraction gives zero."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the verified Cayley–Hamilton identity.",
+          "type": "choice",
+          "answer": "\\(p(\\lambda)=(\\lambda-1)^3;\\quad A^3-3A^2+3A-I=0\\)",
+          "options": [
+            "\\(p(\\lambda)=(\\lambda-1)^3;\\quad A^3-3A^2+3A-I=0\\)",
+            "\\(p(\\lambda)=(\\lambda-2)^3;\\quad A^3-3A^2+3A-I=0\\)",
+            "\\(p(\\lambda)=(\\lambda-0)^3;\\quad A^3-3A^2+3A-I=0\\)"
+          ],
+          "explanation": "Substituting these powers into \\(A^3-3A^2+3A-I\\) produces the zero matrix.",
+          "workedSteps": [
+            "\\(A^2=\\begin{bmatrix}0 & 0 & 1\\\\1 & -3 & 3\\\\3 & -8 & 6\\end{bmatrix}\\) and \\(A^3=\\begin{bmatrix}1 & -3 & 3\\\\3 & -8 & 6\\\\6 & -15 & 10\\end{bmatrix}\\).",
+            "Substituting these powers into \\(A^3-3A^2+3A-I\\) produces the zero matrix."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the 2 by 2 Cayley–Hamilton calculation.",
+          "type": "choice",
+          "answer": "\\(A^2-(a+d)A+(ad-bc)I=0\\quad\\text{for }A=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^2-(a+d)A+(ad-bc)I=0\\quad\\text{for }A=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\)",
+            "\\(A^3-(a+d)A+(ad-bc)I=0\\quad\\text{for }A=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\)",
+            "\\(A^1-(a+d)A+(ad-bc)I=0\\quad\\text{for }A=\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}\\)"
+          ],
+          "explanation": "Multiply A by itself. Each diagonal entry cancels after subtracting (a+d)A and adding (ad−bc)I; the off-diagonal entries cancel as well.",
+          "workedSteps": [
+            "The characteristic polynomial is \\(\\lambda^2-(a+d)\\lambda+ad-bc\\).",
+            "Multiply A by itself. Each diagonal entry cancels after subtracting (a+d)A and adding (ad−bc)I; the off-diagonal entries cancel as well."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the diagonalizable-matrix proof.",
+          "type": "choice",
+          "answer": "\\(p(A)=Pp(D)P^{-1}=P\\operatorname{diag}(p(\\lambda_1),\\ldots,p(\\lambda_n))P^{-1}=0\\)",
+          "options": [
+            "\\(p(A)=Pp(D)P^{-1}=P\\operatorname{diag}(p(\\lambda_1),\\ldots,p(\\lambda_n))P^{-1}=0\\)",
+            "\\(p(A)=Pp(D)P^{0}=P\\operatorname{diag}(p(\\lambda_1),\\ldots,p(\\lambda_n))P^{-1}=0\\)",
+            "\\(p(A)=Pp(D)P^{-2}=P\\operatorname{diag}(p(\\lambda_1),\\ldots,p(\\lambda_n))P^{-1}=0\\)"
+          ],
+          "explanation": "Apply this to every term of p. Each diagonal entry \\(p(\\lambda_i)\\) is zero because each eigenvalue is a root.",
+          "workedSteps": [
+            "For \\(A=PDP^{-1}\\), every power satisfies \\(A^k=PD^kP^{-1}\\).",
+            "Apply this to every term of p. Each diagonal entry \\(p(\\lambda_i)\\) is zero because each eigenvalue is a root."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-9": {
+      "fields": [
+        {
+          "label": "2",
+          "selectionPrompt": "Select \\(A^{2}\\).",
+          "type": "choice",
+          "answer": "\\(A^{2}=\\begin{bmatrix}15 & 30\\\\5 & 10\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^{2}=\\begin{bmatrix}15 & 30\\\\5 & 10\\end{bmatrix}\\)",
+            "\\(A^{3}=\\begin{bmatrix}15 & 30\\\\5 & 10\\end{bmatrix}\\)",
+            "\\(A^{1}=\\begin{bmatrix}15 & 30\\\\5 & 10\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(A^{2}=\\begin{bmatrix}15 & 30\\\\5 & 10\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Use \\(A^2=5A\\) from Cayley–Hamilton.",
+            "Multiply the recurrence by further powers of A and simplify.",
+            "\\(A^{2}=\\begin{bmatrix}15 & 30\\\\5 & 10\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "3",
+          "selectionPrompt": "Select \\(A^{3}\\).",
+          "type": "choice",
+          "answer": "\\(A^{3}=\\begin{bmatrix}75 & 150\\\\25 & 50\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^{3}=\\begin{bmatrix}75 & 150\\\\25 & 50\\end{bmatrix}\\)",
+            "\\(A^{4}=\\begin{bmatrix}75 & 150\\\\25 & 50\\end{bmatrix}\\)",
+            "\\(A^{2}=\\begin{bmatrix}75 & 150\\\\25 & 50\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(A^{3}=\\begin{bmatrix}75 & 150\\\\25 & 50\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Use \\(A^2=5A\\) from Cayley–Hamilton.",
+            "Multiply the recurrence by further powers of A and simplify.",
+            "\\(A^{3}=\\begin{bmatrix}75 & 150\\\\25 & 50\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "4",
+          "selectionPrompt": "Select \\(A^{4}\\).",
+          "type": "choice",
+          "answer": "\\(A^{4}=\\begin{bmatrix}375 & 750\\\\125 & 250\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^{4}=\\begin{bmatrix}375 & 750\\\\125 & 250\\end{bmatrix}\\)",
+            "\\(A^{5}=\\begin{bmatrix}375 & 750\\\\125 & 250\\end{bmatrix}\\)",
+            "\\(A^{3}=\\begin{bmatrix}375 & 750\\\\125 & 250\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(A^{4}=\\begin{bmatrix}375 & 750\\\\125 & 250\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Use \\(A^2=5A\\) from Cayley–Hamilton.",
+            "Multiply the recurrence by further powers of A and simplify.",
+            "\\(A^{4}=\\begin{bmatrix}375 & 750\\\\125 & 250\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "5",
+          "selectionPrompt": "Select \\(A^{5}\\).",
+          "type": "choice",
+          "answer": "\\(A^{5}=\\begin{bmatrix}1875 & 3750\\\\625 & 1250\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^{5}=\\begin{bmatrix}1875 & 3750\\\\625 & 1250\\end{bmatrix}\\)",
+            "\\(A^{6}=\\begin{bmatrix}1875 & 3750\\\\625 & 1250\\end{bmatrix}\\)",
+            "\\(A^{4}=\\begin{bmatrix}1875 & 3750\\\\625 & 1250\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(A^{5}=\\begin{bmatrix}1875 & 3750\\\\625 & 1250\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Use \\(A^2=5A\\) from Cayley–Hamilton.",
+            "Multiply the recurrence by further powers of A and simplify.",
+            "\\(A^{5}=\\begin{bmatrix}1875 & 3750\\\\625 & 1250\\end{bmatrix}\\)"
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-10": {
+      "fields": [
+        {
+          "label": "3",
+          "selectionPrompt": "Select \\(A^{3}\\).",
+          "type": "choice",
+          "answer": "\\(A^{3}=\\begin{bmatrix}1 & -3 & 3\\\\3 & -8 & 6\\\\6 & -15 & 10\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^{3}=\\begin{bmatrix}1 & -3 & 3\\\\3 & -8 & 6\\\\6 & -15 & 10\\end{bmatrix}\\)",
+            "\\(A^{4}=\\begin{bmatrix}1 & -3 & 3\\\\3 & -8 & 6\\\\6 & -15 & 10\\end{bmatrix}\\)",
+            "\\(A^{2}=\\begin{bmatrix}1 & -3 & 3\\\\3 & -8 & 6\\\\6 & -15 & 10\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(A^{3}=\\begin{bmatrix}1 & -3 & 3\\\\3 & -8 & 6\\\\6 & -15 & 10\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Use \\(A^3=3A^2-3A+I\\) from Cayley–Hamilton.",
+            "Multiply the recurrence by further powers of A and simplify.",
+            "\\(A^{3}=\\begin{bmatrix}1 & -3 & 3\\\\3 & -8 & 6\\\\6 & -15 & 10\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "4",
+          "selectionPrompt": "Select \\(A^{4}\\).",
+          "type": "choice",
+          "answer": "\\(A^{4}=\\begin{bmatrix}3 & -8 & 6\\\\6 & -15 & 10\\\\10 & -24 & 15\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^{4}=\\begin{bmatrix}3 & -8 & 6\\\\6 & -15 & 10\\\\10 & -24 & 15\\end{bmatrix}\\)",
+            "\\(A^{5}=\\begin{bmatrix}3 & -8 & 6\\\\6 & -15 & 10\\\\10 & -24 & 15\\end{bmatrix}\\)",
+            "\\(A^{3}=\\begin{bmatrix}3 & -8 & 6\\\\6 & -15 & 10\\\\10 & -24 & 15\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(A^{4}=\\begin{bmatrix}3 & -8 & 6\\\\6 & -15 & 10\\\\10 & -24 & 15\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Use \\(A^3=3A^2-3A+I\\) from Cayley–Hamilton.",
+            "Multiply the recurrence by further powers of A and simplify.",
+            "\\(A^{4}=\\begin{bmatrix}3 & -8 & 6\\\\6 & -15 & 10\\\\10 & -24 & 15\\end{bmatrix}\\)"
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the eigenvalues counted with algebraic multiplicity.",
+          "type": "choice",
+          "answer": "\\(c_1+\\cdots+c_n,\\quad0\\text{ repeated }n-1\\text{ times}\\)",
+          "options": [
+            "\\(c_1+\\cdots+c_n,\\quad0\\text{ repeated }n-1\\text{ times}\\)",
+            "\\(c_2+\\cdots+c_n,\\quad0\\text{ repeated }n-1\\text{ times}\\)",
+            "\\(c_0+\\cdots+c_n,\\quad0\\text{ repeated }n-1\\text{ times}\\)"
+          ],
+          "explanation": "The characteristic polynomial is \\(\\lambda^{n-1}(\\lambda-\\sum c_i)\\). If the sum is zero, all eigenvalues are zero.",
+          "workedSteps": [
+            "Write \\(A=\\mathbf1 c^T\\).",
+            "Then \\(A\\mathbf1=(\\sum c_i)\\mathbf1\\) and every vector in \\(\\ker c^T\\) maps to zero.",
+            "The characteristic polynomial is \\(\\lambda^{n-1}(\\lambda-\\sum c_i)\\). If the sum is zero, all eigenvalues are zero."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-12": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the determinant recurrence proving the companion polynomial.",
+          "type": "choice",
+          "answer": "\\(D_n(\\lambda)=\\lambda D_{n-1}(\\lambda)+c_0,\\quad D_{n-1}=\\lambda^{n-1}+c_{n-1}\\lambda^{n-2}+\\cdots+c_1\\)",
+          "options": [
+            "\\(D_n(\\lambda)=\\lambda D_{n-1}(\\lambda)+c_0,\\quad D_{n-1}=\\lambda^{n-1}+c_{n-1}\\lambda^{n-2}+\\cdots+c_1\\)",
+            "\\(D_n(\\lambda)=\\lambda D_{n-2}(\\lambda)+c_0,\\quad D_{n-1}=\\lambda^{n-1}+c_{n-1}\\lambda^{n-2}+\\cdots+c_1\\)",
+            "\\(D_n(\\lambda)=\\lambda D_{n-0}(\\lambda)+c_0,\\quad D_{n-1}=\\lambda^{n-1}+c_{n-1}\\lambda^{n-2}+\\cdots+c_1\\)"
+          ],
+          "explanation": "Induction therefore yields \\(D_n=\\lambda^n+c_{n-1}\\lambda^{n-1}+\\cdots+c_0\\).",
+          "workedSteps": [
+            "In \\(\\lambda I-C\\), expand along the first row, whose only nonzero entries are lambda and c₀.",
+            "The first minor is the companion determinant with coefficients c₁ through cₙ₋₁. The signed c₀ minor equals c₀.",
+            "Induction therefore yields \\(D_n=\\lambda^n+c_{n-1}\\lambda^{n-1}+\\cdots+c_0\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select a matrix with the requested characteristic polynomial.",
+          "type": "choice",
+          "answer": "\\(C=\\begin{bmatrix}0 & 0 & 0 & -1\\\\1 & 0 & 0 & 2\\\\0 & 1 & 0 & -1\\\\0 & 0 & 1 & -3\\end{bmatrix}\\)",
+          "options": [
+            "\\(C=\\begin{bmatrix}0 & 0 & 0 & -1\\\\1 & 0 & 0 & 2\\\\0 & 1 & 0 & -1\\\\0 & 0 & 1 & -3\\end{bmatrix}\\)",
+            "\\(C=\\begin{bmatrix}1 & 0 & 0 & -1\\\\1 & 0 & 0 & 2\\\\0 & 1 & 0 & -1\\\\0 & 0 & 1 & -3\\end{bmatrix}\\)",
+            "\\(C=\\begin{bmatrix}-1 & 0 & 0 & -1\\\\1 & 0 & 0 & 2\\\\0 & 1 & 0 & -1\\\\0 & 0 & 1 & -3\\end{bmatrix}\\)"
+          ],
+          "explanation": "Direct computation gives \\(\\det(\\lambda I-C)=\\lambda^{4} + 3 \\lambda^{3} + \\lambda^{2} - 2 \\lambda + 1\\).",
+          "workedSteps": [
+            "Put minus the coefficients 1,−2,1,3 in the last column and ones on the subdiagonal.",
+            "Direct computation gives \\(\\det(\\lambda I-C)=\\lambda^{4} + 3 \\lambda^{3} + \\lambda^{2} - 2 \\lambda + 1\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the possible eigenvalues of a nilpotent matrix.",
+          "type": "choice",
+          "answer": "\\(\\lambda=0\\text{ only}\\)",
+          "options": [
+            "\\(\\lambda=0\\text{ only}\\)",
+            "\\(\\lambda=1\\text{ only}\\)",
+            "\\(\\lambda=-1\\text{ only}\\)"
+          ],
+          "explanation": "Nilpotence gives zero on the left. Since v is nonzero, \\(\\lambda^n=0\\), hence \\(\\lambda=0\\).",
+          "workedSteps": [
+            "For an eigenvector v, \\(A^nv=\\lambda^nv\\).",
+            "Nilpotence gives zero on the left. Since v is nonzero, \\(\\lambda^n=0\\), hence \\(\\lambda=0\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-14": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the argument guaranteeing a real eigenvalue.",
+          "type": "choice",
+          "answer": "The real characteristic polynomial has odd degree and therefore a real root.",
+          "options": [
+            "The real characteristic polynomial has odd degree and therefore a real root.",
+            "Every real matrix has only real eigenvalues.",
+            "Every odd-order matrix has determinant zero."
+          ],
+          "explanation": "Continuity gives a real zero, which is a real eigenvalue.",
+          "workedSteps": [
+            "A real matrix has a real monic characteristic polynomial of degree n.",
+            "When n is odd its values tend to opposite infinities at opposite ends of the real line.",
+            "Continuity gives a real zero, which is a real eigenvalue."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the matrix with the given ordered eigenpairs.",
+          "type": "choice",
+          "answer": "\\(A=\\begin{bmatrix}1 & 0 & 0\\\\-1 & - \\frac{1}{2} & - \\frac{1}{2}\\\\1 & - \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(A=\\begin{bmatrix}1 & 0 & 0\\\\-1 & - \\frac{1}{2} & - \\frac{1}{2}\\\\1 & - \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\)",
+            "\\(A=\\begin{bmatrix}2 & 0 & 0\\\\-1 & - \\frac{1}{2} & - \\frac{1}{2}\\\\1 & - \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\)",
+            "\\(A=\\begin{bmatrix}0 & 0 & 0\\\\-1 & - \\frac{1}{2} & - \\frac{1}{2}\\\\1 & - \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Compute \\(A=PDP^{-1}=\\begin{bmatrix}1 & 0 & 0\\\\-1 & - \\frac{1}{2} & - \\frac{1}{2}\\\\1 & - \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\). The identity \\(AP=PD\\) verifies all three pairs.",
+          "workedSteps": [
+            "Place the given eigenvectors in columns: \\(P=\\begin{bmatrix}0 & 1 & 0\\\\1 & -1 & 1\\\\-1 & 1 & 1\\end{bmatrix}\\).",
+            "Their eigenvalues form \\(D=\\begin{bmatrix}0 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & -1\\end{bmatrix}\\).",
+            "Compute \\(A=PDP^{-1}=\\begin{bmatrix}1 & 0 & 0\\\\-1 & - \\frac{1}{2} & - \\frac{1}{2}\\\\1 & - \\frac{1}{2} & - \\frac{1}{2}\\end{bmatrix}\\). The identity \\(AP=PD\\) verifies all three pairs."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-16": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the determinant.",
+          "type": "numeric",
+          "answer": 18.0,
+          "tolerance": 1e-08,
+          "explanation": "This also equals the constant coefficient of the degree-four characteristic polynomial.",
+          "workedSteps": [
+            "Multiply the four eigenvalues: \\(1(-2)(3)(-3)=18\\).",
+            "This also equals the constant coefficient of the degree-four characteristic polynomial."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the trace.",
+          "type": "numeric",
+          "answer": -1.0,
+          "tolerance": 1e-08,
+          "explanation": "The trace is −1.",
+          "workedSteps": [
+            "Add the four eigenvalues: \\(1-2+3-3=-1\\).",
+            "The trace is −1."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-17": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select all possible eigenvalues.",
+          "type": "choice",
+          "answer": "\\(\\lambda\\in\\{-1,0,1\\}\\)",
+          "options": [
+            "\\(\\lambda\\in\\{-1,0,1\\}\\)",
+            "\\(\\lambda\\in\\{0,0,1\\}\\)",
+            "\\(\\lambda\\in\\{-2,0,1\\}\\)"
+          ],
+          "explanation": "This gives \\((\\lambda^3-\\lambda)v=0\\), so \\(\\lambda(\\lambda-1)(\\lambda+1)=0\\).",
+          "workedSteps": [
+            "Apply \\(A^3=A\\) to a nonzero eigenvector.",
+            "This gives \\((\\lambda^3-\\lambda)v=0\\), so \\(\\lambda(\\lambda-1)(\\lambda+1)=0\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the two remaining eigenvalues.",
+          "type": "choice",
+          "answer": "\\(2,3\\)",
+          "options": [
+            "\\(2,3\\)",
+            "\\(3,3\\)",
+            "\\(1,3\\)"
+          ],
+          "explanation": "Thus both are roots of \\(t^2-5t+6=(t-2)(t-3)\\).",
+          "workedSteps": [
+            "Let the remaining values be x,y. The sum condition gives \\(x+y=5\\) and the product condition gives \\(xy=6\\).",
+            "Thus both are roots of \\(t^2-5t+6=(t-2)(t-3)\\)."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-05-supplementary-20": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the eigenvector matrix proving similarity.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}1&1&1\\\\d_1&d_2&d_3\\\\d_1^2&d_2^2&d_3^2\\end{bmatrix},\\quad P^{-1}AP=D\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}1&1&1\\\\d_1&d_2&d_3\\\\d_1^2&d_2^2&d_3^2\\end{bmatrix},\\quad P^{-1}AP=D\\)",
+            "\\(P=\\begin{bmatrix}2&1&1\\\\d_1&d_2&d_3\\\\d_1^2&d_2^2&d_3^2\\end{bmatrix},\\quad P^{-1}AP=D\\)",
+            "\\(P=\\begin{bmatrix}0&1&1\\\\d_1&d_2&d_3\\\\d_1^2&d_2^2&d_3^2\\end{bmatrix},\\quad P^{-1}AP=D\\)"
+          ],
+          "explanation": "Therefore \\(AP=PD\\) implies the required similarity.",
+          "workedSteps": [
+            "Each d is a cube root of unity, so \\(A(1,d,d^2)^T=(d,d^2,1)^T=d(1,d,d^2)^T\\).",
+            "The three roots are distinct, so the Vandermonde matrix P is invertible.",
+            "Therefore \\(AP=PD\\) implies the required similarity."
+          ]
+        }
+      ],
+      "scope": "All requested source parts, including bases, computations, and proof reasoning where requested.",
+      "complete": true,
+      "sourceImageReviewed": true
+    }
+  }
+}

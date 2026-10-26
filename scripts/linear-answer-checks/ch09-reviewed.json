@@ -1,0 +1,2464 @@
+{
+  "chapter": 9,
+  "questions": {
+    "anton-section-9-1-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the factorization and solution.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1 & 0\\\\- \\frac{2}{3} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -6\\\\0 & 1\\end{bmatrix},\\quad x=\\begin{bmatrix}2\\\\1\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1 & 0\\\\- \\frac{2}{3} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -6\\\\0 & 1\\end{bmatrix},\\quad x=\\begin{bmatrix}2\\\\1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2 & 0\\\\- \\frac{2}{3} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -6\\\\0 & 1\\end{bmatrix},\\quad x=\\begin{bmatrix}2\\\\1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0 & 0\\\\- \\frac{2}{3} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -6\\\\0 & 1\\end{bmatrix},\\quad x=\\begin{bmatrix}2\\\\1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Back substitution gives \\(x=\\begin{bmatrix}2\\\\1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Use the verified triangular factorization \\(L=\\begin{bmatrix}1 & 0\\\\- \\frac{2}{3} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -6\\\\0 & 1\\end{bmatrix}\\).",
+            "Forward substitution gives \\(y=\\begin{bmatrix}0\\\\1\\end{bmatrix}\\).",
+            "Back substitution gives \\(x=\\begin{bmatrix}2\\\\1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-1-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the factorization and solution.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1 & 0\\\\- \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 8\\\\0 & 3\\end{bmatrix},\\quad x=\\begin{bmatrix}3\\\\-1\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1 & 0\\\\- \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 8\\\\0 & 3\\end{bmatrix},\\quad x=\\begin{bmatrix}3\\\\-1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2 & 0\\\\- \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 8\\\\0 & 3\\end{bmatrix},\\quad x=\\begin{bmatrix}3\\\\-1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0 & 0\\\\- \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 8\\\\0 & 3\\end{bmatrix},\\quad x=\\begin{bmatrix}3\\\\-1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Back substitution gives \\(x=\\begin{bmatrix}3\\\\-1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Use the verified triangular factorization \\(L=\\begin{bmatrix}1 & 0\\\\- \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 8\\\\0 & 3\\end{bmatrix}\\).",
+            "Forward substitution gives \\(y=\\begin{bmatrix}-2\\\\-3\\end{bmatrix}\\).",
+            "Back substitution gives \\(x=\\begin{bmatrix}3\\\\-1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-1-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the factorization and solution.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\- \\frac{1}{2} & -2 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & -2 & -2\\\\0 & -2 & 2\\\\0 & 0 & 5\\end{bmatrix},\\quad x=\\begin{bmatrix}-1\\\\1\\\\0\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\- \\frac{1}{2} & -2 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & -2 & -2\\\\0 & -2 & 2\\\\0 & 0 & 5\\end{bmatrix},\\quad x=\\begin{bmatrix}-1\\\\1\\\\0\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2 & 0 & 0\\\\0 & 1 & 0\\\\- \\frac{1}{2} & -2 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & -2 & -2\\\\0 & -2 & 2\\\\0 & 0 & 5\\end{bmatrix},\\quad x=\\begin{bmatrix}-1\\\\1\\\\0\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0 & 0 & 0\\\\0 & 1 & 0\\\\- \\frac{1}{2} & -2 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & -2 & -2\\\\0 & -2 & 2\\\\0 & 0 & 5\\end{bmatrix},\\quad x=\\begin{bmatrix}-1\\\\1\\\\0\\end{bmatrix}\\)"
+          ],
+          "explanation": "Back substitution gives \\(x=\\begin{bmatrix}-1\\\\1\\\\0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Use the verified triangular factorization \\(L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\- \\frac{1}{2} & -2 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & -2 & -2\\\\0 & -2 & 2\\\\0 & 0 & 5\\end{bmatrix}\\).",
+            "Forward substitution gives \\(y=\\begin{bmatrix}-4\\\\-2\\\\0\\end{bmatrix}\\).",
+            "Back substitution gives \\(x=\\begin{bmatrix}-1\\\\1\\\\0\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The source crop was repaired against the complete chapter page to restore the first matrix row and exclude neighboring exercise fragments.",
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/518.svg.gz",
+          "pdfPage": 532,
+          "role": "instructions",
+          "crops": [
+            [
+              37,
+              317.35,
+              255,
+              22.93
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/518.svg.gz",
+          "pdfPage": 532,
+          "role": "problem",
+          "crops": [
+            [
+              34,
+              403,
+              258,
+              43
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-9-1-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the factorization and solution.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}0 & 1 & 0\\\\1 & 0 & 0\\\\0 & 0 & 1\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\3 & -5 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 2\\\\0 & 1 & 4\\\\0 & 0 & 17\\end{bmatrix},\\quad x=\\begin{bmatrix}\\frac{21}{17}\\\\- \\frac{14}{17}\\\\\\frac{12}{17}\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}0 & 1 & 0\\\\1 & 0 & 0\\\\0 & 0 & 1\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\3 & -5 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 2\\\\0 & 1 & 4\\\\0 & 0 & 17\\end{bmatrix},\\quad x=\\begin{bmatrix}\\frac{21}{17}\\\\- \\frac{14}{17}\\\\\\frac{12}{17}\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}1 & 1 & 0\\\\1 & 0 & 0\\\\0 & 0 & 1\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\3 & -5 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 2\\\\0 & 1 & 4\\\\0 & 0 & 17\\end{bmatrix},\\quad x=\\begin{bmatrix}\\frac{21}{17}\\\\- \\frac{14}{17}\\\\\\frac{12}{17}\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}-1 & 1 & 0\\\\1 & 0 & 0\\\\0 & 0 & 1\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\3 & -5 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 2\\\\0 & 1 & 4\\\\0 & 0 & 17\\end{bmatrix},\\quad x=\\begin{bmatrix}\\frac{21}{17}\\\\- \\frac{14}{17}\\\\\\frac{12}{17}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Back substitution gives \\(x=\\begin{bmatrix}\\frac{21}{17}\\\\- \\frac{14}{17}\\\\\\frac{12}{17}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Use the verified triangular factorization \\(P=\\begin{bmatrix}0 & 1 & 0\\\\1 & 0 & 0\\\\0 & 0 & 1\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\3 & -5 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 2\\\\0 & 1 & 4\\\\0 & 0 & 17\\end{bmatrix}\\).",
+            "Forward substitution gives \\(y=\\begin{bmatrix}1\\\\2\\\\12\\end{bmatrix}\\).",
+            "Back substitution gives \\(x=\\begin{bmatrix}\\frac{21}{17}\\\\- \\frac{14}{17}\\\\\\frac{12}{17}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/518.svg.gz",
+          "pdfPage": 532,
+          "role": "instructions",
+          "crops": [
+            [
+              303,
+              202.88,
+              255,
+              34
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/518.svg.gz",
+          "pdfPage": 532,
+          "role": "problem",
+          "crops": [
+            [
+              300,
+              237,
+              258,
+              86
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-1-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the factorization and solution.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}1 & 0 & 0\\\\0 & 0 & 1\\\\0 & 1 & 0\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\1 & 0 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -1 & 0\\\\0 & 2 & 1\\\\0 & 0 & 1\\end{bmatrix},\\quad x=\\begin{bmatrix}- \\frac{1}{2}\\\\\\frac{1}{2}\\\\3\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}1 & 0 & 0\\\\0 & 0 & 1\\\\0 & 1 & 0\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\1 & 0 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -1 & 0\\\\0 & 2 & 1\\\\0 & 0 & 1\\end{bmatrix},\\quad x=\\begin{bmatrix}- \\frac{1}{2}\\\\\\frac{1}{2}\\\\3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}2 & 0 & 0\\\\0 & 0 & 1\\\\0 & 1 & 0\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\1 & 0 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -1 & 0\\\\0 & 2 & 1\\\\0 & 0 & 1\\end{bmatrix},\\quad x=\\begin{bmatrix}- \\frac{1}{2}\\\\\\frac{1}{2}\\\\3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}0 & 0 & 0\\\\0 & 0 & 1\\\\0 & 1 & 0\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\1 & 0 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -1 & 0\\\\0 & 2 & 1\\\\0 & 0 & 1\\end{bmatrix},\\quad x=\\begin{bmatrix}- \\frac{1}{2}\\\\\\frac{1}{2}\\\\3\\end{bmatrix}\\)"
+          ],
+          "explanation": "Back substitution gives \\(x=\\begin{bmatrix}- \\frac{1}{2}\\\\\\frac{1}{2}\\\\3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Use the verified triangular factorization \\(P=\\begin{bmatrix}1 & 0 & 0\\\\0 & 0 & 1\\\\0 & 1 & 0\\end{bmatrix},\\quad L=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\1 & 0 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}3 & -1 & 0\\\\0 & 2 & 1\\\\0 & 0 & 1\\end{bmatrix}\\).",
+            "Forward substitution gives \\(y=\\begin{bmatrix}-2\\\\4\\\\3\\end{bmatrix}\\).",
+            "Back substitution gives \\(x=\\begin{bmatrix}- \\frac{1}{2}\\\\\\frac{1}{2}\\\\3\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/518.svg.gz",
+          "pdfPage": 532,
+          "role": "instructions",
+          "crops": [
+            [
+              303,
+              473.33,
+              255,
+              23
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/518.svg.gz",
+          "pdfPage": 532,
+          "role": "problem",
+          "crops": [
+            [
+              300,
+              498,
+              258,
+              42
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-1-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select both triangular inverses.",
+          "type": "choice",
+          "answer": "\\(L^{-1}=\\begin{bmatrix}1 & 0 & 0\\\\-2 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U^{-1}=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{8} & - \\frac{7}{48}\\\\0 & \\frac{1}{4} & \\frac{5}{24}\\\\0 & 0 & \\frac{1}{6}\\end{bmatrix}\\)",
+          "options": [
+            "\\(L^{-1}=\\begin{bmatrix}1 & 0 & 0\\\\-2 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U^{-1}=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{8} & - \\frac{7}{48}\\\\0 & \\frac{1}{4} & \\frac{5}{24}\\\\0 & 0 & \\frac{1}{6}\\end{bmatrix}\\)",
+            "\\(L^{0}=\\begin{bmatrix}1 & 0 & 0\\\\-2 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U^{-1}=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{8} & - \\frac{7}{48}\\\\0 & \\frac{1}{4} & \\frac{5}{24}\\\\0 & 0 & \\frac{1}{6}\\end{bmatrix}\\)",
+            "\\(L^{-2}=\\begin{bmatrix}1 & 0 & 0\\\\-2 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U^{-1}=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{8} & - \\frac{7}{48}\\\\0 & \\frac{1}{4} & \\frac{5}{24}\\\\0 & 0 & \\frac{1}{6}\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(L^{-1}=\\begin{bmatrix}1 & 0 & 0\\\\-2 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U^{-1}=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{8} & - \\frac{7}{48}\\\\0 & \\frac{1}{4} & \\frac{5}{24}\\\\0 & 0 & \\frac{1}{6}\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Solve the triangular systems column by column.",
+            "\\(L^{-1}=\\begin{bmatrix}1 & 0 & 0\\\\-2 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U^{-1}=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{8} & - \\frac{7}{48}\\\\0 & \\frac{1}{4} & \\frac{5}{24}\\\\0 & 0 & \\frac{1}{6}\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the inverse of A.",
+          "type": "choice",
+          "answer": "\\(A^{-1}=\\begin{bmatrix}\\frac{5}{48} & - \\frac{1}{48} & - \\frac{7}{48}\\\\- \\frac{7}{24} & \\frac{11}{24} & \\frac{5}{24}\\\\\\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6}\\end{bmatrix}\\)",
+          "options": [
+            "\\(A^{-1}=\\begin{bmatrix}\\frac{5}{48} & - \\frac{1}{48} & - \\frac{7}{48}\\\\- \\frac{7}{24} & \\frac{11}{24} & \\frac{5}{24}\\\\\\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6}\\end{bmatrix}\\)",
+            "\\(A^{0}=\\begin{bmatrix}\\frac{5}{48} & - \\frac{1}{48} & - \\frac{7}{48}\\\\- \\frac{7}{24} & \\frac{11}{24} & \\frac{5}{24}\\\\\\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6}\\end{bmatrix}\\)",
+            "\\(A^{-2}=\\begin{bmatrix}\\frac{5}{48} & - \\frac{1}{48} & - \\frac{7}{48}\\\\- \\frac{7}{24} & \\frac{11}{24} & \\frac{5}{24}\\\\\\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6}\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(A^{-1}=\\begin{bmatrix}\\frac{5}{48} & - \\frac{1}{48} & - \\frac{7}{48}\\\\- \\frac{7}{24} & \\frac{11}{24} & \\frac{5}{24}\\\\\\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6}\\end{bmatrix}\\)",
+          "workedSteps": [
+            "\\((LU)^{-1}=U^{-1}L^{-1}\\)",
+            "\\(A^{-1}=\\begin{bmatrix}\\frac{5}{48} & - \\frac{1}{48} & - \\frac{7}{48}\\\\- \\frac{7}{24} & \\frac{11}{24} & \\frac{5}{24}\\\\\\frac{1}{6} & \\frac{1}{6} & \\frac{1}{6}\\end{bmatrix}\\)"
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-1-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select an LU decomposition.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U=\\begin{bmatrix}2 & 1 & -1\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U=\\begin{bmatrix}2 & 1 & -1\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U=\\begin{bmatrix}2 & 1 & -1\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U=\\begin{bmatrix}2 & 1 & -1\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(LU=\\begin{bmatrix}2 & 1 & -1\\\\-2 & -1 & 2\\\\2 & 1 & 0\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Subtract multiples of row 1, then use the pivot in column 3.",
+            "\\(LU=\\begin{bmatrix}2 & 1 & -1\\\\-2 & -1 & 2\\\\2 & 1 & 0\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the requested LDU form.",
+          "type": "choice",
+          "answer": "\\(L_1=\\begin{bmatrix}1 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}, U_1=\\begin{bmatrix}1 & \\frac{1}{2} & - \\frac{1}{2}\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(L_1=\\begin{bmatrix}1 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}, U_1=\\begin{bmatrix}1 & \\frac{1}{2} & - \\frac{1}{2}\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)",
+            "\\(L_1=\\begin{bmatrix}2 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}, U_1=\\begin{bmatrix}1 & \\frac{1}{2} & - \\frac{1}{2}\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)",
+            "\\(L_1=\\begin{bmatrix}0 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}, U_1=\\begin{bmatrix}1 & \\frac{1}{2} & - \\frac{1}{2}\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(L_1DU_1=A\\)",
+          "workedSteps": [
+            "Move the factor 2 in the first row of U into D.",
+            "\\(L_1DU_1=A\\)"
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the unit lower triangular LU form.",
+          "type": "choice",
+          "answer": "\\(L_2=\\begin{bmatrix}1 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U_2=\\begin{bmatrix}2 & 1 & -1\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(L_2=\\begin{bmatrix}1 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U_2=\\begin{bmatrix}2 & 1 & -1\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)",
+            "\\(L_2=\\begin{bmatrix}2 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U_2=\\begin{bmatrix}2 & 1 & -1\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)",
+            "\\(L_2=\\begin{bmatrix}0 & 0 & 0\\\\-1 & 1 & 0\\\\1 & 1 & 1\\end{bmatrix}, U_2=\\begin{bmatrix}2 & 1 & -1\\\\0 & 0 & 1\\\\0 & 0 & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(L_2U_2=A\\)",
+          "workedSteps": [
+            "The L from part (a) already has unit diagonal.",
+            "\\(L_2U_2=A\\)"
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-1-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the requested factorization.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1 & 0\\\\2 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0\\\\0 & -3\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1 & 0\\\\2 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0\\\\0 & -3\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2 & 0\\\\2 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0\\\\0 & -3\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0 & 0\\\\2 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0\\\\0 & -3\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(L=\\begin{bmatrix}1 & 0\\\\2 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0\\\\0 & -3\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\); multiplication recovers the original matrix.",
+          "workedSteps": [
+            "Eliminate entries below each pivot; record each multiplier in L.",
+            "Separate diagonal pivots into D when required.",
+            "\\(L=\\begin{bmatrix}1 & 0\\\\2 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0\\\\0 & -3\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 1\\\\0 & 1\\end{bmatrix}\\); multiplication recovers the original matrix."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the requested factorization.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1 & 0\\\\-1 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}-6 & 2\\\\0 & 2\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1 & 0\\\\-1 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}-6 & 2\\\\0 & 2\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2 & 0\\\\-1 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}-6 & 2\\\\0 & 2\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0 & 0\\\\-1 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}-6 & 2\\\\0 & 2\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(L=\\begin{bmatrix}1 & 0\\\\-1 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}-6 & 2\\\\0 & 2\\end{bmatrix}\\); multiplication recovers the original matrix.",
+          "workedSteps": [
+            "Eliminate entries below each pivot; record each multiplier in L.",
+            "Separate diagonal pivots into D when required.",
+            "\\(L=\\begin{bmatrix}1 & 0\\\\-1 & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}-6 & 2\\\\0 & 2\\end{bmatrix}\\); multiplication recovers the original matrix."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-2": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the requested factorization.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1 & 0\\\\-1 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}-6 & 0\\\\0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & - \\frac{1}{3}\\\\0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1 & 0\\\\-1 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}-6 & 0\\\\0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & - \\frac{1}{3}\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2 & 0\\\\-1 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}-6 & 0\\\\0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & - \\frac{1}{3}\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0 & 0\\\\-1 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}-6 & 0\\\\0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & - \\frac{1}{3}\\\\0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(L=\\begin{bmatrix}1 & 0\\\\-1 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}-6 & 0\\\\0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & - \\frac{1}{3}\\\\0 & 1\\end{bmatrix}\\); multiplication recovers the original matrix.",
+          "workedSteps": [
+            "Eliminate entries below each pivot; record each multiplier in L.",
+            "Separate diagonal pivots into D when required.",
+            "\\(L=\\begin{bmatrix}1 & 0\\\\-1 & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}-6 & 0\\\\0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & - \\frac{1}{3}\\\\0 & 1\\end{bmatrix}\\); multiplication recovers the original matrix."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the requested factorization.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 4 & 6\\\\0 & 2 & 4\\\\0 & 0 & 2\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 4 & 6\\\\0 & 2 & 4\\\\0 & 0 & 2\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 4 & 6\\\\0 & 2 & 4\\\\0 & 0 & 2\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 4 & 6\\\\0 & 2 & 4\\\\0 & 0 & 2\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 4 & 6\\\\0 & 2 & 4\\\\0 & 0 & 2\\end{bmatrix}\\); multiplication recovers the original matrix.",
+          "workedSteps": [
+            "Eliminate entries below each pivot; record each multiplier in L.",
+            "Separate diagonal pivots into D when required.",
+            "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad U=\\begin{bmatrix}2 & 4 & 6\\\\0 & 2 & 4\\\\0 & 0 & 2\\end{bmatrix}\\); multiplication recovers the original matrix."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the requested factorization.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 3\\\\0 & 1 & 2\\\\0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 3\\\\0 & 1 & 2\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 3\\\\0 & 1 & 2\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 3\\\\0 & 1 & 2\\\\0 & 0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 3\\\\0 & 1 & 2\\\\0 & 0 & 1\\end{bmatrix}\\); multiplication recovers the original matrix.",
+          "workedSteps": [
+            "Eliminate entries below each pivot; record each multiplier in L.",
+            "Separate diagonal pivots into D when required.",
+            "\\(L=\\begin{bmatrix}1 & 0 & 0\\\\\\frac{1}{2} & 1 & 0\\\\\\frac{1}{2} & \\frac{1}{2} & 1\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0 & 0\\\\0 & 2 & 0\\\\0 & 0 & 2\\end{bmatrix},\\quad U=\\begin{bmatrix}1 & 2 & 3\\\\0 & 1 & 2\\\\0 & 0 & 1\\end{bmatrix}\\); multiplication recovers the original matrix."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-1-17": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "With LU already available, select the substitution operation counts (division counted as multiplication).",
+          "type": "choice",
+          "answer": "\\(n(n-1)\\text{ additions},\\quad n^2\\text{ multiplications}\\)",
+          "options": [
+            "\\(n(n-1)\\text{ additions},\\quad n^2\\text{ multiplications}\\)",
+            "\\(n(n-1)\\text{ additions and }n(n+1)\\text{ multiplications}\\)",
+            "\\(2n^3\\text{ of each}\\)"
+          ],
+          "explanation": "Two solves therefore use \\(n(n-1)\\) additions and \\(n^2\\) multiplications including divisions.",
+          "workedSteps": [
+            "Each triangular solve uses \\(n(n-1)/2\\) additions and products. In the text convention, U has unit diagonal, so only the lower solve needs n divisions.",
+            "Two solves therefore use \\(n(n-1)\\) additions and \\(n^2\\) multiplications including divisions."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-1-18": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the unique factorization and its uniqueness argument.",
+          "type": "choice",
+          "answer": "\\(L=\\begin{bmatrix}1&0\\\\c/a&1\\end{bmatrix},\\quad U=\\begin{bmatrix}a&b\\\\0&d-\\frac{cb}{a}\\end{bmatrix}\\)",
+          "options": [
+            "\\(L=\\begin{bmatrix}1&0\\\\c/a&1\\end{bmatrix},\\quad U=\\begin{bmatrix}a&b\\\\0&d-\\frac{cb}{a}\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}2&0\\\\c/a&1\\end{bmatrix},\\quad U=\\begin{bmatrix}a&b\\\\0&d-\\frac{cb}{a}\\end{bmatrix}\\)",
+            "\\(L=\\begin{bmatrix}0&0\\\\c/a&1\\end{bmatrix},\\quad U=\\begin{bmatrix}a&b\\\\0&d-\\frac{cb}{a}\\end{bmatrix}\\)"
+          ],
+          "explanation": "Comparing entries forces \\(u=a,v=b,l=\\frac{c}{a},w=d-\\frac{cb}{a}\\). Since a is nonzero, all are uniquely determined.",
+          "workedSteps": [
+            "Write \\(L=\\begin{bmatrix}1&0\\\\l&1\\end{bmatrix}, U=\\begin{bmatrix}u&v\\\\0&w\\end{bmatrix}\\).",
+            "Comparing entries forces \\(u=a,v=b,l=\\frac{c}{a},w=d-\\frac{cb}{a}\\). Since a is nonzero, all are uniquely determined."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-2-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the dominant eigenvalue.",
+          "type": "numeric",
+          "answer": -8.0,
+          "tolerance": 1e-06,
+          "explanation": "The dominant eigenvalue is −8.",
+          "workedSteps": [
+            "Compare absolute values: 8 is strictly largest.",
+            "The dominant eigenvalue is −8."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Does a dominant eigenvalue exist?",
+          "type": "choice",
+          "answer": "No",
+          "options": [
+            "No",
+            "Yes, −5",
+            "Yes, 5"
+          ],
+          "explanation": "Neither has strictly largest magnitude.",
+          "workedSteps": [
+            "Both −5 and 5 have absolute value 5.",
+            "Neither has strictly largest magnitude."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-2-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the fourth iterate and Rayleigh quotient.",
+          "type": "choice",
+          "answer": "\\(x_4\\approx \\begin{bmatrix}0.9871542\\\\-0.1597706\\end{bmatrix}, R(x_4)\\approx 5.1622766\\)",
+          "options": [
+            "\\(x_4\\approx \\begin{bmatrix}0.9871542\\\\-0.1597706\\end{bmatrix}, R(x_4)\\approx 5.1622766\\)",
+            "\\(x_4\\approx \\begin{bmatrix}1.9871542\\\\-0.1597706\\end{bmatrix}, R(x_4)\\approx 5.1622766\\)",
+            "\\(x_4\\approx \\begin{bmatrix}-1.9871542\\\\-0.1597706\\end{bmatrix}, R(x_4)\\approx 5.1622766\\)"
+          ],
+          "explanation": "\\(x_4\\approx \\begin{bmatrix}0.9871542\\\\-0.1597706\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Apply \\(x_{k+1}=Ax_k/\\|Ax_k\\|_2\\).",
+            "\\(x_1\\approx \\begin{bmatrix}0.9805807\\\\-0.1961161\\end{bmatrix}\\)",
+            "\\(x_2\\approx \\begin{bmatrix}0.9883717\\\\-0.1520572\\end{bmatrix}\\)",
+            "\\(x_3\\approx \\begin{bmatrix}0.9867891\\\\-0.1620101\\end{bmatrix}\\)",
+            "\\(x_4\\approx \\begin{bmatrix}0.9871542\\\\-0.1597706\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the exact dominant eigenpair for comparison.",
+          "type": "choice",
+          "answer": "\\(\\lambda=2 + \\sqrt{10}, v=\\begin{bmatrix}\\frac{- \\sqrt{10} - 3}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\\\\\frac{1}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\lambda=2 + \\sqrt{10}, v=\\begin{bmatrix}\\frac{- \\sqrt{10} - 3}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\\\\\frac{1}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\end{bmatrix}\\)",
+            "\\(\\lambda=3 + \\sqrt{10}, v=\\begin{bmatrix}\\frac{- \\sqrt{10} - 3}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\\\\\frac{1}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\end{bmatrix}\\)",
+            "\\(\\lambda=1 + \\sqrt{10}, v=\\begin{bmatrix}\\frac{- \\sqrt{10} - 3}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\\\\\frac{1}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The largest absolute eigenvalue is \\(2 + \\sqrt{10}\\). Solving its null space and scaling gives \\(v=\\begin{bmatrix}\\frac{- \\sqrt{10} - 3}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\\\\\frac{1}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Solve the characteristic polynomial \\(\\lambda^{2} - 4 \\lambda - 6\\)=0.",
+            "The largest absolute eigenvalue is \\(2 + \\sqrt{10}\\). Solving its null space and scaling gives \\(v=\\begin{bmatrix}\\frac{- \\sqrt{10} - 3}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\\\\\frac{1}{\\sqrt{1 + \\left(3 + \\sqrt{10}\\right)^{2}}}\\end{bmatrix}\\).",
+            "Eigenvector signs are arbitrary; negate this exact vector to compare directly with the positive-first-coordinate power iterate."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/527.svg.gz",
+          "pdfPage": 541,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              194.71,
+              255,
+              44.85
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/527.svg.gz",
+          "pdfPage": 541,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              243.14,
+              258,
+              31
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-2-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the fourth iterate and Rayleigh quotient.",
+          "type": "choice",
+          "answer": "\\(x_4\\approx \\begin{bmatrix}-0.5348837\\\\1.0\\end{bmatrix}, R(x_4)\\approx 6.6055509\\)",
+          "options": [
+            "\\(x_4\\approx \\begin{bmatrix}-0.5348837\\\\1.0\\end{bmatrix}, R(x_4)\\approx 6.6055509\\)",
+            "\\(x_4\\approx \\begin{bmatrix}1.5348837\\\\1.0\\end{bmatrix}, R(x_4)\\approx 6.6055509\\)",
+            "\\(x_4\\approx \\begin{bmatrix}-1.5348837\\\\1.0\\end{bmatrix}, R(x_4)\\approx 6.6055509\\)"
+          ],
+          "explanation": "\\(x_4\\approx \\begin{bmatrix}-0.5348837\\\\1.0\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Apply \\(x_{k+1}=Ax_k/\\max(Ax_k)\\).",
+            "\\(x_1\\approx \\begin{bmatrix}1.0\\\\-1.0\\end{bmatrix}\\)",
+            "\\(x_2\\approx \\begin{bmatrix}-0.5\\\\1.0\\end{bmatrix}\\)",
+            "\\(x_3\\approx \\begin{bmatrix}-0.5384615\\\\1.0\\end{bmatrix}\\)",
+            "\\(x_4\\approx \\begin{bmatrix}-0.5348837\\\\1.0\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the exact dominant eigenpair for comparison.",
+          "type": "choice",
+          "answer": "\\(\\lambda=3 + \\sqrt{13}, v=\\begin{bmatrix}\\frac{2}{3} - \\frac{\\sqrt{13}}{3}\\\\1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\lambda=3 + \\sqrt{13}, v=\\begin{bmatrix}\\frac{2}{3} - \\frac{\\sqrt{13}}{3}\\\\1\\end{bmatrix}\\)",
+            "\\(\\lambda=4 + \\sqrt{13}, v=\\begin{bmatrix}\\frac{2}{3} - \\frac{\\sqrt{13}}{3}\\\\1\\end{bmatrix}\\)",
+            "\\(\\lambda=2 + \\sqrt{13}, v=\\begin{bmatrix}\\frac{2}{3} - \\frac{\\sqrt{13}}{3}\\\\1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The largest absolute eigenvalue is \\(3 + \\sqrt{13}\\). Solving its null space and scaling gives \\(v=\\begin{bmatrix}\\frac{2}{3} - \\frac{\\sqrt{13}}{3}\\\\1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Solve the characteristic polynomial \\(\\lambda^{2} - 6 \\lambda - 4\\)=0.",
+            "The largest absolute eigenvalue is \\(3 + \\sqrt{13}\\). Solving its null space and scaling gives \\(v=\\begin{bmatrix}\\frac{2}{3} - \\frac{\\sqrt{13}}{3}\\\\1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/527.svg.gz",
+          "pdfPage": 541,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              333.22,
+              255,
+              44.85
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/527.svg.gz",
+          "pdfPage": 541,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              380.65,
+              258,
+              30
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-2-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the fourth iterate and Rayleigh quotient.",
+          "type": "choice",
+          "answer": "\\(x_4\\approx \\begin{bmatrix}1.0\\\\0.5093168\\\\0.9813665\\end{bmatrix}, R(x_4)\\approx 5.9995313\\)",
+          "options": [
+            "\\(x_4\\approx \\begin{bmatrix}1.0\\\\0.5093168\\\\0.9813665\\end{bmatrix}, R(x_4)\\approx 5.9995313\\)",
+            "\\(x_4\\approx \\begin{bmatrix}2.0\\\\0.5093168\\\\0.9813665\\end{bmatrix}, R(x_4)\\approx 5.9995313\\)",
+            "\\(x_4\\approx \\begin{bmatrix}0.0\\\\0.5093168\\\\0.9813665\\end{bmatrix}, R(x_4)\\approx 5.9995313\\)"
+          ],
+          "explanation": "\\(x_4\\approx \\begin{bmatrix}1.0\\\\0.5093168\\\\0.9813665\\end{bmatrix}\\)",
+          "workedSteps": [
+            "Apply \\(x_{k+1}=Ax_k/\\max(Ax_k)\\).",
+            "\\(x_1\\approx \\begin{bmatrix}1.0\\\\0.5714286\\\\0.8571429\\end{bmatrix}\\)",
+            "\\(x_2\\approx \\begin{bmatrix}1.0\\\\0.5365854\\\\0.9268293\\end{bmatrix}\\)",
+            "\\(x_3\\approx \\begin{bmatrix}1.0\\\\0.5185185\\\\0.962963\\end{bmatrix}\\)",
+            "\\(x_4\\approx \\begin{bmatrix}1.0\\\\0.5093168\\\\0.9813665\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the exact dominant eigenpair for comparison.",
+          "type": "choice",
+          "answer": "\\(\\lambda=6, v=\\begin{bmatrix}1\\\\\\frac{1}{2}\\\\1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\lambda=6, v=\\begin{bmatrix}1\\\\\\frac{1}{2}\\\\1\\end{bmatrix}\\)",
+            "\\(\\lambda=7, v=\\begin{bmatrix}1\\\\\\frac{1}{2}\\\\1\\end{bmatrix}\\)",
+            "\\(\\lambda=5, v=\\begin{bmatrix}1\\\\\\frac{1}{2}\\\\1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The largest absolute eigenvalue is \\(6\\). Solving its null space and scaling gives \\(v=\\begin{bmatrix}1\\\\\\frac{1}{2}\\\\1\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Solve the characteristic polynomial \\(\\lambda^{3} - 9 \\lambda^{2} + 18 \\lambda\\)=0.",
+            "The largest absolute eigenvalue is \\(6\\). Solving its null space and scaling gives \\(v=\\begin{bmatrix}1\\\\\\frac{1}{2}\\\\1\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The source crop was repaired against the complete chapter page to restore the first matrix row and exclude neighboring exercise fragments.",
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/527.svg.gz",
+          "pdfPage": 541,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              333.22,
+              255,
+              44.85
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/527.svg.gz",
+          "pdfPage": 541,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              419,
+              258,
+              43
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-9-2-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the three-decimal third iterate.",
+          "type": "choice",
+          "answer": "\\(x_3=\\begin{bmatrix}1.0\\\\-0.929\\end{bmatrix}\\)",
+          "options": [
+            "\\(x_3=\\begin{bmatrix}1.0\\\\-0.929\\end{bmatrix}\\)",
+            "\\(x_3=\\begin{bmatrix}2.0\\\\-0.929\\end{bmatrix}\\)",
+            "\\(x_3=\\begin{bmatrix}0.0\\\\-0.929\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(x_3=\\begin{bmatrix}1.0\\\\-0.929\\end{bmatrix}\\)",
+          "workedSteps": [
+            "\\(x_1=\\begin{bmatrix}1.0\\\\-0.5\\end{bmatrix}\\)",
+            "\\(x_2=\\begin{bmatrix}1.0\\\\-0.8\\end{bmatrix}\\)",
+            "\\(x_3=\\begin{bmatrix}1.0\\\\-0.929\\end{bmatrix}\\)"
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the Rayleigh quotient (within 0.001).",
+          "type": "numeric",
+          "answer": 2.997294208769426,
+          "tolerance": 0.001,
+          "explanation": "\\(R(x_3)\\approx 2.997294208769426\\)",
+          "workedSteps": [
+            "\\(R(x)=\\frac{x^TAx}{x^Tx}\\)",
+            "\\(R(x_3)\\approx 2.997294208769426\\)"
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the exact eigenpair.",
+          "type": "choice",
+          "answer": "\\(\\lambda=3,\\quad v=\\begin{bmatrix}1\\\\-1\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\lambda=3,\\quad v=\\begin{bmatrix}1\\\\-1\\end{bmatrix}\\)",
+            "\\(\\lambda=4,\\quad v=\\begin{bmatrix}1\\\\-1\\end{bmatrix}\\)",
+            "\\(\\lambda=2,\\quad v=\\begin{bmatrix}1\\\\-1\\end{bmatrix}\\)"
+          ],
+          "explanation": "\\(A(1,-1)^T=3(1,-1)^T\\)",
+          "workedSteps": [
+            "The characteristic polynomial is \\((\\lambda-1)(\\lambda-3)\\).",
+            "\\(A(1,-1)^T=3(1,-1)^T\\)"
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Enter the percentage error (percent, within 0.001).",
+          "type": "numeric",
+          "answer": 0.09019304101913761,
+          "tolerance": 0.001,
+          "explanation": "The error is 0.09019304101913761%.",
+          "workedSteps": [
+            "\\(100\\frac{|R-3|}{3}\\) gives the percentage error.",
+            "The error is 0.09019304101913761%."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-2-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the fifth-iterate approximation and Rayleigh quotient.",
+          "type": "choice",
+          "answer": "\\(v\\approx \\begin{bmatrix}0.7041909\\\\0.7100107\\end{bmatrix},\\quad \\lambda\\approx 2.9999323\\)",
+          "options": [
+            "\\(v\\approx \\begin{bmatrix}0.7041909\\\\0.7100107\\end{bmatrix},\\quad \\lambda\\approx 2.9999323\\)",
+            "\\(v\\approx \\begin{bmatrix}1.7041909\\\\0.7100107\\end{bmatrix},\\quad \\lambda\\approx 2.9999323\\)",
+            "\\(v\\approx \\begin{bmatrix}-1.7041909\\\\0.7100107\\end{bmatrix},\\quad \\lambda\\approx 2.9999323\\)"
+          ],
+          "explanation": "\\(R=\\frac{88573}{29525}\\approx 2.9999323\\)",
+          "workedSteps": [
+            "Normalize \\((121,122)^T\\) to obtain the approximate unit eigenvector.",
+            "Substitute this vector into \\(R(v)=\\frac{v^TAv}{v^Tv}\\).",
+            "\\(R=\\frac{88573}{29525}\\approx 2.9999323\\)"
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-2-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the power-sequence behavior.",
+          "type": "choice",
+          "answer": "\\(x_k=((-1)^k\\operatorname{sgn}(a),0)^T\\quad(k\\ge1)\\)",
+          "options": [
+            "\\(x_k=((-1)^k\\operatorname{sgn}(a),0)^T\\quad(k\\ge1)\\)",
+            "The sequence converges to zero.",
+            "The sequence converges to a single unit vector."
+          ],
+          "explanation": "Normalization leaves alternating opposite unit vectors; since a is nonzero, they do not converge.",
+          "workedSteps": [
+            "\\(A^kx_0=((-1)^ka,0)^T\\).",
+            "Normalization leaves alternating opposite unit vectors; since a is nonzero, they do not converge."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-2-12": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the approximation using an all-ones starting direction and successive Rayleigh error below 0.1%.",
+          "type": "choice",
+          "answer": "\\(v\\approx \\begin{bmatrix}0.2956805\\\\0.0040884\\\\0.9552782\\end{bmatrix},\\lambda\\approx 10.9072418\\)",
+          "options": [
+            "\\(v\\approx \\begin{bmatrix}0.2956805\\\\0.0040884\\\\0.9552782\\end{bmatrix},\\lambda\\approx 10.9072418\\)",
+            "\\(v\\approx \\begin{bmatrix}1.2956805\\\\0.0040884\\\\0.9552782\\end{bmatrix},\\lambda\\approx 10.9072418\\)",
+            "\\(v\\approx \\begin{bmatrix}-1.2956805\\\\0.0040884\\\\0.9552782\\end{bmatrix},\\lambda\\approx 10.9072418\\)"
+          ],
+          "explanation": "The resulting unit vector is \\(\\begin{bmatrix}0.2956805\\\\0.0040884\\\\0.9552782\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Normalize the all-ones vector; repeatedly apply A and normalize.",
+            "Use \\(100|R_k-R_{k-1}|/|R_k|<0.1\\) as the stopping rule.",
+            "At iteration 6, \\(R_k\\approx 10.9072418\\) and estimated error is 0.056126%.",
+            "The resulting unit vector is \\(\\begin{bmatrix}0.2956805\\\\0.0040884\\\\0.9552782\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the approximation using an all-ones starting direction and successive Rayleigh error below 0.1%.",
+          "type": "choice",
+          "answer": "\\(v\\approx \\begin{bmatrix}0.1616406\\\\0.1028503\\\\0.2430528\\\\0.9509046\\end{bmatrix},\\lambda\\approx 8.511168\\)",
+          "options": [
+            "\\(v\\approx \\begin{bmatrix}0.1616406\\\\0.1028503\\\\0.2430528\\\\0.9509046\\end{bmatrix},\\lambda\\approx 8.511168\\)",
+            "\\(v\\approx \\begin{bmatrix}1.1616406\\\\0.1028503\\\\0.2430528\\\\0.9509046\\end{bmatrix},\\lambda\\approx 8.511168\\)",
+            "\\(v\\approx \\begin{bmatrix}-1.1616406\\\\0.1028503\\\\0.2430528\\\\0.9509046\\end{bmatrix},\\lambda\\approx 8.511168\\)"
+          ],
+          "explanation": "The resulting unit vector is \\(\\begin{bmatrix}0.1616406\\\\0.1028503\\\\0.2430528\\\\0.9509046\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Normalize the all-ones vector; repeatedly apply A and normalize.",
+            "Use \\(100|R_k-R_{k-1}|/|R_k|<0.1\\) as the stopping rule.",
+            "At iteration 4, \\(R_k\\approx 8.511168\\) and estimated error is 0.075275%.",
+            "The resulting unit vector is \\(\\begin{bmatrix}0.1616406\\\\0.1028503\\\\0.2430528\\\\0.9509046\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-2-16": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the induction conclusion wherever the normalization is defined.",
+          "type": "choice",
+          "answer": "\\(x_k=\\frac{A^kx_0}{\\|A^kx_0\\|}\\)",
+          "options": [
+            "\\(x_k=\\frac{A^kx_0}{\\|A^kx_0\\|}\\)",
+            "\\(x_k\\ne \\frac{A^kx_0}{\\|A^kx_0\\|}\\)",
+            "\\(x_k=-\\frac{A^kx_0}{\\|A^kx_0\\|}\\)"
+          ],
+          "explanation": "The result is \\(x_{k+1}=\\frac{A^{k+1}x_0}{\\|A^{k+1}x_0\\|}\\).",
+          "workedSteps": [
+            "The k=1 case is exactly the defining recurrence.",
+            "Substitute the induction hypothesis into the recurrence. The scalar normalization cancels between numerator and denominator.",
+            "The result is \\(x_{k+1}=\\frac{A^{k+1}x_0}{\\|A^{k+1}x_0\\|}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-2-17": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the induction conclusion wherever the normalization is defined.",
+          "type": "choice",
+          "answer": "\\(x_k=\\frac{A^kx_0}{\\max(A^kx_0)}\\)",
+          "options": [
+            "\\(x_k=\\frac{A^kx_0}{\\max(A^kx_0)}\\)",
+            "\\(x_k\\ne \\frac{A^kx_0}{\\max(A^kx_0)}\\)",
+            "\\(x_k=-\\frac{A^kx_0}{\\max(A^kx_0)}\\)"
+          ],
+          "explanation": "The result is \\(x_{k+1}=\\frac{A^{k+1}x_0}{\\max(A^{k+1}x_0)}\\).",
+          "workedSteps": [
+            "The k=1 case is exactly the defining recurrence.",
+            "Substitute the induction hypothesis into the recurrence. The scalar normalization cancels between numerator and denominator.",
+            "The result is \\(x_{k+1}=\\frac{A^{k+1}x_0}{\\max(A^{k+1}x_0)}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter execution time in seconds (relative rounding to six significant figures accepted).",
+          "type": "numeric",
+          "answer": 0.06681655,
+          "tolerance": 1.0000000000000002e-06,
+          "explanation": "Time is approximately 0.06681655 seconds.",
+          "workedSteps": [
+            "Formula (5) gives \\(F=\\frac23n^3+\\frac32n^2-\\frac76n\\).",
+            "Divide F by 10000000000.0 flops per second.",
+            "Time is approximately 0.06681655 seconds."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter execution time in seconds (relative rounding to six significant figures accepted).",
+          "type": "numeric",
+          "answer": 66.68166550000001,
+          "tolerance": 0.001,
+          "explanation": "Time is approximately 66.68166550000001 seconds.",
+          "workedSteps": [
+            "Formula (5) gives \\(F=\\frac23n^3+\\frac32n^2-\\frac76n\\).",
+            "Divide F by 10000000000.0 flops per second.",
+            "Time is approximately 66.68166550000001 seconds."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter execution time in seconds (relative rounding to six significant figures accepted).",
+          "type": "numeric",
+          "answer": 66668.16665500001,
+          "tolerance": 1.0,
+          "explanation": "Time is approximately 66668.16665500001 seconds.",
+          "workedSteps": [
+            "Formula (5) gives \\(F=\\frac23n^3+\\frac32n^2-\\frac76n\\).",
+            "Divide F by 10000000000.0 flops per second.",
+            "Time is approximately 66668.16665500001 seconds."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-2": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter execution time in seconds (relative rounding to six significant figures accepted).",
+          "type": "numeric",
+          "answer": 6.66816655,
+          "tolerance": 0.0001,
+          "explanation": "Time is approximately 6.66816655 seconds.",
+          "workedSteps": [
+            "Formula (5) gives \\(F=\\frac23n^3+\\frac32n^2-\\frac76n\\).",
+            "Divide F by 100000000000.0 flops per second.",
+            "Time is approximately 6.66816655 seconds."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter execution time in seconds (relative rounding to six significant figures accepted).",
+          "type": "numeric",
+          "answer": 6666.8166654999995,
+          "tolerance": 0.1,
+          "explanation": "Time is approximately 6666.8166654999995 seconds.",
+          "workedSteps": [
+            "Formula (5) gives \\(F=\\frac23n^3+\\frac32n^2-\\frac76n\\).",
+            "Divide F by 100000000000.0 flops per second.",
+            "Time is approximately 6666.8166654999995 seconds."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter execution time in seconds (relative rounding to six significant figures accepted).",
+          "type": "numeric",
+          "answer": 6666681.666655,
+          "tolerance": 100.00000000000001,
+          "explanation": "Time is approximately 6666681.666655 seconds.",
+          "workedSteps": [
+            "Formula (5) gives \\(F=\\frac23n^3+\\frac32n^2-\\frac76n\\).",
+            "Divide F by 100000000000.0 flops per second.",
+            "Time is approximately 6666681.666655 seconds."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter approximate execution time in seconds.",
+          "type": "numeric",
+          "answer": 9.523809523809524,
+          "tolerance": 0.0009523809523809524,
+          "explanation": "Estimated time = 9.523809523809524 seconds.",
+          "workedSteps": [
+            "Table 1 gives \\(\\frac23n^3\\) flops.",
+            "Divide the operation count by the stated processing rate.",
+            "Estimated time = 9.523809523809524 seconds."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter approximate execution time in seconds.",
+          "type": "numeric",
+          "answer": 0.0014285714285714286,
+          "tolerance": 1.4285714285714287e-07,
+          "explanation": "Estimated time = 0.0014285714285714286 seconds.",
+          "workedSteps": [
+            "Table 1 gives \\(n^2\\) flops.",
+            "Divide the operation count by the stated processing rate.",
+            "Estimated time = 0.0014285714285714286 seconds."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter approximate execution time in seconds.",
+          "type": "numeric",
+          "answer": 9.523809523809524,
+          "tolerance": 0.0009523809523809524,
+          "explanation": "Estimated time = 9.523809523809524 seconds.",
+          "workedSteps": [
+            "Table 1 gives \\(\\frac23n^3\\) flops.",
+            "Divide the operation count by the stated processing rate.",
+            "Estimated time = 9.523809523809524 seconds."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Enter approximate execution time in seconds.",
+          "type": "numeric",
+          "answer": 28.571428571428573,
+          "tolerance": 0.0028571428571428576,
+          "explanation": "Estimated time = 28.571428571428573 seconds.",
+          "workedSteps": [
+            "Table 1 gives \\(2n^3\\) flops.",
+            "Divide the operation count by the stated processing rate.",
+            "Estimated time = 28.571428571428573 seconds."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter approximate execution time in seconds.",
+          "type": "numeric",
+          "answer": 0.041666666666666664,
+          "tolerance": 4.166666666666667e-06,
+          "explanation": "Estimated time = 0.041666666666666664 seconds.",
+          "workedSteps": [
+            "Table 1 gives \\(\\frac23n^3\\) flops.",
+            "Divide the operation count by the stated processing rate.",
+            "Estimated time = 0.041666666666666664 seconds."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter approximate execution time in seconds.",
+          "type": "numeric",
+          "answer": 6.25e-07,
+          "tolerance": 1e-08,
+          "explanation": "Estimated time = 6.25e-07 seconds.",
+          "workedSteps": [
+            "Table 1 gives \\(n^2\\) flops.",
+            "Divide the operation count by the stated processing rate.",
+            "Estimated time = 6.25e-07 seconds."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Enter approximate execution time in seconds.",
+          "type": "numeric",
+          "answer": 0.041666666666666664,
+          "tolerance": 4.166666666666667e-06,
+          "explanation": "Estimated time = 0.041666666666666664 seconds.",
+          "workedSteps": [
+            "Table 1 gives \\(\\frac23n^3\\) flops.",
+            "Divide the operation count by the stated processing rate.",
+            "Estimated time = 0.041666666666666664 seconds."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Enter approximate execution time in seconds.",
+          "type": "numeric",
+          "answer": 0.125,
+          "tolerance": 1.25e-05,
+          "explanation": "Estimated time = 0.125 seconds.",
+          "workedSteps": [
+            "Table 1 gives \\(2n^3\\) flops.",
+            "Divide the operation count by the stated processing rate.",
+            "Estimated time = 0.125 seconds."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-5": {
+      "fields": [
+        {
+          "label": "a1",
+          "selectionPrompt": "Enter forward-phase time in seconds.",
+          "type": "numeric",
+          "answer": 666666.6666666666,
+          "tolerance": 1,
+          "explanation": "At \\(10^9\\) flops/s, time is 666666.6667 seconds.",
+          "workedSteps": [
+            "Forward work is \\(\\frac23(10^5)^3\\) flops.",
+            "At \\(10^9\\) flops/s, time is 666666.6667 seconds."
+          ]
+        },
+        {
+          "label": "a2",
+          "selectionPrompt": "Enter backward-phase time in seconds.",
+          "type": "numeric",
+          "answer": 10.0,
+          "tolerance": 1e-06,
+          "explanation": "Dividing by \\(10^9\\) gives 10 seconds.",
+          "workedSteps": [
+            "Backward work is \\((10^5)^2=10^{10}\\) flops.",
+            "Dividing by \\(10^9\\) gives 10 seconds."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the speed threshold in gigaflops/s (the speed must exceed it).",
+          "type": "numeric",
+          "answer": 1333.3333333333333,
+          "tolerance": 0.01,
+          "explanation": "Thus \\(r>\\frac{4000}{3}\\) gigaflops/s.",
+          "workedSteps": [
+            "Require \\(\\frac{(\\frac{2}{3})10^{12}}{r10^9}<0.5\\).",
+            "Thus \\(r>\\frac{4000}{3}\\) gigaflops/s."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the speed threshold in teraflops/s (must exceed it).",
+          "type": "numeric",
+          "answer": 4000.0,
+          "tolerance": 1e-06,
+          "explanation": "For less than 0.5 s, require more than \\(4\\times10^{15}\\) flops/s = 4000 teraflops/s.",
+          "workedSteps": [
+            "Inverse computation costs about \\(2(10^5)^3=2\\times10^{15}\\) flops.",
+            "For less than 0.5 s, require more than \\(4\\times10^{15}\\) flops/s = 4000 teraflops/s."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the flop count.",
+          "type": "choice",
+          "answer": "\\(n^2\\)",
+          "options": [
+            "\\(n^2\\)",
+            "\\(n\\)",
+            "\\(2n^2\\)"
+          ],
+          "explanation": "The count is \\(n^2\\).",
+          "workedSteps": [
+            "Multiply each of the n² entries once.",
+            "The count is \\(n^2\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the flop count.",
+          "type": "choice",
+          "answer": "\\(n^2\\)",
+          "options": [
+            "\\(n^2\\)",
+            "\\(2n^2\\)",
+            "\\(n^3\\)"
+          ],
+          "explanation": "The count is \\(n^2\\).",
+          "workedSteps": [
+            "Add each of the n² corresponding pairs once.",
+            "The count is \\(n^2\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the flop count.",
+          "type": "choice",
+          "answer": "\\(2n^3-n^2\\)",
+          "options": [
+            "\\(2n^3-n^2\\)",
+            "\\(n^3\\)",
+            "\\(2n^3\\)"
+          ],
+          "explanation": "The count is \\(2n^3-n^2\\).",
+          "workedSteps": [
+            "Each of n² entries uses n multiplications and n−1 additions.",
+            "The count is \\(2n^3-n^2\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-3-10": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the flop count.",
+          "type": "choice",
+          "answer": "\\(n(k-1)\\)",
+          "options": [
+            "\\(n(k-1)\\)",
+            "\\(nk\\)",
+            "\\(n^2(k-1)\\)"
+          ],
+          "explanation": "The count is \\(n(k-1)\\).",
+          "workedSteps": [
+            "Compute each of n diagonal kth powers using k−1 successive multiplications.",
+            "The count is \\(n(k-1)\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-4-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the distinct singular values (including zero eigenvalues of A transpose A).",
+          "type": "choice",
+          "answer": "\\(\\sqrt5,0\\)",
+          "options": [
+            "\\(\\sqrt5,0\\)",
+            "\\(5,0\\)",
+            "\\(1,2,0\\)"
+          ],
+          "explanation": "Its eigenvalues are 5,0,0; take their nonnegative square roots.",
+          "workedSteps": [
+            "\\(A^TA=\\begin{bmatrix}1&2&0\\\\2&4&0\\\\0&0&0\\end{bmatrix}\\).",
+            "Its eigenvalues are 5,0,0; take their nonnegative square roots."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-4-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the distinct singular value.",
+          "type": "choice",
+          "answer": "\\(\\sqrt5\\)",
+          "options": [
+            "\\(\\sqrt5\\)",
+            "\\(5\\)",
+            "\\(\\sqrt3\\)"
+          ],
+          "explanation": "Both singular values equal \\(\\sqrt5\\).",
+          "workedSteps": [
+            "\\(A^TA=5I\\).",
+            "Both singular values equal \\(\\sqrt5\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-4-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{2} & 0\\\\0 & \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{2} & 0\\\\0 & \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{2} & 0\\\\0 & \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{1}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{2} & 0\\\\0 & \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}2 & 0\\\\0 & 2\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(\\sqrt{2},\\sqrt{2}\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-4-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & - \\frac{\\sqrt{5}}{5}\\\\\\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}8 & 0\\\\0 & 2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\\\- \\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & - \\frac{\\sqrt{5}}{5}\\\\\\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}8 & 0\\\\0 & 2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\\\- \\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{3 \\sqrt{5}}{5} & - \\frac{\\sqrt{5}}{5}\\\\\\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}8 & 0\\\\0 & 2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\\\- \\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{1 \\sqrt{5}}{5} & - \\frac{\\sqrt{5}}{5}\\\\\\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}8 & 0\\\\0 & 2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\\\- \\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}16 & 24\\\\24 & 52\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(8,2\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-4-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{2}{3} & \\frac{\\sqrt{5}}{3} & 0\\\\\\frac{1}{3} & - \\frac{2 \\sqrt{5}}{15} & \\frac{2 \\sqrt{5}}{5}\\\\- \\frac{2}{3} & \\frac{4 \\sqrt{5}}{15} & \\frac{\\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2} & 0\\\\0 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{2}{3} & \\frac{\\sqrt{5}}{3} & 0\\\\\\frac{1}{3} & - \\frac{2 \\sqrt{5}}{15} & \\frac{2 \\sqrt{5}}{5}\\\\- \\frac{2}{3} & \\frac{4 \\sqrt{5}}{15} & \\frac{\\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2} & 0\\\\0 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{3}{3} & \\frac{\\sqrt{5}}{3} & 0\\\\\\frac{1}{3} & - \\frac{2 \\sqrt{5}}{15} & \\frac{2 \\sqrt{5}}{5}\\\\- \\frac{2}{3} & \\frac{4 \\sqrt{5}}{15} & \\frac{\\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2} & 0\\\\0 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{1}{3} & \\frac{\\sqrt{5}}{3} & 0\\\\\\frac{1}{3} & - \\frac{2 \\sqrt{5}}{15} & \\frac{2 \\sqrt{5}}{5}\\\\- \\frac{2}{3} & \\frac{4 \\sqrt{5}}{15} & \\frac{\\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2} & 0\\\\0 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}9 & -9\\\\-9 & 9\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(3 \\sqrt{2}\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/539.svg.gz",
+          "pdfPage": 553,
+          "role": "instructions",
+          "crops": [
+            [
+              328,
+              678.33,
+              255,
+              11.97
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/540.svg.gz",
+          "pdfPage": 554,
+          "role": "problem",
+          "crops": [
+            [
+              34,
+              50,
+              127.91,
+              40
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-4-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{\\sqrt{3}}{3} & 0 & \\frac{\\sqrt{6}}{3}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\- \\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{6}}{6}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{3} & 0\\\\0 & \\sqrt{2}\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{3}}{3} & 0 & \\frac{\\sqrt{6}}{3}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\- \\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{6}}{6}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{3} & 0\\\\0 & \\sqrt{2}\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{4}}{3} & 0 & \\frac{\\sqrt{6}}{3}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\- \\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{6}}{6}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{3} & 0\\\\0 & \\sqrt{2}\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{3} & 0 & \\frac{\\sqrt{6}}{3}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\- \\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{6}}{6}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{3} & 0\\\\0 & \\sqrt{2}\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}3 & 0\\\\0 & 2\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(\\sqrt{3},\\sqrt{2}\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/539.svg.gz",
+          "pdfPage": 553,
+          "role": "instructions",
+          "crops": [
+            [
+              328,
+              678.33,
+              255,
+              11.97
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/540.svg.gz",
+          "pdfPage": 554,
+          "role": "problem",
+          "crops": [
+            [
+              34,
+              94,
+              127.91,
+              40
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-4-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the rank argument.",
+          "type": "choice",
+          "answer": "\\(\\operatorname{rank}(A^TA)=\\operatorname{rank}(A)=\\operatorname{rank}(A^T)=\\operatorname{rank}(AA^T)\\)",
+          "options": [
+            "\\(\\operatorname{rank}(A^TA)=\\operatorname{rank}(A)=\\operatorname{rank}(A^T)=\\operatorname{rank}(AA^T)\\)",
+            "\\(\\operatorname{rank}(A^TA)\\ne \\operatorname{rank}(A)=\\operatorname{rank}(A^T)=\\operatorname{rank}(AA^T)\\)",
+            "\\(\\operatorname{rank}(A^TA)=-\\operatorname{rank}(A)=\\operatorname{rank}(A^T)=\\operatorname{rank}(AA^T)\\)"
+          ],
+          "explanation": "Rank-nullity gives equal ranks. Apply the same argument to A transpose and use equality of row and column rank.",
+          "workedSteps": [
+            "The identity \\(x^TA^TAx=\\|Ax\\|^2\\) proves A and A transpose A have the same null space.",
+            "Rank-nullity gives equal ranks. Apply the same argument to A transpose and use equality of row and column rank."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-4-14": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the rank-nullity calculation.",
+          "type": "choice",
+          "answer": "\\(\\operatorname{rank}(A^TA)=n-\\operatorname{nullity}(A^TA)=n-\\operatorname{nullity}(A)=\\operatorname{rank}(A)\\)",
+          "options": [
+            "\\(\\operatorname{rank}(A^TA)=n-\\operatorname{nullity}(A^TA)=n-\\operatorname{nullity}(A)=\\operatorname{rank}(A)\\)",
+            "\\(\\operatorname{rank}(A^TA)\\ne n-\\operatorname{nullity}(A^TA)=n-\\operatorname{nullity}(A)=\\operatorname{rank}(A)\\)",
+            "\\(\\operatorname{rank}(A^TA)=-n-\\operatorname{nullity}(A^TA)=n-\\operatorname{nullity}(A)=\\operatorname{rank}(A)\\)"
+          ],
+          "explanation": "Both matrices have n columns, so subtracting those nullities from n yields equal ranks.",
+          "workedSteps": [
+            "Part (a) gives equal null spaces and hence equal nullities.",
+            "Both matrices have n columns, so subtracting those nullities from n yields equal ranks."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-4-17": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the singular values of A transpose A.",
+          "type": "choice",
+          "answer": "\\(\\sigma_1^2,\\ldots,\\sigma_n^2\\)",
+          "options": [
+            "\\(\\sigma_1^2,\\ldots,\\sigma_n^2\\)",
+            "\\(\\sigma_2^2,\\ldots,\\sigma_n^2\\)",
+            "\\(\\sigma_0^2,\\ldots,\\sigma_n^2\\)"
+          ],
+          "explanation": "This is a positive semidefinite symmetric matrix with eigenvalues \\(\\sigma_i^2\\). Its singular values are these same nonnegative numbers.",
+          "workedSteps": [
+            "\\(A^TA=V\\Sigma^T\\Sigma V^T\\).",
+            "This is a positive semidefinite symmetric matrix with eigenvalues \\(\\sigma_i^2\\). Its singular values are these same nonnegative numbers."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-4-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the polar factors and why they qualify.",
+          "type": "choice",
+          "answer": "\\(P=U\\Sigma U^T,\\quad Q=UV^T\\)",
+          "options": [
+            "\\(P=U\\Sigma U^T,\\quad Q=UV^T\\)",
+            "\\(P\\ne U\\Sigma U^T,\\quad Q=UV^T\\)",
+            "\\(P=-U\\Sigma U^T,\\quad Q=UV^T\\)"
+          ],
+          "explanation": "P has the same number of positive singular values, hence the same rank, as A.",
+          "workedSteps": [
+            "\\(PQ=U\\Sigma U^TUV^T=A\\).",
+            "\\(QQ^T=I\\); moreover \\(x^TPx=(U^Tx)^T\\Sigma(U^Tx)\\ge0\\).",
+            "P has the same number of positive singular values, hence the same rank, as A."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select a polar decomposition for Exercise 5.",
+          "type": "choice",
+          "answer": "\\(P=\\sqrt2 I,\\quad Q=\\frac1{\\sqrt2}\\begin{bmatrix}1&-1\\\\1&1\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\sqrt2 I,\\quad Q=\\frac1{\\sqrt2}\\begin{bmatrix}1&-1\\\\1&1\\end{bmatrix}\\)",
+            "\\(P=\\sqrt2 I,\\quad Q=\\frac1{\\sqrt2}\\begin{bmatrix}2&-1\\\\1&1\\end{bmatrix}\\)",
+            "\\(P=\\sqrt2 I,\\quad Q=\\frac1{\\sqrt2}\\begin{bmatrix}0&-1\\\\1&1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Thus its positive square root is \\(P=\\sqrt2 I\\) and \\(Q=P^{-1}A\\) is orthogonal.",
+          "workedSteps": [
+            "For this A, \\(AA^T=2I\\).",
+            "Thus its positive square root is \\(P=\\sqrt2 I\\) and \\(Q=P^{-1}A\\) is orthogonal."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-9-5-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{2}{3}\\\\\\frac{1}{3}\\\\- \\frac{2}{3}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{2}{3}\\\\\\frac{1}{3}\\\\- \\frac{2}{3}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{3}{3}\\\\\\frac{1}{3}\\\\- \\frac{2}{3}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{1}{3}\\\\\\frac{1}{3}\\\\- \\frac{2}{3}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}9 & -9\\\\-9 & 9\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(3 \\sqrt{2}\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              399.58,
+              255,
+              33.89
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              435.17,
+              127.99,
+              41
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-5-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid reduced singular value expansion.",
+          "type": "choice",
+          "answer": "\\(A=3 \\sqrt{2}\\begin{bmatrix}\\frac{2}{3}\\\\\\frac{1}{3}\\\\- \\frac{2}{3}\\end{bmatrix}\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(A=3 \\sqrt{2}\\begin{bmatrix}\\frac{2}{3}\\\\\\frac{1}{3}\\\\- \\frac{2}{3}\\end{bmatrix}\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(A=4 \\sqrt{2}\\begin{bmatrix}\\frac{2}{3}\\\\\\frac{1}{3}\\\\- \\frac{2}{3}\\end{bmatrix}\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(A=2 \\sqrt{2}\\begin{bmatrix}\\frac{2}{3}\\\\\\frac{1}{3}\\\\- \\frac{2}{3}\\end{bmatrix}\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}9 & -9\\\\-9 & 9\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(3 \\sqrt{2}\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              525.91,
+              255,
+              11.97
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              538.18,
+              258,
+              14.27
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "reference",
+          "crops": [
+            [
+              62,
+              399.58,
+              255,
+              33.89
+            ]
+          ],
+          "contextLabel": "1"
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "reference",
+          "crops": [
+            [
+              59,
+              435.17,
+              127.99,
+              41
+            ]
+          ],
+          "contextLabel": "1"
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-5-2": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{3}}{2}\\\\- \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{1}}{2}\\\\- \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}3 \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}- \\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}8 & 4 & -8\\\\4 & 2 & -4\\\\-8 & -4 & 8\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(3 \\sqrt{2}\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              399.58,
+              255,
+              33.89
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "problem",
+          "crops": [
+            [
+              186.99,
+              435.17,
+              130.01,
+              41
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-5-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid reduced singular value expansion.",
+          "type": "choice",
+          "answer": "\\(A=3 \\sqrt{2}\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}- \\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\end{bmatrix}\\)",
+          "options": [
+            "\\(A=3 \\sqrt{2}\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}- \\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\end{bmatrix}\\)",
+            "\\(A=4 \\sqrt{2}\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}- \\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\end{bmatrix}\\)",
+            "\\(A=2 \\sqrt{2}\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}- \\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}8 & 4 & -8\\\\4 & 2 & -4\\\\-8 & -4 & 8\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(3 \\sqrt{2}\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              525.91,
+              255,
+              11.97
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              554.59,
+              258,
+              15.08
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "reference",
+          "crops": [
+            [
+              62,
+              399.58,
+              255,
+              33.89
+            ]
+          ],
+          "contextLabel": "2"
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "reference",
+          "crops": [
+            [
+              186.99,
+              435.17,
+              130.01,
+              41
+            ]
+          ],
+          "contextLabel": "2"
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-5-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{\\sqrt{3}}{3} & 0\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{3} & 0\\\\0 & \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{3}}{3} & 0\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{3} & 0\\\\0 & \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{4}}{3} & 0\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{3} & 0\\\\0 & \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{3} & 0\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}\\sqrt{3} & 0\\\\0 & \\sqrt{2}\\end{bmatrix},\\quad V^T=\\begin{bmatrix}1 & 0\\\\0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}3 & 0\\\\0 & 2\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(\\sqrt{3},\\sqrt{2}\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              399.58,
+              255,
+              33.89
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              479,
+              127.99,
+              41
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-5-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid reduced singular value expansion.",
+          "type": "choice",
+          "answer": "\\(A=\\sqrt{3}\\begin{bmatrix}\\frac{\\sqrt{3}}{3}\\\\\\frac{\\sqrt{3}}{3}\\\\- \\frac{\\sqrt{3}}{3}\\end{bmatrix}\\begin{bmatrix}1 & 0\\end{bmatrix}+\\sqrt{2}\\begin{bmatrix}0\\\\\\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(A=\\sqrt{3}\\begin{bmatrix}\\frac{\\sqrt{3}}{3}\\\\\\frac{\\sqrt{3}}{3}\\\\- \\frac{\\sqrt{3}}{3}\\end{bmatrix}\\begin{bmatrix}1 & 0\\end{bmatrix}+\\sqrt{2}\\begin{bmatrix}0\\\\\\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}0 & 1\\end{bmatrix}\\)",
+            "\\(A=\\sqrt{4}\\begin{bmatrix}\\frac{\\sqrt{3}}{3}\\\\\\frac{\\sqrt{3}}{3}\\\\- \\frac{\\sqrt{3}}{3}\\end{bmatrix}\\begin{bmatrix}1 & 0\\end{bmatrix}+\\sqrt{2}\\begin{bmatrix}0\\\\\\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}0 & 1\\end{bmatrix}\\)",
+            "\\(A=\\sqrt{2}\\begin{bmatrix}\\frac{\\sqrt{3}}{3}\\\\\\frac{\\sqrt{3}}{3}\\\\- \\frac{\\sqrt{3}}{3}\\end{bmatrix}\\begin{bmatrix}1 & 0\\end{bmatrix}+\\sqrt{2}\\begin{bmatrix}0\\\\\\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}0 & 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}3 & 0\\\\0 & 2\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(\\sqrt{3},\\sqrt{2}\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              525.91,
+              255,
+              11.97
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              571.81,
+              258,
+              15.08
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "reference",
+          "crops": [
+            [
+              62,
+              399.58,
+              255,
+              33.89
+            ]
+          ],
+          "contextLabel": "3"
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "reference",
+          "crops": [
+            [
+              59,
+              479,
+              127.99,
+              41
+            ]
+          ],
+          "contextLabel": "3"
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-5-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\\\0 & 0\\\\\\frac{\\sqrt{5}}{5} & - \\frac{2 \\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}8 & 0\\\\0 & 2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\\\- \\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\\\0 & 0\\\\\\frac{\\sqrt{5}}{5} & - \\frac{2 \\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}8 & 0\\\\0 & 2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\\\- \\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{3 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\\\0 & 0\\\\\\frac{\\sqrt{5}}{5} & - \\frac{2 \\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}8 & 0\\\\0 & 2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\\\- \\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{1 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\\\0 & 0\\\\\\frac{\\sqrt{5}}{5} & - \\frac{2 \\sqrt{5}}{5}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}8 & 0\\\\0 & 2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\\\- \\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}52 & 24\\\\24 & 16\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(8,2\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              399.58,
+              255,
+              33.89
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "problem",
+          "crops": [
+            [
+              186.99,
+              479,
+              130.01,
+              41
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-5-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid reduced singular value expansion.",
+          "type": "choice",
+          "answer": "\\(A=8\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5}\\\\0\\\\\\frac{\\sqrt{5}}{5}\\end{bmatrix}\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\end{bmatrix}+2\\begin{bmatrix}\\frac{\\sqrt{5}}{5}\\\\0\\\\- \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\begin{bmatrix}- \\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\)",
+          "options": [
+            "\\(A=8\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5}\\\\0\\\\\\frac{\\sqrt{5}}{5}\\end{bmatrix}\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\end{bmatrix}+2\\begin{bmatrix}\\frac{\\sqrt{5}}{5}\\\\0\\\\- \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\begin{bmatrix}- \\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\)",
+            "\\(A=9\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5}\\\\0\\\\\\frac{\\sqrt{5}}{5}\\end{bmatrix}\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\end{bmatrix}+2\\begin{bmatrix}\\frac{\\sqrt{5}}{5}\\\\0\\\\- \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\begin{bmatrix}- \\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\)",
+            "\\(A=7\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5}\\\\0\\\\\\frac{\\sqrt{5}}{5}\\end{bmatrix}\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\end{bmatrix}+2\\begin{bmatrix}\\frac{\\sqrt{5}}{5}\\\\0\\\\- \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\begin{bmatrix}- \\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}52 & 24\\\\24 & 16\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(8,2\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              525.91,
+              255,
+              11.97
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "problem",
+          "crops": [
+            [
+              325,
+              391.18,
+              258,
+              20.37
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "reference",
+          "crops": [
+            [
+              62,
+              399.58,
+              255,
+              33.89
+            ]
+          ],
+          "contextLabel": "4"
+        },
+        {
+          "file": "practice/linear-sections/543.svg.gz",
+          "pdfPage": 557,
+          "role": "reference",
+          "crops": [
+            [
+              186.99,
+              479,
+              130.01,
+              41
+            ]
+          ],
+          "contextLabel": "4"
+        }
+      ],
+      "reviewNotice": "Source image crops were checked against the full chapter page and repaired to preserve complete matrices while excluding adjacent exercise fragments."
+    },
+    "anton-section-9-5-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Enter the number of stored scalars in the rank-100 SVD approximation.",
+          "type": "numeric",
+          "answer": 70100.0,
+          "tolerance": 1e-06,
+          "explanation": "Total \\(100(200+500+1)=70100\\).",
+          "workedSteps": [
+            "Store 100 left vectors of length 200, 100 right vectors of length 500, and 100 singular values.",
+            "Total \\(100(200+500+1)=70100\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Enter the original number of matrix entries.",
+          "type": "numeric",
+          "answer": 100000.0,
+          "tolerance": 1e-06,
+          "explanation": "The rank-100 representation saves 29900 scalars, or 29.9%.",
+          "workedSteps": [
+            "\\(200\\times500=100000\\).",
+            "The rank-100 representation saves 29900 scalars, or 29.9%."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the exact dominant eigenpair with positive unit eigenvector.",
+          "type": "choice",
+          "answer": "\\(\\lambda=3,\\quad v=\\frac1{\\sqrt2}(1,1)^T\\)",
+          "options": [
+            "\\(\\lambda=3,\\quad v=\\frac1{\\sqrt2}(1,1)^T\\)",
+            "\\(\\lambda=4,\\quad v=\\frac1{\\sqrt2}(1,1)^T\\)",
+            "\\(\\lambda=2,\\quad v=\\frac1{\\sqrt2}(1,1)^T\\)"
+          ],
+          "explanation": "The eigenvector (1,1) has norm \\(\\sqrt2\\).",
+          "workedSteps": [
+            "The eigenvalues are 3 and 1.",
+            "The eigenvector (1,1) has norm \\(\\sqrt2\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the Euclidean fifth iterate.",
+          "type": "choice",
+          "answer": "\\(x_5=\\begin{bmatrix}0.7100107\\\\0.7041909\\end{bmatrix}\\)",
+          "options": [
+            "\\(x_5=\\begin{bmatrix}0.7100107\\\\0.7041909\\end{bmatrix}\\)",
+            "\\(x_5=\\begin{bmatrix}1.7100107\\\\0.7041909\\end{bmatrix}\\)",
+            "\\(x_5=\\begin{bmatrix}-1.7100107\\\\0.7041909\\end{bmatrix}\\)"
+          ],
+          "explanation": "Normalize it to obtain \\(\\begin{bmatrix}0.7100107\\\\0.7041909\\end{bmatrix}\\), approaching \\((1,1)^T/\\sqrt2\\).",
+          "workedSteps": [
+            "\\(A^5x_0=(122,121)^T\\).",
+            "Normalize it to obtain \\(\\begin{bmatrix}0.7100107\\\\0.7041909\\end{bmatrix}\\), approaching \\((1,1)^T/\\sqrt2\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the maximum-entry fifth iterate.",
+          "type": "choice",
+          "answer": "\\(x_5=\\begin{bmatrix}1.0\\\\0.9918033\\end{bmatrix}\\)",
+          "options": [
+            "\\(x_5=\\begin{bmatrix}1.0\\\\0.9918033\\end{bmatrix}\\)",
+            "\\(x_5=\\begin{bmatrix}2.0\\\\0.9918033\\end{bmatrix}\\)",
+            "\\(x_5=\\begin{bmatrix}0.0\\\\0.9918033\\end{bmatrix}\\)"
+          ],
+          "explanation": "This gives \\((1,\\frac{121}{122})^T\\), approaching (1,1).",
+          "workedSteps": [
+            "Divide (122,121) by 122.",
+            "This gives \\((1,\\frac{121}{122})^T\\), approaching (1,1)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the general behavior.",
+          "type": "choice",
+          "answer": "A two-cycle after normalization; constant only when the starting vector has equal coordinates.",
+          "options": [
+            "A two-cycle after normalization; constant only when the starting vector has equal coordinates.",
+            "Always converges to a single eigenvector.",
+            "Always converges to zero."
+          ],
+          "explanation": "Eigenvalues 1 and −1 tie in magnitude, so there is no dominant eigenvalue.",
+          "workedSteps": [
+            "\\(A(a,b)^T=(b,a)^T,\\quad A^2=I\\).",
+            "After normalization the two vectors alternate. They coincide exactly when a=b; a=−b gives opposite vectors.",
+            "Eigenvalues 1 and −1 tie in magnitude, so there is no dominant eigenvalue."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the Rayleigh-quotient conclusion for a start with nonzero dominant component.",
+          "type": "choice",
+          "answer": "They converge to −8.1, slowly because 8/8.1 is close to 1.",
+          "options": [
+            "They converge to −8.1, slowly because 8/8.1 is close to 1.",
+            "They converge to 8.1.",
+            "They cannot converge because the dominant eigenvalue is negative."
+          ],
+          "explanation": "The next-to-dominant magnitude ratio is \\(\\frac{8}{8}.1\\), causing slow convergence.",
+          "workedSteps": [
+            "The unique largest eigenvalue magnitude is 8.1.",
+            "The dominant eigenvector sign may alternate, but the Rayleigh quotient is unchanged by sign.",
+            "The next-to-dominant magnitude ratio is \\(\\frac{8}{8}.1\\), causing slow convergence."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{1}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}2 & 2\\\\2 & 2\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(2\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2} & 0\\\\0 & 0 & 1\\\\\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2} & 0\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2 & 0\\\\0 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2} & 0\\\\0 & 0 & 1\\\\\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2} & 0\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2 & 0\\\\0 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{3}}{2} & \\frac{\\sqrt{2}}{2} & 0\\\\0 & 0 & 1\\\\\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2} & 0\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2 & 0\\\\0 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{1}}{2} & \\frac{\\sqrt{2}}{2} & 0\\\\0 & 0 & 1\\\\\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2} & 0\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2 & 0\\\\0 & 0\\\\0 & 0\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}2 & 2\\\\2 & 2\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(2\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-10": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid singular value decomposition (the displayed third factor is V transpose).",
+          "type": "choice",
+          "answer": "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\0\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\0\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{3}}{2}\\\\0\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(U=\\begin{bmatrix}\\frac{\\sqrt{1}}{2}\\\\0\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad \\Sigma=\\begin{bmatrix}2\\end{bmatrix},\\quad V^T=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}2 & 2\\\\2 & 2\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(2\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select a valid reduced singular value expansion.",
+          "type": "choice",
+          "answer": "\\(A=2\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\0\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(A=2\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\0\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(A=3\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\0\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "\\(A=1\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\0\\\\\\frac{\\sqrt{2}}{2}\\end{bmatrix}\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable).",
+          "workedSteps": [
+            "Compute \\(A^TA=\\begin{bmatrix}2 & 2\\\\2 & 2\\end{bmatrix}\\).",
+            "Its nonnegative eigenvalues yield singular values \\(2\\).",
+            "Choose orthonormal right eigenvectors and set \\(u_i=Av_i/\\sigma_i\\) for positive singular values.",
+            "The displayed factors satisfy \\(U^TU=I,V^TV=I,U\\Sigma V^T=A\\) (with reduced identity sizes when applicable)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the reduced SVD.",
+          "type": "choice",
+          "answer": "\\(U_r=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & \\frac{1}{2}\\end{bmatrix},\\Sigma_r=\\begin{bmatrix}24 & 0\\\\0 & 12\\end{bmatrix}, V_r^T=\\begin{bmatrix}\\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\\\\\frac{2}{3} & \\frac{2}{3} & - \\frac{1}{3}\\end{bmatrix}\\)",
+          "options": [
+            "\\(U_r=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & \\frac{1}{2}\\end{bmatrix},\\Sigma_r=\\begin{bmatrix}24 & 0\\\\0 & 12\\end{bmatrix}, V_r^T=\\begin{bmatrix}\\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\\\\\frac{2}{3} & \\frac{2}{3} & - \\frac{1}{3}\\end{bmatrix}\\)",
+            "\\(U_r=\\begin{bmatrix}\\frac{2}{2} & \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & \\frac{1}{2}\\end{bmatrix},\\Sigma_r=\\begin{bmatrix}24 & 0\\\\0 & 12\\end{bmatrix}, V_r^T=\\begin{bmatrix}\\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\\\\\frac{2}{3} & \\frac{2}{3} & - \\frac{1}{3}\\end{bmatrix}\\)",
+            "\\(U_r=\\begin{bmatrix}\\frac{0}{2} & \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{1}{2}\\\\\\frac{1}{2} & \\frac{1}{2}\\end{bmatrix},\\Sigma_r=\\begin{bmatrix}24 & 0\\\\0 & 12\\end{bmatrix}, V_r^T=\\begin{bmatrix}\\frac{2}{3} & - \\frac{1}{3} & \\frac{2}{3}\\\\\\frac{2}{3} & \\frac{2}{3} & - \\frac{1}{3}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The reduced product is unchanged because the omitted terms are multiplied by zero.",
+          "workedSteps": [
+            "Only singular values 24 and 12 are nonzero.",
+            "Retain the first two columns of U, the leading 2 by 2 block of the middle factor, and the first two rows of the displayed V transpose.",
+            "The reduced product is unchanged because the omitted terms are multiplied by zero."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-12": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Do orthogonally similar matrices have equal singular values?",
+          "type": "choice",
+          "answer": "Yes",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "explanation": "The Gram matrices are similar and have identical eigenvalues; their nonnegative square roots agree.",
+          "workedSteps": [
+            "\\(B=Q^TAQ\\) implies \\(B^TB=Q^TA^TAQ\\).",
+            "The Gram matrices are similar and have identical eigenvalues; their nonnegative square roots agree."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the singular values with multiplicities.",
+          "type": "choice",
+          "answer": "\\(1\\text{ repeated }\\dim W\\text{ times};\\quad0\\text{ repeated }n-\\dim W\\text{ times}\\)",
+          "options": [
+            "\\(1\\text{ repeated }\\dim W\\text{ times};\\quad0\\text{ repeated }n-\\dim W\\text{ times}\\)",
+            "\\(2\\text{ repeated }\\dim W\\text{ times};\\quad0\\text{ repeated }n-\\dim W\\text{ times}\\)",
+            "\\(0\\text{ repeated }\\dim W\\text{ times};\\quad0\\text{ repeated }n-\\dim W\\text{ times}\\)"
+          ],
+          "explanation": "Its eigenvalues are 1 on W and 0 on the orthogonal complement. Since \\(P^TP=P\\), these are also its singular values.",
+          "workedSteps": [
+            "An orthogonal projection satisfies \\(P^T=P,P^2=P\\).",
+            "Its eigenvalues are 1 on W and 0 on the orthogonal complement. Since \\(P^TP=P\\), these are also its singular values."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-09-supplementary-14": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the scalar and rank-one proof (A square).",
+          "type": "choice",
+          "answer": "\\(A=uv^T\\Longrightarrow A^2=(v^Tu)A,\\quad k=v^Tu=\\operatorname{tr}(A)\\)",
+          "options": [
+            "\\(A=uv^T\\Longrightarrow A^2=(v^Tu)A,\\quad k=v^Tu=\\operatorname{tr}(A)\\)",
+            "\\(A=uv^T\\Longrightarrow A^3=(v^Tu)A,\\quad k=v^Tu=\\operatorname{tr}(A)\\)",
+            "\\(A=uv^T\\Longrightarrow A^1=(v^Tu)A,\\quad k=v^Tu=\\operatorname{tr}(A)\\)"
+          ],
+          "explanation": "The middle factor is a scalar, so \\(A^2=kA\\).",
+          "workedSteps": [
+            "A rank-one square matrix can be written as a nonzero column u times a nonzero row v transpose.",
+            "Associativity yields \\(uv^Tuv^T=u(v^Tu)v^T\\).",
+            "The middle factor is a scalar, so \\(A^2=kA\\)."
+          ]
+        }
+      ],
+      "scope": "All requested parts of the source exercise.",
+      "complete": true,
+      "sourceImageReviewed": true
+    }
+  }
+}

@@ -1,0 +1,2375 @@
+{
+  "chapter": 7,
+  "questions": {
+    "anton-section-7-1-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the orthogonality conclusion and inverse.",
+          "type": "choice",
+          "answer": "Orthogonal; \\(A^{-1}=\\begin{bmatrix}1 & 0\\\\0 & -1\\end{bmatrix}\\)",
+          "options": [
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}1 & 0\\\\0 & -1\\end{bmatrix}\\)",
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}-1 & 0\\\\0 & 1\\end{bmatrix}\\)",
+            "Not orthogonal."
+          ],
+          "explanation": "For an orthogonal matrix, \\(A^{-1}=A^T\\).",
+          "workedSteps": [
+            "Compute \\(A^TA=I\\). Thus the columns are an orthonormal set.",
+            "For an orthogonal matrix, \\(A^{-1}=A^T\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the orthogonality conclusion and inverse.",
+          "type": "choice",
+          "answer": "Orthogonal; \\(A^{-1}=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\end{bmatrix}\\)",
+            "Not orthogonal."
+          ],
+          "explanation": "For an orthogonal matrix, \\(A^{-1}=A^T\\).",
+          "workedSteps": [
+            "Compute \\(A^TA=I\\). Thus the columns are an orthonormal set.",
+            "For an orthogonal matrix, \\(A^{-1}=A^T\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-1-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the orthogonality conclusion and inverse.",
+          "type": "choice",
+          "answer": "Orthogonal; \\(A^{-1}=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{2} & \\frac{1}{2} & \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{5}{6} & \\frac{1}{6} & \\frac{1}{6}\\\\\\frac{1}{2} & \\frac{1}{6} & \\frac{1}{6} & - \\frac{5}{6}\\\\\\frac{1}{2} & \\frac{1}{6} & - \\frac{5}{6} & \\frac{1}{6}\\end{bmatrix}\\)",
+          "options": [
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}\\frac{1}{2} & \\frac{1}{2} & \\frac{1}{2} & \\frac{1}{2}\\\\\\frac{1}{2} & - \\frac{5}{6} & \\frac{1}{6} & \\frac{1}{6}\\\\\\frac{1}{2} & \\frac{1}{6} & \\frac{1}{6} & - \\frac{5}{6}\\\\\\frac{1}{2} & \\frac{1}{6} & - \\frac{5}{6} & \\frac{1}{6}\\end{bmatrix}\\)",
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}- \\frac{1}{2} & - \\frac{1}{2} & - \\frac{1}{2} & - \\frac{1}{2}\\\\- \\frac{1}{2} & \\frac{5}{6} & - \\frac{1}{6} & - \\frac{1}{6}\\\\- \\frac{1}{2} & - \\frac{1}{6} & - \\frac{1}{6} & \\frac{5}{6}\\\\- \\frac{1}{2} & - \\frac{1}{6} & \\frac{5}{6} & - \\frac{1}{6}\\end{bmatrix}\\)",
+            "Not orthogonal."
+          ],
+          "explanation": "For an orthogonal matrix, \\(A^{-1}=A^T\\).",
+          "workedSteps": [
+            "Compute \\(A^TA=I\\). Thus the columns are an orthonormal set.",
+            "For an orthogonal matrix, \\(A^{-1}=A^T\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Is the matrix orthogonal?",
+          "type": "choice",
+          "answer": "No: the third column has squared length 1/2 and the second and fourth columns are not perpendicular.",
+          "options": [
+            "No: the third column has squared length 1/2 and the second and fourth columns are not perpendicular.",
+            "Yes: its columns are orthonormal.",
+            "No: its first column has length zero."
+          ],
+          "explanation": "Also columns 2 and 4 have dot product \\(\\frac1{\\sqrt3}\\). Thus \\(A^TA\\ne I\\).",
+          "workedSteps": [
+            "The third column is \\((0,-\\frac12,0,\\frac12)^T\\), whose squared length is 1/2.",
+            "Also columns 2 and 4 have dot product \\(\\frac1{\\sqrt3}\\). Thus \\(A^TA\\ne I\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-1-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the three equivalent verifications.",
+          "type": "choice",
+          "answer": "AᵀA=I; all column dot products form I; all row dot products form I.",
+          "options": [
+            "AᵀA=I; all column dot products form I; all row dot products form I.",
+            "AᵀA=−I; all rows have length 1.",
+            "AᵀA=I; distinct rows have dot product 1."
+          ],
+          "explanation": "Likewise \\(AA^T=I_3\\), verifying unit row lengths and pairwise perpendicular rows.",
+          "workedSteps": [
+            "Direct multiplication gives \\(A^TA=I_3\\).",
+            "The column squared lengths are 1 and their three distinct dot products are zero.",
+            "Likewise \\(AA^T=I_3\\), verifying unit row lengths and pairwise perpendicular rows."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-1-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Find T_A(x).",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}- \\frac{23}{5}\\\\\\frac{18}{25}\\\\\\frac{101}{25}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}- \\frac{23}{5}\\\\\\frac{18}{25}\\\\\\frac{101}{25}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{18}{5}\\\\\\frac{18}{25}\\\\\\frac{101}{25}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{28}{5}\\\\\\frac{18}{25}\\\\\\frac{101}{25}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}- \\frac{23}{5}\\\\\\frac{18}{25}\\\\\\frac{101}{25}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Multiply each row of A by \\((-2,3,5)^T\\).",
+            "The result is \\(\\begin{bmatrix}- \\frac{23}{5}\\\\\\frac{18}{25}\\\\\\frac{101}{25}\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Find the common norm of x and T_A(x).",
+          "type": "choice",
+          "answer": "\\(\\sqrt{38}\\)",
+          "options": [
+            "\\(\\sqrt{38}\\)",
+            "\\(1 + \\sqrt{38}\\)",
+            "\\(-1 + \\sqrt{38}\\)"
+          ],
+          "explanation": "The result is \\(\\sqrt{38}\\).",
+          "workedSteps": [
+            "The original squared norm is \\(4+9+25=38\\).",
+            "The transformed squared norm also equals 38 by direct summation; equivalently \\(x^TA^TAx=x^Tx\\).",
+            "The result is \\(\\sqrt{38}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-1-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\(a^2+b^2=\\frac12\\)",
+          "options": [
+            "\\(a^2+b^2=\\frac12\\)",
+            "\\(a^2+b^2=1\\)",
+            "\\(a=b\\)"
+          ],
+          "explanation": "They are unit vectors exactly when that expression equals 1.",
+          "workedSteps": [
+            "The two columns have dot product \\((a+b)(b-a)+(a-b)(b+a)=0\\).",
+            "Each squared length is \\(2(a^2+b^2)\\).",
+            "They are unit vectors exactly when that expression equals 1."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-1-12": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "Every diagonal entry must be either +1 or −1.",
+          "options": [
+            "Every diagonal entry must be either +1 or −1.",
+            "Every diagonal entry must be +1.",
+            "Every diagonal entry must be any nonzero real number."
+          ],
+          "explanation": "It equals I precisely when every \\(d_i^2=1\\).",
+          "workedSteps": [
+            "For a real diagonal matrix \\(D=\\operatorname{diag}(d_i)\\), \\(D^TD=\\operatorname{diag}(d_i^2)\\).",
+            "It equals I precisely when every \\(d_i^2=1\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-1-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Find the coordinates in the rotated system.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}-1 + 3 \\sqrt{3}\\\\\\sqrt{3} + 3\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}-1 + 3 \\sqrt{3}\\\\\\sqrt{3} + 3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}3 \\sqrt{3}\\\\\\sqrt{3} + 3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-2 + 3 \\sqrt{3}\\\\\\sqrt{3} + 3\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}-1 + 3 \\sqrt{3}\\\\\\sqrt{3} + 3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The columns of C are the rotated basis vectors expressed in the old system.",
+            "Convert old coordinates to new by \\(x'=C^Tx\\).",
+            "The result is \\(\\begin{bmatrix}-1 + 3 \\sqrt{3}\\\\\\sqrt{3} + 3\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Find the coordinates in the original system.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{5}{2} - \\sqrt{3}\\\\1 + \\frac{5 \\sqrt{3}}{2}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{5}{2} - \\sqrt{3}\\\\1 + \\frac{5 \\sqrt{3}}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{7}{2} - \\sqrt{3}\\\\1 + \\frac{5 \\sqrt{3}}{2}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{3}{2} - \\sqrt{3}\\\\1 + \\frac{5 \\sqrt{3}}{2}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}\\frac{5}{2} - \\sqrt{3}\\\\1 + \\frac{5 \\sqrt{3}}{2}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The reverse conversion uses \\(x=Cx'\\).",
+            "Multiply the given new-coordinate vector by the rotation matrix.",
+            "The result is \\(\\begin{bmatrix}\\frac{5}{2} - \\sqrt{3}\\\\1 + \\frac{5 \\sqrt{3}}{2}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-1-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Find the coordinates in the rotated system.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\\\frac{3 \\sqrt{2}}{2}\\\\5\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\\\frac{3 \\sqrt{2}}{2}\\\\5\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2} + 1\\\\\\frac{3 \\sqrt{2}}{2}\\\\5\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 + \\frac{\\sqrt{2}}{2}\\\\\\frac{3 \\sqrt{2}}{2}\\\\5\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\\\frac{3 \\sqrt{2}}{2}\\\\5\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The columns of C are the rotated basis vectors expressed in the old system.",
+            "Convert old coordinates to new by \\(x'=C^Tx\\).",
+            "The result is \\(\\begin{bmatrix}\\frac{\\sqrt{2}}{2}\\\\\\frac{3 \\sqrt{2}}{2}\\\\5\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Find the coordinates in the original system.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}- \\frac{5 \\sqrt{2}}{2}\\\\\\frac{7 \\sqrt{2}}{2}\\\\-3\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}- \\frac{5 \\sqrt{2}}{2}\\\\\\frac{7 \\sqrt{2}}{2}\\\\-3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 - \\frac{5 \\sqrt{2}}{2}\\\\\\frac{7 \\sqrt{2}}{2}\\\\-3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{5 \\sqrt{2}}{2} - 1\\\\\\frac{7 \\sqrt{2}}{2}\\\\-3\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}- \\frac{5 \\sqrt{2}}{2}\\\\\\frac{7 \\sqrt{2}}{2}\\\\-3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The reverse conversion uses \\(x=Cx'\\).",
+            "Multiply the given new-coordinate vector by the rotation matrix.",
+            "The result is \\(\\begin{bmatrix}- \\frac{5 \\sqrt{2}}{2}\\\\\\frac{7 \\sqrt{2}}{2}\\\\-3\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-1-18": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\cos\\theta&0&-\\sin\\theta\\\\0&1&0\\\\\\sin\\theta&0&\\cos\\theta\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\cos\\theta&0&-\\sin\\theta\\\\0&1&0\\\\\\sin\\theta&0&\\cos\\theta\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\cos\\theta&0&\\sin\\theta\\\\0&1&0\\\\-\\sin\\theta&0&\\cos\\theta\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\cos\\theta&\\sin\\theta&0\\\\-\\sin\\theta&\\cos\\theta&0\\\\0&0&1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Dot the old-coordinate vector with each new basis vector; these basis vectors become the rows of the coordinate conversion matrix.",
+          "workedSteps": [
+            "Viewed from positive y toward the origin, the positive rotation about y sends e1 toward −e3.",
+            "The new basis vectors are \\((\\cos\\theta,0,-\\sin\\theta),(0,1,0),(\\sin\\theta,0,\\cos\\theta)\\).",
+            "Dot the old-coordinate vector with each new basis vector; these basis vectors become the rows of the coordinate conversion matrix."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-1-26": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "The first column is (cos θ,sin θ); the second must be either (−sin θ,cos θ) or (sin θ,−cos θ).",
+          "options": [
+            "The first column is (cos θ,sin θ); the second must be either (−sin θ,cos θ) or (sin θ,−cos θ).",
+            "The second column can be any unit vector regardless of the first.",
+            "Both columns must equal (cos θ,sin θ)."
+          ],
+          "explanation": "A unit vector on that line has precisely the two possible signs, yielding the two matrices in the source.",
+          "workedSteps": [
+            "A unit first column can be parametrized by cos θ,sin θ for a unique angle in [0,2π).",
+            "Its perpendicular line is spanned by (−sin θ,cos θ).",
+            "A unit vector on that line has precisely the two possible signs, yielding the two matrices in the source."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-2-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the characteristic equation and eigenspace dimensions.",
+          "type": "choice",
+          "answer": "\\(\\lambda \\left(\\lambda - 5\\right)=0\\); dim E(0) = 1, dim E(5) = 1",
+          "options": [
+            "\\(\\lambda \\left(\\lambda - 5\\right)=0\\); dim E(0) = 1, dim E(5) = 1",
+            "\\(\\lambda \\left(\\lambda - 5\\right) + 1=0\\); every eigenspace is one-dimensional.",
+            "\\(\\lambda \\left(\\lambda - 5\\right) - 1=0\\); one eigenspace has dimension 2."
+          ],
+          "explanation": "The matrix is symmetric, so it has an orthonormal eigenbasis and each eigenspace dimension equals its eigenvalue multiplicity.",
+          "workedSteps": [
+            "Compute \\(\\det(\\lambda I-A)=\\lambda \\left(\\lambda - 5\\right)\\).",
+            "The matrix is symmetric, so it has an orthonormal eigenbasis and each eigenspace dimension equals its eigenvalue multiplicity."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              95.6,
+              255,
+              33.79
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              133.5,
+              127.99,
+              28.5
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-7-2-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the characteristic equation and eigenspace dimensions.",
+          "type": "choice",
+          "answer": "\\(\\left(\\lambda - 8\\right) \\left(\\lambda - 2\\right)^{2}=0\\); dim E(2) = 2, dim E(8) = 1",
+          "options": [
+            "\\(\\left(\\lambda - 8\\right) \\left(\\lambda - 2\\right)^{2}=0\\); dim E(2) = 2, dim E(8) = 1",
+            "\\(\\left(\\lambda - 8\\right) \\left(\\lambda - 2\\right)^{2} + 1=0\\); every eigenspace is one-dimensional.",
+            "\\(\\left(\\lambda - 8\\right) \\left(\\lambda - 2\\right)^{2} - 1=0\\); one eigenspace has dimension 3."
+          ],
+          "explanation": "The matrix is symmetric, so it has an orthonormal eigenbasis and each eigenspace dimension equals its eigenvalue multiplicity.",
+          "workedSteps": [
+            "Compute \\(\\det(\\lambda I-A)=\\left(\\lambda - 8\\right) \\left(\\lambda - 2\\right)^{2}\\).",
+            "The matrix is symmetric, so it has an orthonormal eigenbasis and each eigenspace dimension equals its eigenvalue multiplicity."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The original exercise crop clipped the first row. The full PDF matrix is [[4,2,2],[2,4,2],[2,2,4]].",
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              95.6,
+              255,
+              33.79
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "problem",
+          "crops": [
+            [
+              186.99,
+              169,
+              130.01,
+              39.4
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-7-2-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select an orthonormal diagonalizing matrix and its diagonal result.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}- \\frac{2 \\sqrt{7}}{7} & \\frac{\\sqrt{21}}{7}\\\\\\frac{\\sqrt{21}}{7} & \\frac{2 \\sqrt{7}}{7}\\end{bmatrix},\\quad D=\\begin{bmatrix}3 & 0\\\\0 & 10\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}- \\frac{2 \\sqrt{7}}{7} & \\frac{\\sqrt{21}}{7}\\\\\\frac{\\sqrt{21}}{7} & \\frac{2 \\sqrt{7}}{7}\\end{bmatrix},\\quad D=\\begin{bmatrix}3 & 0\\\\0 & 10\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}- \\frac{2 \\sqrt{7}}{7} & \\frac{\\sqrt{21}}{7}\\\\\\frac{\\sqrt{21}}{7} & \\frac{2 \\sqrt{7}}{7}\\end{bmatrix},\\quad D=\\begin{bmatrix}4 & 0\\\\0 & 10\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}- \\frac{2 \\sqrt{7}}{7} & \\frac{\\sqrt{21}}{7}\\\\\\frac{\\sqrt{21}}{7} & \\frac{2 \\sqrt{7}}{7}\\end{bmatrix},\\quad D=\\begin{bmatrix}-3 & 0\\\\0 & -10\\end{bmatrix}\\)"
+          ],
+          "explanation": "Consequently \\(P^{-1}AP=D\\).",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Consequently \\(P^{-1}AP=D\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-2-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select an orthonormal diagonalizing matrix and its diagonal result.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0\\\\0 & 4\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0\\\\0 & 4\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}3 & 0\\\\0 & 4\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}-2 & 0\\\\0 & -4\\end{bmatrix}\\)"
+          ],
+          "explanation": "Consequently \\(P^{-1}AP=D\\).",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Consequently \\(P^{-1}AP=D\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-2-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select an orthonormal diagonalizing matrix and its diagonal result.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}\\frac{\\sqrt{3}}{3} & - \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{3}}{3} & 0 & \\frac{\\sqrt{6}}{3}\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0\\\\0 & 3 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{3}}{3} & - \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{3}}{3} & 0 & \\frac{\\sqrt{6}}{3}\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0\\\\0 & 3 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{3}}{3} & - \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{3}}{3} & 0 & \\frac{\\sqrt{6}}{3}\\end{bmatrix},\\quad D=\\begin{bmatrix}1 & 0 & 0\\\\0 & 3 & 0\\\\0 & 0 & 3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{3}}{3} & - \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{3}}{3} & 0 & \\frac{\\sqrt{6}}{3}\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0\\\\0 & -3 & 0\\\\0 & 0 & -3\\end{bmatrix}\\)"
+          ],
+          "explanation": "Consequently \\(P^{-1}AP=D\\).",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Consequently \\(P^{-1}AP=D\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The original crop clipped the first row. The full PDF matrix is [[2,-1,-1],[-1,2,-1],[-1,-1,2]].",
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              272.14,
+              255,
+              22.93
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              372,
+              127.99,
+              39.84
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-7-2-14": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select an orthonormal diagonalizing matrix and its diagonal result.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}0 & 0 & - \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\0 & 0 & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\1 & 0 & 0 & 0\\\\0 & 1 & 0 & 0\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0 & 0\\\\0 & 0 & 0 & 0\\\\0 & 0 & 2 & 0\\\\0 & 0 & 0 & 4\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}0 & 0 & - \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\0 & 0 & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\1 & 0 & 0 & 0\\\\0 & 1 & 0 & 0\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0 & 0\\\\0 & 0 & 0 & 0\\\\0 & 0 & 2 & 0\\\\0 & 0 & 0 & 4\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}0 & 0 & - \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\0 & 0 & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\1 & 0 & 0 & 0\\\\0 & 1 & 0 & 0\\end{bmatrix},\\quad D=\\begin{bmatrix}1 & 0 & 0 & 0\\\\0 & 0 & 0 & 0\\\\0 & 0 & 2 & 0\\\\0 & 0 & 0 & 4\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}0 & 0 & - \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\0 & 0 & \\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\\\1 & 0 & 0 & 0\\\\0 & 1 & 0 & 0\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0 & 0\\\\0 & 0 & 0 & 0\\\\0 & 0 & -2 & 0\\\\0 & 0 & 0 & -4\\end{bmatrix}\\)"
+          ],
+          "explanation": "Consequently \\(P^{-1}AP=D\\).",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Consequently \\(P^{-1}AP=D\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-2-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\(A=2u_1u_1^T+4u_2u_2^T,\\quad u_1=\\frac1{\\sqrt2}(-1,1)^T,\\quad u_2=\\frac1{\\sqrt2}(1,1)^T\\)",
+          "options": [
+            "\\(A=2u_1u_1^T+4u_2u_2^T,\\quad u_1=\\frac1{\\sqrt2}(-1,1)^T,\\quad u_2=\\frac1{\\sqrt2}(1,1)^T\\)",
+            "\\(A=4u_1u_1^T+2u_2u_2^T,\\quad u_1=\\frac1{\\sqrt2}(-1,1)^T,\\quad u_2=\\frac1{\\sqrt2}(1,1)^T\\)",
+            "\\(A=2I\\)"
+          ],
+          "explanation": "Multiplying the projections by their eigenvalues and adding gives \\(\\begin{bmatrix}3&1\\\\1&3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The eigenvalues are 2 and 4 with the displayed unit eigenvectors.",
+            "Their outer products are the orthogonal projections onto the respective eigenspaces.",
+            "Multiplying the projections by their eigenvalues and adding gives \\(\\begin{bmatrix}3&1\\\\1&3\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              478.57,
+              255,
+              11.97
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              491.69,
+              127.99,
+              27.31
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-7-2-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the symmetric matrix with the stated eigenpairs.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}3 & 0 & 0\\\\0 & 3 & 4\\\\0 & 4 & 3\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}3 & 0 & 0\\\\0 & 3 & 4\\\\0 & 4 & 3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}4 & 0 & 0\\\\0 & 3 & 4\\\\0 & 4 & 3\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 0 & 0\\\\0 & 3 & 4\\\\0 & 4 & 3\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}3 & 0 & 0\\\\0 & 3 & 4\\\\0 & 4 & 3\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The three given eigenvectors are pairwise perpendicular and nonzero.",
+            "Place them in P and set \\(D=\\operatorname{diag}(-1,3,7)\\).",
+            "The matrix \\(A=PDP^{-1}\\) is symmetric and satisfies all three eigenvalue equations.",
+            "The result is \\(\\begin{bmatrix}3 & 0 & 0\\\\0 & 3 & 4\\\\0 & 4 & 3\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              577.61,
+              255,
+              44.89
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/415.svg.gz",
+          "pdfPage": 429,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              623.8,
+              258,
+              39.2
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-7-2-21": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "Yes, for a real diagonalizable matrix with real eigenvalues: orthonormalize each eigenspace to obtain an orthogonal diagonalization.",
+          "options": [
+            "Yes, for a real diagonalizable matrix with real eigenvalues: orthonormalize each eigenspace to obtain an orthogonal diagonalization.",
+            "No: the condition can never imply symmetry.",
+            "Yes, because every diagonalizable matrix is symmetric."
+          ],
+          "explanation": "The resulting orthogonal P gives \\(A=PDP^T\\) with real diagonal D, so \\(A^T=A\\). The section works over real vector spaces.",
+          "workedSteps": [
+            "Take an eigenbasis from diagonalizability.",
+            "Gram–Schmidt within each eigenspace preserves its eigenvalue; different eigenspaces remain perpendicular by hypothesis.",
+            "The resulting orthogonal P gives \\(A=PDP^T\\) with real diagonal D, so \\(A^T=A\\). The section works over real vector spaces."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-2-28": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Why is I−vvᵀ orthogonally diagonalizable?",
+          "type": "choice",
+          "answer": "It is real symmetric, since (vvᵀ)ᵀ=vvᵀ.",
+          "options": [
+            "It is real symmetric, since (vvᵀ)ᵀ=vvᵀ.",
+            "It is always orthogonal.",
+            "It is always invertible."
+          ],
+          "explanation": "The spectral theorem applies to every real symmetric matrix.",
+          "workedSteps": [
+            "Transpose \\(I-vv^T\\) to get the same matrix.",
+            "The spectral theorem applies to every real symmetric matrix."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select an orthonormal diagonalizing matrix and its diagonal result.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & 0 & - \\frac{\\sqrt{2}}{2}\\\\0 & 1 & 0\\\\\\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}-1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & 0 & - \\frac{\\sqrt{2}}{2}\\\\0 & 1 & 0\\\\\\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}-1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & 0 & - \\frac{\\sqrt{2}}{2}\\\\0 & 1 & 0\\\\\\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 1\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & 0 & - \\frac{\\sqrt{2}}{2}\\\\0 & 1 & 0\\\\\\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}1 & 0 & 0\\\\0 & -1 & 0\\\\0 & 0 & -1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Consequently \\(P^{-1}AP=D\\).",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Consequently \\(P^{-1}AP=D\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the symmetric matrix A in xᵀAx.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}3 & 0\\\\0 & 7\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}3 & 0\\\\0 & 7\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}4 & 0\\\\0 & 7\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & 0\\\\0 & 7\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}3 & 0\\\\0 & 7\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Put squared-variable coefficients on the diagonal.",
+            "Divide each mixed-term coefficient by 2 and place the result in both symmetric off-diagonal positions.",
+            "The result is \\(\\begin{bmatrix}3 & 0\\\\0 & 7\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the symmetric matrix A in xᵀAx.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}4 & -3\\\\-3 & -9\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}4 & -3\\\\-3 & -9\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}5 & -3\\\\-3 & -9\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}3 & -3\\\\-3 & -9\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}4 & -3\\\\-3 & -9\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Put squared-variable coefficients on the diagonal.",
+            "Divide each mixed-term coefficient by 2 and place the result in both symmetric off-diagonal positions.",
+            "The result is \\(\\begin{bmatrix}4 & -3\\\\-3 & -9\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Select the symmetric matrix A in xᵀAx.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}9 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}9 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}10 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}8 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}9 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Put squared-variable coefficients on the diagonal.",
+            "Divide each mixed-term coefficient by 2 and place the result in both symmetric off-diagonal positions.",
+            "The result is \\(\\begin{bmatrix}9 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\(2x^2-6xy+5y^2\\)",
+          "options": [
+            "\\(2x^2-6xy+5y^2\\)",
+            "\\(2x^2-3xy+5y^2\\)",
+            "\\(2x^2+6xy+5y^2\\)"
+          ],
+          "explanation": "Dot with (x,y); both off-diagonal entries contribute −3xy, so the mixed coefficient is −6.",
+          "workedSteps": [
+            "Multiply A by (x,y)ᵀ to obtain (2x−3y,−3x+5y)ᵀ.",
+            "Dot with (x,y); both off-diagonal entries contribute −3xy, so the mixed coefficient is −6."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the orthogonal change and diagonal coefficient matrix.",
+          "type": "choice",
+          "answer": "\\(x=Py,\\quad P=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}1 & 0\\\\0 & 3\\end{bmatrix}\\)",
+          "options": [
+            "\\(x=Py,\\quad P=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}1 & 0\\\\0 & 3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}2 & 0\\\\0 & 3\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{2}}{2} & - \\frac{\\sqrt{2}}{2}\\\\\\frac{\\sqrt{2}}{2} & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}-1 & 0\\\\0 & -3\\end{bmatrix}\\)"
+          ],
+          "explanation": "Substitute \\(x=Py\\); the quadratic form becomes \\(y^TDy\\), with the diagonal entries of D as the squared-variable coefficients.",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Substitute \\(x=Py\\); the quadratic form becomes \\(y^TDy\\), with the diagonal entries of D as the squared-variable coefficients."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select A, K, f in \\(x^TAx+Kx+f=0\\).",
+          "type": "choice",
+          "answer": "\\(A=\\begin{bmatrix}2 & \\frac{1}{2}\\\\\\frac{1}{2} & 0\\end{bmatrix},\\quad K=\\begin{bmatrix}1 & -6\\end{bmatrix},\\quad f=2\\)",
+          "options": [
+            "\\(A=\\begin{bmatrix}2 & \\frac{1}{2}\\\\\\frac{1}{2} & 0\\end{bmatrix},\\quad K=\\begin{bmatrix}1 & -6\\end{bmatrix},\\quad f=2\\)",
+            "\\(A=\\begin{bmatrix}4 & 1\\\\1 & 0\\end{bmatrix},\\quad K=\\begin{bmatrix}1 & -6\\end{bmatrix},\\quad f=2\\)",
+            "\\(A=\\begin{bmatrix}2 & \\frac{1}{2}\\\\\\frac{1}{2} & 0\\end{bmatrix},\\quad K=\\begin{bmatrix}-1 & 6\\end{bmatrix},\\quad f=2\\)"
+          ],
+          "explanation": "Expanding these three terms reproduces the original equation.",
+          "workedSteps": [
+            "The symmetric A contains the quadratic coefficients, halving each cross coefficient.",
+            "The row K contains the linear coefficients and f is the constant.",
+            "Expanding these three terms reproduces the original equation."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select A, K, f in \\(x^TAx+Kx+f=0\\).",
+          "type": "choice",
+          "answer": "\\(A=\\begin{bmatrix}0 & 0\\\\0 & 1\\end{bmatrix},\\quad K=\\begin{bmatrix}7 & -8\\end{bmatrix},\\quad f=-5\\)",
+          "options": [
+            "\\(A=\\begin{bmatrix}0 & 0\\\\0 & 1\\end{bmatrix},\\quad K=\\begin{bmatrix}7 & -8\\end{bmatrix},\\quad f=-5\\)",
+            "\\(A=\\begin{bmatrix}0 & 0\\\\0 & 2\\end{bmatrix},\\quad K=\\begin{bmatrix}7 & -8\\end{bmatrix},\\quad f=-5\\)",
+            "\\(A=\\begin{bmatrix}0 & 0\\\\0 & 1\\end{bmatrix},\\quad K=\\begin{bmatrix}-7 & 8\\end{bmatrix},\\quad f=-5\\)"
+          ],
+          "explanation": "Expanding these three terms reproduces the original equation.",
+          "workedSteps": [
+            "The symmetric A contains the quadratic coefficients, halving each cross coefficient.",
+            "The row K contains the linear coefficients and f is the constant.",
+            "Expanding these three terms reproduces the original equation."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Identify this conic.",
+          "type": "choice",
+          "answer": "Ellipse",
+          "options": [
+            "Ellipse",
+            "Hyperbola",
+            "Parabola"
+          ],
+          "explanation": "\\(\\frac{x^2}{10}+\\frac{y^2}{4}=1\\) has two unequal positive squared terms.",
+          "workedSteps": [
+            "\\(\\frac{x^2}{10}+\\frac{y^2}{4}=1\\) has two unequal positive squared terms."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Identify this conic.",
+          "type": "choice",
+          "answer": "Hyperbola",
+          "options": [
+            "Hyperbola",
+            "Ellipse",
+            "Parabola"
+          ],
+          "explanation": "\\(\\frac{x^2}{8}-\\frac{y^2}{8}=1\\) has opposite-sign squared terms.",
+          "workedSteps": [
+            "\\(\\frac{x^2}{8}-\\frac{y^2}{8}=1\\) has opposite-sign squared terms."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Identify this conic.",
+          "type": "choice",
+          "answer": "Parabola",
+          "options": [
+            "Parabola",
+            "Ellipse",
+            "Hyperbola"
+          ],
+          "explanation": "\\(y^2=\\frac27x\\) is a parabola opening right.",
+          "workedSteps": [
+            "\\(y^2=\\frac27x\\) is a parabola opening right."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Identify this conic.",
+          "type": "choice",
+          "answer": "Circle",
+          "options": [
+            "Circle",
+            "Ellipse",
+            "Hyperbola"
+          ],
+          "explanation": "\\(x^2+y^2=25\\) is a circle centered at the origin with radius 5.",
+          "workedSteps": [
+            "\\(x^2+y^2=25\\) is a circle centered at the origin with radius 5."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a valid rotation, transformed equation, and conic classification.",
+          "type": "choice",
+          "answer": "\\(\\theta=-\\arctan\\frac12,\\quad 3{x\\prime}^2-2{y\\prime}^2+8=0\\); hyperbola.",
+          "options": [
+            "\\(\\theta=-\\arctan\\frac12,\\quad 3{x\\prime}^2-2{y\\prime}^2+8=0\\); hyperbola.",
+            "\\(\\theta=-\\arctan\\frac12,\\quad 3{x\\prime}^2+2{y\\prime}^2+8=0\\); ellipse.",
+            "\\(\\theta=0,\\quad 2{x\\prime}^2-{y\\prime}^2+8=0\\); hyperbola."
+          ],
+          "explanation": "Standard form is \\(\\frac{{y\\prime}^2}{4}-\\frac{{x\\prime}^2}{\\frac83}=1\\), a hyperbola.",
+          "workedSteps": [
+            "The quadratic matrix has eigenvalues 3 and −2.",
+            "Choose the proper rotation \\(P=\\begin{bmatrix}\\frac{2 \\sqrt{5}}{5} & \\frac{\\sqrt{5}}{5}\\\\- \\frac{\\sqrt{5}}{5} & \\frac{2 \\sqrt{5}}{5}\\end{bmatrix}\\); its first column gives \\(\\cos\\theta=\\frac2{\\sqrt5},\\ \\sin\\theta=-\\frac1{\\sqrt5}\\).",
+            "The check \\(P^TAP=\\operatorname{diag}(3,-2)\\) removes the mixed term.",
+            "Standard form is \\(\\frac{{y\\prime}^2}{4}-\\frac{{x\\prime}^2}{\\frac83}=1\\), a hyperbola."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-17": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Classify the diagonal matrix.",
+          "type": "choice",
+          "answer": "Positive definite",
+          "options": [
+            "Positive definite",
+            "Negative definite",
+            "Indefinite"
+          ],
+          "explanation": "Both eigenvalues 1 and 2 are positive.",
+          "workedSteps": [
+            "Both eigenvalues 1 and 2 are positive."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Classify the diagonal matrix.",
+          "type": "choice",
+          "answer": "Negative definite",
+          "options": [
+            "Negative definite",
+            "Positive definite",
+            "Indefinite"
+          ],
+          "explanation": "Both eigenvalues −1 and −2 are negative.",
+          "workedSteps": [
+            "Both eigenvalues −1 and −2 are negative."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Classify the diagonal matrix.",
+          "type": "choice",
+          "answer": "Indefinite",
+          "options": [
+            "Indefinite",
+            "Positive definite",
+            "Negative definite"
+          ],
+          "explanation": "The eigenvalues −1 and 2 have opposite signs.",
+          "workedSteps": [
+            "The eigenvalues −1 and 2 have opposite signs."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Classify the diagonal matrix.",
+          "type": "choice",
+          "answer": "Positive semidefinite (not definite)",
+          "options": [
+            "Positive semidefinite (not definite)",
+            "Positive definite",
+            "Negative definite"
+          ],
+          "explanation": "The eigenvalues 1 and 0 are nonnegative, and the form vanishes on a nonzero vector.",
+          "workedSteps": [
+            "The eigenvalues 1 and 0 are nonnegative, and the form vanishes on a nonzero vector."
+          ]
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Classify the diagonal matrix.",
+          "type": "choice",
+          "answer": "Negative semidefinite (not definite)",
+          "options": [
+            "Negative semidefinite (not definite)",
+            "Positive definite",
+            "Negative definite"
+          ],
+          "explanation": "The eigenvalues 0 and −2 are nonpositive, and the form vanishes on a nonzero vector.",
+          "workedSteps": [
+            "The eigenvalues 0 and −2 are nonpositive, and the form vanishes on a nonzero vector."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-21": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "Positive semidefinite (not definite)",
+          "options": [
+            "Positive semidefinite (not definite)",
+            "Positive definite",
+            "Indefinite"
+          ],
+          "explanation": "For the nonzero vector (1,1), the value is zero. Thus the form is semidefinite, not definite.",
+          "workedSteps": [
+            "A square is always nonnegative.",
+            "For the nonzero vector (1,1), the value is zero. Thus the form is semidefinite, not definite."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-33": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the symmetric matrix of the sample variance (n>1).",
+          "type": "choice",
+          "answer": "\\(A=\\frac1{n-1}(I-\\frac1n\\mathbf1\\mathbf1^T)\\)",
+          "options": [
+            "\\(A=\\frac1{n-1}(I-\\frac1n\\mathbf1\\mathbf1^T)\\)",
+            "\\(A=\\frac1nI\\)",
+            "\\(A=\\frac1{n-1}(I+\\frac1n\\mathbf1\\mathbf1^T)\\)"
+          ],
+          "explanation": "Substitute \\(\\bar x=\\frac1n\\mathbf1^Tx\\) and divide by n−1.",
+          "workedSteps": [
+            "Expand \\(\\sum_i(x_i-\\bar x)^2=\\sum_i x_i^2-n\\bar x^2\\).",
+            "Substitute \\(\\bar x=\\frac1n\\mathbf1^Tx\\) and divide by n−1."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Is the variance quadratic form positive definite?",
+          "type": "choice",
+          "answer": "No; it is positive semidefinite and vanishes on every constant vector.",
+          "options": [
+            "No; it is positive semidefinite and vanishes on every constant vector.",
+            "Yes; every nonzero data vector has positive variance.",
+            "No; it is indefinite."
+          ],
+          "explanation": "If all coordinates equal a nonzero constant, every deviation is zero, so definiteness fails.",
+          "workedSteps": [
+            "A sum of squares divided by n−1 is nonnegative.",
+            "If all coordinates equal a nonzero constant, every deviation is zero, so definiteness fails."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-3-36": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\(2b\\cos2\\theta+(c-a)\\sin2\\theta=0\\iff\\cot2\\theta=\\frac{a-c}{2b}\\)",
+          "options": [
+            "\\(2b\\cos2\\theta+(c-a)\\sin2\\theta=0\\iff\\cot2\\theta=\\frac{a-c}{2b}\\)",
+            "\\(\\cot2\\theta=\\frac{a+c}{2b}\\)",
+            "\\(\\cot2\\theta=\\frac{2b}{a-c}\\)"
+          ],
+          "explanation": "Set it to zero and use double-angle identities. Since b≠0, a solution cannot have sin2θ=0, so division gives the displayed cotangent.",
+          "workedSteps": [
+            "Substitute \\(x=x\\prime\\cos\\theta-y\\prime\\sin\\theta,\\ y=x\\prime\\sin\\theta+y\\prime\\cos\\theta\\).",
+            "The mixed coefficient becomes \\(2b(\\cos^2\\theta-\\sin^2\\theta)+2(c-a)\\sin\\theta\\cos\\theta\\).",
+            "Set it to zero and use double-angle identities. Since b≠0, a solution cannot have sin2θ=0, so division gives the displayed cotangent."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-4-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the minimum and every point attaining it.",
+          "type": "choice",
+          "answer": "\\(-1\\), at \\((0,\\pm1)\\)",
+          "options": [
+            "\\(-1\\), at \\((0,\\pm1)\\)",
+            "\\(5\\), at \\((\\pm1,0)\\)",
+            "\\(-1\\), at \\((\\pm1,0)\\)"
+          ],
+          "explanation": "On the unit sphere the least eigenvalue is the minimum; its unit eigenvectors give all minimizing points.",
+          "workedSteps": [
+            "The diagonal eigenvalues are 5 and −1.",
+            "On the unit sphere the least eigenvalue is the minimum; its unit eigenvectors give all minimizing points."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the maximum and every point attaining it.",
+          "type": "choice",
+          "answer": "\\(5\\), at \\((\\pm1,0)\\)",
+          "options": [
+            "\\(5\\), at \\((\\pm1,0)\\)",
+            "\\(-1\\), at \\((0,\\pm1)\\)",
+            "\\(5\\), at \\((0,\\pm1)\\)"
+          ],
+          "explanation": "The greatest eigenvalue is the maximum; its unit eigenvectors give all maximizing points.",
+          "workedSteps": [
+            "The diagonal eigenvalues are 5 and −1.",
+            "The greatest eigenvalue is the maximum; its unit eigenvectors give all maximizing points."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-4-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the minimum and every point attaining it.",
+          "type": "choice",
+          "answer": "\\(3\\), at \\((\\pm1,0)\\)",
+          "options": [
+            "\\(3\\), at \\((\\pm1,0)\\)",
+            "\\(7\\), at \\((0,\\pm1)\\)",
+            "\\(3\\), at \\((0,\\pm1)\\)"
+          ],
+          "explanation": "On the unit sphere the least eigenvalue is the minimum; its unit eigenvectors give all minimizing points.",
+          "workedSteps": [
+            "The diagonal eigenvalues are 3 and 7.",
+            "On the unit sphere the least eigenvalue is the minimum; its unit eigenvectors give all minimizing points."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the maximum and every point attaining it.",
+          "type": "choice",
+          "answer": "\\(7\\), at \\((0,\\pm1)\\)",
+          "options": [
+            "\\(7\\), at \\((0,\\pm1)\\)",
+            "\\(3\\), at \\((\\pm1,0)\\)",
+            "\\(7\\), at \\((\\pm1,0)\\)"
+          ],
+          "explanation": "The greatest eigenvalue is the maximum; its unit eigenvectors give all maximizing points.",
+          "workedSteps": [
+            "The diagonal eigenvalues are 3 and 7.",
+            "The greatest eigenvalue is the maximum; its unit eigenvectors give all maximizing points."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-4-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the minimum and every point attaining it.",
+          "type": "choice",
+          "answer": "\\(3\\), at \\((0,0,\\pm1)\\)",
+          "options": [
+            "\\(3\\), at \\((0,0,\\pm1)\\)",
+            "\\(9\\), at \\((\\pm1,0,0)\\)",
+            "\\(3\\), at \\((\\pm1,0,0)\\)"
+          ],
+          "explanation": "On the unit sphere the least eigenvalue is the minimum; its unit eigenvectors give all minimizing points.",
+          "workedSteps": [
+            "The diagonal eigenvalues are 9,4,3.",
+            "On the unit sphere the least eigenvalue is the minimum; its unit eigenvectors give all minimizing points."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the maximum and every point attaining it.",
+          "type": "choice",
+          "answer": "\\(9\\), at \\((\\pm1,0,0)\\)",
+          "options": [
+            "\\(9\\), at \\((\\pm1,0,0)\\)",
+            "\\(3\\), at \\((0,0,\\pm1)\\)",
+            "\\(9\\), at \\((0,0,\\pm1)\\)"
+          ],
+          "explanation": "The greatest eigenvalue is the maximum; its unit eigenvectors give all maximizing points.",
+          "workedSteps": [
+            "The diagonal eigenvalues are 9,4,3.",
+            "The greatest eigenvalue is the maximum; its unit eigenvectors give all maximizing points."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-4-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the minimum and every point attaining it.",
+          "type": "choice",
+          "answer": "\\(0\\), at \\(\\pm\\frac1{\\sqrt3}(1,-1,-1)\\)",
+          "options": [
+            "\\(0\\), at \\(\\pm\\frac1{\\sqrt3}(1,-1,-1)\\)",
+            "\\(3\\), at \\(\\pm\\frac1{\\sqrt6}(2,1,1)\\)",
+            "\\(0\\), at \\(\\pm\\frac1{\\sqrt6}(2,1,1)\\)"
+          ],
+          "explanation": "On the unit sphere the least eigenvalue is the minimum; its unit eigenvectors give all minimizing points.",
+          "workedSteps": [
+            "The eigenvalues of \\(\\begin{bmatrix}2&1&1\\\\1&1&0\\\\1&0&1\\end{bmatrix}\\) are 0,1,3.",
+            "On the unit sphere the least eigenvalue is the minimum; its unit eigenvectors give all minimizing points."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the maximum and every point attaining it.",
+          "type": "choice",
+          "answer": "\\(3\\), at \\(\\pm\\frac1{\\sqrt6}(2,1,1)\\)",
+          "options": [
+            "\\(3\\), at \\(\\pm\\frac1{\\sqrt6}(2,1,1)\\)",
+            "\\(0\\), at \\(\\pm\\frac1{\\sqrt3}(1,-1,-1)\\)",
+            "\\(3\\), at \\(\\pm\\frac1{\\sqrt3}(1,-1,-1)\\)"
+          ],
+          "explanation": "The greatest eigenvalue is the maximum; its unit eigenvectors give all maximizing points.",
+          "workedSteps": [
+            "The eigenvalues of \\(\\begin{bmatrix}2&1&1\\\\1&1&0\\\\1&0&1\\end{bmatrix}\\) are 0,1,3.",
+            "The greatest eigenvalue is the maximum; its unit eigenvectors give all maximizing points."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-4-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Find the constrained minimum.",
+          "type": "choice",
+          "answer": "\\(8\\)",
+          "options": [
+            "\\(8\\)",
+            "\\(9\\)",
+            "\\(7\\)"
+          ],
+          "explanation": "The result is \\(8\\).",
+          "workedSteps": [
+            "Set \\(u=x/4,\\ v=\\sqrt3y/4\\) so \\(u^2+v^2=1\\).",
+            "The form becomes 16 times the quadratic form with matrix \\(\\begin{bmatrix}1&\\frac1{2\\sqrt3}\\\\\\frac1{2\\sqrt3}&\\frac23\\end{bmatrix}\\).",
+            "Its eigenvalues are 1/2 and 7/6; multiply the smaller by 16.",
+            "The result is \\(8\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Find the constrained maximum.",
+          "type": "choice",
+          "answer": "\\(\\frac{56}{3}\\)",
+          "options": [
+            "\\(\\frac{56}{3}\\)",
+            "\\(\\frac{59}{3}\\)",
+            "\\(\\frac{53}{3}\\)"
+          ],
+          "explanation": "The result is \\(\\frac{56}{3}\\).",
+          "workedSteps": [
+            "The transformed unit-circle quadratic matrix has greatest eigenvalue 7/6.",
+            "Multiply by 16 to obtain the maximum.",
+            "The result is \\(\\frac{56}{3}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-4-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the level curves, tangent intersection points, and extrema.",
+          "type": "choice",
+          "answer": "Level 5: 5x²−y²=5 at (±1,0), maximum 5. Level −1: 5x²−y²=−1 at (0,±1), minimum −1.",
+          "options": [
+            "Level 5: 5x²−y²=5 at (±1,0), maximum 5. Level −1: 5x²−y²=−1 at (0,±1), minimum −1.",
+            "Level 5 touches at (0,±1), and level −1 touches at (±1,0).",
+            "Both extreme levels intersect the unit circle in four points."
+          ],
+          "explanation": "These two hyperbolas are tangent to the circle at those points; all intermediate levels −1<q<5 meet it in four points.",
+          "workedSteps": [
+            "On the circle substitute \\(y^2=1-x^2\\) to get \\(q=6x^2-1\\).",
+            "At q=5 we must have x²=1,y=0, giving exactly two points. At q=−1 we must have x=0,y²=1, again two points.",
+            "These two hyperbolas are tangent to the circle at those points; all intermediate levels −1<q<5 meet it in four points."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The wording “each of these curves” is interpreted as the two extremal level curves; generic intermediate levels have four intersections, not two."
+    },
+    "anton-section-7-4-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select all critical points and classifications.",
+          "type": "choice",
+          "answer": "(0,0) is a saddle; (−1,1) is a relative maximum; there is no relative minimum.",
+          "options": [
+            "(0,0) is a saddle; (−1,1) is a relative maximum; there is no relative minimum.",
+            "(0,0) is a minimum; (1,1) is a maximum.",
+            "(0,0) is a maximum; (−1,1) is a saddle."
+          ],
+          "explanation": "The Hessian is \\(\\begin{bmatrix}6x&-3\\\\-3&-6y\\end{bmatrix}\\). Its determinant is −9 at the origin, a saddle; at (−1,1) it is 27 with first diagonal −6, a strict local maximum.",
+          "workedSteps": [
+            "The gradient equations are \\(3x^2-3y=0,\\ -3x-3y^2=0\\).",
+            "Substitution y=x² gives \\(x+x^4=x(1+x^3)=0\\), hence (0,0) and (−1,1).",
+            "The Hessian is \\(\\begin{bmatrix}6x&-3\\\\-3&-6y\\end{bmatrix}\\). Its determinant is −9 at the origin, a saddle; at (−1,1) it is 27 with first diagonal −6, a strict local maximum."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-4-18": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Find xᵀAx.",
+          "type": "numeric",
+          "answer": 2.0,
+          "tolerance": 1e-06,
+          "explanation": "The unit norm makes xᵀx=1, so the value is 2.",
+          "workedSteps": [
+            "Since Ax=2x, \\(x^TAx=2x^Tx\\).",
+            "The unit norm makes xᵀx=1, so the value is 2."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-4-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the critical-point and Hessian facts.",
+          "type": "choice",
+          "answer": "Both gradients and both Hessians vanish at (0,0), so the second derivative test is inconclusive.",
+          "options": [
+            "Both gradients and both Hessians vanish at (0,0), so the second derivative test is inconclusive.",
+            "Both Hessians are positive definite at (0,0).",
+            "Neither function has a critical point at (0,0)."
+          ],
+          "explanation": "They all vanish at the origin; both Hessian determinants are zero.",
+          "workedSteps": [
+            "The first derivatives are cubic and the second derivatives are quadratic.",
+            "They all vanish at the origin; both Hessian determinants are zero."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the classifications and valid reason.",
+          "type": "choice",
+          "answer": "f has a strict minimum because x⁴+y⁴>0 away from the origin; g has a saddle because it has opposite signs on the two coordinate axes.",
+          "options": [
+            "f has a strict minimum because x⁴+y⁴>0 away from the origin; g has a saddle because it has opposite signs on the two coordinate axes.",
+            "Both functions have strict minima because fourth powers are nonnegative.",
+            "Both functions have maxima because their Hessians vanish."
+          ],
+          "explanation": "For g, values along y=0 are positive and values along x=0 are negative arbitrarily near the origin.",
+          "workedSteps": [
+            "For f, the two fourth powers can sum to zero only at (0,0).",
+            "For g, values along y=0 are positive and values along x=0 are negative arbitrarily near the origin."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-4-21": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\(q(x)=\\lambda\\)",
+          "options": [
+            "\\(q(x)=\\lambda\\)",
+            "\\(q(x)=\\lambda^2\\)",
+            "\\(q(x)=0\\)"
+          ],
+          "explanation": "Then \\(x^TAx=\\lambda x^Tx=\\lambda\\) because x is a unit vector.",
+          "workedSteps": [
+            "Use the eigenvector identity \\(Ax=\\lambda x\\).",
+            "Then \\(x^TAx=\\lambda x^Tx=\\lambda\\) because x is a unit vector."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-5-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Find the conjugate transpose A*.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}- 2 i & 4 & 5 - i\\\\1 + i & 3 - i & 0\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}- 2 i & 4 & 5 - i\\\\1 + i & 3 - i & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 - 2 i & 4 & 5 - i\\\\1 + i & 3 - i & 0\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 - 2 i & 4 & 5 - i\\\\1 + i & 3 - i & 0\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}- 2 i & 4 & 5 - i\\\\1 + i & 3 - i & 0\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Transpose the 3×2 matrix to a 2×3 matrix.",
+            "Conjugate each entry, changing the sign of every imaginary part.",
+            "The result is \\(\\begin{bmatrix}- 2 i & 4 & 5 - i\\\\1 + i & 3 - i & 0\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-5-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the completed Hermitian matrix.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}1 & i & 2 - 3 i\\\\- i & -3 & 1\\\\2 + 3 i & 1 & 2\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}1 & i & 2 - 3 i\\\\- i & -3 & 1\\\\2 + 3 i & 1 & 2\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}2 & i & 2 - 3 i\\\\- i & -3 & 1\\\\2 + 3 i & 1 & 2\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}0 & i & 2 - 3 i\\\\- i & -3 & 1\\\\2 + 3 i & 1 & 2\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}1 & i & 2 - 3 i\\\\- i & -3 & 1\\\\2 + 3 i & 1 & 2\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Hermitian symmetry requires \\(a_{ji}=\\overline{a_{ij}}\\).",
+            "The missing lower-triangle entries are −i, 2+3i, and 1.",
+            "The result is \\(\\begin{bmatrix}1 & i & 2 - 3 i\\\\- i & -3 & 1\\\\2 + 3 i & 1 & 2\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/442.svg.gz",
+          "pdfPage": 456,
+          "role": "instructions",
+          "crops": [
+            [
+              37,
+              691.34,
+              255,
+              21.93
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/442.svg.gz",
+          "pdfPage": 456,
+          "role": "problem",
+          "crops": [
+            [
+              34,
+              713.5,
+              127.91,
+              37.95
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-7-5-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Why can no completion be Hermitian?",
+          "type": "choice",
+          "answer": "\\(a_{31}=2-3i\\ne\\overline{a_{13}}=2+3i\\)",
+          "options": [
+            "\\(a_{31}=2-3i\\ne\\overline{a_{13}}=2+3i\\)",
+            "A Hermitian matrix cannot contain any imaginary entries.",
+            "The diagonal entry −3 is not allowed in a Hermitian matrix."
+          ],
+          "explanation": "The fixed (1,3) and (3,1) entries already violate that condition, independently of all blanks.",
+          "workedSteps": [
+            "Hermitian matrices must have conjugate entries across the diagonal.",
+            "The fixed (1,3) and (3,1) entries already violate that condition, independently of all blanks."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Why can no completion be Hermitian?",
+          "type": "choice",
+          "answer": "The fixed diagonal entry i is not real.",
+          "options": [
+            "The fixed diagonal entry i is not real.",
+            "The off-diagonal entries −i and i are inconsistent.",
+            "Hermitian matrices cannot have a zero entry."
+          ],
+          "explanation": "Since \\(i\\ne-i\\), the fixed middle diagonal entry cannot occur in a Hermitian matrix.",
+          "workedSteps": [
+            "A diagonal entry must equal its own conjugate.",
+            "Since \\(i\\ne-i\\), the fixed middle diagonal entry cannot occur in a Hermitian matrix."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/442.svg.gz",
+          "pdfPage": 456,
+          "role": "instructions",
+          "crops": [
+            [
+              303,
+              630.67,
+              255,
+              22.93
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/442.svg.gz",
+          "pdfPage": 456,
+          "role": "problem",
+          "crops": [
+            [
+              300,
+              660,
+              258,
+              91.45
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-7-5-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Why can no completion be Hermitian?",
+          "type": "choice",
+          "answer": "\\(a_{21}=1+i\\ne\\overline{a_{12}}=1-i\\)",
+          "options": [
+            "\\(a_{21}=1+i\\ne\\overline{a_{12}}=1-i\\)",
+            "The real diagonal entry 7 is forbidden.",
+            "The pair 1+i and 1+i are complex conjugates."
+          ],
+          "explanation": "The fixed pair is 1+i in both positions, but its conjugate is 1−i. Filling any blank cannot correct that mismatch.",
+          "workedSteps": [
+            "The full source matrix has first row \\((1,1+i,\\times)\\).",
+            "Hermitian symmetry requires \\(a_{21}=\\overline{a_{12}}\\).",
+            "The fixed pair is 1+i in both positions, but its conjugate is 1−i. Filling any blank cannot correct that mismatch."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Why can no completion be Hermitian?",
+          "type": "choice",
+          "answer": "The fixed diagonal entry 2+i is not real.",
+          "options": [
+            "The fixed diagonal entry 2+i is not real.",
+            "The fixed pair 3+5i and 3−5i violates Hermitian symmetry.",
+            "The diagonal entry 3 must instead equal zero."
+          ],
+          "explanation": "The imaginary part of the fixed bottom-right entry is 1, so no completion works.",
+          "workedSteps": [
+            "Every diagonal entry in a Hermitian matrix is real.",
+            "The imaginary part of the fixed bottom-right entry is 1, so no completion works."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/442.svg.gz",
+          "pdfPage": 456,
+          "role": "instructions",
+          "crops": [
+            [
+              303,
+              630.67,
+              255,
+              22.93
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/443.svg.gz",
+          "pdfPage": 457,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              50,
+              258,
+              81.78
+            ]
+          ]
+        }
+      ],
+      "reviewNotice": "The original source assembly incorrectly attached the first row of Exercise 5(a) to the shared instructions and separated the first row of Exercise 6(a). The corrected full matrix for 6(a) is [[1,1+i,×],[1+i,7,×],[6−2i,×,0]]."
+    },
+    "anton-section-7-5-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the eigenvalues and orthogonal eigenvectors.",
+          "type": "choice",
+          "answer": "\\(\\lambda_\\pm=1\\pm\\sqrt{17},\\quad v_\\pm=(2-3i,-2\\pm\\sqrt{17})^T\\)",
+          "options": [
+            "\\(\\lambda_\\pm=1\\pm\\sqrt{17},\\quad v_\\pm=(2-3i,-2\\pm\\sqrt{17})^T\\)",
+            "\\(\\lambda_\\pm=1\\pm\\sqrt{13},\\quad v_\\pm=(2-3i,-2\\pm\\sqrt{13})^T\\)",
+            "\\(\\lambda_\\pm=\\pm4,\\quad v_\\pm=(1,\\pm1)^T\\)"
+          ],
+          "explanation": "Their Hermitian inner product is \\((2+3i)(2-3i)+(-2-\\sqrt{17})(-2+\\sqrt{17})=13-13=0\\).",
+          "workedSteps": [
+            "The characteristic polynomial is \\(\\lambda^2-2\\lambda-16\\), yielding real eigenvalues 1±√17.",
+            "Substitute each displayed vector into \\(Av=\\lambda v\\).",
+            "Their Hermitian inner product is \\((2+3i)(2-3i)+(-2-\\sqrt{17})(-2+\\sqrt{17})=13-13=0\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-5-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the inverse of the unitary matrix.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}\\frac{3}{5} & - \\frac{4}{5}\\\\- \\frac{4 i}{5} & - \\frac{3 i}{5}\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}\\frac{3}{5} & - \\frac{4}{5}\\\\- \\frac{4 i}{5} & - \\frac{3 i}{5}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}\\frac{8}{5} & - \\frac{4}{5}\\\\- \\frac{4 i}{5} & - \\frac{3 i}{5}\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}- \\frac{2}{5} & - \\frac{4}{5}\\\\- \\frac{4 i}{5} & - \\frac{3 i}{5}\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}\\frac{3}{5} & - \\frac{4}{5}\\\\- \\frac{4 i}{5} & - \\frac{3 i}{5}\\end{bmatrix}\\).",
+          "workedSteps": [
+            "The two complex columns have squared norms 1 and Hermitian inner product zero.",
+            "Thus \\(A^*A=I\\) and \\(A^{-1}=A^*\\).",
+            "The result is \\(\\begin{bmatrix}\\frac{3}{5} & - \\frac{4}{5}\\\\- \\frac{4 i}{5} & - \\frac{3 i}{5}\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-5-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select an orthonormal diagonalizing matrix and its diagonal result.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}\\frac{\\sqrt{3} \\left(-1 + i\\right)}{3} & \\frac{\\sqrt{6} \\left(\\frac{1}{2} - \\frac{i}{2}\\right)}{3}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{6}}{3}\\end{bmatrix},\\quad D=\\begin{bmatrix}3 & 0\\\\0 & 6\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{3} \\left(-1 + i\\right)}{3} & \\frac{\\sqrt{6} \\left(\\frac{1}{2} - \\frac{i}{2}\\right)}{3}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{6}}{3}\\end{bmatrix},\\quad D=\\begin{bmatrix}3 & 0\\\\0 & 6\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{3} \\left(-1 + i\\right)}{3} & \\frac{\\sqrt{6} \\left(\\frac{1}{2} - \\frac{i}{2}\\right)}{3}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{6}}{3}\\end{bmatrix},\\quad D=\\begin{bmatrix}4 & 0\\\\0 & 6\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{\\sqrt{3} \\left(-1 + i\\right)}{3} & \\frac{\\sqrt{6} \\left(\\frac{1}{2} - \\frac{i}{2}\\right)}{3}\\\\\\frac{\\sqrt{3}}{3} & \\frac{\\sqrt{6}}{3}\\end{bmatrix},\\quad D=\\begin{bmatrix}-3 & 0\\\\0 & -6\\end{bmatrix}\\)"
+          ],
+          "explanation": "Consequently \\(P^{-1}AP=D\\).",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Consequently \\(P^{-1}AP=D\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-5-19": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the completed skew-Hermitian matrix.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}0 & i & 2 - 3 i\\\\i & 0 & 1\\\\-2 - 3 i & -1 & 4 i\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}0 & i & 2 - 3 i\\\\i & 0 & 1\\\\-2 - 3 i & -1 & 4 i\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}1 & i & 2 - 3 i\\\\i & 0 & 1\\\\-2 - 3 i & -1 & 4 i\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-1 & i & 2 - 3 i\\\\i & 0 & 1\\\\-2 - 3 i & -1 & 4 i\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}0 & i & 2 - 3 i\\\\i & 0 & 1\\\\-2 - 3 i & -1 & 4 i\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Use \\(a_{ji}=-\\overline{a_{ij}}\\).",
+            "The three missing entries are i, −2−3i, and −1.",
+            "All diagonal entries are zero or purely imaginary, and direct conjugate transpose gives \\(A^*=-A\\).",
+            "The result is \\(\\begin{bmatrix}0 & i & 2 - 3 i\\\\i & 0 & 1\\\\-2 - 3 i & -1 & 4 i\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "sourceFigureParts": [
+        {
+          "file": "practice/linear-sections/443.svg.gz",
+          "pdfPage": 457,
+          "role": "instructions",
+          "crops": [
+            [
+              62,
+              575.55,
+              255,
+              22.93
+            ]
+          ]
+        },
+        {
+          "file": "practice/linear-sections/443.svg.gz",
+          "pdfPage": 457,
+          "role": "problem",
+          "crops": [
+            [
+              59,
+              602,
+              118.28,
+              38.6
+            ]
+          ]
+        }
+      ]
+    },
+    "anton-section-7-5-33": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\(|b|=|c|\\); a is unrestricted.",
+          "options": [
+            "\\(|b|=|c|\\); a is unrestricted.",
+            "\\(b=c\\) and a must be real.",
+            "\\(a=b=c\\)"
+          ],
+          "explanation": "Equality holds exactly when the two last diagonal magnitudes agree.",
+          "workedSteps": [
+            "Compute \\(AA^*=\\operatorname{diag}(|a|^2,|c|^2,|b|^2)\\).",
+            "Compute \\(A^*A=\\operatorname{diag}(|a|^2,|b|^2,|c|^2)\\).",
+            "Equality holds exactly when the two last diagonal magnitudes agree."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-section-7-5-40": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\(\\lambda=-\\overline\\lambda\\); hence Re(λ)=0.",
+          "options": [
+            "\\(\\lambda=-\\overline\\lambda\\); hence Re(λ)=0.",
+            "\\(\\lambda=\\overline\\lambda\\); hence λ is always real.",
+            "\\(\\lambda=1\\) always."
+          ],
+          "explanation": "The positive factor v*v cancels, proving that λ is zero or purely imaginary.",
+          "workedSteps": [
+            "If \\(Av=\\lambda v\\) with v nonzero, then \\(v^*Av=\\lambda v^*v\\).",
+            "Conjugating this scalar and using \\(A^*=-A\\) gives \\(\\overline\\lambda\\,v^*v=-\\lambda v^*v\\).",
+            "The positive factor v*v cancels, proving that λ is zero or purely imaginary."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-1": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the orthogonality conclusion and inverse.",
+          "type": "choice",
+          "answer": "Orthogonal; \\(A^{-1}=\\begin{bmatrix}\\frac{3}{5} & \\frac{4}{5}\\\\- \\frac{4}{5} & \\frac{3}{5}\\end{bmatrix}\\)",
+          "options": [
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}\\frac{3}{5} & \\frac{4}{5}\\\\- \\frac{4}{5} & \\frac{3}{5}\\end{bmatrix}\\)",
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}- \\frac{3}{5} & - \\frac{4}{5}\\\\\\frac{4}{5} & - \\frac{3}{5}\\end{bmatrix}\\)",
+            "Not orthogonal."
+          ],
+          "explanation": "For an orthogonal matrix, \\(A^{-1}=A^T\\).",
+          "workedSteps": [
+            "Compute \\(A^TA=I\\). Thus the columns are an orthonormal set.",
+            "For an orthogonal matrix, \\(A^{-1}=A^T\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the orthogonality conclusion and inverse.",
+          "type": "choice",
+          "answer": "Orthogonal; \\(A^{-1}=\\begin{bmatrix}\\frac{4}{5} & - \\frac{9}{25} & \\frac{12}{25}\\\\0 & \\frac{4}{5} & \\frac{3}{5}\\\\- \\frac{3}{5} & - \\frac{12}{25} & \\frac{16}{25}\\end{bmatrix}\\)",
+          "options": [
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}\\frac{4}{5} & - \\frac{9}{25} & \\frac{12}{25}\\\\0 & \\frac{4}{5} & \\frac{3}{5}\\\\- \\frac{3}{5} & - \\frac{12}{25} & \\frac{16}{25}\\end{bmatrix}\\)",
+            "Orthogonal; \\(A^{-1}=\\begin{bmatrix}- \\frac{4}{5} & \\frac{9}{25} & - \\frac{12}{25}\\\\0 & - \\frac{4}{5} & - \\frac{3}{5}\\\\\\frac{3}{5} & \\frac{12}{25} & - \\frac{16}{25}\\end{bmatrix}\\)",
+            "Not orthogonal."
+          ],
+          "explanation": "For an orthogonal matrix, \\(A^{-1}=A^T\\).",
+          "workedSteps": [
+            "Compute \\(A^TA=I\\). Thus the columns are an orthonormal set.",
+            "For an orthogonal matrix, \\(A^{-1}=A^T\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-2": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\(q_{ij}=\\frac{C_{ij}}{\\det Q}\\); equal cofactors for det=1, negative cofactors for det=−1.",
+          "options": [
+            "\\(q_{ij}=\\frac{C_{ij}}{\\det Q}\\); equal cofactors for det=1, negative cofactors for det=−1.",
+            "\\(q_{ij}=C_{ji}\\) regardless of determinant.",
+            "\\(q_{ij}=0\\) for every off-diagonal entry."
+          ],
+          "explanation": "An orthogonal determinant is ±1; substituting either sign proves the statement.",
+          "workedSteps": [
+            "The inverse formula gives \\((Q^{-1})_{ji}=C_{ij}/\\det Q\\).",
+            "Orthogonality gives \\((Q^{-1})_{ji}=(Q^T)_{ji}=q_{ij}\\).",
+            "An orthogonal determinant is ±1; substituting either sign proves the statement."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-3": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "Symmetry of A gives symmetry of uᵀAv; matrix multiplication gives bilinearity; positive definiteness gives positive self-products.",
+          "options": [
+            "Symmetry of A gives symmetry of uᵀAv; matrix multiplication gives bilinearity; positive definiteness gives positive self-products.",
+            "Positive definiteness alone gives bilinearity but never positivity.",
+            "The expression is an inner product only when A=I."
+          ],
+          "explanation": "For u≠0, \\(u^TAu>0\\) by positive definiteness, while the value at zero is zero.",
+          "workedSteps": [
+            "Transpose the scalar \\(u^TAv\\) to obtain \\(v^TA^Tu=v^TAu\\).",
+            "Distributivity and scalar multiplication prove additivity and homogeneity.",
+            "For u≠0, \\(u^TAu>0\\) by positive definiteness, while the value at zero is zero."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-4": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the characteristic equation and eigenspace dimensions.",
+          "type": "choice",
+          "answer": "\\(\\left(\\lambda - 7\\right) \\left(\\lambda - 1\\right)^{2}=0\\); dim E(1) = 2, dim E(7) = 1",
+          "options": [
+            "\\(\\left(\\lambda - 7\\right) \\left(\\lambda - 1\\right)^{2}=0\\); dim E(1) = 2, dim E(7) = 1",
+            "\\(\\left(\\lambda - 7\\right) \\left(\\lambda - 1\\right)^{2} + 1=0\\); every eigenspace is one-dimensional.",
+            "\\(\\left(\\lambda - 7\\right) \\left(\\lambda - 1\\right)^{2} - 1=0\\); one eigenspace has dimension 3."
+          ],
+          "explanation": "The matrix is symmetric, so it has an orthonormal eigenbasis and each eigenspace dimension equals its eigenvalue multiplicity.",
+          "workedSteps": [
+            "Compute \\(\\det(\\lambda I-A)=\\left(\\lambda - 7\\right) \\left(\\lambda - 1\\right)^{2}\\).",
+            "The matrix is symmetric, so it has an orthonormal eigenbasis and each eigenspace dimension equals its eigenvalue multiplicity."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-5": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select an orthonormal diagonalizing matrix and its diagonal result.",
+          "type": "choice",
+          "answer": "\\(P=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\\\0 & 1 & 0\\\\\\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 2\\end{bmatrix}\\)",
+          "options": [
+            "\\(P=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\\\0 & 1 & 0\\\\\\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 2\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\\\0 & 1 & 0\\\\\\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}1 & 0 & 0\\\\0 & 1 & 0\\\\0 & 0 & 2\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}- \\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\\\0 & 1 & 0\\\\\\frac{\\sqrt{2}}{2} & 0 & \\frac{\\sqrt{2}}{2}\\end{bmatrix},\\quad D=\\begin{bmatrix}0 & 0 & 0\\\\0 & -1 & 0\\\\0 & 0 & -2\\end{bmatrix}\\)"
+          ],
+          "explanation": "Consequently \\(P^{-1}AP=D\\).",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Consequently \\(P^{-1}AP=D\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-6": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the symmetric matrix A for xᵀAx.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}-4 & - \\frac{15}{2}\\\\- \\frac{15}{2} & 16\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}-4 & - \\frac{15}{2}\\\\- \\frac{15}{2} & 16\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-3 & - \\frac{15}{2}\\\\- \\frac{15}{2} & 16\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}-5 & - \\frac{15}{2}\\\\- \\frac{15}{2} & 16\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}-4 & - \\frac{15}{2}\\\\- \\frac{15}{2} & 16\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Squared-variable coefficients occupy the diagonal.",
+            "Each cross coefficient is twice the matching off-diagonal entry; halve it in each symmetric position.",
+            "The result is \\(\\begin{bmatrix}-4 & - \\frac{15}{2}\\\\- \\frac{15}{2} & 16\\end{bmatrix}\\)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the symmetric matrix A for xᵀAx.",
+          "type": "choice",
+          "answer": "\\(\\begin{bmatrix}9 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)",
+          "options": [
+            "\\(\\begin{bmatrix}9 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}10 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)",
+            "\\(\\begin{bmatrix}8 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)"
+          ],
+          "explanation": "The result is \\(\\begin{bmatrix}9 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\).",
+          "workedSteps": [
+            "Squared-variable coefficients occupy the diagonal.",
+            "Each cross coefficient is twice the matching off-diagonal entry; halve it in each symmetric position.",
+            "The result is \\(\\begin{bmatrix}9 & 3 & -4\\\\3 & -1 & \\frac{1}{2}\\\\-4 & \\frac{1}{2} & 4\\end{bmatrix}\\)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-7": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "Positive definite.",
+          "options": [
+            "Positive definite.",
+            "Positive semidefinite but not definite.",
+            "Indefinite."
+          ],
+          "explanation": "Sylvester’s criterion makes the form positive definite; equivalently \\((x_1-\\frac32x_2)^2+\\frac74x_2^2>0\\) for every nonzero vector.",
+          "workedSteps": [
+            "The symmetric matrix is \\(\\begin{bmatrix}1&-\\frac32\\\\-\\frac32&4\\end{bmatrix}\\).",
+            "Its leading principal minors are 1 and \\(4-\\frac94=\\frac74\\), both positive.",
+            "Sylvester’s criterion makes the form positive definite; equivalently \\((x_1-\\frac32x_2)^2+\\frac74x_2^2>0\\) for every nonzero vector."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-8": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the orthogonal change and diagonal coefficient matrix.",
+          "type": "choice",
+          "answer": "\\(x=Py,\\quad P=\\begin{bmatrix}\\frac{- \\sqrt{17} - 4}{\\sqrt{1 + \\left(4 + \\sqrt{17}\\right)^{2}}} & \\frac{-4 + \\sqrt{17}}{\\sqrt{\\left(-4 + \\sqrt{17}\\right)^{2} + 1}}\\\\\\frac{1}{\\sqrt{1 + \\left(4 + \\sqrt{17}\\right)^{2}}} & \\frac{1}{\\sqrt{\\left(-4 + \\sqrt{17}\\right)^{2} + 1}}\\end{bmatrix},\\quad D=\\begin{bmatrix}1 - \\sqrt{17} & 0\\\\0 & 1 + \\sqrt{17}\\end{bmatrix}\\)",
+          "options": [
+            "\\(x=Py,\\quad P=\\begin{bmatrix}\\frac{- \\sqrt{17} - 4}{\\sqrt{1 + \\left(4 + \\sqrt{17}\\right)^{2}}} & \\frac{-4 + \\sqrt{17}}{\\sqrt{\\left(-4 + \\sqrt{17}\\right)^{2} + 1}}\\\\\\frac{1}{\\sqrt{1 + \\left(4 + \\sqrt{17}\\right)^{2}}} & \\frac{1}{\\sqrt{\\left(-4 + \\sqrt{17}\\right)^{2} + 1}}\\end{bmatrix},\\quad D=\\begin{bmatrix}1 - \\sqrt{17} & 0\\\\0 & 1 + \\sqrt{17}\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{- \\sqrt{17} - 4}{\\sqrt{1 + \\left(4 + \\sqrt{17}\\right)^{2}}} & \\frac{-4 + \\sqrt{17}}{\\sqrt{\\left(-4 + \\sqrt{17}\\right)^{2} + 1}}\\\\\\frac{1}{\\sqrt{1 + \\left(4 + \\sqrt{17}\\right)^{2}}} & \\frac{1}{\\sqrt{\\left(-4 + \\sqrt{17}\\right)^{2} + 1}}\\end{bmatrix},\\quad D=\\begin{bmatrix}2 - \\sqrt{17} & 0\\\\0 & 1 + \\sqrt{17}\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}\\frac{- \\sqrt{17} - 4}{\\sqrt{1 + \\left(4 + \\sqrt{17}\\right)^{2}}} & \\frac{-4 + \\sqrt{17}}{\\sqrt{\\left(-4 + \\sqrt{17}\\right)^{2} + 1}}\\\\\\frac{1}{\\sqrt{1 + \\left(4 + \\sqrt{17}\\right)^{2}}} & \\frac{1}{\\sqrt{\\left(-4 + \\sqrt{17}\\right)^{2} + 1}}\\end{bmatrix},\\quad D=\\begin{bmatrix}-1 + \\sqrt{17} & 0\\\\0 & - \\sqrt{17} - 1\\end{bmatrix}\\)"
+          ],
+          "explanation": "Substitute \\(x=Py\\); the quadratic form becomes \\(y^TDy\\), with the diagonal entries of D as the squared-variable coefficients.",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Substitute \\(x=Py\\); the quadratic form becomes \\(y^TDy\\), with the diagonal entries of D as the squared-variable coefficients."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Select the orthogonal change and diagonal coefficient matrix.",
+          "type": "choice",
+          "answer": "\\(x=Py,\\quad P=\\begin{bmatrix}- \\frac{4 \\sqrt{21}}{21} & \\frac{\\sqrt{14}}{14} & \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{21}}{21} & - \\frac{\\sqrt{14}}{7} & \\frac{\\sqrt{6}}{3}\\\\\\frac{2 \\sqrt{21}}{21} & \\frac{3 \\sqrt{14}}{14} & \\frac{\\sqrt{6}}{6}\\end{bmatrix},\\quad D=\\begin{bmatrix}-7 & 0 & 0\\\\0 & 0 & 0\\\\0 & 0 & 2\\end{bmatrix}\\)",
+          "options": [
+            "\\(x=Py,\\quad P=\\begin{bmatrix}- \\frac{4 \\sqrt{21}}{21} & \\frac{\\sqrt{14}}{14} & \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{21}}{21} & - \\frac{\\sqrt{14}}{7} & \\frac{\\sqrt{6}}{3}\\\\\\frac{2 \\sqrt{21}}{21} & \\frac{3 \\sqrt{14}}{14} & \\frac{\\sqrt{6}}{6}\\end{bmatrix},\\quad D=\\begin{bmatrix}-7 & 0 & 0\\\\0 & 0 & 0\\\\0 & 0 & 2\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}- \\frac{4 \\sqrt{21}}{21} & \\frac{\\sqrt{14}}{14} & \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{21}}{21} & - \\frac{\\sqrt{14}}{7} & \\frac{\\sqrt{6}}{3}\\\\\\frac{2 \\sqrt{21}}{21} & \\frac{3 \\sqrt{14}}{14} & \\frac{\\sqrt{6}}{6}\\end{bmatrix},\\quad D=\\begin{bmatrix}-6 & 0 & 0\\\\0 & 0 & 0\\\\0 & 0 & 2\\end{bmatrix}\\)",
+            "\\(P=\\begin{bmatrix}- \\frac{4 \\sqrt{21}}{21} & \\frac{\\sqrt{14}}{14} & \\frac{\\sqrt{6}}{6}\\\\\\frac{\\sqrt{21}}{21} & - \\frac{\\sqrt{14}}{7} & \\frac{\\sqrt{6}}{3}\\\\\\frac{2 \\sqrt{21}}{21} & \\frac{3 \\sqrt{14}}{14} & \\frac{\\sqrt{6}}{6}\\end{bmatrix},\\quad D=\\begin{bmatrix}7 & 0 & 0\\\\0 & 0 & 0\\\\0 & 0 & -2\\end{bmatrix}\\)"
+          ],
+          "explanation": "Substitute \\(x=Py\\); the quadratic form becomes \\(y^TDy\\), with the diagonal entries of D as the squared-variable coefficients.",
+          "workedSteps": [
+            "Solve each eigensystem \\((A-\\lambda I)v=0\\), then orthonormalize within any repeated eigenspace.",
+            "Use the unit eigenvectors as columns of P. The checks are \\(P^*P=I\\) and \\(AP=PD\\).",
+            "Substitute \\(x=Py\\); the quadratic form becomes \\(y^TDy\\), with the diagonal entries of D as the squared-variable coefficients."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-9": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Identify the conic.",
+          "type": "choice",
+          "answer": "Parabola",
+          "options": [
+            "Parabola",
+            "Ellipse",
+            "Hyperbola"
+          ],
+          "explanation": "\\(y=x^2\\) is a parabola opening upward with vertex (0,0).",
+          "workedSteps": [
+            "\\(y=x^2\\) is a parabola opening upward with vertex (0,0)."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Identify the conic.",
+          "type": "choice",
+          "answer": "Parabola",
+          "options": [
+            "Parabola",
+            "Ellipse",
+            "Hyperbola"
+          ],
+          "explanation": "\\(x=\\frac{11}{3}y^2\\) is a parabola opening right with vertex (0,0).",
+          "workedSteps": [
+            "\\(x=\\frac{11}{3}y^2\\) is a parabola opening right with vertex (0,0)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-10": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select a unitary diagonalization (ω = (−1+i√3)/2).",
+          "type": "choice",
+          "answer": "\\(U=\\frac1{\\sqrt3}\\begin{bmatrix}1&1&1\\\\1&\\omega&\\overline\\omega\\\\1&\\omega^2&\\overline\\omega^2\\end{bmatrix},\\quad D=\\operatorname{diag}(2,1+\\omega,1+\\overline\\omega)\\)",
+          "options": [
+            "\\(U=\\frac1{\\sqrt3}\\begin{bmatrix}1&1&1\\\\1&\\omega&\\overline\\omega\\\\1&\\omega^2&\\overline\\omega^2\\end{bmatrix},\\quad D=\\operatorname{diag}(2,1+\\omega,1+\\overline\\omega)\\)",
+            "\\(U=\\frac1{\\sqrt3}\\begin{bmatrix}1&1&1\\\\1&\\omega&\\overline\\omega\\\\1&\\omega^2&\\overline\\omega^2\\end{bmatrix},\\quad D=\\operatorname{diag}(1,\\omega,\\overline\\omega)\\)",
+            "\\(U=I,\\quad D=\\operatorname{diag}(2,1+\\omega,1+\\overline\\omega)\\)"
+          ],
+          "explanation": "Normalize by √3. Then \\(U^*U=I\\) and \\(AU=UD\\), proving the displayed result.",
+          "workedSteps": [
+            "Write A=I+C, where C cyclically permutes the coordinates.",
+            "For a cube root t of 1, \\(C(1,t,t^2)^T=t(1,t,t^2)^T\\).",
+            "The three vectors for t=1,ω,conjugate(ω) have squared norms 3 and are mutually orthogonal because \\(1+\\omega+\\omega^2=0\\).",
+            "Normalize by √3. Then \\(U^*U=I\\) and \\(AU=UD\\), proving the displayed result."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-11": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the valid conclusion and reasoning.",
+          "type": "choice",
+          "answer": "\\((UZ)^*(UZ)=Z^*U^*UZ=Z^*Z=I\\)",
+          "options": [
+            "\\((UZ)^*(UZ)=Z^*U^*UZ=Z^*Z=I\\)",
+            "\\((UZ)^*(UZ)=Z^2\\) and is never I.",
+            "\\(UZ=U\\) for all unit-modulus diagonal entries."
+          ],
+          "explanation": "The product therefore has conjugate transpose equal to its inverse and is unitary.",
+          "workedSteps": [
+            "A diagonal Z with unit-modulus entries satisfies \\(Z^*Z=\\operatorname{diag}(|z_i|^2)=I\\).",
+            "Use \\(U^*U=I\\) and reverse factor order when taking the conjugate transpose.",
+            "The product therefore has conjugate transpose equal to its inverse and is unitary."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-12": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the equivalence proof.",
+          "type": "choice",
+          "answer": "\\((iA)^*=-iA^*=-iA\\iff A^*=A\\)",
+          "options": [
+            "\\((iA)^*=-iA^*=-iA\\iff A^*=A\\)",
+            "\\((iA)^*=iA^*\\) for every A.",
+            "\\(iA\\) is skew-Hermitian for every complex A."
+          ],
+          "explanation": "Setting this equal to −iA is equivalent to A*=A.",
+          "workedSteps": [
+            "Conjugating i changes its sign, so \\((iA)^*=-iA^*\\).",
+            "Setting this equal to −iA is equivalent to A*=A."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Why is a skew-Hermitian A unitarily diagonalizable with imaginary eigenvalues?",
+          "type": "choice",
+          "answer": "iA is Hermitian, so a unitary diagonalization of iA with real diagonal H gives A=U(−iH)U*.",
+          "options": [
+            "iA is Hermitian, so a unitary diagonalization of iA with real diagonal H gives A=U(−iH)U*.",
+            "A is Hermitian and therefore has real eigenvalues.",
+            "A has to be the zero matrix."
+          ],
+          "explanation": "Multiplying its real diagonal by −i gives the diagonal of A; every entry is purely imaginary, including zero.",
+          "workedSteps": [
+            "From A*=−A, compute \\((iA)^*=-i(-A)=iA\\).",
+            "Apply the Hermitian spectral theorem to iA.",
+            "Multiplying its real diagonal by −i gives the diagonal of A; every entry is purely imaginary, including zero."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-13": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select all possible values of (a,b,c) and the uniqueness conclusion.",
+          "type": "choice",
+          "answer": "\\((a,b,c)=\\pm(0,-\\sqrt{\\frac23},\\frac1{\\sqrt3})\\); two choices, not unique.",
+          "options": [
+            "\\((a,b,c)=\\pm(0,-\\sqrt{\\frac23},\\frac1{\\sqrt3})\\); two choices, not unique.",
+            "\\((a,b,c)=(1,0,0)\\) uniquely.",
+            "\\((a,b,c)=\\pm(0,\\frac1{\\sqrt3},\\sqrt{\\frac23})\\); two choices."
+          ],
+          "explanation": "Unit length then gives \\(3c^2=1\\). There are exactly two opposite unit normal vectors.",
+          "workedSteps": [
+            "The fixed last two columns are orthogonal unit vectors.",
+            "Orthogonality of the first column to both gives \\(a=0\\) and \\(\\frac b{\\sqrt6}+\\frac c{\\sqrt3}=0\\), hence b=−√2c.",
+            "Unit length then gives \\(3c^2=1\\). There are exactly two opposite unit normal vectors."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    },
+    "anton-chapter-07-supplementary-14": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Classify this sign pattern in the intended symmetric setting.",
+          "type": "choice",
+          "answer": "Negative definite under the intended symmetric-matrix hypothesis.",
+          "options": [
+            "Negative definite under the intended symmetric-matrix hypothesis.",
+            "Positive definite under the intended symmetric-matrix hypothesis.",
+            "Indefinite under the intended symmetric-matrix hypothesis."
+          ],
+          "explanation": "Sylvester’s negative-definiteness criterion applies to symmetric A.",
+          "workedSteps": [
+            "The leading minors alternate −,+,−,+.",
+            "Sylvester’s negative-definiteness criterion applies to symmetric A."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Classify this sign pattern in the intended symmetric setting.",
+          "type": "choice",
+          "answer": "Positive definite under the intended symmetric-matrix hypothesis.",
+          "options": [
+            "Positive definite under the intended symmetric-matrix hypothesis.",
+            "Negative definite under the intended symmetric-matrix hypothesis.",
+            "Indefinite under the intended symmetric-matrix hypothesis."
+          ],
+          "explanation": "Sylvester’s criterion gives positive definiteness for symmetric A.",
+          "workedSteps": [
+            "All leading minors are strictly positive.",
+            "Sylvester’s criterion gives positive definiteness for symmetric A."
+          ]
+        },
+        {
+          "label": "c",
+          "selectionPrompt": "Classify this sign pattern in the intended symmetric setting.",
+          "type": "choice",
+          "answer": "Indefinite under the intended symmetric-matrix hypothesis.",
+          "options": [
+            "Indefinite under the intended symmetric-matrix hypothesis.",
+            "Positive definite under the intended symmetric-matrix hypothesis.",
+            "Negative definite under the intended symmetric-matrix hypothesis."
+          ],
+          "explanation": "A real symmetric 2×2 block with negative determinant has eigenvalues of opposite signs, so restricting the quadratic form already produces both signs.",
+          "workedSteps": [
+            "The leading 2×2 block has negative determinant.",
+            "A real symmetric 2×2 block with negative determinant has eigenvalues of opposite signs, so restricting the quadratic form already produces both signs."
+          ]
+        },
+        {
+          "label": "d",
+          "selectionPrompt": "Classify this sign pattern in the intended symmetric setting.",
+          "type": "choice",
+          "answer": "Indefinite under the intended symmetric-matrix hypothesis.",
+          "options": [
+            "Indefinite under the intended symmetric-matrix hypothesis.",
+            "Positive definite under the intended symmetric-matrix hypothesis.",
+            "Negative definite under the intended symmetric-matrix hypothesis."
+          ],
+          "explanation": "The corresponding symmetric 2×2 restriction is indefinite; the full form is therefore indefinite.",
+          "workedSteps": [
+            "The second leading determinant is negative.",
+            "The corresponding symmetric 2×2 restriction is indefinite; the full form is therefore indefinite."
+          ]
+        },
+        {
+          "label": "e",
+          "selectionPrompt": "Classify this sign pattern in the intended symmetric setting.",
+          "type": "choice",
+          "answer": "Indefinite under the intended symmetric-matrix hypothesis.",
+          "options": [
+            "Indefinite under the intended symmetric-matrix hypothesis.",
+            "Positive definite under the intended symmetric-matrix hypothesis.",
+            "Negative definite under the intended symmetric-matrix hypothesis."
+          ],
+          "explanation": "That restriction takes both signs, even though the first and third leading determinants are zero.",
+          "workedSteps": [
+            "Again the leading 2×2 determinant is negative.",
+            "That restriction takes both signs, even though the first and third leading determinants are zero."
+          ]
+        },
+        {
+          "label": "f",
+          "selectionPrompt": "Classify this sign pattern in the intended symmetric setting.",
+          "type": "choice",
+          "answer": "Impossible for a real symmetric matrix: det(M1)=0 forces det(M2)≤0.",
+          "options": [
+            "Impossible for a real symmetric matrix: det(M1)=0 forces det(M2)≤0.",
+            "Positive definite under the intended symmetric-matrix hypothesis.",
+            "Negative definite under the intended symmetric-matrix hypothesis."
+          ],
+          "explanation": "It cannot be strictly positive, so no symmetric matrix has the listed data.",
+          "workedSteps": [
+            "The first condition says a11=0.",
+            "For a symmetric top-left block \\(\\begin{bmatrix}0&b\\\\b&d\\end{bmatrix}\\), the determinant is \\(-b^2\\le0\\).",
+            "It cannot be strictly positive, so no symmetric matrix has the listed data."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true,
+      "reviewNotice": "The printed question does not state that A is symmetric, which is required for the principal-minor definiteness criteria. These checks use that intended hypothesis explicitly. Under that hypothesis part (f) is inconsistent; it must not be classified as a realizable symmetric matrix."
+    },
+    "anton-chapter-07-supplementary-15": {
+      "fields": [
+        {
+          "label": "a",
+          "selectionPrompt": "Select the symmetry and nonnegativity proof.",
+          "type": "choice",
+          "answer": "\\(C^T=(QQ^T)^T=QQ^T,\\quad x^TCx=\\|Q^Tx\\|^2\\ge0\\)",
+          "options": [
+            "\\(C^T=(QQ^T)^T=QQ^T,\\quad x^TCx=\\|Q^Tx\\|^2\\ge0\\)",
+            "\\(C^T=-C,\\quad x^TCx\\le0\\)",
+            "\\(x^TCx>0\\) for all nonzero x and every rectangular Q."
+          ],
+          "explanation": "It can vanish for nonzero x if Qᵀ has a kernel, so semidefinite is the general conclusion.",
+          "workedSteps": [
+            "Transpose the product to establish symmetry.",
+            "Regroup \\(x^TQQ^Tx=(Q^Tx)^T(Q^Tx)\\) as a squared Euclidean norm.",
+            "It can vanish for nonzero x if Qᵀ has a kernel, so semidefinite is the general conclusion."
+          ]
+        },
+        {
+          "label": "b",
+          "selectionPrompt": "Why are all eigenvalues nonnegative?",
+          "type": "choice",
+          "answer": "\\(\\lambda=\\frac{v^TCv}{v^Tv}=\\frac{\\|Q^Tv\\|^2}{\\|v\\|^2}\\ge0\\)",
+          "options": [
+            "\\(\\lambda=\\frac{v^TCv}{v^Tv}=\\frac{\\|Q^Tv\\|^2}{\\|v\\|^2}\\ge0\\)",
+            "\\(\\lambda=-\\|Q^Tv\\|^2<0\\)",
+            "\\(\\lambda=1\\) always."
+          ],
+          "explanation": "Divide by the positive denominator vᵀv and apply the squared-norm identity from part (a).",
+          "workedSteps": [
+            "For an eigenpair Cv=λv with v≠0, multiply by vᵀ.",
+            "Divide by the positive denominator vᵀv and apply the squared-norm identity from part (a)."
+          ]
+        }
+      ],
+      "scope": "All requested subparts, with proof or drawing tasks adapted to specific answer choices.",
+      "complete": true,
+      "sourceImageReviewed": true
+    }
+  }
+}
