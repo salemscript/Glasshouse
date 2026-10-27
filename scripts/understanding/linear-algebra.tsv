@@ -1,0 +1,90 @@
+# 1
+A linear system can have no solution, one solution, or infinitely many solutions.|T|The equations may be inconsistent, determine a unique point, or leave free variables.
+A row of zeros with a nonzero right-hand side represents an inconsistent equation.|T|It asserts that zero equals a nonzero number, which cannot be true.
+A free variable can produce a family of solutions in a consistent linear system.|T|Its allowed values generate different solutions while pivot variables adjust accordingly.
+Matrix multiplication is always commutative.|F|The products AB and BA can differ, and one can be undefined even when the other exists.
+An m by n matrix can multiply an n-component column vector.|T|The inner dimensions match, producing an m-component column vector.
+The identity matrix leaves compatible vectors unchanged under multiplication.|T|Its diagonal ones and off-diagonal zeros return the original components.
+Every square matrix has an inverse.|F|Singular square matrices lack inverses because their transformations lose independent information.
+A homogeneous linear system always has the zero solution.|T|Substituting zero for every unknown satisfies a zero right-hand side.
+Transposing a matrix exchanges its rows and columns.|T|The entry at row i, column j becomes the entry at row j, column i.
+# 2
+Interchanging two rows changes the sign of a determinant.|T|This alternating property is one of the fundamental determinant rules.
+Multiplying one row by 3 multiplies the determinant by 3.|T|The determinant is linear in each individual row with the others fixed.
+Adding a multiple of one row to a different row leaves the determinant unchanged.|T|The added contribution contains dependent rows and therefore has determinant zero.
+The determinant of a triangular matrix is the product of its diagonal entries.|T|Its zero pattern makes all other permutation products vanish.
+The determinant of AB equals the determinant of A plus the determinant of B.|F|For square matrices of the same size, determinants multiply rather than add.
+A matrix and its transpose have the same determinant.|T|Transposition preserves the determinant’s value.
+The determinant of the identity matrix is zero.|F|Its diagonal entries are all one, so its determinant is one.
+A nonzero determinant guarantees a unique solution to Ax = b for every b of matching size.|T|The square matrix is then invertible, giving x = A⁻¹b.
+The absolute determinant of a planar transformation measures its area-scaling factor.|T|A negative sign additionally indicates orientation reversal, not negative geometric area.
+# 3
+The dot product of (1,2) and (3,4) is 11.|T|Multiply matching components and add: 1×3 + 2×4 = 11.
+Two vectors with identical lengths must point in the same direction.|F|Equal length imposes no unique direction.
+The vector (0,0,0) has length zero.|T|The sum of its squared components is zero.
+A projection onto a line must have the same length as the original vector.|F|Projection keeps only the component along the line and can be shorter or zero.
+The distance between two points equals the norm of their difference vector.|T|Subtracting coordinates gives their displacement, whose magnitude is the distance.
+The cross product of two parallel three-dimensional vectors is zero.|T|Its magnitude includes the sine of their angle, which vanishes for parallel directions.
+Swapping the factors of a cross product changes its sign.|T|The cross product is anticommutative.
+The triangle inequality says the norm of a sum cannot exceed the sum of the norms.|T|Taking a direct displacement cannot be longer than following the two successive displacements.
+Multiplying a vector by −2 doubles its length and reverses its direction.|T|The magnitude scales by the absolute value of the scalar.
+# 4
+A subspace must contain the zero vector.|T|Closure under scalar multiplication includes multiplication by zero.
+A line through the origin in a real vector space is a subspace.|T|Sums and scalar multiples of points on that line remain on the line.
+Every line in the coordinate plane is a vector subspace.|F|A line not passing through the origin fails the zero-vector requirement.
+A spanning set can contain redundant vectors.|T|Spanning requires reaching every vector, but does not require independence.
+The dimension of a finite-dimensional vector space equals the number of vectors in any basis.|T|All bases of that space have the same size.
+Coordinates of a vector can change when its basis changes.|T|The vector remains the same while its representation uses different basis directions.
+The union of any two subspaces is always a subspace.|F|Adding one vector from each subspace can leave their union.
+The intersection of two subspaces of the same space is a subspace.|T|It inherits zero containment and closure under addition and scalar multiplication.
+A set with more vectors than the space’s dimension is linearly dependent.|T|There cannot be more independent directions than the dimension.
+# 5
+An eigenvector must be nonzero.|T|Otherwise every scalar would satisfy the eigenvalue relation and give no distinguished direction.
+A zero eigenvalue implies a square matrix is singular.|T|A nonzero eigenvector is mapped to zero, so the transformation is not invertible.
+A negative eigenvalue reverses its eigenvector’s direction under the transformation.|T|Multiplication by a negative scalar reverses direction while scaling length.
+Every real square matrix has a basis of real eigenvectors.|F|Some have complex eigenvalues, and some lack enough independent eigenvectors even over the complex numbers.
+Eigenvectors corresponding to distinct eigenvalues are linearly independent.|T|Distinct scalings prevent a nontrivial linear dependence among these eigenvectors.
+Multiplying an eigenvector by a nonzero scalar produces another eigenvector for the same eigenvalue.|T|Linearity preserves the equation after scaling both sides.
+The eigenvalues of a triangular matrix are its diagonal entries.|T|The characteristic polynomial is the product of diagonal entries minus the eigenvalue variable.
+The trace of a square matrix equals the sum of its eigenvalues counted with algebraic multiplicity.|T|This follows from the characteristic polynomial’s coefficient of the next-highest power.
+An eigenvalue of 1 means the corresponding eigenvectors are unchanged by the transformation.|T|The relation Av = v leaves each of those vectors fixed.
+# 6
+An inner product of a vector with itself is nonnegative.|T|Positive definiteness makes it positive for nonzero vectors and zero only for the zero vector.
+Orthogonality is defined using the chosen inner product.|T|Two vectors are orthogonal when that inner product is zero.
+Gram–Schmidt can convert an independent set into an orthonormal set spanning the same subspace.|T|Subtract projections and normalize the remaining nonzero vectors.
+Normalizing the zero vector is a valid Gram–Schmidt step.|F|The zero vector has zero norm and cannot be divided by its norm.
+An orthogonal projection gives a nearest point in the subspace.|T|The perpendicular error minimizes distance in the corresponding inner-product norm.
+The Cauchy–Schwarz inequality bounds the magnitude of an inner product by the product of norms.|T|It controls how large the alignment between two vectors can be.
+All functions have the same norm under every inner product.|F|Changing the inner product can change lengths, angles, and projections.
+For an orthonormal basis, a vector’s coordinates are its inner products with the basis vectors.|T|Orthogonality removes all other coefficients when taking each inner product.
+Least-squares solutions minimize squared residual norm rather than necessarily making every equation exact.|T|An inconsistent system can still have a best approximate fit.
+# 7
+Similar matrices represent the same linear map in different bases.|T|An invertible basis change conjugates one representation into the other.
+Similar matrices always have identical individual entries.|F|A basis change can alter entries while preserving quantities such as eigenvalues.
+For A = PDP⁻¹, powers satisfy Aⁿ = PDⁿP⁻¹.|T|Adjacent inverse and forward basis-change factors cancel in the product.
+An orthogonal matrix has inverse equal to its transpose.|T|Its columns form an orthonormal basis.
+A real symmetric matrix has only real eigenvalues.|T|This is a consequence of the spectral theorem.
+A positive-definite real symmetric matrix has positive quadratic form on every nonzero vector.|T|The form xᵀAx is strictly positive away from zero.
+A real symmetric matrix with both positive and negative eigenvalues is positive definite.|F|Its quadratic form takes both signs and is indefinite.
+An orthogonal change of coordinates can remove cross terms from a real quadratic form.|T|Diagonalizing the symmetric coefficient matrix expresses the form along principal directions.
+Repeated eigenvalues alone make diagonalization impossible.|F|A repeated eigenvalue can still have enough independent eigenvectors, as with the identity matrix.
+# 8
+The kernel of a linear transformation consists of vectors sent to zero.|T|It measures directions that the transformation collapses.
+The range of a linear transformation is a subspace of its codomain.|T|Linearity makes reachable outputs closed under sums and scalar multiples.
+A linear transformation is one-to-one exactly when its kernel contains only zero.|T|A nonzero kernel vector would make different inputs share an output.
+Rank plus nullity equals the finite dimension of the domain.|T|Independent surviving directions and collapsed directions account for the domain dimension.
+The matrix of a linear map depends on the chosen domain and codomain bases.|T|Its columns are the coordinates of the images of domain basis vectors.
+A linear transformation is determined by its values on a basis.|T|Every input is a linear combination of basis vectors, and linearity determines its image.
+A map can be onto without being one-to-one when domain and codomain dimensions differ.|T|A projection from a higher-dimensional space can reach every output while collapsing some directions.
+Composing two linear transformations produces a linear transformation.|T|Both steps preserve addition and scalar multiplication.
+A nonzero translation of the plane is a linear transformation.|F|It fails to send zero to zero and does not preserve linear combinations.
+# 9
+Rounding errors can accumulate during repeated numerical operations.|T|Finite precision perturbs intermediate results, which can affect later calculations.
+Partial pivoting chooses a suitable large-magnitude pivot in the current column.|T|Row exchanges reduce problems caused by dividing by very small pivot values.
+An ill-conditioned problem is the same thing as an unstable algorithm.|F|Conditioning describes sensitivity of the problem; stability describes behavior of the method.
+An LU factorization can speed solving several systems with the same coefficient matrix.|T|The factorization is reused, leaving triangular solves for each new right-hand side.
+Every iterative method converges for every matrix.|F|Convergence depends on the matrix, method, and sometimes the starting vector.
+The power method is intended to find a dominant eigenvector under suitable conditions.|T|Repeated multiplication emphasizes a uniquely dominant eigenvalue component if it is present initially.
+Scaling numerical variables can improve the numerical behavior of a computation.|T|Comparable scales can reduce avoidable rounding difficulties, though scaling does not solve every sensitivity problem.
+A residual tests how well an approximate solution satisfies the original equations.|T|Compute b − Ax using the original system and compare its size with relevant scales.
+Reporting more decimal places guarantees greater numerical accuracy.|F|Extra printed digits do not restore information lost through error or insufficient precision.

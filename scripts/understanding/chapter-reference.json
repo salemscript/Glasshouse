@@ -1,0 +1,1874 @@
+{
+  "calculus": [
+    [
+      1,
+      "Functions and models",
+      "For a function f, what must be true about each input in its domain?",
+      [
+        "It has exactly one output.",
+        "It has exactly two outputs.",
+        "It must be positive.",
+        "It must be an integer."
+      ],
+      0,
+      "A function assigns exactly one output to each input in its domain. Different inputs may share an output.",
+      "(f ∘ g)(x) = f(g(x))",
+      "Composition is defined where x is in the domain of g and g(x) is in the domain of f."
+    ],
+    [
+      2,
+      "Limits and derivatives",
+      "What does f′(a) represent geometrically?",
+      [
+        "The area under f up to a.",
+        "The slope of the tangent at x = a.",
+        "The value f(a).",
+        "The average value of f."
+      ],
+      1,
+      "The derivative is the limit of secant slopes, so it gives the tangent slope when that limit exists.",
+      "f′(a) = limₕ→₀ [f(a + h) − f(a)]/h",
+      "The two-sided limit must exist and be finite for the ordinary derivative."
+    ],
+    [
+      3,
+      "Differentiation rules",
+      "For differentiable u and v, which is the derivative of uv?",
+      [
+        "u′v′",
+        "u′ + v′",
+        "u′v + uv′",
+        "uv"
+      ],
+      2,
+      "The product rule differentiates one factor at a time and adds the two resulting terms.",
+      "(uv)′ = u′v + uv′; (f(g(x)))′ = f′(g(x))g′(x)",
+      "Use the product rule for products and the chain rule for nested functions."
+    ],
+    [
+      4,
+      "Applications of derivatives",
+      "If f′ is positive throughout an interval, what follows?",
+      [
+        "f is increasing there.",
+        "f is necessarily positive there.",
+        "f is decreasing there.",
+        "f is constant there."
+      ],
+      0,
+      "A positive derivative means the output increases as the input increases. It does not determine the sign of f itself.",
+      "f′ > 0 ⇒ increasing; f″ > 0 ⇒ concave up",
+      "Apply on an interval where the stated derivatives exist."
+    ],
+    [
+      5,
+      "Integrals",
+      "What does the definite integral of velocity over time give?",
+      [
+        "Final speed.",
+        "Total distance in every case.",
+        "Displacement.",
+        "Acceleration."
+      ],
+      2,
+      "Integrating signed velocity gives displacement. Total distance instead integrates the absolute value of velocity.",
+      "∫ₐᵇ f(x) dx = F(b) − F(a), where F′ = f",
+      "For the standard Fundamental Theorem, take f continuous on [a,b]."
+    ],
+    [
+      6,
+      "Applications of integration",
+      "Which integral gives area between an upper curve u and lower curve l on [a,b]?",
+      [
+        "∫ₐᵇ (u + l) dx",
+        "∫ₐᵇ (u − l) dx",
+        "∫ₐᵇ ul dx",
+        "u(b) − l(a)"
+      ],
+      1,
+      "Each vertical strip has height upper minus lower. Integrating those strip heights gives the area.",
+      "A = ∫ₐᵇ [u(x) − l(x)] dx",
+      "Require u ≥ l; split at intersections if the order changes."
+    ],
+    [
+      7,
+      "Integration techniques",
+      "Integration by parts reverses which differentiation rule?",
+      [
+        "Power rule only.",
+        "Quotient rule.",
+        "Product rule.",
+        "Chain rule only."
+      ],
+      2,
+      "Integrating the product rule d(uv) = u dv + v du gives the integration-by-parts identity.",
+      "∫u dv = uv − ∫v du",
+      "Choose u and dv so the remaining integral is simpler; include the integration constant."
+    ],
+    [
+      8,
+      "Further integral applications",
+      "For a nonnegative probability density p on its full domain, what must its integral equal?",
+      [
+        "0",
+        "1",
+        "The largest value of p.",
+        "The domain length."
+      ],
+      1,
+      "The total probability over all possible values is one. The density itself can exceed one over a short interval.",
+      "L = ∫ₐᵇ √(1 + [f′(x)]²) dx",
+      "Arc length for a continuously differentiable graph y = f(x) on [a,b]."
+    ],
+    [
+      9,
+      "Differential equations",
+      "In Euler’s method, which slope advances the current point?",
+      [
+        "The slope at the next, unknown point.",
+        "The average of all prior slopes.",
+        "The current slope f(xₙ,yₙ).",
+        "The slope zero in every step."
+      ],
+      2,
+      "Forward Euler uses the known current slope and step size h to estimate the next value.",
+      "yₙ₊₁ = yₙ + h f(xₙ,yₙ); xₙ₊₁ = xₙ + h",
+      "Approximation for y′ = f(x,y); smaller h often improves accuracy but stability still matters."
+    ],
+    [
+      10,
+      "Parametric and polar curves",
+      "For x = x(t), y = y(t), how is dy/dx computed when x′(t) ≠ 0?",
+      [
+        "y′(t)/x′(t)",
+        "x′(t)/y′(t)",
+        "x′(t)y′(t)",
+        "y(t)/x(t)"
+      ],
+      0,
+      "Both derivatives are with respect to t. Dividing eliminates the common parameter change.",
+      "dy/dx = (dy/dt)/(dx/dt); A = ½∫αᵝ r(θ)² dθ",
+      "The slope formula requires dx/dt ≠ 0. The polar area formula assumes the region is swept once."
+    ],
+    [
+      11,
+      "Sequences and series",
+      "If aₙ does not approach zero, what can you conclude about Σaₙ?",
+      [
+        "It converges absolutely.",
+        "It diverges.",
+        "It converges conditionally.",
+        "Its sum is zero."
+      ],
+      1,
+      "A necessary condition for convergence is aₙ → 0. That condition alone is not sufficient.",
+      "Σₙ₌₀∞ arⁿ = a/(1 − r), for |r| < 1",
+      "The geometric-series sum applies only when the common ratio has magnitude below one."
+    ],
+    [
+      12,
+      "Vectors in space",
+      "What is the dot product of two nonzero perpendicular vectors?",
+      [
+        "The product of their lengths.",
+        "One.",
+        "Zero.",
+        "The sum of their lengths."
+      ],
+      2,
+      "The dot product is |a||b| cos θ, and cos 90° = 0.",
+      "a · b = |a||b| cos θ; |a × b| = |a||b| sin θ",
+      "Dot product is scalar; cross product in three dimensions is a vector oriented by the right-hand rule."
+    ],
+    [
+      13,
+      "Vector functions",
+      "If r(t) is position, which vector gives acceleration?",
+      [
+        "r(t)",
+        "r′(t)",
+        "r″(t)",
+        "r(t) × r′(t)"
+      ],
+      2,
+      "Velocity is the first time derivative of position. Acceleration is the derivative of velocity.",
+      "v = r′(t); a = r″(t); speed = |r′(t)|",
+      "Speed is scalar; velocity and acceleration are vectors."
+    ],
+    [
+      14,
+      "Partial derivatives",
+      "When finding ∂f/∂x for f(x,y), how is y treated?",
+      [
+        "As a constant.",
+        "As equal to x.",
+        "As zero.",
+        "As a function of x in every case."
+      ],
+      0,
+      "A partial derivative varies one independent variable while holding the others fixed.",
+      "Dᵤf = ∇f · u, where |u| = 1",
+      "The directional vector must be a unit vector and f must be differentiable at the point."
+    ],
+    [
+      15,
+      "Multiple integrals",
+      "Which area element is used in polar coordinates?",
+      [
+        "dr dθ",
+        "r dr dθ",
+        "r² dr dθ",
+        "sin θ dr dθ"
+      ],
+      1,
+      "The Jacobian factor r accounts for the growing arc length of an angular strip as radius increases.",
+      "dA = r dr dθ; dV = ρ² sin φ dρ dφ dθ",
+      "For spherical coordinates here, φ is measured from the positive z-axis."
+    ],
+    [
+      16,
+      "Vector calculus",
+      "For a conservative field F = ∇f, what determines the line integral from A to B?",
+      [
+        "Only the curve length.",
+        "Only the travel time.",
+        "f(B) − f(A).",
+        "The maximum magnitude of F."
+      ],
+      2,
+      "The fundamental theorem for line integrals makes the integral depend only on the endpoint potential difference.",
+      "∫C ∇f · dr = f(B) − f(A)",
+      "Assume f has continuous first partial derivatives along a piecewise smooth path in its domain."
+    ],
+    [
+      17,
+      "Second-order differential equations",
+      "For y″ + ω²y = 0 with ω > 0, which family is the general solution?",
+      [
+        "C₁eᵡ + C₂e⁻ˣ for every ω.",
+        "C₁ cos(ωx) + C₂ sin(ωx).",
+        "C₁ + C₂x.",
+        "C₁x² + C₂."
+      ],
+      1,
+      "Differentiating sine or cosine twice multiplies it by −ω², which makes y″ + ω²y equal zero.",
+      "ay″ + by′ + cy = 0 ⇒ ar² + br + c = 0",
+      "For constant coefficients and a ≠ 0; repeated and complex characteristic roots require their corresponding solution forms."
+    ]
+  ],
+  "physics": [
+    [
+      1,
+      "Measurement",
+      "When adding measured lengths, what must you do first?",
+      [
+        "Multiply their units.",
+        "Express them in compatible units.",
+        "Ignore their units.",
+        "Round them all to integers."
+      ],
+      1,
+      "Addition requires the same physical dimension and compatible units. Convert before combining values.",
+      "1 km = 10³ m; 1 h = 3600 s",
+      "Track units through each conversion; dimensionless conversion ratios equal one."
+    ],
+    [
+      2,
+      "Motion in one dimension",
+      "Can an object have zero velocity at an instant and nonzero acceleration?",
+      [
+        "Yes, such as at the top of a vertical toss.",
+        "No, acceleration must then be zero.",
+        "Only if its mass is zero.",
+        "Only if no forces act."
+      ],
+      0,
+      "At the top of an ideal vertical toss, instantaneous velocity is zero while gravitational acceleration remains downward.",
+      "v = v₀ + at; x = x₀ + v₀t + ½at²",
+      "These kinematic equations require constant acceleration."
+    ],
+    [
+      3,
+      "Vectors",
+      "For a vector at angle θ from +x, what is its x component?",
+      [
+        "A sin θ",
+        "A tan θ",
+        "A cos θ",
+        "A/θ"
+      ],
+      2,
+      "The adjacent projection on the x-axis is magnitude times cosine of the angle measured from +x.",
+      "Aₓ = A cos θ; Aᵧ = A sin θ",
+      "Use the stated angle convention and retain the signs of the components."
+    ],
+    [
+      4,
+      "Motion in two and three dimensions",
+      "Without air resistance, what is a projectile’s horizontal acceleration?",
+      [
+        "g",
+        "−g",
+        "Its launch speed.",
+        "Zero."
+      ],
+      3,
+      "In the ideal projectile model gravity acts vertically, so horizontal velocity remains constant.",
+      "x = x₀ + v₀ₓt; y = y₀ + v₀ᵧt − ½gt²",
+      "Flat-Earth model, constant g, upward +y, and no air resistance."
+    ],
+    [
+      5,
+      "Force and motion I",
+      "An object moves at constant velocity. What is its net force in an inertial frame?",
+      [
+        "Zero.",
+        "Equal to its momentum.",
+        "Always its weight.",
+        "Increasing with time."
+      ],
+      0,
+      "Constant velocity means zero acceleration. Newton’s second law then gives zero net force.",
+      "ΣF = ma",
+      "Constant-mass particle in an inertial frame; apply the vector equation component by component."
+    ],
+    [
+      6,
+      "Force and motion II",
+      "Which statement about static friction is accurate?",
+      [
+        "It always equals μₛN.",
+        "It adjusts up to a maximum μₛN.",
+        "It always points in the direction of motion.",
+        "It is independent of contact forces."
+      ],
+      1,
+      "Static friction adjusts to prevent slipping until the required magnitude exceeds μₛN.",
+      "|fₛ| ≤ μₛN; fₖ = μₖN; aᵣ = v²/r",
+      "The kinetic-friction relation is the ideal sliding model. Centripetal acceleration points toward the curvature center."
+    ],
+    [
+      7,
+      "Kinetic energy and work",
+      "A force always perpendicular to an object’s displacement does how much work?",
+      [
+        "Positive work.",
+        "Negative work.",
+        "Zero work.",
+        "Work equal to its magnitude."
+      ],
+      2,
+      "The work element is F · dr. Perpendicular vectors have zero dot product.",
+      "Wnet = ΔK; K = ½mv²",
+      "Classical particle kinetic energy; net work includes all forces."
+    ],
+    [
+      8,
+      "Potential energy and conservation",
+      "When only conservative forces do work, which quantity is constant?",
+      [
+        "Kinetic energy alone.",
+        "Potential energy alone.",
+        "Kinetic plus potential energy.",
+        "Speed in every situation."
+      ],
+      2,
+      "Conservative forces exchange kinetic and potential energy while their sum remains constant.",
+      "Kᵢ + Uᵢ = Kf + Uf",
+      "With nonconservative work, use Δ(K + U) = Wnonconservative."
+    ],
+    [
+      9,
+      "Center of mass and momentum",
+      "When is the total momentum of a system conserved?",
+      [
+        "When every object stops.",
+        "When net external force is zero.",
+        "Only for elastic collisions.",
+        "Whenever kinetic energy decreases."
+      ],
+      1,
+      "Internal forces cancel in the system momentum balance. Zero net external force gives constant total momentum.",
+      "p = mv; J = ∫F dt = Δp",
+      "Vector quantities; for a system use net external force and total momentum."
+    ],
+    [
+      10,
+      "Rotation",
+      "Two points on the same rigid rotating disk share which quantity?",
+      [
+        "Tangential speed at different radii.",
+        "Centripetal acceleration at different radii.",
+        "Angular velocity.",
+        "Arc length traveled at different radii."
+      ],
+      2,
+      "Rigid-body rotation gives all points the same angular velocity. Their tangential speeds depend on radius.",
+      "v = rω; aₜ = rα; aᵣ = rω²",
+      "For rotation about a fixed axis; r is perpendicular distance from that axis."
+    ],
+    [
+      11,
+      "Rolling and angular momentum",
+      "For pure rolling on a stationary surface, which relation holds?",
+      [
+        "vCM = Rω",
+        "vCM = ω/R",
+        "vCM = 0 always",
+        "ω = 0 always"
+      ],
+      0,
+      "The no-slip contact constraint makes translational speed of the center equal R times angular speed.",
+      "L = r × p; Στext = dL/dt",
+      "Use the same reference point and an appropriate inertial origin for the torque–angular momentum relation."
+    ],
+    [
+      12,
+      "Equilibrium and elasticity",
+      "What must hold for a rigid body in static equilibrium?",
+      [
+        "Only net force is zero.",
+        "Only net torque is zero.",
+        "Both net force and net torque are zero.",
+        "Its weight is zero."
+      ],
+      2,
+      "Zero net force prevents translational acceleration; zero net torque prevents angular acceleration.",
+      "ΣF = 0; Στ = 0; stress = Y × strain",
+      "The elastic relation assumes small deformation within the material’s linear elastic range."
+    ],
+    [
+      13,
+      "Gravitation",
+      "If separation between two point masses doubles, their gravitational attraction becomes what fraction?",
+      [
+        "One half.",
+        "One fourth.",
+        "Twice.",
+        "Four times."
+      ],
+      1,
+      "The inverse-square law gives Fnew/Fold = 1/2² = 1/4.",
+      "F = Gm₁m₂/r²; U = −Gm₁m₂/r",
+      "Point masses or spherically symmetric bodies outside their surfaces; potential is zero at infinity."
+    ],
+    [
+      14,
+      "Fluids",
+      "For a static fluid of constant density, how does pressure change with depth?",
+      [
+        "It decreases linearly.",
+        "It is always zero.",
+        "It increases by ρg times the depth increase.",
+        "It depends only on container width."
+      ],
+      2,
+      "The weight of the overlying fluid gives Δp = ρgΔh for a constant-density fluid.",
+      "p = p₀ + ρgh; FB = ρfluid gVdisplaced",
+      "Hydrostatic model with constant density and gravitational acceleration."
+    ],
+    [
+      15,
+      "Oscillations",
+      "In simple harmonic motion, acceleration is proportional to what?",
+      [
+        "Displacement in the same direction.",
+        "Negative displacement from equilibrium.",
+        "Speed only.",
+        "Time only."
+      ],
+      1,
+      "The restoring acceleration points toward equilibrium and has magnitude proportional to displacement.",
+      "a = −ω²x; T = 2π/ω; ωspring = √(k/m)",
+      "Ideal linear spring and negligible damping for the spring formula."
+    ],
+    [
+      16,
+      "Waves I",
+      "Does a traveling wave generally require the medium to travel along with the wave?",
+      [
+        "Yes, every particle follows the crest.",
+        "No, particles oscillate while the disturbance travels.",
+        "Only if frequency is zero.",
+        "Only if wavelength is zero."
+      ],
+      1,
+      "A mechanical wave transports a disturbance and energy. Individual medium particles can oscillate about equilibrium.",
+      "v = fλ; vstring = √(Tension/μ)",
+      "Ideal taut string with small transverse displacement and uniform linear density μ."
+    ],
+    [
+      17,
+      "Waves II",
+      "For a point source radiating uniformly, how does intensity change when distance doubles?",
+      [
+        "It doubles.",
+        "It halves.",
+        "It stays constant.",
+        "It becomes one fourth."
+      ],
+      3,
+      "The same power spreads over an area 4πr², so doubling r reduces intensity by four.",
+      "I = P/(4πr²); β = 10 log₁₀(I/I₀)",
+      "Uniform spherical spreading without absorption; sound level β is in decibels."
+    ],
+    [
+      18,
+      "Temperature and heat",
+      "Thermal equilibrium between two bodies implies equality of what?",
+      [
+        "Mass.",
+        "Temperature.",
+        "Internal energy.",
+        "Volume."
+      ],
+      1,
+      "Thermal equilibrium means no net heat transfer caused by a temperature difference.",
+      "Q = mcΔT; Qphase = mL",
+      "Use mcΔT within one phase with appropriate specific heat; mL describes a phase change."
+    ],
+    [
+      19,
+      "Kinetic theory",
+      "For an ideal gas, average translational kinetic energy per molecule depends on what?",
+      [
+        "Absolute temperature.",
+        "Container shape only.",
+        "Molecular diameter only.",
+        "Pressure alone regardless of density."
+      ],
+      0,
+      "The mean translational kinetic energy is 3kBT/2, determined by absolute temperature.",
+      "pV = NkBT = nRT; ⟨Ktrans⟩ = 3kBT/2",
+      "Ideal-gas model; use kelvins."
+    ],
+    [
+      20,
+      "Entropy and the second law",
+      "For an isolated system, total entropy can do what?",
+      [
+        "Only decrease.",
+        "Never change.",
+        "Increase or remain constant.",
+        "Always become zero."
+      ],
+      2,
+      "The second law gives ΔS ≥ 0 for an isolated system, with equality for a reversible process.",
+      "ΔS = ∫rev dQ/T; ηCarnot = 1 − TC/TH",
+      "Compute entropy along a reversible path; reservoir temperatures must be in kelvins."
+    ],
+    [
+      21,
+      "Electric charge",
+      "Two positive point charges exert what kind of electric force on one another?",
+      [
+        "Repulsive.",
+        "Attractive.",
+        "Zero at every distance.",
+        "Tangential to their separation."
+      ],
+      0,
+      "Like charges repel along the line joining the charges; unlike charges attract.",
+      "|F| = k|q₁q₂|/r²; k = 1/(4πε₀)",
+      "Point charges in vacuum; include directions when adding forces."
+    ],
+    [
+      22,
+      "Electric fields",
+      "How is electric field related to the force on a positive test charge?",
+      [
+        "E = qF",
+        "E = F/q",
+        "E = F²/q",
+        "E = q/F"
+      ],
+      1,
+      "Electric field is force per unit positive test charge and points in the direction of that force.",
+      "E = F/q; Epoint = kq r̂/r²",
+      "Test-charge limit; superpose vector fields from multiple charges."
+    ],
+    [
+      23,
+      "Gauss’s law",
+      "Electric flux through a closed surface depends on which charge?",
+      [
+        "Every charge outside the surface.",
+        "Net enclosed charge.",
+        "Only the largest charge nearby.",
+        "Only charges exactly on the surface."
+      ],
+      1,
+      "Gauss’s law relates net outward flux to net charge enclosed, even though outside charges may affect the local field.",
+      "∮ E · dA = Qenclosed/ε₀",
+      "Closed surface with outward area vectors; symmetry is needed to easily solve for E."
+    ],
+    [
+      24,
+      "Electric potential",
+      "Moving a charge q through potential difference ΔV changes its potential energy by what?",
+      [
+        "q/ΔV",
+        "ΔV/q",
+        "qΔV",
+        "q²ΔV²"
+      ],
+      2,
+      "Potential difference is potential-energy change per unit charge, so ΔU = qΔV.",
+      "ΔU = qΔV; E = −∇V",
+      "Electrostatics; electric potential is scalar and its reference zero is arbitrary."
+    ],
+    [
+      25,
+      "Capacitance",
+      "For a fixed ideal capacitor, doubling applied voltage does what to stored charge magnitude?",
+      [
+        "Halves it.",
+        "Doubles it.",
+        "Leaves it unchanged.",
+        "Makes it zero."
+      ],
+      1,
+      "Q = CV and C is fixed in this ideal model, so charge is proportional to voltage.",
+      "C = Q/V; U = ½CV²",
+      "Linear capacitor with fixed geometry and dielectric response."
+    ],
+    [
+      26,
+      "Current and resistance",
+      "Electric current is the rate of change of which quantity through a cross-section?",
+      [
+        "Energy.",
+        "Voltage.",
+        "Charge.",
+        "Resistance."
+      ],
+      2,
+      "Current is charge flow per unit time, I = dQ/dt.",
+      "I = dQ/dt; V = IR; R = ρL/A",
+      "V = IR assumes ohmic behavior at the stated physical conditions."
+    ],
+    [
+      27,
+      "Circuits",
+      "Kirchhoff’s junction rule follows from conservation of what?",
+      [
+        "Charge.",
+        "Temperature.",
+        "Resistance.",
+        "Capacitance."
+      ],
+      0,
+      "Charge does not accumulate at an ideal steady-state junction, so total incoming current equals outgoing current.",
+      "Σjunction I = 0; Σloop ΔV = 0",
+      "Use consistent signs; the simple loop rule assumes no unaccounted changing magnetic flux."
+    ],
+    [
+      28,
+      "Magnetic fields",
+      "A charge moving parallel to a magnetic field experiences what magnetic force?",
+      [
+        "qvB in the direction of motion.",
+        "Zero.",
+        "qvB opposite its motion.",
+        "qB independent of speed."
+      ],
+      1,
+      "The magnetic force qv × B is zero for parallel or antiparallel velocity and field.",
+      "F = q(v × B); |F| = |q|vB sin θ",
+      "This is the magnetic contribution; add qE if an electric field is also present."
+    ],
+    [
+      29,
+      "Fields due to currents",
+      "Around a long straight wire, the magnetic field direction is what?",
+      [
+        "Radially inward.",
+        "Radially outward.",
+        "Along the wire everywhere.",
+        "Tangent to circles around the wire."
+      ],
+      3,
+      "The right-hand rule gives circular field lines around the current direction.",
+      "B = μ₀I/(2πr)",
+      "Long straight wire in vacuum, at perpendicular distance r outside the wire."
+    ],
+    [
+      30,
+      "Induction",
+      "Lenz’s law fixes an induced current’s direction so that its magnetic effect does what?",
+      [
+        "Opposes the change in magnetic flux.",
+        "Always increases the original flux.",
+        "Always points north.",
+        "Eliminates resistance."
+      ],
+      0,
+      "The induced effect opposes the change in flux that produces it, consistent with energy conservation.",
+      "ε = −N dΦB/dt; ΦB = ∫B · dA",
+      "N identical coil turns; orient the loop normal and positive circulation consistently."
+    ],
+    [
+      31,
+      "Electromagnetic oscillations",
+      "An ideal LC circuit repeatedly exchanges energy between which stores?",
+      [
+        "Heat and sound.",
+        "Electric field and magnetic field.",
+        "Chemical and gravitational.",
+        "Rest mass and friction."
+      ],
+      1,
+      "Energy oscillates between the capacitor’s electric field and the inductor’s magnetic field.",
+      "ω₀ = 1/√(LC); UL = ½LI²",
+      "Ideal LC oscillation neglects resistance and energy loss."
+    ],
+    [
+      32,
+      "Maxwell’s equations and magnetism",
+      "What does zero net magnetic flux through a closed surface express?",
+      [
+        "Magnetic fields never exist.",
+        "Magnetic poles occur only as isolated north poles.",
+        "No isolated magnetic monopoles in classical Maxwell theory.",
+        "Electric charge is always zero."
+      ],
+      2,
+      "Gauss’s law for magnetism gives zero net flux through a closed surface; magnetic field lines form continuous loops.",
+      "∮B · dA = 0; ∮B · dl = μ₀Ienclosed + μ₀ε₀ dΦE/dt",
+      "Integral Maxwell equations in vacuum with consistently oriented surfaces and paths."
+    ],
+    [
+      33,
+      "Electromagnetic waves",
+      "In a plane electromagnetic wave in vacuum, E and B are oriented how?",
+      [
+        "Parallel to each other and propagation.",
+        "Perpendicular to each other and propagation.",
+        "Both parallel only to propagation.",
+        "Both always zero."
+      ],
+      1,
+      "A vacuum plane electromagnetic wave is transverse: E, B, and propagation form mutually perpendicular directions.",
+      "c = 1/√(μ₀ε₀); E₀ = cB₀",
+      "Plane traveling electromagnetic wave in vacuum."
+    ],
+    [
+      34,
+      "Images",
+      "For a plane mirror, the image lies where?",
+      [
+        "At the mirror surface.",
+        "Twice the object distance in front.",
+        "The same distance behind as the object is in front.",
+        "At infinity for every object."
+      ],
+      2,
+      "Reflected rays appear to come from a virtual image equally far behind the plane mirror.",
+      "1/f = 1/p + 1/i; m = −i/p",
+      "Paraxial thin-lens or spherical-mirror equation with the book’s corresponding sign convention; plane mirror i = −p."
+    ],
+    [
+      35,
+      "Interference",
+      "Two coherent waves arriving in phase tend to produce what?",
+      [
+        "Constructive interference.",
+        "Destructive interference only.",
+        "No superposition.",
+        "Zero intensity regardless of amplitude."
+      ],
+      0,
+      "In-phase displacements add. Equal in-phase waves double amplitude and give four times one wave’s intensity.",
+      "Double slit: d sin θ = mλ",
+      "Bright fringes for coherent, in-phase illumination of narrow slits; m is an integer."
+    ],
+    [
+      36,
+      "Diffraction",
+      "Making a single slit narrower generally does what to its central diffraction maximum?",
+      [
+        "Makes it narrower.",
+        "Makes it wider.",
+        "Leaves its width unchanged.",
+        "Eliminates wavelength dependence."
+      ],
+      1,
+      "The first minimum satisfies a sin θ = λ, so decreasing slit width a increases the angular spread.",
+      "Single slit: a sin θ = mλ, m = ±1, ±2, …",
+      "Fraunhofer single-slit minima; the formula does not describe the central maximum at m = 0."
+    ],
+    [
+      37,
+      "Relativity",
+      "Which speed is the same for all inertial observers in special relativity?",
+      [
+        "Any object’s speed.",
+        "A sound wave’s speed in air.",
+        "Light’s speed in vacuum.",
+        "A moving clock’s hand speed."
+      ],
+      2,
+      "The invariance of vacuum light speed is a postulate of special relativity.",
+      "γ = 1/√(1 − v²/c²); Δt = γΔτ",
+      "Δτ is proper time between events occurring at one position in the clock’s rest frame."
+    ],
+    [
+      38,
+      "Photons and matter waves",
+      "Increasing a photon’s frequency increases what?",
+      [
+        "Its energy.",
+        "Its rest mass.",
+        "Its vacuum speed.",
+        "Its wavelength."
+      ],
+      0,
+      "Photon energy is hf. Its vacuum speed stays c and its wavelength decreases as frequency increases.",
+      "E = hf = hc/λ; λdeBroglie = h/p",
+      "For a photon use its vacuum wavelength; the de Broglie relation uses particle momentum."
+    ],
+    [
+      39,
+      "More about matter waves",
+      "What is the physical meaning of |ψ|² for a normalized one-particle wavefunction?",
+      [
+        "Electric charge itself.",
+        "Probability density.",
+        "Exact classical trajectory.",
+        "Particle speed."
+      ],
+      1,
+      "The squared magnitude gives probability per unit configuration-space volume. Its full-space integral is one.",
+      "∫|ψ|² dV = 1; En = n²h²/(8mL²)",
+      "Energy formula for a nonrelativistic particle in a one-dimensional infinite well of width L, n = 1,2,…"
+    ],
+    [
+      40,
+      "All about atoms",
+      "In the simple hydrogen model, atomic energy levels are what?",
+      [
+        "Continuous at all bound energies.",
+        "Quantized.",
+        "Always positive for bound states.",
+        "Independent of principal quantum number."
+      ],
+      1,
+      "Bound hydrogen states occupy discrete energies labeled by integer principal quantum number n.",
+      "En ≈ −13.6 eV/n²",
+      "Nonrelativistic hydrogen approximation, neglecting fine structure and reduced-mass corrections."
+    ],
+    [
+      41,
+      "Conduction of electricity in solids",
+      "What is the defining band feature of an intrinsic semiconductor?",
+      [
+        "A small gap between valence and conduction bands.",
+        "No allowed electron states.",
+        "An infinitely large band gap.",
+        "A perfectly filled conduction band at all temperatures."
+      ],
+      0,
+      "A relatively small band gap permits thermally excited electrons in the conduction band and holes in the valence band.",
+      "J = σE; σ = neμe + nhμh",
+      "Simple electron-and-hole transport model with carrier densities n and mobilities μ."
+    ],
+    [
+      42,
+      "Nuclear physics",
+      "After one half-life, what fraction of a large radioactive sample’s parent nuclei remains on average?",
+      [
+        "One fourth.",
+        "One half.",
+        "Two thirds.",
+        "All of it."
+      ],
+      1,
+      "Half-life is the time for the expected parent-nucleus population to decrease by a factor of two.",
+      "N(t) = N₀e⁻λt; T½ = ln 2/λ; A = λN",
+      "Constant decay probability; predictions describe the statistical population."
+    ],
+    [
+      43,
+      "Energy from the nucleus",
+      "Energy released in a nuclear reaction corresponds to what?",
+      [
+        "An increase in total rest mass only.",
+        "A decrease in total rest mass.",
+        "A violation of energy conservation.",
+        "A change in electric charge conservation."
+      ],
+      1,
+      "A lower final rest mass leaves energy available as particle kinetic energy or radiation while total energy is conserved.",
+      "Q = (minitial − mfinal)c²",
+      "Use consistent nuclear or atomic mass accounting and include all reaction products."
+    ],
+    [
+      44,
+      "Quarks, leptons, and the Big Bang",
+      "In the quark model, a proton contains which valence quarks?",
+      [
+        "uud",
+        "udd",
+        "uuu",
+        "ddd"
+      ],
+      0,
+      "Two up quarks and one down quark have total charge 2/3 + 2/3 − 1/3 = +1 in elementary-charge units.",
+      "Qup = +(2/3)e; Qdown = −(1/3)e",
+      "These are quark electric charges; composite-particle charge is the sum of constituent charges."
+    ]
+  ],
+  "chemistry": [
+    [
+      1,
+      "Essential Ideas",
+      "Which observation provides evidence that a chemical change has occurred?",
+      [
+        "A new substance with different chemical properties forms.",
+        "A sample is cut into smaller pieces.",
+        "A liquid changes shape to fit its container.",
+        "A solid is measured on a balance."
+      ],
+      0,
+      "A chemical change changes chemical identity. Cutting, changing container shape, and measuring mass can occur without forming a new substance.",
+      "ρ = m/V",
+      "ρ is density, m is sample mass, and V is its volume. Use compatible units: SI density is kg/m³; laboratory densities often use g/mL. The measured sample and its temperature must match the stated density."
+    ],
+    [
+      2,
+      "Atoms, Molecules, and Ions",
+      "What distinguishes two isotopes of the same element?",
+      [
+        "They have different numbers of protons.",
+        "They have different numbers of neutrons.",
+        "They must have opposite electrical charges.",
+        "They have different atomic numbers."
+      ],
+      1,
+      "Isotopes share the same atomic number and therefore the same proton count, but differ in neutron count and mass number. Changing electrons instead creates ions.",
+      "A = Z + N; q/e = Z − Nₑ",
+      "A is mass number, Z is proton count (atomic number), N is neutron count, and Nₑ is electron count. q is the atom or ion charge; e is the positive elementary charge. These are particle counts, so A is not the element’s average atomic mass."
+    ],
+    [
+      3,
+      "Electronic Structure and Periodic Properties of Elements",
+      "For a photon traveling in vacuum, what happens to its energy when its wavelength increases?",
+      [
+        "Its energy increases because the wave is longer.",
+        "Its energy stays fixed for every photon.",
+        "Its energy decreases because energy is inversely proportional to wavelength.",
+        "Its energy becomes negative."
+      ],
+      2,
+      "Photon energy is E = hc/λ. With h and c fixed, a larger wavelength gives a smaller positive energy and a lower frequency.",
+      "E = hν = hc/λ",
+      "E is photon energy in J, h = 6.62607015 × 10⁻³⁴ J·s, ν is frequency in s⁻¹, c = 2.99792458 × 10⁸ m/s, and λ is vacuum wavelength in m. Use vacuum c; convert nm to m before calculating."
+    ],
+    [
+      4,
+      "Chemical Bonding and Molecular Geometry",
+      "A central atom has four electron domains: two bonds and two lone pairs. What molecular shape does VSEPR predict?",
+      [
+        "Linear.",
+        "Trigonal planar.",
+        "Tetrahedral molecular shape.",
+        "Bent molecular shape."
+      ],
+      3,
+      "Four electron domains have a tetrahedral electron-domain arrangement. Molecular shape describes only the bonded atoms, so two bonds plus two lone pairs give a bent shape.",
+      "FC = V − L − B/2",
+      "FC is formal charge in elementary-charge units, V is the neutral atom’s valence-electron count, L is its nonbonding-electron count, and B is its bonding-electron count. Count every lone-pair electron and split bonding electrons equally. Formal charge is bookkeeping, not a measured partial charge."
+    ],
+    [
+      5,
+      "Advanced Theories of Bonding",
+      "According to molecular orbital theory, what makes a molecule paramagnetic?",
+      [
+        "At least one occupied molecular orbital contains an unpaired electron.",
+        "Every electron is paired in an occupied orbital.",
+        "The molecule has no antibonding orbitals.",
+        "The molecule’s bond order must equal zero."
+      ],
+      0,
+      "Unpaired electrons make a species paramagnetic. A species whose electrons are all paired is diamagnetic; bonding and antibonding occupation alone does not settle this without examining electron pairing.",
+      "Bond order = (N_bonding − N_antibonding)/2",
+      "N_bonding and N_antibonding count electrons in bonding and antibonding molecular orbitals in the chosen MO diagram. Fill the appropriate diagram using Aufbau, Pauli, and Hund rules. This MO bond order is a model of net bonding; zero does not predict a stable ordinary covalent bond."
+    ],
+    [
+      6,
+      "Composition of Substances and Solutions",
+      "When calculating molarity, which volume belongs in the denominator?",
+      [
+        "The volume of solute alone.",
+        "The final volume of the complete solution.",
+        "The solvent volume before the solute is added in every case.",
+        "The volume of the measuring flask’s glass."
+      ],
+      1,
+      "Molarity is moles of solute divided by total solution volume. Adding solute can change volume, so the solvent’s original volume is not automatically the final solution volume.",
+      "c = n_solute/V_solution; n = m/M_m",
+      "c is molarity in mol/L, n is amount in mol, V_solution is final solution volume in L, m is solute mass in g, and M_m is molar mass in g/mol. Convert mL to L. Molarity depends on temperature because solution volume can change."
+    ],
+    [
+      7,
+      "Stoichiometry of Chemical Reactions",
+      "What do the coefficients in a balanced chemical equation tell you for a mole-to-mole conversion?",
+      [
+        "The masses of reactants must be equal.",
+        "The molar masses of reactants and products are equal.",
+        "The relative amounts in moles that react or form.",
+        "The reaction must go completely in both directions at once."
+      ],
+      2,
+      "Balanced coefficients give stoichiometric mole ratios, not mass ratios. To convert a mass, first use molar mass to find moles, then apply the balanced coefficient ratio.",
+      "n_B = (b/a)n_A",
+      "a and b are the balanced coefficients of consumed A and formed B; n_A is the amount of A that actually reacts, and n_B is the stoichiometric amount of B formed. For theoretical yield, use the limiting reactant and assume the stated reaction proceeds completely without side reactions. Excess reactant does not determine the yield."
+    ],
+    [
+      8,
+      "Gases",
+      "Why must temperature be expressed in kelvin in the ideal gas law?",
+      [
+        "Kelvin and Celsius have identical zero points.",
+        "Kelvin values remove the need to choose pressure units.",
+        "The gas constant is only defined for temperatures below freezing.",
+        "The law uses absolute temperature, whose zero represents the absolute thermal scale."
+      ],
+      3,
+      "Gas-law proportionalities use absolute temperature. Celsius has an arbitrary offset, so doubling a Celsius reading does not double absolute temperature. Convert using T(K) = T(°C) + 273.15.",
+      "PV = nRT",
+      "P is absolute pressure, V is gas volume, n is amount in mol, T is temperature in K, and R = 8.314462618 J/(mol·K) for P in Pa and V in m³. Alternatively use R = 0.082057 L·atm/(mol·K) with L and atm. The ideal approximation works best at relatively low pressure and high temperature, away from condensation."
+    ],
+    [
+      9,
+      "Thermochemistry",
+      "If a reaction releases heat to its surroundings at constant pressure, what is the sign of the reaction’s enthalpy change?",
+      [
+        "Negative: the reacting system loses heat.",
+        "Positive: the surroundings become warmer.",
+        "Always zero because energy is conserved.",
+        "Its sign is determined only by the reaction speed."
+      ],
+      0,
+      "An exothermic reaction transfers heat out of the reacting system, so its ΔH is negative at constant pressure. The surroundings gain heat; system and surroundings have opposite heat-transfer signs.",
+      "q = mcΔT; q_p = ΔH",
+      "q is heat transferred into the chosen sample, m is mass, c is specific heat capacity, and ΔT = T_final − T_initial. With m in g and c in J/(g·K), q is in J. Treat c as constant over the range and exclude phase changes. q_p = ΔH applies at constant pressure with only pressure–volume work; distinguish the reaction system from calorimeter surroundings."
+    ],
+    [
+      10,
+      "Liquids and Solids",
+      "Why does a liquid boil when its vapor pressure equals the external pressure?",
+      [
+        "All intermolecular attractions have permanently disappeared.",
+        "Vapor bubbles can persist and grow throughout the liquid.",
+        "Its molecules stop moving.",
+        "The liquid must be at its critical temperature."
+      ],
+      1,
+      "At the boiling point, vapor pressure balances the external pressure, allowing vapor bubbles to exist inside the liquid. Lowering external pressure lowers the boiling temperature.",
+      "ln(P₂/P₁) = −(ΔH_vap/R)(1/T₂ − 1/T₁)",
+      "P₁ and P₂ are equilibrium vapor pressures of the same substance; T₁ and T₂ are absolute temperatures in K. ΔH_vap is molar enthalpy of vaporization in J/mol and R = 8.314462618 J/(mol·K). ln is the natural logarithm. This integrated Clausius–Clapeyron approximation assumes ideal vapor, negligible liquid volume, and nearly constant ΔH_vap over the temperature interval."
+    ],
+    [
+      11,
+      "Solutions and Colloids",
+      "For ideal dilute solutions with the same solvent, what primarily determines the size of a colligative effect?",
+      [
+        "The color of the dissolved solute.",
+        "The shape of the container.",
+        "The number of dissolved solute particles relative to the solvent amount.",
+        "Only the mass of one solute molecule."
+      ],
+      2,
+      "Colligative properties depend on the amount of dissolved particles rather than their chemical identity in the ideal dilute limit. Dissociation can increase particle count, so equal formula-unit concentrations need not give equal effects.",
+      "ΔT_f = iK_f b",
+      "ΔT_f = T_freezing,pure − T_freezing,solution is a positive freezing-point depression, i is the effective van ’t Hoff factor, K_f is the solvent’s freezing-point constant in K·kg/mol, and b is solute molality in mol/kg of solvent. Use solvent mass, not solution volume. This is a dilute-solution approximation; ion interactions can make i differ from the ideal dissociation count."
+    ],
+    [
+      12,
+      "Thermodynamics",
+      "At fixed temperature and pressure, what does ΔG < 0 tell you about the stated process?",
+      [
+        "It must happen instantaneously.",
+        "It must release heat in every case.",
+        "It cannot proceed spontaneously.",
+        "It is thermodynamically spontaneous in the stated direction under those conditions."
+      ],
+      3,
+      "A negative Gibbs free energy change indicates a spontaneous direction at fixed temperature and pressure. It does not predict reaction speed; an activation barrier can make a spontaneous reaction very slow.",
+      "ΔG = ΔH − TΔS",
+      "ΔG is Gibbs free energy change, ΔH is enthalpy change, ΔS is entropy change, and T is absolute temperature in K. Use consistent energy units: convert ΔS from J/(mol·K) if ΔH is in kJ/mol. The simple finite-change expression assumes the initial and final states are at the same temperature; the spontaneity criterion applies at fixed T and P with only pressure–volume work."
+    ],
+    [
+      13,
+      "Fundamental Equilibrium Concepts",
+      "What is true when a reversible chemical reaction reaches dynamic equilibrium?",
+      [
+        "The forward and reverse reaction rates are equal, though reactions continue.",
+        "Both reactions stop permanently.",
+        "Every reactant concentration equals every product concentration.",
+        "The equilibrium constant becomes zero."
+      ],
+      0,
+      "Dynamic equilibrium means equal forward and reverse rates. Concentrations remain constant, but their values need not be equal, and molecular-scale reactions continue.",
+      "K_c = [C]^c[D]^d/([A]^a[B]^b)",
+      "For aA + bB ⇌ cC + dD, a, b, c, d are balanced stoichiometric coefficients and bracketed terms are equilibrium molar concentrations. Omit pure solids and pure liquids. K_c belongs to the written reaction at a specified temperature; reverse the reaction to obtain its reciprocal. Concentration expressions are the introductory approximation to dimensionless activity-based equilibrium constants."
+    ],
+    [
+      14,
+      "Acid-Base Equilibria",
+      "Which statement describes a Brønsted–Lowry conjugate acid–base pair?",
+      [
+        "The two species differ by one electron.",
+        "The two species differ by one proton, H⁺.",
+        "They must have equal electrical charges.",
+        "They must both contain hydroxide ions."
+      ],
+      1,
+      "An acid becomes its conjugate base by donating one proton, and a base becomes its conjugate acid by accepting one proton. An acid–base conjugate pair differs by exactly H⁺, not by an electron.",
+      "pH = −log₁₀ a(H₃O⁺) ≈ −log₁₀([H₃O⁺]/(1 mol/L))",
+      "a(H₃O⁺) is the dimensionless hydronium activity. In a sufficiently dilute aqueous solution, approximate it by molar concentration divided by the standard concentration 1 mol/L. log₁₀ is base ten. Neutrality means [H₃O⁺] = [OH⁻]; neutral pH is 7.00 at 25 °C and changes when the water ionization constant changes with temperature."
+    ],
+    [
+      15,
+      "Equilibria of Other Reaction Classes",
+      "For a dilute AgCl solution at a fixed temperature, what does Q_sp > K_sp predict?",
+      [
+        "More AgCl must dissolve until all solid disappears.",
+        "No phase change is possible.",
+        "AgCl precipitation is thermodynamically favored until equilibrium is restored.",
+        "The value of K_sp permanently increases."
+      ],
+      2,
+      "Q_sp is the current ion product. If it exceeds K_sp, the solution is supersaturated with respect to AgCl and precipitation lowers dissolved ion concentrations toward equilibrium. K_sp stays fixed at the same temperature.",
+      "AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq); K_sp ≈ [Ag⁺][Cl⁻]",
+      "The dissolution has a 1:1 ion ratio. Brackets denote equilibrium molar concentrations in the dilute approximation; the exact thermodynamic expression uses dimensionless activities. Pure solid AgCl is omitted because its activity is one. Q_sp uses current concentrations and K_sp uses equilibrium values at the given temperature; do not use K_sp = s² when a common ion or other equilibrium changes the ion concentrations."
+    ],
+    [
+      16,
+      "Electrochemistry",
+      "Where does oxidation occur in an electrochemical cell?",
+      [
+        "At the cathode in every cell.",
+        "Only inside the salt bridge.",
+        "At whichever electrode has the larger physical area.",
+        "At the anode in both galvanic and electrolytic cells."
+      ],
+      3,
+      "Oxidation is electron loss and always occurs at the anode; reduction occurs at the cathode. Electrode signs differ between galvanic and electrolytic cells, so naming the process is more reliable than memorizing a sign alone.",
+      "E°_cell = E°_cathode − E°_anode; ΔG° = −nFE°_cell",
+      "Use standard reduction potentials for both electrodes, subtracting anode from cathode. E° is in V; n is moles of electrons transferred per mole of the balanced cell reaction, and F = 96485.33212 C/mol. ΔG° is in J/mol of reaction. Standard conditions use unit activities and the table’s temperature. Never multiply electrode potentials by balancing coefficients; only n scales when the reaction is multiplied."
+    ],
+    [
+      17,
+      "Kinetics",
+      "Can the reaction orders in a general experimentally measured rate law always be read from the overall balanced equation?",
+      [
+        "No; overall reaction orders generally must be determined experimentally.",
+        "Yes; every exponent always equals its balanced coefficient.",
+        "Yes; every reactant always has first order.",
+        "No; reaction orders can never be determined."
+      ],
+      0,
+      "The overall balanced equation gives stoichiometry, but generally does not specify the rate law. Orders come from experiment unless a known elementary step justifies using its reactant coefficients.",
+      "rate = k[A]^m[B]^n",
+      "k is the rate constant at the specified temperature, [A] and [B] are reactant molar concentrations, and m and n are experimental reaction orders. For rate in mol/(L·s), units of k are (mol/L)^(1−m−n)/s. Orders may be zero, fractional, or negative. Do not equate orders with overall stoichiometric coefficients without a justified elementary-step model."
+    ],
+    [
+      18,
+      "Representative Metals, Metalloids, and Nonmetals",
+      "When a carbonate ion reacts with enough aqueous acid, which gas is formed?",
+      [
+        "Hydrogen, H₂.",
+        "Carbon dioxide, CO₂.",
+        "Nitrogen, N₂.",
+        "Chlorine, Cl₂."
+      ],
+      1,
+      "Acid protonates carbonate to form carbonic acid, which yields water and carbon dioxide. The net ionic equation consumes two H⁺ per carbonate ion and conserves both atoms and charge.",
+      "CO₃²⁻(aq) + 2H⁺(aq) → CO₂(g) + H₂O(l)",
+      "This is a balanced net ionic reaction for carbonate under acidic aqueous conditions; spectator ions are omitted. One mole of carbonate consumes two moles of H⁺ and can form one mole of CO₂ with sufficient acid. CO₃²⁻ has −2 charge, so the total charge is zero on both sides. Bicarbonate, HCO₃⁻, instead requires one H⁺ per ion."
+    ],
+    [
+      19,
+      "Transition Metals and Coordination Chemistry",
+      "A metal is bonded to six monodentate NH₃ ligands. What is its coordination number?",
+      [
+        "Three because NH₃ contains three hydrogens.",
+        "Zero because NH₃ is electrically neutral.",
+        "Six because six ligand donor atoms bond to the metal.",
+        "The same number as the metal’s oxidation state in every case."
+      ],
+      2,
+      "Coordination number counts donor atoms directly bonded to the central metal. Each monodentate NH₃ supplies one donor nitrogen, so six NH₃ ligands provide six donor atoms. Coordination number and oxidation state are different quantities.",
+      "q_complex = z_metal + Σq_ligands",
+      "q_complex is the complex ion’s net charge, z_metal is the metal oxidation state, and Σq_ligands is the sum of all ligand charges, counting each occurrence. Use elementary-charge units. Neutral NH₃ and H₂O each contribute zero; Cl⁻ contributes −1. Charge bookkeeping determines oxidation state, not coordination number or high-spin versus low-spin electron arrangement."
+    ],
+    [
+      20,
+      "Nuclear Chemistry",
+      "For a fixed radionuclide undergoing ordinary first-order radioactive decay, what happens to its half-life when the initial sample contains more nuclei?",
+      [
+        "It doubles whenever the sample doubles.",
+        "It becomes zero for large samples.",
+        "It is determined by the sample’s chemical color.",
+        "It remains the same; only the initial activity increases."
+      ],
+      3,
+      "The decay constant and half-life are properties of the radionuclide under ordinary conditions. A larger number of undecayed nuclei gives higher initial activity, but the same fraction decays during one half-life.",
+      "N(t) = N₀e^(−λt); t₁/₂ = ln(2)/λ",
+      "N(t) is the number of undecayed parent nuclei at time t, N₀ is its initial value, λ is the positive decay constant, and ln is the natural logarithm. Use the same time units for t and 1/λ. This single-parent exponential assumes no replenishment of that parent and no mixture of different decay constants; daughter ingrowth needs additional equations."
+    ],
+    [
+      21,
+      "Organic Chemistry",
+      "Which structural feature distinguishes an alkene from an alkane?",
+      [
+        "At least one carbon–carbon double bond.",
+        "An oxygen atom in every molecule.",
+        "A nitrogen atom in every molecule.",
+        "Only carbon–carbon single bonds and no multiple bonds."
+      ],
+      0,
+      "An alkene contains a carbon–carbon double bond. Alkanes are saturated hydrocarbons with only single bonds. Carbon rings and oxygen- or nitrogen-containing functional groups require additional structural classification.",
+      "CₙH₂ₙ₊₂",
+      "This molecular formula applies to a neutral acyclic saturated hydrocarbon (an alkane) with n ≥ 1 carbon atoms and no heteroatoms. It does not apply unchanged to rings or multiple bonds: one ring or one double bond reduces hydrogen count by two relative to the acyclic alkane. A formula alone does not identify connectivity."
+    ]
+  ],
+  "organic": [
+    [
+      1,
+      "Structure and Bonding",
+      "How many σ and π bonds form a carbon–carbon triple bond?",
+      [
+        "One σ bond and two π bonds.",
+        "Three σ bonds.",
+        "Two σ bonds and one π bond.",
+        "Three π bonds."
+      ],
+      0,
+      "The sp orbitals form the σ bond; two pairs of unhybridized p orbitals form the two π bonds.",
+      "C≡C: 1 σ + 2 π; carbon is sp-hybridized.",
+      "For an ordinary carbon–carbon triple bond; its bond axes are approximately linear. Reference: chapter 1 Summary, PDF p. 47 (printed p. 29)."
+    ],
+    [
+      2,
+      "Polar Covalent Bonds; Acids and Bases",
+      "Within the same solvent, which acid is strongest?",
+      [
+        "The acid with the largest pKa.",
+        "The acid with the smallest pKa.",
+        "The acid with the smallest Ka.",
+        "All acids have identical strength."
+      ],
+      1,
+      "A smaller pKa means a larger acid-dissociation constant and greater tendency to donate a proton.",
+      "pKa = −log₁₀Ka",
+      "Compare values determined under comparable solvent and temperature conditions. Reference: chapter 2 Summary, PDF p. 80 (printed p. 62)."
+    ],
+    [
+      3,
+      "Organic Compounds: Alkanes and Their Stereochemistry",
+      "Which statement describes constitutional isomers?",
+      [
+        "Same connectivity, different bond rotation only.",
+        "Different molecular formulas, same mass.",
+        "Same molecular formula, different atom connectivity.",
+        "Mirror images with identical connectivity."
+      ],
+      2,
+      "Constitutional isomers differ in the connections between atoms; conformers differ only by rotations.",
+      "Acyclic saturated alkane: CₙH₂ₙ₊₂",
+      "The alkane formula assumes an open-chain hydrocarbon with no rings or multiple bonds. Reference: chapter 3 Summary, PDF p. 116 (printed p. 98)."
+    ],
+    [
+      4,
+      "Organic Compounds: Cycloalkanes and Their Stereochemistry",
+      "Why does methylcyclohexane favor an equatorial methyl group?",
+      [
+        "It changes the molecular formula.",
+        "It removes all carbon–carbon bonds.",
+        "It forces the ring into a planar hexagon.",
+        "It reduces 1,3-diaxial steric interactions."
+      ],
+      3,
+      "An axial methyl group crowds axial hydrogens on carbons three positions away; equatorial placement reduces that crowding.",
+      "Chair flip: axial ⇄ equatorial; up/down orientation is retained.",
+      "Apply to cyclohexane chairs; a ring flip changes conformation, not cis/trans configuration. Reference: chapter 4 Summary, PDF p. 145 (printed p. 127)."
+    ],
+    [
+      5,
+      "Stereochemistry at Tetrahedral Centers",
+      "What defines a pair of enantiomers?",
+      [
+        "Nonsuperimposable mirror-image stereoisomers.",
+        "Isomers differing only in connectivity.",
+        "Any two conformers of one molecule.",
+        "Any two molecules with different formulas."
+      ],
+      0,
+      "Enantiomers share connectivity but are mirror images that cannot be superimposed.",
+      "Maximum configurations from n independent stereocenters: 2ⁿ",
+      "The actual count can be smaller because of symmetry, including meso forms; R/S does not predict rotation sign. Reference: chapter 5 Summary, PDF p. 180 (printed p. 162)."
+    ],
+    [
+      6,
+      "An Overview of Organic Reactions",
+      "In a polar reaction, what does an ordinary double-barbed curved arrow track?",
+      [
+        "Movement of an atomic nucleus.",
+        "Movement of an electron pair.",
+        "Movement of a single electron only.",
+        "The path of an entire solvent molecule."
+      ],
+      1,
+      "A double-barbed arrow starts at an electron pair or bond and points to its destination; a fishhook tracks one electron.",
+      "Nucleophile donates an electron pair to an electrophile.",
+      "Use double-barbed arrows for polar mechanisms and fishhooks for single-electron radical steps. Reference: chapter 6 Summary, PDF p. 216 (printed p. 198)."
+    ],
+    [
+      7,
+      "Alkenes: Structure and Reactivity",
+      "During ionic addition of HBr to propene, why is 2-bromopropane the major product?",
+      [
+        "Bromide first removes every hydrogen.",
+        "A primary carbocation is always more stable.",
+        "Protonation favors the more stable secondary carbocation.",
+        "The double bond remains unchanged."
+      ],
+      2,
+      "Protonation that gives the secondary carbocation is favored; bromide then bonds at that carbon.",
+      "Markovnikov addition: H adds to the carbon bearing more H atoms.",
+      "For the ordinary ionic HBr mechanism without peroxide-driven radical conditions; rearrangements can matter for other substrates. Reference: chapter 7 Summary, PDF p. 252 (printed p. 234)."
+    ],
+    [
+      8,
+      "Alkenes: Reactions and Synthesis",
+      "What alcohol forms from hydroboration–oxidation of propene?",
+      [
+        "2-Propanol.",
+        "Propanone.",
+        "Propanoic acid.",
+        "1-Propanol."
+      ],
+      3,
+      "Hydroboration places boron at the less substituted carbon; oxidation replaces C–B with C–OH.",
+      "Alkene → alcohol: 1. BH₃; 2. H₂O₂, OH⁻",
+      "Net non-Markovnikov hydration with syn addition; use the sequential reagents shown. Reference: chapter 8 Summary, PDF p. 293 (printed p. 275)."
+    ],
+    [
+      9,
+      "Alkynes: An Introduction to Organic Synthesis",
+      "Partial hydrogenation of an internal alkyne with Lindlar catalyst gives which product?",
+      [
+        "A cis alkene.",
+        "A trans alkene as the sole product.",
+        "A ketone.",
+        "A carboxylic acid."
+      ],
+      0,
+      "The poisoned catalyst allows syn addition of hydrogen and stops at the alkene stage.",
+      "Internal alkyne + H₂/Lindlar → cis alkene",
+      "Contrast dissolving-metal reduction, which favors trans alkenes; terminal alkene products have no cis/trans pair. Reference: chapter 9 Summary, PDF p. 323 (printed p. 305)."
+    ],
+    [
+      10,
+      "Organohalides",
+      "Why must Grignard reagents be kept away from water?",
+      [
+        "Water makes the C–Mg bond permanent.",
+        "Water protonates and destroys the reagent.",
+        "Water converts every reagent to benzene.",
+        "Water prevents any acid–base reaction."
+      ],
+      1,
+      "The carbon bonded to magnesium is strongly basic and reacts with a proton donor to produce a hydrocarbon.",
+      "RMgX + H₂O → RH + Mg(OH)X",
+      "Prepare and use Grignard reagents in dry ether; avoid acidic O–H or N–H groups before workup. Reference: chapter 10 Summary, PDF p. 350 (printed p. 332)."
+    ],
+    [
+      11,
+      "Reactions of Alkyl Halides: Nucleophilic Substitutions and Eliminations",
+      "What stereochemical change occurs at a reacting stereocenter in an SN2 substitution?",
+      [
+        "Guaranteed retention from frontside attack.",
+        "Complete carbocation equilibration.",
+        "Inversion of configuration from backside attack.",
+        "Loss of all stereocenters in the molecule."
+      ],
+      2,
+      "The nucleophile attacks opposite the leaving group, causing geometrical inversion at the reacting carbon.",
+      "SN2 rate = k[substrate][nucleophile]",
+      "For a concerted SN2 step; an R label need not become S if substituent priority order changes. Reference: chapter 11 Summary, PDF p. 390 (printed p. 372)."
+    ],
+    [
+      12,
+      "Structure Determination: Mass Spectrometry and Infrared Spectroscopy",
+      "What do infrared absorption bands primarily report about an organic molecule?",
+      [
+        "The exact number of all stereocenters.",
+        "Its proton NMR integration.",
+        "Its chromosome sequence.",
+        "Its bond vibrations and functional groups."
+      ],
+      3,
+      "IR absorption occurs when radiation excites appropriate stretching or bending vibrations.",
+      "IR wavenumber: ν̃ = 1/λ; units cm⁻¹",
+      "Band positions depend on bond type and environment; IR-active vibrations change dipole moment. Use multiple bands together. Reference: chapter 12 Summary, PDF p. 427 (printed p. 409)."
+    ],
+    [
+      13,
+      "Structure Determination: Nuclear Magnetic Resonance Spectroscopy",
+      "A proton coupled to two equivalent neighboring protons in a simple first-order spectrum usually gives what pattern?",
+      [
+        "A triplet.",
+        "A singlet.",
+        "A doublet.",
+        "A quartet."
+      ],
+      0,
+      "For n equivalent coupled neighbors, the first-order n + 1 rule gives three lines when n = 2.",
+      "First-order splitting: n equivalent neighbors → n + 1 lines",
+      "The simple rule assumes suitable first-order coupling; exchangeable protons, nonequivalent neighbors and strong coupling can behave differently. Reference: chapter 13 Summary, PDF p. 461 (printed p. 443)."
+    ],
+    [
+      14,
+      "Conjugated Compounds and Ultraviolet Spectroscopy",
+      "Which diene conformation is needed for a standard Diels–Alder cycloaddition?",
+      [
+        "s-Trans locked so it cannot rotate.",
+        "s-Cis.",
+        "A saturated chain with no π bonds.",
+        "A diene with no conjugation."
+      ],
+      1,
+      "The s-cis arrangement places the conjugated diene ends close enough to form the two new σ bonds.",
+      "Conjugated diene + dienophile → cyclohexene framework",
+      "The diene must be able to adopt s-cis; the usual thermal [4+2] reaction is concerted and stereospecific. Reference: chapter 14 Summary, PDF p. 496 (printed p. 478)."
+    ],
+    [
+      15,
+      "Benzene and Aromaticity",
+      "Which π-electron count can satisfy the Hückel rule for a planar, cyclic, fully conjugated ring?",
+      [
+        "Four π electrons.",
+        "Eight π electrons.",
+        "Six π electrons.",
+        "Twelve π electrons."
+      ],
+      2,
+      "Six satisfies 4n + 2 with n = 1. Counting electrons alone is insufficient without the stated geometry and conjugation.",
+      "Aromatic monocyclic π system: 4n + 2 electrons",
+      "Requires cyclic, planar, uninterrupted p-orbital overlap; 4n systems under these conditions are antiaromatic. Reference: chapter 15 Summary, PDF p. 527 (printed p. 509)."
+    ],
+    [
+      16,
+      "Chemistry of Benzene: Electrophilic Aromatic Substitution",
+      "How does chlorine on chlorobenzene affect electrophilic aromatic substitution?",
+      [
+        "It activates the ring and directs only meta.",
+        "It deactivates the ring and directs only meta.",
+        "It removes the need for an electrophile.",
+        "It deactivates the ring but directs ortho/para."
+      ],
+      3,
+      "Its inductive withdrawal deactivates the ring, while lone-pair resonance donation favors ortho and para attack.",
+      "Halogens: deactivating, ortho/para-directing substituents.",
+      "For electrophilic aromatic substitution; directing effects differ from nucleophilic aromatic substitution. Reference: chapter 16 Summary, PDF p. 575 (printed p. 557)."
+    ],
+    [
+      17,
+      "Alcohols and Phenols",
+      "Which product typically forms when a secondary alcohol is oxidized without C–C bond cleavage?",
+      [
+        "A ketone.",
+        "An aldehyde.",
+        "An ether.",
+        "An alkane."
+      ],
+      0,
+      "Oxidation removes hydrogen from oxygen and the hydroxyl-bearing carbon to form a carbonyl.",
+      "R₂CHOH → R₂C=O",
+      "For ordinary secondary-alcohol oxidation; tertiary alcohols lack the necessary hydrogen and resist analogous oxidation. Reference: chapter 17 Summary, PDF p. 620 (printed p. 602)."
+    ],
+    [
+      18,
+      "Ethers and Epoxides; Thiols and Sulfides",
+      "Where does a strong nucleophile generally attack an unsymmetrical epoxide under basic conditions?",
+      [
+        "Always at the more substituted carbon.",
+        "At the less hindered epoxide carbon.",
+        "Only at the oxygen atom.",
+        "Only at a remote methyl group."
+      ],
+      1,
+      "Basic ring opening follows an SN2-like attack at the less crowded carbon, breaking that carbon–oxygen bond.",
+      "Epoxide + Nu⁻ → ring-opened alkoxide → alcohol after workup",
+      "For nucleophilic opening under basic conditions; acid-catalyzed regiochemistry requires a separate analysis. Reference: chapter 18 Summary, PDF p. 652 (printed p. 634)."
+    ],
+    [
+      19,
+      "Aldehydes and Ketones: Nucleophilic Addition Reactions",
+      "After aqueous workup, what does NaBH₄ reduction of an ordinary ketone produce?",
+      [
+        "An alkene.",
+        "A carboxylic acid.",
+        "A secondary alcohol.",
+        "An amide."
+      ],
+      2,
+      "Hydride adds to the carbonyl carbon, and the resulting alkoxide is protonated during workup.",
+      "R₂C=O → R₂CHOH",
+      "NaBH₄ reduces ordinary aldehydes and ketones; do not assume identical reactivity for all carboxylic acid derivatives. Reference: chapter 19 Summary, PDF p. 710 (printed p. 692)."
+    ],
+    [
+      20,
+      "Carboxylic Acids and Nitriles",
+      "Why is acetic acid more acidic than ethanol?",
+      [
+        "Its conjugate base has no electrons.",
+        "Ethanol cannot contain an O–H bond.",
+        "Acetic acid is a hydrocarbon.",
+        "Its conjugate base is resonance stabilized over two oxygens."
+      ],
+      3,
+      "Acetate delocalizes its negative charge over two equivalent oxygens; ethoxide lacks that stabilization.",
+      "pH = pKa + log₁₀([A⁻]/[HA])",
+      "Henderson–Hasselbalch applies to acid/base equilibrium; the concentration form approximates activities in dilute solutions. Reference: chapter 20 Summary, PDF p. 747 (printed p. 729)."
+    ],
+    [
+      21,
+      "Carboxylic Acid Derivatives: Nucleophilic Acyl Substitution Reactions",
+      "What is the key mechanistic sequence in nucleophilic acyl substitution?",
+      [
+        "Nucleophilic addition, then elimination of a leaving group.",
+        "Only rotation about a single bond.",
+        "Loss of the carbonyl oxygen with no intermediate.",
+        "A mandatory free-radical chain."
+      ],
+      0,
+      "Attack gives a tetrahedral intermediate; collapse restores the carbonyl and expels a leaving group.",
+      "RCOY + Nu → RCONu + leaving group",
+      "Applies to acyl derivatives with suitable leaving groups; compare acid chlorides, esters and amides under matched conditions. Reference: chapter 21 Summary, PDF p. 796 (printed p. 778)."
+    ],
+    [
+      22,
+      "Carbonyl Alpha-Substitution Reactions",
+      "Why can an α hydrogen next to a carbonyl be removed more readily than a typical alkane hydrogen?",
+      [
+        "The resulting ion has no charge.",
+        "The resulting enolate is resonance stabilized.",
+        "All α carbons are aromatic.",
+        "A carbonyl prevents all proton transfer."
+      ],
+      1,
+      "The enolate distributes charge between the α carbon and oxygen through resonance.",
+      "Carbonyl compound + strong base → enolate + conjugate acid",
+      "Enolate formation requires an α hydrogen; kinetic/thermodynamic enolate selection depends on base, temperature and equilibration. Reference: chapter 22 Summary, PDF p. 831 (printed p. 813)."
+    ],
+    [
+      23,
+      "Carbonyl Condensation Reactions",
+      "Before dehydration, what functional-group pattern does a simple aldol addition create?",
+      [
+        "An α-chloro ether.",
+        "A nitrile with no oxygen.",
+        "A β-hydroxy aldehyde or ketone.",
+        "A saturated hydrocarbon."
+      ],
+      2,
+      "An enolate attacks another carbonyl, producing an alcohol at the β position relative to the retained carbonyl.",
+      "Aldol addition → β-hydroxy carbonyl; dehydration → α,β-unsaturated carbonyl",
+      "Distinguish addition from condensation with water loss; aldol donors require suitable α hydrogens. Reference: chapter 23 Summary, PDF p. 866 (printed p. 848)."
+    ],
+    [
+      24,
+      "Amines and Heterocycles",
+      "Why is aniline generally less basic than a simple alkylamine?",
+      [
+        "Aniline contains no nitrogen lone pair.",
+        "All aromatic compounds are strong bases.",
+        "Alkylamines cannot be protonated.",
+        "Its nitrogen lone pair is delocalized into the aromatic ring."
+      ],
+      3,
+      "Resonance lowers availability of the aniline lone pair for bonding to a proton.",
+      "Amine + H⁺ ⇌ ammonium ion",
+      "Compare in the same solvent; ring substituents and solvation also affect basicity. Reference: chapter 24 Summary, PDF p. 912 (printed p. 894)."
+    ],
+    [
+      25,
+      "Biomolecules: Carbohydrates",
+      "How do the α and β anomers of a cyclic sugar differ?",
+      [
+        "In configuration at the anomeric carbon.",
+        "In molecular formula.",
+        "In the number of carbon atoms.",
+        "In every stereocenter simultaneously."
+      ],
+      0,
+      "Cyclization of the carbonyl creates an anomeric center; α and β forms differ at this new center.",
+      "Open-chain sugar ⇌ cyclic hemiacetal (α or β)",
+      "For aldoses forming hemiacetals; ketoses form hemiketals. Do not confuse α/β with D/L classification. Reference: chapter 25 Summary, PDF p. 956 (printed p. 938)."
+    ],
+    [
+      26,
+      "Biomolecules: Amino Acids, Peptides, and Proteins",
+      "What linkage joins amino acid residues in a peptide?",
+      [
+        "A carbon–carbon triple bond.",
+        "An amide bond.",
+        "An ether bond between side chains.",
+        "A glycosidic bond."
+      ],
+      1,
+      "A peptide bond links the carboxyl-derived carbonyl of one residue to the amino nitrogen of another.",
+      "Peptide linkage: C(=O)–N (amide)",
+      "Sequences are conventionally read from N terminus to C terminus; primary structure specifies residue order. Reference: chapter 26 Summary, PDF p. 996 (printed p. 978)."
+    ],
+    [
+      27,
+      "Biomolecules: Lipids",
+      "What is a triacylglycerol structurally?",
+      [
+        "Three glucose units linked by glycosidic bonds.",
+        "A peptide with three amino acids.",
+        "Glycerol esterified with three fatty acids.",
+        "A nucleotide with three bases."
+      ],
+      2,
+      "Each glycerol hydroxyl forms an ester with a fatty acid; the fatty acid chains may be saturated or unsaturated.",
+      "Triacylglycerol hydrolysis → glycerol + fatty acids",
+      "Basic hydrolysis (saponification) gives fatty-acid salts rather than neutral fatty acids until acid workup. Reference: chapter 27 Summary, PDF p. 1034 (printed p. 1016)."
+    ],
+    [
+      28,
+      "Biomolecules: Nucleic Acids",
+      "What distinguishes a nucleotide from a nucleoside?",
+      [
+        "A nucleotide lacks a sugar.",
+        "A nucleoside has three peptide bonds.",
+        "Only nucleosides contain a base.",
+        "A nucleotide includes a phosphate group."
+      ],
+      3,
+      "A nucleoside contains a base and sugar; adding phosphate gives a nucleotide.",
+      "Nucleoside = base + sugar; nucleotide = nucleoside + phosphate",
+      "DNA uses 2-deoxyribose and RNA uses ribose; polymer backbones contain 3′–5′ phosphodiester links. Reference: chapter 28 Summary, PDF p. 1059 (printed p. 1041)."
+    ],
+    [
+      29,
+      "The Organic Chemistry of Metabolic Pathways",
+      "In ordinary fatty-acid β oxidation, how many carbons are removed per repeating cycle?",
+      [
+        "Two carbons, released as acetyl-CoA.",
+        "One carbon, released as methane.",
+        "Three carbons, released as glucose.",
+        "Six carbons, released as benzene."
+      ],
+      0,
+      "Repeated oxidation and cleavage shorten the acyl chain by a two-carbon acetyl unit.",
+      "β oxidation: acyl-CoA chain shortens by C₂ per cycle",
+      "For the ordinary cycle; the final cleavage and odd-chain or unsaturated substrates need additional accounting or pathways. Reference: chapter 29 Summary, PDF p. 1110 (printed p. 1092)."
+    ],
+    [
+      30,
+      "Orbitals and Organic Chemistry: Pericyclic Reactions",
+      "What best describes a pericyclic reaction?",
+      [
+        "A mechanism that always forms a free carbocation.",
+        "A concerted reorganization through a cyclic transition state.",
+        "A reaction requiring a long-lived radical intermediate.",
+        "Any acid–base reaction in water."
+      ],
+      1,
+      "Bond reorganization occurs in one step, with orbital symmetry governing allowed pathways and stereochemistry.",
+      "Thermal 4π electrocyclic ring closure: conrotatory; thermal 6π: disrotatory",
+      "For idealized electrocyclic closures; photochemical selection rules reverse these rotational modes. Reference: chapter 30 Summary, PDF p. 1137 (printed p. 1119)."
+    ],
+    [
+      31,
+      "Synthetic Polymers",
+      "What is characteristic of an isotactic polymer?",
+      [
+        "Its substituents are placed randomly.",
+        "Its stereochemical pattern alternates regularly.",
+        "Its repeat-unit stereocenters follow the same stereochemical pattern.",
+        "It contains no covalent backbone bonds."
+      ],
+      2,
+      "Isotactic chains have a regular repeated arrangement; syndiotactic chains alternate and atactic chains are irregular.",
+      "Isotactic = same pattern; syndiotactic = alternating; atactic = irregular",
+      "Tacticity describes stereoregularity in suitable polymers; it is distinct from chain-growth versus step-growth mechanisms. Reference: chapter 31 Summary, PDF p. 1159 (printed p. 1141)."
+    ]
+  ],
+  "linear-algebra": [
+    [
+      1,
+      "Systems of Linear Equations and Matrices",
+      "What makes a list of numbers a solution of a linear system?",
+      [
+        "It satisfies every equation at the same time.",
+        "It satisfies only the first equation.",
+        "All its entries must be positive.",
+        "Its entries must add to zero."
+      ],
+      0,
+      "Substitute the same values into every equation. A solution must make all equations true.",
+      "Ax = b",
+      "A contains the coefficients, x is the vector of unknowns, and b contains the right-hand sides. The matrix and vector sizes must be compatible."
+    ],
+    [
+      2,
+      "Determinants",
+      "What does a zero determinant tell you about a square matrix?",
+      [
+        "It is not invertible.",
+        "It is always the identity matrix.",
+        "Every entry is zero.",
+        "Its inverse has determinant one."
+      ],
+      0,
+      "A square matrix is invertible exactly when its determinant is nonzero. Zero determinant means at least one direction is collapsed.",
+      "det(A) = ad − bc",
+      "For a 2 by 2 matrix with first row (a,b) and second row (c,d). A is invertible exactly when ad − bc is not zero."
+    ],
+    [
+      3,
+      "Euclidean Vector Spaces",
+      "What does a zero dot product mean for two nonzero vectors?",
+      [
+        "They are perpendicular.",
+        "They point in the same direction.",
+        "They have equal lengths.",
+        "They must be parallel."
+      ],
+      0,
+      "The dot product is the product of the lengths and the cosine of the angle. A zero cosine gives a right angle.",
+      "u · v = ‖u‖ ‖v‖ cos θ",
+      "The angle formula requires both vectors to be nonzero. In standard coordinates, add the products of corresponding components."
+    ],
+    [
+      4,
+      "General Vector Spaces",
+      "What must a basis do?",
+      [
+        "Span the space and be linearly independent.",
+        "Contain every vector in the space.",
+        "Contain the zero vector.",
+        "Have more vectors than the dimension."
+      ],
+      0,
+      "Spanning ensures every vector can be formed. Independence ensures no basis vector is redundant, so coordinates are unique.",
+      "v = c₁b₁ + c₂b₂ + ⋯ + cₙbₙ",
+      "For a basis b₁,…,bₙ, each vector v has one unique list of coordinates c₁,…,cₙ."
+    ],
+    [
+      5,
+      "Eigenvalues and Eigenvectors",
+      "What happens to an eigenvector under its matrix transformation?",
+      [
+        "It is multiplied by a scalar.",
+        "It must rotate by a right angle.",
+        "It always becomes a unit vector.",
+        "It must become zero."
+      ],
+      0,
+      "An eigenvector is a nonzero vector v with Av = λv. Its line is preserved; a negative λ reverses direction, and λ = 0 maps it to zero.",
+      "Av = λv",
+      "A must be square and v must be nonzero. The scalar λ is its eigenvalue."
+    ],
+    [
+      6,
+      "Inner Product Spaces",
+      "What is special about the error in an orthogonal projection onto a subspace?",
+      [
+        "It is perpendicular to that subspace.",
+        "It is always a unit vector.",
+        "It lies in every direction of the subspace.",
+        "It is always zero."
+      ],
+      0,
+      "The projected vector lies in the subspace, while the difference from the original vector is perpendicular to it.",
+      "projᵤ(v) = [(v · u)/(u · u)]u",
+      "This formula projects v onto the line spanned by a nonzero vector u in a Euclidean space."
+    ],
+    [
+      7,
+      "Diagonalization and Quadratic Forms",
+      "When can an n by n matrix be diagonalized?",
+      [
+        "When it has n linearly independent eigenvectors.",
+        "Whenever it has n nonzero entries.",
+        "Whenever its determinant is zero.",
+        "Only when all eigenvalues are equal."
+      ],
+      0,
+      "Independent eigenvectors form the columns of an invertible matrix P. In those coordinates, the transformation is represented by a diagonal matrix D.",
+      "A = PDP⁻¹",
+      "The columns of P are independent eigenvectors; the corresponding eigenvalues form D in the same order."
+    ],
+    [
+      8,
+      "General Linear Transformations",
+      "Which rule must a linear transformation satisfy?",
+      [
+        "It preserves addition and scalar multiplication.",
+        "It sends every vector to itself.",
+        "It preserves every length.",
+        "It has to be invertible."
+      ],
+      0,
+      "Linearity means combinations can be formed before or after applying the transformation, with the same result.",
+      "T(au + bv) = aT(u) + bT(v)",
+      "This must hold for all vectors u,v in the domain and all scalars a,b. The domain and codomain are vector spaces over the same field."
+    ],
+    [
+      9,
+      "Numerical Methods",
+      "Why is a small residual alone not a guarantee of a small solution error?",
+      [
+        "An ill-conditioned matrix can amplify the error.",
+        "Residuals never depend on the computed solution.",
+        "A small residual means the system is inconsistent.",
+        "The solution error always equals the residual."
+      ],
+      0,
+      "The residual measures how well the equations are satisfied. If A is nearly singular, a small mismatch can still correspond to a large change in the solution.",
+      "r = b − Ax",
+      "Here x is a computed approximation. The residual r measures the mismatch in the equations; conditioning determines how that mismatch relates to solution error."
+    ]
+  ],
+  "differential-equations": [
+    [
+      9,
+      "Differential equations",
+      "In Euler’s method, which slope advances the current point?",
+      [
+        "The slope at the next, unknown point.",
+        "The average of all prior slopes.",
+        "The current slope f(xₙ,yₙ).",
+        "The slope zero in every step."
+      ],
+      2,
+      "Forward Euler uses the known current slope and step size h to estimate the next value.",
+      "yₙ₊₁ = yₙ + h f(xₙ,yₙ); xₙ₊₁ = xₙ + h",
+      "Approximation for y′ = f(x,y); smaller h often improves accuracy but stability still matters."
+    ],
+    [
+      17,
+      "Second-order differential equations",
+      "For y″ + ω²y = 0 with ω > 0, which family is the general solution?",
+      [
+        "C₁eᵡ + C₂e⁻ˣ for every ω.",
+        "C₁ cos(ωx) + C₂ sin(ωx).",
+        "C₁ + C₂x.",
+        "C₁x² + C₂."
+      ],
+      1,
+      "Differentiating sine or cosine twice multiplies it by −ω², which makes y″ + ω²y equal zero.",
+      "ay″ + by′ + cy = 0 ⇒ ar² + br + c = 0",
+      "For constant coefficients and a ≠ 0; repeated and complex characteristic roots require their corresponding solution forms."
+    ]
+  ]
+}

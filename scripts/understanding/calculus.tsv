@@ -1,0 +1,170 @@
+# 1
+A function can assign the same output to two different inputs.|T|For example, squaring 2 and −2 gives 4. Each input still has exactly one output.
+The domain of a real-valued function includes every real number automatically.|F|The domain excludes inputs where the rule is undefined, such as division by zero.
+For f(x) = x², f(−3) = −9.|F|Squaring means multiplying −3 by −3, giving positive 9.
+The graph of y = f(x) + 2 is shifted upward by 2.|T|Every output increases by 2 while the input stays the same.
+The graph of y = f(x − 2) is shifted left by 2.|F|The same output occurs at an input 2 larger, so the shift is to the right.
+An even function satisfies f(−x) = f(x).|T|Its graph is symmetric about the vertical axis wherever both inputs are in the domain.
+An inverse function reverses the input-output relationship.|T|If f(a) = b, its inverse sends b back to a on the chosen domain.
+Every function has an inverse function without restricting its domain.|F|An inverse function requires one-to-one behavior. Squaring on all real numbers fails this requirement.
+In f(g(2)), evaluate g at 2 before applying f.|T|Composition uses the output of the inner function as the input to the outer function.
+# 2
+A limit can exist at a point where the function is undefined.|T|A limit describes nearby behavior; the value at the point itself is a separate matter.
+Equal finite left-hand and right-hand limits give the two-sided limit.|T|Approaching from both sides must lead to the same value.
+Continuity at a requires the limit at a to equal f(a).|T|The function must be defined there, the limit must exist, and the two values must agree.
+A continuous function must be differentiable everywhere.|F|The absolute-value function is continuous at zero but has a sharp corner there.
+If f is differentiable at a, it is continuous at a.|T|A finite derivative implies the function approaches its value smoothly enough to be continuous.
+For f(x) = x², the tangent slope at x = 3 is 6.|T|The derivative is 2x; substituting 3 gives 6.
+Average velocity over an interval is its final position divided by elapsed time.|F|Use displacement, final position minus initial position, divided by elapsed time.
+A derivative can be negative.|T|A negative derivative means the output decreases locally as the input increases.
+The derivative of a constant function is that constant.|F|A constant function does not change, so its derivative is zero.
+# 3
+The derivative of x⁵ is 5x⁴.|T|The power rule multiplies by the exponent and then lowers it by one.
+The derivative of sin x is cos x when x is measured in radians.|T|The standard trigonometric derivative formulas use radian measure.
+The derivative of eˣ is xeˣ⁻¹.|F|The exponential eˣ is its own derivative; the ordinary power rule does not apply to a variable exponent.
+The derivative of ln x is defined for x > 0 in real calculus.|T|The real logarithm ln x has positive domain, and its derivative there is the reciprocal of x.
+Differentiating sin(x²) requires multiplying by 2x.|T|The chain rule includes the derivative of the inner function x².
+The derivative of a quotient is always the quotient of the derivatives.|F|The quotient rule combines the original functions and derivatives and divides by the denominator squared.
+Implicit differentiation treats y as a function of x.|T|Differentiating a term containing y requires the chain rule and a factor of y′.
+For x² + y² = 1, differentiation gives 2x + 2y y′ = 0.|T|Both squared terms are differentiated, and y² contributes its inner derivative y′.
+A related-rates equation can mix meters and centimeters without conversion.|F|Use compatible units before substituting rates and lengths into the same relationship.
+# 4
+A zero derivative guarantees a local maximum.|F|The function x³ has zero derivative at zero but no local maximum there.
+A critical number can occur where the derivative does not exist but the function does.|T|Critical numbers include points in the domain with zero or undefined derivative.
+A positive second derivative throughout an interval indicates concavity upward.|T|The slope is increasing there, which makes the graph bend upward.
+An inflection point requires a change in concavity.|T|A zero second derivative alone is not sufficient; check how concavity changes across the point.
+The Mean Value Theorem requires continuity on the closed interval and differentiability inside it.|T|Under those conditions some tangent slope equals the overall secant slope.
+A continuous function on a closed bounded interval attains its absolute extrema.|T|The Extreme Value Theorem guarantees both a maximum and a minimum under these assumptions.
+An optimization problem never requires checking endpoints.|F|An absolute maximum or minimum on a restricted interval may occur at an endpoint.
+L’Hôpital’s rule applies directly to every quotient limit.|F|It requires an eligible indeterminate form and derivative-limit conditions, not just any quotient.
+A linear approximation uses the tangent line near its base point.|T|The approximation uses the function value and derivative at that point; accuracy usually worsens farther away.
+# 5
+Reversing the limits of a definite integral changes its sign.|T|The orientation of accumulation reverses, so the integral is negated.
+The definite integral of a nonnegative continuous function can be negative when the lower limit is smaller.|F|With the usual increasing orientation, all accumulated contributions are nonnegative.
+Every antiderivative of x on an interval differs from x² divided by 2 by a constant.|T|Functions with the same derivative on an interval differ by a constant.
+A Riemann sum multiplies each sample value by a subinterval width.|T|Each term approximates the contribution of a narrow strip.
+A definite integral always represents unsigned geometric area.|F|Parts below the horizontal axis contribute negatively to a signed integral.
+If F′ = f and f is continuous, the integral from a to b is F(b) − F(a).|T|This is the evaluation form of the Fundamental Theorem of Calculus.
+The integral over an interval of zero width is zero.|T|There is no interval over which to accumulate contributions.
+Substitution in a definite integral leaves the bounds unchanged automatically.|F|When switching variables, transform the bounds too, or return to the original variable before evaluating.
+The average value of a continuous function on [a,b] is its integral divided by b − a.|T|This divides the total accumulation by the interval length, assuming b is greater than a.
+# 6
+Area between two curves can require splitting the interval where the curves cross.|T|The upper and lower curves can exchange roles at an intersection.
+The disk method uses cross-sectional area perpendicular to the axis of rotation.|T|A disk contributes its circular area times a small thickness along the axis.
+A washer has area π times the difference of the squared outer and inner radii.|T|Subtract the inner disk area from the outer disk area.
+The shell method uses only the radius and ignores shell height.|F|A thin shell volume includes circumference, height, and thickness.
+Rotating a region around a horizontal axis always requires integrating with respect to x.|F|Both x and y methods may work; the chosen slices determine disks, washers, or shells.
+Work done by a varying force along a line is found by integrating the force over displacement.|T|Each small displacement contributes force times displacement, with the correct sign.
+Stretching an ideal Hooke’s-law spring twice as far requires twice as much work from equilibrium.|F|Force increases with stretch, so the work from equilibrium is proportional to the stretch squared.
+A slice-based volume integral must account for any change in cross-sectional area.|T|The area can vary along the solid and belongs inside the integral.
+Mass equals density times volume only when density is uniform throughout the object.|T|For varying density, integrate density over the volume rather than using one local value.
+# 7
+Integration by parts comes from the product rule.|T|Integrating the product-rule identity and rearranging gives the integration-by-parts formula.
+A trigonometric substitution can simplify certain square-root expressions.|T|Identities such as one minus sine squared equals cosine squared help remove a root.
+Partial fractions decompose a suitable rational function into simpler fractions.|T|Factor the denominator and use forms appropriate to its linear or irreducible quadratic factors.
+An improper integral is evaluated using a limit.|T|Infinite bounds or unbounded integrands require checking a limiting accumulation.
+An infinite integration interval guarantees an infinite integral.|F|Some functions decay fast enough to have a finite integral over an infinite interval.
+The integral of 1 over x from 1 to infinity converges.|F|Its antiderivative is ln x, which grows without bound as the upper limit increases.
+The integral of 1 over x² from 1 to infinity converges.|T|Its limiting accumulation is 1, because the reciprocal of the upper limit tends to zero.
+A numerical integration approximation is automatically exact.|F|Trapezoidal and Simpson approximations generally have errors unless special exactness conditions hold.
+A rational integrand with numerator degree at least denominator degree may need polynomial division first.|T|Division separates a polynomial part and a proper rational fraction before partial fractions.
+# 8
+Arc length adds lengths of small pieces rather than signed vertical changes.|T|Length is nonnegative and accumulates along the path.
+For a smooth graph y = f(x), arc length uses the square root of 1 + f′(x)².|T|The formula comes from the Pythagorean length of a short horizontal and vertical displacement.
+A horizontal segment of width 4 has arc length zero.|F|Its slope is zero, but the segment still has horizontal length 4.
+Surface area of revolution depends on distance from the rotation axis.|T|Each narrow strip sweeps a circumference determined by its radius.
+Hydrostatic pressure in a stationary uniform-density liquid increases with depth.|T|The weight of the liquid above produces a pressure increase proportional to depth.
+A deeper horizontal strip of a vertical submerged plate generally experiences greater pressure.|T|Pressure varies with depth, so force on the plate is integrated over its area.
+The centroid of a uniform symmetric region lies on its axis of symmetry.|T|Equal contributions on opposite sides balance their first moments about that axis.
+A probability density can be negative on a small interval.|F|A probability density is nonnegative; integrating it gives nonnegative probabilities.
+The total integral of a probability density over its domain is 1.|T|The entire possible outcome range must have total probability one.
+# 9
+A differential equation describes a relationship involving an unknown function and its derivatives.|T|Its solutions are functions whose values and derivatives satisfy the relationship.
+A direction field assigns a local slope to each point where the differential equation is defined.|T|A solution curve follows those local directions.
+For y′ = y, every curve y = Ceˣ satisfies the equation.|T|Differentiating Ceˣ produces the same expression Ceˣ.
+An initial condition must be ignored when finding a particular solution.|F|The initial condition selects the member of the solution family that fits the starting data.
+Separating variables may lose equilibrium solutions if you divide by a factor that can be zero.|T|Check the zero-factor cases separately before dividing.
+Exponential growth with positive rate has a constant absolute increase per unit time.|F|Its rate is proportional to the current amount, so equal time intervals give equal multiplication factors.
+In logistic growth with positive carrying capacity, the growth rate vanishes at the carrying capacity.|T|The limiting factor becomes zero when the population equals that capacity.
+Euler’s method uses local slope information to estimate a nearby solution value.|T|It advances along a tangent approximation rather than solving the equation exactly.
+A smaller Euler step always eliminates all numerical error.|F|Smaller steps often improve accuracy, but finite-step and rounding errors can remain.
+# 10
+A parametric curve gives coordinates as functions of a shared parameter.|T|The parameter links the horizontal and vertical positions along the curve.
+Two different parameter values can correspond to the same point.|T|A curve can revisit a point, as happens on a closed path.
+A vertical tangent may occur when the x derivative is zero and the y derivative is nonzero.|T|The horizontal motion stops instantaneously while the vertical motion remains nonzero.
+For x = t and y = t², the slope at t = 2 is 4.|T|Divide the y derivative 2t by the x derivative 1.
+A negative polar radius is always invalid.|F|It locates a point in the opposite direction from the stated angle.
+Adding a full turn to a polar angle gives a different point when the radius is unchanged.|F|An angle increased by 2π points along the same ray.
+A polar-area integral uses the square of the radius.|T|A thin sector has area approximately one-half radius squared times its angle width.
+A curve’s geometric shape always specifies how quickly a particle moves along it.|F|Different parametrizations can trace the same shape with different speeds.
+Eliminating a parameter can lose information about direction of travel.|T|The resulting coordinate equation describes the path but not necessarily its orientation or timing.
+# 11
+If a series converges, its terms approach zero.|T|The terms are differences between successive partial sums, which approach the same limit.
+Terms approaching zero guarantee that their series converges.|F|The harmonic series has terms approaching zero but divergent partial sums.
+An infinite geometric series with common ratio of magnitude less than 1 converges.|T|Its powers shrink fast enough that partial sums approach a finite limit.
+An alternating series with decreasing positive term magnitudes approaching zero converges.|T|These are the conditions of the Alternating Series Test.
+Absolute convergence implies convergence.|T|Convergence of the series of absolute values is strong enough to ensure the original series converges.
+The ratio test settles convergence when its limiting ratio equals 1.|F|At a limit of 1 the ratio test is inconclusive; another test is needed.
+A power series can require separate checks at its interval endpoints.|T|The ratio test typically gives the interior radius; each boundary can behave differently.
+A Taylor polynomial uses derivatives at a chosen center.|T|Its coefficients match the function’s successive derivatives at that point.
+A convergent sequence and a convergent series mean the same thing.|F|A sequence concerns its individual terms; a series concerns the partial sums of terms.
+# 12
+A vector has both magnitude and direction.|T|Its components describe directed displacements or other directed quantities.
+The dot product of two vectors is a vector.|F|The dot product is a scalar, obtained by adding products of matching components.
+The cross product of two three-dimensional vectors is perpendicular to both when it is nonzero.|T|Its direction follows the right-hand rule and is normal to their plane.
+Parallel nonzero vectors have zero cross product.|T|The cross-product magnitude includes the sine of their angle, which is zero for parallel directions.
+A unit vector has magnitude 1.|T|Normalizing a nonzero vector divides it by its magnitude.
+The zero vector can be normalized by dividing by its length.|F|Its length is zero, and division by zero is undefined.
+A plane can be described by a point and a nonzero normal vector.|T|The normal specifies the plane’s orientation, and the point fixes its position.
+The angle between nonzero vectors can be found from their dot product and magnitudes.|T|The dot product equals the product of the magnitudes times the angle’s cosine.
+A sphere of radius r consists of all points whose distance from its center equals r.|T|The sum of squared coordinate differences is r squared.
+# 13
+The derivative of a vector-valued position function is velocity.|T|Differentiate its coordinate functions to obtain the velocity components.
+Speed equals the magnitude of velocity.|T|Speed is nonnegative and does not include the direction of motion.
+Constant speed guarantees zero acceleration.|F|Acceleration can change velocity’s direction, as in uniform circular motion.
+A tangent vector indicates the local direction of a smooth curve.|T|A nonzero derivative points in the direction of increasing parameter.
+Acceleration is the second derivative of position with respect to time.|T|It is the rate of change of velocity.
+Curvature measures how rapidly the tangent direction changes with distance along a curve.|T|Sharper bending means greater curvature.
+A straight line has nonzero curvature everywhere.|F|Its tangent direction is constant, so its curvature is zero.
+Tangential acceleration changes speed.|T|The tangential component is the derivative of speed with respect to time.
+Normal acceleration points along the tangent direction.|F|It is perpendicular to the tangent and accounts for changing velocity direction.
+# 14
+A partial derivative holds the other independent variables constant.|T|It measures sensitivity to one variable at a time.
+For f(x,y) = x²y, the partial derivative with respect to x is 2xy.|T|Treat y as a constant multiplier while differentiating x².
+The gradient of a differentiable scalar field is a scalar.|F|The gradient is a vector of partial derivatives.
+At a point with nonzero gradient, the gradient gives the direction of greatest local increase.|T|For unit directions, the directional derivative is largest in the gradient direction.
+A zero gradient guarantees a local minimum.|F|A critical point can be a maximum, a minimum, or a saddle point.
+A saddle point can increase in one direction and decrease in another.|T|Opposite local behavior prevents it from being a local maximum or minimum.
+The multivariable chain rule accounts for every relevant path of dependence.|T|Changes can reach the output through more than one intermediate variable.
+Lagrange multipliers can help locate extrema subject to a smooth constraint.|T|At regular constrained extrema, the objective gradient aligns with the constraint gradient.
+Mixed second partial derivatives are always equal without any regularity conditions.|F|Their equality is guaranteed under suitable continuity conditions, not for every function.
+# 15
+A double integral can add contributions over a two-dimensional region.|T|Small area elements replace the intervals used in a single integral.
+Changing integration order may require describing the same region with different bounds.|T|Horizontal and vertical slices can have different endpoint functions.
+In polar coordinates, the area element is simply dr dθ.|F|The area element includes a factor r because angular strips widen with radius.
+In cylindrical coordinates, the volume element includes a factor r.|T|The polar area scaling remains when a vertical thickness is added.
+A triple integral of density over volume gives mass.|T|Each small piece contributes its density times its volume.
+The Jacobian accounts for local area or volume scaling in a change of variables.|T|Its absolute determinant converts small pieces between coordinate systems.
+A double integral of 1 over a region gives its area.|T|Each area element is counted with unit weight.
+A negative density is appropriate for the mass density of an ordinary material.|F|Ordinary mass density is nonnegative; signed quantities require a different physical interpretation.
+The bounds of a multiple integral should reflect the actual geometric region.|T|Wrong bounds integrate over a different set even when the integrand is correct.
+# 16
+A vector field assigns a vector to each point in its domain.|T|It can model velocity, force, or another directed quantity throughout a region.
+A scalar line integral of density along a wire can give its mass.|T|Density per unit length is integrated against arc length.
+Work along a path uses the component of force along the path displacement.|T|The force-displacement dot product keeps only the contributing component.
+A conservative field has path-independent work between endpoints in its domain.|T|A potential function makes the line integral equal to the potential difference.
+Every field with zero curl is globally conservative regardless of its domain.|F|Domain conditions matter; holes can prevent a single-valued potential even when curl vanishes.
+Divergence measures local net outward flow per unit volume.|T|It compares how much field flows out of a tiny region with how much flows in.
+Reversing a surface orientation reverses signed flux.|T|The unit normal changes sign, which negates its dot product with the field.
+Stokes’ theorem relates surface curl to circulation around the boundary.|T|The boundary direction and surface normal must have compatible orientations.
+The divergence theorem relates outward flux through a closed surface to a volume integral.|T|For a sufficiently smooth field, integrating divergence inside equals total outward flux.
+# 17
+A second-order equation contains a second derivative and no higher derivative.|T|Order is determined by the highest derivative appearing in the equation.
+For y″ − y = 0, both eˣ and e⁻ˣ are solutions.|T|Each function has second derivative equal to itself.
+A repeated characteristic root r requires only one solution eʳˣ for the full second-order solution.|F|A second independent solution is xeʳˣ, giving two arbitrary constants.
+Complex conjugate characteristic roots can produce sine and cosine factors in real solutions.|T|Their real part gives an exponential envelope and their imaginary part sets the oscillation frequency.
+For a nonhomogeneous linear equation, a particular solution can be added to the homogeneous general solution.|T|The homogeneous part contributes zero to the forcing, while the particular part produces it.
+A positive damping force in a spring model supplies energy to sustain motion.|F|Ordinary damping opposes velocity and dissipates mechanical energy.
+An undamped oscillator driven at its natural frequency can exhibit resonance.|T|In the ideal model, the forcing can add energy coherently and grow the oscillation amplitude.
+A power-series method can seek a solution by matching coefficients of equal powers.|T|Substitution into the differential equation gives relations between the series coefficients.
+Two arbitrary initial conditions always specify a solution even at a singular point of the equation.|F|Existence and uniqueness require suitable coefficient conditions, including a nonzero leading coefficient near the initial point.
