@@ -1,0 +1,113 @@
+/* Progress page glow-up: motion, earned states, subject rings, level-up and share sheet. */
+.journey{--reward-soft:color-mix(in srgb,var(--reward) 45%,#fff)}
+
+/* Theme-aware medallion + ascent (replaces hardcoded peach) */
+.rank-medallion{background:linear-gradient(145deg,var(--reward),var(--reward-soft));animation:medallion-pop .9s cubic-bezier(.2,1.4,.4,1) .25s both}
+.rank-medallion::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.65) 50%,transparent 65%);transform:translateX(-120%);animation:shine 1.3s ease 1.1s both}
+.rank-medallion{position:relative;overflow:hidden}
+.ascent-line i{background:linear-gradient(to top,var(--reward),var(--reward-soft))}
+.ascent-stop.current .ascent-dot{animation:pulse-ring 2.4s ease-in-out 1.4s infinite}
+.ascent-stop{animation:fade-up .5s ease both;animation-delay:calc(.05s * var(--n,0))}
+
+/* Hero */
+.journey-hero-actions{display:flex;gap:10px;flex-wrap:wrap}
+.journey-xp strong span{font-variant-numeric:tabular-nums}
+.journey-stats strong{font-variant-numeric:tabular-nums}
+.rank-meter{height:9px}
+.rank-meter i{background:linear-gradient(90deg,var(--reward),var(--reward-soft));box-shadow:0 0 14px color-mix(in srgb,var(--reward) 55%,transparent);animation-duration:1.5s;animation-delay:.3s}
+.journey-stats article{animation:fade-up .55s ease both}
+.journey-stats article:nth-child(2){animation-delay:.08s}
+.journey-stats article:nth-child(3){animation-delay:.16s}
+
+/* Milestones */
+.milestone{position:relative;overflow:hidden;animation:fade-up .55s ease both;animation-delay:calc(.07s * var(--i,0) + .2s);transition:transform .2s ease,box-shadow .2s ease}
+.milestone:hover{transform:translateY(-2px)}
+.milestone.unlocked{border-color:color-mix(in srgb,var(--reward) 60%,var(--studio-border));background:linear-gradient(135deg,color-mix(in srgb,var(--reward) 14%,var(--studio-paper)),var(--studio-paper) 70%);box-shadow:0 8px 26px color-mix(in srgb,var(--reward) 18%,transparent)}
+.milestone.unlocked small{color:var(--reward);font-weight:700}
+.milestone.unlocked .milestone-symbol{filter:drop-shadow(0 0 10px color-mix(in srgb,var(--reward) 70%,transparent))}
+.milestone.unlocked::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.55) 48%,transparent 66%);transform:translateX(-120%);animation:shine 1.1s ease both;animation-delay:calc(.07s * var(--i,0) + .9s)}
+.milestone.unlocked:hover::after{animation:shine-again .9s ease}
+.milestone.unlocked .milestone-meter i{background:linear-gradient(90deg,var(--reward),var(--reward-soft))}
+.milestone.next{border:1.5px dashed color-mix(in srgb,var(--reward) 70%,var(--studio-border));animation:fade-up .55s ease both,next-glow 2.6s ease-in-out 1.2s infinite;animation-delay:calc(.07s * var(--i,0) + .2s),1.2s}
+.milestone.next small{color:var(--reward);font-weight:700}
+.milestone.next .milestone-symbol{color:var(--reward)}
+.milestone.locked{opacity:.6}
+.milestone.locked:hover{opacity:.85}
+.milestone-meter i{animation-delay:calc(.07s * var(--i,0) + .4s)}
+
+/* Subject rings */
+.journey-subjects button{animation:fade-up .5s ease both;animation-delay:calc(.06s * var(--i,0) + .3s)}
+.journey-ring{position:relative;flex:0 0 46px;width:46px;height:46px;display:grid;place-items:center}
+.journey-ring svg{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+.journey-ring circle{fill:none;stroke:var(--studio-soft);stroke-width:3.5}
+.journey-ring .journey-ring-fill{stroke:var(--reward);stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:calc(100 - var(--p,0));animation:ring-fill 1.3s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(.06s * var(--i,0) + .5s)}
+.journey-ring>span{font-size:17px;line-height:1}
+.journey-subjects button.not-started .journey-ring-fill{display:none}
+.journey-subjects button.not-started b{color:var(--studio-muted)}
+.journey-lv{font-style:normal;font-size:10px;font-weight:700;letter-spacing:.04em;margin-right:10px;padding:3px 8px;border-radius:20px;background:color-mix(in srgb,var(--reward) 16%,transparent);color:var(--studio-text)}
+.journey-subjects strong.journey-start{font-size:12px;color:var(--reward);padding:6px 12px;border:1px solid color-mix(in srgb,var(--reward) 50%,var(--studio-border));border-radius:20px;transition:background .2s}
+.journey-subjects button:hover strong.journey-start{background:color-mix(in srgb,var(--reward) 12%,transparent)}
+
+/* Level-up overlay */
+.levelup{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:20px;background:rgba(10,12,18,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);animation:fade-in .25s ease both}
+.levelup.closing{animation:fade-out .2s ease both}
+.levelup-card{--reward:var(--studio-accent,#ff674f);--reward-soft:color-mix(in srgb,var(--reward) 45%,#fff);width:min(420px,100%);text-align:center;padding:38px 30px 30px;border-radius:24px;background:radial-gradient(ellipse at top,color-mix(in srgb,var(--reward) 22%,transparent),transparent 70%),var(--studio-paper,#fff);color:var(--studio-text,#20212a);border:1px solid color-mix(in srgb,var(--reward) 40%,var(--studio-border,#ddd));box-shadow:0 30px 80px rgba(0,0,0,.35);animation:card-in .6s cubic-bezier(.2,1.3,.4,1) both}
+.levelup-card .journey-eyebrow{color:var(--reward);letter-spacing:.3em}
+.levelup-medallion{position:relative;overflow:hidden;width:120px;height:138px;margin:22px auto 18px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(145deg,var(--reward),var(--reward-soft));color:#1c1f26;clip-path:polygon(50% 0,95% 25%,95% 75%,50% 100%,5% 75%,5% 25%);animation:medallion-flip .9s cubic-bezier(.2,1.2,.4,1) .15s both}
+.levelup-medallion::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.7) 50%,transparent 65%);transform:translateX(-120%);animation:shine 1.2s ease .9s both}
+.levelup-medallion span{font-size:22px}
+.levelup-medallion b{font-size:46px;font-weight:800;line-height:1.1}
+.levelup-kicker{margin:0;color:var(--studio-muted,#667);font-size:14px}
+.levelup-card h2{margin:4px 0 10px;font-size:clamp(30px,7vw,40px);letter-spacing:-.04em;line-height:1.1;animation:fade-up .5s ease .5s both}
+.levelup-line{margin:0 auto 26px;max-width:300px;color:var(--studio-muted,#667);font-size:14px;line-height:1.6}
+.levelup-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.levelup-confetti{position:fixed;inset:0;width:100vw;height:100vh;z-index:201;pointer-events:none}
+
+/* Share sheet */
+.share-sheet{position:fixed;inset:0;z-index:210;display:grid;place-items:center;padding:20px;background:rgba(10,12,18,.6);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);animation:fade-in .2s ease both}
+.share-card{display:flex;flex-direction:column;gap:16px;align-items:center;max-height:100%;animation:card-in .45s cubic-bezier(.2,1.2,.4,1) both}
+.share-card img{display:block;width:auto;max-width:min(420px,88vw);max-height:calc(100dvh - 130px);border-radius:18px;box-shadow:0 24px 70px rgba(0,0,0,.45)}
+.share-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.share-actions a.btn{text-decoration:none}
+
+@keyframes fade-up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes fade-in{from{opacity:0}to{opacity:1}}
+@keyframes fade-out{to{opacity:0}}
+@keyframes medallion-pop{0%{opacity:0;transform:scale(.4) rotate(-25deg)}100%{opacity:1;transform:none}}
+@keyframes medallion-flip{0%{opacity:0;transform:perspective(500px) rotateY(180deg) scale(.6)}100%{opacity:1;transform:none}}
+@keyframes card-in{0%{opacity:0;transform:translateY(24px) scale(.94)}100%{opacity:1;transform:none}}
+@keyframes shine{from{transform:translateX(-120%)}to{transform:translateX(120%)}}
+@keyframes shine-again{from{transform:translateX(-120%)}to{transform:translateX(120%)}}
+@keyframes ring-fill{from{stroke-dashoffset:100}}
+@keyframes pulse-ring{0%,100%{box-shadow:0 0 0 5px color-mix(in srgb,var(--reward) 18%,transparent)}50%{box-shadow:0 0 0 11px color-mix(in srgb,var(--reward) 6%,transparent)}}
+@keyframes next-glow{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--reward) 0%,transparent)}50%{box-shadow:0 0 0 5px color-mix(in srgb,var(--reward) 14%,transparent)}}
+
+@media(max-width:700px){
+  .journey-hero-actions{width:100%}
+  .journey-hero-actions .btn{flex:1;justify-content:center;text-align:center}
+  .journey-ring{flex-basis:38px;width:38px;height:38px}
+  .journey-ring>span{font-size:14px}
+  .journey-lv{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .journey *,.journey *::after,.levelup,.levelup *,.levelup *::after,.share-sheet,.share-sheet *{animation:none!important;transition:none!important}
+  .rank-medallion::after,.milestone.unlocked::after,.levelup-medallion::after{display:none}
+}
+.journey-hero-actions .btn{white-space:nowrap}
+@media(max-width:700px){.journey-to-lv{display:none}}
+/* Tap a milestone: it flashes and its symbol spins */
+.milestone{cursor:pointer;-webkit-tap-highlight-color:transparent}
+.milestone:focus-visible{outline:2px solid var(--reward);outline-offset:3px}
+.milestone-symbol{display:inline-block;align-self:flex-start;height:38px;line-height:38px;text-align:center;transform-origin:50% 50%}
+.milestone::before{content:"";position:absolute;inset:0;pointer-events:none;border-radius:inherit;background:radial-gradient(circle at 37px 42px,color-mix(in srgb,var(--reward) 75%,#fff),color-mix(in srgb,var(--reward) 30%,transparent) 45%,transparent 75%);opacity:0}
+.milestone.spin{animation:milestone-bump .55s cubic-bezier(.2,1.5,.4,1)!important;opacity:1}
+.milestone.spin::before{animation:milestone-flash .7s ease-out}
+.milestone.spin .milestone-symbol{animation:milestone-spin .85s cubic-bezier(.2,.9,.25,1);color:var(--reward)}
+.milestone.spin::after{animation:shine-again .7s ease!important}
+@keyframes milestone-spin{0%{transform:rotate(0) scale(1)}35%{transform:rotate(250deg) scale(1.45)}100%{transform:rotate(720deg) scale(1)}}
+@keyframes milestone-flash{0%{opacity:.95}100%{opacity:0}}
+@keyframes milestone-bump{0%{transform:scale(1)}30%{transform:scale(1.035)}100%{transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){
+  .milestone.spin::before{animation:milestone-flash .5s ease-out!important}
+  .milestone.spin .milestone-symbol{animation:none!important}
+}
