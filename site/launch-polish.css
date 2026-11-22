@@ -13,3 +13,5 @@
 .calculator-mini{border-color:var(--line,#df786b);border-left-color:var(--appearance-accent,#e96658)}
 .calculator-mini svg{color:var(--appearance-accent,#ce594d)}
 @media (max-width:600px){.calculator-mini{border-color:var(--appearance-accent,#e96658)}}
+/* Hero glow: fade the layer's edges so it never shows as a hard-edged "glass pane" */
+.studio-hero::before{-webkit-mask-image:radial-gradient(closest-side at 55% 50%,#000 45%,transparent 100%);mask-image:radial-gradient(closest-side at 55% 50%,#000 45%,transparent 100%)}
