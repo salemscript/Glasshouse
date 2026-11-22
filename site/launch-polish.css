@@ -1,0 +1,15 @@
+/* Launch polish: cleaner first impression on phones. */
+.personal-greeting[hidden]{display:none!important}
+@media (max-width:600px){
+  /* Top bar: drop the breadcrumb and the "Theme" word so controls stop crowding */
+  header .crumb{display:none}
+  header .palette-toggle>span:not(.palette-dot){display:none}
+  /* Calculator: compact round button in the corner instead of a wide pill over content */
+  .calculator-mini{left:auto;right:14px;bottom:14px;width:52px;height:52px;min-height:52px;padding:0;justify-content:center;border-radius:50%;border-width:1px;border-left-width:1px}
+  .calculator-mini>span{display:none}
+  .calculator-mini svg{width:20px;height:24px}
+}
+/* Calculator button follows the chosen theme (falls back to coral) */
+.calculator-mini{border-color:var(--line,#df786b);border-left-color:var(--appearance-accent,#e96658)}
+.calculator-mini svg{color:var(--appearance-accent,#ce594d)}
+@media (max-width:600px){.calculator-mini{border-color:var(--appearance-accent,#e96658)}}

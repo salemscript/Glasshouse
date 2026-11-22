@@ -10,7 +10,7 @@
  const cleanName=value=>typeof value==='string'?value.replace(/[\u0000-\u001f\u007f]/g,'').replace(/\s+/g,' ').trim().slice(0,50):'';
  const name=()=>cleanName(user?.user_metadata?.display_name);
  window.GlasshouseProfile={name};
- function greet(){for(const el of document.querySelectorAll('[data-personal-greeting]')){const text=name()?`Welcome back, ${name()}.`:'Make room for your next discovery.';if(el.textContent!==text)el.textContent=text;}}
+ function greet(){for(const el of document.querySelectorAll('[data-personal-greeting]')){const text=name()?`Welcome back, ${name()}.`:'';if(el.textContent!==text)el.textContent=text;el.hidden=!text;}}
  new MutationObserver(greet).observe(document.querySelector('main'),{childList:true,subtree:true});
  function status(message){const el=dialog.querySelector('[data-account-status]');if(el)el.textContent=message;}
  function syncLabel(){return ({local:'Saved on this device',saving:'Saving to your account…',saved:'Saved to your account',pending:'Changes waiting to save',offline:'Saved on this device. Cloud sync will retry.',conflict:'Choose which version to keep below.'})[lastSync]||'Checking your account…';}

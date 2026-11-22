@@ -10,11 +10,11 @@
     {id:'amber', name:'Amber', accent:'#ed9a23', light:'#fff8eb', dark:'#282013'},
     {id:'graphite', name:'Graphite', accent:'#77869d', light:'#f4f5f7', dark:'#191d24'}
   ];
-  var choice = {palette:'coral',accent:'#ff674f'}, properties = [], savedOK = true;
+  var choice = {palette:'graphite',accent:'#77869d'}, properties = [], savedOK = true;
   var hex = /^#[0-9a-f]{6}$/i;
   function decode(text) {
     try { var p=JSON.parse(text);if(p && (p.palette==='custom'||palettes.some(function(x){return x.id===p.palette;})) && hex.test(p.accent)) return {palette:p.palette,accent:p.accent}; } catch (_) {}
-    return {palette:'coral',accent:'#ff674f'};
+    return {palette:'graphite',accent:'#77869d'};
   }
   try { choice=decode(localStorage.getItem(key)); } catch (_) {}
   function rgb(h){return [1,3,5].map(function(i){return parseInt(h.slice(i,i+2),16);});}
